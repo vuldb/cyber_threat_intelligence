@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Latrodectus:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Latrodectus:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,9 +47,13 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [45.143.167.157](https://vuldb.com/?ip.45.143.167.157) | - | - | High
 19 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
 20 | [46.105.141.52](https://vuldb.com/?ip.46.105.141.52) | mail.ltdeskcontrol.com | - | High
-21 | ... | ... | ... | ...
+21 | [46.105.141.53](https://vuldb.com/?ip.46.105.141.53) | ip53.ip-46-105-141.eu | - | High
+22 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
+23 | [51.91.35.153](https://vuldb.com/?ip.51.91.35.153) | ip153.ip-51-91-35.eu | - | High
+24 | [51.161.207.168](https://vuldb.com/?ip.51.161.207.168) | ip168.ip-51-161-207.net | - | High
+25 | ... | ... | ... | ...
 
-There are 79 more IOC items available. Please use our online service to access the data.
+There are 95 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,13 +62,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,50 +77,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/doAdminAction.php?act=addCate` | High
-5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/app/Http/Controllers/ImageController.php` | High
-10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/applications/nexus/modules/front/store/store.php` | High
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/books` | Low
-16 | File | `/cgi-bin/apkg_mgr.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/downloadFile.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Master.php?f=delete_record` | High
-23 | File | `/classes/Master.php?f=save_category` | High
-24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/detailed.php` | High
-29 | File | `/dipam/athlete-profile.php` | High
-30 | File | `/dtale/chart-data/1` | High
-31 | File | `/endpoint/update-bookmark.php` | High
-32 | File | `/etc/shadow.sample` | High
-33 | File | `/fftools/ffmpeg_enc.c` | High
-34 | File | `/filter.php` | Medium
-35 | File | `/forms/doLogin` | High
-36 | File | `/formSysLog` | Medium
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/SetOnlineDevName` | High
-39 | File | `/h.php/page?ref=addtabs` | High
-40 | File | `/image.php` | Medium
-41 | File | `/includes/common/require_access_recovery.php` | High
-42 | File | `/index.php` | Medium
-43 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/create-package.php` | High
+8 | File | `/admin/doAdminAction.php?act=addCate` | High
+9 | File | `/admin/edit-brand.php` | High
+10 | File | `/admin/edit-post.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/robot.php` | High
+13 | File | `/admin/settings/save.php` | High
+14 | File | `/admin/userprofile.php` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/app/index/controller/Common.php` | High
+17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+19 | File | `/applications/nexus/modules/front/store/store.php` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/cgi-bin/apkg_mgr.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=delete_record` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/College/admin/teacher.php` | High
+33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+34 | File | `/dcim/rack-roles/` | High
+35 | File | `/deal/{note_id}/note` | High
+36 | File | `/detailed.php` | High
+37 | File | `/dtale/chart-data/1` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/fftools/ffmpeg_enc.c` | High
+40 | File | `/filter.php` | Medium
+41 | File | `/forms/doLogin` | High
+42 | File | `/formSysLog` | Medium
+43 | File | `/forum/away.php` | High
+44 | File | `/goform/addUserName` | High
+45 | File | `/goform/aspForm` | High
+46 | File | `/goform/ate` | Medium
+47 | File | `/goform/delAd` | High
+48 | File | `/goform/formSetWanNonLogin` | High
+49 | File | `/goform/formWlanSetup` | High
+50 | File | `/goform/SetOnlineDevName` | High
+51 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +138,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://exchange.xforce.ibmcloud.com/report/details/guid:148d737a6c91bc5044f86b67195af527
 * https://hunt.io/blog/latrodectus-malware-masquerades-as-ahnlab-security-software-to-infect-victims
 * https://threatfox.abuse.ch
+* https://www.malware-traffic-analysis.net/2024/03/07/index.html
+* https://www.malware-traffic-analysis.net/2024/06/25/index.html
 * https://www.netskope.com/blog/latrodectus-rapid-evolution-continues-with-latest-new-payload-features
 * https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice
 * https://www.rapid7.com/blog/post/2024/07/24/malware-campaign-lures-users-with-fake-w2-form/

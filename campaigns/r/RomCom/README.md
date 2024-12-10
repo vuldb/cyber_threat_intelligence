@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RomCom:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -19,8 +22,11 @@ These _actors_ are associated with RomCom or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [ROMCOM RAT](https://vuldb.com/?actor.romcom_rat) | High
-2 | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
-3 | [RomCom](https://vuldb.com/?actor.romcom) | High
+2 | [RomCom](https://vuldb.com/?actor.romcom) | High
+3 | [UAT-5647](https://vuldb.com/?actor.uat-5647) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,12 +34,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [46.246.98.15](https://vuldb.com/?ip.46.246.98.15) | 46-246-98-15.static.glesys.net | [RomCom](https://vuldb.com/?actor.romcom) | High
-2 | [51.195.49.215](https://vuldb.com/?ip.51.195.49.215) | ip215.ip-51-195-49.eu | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
-3 | [94.142.138.244](https://vuldb.com/?ip.94.142.138.244) | - | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
+1 | [23.94.207.116](https://vuldb.com/?ip.23.94.207.116) | 23-94-207-116-host.colocrossing.com | [UAT-5647](https://vuldb.com/?actor.uat-5647) | High
+2 | [23.137.253.43](https://vuldb.com/?ip.23.137.253.43) | - | [UAT-5647](https://vuldb.com/?actor.uat-5647) | High
+3 | [46.246.98.15](https://vuldb.com/?ip.46.246.98.15) | 46-246-98-15.static.glesys.net | [RomCom](https://vuldb.com/?actor.romcom) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,12 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,17 +60,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/MIME/INBOX-MM-1/` | High
-2 | File | `category.cfm` | Medium
-3 | File | `reservation_save.php` | High
-4 | ... | ... | ...
+1 | File | `/accounts_con/register_account` | High
+2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/change-image.php` | High
+5 | File | `/admin/File/pictureUpload` | High
+6 | File | `/admin/modules/product/controller.php?action=add` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/update.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/admin_class.php` | High
+11 | File | `/api/admin/user` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/app/action/add_staff.php` | High
+14 | File | `/app/ajax/sell_return_data.php` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/classes/Master.php?f=delete_inquiry` | High
+17 | File | `/conf/app.conf` | High
+18 | File | `/dipam/athlete-profile.php` | High
+19 | File | `/forum/away.php` | High
+20 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.talosintelligence.com/uat-5647-romcom/
 * https://blogs.blackberry.com/en/2023/06/romcom-resurfaces-targeting-ukraine
 * https://twitter.com/TLP_R3D/status/1655687889391431680
 * https://www.trendmicro.com/en_us/research/23/e/void-rabisu-s-use-of-romcom-backdoor-shows-a-growing-shift-in-th.html

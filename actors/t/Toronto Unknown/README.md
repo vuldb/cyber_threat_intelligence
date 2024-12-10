@@ -207,7 +207,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/index.pl` | Medium
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

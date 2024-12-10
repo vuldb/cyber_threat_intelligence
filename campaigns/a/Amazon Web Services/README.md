@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -64,11 +64,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/goform/SetNetControlList` | High
 6 | File | `/goform/SetStaticRouteCfg` | High
 7 | File | `/src/chatbotapp/chatWindow.java` | High
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `admin/categories_industry.php` | High
-10 | ... | ... | ...
+8 | File | `/update-employee.php` | High
+9 | File | `/usr/bin/pkexec` | High
+10 | File | `admin/categories_industry.php` | High
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

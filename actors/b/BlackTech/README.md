@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -61,31 +61,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/foreigner-bwdates-reports-details.php` | High
 2 | File | `/administration/theme.php` | High
-3 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-4 | File | `/cgi-bin/portal` | High
-5 | File | `/cgi-mod/lookup.cgi` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/mifs/c/i/reg/reg.html` | High
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/pages/apply_vacancy.php` | High
-10 | File | `/RPC2` | Low
-11 | File | `/server-info` | Medium
-12 | File | `/service/upload` | High
-13 | File | `/services` | Medium
-14 | File | `/system/dept/edit` | High
-15 | File | `/tmp` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/upload` | Low
-18 | File | `/user/updatePwd` | High
-19 | File | `/wp-json/oembed/1.0/embed?url` | High
-20 | File | `a2billing/customer/iridium_threed.php` | High
-21 | File | `additem.asp` | Medium
-22 | File | `admin.php` | Medium
-23 | File | `admin.php?s=/Channel/add.html` | High
-24 | File | `admin/class-bulk-editor-list-table.php` | High
-25 | ... | ... | ...
+3 | File | `/api/blade-log/api/list` | High
+4 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+5 | File | `/cgi-bin/portal` | High
+6 | File | `/cgi-mod/lookup.cgi` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/mifs/c/i/reg/reg.html` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/pages/apply_vacancy.php` | High
+11 | File | `/RPC2` | Low
+12 | File | `/server-info` | Medium
+13 | File | `/service/upload` | High
+14 | File | `/services` | Medium
+15 | File | `/system/dept/edit` | High
+16 | File | `/tmp` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `/upload` | Low
+19 | File | `/user/updatePwd` | High
+20 | File | `/wp-json/oembed/1.0/embed?url` | High
+21 | File | `a2billing/customer/iridium_threed.php` | High
+22 | File | `additem.asp` | Medium
+23 | File | `admin.php` | Medium
+24 | File | `admin.php?s=/Channel/add.html` | High
+25 | File | `admin/class-bulk-editor-list-table.php` | High
+26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

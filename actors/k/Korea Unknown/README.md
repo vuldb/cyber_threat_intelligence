@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TH](https://vuldb.com/?country.th)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,15 +21,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [43.133.227.69](https://vuldb.com/?ip.43.133.227.69) | - | - | High
-2 | [43.153.68.27](https://vuldb.com/?ip.43.153.68.27) | - | - | High
-3 | [89.32.41.95](https://vuldb.com/?ip.89.32.41.95) | - | - | High
-4 | [112.111.6.45](https://vuldb.com/?ip.112.111.6.45) | - | - | High
-5 | [116.198.216.131](https://vuldb.com/?ip.116.198.216.131) | - | - | High
-6 | [165.154.54.236](https://vuldb.com/?ip.165.154.54.236) | - | - | High
-7 | ... | ... | ... | ...
+1 | [20.197.35.16](https://vuldb.com/?ip.20.197.35.16) | - | - | High
+2 | [43.133.227.69](https://vuldb.com/?ip.43.133.227.69) | - | - | High
+3 | [43.153.68.27](https://vuldb.com/?ip.43.153.68.27) | - | - | High
+4 | [45.200.148.139](https://vuldb.com/?ip.45.200.148.139) | - | - | High
+5 | [47.236.146.107](https://vuldb.com/?ip.47.236.146.107) | - | - | High
+6 | [47.237.128.104](https://vuldb.com/?ip.47.237.128.104) | - | - | High
+7 | [50.127.177.194](https://vuldb.com/?ip.50.127.177.194) | static-50-127-177-194.chtn.wv.frontiernet.net | - | High
+8 | [52.142.229.204](https://vuldb.com/?ip.52.142.229.204) | - | - | High
+9 | [58.211.191.14](https://vuldb.com/?ip.58.211.191.14) | - | - | High
+10 | [61.7.241.146](https://vuldb.com/?ip.61.7.241.146) | - | - | High
+11 | [62.36.40.104](https://vuldb.com/?ip.62.36.40.104) | mail1.prevecam.es | - | High
+12 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 43 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,12 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/subject.php` | High
-3 | File | `/cart.php` | Medium
-4 | File | `/picturesPreview` | High
-5 | ... | ... | ...
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/subject.php` | High
+4 | File | `/cart.php` | Medium
+5 | File | `/picturesPreview` | High
+6 | File | `/sysmanage/licence.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `admin.cropcanvas.php` | High
+9 | File | `admin_class.php` | High
+10 | File | `ase.php` | Low
+11 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -64,6 +75,14 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/82895/
 * https://asec.ahnlab.com/en/82931/
+* https://asec.ahnlab.com/en/82992/
+* https://asec.ahnlab.com/en/83019/
+* https://asec.ahnlab.com/en/83101/
+* https://asec.ahnlab.com/en/84268/
+* https://asec.ahnlab.com/en/84290/
+* https://asec.ahnlab.com/en/84292/
+* https://asec.ahnlab.com/en/84294/
+* https://asec.ahnlab.com/en/84315/
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Korea/DrillMalware-ioc.MD
 
 ## Literature

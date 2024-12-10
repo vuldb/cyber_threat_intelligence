@@ -124,10 +124,9 @@ ID | Type | Indicator | Confidence
 58 | File | `/oauth/idp/.well-known/openid-configuration` | High
 59 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 60 | File | `/path/to/uploads/` | High
-61 | File | `/plain` | Low
-62 | ... | ... | ...
+61 | ... | ... | ...
 
-There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

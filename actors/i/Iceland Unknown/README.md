@@ -136,13 +136,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -158,58 +158,59 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/?page=bike` | High
 7 | File | `/admin/?page=musics/manage_music` | High
 8 | File | `/admin/ajax.php?action=delete_user` | High
-9 | File | `/Admin/changepassword.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/general-setting` | High
-12 | File | `/admin/inquiries/view_inquiry.php` | High
-13 | File | `/admin/order.php` | High
-14 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-15 | File | `/admin/service` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/adminapi/system/file/openfile` | High
-18 | File | `/admin_route/dec_service_credits.php` | High
-19 | File | `/api/v1/custom_component` | High
-20 | File | `/api/v4/teams//channels/deleted` | High
-21 | File | `/api/wechat/app_auth` | High
-22 | File | `/b2b-supermarket/shopping-cart` | High
-23 | File | `/backend/register.php` | High
-24 | File | `/cancel.php` | Medium
-25 | File | `/category.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/p1_ftpserver.php` | High
-29 | File | `/change-language/de_DE` | High
-30 | File | `/check_availability.php` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/classes/Master.php?f=delete_category` | High
-33 | File | `/classes/Master.php?f=save_medicine` | High
-34 | File | `/classes/SystemSettings.php?f=update_settings` | High
-35 | File | `/classes/Users.php?f=delete` | High
-36 | File | `/control/register_case.php` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/devinfo` | Medium
-39 | File | `/dist/index.js` | High
-40 | File | `/download` | Medium
-41 | File | `/downloadFile.php` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/endpoint/add-folder.php` | High
-44 | File | `/etc/shadow` | Medium
-45 | File | `/file_manager/login.php` | High
-46 | File | `/film-rating.php` | High
-47 | File | `/foms/routers/place-order.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/goform/formSysCmd` | High
-50 | File | `/goform/SetIpMacBind` | High
-51 | File | `/goform/WifiExtraSet` | High
-52 | File | `/guestbook` | Medium
-53 | File | `/hosts/firewall/ip` | High
-54 | File | `/index.jsp#settings` | High
-55 | File | `/index.php` | Medium
-56 | File | `/index.php/ccm/system/file/upload` | High
-57 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-58 | ... | ... | ...
+9 | File | `/admin/apply.php` | High
+10 | File | `/Admin/changepassword.php` | High
+11 | File | `/admin/cms_content.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/admin/general-setting` | High
+14 | File | `/admin/inquiries/view_inquiry.php` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+17 | File | `/admin/service` | High
+18 | File | `/admin/users.php` | High
+19 | File | `/adminapi/system/crud` | High
+20 | File | `/adminapi/system/file/openfile` | High
+21 | File | `/admin_route/dec_service_credits.php` | High
+22 | File | `/api/v1/custom_component` | High
+23 | File | `/api/v4/teams//channels/deleted` | High
+24 | File | `/api/wechat/app_auth` | High
+25 | File | `/backend/register.php` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+28 | File | `/category.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/p1_ftpserver.php` | High
+32 | File | `/change-language/de_DE` | High
+33 | File | `/check_availability.php` | High
+34 | File | `/classes/Master.php` | High
+35 | File | `/classes/Master.php?f=delete_category` | High
+36 | File | `/classes/Master.php?f=save_medicine` | High
+37 | File | `/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/classes/Users.php?f=delete` | High
+39 | File | `/control/register_case.php` | High
+40 | File | `/devinfo` | Medium
+41 | File | `/dist/index.js` | High
+42 | File | `/download` | Medium
+43 | File | `/downloadFile.php` | High
+44 | File | `/dtale/chart-data/1` | High
+45 | File | `/DXR.axd` | Medium
+46 | File | `/endpoint/add-folder.php` | High
+47 | File | `/etc/shadow` | Medium
+48 | File | `/file_manager/login.php` | High
+49 | File | `/film-rating.php` | High
+50 | File | `/foms/routers/place-order.php` | High
+51 | File | `/forum/away.php` | High
+52 | File | `/goform/SetIpMacBind` | High
+53 | File | `/goform/WifiExtraSet` | High
+54 | File | `/guestbook` | Medium
+55 | File | `/hosts/firewall/ip` | High
+56 | File | `/index.jsp#settings` | High
+57 | File | `/index.php` | Medium
+58 | File | `/index.php/ccm/system/file/upload` | High
+59 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

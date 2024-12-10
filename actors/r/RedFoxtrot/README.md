@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedFoxtrot:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,24 +56,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/vitogate.cgi` | High
 6 | File | `/forum/away.php` | High
 7 | File | `/getcfg.php` | Medium
-8 | File | `/group1/uploa` | High
-9 | File | `/importexport.php` | High
-10 | File | `/inc/lists/csvexport.php` | High
-11 | File | `/server-status` | High
-12 | File | `/sgmi/` | Low
-13 | File | `/system/user/resetPwd` | High
-14 | File | `/tos/index.php?editor/fileGet` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/user/updatePwd` | High
-17 | File | `/var/log/nginx` | High
-18 | File | `addentry.php` | Medium
-19 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-20 | File | `admin/plib/api-rpc/Agent.php` | High
-21 | File | `applications/core/modules/front/system/content.php` | High
-22 | File | `att_protocol.cc` | High
-23 | ... | ... | ...
+8 | File | `/goform/formSetMuti` | High
+9 | File | `/group1/uploa` | High
+10 | File | `/importexport.php` | High
+11 | File | `/inc/lists/csvexport.php` | High
+12 | File | `/index.php/setpage/admin/pageAE.html` | High
+13 | File | `/server-status` | High
+14 | File | `/sgmi/` | Low
+15 | File | `/system/user/resetPwd` | High
+16 | File | `/tos/index.php?editor/fileGet` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/user/updatePwd` | High
+19 | File | `/var/log/nginx` | High
+20 | File | `addentry.php` | Medium
+21 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+22 | File | `admin/conf_users_edit.php` | High
+23 | File | `admin/plib/api-rpc/Agent.php` | High
+24 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LLMHijacking:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -66,54 +66,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.dbus-keyrings` | High
 2 | File | `/?import` | Medium
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/addproduct.php` | High
-5 | File | `/add_reference_to_local_model` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/admin_user.php` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/ajax.php?action=save_settings` | High
-10 | File | `/admin/cmsTemplate/savePlace` | High
-11 | File | `/admin/config_ISCGroupNoCache.php` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/admin/extensions/upload.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/index.php?page=manage_lot` | High
-16 | File | `/admin/list_ipAddressPolicy.php` | High
-17 | File | `/admin/maintenance/manage_brand.php` | High
-18 | File | `/admin/pages/` | High
-19 | File | `/admin/product/manage_product.php` | High
-20 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-21 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
-22 | File | `/admin_ping.htm` | High
-23 | File | `/api/admin` | Medium
-24 | File | `/api/admin/user` | High
-25 | File | `/API/info` | Medium
-26 | File | `/api/v1/admin/restart` | High
-27 | File | `/api/v1/steps` | High
-28 | File | `/api/v4/channels/stats/member_count` | High
-29 | File | `/application/index/controller/Screen.php` | High
-30 | File | `/application/index/controller/Service.php` | High
-31 | File | `/article/Content/index?class_id` | High
-32 | File | `/artist.php` | Medium
-33 | File | `/attendancelist.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/check_availability.php` | High
-37 | File | `/classes/Master.php` | High
-38 | File | `/classes/Master.php?f=delete_category` | High
-39 | File | `/classes/SystemSettings.php?f=update_settings` | High
-40 | File | `/classes/Users.php?f=delete` | High
-41 | File | `/ClientLog/Document` | High
-42 | File | `/collections/{name}/snapshots/upload` | High
-43 | File | `/control/register_case.php` | High
-44 | File | `/dashboard/updatelogo.php` | High
-45 | File | `/dcim/console-server-ports/{id}/edit/` | High
-46 | File | `/dcim/front-ports/add/` | High
-47 | File | `/Default/v6.53/CodeCheckerService@massStoreRun` | High
-48 | ... | ... | ...
+3 | File | `/addproduct.php` | High
+4 | File | `/add_reference_to_local_model` | High
+5 | File | `/admin/add-services.php` | High
+6 | File | `/admin/add_subject.php` | High
+7 | File | `/admin/ajax.php?action=login` | High
+8 | File | `/admin/ajax.php?action=save_settings` | High
+9 | File | `/admin/cmsTemplate/savePlace` | High
+10 | File | `/admin/config_ISCGroupNoCache.php` | High
+11 | File | `/Admin/detail.php` | High
+12 | File | `/admin/edit_subject.php` | High
+13 | File | `/admin/emp-profile-avatar.php` | High
+14 | File | `/admin/extensions/upload.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index.php?page=manage_lot` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
+18 | File | `/admin/maintenance/manage_brand.php` | High
+19 | File | `/admin/network/diag_ping6` | High
+20 | File | `/admin/pages/` | High
+21 | File | `/admin/product/manage_product.php` | High
+22 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+23 | File | `/admin/services/view_service.php` | High
+24 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+25 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
+26 | File | `/api/admin` | Medium
+27 | File | `/api/admin/user` | High
+28 | File | `/API/info` | Medium
+29 | File | `/api/v1/admin/restart` | High
+30 | File | `/api/v1/steps` | High
+31 | File | `/application/index/controller/Screen.php` | High
+32 | File | `/article/Content/index?class_id` | High
+33 | File | `/artist.php` | Medium
+34 | File | `/attendancelist.php` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/nas_sharing.cgi` | High
+38 | File | `/check_availability.php` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/classes/SystemSettings.php?f=update_settings` | High
+42 | File | `/classes/Users.php?f=delete` | High
+43 | File | `/collections/{name}/snapshots/upload` | High
+44 | File | `/control/register_case.php` | High
+45 | File | `/core/api/calls/Throughput.php` | High
+46 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

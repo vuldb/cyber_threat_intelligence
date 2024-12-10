@@ -20,8 +20,8 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kinsing:
 
 * [LA](https://vuldb.com/?country.la)
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -68,13 +68,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,51 +81,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/adminPage/conf/reload` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-10 | File | `/application/index/controller/Databasesource.php` | High
-11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-12 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/inc/parser/xhtml.php` | High
-16 | File | `/include/makecvs.php` | High
-17 | File | `/index/ajax/lang` | High
-18 | File | `/livesite/edit_designer_region.php` | High
-19 | File | `/log/decodmail.php` | High
-20 | File | `/member/index/login.html` | High
-21 | File | `/member/myfriend.php` | High
-22 | File | `/member/reg.asp` | High
-23 | File | `/mfsNotice/page` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/mifs/c/i/reg/reg.html` | High
-26 | File | `/novel/bookSetting/list` | High
-27 | File | `/novel/userFeedback/list` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/pms/admin/actions/view_action.php` | High
-30 | File | `/pms/admin/cells/view_cell.php` | High
-31 | File | `/pms/admin/crimes/manage_crime.php` | High
-32 | File | `/pms/admin/inmates/view_inmate.php` | High
-33 | File | `/pms/admin/prisons/view_prison.php` | High
-34 | File | `/pms/admin/visits/view_visit.php` | High
-35 | File | `/pms/index.php` | High
-36 | File | `/pms/update_medicine.php` | High
-37 | File | `/pms/update_patient.php` | High
-38 | File | `/pms/update_user.php` | High
-39 | File | `/register.php` | High
-40 | File | `/requests.php` | High
-41 | File | `/secure/ViewCollectors` | High
-42 | File | `/Session` | Medium
-43 | ... | ... | ...
+1 | File | `/#ProductSerie/view/` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/file_manager/export` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/api2/html/` | Medium
+12 | File | `/application/index/controller/Databasesource.php` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/inc/parser/xhtml.php` | High
+19 | File | `/index/ajax/lang` | High
+20 | File | `/livesite/edit_designer_region.php` | High
+21 | File | `/log/decodmail.php` | High
+22 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+23 | File | `/log_proxy` | Medium
+24 | File | `/mailcleaner.php/getStats` | High
+25 | File | `/member/index/login.html` | High
+26 | File | `/member/myfriend.php` | High
+27 | File | `/member/reg.asp` | High
+28 | File | `/mfsNotice/page` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/ndmComponents.js` | High
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/novel/userFeedback/list` | High
+33 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

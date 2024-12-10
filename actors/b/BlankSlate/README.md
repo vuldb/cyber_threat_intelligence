@@ -48,24 +48,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index.php` | High
-2 | File | `/admin/list_addr_fwresource_ip.php` | High
-3 | File | `/admin/makehtml_freelist_action.php` | High
-4 | File | `/admin/return_add.php` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/admin/service/stop/` | High
-7 | File | `/admin/students/manage_academic.php` | High
-8 | File | `/api/v1/attack/falco` | High
-9 | File | `/application/websocket/controller/Setting.php` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/discovery.cgi` | High
-12 | File | `/cgi-bin/login_action.cgi` | High
-13 | File | `/event/admin/?page=user/list` | High
-14 | File | `/include/file.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/index.php?menu=asterisk_cli` | High
-17 | ... | ... | ...
+2 | File | `/admin/invoice.php` | High
+3 | File | `/admin/list_addr_fwresource_ip.php` | High
+4 | File | `/admin/makehtml_freelist_action.php` | High
+5 | File | `/admin/return_add.php` | High
+6 | File | `/admin/save.php` | High
+7 | File | `/admin/service/stop/` | High
+8 | File | `/admin/students/manage_academic.php` | High
+9 | File | `/api/v1/attack/falco` | High
+10 | File | `/application/websocket/controller/Setting.php` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/discovery.cgi` | High
+14 | File | `/cgi-bin/login_action.cgi` | High
+15 | File | `/event/admin/?page=user/list` | High
+16 | File | `/include/file.php` | High
+17 | File | `/index.php` | Medium
+18 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XpertRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -68,13 +68,14 @@ ID | Type | Indicator | Confidence
 16 | File | `/etc/sudoers` | Medium
 17 | File | `/forum/away.php` | High
 18 | File | `/goform/set_LimitClient_cfg` | High
-19 | File | `/index.php` | Medium
-20 | File | `/index.php?app=main&func=passport&action=login` | High
-21 | File | `/manage-apartment.php` | High
-22 | File | `/multi-vendor-shopping-script/product-list.php` | High
-23 | ... | ... | ...
+19 | File | `/hedwig.cgi` | Medium
+20 | File | `/index.php` | Medium
+21 | File | `/index.php?app=main&func=passport&action=login` | High
+22 | File | `/manage-apartment.php` | High
+23 | File | `/multi-vendor-shopping-script/product-list.php` | High
+24 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

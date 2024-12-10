@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +41,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -56,46 +56,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/` | Low
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/del_service.php` | High
-5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/edit_category.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin_ping.htm` | High
-9 | File | `/api/v1/steps` | High
-10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/applications/nexus/modules/front/store/store.php` | High
-14 | File | `/backend/register.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/cgi-bin/apkg_mgr.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-21 | File | `/cgi-bin/system_mgr.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_record` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/SystemSettings.php?f=update_settings` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/endpoint/add-task.php` | High
-30 | File | `/etc/shadow.sample` | High
-31 | File | `/fftools/ffmpeg_enc.c` | High
-32 | File | `/forms/doLogin` | High
-33 | File | `/formSysLog` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/goform_get_cmd_process` | High
-36 | File | `/goform/SetOnlineDevName` | High
-37 | File | `/goform/setsambacfg` | High
-38 | File | `/goform/WriteFacMac` | High
-39 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/apply.php` | High
+6 | File | `/admin/create-package.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/doAdminAction.php?act=addCate` | High
+9 | File | `/admin/edit-post.php` | High
+10 | File | `/admin/edit_category.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/SystemUsers` | High
+13 | File | `/admin_ping.htm` | High
+14 | File | `/api/user` | Medium
+15 | File | `/api/v1/steps` | High
+16 | File | `/app/index/controller/Common.php` | High
+17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+19 | File | `/applications/nexus/modules/front/store/store.php` | High
+20 | File | `/backend/register.php` | High
+21 | File | `/bin/httpd` | Medium
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/cgi-bin/apkg_mgr.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+27 | File | `/cgi-bin/system_mgr.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/classes/Master.php?f=delete_record` | High
+31 | File | `/classes/Master.php?f=save_category` | High
+32 | File | `/classes/SystemSettings.php?f=update_settings` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/classes/Users.php?f=save_client` | High
+35 | File | `/deal/{note_id}/note` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/detailed.php` | High
+38 | File | `/dtale/chart-data/1` | High
+39 | File | `/endpoint/add-task.php` | High
+40 | File | `/etc/shadow.sample` | High
+41 | File | `/fftools/ffmpeg_enc.c` | High
+42 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

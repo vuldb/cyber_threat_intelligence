@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Brazil Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brazil Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [BR](https://vuldb.com/?country.br)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1802,14 +1802,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-28 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1817,62 +1815,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/addproduct.php` | High
-3 | File | `/admin/?page=categories/view_category` | High
-4 | File | `/admin/?page=musics/manage_music` | High
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/admin/court` | Medium
-7 | File | `/Admin/createClass.php` | High
-8 | File | `/admin/div_data/data` | High
-9 | File | `/admin/emp-profile-avatar.php` | High
-10 | File | `/admin/general-setting` | High
-11 | File | `/admin/inquiries/view_inquiry.php` | High
-12 | File | `/admin/maintenance/manage_brand.php` | High
-13 | File | `/admin/media_folders` | High
-14 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/problem_judge.php` | High
-17 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-18 | File | `/admin/service` | High
-19 | File | `/admin/users.php` | High
-20 | File | `/ajax.php` | Medium
-21 | File | `/api/v1/custom_component` | High
-22 | File | `/AttendanceMonitoring/report/index.php` | High
-23 | File | `/authMonitCallcenter` | High
-24 | File | `/blog/blog.php` | High
-25 | File | `/cap.js` | Low
-26 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/hd_config.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_category` | High
-32 | File | `/classes/Master.php?f=log_employee` | High
-33 | File | `/classes/Master.php?f=save_medicine` | High
-34 | File | `/classes/Master.php?f=save_package` | High
-35 | File | `/classes/Users.php?f=delete` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/College/admin/teacher.php` | High
-38 | File | `/conf/app.conf` | High
-39 | File | `/downloadFile.php` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/endpoint/add-folder.php` | High
-42 | File | `/endpoint/add-task.php` | High
-43 | File | `/endpoint/delete-calorie.php` | High
-44 | File | `/etc/shadow` | Medium
-45 | File | `/file/upload/1` | High
-46 | File | `/file_manager/login.php` | High
-47 | File | `/film-rating.php` | High
-48 | File | `/foms/routers/place-order.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/goform/SetIpMacBind` | High
-51 | File | `/goform/VirtualSer` | High
-52 | File | `/goform/WifiExtraSet` | High
-53 | File | `/guestbook` | Medium
-54 | ... | ... | ...
+1 | File | `/Account/login.php` | High
+2 | File | `/action/docker/open_subshell` | High
+3 | File | `/activation.php` | High
+4 | File | `/add_new_invoice.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+6 | File | `/admin/book-details.php` | High
+7 | File | `/admin/bwdates-report-details.php` | High
+8 | File | `/admin/change-image.php` | High
+9 | File | `/admin/cmsVote/save` | High
+10 | File | `/admin/forms/option_lists/edit.php` | High
+11 | File | `/admin/sou.php` | High
+12 | File | `/ajax.php?action=delete_tenant` | High
+13 | File | `/bloodrequest.php` | High
+14 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+15 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+16 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
+17 | ... | ... | ...
 
-There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

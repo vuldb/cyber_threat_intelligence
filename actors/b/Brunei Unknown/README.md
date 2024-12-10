@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -87,36 +87,36 @@ ID | Type | Indicator | Confidence
 25 | File | `/config-manager/save` | High
 26 | File | `/dashboard/menu-list.php` | High
 27 | File | `/dashboard/table-list.php` | High
-28 | File | `/default.php?idx=17` | High
-29 | File | `/dev/shm` | Medium
-30 | File | `/doctor/view-appointment-detail.php` | High
-31 | File | `/download` | Medium
-32 | File | `/downloadFile.php` | High
-33 | File | `/edit-client-details.php` | High
-34 | File | `/env` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/GponForm/device_Form?script/` | High
+28 | File | `/dev/shm` | Medium
+29 | File | `/doctor/view-appointment-detail.php` | High
+30 | File | `/downloadFile.php` | High
+31 | File | `/edit-client-details.php` | High
+32 | File | `/env` | Low
+33 | File | `/forum/away.php` | High
+34 | File | `/GponForm/device_Form?script/` | High
+35 | File | `/include/file.php` | High
+36 | File | `/librarian/bookdetails.php` | High
 37 | File | `/login/index.php` | High
 38 | File | `/member.php?action=chgpwdsubmit` | High
 39 | File | `/mgmt/tm/util/bash` | High
 40 | File | `/net` | Low
-41 | File | `/opt/bin/cli` | Medium
-42 | File | `/patient/doctors.php` | High
-43 | File | `/phpinventory/editcategory.php` | High
-44 | File | `/SASWebReportStudio/logonAndRender.do` | High
-45 | File | `/service/upload` | High
-46 | File | `/setup/finish` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/src/dede/makehtml_js_action.php` | High
-49 | File | `/sysmanage/edit_manageadmin.php` | High
-50 | File | `/uncpath/` | Medium
-51 | File | `/updown/upload.cgi` | High
-52 | File | `/user/del.php` | High
-53 | File | `/viewer/krpano.html` | High
-54 | File | `/web_cste/cgi-bin/product.ini` | High
+41 | File | `/patient/doctors.php` | High
+42 | File | `/phpinventory/editcategory.php` | High
+43 | File | `/SASWebReportStudio/logonAndRender.do` | High
+44 | File | `/service/upload` | High
+45 | File | `/setup/finish` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/src/dede/makehtml_js_action.php` | High
+48 | File | `/sysmanage/edit_manageadmin.php` | High
+49 | File | `/uncpath/` | Medium
+50 | File | `/updown/upload.cgi` | High
+51 | File | `/user/del.php` | High
+52 | File | `/viewer/krpano.html` | High
+53 | File | `/web_cste/cgi-bin/product.ini` | High
+54 | File | `/wp-admin/admin-ajax.php` | High
 55 | ... | ... | ...
 
-There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

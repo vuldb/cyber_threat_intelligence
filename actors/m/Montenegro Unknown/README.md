@@ -62,7 +62,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,14 +72,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/emp-profile-avatar.php` | High
 2 | File | `/admin/mod_room/controller.php?action=add` | High
-3 | File | `/backend/register.php` | High
-4 | File | `/cgi-bin/gui.cgi` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/cgi-bin/p1_ftpserver.php` | High
-7 | File | `/classes/Master.php` | High
-8 | ... | ... | ...
+3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+4 | File | `/backend/register.php` | High
+5 | File | `/cgi-bin/gui.cgi` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/cgi-bin/p1_ftpserver.php` | High
+8 | File | `/classes/Master.php` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

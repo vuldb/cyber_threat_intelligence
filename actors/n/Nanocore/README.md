@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Nanocore:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nanocore:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,10 +73,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,53 +84,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/pages/` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/bin/boa` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/clientdetails/admin/regester.php` | High
-13 | File | `/csms/?page=contact_us` | High
-14 | File | `/dev/urandom` | Medium
-15 | File | `/endpoint/delete-account.php` | High
-16 | File | `/etc/ajenti/config.yml` | High
-17 | File | `/etc/quantum/quantum.conf` | High
-18 | File | `/exec/` | Low
-19 | File | `/farm/product.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/goform/telnet` | High
-23 | File | `/HNAP1` | Low
-24 | File | `/index/ajax/lang` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/modules/projects/vw_files.php` | High
-28 | File | `/plain` | Low
-29 | File | `/ptippage.cgi` | High
-30 | File | `/rom-0` | Low
-31 | File | `/staff/tools/custom-fields` | High
-32 | File | `/tmp/out` | Medium
-33 | File | `/tmp/phpglibccheck` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/var/tmp/sess_*` | High
-37 | File | `/xyhai.php?s=/Auth/editUser` | High
-38 | File | `/_next` | Low
-39 | File | `action.php` | Medium
-40 | File | `actionHandler/ajax_managed_services.php` | High
-41 | File | `actionphp/download.File.php` | High
-42 | File | `add_comment.php` | High
-43 | File | `admin/admin.php` | High
-44 | File | `admin/admin.shtml` | High
-45 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/admin/pages/` | High
+3 | File | `/admins` | Low
+4 | File | `/ajax/getBasicInfo.php` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | File | `/endpoint/delete-account.php` | High
+13 | File | `/farm/product.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/index/ajax/lang` | High
+16 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -57,23 +57,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/students/view_student.php` | High
-4 | File | `/admin_ping.htm` | High
-5 | File | `/CommunitySSORedirect.jsp` | High
-6 | File | `/loginLess/../../etc/passwd` | High
-7 | File | `/see_more_details.php` | High
-8 | File | `/system/proxy` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/local/nagios/bin/npcd` | High
-11 | File | `accountancy/customer/card.php` | High
-12 | File | `addentry.php` | Medium
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/create-package.php` | High
-16 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/admin/students/view_student.php` | High
+5 | File | `/admin_ping.htm` | High
+6 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+7 | File | `/CommunitySSORedirect.jsp` | High
+8 | File | `/goform/formSetPassword` | High
+9 | File | `/loginLess/../../etc/passwd` | High
+10 | File | `/see_more_details.php` | High
+11 | File | `/system/proxy` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/local/nagios/bin/npcd` | High
+14 | File | `accountancy/customer/card.php` | High
+15 | File | `addentry.php` | Medium
+16 | File | `add_comment.php` | High
+17 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

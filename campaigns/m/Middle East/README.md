@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,8 +22,8 @@ These _actors_ are associated with Middle East or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Molerats](https://vuldb.com/?actor.molerats) | High
-2 | [Wirte](https://vuldb.com/?actor.wirte) | High
-3 | [DNSpionage](https://vuldb.com/?actor.dnspionage) | High
+2 | [DNSpionage](https://vuldb.com/?actor.dnspionage) | High
+3 | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
 4 | ... | ...
 
 There are 2 more actor items available. Please use our online service to access the data.
@@ -64,15 +64,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,11 +96,11 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/snapshots/` | High
 15 | File | `/api/v1/snapshots` | High
 16 | File | `/api/v2/maps` | Medium
-17 | File | `/application/index/controller/Datament.php` | High
-18 | File | `/application/index/controller/File.php` | High
-19 | File | `/apply/index.php` | High
-20 | File | `/att_add.php` | Medium
-21 | File | `/candidate/index.php` | High
+17 | File | `/apply/index.php` | High
+18 | File | `/att_add.php` | Medium
+19 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+20 | File | `/candidate/index.php` | High
+21 | File | `/cgi-bin/adm.cgi` | High
 22 | File | `/cgi-bin/nas_sharing.cgi` | High
 23 | File | `/cgi-bin/system_mgr.cgi` | High
 24 | File | `/cgi-bin/wlogin.cgi` | High
@@ -108,29 +108,29 @@ ID | Type | Indicator | Confidence
 26 | File | `/classes/Master.php` | High
 27 | File | `/classes/SystemSettings.php?f=update_settings` | High
 28 | File | `/common/dict/list` | High
-29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-30 | File | `/download.php?file=author.png` | High
-31 | File | `/Employer/EditProfile.php` | High
-32 | File | `/Employer/ManageWalkin.php` | High
-33 | File | `/endpoint/add-calorie.php` | High
-34 | File | `/endpoint/update-tracker.php` | High
-35 | File | `/etc/init.d/update_notifications.sh` | High
-36 | File | `/foms/routers/place-order.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/general/email/outbox/delete.php` | High
-39 | File | `/goform/DhcpListClient` | High
-40 | File | `/hrm/leaverequest.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index/ajax/lang` | High
-43 | File | `/install/` | Medium
-44 | File | `/Interface/DevManage/VM.php` | High
-45 | File | `/main/webservices/additional_webservices.php` | High
-46 | File | `/manage_sy.php` | High
-47 | File | `/music/ajax.php?action=save_music` | High
-48 | File | `/ndmComponents.js` | High
+29 | File | `/core/config-revisions` | High
+30 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+31 | File | `/download.php?file=author.png` | High
+32 | File | `/Employer/EditProfile.php` | High
+33 | File | `/Employer/ManageWalkin.php` | High
+34 | File | `/endpoint/add-calorie.php` | High
+35 | File | `/endpoint/add-timesheet.php` | High
+36 | File | `/endpoint/update-tracker.php` | High
+37 | File | `/etc/init.d/update_notifications.sh` | High
+38 | File | `/filemanager/upload` | High
+39 | File | `/foms/routers/place-order.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/general/email/outbox/delete.php` | High
+42 | File | `/geoserver/gwc/rest.html` | High
+43 | File | `/goform/DhcpListClient` | High
+44 | File | `/hrm/leaverequest.php` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index/ajax/lang` | High
+47 | File | `/install/` | Medium
+48 | File | `/Interface/DevManage/VM.php` | High
 49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

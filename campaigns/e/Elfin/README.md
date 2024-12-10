@@ -64,42 +64,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/produts/controller.php` | High
-5 | File | `/admin/update-clients.php` | High
-6 | File | `/admin/user/team` | High
-7 | File | `/backupsettings.conf` | High
-8 | File | `/book-services.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-13 | File | `/en/blog-comment-4` | High
-14 | File | `/export` | Low
-15 | File | `/foms/routers/cancel-order.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/h/` | Low
-19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-20 | File | `/horde/util/go.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mifs/c/i/reg/reg.html` | High
-23 | File | `/ms/cms/content/list.do` | High
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/orms/` | Low
-26 | File | `/plesk-site-preview/` | High
-27 | File | `/project/PROJECTNAME/reports/` | High
-28 | File | `/protocol/iscuser/uploadiscuser.php` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/report/printlogs.php` | High
-31 | File | `/school/model/get_admin_profile.php` | High
-32 | File | `/show_news.php` | High
-33 | File | `/student-grading-system/rms.php?page=grade` | High
-34 | File | `/style/` | Low
-35 | File | `/timeline2.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/produts/controller.php` | High
+6 | File | `/admin/update-clients.php` | High
+7 | File | `/admin/user/team` | High
+8 | File | `/backupsettings.conf` | High
+9 | File | `/book-services.php` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/common/logViewer/logViewer.jsf` | High
+13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+14 | File | `/en/blog-comment-4` | High
+15 | File | `/export` | Low
+16 | File | `/foms/routers/cancel-order.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/h/` | Low
+20 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+21 | File | `/horde/util/go.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mifs/c/i/reg/reg.html` | High
+24 | File | `/ms/cms/content/list.do` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/orms/` | Low
+27 | File | `/plesk-site-preview/` | High
+28 | File | `/project/PROJECTNAME/reports/` | High
+29 | File | `/protocol/iscuser/uploadiscuser.php` | High
+30 | File | `/public/login.htm` | High
+31 | File | `/report/printlogs.php` | High
+32 | File | `/school/model/get_admin_profile.php` | High
+33 | File | `/show_news.php` | High
+34 | File | `/student-grading-system/rms.php?page=grade` | High
+35 | File | `/style/` | Low
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

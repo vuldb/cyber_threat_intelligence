@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -68,20 +68,20 @@ ID | Type | Indicator | Confidence
 11 | File | `/card_scan.php` | High
 12 | File | `/cgi-bin/cstecgi.cgi` | High
 13 | File | `/cgi-bin/luci/api/switch` | High
-14 | File | `/cgi-bin/sm_changepassword.cgi` | High
-15 | File | `/cgi-bin/touchlist_sync.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/classes/Master.php?f=delete_inquiry` | High
-18 | File | `/contact.php` | Medium
-19 | File | `/core/config-revisions` | High
-20 | File | `/cwc/login` | Medium
-21 | File | `/debuginfo.htm` | High
-22 | File | `/Electron/download` | High
-23 | File | `/etc/passwd` | Medium
-24 | File | `/etc/quagga` | Medium
-25 | File | `/export` | Low
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
+14 | File | `/cgi-bin/touchlist_sync.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/classes/Master.php?f=delete_inquiry` | High
+17 | File | `/contact.php` | Medium
+18 | File | `/core/config-revisions` | High
+19 | File | `/cwc/login` | Medium
+20 | File | `/debuginfo.htm` | High
+21 | File | `/Electron/download` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/etc/quagga` | Medium
+24 | File | `/export` | Low
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/WifiExtraSet` | High
 28 | File | `/guest_auth/cfg/upLoadCfg.php` | High
 29 | File | `/h/autoSaveDraft` | High
 30 | File | `/h/calendar` | Medium
@@ -91,15 +91,16 @@ ID | Type | Indicator | Confidence
 34 | File | `/load.php` | Medium
 35 | File | `/lua/set-passwd.lua` | High
 36 | File | `/mims/login.php` | High
-37 | File | `/nova/bin/console` | High
-38 | File | `/nova/bin/detnet` | High
-39 | File | `/ofcms/company-c-47` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | File | `/out.php` | Medium
-42 | File | `/pages/animals.php` | High
-43 | ... | ... | ...
+37 | File | `/newProject.php` | High
+38 | File | `/nova/bin/console` | High
+39 | File | `/nova/bin/detnet` | High
+40 | File | `/ofcms/company-c-47` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/out.php` | Medium
+43 | File | `/pages/animals.php` | High
+44 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -45,9 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,20 +66,22 @@ ID | Type | Indicator | Confidence
 8 | File | `/appLms/ajax.server.php` | High
 9 | File | `/as/authorization.oauth2` | High
 10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-12 | File | `/getImage` | Medium
-13 | File | `/guestmanagement/front.php` | High
-14 | File | `/horde/imp/search.php` | High
-15 | File | `/ipms/imageConvert/image` | High
-16 | File | `/login.php` | Medium
-17 | File | `/LogoStore/search.php` | High
-18 | File | `/manage-apartment.php` | High
-19 | File | `/mics/j_spring_security_check` | High
-20 | File | `/mkshope/login.php` | High
-21 | File | `/pages/processlogin.php` | High
-22 | ... | ... | ...
+11 | File | `/classes/Users.php?f=save` | High
+12 | File | `/detailed.php` | High
+13 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+14 | File | `/getImage` | Medium
+15 | File | `/goform/AddDnsForward` | High
+16 | File | `/guestmanagement/front.php` | High
+17 | File | `/horde/imp/search.php` | High
+18 | File | `/ipms/imageConvert/image` | High
+19 | File | `/login.php` | Medium
+20 | File | `/LogoStore/search.php` | High
+21 | File | `/manage-apartment.php` | High
+22 | File | `/mics/j_spring_security_check` | High
+23 | File | `/mkshope/login.php` | High
+24 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

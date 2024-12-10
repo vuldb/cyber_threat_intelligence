@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,8 +21,8 @@ These _actors_ are associated with PingPull or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [GALLIUM](https://vuldb.com/?actor.gallium) | High
-2 | [PingPull](https://vuldb.com/?actor.pingpull) | High
+1 | [PingPull](https://vuldb.com/?actor.pingpull) | High
+2 | [GALLIUM](https://vuldb.com/?actor.gallium) | High
 
 ## IOC - Indicator of Compromise
 
@@ -68,11 +68,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,32 +83,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/app/options.py` | High
 3 | File | `/card_scan.php` | High
 4 | File | `/cgi-bin/portal` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cwc/login` | Medium
-8 | File | `/debuginfo.htm` | High
-9 | File | `/download` | Medium
-10 | File | `/etc/passwd` | Medium
-11 | File | `/etc/quagga` | Medium
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forms/doLogin` | High
-14 | File | `/h/autoSaveDraft` | High
-15 | File | `/h/calendar` | Medium
-16 | File | `/inc/extensions.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/Items/*/RemoteImages/Download` | High
-19 | File | `/members/view_member.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/mifs/c/i/reg/reg.html` | High
-22 | File | `/nova/bin/console` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/out.php` | Medium
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/req_password_user.php` | High
-27 | File | `/rest/api/latest/projectvalidate/key` | High
-28 | ... | ... | ...
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/cwc/login` | Medium
+7 | File | `/debuginfo.htm` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/forms/doLogin` | High
+11 | File | `/h/autoSaveDraft` | High
+12 | File | `/h/calendar` | Medium
+13 | File | `/index.php` | Medium
+14 | File | `/Items/*/RemoteImages/Download` | High
+15 | File | `/members/view_member.php` | High
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/nova/bin/console` | High
+18 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

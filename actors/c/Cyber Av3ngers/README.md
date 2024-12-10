@@ -49,16 +49,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/login.html` | Medium
-8 | File | `/uir/` | Low
-9 | File | `/uncpath/` | Medium
-10 | File | `actions.hsp` | Medium
-11 | File | `adclick.php` | Medium
-12 | File | `add_edit_user.asp` | High
+6 | File | `/goform/GetIPTV` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/login.html` | Medium
+9 | File | `/uir/` | Low
+10 | File | `/uncpath/` | Medium
+11 | File | `actions.hsp` | Medium
+12 | File | `adclick.php` | Medium
 13 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

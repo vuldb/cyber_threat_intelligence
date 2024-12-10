@@ -8,12 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SectopRAT:
 
-* [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 12 more country items available. Please use our online service to access the data.
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -49,9 +45,12 @@ ID | IP address | Hostname | Actor | Confidence
 17 | [34.142.80.219](https://vuldb.com/?ip.34.142.80.219) | 219.80.142.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
 18 | [34.159.68.86](https://vuldb.com/?ip.34.159.68.86) | 86.68.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
 19 | [34.159.180.55](https://vuldb.com/?ip.34.159.180.55) | 55.180.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-20 | ... | ... | ... | ...
+20 | [35.198.132.51](https://vuldb.com/?ip.35.198.132.51) | 51.132.198.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+21 | [35.204.188.251](https://vuldb.com/?ip.35.204.188.251) | 251.188.204.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+22 | [35.226.102.12](https://vuldb.com/?ip.35.226.102.12) | 12.102.226.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+23 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,14 +58,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,69 +71,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.cdrdao` | High
-2 | File | `.imwheelrc` | Medium
-3 | File | `.jpilot` | Low
-4 | File | `.plan` | Low
-5 | File | `.tin` | Low
-6 | File | `/+CSCOE+/logon.html` | High
-7 | File | `//proc/kcore` | Medium
-8 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-9 | File | `/admin/admin-update-employee.php` | High
-10 | File | `/admin/blood/update/o-.php` | High
-11 | File | `/admin/dialog/select_images_post.php` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/admin/forms/add/step2.php?submission_type=direct` | High
-14 | File | `/admin/inventory/manage_stock.php` | High
-15 | File | `/admin/notes/create` | High
-16 | File | `/admin/searchview.php` | High
-17 | File | `/api/v1/bait/set` | High
-18 | File | `/asms/classes/Master.php?f=delete_img` | High
-19 | File | `/bolt/editcontent/showcases` | High
-20 | File | `/cgi-bin/` | Medium
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/cgi-bin/system_mgr.cgi` | High
-23 | File | `/classes/Master.php?f=delete_category` | High
-24 | File | `/classes/Users.php?f=save_client` | High
-25 | File | `/configs/application.ini` | High
-26 | File | `/coreframe/app/pay/admin/index.php` | High
-27 | File | `/download/file` | High
-28 | File | `/endpoint/delete-bookmark.php` | High
-29 | File | `/endpoint/delete-student.php` | High
-30 | File | `/foms/routers/cancel-order.php` | High
-31 | File | `/forget.php` | Medium
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/formSetEnableWizard` | High
-34 | File | `/healthcare/Admin/consulting_detail.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index.php?id=userProfileEdit` | High
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/lists/index.php` | High
-39 | File | `/mfeedback.php` | High
-40 | File | `/opac/Actions.php?a=login` | High
-41 | File | `/php-ocls/classes/Master.php?f=pay_order` | High
-42 | File | `/php-ycrs/classes/SystemSettings.php` | High
-43 | File | `/pms/ajax/get_packings.php` | High
-44 | File | `/protocol/iscuser/uploadiscuser.php` | High
-45 | File | `/public/launchNewWindow.jsp` | High
-46 | File | `/public/login.htm` | High
-47 | File | `/rental_0/rental/ajax.php?action=save_tenant` | High
-48 | File | `/resume_upload.php` | High
-49 | File | `/rpc/membership/setProfile` | High
-50 | File | `/simple-online-bidding-system/bidding/admin/users.php` | High
-51 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-52 | File | `/spacecom/login.php` | High
-53 | File | `/spip.php` | Medium
-54 | File | `/staff/bookdetails.php` | High
-55 | File | `/tmp` | Low
-56 | File | `/tour/admin/file.php` | High
-57 | File | `/uploadImage/Profile/` | High
-58 | File | `/usr/bin/sonia` | High
-59 | File | `/usr/ucb/mail` | High
-60 | File | `/var/spool/fax/outgoing/.last_run` | High
-61 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/api/v1/bait/set` | High
+3 | File | `/asms/classes/Master.php?f=delete_img` | High
+4 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,10 +87,22 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://de.darktrace.com/blog/not-your-average-rodent-darktraces-mitigation-of-the-sectop-remote-access-trojan-rat
 * https://github.com/esThreatIntelligence/iocs/blob/main/FakeBat/iocs_3-25-2024.txt
 * https://search.censys.io/hosts/45.88.104.78
+* https://search.censys.io/hosts/45.141.84.60
+* https://search.censys.io/hosts/45.141.84.168
 * https://search.censys.io/hosts/45.141.87.50
+* https://search.censys.io/hosts/88.214.25.17
+* https://search.censys.io/hosts/92.255.57.31
+* https://search.censys.io/hosts/92.255.57.32
+* https://search.censys.io/hosts/92.255.57.33
+* https://search.censys.io/hosts/92.255.57.34
+* https://search.censys.io/hosts/92.255.57.35
+* https://search.censys.io/hosts/92.255.57.36
+* https://search.censys.io/hosts/92.255.57.37
 * https://search.censys.io/hosts/94.181.229.249
 * https://search.censys.io/hosts/176.9.66.115
+* https://search.censys.io/hosts/194.26.29.44
 * https://search.censys.io/hosts/194.26.29.112
+* https://search.censys.io/hosts/213.109.202.242
 * https://threatfox.abuse.ch
 * https://twitter.com/AnFam17/status/1658666291308163072
 * https://urlhaus.abuse.ch/url/2859573/

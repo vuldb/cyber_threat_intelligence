@@ -24,20 +24,22 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
 2 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
 3 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
-4 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
-5 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
-6 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-7 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-8 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
-9 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-10 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
-11 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
-12 | [79.137.203.190](https://vuldb.com/?ip.79.137.203.190) | astonishing-bike.aeza.network | - | High
-13 | [80.66.87.148](https://vuldb.com/?ip.80.66.87.148) | vm77554.cloud.nuxt.network | - | High
-14 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | ywcfklba.fun | - | High
-15 | ... | ... | ... | ...
+4 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
+5 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
+6 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
+7 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
+8 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
+9 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
+10 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
+11 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
+12 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
+13 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+14 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+15 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+16 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
+17 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +47,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -60,46 +62,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/advanced-tools/nova/bin/netwatch` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/profile` | Medium
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/cgi-bin-sdb/` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/dataset/data/{id}` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/edit-subject.php` | High
-11 | File | `/etc/grafana/grafana.ini` | High
-12 | File | `/film-rating.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/forum/PostPrivateMessage` | High
-15 | File | `/index.php` | Medium
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/nova/bin/igmp-proxy` | High
-18 | File | `/orrs/admin/?page=user/manage_user` | High
-19 | File | `/pages/processlogin.php` | High
-20 | File | `/php/ping.php` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/register.php` | High
-23 | File | `/scripts/unlock_tasks.php` | High
-24 | File | `/student/bookdetails.php` | High
-25 | File | `/SysInfo1.htm` | High
-26 | File | `/sysinfo_json.cgi` | High
-27 | File | `/system/dictData/loadDictItem` | High
-28 | File | `/system/user/modules/mod_users/controller.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-31 | File | `/version.js` | Medium
-32 | File | `/view/vpn/autovpn/sub_commit.php` | High
-33 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-34 | File | `123flashchat.php` | High
-35 | File | `account.asp` | Medium
-36 | File | `acs.exe` | Low
-37 | File | `addguest.cgi` | Medium
-38 | ... | ... | ...
+1 | File | `/admin/?page=system_info/contact_info` | High
+2 | File | `/advanced-tools/nova/bin/netwatch` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/profile` | Medium
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/cgi-bin-sdb/` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/dataset/data/{id}` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/edit-subject.php` | High
+12 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+13 | File | `/etc/grafana/grafana.ini` | High
+14 | File | `/film-rating.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/forum/PostPrivateMessage` | High
+17 | File | `/index.php` | Medium
+18 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/nova/bin/igmp-proxy` | High
+21 | File | `/orrs/admin/?page=user/manage_user` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/pages/processlogin.php` | High
+24 | File | `/php/ping.php` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/register.php` | High
+27 | File | `/scripts/unlock_tasks.php` | High
+28 | File | `/show_news.php` | High
+29 | File | `/src/vmir_wasm_parser.c` | High
+30 | File | `/student/bookdetails.php` | High
+31 | File | `/SysInfo1.htm` | High
+32 | File | `/sysinfo_json.cgi` | High
+33 | File | `/system/dictData/loadDictItem` | High
+34 | File | `/system/user/modules/mod_users/controller.php` | High
+35 | File | `/SystemMng.ashx` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+38 | File | `/version.js` | Medium
+39 | File | `/view/vpn/autovpn/sub_commit.php` | High
+40 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +130,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=185.99.133.246
 * https://twitter.com/Ishusoka/status/1649716132822089728
 * https://twitter.com/sekoia_io/status/1572889505497223169
+* https://urlhaus.abuse.ch/url/3318251/
 * https://www.welivesecurity.com/en/eset-research/tap-estry-threats-targeting-hamster-kombat-players/
 * https://x.com/Gi7w0rm/status/1711900442899149240
 

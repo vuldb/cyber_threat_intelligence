@@ -173,7 +173,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -192,25 +193,27 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/manage_station.php` | High
 8 | File | `/admin/mod_room/controller.php?action=add` | High
 9 | File | `/admin/operations/expense_category.php` | High
-10 | File | `/admin/template/update` | High
-11 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-12 | File | `/backend/register.php` | High
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/p1_ftpserver.php` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/SystemSettings.php?f=update_settings` | High
-19 | File | `/classes/Users.php?f=delete` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/control/deactivate_case.php` | High
-22 | File | `/control/register_case.php` | High
-23 | File | `/dede/sys_sql_query.php` | High
-24 | File | `/foms/routers/place-order.php` | High
-25 | File | `/forgot-password` | High
-26 | ... | ... | ...
+10 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+11 | File | `/admin/template/update` | High
+12 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+13 | File | `/backend/register.php` | High
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/p1_ftpserver.php` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/SystemSettings.php?f=update_settings` | High
+20 | File | `/classes/Users.php?f=delete` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/control/add_act.php` | High
+23 | File | `/control/deactivate_case.php` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/core/config-revisions/` | High
+26 | File | `/dede/sys_sql_query.php` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

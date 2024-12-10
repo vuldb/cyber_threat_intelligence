@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,60 +57,64 @@ ID | Type | Indicator | Confidence
 1 | File | `/?g=net_pro_keyword_import_save` | High
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/applicants/index.php` | High
-4 | File | `/admin/blood/update/B+.php` | High
-5 | File | `/admin/booking-bwdates-reports-details.php` | High
-6 | File | `/admin/category/index.php` | High
-7 | File | `/admin/CloudAccounts` | High
-8 | File | `/admin/cmsTemplate/savePlace` | High
-9 | File | `/admin/cmsWebFile/doUpload` | High
-10 | File | `/admin/config_ISCGroupNoCache.php` | High
-11 | File | `/admin/config_time_sync.php` | High
-12 | File | `/admin/edit_area.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/infoSys_deal.php?mudi=deal` | High
-15 | File | `/admin/item/view_item.php` | High
-16 | File | `/admin/list_resource_icon.php?action=delete` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/orders/view_order.php` | High
-19 | File | `/admin/pages/list` | High
-20 | File | `/admin/search.php` | High
-21 | File | `/admin/service_requests/manage_inventory.php` | High
-22 | File | `/admin/student.php` | High
-23 | File | `/admin/twitter.php` | High
-24 | File | `/adminPage/conf/saveCmd` | High
-25 | File | `/adminPage/main/upload` | High
-26 | File | `/alogin.html` | Medium
-27 | File | `/api/Cdn/GetFile` | High
-28 | File | `/api/user` | Medium
-29 | File | `/api/v1/dashboards/export` | High
-30 | File | `/api/v2/maps` | Medium
-31 | File | `/api/{org_id}/users/{email_id}` | High
-32 | File | `/app/zentao/module/repo/model.php` | High
-33 | File | `/application/index/controller/Pay.php` | High
-34 | File | `/category/list?limit=10&offset=0&order=desc` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/hd_config.cgi` | High
-37 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-38 | File | `/cgi-bin/nas_sharing.cgi` | High
-39 | File | `/cgi-bin/s3.cgi` | High
-40 | File | `/charts/api/charts/v1/` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
-43 | File | `/classes/Master.php?f=log_employee` | High
-44 | File | `/classes/SystemSettings.php?f=update_settings` | High
-45 | File | `/classes/Users.php?f=save` | High
-46 | File | `/classes/Users.php?f=save_client` | High
-47 | File | `/cm/update_rows/page?id=2` | High
-48 | File | `/configs/application.ini` | High
-49 | File | `/control/forgot_pass.php` | High
-50 | File | `/control/register_case.php` | High
-51 | File | `/dcim/console-ports/add` | High
-52 | File | `/dede/freelist_edit.php` | High
-53 | File | `/deleteTicket.php` | High
-54 | File | `/detalheIdUra` | High
-55 | ... | ... | ...
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+5 | File | `/admin/blood/update/B+.php` | High
+6 | File | `/admin/booking-bwdates-reports-details.php` | High
+7 | File | `/admin/category/index.php` | High
+8 | File | `/admin/CloudAccounts` | High
+9 | File | `/admin/cmsTemplate/savePlace` | High
+10 | File | `/admin/cmsWebFile/doUpload` | High
+11 | File | `/admin/config_ISCGroupNoCache.php` | High
+12 | File | `/admin/config_time_sync.php` | High
+13 | File | `/admin/edit-brand.php` | High
+14 | File | `/admin/edit-subadmin.php` | High
+15 | File | `/admin/edit_area.php` | High
+16 | File | `/admin/File/fileUpload` | High
+17 | File | `/admin/File/pictureUpload` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/infoSys_deal.php?mudi=deal` | High
+20 | File | `/admin/item/view_item.php` | High
+21 | File | `/admin/list_resource_icon.php?action=delete` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/overtime_row.php` | High
+24 | File | `/admin/pages/list` | High
+25 | File | `/admin/search.php` | High
+26 | File | `/admin/service_requests/manage_inventory.php` | High
+27 | File | `/admin/student.php` | High
+28 | File | `/admin/twitter.php` | High
+29 | File | `/adminPage/conf/saveCmd` | High
+30 | File | `/adminPage/main/upload` | High
+31 | File | `/animalsadd.php` | High
+32 | File | `/api/Cdn/GetFile` | High
+33 | File | `/api/user` | Medium
+34 | File | `/api/v1/dashboards/export` | High
+35 | File | `/api/v2/maps` | Medium
+36 | File | `/app/admin/controller/api/Plugs.php` | High
+37 | File | `/category/list?limit=10&offset=0&order=desc` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/hd_config.cgi` | High
+40 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/cgi-bin/s3.cgi` | High
+43 | File | `/charts/api/charts/v1/` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=log_employee` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=save` | High
+49 | File | `/classes/Users.php?f=save_client` | High
+50 | File | `/cm/update_rows/page?id=2` | High
+51 | File | `/com/esafenet/servlet/user/ReUserOrganiseService.java` | High
+52 | File | `/control/forgot_pass.php` | High
+53 | File | `/control/register_case.php` | High
+54 | File | `/dcim/console-ports/add` | High
+55 | File | `/dede/freelist_edit.php` | High
+56 | File | `/deleteTicket.php` | High
+57 | File | `/detalheIdUra` | High
+58 | File | `/Doctor/chat.php` | High
+59 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

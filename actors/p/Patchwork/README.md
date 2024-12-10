@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Patchwork:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Patchwork:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -105,14 +105,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,60 +121,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/act/ActDao.xml` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/add_new_supplier.php` | High
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
 5 | File | `/admin/` | Low
 6 | File | `/admin/admin-update-employee.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/quizquestion.php` | High
-9 | File | `/admin/search-appointment.php` | High
-10 | File | `/adminPage/conf/saveCmd` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/api/clusters/local/topics/{topic}/messages` | High
-13 | File | `/api/gen/clients/{language}` | High
-14 | File | `/API/info` | Medium
-15 | File | `/app/options.py` | High
-16 | File | `/bin/httpd` | Medium
-17 | File | `/buscar_integrada.php` | High
-18 | File | `/car.php` | Medium
-19 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-20 | File | `/cgi-bin/tosei_kikai.php` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/ci_spms/admin/category` | High
-23 | File | `/ci_spms/admin/search/searching/` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_appointment` | High
-26 | File | `/classes/Master.php?f=delete_train` | High
-27 | File | `/config/php.ini` | High
-28 | File | `/core/admin/categories.php` | High
-29 | File | `/ctcprotocol/Protocol` | High
-30 | File | `/dashboard/menu-list.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/detailed.php` | High
-33 | File | `/dist/index.js` | High
-34 | File | `/DXR.axd` | Medium
-35 | File | `/ebics-server/ebics.aspx` | High
-36 | File | `/endpoint/add-calorie.php` | High
-37 | File | `/EXCU_SHELL` | Medium
-38 | File | `/ffos/classes/Master.php?f=save_category` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/modifyDhcpRule` | High
-41 | File | `/goform/ModifyPppAuthWhiteMac` | High
-42 | File | `/goform/net\_Web\_get_value` | High
-43 | File | `/goform/setStaOffline` | High
-44 | File | `/goform/set_ntp` | High
-45 | File | `/goform/WizardHandle` | High
-46 | File | `/GponForm/usb_restore_Form?script/` | High
-47 | File | `/group1/uploa` | High
-48 | File | `/hedwig.cgi` | Medium
-49 | File | `/HNAP1` | Low
-50 | File | `/HNAP1/SetClientInfo` | High
-51 | File | `/Items/*/RemoteImages/Download` | High
-52 | File | `/librarian/bookdetails.php` | High
-53 | ... | ... | ...
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/process_category_add.php` | High
+10 | File | `/admin/quizquestion.php` | High
+11 | File | `/admin/search-appointment.php` | High
+12 | File | `/adminPage/conf/saveCmd` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/clusters/local/topics/{topic}/messages` | High
+15 | File | `/api/gen/clients/{language}` | High
+16 | File | `/API/info` | Medium
+17 | File | `/app/api/controller/caiji.php` | High
+18 | File | `/buscar_integrada.php` | High
+19 | File | `/car.php` | Medium
+20 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+21 | File | `/cgi-bin/tosei_kikai.php` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/config/php.ini` | High
+25 | File | `/core/admin/categories.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/detailed.php` | High
+28 | File | `/dist/index.js` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/ebics-server/ebics.aspx` | High
+31 | File | `/endpoint/add-calorie.php` | High
+32 | File | `/EXCU_SHELL` | Medium
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/form2systime.cgi` | High
+35 | File | `/goform/modifyDhcpRule` | High
+36 | File | `/goform/ModifyPppAuthWhiteMac` | High
+37 | File | `/goform/net\_Web\_get_value` | High
+38 | File | `/goform/setStaOffline` | High
+39 | File | `/goform/set_ntp` | High
+40 | File | `/goform/WizardHandle` | High
+41 | File | `/GponForm/usb_restore_Form?script/` | High
+42 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

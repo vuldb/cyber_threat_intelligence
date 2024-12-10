@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,45 +67,46 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `.FBCIndex` | Medium
 3 | File | `/.vnc/sesman_${username}_passwd` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/add_ikev2.php` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/admin_user.php` | High
-8 | File | `/admin/borrow_add.php` | High
-9 | File | `/admin/category_row.php` | High
-10 | File | `/admin/communitymanagement.php` | High
-11 | File | `/admin/div_data/delete?divId=9` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/admin/index.php?page=categories` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/project/update/2` | High
-16 | File | `/admin/request-received-bydonar.php` | High
-17 | File | `/admin/students/manage.php` | High
-18 | File | `/admin/success_story.php` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/boaform/device_reset.cgi` | High
-21 | File | `/boaform/wlan_basic_set.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/course/filterRecords/` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/download/image` | High
-29 | File | `/Employer/EditProfile.php` | High
-30 | File | `/Employer/ManageJob.php` | High
-31 | File | `/endpoint/update-computer.php` | High
-32 | File | `/firewall/policy/` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/FuguHub/cmsdocs/` | High
-35 | File | `/goform/SetSysTimeCfg` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/ims/login.php` | High
-38 | File | `/inc/jquery/uploadify/uploadify.php` | High
-39 | File | `/includes/common/require_access_recovery.php` | High
-40 | ... | ... | ...
+4 | File | `/?page=reports` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/borrow_add.php` | High
+10 | File | `/admin/category_row.php` | High
+11 | File | `/admin/communitymanagement.php` | High
+12 | File | `/admin/div_data/delete?divId=9` | High
+13 | File | `/admin/emp-profile-avatar.php` | High
+14 | File | `/admin/index.php?page=categories` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/Admin/login.php` | High
+17 | File | `/admin/project/update/2` | High
+18 | File | `/admin/request-received-bydonar.php` | High
+19 | File | `/admin/students/manage.php` | High
+20 | File | `/admin/success_story.php` | High
+21 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+22 | File | `/api/v2/cli/commands` | High
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/boaform/wlan_basic_set.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Users.php?f=save` | High
+29 | File | `/course/filterRecords/` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/download/image` | High
+32 | File | `/edit1.php` | Medium
+33 | File | `/Employee/edit-profile.php` | High
+34 | File | `/Employer/EditProfile.php` | High
+35 | File | `/Employer/ManageJob.php` | High
+36 | File | `/endpoint/update-computer.php` | High
+37 | File | `/firewall/policy/` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/FuguHub/cmsdocs/` | High
+40 | File | `/getcfg.php` | Medium
+41 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

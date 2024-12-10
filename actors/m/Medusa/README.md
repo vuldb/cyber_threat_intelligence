@@ -90,26 +90,28 @@ ID | Type | Indicator | Confidence
 32 | File | `/classes/Master.php` | High
 33 | File | `/classes/Master.php?f=delete_category` | High
 34 | File | `/collection/all` | High
-35 | File | `/common/info.cgi` | High
-36 | File | `/cupseasylive/countrymodify.php` | High
-37 | File | `/cupseasylive/taxstructurelist.php` | High
-38 | File | `/dcim/rack/` | Medium
-39 | File | `/EditEventTypes.php` | High
-40 | File | `/endpoint/add-user.php` | High
-41 | File | `/endpoint/delete-expense.php` | High
-42 | File | `/endpoint/update-bookmark.php` | High
-43 | File | `/etc/groups` | Medium
-44 | File | `/etc/passwd` | Medium
-45 | File | `/file/upload/1` | High
-46 | File | `/filex/read-raw` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/general/system/interface/theme_set/save_image.php` | High
-49 | File | `/goform/SetClientState` | High
-50 | File | `/goform/SetDDNSCfg` | High
-51 | File | `/goform/SysToolChangePwd` | High
-52 | ... | ... | ...
+35 | File | `/command_port.ini` | High
+36 | File | `/common/info.cgi` | High
+37 | File | `/cupseasylive/countrymodify.php` | High
+38 | File | `/cupseasylive/taxstructurelist.php` | High
+39 | File | `/dcim/rack/` | Medium
+40 | File | `/deal/{note_id}/note` | High
+41 | File | `/EditEventTypes.php` | High
+42 | File | `/endpoint/add-user.php` | High
+43 | File | `/endpoint/delete-expense.php` | High
+44 | File | `/endpoint/update-bookmark.php` | High
+45 | File | `/etc/groups` | Medium
+46 | File | `/etc/passwd` | Medium
+47 | File | `/file/upload/1` | High
+48 | File | `/filex/read-raw` | High
+49 | File | `/forgot.php` | Medium
+50 | File | `/forum/away.php` | High
+51 | File | `/general/system/interface/theme_set/save_image.php` | High
+52 | File | `/goform/goform_get_cmd_process` | High
+53 | File | `/goform/saveParentControlInfo` | High
+54 | ... | ... | ...
 
-There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

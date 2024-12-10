@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Las Vegas Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -152,12 +152,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-29 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,23 +170,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/booking-bwdates-reports-details.php` | High
 4 | File | `/admin/emp-profile-avatar.php` | High
 5 | File | `/admin/operations/expense_category.php` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 7 | File | `/backend/register.php` | High
 8 | File | `/cgi-bin/nas_sharing.cgi` | High
 9 | File | `/cgi-bin/p1_ftpserver.php` | High
 10 | File | `/cgi-bin/tosei_kikai.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/classes/Users.php?f=delete` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/SystemSettings.php?f=update_settings` | High
+13 | File | `/classes/Users.php?f=delete` | High
+14 | File | `/control/add_act.php` | High
 15 | File | `/control/register_case.php` | High
-16 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-17 | File | `/endpoint/delete-bill.php` | High
-18 | File | `/etc/keystone/user-project-map.json` | High
-19 | File | `/forgot-password` | High
-20 | ... | ... | ...
+16 | File | `/endpoint/delete-bill.php` | High
+17 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

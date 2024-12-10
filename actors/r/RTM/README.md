@@ -64,37 +64,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin/app/product.php` | High
 4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/api/set-password` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/classes/Users.php` | High
-9 | File | `/conf/app.conf` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/customer_support/index.php` | High
-12 | File | `/dashboard/updatelogo.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/openshift/server_priv.pem` | High
-15 | File | `/export` | Low
-16 | File | `/file?action=download&file` | High
-17 | File | `/goform/openSchedWifi` | High
-18 | File | `/hardware` | Medium
-19 | File | `/importexport.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/medical/inventories.php` | High
-23 | File | `/mfsNotice/page` | High
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/monitoring` | Medium
-26 | File | `/Noxen-master/users.php` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/php/busyscreenshotpush.php` | High
-29 | File | `/plugin/LiveChat/getChat.json.php` | High
-30 | File | `/plugins/servlet/audit/resource` | High
-31 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-32 | File | `/preview.php` | Medium
-33 | ... | ... | ...
+5 | File | `/ajax` | Low
+6 | File | `/api/set-password` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/classes/Users.php` | High
+10 | File | `/conf/app.conf` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/customer_support/index.php` | High
+13 | File | `/dashboard/updatelogo.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/openshift/server_priv.pem` | High
+16 | File | `/export` | Low
+17 | File | `/file?action=download&file` | High
+18 | File | `/goform/openSchedWifi` | High
+19 | File | `/hardware` | Medium
+20 | File | `/importexport.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/medical/inventories.php` | High
+24 | File | `/mfsNotice/page` | High
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/monitoring` | Medium
+27 | File | `/Noxen-master/users.php` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/php/busyscreenshotpush.php` | High
+30 | File | `/plugin/LiveChat/getChat.json.php` | High
+31 | File | `/plugins/servlet/audit/resource` | High
+32 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+33 | File | `/preview.php` | Medium
+34 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

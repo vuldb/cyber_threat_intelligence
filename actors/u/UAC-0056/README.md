@@ -62,39 +62,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=reserve` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/products/controller.php?action=add` | High
-4 | File | `/admin/students/manage.php` | High
-5 | File | `/adminPage/main/upload` | High
-6 | File | `/advanced-tools/nova/bin/netwatch` | High
-7 | File | `/auth/register` | High
-8 | File | `/bifs/field_decode.c` | High
-9 | File | `/bin/proc.cgi` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/book-services.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/common/run_cross_report.php` | High
-16 | File | `/Core/Ap4File.cpp` | High
-17 | File | `/dev/audio` | Medium
-18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/en/blog-comment-4` | High
-22 | File | `/etc/crash` | Medium
-23 | File | `/etc/shadow` | Medium
-24 | File | `/EXCU_SHELL` | Medium
-25 | File | `/foms/routers/cancel-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/addressNat` | High
-28 | File | `/goform/AddSysLogRule` | High
-29 | File | `/goform/NatStaticSetting` | High
-30 | File | `/goform/WifiBasicSet` | High
-31 | File | `/h/` | Low
-32 | File | `/index.php?module=configuration/application` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/products/controller.php?action=add` | High
+5 | File | `/admin/students/manage.php` | High
+6 | File | `/adminPage/main/upload` | High
+7 | File | `/advanced-tools/nova/bin/netwatch` | High
+8 | File | `/auth/register` | High
+9 | File | `/bifs/field_decode.c` | High
+10 | File | `/bin/proc.cgi` | High
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/book-services.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/system_mgr.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/common/run_cross_report.php` | High
+17 | File | `/Core/Ap4File.cpp` | High
+18 | File | `/dev/audio` | Medium
+19 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/en/blog-comment-4` | High
+23 | File | `/etc/crash` | Medium
+24 | File | `/etc/shadow` | Medium
+25 | File | `/EXCU_SHELL` | Medium
+26 | File | `/foms/routers/cancel-order.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/addressNat` | High
+29 | File | `/goform/AddSysLogRule` | High
+30 | File | `/goform/NatStaticSetting` | High
+31 | File | `/goform/WifiBasicSet` | High
+32 | File | `/h/` | Low
 33 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

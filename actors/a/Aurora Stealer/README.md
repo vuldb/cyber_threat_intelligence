@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aurora Stealer:
 
-* [US](https://vuldb.com/?country.us)
 * [AU](https://vuldb.com/?country.au)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,10 +94,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,7 +107,7 @@ ID | Type | Indicator | Confidence
 1 | File | `.cfm` | Low
 2 | File | `/admin/forgot-password.php` | High
 3 | File | `/admin/login.php` | High
-4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+4 | File | `/backend/doc/his_doc_update-account.php` | High
 5 | File | `/cas/logout` | Medium
 6 | File | `/classes/Master.php?f=delete_inquiry` | High
 7 | File | `/coreframe/app/member/admin/group.php` | High
@@ -117,45 +116,37 @@ ID | Type | Indicator | Confidence
 10 | File | `/index.php` | Medium
 11 | File | `/index.php?page=member` | High
 12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/school/model/get_events.php` | High
-18 | File | `/secure/ViewCollectors` | High
-19 | File | `/Session` | Medium
-20 | File | `/spacecom/login.php` | High
-21 | File | `/student/bookdetails.php` | High
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-24 | File | `AbstractController.php` | High
-25 | File | `account.asp` | Medium
-26 | File | `adclick.php` | Medium
-27 | File | `addpost_newpoll.php` | High
-28 | File | `add_comment.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin.remository.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/establishment/manage.php` | High
-33 | File | `admin/inquiries/view_details.php` | High
-34 | File | `admin/news.php` | High
-35 | File | `admin/page.php` | High
-36 | File | `administrator/upload.php` | High
-37 | File | `Administrator/users.php` | High
-38 | File | `affich.php` | Medium
-39 | File | `album_portal.php` | High
-40 | File | `announce.php` | Medium
-41 | File | `archive.php` | Medium
-42 | File | `auth.inc.php` | Medium
-43 | File | `autor.php` | Medium
-44 | File | `b2archives.php` | High
-45 | File | `bbs/faq.php` | Medium
-46 | File | `bb_usage_stats.php` | High
-47 | File | `bl-kernel/ajax/upload-images.php` | High
-48 | File | `board.php` | Medium
-49 | ... | ... | ...
+13 | File | `/mobileredir/openApp.jsp` | High
+14 | File | `/modules/projects/vw_files.php` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/school/model/get_events.php` | High
+17 | File | `/Session` | Medium
+18 | File | `/spacecom/login.php` | High
+19 | File | `/student/bookdetails.php` | High
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `AbstractController.php` | High
+22 | File | `account.asp` | Medium
+23 | File | `addpost_newpoll.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin.remository.php` | High
+26 | File | `admin/content.php` | High
+27 | File | `admin/establishment/manage.php` | High
+28 | File | `admin/inquiries/view_details.php` | High
+29 | File | `admin/news.php` | High
+30 | File | `admin/page.php` | High
+31 | File | `administrator/upload.php` | High
+32 | File | `Administrator/users.php` | High
+33 | File | `affich.php` | Medium
+34 | File | `album_portal.php` | High
+35 | File | `announce.php` | Medium
+36 | File | `archive.php` | Medium
+37 | File | `auth.inc.php` | Medium
+38 | File | `autor.php` | Medium
+39 | File | `b2archives.php` | High
+40 | File | `bbs/faq.php` | Medium
+41 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

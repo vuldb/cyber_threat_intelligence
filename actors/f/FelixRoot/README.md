@@ -56,22 +56,23 @@ ID | Type | Indicator | Confidence
 8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 9 | File | `/DXR.axd` | Medium
 10 | File | `/en/blog-comment-4` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/aspForm` | High
-13 | File | `/h/` | Low
-14 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-15 | File | `/InternalPages/ExecuteTask.aspx` | High
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/ms/cms/content/list.do` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/orms/` | Low
-20 | File | `/plesk-site-preview/` | High
-21 | File | `/project/PROJECTNAME/reports/` | High
-22 | File | `/protocol/iscuser/uploadiscuser.php` | High
-23 | File | `/report/printlogs.php` | High
-24 | ... | ... | ...
+11 | File | `/foms/routers/cancel-order.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/h/` | Low
+15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+16 | File | `/InternalPages/ExecuteTask.aspx` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+20 | File | `/orms/` | Low
+21 | File | `/plesk-site-preview/` | High
+22 | File | `/project/PROJECTNAME/reports/` | High
+23 | File | `/protocol/iscuser/uploadiscuser.php` | High
+24 | File | `/report/printlogs.php` | High
+25 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

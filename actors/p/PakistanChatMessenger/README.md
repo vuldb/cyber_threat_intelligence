@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -50,34 +50,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?g=log_import_save` | High
 2 | File | `/addproduct.php` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/article.php` | High
-5 | File | `/admin/countrymanagement.php` | High
-6 | File | `/admin/expense-type` | High
-7 | File | `/admin/transactions/track_shipment.php` | High
-8 | File | `/admin/user/manage_user.php` | High
-9 | File | `/administration/settings_registration.php` | High
-10 | File | `/ajax-files/postComment.php` | High
-11 | File | `/application/index/controller/File.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/application/websocket/controller/Setting.php` | High
-14 | File | `/auth/auth.php?user=1` | High
-15 | File | `/blog` | Low
-16 | File | `/categorypage.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/collection/all` | High
-22 | File | `/downloadFile.php` | High
-23 | File | `/endpoint/delete-account.php` | High
-24 | File | `/general/email/outbox/delete.php` | High
-25 | File | `/goform/setDebugCfg` | High
-26 | File | `/home.php` | Medium
-27 | File | `/list_temp_photo_pin_upload.php` | High
-28 | ... | ... | ...
+3 | File | `/addstock.php` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/article.php` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/expense-type` | High
+8 | File | `/admin/transactions/track_shipment.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/administration/settings_registration.php` | High
+11 | File | `/ajax-files/postComment.php` | High
+12 | File | `/application/index/controller/File.php` | High
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/application/websocket/controller/Setting.php` | High
+15 | File | `/auth/auth.php?user=1` | High
+16 | File | `/blog` | Low
+17 | File | `/categorypage.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+20 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/collection/all` | High
+23 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+24 | File | `/contact.php` | Medium
+25 | File | `/deletebird.php` | High
+26 | File | `/downloadFile.php` | High
+27 | File | `/endpoint/delete-account.php` | High
+28 | File | `/general/email/outbox/delete.php` | High
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

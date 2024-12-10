@@ -121,23 +121,24 @@ ID | Type | Indicator | Confidence
 5 | File | `/agenttrayicon` | High
 6 | File | `/ajax/networking/get_netcfg.php` | High
 7 | File | `/app/api/controller/default/Sqlite.php` | High
-8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-9 | File | `/catcompany.php` | High
-10 | File | `/cgi-bin/info.cgi` | High
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/ping.cgi` | High
-14 | File | `/cgi-bin/webproc` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/importhtml.php` | High
-18 | File | `/inc/extensions.php` | High
-19 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-20 | File | `/login.php` | Medium
-21 | File | `/LogInOut.php` | High
-22 | ... | ... | ...
+8 | File | `/bolt/editcontent/showcases` | High
+9 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+10 | File | `/catcompany.php` | High
+11 | File | `/cgi-bin/info.cgi` | High
+12 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/cgi-bin/ping.cgi` | High
+15 | File | `/cgi-bin/webproc` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/importhtml.php` | High
+19 | File | `/inc/extensions.php` | High
+20 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+21 | File | `/login.php` | Medium
+22 | File | `/LogInOut.php` | High
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

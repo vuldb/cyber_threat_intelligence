@@ -61,7 +61,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/endpoint/delete-account.php` | High
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

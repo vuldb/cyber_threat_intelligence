@@ -50,8 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -73,35 +73,36 @@ ID | Type | Indicator | Confidence
 9 | File | `/boaform/device_reset.cgi` | High
 10 | File | `/buspassms/download-pass.php` | High
 11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-13 | File | `/changeimage.php` | High
-14 | File | `/classes/master.php?f=delete_order` | High
-15 | File | `/classes/Master.php?f=update_order_status` | High
-16 | File | `/defaultui/player/modern.html` | High
-17 | File | `/dotproject/index.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/importexport.php` | High
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/items/search` | High
-24 | File | `/LoginAdmin` | Medium
-25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-26 | File | `/model/all_events1.php` | High
-27 | File | `/modules/registration_admission/patient_register.php` | High
-28 | File | `/nova/bin/detnet` | High
-29 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
-30 | File | `/property` | Medium
-31 | File | `/publisher` | Medium
-32 | File | `/recordings/index.php` | High
-33 | File | `/rest/api/2/user/picker` | High
-34 | File | `/search.php` | Medium
-35 | File | `/sys/class/zram-control/hot_add` | High
-36 | File | `/tmp/portmap.xdr` | High
-37 | File | `/uncpath/` | Medium
-38 | ... | ... | ...
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+14 | File | `/changeimage.php` | High
+15 | File | `/classes/master.php?f=delete_order` | High
+16 | File | `/classes/Master.php?f=update_order_status` | High
+17 | File | `/controllers/add_client.php` | High
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/dotproject/index.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/importexport.php` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/items/search` | High
+26 | File | `/LoginAdmin` | Medium
+27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+28 | File | `/model/all_events1.php` | High
+29 | File | `/modules/registration_admission/patient_register.php` | High
+30 | File | `/nova/bin/detnet` | High
+31 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+32 | File | `/property` | Medium
+33 | File | `/publisher` | Medium
+34 | File | `/recordings/index.php` | High
+35 | File | `/rest/api/2/user/picker` | High
+36 | File | `/search.php` | Medium
+37 | File | `/sys/class/zram-control/hot_add` | High
+38 | File | `/tmp/portmap.xdr` | High
+39 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

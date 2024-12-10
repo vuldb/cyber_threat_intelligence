@@ -60,9 +60,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/pass` | High
 3 | File | `/general/attendance/manage/ask_duty/delete.php` | High
 4 | File | `/passwordrecovered.cgi` | High
-5 | ... | ... | ...
+5 | File | `admin/mcart_xls_import.php` | High
+6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

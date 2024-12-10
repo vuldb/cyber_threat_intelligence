@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Syria Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,13 +86,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,28 +99,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/api/v1/terminal/sessions/?limit=1` | High
-4 | File | `/apiclient/ember/index.jsp` | High
-5 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-6 | File | `/bin/boa` | Medium
-7 | File | `/cimom` | Low
-8 | File | `/etc/sysconfig/tomcat` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/goform` | Low
-12 | File | `/login/index.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/printers` | Medium
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/src/dede/makehtml_js_action.php` | High
-17 | File | `/sysmanage/edit_manageadmin.php` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/wp-admin/options.php` | High
-20 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/api/v1/terminal/sessions/?limit=1` | High
+3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/cimom` | Low
+6 | File | `/cms/category/list` | High
+7 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

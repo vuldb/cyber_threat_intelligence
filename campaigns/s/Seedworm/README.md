@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,33 +59,34 @@ ID | Type | Indicator | Confidence
 1 | File | `/add_reference_to_local_model` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
 3 | File | `/admin/maintenance/manage_brand.php` | High
-4 | File | `/api/admin` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/check` | Low
-9 | File | `/check_availability.php` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/classes/SystemSettings.php?f=update_settings` | High
-12 | File | `/classes/Users.php?f=delete` | High
-13 | File | `/control/register_case.php` | High
-14 | File | `/DesignTools/CssEditor.aspx` | High
-15 | File | `/dev/tty` | Medium
-16 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-17 | File | `/etc/keystone/user-project-map.json` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/foms/routers/place-order.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/manage/IPSetup.php` | High
-22 | File | `/manage_sy.php` | High
-23 | File | `/movie.php` | Medium
-24 | File | `/ndmComponents.js` | High
-25 | File | `/newdriver.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-28 | ... | ... | ...
+4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+5 | File | `/api/admin` | Medium
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/check` | Low
+10 | File | `/check_availability.php` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/SystemSettings.php?f=update_settings` | High
+13 | File | `/classes/Users.php?f=delete` | High
+14 | File | `/control/register_case.php` | High
+15 | File | `/DesignTools/CssEditor.aspx` | High
+16 | File | `/dev/tty` | Medium
+17 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+18 | File | `/etc/keystone/user-project-map.json` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/foms/routers/place-order.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/formSetWanPPPoE` | High
+23 | File | `/manage/IPSetup.php` | High
+24 | File | `/manage_sy.php` | High
+25 | File | `/movie.php` | Medium
+26 | File | `/ndmComponents.js` | High
+27 | File | `/newdriver.php` | High
+28 | File | `/out.php` | Medium
+29 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

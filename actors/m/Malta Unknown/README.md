@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Malta Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
-* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -89,10 +89,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,17 +103,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/emp-profile-avatar.php` | High
 2 | File | `/admin/manage_station.php` | High
 3 | File | `/admin/mod_room/controller.php?action=add` | High
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/auth/session` | High
-6 | File | `/backend/register.php` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/check_availability.php` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Master.php?f=log_employee` | High
-11 | File | `/control/register_case.php` | High
-12 | ... | ... | ...
+4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+5 | File | `/backend/register.php` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/check_availability.php` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/classes/Master.php?f=log_employee` | High
+10 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

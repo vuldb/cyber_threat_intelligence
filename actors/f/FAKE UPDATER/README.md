@@ -44,23 +44,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/details.php` | High
-2 | File | `/admin/subject.php` | High
-3 | File | `/cgi/get_param.cgi` | High
-4 | File | `/classes/Master.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/modules/registration_admission/patient_register.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/out.php` | Medium
-9 | File | `/sbin/gs_config` | High
-10 | File | `adclick.php` | Medium
-11 | File | `add_comment.php` | High
-12 | File | `album_portal.php` | High
-13 | File | `browse-category.php` | High
-14 | File | `category.cfm` | Medium
-15 | File | `classified_right.php` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/subject.php` | High
+4 | File | `/cgi/get_param.cgi` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/modules/registration_admission/patient_register.php` | High
+8 | File | `/oauth/idp/.well-known/openid-configuration` | High
+9 | File | `/out.php` | Medium
+10 | File | `/sbin/gs_config` | High
+11 | File | `adclick.php` | Medium
+12 | File | `add_comment.php` | High
+13 | File | `album_portal.php` | High
+14 | File | `browse-category.php` | High
+15 | File | `category.cfm` | Medium
 16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

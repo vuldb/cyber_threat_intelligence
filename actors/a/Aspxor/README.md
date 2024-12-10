@@ -31,6 +31,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1588.001 | CWE-912 | Backdoor | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -38,8 +39,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `epan/dissectors/packet-umts_fp.c` | High
-2 | Input Value | `.%00.../.%00.../` | High
+1 | File | `/inc/modules_install.php` | High
+2 | File | `epan/dissectors/packet-umts_fp.c` | High
+3 | Input Value | `.%00.../.%00.../` | High
 
 ## References
 

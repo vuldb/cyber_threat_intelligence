@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -74,50 +74,51 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/photo.php` | High
 13 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 14 | File | `/anony/mjpg.cgi` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/auth` | Low
-17 | File | `/catcompany.php` | High
-18 | File | `/cms/category/list` | High
-19 | File | `/dashboard/view-chair-list.php` | High
-20 | File | `/Default/Bd` | Medium
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/egroupware/index.php` | High
-23 | File | `/etc/hosts` | Medium
-24 | File | `/etc/shadow.sample` | High
-25 | File | `/filemanager/upload.php` | High
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/GponForm/device_Form?script/` | High
-29 | File | `/GponForm/fsetup_Form` | High
-30 | File | `/GponForm/usb_restore_Form?script/` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/html/device-id` | High
-33 | File | `/importexport.php` | High
-34 | File | `/includes/decorators/global-translations.jsp` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index/ajax/lang` | High
-37 | File | `/loginsave.php` | High
-38 | File | `/param.file.tgz` | High
-39 | File | `/product_list.php` | High
-40 | File | `/public_html/users.php` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/see_more_details.php` | High
-43 | File | `/server-status` | High
-44 | File | `/setSystemAdmin` | High
-45 | File | `/uncpath/` | Medium
-46 | File | `/user/s.php` | Medium
-47 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-48 | File | `/WEB-INF/web.xml` | High
-49 | File | `/wireless/guestnetwork.asp` | High
-50 | File | `?r=recruit/interview/export&interviews=x` | High
-51 | File | `a2dp_aac_decoder.cc` | High
-52 | File | `actbar3.ocx` | Medium
-53 | File | `adclick.php` | Medium
-54 | File | `add-locker-form.php` | High
-55 | File | `addentry.php` | Medium
-56 | ... | ... | ...
+15 | File | `/application/plugins/controller/Upload.php` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/auth` | Low
+18 | File | `/catcompany.php` | High
+19 | File | `/cms/category/list` | High
+20 | File | `/dashboard/view-chair-list.php` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/egroupware/index.php` | High
+24 | File | `/etc/hosts` | Medium
+25 | File | `/etc/shadow.sample` | High
+26 | File | `/filemanager/upload.php` | High
+27 | File | `/forms/doLogin` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/general/address/private/address/query/delete.php` | High
+30 | File | `/GponForm/device_Form?script/` | High
+31 | File | `/GponForm/fsetup_Form` | High
+32 | File | `/GponForm/usb_restore_Form?script/` | High
+33 | File | `/hrm/employeeview.php` | High
+34 | File | `/html/device-id` | High
+35 | File | `/importexport.php` | High
+36 | File | `/includes/decorators/global-translations.jsp` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index/ajax/lang` | High
+39 | File | `/loginsave.php` | High
+40 | File | `/param.file.tgz` | High
+41 | File | `/product_list.php` | High
+42 | File | `/public_html/users.php` | High
+43 | File | `/secure/QueryComponent!Default.jspa` | High
+44 | File | `/see_more_details.php` | High
+45 | File | `/server-status` | High
+46 | File | `/setSystemAdmin` | High
+47 | File | `/uncpath/` | Medium
+48 | File | `/user/s.php` | Medium
+49 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+50 | File | `/WEB-INF/web.xml` | High
+51 | File | `/wireless/guestnetwork.asp` | High
+52 | File | `?r=recruit/interview/export&interviews=x` | High
+53 | File | `a2dp_aac_decoder.cc` | High
+54 | File | `actbar3.ocx` | Medium
+55 | File | `adclick.php` | Medium
+56 | File | `add-locker-form.php` | High
+57 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

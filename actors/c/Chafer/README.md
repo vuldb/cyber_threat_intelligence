@@ -60,19 +60,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/appConfig/userDB.json` | High
 5 | File | `/bin/boa` | Medium
 6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/CPE` | Low
-8 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-9 | File | `/jquery_file_upload/server/php/index.php` | High
-10 | File | `/librarian/bookdetails.php` | High
-11 | File | `/magnoliaPublic/travel/members/login.html` | High
-12 | File | `/Main_AdmStatus_Content.asp` | High
-13 | File | `/public/login.htm` | High
-14 | File | `/requests.php` | High
-15 | File | `/self.key` | Medium
-16 | File | `/uncpath/` | Medium
+7 | File | `/cgi-bin/widget_api.cgi` | High
+8 | File | `/CPE` | Low
+9 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+10 | File | `/jquery_file_upload/server/php/index.php` | High
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/magnoliaPublic/travel/members/login.html` | High
+13 | File | `/Main_AdmStatus_Content.asp` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/requests.php` | High
+16 | File | `/self.key` | Medium
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

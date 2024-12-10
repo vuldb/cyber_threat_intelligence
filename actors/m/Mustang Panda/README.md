@@ -20,8 +20,8 @@ There are 2 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mustang Panda:
 
 * [LA](https://vuldb.com/?country.la)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -67,10 +67,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,25 +79,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/adminPage/conf/reload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/api2/html/` | Medium
-7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-9 | File | `/dipam/athlete-profile.php` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/index/ajax/lang` | High
-13 | File | `/log/decodmail.php` | High
-14 | File | `/mfsNotice/page` | High
-15 | File | `/novel/bookSetting/list` | High
-16 | File | `/novel/userFeedback/list` | High
-17 | File | `/owa/auth/logon.aspx` | High
+2 | File | `/admin/file_manager/export` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/adminPage/conf/reload` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/api2/html/` | Medium
+9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+11 | File | `/dipam/athlete-profile.php` | High
+12 | File | `/DXR.axd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/index/ajax/lang` | High
+15 | File | `/log/decodmail.php` | High
+16 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+17 | File | `/log_proxy` | Medium
 18 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

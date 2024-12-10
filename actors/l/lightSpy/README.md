@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,14 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/example/editor` | High
-2 | File | `/fcgi/scrut_fcgi.fcgi` | High
-3 | File | `/filemanager/php/connector.php` | High
-4 | File | `/index/ajax/lang` | High
-5 | File | `admin/killsource` | High
-6 | ... | ... | ...
+1 | File | `/?Key=PhoneRequestAuthorization` | High
+2 | File | `/addcompany.php` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/example/editor` | High
+5 | File | `/fcgi/scrut_fcgi.fcgi` | High
+6 | File | `/filemanager/php/connector.php` | High
+7 | File | `/index/ajax/lang` | High
+8 | File | `admin/killsource` | High
+9 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -69,6 +72,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/118.195.234.243
 * https://search.censys.io/hosts/154.91.196.185
 * https://search.censys.io/hosts/222.219.183.84
+* https://threatfox.abuse.ch
 
 ## Literature
 

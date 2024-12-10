@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -67,19 +67,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin-manage-user.php` | High
 5 | File | `/admin.php?p=/Area/index#tab=t2` | High
 6 | File | `/admin/` | Low
-7 | File | `/admin/?page=product/manage_product&id=2` | High
-8 | File | `/admin/?page=user/manage` | High
-9 | File | `/Admin/add-admin.php` | High
-10 | File | `/Admin/add-student.php` | High
-11 | File | `/admin/admin.php` | High
-12 | File | `/admin/admin_user.php` | High
-13 | File | `/admin/ajax/avatar.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/general/change-lang` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/manage_complaint.php` | High
-19 | File | `/Admin/News.php` | High
+7 | File | `/admin/?page=user/manage` | High
+8 | File | `/Admin/add-admin.php` | High
+9 | File | `/Admin/add-student.php` | High
+10 | File | `/admin/admin.php` | High
+11 | File | `/admin/admin_user.php` | High
+12 | File | `/admin/ajax/avatar.php` | High
+13 | File | `/admin/forgot-password.php` | High
+14 | File | `/admin/general/change-lang` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/manage_complaint.php` | High
+18 | File | `/Admin/News.php` | High
+19 | File | `/admin/notes/create` | High
 20 | File | `/admin/options` | High
 21 | File | `/admin/save.php` | High
 22 | File | `/admin/show.php` | High
@@ -105,13 +105,13 @@ ID | Type | Indicator | Confidence
 42 | File | `/cgi-bin/cstecgi.cgi` | High
 43 | File | `/cgi-bin/hd_config.cgi` | High
 44 | File | `/cgi-bin/nas_sharing.cgi` | High
-45 | File | `/cgi-bin/nightled.cgi` | High
-46 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-47 | File | `/cgi-bin/vitogate.cgi` | High
-48 | File | `/cgi-bin/wlogin.cgi` | High
-49 | File | `/classes/Users.php` | High
-50 | File | `/classes/Users.php?f=save` | High
-51 | File | `/common/info.cgi` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/cgi-bin/vitogate.cgi` | High
+47 | File | `/cgi-bin/wlogin.cgi` | High
+48 | File | `/classes/Users.php?f=save` | High
+49 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+50 | File | `/common/info.cgi` | High
+51 | File | `/commons/attachment/upload` | High
 52 | File | `/course/filterRecords/` | High
 53 | File | `/cupseasylive/countrymodify.php` | High
 54 | File | `/deal/{note_id}/note` | High
@@ -119,43 +119,42 @@ ID | Type | Indicator | Confidence
 56 | File | `/dede/group_store.php` | High
 57 | File | `/dialog/select_media.php` | High
 58 | File | `/edit-subject.php` | High
-59 | File | `/Employee/edit-profile.php` | High
-60 | File | `/en/blog-comment-4` | High
-61 | File | `/endpoint/update.php` | High
-62 | File | `/etc/master.passwd` | High
-63 | File | `/etc/passwd` | Medium
-64 | File | `/ext/collect/filter_text.do` | High
-65 | File | `/fax/fax_send.php` | High
-66 | File | `/film-rating.php` | High
-67 | File | `/forgot-password` | High
-68 | File | `/forum/away.php` | High
-69 | File | `/fos/admin/ajax.php?action=login` | High
-70 | File | `/goForm/aspForm` | High
-71 | File | `/goform/SetOnlineDevName` | High
-72 | File | `/goform/SetSysTimeCfg` | High
-73 | File | `/goform/WifiBasicSet` | High
-74 | File | `/goform/WifiWpsStart` | High
-75 | File | `/guestbook` | Medium
-76 | File | `/home/kickPlayer` | High
-77 | File | `/index.php` | Medium
-78 | File | `/index.php/signin` | High
-79 | File | `/intern/controller.php` | High
-80 | File | `/librarian/bookdetails.php` | High
-81 | File | `/log/decodmail.php` | High
-82 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-83 | File | `/login` | Low
-84 | File | `/login.php` | Medium
-85 | File | `/LoginRegistration.php` | High
-86 | File | `/lua/set-passwd.lua` | High
-87 | File | `/manage/IPSetup.php` | High
-88 | File | `/manage_person.php` | High
-89 | File | `/member/ad.php?action=ad` | High
-90 | File | `/my_photo_gallery/image.php` | High
-91 | File | `/net-banking/beneficiary.php` | High
-92 | File | `/net-banking/delete_customer.php` | High
-93 | ... | ... | ...
+59 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+60 | File | `/Employee/edit-profile.php` | High
+61 | File | `/en/blog-comment-4` | High
+62 | File | `/endpoint/update.php` | High
+63 | File | `/etc/master.passwd` | High
+64 | File | `/etc/passwd` | Medium
+65 | File | `/ext/collect/filter_text.do` | High
+66 | File | `/fax/fax_send.php` | High
+67 | File | `/film-rating.php` | High
+68 | File | `/forgot-password` | High
+69 | File | `/forum/away.php` | High
+70 | File | `/fos/admin/ajax.php?action=login` | High
+71 | File | `/goForm/aspForm` | High
+72 | File | `/goform/formSetPassword` | High
+73 | File | `/goform/SetOnlineDevName` | High
+74 | File | `/goform/SetSysTimeCfg` | High
+75 | File | `/goform/WifiBasicSet` | High
+76 | File | `/goform/WifiWpsStart` | High
+77 | File | `/guestbook` | Medium
+78 | File | `/home/kickPlayer` | High
+79 | File | `/index.php` | Medium
+80 | File | `/index.php/setpage/admin/pageAE.html` | High
+81 | File | `/index.php/signin` | High
+82 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+83 | File | `/intern/controller.php` | High
+84 | File | `/librarian/bookdetails.php` | High
+85 | File | `/log/decodmail.php` | High
+86 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+87 | File | `/login` | Low
+88 | File | `/login.php` | Medium
+89 | File | `/LoginRegistration.php` | High
+90 | File | `/lua/set-passwd.lua` | High
+91 | File | `/manage/IPSetup.php` | High
+92 | ... | ... | ...
 
-There are 825 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 812 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

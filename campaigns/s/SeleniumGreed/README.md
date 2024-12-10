@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SeleniumGreed:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -18,6 +22,7 @@ These _actors_ are associated with SeleniumGreed or other actors linked to the c
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [xmrig](https://vuldb.com/?actor.xmrig) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [164.90.149.104](https://vuldb.com/?ip.164.90.149.104) | - | [xmrig](https://vuldb.com/?actor.xmrig) | High
-2 | [165.22.195.35](https://vuldb.com/?ip.165.22.195.35) | - | [xmrig](https://vuldb.com/?actor.xmrig) | High
-3 | [165.227.63.241](https://vuldb.com/?ip.165.227.63.241) | - | [xmrig](https://vuldb.com/?actor.xmrig) | High
+1 | [5.216.88.55](https://vuldb.com/?ip.5.216.88.55) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [50.7.74.173](https://vuldb.com/?ip.50.7.74.173) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [54.187.140.5](https://vuldb.com/?ip.54.187.140.5) | ec2-54-187-140-5.us-west-2.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,17 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `cgi-bin/mainfunction.cgi` | High
-2 | File | `editcgi.cgi` | Medium
-3 | File | `mainfunction.cgi` | High
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/cgi-bin/wapopen` | High
+3 | File | `/forum/away.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://www.cadosecurity.com/blog/from-automation-to-exploitation-the-growing-misuse-of-selenium-grid-for-cryptomining-and-proxyjacking
 * https://www.wiz.io/blog/seleniumgreed-cryptomining-exploit-attack-flow-remediation-steps
 
 ## Literature

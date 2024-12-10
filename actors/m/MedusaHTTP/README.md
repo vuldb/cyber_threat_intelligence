@@ -46,31 +46,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/produts/controller.php` | High
-4 | File | `/admin/user/team` | High
-5 | File | `/book-services.php` | High
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/common/logViewer/logViewer.jsf` | High
-8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/en/blog-comment-4` | High
-10 | File | `/foms/routers/cancel-order.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/goform/aspForm` | High
-14 | File | `/h/` | Low
-15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/ms/cms/content/list.do` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/orms/` | Low
-20 | File | `/plesk-site-preview/` | High
-21 | File | `/project/PROJECTNAME/reports/` | High
-22 | File | `/protocol/iscuser/uploadiscuser.php` | High
-23 | File | `/report/printlogs.php` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/produts/controller.php` | High
+5 | File | `/admin/user/team` | High
+6 | File | `/book-services.php` | High
+7 | File | `/cgi-bin/system_mgr.cgi` | High
+8 | File | `/common/logViewer/logViewer.jsf` | High
+9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+10 | File | `/en/blog-comment-4` | High
+11 | File | `/foms/routers/cancel-order.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/aspForm` | High
+15 | File | `/h/` | Low
+16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+20 | File | `/orms/` | Low
+21 | File | `/plesk-site-preview/` | High
+22 | File | `/project/PROJECTNAME/reports/` | High
+23 | File | `/protocol/iscuser/uploadiscuser.php` | High
 24 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

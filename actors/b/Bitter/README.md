@@ -34,11 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -54,40 +54,41 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/news/admin/topic/save` | High
 4 | File | `/admin/comn/service/update.json` | High
 5 | File | `/admin/moduleinterface.php` | High
-6 | File | `/classes/master.php?f=delete_order` | High
-7 | File | `/dev/shm` | Medium
-8 | File | `/dl/dl_print.php` | High
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/forms/nslookupHandler` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/h/autoSaveDraft` | High
-14 | File | `/index.php` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/model/update_grade.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/news.dtl.php` | High
-19 | File | `/ofcms/company-c-47` | High
-20 | File | `/out.php` | Medium
-21 | File | `/patient/appointment.php` | High
-22 | File | `/plesk-site-preview/` | High
-23 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-24 | File | `/ptms/?page=user` | High
-25 | File | `/systemrw/` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload/file.php` | High
-28 | File | `/usr/sbin/httpd` | High
-29 | File | `/util/print.c` | High
-30 | File | `/vpn/list_ip_network.php` | High
-31 | File | `/web/MCmsAction.java` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `5.2.9\syscrb.exe` | High
-35 | File | `abc-pcie.c` | Medium
-36 | File | `accounts/payment_history.php` | High
-37 | ... | ... | ...
+6 | File | `/auth_files/photo/` | High
+7 | File | `/classes/master.php?f=delete_order` | High
+8 | File | `/curd/index/delfile` | High
+9 | File | `/dev/shm` | Medium
+10 | File | `/dl/dl_print.php` | High
+11 | File | `/etc/gsissh/sshd_config` | High
+12 | File | `/forms/nslookupHandler` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/getcfg.php` | Medium
+15 | File | `/h/autoSaveDraft` | High
+16 | File | `/index.php` | Medium
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/model/update_grade.php` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/news.dtl.php` | High
+21 | File | `/ofcms/company-c-47` | High
+22 | File | `/out.php` | Medium
+23 | File | `/patient/appointment.php` | High
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+26 | File | `/ptms/?page=user` | High
+27 | File | `/systemrw/` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/upload/file.php` | High
+30 | File | `/usr/sbin/httpd` | High
+31 | File | `/util/print.c` | High
+32 | File | `/vpn/list_ip_network.php` | High
+33 | File | `/web/MCmsAction.java` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | File | `5.2.9\syscrb.exe` | High
+37 | File | `abc-pcie.c` | Medium
+38 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

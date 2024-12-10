@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -56,64 +56,68 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.alerts-security.alerts-{space_id}` | High
 2 | File | `/?import` | Medium
-3 | File | `/admin` | Low
-4 | File | `/admin-manage-user.php` | High
-5 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/ajax.php?action=delete_user` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/assets/` | High
-10 | File | `/admin/booking-bwdates-reports-details.php` | High
-11 | File | `/admin/contact-us.php` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/inquiries/view_inquiry.php` | High
-16 | File | `/admin/maintenance/manage_brand.php` | High
-17 | File | `/admin/manage-users.php` | High
-18 | File | `/admin/normal-bwdates-reports-details.php` | High
-19 | File | `/admin/pages/student-print.php` | High
-20 | File | `/admin/service` | High
-21 | File | `/admin/twitter.php` | High
-22 | File | `/Admin/user-record.php` | High
-23 | File | `/admin/users` | Medium
-24 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-25 | File | `/admin_class.php` | High
-26 | File | `/admin_route/inc_service_credits.php` | High
-27 | File | `/alsdemo/ss/mediam.cgi` | High
-28 | File | `/api/admin/user/list` | High
-29 | File | `/api/admin/user?id` | High
-30 | File | `/api/controllers/merchant/app/ComboController.php` | High
-31 | File | `/api/file/downloadfile` | High
-32 | File | `/api/runscript` | High
-33 | File | `/api /v3/auth` | High
-34 | File | `/application/index/controller/Databasesource.php` | High
-35 | File | `/apps/system/api/user.go` | High
-36 | File | `/apps/system/router/upload.go` | High
-37 | File | `/apps/system/services/role_menu.go` | High
-38 | File | `/assets/php/upload.php` | High
-39 | File | `/billing/bill/edit/` | High
-40 | File | `/cap.js` | Low
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-44 | File | `/cgi-bin/info.cgi` | High
-45 | File | `/cgi-bin/myMusic.cgi` | High
-46 | File | `/cgi-bin/nas_sharing.cgi` | High
-47 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-48 | File | `/cgi-bin/system_mgr.cgi` | High
-49 | File | `/cgi-bin/tosei_kikai.php` | High
-50 | File | `/cgi-bin/webviewer_login_page` | High
-51 | File | `/classes/Master.php` | High
-52 | File | `/classes/Master.php?f=load_registration` | High
-53 | File | `/classes/Users.php` | High
-54 | File | `/classes/Users.php?f=delete` | High
-55 | File | `/classes/Users.php?f=save` | High
-56 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-57 | File | `/cm/update_rows/page?id=2` | High
-58 | ... | ... | ...
+3 | File | `/?page=tickets` | High
+4 | File | `/activation.php` | High
+5 | File | `/add_new_supplier.php` | High
+6 | File | `/admin` | Low
+7 | File | `/admin-manage-user.php` | High
+8 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+9 | File | `/admin/action/delete-vaccine.php` | High
+10 | File | `/admin/ajax.php?action=delete_user` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/assets/` | High
+13 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
+14 | File | `/admin/blood/update/B+.php` | High
+15 | File | `/admin/booking-bwdates-reports-details.php` | High
+16 | File | `/admin/contact-us.php` | High
+17 | File | `/admin/emp-profile-avatar.php` | High
+18 | File | `/admin/home.php?con=add` | High
+19 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/inquiries/view_inquiry.php` | High
+22 | File | `/admin/maintenance/manage_brand.php` | High
+23 | File | `/admin/normal-bwdates-reports-details.php` | High
+24 | File | `/admin/pages/student-print.php` | High
+25 | File | `/admin/password-recovery.php` | High
+26 | File | `/admin/profile.php` | High
+27 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+28 | File | `/admin/service` | High
+29 | File | `/admin/twitter.php` | High
+30 | File | `/Admin/user-record.php` | High
+31 | File | `/admin/users` | Medium
+32 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+33 | File | `/admin_class.php` | High
+34 | File | `/admin_route/inc_service_credits.php` | High
+35 | File | `/ajax.php?action=signup` | High
+36 | File | `/alsdemo/ss/mediam.cgi` | High
+37 | File | `/api/admin/user?id` | High
+38 | File | `/api/controllers/merchant/app/ComboController.php` | High
+39 | File | `/api/file/downloadfile` | High
+40 | File | `/api/runscript` | High
+41 | File | `/api /v3/auth` | High
+42 | File | `/application/index/controller/Databasesource.php` | High
+43 | File | `/apps/system/api/user.go` | High
+44 | File | `/apps/system/router/upload.go` | High
+45 | File | `/apps/system/services/role_menu.go` | High
+46 | File | `/assets/php/upload.php` | High
+47 | File | `/billing/bill/edit/` | High
+48 | File | `/cap.js` | Low
+49 | File | `/cgi-bin/cstecgi.cgi` | High
+50 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+51 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+52 | File | `/cgi-bin/info.cgi` | High
+53 | File | `/cgi-bin/myMusic.cgi` | High
+54 | File | `/cgi-bin/nas_sharing.cgi` | High
+55 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+56 | File | `/cgi-bin/system_mgr.cgi` | High
+57 | File | `/cgi-bin/tosei_kikai.php` | High
+58 | File | `/cgi-bin/webviewer_login_page` | High
+59 | File | `/classes/Master.php` | High
+60 | File | `/classes/Master.php?f=load_registration` | High
+61 | File | `/classes/Users.php` | High
+62 | ... | ... | ...
 
-There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Netherlands Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
+* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -7652,14 +7652,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-27, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -7667,71 +7665,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/add-students.php` | High
-4 | File | `/admin/?page=bike` | High
-5 | File | `/admin/?page=categories/view_category` | High
-6 | File | `/admin/?page=musics/manage_music` | High
-7 | File | `/admin/add_ikev2.php` | High
-8 | File | `/admin/category_save.php` | High
-9 | File | `/admin/emp-profile-avatar.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/admin/manage_user.php` | High
-14 | File | `/admin/media_folders` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/pages/` | High
-17 | File | `/admin/pages/list` | High
-18 | File | `/admin/robot.php` | High
-19 | File | `/admin/subject.php` | High
-20 | File | `/admin/suppliers/view_details.php` | High
-21 | File | `/admin/system.html` | High
-22 | File | `/admin/users.php` | High
-23 | File | `/ajax.php` | Medium
-24 | File | `/ajax/getBasicInfo.php` | High
-25 | File | `/api/deploy/upload` | High
-26 | File | `/api/deploy/upload /api/database/upload` | High
-27 | File | `/api/v1/toolbox/device/update/swap` | High
-28 | File | `/apply/index.php` | High
-29 | File | `/AttendanceMonitoring/report/index.php` | High
-30 | File | `/authMonitCallcenter` | High
-31 | File | `/backend/register.php` | High
-32 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/hd_config.cgi` | High
-35 | File | `/cgi-bin/myMusic.cgi` | High
-36 | File | `/cgi-bin/nas_sharing.cgi` | High
-37 | File | `/cgi-bin/p1_ftpserver.php` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/cgi-bin/tosei_kikai.php` | High
-40 | File | `/cgi-bin/wapopen` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=save_package` | High
-43 | File | `/classes/SystemSettings.php?f=update_settings` | High
-44 | File | `/classes/Users.php?f=delete` | High
-45 | File | `/clientdetails/admin/regester.php` | High
-46 | File | `/clinic/medical_records_view.php` | High
-47 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-48 | File | `/controllers/add_client.php` | High
-49 | File | `/downloadFile.php` | High
-50 | File | `/dtale/chart-data/1` | High
-51 | File | `/DXR.axd` | Medium
-52 | File | `/edit-subject.php` | High
-53 | File | `/endpoint/add-folder.php` | High
-54 | File | `/endpoint/add-task.php` | High
-55 | File | `/endpoint/add-user.php` | High
-56 | File | `/endpoint/delete-account.php` | High
-57 | File | `/endpoint/delete-calorie.php` | High
-58 | File | `/etc/postfix/sender_login` | High
-59 | File | `/etc/shadow.sample` | High
-60 | File | `/export` | Low
-61 | File | `/file_manager/login.php` | High
-62 | File | `/film-rating.php` | High
-63 | ... | ... | ...
+1 | File | `/filemanager/upload` | High
+2 | File | `adclick.php` | Medium
+3 | File | `add.php` | Low
+4 | ... | ... | ...
 
-There are 552 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

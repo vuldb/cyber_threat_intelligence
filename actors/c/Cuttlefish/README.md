@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,57 +47,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.backup/` | Medium
-2 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-3 | File | `/baseOpLog.do` | High
-4 | File | `/cgi-bin/New_GUI/Igmp.asp` | High
-5 | File | `/cgi-bin/portal` | High
-6 | File | `/forgetpassword.php` | High
-7 | File | `/goform/Diagnosis` | High
-8 | File | `/highlight/index.html` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/index.php` | Medium
-11 | File | `/net/core/filter.c` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/test/cookie/` | High
-14 | File | `/tmp/foo2zjs` | Medium
-15 | File | `/tmp/kamailio_fifo` | High
-16 | File | `/upload` | Low
-17 | File | `03-00-/b` | Medium
-18 | File | `add.php` | Low
-19 | File | `addtocart.asp` | High
-20 | File | `adherents/subscription/info.php` | High
-21 | File | `admin/general` | High
-22 | File | `admin/general.php` | High
-23 | File | `admin/graph_trend.php` | High
-24 | File | `admin/login.php` | High
-25 | File | `admin/sitesettings.php` | High
-26 | File | `adminler.asp` | Medium
-27 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-28 | File | `admin\db\DoSql.php` | High
-29 | File | `aide.php3` | Medium
-30 | File | `ajax/ph_save.php` | High
-31 | File | `ansible.cfg` | Medium
-32 | File | `Ap4EsDescriptor.cpp` | High
-33 | File | `app/plug/controller/giftcontroller.php` | High
-34 | File | `arch/arm/kernel/process.c` | High
-35 | File | `arch/x86/entry/entry_64.S` | High
-36 | File | `asm.js` | Low
-37 | File | `attachment_send.php` | High
-38 | File | `auth-gss2.c` | Medium
-39 | File | `backend\media\ajax_rename.php` | High
-40 | File | `bigdump.php` | Medium
-41 | File | `bpost.php` | Medium
-42 | File | `buffer/gegl-buffer-access.c` | High
-43 | File | `buffer/gegl-tile-backend-swap.c` | High
-44 | File | `byterun/bigarray.c` | High
-45 | File | `caladmin.inc.php` | High
-46 | File | `categoria.php` | High
-47 | File | `category.php` | Medium
-48 | File | `cgi-bin/luci/admin/network/firewall/rules` | High
-49 | File | `cgibin/ExportSettings.cgi?Export=1` | High
-50 | ... | ... | ...
+2 | File | `/Admin/add-admin.php` | High
+3 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+4 | File | `/baseOpLog.do` | High
+5 | File | `/cgi-bin/New_GUI/Igmp.asp` | High
+6 | File | `/cgi-bin/portal` | High
+7 | File | `/forgetpassword.php` | High
+8 | File | `/goform/Diagnosis` | High
+9 | File | `/highlight/index.html` | High
+10 | File | `/HNAP1` | Low
+11 | File | `/index.php` | Medium
+12 | File | `/net/core/filter.c` | High
+13 | File | `/pincode-verification.php` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/test/cookie/` | High
+16 | File | `/tmp/foo2zjs` | Medium
+17 | File | `/tmp/kamailio_fifo` | High
+18 | File | `/upload` | Low
+19 | File | `/Users.phpf=save` | High
+20 | File | `03-00-/b` | Medium
+21 | File | `add.php` | Low
+22 | File | `addtocart.asp` | High
+23 | File | `adherents/subscription/info.php` | High
+24 | File | `admin/general` | High
+25 | File | `admin/general.php` | High
+26 | File | `admin/graph_trend.php` | High
+27 | File | `admin/login.php` | High
+28 | File | `admin/sitesettings.php` | High
+29 | File | `adminler.asp` | Medium
+30 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+31 | File | `admin\db\DoSql.php` | High
+32 | File | `aide.php3` | Medium
+33 | File | `ajax/ph_save.php` | High
+34 | File | `ansible.cfg` | Medium
+35 | File | `Ap4EsDescriptor.cpp` | High
+36 | File | `app/plug/controller/giftcontroller.php` | High
+37 | File | `arch/arm/kernel/process.c` | High
+38 | File | `arch/x86/entry/entry_64.S` | High
+39 | File | `article.php` | Medium
+40 | File | `asm.js` | Low
+41 | File | `attachment_send.php` | High
+42 | File | `auth-gss2.c` | Medium
+43 | File | `backend\media\ajax_rename.php` | High
+44 | File | `bbms.php` | Medium
+45 | File | `bigdump.php` | Medium
+46 | File | `bpost.php` | Medium
+47 | File | `buffer/gegl-buffer-access.c` | High
+48 | File | `buffer/gegl-tile-backend-swap.c` | High
+49 | File | `byterun/bigarray.c` | High
+50 | File | `caladmin.inc.php` | High
+51 | File | `categoria.php` | High
+52 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## Literature
 

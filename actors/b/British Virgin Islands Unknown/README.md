@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 40 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -118,14 +118,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -133,30 +131,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/options.py` | High
-2 | File | `/card_scan.php` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/cwc/login` | Medium
-5 | File | `/debuginfo.htm` | High
-6 | File | `/download` | Medium
-7 | File | `/etc/passwd` | Medium
-8 | File | `/etc/quagga` | Medium
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forms/doLogin` | High
-11 | File | `/h/autoSaveDraft` | High
-12 | File | `/h/calendar` | Medium
-13 | File | `/inc/extensions.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/members/view_member.php` | High
-16 | File | `/mhds/clinic/view_details.php` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/req_password_user.php` | High
-22 | ... | ... | ...
+1 | File | `/debuginfo.htm` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/h/autoSaveDraft` | High
+4 | File | `admin.jcomments.php` | High
+5 | File | `app/admin/controller/Ajax.php` | High
+6 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

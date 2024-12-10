@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,17 +54,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/boat/login.php` | High
 6 | File | `/book-services.php` | High
 7 | File | `/coreframe/app/member/admin/group.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/home/courses` | High
-10 | File | `/horde/util/go.php` | High
-11 | File | `/owa/auth/logon.aspx` | High
-12 | File | `/secure/EditSubscription.jspa` | High
-13 | File | `/systemrw/` | Medium
-14 | File | `/tmp/supp_log` | High
-15 | File | `?r=recruit/bgchecks/export&checkids=x` | High
-16 | File | `account.php` | Medium
-17 | File | `ActivityStarter.java` | High
-18 | ... | ... | ...
+8 | File | `/curd/index/delfile` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/home/courses` | High
+11 | File | `/horde/util/go.php` | High
+12 | File | `/owa/auth/logon.aspx` | High
+13 | File | `/secure/EditSubscription.jspa` | High
+14 | File | `/systemrw/` | Medium
+15 | File | `/tmp/supp_log` | High
+16 | File | `?r=recruit/bgchecks/export&checkids=x` | High
+17 | File | `account.php` | Medium
+18 | File | `ActivityStarter.java` | High
+19 | ... | ... | ...
 
 There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

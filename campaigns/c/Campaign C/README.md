@@ -51,11 +51,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,48 +67,48 @@ ID | Type | Indicator | Confidence
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/admin-update-employee.php` | High
-6 | File | `/admin/list_resource_icon.php?action=delete` | High
-7 | File | `/admin/singlelogin.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/ajax/check_medicine_name.php` | High
-10 | File | `/api/clusters/local/topics/{topic}/messages` | High
-11 | File | `/API/info` | Medium
-12 | File | `/api/sys/login` | High
-13 | File | `/bcms/admin/?page=user/manage_user` | High
-14 | File | `/cgi-bin/ExportAllSettings.sh` | High
-15 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-16 | File | `/cgi-bin/tosei_kikai.php` | High
-17 | File | `/cgi/networkDiag.cgi` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/detailed.php` | High
-20 | File | `/dist/index.js` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/em/console/logon/logon` | High
-23 | File | `/env` | Low
-24 | File | `/EXCU_SHELL` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/general/email/inbox/delete_webmail.php` | High
-27 | File | `/goform/form2systime.cgi` | High
-28 | File | `/goform/modifyDhcpRule` | High
-29 | File | `/goform/ModifyPppAuthWhiteMac` | High
-30 | File | `/goform/net\_Web\_get_value` | High
-31 | File | `/goform/SetNetControlList` | High
-32 | File | `/goform/setStaOffline` | High
-33 | File | `/goform/WizardHandle` | High
-34 | File | `/GponForm/usb_restore_Form?script/` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/list` | Low
-38 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-39 | File | `/manage/IPSetup.php` | High
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/net/sched/cls_fw.c` | High
-43 | File | `/patient/appointment.php` | High
+5 | File | `/admin/?setting-base.htm` | High
+6 | File | `/admin/add-category.php` | High
+7 | File | `/admin/admin-update-employee.php` | High
+8 | File | `/admin/list_resource_icon.php?action=delete` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/singlelogin.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/ajax/check_medicine_name.php` | High
+13 | File | `/api/blade-user/export-user` | High
+14 | File | `/api/clusters/local/topics/{topic}/messages` | High
+15 | File | `/API/info` | Medium
+16 | File | `/api/sys/login` | High
+17 | File | `/bcms/admin/?page=user/manage_user` | High
+18 | File | `/book_list.php` | High
+19 | File | `/cgi-bin/ExportAllSettings.sh` | High
+20 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+21 | File | `/cgi-bin/tosei_kikai.php` | High
+22 | File | `/cgi/networkDiag.cgi` | High
+23 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/detailed.php` | High
+26 | File | `/dist/index.js` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/em/console/logon/logon` | High
+29 | File | `/env` | Low
+30 | File | `/EXCU_SHELL` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/general/email/inbox/delete_webmail.php` | High
+33 | File | `/goform/form2systime.cgi` | High
+34 | File | `/goform/modifyDhcpRule` | High
+35 | File | `/goform/ModifyPppAuthWhiteMac` | High
+36 | File | `/goform/net\_Web\_get_value` | High
+37 | File | `/goform/SetNetControlList` | High
+38 | File | `/goform/setStaOffline` | High
+39 | File | `/goform/WizardHandle` | High
+40 | File | `/GponForm/usb_restore_Form?script/` | High
+41 | File | `/group1/uploa` | High
+42 | File | `/hedwig.cgi` | Medium
+43 | File | `/list` | Low
 44 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

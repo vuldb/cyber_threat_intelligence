@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -88,33 +88,34 @@ ID | Type | Indicator | Confidence
 25 | File | `/env` | Low
 26 | File | `/exec/` | Low
 27 | File | `/forum/away.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/member.php?action=chgpwdsubmit` | High
-30 | File | `/opt/bin/cli` | Medium
-31 | File | `/p` | Low
-32 | File | `/patient/doctors.php` | High
-33 | File | `/phpinventory/editcategory.php` | High
-34 | File | `/php_action/createUser.php` | High
-35 | File | `/product-list.php` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/updown/upload.cgi` | High
-39 | File | `/user/del.php` | High
-40 | File | `/web_cste/cgi-bin/product.ini` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/_next` | Low
-43 | File | `123flashchat.php` | High
-44 | File | `act.php` | Low
-45 | File | `adclick.php` | Medium
-46 | File | `admin.php/pay` | High
-47 | File | `admin/bad.php` | High
-48 | File | `admin/index.php` | High
-49 | File | `admin/index.php/user/del/1` | High
-50 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-51 | File | `admin/products/controller.php?action=add` | High
-52 | ... | ... | ...
+28 | File | `/include/file.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/member.php?action=chgpwdsubmit` | High
+32 | File | `/opt/bin/cli` | Medium
+33 | File | `/p` | Low
+34 | File | `/patient/doctors.php` | High
+35 | File | `/phpinventory/editcategory.php` | High
+36 | File | `/php_action/createUser.php` | High
+37 | File | `/product-list.php` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/updown/upload.cgi` | High
+41 | File | `/user/del.php` | High
+42 | File | `/web_cste/cgi-bin/product.ini` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `/_next` | Low
+45 | File | `123flashchat.php` | High
+46 | File | `act.php` | Low
+47 | File | `adclick.php` | Medium
+48 | File | `admin.php/pay` | High
+49 | File | `admin/bad.php` | High
+50 | File | `admin/index.php` | High
+51 | File | `admin/index.php/user/del/1` | High
+52 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+53 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

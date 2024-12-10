@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with TAG-70:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TAG-70:
 
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
 * [RU](https://vuldb.com/?country.ru)
+* [PT](https://vuldb.com/?country.pt)
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

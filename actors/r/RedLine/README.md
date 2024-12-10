@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedLine:
 
-* [SH](https://vuldb.com/?country.sh)
-* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,7 +91,7 @@ ID | IP address | Hostname | Campaign | Confidence
 68 | [50.16.218.217](https://vuldb.com/?ip.50.16.218.217) | ec2-50-16-218-217.compute-1.amazonaws.com | - | Medium
 69 | ... | ... | ... | ...
 
-There are 270 more IOC items available. Please use our online service to access the data.
+There are 272 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,14 +100,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -116,54 +114,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/edit-post.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/adminPage/conf/reload` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/database` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-15 | File | `/applications/nexus/modules/front/store/store.php` | High
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/c/PluginsController.php` | High
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/apkg_mgr.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
-24 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-25 | File | `/chaincity/user/ticket/create` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=delete_record` | High
-28 | File | `/classes/Master.php?f=save_category` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/classes/Users.php?f=save` | High
-31 | File | `/collection/all` | High
-32 | File | `/Controller/Ajaxfileupload.ashx` | High
-33 | File | `/detailed.php` | High
-34 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-35 | File | `/dtale/chart-data/1` | High
-36 | File | `/ecommerce/support_ticket` | High
-37 | File | `/ecrire/exec/puce_statut.php` | High
-38 | File | `/etc/shadow.sample` | High
-39 | File | `/fftools/ffmpeg_enc.c` | High
-40 | File | `/files/` | Low
-41 | File | `/forms/doLogin` | High
-42 | File | `/formSysLog` | Medium
-43 | File | `/forum/away.php` | High
-44 | File | `/friends/ajax_invite` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | File | `/h.php/page?ref=addtabs` | High
-47 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/Admin/akun_edit.php` | High
+5 | File | `/admin/apply.php` | High
+6 | File | `/admin/create-package.php` | High
+7 | File | `/admin/doAdminAction.php?act=addCate` | High
+8 | File | `/admin/edit-brand.php` | High
+9 | File | `/admin/edit-post.php` | High
+10 | File | `/admin/file_manager/export` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/Admin/Proses_Edit_Akun.php` | High
+14 | File | `/admin/robot.php` | High
+15 | File | `/admin/search-invoices.php` | High
+16 | File | `/adminPage/conf/reload` | High
+17 | File | `/api/cron/settings/setJob/` | High
+18 | File | `/api2/html/` | Medium
+19 | File | `/app/index/controller/Common.php` | High
+20 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+21 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+22 | File | `/applications/nexus/modules/front/store/store.php` | High
+23 | File | `/cgi-bin/apkg_mgr.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+28 | File | `/classes/Master.php` | High
+29 | File | `/classes/Master.php?f=delete_record` | High
+30 | File | `/classes/Master.php?f=save_category` | High
+31 | File | `/classes/SystemSettings.php?f=update_settings` | High
+32 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,6 +202,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/51274/
 * https://asec.ahnlab.com/en/51444/
 * https://blog.morphisec.com/google-ppc-ads-deliver-redline-taurus-and-mini-redline-infostealers
+* https://blog.morphisec.com/threat-analysis-lua-malware
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html

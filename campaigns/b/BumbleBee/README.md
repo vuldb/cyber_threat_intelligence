@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,7 +22,7 @@ These _actors_ are associated with BumbleBee or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [xHunt](https://vuldb.com/?actor.xhunt) | High
-2 | [Exotic Lily](https://vuldb.com/?actor.exotic_lily) | High
+2 | [TA578](https://vuldb.com/?actor.ta578) | High
 3 | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
 4 | ... | ...
 
@@ -331,79 +331,81 @@ ID | IP address | Hostname | Actor | Confidence
 295 | [45.66.248.216](https://vuldb.com/?ip.45.66.248.216) | spam.lastmer.xyz | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
 296 | [45.67.231.123](https://vuldb.com/?ip.45.67.231.123) | mihome.ru | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
 297 | [45.67.231.151](https://vuldb.com/?ip.45.67.231.151) | vm1197030.stark-industries.solutions | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-298 | [45.84.0.13](https://vuldb.com/?ip.45.84.0.13) | vm523902.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-299 | [45.84.240.87](https://vuldb.com/?ip.45.84.240.87) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-300 | [45.132.180.49](https://vuldb.com/?ip.45.132.180.49) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-301 | [45.138.172.22](https://vuldb.com/?ip.45.138.172.22) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-302 | [45.138.172.246](https://vuldb.com/?ip.45.138.172.246) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-303 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm542320.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-304 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-305 | [45.141.58.37](https://vuldb.com/?ip.45.141.58.37) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-306 | [45.141.58.139](https://vuldb.com/?ip.45.141.58.139) | galorebase.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-307 | [45.142.214.120](https://vuldb.com/?ip.45.142.214.120) | vm516885.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-308 | [45.142.214.167](https://vuldb.com/?ip.45.142.214.167) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-309 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-310 | [45.147.229.47](https://vuldb.com/?ip.45.147.229.47) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-311 | [45.147.229.50](https://vuldb.com/?ip.45.147.229.50) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-312 | [45.147.229.101](https://vuldb.com/?ip.45.147.229.101) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-313 | [45.147.229.177](https://vuldb.com/?ip.45.147.229.177) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-314 | [45.147.229.199](https://vuldb.com/?ip.45.147.229.199) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-315 | [45.147.229.223](https://vuldb.com/?ip.45.147.229.223) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-316 | [45.147.230.179](https://vuldb.com/?ip.45.147.230.179) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-317 | [45.147.230.233](https://vuldb.com/?ip.45.147.230.233) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-318 | [45.147.230.245](https://vuldb.com/?ip.45.147.230.245) | poppuworls.club | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-319 | [45.147.231.107](https://vuldb.com/?ip.45.147.231.107) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-320 | [45.147.231.156](https://vuldb.com/?ip.45.147.231.156) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-321 | [45.147.231.202](https://vuldb.com/?ip.45.147.231.202) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-322 | [45.147.231.232](https://vuldb.com/?ip.45.147.231.232) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-323 | [45.150.67.154](https://vuldb.com/?ip.45.150.67.154) | vm1326648.stark-industries.solutions | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-324 | [45.153.240.56](https://vuldb.com/?ip.45.153.240.56) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-325 | [45.153.240.94](https://vuldb.com/?ip.45.153.240.94) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-326 | [45.153.240.139](https://vuldb.com/?ip.45.153.240.139) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-327 | [45.153.240.155](https://vuldb.com/?ip.45.153.240.155) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-328 | [45.153.241.19](https://vuldb.com/?ip.45.153.241.19) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-329 | [45.153.241.64](https://vuldb.com/?ip.45.153.241.64) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-330 | [45.153.241.120](https://vuldb.com/?ip.45.153.241.120) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-331 | [45.153.241.187](https://vuldb.com/?ip.45.153.241.187) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-332 | [45.153.241.209](https://vuldb.com/?ip.45.153.241.209) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-333 | [45.153.241.234](https://vuldb.com/?ip.45.153.241.234) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-334 | [45.153.241.245](https://vuldb.com/?ip.45.153.241.245) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-335 | [45.153.242.61](https://vuldb.com/?ip.45.153.242.61) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-336 | [45.153.242.100](https://vuldb.com/?ip.45.153.242.100) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-337 | [45.153.242.105](https://vuldb.com/?ip.45.153.242.105) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-338 | [45.153.242.183](https://vuldb.com/?ip.45.153.242.183) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-339 | [45.153.242.184](https://vuldb.com/?ip.45.153.242.184) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-340 | [45.153.242.242](https://vuldb.com/?ip.45.153.242.242) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-341 | [45.153.243.82](https://vuldb.com/?ip.45.153.243.82) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-342 | [45.153.243.93](https://vuldb.com/?ip.45.153.243.93) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-343 | [45.153.243.111](https://vuldb.com/?ip.45.153.243.111) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-344 | [45.153.243.126](https://vuldb.com/?ip.45.153.243.126) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-345 | [45.153.243.130](https://vuldb.com/?ip.45.153.243.130) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-346 | [45.153.243.142](https://vuldb.com/?ip.45.153.243.142) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-347 | [45.153.243.222](https://vuldb.com/?ip.45.153.243.222) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-348 | [46.21.153.145](https://vuldb.com/?ip.46.21.153.145) | 145.153.21.46.static.swiftway.net | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-349 | [46.21.153.157](https://vuldb.com/?ip.46.21.153.157) | 157.153.21.46.static.swiftway.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-350 | [46.21.153.246](https://vuldb.com/?ip.46.21.153.246) | 246.153.21.46.static.swiftway.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-351 | [46.44.240.53](https://vuldb.com/?ip.46.44.240.53) | 46-44-240-53.ip.welcomeitalia.it | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-352 | [46.142.186.28](https://vuldb.com/?ip.46.142.186.28) | 28-186-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-353 | [46.142.187.27](https://vuldb.com/?ip.46.142.187.27) | 27-187-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-354 | [46.142.187.96](https://vuldb.com/?ip.46.142.187.96) | 96-187-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-355 | [46.214.226.37](https://vuldb.com/?ip.46.214.226.37) | 46-214-226-37.next-gen.ro | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-356 | [46.240.5.92](https://vuldb.com/?ip.46.240.5.92) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-357 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-358 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-359 | [46.249.38.114](https://vuldb.com/?ip.46.249.38.114) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-360 | [46.249.38.141](https://vuldb.com/?ip.46.249.38.141) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-361 | [47.26.53.19](https://vuldb.com/?ip.47.26.53.19) | 047-026-053-019.res.spectrum.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-362 | [47.27.63.45](https://vuldb.com/?ip.47.27.63.45) | 047-027-063-045.res.spectrum.com | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-363 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-364 | [47.195.111.117](https://vuldb.com/?ip.47.195.111.117) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-365 | [47.199.12.234](https://vuldb.com/?ip.47.199.12.234) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-366 | [48.165.175.199](https://vuldb.com/?ip.48.165.175.199) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-367 | [48.194.62.179](https://vuldb.com/?ip.48.194.62.179) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-368 | ... | ... | ... | ...
+298 | [45.83.20.213](https://vuldb.com/?ip.45.83.20.213) | host283.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+299 | [45.84.0.13](https://vuldb.com/?ip.45.84.0.13) | vm523902.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+300 | [45.84.240.87](https://vuldb.com/?ip.45.84.240.87) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+301 | [45.132.180.49](https://vuldb.com/?ip.45.132.180.49) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+302 | [45.138.172.22](https://vuldb.com/?ip.45.138.172.22) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+303 | [45.138.172.246](https://vuldb.com/?ip.45.138.172.246) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+304 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm542320.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+305 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+306 | [45.141.58.37](https://vuldb.com/?ip.45.141.58.37) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+307 | [45.141.58.139](https://vuldb.com/?ip.45.141.58.139) | galorebase.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+308 | [45.142.214.120](https://vuldb.com/?ip.45.142.214.120) | vm516885.stark-industries.solutions | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+309 | [45.142.214.167](https://vuldb.com/?ip.45.142.214.167) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+310 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+311 | [45.147.229.47](https://vuldb.com/?ip.45.147.229.47) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+312 | [45.147.229.50](https://vuldb.com/?ip.45.147.229.50) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+313 | [45.147.229.101](https://vuldb.com/?ip.45.147.229.101) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+314 | [45.147.229.177](https://vuldb.com/?ip.45.147.229.177) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+315 | [45.147.229.199](https://vuldb.com/?ip.45.147.229.199) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+316 | [45.147.229.223](https://vuldb.com/?ip.45.147.229.223) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+317 | [45.147.230.179](https://vuldb.com/?ip.45.147.230.179) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+318 | [45.147.230.233](https://vuldb.com/?ip.45.147.230.233) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+319 | [45.147.230.245](https://vuldb.com/?ip.45.147.230.245) | poppuworls.club | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+320 | [45.147.231.107](https://vuldb.com/?ip.45.147.231.107) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+321 | [45.147.231.156](https://vuldb.com/?ip.45.147.231.156) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+322 | [45.147.231.202](https://vuldb.com/?ip.45.147.231.202) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+323 | [45.147.231.232](https://vuldb.com/?ip.45.147.231.232) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+324 | [45.150.67.154](https://vuldb.com/?ip.45.150.67.154) | vm1326648.stark-industries.solutions | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+325 | [45.153.240.56](https://vuldb.com/?ip.45.153.240.56) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+326 | [45.153.240.94](https://vuldb.com/?ip.45.153.240.94) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+327 | [45.153.240.139](https://vuldb.com/?ip.45.153.240.139) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+328 | [45.153.240.155](https://vuldb.com/?ip.45.153.240.155) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+329 | [45.153.241.19](https://vuldb.com/?ip.45.153.241.19) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+330 | [45.153.241.64](https://vuldb.com/?ip.45.153.241.64) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+331 | [45.153.241.120](https://vuldb.com/?ip.45.153.241.120) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+332 | [45.153.241.187](https://vuldb.com/?ip.45.153.241.187) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+333 | [45.153.241.209](https://vuldb.com/?ip.45.153.241.209) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+334 | [45.153.241.234](https://vuldb.com/?ip.45.153.241.234) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+335 | [45.153.241.245](https://vuldb.com/?ip.45.153.241.245) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+336 | [45.153.242.61](https://vuldb.com/?ip.45.153.242.61) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+337 | [45.153.242.100](https://vuldb.com/?ip.45.153.242.100) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+338 | [45.153.242.105](https://vuldb.com/?ip.45.153.242.105) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+339 | [45.153.242.183](https://vuldb.com/?ip.45.153.242.183) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+340 | [45.153.242.184](https://vuldb.com/?ip.45.153.242.184) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+341 | [45.153.242.242](https://vuldb.com/?ip.45.153.242.242) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+342 | [45.153.243.82](https://vuldb.com/?ip.45.153.243.82) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+343 | [45.153.243.93](https://vuldb.com/?ip.45.153.243.93) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+344 | [45.153.243.111](https://vuldb.com/?ip.45.153.243.111) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+345 | [45.153.243.126](https://vuldb.com/?ip.45.153.243.126) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+346 | [45.153.243.130](https://vuldb.com/?ip.45.153.243.130) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+347 | [45.153.243.142](https://vuldb.com/?ip.45.153.243.142) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+348 | [45.153.243.222](https://vuldb.com/?ip.45.153.243.222) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+349 | [45.155.37.158](https://vuldb.com/?ip.45.155.37.158) | 1484.agileigan.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+350 | [46.21.153.145](https://vuldb.com/?ip.46.21.153.145) | 145.153.21.46.static.swiftway.net | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+351 | [46.21.153.157](https://vuldb.com/?ip.46.21.153.157) | 157.153.21.46.static.swiftway.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+352 | [46.21.153.246](https://vuldb.com/?ip.46.21.153.246) | 246.153.21.46.static.swiftway.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+353 | [46.44.240.53](https://vuldb.com/?ip.46.44.240.53) | 46-44-240-53.ip.welcomeitalia.it | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+354 | [46.142.186.28](https://vuldb.com/?ip.46.142.186.28) | 28-186-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+355 | [46.142.187.27](https://vuldb.com/?ip.46.142.187.27) | 27-187-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+356 | [46.142.187.96](https://vuldb.com/?ip.46.142.187.96) | 96-187-142-46.pool.kielnet.net | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+357 | [46.214.226.37](https://vuldb.com/?ip.46.214.226.37) | 46-214-226-37.next-gen.ro | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+358 | [46.240.5.92](https://vuldb.com/?ip.46.240.5.92) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+359 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+360 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+361 | [46.249.38.114](https://vuldb.com/?ip.46.249.38.114) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+362 | [46.249.38.141](https://vuldb.com/?ip.46.249.38.141) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+363 | [46.249.38.179](https://vuldb.com/?ip.46.249.38.179) | donyayerayaneh.xyz | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+364 | [47.26.53.19](https://vuldb.com/?ip.47.26.53.19) | 047-026-053-019.res.spectrum.com | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+365 | [47.27.63.45](https://vuldb.com/?ip.47.27.63.45) | 047-027-063-045.res.spectrum.com | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+366 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+367 | [47.195.111.117](https://vuldb.com/?ip.47.195.111.117) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+368 | [47.199.12.234](https://vuldb.com/?ip.47.199.12.234) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+369 | [48.165.175.199](https://vuldb.com/?ip.48.165.175.199) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+370 | ... | ... | ... | ...
 
-There are 1469 more IOC items available. Please use our online service to access the data.
+There are 1475 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -411,11 +413,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-37, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -426,64 +428,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
-3 | File | `/?import` | Medium
-4 | File | `/abcd/opac/php/otros_sitios.php` | High
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
-7 | File | `/admin/admin_log.php?clear=1` | High
-8 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-9 | File | `/admin/category_save.php` | High
-10 | File | `/admin/contacts/organizations/edit/2` | High
-11 | File | `/admin/dialog/select_images_post.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/manage_model.php` | High
-14 | File | `/admin/manage_user.php` | High
-15 | File | `/admin/robot.php` | High
-16 | File | `/admin/subject.php` | High
-17 | File | `/admin/system.html` | High
-18 | File | `/admin/system.php` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/admins/{adminId}` | High
-21 | File | `/ajax/check_medicine_name.php` | High
-22 | File | `/api/runscript` | High
-23 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-24 | File | `/api /v3/auth` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/boafrm/formSystemCheck` | High
-28 | File | `/buscar_integrada.php` | High
-29 | File | `/cgi-bin/alexserv` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/hd_config.cgi` | High
-32 | File | `/cgi-bin/myMusic.cgi` | High
-33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-34 | File | `/cgi-bin/tosei_kikai.php` | High
-35 | File | `/cgi-bin/webfile_mgr.cgi` | High
-36 | File | `/classes/Master.php?f=save_package` | High
-37 | File | `/classes/SystemSettings.php?f=update_settings` | High
-38 | File | `/contact.php` | Medium
-39 | File | `/controllers/add_user.php` | High
-40 | File | `/core/config-revisions` | High
-41 | File | `/core/tools/delete_place.php` | High
-42 | File | `/dcim/power-ports/add/` | High
-43 | File | `/DXR.axd` | Medium
-44 | File | `/ecommerce/admin/login.php` | High
-45 | File | `/ecommerce/popup_Item.php` | High
-46 | File | `/edit-subject.php` | High
-47 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-48 | File | `/endpoint/add-calorie.php` | High
-49 | File | `/endpoint/delete-account.php` | High
-50 | File | `/endpoint/delete-bookmark.php` | High
-51 | File | `/endpoint/update.php` | High
-52 | File | `/etc/passwd` | Medium
-53 | File | `/film-rating.php` | High
-54 | File | `/foms/routers/place-order.php` | High
-55 | File | `/forum/away.php` | High
-56 | ... | ... | ...
+1 | File | `/#ProductSerie/view/` | High
+2 | File | `/aboutadd.php` | High
+3 | File | `/addstock.php` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/admin/?page=reports` | High
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/?setting-base.htm` | High
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+10 | File | `/admin/book-details.php` | High
+11 | File | `/admin/budget/manage_budget.php` | High
+12 | File | `/admin/bwdates-reports-ds.php` | High
+13 | File | `/admin/edit-brand.php` | High
+14 | File | `/admin/edit_role.php` | High
+15 | File | `/admin/fetch_product_details.php` | High
+16 | File | `/admin/index2.html` | High
+17 | File | `/admin/massage.php` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/password-recovery.php` | High
+20 | File | `/admin/profile.php` | High
+21 | File | `/admin/settings/index.php?page=accounts` | High
+22 | File | `/admin/template/edit` | High
+23 | File | `/adminapi/system/file/openfile` | High
+24 | File | `/animalsupdate.php` | High
+25 | File | `/api/blade-user/export-user` | High
+26 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+27 | File | `/app/admin/controller/api/Plugs.php` | High
+28 | File | `/apply.cgi` | Medium
+29 | File | `/articles/welcome-to-your-site#comments-head` | High
+30 | File | `/auth_files/photo/` | High
+31 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+32 | File | `/backend/admin/his_admin_add_vendor.php` | High
+33 | File | `/backend/admin/his_admin_register_patient.php` | High
+34 | File | `/bloodrequest.php` | High
+35 | File | `/book_list.php` | High
+36 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+37 | File | `/cgi-bin/alexserv` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/ExportSettings.sh` | High
+40 | File | `/cgi-bin/luci/api/auth` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/chat/completions` | High
+43 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+44 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+45 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+46 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+47 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+48 | ... | ... | ...
 
-There are 488 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -499,6 +493,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.blueliv.com/#!/s/62b165ee82df417a00331a19
 * https://community.blueliv.com/#!/s/6285f1a182df41552632f533
 * https://de.darktrace.com/blog/from-bumblebee-to-cobalt-strike-steps-of-a-bumblebee-intrusion
+* https://exchange.xforce.ibmcloud.com/report/details/guid:ecc44f9e7c4e91407a1efbbf8181d116
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_01.06.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_02.06.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_03.06.2022.txt
@@ -512,6 +507,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_23.06.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_27.05.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_27.06.2022.txt
+* https://ioc.exchange/@abuse_ch/113593975187002067
 * https://research.checkpoint.com/2022/bumblebee-increasing-its-capacity-and-evolving-its-ttps/
 * https://search.censys.io/hosts/34.100.227.178+178.227.100.34.bc.googleusercontent.com
 * https://search.censys.io/hosts/35.200.145.215+215.145.200.35.bc.googleusercontent.com

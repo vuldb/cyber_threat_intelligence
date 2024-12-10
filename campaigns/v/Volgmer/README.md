@@ -61,14 +61,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,44 +79,47 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/.env` | Low
 3 | File | `/.vnc/sesman_${username}_passwd` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/admin_user.php` | High
-7 | File | `/admin/borrow_add.php` | High
-8 | File | `/admin/category_row.php` | High
-9 | File | `/admin/communitymanagement.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/index.php?page=categories` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/project/update/2` | High
-14 | File | `/admin/request-received-bydonar.php` | High
-15 | File | `/admin/students/manage.php` | High
-16 | File | `/admin/success_story.php` | High
-17 | File | `/ajax/checkin.php` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/boaform/device_reset.cgi` | High
-20 | File | `/boaform/wlan_basic_set.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/course/filterRecords/` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/download/image` | High
-28 | File | `/Employer/EditProfile.php` | High
-29 | File | `/Employer/ManageJob.php` | High
-30 | File | `/etc/shadow` | Medium
-31 | File | `/firewall/policy/` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/FuguHub/cmsdocs/` | High
-34 | File | `/goform/SetSysTimeCfg` | High
-35 | File | `/hedwig.cgi` | Medium
-36 | File | `/ims/login.php` | High
-37 | File | `/inc/jquery/uploadify/uploadify.php` | High
-38 | File | `/includes/common/require_access_recovery.php` | High
-39 | ... | ... | ...
+4 | File | `/?page=reports` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/admin/category_row.php` | High
+10 | File | `/admin/communitymanagement.php` | High
+11 | File | `/admin/emp-profile-avatar.php` | High
+12 | File | `/admin/index.php?page=categories` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/Admin/login.php` | High
+15 | File | `/admin/project/update/2` | High
+16 | File | `/admin/request-received-bydonar.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/success_story.php` | High
+19 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+20 | File | `/adminapi/system/file/openfile` | High
+21 | File | `/ajax/checkin.php` | High
+22 | File | `/api/v1/settings` | High
+23 | File | `/api/v2/cli/commands` | High
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Users.php?f=save` | High
+29 | File | `/control/activate_case.php` | High
+30 | File | `/dbsrv.asp` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/download/image` | High
+33 | File | `/edit1.php` | Medium
+34 | File | `/Employee/edit-profile.php` | High
+35 | File | `/Employer/EditProfile.php` | High
+36 | File | `/Employer/ManageJob.php` | High
+37 | File | `/etc/shadow` | Medium
+38 | File | `/firewall/policy/` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/getcfg.php` | Medium
+41 | File | `/goform/formEasySetTimezone` | High
+42 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

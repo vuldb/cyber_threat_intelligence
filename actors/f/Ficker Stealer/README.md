@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [37.0.8.225](https://vuldb.com/?ip.37.0.8.225) | avilalee.cartierevannucci.com | - | High
 14 | ... | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,10 +47,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,48 +57,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-2 | File | `/agc/vicidial.php` | High
-3 | File | `/cgi-bin/viewcert` | High
-4 | File | `/classes/Master.php` | High
-5 | File | `/console/ConsolePage/Master.html` | High
-6 | File | `/cstecgi.cgi` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/freelance/resume_list` | High
-9 | File | `/img/main.cgi` | High
-10 | File | `/index.php` | Medium
-11 | File | `/pms/admin/crimes/manage_crime.php` | High
-12 | File | `/sitecore/shell/Invoke.aspx` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/userman/inbox.php` | High
-17 | File | `/usr/sbin/nagios` | High
-18 | File | `/var/log/nginx` | High
-19 | File | `/var/run/docker.sock` | High
-20 | File | `/web/api/v1/upload/UploadHandler.php` | High
-21 | File | `/_vti_bin/_vti_log` | High
-22 | File | `adclick.php` | Medium
-23 | File | `addentry.php` | Medium
-24 | File | `addtocart.asp` | High
-25 | File | `add_bookmark.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/adm/test.php` | High
-28 | File | `admin/admin.shtml` | High
-29 | File | `admin/general.php` | High
-30 | File | `admincp.php?app=prop&do=add` | High
-31 | File | `administrator/components/com_media/helpers/media.php` | High
-32 | File | `adminlogin.asp` | High
-33 | File | `Adminstrator/Users/Edit/` | High
-34 | File | `advsearch.php` | High
-35 | File | `agora.cgi` | Medium
-36 | File | `AppDMClient` | Medium
-37 | File | `append/override_content_security_policy_directives` | High
-38 | File | `authent.php4` | Medium
-39 | File | `base/ErrorHandler.php` | High
-40 | ... | ... | ...
+1 | File | `/agc/vicidial.php` | High
+2 | File | `/cgi-bin/viewcert` | High
+3 | File | `/classes/Master.php` | High
+4 | File | `/cstecgi.cgi` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/freelance/resume_list` | High
+7 | File | `/ovirt-engine/webadmin/GenericApiGWTService` | High
+8 | File | `/pms/admin/crimes/manage_crime.php` | High
+9 | File | `/sitecore/shell/Invoke.aspx` | High
+10 | File | `/spip.php` | Medium
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

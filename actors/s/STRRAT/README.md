@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,25 +67,27 @@ ID | IP address | Hostname | Campaign | Confidence
 44 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
 45 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
 46 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
-47 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
-48 | [45.95.169.162](https://vuldb.com/?ip.45.95.169.162) | - | - | High
-49 | [45.128.36.178](https://vuldb.com/?ip.45.128.36.178) | - | - | High
-50 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-51 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
-52 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
-53 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
-54 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-55 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
-56 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-57 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
-58 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
-59 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-60 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
-61 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
-62 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-63 | ... | ... | ... | ...
+47 | [45.88.88.94](https://vuldb.com/?ip.45.88.88.94) | - | - | High
+48 | [45.89.247.199](https://vuldb.com/?ip.45.89.247.199) | - | - | High
+49 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
+50 | [45.95.169.162](https://vuldb.com/?ip.45.95.169.162) | - | - | High
+51 | [45.128.36.178](https://vuldb.com/?ip.45.128.36.178) | - | - | High
+52 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+53 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
+54 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
+55 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
+56 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+57 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
+58 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+59 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
+60 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
+61 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
+62 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
+63 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
+64 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+65 | ... | ... | ... | ...
 
-There are 248 more IOC items available. Please use our online service to access the data.
+There are 254 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -97,10 +99,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,19 +124,24 @@ ID | Type | Indicator | Confidence
 12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 13 | File | `/catalog/all-products` | High
 14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/changePassword` | High
-17 | File | `/clientdetails/admin/regester.php` | High
-18 | File | `/edit-subject.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/etc/shadow.sample` | High
-22 | File | `/farm/product.php` | High
-23 | File | `/foms/routers/place-order.php` | High
-24 | File | `/forum/away.php` | High
-25 | ... | ... | ...
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/changePassword` | High
+18 | File | `/clientdetails/admin/regester.php` | High
+19 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+20 | File | `/edit-subject.php` | High
+21 | File | `/emloyee_akpoly/Account/login.php` | High
+22 | File | `/endpoint/add-user.php` | High
+23 | File | `/etc/postfix/sender_login` | High
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/farm/product.php` | High
+26 | File | `/foms/routers/place-order.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/SetLEDCfg` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,6 +153,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/62271ce84033d4463bd6f753675466f45ccc6c3a063c78c2c5b0346c23d3c470/
 * https://bazaar.abuse.ch/sample/685549196c77e82e6273752a6fe522ee18da8076f0029ad8232c6e0d36853675/
 * https://bazaar.abuse.ch/sample/a98d9028b8f90a56e17743affb17f3ad95585e35c225714bec021330f7b9b2bd/
+* https://bazaar.abuse.ch/sample/c6fee7fb70025c071b147b62a8f12eff3fc9f2c05e192e423ca4164de6b02a46/
 * https://bazaar.abuse.ch/sample/df0b2c36101cbf09511ebfe27d85bf3436dd2f3597356a40eb743825633d6ac6/
 * https://bazaar.abuse.ch/sample/e6e7a195132e49584dd2015d1dcb43e547cd55c1a772f3509b126fdc555a8374/
 * https://bazaar.abuse.ch/sample/e6f93fbf80cf48ca944fd053685061a3c512dcf83952fd440a0f882ebab76e9f/

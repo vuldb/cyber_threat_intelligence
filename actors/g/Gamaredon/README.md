@@ -94,11 +94,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
-
-There are 12 more TTP items available. Please use our online service to access the data.
+2 | T1204.001 | CWE-601 | Open Redirect | High
 
 ## IOA - Indicator of Attack
 
@@ -106,17 +102,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/objects/getImageMP4.php` | High
-2 | File | `/out.php` | Medium
-3 | File | `/payu/icpcheckout/` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `asn1fix_retrieve.c` | High
-7 | File | `bigsam_guestbook.php` | High
-8 | File | `books.php` | Medium
-9 | ... | ... | ...
-
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+1 | File | `.git/` | Low
 
 ## References
 

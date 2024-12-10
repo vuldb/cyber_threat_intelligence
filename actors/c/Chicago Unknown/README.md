@@ -9,11 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chicago Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CE](https://vuldb.com/?country.ce)
-* [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -214,12 +209,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -228,27 +223,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin-update-employee.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/manage-ambulance.php` | High
-5 | File | `/admin/mod_room/controller.php?action=add` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/client/editemedia.php` | High
-8 | File | `/api/v2/maps` | Medium
-9 | File | `/backend/register.php` | High
-10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/cgi-bin/p1_ftpserver.php` | High
-12 | File | `/cgi-bin/tosei_kikai.php` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/classes/Master.php?f=log_employee` | High
-15 | File | `/classes/SystemSettings.php?f=update_settings` | High
-16 | File | `/classes/Users.php?f=delete` | High
-17 | File | `/control/register_case.php` | High
-18 | File | `/etc/keystone/user-project-map.json` | High
-19 | File | `/foms/routers/place-order.php` | High
-20 | ... | ... | ...
+2 | File | `/admin/bwdates-report-details.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/mod_room/controller.php?action=add` | High
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/api/v2/maps` | Medium
+7 | File | `/cgi-bin/p1_ftpserver.php` | High
+8 | File | `/cgi-bin/tosei_kikai.php` | High
+9 | File | `/classes/Master.php` | High
+10 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

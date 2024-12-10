@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,37 +62,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-manage-user.php` | High
 2 | File | `/admin/?page=product/manage_product&id=2` | High
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/index.PHP` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/manage_complaint.php` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/store.php` | High
-9 | File | `/admin/view_sendlist.php` | High
-10 | File | `/adminPage/main/upload` | High
-11 | File | `/admin_ping.htm` | High
-12 | File | `/ample/app/action/edit_product.php` | High
-13 | File | `/api/dashboard/activity` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/system/user?deptId=1&page=1&size=10` | High
-16 | File | `/app/index/controller/Common.php` | High
-17 | File | `/catalog_add.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-20 | File | `/cgi-bin/hd_config.cgi` | High
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/classes/Users.php` | High
-23 | File | `/classes/Users.php?f=save` | High
-24 | File | `/cm/update_rows/page?id=2` | High
-25 | File | `/confirm` | Medium
-26 | File | `/debug/pprof` | Medium
-27 | File | `/dede/archives_do.php` | High
-28 | File | `/dede/group_store.php` | High
-29 | File | `/dialog/select_media.php` | High
-30 | File | `/Employee/edit-profile.php` | High
-31 | File | `/endpoint/update.php` | High
-32 | File | `/ext/collect/filter_text.do` | High
-33 | ... | ... | ...
+3 | File | `/Admin/add-admin.php` | High
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/index.PHP` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/manage_complaint.php` | High
+8 | File | `/Admin/News.php` | High
+9 | File | `/admin/store.php` | High
+10 | File | `/admin/view_sendlist.php` | High
+11 | File | `/adminPage/main/upload` | High
+12 | File | `/admin_ping.htm` | High
+13 | File | `/ample/app/action/edit_product.php` | High
+14 | File | `/api/dashboard/activity` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+17 | File | `/app/index/controller/Common.php` | High
+18 | File | `/catalog_add.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/cgi-bin/hd_config.cgi` | High
+22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/cm/update_rows/page?id=2` | High
+26 | File | `/confirm` | Medium
+27 | File | `/debug/pprof` | Medium
+28 | File | `/dede/archives_do.php` | High
+29 | File | `/dede/group_store.php` | High
+30 | File | `/dialog/select_media.php` | High
+31 | File | `/Employee/edit-profile.php` | High
+32 | File | `/endpoint/update.php` | High
+33 | File | `/ext/collect/filter_text.do` | High
+34 | ... | ... | ...
 
 There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

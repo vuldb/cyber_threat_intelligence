@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.rozena](https://vuldb.com/?actor.rozena)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rozena:
+
+* [DE](https://vuldb.com/?country.de)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Rozena.
@@ -11,12 +17,33 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [18.231.121.185](https://vuldb.com/?ip.18.231.121.185) | ec2-18-231-121-185.sa-east-1.compute.amazonaws.com | - | Medium
+2 | [84.152.29.88](https://vuldb.com/?ip.84.152.29.88) | p54981d58.dip0.t-ipconnect.de | - | High
+3 | [190.130.88.59](https://vuldb.com/?ip.190.130.88.59) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Rozena_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Rozena. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/xml/info.xml` | High
+2 | File | `Stream.php` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/435/rozena-backdoor-iocs/
+* https://threatfox.abuse.ch
 
 ## Literature
 

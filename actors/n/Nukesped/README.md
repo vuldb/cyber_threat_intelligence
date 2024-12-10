@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -56,30 +56,30 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/ajax.php?action=confirm_order` | High
 6 | File | `/admin/controller/JobLogController.java` | High
 7 | File | `/admin/login.php` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alerts/alertConfigField.php` | High
-10 | File | `/api/blade-log/api/list` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/blog` | Low
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/config/myfield/test.php` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/core/conditions/AbstractWrapper.java` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/face-recognition-php/facepay-master/camera.php` | High
-21 | File | `/forms/doLogin` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/index.php/fuel/logs/items` | High
-24 | File | `/fuel/index.php/fuel/pages/items` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/index.php` | Medium
-27 | File | `/lists/index.php` | High
-28 | File | `/mkshop/Men/profile.php` | High
+8 | File | `/alerts/alertConfigField.php` | High
+9 | File | `/api/blade-log/api/list` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/blog` | Low
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/config/myfield/test.php` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/core/conditions/AbstractWrapper.java` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/passwd` | Medium
+19 | File | `/face-recognition-php/facepay-master/camera.php` | High
+20 | File | `/forms/doLogin` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/fuel/index.php/fuel/logs/items` | High
+23 | File | `/fuel/index.php/fuel/pages/items` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/index.php` | Medium
+26 | File | `/lists/index.php` | High
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/param.file.tgz` | High
 29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

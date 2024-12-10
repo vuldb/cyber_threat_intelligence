@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,35 +122,38 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/sql` | Medium
 10 | File | `/admin/students.php` | High
 11 | File | `/admin/students/manage.php` | High
-12 | File | `/admin/system.html` | High
-13 | File | `/adminPage/conf/reload` | High
-14 | File | `/adminPage/www/addOver` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/api /v3/auth` | High
-17 | File | `/application/index/controller/Icon.php` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/bin/ate` | Medium
-20 | File | `/boaform/device_reset.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/dataSet/testTransform;swagger-ui` | High
-24 | File | `/dayrui/Fcms/View/system_log.html` | High
-25 | File | `/dayrui/My/View/main.html` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/download/image` | High
-28 | File | `/firewall/policy/` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/general/meeting/manage/delete.php` | High
-31 | File | `/goform/execCommand` | High
-32 | File | `/goform/goform_get_cmd_process` | High
-33 | File | `/goform/SetRebootTimer` | High
-34 | File | `/goform/SetSysTimeCfg` | High
-35 | File | `/goform/WriteFacMac` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/ims/login.php` | High
-38 | ... | ... | ...
+12 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+13 | File | `/admin/system.html` | High
+14 | File | `/adminPage/conf/reload` | High
+15 | File | `/adminPage/www/addOver` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/api /v3/auth` | High
+18 | File | `/application/index/controller/Icon.php` | High
+19 | File | `/application/index/controller/Screen.php` | High
+20 | File | `/bin/ate` | Medium
+21 | File | `/boaform/device_reset.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/control/edit_client.php` | High
+25 | File | `/dataSet/testTransform;swagger-ui` | High
+26 | File | `/dayrui/Fcms/View/system_log.html` | High
+27 | File | `/dayrui/My/View/main.html` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/download/image` | High
+30 | File | `/edit1.php` | Medium
+31 | File | `/firewall/policy/` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/general/meeting/manage/delete.php` | High
+34 | File | `/getcfg.php` | Medium
+35 | File | `/goform/execCommand` | High
+36 | File | `/goform/formEasySetTimezone` | High
+37 | File | `/goform/formResetStatistic` | High
+38 | File | `/goform/goform_get_cmd_process` | High
+39 | File | `/goform/SetRebootTimer` | High
+40 | File | `/goform/SetSysTimeCfg` | High
+41 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

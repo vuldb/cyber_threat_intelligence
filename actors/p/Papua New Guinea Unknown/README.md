@@ -101,9 +101,10 @@ ID | Type | Indicator | Confidence
 17 | File | `/src/dede/makehtml_js_action.php` | High
 18 | File | `/sysmanage/edit_manageadmin.php` | High
 19 | File | `/uncpath/` | Medium
-20 | ... | ... | ...
+20 | File | `/wp-admin/options.php` | High
+21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

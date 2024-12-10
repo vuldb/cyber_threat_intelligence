@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,32 +56,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/app/login_crud.php` | High
 7 | File | `/admin/app/product.php` | High
 8 | File | `/admin/app/service_crud.php` | High
-9 | File | `/admin/category/view_category.php` | High
-10 | File | `/admin/edit.php` | High
-11 | File | `/admin/googleads.php` | High
-12 | File | `/admin/list_ipAddressPolicy.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/Admin/login.php` | High
-15 | File | `/admin/pages/update_go.php` | High
-16 | File | `/admin/reg.php` | High
-17 | File | `/admin/renewaldue.php` | High
-18 | File | `/admin/search.php` | High
-19 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-20 | File | `/ajax` | Low
-21 | File | `/analysisProject/pagingQueryData` | High
-22 | File | `/api/sys/login` | High
-23 | File | `/app/ajax/search_sales_report.php` | High
-24 | File | `/app/middleware/TokenVerify.php` | High
-25 | File | `/application/index/controller/Databasesource.php` | High
-26 | File | `/application/index/controller/Screen.php` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/booking/show_bookings/` | High
-29 | File | `/cancel.php` | Medium
-30 | File | `/cgi-bin/adm.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | ... | ... | ...
+9 | File | `/admin/blood/update/o-.php` | High
+10 | File | `/admin/category/view_category.php` | High
+11 | File | `/admin/edit.php` | High
+12 | File | `/admin/googleads.php` | High
+13 | File | `/admin/list_ipAddressPolicy.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/Admin/login.php` | High
+16 | File | `/admin/pages/update_go.php` | High
+17 | File | `/admin/profile.php` | High
+18 | File | `/admin/reg.php` | High
+19 | File | `/admin/renewaldue.php` | High
+20 | File | `/admin/search.php` | High
+21 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+22 | File | `/ajax` | Low
+23 | File | `/analysisProject/pagingQueryData` | High
+24 | File | `/api/sys/login` | High
+25 | File | `/app/ajax/search_sales_report.php` | High
+26 | File | `/app/middleware/TokenVerify.php` | High
+27 | File | `/application/index/controller/Databasesource.php` | High
+28 | File | `/application/index/controller/Screen.php` | High
+29 | File | `/bin/boa` | Medium
+30 | File | `/booking/show_bookings/` | High
+31 | File | `/cancel.php` | Medium
+32 | File | `/cgi-bin/adm.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

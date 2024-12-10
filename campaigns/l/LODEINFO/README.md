@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | High
 2 | [APT10](https://vuldb.com/?actor.apt10) | High
+3 | [Earth Kasha](https://vuldb.com/?actor.earth_kasha) | High
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +33,7 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.8.95.174](https://vuldb.com/?ip.5.8.95.174) | sei809753.example.com | [APT10](https://vuldb.com/?actor.apt10) | High
 2 | [45.67.231.169](https://vuldb.com/?ip.45.67.231.169) | vm377031.pq.hosting | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | High
-3 | [45.76.197.236](https://vuldb.com/?ip.45.76.197.236) | 45.76.197.236.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
+3 | [45.76.197.236](https://vuldb.com/?ip.45.76.197.236) | 45.76.197.236.vultrusercontent.com | [Earth Kasha](https://vuldb.com/?actor.earth_kasha) | Medium
 4 | [45.76.216.40](https://vuldb.com/?ip.45.76.216.40) | 45.76.216.40.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
 5 | [45.76.222.130](https://vuldb.com/?ip.45.76.222.130) | 45.76.222.130.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
 6 | [45.77.28.124](https://vuldb.com/?ip.45.77.28.124) | 45.77.28.124.vultrusercontent.com | [APT10](https://vuldb.com/?actor.apt10) | Medium
@@ -50,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -82,9 +83,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/file/upload/1` | High
 20 | File | `/goform/systemlog?cmd=set` | High
 21 | File | `/include/file.php` | High
-22 | ... | ... | ...
+22 | File | `/include/helpers/upload.helper.php` | High
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,6 +98,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://files.macnica.co.jp/mnc/mpressioncss_ta_report_2019_2.pdf
 * https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-i/
 * https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-ii/
+* https://www.trendmicro.com/en_us/research/24/k/lodeinfo-campaign-of-earth-kasha.html
 
 ## Literature
 

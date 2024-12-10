@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with SitesLoader:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SitesLoader:
 
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -32,7 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 2 | T1574 | CWE-427 | Untrusted Search Path | High
-3 | T1592 | CWE-208 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1592 | CWE-200, CWE-208 | Invocation of Process Using Visible Sensitive Information | High
 4 | ... | ... | ... | ...
 
 There are 1 more TTP items available. Please use our online service to access the data.

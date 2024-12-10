@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,16 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/Admin/createClass.php` | High
-3 | File | `/balance/service/list` | High
-4 | File | `/classes/SystemSettings.php?f=update_settings` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/foms/routers/place-order.php` | High
-7 | File | `/model/viewProduct.php` | High
-8 | File | `/spip.php` | Medium
-9 | ... | ... | ...
+2 | File | `/admin#permissions` | High
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/admin/book-details.php` | High
+5 | File | `/Admin/createClass.php` | High
+6 | File | `/admin/edit-card-detail.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/view-card-detail.php` | High
+9 | File | `/balance/service/list` | High
+10 | File | `/classes/SystemSettings.php?f=update_settings` | High
+11 | File | `/debug/pprof` | Medium
+12 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

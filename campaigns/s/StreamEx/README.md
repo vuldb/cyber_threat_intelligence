@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -70,18 +70,20 @@ ID | Type | Indicator | Confidence
 11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 12 | File | `/catalog/all-products` | High
 13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/changePassword` | High
-16 | File | `/clientdetails/admin/regester.php` | High
-17 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-18 | File | `/edit-subject.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/farm/product.php` | High
-22 | File | `/foms/routers/place-order.php` | High
-23 | ... | ... | ...
+14 | File | `/cgi-bin/ExportSettings.sh` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/clientdetails/admin/regester.php` | High
+18 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+19 | File | `/edit-subject.php` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/farm/product.php` | High
+23 | File | `/foms/routers/place-order.php` | High
+24 | File | `/forum/away.php` | High
+25 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

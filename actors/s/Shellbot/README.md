@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,19 +61,21 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/team_save.php` | High
 5 | File | `/admin/user/user-move-run.php` | High
 6 | File | `/ajax.php?action=login` | High
-7 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-8 | File | `/chetc/shutdown` | High
-9 | File | `/classes/Users.php?f=save_user` | High
-10 | File | `/cms/classes/Users.php?f=delete_client` | High
-11 | File | `/endpoint/delete-account.php` | High
-12 | File | `/endpoint/delete-task.php` | High
-13 | File | `/etc/networkd-dispatcher` | High
-14 | File | `/goform/setMacFilterList` | High
-15 | File | `/integrations.json` | High
-16 | File | `/js/player/dmplayer/player/index.php` | High
-17 | ... | ... | ...
+7 | File | `/animalsadd.php` | High
+8 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+9 | File | `/chetc/shutdown` | High
+10 | File | `/classes/Master.php?f=delete_product` | High
+11 | File | `/classes/Users.php?f=save_user` | High
+12 | File | `/cms/classes/Users.php?f=delete_client` | High
+13 | File | `/control/activate.php` | High
+14 | File | `/endpoint/delete-account.php` | High
+15 | File | `/endpoint/delete-task.php` | High
+16 | File | `/etc/networkd-dispatcher` | High
+17 | File | `/goform/formLogDnsquery` | High
+18 | File | `/goform/formSetPortTr` | High
+19 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

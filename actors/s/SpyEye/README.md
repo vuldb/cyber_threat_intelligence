@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyEye:
 
 * [US](https://vuldb.com/?country.us)
-* [CO](https://vuldb.com/?country.co)
 * [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,10 +53,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,32 +68,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/classes/Master.php` | High
 5 | File | `/classes/Master.php?f=log_employee` | High
-6 | File | `/forgetpassword.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/modules/registration_admission/patient_register.php` | High
-9 | File | `/ndmComponents.js` | High
-10 | File | `/out.php` | Medium
-11 | File | `/request.php` | Medium
-12 | File | `/spip.php` | Medium
-13 | File | `/Tools/tools_admin.htm` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `AccountManager.java` | High
-16 | File | `adclick.php` | Medium
-17 | File | `addentry.php` | Medium
-18 | File | `adm/krgourl.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/conf_users_edit.php` | High
-21 | File | `admin/index.php` | High
-22 | File | `administers` | Medium
-23 | File | `admin_index.php?page=settings` | High
-24 | File | `application\User\Controller\ProfileController.class.php` | High
-25 | File | `awstats.pl` | Medium
-26 | File | `banner-edit.php` | High
-27 | File | `btif_hd.cc` | Medium
-28 | File | `catchsegv` | Medium
-29 | ... | ... | ...
+6 | File | `/forum/away.php` | High
+7 | File | `/ndmComponents.js` | High
+8 | File | `/out.php` | Medium
+9 | File | `/request.php` | Medium
+10 | File | `/spip.php` | Medium
+11 | File | `AccountManager.java` | High
+12 | File | `adclick.php` | Medium
+13 | File | `addentry.php` | Medium
+14 | File | `admin/index.php` | High
+15 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

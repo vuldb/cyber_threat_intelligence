@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [AM](https://vuldb.com/?country.am)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.101.4.196](https://vuldb.com/?ip.5.101.4.196) | hvilica.ru.4.101.5.in-addr.arpa | - | High
 2 | [5.101.5.196](https://vuldb.com/?ip.5.101.5.196) | - | - | High
 3 | [5.181.156.137](https://vuldb.com/?ip.5.181.156.137) | 5-181-156-137.mivocloud.com | - | High
-4 | ... | ... | ... | ...
+4 | [8.218.170.109](https://vuldb.com/?ip.8.218.170.109) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,11 +36,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,11 +50,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/cstecgi.cgi` | High
 2 | File | `/out.php` | Medium
-3 | File | `/view/vpn/autovpn/sub_commit.php` | High
-4 | File | `Addmessage.php` | High
-5 | ... | ... | ...
+3 | File | `/register.php` | High
+4 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
+5 | File | `/view/vpn/autovpn/sub_commit.php` | High
+6 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,11 +66,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/34.235.18.0
 * https://search.censys.io/hosts/38.180.52.162
 * https://search.censys.io/hosts/45.86.228.53
+* https://search.censys.io/hosts/85.215.148.245
+* https://search.censys.io/hosts/89.221.225.227
 * https://search.censys.io/hosts/91.92.242.137
 * https://search.censys.io/hosts/103.26.10.119
 * https://search.censys.io/hosts/103.113.70.71
 * https://search.censys.io/hosts/124.156.173.75
+* https://search.censys.io/hosts/136.144.220.174
 * https://search.censys.io/hosts/137.175.19.209
+* https://search.censys.io/hosts/139.59.238.238
 * https://search.censys.io/hosts/176.97.78.111
 * https://search.censys.io/hosts/194.87.252.224
 * https://search.censys.io/hosts/194.238.19.162

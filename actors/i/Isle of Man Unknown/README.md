@@ -67,17 +67,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin-update-employee.php` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/balance/service/list` | High
-4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/cgi-bin/p1_ftpserver.php` | High
-7 | File | `/classes/Master.php` | High
-8 | File | `/control/deactivate_case.php` | High
-9 | File | `/foms/routers/place-order.php` | High
-10 | File | `/manage_sy.php` | High
-11 | ... | ... | ...
+3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+4 | File | `/balance/service/list` | High
+5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/cgi-bin/p1_ftpserver.php` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/control/deactivate_case.php` | High
+10 | File | `/foms/routers/place-order.php` | High
+11 | File | `/manage_sy.php` | High
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

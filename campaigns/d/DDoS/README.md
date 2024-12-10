@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -142,7 +142,7 @@ ID | Type | Indicator | Confidence
 78 | File | `basket.php` | Medium
 79 | ... | ... | ...
 
-There are 697 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 696 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

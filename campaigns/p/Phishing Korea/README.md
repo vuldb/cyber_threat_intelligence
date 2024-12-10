@@ -41,8 +41,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -66,40 +67,39 @@ ID | Type | Indicator | Confidence
 12 | File | `/farm/product.php` | High
 13 | File | `/forum/away.php` | High
 14 | File | `/goform/telnet` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/ptippage.cgi` | High
-17 | File | `/rom-0` | Low
-18 | File | `/tmp/out` | Medium
-19 | File | `/tmp/phpglibccheck` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/var/tmp/sess_*` | High
-23 | File | `action.php` | Medium
-24 | File | `actionphp/download.File.php` | High
-25 | File | `add_comment.php` | High
-26 | File | `admin/admin.php` | High
-27 | File | `admin/content.php` | High
-28 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-29 | File | `admin/memberviewdetails.php` | High
-30 | File | `admin/sitesettings.php` | High
-31 | File | `admin_gallery.php3` | High
-32 | File | `affich.php` | Medium
-33 | File | `agent/Core/Controller/SendRequest.cpp` | High
-34 | File | `ajax/telemetry.php` | High
-35 | File | `akeyActivationLogin.do` | High
-36 | File | `album_portal.php` | High
-37 | File | `apache-auth.conf` | High
-38 | File | `askapache-firefox-adsense.php` | High
-39 | File | `attachment.cgi` | High
-40 | File | `blueprints/sections/edit/1` | High
-41 | File | `boaform/admin/formPing` | High
-42 | File | `books.php` | Medium
-43 | File | `cart_add.php` | Medium
-44 | File | `CFS.c` | Low
-45 | File | `checktransferstatus.php` | High
-46 | ... | ... | ...
+15 | File | `/manage_block.php` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/ptippage.cgi` | High
+18 | File | `/rom-0` | Low
+19 | File | `/tmp/out` | Medium
+20 | File | `/tmp/phpglibccheck` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/update-image1.php` | High
+23 | File | `/upload` | Low
+24 | File | `/v1/operador/` | High
+25 | File | `/var/tmp/sess_*` | High
+26 | File | `action.php` | Medium
+27 | File | `actionphp/download.File.php` | High
+28 | File | `add_comment.php` | High
+29 | File | `admin/admin.php` | High
+30 | File | `admin/content.php` | High
+31 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+32 | File | `admin/memberviewdetails.php` | High
+33 | File | `admin/sitesettings.php` | High
+34 | File | `admin_gallery.php3` | High
+35 | File | `affich.php` | Medium
+36 | File | `agent/Core/Controller/SendRequest.cpp` | High
+37 | File | `ajax/telemetry.php` | High
+38 | File | `akeyActivationLogin.do` | High
+39 | File | `album_portal.php` | High
+40 | File | `apache-auth.conf` | High
+41 | File | `askapache-firefox-adsense.php` | High
+42 | File | `attachment.cgi` | High
+43 | File | `blueprints/sections/edit/1` | High
+44 | File | `boaform/admin/formPing` | High
+45 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

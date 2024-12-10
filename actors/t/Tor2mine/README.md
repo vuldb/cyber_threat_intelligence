@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -86,22 +86,22 @@ ID | Type | Indicator | Confidence
 35 | File | `admin.php` | Medium
 36 | File | `admin/addsptemplate.php` | High
 37 | File | `admin/admin.php` | High
-38 | File | `admin/content.php` | High
-39 | File | `admin/index.php` | High
-40 | File | `admin/limits.php` | High
-41 | File | `admin/membership_pricing.php` | High
-42 | File | `admin/picture/picture_real_edit.asp` | High
-43 | File | `admin/plugin.php` | High
-44 | File | `admin/view.asp` | High
-45 | File | `adminfoot.php` | High
-46 | File | `administration.php` | High
-47 | File | `advertise.php` | High
-48 | File | `api.php` | Low
-49 | File | `appl/user_user/server.c` | High
-50 | File | `application/classes/application.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/limits.php` | High
+40 | File | `admin/membership_pricing.php` | High
+41 | File | `admin/picture/picture_real_edit.asp` | High
+42 | File | `admin/plugin.php` | High
+43 | File | `admin/view.asp` | High
+44 | File | `adminfoot.php` | High
+45 | File | `administration.php` | High
+46 | File | `advertise.php` | High
+47 | File | `api.php` | Low
+48 | File | `appl/user_user/server.c` | High
+49 | File | `application/classes/application.php` | High
+50 | File | `app\conference_controls\conference_control_details.php` | High
 51 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

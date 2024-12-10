@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [64.185.227.155](https://vuldb.com/?ip.64.185.227.155) | api64.ipify.org | - | High
 5 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,6 +80,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4d6f6e39c1b851d8882f5aaa5cb12209
 * https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/
 * https://www.trendmicro.com/en_us/research/24/f/targetcompany-s-linux-variant-targets-esxi-environments.html
+* https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/exposed-and-encrypted-inside-a-mallox-ransomware-attack/
 
 ## Literature
 

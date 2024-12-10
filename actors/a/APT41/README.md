@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,16 +59,21 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [27.124.37.65](https://vuldb.com/?ip.27.124.37.65) | - | - | High
 26 | [34.139.13.46](https://vuldb.com/?ip.34.139.13.46) | 46.13.139.34.bc.googleusercontent.com | CVE-2021-44207 | Medium
 27 | [36.255.220.179](https://vuldb.com/?ip.36.255.220.179) | - | - | High
-28 | [39.106.32.186](https://vuldb.com/?ip.39.106.32.186) | - | - | High
-29 | [43.229.155.38](https://vuldb.com/?ip.43.229.155.38) | - | - | High
-30 | [43.229.155.39](https://vuldb.com/?ip.43.229.155.39) | - | - | High
-31 | [43.229.155.40](https://vuldb.com/?ip.43.229.155.40) | - | - | High
-32 | [43.229.155.41](https://vuldb.com/?ip.43.229.155.41) | - | - | High
-33 | [43.229.155.42](https://vuldb.com/?ip.43.229.155.42) | - | - | High
-34 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
-35 | ... | ... | ... | ...
+28 | [38.55.97.178](https://vuldb.com/?ip.38.55.97.178) | - | LightSpy | High
+29 | [39.106.32.186](https://vuldb.com/?ip.39.106.32.186) | - | - | High
+30 | [43.229.155.38](https://vuldb.com/?ip.43.229.155.38) | - | - | High
+31 | [43.229.155.39](https://vuldb.com/?ip.43.229.155.39) | - | - | High
+32 | [43.229.155.40](https://vuldb.com/?ip.43.229.155.40) | - | - | High
+33 | [43.229.155.41](https://vuldb.com/?ip.43.229.155.41) | - | - | High
+34 | [43.229.155.42](https://vuldb.com/?ip.43.229.155.42) | - | - | High
+35 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | LightSpy | High
+36 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | LightSpy | High
+37 | [43.248.136.215](https://vuldb.com/?ip.43.248.136.215) | - | LightSpy | High
+38 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
+39 | [45.61.136.199](https://vuldb.com/?ip.45.61.136.199) | - | ColunmTK | High
+40 | ... | ... | ... | ...
 
-There are 136 more IOC items available. Please use our online service to access the data.
+There are 155 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,7 +86,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,21 +94,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/csms/?page=contact_us` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/goform/PowerSaveSet` | High
-4 | File | `/index.php` | Medium
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/out.php` | Medium
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/rest/api/latest/projectvalidate/key` | High
-10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `adclick.php` | Medium
-13 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/mhds/clinic/view_details.php` | High
+3 | File | `/out.php` | Medium
+4 | File | `/rest/api/latest/projectvalidate/key` | High
+5 | File | `adclick.php` | Medium
+6 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,6 +110,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
 * https://blog.group-ib.com/colunmtk_apt41
 * https://blog.talosintelligence.com/chinese-hacking-group-apt41-compromised-taiwanese-government-affiliated-research-institute-with-shadowpad-and-cobaltstrike-2/
+* https://blogs.blackberry.com/en/2024/11/lightspy-apt41-deploys-advanced-deepdata-framework-in-targeted-southern-asia-espionage-campaign
+* https://cloud.google.com/blog/topics/threat-intelligence/apt41-arisen-from-dust?hl=en
 * https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT41/With%20KEYPLUG%2CChina%E2%80%99sRedGolf%20Spies%20On%2C%20Steals%20From%20Wide%20Field%20of%20Targets.pdf
 * https://github.com/eset/malware-ioc/tree/master/winnti_group

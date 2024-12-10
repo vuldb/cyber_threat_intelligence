@@ -48,14 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-37, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,58 +63,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#/network?tab=network_node_list.html` | High
-2 | File | `/admin/config_time_sync.php` | High
-3 | File | `/admin/contacts/organizations/edit/2` | High
-4 | File | `/admin/list_localuser.php` | High
-5 | File | `/admin/modules/product/controller.php?action=add` | High
-6 | File | `/admin/suppliers/view_details.php` | High
-7 | File | `/adminPage/main/upload` | High
-8 | File | `/api/swaggerui/static` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/v1` | Low
-11 | File | `/cgi-bin/alexserv` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/info.cgi` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Users.php` | High
-18 | File | `/contact.php` | Medium
-19 | File | `/core/config-revisions` | High
-20 | File | `/dcim/power-ports/add/` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/DesignTools/CssEditor.aspx` | High
-23 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/edit/server` | Medium
-26 | File | `/endpoint/delete-account.php` | High
-27 | File | `/endpoint/delete-todo.php` | High
-28 | File | `/EXCU_SHELL` | Medium
-29 | File | `/finance/help/en/frameset.htm` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/guestbook` | Medium
-33 | File | `/hardware` | Medium
-34 | File | `/hrm/leaverequest.php` | High
-35 | File | `/inc/modules_install.php` | High
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-38 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-39 | File | `/index/ajax/lang` | High
-40 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
-41 | File | `/librarian/bookdetails.php` | High
-42 | File | `/login` | Low
-43 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-44 | File | `/Maintain/sprog_upstatus.php` | High
-45 | File | `/MobileHandler.ashx` | High
-46 | File | `/movie.php` | Medium
-47 | File | `/network_diagnostics.html` | High
-48 | File | `/novel/bookSetting/list` | High
-49 | File | `/one_church/churchprofile.php` | High
-50 | ... | ... | ...
+1 | File | `/abcd/opac/php/otros_sitios.php` | High
+2 | File | `/admin/aboutus.php` | High
+3 | File | `/admin/admin_log.php?clear=1` | High
+4 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
+5 | File | `/admin/config_time_sync.php` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/dialog/select_images_post.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/robot.php` | High
+10 | File | `/admin/system.php` | High
+11 | File | `/admins/{adminId}` | High
+12 | File | `/api/swaggerui/static` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/boafrm/formSystemCheck` | High
+15 | File | `/buscar_integrada.php` | High
+16 | File | `/cgi-bin/alexserv` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/hd_config.cgi` | High
+19 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+20 | File | `/cgi-bin/tosei_kikai.php` | High
+21 | File | `/cgi-bin/webfile_mgr.cgi` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/Master.php?f=save_package` | High
+24 | File | `/contact.php` | Medium
+25 | File | `/controllers/add_user.php` | High
+26 | File | `/core/config-revisions` | High
+27 | File | `/core/tools/delete_place.php` | High
+28 | File | `/dcim/power-ports/add/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/DXR.axd` | Medium
+31 | File | `/ecommerce/admin/login.php` | High
+32 | File | `/edit/server` | Medium
+33 | File | `/endpoint/add-calorie.php` | High
+34 | File | `/endpoint/delete-account.php` | High
+35 | File | `/endpoint/update.php` | High
+36 | File | `/etc/passwd` | Medium
+37 | File | `/files/` | Low
+38 | File | `/film-rating.php` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/formEasySetTimezone` | High
+41 | File | `/goform/formSetDomainFilter` | High
+42 | File | `/goform/formSetQoS` | High
+43 | File | `/goform/formSetWanPPPoE` | High
+44 | File | `/goform/qossetting` | High
+45 | File | `/goform/setDeviceSettings` | High
+46 | File | `/guestbook` | Medium
+47 | File | `/hardware` | Medium
+48 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

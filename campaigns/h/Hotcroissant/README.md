@@ -18,9 +18,9 @@ These _actors_ are associated with Hotcroissant or other actors linked to the ca
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
-3 | [HOTCROISSANT](https://vuldb.com/?actor.hotcroissant) | High
+1 | [HOTCROISSANT](https://vuldb.com/?actor.hotcroissant) | High
+2 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+3 | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...

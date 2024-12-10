@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -59,53 +59,53 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/theme-edit.php` | High
 6 | File | `/category.php` | High
 7 | File | `/data/syslog.filter.json` | High
-8 | File | `/details.php` | Medium
-9 | File | `/etc/stunnel.key` | High
-10 | File | `/FlexiCapture12/Login/Server/SevaUserProfile` | High
-11 | File | `/help/lccon.nsf/` | High
-12 | File | `/jsp/xmlhttp/AjaxResponse.jsp` | High
-13 | File | `/login.html` | Medium
-14 | File | `/member/settings_account.php` | High
-15 | File | `/net/mac80211/mac80211/sta_info.c` | High
-16 | File | `/nova/bin/igmp-proxy` | High
-17 | File | `/otweb/OTPClientLogin` | High
-18 | File | `/product.php` | Medium
-19 | File | `/tests/add_duration_test.php` | High
-20 | File | `/tests/all_tests.php` | High
-21 | File | `/var/run/storage_account_root` | High
-22 | File | `AccessPoint.aspx` | High
-23 | File | `account.asp` | Medium
-24 | File | `activate.php` | Medium
-25 | File | `addevent.php` | Medium
-26 | File | `adherents/cartes/carte.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/` | Low
-29 | File | `admin/?/plugin/file_manager/upload` | High
-30 | File | `admin/app/physical/physical.php` | High
-31 | File | `admin/edit.php` | High
-32 | File | `admin/editusertag.php` | High
-33 | File | `admin/eventlist.php` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/languages.php` | High
-36 | File | `admin/manufacturers.php` | High
-37 | File | `admin/newsletters.php` | High
-38 | File | `admin/products_attributes.php` | High
-39 | File | `admin/products_expected.php` | High
-40 | File | `admin/reviews.php` | High
-41 | File | `admin/siteprefs.php` | High
-42 | File | `admin/worklist/worklist_edit.asp` | High
-43 | File | `administrator/index.php` | High
-44 | File | `ad_popup.php` | Medium
-45 | File | `afd.sys` | Low
-46 | File | `agent.exe` | Medium
-47 | File | `apps/calendar/export.php` | High
-48 | File | `archive.php` | Medium
-49 | File | `ask_chat.php` | Medium
-50 | File | `attachment.cgi` | High
-51 | File | `basic.html#ipsettings` | High
+8 | File | `/database.php` | High
+9 | File | `/details.php` | Medium
+10 | File | `/etc/stunnel.key` | High
+11 | File | `/FlexiCapture12/Login/Server/SevaUserProfile` | High
+12 | File | `/help/lccon.nsf/` | High
+13 | File | `/jsp/xmlhttp/AjaxResponse.jsp` | High
+14 | File | `/login.html` | Medium
+15 | File | `/member/settings_account.php` | High
+16 | File | `/net/mac80211/mac80211/sta_info.c` | High
+17 | File | `/nova/bin/igmp-proxy` | High
+18 | File | `/otweb/OTPClientLogin` | High
+19 | File | `/product.php` | Medium
+20 | File | `/tests/add_duration_test.php` | High
+21 | File | `/tests/all_tests.php` | High
+22 | File | `/var/run/storage_account_root` | High
+23 | File | `/vm/doctor/edit-doc.php` | High
+24 | File | `AccessPoint.aspx` | High
+25 | File | `account.asp` | Medium
+26 | File | `activate.php` | Medium
+27 | File | `addevent.php` | Medium
+28 | File | `adherents/cartes/carte.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/` | Low
+31 | File | `admin/?/plugin/file_manager/upload` | High
+32 | File | `admin/app/physical/physical.php` | High
+33 | File | `admin/edit.php` | High
+34 | File | `admin/editusertag.php` | High
+35 | File | `admin/eventlist.php` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/languages.php` | High
+38 | File | `admin/manufacturers.php` | High
+39 | File | `admin/newsletters.php` | High
+40 | File | `admin/products_attributes.php` | High
+41 | File | `admin/products_expected.php` | High
+42 | File | `admin/reviews.php` | High
+43 | File | `admin/siteprefs.php` | High
+44 | File | `admin/worklist/worklist_edit.asp` | High
+45 | File | `administrator/index.php` | High
+46 | File | `ad_popup.php` | Medium
+47 | File | `afd.sys` | Low
+48 | File | `agent.exe` | Medium
+49 | File | `apps/calendar/export.php` | High
+50 | File | `archive.php` | Medium
+51 | File | `ask_chat.php` | Medium
 52 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

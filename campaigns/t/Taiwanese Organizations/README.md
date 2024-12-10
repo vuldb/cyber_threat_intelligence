@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,57 +57,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/admin/bookings/manage_booking.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/del_service.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/list_resource_icon.php?action=delete` | High
-9 | File | `/admin/read.php?mudi=announContent` | High
-10 | File | `/admin/upload.php` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/analysisProject/pagingQueryData` | High
-13 | File | `/api/authentication/login` | High
-14 | File | `/api/blade-user/export-user` | High
-15 | File | `/api/upload.php` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/api /v3/auth` | High
-18 | File | `/app/sys1.php` | High
-19 | File | `/application/common.php#action_log` | High
-20 | File | `/assets/php/upload.php` | High
-21 | File | `/b2b-supermarket/shopping-cart` | High
-22 | File | `/bin/ate` | Medium
-23 | File | `/bin/rc4_crypt` | High
-24 | File | `/bitrix/admin/ldap_server_edit.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/kerbynet` | High
-27 | File | `/cgi-bin/login.cgi` | High
-28 | File | `/cgi-bin/luci/api/switch` | High
-29 | File | `/cgi-bin/luci;stok=/locale` | High
-30 | File | `/cgi-bin/qcmap_auth` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/classes/Master.php?f=delete_category` | High
-33 | File | `/classes/Master.php?f=delete_inquiry` | High
-34 | File | `/classes/Master.php?f=delete_item` | High
-35 | File | `/classes/Master.php?f=delete_service` | High
-36 | File | `/classes/Master.php?f=save_service` | High
-37 | File | `/classes/Users.php` | High
-38 | File | `/classes/Users.php?f=save` | High
-39 | File | `/CMD_ACCOUNT_ADMIN` | High
-40 | File | `/conf/` | Low
-41 | File | `/config/getuser` | High
-42 | File | `/config/php.ini` | High
-43 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-44 | File | `/core/admin/categories.php` | High
-45 | File | `/CPE` | Low
-46 | File | `/cupseasylive/taxstructuredisplay.php` | High
-47 | File | `/dayrui/My/View/main.html` | High
-48 | File | `/dede/sys_sql_query.php` | High
-49 | File | `/dus/fotos_grafiken/index.php` | High
+2 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/bookings/manage_booking.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/del_service.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_resource_icon.php?action=delete` | High
+10 | File | `/admin/read.php?mudi=announContent` | High
+11 | File | `/admin/upload.php` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/analysisProject/pagingQueryData` | High
+14 | File | `/api/authentication/login` | High
+15 | File | `/api/blade-user/export-user` | High
+16 | File | `/api/upload.php` | High
+17 | File | `/api/v1/terminal/sessions/?limit=1` | High
+18 | File | `/api /v3/auth` | High
+19 | File | `/app/sys1.php` | High
+20 | File | `/application/common.php#action_log` | High
+21 | File | `/assets/php/upload.php` | High
+22 | File | `/b2b-supermarket/shopping-cart` | High
+23 | File | `/bin/ate` | Medium
+24 | File | `/bin/rc4_crypt` | High
+25 | File | `/bitrix/admin/ldap_server_edit.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/kerbynet` | High
+28 | File | `/cgi-bin/login.cgi` | High
+29 | File | `/cgi-bin/luci/api/switch` | High
+30 | File | `/cgi-bin/luci;stok=/locale` | High
+31 | File | `/cgi-bin/qcmap_auth` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=delete_inquiry` | High
+35 | File | `/classes/Master.php?f=delete_item` | High
+36 | File | `/classes/Master.php?f=delete_service` | High
+37 | File | `/classes/Master.php?f=save_service` | High
+38 | File | `/classes/Users.php` | High
+39 | File | `/classes/Users.php?f=save` | High
+40 | File | `/CMD_ACCOUNT_ADMIN` | High
+41 | File | `/conf/` | Low
+42 | File | `/config/getuser` | High
+43 | File | `/config/php.ini` | High
+44 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+45 | File | `/core/admin/categories.php` | High
+46 | File | `/CPE` | Low
+47 | File | `/cupseasylive/taxstructuredisplay.php` | High
+48 | File | `/dayrui/My/View/main.html` | High
+49 | File | `/dede/sys_sql_query.php` | High
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

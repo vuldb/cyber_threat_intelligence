@@ -74,10 +74,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -91,53 +91,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/abcd/opac/php/otros_sitios.php` | High
 2 | File | `/admin/aboutus.php` | High
-3 | File | `/admin/admin_log.php?clear=1` | High
-4 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-5 | File | `/admin/config_time_sync.php` | High
+3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+4 | File | `/admin/admin_log.php?clear=1` | High
+5 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
 6 | File | `/admin/contacts/organizations/edit/2` | High
 7 | File | `/admin/dialog/select_images_post.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/maintenance/manage_brand.php` | High
-10 | File | `/admin/modules/product/controller.php?action=add` | High
-11 | File | `/admin/robot.php` | High
-12 | File | `/admin/system.php` | High
-13 | File | `/admins/{adminId}` | High
-14 | File | `/api/swaggerui/static` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/boafrm/formSystemCheck` | High
-17 | File | `/buscar_integrada.php` | High
-18 | File | `/cgi-bin/alexserv` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/hd_config.cgi` | High
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/cgi-bin/ping.cgi` | High
-23 | File | `/cgi-bin/tosei_kikai.php` | High
-24 | File | `/cgi-bin/webfile_mgr.cgi` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=save_package` | High
-27 | File | `/contact.php` | Medium
-28 | File | `/controllers/add_user.php` | High
-29 | File | `/core/config-revisions` | High
-30 | File | `/core/tools/delete_place.php` | High
-31 | File | `/dcim/power-ports/add/` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/DXR.axd` | Medium
-34 | File | `/ecommerce/admin/login.php` | High
-35 | File | `/edit/server` | Medium
-36 | File | `/endpoint/add-calorie.php` | High
-37 | File | `/endpoint/delete-account.php` | High
-38 | File | `/endpoint/delete-todo.php` | High
-39 | File | `/endpoint/update.php` | High
-40 | File | `/etc/passwd` | Medium
-41 | File | `/files/` | Low
-42 | File | `/film-rating.php` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/qossetting` | High
-45 | File | `/guestbook` | Medium
-46 | File | `/hardware` | Medium
-47 | ... | ... | ...
+8 | File | `/admin/edit_role.php` | High
+9 | File | `/admin/fetch_product_details.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/profile.php` | High
+13 | File | `/admin/robot.php` | High
+14 | File | `/admin/system.php` | High
+15 | File | `/admin/template/edit` | High
+16 | File | `/adminapi/system/file/openfile` | High
+17 | File | `/admins/{adminId}` | High
+18 | File | `/api/sys/set_passwd` | High
+19 | File | `/articles/welcome-to-your-site#comments-head` | High
+20 | File | `/bloodrequest.php` | High
+21 | File | `/boafrm/formSystemCheck` | High
+22 | File | `/buscar_integrada.php` | High
+23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+24 | File | `/cgi-bin/alexserv` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/hd_config.cgi` | High
+27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+28 | File | `/cgi-bin/tosei_kikai.php` | High
+29 | File | `/cgi-bin/webfile_mgr.cgi` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/classes/Master.php?f=save_package` | High
+32 | File | `/contact.php` | Medium
+33 | File | `/controllers/add_user.php` | High
+34 | File | `/core/config-revisions` | High
+35 | File | `/core/tools/delete_place.php` | High
+36 | File | `/dcim/power-ports/add/` | High
+37 | File | `/DXR.axd` | Medium
+38 | File | `/ecommerce/admin/login.php` | High
+39 | File | `/ejbca/ra/cert` | High
+40 | File | `/endpoint/add-calorie.php` | High
+41 | File | `/endpoint/delete-account.php` | High
+42 | File | `/endpoint/update.php` | High
+43 | File | `/etc/passwd` | Medium
+44 | File | `/files/` | Low
+45 | File | `/film-rating.php` | High
+46 | File | `/formLoginAuth.htm` | High
+47 | File | `/forms/doLogin` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/goform/formEasySetTimezone` | High
+50 | File | `/goform/formSetDomainFilter` | High
+51 | File | `/goform/formSetQoS` | High
+52 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

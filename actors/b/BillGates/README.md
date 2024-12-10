@@ -37,11 +37,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,29 +66,30 @@ ID | Type | Indicator | Confidence
 15 | File | `/farm/product.php` | High
 16 | File | `/forum/away.php` | High
 17 | File | `/goform/telnet` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/preview.php` | Medium
-20 | File | `/ptippage.cgi` | High
-21 | File | `/rom-0` | Low
-22 | File | `/src/chatbotapp/chatWindow.java` | High
-23 | File | `/start-apply.html` | High
-24 | File | `/tmp/out` | Medium
-25 | File | `/tmp/phpglibccheck` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload` | Low
-28 | File | `/var/tmp/sess_*` | High
-29 | File | `action.php` | Medium
-30 | File | `actionphp/download.File.php` | High
-31 | File | `add_comment.php` | High
-32 | File | `admin/admin.php` | High
-33 | File | `admin/content.php` | High
-34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-35 | File | `admin_gallery.php3` | High
-36 | File | `affich.php` | Medium
-37 | File | `agent/Core/Controller/SendRequest.cpp` | High
-38 | ... | ... | ...
+18 | File | `/manage_block.php` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/preview.php` | Medium
+21 | File | `/ptippage.cgi` | High
+22 | File | `/rom-0` | Low
+23 | File | `/src/chatbotapp/chatWindow.java` | High
+24 | File | `/start-apply.html` | High
+25 | File | `/tmp/out` | Medium
+26 | File | `/tmp/phpglibccheck` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/update-image1.php` | High
+29 | File | `/upload` | Low
+30 | File | `/v1/operador/` | High
+31 | File | `/var/tmp/sess_*` | High
+32 | File | `action.php` | Medium
+33 | File | `actionphp/download.File.php` | High
+34 | File | `add_comment.php` | High
+35 | File | `admin/admin.php` | High
+36 | File | `admin/content.php` | High
+37 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+38 | File | `admin_gallery.php3` | High
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

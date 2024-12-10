@@ -22,8 +22,8 @@ These _actors_ are associated with Nokoyawa or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Nokoyawa](https://vuldb.com/?actor.nokoyawa) | High
-2 | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-3 | [IcedID](https://vuldb.com/?actor.icedid) | High
+2 | [IcedID](https://vuldb.com/?actor.icedid) | High
+3 | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 
 ## IOC - Indicator of Compromise
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT44:
 
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -51,52 +51,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addbill.php` | Medium
-2 | File | `/admin-cp/theme/editor/default` | High
-3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/admin.php?page=plugins&tab=new&installstatus=ok&plugin_id=[here` | High
-5 | File | `/admin/ajax.php?action=delete_transaction` | High
-6 | File | `/admin/edit_area.php` | High
-7 | File | `/admin/gnssAutoAlign.php` | High
-8 | File | `/admin/idcProData_deal.php?mudi=del` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/pages/list` | High
-12 | File | `/admin/produts/controller.php` | High
-13 | File | `/admin/subnets/ripe-query.php` | High
-14 | File | `/admin/update-clients.php` | High
-15 | File | `/admin/upgrade` | High
-16 | File | `/Admin/user-record.php` | High
-17 | File | `/adminPage/www/addOver` | High
-18 | File | `/ajax.php` | Medium
-19 | File | `/ample/app/action/edit_product.php` | High
-20 | File | `/api/authentication/login` | High
-21 | File | `/api/v1/get-upload-file` | High
-22 | File | `/appinfo/save` | High
-23 | File | `/application/controller/Transaki.php` | High
-24 | File | `/apply.cgi` | Medium
-25 | File | `/assets` | Low
-26 | File | `/attachments` | Medium
-27 | File | `/author_posts.php` | High
-28 | File | `/bin/boa` | Medium
-29 | File | `/blog` | Low
-30 | File | `/category.php` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/discovery.cgi` | High
-33 | File | `/classes/Master.php?f=save_inquiry` | High
-34 | File | `/classes/Users.php?f=save_client` | High
-35 | File | `/collection/all` | High
-36 | File | `/ConfigFile.ini` | High
-37 | File | `/core/tools/update_contact_form_settings.php` | High
-38 | File | `/dataSet/testTransform;swagger-ui` | High
-39 | File | `/dl/dl_sendmail.php` | High
-40 | File | `/ecommerce/support_ticket` | High
-41 | File | `/files` | Low
-42 | File | `/gasmark/assets/myimages/oneWord.php` | High
-43 | File | `/goform/aspForm` | High
-44 | File | `/goform/CertListInfo` | High
-45 | ... | ... | ...
+2 | File | `/add_new_supplier.php` | High
+3 | File | `/admin-cp/theme/editor/default` | High
+4 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+5 | File | `/admin.php?page=plugins&tab=new&installstatus=ok&plugin_id=[here` | High
+6 | File | `/admin/ajax.php?action=delete_transaction` | High
+7 | File | `/admin/edit-brand.php` | High
+8 | File | `/admin/edit_area.php` | High
+9 | File | `/admin/gnssAutoAlign.php` | High
+10 | File | `/admin/idcProData_deal.php?mudi=del` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/pages/list` | High
+15 | File | `/admin/subnets/ripe-query.php` | High
+16 | File | `/admin/update-clients.php` | High
+17 | File | `/admin/upgrade` | High
+18 | File | `/Admin/user-record.php` | High
+19 | File | `/adminPage/www/addOver` | High
+20 | File | `/ajax.php` | Medium
+21 | File | `/ajax.php?action=signup` | High
+22 | File | `/ajax.php?action=update_account` | High
+23 | File | `/ample/app/action/edit_product.php` | High
+24 | File | `/api/authentication/login` | High
+25 | File | `/api/mob/instrucao/conta/destinatarios` | High
+26 | File | `/api/v1/get-upload-file` | High
+27 | File | `/appinfo/save` | High
+28 | File | `/application/controller/Transaki.php` | High
+29 | File | `/apply.cgi` | Medium
+30 | File | `/assets` | Low
+31 | File | `/attachments` | Medium
+32 | File | `/author_posts.php` | High
+33 | File | `/bin/boa` | Medium
+34 | File | `/blog` | Low
+35 | File | `/category.php` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/discovery.cgi` | High
+38 | File | `/classes/Master.php?f=save_inquiry` | High
+39 | File | `/classes/Users.php?f=save_client` | High
+40 | File | `/collection/all` | High
+41 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+42 | File | `/ConfigFile.ini` | High
+43 | File | `/core/tools/update_contact_form_settings.php` | High
+44 | File | `/dataSet/testTransform;swagger-ui` | High
+45 | File | `/ecommerce/support_ticket` | High
+46 | File | `/file/accept.php` | High
+47 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

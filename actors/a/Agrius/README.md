@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -61,17 +61,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/kerbynet` | High
 5 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
 6 | File | `/etc/quagga` | Medium
-7 | File | `/main?cmd=invalid_browser` | High
-8 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-9 | File | `/pdf/InfoOutputDev.cc` | High
-10 | File | `/plugins/Dashboard/Controller.php` | High
-11 | File | `/signup.php` | Medium
-12 | File | `/storage/app/media/evil.svg` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/usr/lpp/mmfs/bin/` | High
-15 | ... | ... | ...
+7 | File | `/filemanager/upload` | High
+8 | File | `/index.php/dashboard/save` | High
+9 | File | `/main?cmd=invalid_browser` | High
+10 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+11 | File | `/pda/workflow/check_seal.php` | High
+12 | File | `/pdf/InfoOutputDev.cc` | High
+13 | File | `/plugins/Dashboard/Controller.php` | High
+14 | File | `/register.php` | High
+15 | File | `/signup.php` | Medium
+16 | File | `/storage/app/media/evil.svg` | High
+17 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

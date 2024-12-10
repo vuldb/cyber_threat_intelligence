@@ -220,24 +220,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/admin-profile.php` | High
 3 | File | `/admin/emp-profile-avatar.php` | High
 4 | File | `/admin/manage-ambulance.php` | High
-5 | File | `/attendancelist.php` | High
-6 | File | `/backend/register.php` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/cgi-bin/p1_ftpserver.php` | High
-9 | File | `/cgi-bin/tosei_kikai.php` | High
-10 | File | `/check_availability.php` | High
-11 | File | `/classes/Master.php` | High
-12 | File | `/classes/Master.php?f=log_employee` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/conf/app.conf` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/forgot-password` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/lesson/controller.php` | High
-20 | ... | ... | ...
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/attendancelist.php` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/cgi-bin/p1_ftpserver.php` | High
+10 | File | `/cgi-bin/tosei_kikai.php` | High
+11 | File | `/check_availability.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Master.php?f=log_employee` | High
+14 | File | `/classes/SystemSettings.php?f=update_settings` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/conf/app.conf` | High
+17 | File | `/control/register_case.php` | High
+18 | File | `/foms/routers/place-order.php` | High
+19 | File | `/forgot-password` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/lesson/controller.php` | High
+22 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [45.155.250.207](https://vuldb.com/?ip.45.155.250.207) | - | - | High
 14 | ... | ... | ... | ...
 
-There are 53 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,9 +72,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/rom-0` | Low
 13 | File | `/uncpath/` | Medium
 14 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-15 | ... | ... | ...
+15 | File | `/video-sharing-script/watch-video.php` | High
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

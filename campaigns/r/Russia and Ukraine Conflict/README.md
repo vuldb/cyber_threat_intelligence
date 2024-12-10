@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,14 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,42 +80,48 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/subject.php` | High
 7 | File | `/adminpanel/admin/query/addCourseExe.php` | High
 8 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-9 | File | `/apiadmin/upload/attach` | High
-10 | File | `/author_posts.php` | High
-11 | File | `/bin/boa` | Medium
-12 | File | `/calendar/minimizer/index.php` | High
-13 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-14 | File | `/category.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/webfile_mgr.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/control/register_case.php` | High
-22 | File | `/devinfo` | Medium
-23 | File | `/DXR.axd` | Medium
-24 | File | `/ecommerce/popup_Item.php` | High
-25 | File | `/edit-task.php` | High
-26 | File | `/edit.php` | Medium
-27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-28 | File | `/endpoint/delete-bookmark.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/` | Medium
-31 | File | `/goform/saveParentControlInfo` | High
-32 | File | `/goform/setcfm` | High
-33 | File | `/goform/SysToolReboot` | High
-34 | File | `/h.php/general/config?ref=addtabs` | High
-35 | File | `/includes/fileReceive.php` | High
-36 | File | `/index.php?action=editManager` | High
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/Interface/DevManage/VM.php` | High
-39 | File | `/ipms/imageConvert/image` | High
-40 | File | `/login` | Low
-41 | File | `/main/webservices/additional_webservices.php` | High
-42 | ... | ... | ...
+9 | File | `/application/index/controller/Screen.php` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/author_posts.php` | High
+12 | File | `/auth_files/photo/` | High
+13 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/bin/login` | Medium
+16 | File | `/calendar/minimizer/index.php` | High
+17 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+18 | File | `/category.php` | High
+19 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/hd_config.cgi` | High
+22 | File | `/cgi-bin/luci/api/auth` | High
+23 | File | `/cgi-bin/webfile_mgr.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/data/app` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ecommerce/popup_Item.php` | High
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/endpoint/delete-bookmark.php` | High
+32 | File | `/filemanager/upload` | High
+33 | File | `/formLoginAuth.htm` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/saveParentControlInfo` | High
+36 | File | `/h.php/general/config?ref=addtabs` | High
+37 | File | `/includes/fileReceive.php` | High
+38 | File | `/index.php?action=editManager` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/Interface/DevManage/VM.php` | High
+41 | File | `/ipms/imageConvert/image` | High
+42 | File | `/login` | Low
+43 | File | `/main/webservices/additional_webservices.php` | High
+44 | File | `/modules/profile/index.php` | High
+45 | File | `/newdriver.php` | High
+46 | File | `/newvehicle.php` | High
+47 | File | `/out.php` | Medium
+48 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

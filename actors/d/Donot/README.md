@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CH](https://vuldb.com/?country.ch)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -83,35 +83,36 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/usermanagement.php` | High
 19 | File | `/adminPage/conf/saveCmd` | High
 20 | File | `/admin_route/inc_service_credits.php` | High
-21 | File | `/aqpg/users/login.php` | High
-22 | File | `/artist-display.php` | High
-23 | File | `/backups/` | Medium
-24 | File | `/bcms/admin/?page=user/list` | High
-25 | File | `/cardo/api` | Medium
-26 | File | `/catcompany.php` | High
-27 | File | `/CCMAdmin/serverlist.asp` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/editBookmark` | High
-30 | File | `/cgi-bin/system_mgr.cgi` | High
-31 | File | `/cgi-bin/touchlist_sync.cgi` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/cimom` | Low
-34 | File | `/ci_spms/admin/category` | High
-35 | File | `/classes/Users.php?f=save` | High
-36 | File | `/cwms/admin/?page=articles/view_article/` | High
-37 | File | `/cwms/classes/Master.php?f=save_contact` | High
-38 | File | `/dashboard/add-blog.php` | High
-39 | File | `/dashboard/add-portfolio.php` | High
-40 | File | `/dashboard/settings` | High
-41 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-42 | File | `/env` | Low
-43 | File | `/film-rating.php` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/front/roomtype-details.php` | High
-46 | File | `/goform/fast_setting_wifi_set` | High
-47 | ... | ... | ...
+21 | File | `/app/uploading/upload-mp3.php` | High
+22 | File | `/aqpg/users/login.php` | High
+23 | File | `/artist-display.php` | High
+24 | File | `/backups/` | Medium
+25 | File | `/bcms/admin/?page=user/list` | High
+26 | File | `/cardo/api` | Medium
+27 | File | `/catcompany.php` | High
+28 | File | `/CCMAdmin/serverlist.asp` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/editBookmark` | High
+31 | File | `/cgi-bin/system_mgr.cgi` | High
+32 | File | `/cgi-bin/touchlist_sync.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/cimom` | Low
+35 | File | `/ci_spms/admin/category` | High
+36 | File | `/classes/Users.php?f=save` | High
+37 | File | `/cwms/admin/?page=articles/view_article/` | High
+38 | File | `/cwms/classes/Master.php?f=save_contact` | High
+39 | File | `/dashboard/add-blog.php` | High
+40 | File | `/dashboard/add-portfolio.php` | High
+41 | File | `/dashboard/settings` | High
+42 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+43 | File | `/env` | Low
+44 | File | `/film-rating.php` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/front/roomtype-details.php` | High
+47 | File | `/goform/fast_setting_wifi_set` | High
+48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

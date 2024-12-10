@@ -15,8 +15,11 @@ The following _campaigns_ are known and can be associated with RomCom:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RomCom:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,12 +49,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/MIME/INBOX-MM-1/` | High
-2 | File | `category.cfm` | Medium
-3 | File | `reservation_save.php` | High
-4 | ... | ... | ...
+1 | File | `/accounts_con/register_account` | High
+2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/change-image.php` | High
+5 | File | `/admin/File/pictureUpload` | High
+6 | File | `/admin/modules/product/controller.php?action=add` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/update.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/admin_class.php` | High
+11 | File | `/api/admin/user` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/app/action/add_staff.php` | High
+14 | File | `/app/ajax/sell_return_data.php` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/classes/Master.php?f=delete_inquiry` | High
+17 | File | `/conf/app.conf` | High
+18 | File | `/dipam/athlete-profile.php` | High
+19 | File | `/forum/away.php` | High
+20 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [SG](https://vuldb.com/?country.sg)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,10 +48,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,22 +62,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
 4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/etc/openstack-dashboard/local_settings` | High
-6 | File | `/get_getnetworkconf.cgi` | High
-7 | File | `/goform/RgDhcp` | High
-8 | File | `/goform/RGFirewallEL` | High
-9 | File | `/horde/util/go.php` | High
-10 | File | `/php/ping.php` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/scripts/unlock_tasks.php` | High
-13 | File | `/SysInfo1.htm` | High
-14 | File | `/sysinfo_json.cgi` | High
-15 | File | `/system/dictData/loadDictItem` | High
-16 | File | `/system/user/modules/mod_users/controller.php` | High
-17 | File | `/uncpath/` | Medium
-18 | ... | ... | ...
+5 | File | `/php/ping.php` | High
+6 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/SysInfo1.htm` | High
+8 | File | `/sysinfo_json.cgi` | High
+9 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

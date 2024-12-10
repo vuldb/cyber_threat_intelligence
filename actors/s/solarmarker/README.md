@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,57 +58,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index.PHP` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/api2/html/` | Medium
-5 | File | `/apiadmin/notice/add` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/calendar/minimizer/index.php` | High
-8 | File | `/cgi-bin-sdb/` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/p1_ftpserver.php` | High
-11 | File | `/classes/master.php?f=delete_order` | High
-12 | File | `/cloud_config/router_post/register` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/Forms/tools_test_1` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/forum/PostPrivateMessage` | High
-18 | File | `/h/autoSaveDraft` | High
-19 | File | `/h/calendar` | Medium
-20 | File | `/holiday.php` | Medium
-21 | File | `/home/cavesConsole` | High
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/lam/tmp/` | Medium
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/login/index.php` | High
-27 | File | `/manager?action=getlogcat` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/model/update_grade.php` | High
-30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-31 | File | `/oauth/idp/.well-known/openid-configuration` | High
-32 | File | `/out.php` | Medium
-33 | File | `/p1/p2/:name` | Medium
-34 | File | `/param.file.tgz` | High
-35 | File | `/patient/appointment.php` | High
-36 | File | `/php-opos/index.php` | High
-37 | File | `/php/exportrecord.php` | High
-38 | File | `/php/ping.php` | High
-39 | File | `/plesk-site-preview/` | High
-40 | File | `/proc/<PID>/mem` | High
-41 | File | `/product.php` | Medium
-42 | File | `/product_list.php` | High
-43 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-44 | File | `/ptms/?page=user` | High
-45 | File | `/request.php` | Medium
-46 | File | `/scripts/unlock_tasks.php` | High
-47 | File | `/Service/ImageStationDataService.asmx` | High
-48 | File | `/setup/finish` | High
-49 | File | `/simple-online-bidding-system/bidding/admin/ajax.php?action=login` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/alphaware/details.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/api2/html/` | Medium
+7 | File | `/apiadmin/notice/add` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/calendar/minimizer/index.php` | High
+10 | File | `/cgi-bin-sdb/` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/p1_ftpserver.php` | High
+13 | File | `/classes/master.php?f=delete_order` | High
+14 | File | `/cloud_config/router_post/register` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/Forms/tools_test_1` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/forum/PostPrivateMessage` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/holiday.php` | Medium
+23 | File | `/home/cavesConsole` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/lam/tmp/` | Medium
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/login/index.php` | High
+29 | File | `/manager?action=getlogcat` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/model/update_grade.php` | High
+32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+33 | File | `/oauth/idp/.well-known/openid-configuration` | High
+34 | File | `/out.php` | Medium
+35 | File | `/p1/p2/:name` | Medium
+36 | File | `/param.file.tgz` | High
+37 | File | `/patient/appointment.php` | High
+38 | File | `/php-opos/index.php` | High
+39 | File | `/php/exportrecord.php` | High
+40 | File | `/php/ping.php` | High
+41 | File | `/plesk-site-preview/` | High
+42 | File | `/proc/<PID>/mem` | High
+43 | File | `/product.php` | Medium
+44 | File | `/product_list.php` | High
+45 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+46 | File | `/ptms/?page=user` | High
+47 | File | `/request.php` | Medium
+48 | File | `/scripts/unlock_tasks.php` | High
+49 | File | `/Service/ImageStationDataService.asmx` | High
 50 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

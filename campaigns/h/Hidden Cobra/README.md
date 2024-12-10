@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hidden Cobra:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [IR](https://vuldb.com/?country.ir)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -164,13 +164,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -179,29 +178,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin.php?action=themeinstall` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/reports.php` | High
-6 | File | `/advanced-tools/nova/bin/netwatch` | High
-7 | File | `/ajax/checkin.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/app/search/table` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-12 | File | `/cgi-bin/R14.2/log.pl` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/shadow` | Medium
-15 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-16 | File | `/export` | Low
-17 | File | `/FormLogin` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/gcp/roleset/*` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/index.php?action=editManager` | High
-22 | ... | ... | ...
+2 | File | `/adminapi/system/file/openfile` | High
+3 | File | `/ajax/checkin.php` | High
+4 | File | `/api/v1/settings` | High
+5 | File | `/dbsrv.asp` | Medium
+6 | File | `/etc/shadow` | Medium
+7 | File | `/index.php?action=editManager` | High
+8 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

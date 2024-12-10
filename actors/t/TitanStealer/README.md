@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -54,31 +54,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.env` | Low
-3 | File | `/admin/pages/list` | High
-4 | File | `/category.php` | High
-5 | File | `/category/list?limit=10&offset=0&order=desc` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-8 | File | `/cgi-bin/delete_CA` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Master.php?f=delete_brand` | High
-11 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-12 | File | `/display/map` | Medium
-13 | File | `/download` | Medium
-14 | File | `/endpoint/update-bookmark.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/forum/PostPrivateMessage` | High
-17 | File | `/get_getnetworkconf.cgi` | High
-18 | File | `/GponForm/device_Form?script/` | High
-19 | File | `/includes/rrdtool.inc.php` | High
-20 | File | `/login` | Low
-21 | File | `/Main_AdmStatus_Content.asp` | High
-22 | File | `/manager/ipconfig_new.php` | High
-23 | File | `/NAGErrors` | Medium
-24 | File | `/registrar/?page=registration` | High
-25 | ... | ... | ...
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/pages/list` | High
+6 | File | `/category.php` | High
+7 | File | `/category/list?limit=10&offset=0&order=desc` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+10 | File | `/cgi-bin/delete_CA` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/Master.php?f=delete_brand` | High
+13 | File | `/command_port.ini` | High
+14 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+15 | File | `/display/map` | Medium
+16 | File | `/download` | Medium
+17 | File | `/endpoint/update-bookmark.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/forum/PostPrivateMessage` | High
+20 | File | `/get_getnetworkconf.cgi` | High
+21 | File | `/GponForm/device_Form?script/` | High
+22 | File | `/includes/rrdtool.inc.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/login` | Low
+25 | File | `/Main_AdmStatus_Content.asp` | High
+26 | File | `/manager/ipconfig_new.php` | High
+27 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

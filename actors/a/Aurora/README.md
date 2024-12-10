@@ -71,28 +71,30 @@ ID | Type | Indicator | Confidence
 17 | File | `/opt/tms/bin/cli` | High
 18 | File | `/out.php` | Medium
 19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/registrar/?page=registration` | High
-21 | File | `/secserver` | Medium
-22 | File | `/settings/account` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/st_reg.php` | Medium
-25 | File | `/var/log/nginx` | High
-26 | File | `/way4acs/enroll` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `action.php` | Medium
-29 | File | `actions/beats_uploader.php` | High
-30 | File | `actions/vote_channel.php` | High
-31 | File | `ad.cgi` | Low
-32 | File | `adclick.php` | Medium
-33 | File | `add.php` | Low
-34 | File | `admin/admin.php` | High
-35 | File | `Admin/ADM_Pagina.php` | High
-36 | File | `admin/article.php` | High
-37 | File | `admin/dashboard.php` | High
-38 | File | `Admin/edit-admin.php` | High
-39 | ... | ... | ...
+20 | File | `/products/view_product.php` | High
+21 | File | `/registrar/?page=registration` | High
+22 | File | `/secserver` | Medium
+23 | File | `/settings/account` | High
+24 | File | `/show_news.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/st_reg.php` | Medium
+27 | File | `/var/log/nginx` | High
+28 | File | `/way4acs/enroll` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `action.php` | Medium
+31 | File | `actions/beats_uploader.php` | High
+32 | File | `actions/vote_channel.php` | High
+33 | File | `ad.cgi` | Low
+34 | File | `adclick.php` | Medium
+35 | File | `add.php` | Low
+36 | File | `admin/admin.php` | High
+37 | File | `Admin/ADM_Pagina.php` | High
+38 | File | `admin/article.php` | High
+39 | File | `admin/dashboard.php` | High
+40 | File | `Admin/edit-admin.php` | High
+41 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

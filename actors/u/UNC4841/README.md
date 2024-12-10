@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -69,50 +69,52 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
 3 | File | `/admin/link/link_mod.php` | High
 4 | File | `/adminapi/system/crud` | High
-5 | File | `/api/` | Low
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/api/sys/login` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/app/options.py` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/luci` | High
-12 | File | `/cgi-bin/luci;stok=/locale` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cgi/sshcheck.cgi` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/common/download?filename=1.jsp&delete=false` | High
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/crmeb/crmeb/services/UploadService.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/postfix/sender_login` | High
-22 | File | `/example/editor` | High
-23 | File | `/filemanager/php/connector.php` | High
-24 | File | `/filemanager/upload.php` | High
-25 | File | `/forgetpassword.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/ghost/preview` | High
-28 | File | `/goForm/aspForm` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/home/www/cgi-bin/login.cgi` | High
-31 | File | `/index/ajax/lang` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/items/view_item.php` | High
-34 | File | `/jeecg-boot/sys/common/upload` | High
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/mail/index.html` | High
-37 | File | `/medical/inventories.php` | High
-38 | File | `/modules/profile/index.php` | High
-39 | File | `/out.php` | Medium
-40 | File | `/php-jms/updateTxtview.php` | High
-41 | File | `/proxy` | Low
-42 | File | `/question.php` | High
-43 | File | `/replication` | Medium
-44 | File | `/resources//../` | High
-45 | File | `/RestAPI` | Medium
-46 | ... | ... | ...
+5 | File | `/animalsadd.php` | High
+6 | File | `/api/` | Low
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/api/sys/login` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/app/options.py` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/luci` | High
+13 | File | `/cgi-bin/luci;stok=/locale` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cgi/sshcheck.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/common/download?filename=1.jsp&delete=false` | High
+19 | File | `/context/%2e/WEB-INF/web.xml` | High
+20 | File | `/crmeb/crmeb/services/UploadService.php` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/postfix/sender_login` | High
+23 | File | `/example/editor` | High
+24 | File | `/filemanager/php/connector.php` | High
+25 | File | `/filemanager/upload.php` | High
+26 | File | `/forgetpassword.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/ghost/preview` | High
+29 | File | `/goForm/aspForm` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/home/www/cgi-bin/login.cgi` | High
+32 | File | `/index/ajax/lang` | High
+33 | File | `/Items/*/RemoteImages/Download` | High
+34 | File | `/items/view_item.php` | High
+35 | File | `/jeecg-boot/sys/common/upload` | High
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/login.php` | Medium
+38 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+39 | File | `/mail/index.html` | High
+40 | File | `/medical/inventories.php` | High
+41 | File | `/modules/profile/index.php` | High
+42 | File | `/oews/classes/Master.php?f=save_product` | High
+43 | File | `/out.php` | Medium
+44 | File | `/php-jms/updateTxtview.php` | High
+45 | File | `/proxy` | Low
+46 | File | `/question.php` | High
+47 | File | `/replication` | Medium
+48 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,38 +59,38 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/v2/maps` | Medium
 12 | File | `/apply/index.php` | High
 13 | File | `/candidate/index.php` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/cpaddons_report.pl` | High
+14 | File | `/cgi-bin/adm.cgi` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
 18 | File | `/classes/SystemSettings.php?f=update_settings` | High
 19 | File | `/common/dict/list` | High
-20 | File | `/debug/pprof` | Medium
+20 | File | `/core/config-revisions` | High
 21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 22 | File | `/endpoint/add-calorie.php` | High
 23 | File | `/endpoint/add-timesheet.php` | High
 24 | File | `/etc/init.d/update_notifications.sh` | High
-25 | File | `/foms/routers/place-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/DhcpListClient` | High
-28 | File | `/hrm/leaverequest.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index/ajax/lang` | High
-31 | File | `/install/` | Medium
-32 | File | `/Interface/DevManage/VM.php` | High
-33 | File | `/main/webservices/additional_webservices.php` | High
-34 | File | `/music/ajax.php?action=save_music` | High
-35 | File | `/ndmComponents.js` | High
-36 | File | `/net/bluetooth/rfcomm/core.C` | High
-37 | File | `/PC/WebService.asmx` | High
-38 | File | `/pdf` | Low
-39 | File | `/queue/join` | Medium
-40 | File | `/register.php` | High
-41 | File | `/registrar/` | Medium
-42 | File | `/remote/put_file` | High
-43 | File | `/routers/add-ticket.php` | High
-44 | File | `/smsa/add_class_submit.php` | High
-45 | File | `/smsa/admin_login.php` | High
+25 | File | `/filemanager/upload` | High
+26 | File | `/foms/routers/place-order.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/geoserver/gwc/rest.html` | High
+29 | File | `/goform/DhcpListClient` | High
+30 | File | `/hrm/leaverequest.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index/ajax/lang` | High
+33 | File | `/install/` | Medium
+34 | File | `/Interface/DevManage/VM.php` | High
+35 | File | `/logs` | Low
+36 | File | `/main/webservices/additional_webservices.php` | High
+37 | File | `/music/ajax.php?action=save_music` | High
+38 | File | `/ndmComponents.js` | High
+39 | File | `/net/bluetooth/rfcomm/core.C` | High
+40 | File | `/PC/WebService.asmx` | High
+41 | File | `/pdf` | Low
+42 | File | `/queue/join` | Medium
+43 | File | `/register.php` | High
+44 | File | `/registrar/` | Medium
+45 | File | `/remote/put_file` | High
 46 | ... | ... | ...
 
 There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

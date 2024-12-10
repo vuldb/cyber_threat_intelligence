@@ -43,10 +43,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -58,54 +58,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/admin_login.php` | High
-3 | File | `/api/addusers` | High
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/dus/shopliste/index.php` | High
-9 | File | `/etc/path` | Medium
-10 | File | `/hrm/employeeadd.php` | High
-11 | File | `/licenses` | Medium
-12 | File | `/login` | Low
-13 | File | `/nagiosql/admin/checkcommands.php` | High
-14 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-15 | File | `/php/ping.php` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/rapi/read_url` | High
-18 | File | `/scripts/unlock_tasks.php` | High
-19 | File | `/sendKey` | Medium
-20 | File | `/setSystemAdmin` | High
-21 | File | `/signup_script.php` | High
-22 | File | `/SysInfo1.htm` | High
-23 | File | `/sysinfo_json.cgi` | High
-24 | File | `/system/dictData/loadDictItem` | High
-25 | File | `/system/user/modules/mod_users/controller.php` | High
-26 | File | `/tmp` | Low
-27 | File | `/type.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/5bin/su` | Medium
-30 | File | `/usr/bin/mail` | High
-31 | File | `/var/dt/` | Medium
-32 | File | `/view-property.php` | High
-33 | File | `/view/vpn/autovpn/sub_commit.php` | High
-34 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-35 | File | `/_vti_bin/_vti_log` | High
-36 | File | `00.jsp` | Low
-37 | File | `adclick.php` | Medium
-38 | File | `admin.asp` | Medium
-39 | File | `admin.php` | Medium
-40 | File | `admin/` | Low
-41 | File | `admin/Login.php` | High
-42 | File | `admin/manage-comments.php` | High
-43 | File | `Administration/Controllers/ImportController.cs` | High
-44 | File | `administrator/mail/download.cfm` | High
-45 | File | `AdminViewError/AdminAddadmin` | High
+1 | File | `/admin/admin_login.php` | High
+2 | File | `/api/addusers` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dus/shopliste/index.php` | High
+8 | File | `/etc/path` | Medium
+9 | File | `/hrm/employeeadd.php` | High
+10 | File | `/licenses` | Medium
+11 | File | `/login` | Low
+12 | File | `/nagiosql/admin/checkcommands.php` | High
+13 | File | `/php/ping.php` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/rapi/read_url` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/sendKey` | Medium
+18 | File | `/setSystemAdmin` | High
+19 | File | `/signup_script.php` | High
+20 | File | `/SysInfo1.htm` | High
+21 | File | `/sysinfo_json.cgi` | High
+22 | File | `/system/dictData/loadDictItem` | High
+23 | File | `/system/user/modules/mod_users/controller.php` | High
+24 | File | `/tmp` | Low
+25 | File | `/type.php` | Medium
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/5bin/su` | Medium
+28 | File | `/usr/bin/mail` | High
+29 | File | `/var/dt/` | Medium
+30 | File | `/view-property.php` | High
+31 | File | `/view/vpn/autovpn/sub_commit.php` | High
+32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+33 | File | `/_vti_bin/_vti_log` | High
+34 | File | `00.jsp` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `admin.asp` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin/` | Low
+39 | File | `admin/Login.php` | High
+40 | File | `admin/manage-comments.php` | High
+41 | File | `Administration/Controllers/ImportController.cs` | High
+42 | File | `administrator/mail/download.cfm` | High
+43 | File | `AdminViewError/AdminAddadmin` | High
+44 | File | `agentdisplay.php` | High
+45 | File | `appserv/main.php` | High
 46 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

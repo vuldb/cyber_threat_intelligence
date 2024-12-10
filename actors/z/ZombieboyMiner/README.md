@@ -31,10 +31,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
-3 | T1222 | CWE-275 | Permission Issues | High
+3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,8 +42,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `epan/dissectors/packet-ieee1905.c` | High
-2 | File | `rpcapd/daemon.c` | High
+1 | File | `drivers_syno_import_user.php` | High
+2 | File | `epan/dissectors/packet-ieee1905.c` | High
+3 | File | `rpcapd/daemon.c` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -92,10 +92,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -130,21 +130,24 @@ ID | Type | Indicator | Confidence
 25 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 26 | File | `/edit-subject.php` | High
 27 | File | `/endpoint/add-calorie.php` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/init.d/update_notifications.sh` | High
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/foms/routers/place-order.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/SetSysTimeCfg` | High
-34 | File | `/hrm/leaverequest.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index/ajax/lang` | High
-37 | File | `/lesson/controller.php` | High
-38 | File | `/manage_person.php` | High
-39 | File | `/manage_question.php` | High
-40 | ... | ... | ...
+28 | File | `/endpoint/add-timesheet.php` | High
+29 | File | `/endpoint/add-user.php` | High
+30 | File | `/etc/init.d/update_notifications.sh` | High
+31 | File | `/etc/postfix/sender_login` | High
+32 | File | `/foms/routers/place-order.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/geoserver/gwc/rest.html` | High
+35 | File | `/goform/SetLEDCfg` | High
+36 | File | `/goform/setMacFilterCfg` | High
+37 | File | `/goform/SetSysTimeCfg` | High
+38 | File | `/grid/console` | High
+39 | File | `/hrm/leaverequest.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/index/ajax/lang` | High
+42 | File | `/lesson/controller.php` | High
+43 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

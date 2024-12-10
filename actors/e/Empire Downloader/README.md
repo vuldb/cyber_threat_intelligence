@@ -54,25 +54,25 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/edit.php` | High
 5 | File | `/admin/edit_admin_details.php?id=admin` | High
 6 | File | `/admin/new-content` | High
-7 | File | `/aqpg/users/login.php` | High
-8 | File | `/backups/` | Medium
-9 | File | `/bcms/admin/?page=user/list` | High
-10 | File | `/CCMAdmin/serverlist.asp` | High
-11 | File | `/cgi-bin/editBookmark` | High
-12 | File | `/classes/Users.php?f=save` | High
-13 | File | `/cwms/admin/?page=articles/view_article/` | High
-14 | File | `/cwms/classes/Master.php?f=save_contact` | High
-15 | File | `/goform/RgDdns` | High
-16 | File | `/goform/RgDhcp` | High
-17 | File | `/goform/RGFirewallEL` | High
-18 | File | `/goform/RgTime` | High
-19 | File | `/goform/RgUrlBlock.asp` | High
-20 | File | `/goform/wlanPrimaryNetwork` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/mims/app/addcustomerHandler.php` | High
+7 | File | `/api/v1/snapshots` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/backups/` | Medium
+10 | File | `/bcms/admin/?page=user/list` | High
+11 | File | `/CCMAdmin/serverlist.asp` | High
+12 | File | `/cgi-bin/editBookmark` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/cwms/admin/?page=articles/view_article/` | High
+15 | File | `/cwms/classes/Master.php?f=save_contact` | High
+16 | File | `/goform/RgDdns` | High
+17 | File | `/goform/RgDhcp` | High
+18 | File | `/goform/RGFirewallEL` | High
+19 | File | `/goform/RgTime` | High
+20 | File | `/goform/RgUrlBlock.asp` | High
+21 | File | `/goform/wlanPrimaryNetwork` | High
+22 | File | `/librarian/bookdetails.php` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

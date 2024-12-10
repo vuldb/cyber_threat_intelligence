@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,7 +84,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -99,25 +99,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/booking-bwdates-reports-details.php` | High
 3 | File | `/admin/emp-profile-avatar.php` | High
 4 | File | `/admin/mod_room/controller.php?action=add` | High
-5 | File | `/api/client/editemedia.php` | High
-6 | File | `/api/v2/maps` | Medium
-7 | File | `/attendancelist.php` | High
-8 | File | `/backend/register.php` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/cgi-bin/p1_ftpserver.php` | High
-11 | File | `/cgi-bin/tosei_kikai.php` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/classes/Master.php?f=log_employee` | High
-14 | File | `/classes/SystemSettings.php?f=update_settings` | High
-15 | File | `/classes/Users.php?f=delete` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/foms/routers/place-order.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/index.jsp#settings` | High
-20 | File | `/librarian/bookdetails.php` | High
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/api/client/editemedia.php` | High
+7 | File | `/api/v2/maps` | Medium
+8 | File | `/attendancelist.php` | High
+9 | File | `/backend/register.php` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | File | `/cgi-bin/tosei_kikai.php` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=log_employee` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/classes/Users.php?f=delete` | High
+17 | File | `/control/register_case.php` | High
+18 | File | `/foms/routers/place-order.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/index.jsp#settings` | High
 21 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

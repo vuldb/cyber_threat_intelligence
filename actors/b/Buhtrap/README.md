@@ -47,18 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/objects/getImageMP4.php` | High
-2 | File | `/payu/icpcheckout/` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `adclick.php` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `adrotate.pm` | Medium
-7 | File | `article.php` | Medium
-8 | File | `asn1fix_retrieve.c` | High
-9 | File | `bigsam_guestbook.php` | High
+1 | File | `.git/` | Low
+2 | File | `/objects/getImageMP4.php` | High
+3 | File | `/payu/icpcheckout/` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `adclick.php` | Medium
+6 | File | `admin.php` | Medium
+7 | File | `adrotate.pm` | Medium
+8 | File | `article.php` | Medium
+9 | File | `asn1fix_retrieve.c` | High
 10 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

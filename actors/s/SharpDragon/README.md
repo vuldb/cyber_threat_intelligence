@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,14 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/context/%2e/WEB-INF/web.xml` | High
-2 | File | `/resources//../` | High
-3 | File | `admin.php?s=/Template/edit/path/*web*..*..*..*..*1.txt.html` | High
-4 | File | `common.php` | Medium
-5 | File | `ENCtool.jar` | Medium
-6 | ... | ... | ...
+1 | File | `/admin.php?page=album` | High
+2 | File | `/admin_class.php` | High
+3 | File | `/context/%2e/WEB-INF/web.xml` | High
+4 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
+5 | File | `/members/poster.php` | High
+6 | File | `/resources//../` | High
+7 | File | `/switch-php` | Medium
+8 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

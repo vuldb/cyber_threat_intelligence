@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Phorpiex:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phorpiex:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,38 +29,39 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.61.176.216](https://vuldb.com/?ip.2.61.176.216) | dynamic-2-61-176-216.pppoe.khakasnet.ru | - | High
 2 | [2.184.139.149](https://vuldb.com/?ip.2.184.139.149) | - | - | High
-3 | [5.232.28.65](https://vuldb.com/?ip.5.232.28.65) | - | - | High
-4 | [7.5.7.7](https://vuldb.com/?ip.7.5.7.7) | - | - | High
-5 | [17.42.251.10](https://vuldb.com/?ip.17.42.251.10) | mx01.mail.icloud.com | - | High
-6 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
-7 | [20.109.209.108](https://vuldb.com/?ip.20.109.209.108) | - | - | High
-8 | [20.206.235.31](https://vuldb.com/?ip.20.206.235.31) | - | - | High
-9 | [24.201.245.37](https://vuldb.com/?ip.24.201.245.37) | mx.videotron.ca | - | High
-10 | [31.59.189.4](https://vuldb.com/?ip.31.59.189.4) | 31-59-189-4.shatel.ir | - | High
-11 | [34.212.80.54](https://vuldb.com/?ip.34.212.80.54) | cxr.mx.a.cloudfilter.net | - | High
-12 | [35.45.98.140](https://vuldb.com/?ip.35.45.98.140) | - | - | High
-13 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
-14 | [35.225.160.245](https://vuldb.com/?ip.35.225.160.245) | 245.160.225.35.bc.googleusercontent.com | - | Medium
-15 | [37.255.99.93](https://vuldb.com/?ip.37.255.99.93) | - | - | High
-16 | [39.41.234.182](https://vuldb.com/?ip.39.41.234.182) | - | - | High
-17 | [42.248.182.125](https://vuldb.com/?ip.42.248.182.125) | - | - | High
-18 | [42.248.182.234](https://vuldb.com/?ip.42.248.182.234) | - | - | High
-19 | [42.248.183.250](https://vuldb.com/?ip.42.248.183.250) | - | - | High
-20 | [46.70.200.184](https://vuldb.com/?ip.46.70.200.184) | - | - | High
-21 | [46.224.180.246](https://vuldb.com/?ip.46.224.180.246) | - | - | High
-22 | [46.225.106.121](https://vuldb.com/?ip.46.225.106.121) | - | - | High
-23 | [57.197.27.187](https://vuldb.com/?ip.57.197.27.187) | - | - | High
-24 | [58.74.224.218](https://vuldb.com/?ip.58.74.224.218) | - | - | High
-25 | [60.162.101.123](https://vuldb.com/?ip.60.162.101.123) | - | - | High
-26 | [63.251.106.25](https://vuldb.com/?ip.63.251.106.25) | - | - | High
-27 | [64.8.70.104](https://vuldb.com/?ip.64.8.70.104) | mx.tds.net | - | High
-28 | [64.98.36.4](https://vuldb.com/?ip.64.98.36.4) | mx.b.hostedemail.com | - | High
-29 | [64.136.44.37](https://vuldb.com/?ip.64.136.44.37) | mx.dca.untd.com | - | High
-30 | [66.199.229.251](https://vuldb.com/?ip.66.199.229.251) | 66-199-229-251.reverse.ezzi.net | - | High
-31 | [66.218.85.151](https://vuldb.com/?ip.66.218.85.151) | unknown.yahoo.com | - | High
-32 | ... | ... | ... | ...
+3 | [5.42.96.117](https://vuldb.com/?ip.5.42.96.117) | - | - | High
+4 | [5.232.28.65](https://vuldb.com/?ip.5.232.28.65) | - | - | High
+5 | [7.5.7.7](https://vuldb.com/?ip.7.5.7.7) | - | - | High
+6 | [17.42.251.10](https://vuldb.com/?ip.17.42.251.10) | mx01.mail.icloud.com | - | High
+7 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+8 | [20.109.209.108](https://vuldb.com/?ip.20.109.209.108) | - | - | High
+9 | [20.206.235.31](https://vuldb.com/?ip.20.206.235.31) | - | - | High
+10 | [24.201.245.37](https://vuldb.com/?ip.24.201.245.37) | mx.videotron.ca | - | High
+11 | [31.59.189.4](https://vuldb.com/?ip.31.59.189.4) | 31-59-189-4.shatel.ir | - | High
+12 | [34.212.80.54](https://vuldb.com/?ip.34.212.80.54) | cxr.mx.a.cloudfilter.net | - | High
+13 | [35.45.98.140](https://vuldb.com/?ip.35.45.98.140) | - | - | High
+14 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+15 | [35.225.160.245](https://vuldb.com/?ip.35.225.160.245) | 245.160.225.35.bc.googleusercontent.com | - | Medium
+16 | [37.255.99.93](https://vuldb.com/?ip.37.255.99.93) | - | - | High
+17 | [39.41.234.182](https://vuldb.com/?ip.39.41.234.182) | - | - | High
+18 | [42.248.182.125](https://vuldb.com/?ip.42.248.182.125) | - | - | High
+19 | [42.248.182.234](https://vuldb.com/?ip.42.248.182.234) | - | - | High
+20 | [42.248.183.250](https://vuldb.com/?ip.42.248.183.250) | - | - | High
+21 | [46.70.200.184](https://vuldb.com/?ip.46.70.200.184) | - | - | High
+22 | [46.224.180.246](https://vuldb.com/?ip.46.224.180.246) | - | - | High
+23 | [46.225.106.121](https://vuldb.com/?ip.46.225.106.121) | - | - | High
+24 | [57.197.27.187](https://vuldb.com/?ip.57.197.27.187) | - | - | High
+25 | [58.74.224.218](https://vuldb.com/?ip.58.74.224.218) | - | - | High
+26 | [60.162.101.123](https://vuldb.com/?ip.60.162.101.123) | - | - | High
+27 | [63.251.106.25](https://vuldb.com/?ip.63.251.106.25) | - | - | High
+28 | [64.8.70.104](https://vuldb.com/?ip.64.8.70.104) | mx.tds.net | - | High
+29 | [64.98.36.4](https://vuldb.com/?ip.64.98.36.4) | mx.b.hostedemail.com | - | High
+30 | [64.136.44.37](https://vuldb.com/?ip.64.136.44.37) | mx.dca.untd.com | - | High
+31 | [66.199.229.251](https://vuldb.com/?ip.66.199.229.251) | 66-199-229-251.reverse.ezzi.net | - | High
+32 | [66.218.85.151](https://vuldb.com/?ip.66.218.85.151) | unknown.yahoo.com | - | High
+33 | ... | ... | ... | ...
 
-There are 125 more IOC items available. Please use our online service to access the data.
+There are 126 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -90,17 +91,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
 8 | File | `/controllers/add_client.php` | High
 9 | File | `/etc/tomcat8/Catalina/attack` | High
-10 | File | `/index.php` | Medium
+10 | File | `/filemanager/upload` | High
 11 | File | `/libraries` | Medium
-12 | File | `/proc/pid/attr` | High
-13 | File | `/register.php` | High
-14 | File | `/RestAPI` | Medium
-15 | File | `/service/upload` | High
-16 | File | `/view/student_exam_mark_insert_form1.php` | High
-17 | File | `/vpn/list_vpn_web_custom.php` | High
-18 | ... | ... | ...
+12 | File | `/register.php` | High
+13 | File | `/RestAPI` | Medium
+14 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +119,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2019/phorpiex-breakdown/
 * https://research.checkpoint.com/2021/phorpiex-botnet-is-back-with-a-new-twizt-hijacking-hundreds-of-crypto-transactions/
 * https://threatfox.abuse.ch
+* https://www.proofpoint.com/us/blog/threat-insight/security-brief-millions-messages-distribute-lockbit-black-ransomware
+* https://www.secureworks.com/blog/phorpiex-continues-to-deliver-sextortion-spam
 
 ## Literature
 

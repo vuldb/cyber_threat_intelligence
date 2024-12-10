@@ -51,21 +51,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/category.php` | High
-3 | File | `/cgi-bin/delete_CA` | High
-4 | File | `/cgi-bin/luci;stok=/locale` | High
-5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/download` | Medium
-7 | File | `/general/email/outbox/delete.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/GponForm/device_Form?script/` | High
-11 | File | `/includes/rrdtool.inc.php` | High
-12 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-13 | File | `/Main_AdmStatus_Content.asp` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/category.php` | High
+4 | File | `/cgi-bin/delete_CA` | High
+5 | File | `/cgi-bin/luci;stok=/locale` | High
+6 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+7 | File | `/download` | Medium
+8 | File | `/general/email/outbox/delete.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/get_getnetworkconf.cgi` | High
+11 | File | `/GponForm/device_Form?script/` | High
+12 | File | `/includes/rrdtool.inc.php` | High
+13 | File | `/index.php` | Medium
 14 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

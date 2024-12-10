@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3766,14 +3766,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3781,65 +3779,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.pomerium` | Medium
-3 | File | `/addproduct.php` | High
-4 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
-5 | File | `/admin/?page=bike` | High
-6 | File | `/admin/?page=categories/view_category` | High
-7 | File | `/admin/?page=musics/manage_music` | High
-8 | File | `/admin/action/update-deworm.php` | High
-9 | File | `/admin/add_ikev2.php` | High
-10 | File | `/admin/category_save.php` | High
-11 | File | `/admin/div_data/data` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/admin/list_ipAddressPolicy.php` | High
-14 | File | `/admin/manage_model.php` | High
-15 | File | `/admin/manage_user.php` | High
-16 | File | `/admin/media_folders` | High
-17 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-18 | File | `/admin/menu/toEdit` | High
-19 | File | `/admin/order.php` | High
-20 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-21 | File | `/admin/robot.php` | High
-22 | File | `/admin/subject.php` | High
-23 | File | `/admin/suppliers/view_details.php` | High
-24 | File | `/admin/users.php` | High
-25 | File | `/ajax.php` | Medium
-26 | File | `/api/1.0/rest/language_configuration` | High
-27 | File | `/api/v1/settings` | High
-28 | File | `/api/v1/toolbox/device/update/swap` | High
-29 | File | `/AttendanceMonitoring/report/index.php` | High
-30 | File | `/authMonitCallcenter` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/hd_config.cgi` | High
-33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-34 | File | `/cgi-bin/nas_sharing.cgi` | High
-35 | File | `/cgi-bin/wapopen` | High
-36 | File | `/classes/Master.php` | High
-37 | File | `/classes/Master.php?f=log_employee` | High
-38 | File | `/classes/Master.php?f=save_medicine` | High
-39 | File | `/classes/Master.php?f=save_package` | High
-40 | File | `/classes/SystemSettings.php?f=update_settings` | High
-41 | File | `/classes/Users.php?f=delete` | High
-42 | File | `/classes/Users.php?f=save` | High
-43 | File | `/cms/category/list` | High
-44 | File | `/designation_viewmore.php` | High
-45 | File | `/downloadFile.php` | High
-46 | File | `/DXR.axd` | Medium
-47 | File | `/edit-subject.php` | High
-48 | File | `/employee_viewmore.php` | High
-49 | File | `/endpoint/add-folder.php` | High
-50 | File | `/endpoint/add-task.php` | High
-51 | File | `/endpoint/add-user.php` | High
-52 | File | `/endpoint/delete-calorie.php` | High
-53 | File | `/etc/postfix/sender_login` | High
-54 | File | `/fileupload/upload.cfm` | High
-55 | File | `/file_manager/login.php` | High
-56 | File | `/film-rating.php` | High
-57 | ... | ... | ...
+1 | File | `/action/docker/open_subshell` | High
+2 | File | `/activation.php` | High
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+4 | File | `/admin/change-image.php` | High
+5 | File | `/admin/cmsVote/save` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+8 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
+9 | File | `/deleteanimal.php` | High
+10 | File | `/editar-cliente.php` | High
+11 | File | `/editar-produto.php` | High
+12 | File | `/etc/shadow.sample` | High
+13 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

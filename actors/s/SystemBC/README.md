@@ -75,7 +75,7 @@ ID | IP address | Hostname | Campaign | Confidence
 52 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
 53 | ... | ... | ... | ...
 
-There are 208 more IOC items available. Please use our online service to access the data.
+There are 210 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,14 +83,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,49 +98,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/doAdminAction.php?act=addCate` | High
-5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/pages/` | High
-8 | File | `/admins` | Low
-9 | File | `/ajax/getBasicInfo.php` | High
-10 | File | `/api/admin/system/store/order/list` | High
-11 | File | `/app/index/controller/Common.php` | High
-12 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-14 | File | `/applications/nexus/modules/front/store/store.php` | High
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/book-services.php` | High
-17 | File | `/cgi-bin/apkg_mgr.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_record` | High
-24 | File | `/classes/Master.php?f=save_category` | High
-25 | File | `/classes/SystemSettings.php?f=update_settings` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/clientdetails/admin/regester.php` | High
-28 | File | `/csms/?page=contact_us` | High
-29 | File | `/detailed.php` | High
-30 | File | `/dtale/chart-data/1` | High
-31 | File | `/en/blog-comment-4` | High
-32 | File | `/etc/shadow.sample` | High
-33 | File | `/farm/product.php` | High
-34 | File | `/fftools/ffmpeg_enc.c` | High
-35 | File | `/filter.php` | Medium
-36 | File | `/foms/routers/cancel-order.php` | High
-37 | File | `/forms/doLogin` | High
-38 | File | `/formSysLog` | Medium
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/SetOnlineDevName` | High
-41 | File | `/h.php/page?ref=addtabs` | High
-42 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/Admin/akun_edit.php` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/create-package.php` | High
+8 | File | `/admin/doAdminAction.php?act=addCate` | High
+9 | File | `/admin/edit-brand.php` | High
+10 | File | `/admin/edit-post.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/pages/` | High
+14 | File | `/admin/process_category_add.php` | High
+15 | File | `/Admin/Proses_Edit_Akun.php` | High
+16 | File | `/admin/robot.php` | High
+17 | File | `/admin/search-invoices.php` | High
+18 | File | `/admins` | Low
+19 | File | `/ajax/getBasicInfo.php` | High
+20 | File | `/api/admin/system/store/order/list` | High
+21 | File | `/app/index/controller/Common.php` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+24 | File | `/applications/nexus/modules/front/store/store.php` | High
+25 | File | `/bitrix/admin/ldap_server_edit.php` | High
+26 | File | `/book-services.php` | High
+27 | File | `/cgi-bin/apkg_mgr.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_record` | High
+34 | File | `/classes/Master.php?f=save_category` | High
+35 | File | `/classes/SystemSettings.php?f=update_settings` | High
+36 | File | `/classes/Users.php?f=save` | High
+37 | File | `/clientdetails/admin/regester.php` | High
+38 | File | `/deal/{note_id}/note` | High
+39 | File | `/detailed.php` | High
+40 | File | `/dtale/chart-data/1` | High
+41 | File | `/etc/shadow.sample` | High
+42 | File | `/farm/product.php` | High
+43 | File | `/fftools/ffmpeg_enc.c` | High
+44 | File | `/filter.php` | Medium
+45 | File | `/foms/routers/cancel-order.php` | High
+46 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -25,6 +25,23 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [188.116.22.65](https://vuldb.com/?ip.188.116.22.65) | - | CVE-2024-23692 | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _GoThief_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by GoThief. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `__ajax_explorer.sgi` | High
+2 | Argument | `QUERY_STRING` | Medium
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

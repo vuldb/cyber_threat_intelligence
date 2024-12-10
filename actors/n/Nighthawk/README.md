@@ -114,26 +114,26 @@ ID | Type | Indicator | Confidence
 59 | File | `/classes/Master.php?f=save_inquiry` | High
 60 | File | `/classes/Users.php?f=save` | High
 61 | File | `/clientLogin` | Medium
-62 | File | `/core/tools/customblock.php` | High
-63 | File | `/dashboard/settings` | High
-64 | File | `/data/0/admin.txt` | High
-65 | File | `/dayrui/My/View/main.html` | High
-66 | File | `/Default/Bd` | Medium
-67 | File | `/diagnostic/login.php` | High
-68 | File | `/dipam/save-delegates.php` | High
-69 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-70 | File | `/ecommerce/popup_Item.php` | High
-71 | File | `/editbrand.php` | High
-72 | File | `/edituser.php` | High
-73 | File | `/endpoint/update-file.php` | High
-74 | File | `/feeds/post/publish` | High
-75 | File | `/gasmark/assets/myimages/oneWord.php` | High
-76 | File | `/goform/aspForm` | High
-77 | File | `/goForm/aspForm` | High
-78 | File | `/goform/execCommand` | High
+62 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+63 | File | `/core/tools/customblock.php` | High
+64 | File | `/dashboard/settings` | High
+65 | File | `/data/0/admin.txt` | High
+66 | File | `/dayrui/My/View/main.html` | High
+67 | File | `/Default/Bd` | Medium
+68 | File | `/diagnostic/login.php` | High
+69 | File | `/dipam/save-delegates.php` | High
+70 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+71 | File | `/ecommerce/popup_Item.php` | High
+72 | File | `/editbrand.php` | High
+73 | File | `/edituser.php` | High
+74 | File | `/endpoint/update-file.php` | High
+75 | File | `/feeds/post/publish` | High
+76 | File | `/gasmark/assets/myimages/oneWord.php` | High
+77 | File | `/goform/aspForm` | High
+78 | File | `/goForm/aspForm` | High
 79 | ... | ... | ...
 
-There are 692 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 694 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -67,35 +67,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sql` | Medium
-5 | File | `/admin/students.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/admin/system.html` | High
-8 | File | `/adminPage/conf/reload` | High
-9 | File | `/adminPage/www/addOver` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/application/index/controller/Icon.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/bin/ate` | Medium
-14 | File | `/boaform/device_reset.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/dataSet/testTransform;swagger-ui` | High
-17 | File | `/dayrui/Fcms/View/system_log.html` | High
-18 | File | `/dayrui/My/View/main.html` | High
-19 | File | `/general/meeting/manage/delete.php` | High
-20 | File | `/goform/execCommand` | High
-21 | File | `/goform/goform_get_cmd_process` | High
-22 | File | `/goform/SetRebootTimer` | High
-23 | File | `/goform/WriteFacMac` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php/admin` | High
-26 | File | `/index/ajax/lang` | High
-27 | ... | ... | ...
+1 | File | `/aboutadd.php` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/budget/manage_budget.php` | High
+5 | File | `/admin/bwdates-reports-ds.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/sql` | Medium
+8 | File | `/admin/students.php` | High
+9 | File | `/admin/students/manage.php` | High
+10 | File | `/admin/system.html` | High
+11 | File | `/adminPage/conf/reload` | High
+12 | File | `/adminPage/www/addOver` | High
+13 | File | `/api /v3/auth` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/application/index/controller/Screen.php` | High
+16 | File | `/bin/ate` | Medium
+17 | File | `/boaform/device_reset.cgi` | High
+18 | File | `/book_list.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/control/edit_client.php` | High
+21 | File | `/dataSet/testTransform;swagger-ui` | High
+22 | File | `/dayrui/Fcms/View/system_log.html` | High
+23 | File | `/dayrui/My/View/main.html` | High
+24 | File | `/general/meeting/manage/delete.php` | High
+25 | File | `/goform/execCommand` | High
+26 | File | `/goform/formResetStatistic` | High
+27 | File | `/goform/goform_get_cmd_process` | High
+28 | File | `/goform/SetRebootTimer` | High
+29 | File | `/goform/WriteFacMac` | High
+30 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

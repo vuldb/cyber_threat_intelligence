@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [LV](https://vuldb.com/?country.lv)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,13 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,24 +69,9 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/logo_extra_upload.cgi` | High
 8 | File | `/debug/pprof` | Medium
 9 | File | `/downloadFile.php` | High
-10 | File | `/endpoint/delete-account.php` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/etc/shadow.sample` | High
-13 | File | `/foms/routers/place-order.php` | High
-14 | File | `/inc/extensions.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/index.php?page=tenants` | High
-17 | File | `/mfeedback.php` | High
-18 | File | `/MIME/INBOX-MM-1/` | High
-19 | File | `/ServletAPI/accounts/login` | High
-20 | File | `/sqfs/bin/sccd` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-25 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

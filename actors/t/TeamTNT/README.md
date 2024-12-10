@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PT](https://vuldb.com/?country.pt)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,10 +51,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,17 +62,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin.php/appcenter/local.html?type=addon` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/assign/assign.php` | High
-5 | File | `/admin/config_save.php` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/curriculum/view_curriculum.php` | High
-8 | File | `/admin/employee_row.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/member_save.php` | High
+1 | File | `/admin.php/appcenter/local.html?type=addon` | High
+2 | File | `/admin/?page=user/manage` | High
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/config_save.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/curriculum/view_curriculum.php` | High
+7 | File | `/admin/employee_row.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/mechanics/manage_mechanic.php` | High
+10 | File | `/admin/member_save.php` | High
+11 | File | `/admin/order.php` | High
 12 | File | `/admin/report/index.php` | High
 13 | File | `/admin/robot/approval/list` | High
 14 | File | `/admin/sales/index.php` | High
@@ -81,35 +81,37 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/transactions/track_shipment.php` | High
 18 | File | `/ajax.php?action=read_msg` | High
 19 | File | `/api/browserextension/UpdatePassword/` | High
-20 | File | `/assets/components/gallery/connector.php` | High
-21 | File | `/bin/ate` | Medium
-22 | File | `/bin/boa` | Medium
-23 | File | `/change_password_process` | High
-24 | File | `/churchcrm/v2/family/not-found` | High
-25 | File | `/classes/Login.php` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=update_order_status` | High
-28 | File | `/client/manage/ourphp_out.php` | High
-29 | File | `/config/api/v1/reboot` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/designer/add/layout` | High
-32 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-33 | File | `/dotrace.asp` | Medium
-34 | File | `/ecrire` | Low
-35 | File | `/env` | Low
-36 | File | `/etc/shadow.sample` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/SetNetControlList` | High
-39 | File | `/goform/SetStaticRouteCfg` | High
-40 | File | `/goform/SysToolRestoreSet` | High
-41 | File | `/goform/WifiBasicSet` | High
-42 | File | `/guestbook` | Medium
-43 | File | `/HNAP1/SetAccessPointMode` | High
-44 | File | `/index.php?page=category_list` | High
-45 | File | `/members/poster.php` | High
-46 | ... | ... | ...
+20 | File | `/bin/ate` | Medium
+21 | File | `/change_password_process` | High
+22 | File | `/churchcrm/v2/family/not-found` | High
+23 | File | `/classes/Login.php` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=update_order_status` | High
+26 | File | `/client/manage/ourphp_out.php` | High
+27 | File | `/config/api/v1/reboot` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/designer/add/layout` | High
+30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+31 | File | `/dotrace.asp` | Medium
+32 | File | `/ecrire` | Low
+33 | File | `/env` | Low
+34 | File | `/etc/shadow.sample` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/SetNetControlList` | High
+37 | File | `/goform/SetStaticRouteCfg` | High
+38 | File | `/goform/SysToolRestoreSet` | High
+39 | File | `/goform/WifiBasicSet` | High
+40 | File | `/guestbook` | Medium
+41 | File | `/hedwig.cgi` | Medium
+42 | File | `/HNAP1/SetAccessPointMode` | High
+43 | File | `/index.php?page=category_list` | High
+44 | File | `/members/poster.php` | High
+45 | File | `/omos/admin/?page=user/list` | High
+46 | File | `/openvpn/pageswitch.htm` | High
+47 | File | `/operations/ecma-function-object.c` | High
+48 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -35,36 +35,38 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [5.181.156.107](https://vuldb.com/?ip.5.181.156.107) | no-rdns.mivocloud.com | - | High
 13 | [5.181.156.244](https://vuldb.com/?ip.5.181.156.244) | no-rdns.mivocloud.com | - | High
 14 | [5.182.206.168](https://vuldb.com/?ip.5.182.206.168) | - | - | High
-15 | [5.230.67.22](https://vuldb.com/?ip.5.230.67.22) | placeholder.noezserver.de | - | High
-16 | [5.230.67.41](https://vuldb.com/?ip.5.230.67.41) | placeholder.noezserver.de | - | High
-17 | [5.230.67.108](https://vuldb.com/?ip.5.230.67.108) | placeholder.noezserver.de | - | High
-18 | [5.230.67.166](https://vuldb.com/?ip.5.230.67.166) | placeholder.noezserver.de | - | High
-19 | [5.230.67.170](https://vuldb.com/?ip.5.230.67.170) | placeholder.noezserver.de | - | High
-20 | [5.230.67.191](https://vuldb.com/?ip.5.230.67.191) | placeholder.noezserver.de | - | High
-21 | [5.230.67.201](https://vuldb.com/?ip.5.230.67.201) | placeholder.noezserver.de | - | High
-22 | [5.230.67.211](https://vuldb.com/?ip.5.230.67.211) | placeholder.noezserver.de | - | High
-23 | [5.230.67.243](https://vuldb.com/?ip.5.230.67.243) | placeholder.noezserver.de | - | High
-24 | [5.230.68.124](https://vuldb.com/?ip.5.230.68.124) | placeholder.noezserver.de | - | High
-25 | [5.230.68.190](https://vuldb.com/?ip.5.230.68.190) | placeholder.noezserver.de | - | High
-26 | [5.230.69.72](https://vuldb.com/?ip.5.230.69.72) | placeholder.noezserver.de | - | High
-27 | [5.230.69.136](https://vuldb.com/?ip.5.230.69.136) | placeholder.noezserver.de | - | High
-28 | [5.230.71.10](https://vuldb.com/?ip.5.230.71.10) | placeholder.noezserver.de | - | High
-29 | [5.230.72.27](https://vuldb.com/?ip.5.230.72.27) | placeholder.noezserver.de | - | High
-30 | [5.230.72.63](https://vuldb.com/?ip.5.230.72.63) | placeholder.noezserver.de | - | High
-31 | [5.230.72.98](https://vuldb.com/?ip.5.230.72.98) | placeholder.noezserver.de | - | High
-32 | [5.230.72.173](https://vuldb.com/?ip.5.230.72.173) | placeholder.noezserver.de | - | High
-33 | [5.230.72.184](https://vuldb.com/?ip.5.230.72.184) | placeholder.noezserver.de | - | High
-34 | [5.230.72.213](https://vuldb.com/?ip.5.230.72.213) | placeholder.noezserver.de | - | High
-35 | [5.230.73.48](https://vuldb.com/?ip.5.230.73.48) | - | - | High
-36 | [5.230.73.60](https://vuldb.com/?ip.5.230.73.60) | placeholder.noezserver.de | - | High
-37 | [5.230.73.106](https://vuldb.com/?ip.5.230.73.106) | placeholder.noezserver.de | - | High
-38 | [5.230.73.180](https://vuldb.com/?ip.5.230.73.180) | placeholder.noezserver.de | - | High
-39 | [5.230.74.66](https://vuldb.com/?ip.5.230.74.66) | - | - | High
-40 | [5.230.74.103](https://vuldb.com/?ip.5.230.74.103) | - | - | High
-41 | [5.230.74.251](https://vuldb.com/?ip.5.230.74.251) | - | - | High
-42 | ... | ... | ... | ...
+15 | [5.230.35.199](https://vuldb.com/?ip.5.230.35.199) | - | - | High
+16 | [5.230.67.22](https://vuldb.com/?ip.5.230.67.22) | placeholder.noezserver.de | - | High
+17 | [5.230.67.41](https://vuldb.com/?ip.5.230.67.41) | placeholder.noezserver.de | - | High
+18 | [5.230.67.108](https://vuldb.com/?ip.5.230.67.108) | placeholder.noezserver.de | - | High
+19 | [5.230.67.166](https://vuldb.com/?ip.5.230.67.166) | placeholder.noezserver.de | - | High
+20 | [5.230.67.170](https://vuldb.com/?ip.5.230.67.170) | placeholder.noezserver.de | - | High
+21 | [5.230.67.191](https://vuldb.com/?ip.5.230.67.191) | placeholder.noezserver.de | - | High
+22 | [5.230.67.201](https://vuldb.com/?ip.5.230.67.201) | placeholder.noezserver.de | - | High
+23 | [5.230.67.211](https://vuldb.com/?ip.5.230.67.211) | placeholder.noezserver.de | - | High
+24 | [5.230.67.243](https://vuldb.com/?ip.5.230.67.243) | placeholder.noezserver.de | - | High
+25 | [5.230.68.124](https://vuldb.com/?ip.5.230.68.124) | placeholder.noezserver.de | - | High
+26 | [5.230.68.190](https://vuldb.com/?ip.5.230.68.190) | placeholder.noezserver.de | - | High
+27 | [5.230.69.72](https://vuldb.com/?ip.5.230.69.72) | placeholder.noezserver.de | - | High
+28 | [5.230.69.136](https://vuldb.com/?ip.5.230.69.136) | placeholder.noezserver.de | - | High
+29 | [5.230.71.10](https://vuldb.com/?ip.5.230.71.10) | placeholder.noezserver.de | - | High
+30 | [5.230.72.27](https://vuldb.com/?ip.5.230.72.27) | placeholder.noezserver.de | - | High
+31 | [5.230.72.63](https://vuldb.com/?ip.5.230.72.63) | placeholder.noezserver.de | - | High
+32 | [5.230.72.98](https://vuldb.com/?ip.5.230.72.98) | placeholder.noezserver.de | - | High
+33 | [5.230.72.173](https://vuldb.com/?ip.5.230.72.173) | placeholder.noezserver.de | - | High
+34 | [5.230.72.184](https://vuldb.com/?ip.5.230.72.184) | placeholder.noezserver.de | - | High
+35 | [5.230.72.213](https://vuldb.com/?ip.5.230.72.213) | placeholder.noezserver.de | - | High
+36 | [5.230.73.48](https://vuldb.com/?ip.5.230.73.48) | - | - | High
+37 | [5.230.73.60](https://vuldb.com/?ip.5.230.73.60) | placeholder.noezserver.de | - | High
+38 | [5.230.73.106](https://vuldb.com/?ip.5.230.73.106) | placeholder.noezserver.de | - | High
+39 | [5.230.73.180](https://vuldb.com/?ip.5.230.73.180) | placeholder.noezserver.de | - | High
+40 | [5.230.74.66](https://vuldb.com/?ip.5.230.74.66) | - | - | High
+41 | [5.230.74.103](https://vuldb.com/?ip.5.230.74.103) | - | - | High
+42 | [5.230.74.251](https://vuldb.com/?ip.5.230.74.251) | - | - | High
+43 | [5.230.75.40](https://vuldb.com/?ip.5.230.75.40) | - | - | High
+44 | ... | ... | ... | ...
 
-There are 164 more IOC items available. Please use our online service to access the data.
+There are 173 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,11 +74,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-37, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -88,62 +90,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/add_new_invoice.php` | High
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/doAdminAction.php?act=addCate` | High
-6 | File | `/admin/edit-post.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/app/controller/Setup.php` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-15 | File | `/applications/nexus/modules/front/store/store.php` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/cgi-bin/apkg_mgr.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_record` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/SystemSettings.php?f=update_settings` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/College/admin/teacher.php` | High
-29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-30 | File | `/dcim/rack-roles/` | High
-31 | File | `/detailed.php` | High
-32 | File | `/dipam/athlete-profile.php` | High
-33 | File | `/dtale/chart-data/1` | High
-34 | File | `/etc/shadow.sample` | High
-35 | File | `/fftools/ffmpeg_enc.c` | High
-36 | File | `/filter.php` | Medium
-37 | File | `/forms/doLogin` | High
-38 | File | `/formSysLog` | Medium
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/addUserName` | High
-41 | File | `/goform/aspForm` | High
-42 | File | `/goform/delAd` | High
-43 | File | `/goform/formSetWanNonLogin` | High
-44 | File | `/goform/formWlanSetup` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | File | `/goform/wifiSSIDset` | High
-47 | File | `/gpac/src/bifs/unquantize.c` | High
-48 | File | `/h.php/page?ref=addtabs` | High
+5 | File | `/Admin/akun_edit.php` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/create-package.php` | High
+8 | File | `/admin/doAdminAction.php?act=addCate` | High
+9 | File | `/admin/edit-brand.php` | High
+10 | File | `/admin/edit-post.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/Admin/Proses_Edit_Akun.php` | High
+13 | File | `/admin/robot.php` | High
+14 | File | `/admin/search-invoices.php` | High
+15 | File | `/admin/userprofile.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/app/controller/Setup.php` | High
+18 | File | `/app/index/controller/Common.php` | High
+19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+21 | File | `/applications/nexus/modules/front/store/store.php` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/backend/doc/his_doc_update-account.php` | High
+24 | File | `/bitrix/admin/ldap_server_edit.php` | High
+25 | File | `/cgi-bin/apkg_mgr.cgi` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_record` | High
+32 | File | `/classes/Master.php?f=save_category` | High
+33 | File | `/classes/SystemSettings.php?f=update_settings` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/College/admin/teacher.php` | High
+36 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+37 | File | `/dcim/rack-roles/` | High
+38 | File | `/deal/{note_id}/note` | High
+39 | File | `/detailed.php` | High
+40 | File | `/dipam/athlete-profile.php` | High
+41 | File | `/dtale/chart-data/1` | High
+42 | File | `/etc/shadow.sample` | High
+43 | File | `/fftools/ffmpeg_enc.c` | High
+44 | File | `/filter.php` | Medium
+45 | File | `/forms/doLogin` | High
+46 | File | `/formSysLog` | Medium
+47 | File | `/forum/away.php` | High
+48 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
 49 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.group-ib.com/sidewinder-antibot
+* https://blogs.blackberry.com/en/2024/07/sidewinder-targets-ports-and-maritime-facilities-in-the-mediterranean-sea
+* https://circleid.com/posts/exploring-the-sidewinder-apt-groups-dns-footprint
 * https://www.bridewell.com/insights/blogs/detail/the-distinctive-rattle-of-apt-sidewinder
 
 ## Literature

@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,54 +45,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/edit-post.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/app/index/controller/Common.php` | High
-12 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-14 | File | `/applications/nexus/modules/front/store/store.php` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/cgi-bin/apkg_mgr.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_record` | High
-24 | File | `/classes/Master.php?f=save_category` | High
-25 | File | `/classes/SystemSettings.php?f=update_settings` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/College/admin/teacher.php` | High
-28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-29 | File | `/dcim/rack-roles/` | High
-30 | File | `/dtale/chart-data/1` | High
-31 | File | `/etc/shadow.sample` | High
-32 | File | `/fftools/ffmpeg_enc.c` | High
-33 | File | `/forms/doLogin` | High
-34 | File | `/formSysLog` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/addUserName` | High
-37 | File | `/goform/aspForm` | High
-38 | File | `/goform/delAd` | High
-39 | File | `/goform/SetOnlineDevName` | High
-40 | File | `/goform/wifiSSIDset` | High
-41 | File | `/gpac/src/bifs/unquantize.c` | High
-42 | File | `/h.php/page?ref=addtabs` | High
-43 | File | `/image.php` | Medium
-44 | File | `/inc/topBarNav.php` | High
-45 | File | `/includes/common/require_access_recovery.php` | High
-46 | File | `/index.asp` | Medium
-47 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/Admin/add-student.php` | High
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/create-package.php` | High
+9 | File | `/admin/doAdminAction.php?act=addCate` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/edit-post.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/robot.php` | High
+14 | File | `/admin/settings/save.php` | High
+15 | File | `/admin/userprofile.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/app/index/controller/Common.php` | High
+18 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+19 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+20 | File | `/applications/nexus/modules/front/store/store.php` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/cgi-bin/apkg_mgr.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/classes/Master.php` | High
+29 | File | `/classes/Master.php?f=delete_record` | High
+30 | File | `/classes/Master.php?f=save_category` | High
+31 | File | `/classes/SystemSettings.php?f=update_settings` | High
+32 | File | `/classes/Users.php?f=save` | High
+33 | File | `/College/admin/teacher.php` | High
+34 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+35 | File | `/dcim/rack-roles/` | High
+36 | File | `/deal/{note_id}/note` | High
+37 | File | `/detailed.php` | High
+38 | File | `/dtale/chart-data/1` | High
+39 | File | `/etc/shadow.sample` | High
+40 | File | `/fftools/ffmpeg_enc.c` | High
+41 | File | `/filter.php` | Medium
+42 | File | `/forms/doLogin` | High
+43 | File | `/formSysLog` | Medium
+44 | File | `/forum/away.php` | High
+45 | File | `/general/approve_center/query/list/input_form/delete_data_attach.php` | High
+46 | File | `/goform/addUserName` | High
+47 | File | `/goform/aspForm` | High
+48 | File | `/goform/ate` | Medium
+49 | File | `/goform/delAd` | High
+50 | File | `/goform/formSetWanNonLogin` | High
+51 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

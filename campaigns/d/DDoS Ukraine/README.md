@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -124,34 +124,33 @@ ID | Type | Indicator | Confidence
 61 | File | `admin_login.asp` | High
 62 | File | `ajax_url.php` | Medium
 63 | File | `al_initialize.php` | High
-64 | File | `anjel.index.php` | High
-65 | File | `annonces-p-f.php` | High
-66 | File | `announce.php` | Medium
-67 | File | `announcement.php` | High
-68 | File | `announcements.php` | High
-69 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-70 | File | `app/models/user.rb` | High
-71 | File | `application/config/config.php` | High
-72 | File | `application/controllers/basedata/inventory.php` | High
-73 | File | `apply.cgi` | Medium
-74 | File | `apps/app_article/controller/rating.php` | High
-75 | File | `article.php` | Medium
-76 | File | `articles.php` | Medium
-77 | File | `artikel_anzeige.php` | High
-78 | File | `AudioFlinger.cpp` | High
-79 | File | `auktion.cgi` | Medium
-80 | File | `authfiles/login.asp` | High
-81 | File | `avahi-core/socket.c` | High
-82 | File | `basket.php` | Medium
-83 | File | `books.php` | Medium
-84 | File | `browse.php` | Medium
-85 | File | `browse_videos.php` | High
-86 | File | `BrudaNews/BrudaGB` | High
-87 | File | `bwlist_inc.html` | High
-88 | File | `calendar.php` | Medium
-89 | ... | ... | ...
+64 | File | `annonces-p-f.php` | High
+65 | File | `announce.php` | Medium
+66 | File | `announcement.php` | High
+67 | File | `announcements.php` | High
+68 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+69 | File | `app/models/user.rb` | High
+70 | File | `application/config/config.php` | High
+71 | File | `application/controllers/basedata/inventory.php` | High
+72 | File | `apply.cgi` | Medium
+73 | File | `apps/app_article/controller/rating.php` | High
+74 | File | `article.php` | Medium
+75 | File | `articles.php` | Medium
+76 | File | `artikel_anzeige.php` | High
+77 | File | `AudioFlinger.cpp` | High
+78 | File | `auktion.cgi` | Medium
+79 | File | `authfiles/login.asp` | High
+80 | File | `avahi-core/socket.c` | High
+81 | File | `basket.php` | Medium
+82 | File | `books.php` | Medium
+83 | File | `browse.php` | Medium
+84 | File | `browse_videos.php` | High
+85 | File | `BrudaNews/BrudaGB` | High
+86 | File | `bwlist_inc.html` | High
+87 | File | `calendar.php` | Medium
+88 | ... | ... | ...
 
-There are 781 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 774 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

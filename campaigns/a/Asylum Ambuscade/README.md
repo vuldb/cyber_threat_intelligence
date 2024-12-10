@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,11 +58,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -75,25 +75,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/blood/update/o-.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/robot/approval/list` | High
-9 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-10 | File | `/api/files/recipepictures/` | High
-11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-12 | File | `/app/uploading/upload-mp3.php` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/go` | Medium
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/contact.php` | Medium
-21 | File | `/CPE` | Low
+3 | File | `/admin/blood/update/o-.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/robot/approval/list` | High
+8 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+9 | File | `/api/files/recipepictures/` | High
+10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+11 | File | `/app/uploading/upload-mp3.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/adm.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/go` | Medium
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/contact.php` | Medium
+20 | File | `/CPE` | Low
+21 | File | `/dataSet/resolveSql` | High
 22 | File | `/debug/pprof` | Medium
 23 | File | `/etc/gsissh/sshd_config` | High
 24 | File | `/forum/away.php` | High
@@ -111,12 +111,9 @@ ID | Type | Indicator | Confidence
 36 | File | `/Session` | Medium
 37 | File | `/spip.php` | Medium
 38 | File | `/staff_login.php` | High
-39 | File | `/SysInfo1.htm` | High
-40 | File | `/sysinfo_json.cgi` | High
-41 | File | `/system/admin/add_group_save` | High
-42 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

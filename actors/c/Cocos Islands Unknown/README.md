@@ -74,31 +74,33 @@ ID | Type | Indicator | Confidence
 24 | File | `/edit-client-details.php` | High
 25 | File | `/env` | Low
 26 | File | `/forum/away.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/member.php?action=chgpwdsubmit` | High
-29 | File | `/opt/bin/cli` | Medium
-30 | File | `/p` | Low
-31 | File | `/patient/doctors.php` | High
-32 | File | `/phpinventory/editcategory.php` | High
-33 | File | `/product-list.php` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/server-info` | Medium
-36 | File | `/spip.php` | Medium
-37 | File | `/tmp` | Low
-38 | File | `/tmp/sysstat.run` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/updown/upload.cgi` | High
-41 | File | `/user/del.php` | High
-42 | File | `/websocket/exec` | High
-43 | File | `/web_cste/cgi-bin/product.ini` | High
-44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `/_next` | Low
-46 | File | `123flashchat.php` | High
-47 | File | `act.php` | Low
-48 | File | `add_vhost.php` | High
-49 | ... | ... | ...
+27 | File | `/include/file.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/member.php?action=chgpwdsubmit` | High
+31 | File | `/opt/bin/cli` | Medium
+32 | File | `/p` | Low
+33 | File | `/patient/doctors.php` | High
+34 | File | `/phpinventory/editcategory.php` | High
+35 | File | `/product-list.php` | High
+36 | File | `/public/login.htm` | High
+37 | File | `/server-info` | Medium
+38 | File | `/spip.php` | Medium
+39 | File | `/tmp` | Low
+40 | File | `/tmp/sysstat.run` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/updown/upload.cgi` | High
+43 | File | `/user/del.php` | High
+44 | File | `/websocket/exec` | High
+45 | File | `/web_cste/cgi-bin/product.ini` | High
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `/_next` | Low
+48 | File | `123flashchat.php` | High
+49 | File | `act.php` | Low
+50 | File | `add_vhost.php` | High
+51 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

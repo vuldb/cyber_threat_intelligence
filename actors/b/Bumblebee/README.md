@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -382,9 +382,10 @@ ID | IP address | Hostname | Campaign | Confidence
 359 | [47.27.63.45](https://vuldb.com/?ip.47.27.63.45) | 047-027-063-045.res.spectrum.com | - | High
 360 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | - | High
 361 | [47.195.111.117](https://vuldb.com/?ip.47.195.111.117) | - | - | High
-362 | ... | ... | ... | ...
+362 | [47.199.12.234](https://vuldb.com/?ip.47.199.12.234) | - | - | High
+363 | ... | ... | ... | ...
 
-There are 1445 more IOC items available. Please use our online service to access the data.
+There are 1446 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -392,14 +393,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-37, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -407,64 +408,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
-3 | File | `/?import` | Medium
-4 | File | `/abcd/opac/php/otros_sitios.php` | High
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
-7 | File | `/admin/admin_log.php?clear=1` | High
-8 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-9 | File | `/admin/category_save.php` | High
-10 | File | `/admin/contacts/organizations/edit/2` | High
-11 | File | `/admin/dialog/select_images_post.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/manage_model.php` | High
-14 | File | `/admin/manage_user.php` | High
-15 | File | `/admin/robot.php` | High
-16 | File | `/admin/subject.php` | High
-17 | File | `/admin/system.html` | High
-18 | File | `/admin/system.php` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/admins/{adminId}` | High
-21 | File | `/ajax/check_medicine_name.php` | High
-22 | File | `/api/runscript` | High
-23 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-24 | File | `/api /v3/auth` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/boafrm/formSystemCheck` | High
-28 | File | `/buscar_integrada.php` | High
-29 | File | `/cgi-bin/alexserv` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/hd_config.cgi` | High
-32 | File | `/cgi-bin/myMusic.cgi` | High
-33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-34 | File | `/cgi-bin/tosei_kikai.php` | High
-35 | File | `/cgi-bin/webfile_mgr.cgi` | High
-36 | File | `/classes/Master.php?f=save_package` | High
-37 | File | `/classes/SystemSettings.php?f=update_settings` | High
-38 | File | `/contact.php` | Medium
-39 | File | `/controllers/add_user.php` | High
-40 | File | `/core/config-revisions` | High
-41 | File | `/core/tools/delete_place.php` | High
-42 | File | `/dcim/power-ports/add/` | High
-43 | File | `/DXR.axd` | Medium
-44 | File | `/ecommerce/admin/login.php` | High
-45 | File | `/ecommerce/popup_Item.php` | High
-46 | File | `/edit-subject.php` | High
-47 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-48 | File | `/endpoint/add-calorie.php` | High
-49 | File | `/endpoint/delete-account.php` | High
-50 | File | `/endpoint/delete-bookmark.php` | High
-51 | File | `/endpoint/update.php` | High
-52 | File | `/etc/passwd` | Medium
-53 | File | `/etc/postfix/sender_login` | High
-54 | File | `/film-rating.php` | High
-55 | File | `/foms/routers/place-order.php` | High
-56 | ... | ... | ...
+1 | File | `/aboutadd.php` | High
+2 | File | `/addstock.php` | High
+3 | File | `/add_new_supplier.php` | High
+4 | File | `/admin/?page=reports` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/?setting-base.htm` | High
+7 | File | `/admin/aboutus.php` | High
+8 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+9 | File | `/admin/book-details.php` | High
+10 | File | `/admin/budget/manage_budget.php` | High
+11 | File | `/admin/bwdates-reports-ds.php` | High
+12 | File | `/admin/dialog/select_images_post.php` | High
+13 | File | `/admin/edit-brand.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/massage.php` | High
+17 | File | `/admin/order.php` | High
+18 | File | `/admin/password-recovery.php` | High
+19 | File | `/admin/profile.php` | High
+20 | File | `/admin/system.php` | High
+21 | File | `/admin/template/edit` | High
+22 | File | `/admins/{adminId}` | High
+23 | File | `/animalsupdate.php` | High
+24 | File | `/api/blade-user/export-user` | High
+25 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+26 | File | `/api/sys/set_passwd` | High
+27 | File | `/api /v3/auth` | High
+28 | File | `/application/index/controller/Screen.php` | High
+29 | File | `/articles/welcome-to-your-site#comments-head` | High
+30 | File | `/auth_files/photo/` | High
+31 | File | `/bloodrequest.php` | High
+32 | File | `/boafrm/formSystemCheck` | High
+33 | File | `/book_list.php` | High
+34 | File | `/calendar/minimizer/index.php` | High
+35 | File | `/cgi-bin/alexserv` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/ExportSettings.sh` | High
+38 | File | `/cgi-bin/tosei_kikai.php` | High
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/classes/Master.php?f=save_package` | High
+41 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+42 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+43 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+44 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+45 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+46 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+47 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+48 | File | `/control/edit_client.php` | High
+49 | File | `/core/config-revisions` | High
+50 | File | `/core/tools/delete_place.php` | High
+51 | File | `/dcim/power-ports/add/` | High
+52 | File | `/DXR.axd` | Medium
+53 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -480,6 +478,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://community.blueliv.com/#!/s/62b165ee82df417a00331a19
 * https://community.blueliv.com/#!/s/6285f1a182df41552632f533
 * https://de.darktrace.com/blog/from-bumblebee-to-cobalt-strike-steps-of-a-bumblebee-intrusion
+* https://exchange.xforce.ibmcloud.com/report/details/guid:ecc44f9e7c4e91407a1efbbf8181d116
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_01.06.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_02.06.2022.txt
 * https://github.com/pr0xylife/Bumblebee/blob/main/Bumblebee_03.06.2022.txt

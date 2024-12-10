@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,9 +59,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/foms/routers/place-order.php` | High
 8 | File | `/forum/away.php` | High
 9 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-10 | ... | ... | ...
+10 | File | `/kortex_lite/control/edit_profile.php` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

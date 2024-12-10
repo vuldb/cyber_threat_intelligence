@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -68,23 +68,25 @@ ID | Type | Indicator | Confidence
 14 | File | `/Electron/download` | High
 15 | File | `/export` | Low
 16 | File | `/forum/away.php` | High
-17 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/items/search` | High
-21 | File | `/jsonrpc` | Medium
-22 | File | `/load.php` | Medium
-23 | File | `/lua/set-passwd.lua` | High
-24 | File | `/mims/login.php` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/pages/animals.php` | High
-27 | File | `/php/ping.php` | High
-28 | File | `/rapi/read_url` | High
-29 | File | `/scripts/cpan_config` | High
-30 | File | `/scripts/unlock_tasks.php` | High
-31 | ... | ... | ...
+17 | File | `/goform/WifiExtraSet` | High
+18 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/items/search` | High
+22 | File | `/jsonrpc` | Medium
+23 | File | `/load.php` | Medium
+24 | File | `/lua/set-passwd.lua` | High
+25 | File | `/mims/login.php` | High
+26 | File | `/newProject.php` | High
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/pages/animals.php` | High
+29 | File | `/php/ping.php` | High
+30 | File | `/rapi/read_url` | High
+31 | File | `/scripts/cpan_config` | High
+32 | File | `/scripts/unlock_tasks.php` | High
+33 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

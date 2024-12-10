@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -80,11 +80,11 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/v1/bait/set` | High
 11 | File | `/app/options.py` | High
 12 | File | `/appinfo/save` | High
-13 | File | `/buspassms/download-pass.php` | High
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/config/getuser` | High
+13 | File | `/book_list.php` | High
+14 | File | `/buspassms/download-pass.php` | High
+15 | File | `/cgi-bin/login.cgi` | High
+16 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
 18 | File | `/contact/store` | High
 19 | File | `/CPE` | Low
 20 | File | `/dashboard/settings` | High
@@ -121,15 +121,14 @@ ID | Type | Indicator | Confidence
 51 | File | `/scripts/unlock_tasks.php` | High
 52 | File | `/servlet/webacc` | High
 53 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
-54 | File | `/sscdms/classes/Users.php?f=save` | High
-55 | File | `/textpattern/index.php` | High
-56 | File | `/uncpath/` | Medium
-57 | File | `/usr/bin/at` | Medium
-58 | File | `/usr/bin/pkexec` | High
-59 | File | `/var/lib/dpkg/info/` | High
-60 | ... | ... | ...
+54 | File | `/src/dede/tpl.php` | High
+55 | File | `/sscdms/classes/Users.php?f=save` | High
+56 | File | `/textpattern/index.php` | High
+57 | File | `/uncpath/` | Medium
+58 | File | `/uploadimage` | Medium
+59 | ... | ... | ...
 
-There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

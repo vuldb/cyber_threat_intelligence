@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,9 +68,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/index2.html` | High
 2 | File | `/api/baskets/{name}` | High
 3 | File | `/application/index/controller/Databasesource.php` | High
-4 | ... | ... | ...
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

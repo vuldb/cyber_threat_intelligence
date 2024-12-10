@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,32 +72,31 @@ ID | Type | Indicator | Confidence
 21 | File | `/ctcprotocol/Protocol` | High
 22 | File | `/dashboard/menu-list.php` | High
 23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/ebics-server/ebics.aspx` | High
-26 | File | `/etc/gsissh/sshd_config` | High
-27 | File | `/EXCU_SHELL` | Medium
-28 | File | `/ffos/classes/Master.php?f=save_category` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/modifyDhcpRule` | High
-31 | File | `/goform/ModifyPppAuthWhiteMac` | High
-32 | File | `/goform/net\_Web\_get_value` | High
-33 | File | `/goforms/rlminfo` | High
-34 | File | `/GponForm/usb_restore_Form?script/` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/HNAP1` | Low
-38 | File | `/HNAP1/SetClientInfo` | High
-39 | File | `/index.php?mod=system&op=orgtree` | High
-40 | File | `/Items/*/RemoteImages/Download` | High
-41 | File | `/login/index.php` | High
-42 | File | `/manage/IPSetup.php` | High
-43 | File | `/menu.html` | Medium
-44 | File | `/modules/profile/index.php` | High
-45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-46 | File | `/navigate/navigate_download.php` | High
-47 | ... | ... | ...
+24 | File | `/detailed.php` | High
+25 | File | `/dist/index.js` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/etc/gsissh/sshd_config` | High
+29 | File | `/EXCU_SHELL` | Medium
+30 | File | `/ffos/classes/Master.php?f=save_category` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/form2systime.cgi` | High
+33 | File | `/goform/modifyDhcpRule` | High
+34 | File | `/goform/ModifyPppAuthWhiteMac` | High
+35 | File | `/goform/net\_Web\_get_value` | High
+36 | File | `/goform/setStaOffline` | High
+37 | File | `/goform/WizardHandle` | High
+38 | File | `/goforms/rlminfo` | High
+39 | File | `/GponForm/usb_restore_Form?script/` | High
+40 | File | `/group1/uploa` | High
+41 | File | `/hedwig.cgi` | Medium
+42 | File | `/HNAP1` | Low
+43 | File | `/HNAP1/SetClientInfo` | High
+44 | File | `/index.php?mod=system&op=orgtree` | High
+45 | File | `/Items/*/RemoteImages/Download` | High
+46 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

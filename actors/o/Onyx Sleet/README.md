@@ -9,6 +9,18 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Onyx Sleet:
 
 * CVE-2023-42793
+* Preft
+
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Onyx Sleet:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [BE](https://vuldb.com/?country.be)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,14 +28,51 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [147.78.149.201](https://vuldb.com/?ip.147.78.149.201) | - | CVE-2023-42793 | High
-2 | [162.19.71.175](https://vuldb.com/?ip.162.19.71.175) | - | CVE-2023-42793 | High
+1 | [45.155.37.101](https://vuldb.com/?ip.45.155.37.101) | - | CVE-2023-42793 | High
+2 | [51.81.168.157](https://vuldb.com/?ip.51.81.168.157) | ip157.ip-51-81-168.us | Preft | High
+3 | [84.38.134.56](https://vuldb.com/?ip.84.38.134.56) | ip-134-56.dataclub.info | CVE-2023-42793 | High
+4 | ... | ... | ... | ...
+
+There are 8 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Onyx Sleet_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 11 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Onyx Sleet. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin.php/Plugins/update.html` | High
+2 | File | `/api/blade-log/api/list` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/classes/SystemSettings.php?f=update_settings` | High
+5 | File | `/data/remove` | Medium
+6 | File | `/dede/file_manage_control.php` | High
+7 | File | `/files/list-file` | High
+8 | File | `/forum/away.php` | High
+9 | ... | ... | ...
+
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://symantec-enterprise-blogs.security.com/threat-intelligence/stonefly-north-korea-extortion
 * https://www.microsoft.com/en-us/security/blog/2023/10/18/multiple-north-korean-threat-actors-exploiting-the-teamcity-cve-2023-42793-vulnerability/
+* https://www.microsoft.com/en-us/security/blog/2024/07/25/onyx-sleet-uses-array-of-malware-to-gather-intelligence-for-north-korea/
 
 ## Literature
 

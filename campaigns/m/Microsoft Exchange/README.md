@@ -45,10 +45,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -61,64 +61,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addproduct.php` | High
-2 | File | `/admin` | Low
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/add_user_modal.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/app/profile_crud.php` | High
-7 | File | `/admin/app/service_crud.php` | High
-8 | File | `/admin/article/article-add.php` | High
-9 | File | `/admin/article/article-edit-run.php` | High
-10 | File | `/admin/blood/update/o-.php` | High
-11 | File | `/admin/category/cate-edit-run.php` | High
-12 | File | `/admin/employee/index.php` | High
-13 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-14 | File | `/admin/inquiries/view_inquiry.php` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/modal_add_product.php` | High
-17 | File | `/admin/new-content` | High
-18 | File | `/admin/read.php?mudi=announContent` | High
-19 | File | `/admin/services/manage_service.php` | High
-20 | File | `/admin/suppliers/view_details.php` | High
-21 | File | `/admin/transactions/track_shipment.php` | High
-22 | File | `/admin/upload.php` | High
-23 | File | `/admin/user/manage_user.php` | High
-24 | File | `/alarm_pi/alarmService.php` | High
-25 | File | `/api/blade-system/menu/list?updatexml` | High
-26 | File | `/api/crontab` | Medium
-27 | File | `/api/es/admin/v3/security/user/1` | High
-28 | File | `/api/ping` | Medium
-29 | File | `/api/runscript` | High
-30 | File | `/api/sys/login` | High
-31 | File | `/api/sys/set_passwd` | High
-32 | File | `/asms/admin/products/manage_product.php` | High
-33 | File | `/asms/products/view_product.php` | High
-34 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-35 | File | `/category.php` | High
-36 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-37 | File | `/changeimage.php` | High
-38 | File | `/classes/Master.php?f=delete_service` | High
-39 | File | `/clearance/clearance.php` | High
-40 | File | `/config/getuser` | High
-41 | File | `/config/list` | Medium
-42 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-43 | File | `/core/config-revisions` | High
-44 | File | `/core/config-revisions/` | High
-45 | File | `/dashboard/snapshot/*?orgId=0` | High
-46 | File | `/dosen/data` | Medium
-47 | File | `/E-mobile/App/System/File/downfile.php` | High
-48 | File | `/export` | Low
-49 | File | `/forum/away.php` | High
-50 | File | `/gena.cgi` | Medium
-51 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-52 | File | `/goform/setcfm` | High
-53 | File | `/goform/WifiExtraSet` | High
-54 | File | `/home/cavesConsole` | High
-55 | File | `/home/kickPlayer` | High
-56 | File | `/home/masterConsole` | High
-57 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin` | Low
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/admin-profile.php` | High
+7 | File | `/admin/app/profile_crud.php` | High
+8 | File | `/admin/app/service_crud.php` | High
+9 | File | `/admin/article/article-add.php` | High
+10 | File | `/admin/article/article-edit-run.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+12 | File | `/admin/blood/update/o-.php` | High
+13 | File | `/admin/category/cate-edit-run.php` | High
+14 | File | `/admin/employee/index.php` | High
+15 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+16 | File | `/admin/inquiries/view_inquiry.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/modal_add_product.php` | High
+19 | File | `/admin/new-content` | High
+20 | File | `/admin/read.php?mudi=announContent` | High
+21 | File | `/admin/services/manage_service.php` | High
+22 | File | `/admin/suppliers/view_details.php` | High
+23 | File | `/admin/transactions/track_shipment.php` | High
+24 | File | `/admin/upload.php` | High
+25 | File | `/admin/user/manage_user.php` | High
+26 | File | `/alarm_pi/alarmService.php` | High
+27 | File | `/api/blade-system/menu/list?updatexml` | High
+28 | File | `/api/crontab` | Medium
+29 | File | `/api/es/admin/v3/security/user/1` | High
+30 | File | `/api/ping` | Medium
+31 | File | `/api/runscript` | High
+32 | File | `/api/sys/login` | High
+33 | File | `/api/sys/set_passwd` | High
+34 | File | `/app/admin/controller/api/Plugs.php` | High
+35 | File | `/asms/admin/products/manage_product.php` | High
+36 | File | `/asms/products/view_product.php` | High
+37 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+38 | File | `/category.php` | High
+39 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+40 | File | `/changeimage.php` | High
+41 | File | `/classes/Master.php?f=delete_service` | High
+42 | File | `/clearance/clearance.php` | High
+43 | File | `/config/getuser` | High
+44 | File | `/config/list` | Medium
+45 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+46 | File | `/core/config-revisions` | High
+47 | File | `/core/config-revisions/` | High
+48 | File | `/dashboard/snapshot/*?orgId=0` | High
+49 | File | `/dosen/data` | Medium
+50 | File | `/E-mobile/App/System/File/downfile.php` | High
+51 | File | `/export` | Low
+52 | File | `/forum/away.php` | High
+53 | File | `/gena.cgi` | Medium
+54 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+55 | File | `/goform/ate` | Medium
+56 | File | `/goform/formLogDnsquery` | High
+57 | File | `/goform/GetIPTV?fgHPOST/goform/SysToo` | High
+58 | File | `/goform/setcfm` | High
+59 | File | `/goform/SetOnlineDevName` | High
+60 | File | `/goform/WifiExtraSet` | High
+61 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

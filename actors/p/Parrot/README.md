@@ -34,11 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -51,42 +51,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addnews.html` | High
 2 | File | `/addsrv` | Low
-3 | File | `/Admin/Views/FileEditor/` | High
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/article/add` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/controller/pay.class.php` | High
-9 | File | `/dev/kmem` | Medium
-10 | File | `/dev/snd/seq` | Medium
-11 | File | `/device/device=140/tab=wifi/view` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/EXCU_SHELL` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/gena.cgi` | Medium
-16 | File | `/goform/SetClientState` | High
-17 | File | `/goform/SysToolChangePwd` | High
-18 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-19 | File | `/jpg/image.jpg` | High
-20 | File | `/out.php` | Medium
-21 | File | `/php/ping.php` | High
-22 | File | `/product_list.php` | High
-23 | File | `/rapi/read_url` | High
-24 | File | `/rrps/classes/Master.php?f=delete_category` | High
-25 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-26 | File | `/scripts/unlock_tasks.php` | High
-27 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/src/core/controllers/cm.php` | High
-30 | File | `/SysInfo1.htm` | High
-31 | File | `/sysinfo_json.cgi` | High
-32 | File | `/system/dictData/loadDictItem` | High
-33 | File | `/system/user/modules/mod_users/controller.php` | High
-34 | File | `/transmission/web/` | High
-35 | File | `/uncpath/` | Medium
-36 | ... | ... | ...
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+4 | File | `/Admin/Views/FileEditor/` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/article/add` | Medium
+8 | File | `/book_list.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/controller/pay.class.php` | High
+11 | File | `/dev/kmem` | Medium
+12 | File | `/dev/snd/seq` | Medium
+13 | File | `/device/device=140/tab=wifi/view` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/EXCU_SHELL` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/gena.cgi` | Medium
+18 | File | `/goform/SetClientState` | High
+19 | File | `/goform/SysToolChangePwd` | High
+20 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+21 | File | `/jpg/image.jpg` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php/ping.php` | High
+24 | File | `/product_list.php` | High
+25 | File | `/project/task/{task_id}/show` | High
+26 | File | `/rapi/read_url` | High
+27 | File | `/rrps/classes/Master.php?f=delete_category` | High
+28 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+29 | File | `/scripts/unlock_tasks.php` | High
+30 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+31 | File | `/see_more_details.php` | High
+32 | File | `/src/core/controllers/cm.php` | High
+33 | File | `/SysInfo1.htm` | High
+34 | File | `/sysinfo_json.cgi` | High
+35 | File | `/system/dictData/loadDictItem` | High
+36 | File | `/system/user/modules/mod_users/controller.php` | High
+37 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

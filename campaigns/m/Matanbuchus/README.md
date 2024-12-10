@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Matanbuchus:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -21,8 +21,8 @@ These _actors_ are associated with Matanbuchus or other actors linked to the cam
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [BelialDemon](https://vuldb.com/?actor.belialdemon) | High
-2 | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+1 | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+2 | [BelialDemon](https://vuldb.com/?actor.belialdemon) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,22 +30,24 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [34.94.151.129](https://vuldb.com/?ip.34.94.151.129) | 129.151.94.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
-2 | [34.105.89.82](https://vuldb.com/?ip.34.105.89.82) | 82.89.105.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
-3 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
-4 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
-5 | [185.11.61.169](https://vuldb.com/?ip.185.11.61.169) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-6 | [185.11.61.170](https://vuldb.com/?ip.185.11.61.170) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-7 | [185.11.61.171](https://vuldb.com/?ip.185.11.61.171) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-8 | [185.11.61.172](https://vuldb.com/?ip.185.11.61.172) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-9 | [185.217.1.23](https://vuldb.com/?ip.185.217.1.23) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-10 | [190.123.44.220](https://vuldb.com/?ip.190.123.44.220) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-11 | [193.109.85.27](https://vuldb.com/?ip.193.109.85.27) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-12 | [193.109.85.31](https://vuldb.com/?ip.193.109.85.31) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-13 | [193.109.85.43](https://vuldb.com/?ip.193.109.85.43) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-14 | ... | ... | ... | ...
+1 | [8.211.34.5](https://vuldb.com/?ip.8.211.34.5) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+2 | [34.94.151.129](https://vuldb.com/?ip.34.94.151.129) | 129.151.94.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
+3 | [34.105.89.82](https://vuldb.com/?ip.34.105.89.82) | 82.89.105.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
+4 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
+5 | [34.130.217.52](https://vuldb.com/?ip.34.130.217.52) | 52.217.130.34.bc.googleusercontent.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
+6 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
+7 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+8 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+9 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+10 | [185.11.61.169](https://vuldb.com/?ip.185.11.61.169) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+11 | [185.11.61.170](https://vuldb.com/?ip.185.11.61.170) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+12 | [185.11.61.171](https://vuldb.com/?ip.185.11.61.171) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+13 | [185.11.61.172](https://vuldb.com/?ip.185.11.61.172) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+14 | [185.217.1.23](https://vuldb.com/?ip.185.217.1.23) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+15 | [190.123.44.220](https://vuldb.com/?ip.190.123.44.220) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+16 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,12 +55,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,12 +77,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin_route/inc_service_credits.php` | High
 7 | File | `/cgi-bin/cstecgi.cgi` | High
 8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/edituser.php` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/goform/CertListInfo` | High
-12 | ... | ... | ...
+9 | File | `/DXR.axd` | Medium
+10 | File | `/edituser.php` | High
+11 | File | `/etc/shadow` | Medium
+12 | File | `/goform/CertListInfo` | High
+13 | File | `/goform/NatStaticSetting` | High
+14 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+15 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +108,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://tracker.viriback.com/index.php?q=193.109.85.79
 * https://tracker.viriback.com/index.php?q=194.67.193.205
 * https://unit42.paloaltonetworks.com/matanbuchus-malware-as-a-service/
+* https://www.malware-traffic-analysis.net/2024/06/17/index.html
 
 ## Literature
 

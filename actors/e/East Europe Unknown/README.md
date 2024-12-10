@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 14 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

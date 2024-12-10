@@ -51,18 +51,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/postfix/sender_login` | High
-2 | File | `/goform/openSchedWifi` | High
-3 | File | `/model/viewProduct.php` | High
-4 | File | `/services/details.asp` | High
-5 | File | `/tracking/nbproject/` | High
-6 | File | `admin/getparam.cgi` | High
-7 | File | `aepx` | Low
-8 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
-9 | File | `boafrm/formSysCmd` | High
+1 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+2 | File | `/etc/postfix/sender_login` | High
+3 | File | `/goform/openSchedWifi` | High
+4 | File | `/model/viewProduct.php` | High
+5 | File | `/services/details.asp` | High
+6 | File | `/tracking/nbproject/` | High
+7 | File | `admin/getparam.cgi` | High
+8 | File | `aepx` | Low
+9 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

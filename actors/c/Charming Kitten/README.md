@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,7 +67,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,19 +85,21 @@ ID | Type | Indicator | Confidence
 8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 9 | File | `/catalog/all-products` | High
 10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/changePassword` | High
-12 | File | `/edit-subject.php` | High
-13 | File | `/endpoint/add-user.php` | High
-14 | File | `/etc/postfix/sender_login` | High
-15 | File | `/foms/routers/place-order.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/DelDhcpRule` | High
-18 | File | `/goform/delIpMacBind` | High
-19 | File | `/goform/modifyIpMacBind` | High
+11 | File | `/cgi-bin/ExportSettings.sh` | High
+12 | File | `/changePassword` | High
+13 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+14 | File | `/edit-subject.php` | High
+15 | File | `/endpoint/add-user.php` | High
+16 | File | `/etc/postfix/sender_login` | High
+17 | File | `/foms/routers/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/delIpMacBind` | High
 20 | File | `/goform/SetDDNSCfg` | High
-21 | ... | ... | ...
+21 | File | `/goform/SetLEDCfg` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

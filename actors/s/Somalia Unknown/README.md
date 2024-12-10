@@ -88,22 +88,22 @@ ID | Type | Indicator | Confidence
 28 | File | `/user/add-notes.php` | High
 29 | File | `/user/manage-notes.php` | High
 30 | File | `/var/log/nginx` | High
-31 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-32 | File | `/wabt/bin/poc.wasm` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `/zm/index.php` | High
-35 | File | `3/E_bak5.1/upload/eginfo.php` | High
-36 | File | `act.php` | Low
-37 | File | `adclick.php` | Medium
-38 | File | `add_comment.php` | High
-39 | File | `admin` | Low
-40 | File | `admin.php` | Medium
-41 | File | `admin/adminsignin.html` | High
-42 | File | `admin/movieview.php` | High
-43 | File | `admin/products/view_product.php` | High
+31 | File | `/vcs/claire_blake` | High
+32 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+33 | File | `/wabt/bin/poc.wasm` | High
+34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+35 | File | `/zm/index.php` | High
+36 | File | `3/E_bak5.1/upload/eginfo.php` | High
+37 | File | `act.php` | Low
+38 | File | `adclick.php` | Medium
+39 | File | `add_comment.php` | High
+40 | File | `admin` | Low
+41 | File | `admin.php` | Medium
+42 | File | `admin/adminsignin.html` | High
+43 | File | `admin/movieview.php` | High
 44 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

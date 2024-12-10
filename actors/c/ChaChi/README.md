@@ -41,10 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,42 +56,43 @@ ID | Type | Indicator | Confidence
 2 | File | `//etc/RT2870STA.dat` | High
 3 | File | `/admin/emp-profile-avatar.php` | High
 4 | File | `/admin/students/view_details.php` | High
-5 | File | `/api/swaggerui/static` | High
-6 | File | `/cgi-bin/activate.cgi` | High
-7 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/etc/quagga` | Medium
-10 | File | `/export` | Low
-11 | File | `/foms/routers/place-order.php` | High
-12 | File | `/forms/doLogin` | High
-13 | File | `/get_getnetworkconf.cgi` | High
-14 | File | `/index.php` | Medium
-15 | File | `/intrams_sams/manage_student.php` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/manage_sy.php` | High
-18 | File | `/messageboard/view.php` | High
-19 | File | `/nova/bin/detnet` | High
-20 | File | `/opensis/modules/users/Staff.php` | High
-21 | File | `/orrs/admin/reservations/view_details.php` | High
-22 | File | `/php_action/createUser.php` | High
-23 | File | `/plugins/servlet/gadgets/makeRequest` | High
-24 | File | `/REBOOTSYSTEM` | High
-25 | File | `/req_password_user.php` | High
-26 | File | `/services` | Medium
-27 | File | `/Setting/change_password_save` | High
-28 | File | `/smsa/add_class_submit.php` | High
-29 | File | `/stockmovment/stockmovment/delete/` | High
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/Uploads` | Medium
-33 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-34 | File | `/view/timetable_update_form.php` | High
-35 | File | `/WEB-INF/web.xml` | High
-36 | File | `/webconsole/APIController` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | ... | ... | ...
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/api/swaggerui/static` | High
+7 | File | `/cgi-bin/activate.cgi` | High
+8 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/etc/quagga` | Medium
+11 | File | `/export` | Low
+12 | File | `/foms/routers/place-order.php` | High
+13 | File | `/forms/doLogin` | High
+14 | File | `/get_getnetworkconf.cgi` | High
+15 | File | `/guestbook` | Medium
+16 | File | `/index.php` | Medium
+17 | File | `/intrams_sams/manage_student.php` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/manage_sy.php` | High
+20 | File | `/messageboard/view.php` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/opensis/modules/users/Staff.php` | High
+23 | File | `/orrs/admin/reservations/view_details.php` | High
+24 | File | `/php_action/createUser.php` | High
+25 | File | `/plugins/servlet/gadgets/makeRequest` | High
+26 | File | `/REBOOTSYSTEM` | High
+27 | File | `/req_password_user.php` | High
+28 | File | `/services` | Medium
+29 | File | `/Setting/change_password_save` | High
+30 | File | `/smsa/add_class_submit.php` | High
+31 | File | `/stockmovment/stockmovment/delete/` | High
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | File | `/Uploads` | Medium
+35 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+36 | File | `/view/timetable_update_form.php` | High
+37 | File | `/WEB-INF/web.xml` | High
+38 | File | `/webconsole/APIController` | High
+39 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

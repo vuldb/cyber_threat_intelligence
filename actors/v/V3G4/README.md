@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,44 +53,46 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/admin/plog/index.html` | High
 5 | File | `/admin.php/singer/admin/singer/del` | High
 6 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
-7 | File | `/admin/?page=orders/view_order` | High
-8 | File | `/admin/comn/service/update.json` | High
-9 | File | `/admin/mod_room/controller.php?action=add` | High
-10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-11 | File | `/admin/transactions/update_status.php` | High
-12 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-13 | File | `/administrator/components/menu/` | High
-14 | File | `/api/deploy/upload` | High
-15 | File | `/api/deploy/upload /api/database/upload` | High
-16 | File | `/assets/php/upload.php` | High
-17 | File | `/auparse/auparse.c` | High
-18 | File | `/back/index.php/user/User/?1` | High
-19 | File | `/backups/` | Medium
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/cgi-bin/logs.ha` | High
-23 | File | `/cgi-bin/s3.cgi` | High
-24 | File | `/claire_blake` | High
-25 | File | `/classes/Master.php?f=delete_service` | High
-26 | File | `/classes/SystemSettings.php?f=update_settings` | High
-27 | File | `/common/info.cgi` | High
-28 | File | `/core/table/query` | High
-29 | File | `/cupseasylive/costcentercreate.php` | High
-30 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-31 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-32 | File | `/doctor/view-appointment-detail.php` | High
-33 | File | `/feedback/post/` | High
-34 | File | `/gaia-job-admin/user/add` | High
-35 | File | `/goform/login` | High
-36 | File | `/goform/SetInternetLanInfo` | High
-37 | File | `/goform/setportList` | High
-38 | File | `/goform/SetPptpServerCfg` | High
-39 | File | `/goform/WifiBasicSet` | High
-40 | File | `/group/apply` | Medium
-41 | File | `/gusetbook/save` | High
-42 | ... | ... | ...
+7 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+8 | File | `/admin/?page=orders/view_order` | High
+9 | File | `/admin/comn/service/update.json` | High
+10 | File | `/admin/create-package.php` | High
+11 | File | `/admin/mod_room/controller.php?action=add` | High
+12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+13 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+14 | File | `/admin/template/edit` | High
+15 | File | `/admin/transactions/update_status.php` | High
+16 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+17 | File | `/administrator/components/menu/` | High
+18 | File | `/api/deploy/upload` | High
+19 | File | `/api/deploy/upload /api/database/upload` | High
+20 | File | `/assets/php/upload.php` | High
+21 | File | `/auparse/auparse.c` | High
+22 | File | `/back/index.php/user/User/?1` | High
+23 | File | `/backups/` | Medium
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+26 | File | `/cgi-bin/logs.ha` | High
+27 | File | `/cgi-bin/s3.cgi` | High
+28 | File | `/claire_blake` | High
+29 | File | `/classes/Master.php?f=delete_service` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/common/info.cgi` | High
+32 | File | `/core/table/query` | High
+33 | File | `/cupseasylive/costcentercreate.php` | High
+34 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+35 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+36 | File | `/doctor/view-appointment-detail.php` | High
+37 | File | `/endpoint/delete-account.php` | High
+38 | File | `/feedback/post/` | High
+39 | File | `/gaia-job-admin/user/add` | High
+40 | File | `/goform/formVirtualServ` | High
+41 | File | `/goform/login` | High
+42 | File | `/goform/SetInternetLanInfo` | High
+43 | File | `/goform/SetPptpServerCfg` | High
+44 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

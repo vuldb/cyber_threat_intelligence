@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -268,7 +268,7 @@ ID | IP address | Hostname | Campaign | Confidence
 245 | [45.89.54.95](https://vuldb.com/?ip.45.89.54.95) | myserver.domainver.com | - | High
 246 | ... | ... | ... | ...
 
-There are 979 more IOC items available. Please use our online service to access the data.
+There are 981 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -283,7 +283,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -297,64 +297,67 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=musics/manage_music` | High
 5 | File | `/admin/add_ikev2.php` | High
 6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/admin/category_save.php` | High
-8 | File | `/Admin/changepassword.php` | High
-9 | File | `/admin/clients` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/general-setting` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/inquiries/view_inquiry.php` | High
-14 | File | `/admin/list_ipAddressPolicy.php` | High
-15 | File | `/admin/manage_model.php` | High
-16 | File | `/admin/manage_user.php` | High
-17 | File | `/admin/order.php` | High
-18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-19 | File | `/admin/service` | High
-20 | File | `/admin/subject.php` | High
-21 | File | `/api/v1/custom_component` | High
-22 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-23 | File | `/catalog/all-products` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=delete_category` | High
-29 | File | `/classes/Master.php?f=save_medicine` | High
-30 | File | `/classes/SystemSettings.php?f=update_settings` | High
-31 | File | `/classes/Users.php?f=delete` | High
-32 | File | `/downloadFile.php` | High
-33 | File | `/DXR.axd` | Medium
-34 | File | `/edit-subject.php` | High
-35 | File | `/edit.php` | Medium
-36 | File | `/endpoint/add-folder.php` | High
-37 | File | `/endpoint/add-user.php` | High
-38 | File | `/etc/passwd` | Medium
-39 | File | `/etc/postfix/sender_login` | High
-40 | File | `/etc/shadow` | Medium
-41 | File | `/file_manager/login.php` | High
-42 | File | `/film-rating.php` | High
-43 | File | `/foms/routers/place-order.php` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/get.php` | Medium
-46 | File | `/goform/setBlackRule` | High
-47 | File | `/goform/setcfm` | High
-48 | File | `/goform/SetIpMacBind` | High
-49 | File | `/goform/WifiExtraSet` | High
-50 | File | `/guestbook` | Medium
-51 | File | `/h/autoSaveDraft` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-54 | File | `/index/ajax/lang` | High
-55 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-56 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-57 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-58 | File | `/lesson/controller.php` | High
-59 | File | `/librarian/bookdetails.php` | High
-60 | File | `/log/decodmail.php` | High
-61 | File | `/manage_course.php` | High
-62 | ... | ... | ...
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/book-details.php` | High
+9 | File | `/admin/bwdates-report-details.php` | High
+10 | File | `/admin/category_save.php` | High
+11 | File | `/admin/cms_content.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/admin/forms/option_lists/edit.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index2.html` | High
+16 | File | `/admin/inquiries/view_inquiry.php` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
+18 | File | `/admin/manage_model.php` | High
+19 | File | `/admin/manage_user.php` | High
+20 | File | `/admin/order.php` | High
+21 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+22 | File | `/admin/sou.php` | High
+23 | File | `/admin/subject.php` | High
+24 | File | `/admin/users.php` | High
+25 | File | `/api/cron/settings/setJob/` | High
+26 | File | `/api/v1/custom_component` | High
+27 | File | `/api2/html/` | Medium
+28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+29 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/ExportSettings.sh` | High
+32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+33 | File | `/cgi-bin/nas_sharing.cgi` | High
+34 | File | `/classes/Master.php` | High
+35 | File | `/classes/Master.php?f=delete_category` | High
+36 | File | `/classes/Master.php?f=save_medicine` | High
+37 | File | `/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/classes/Users.php?f=delete` | High
+39 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+40 | File | `/downloadFile.php` | High
+41 | File | `/dtale/chart-data/1` | High
+42 | File | `/DXR.axd` | Medium
+43 | File | `/edit-subject.php` | High
+44 | File | `/edit.php` | Medium
+45 | File | `/endpoint/add-folder.php` | High
+46 | File | `/endpoint/add-user.php` | High
+47 | File | `/etc/passwd` | Medium
+48 | File | `/etc/postfix/sender_login` | High
+49 | File | `/etc/shadow` | Medium
+50 | File | `/filemanager/upload` | High
+51 | File | `/file_manager/login.php` | High
+52 | File | `/film-rating.php` | High
+53 | File | `/foms/routers/place-order.php` | High
+54 | File | `/forum/away.php` | High
+55 | File | `/get.php` | Medium
+56 | File | `/goform/setBlackRule` | High
+57 | File | `/goform/setcfm` | High
+58 | File | `/goform/SetIpMacBind` | High
+59 | File | `/goform/SetLEDCfg` | High
+60 | File | `/goform/setMacFilterCfg` | High
+61 | File | `/goform/WifiExtraSet` | High
+62 | File | `/grid/console` | High
+63 | File | `/guestbook` | Medium
+64 | File | `/h/autoSaveDraft` | High
+65 | ... | ... | ...
 
-There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 568 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -390,8 +393,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://raw.githubusercontent.com/Gi7w0rm/MalwareConfigLists/main/Raccoon_v2/txt/raccoonv2_found_18-05-2023_19-45-29.txt
 * https://search.censys.io/hosts/45.80.151.52
 * https://search.censys.io/hosts/45.80.151.223
+* https://search.censys.io/hosts/116.203.232.114
 * https://search.censys.io/hosts/178.17.171.77
 * https://search.censys.io/hosts/193.187.174.250
+* https://search.censys.io/hosts/206.166.251.240
 * https://threatfox.abuse.ch
 * https://tria.ge/221105-bwcszacfc7/
 * https://tria.ge/230110-pjc5vsfh98/behavioral2

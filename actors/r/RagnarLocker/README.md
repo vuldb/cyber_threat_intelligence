@@ -41,7 +41,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -52,46 +53,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/adminlogin.asp` | High
-3 | File | `/app/index/controller/Common.php` | High
-4 | File | `/category_view.php` | High
-5 | File | `/dipam/athlete-profile.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/delAd` | High
-8 | File | `/HNAP1` | Low
-9 | File | `/includes/fileReceive.php` | High
-10 | File | `/mc-admin/post.php?state=delete&delete` | High
-11 | File | `/mkshop/Men/profile.php` | High
-12 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-13 | File | `/php-jms/review_se_result.php` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/Side.php` | Medium
-16 | File | `/spip.php` | Medium
-17 | File | `/student/bookdetails.php` | High
-18 | File | `/textpattern/index.php` | High
-19 | File | `/user/profile` | High
-20 | File | `/usr/ucb/mail` | High
-21 | File | `/vicidial/AST_agent_time_sheet.php` | High
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `account.asp` | Medium
-24 | File | `adclick.php` | Medium
-25 | File | `addmember.php` | High
-26 | File | `addtocart.asp` | High
-27 | File | `addtomylist.asp` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin.x-shop.php` | High
-30 | File | `admin/auth.php` | High
-31 | File | `admin/import/class-import-settings.php` | High
-32 | File | `admin/sqlpatch.php` | High
-33 | File | `adminAttachments.php` | High
-34 | File | `adminBoards.php` | High
-35 | File | `admincp/auth/checklogin.php` | High
-36 | File | `adminlogin.asp` | High
-37 | File | `adminPolls.php` | High
-38 | File | `admin_feature.php` | High
-39 | ... | ... | ...
+2 | File | `/admin` | Low
+3 | File | `/adminlogin.asp` | High
+4 | File | `/app/index/controller/Common.php` | High
+5 | File | `/bitrix/admin/ldap_server_edit.php` | High
+6 | File | `/category_view.php` | High
+7 | File | `/dipam/athlete-profile.php` | High
+8 | File | `/dtale/chart-data/1` | High
+9 | File | `/filter.php` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/delAd` | High
+12 | File | `/HNAP1` | Low
+13 | File | `/includes/fileReceive.php` | High
+14 | File | `/mc-admin/post.php?state=delete&delete` | High
+15 | File | `/mkshop/Men/profile.php` | High
+16 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+17 | File | `/php-jms/review_se_result.php` | High
+18 | File | `/public/login.htm` | High
+19 | File | `/Side.php` | Medium
+20 | File | `/spip.php` | Medium
+21 | File | `/student/bookdetails.php` | High
+22 | File | `/textpattern/index.php` | High
+23 | File | `/user/profile` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/usr/ucb/mail` | High
+26 | File | `/vicidial/AST_agent_time_sheet.php` | High
+27 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+28 | File | `account.asp` | Medium
+29 | File | `adclick.php` | Medium
+30 | File | `addmember.php` | High
+31 | File | `addtocart.asp` | High
+32 | File | `addtomylist.asp` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin.x-shop.php` | High
+35 | File | `admin/auth.php` | High
+36 | File | `admin/import/class-import-settings.php` | High
+37 | File | `admin/sqlpatch.php` | High
+38 | File | `adminAttachments.php` | High
+39 | File | `adminBoards.php` | High
+40 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,40 +49,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=recruit/resume/edit&op=status` | High
-2 | File | `/admin.php/update/getFile.html` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/app/profile_crud.php` | High
-5 | File | `/admin/countrymanagement.php` | High
-6 | File | `/admin/del_category.php` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/edit-accepted-appointment.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit_category.php` | High
-11 | File | `/admin/forgot-password.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/reg.php` | High
-16 | File | `/admin/search-appointment.php` | High
-17 | File | `/ajax-api.php` | High
-18 | File | `/app/ajax/search_sales_report.php` | High
-19 | File | `/bin/boa` | Medium
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-22 | File | `/collection/all` | High
-23 | File | `/core/config-revisions` | High
-24 | File | `/deletefile.php` | High
-25 | File | `/doc/packages` | High
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | File | `/endpoint/delete-faq.php` | High
-28 | File | `/endpoint/update-computer.php` | High
-29 | File | `/endpoint/update-resident.php` | High
-30 | File | `/endpoint/update-tracker.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-33 | ... | ... | ...
+2 | File | `/addstock.php` | High
+3 | File | `/admin.php/update/getFile.html` | High
+4 | File | `/admin/?page=reports` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/app/profile_crud.php` | High
+7 | File | `/admin/book-details.php` | High
+8 | File | `/admin/countrymanagement.php` | High
+9 | File | `/admin/del_category.php` | High
+10 | File | `/admin/del_service.php` | High
+11 | File | `/admin/edit-accepted-appointment.php` | High
+12 | File | `/admin/edit-services.php` | High
+13 | File | `/admin/edit-subadmin.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/massage.php` | High
+18 | File | `/admin/newsletter1.php` | High
+19 | File | `/admin/payment.php` | High
+20 | File | `/admin/profile.php` | High
+21 | File | `/admin/reg.php` | High
+22 | File | `/admin/search-appointment.php` | High
+23 | File | `/ajax-api.php` | High
+24 | File | `/app/ajax/search_sales_report.php` | High
+25 | File | `/bin/boa` | Medium
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+28 | File | `/collection/all` | High
+29 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+30 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+31 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+32 | File | `/core/config-revisions` | High
+33 | File | `/deletefile.php` | High
+34 | File | `/doc/packages` | High
+35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+36 | File | `/endpoint/delete-faq.php` | High
+37 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

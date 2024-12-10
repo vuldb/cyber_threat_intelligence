@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -114,7 +114,7 @@ ID | IP address | Hostname | Campaign | Confidence
 91 | [52.20.78.240](https://vuldb.com/?ip.52.20.78.240) | ec2-52-20-78-240.compute-1.amazonaws.com | - | Medium
 92 | ... | ... | ... | ...
 
-There are 364 more IOC items available. Please use our online service to access the data.
+There are 366 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -125,10 +125,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -137,44 +138,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/forgot-password.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/manage_model.php` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/admin/subject.php` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/api/runscript` | High
-12 | File | `/api/snapshots/` | High
-13 | File | `/api/v1/snapshots` | High
-14 | File | `/api/v2/maps` | Medium
-15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-16 | File | `/applications/nexus/modules/front/store/store.php` | High
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/catalog/all-products` | High
-19 | File | `/cgi-bin/apkg_mgr.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_record` | High
-24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-27 | File | `/edit-subject.php` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/init.d/update_notifications.sh` | High
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/etc/shadow.sample` | High
-32 | File | `/foms/routers/place-order.php` | High
-33 | File | `/formSysLog` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/SetOnlineDevName` | High
-36 | File | `/goform/SetSysTimeCfg` | High
-37 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+5 | File | `/admin/ajax.php?action=login` | High
+6 | File | `/Admin/akun_edit.php` | High
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/category_save.php` | High
+9 | File | `/admin/create-package.php` | High
+10 | File | `/admin/doAdminAction.php?act=addCate` | High
+11 | File | `/admin/edit-brand.php` | High
+12 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/list_ipAddressPolicy.php` | High
+16 | File | `/admin/manage_model.php` | High
+17 | File | `/admin/manage_user.php` | High
+18 | File | `/Admin/Proses_Edit_Akun.php` | High
+19 | File | `/admin/robot.php` | High
+20 | File | `/admin/search-invoices.php` | High
+21 | File | `/admin/subject.php` | High
+22 | File | `/adminPage/conf/reload` | High
+23 | File | `/api/runscript` | High
+24 | File | `/api/snapshots/` | High
+25 | File | `/api/v1/snapshots` | High
+26 | File | `/api/v2/maps` | Medium
+27 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+28 | File | `/applications/nexus/modules/front/store/store.php` | High
+29 | File | `/apply/index.php` | High
+30 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+31 | File | `/candidate/index.php` | High
+32 | File | `/cgi-bin/adm.cgi` | High
+33 | File | `/cgi-bin/apkg_mgr.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/ExportSettings.sh` | High
+36 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+37 | File | `/classes/Master.php` | High
+38 | File | `/classes/Master.php?f=delete_record` | High
+39 | File | `/classes/SystemSettings.php?f=update_settings` | High
+40 | File | `/classes/Users.php?f=save` | High
+41 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+42 | File | `/deal/{note_id}/note` | High
+43 | File | `/detailed.php` | High
+44 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+45 | File | `/dtale/chart-data/1` | High
+46 | File | `/edit-subject.php` | High
+47 | File | `/endpoint/add-calorie.php` | High
+48 | File | `/endpoint/add-timesheet.php` | High
+49 | File | `/endpoint/add-user.php` | High
+50 | File | `/etc/init.d/update_notifications.sh` | High
+51 | File | `/etc/postfix/sender_login` | High
+52 | File | `/etc/shadow.sample` | High
+53 | File | `/filemanager/upload` | High
+54 | File | `/filter.php` | Medium
+55 | File | `/foms/routers/place-order.php` | High
+56 | File | `/formSysLog` | Medium
+57 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

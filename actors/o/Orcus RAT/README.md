@@ -64,16 +64,17 @@ ID | IP address | Hostname | Campaign | Confidence
 41 | [39.114.81.81](https://vuldb.com/?ip.39.114.81.81) | - | - | High
 42 | [40.113.117.114](https://vuldb.com/?ip.40.113.117.114) | - | - | High
 43 | [41.97.204.61](https://vuldb.com/?ip.41.97.204.61) | - | - | High
-44 | [42.113.142.177](https://vuldb.com/?ip.42.113.142.177) | - | - | High
-45 | [42.114.153.12](https://vuldb.com/?ip.42.114.153.12) | - | - | High
-46 | [42.114.153.115](https://vuldb.com/?ip.42.114.153.115) | - | - | High
-47 | [42.117.36.184](https://vuldb.com/?ip.42.117.36.184) | - | - | High
-48 | [45.88.91.213](https://vuldb.com/?ip.45.88.91.213) | - | - | High
-49 | [45.94.31.205](https://vuldb.com/?ip.45.94.31.205) | - | - | High
-50 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
-51 | ... | ... | ... | ...
+44 | [41.97.249.63](https://vuldb.com/?ip.41.97.249.63) | - | - | High
+45 | [42.113.142.177](https://vuldb.com/?ip.42.113.142.177) | - | - | High
+46 | [42.114.153.12](https://vuldb.com/?ip.42.114.153.12) | - | - | High
+47 | [42.114.153.115](https://vuldb.com/?ip.42.114.153.115) | - | - | High
+48 | [42.117.36.184](https://vuldb.com/?ip.42.117.36.184) | - | - | High
+49 | [45.88.91.213](https://vuldb.com/?ip.45.88.91.213) | - | - | High
+50 | [45.94.31.205](https://vuldb.com/?ip.45.94.31.205) | - | - | High
+51 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
+52 | ... | ... | ... | ...
 
-There are 198 more IOC items available. Please use our online service to access the data.
+There are 205 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -152,6 +153,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/39.38.245.19
 * https://search.censys.io/hosts/39.44.128.21
 * https://search.censys.io/hosts/41.97.204.61
+* https://search.censys.io/hosts/41.97.249.63
 * https://search.censys.io/hosts/42.113.142.177
 * https://search.censys.io/hosts/42.114.153.12
 * https://search.censys.io/hosts/42.114.153.115
@@ -164,7 +166,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/77.232.132.25
 * https://search.censys.io/hosts/85.209.176.26
 * https://search.censys.io/hosts/86.126.4.236
+* https://search.censys.io/hosts/87.251.78.226
 * https://search.censys.io/hosts/88.119.171.56
+* https://search.censys.io/hosts/89.23.100.155
 * https://search.censys.io/hosts/89.208.105.120
 * https://search.censys.io/hosts/89.232.195.236
 * https://search.censys.io/hosts/91.92.242.128
@@ -172,10 +176,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/94.156.10.119
 * https://search.censys.io/hosts/94.156.64.66
 * https://search.censys.io/hosts/94.156.66.77
+* https://search.censys.io/hosts/99.169.71.160
 * https://search.censys.io/hosts/103.106.203.165
 * https://search.censys.io/hosts/103.155.214.134
 * https://search.censys.io/hosts/104.168.163.193
 * https://search.censys.io/hosts/116.103.214.233
+* https://search.censys.io/hosts/118.68.53.7
 * https://search.censys.io/hosts/123.206.29.183
 * https://search.censys.io/hosts/134.255.254.225
 * https://search.censys.io/hosts/138.197.66.62
@@ -197,15 +203,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/183.80.186.171
 * https://search.censys.io/hosts/183.80.187.20
 * https://search.censys.io/hosts/185.196.10.32
+* https://search.censys.io/hosts/188.25.164.182
 * https://search.censys.io/hosts/188.25.165.189
 * https://search.censys.io/hosts/188.25.165.218
 * https://search.censys.io/hosts/188.26.86.131
+* https://search.censys.io/hosts/188.27.174.128
 * https://search.censys.io/hosts/188.27.175.18
 * https://search.censys.io/hosts/188.27.189.65
 * https://search.censys.io/hosts/188.27.189.141
 * https://search.censys.io/hosts/188.27.189.235
 * https://search.censys.io/hosts/189.38.106.100
 * https://search.censys.io/hosts/193.34.77.154
+* https://search.censys.io/hosts/193.233.112.215
 * https://search.censys.io/hosts/194.26.192.11
 * https://search.censys.io/hosts/194.87.216.52
 * https://search.censys.io/hosts/194.233.31.117

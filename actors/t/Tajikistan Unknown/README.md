@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 25 more country items available. Please use our online service to access the data.
@@ -71,48 +71,48 @@ ID | Type | Indicator | Confidence
 10 | File | `/appliance/users?action=edit` | High
 11 | File | `/filemanager/upload.php` | High
 12 | File | `/forum/away.php` | High
-13 | File | `/healthcare/Admin/consulting_detail.php` | High
-14 | File | `/I/list.php` | Medium
-15 | File | `/if.cgi` | Low
-16 | File | `/index.php/weblinks-categories` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/model/update_classroom.php` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/redirect?url` | High
-22 | File | `/royal_event/userregister.php` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/services/details.asp` | High
-25 | File | `/setup` | Low
-26 | File | `/setup/setup_maintain_firmware-default.html` | High
-27 | File | `/signup.php` | Medium
-28 | File | `/spip.php` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/update-employee.php` | High
-31 | File | `/user/add-notes.php` | High
-32 | File | `/user/manage-notes.php` | High
-33 | File | `/var/log/nginx` | High
-34 | File | `/view/teacher_salary_details2.php` | High
-35 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-37 | File | `/zm/index.php` | High
-38 | File | `3/E_bak5.1/upload/eginfo.php` | High
-39 | File | `act.php` | Low
-40 | File | `adclick.php` | Medium
-41 | File | `admin` | Low
-42 | File | `admin.a6mambocredits.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/adminsignin.html` | High
-45 | File | `admin/admin_password.php` | High
-46 | File | `admin/movieview.php` | High
-47 | File | `admin/plib/api-rpc/Agent.php` | High
-48 | File | `admin/products/view_product.php` | High
-49 | File | `admin/versions.html` | High
-50 | File | `agenda.php` | Medium
-51 | File | `ajax_calls.php` | High
+13 | File | `/goform/formSetQoS` | High
+14 | File | `/healthcare/Admin/consulting_detail.php` | High
+15 | File | `/I/list.php` | Medium
+16 | File | `/if.cgi` | Low
+17 | File | `/index.php/weblinks-categories` | High
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/model/update_classroom.php` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/news.dtl.php` | High
+22 | File | `/redirect?url` | High
+23 | File | `/royal_event/userregister.php` | High
+24 | File | `/see_more_details.php` | High
+25 | File | `/services/details.asp` | High
+26 | File | `/setup` | Low
+27 | File | `/setup/setup_maintain_firmware-default.html` | High
+28 | File | `/signup.php` | Medium
+29 | File | `/spip.php` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/update-employee.php` | High
+32 | File | `/user/add-notes.php` | High
+33 | File | `/user/manage-notes.php` | High
+34 | File | `/var/log/nginx` | High
+35 | File | `/vcs/claire_blake` | High
+36 | File | `/view/teacher_salary_details2.php` | High
+37 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+39 | File | `/zm/index.php` | High
+40 | File | `3/E_bak5.1/upload/eginfo.php` | High
+41 | File | `act.php` | Low
+42 | File | `adclick.php` | Medium
+43 | File | `admin` | Low
+44 | File | `admin.a6mambocredits.php` | High
+45 | File | `admin.php` | Medium
+46 | File | `admin/adminsignin.html` | High
+47 | File | `admin/admin_password.php` | High
+48 | File | `admin/movieview.php` | High
+49 | File | `admin/plib/api-rpc/Agent.php` | High
+50 | File | `admin/products/view_product.php` | High
+51 | File | `admin/versions.html` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

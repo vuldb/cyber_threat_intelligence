@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,10 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [20.38.37.160](https://vuldb.com/?ip.20.38.37.160) | - | - | High
 15 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
 16 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
-17 | ... | ... | ... | ...
+17 | [20.239.166.4](https://vuldb.com/?ip.20.239.166.4) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,10 +51,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,47 +61,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-2 | File | `/account/details.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/ajax.php?action=save_window` | High
-5 | File | `/admin/general/change-lang` | High
-6 | File | `/admin/group` | Medium
-7 | File | `/admin/launch_time.php` | High
-8 | File | `/admin/moduleinterface.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/api/v1/snapshots` | High
-11 | File | `/artist-display.php` | High
-12 | File | `/BRS_netgear_success.html` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/controllers/MgrDiagnosticTools.php` | High
-15 | File | `/czarnews/cn_users.php` | High
-16 | File | `/designer/add/layout` | High
-17 | File | `/dev/zero` | Medium
-18 | File | `/etc/waipass` | Medium
-19 | File | `/index.php` | Medium
-20 | File | `/manager/index.php` | High
-21 | File | `/message/ajax/send/` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/myAccount` | Medium
-24 | File | `/ndmComponents.js` | High
-25 | File | `/real-estate-script/search_property.php` | High
-26 | File | `/recordings/index.php` | High
-27 | File | `/roomtype-details.php` | High
-28 | File | `/search.php` | Medium
-29 | File | `/searchJob.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/see_more_details.php` | High
-32 | File | `/StartingPage/link_req_2.php` | High
-33 | File | `/storage.html` | High
-34 | File | `/tools/required/files/importers/imageeditor` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/uploads/tags.php` | High
-37 | File | `/userman/inbox.php` | High
-38 | File | `/UserSelfServiceSettings.jsp` | High
-39 | ... | ... | ...
+1 | File | `/admin/?page=reports` | High
+2 | File | `/admin/ajax.php?action=save_window` | High
+3 | File | `/api/v1/snapshots` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/manager/index.php` | High
+6 | File | `/mgmt/tm/util/bash` | High
+7 | File | `/ndmComponents.js` | High
+8 | File | `/secure/QueryComponent!Default.jspa` | High
+9 | File | `/uncpath/` | Medium
+10 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/SeguInfo/status/1703851435077587315
 * https://twitter.com/SeguInfo/status/1705308358696210620
 * https://twitter.com/V3n0mStrike/status/1688312316134117377
+* https://www.trendmicro.com/de_de/research/24/i/banking-trojans-mekotio-looks-to-expand-targets--bbtok-abuses-ut.html
 * https://www.virustotal.com/gui/file/c25dc30e13c33341aaa22ecbaa17fd28334d06089658a5521663564ee5f96b35/detection
 
 ## Literature

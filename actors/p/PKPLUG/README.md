@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -56,16 +56,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/ajax/avatar.php` | High
 3 | File | `/admin/uploads.php` | High
 4 | File | `/admin/users.php?source=edit_user&id=1` | High
-5 | File | `/cgi-bin/p1_ftpserver.php` | High
-6 | File | `/cgi-bin/portal` | High
-7 | File | `/cgi-bin/tosei_kikai.php` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/etc/shadow` | Medium
-10 | File | `/htmlcode/html/indexdefault.asp` | High
-11 | File | `/include/config.cache.php` | High
+5 | File | `/api/blade-log/api/list` | High
+6 | File | `/cgi-bin/p1_ftpserver.php` | High
+7 | File | `/cgi-bin/portal` | High
+8 | File | `/cgi-bin/tosei_kikai.php` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/htmlcode/html/indexdefault.asp` | High
 12 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -84,12 +84,12 @@ ID | Type | Indicator | Confidence
 22 | File | `/fuel/index.php/fuel/pages/items` | High
 23 | File | `/goform/aspForm` | High
 24 | File | `/image_zoom.php` | High
-25 | File | `/include/config.cache.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/param.file.tgz` | High
 28 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -11,7 +11,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.140.230.234](https://vuldb.com/?ip.8.140.230.234) | - | - | High
-2 | [43.143.123.22](https://vuldb.com/?ip.43.143.123.22) | - | - | High
+2 | [38.12.251.124](https://vuldb.com/?ip.38.12.251.124) | - | - | High
+3 | [43.143.123.22](https://vuldb.com/?ip.43.143.123.22) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 

@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with Void Rabisu:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Void Rabisu:
 
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise

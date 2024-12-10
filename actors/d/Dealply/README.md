@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dealply:
 
 * [IT](https://vuldb.com/?country.it)
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [IR](https://vuldb.com/?country.ir)
 
 ## IOC - Indicator of Compromise
 
@@ -38,15 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,35 +63,36 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/files/recipepictures/` | High
 12 | File | `/api/user` | Medium
 13 | File | `/apply/index.php` | High
-14 | File | `/bin/webs` | Medium
-15 | File | `/boaform/device_reset.cgi` | High
-16 | File | `/boaform/wlan_basic_set.cgi` | High
+14 | File | `/boaform/device_reset.cgi` | High
+15 | File | `/boaform/wlan_basic_set.cgi` | High
+16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 17 | File | `/cgi-bin/cstecgi.cgi` | High
 18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 19 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
 20 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 21 | File | `/cgi-bin/nas_sharing.cgi` | High
 22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/cgi-bin/ping.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=save_medicine` | High
-26 | File | `/classes/Master.php?f=save_package` | High
-27 | File | `/classes/SystemSettings.php?f=update_settings` | High
-28 | File | `/classes/Users.php?f=register_user` | High
-29 | File | `/collection/all` | High
-30 | File | `/control/register_case.php` | High
-31 | File | `/dosen/data` | Medium
-32 | File | `/dtale/chart-data/1` | High
-33 | File | `/ecommerce/support_ticket` | High
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-36 | File | `/etc/shadow.sample` | High
-37 | File | `/file_manager/admin/save_user.php` | High
-38 | File | `/foms/routers/place-order.php` | High
-39 | File | `/goform/addressNat` | High
-40 | ... | ... | ...
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=save_medicine` | High
+25 | File | `/classes/Master.php?f=save_package` | High
+26 | File | `/classes/SystemSettings.php?f=update_settings` | High
+27 | File | `/classes/Users.php?f=register_user` | High
+28 | File | `/collection/all` | High
+29 | File | `/control/register_case.php` | High
+30 | File | `/dbsrv.asp` | Medium
+31 | File | `/dtale/chart-data/1` | High
+32 | File | `/ecommerce/support_ticket` | High
+33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+34 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+35 | File | `/etc/shadow.sample` | High
+36 | File | `/foms/routers/place-order.php` | High
+37 | File | `/goform/addressNat` | High
+38 | File | `/goform/ate` | Medium
+39 | File | `/goform/DhcpListClient` | High
+40 | File | `/goform/execCommand` | High
+41 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

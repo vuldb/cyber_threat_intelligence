@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,52 +52,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/inquiries/view_details.php` | High
-4 | File | `/admin/list_addr_fwresource_ip.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/vca/bia/addacph.cgi` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/api/cron/settings/setJob/` | High
-9 | File | `/api/v2/events` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/checkLogin.cgi` | High
-12 | File | `/common/logViewer/logViewer.jsf` | High
-13 | File | `/control/register_case.php` | High
-14 | File | `/core/vb/vurl.php` | High
-15 | File | `/CPE` | Low
-16 | File | `/dashboard/snapshot/*?orgId=0` | High
-17 | File | `/devinfo` | Medium
-18 | File | `/ecrire` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/HNAP1/SetAccessPointMode` | High
-21 | File | `/include/commrecc.inc.php` | High
-22 | File | `/include/comm_post.inc.php` | High
-23 | File | `/include/friends.inc.php` | High
-24 | File | `/include/menu_v.inc.php` | High
-25 | File | `/include/notify.inc.php` | High
-26 | File | `/index.php?menu=asterisk_cli` | High
-27 | File | `/magnoliaPublic/travel/members/login.html` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/pg_meta/default/query` | High
-32 | File | `/proc//auxv` | Medium
-33 | File | `/proc/fs/nfsd/clients/2/states` | High
-34 | File | `/products/view_product.php` | High
-35 | File | `/rom-0` | Low
-36 | File | `/school/model/get_teacher.php` | High
-37 | File | `/search.php` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/loader.php?api=1` | High
-41 | File | `/usr/sbin/suexec` | High
-42 | File | `/viewer/krpano.html` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-45 | File | `/wp-json/oembed/1.0/embed?url` | High
-46 | ... | ... | ...
+3 | File | `/admin/list_addr_fwresource_ip.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/vca/bia/addacph.cgi` | High
+6 | File | `/anony/mjpg.cgi` | High
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v2/events` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/checkLogin.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/core/vb/vurl.php` | High
+14 | File | `/CPE` | Low
+15 | File | `/dashboard/snapshot/*?orgId=0` | High
+16 | File | `/devinfo` | Medium
+17 | File | `/ecrire` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/HNAP1/SetAccessPointMode` | High
+20 | File | `/index.php?menu=asterisk_cli` | High
+21 | File | `/magnoliaPublic/travel/members/login.html` | High
+22 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/pg_meta/default/query` | High
+25 | File | `/proc//auxv` | Medium
+26 | File | `/proc/fs/nfsd/clients/2/states` | High
+27 | File | `/products/view_product.php` | High
+28 | File | `/rom-0` | Low
+29 | File | `/school/model/get_teacher.php` | High
+30 | File | `/search.php` | Medium
+31 | File | `/spip.php` | Medium
+32 | File | `/user/loader.php?api=1` | High
+33 | File | `/usr/sbin/suexec` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | File | `/wp-json/oembed/1.0/embed?url` | High
+37 | File | `account.asp` | Medium
+38 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

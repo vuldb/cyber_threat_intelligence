@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [WF](https://vuldb.com/?country.wf)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [13.125.88.10](https://vuldb.com/?ip.13.125.88.10) | ec2-13-125-88-10.ap-northeast-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,10 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_area.php` | High
-2 | File | `/index.php` | Medium
-3 | File | `/table/index` | Medium
-4 | File | `/uncpath/` | Medium
-5 | File | `about.php` | Medium
-6 | File | `admin.php` | Medium
-7 | File | `admin_feature.php` | High
-8 | File | `aj.html` | Low
-9 | File | `akocomments.php` | High
-10 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/edit_area.php` | High
+3 | File | `/index.php` | Medium
+4 | File | `/print_diseases.php` | High
+5 | File | `/src/vmir_wasm_parser.c` | High
+6 | File | `/table/index` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `/view/DBManage/Backup_Server_commit.php` | High
+9 | File | `about.php` | Medium
+10 | File | `admin.php` | Medium
+11 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,8 +67,10 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/3fee3583-590c-4f90-ac08-4e22e0b27b2f
 * https://app.any.run/tasks/5af15c83-3f5f-4572-966a-1f0d9e4d9b02/
+* https://app.any.run/tasks/7ade5940-ac62-447e-a271-d8c5ab94df26
 * https://app.any.run/tasks/880feaf2-29fd-42a8-ad05-9638f08ee84a
 * https://app.any.run/tasks/a5179dde-6f3d-4980-aa44-302c95af337e
+* https://app.any.run/tasks/e09bf6ae-ab79-46bb-885b-01199d756cf5
 * https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
 * https://medium.com/walmartglobaltech/metastealer-string-decryption-and-dga-overview-5f38f76830cd

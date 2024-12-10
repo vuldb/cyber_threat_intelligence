@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,12 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | - | High
 7 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | - | High
 8 | [5.189.167.220](https://vuldb.com/?ip.5.189.167.220) | - | - | High
-9 | ... | ... | ... | ...
+9 | [5.189.170.84](https://vuldb.com/?ip.5.189.170.84) | vmi552889.contaboserver.net | - | High
+10 | [5.199.170.149](https://vuldb.com/?ip.5.199.170.149) | - | - | High
+11 | [23.254.119.234](https://vuldb.com/?ip.23.254.119.234) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -114,10 +117,9 @@ ID | Type | Indicator | Confidence
 49 | File | `/isms/admin/stocks/view_stock.php` | High
 50 | File | `/lab.html` | Medium
 51 | File | `/labvantage/rc?command=file&file=WEB-CORE/elements/files/filesembedded.jsp` | High
-52 | File | `/list/<path:folderpath>` | High
-53 | ... | ... | ...
+52 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
 * https://mp.weixin.qq.com/s/xU7b3m-L2OlAi2bU7nBj0A
 * https://nsfocusglobal.com/transparenttribes-spear-phishing-targeting-indian-government-departments/
+* https://www.cyfirma.com/research/osint-investigation-hunting-malicious-infrastructure-linked-to-transparent-tribe/
 * https://www.threatminer.org/report.php?q=APTGroupSendsSpearPhishingEmailstoIndianGovernmentOfficials%C2%ABThreatResearchBlog_FireEyeInc.pdf&y=2016
 * https://www.threatminer.org/report.php?q=MalwareActorsUsingNICCyberSecurityThemedSpearPhishingtoTargetIndianGovernmentOrganizations-Cysinfo.pdf&y=2016
 * https://www.threatminer.org/report.php?q=proofpoint-operation-transparent-tribe-threat-insight-en.pdf&y=2016

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,12 +58,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,16 +75,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/emp-profile-avatar.php` | High
 3 | File | `/admin/manage-ambulance.php` | High
 4 | File | `/admin/manage_station.php` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/classes/Master.php` | High
-7 | File | `/classes/SystemSettings.php?f=update_settings` | High
-8 | File | `/control/register_case.php` | High
-9 | File | `/foms/routers/place-order.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/installer/test.php` | High
-12 | ... | ... | ...
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/category.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/classes/SystemSettings.php?f=update_settings` | High
+10 | File | `/control/register_case.php` | High
+11 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

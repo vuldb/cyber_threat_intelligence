@@ -55,29 +55,29 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/index2.html` | High
 4 | File | `/adminPage/conf/reload` | High
 5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-9 | File | `/DXR.axd` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index/ajax/lang` | High
-12 | File | `/log/decodmail.php` | High
-13 | File | `/mfsNotice/page` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/novel/bookSetting/list` | High
-16 | File | `/novel/userFeedback/list` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/phppath/php` | Medium
-20 | File | `/register.php` | High
-21 | File | `/spip.php` | Medium
-22 | File | `/systemrw/` | Medium
-23 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/bin/pkexec` | High
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/api2/html/` | Medium
+9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/index/ajax/lang` | High
+14 | File | `/log/decodmail.php` | High
+15 | File | `/mfsNotice/page` | High
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/novel/bookSetting/list` | High
+18 | File | `/novel/userFeedback/list` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/phppath/php` | Medium
+22 | File | `/register.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/systemrw/` | Medium
+25 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
 26 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

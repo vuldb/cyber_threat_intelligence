@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,9 +21,9 @@ These _actors_ are associated with Spark or other actors linked to the campaign.
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Molerats](https://vuldb.com/?actor.molerats) | High
-2 | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
-3 | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+1 | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+2 | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+3 | [Molerats](https://vuldb.com/?actor.molerats) | High
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -63,39 +64,40 @@ ID | Type | Indicator | Confidence
 3 | File | `/.vnc/sesman_${username}_passwd` | High
 4 | File | `/admin/admin_manage/delete` | High
 5 | File | `/admin/video/list` | High
-6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-9 | File | `/dl/dl_sendmail.php` | High
-10 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-11 | File | `/ecommerce/admin/products/controller.php` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/etc/qci/answers` | High
-14 | File | `/function/booksave.php` | High
-15 | File | `/goform/addressNat` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/inc/campaign/campaign-delete.php` | High
-18 | File | `/include/menu_v.inc.php` | High
-19 | File | `/librarian/lab.php` | High
-20 | File | `/login/` | Low
-21 | File | `/manage_laundry.php` | High
-22 | File | `/omos/admin/?page=user/list` | High
-23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-24 | File | `/panel/fields/add` | High
-25 | File | `/patient/settings.php` | High
-26 | File | `/proc/*/cmdline"` | High
-27 | File | `/proc/pid/syscall` | High
-28 | File | `/proxy` | Low
-29 | File | `/sbin/acos_service` | High
-30 | File | `/sgmi/` | Low
-31 | File | `/so.php` | Low
-32 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
-33 | File | `/SysInfo.htm` | Medium
-34 | File | `/tmp` | Low
-35 | File | `/uncpath/` | Medium
-36 | ... | ... | ...
+6 | File | `/ajax.php?action=update_account` | High
+7 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+8 | File | `/cgi-bin/editBookmark` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/controllers/updatesettings.php` | High
+11 | File | `/course.php` | Medium
+12 | File | `/dl/dl_sendmail.php` | High
+13 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+14 | File | `/ecommerce/admin/products/controller.php` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/etc/qci/answers` | High
+17 | File | `/function/booksave.php` | High
+18 | File | `/goform/addressNat` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/inc/campaign/campaign-delete.php` | High
+21 | File | `/include/menu_v.inc.php` | High
+22 | File | `/librarian/lab.php` | High
+23 | File | `/login/` | Low
+24 | File | `/manage_laundry.php` | High
+25 | File | `/omos/admin/?page=user/list` | High
+26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+27 | File | `/panel/fields/add` | High
+28 | File | `/patient/settings.php` | High
+29 | File | `/proc/*/cmdline"` | High
+30 | File | `/proc/pid/syscall` | High
+31 | File | `/proxy` | Low
+32 | File | `/rental/ajax.php?action=delete_tenant` | High
+33 | File | `/sbin/acos_service` | High
+34 | File | `/sgmi/` | Low
+35 | File | `/so.php` | Low
+36 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
+37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

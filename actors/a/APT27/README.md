@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,11 +46,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -68,11 +68,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/admin/system/store/order/list` | High
 6 | File | `/cgi-bin/cstecgi.cgi` | High
 7 | File | `/cgi-bin/live_api.cgi` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/config/getuser` | High
-12 | File | `/csms/?page=contact_us` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/clientdetails/admin/regester.php` | High
+10 | File | `/config/getuser` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
 13 | File | `/etc/ajenti/config.yml` | High
 14 | File | `/etc/shadow` | Medium
 15 | File | `/farm/product.php` | High
@@ -81,31 +81,30 @@ ID | Type | Indicator | Confidence
 18 | File | `/h/` | Low
 19 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
 20 | File | `/lan.asp` | Medium
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/oscommerce/admin/currencies.php` | High
-24 | File | `/proc/pid/syscall` | High
-25 | File | `/ptippage.cgi` | High
-26 | File | `/public/launchNewWindow.jsp` | High
-27 | File | `/rapi/read_url` | High
-28 | File | `/rom-0` | Low
-29 | File | `/session/list/allActiveSession` | High
-30 | File | `/sys/dict/loadTreeData` | High
-31 | File | `/SysInfo.htm` | Medium
-32 | File | `/syslog_rules` | High
-33 | File | `/tmp/out` | Medium
-34 | File | `/Tool/uploadfile.php` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload` | Low
-37 | File | `/users/{id}` | Medium
-38 | File | `/var/tmp/sess_*` | High
-39 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-40 | File | `/video` | Low
-41 | File | `actionphp/download.File.php` | High
-42 | File | `ActivityManagerService.java` | High
-43 | ... | ... | ...
+21 | File | `/manage_block.php` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/oscommerce/admin/currencies.php` | High
+25 | File | `/proc/pid/syscall` | High
+26 | File | `/ptippage.cgi` | High
+27 | File | `/public/launchNewWindow.jsp` | High
+28 | File | `/rapi/read_url` | High
+29 | File | `/rom-0` | Low
+30 | File | `/session/list/allActiveSession` | High
+31 | File | `/sys/dict/loadTreeData` | High
+32 | File | `/SysInfo.htm` | Medium
+33 | File | `/syslog_rules` | High
+34 | File | `/tmp/out` | Medium
+35 | File | `/Tool/uploadfile.php` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/update-image1.php` | High
+38 | File | `/upload` | Low
+39 | File | `/users/{id}` | Medium
+40 | File | `/v1/operador/` | High
+41 | File | `/var/tmp/sess_*` | High
+42 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

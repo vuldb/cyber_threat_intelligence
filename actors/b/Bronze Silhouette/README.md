@@ -54,38 +54,40 @@ ID | Type | Indicator | Confidence
 7 | File | `/crmeb/crmeb/services/UploadService.php` | High
 8 | File | `/csms/admin/inquiries/view_details.php` | High
 9 | File | `/cstecgi.cgi` | Medium
-10 | File | `/files.md5` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/home/search` | Medium
-13 | File | `/hrm/employeeview.php` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/login` | Low
-17 | File | `/messageboard/view.php` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/one_church/userregister.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-25 | File | `/SASWebReportStudio/logonAndRender.do` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-29 | File | `/textpattern/index.php` | High
-30 | File | `/upfile.cgi` | Medium
-31 | File | `/v2/quantum/save-data-upload-big-file` | High
-32 | File | `/wordpress/wp-admin/admin.php` | High
-33 | File | `4.edu.php` | Medium
-34 | File | `account_footer.php` | High
-35 | File | `adclick.php` | Medium
-36 | File | `addtocart.asp` | High
-37 | File | `add_edit_cat.asp` | High
-38 | File | `add_edit_user.asp` | High
-39 | ... | ... | ...
+10 | File | `/ecommerce/support_ticket` | High
+11 | File | `/files.md5` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/formSetMACFilter` | High
+14 | File | `/goform/formSetMuti` | High
+15 | File | `/goform/formSetPassword` | High
+16 | File | `/goform/formSetPortTr` | High
+17 | File | `/goform/formSetQoS` | High
+18 | File | `/goform/formSetRoute` | High
+19 | File | `/goform/formSetWizardSelectMode` | High
+20 | File | `/goform/formVirtualServ` | High
+21 | File | `/home/search` | Medium
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/login` | Low
+26 | File | `/messageboard/view.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/multi-vendor-shopping-script/product-list.php` | High
+29 | File | `/one_church/userregister.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/public/plugins/` | High
+33 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+34 | File | `/SASWebReportStudio/logonAndRender.do` | High
+35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+36 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+38 | File | `/textpattern/index.php` | High
+39 | File | `/upfile.cgi` | Medium
+40 | File | `/v2/quantum/save-data-upload-big-file` | High
+41 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -52,12 +52,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/htdocs/admin/dict.php?id=3` | High
-3 | File | `/wbg/core/_includes/authorization.inc.php` | High
-4 | File | `admin/app/mediamanager` | High
-5 | File | `admin/class-bulk-editor-list-table.php` | High
+3 | File | `/resources//../` | High
+4 | File | `/wbg/core/_includes/authorization.inc.php` | High
+5 | File | `admin/app/mediamanager` | High
 6 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

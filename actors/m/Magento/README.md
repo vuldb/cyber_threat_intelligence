@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,22 +69,25 @@ ID | Type | Indicator | Confidence
 17 | File | `/one/getpassword.php` | High
 18 | File | `/out.php` | Medium
 19 | File | `/phppath/php` | Medium
-20 | File | `/preview.php` | Medium
-21 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-22 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/servlet/webacc` | High
-25 | File | `/setNTP.cgi` | Medium
-26 | File | `/Side.php` | Medium
-27 | File | `/spip/ecrire/` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/uploads/tags.php` | High
-30 | File | `/userfs/bin/tcapi` | High
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/vendor/views/add_product.php` | High
-33 | ... | ... | ...
+20 | File | `/pms/admin/crimes/manage_crime.php` | High
+21 | File | `/preview.php` | Medium
+22 | File | `/products/details.asp` | High
+23 | File | `/products/view_product.php` | High
+24 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+25 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/servlet/webacc` | High
+28 | File | `/setNTP.cgi` | Medium
+29 | File | `/Side.php` | Medium
+30 | File | `/spip/ecrire/` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/uploads/tags.php` | High
+33 | File | `/userfs/bin/tcapi` | High
+34 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
+35 | File | `/usr/bin/pkexec` | High
+36 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

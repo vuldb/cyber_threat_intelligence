@@ -42,10 +42,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,49 +56,50 @@ ID | Type | Indicator | Confidence
 1 | File | `/ad-list` | Medium
 2 | File | `/admin/?page=user/list` | High
 3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/client_user` | High
-5 | File | `/admin/countrymanagement.php` | High
-6 | File | `/admin/index.php?page=categories` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/photo.php` | High
-9 | File | `/admin/reports.php` | High
-10 | File | `/admin/success_story.php` | High
-11 | File | `/admin/sys_sql_query.php` | High
-12 | File | `/admin/user/team` | High
-13 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
-14 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-15 | File | `/cgi-bin/ExportSettings.sh` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/cm/delete` | Medium
-18 | File | `/delete_members.php` | High
-19 | File | `/dipam/athlete-profile.php` | High
-20 | File | `/dipam/save-delegates.php` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/fromSetWirelessRepeat` | High
-25 | File | `/goform/RouteStatic` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/login.php` | Medium
-30 | File | `/manage_receiving.php` | High
-31 | File | `/mkshop/Men/profile.php` | High
-32 | File | `/model/add_student_subject.php` | High
-33 | File | `/model/update_grade.php` | High
-34 | File | `/pms/admin/prisons/view_prison.php` | High
-35 | File | `/print_patients_visits.php` | High
-36 | File | `/product` | Medium
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | File | `/services/Card/findUser` | High
-39 | File | `/simple-online-bidding-system/admin/ajax.php?action=save_product` | High
-40 | File | `/simple-online-bidding-system/admin/index.php?page=manage_product` | High
-41 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
-42 | File | `/simple-online-bidding-system/index.php?page=view_prod` | High
-43 | File | `/spip.php` | Medium
-44 | ... | ... | ...
+4 | File | `/admin/bwdates-report-details.php` | High
+5 | File | `/admin/client_user` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/index.php?page=categories` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/massage.php` | High
+10 | File | `/admin/photo.php` | High
+11 | File | `/admin/reports.php` | High
+12 | File | `/admin/success_story.php` | High
+13 | File | `/admin/sys_sql_query.php` | High
+14 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
+15 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+16 | File | `/cgi-bin/ExportSettings.sh` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/cgi-bin/settings-firewall.cgi` | High
+19 | File | `/cm/delete` | Medium
+20 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+21 | File | `/delete_members.php` | High
+22 | File | `/dipam/athlete-profile.php` | High
+23 | File | `/dipam/save-delegates.php` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/find_v2/_click` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/getcfg.php` | Medium
+28 | File | `/goform/fromSetWirelessRepeat` | High
+29 | File | `/goform/RouteStatic` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/login.php` | Medium
+34 | File | `/manage_receiving.php` | High
+35 | File | `/manage_supplier.php` | High
+36 | File | `/mkshop/Men/profile.php` | High
+37 | File | `/model/add_student_subject.php` | High
+38 | File | `/model/update_grade.php` | High
+39 | File | `/php/manage_customer.php?action=search` | High
+40 | File | `/pms/admin/prisons/view_prison.php` | High
+41 | File | `/print_patients_visits.php` | High
+42 | File | `/product` | Medium
+43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+44 | File | `/services/Card/findUser` | High
+45 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

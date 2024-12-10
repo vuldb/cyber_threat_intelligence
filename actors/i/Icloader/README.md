@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +45,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
-2 | File | `/objects/getImageMP4.php` | High
-3 | File | `/payu/icpcheckout/` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `asn1fix_retrieve.c` | High
-7 | File | `bigsam_guestbook.php` | High
-8 | File | `books.php` | Medium
-9 | File | `card/pay/.../amount` | High
+1 | File | `.git/` | Low
+2 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
+3 | File | `/objects/getImageMP4.php` | High
+4 | File | `/payu/icpcheckout/` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `admin.php` | Medium
+7 | File | `asn1fix_retrieve.c` | High
+8 | File | `bigsam_guestbook.php` | High
+9 | File | `books.php` | Medium
 10 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

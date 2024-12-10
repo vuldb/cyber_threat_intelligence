@@ -116,21 +116,23 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/emp-profile-avatar.php` | High
 5 | File | `/admin/index.php?page=manage_product` | High
 6 | File | `/admin/manage-ambulance.php` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/cgi-bin/p1_ftpserver.php` | High
-12 | File | `/check_availability.php` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/classes/Master.php?f=log_employee` | High
-15 | File | `/classes/SystemSettings.php?f=update_settings` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/config/getuser` | High
-18 | File | `/dashboard/Cinvoice/manage_invoice` | High
-19 | ... | ... | ...
+7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+8 | File | `/assets/ctx` | Medium
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/p1_ftpserver.php` | High
+13 | File | `/check_availability.php` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/Master.php?f=log_employee` | High
+16 | File | `/classes/SystemSettings.php?f=update_settings` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/config/getuser` | High
+19 | File | `/dashboard/Cinvoice/manage_invoice` | High
+20 | File | `/dashboard/message` | High
+21 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -86,23 +86,23 @@ ID | Type | Indicator | Confidence
 35 | File | `/update-employee.php` | High
 36 | File | `/user/add-notes.php` | High
 37 | File | `/user/manage-notes.php` | High
-38 | File | `/wordpress/wp-admin/options-general.php` | High
-39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-40 | File | `4.2.0.CP09` | Medium
-41 | File | `account.asp` | Medium
-42 | File | `act.php` | Low
-43 | File | `adclick.php` | Medium
-44 | File | `admin.php` | Medium
-45 | File | `admin/admin.php` | High
-46 | File | `admin/admin.shtml` | High
-47 | File | `Admin/ADM_Pagina.php` | High
-48 | File | `admin/category.inc.php` | High
-49 | File | `admin/param/param_func.inc.php` | High
-50 | File | `admin/products/view_product.php` | High
-51 | File | `administration/admins.php` | High
+38 | File | `/vcs/claire_blake` | High
+39 | File | `/wordpress/wp-admin/options-general.php` | High
+40 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+41 | File | `4.2.0.CP09` | Medium
+42 | File | `account.asp` | Medium
+43 | File | `act.php` | Low
+44 | File | `adclick.php` | Medium
+45 | File | `admin.php` | Medium
+46 | File | `admin/admin.php` | High
+47 | File | `admin/admin.shtml` | High
+48 | File | `Admin/ADM_Pagina.php` | High
+49 | File | `admin/category.inc.php` | High
+50 | File | `admin/param/param_func.inc.php` | High
+51 | File | `admin/products/view_product.php` | High
 52 | ... | ... | ...
 
-There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

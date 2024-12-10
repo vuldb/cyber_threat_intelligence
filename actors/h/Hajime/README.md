@@ -60,24 +60,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/application/index/controller/Service.php` | High
 5 | File | `/categorypage.php` | High
 6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi-bin/user/Config.cgi` | High
-9 | File | `/cgi-bin/viewcert` | High
-10 | File | `/common/info.cgi` | High
-11 | File | `/config/getuser` | High
-12 | File | `/configs/application.ini` | High
-13 | File | `/core/vb/vurl.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/user/Config.cgi` | High
+10 | File | `/cgi-bin/viewcert` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/config/getuser` | High
+13 | File | `/configs/application.ini` | High
 14 | File | `/debug/pprof` | Medium
 15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/etc/shadow.sample` | High
-17 | File | `/eval/admin/manage_class.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/lms/classes/Master.php?f=save_record` | High
-20 | File | `/modules/projects/vw_files.php` | High
-21 | File | `/nagiosxi/admin/graphtemplates.php` | High
-22 | File | `/ndmComponents.js` | High
-23 | File | `/oauth/idp/.well-known/openid-configuration` | High
-24 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+16 | File | `/emloyee_akpoly/Account/login.php` | High
+17 | File | `/etc/shadow.sample` | High
+18 | File | `/eval/admin/manage_class.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/lms/classes/Master.php?f=save_record` | High
+21 | File | `/modules/projects/vw_files.php` | High
+22 | File | `/nagiosxi/admin/graphtemplates.php` | High
+23 | File | `/ndmComponents.js` | High
+24 | File | `/oauth/idp/.well-known/openid-configuration` | High
 25 | File | `/server-status` | High
 26 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
 27 | File | `/tools/required/files/importers/imageeditor` | High
@@ -88,10 +88,9 @@ ID | Type | Indicator | Confidence
 32 | File | `/vpn/list_vpn_web_custom.php` | High
 33 | File | `/vpn/vpn_template_style.php` | High
 34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-36 | ... | ... | ...
+35 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

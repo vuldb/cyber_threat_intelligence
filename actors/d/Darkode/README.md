@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,26 +44,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/quizquestion.php` | High
-4 | File | `/admin/search-appointment.php` | High
-5 | File | `/buscar_integrada.php` | High
-6 | File | `/cgi-bin/user/Config.cgi` | High
-7 | File | `/classes/Master.php` | High
-8 | File | `/config/php.ini` | High
-9 | File | `/endpoint/add-calorie.php` | High
-10 | File | `/htdocs/cgibin` | High
-11 | File | `/myprofile.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/videotalk` | Medium
-14 | File | `/web/MCmsAction.java` | High
-15 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-16 | File | `activity_log.php` | High
-17 | File | `adm/systools.asp` | High
-18 | File | `admin/getparam.cgi` | High
+2 | File | `/add_new_supplier.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/quizquestion.php` | High
+5 | File | `/admin/search-appointment.php` | High
+6 | File | `/buscar_integrada.php` | High
+7 | File | `/cgi-bin/user/Config.cgi` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/config/php.ini` | High
+10 | File | `/endpoint/add-calorie.php` | High
+11 | File | `/htdocs/cgibin` | High
+12 | File | `/myprofile.php` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/videotalk` | Medium
+15 | File | `/viewrequest.php` | High
+16 | File | `/web/MCmsAction.java` | High
+17 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+18 | File | `activity_log.php` | High
 19 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

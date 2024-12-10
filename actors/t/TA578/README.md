@@ -16,7 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CA](https://vuldb.com/?country.ca)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,7 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [194.165.16.60](https://vuldb.com/?ip.194.165.16.60) | - | BumbleBee | High
+1 | [5.252.21.207](https://vuldb.com/?ip.5.252.21.207) | vm3152051.stark-industries.solutions | - | High
+2 | [74.119.193.200](https://vuldb.com/?ip.74.119.193.200) | vm2581914.stark-industries.solutions | - | High
+3 | [77.91.73.187](https://vuldb.com/?ip.77.91.73.187) | vm2161390.stark-industries.solutions | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +53,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/common/ticket_associated_tickets.php` | High
-2 | File | `msg.c` | Low
-3 | Argument | `title` | Low
-4 | ... | ... | ...
+1 | File | `/cgi-bin/luci/api/switch` | High
+2 | File | `/common/ticket_associated_tickets.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+5 | File | `/jsonrpc` | Medium
+6 | File | `/mims/login.php` | High
+7 | File | `/SetTriggerWPS/PIN` | High
+8 | File | `/status/status_log.sys` | High
+9 | File | `/wp-admin/admin-ajax.php` | High
+10 | File | `/wp-json/wc/v3/webhooks` | High
+11 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+12 | File | `admin.color.php` | High
+13 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://twitter.com/malware_traffic/status/1537168576162979843
+* https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice
 
 ## Literature
 

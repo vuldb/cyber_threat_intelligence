@@ -54,36 +54,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_supplier.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/api/v1/terminal/sessions/?limit=1` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/bin/webs` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/hd_config.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-13 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-14 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-15 | File | `/edit-computer-detail.php` | High
-16 | File | `/endpoint/Add.php` | High
-17 | File | `/etc/sudoers` | Medium
-18 | File | `/export` | Low
-19 | File | `/goform/formSetEmail` | High
-20 | File | `/goform/SetSpeedWan` | High
-21 | File | `/LMS/LM/#main` | High
-22 | File | `/mhds/clinic/view_details.php` | High
-23 | File | `/modules/atari-img.c` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/password/reset` | High
-26 | File | `/php/ping.php` | High
-27 | File | `/requests.php` | High
-28 | ... | ... | ...
+1 | File | `/addcompany.php` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/edit_supplier.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/sales/view_details.php` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/bin/webs` | Medium
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/hd_config.cgi` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+15 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+16 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+17 | File | `/edit-computer-detail.php` | High
+18 | File | `/endpoint/Add.php` | High
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/export` | Low
+21 | File | `/goform/formSetEmail` | High
+22 | File | `/goform/SetSpeedWan` | High
+23 | File | `/LMS/LM/#main` | High
+24 | File | `/mhds/clinic/view_details.php` | High
+25 | File | `/modules/atari-img.c` | High
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/password/reset` | High
+28 | File | `/php/ping.php` | High
+29 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

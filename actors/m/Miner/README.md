@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/index.php?page=search/rentals` | High
 11 | File | `/members/view_member.php` | High
 12 | File | `/mgmt/tm/util/bash` | High
-13 | ... | ... | ...
+13 | File | `/modules/projects/vw_files.php` | High
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

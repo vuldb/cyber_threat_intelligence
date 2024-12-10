@@ -2066,3 +2066,41 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 ## License
 
 (c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+ernal sources_ which discuss the campaign and the associated activities:
+
+* https://1275.ru/ioc/431/scarab-mustang-panda-space-pirates-apt-iocs/
+* https://asec.ahnlab.com/en/50316/
+* https://asec.ahnlab.com/en/83079/
+* https://blog.eclecticiq.com/chinese-state-sponsored-cyber-espionage-activity-targeting-semiconductor-industry-in-east-asia
+* https://blog.eclecticiq.com/chinese-threat-actor-used-modified-cobalt-strike-variant-to-attack-taiwanese-critical-infrastructure
+* https://blog.malwarebytes.com/malwarebytes-news/2022/05/unknown-apt-group-has-targeted-russia-repeatedly-since-ukraine-invasion/
+* https://blog.sekoia.io/bulbature-beneath-the-waves-of-gobrat/
+* https://blog.talosintelligence.com/2019/08/china-chopper-still-active-9-years-later.html
+* https://blog.talosintelligence.com/undocumented-reddriver/
+* https://community.blueliv.com/#!/s/6025590982df413ea934bd9a
+* https://github.com/avast/ioc/tree/master/OperationDragonCastling
+* https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/China/RedFoxtrot_group.pdf
+* https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/China/TAG-74.pdf
+* https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_cn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_cn.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
+* https://otx.alienvault.com/pulse/54bd4b0411d4087235fb7130
+* https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_cn.netset
+* https://research.checkpoint.com/2022/chinese-actor-takes-aim-armed-with-nim-language-and-bizarro-aes/
+* https://symantec-enterprise-blogs.security.com/threat-intelligence/telecoms-espionage-asia
+* https://unit42.paloaltonetworks.jp/chinese-apt-linked-to-cambodia-government-attacks/
+* https://vxug.fakedoma.in/archive/APTs/2021/2021.03.10(1)/RedXOR.pdf
+* https://www.fireeye.com/blog/threat-research/2019/08/game-over-detecting-and-stopping-an-apt41-operation.html
+* https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html
+* https://www.jumpsec.com/guides/edge-device-botnet-compromise/
+
+## Literature
+
+The following _articles_ explain our unique predictive cyber threat intelligence:
+
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
+
+## License
+
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

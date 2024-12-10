@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Republic of Moldova Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -193,14 +193,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-28, CWE-37 | Path Traversal | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -208,58 +207,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=categories/view_category` | High
-2 | File | `/Admin/changepassword.php` | High
-3 | File | `/admin/court` | Medium
-4 | File | `/Admin/createClass.php` | High
-5 | File | `/admin/div_data/data` | High
-6 | File | `/admin/maintenance/manage_brand.php` | High
-7 | File | `/admin/media_folders` | High
-8 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-9 | File | `/admin/orders/view_order.php` | High
-10 | File | `/admin/pages/edit_chicken.php` | High
-11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/problem_judge.php` | High
-13 | File | `/admin/robot.php` | High
+1 | File | `/abs.php` | Medium
+2 | File | `/Account/login.php` | High
+3 | File | `/action/docker/open_subshell` | High
+4 | File | `/activation.php` | High
+5 | File | `/admin/?page=categories/view_category` | High
+6 | File | `/admin/add-doctor.php` | High
+7 | File | `/admin/div_data/data` | High
+8 | File | `/admin/edit_manufacturer.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/media_folders` | High
+11 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+12 | File | `/admin/robot.php` | High
+13 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 14 | File | `/admin/users.php` | High
-15 | File | `/admin_route/inc_service_credits.php` | High
-16 | File | `/ajax.php` | Medium
-17 | File | `/api/runscript` | High
-18 | File | `/app/Http/Controllers/ImageController.php` | High
-19 | File | `/application/index/controller/Icon.php` | High
-20 | File | `/AttendanceMonitoring/report/index.php` | High
-21 | File | `/authMonitCallcenter` | High
-22 | File | `/backend/register.php` | High
-23 | File | `/blog/blog.php` | High
-24 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/hd_config.cgi` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Master.php?f=log_employee` | High
-31 | File | `/classes/Master.php?f=save_medicine` | High
-32 | File | `/classes/Master.php?f=save_package` | High
-33 | File | `/classes/SystemSettings.php?f=update_settings` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/College/admin/teacher.php` | High
-36 | File | `/conf/app.conf` | High
-37 | File | `/controllers/add_client.php` | High
-38 | File | `/endpoint/add-task.php` | High
-39 | File | `/endpoint/delete-calorie.php` | High
-40 | File | `/file/upload/1` | High
-41 | File | `/foms/routers/place-order.php` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-44 | File | `/goform/SetIpMacBind` | High
-45 | File | `/goform/VirtualSer` | High
-46 | File | `/goform/wifiSSIDset` | High
-47 | File | `/index.php` | Medium
-48 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
-49 | File | `/Interface/DevManage/VM.php` | High
-50 | ... | ... | ...
+15 | File | `/ajax.php` | Medium
+16 | File | `/ajax.php?action=delete_tenant` | High
+17 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+18 | File | `/AttendanceMonitoring/report/index.php` | High
+19 | File | `/authMonitCallcenter` | High
+20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+21 | File | `/backend/register.php` | High
+22 | File | `/bloodrequest.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/hd_config.cgi` | High
+25 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=log_employee` | High
+29 | File | `/classes/Master.php?f=save_medicine` | High
+30 | File | `/classes/Master.php?f=save_package` | High
+31 | File | `/classes/SystemSettings.php?f=update_settings` | High
+32 | File | `/classes/Users.php?f=save` | High
+33 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+34 | File | `/controllers/add_client.php` | High
+35 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

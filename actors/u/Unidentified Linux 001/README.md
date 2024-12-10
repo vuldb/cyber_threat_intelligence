@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [64.225.72.103](https://vuldb.com/?ip.64.225.72.103) | - | - | High
 2 | [115.28.134.231](https://vuldb.com/?ip.115.28.134.231) | - | - | High
-3 | [198.98.62.160](https://vuldb.com/?ip.198.98.62.160) | - | - | High
+3 | [167.172.21.155](https://vuldb.com/?ip.167.172.21.155) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Deimos:
 
 * [CN](https://vuldb.com/?country.cn)
-* [PK](https://vuldb.com/?country.pk)
 * [US](https://vuldb.com/?country.us)
+* [PK](https://vuldb.com/?country.pk)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -161,7 +161,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,20 +170,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
-2 | File | `/admin/list_resource_icon.php?action=delete` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/order.php` | High
-6 | File | `/admin/request-received-bydonar.php` | High
+2 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/list_resource_icon.php?action=delete` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/order.php` | High
 7 | File | `/admin/singlelogin.php` | High
 8 | File | `/admin/upload.php` | High
 9 | File | `/adminapi/system/crud` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/ajax/check_medicine_name.php` | High
+10 | File | `/ajax/check_medicine_name.php` | High
+11 | File | `/animalsupdate.php` | High
 12 | File | `/api/blade-user/export-user` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/assets/php/upload.php` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
 16 | File | `/auth/session` | High
 17 | File | `/b2b-supermarket/shopping-cart` | High
 18 | File | `/bcms/admin/?page=user/manage_user` | High
@@ -193,31 +193,29 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/kerbynet` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
 24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/CPE` | Low
-26 | File | `/dashboard/message` | High
-27 | File | `/dus/fotos_grafiken/index.php` | High
-28 | File | `/dus/shopliste/index.php` | High
-29 | File | `/dus_en/medieninfo_detail/index.php` | High
-30 | File | `/edit.php` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/fudforum/adm/hlplist.php` | High
-33 | File | `/goform/SetNetControlList` | High
-34 | File | `/goform/WizardHandle` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?c=api` | High
-38 | File | `/index.php?menu=asterisk_cli` | High
-39 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-40 | File | `/Interface/DevManage/VM.php` | High
-41 | File | `/link/` | Low
-42 | File | `/list` | Low
-43 | File | `/login` | Low
-44 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-45 | File | `/LogInOut.php` | High
-46 | File | `/Maintain/sprog_upstatus.php` | High
-47 | ... | ... | ...
+25 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+26 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+27 | File | `/CPE` | Low
+28 | File | `/dashboard/message` | High
+29 | File | `/dus/fotos_grafiken/index.php` | High
+30 | File | `/dus/shopliste/index.php` | High
+31 | File | `/dus_en/medieninfo_detail/index.php` | High
+32 | File | `/edit.php` | Medium
+33 | File | `/fudforum/adm/hlplist.php` | High
+34 | File | `/goform/ate` | Medium
+35 | File | `/goform/setMacFilterCfg` | High
+36 | File | `/goform/SetNetControlList` | High
+37 | File | `/goform/WizardHandle` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php?c=api` | High
+41 | File | `/Interface/DevManage/VM.php` | High
+42 | File | `/link/` | Low
+43 | File | `/list` | Low
+44 | File | `/login` | Low
+45 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,10 +47,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -91,36 +91,38 @@ ID | Type | Indicator | Confidence
 28 | File | `/env` | Low
 29 | File | `/forum/away.php` | High
 30 | File | `/ims/login.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/member.php?action=chgpwdsubmit` | High
-33 | File | `/mgmt/tm/util/bash` | High
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/opt/bin/cli` | Medium
-36 | File | `/p` | Low
-37 | File | `/patient/doctors.php` | High
-38 | File | `/phpinventory/editcategory.php` | High
-39 | File | `/php_action/createUser.php` | High
-40 | File | `/product-list.php` | High
-41 | File | `/public/login.htm` | High
-42 | File | `/server-status` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/tmp` | Low
-45 | File | `/uncpath/` | Medium
-46 | File | `/updown/upload.cgi` | High
-47 | File | `/user/del.php` | High
-48 | File | `/usr/bin/pkexec` | High
-49 | File | `/wbg/core/_includes/authorization.inc.php` | High
-50 | File | `/web_cste/cgi-bin/product.ini` | High
-51 | File | `/wp-admin/admin-ajax.php` | High
-52 | File | `/_next` | Low
-53 | File | `123flashchat.php` | High
-54 | File | `act.php` | Low
-55 | File | `admin.php` | Medium
-56 | File | `admin.php/pay` | High
-57 | File | `admin/bad.php` | High
-58 | ... | ... | ...
+31 | File | `/include/file.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/member.php?action=chgpwdsubmit` | High
+35 | File | `/mgmt/tm/util/bash` | High
+36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+37 | File | `/opt/bin/cli` | Medium
+38 | File | `/p` | Low
+39 | File | `/patient/doctors.php` | High
+40 | File | `/phpinventory/editcategory.php` | High
+41 | File | `/php_action/createUser.php` | High
+42 | File | `/product-list.php` | High
+43 | File | `/public/login.htm` | High
+44 | File | `/server-status` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/tmp` | Low
+47 | File | `/uncpath/` | Medium
+48 | File | `/updown/upload.cgi` | High
+49 | File | `/user/del.php` | High
+50 | File | `/usr/bin/pkexec` | High
+51 | File | `/wbg/core/_includes/authorization.inc.php` | High
+52 | File | `/web_cste/cgi-bin/product.ini` | High
+53 | File | `/wp-admin/admin-ajax.php` | High
+54 | File | `/_next` | Low
+55 | File | `123flashchat.php` | High
+56 | File | `act.php` | Low
+57 | File | `admin.php` | Medium
+58 | File | `admin.php/pay` | High
+59 | File | `admin/bad.php` | High
+60 | ... | ... | ...
 
-There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

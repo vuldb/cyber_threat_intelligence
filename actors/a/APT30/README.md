@@ -44,11 +44,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/application/index/controller/Icon.php` | High
-2 | File | `web/env-production/itop-config/config.php` | High
-3 | File | `zabbix.php?action=dashboard.view&dashboardid=1` | High
+2 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+3 | File | `web/env-production/itop-config/config.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,72 +50,77 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=tickets` | High
-2 | File | `/add-students.php` | High
-3 | File | `/addcategory.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?page=product/manage_product&id=2` | High
-6 | File | `/admin/action/new-feed.php` | High
-7 | File | `/admin/action/update-deworm.php` | High
-8 | File | `/admin/add_postlogin.php` | High
-9 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-10 | File | `/admin/application-bwdates-reports-details.php` | High
-11 | File | `/admin/foreigner-search.php` | High
-12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
-15 | File | `/admin/list_ipAddressPolicy.php` | High
-16 | File | `/admin/login.php` | High
-17 | File | `/admin/mod_room/controller.php?action=add` | High
-18 | File | `/Admin/registration.php` | High
-19 | File | `/admin/system.html` | High
-20 | File | `/admin/template` | High
-21 | File | `/admin/template/update` | High
-22 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-23 | File | `/admin_ping.htm` | High
-24 | File | `/admin_route/dec_service_credits.php` | High
-25 | File | `/ajax.php` | Medium
-26 | File | `/ajax.php?action=delete_deductions` | High
-27 | File | `/ajax.php?action=login` | High
-28 | File | `/ajax.php?action=signup` | High
-29 | File | `/ajax/check_medicine_name.php` | High
-30 | File | `/ajax/getBasicInfo.php` | High
-31 | File | `/api/controllers/admin/app/ComboController.php` | High
-32 | File | `/api/file/multiDownload` | High
-33 | File | `/api/files/recipepictures/` | High
-34 | File | `/api/role` | Medium
-35 | File | `/api/v2/open/tablesInfo` | High
-36 | File | `/app/options.py` | High
-37 | File | `/application/index/controller/Databasesource.php` | High
-38 | File | `/application/index/controller/Screen.php` | High
-39 | File | `/application/pay/controller/Api.php` | High
-40 | File | `/apps/login_auth.php` | High
-41 | File | `/apps/reg_go.php` | High
-42 | File | `/assets/php/upload.php` | High
-43 | File | `/boafrm/formMapDelDevice` | High
-44 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-45 | File | `/catalog/all-products` | High
-46 | File | `/cgi-bin/cstecgi.cgi` | High
-47 | File | `/cgi-bin/myMusic.cgi` | High
-48 | File | `/cgi-bin/nas_sharing.cgi` | High
-49 | File | `/cgi-bin/p1_ftpserver.php` | High
-50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-51 | File | `/classes/Master.php?f=delete_category` | High
-52 | File | `/classes/SystemSettings.php?f=update_settings` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/contact.php` | Medium
-55 | File | `/controllers/add_client.php` | High
-56 | File | `/debuginfo.htm` | High
-57 | File | `/deletefile.php` | High
-58 | File | `/devinfo` | Medium
-59 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-60 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-61 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-62 | File | `/dtale/chart-data/1` | High
-63 | File | `/Employee/apply_leave.php` | High
-64 | File | `/endpoint/add-folder.php` | High
-65 | ... | ... | ...
+2 | File | `/abs.php` | Medium
+3 | File | `/add-students.php` | High
+4 | File | `/addcategory.php` | High
+5 | File | `/addcustcom.php` | High
+6 | File | `/addcustind.php` | High
+7 | File | `/addstock.php` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/?page=product/manage_product&id=2` | High
+10 | File | `/admin/?page=reports` | High
+11 | File | `/admin/action/new-feed.php` | High
+12 | File | `/admin/action/update-deworm.php` | High
+13 | File | `/admin/add_postlogin.php` | High
+14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+15 | File | `/admin/application-bwdates-reports-details.php` | High
+16 | File | `/admin/foreigner-search.php` | High
+17 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+20 | File | `/admin/invoice.php` | High
+21 | File | `/admin/list_ipAddressPolicy.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/mod_room/controller.php?action=add` | High
+24 | File | `/Admin/registration.php` | High
+25 | File | `/admin/search-vehicle.php` | High
+26 | File | `/admin/system.html` | High
+27 | File | `/admin/template` | High
+28 | File | `/admin/template/update` | High
+29 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+30 | File | `/admin_ping.htm` | High
+31 | File | `/admin_route/dec_service_credits.php` | High
+32 | File | `/ajax.php` | Medium
+33 | File | `/ajax.php?action=delete_deductions` | High
+34 | File | `/ajax.php?action=login` | High
+35 | File | `/ajax.php?action=signup` | High
+36 | File | `/ajax/check_medicine_name.php` | High
+37 | File | `/ajax/getBasicInfo.php` | High
+38 | File | `/animalsupdate.php` | High
+39 | File | `/api/controllers/admin/app/ComboController.php` | High
+40 | File | `/api/file/multiDownload` | High
+41 | File | `/api/files/recipepictures/` | High
+42 | File | `/api/role` | Medium
+43 | File | `/api/v2/open/tablesInfo` | High
+44 | File | `/app/options.py` | High
+45 | File | `/application/index/controller/Databasesource.php` | High
+46 | File | `/application/index/controller/Screen.php` | High
+47 | File | `/application/pay/controller/Api.php` | High
+48 | File | `/apps/login_auth.php` | High
+49 | File | `/apps/reg_go.php` | High
+50 | File | `/assets/php/upload.php` | High
+51 | File | `/boafrm/formMapDelDevice` | High
+52 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+53 | File | `/catalog/all-products` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/myMusic.cgi` | High
+56 | File | `/cgi-bin/nas_sharing.cgi` | High
+57 | File | `/cgi-bin/p1_ftpserver.php` | High
+58 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+59 | File | `/classes/Master.php?f=delete_category` | High
+60 | File | `/classes/SystemSettings.php?f=update_settings` | High
+61 | File | `/classes/Users.php?f=save` | High
+62 | File | `/contact.php` | Medium
+63 | File | `/controllers/add_client.php` | High
+64 | File | `/debuginfo.htm` | High
+65 | File | `/deletebird.php` | High
+66 | File | `/deletefile.php` | High
+67 | File | `/devinfo` | Medium
+68 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+69 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+70 | ... | ... | ...
 
-There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 616 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

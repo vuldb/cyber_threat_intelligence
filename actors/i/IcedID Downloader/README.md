@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,13 +73,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,25 +86,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/index.php` | Medium
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/php/ping.php` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/rest/api/latest/projectvalidate/key` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-13 | File | `/SysInfo1.htm` | High
-14 | File | `/sysinfo_json.cgi` | High
-15 | File | `/system/dictData/loadDictItem` | High
-16 | File | `/system/user/modules/mod_users/controller.php` | High
-17 | ... | ... | ...
+1 | File | `/apply.cgi` | Medium
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/mhds/clinic/view_details.php` | High
+4 | File | `/php/ping.php` | High
+5 | File | `/rest/api/latest/projectvalidate/key` | High
+6 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/SysInfo1.htm` | High
+8 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

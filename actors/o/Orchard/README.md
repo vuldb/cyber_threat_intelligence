@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -54,36 +54,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/action/delete-vaccine.php` | High
 4 | File | `/admin/bookings/view_details.php` | High
 5 | File | `/admin/edit.php` | High
-6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/normal-bwdates-reports-details.php` | High
-9 | File | `/admin/profile/save_profile` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/api/v1/chat.getThreadsList` | High
-12 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-13 | File | `/bin/sh` | Low
-14 | File | `/cgi-bin/luci/api/diagnose` | High
-15 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-16 | File | `/cgi-bin/tosei_kikai.php` | High
-17 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-18 | File | `/coders/palm.c` | High
-19 | File | `/collection/all` | High
-20 | File | `/dcim/rack/` | Medium
-21 | File | `/EditEventTypes.php` | High
-22 | File | `/endpoint/add-user.php` | High
-23 | File | `/endpoint/delete-expense.php` | High
-24 | File | `/etc/groups` | Medium
-25 | File | `/file/upload/1` | High
-26 | File | `/formSetPortTr` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/general/system/interface/theme_set/save_image.php` | High
-29 | File | `/goform/exeCommand` | High
-30 | File | `/goform/SetDDNSCfg` | High
-31 | File | `/goform/setsambacfg` | High
-32 | File | `/goform/wlanPrimaryNetwork` | High
-33 | ... | ... | ...
+6 | File | `/admin/home.php?con=add` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/normal-bwdates-reports-details.php` | High
+10 | File | `/admin/profile/save_profile` | High
+11 | File | `/admin/reports.php` | High
+12 | File | `/api/v1/chat.getThreadsList` | High
+13 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+14 | File | `/bin/sh` | Low
+15 | File | `/cgi-bin/luci/api/diagnose` | High
+16 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+17 | File | `/cgi-bin/tosei_kikai.php` | High
+18 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+19 | File | `/coders/palm.c` | High
+20 | File | `/collection/all` | High
+21 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+22 | File | `/dcim/rack/` | Medium
+23 | File | `/EditEventTypes.php` | High
+24 | File | `/endpoint/add-user.php` | High
+25 | File | `/endpoint/delete-expense.php` | High
+26 | File | `/etc/groups` | Medium
+27 | File | `/file/upload/1` | High
+28 | File | `/formSetPortTr` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/general/system/interface/theme_set/save_image.php` | High
+31 | File | `/goform/exeCommand` | High
+32 | File | `/goform/SetDDNSCfg` | High
+33 | File | `/goform/setsambacfg` | High
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -45,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,34 +56,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/DBbackup/` | High
-2 | File | `/admin/students/view_student.php` | High
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/admin/DBbackup/` | High
 3 | File | `/bin/boa` | Medium
 4 | File | `/classes/Master.php?f=delete_schedule` | High
 5 | File | `/controller/OnlinePreviewController.java` | High
-6 | File | `/dashboard/settings` | High
-7 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-8 | File | `/etc/init0.d/S80telnetd.sh` | High
-9 | File | `/etc/srapi/config/system.conf` | High
-10 | File | `/etc/sysconfig/tomcat` | High
+6 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+7 | File | `/etc/init0.d/S80telnetd.sh` | High
+8 | File | `/etc/srapi/config/system.conf` | High
+9 | File | `/etc/sysconfig/tomcat` | High
+10 | File | `/goform/exeCommand` | High
 11 | File | `/goform/SafeEmailFilter` | High
 12 | File | `/goform/setMAC` | High
 13 | File | `/goform/wifiSSIDget` | High
 14 | File | `/hrm/controller/employee.php` | High
 15 | File | `/htmldoc/htmldoc/html.cxx` | High
-16 | File | `/index.php` | Medium
-17 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-18 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-19 | File | `/leave_system/classes/Users.php?f=save` | High
-20 | File | `/net-banking/manage_customers.php` | High
-21 | File | `/novel/bookSetting/list` | High
-22 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-23 | File | `/release-x64/otfccdump+0x6c0a32` | High
-24 | File | `/release-x64/otfccdump+0x703969` | High
-25 | File | `/sentrifugo/index.php/index/getdepartments/format/html` | High
+16 | File | `/includes/create_share.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+19 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+20 | File | `/leave_system/classes/Users.php?f=save` | High
+21 | File | `/net-banking/manage_customers.php` | High
+22 | File | `/novel/bookSetting/list` | High
+23 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+24 | File | `/release-x64/otfccdump+0x6c0a32` | High
+25 | File | `/release-x64/otfccdump+0x703969` | High
 26 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

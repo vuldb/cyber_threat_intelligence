@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,52 +47,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/add_exercises.php` | High
+3 | File | `/?page=reports` | High
+4 | File | `/admin/` | Low
 5 | File | `/admin/add_ikev2.php` | High
-6 | File | `/admin/add_trainers.php` | High
-7 | File | `/admin/admin-profile.php` | High
-8 | File | `/admin/admin_user.php` | High
-9 | File | `/admin/api/theme-edit/` | High
-10 | File | `/admin/borrow_add.php` | High
-11 | File | `/admin/category_row.php` | High
-12 | File | `/admin/communitymanagement.php` | High
-13 | File | `/Admin/createClass.php` | High
-14 | File | `/admin/edit.php` | High
-15 | File | `/admin/emp-profile-avatar.php` | High
-16 | File | `/admin/index.php?page=categories` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/project/update/2` | High
-19 | File | `/admin/request-received-bydonar.php` | High
-20 | File | `/admin/students/manage.php` | High
-21 | File | `/admin/success_story.php` | High
-22 | File | `/api/v2/cli/commands` | High
-23 | File | `/boaform/device_reset.cgi` | High
-24 | File | `/boaform/wlan_basic_set.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/course/filterRecords/` | High
-30 | File | `/cwms/classes/Master.php?f=save_contact` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/download/image` | High
-33 | File | `/edituser.php` | High
-34 | File | `/Employer/EditProfile.php` | High
-35 | File | `/Employer/ManageJob.php` | High
-36 | File | `/firewall/policy/` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/FuguHub/cmsdocs/` | High
-39 | File | `/goform/SetSysTimeCfg` | High
-40 | File | `/hedwig.cgi` | Medium
-41 | File | `/ims/login.php` | High
-42 | File | `/inc/jquery/uploadify/uploadify.php` | High
-43 | File | `/includes/common/require_access_recovery.php` | High
-44 | File | `/index.jsp#settings` | High
-45 | File | `/index.php` | Medium
-46 | ... | ... | ...
+6 | File | `/admin/admin-profile.php` | High
+7 | File | `/admin/admin_user.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/admin/category_row.php` | High
+10 | File | `/admin/communitymanagement.php` | High
+11 | File | `/admin/edit.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/admin/index.php?page=categories` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/Admin/login.php` | High
+16 | File | `/admin/project/update/2` | High
+17 | File | `/admin/request-received-bydonar.php` | High
+18 | File | `/admin/students/manage.php` | High
+19 | File | `/admin/success_story.php` | High
+20 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+21 | File | `/api/v2/cli/commands` | High
+22 | File | `/boaform/device_reset.cgi` | High
+23 | File | `/boaform/wlan_basic_set.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/course/filterRecords/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/download/image` | High
+31 | File | `/edit1.php` | Medium
+32 | File | `/Employee/edit-profile.php` | High
+33 | File | `/Employer/EditProfile.php` | High
+34 | File | `/Employer/ManageJob.php` | High
+35 | File | `/firewall/policy/` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/FuguHub/cmsdocs/` | High
+38 | File | `/getcfg.php` | Medium
+39 | File | `/goform/formEasySetTimezone` | High
+40 | File | `/goform/SetSysTimeCfg` | High
+41 | File | `/hedwig.cgi` | Medium
+42 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

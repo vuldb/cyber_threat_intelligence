@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | vds1223468.hosted-by-itldc.com | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,7 +64,8 @@ ID | Type | Indicator | Confidence
 15 | File | `admin\posts\view_post.php` | High
 16 | File | `article.php` | Medium
 17 | File | `articles.php` | Medium
-18 | ... | ... | ...
+18 | File | `bb-hist.sh/bb-histlog.sh/bb-hostsvc.sh/bb-rep.sh/bb-replog.sh/bb-ack.sh` | High
+19 | ... | ... | ...
 
 There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -73,6 +74,7 @@ There are 151 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2023/01/06/lummac2-stealer-a-potent-threat-to-crypto-users/
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://de.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 * https://perception-point.io/blog/behind-the-attack-lumma-malware/
 * https://www.silentpush.com/blog/lummac2

@@ -38,10 +38,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,66 +52,65 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/addbill.php` | Medium
 3 | File | `/admin/?page=user/manage_user&id=3` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/api/admin/v2_products` | High
-6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/bwdates-report-details.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/edit_subject.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/index.php?page=manage_product` | High
-12 | File | `/admin/index3.php` | High
-13 | File | `/admin/manage-ambulance.php` | High
-14 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-15 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-16 | File | `/ajax.php?action=read_msg` | High
-17 | File | `/ajax/get_patient_history.php` | High
-18 | File | `/api/baskets/{name}` | High
-19 | File | `/api/browserextension/UpdatePassword/` | High
-20 | File | `/api/cron/settings/setJob/` | High
-21 | File | `/api/deploy/upload` | High
-22 | File | `/api/deploy/upload /api/database/upload` | High
-23 | File | `/api/sys/set_passwd` | High
-24 | File | `/article/Content/index?class_id` | High
-25 | File | `/authMonitCallcenter` | High
-26 | File | `/bin/httpd` | Medium
-27 | File | `/cas/logout` | Medium
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/cgi-bin/p1_ftpserver.php` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/change_password.php` | High
-34 | File | `/classes/Master.php` | High
-35 | File | `/classes/Master.php?f=delete_category` | High
-36 | File | `/classes/SystemSettings.php?f=update_settings` | High
-37 | File | `/common/info.cgi` | High
-38 | File | `/dashboard/Cinvoice/manage_invoice` | High
-39 | File | `/dashboard/message` | High
-40 | File | `/dcim/console-server-ports/{id}/edit/` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/Default/v6.53/CodeCheckerService@massStoreRun` | High
-43 | File | `/DXR.axd` | Medium
-44 | File | `/edit_account.php` | High
-45 | File | `/Electron/download` | High
-46 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-47 | File | `/file_manager/admin/save_user.php` | High
-48 | File | `/foms/routers/place-order.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/fos/admin/ajax.php?action=login` | High
-51 | File | `/goform/setsambacfg` | High
-52 | File | `/home/sendBroadcast` | High
-53 | File | `/jurusanmatkul/data` | High
-54 | File | `/kelas/data` | Medium
-55 | File | `/kelasdosen/data` | High
-56 | File | `/load.php` | Medium
-57 | File | `/Login/CheckLogin` | High
-58 | File | `/lua/set-passwd.lua` | High
-59 | File | `/mahasiswa/data` | High
-60 | File | `/manage_receiving.php` | High
-61 | ... | ... | ...
+4 | File | `/admin/budget/manage_budget.php` | High
+5 | File | `/admin/bwdates-report-details.php` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/edit_subject.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/home.php` | High
+10 | File | `/admin/home.php?con=add` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php?page=manage_product` | High
+13 | File | `/admin/index3.php` | High
+14 | File | `/admin/manage-ambulance.php` | High
+15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+16 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+17 | File | `/admin/search-vehicle.php` | High
+18 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+19 | File | `/ajax.php?action=read_msg` | High
+20 | File | `/ajax/get_patient_history.php` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/cron/settings/setJob/` | High
+23 | File | `/api/deploy/upload` | High
+24 | File | `/api/deploy/upload /api/database/upload` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/article/Content/index?class_id` | High
+27 | File | `/authMonitCallcenter` | High
+28 | File | `/bin/httpd` | Medium
+29 | File | `/cas/logout` | Medium
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/p1_ftpserver.php` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/change_password.php` | High
+36 | File | `/classes/Master.php` | High
+37 | File | `/classes/Master.php?f=delete_category` | High
+38 | File | `/classes/SystemSettings.php?f=update_settings` | High
+39 | File | `/common/info.cgi` | High
+40 | File | `/dashboard/Cinvoice/manage_invoice` | High
+41 | File | `/dashboard/message` | High
+42 | File | `/dcim/console-server-ports/{id}/edit/` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/Default/v6.53/CodeCheckerService@massStoreRun` | High
+45 | File | `/DXR.axd` | Medium
+46 | File | `/edit_account.php` | High
+47 | File | `/Electron/download` | High
+48 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+49 | File | `/file_manager/admin/save_user.php` | High
+50 | File | `/foms/routers/place-order.php` | High
+51 | File | `/forgot.php` | Medium
+52 | File | `/forum/away.php` | High
+53 | File | `/fos/admin/ajax.php?action=login` | High
+54 | File | `/goform/setsambacfg` | High
+55 | File | `/home/sendBroadcast` | High
+56 | File | `/index.php?page=tenants` | High
+57 | File | `/jurusanmatkul/data` | High
+58 | File | `/kelas/data` | Medium
+59 | File | `/kelasdosen/data` | High
+60 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

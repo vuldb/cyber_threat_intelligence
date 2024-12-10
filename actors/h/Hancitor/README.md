@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -77,52 +77,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/general.cgi` | High
-3 | File | `/admin/reminders/manage_reminder.php` | High
-4 | File | `/API/info` | Medium
-5 | File | `/app/options.py` | High
-6 | File | `/CCMAdmin/serverlist.asp` | High
-7 | File | `/cgi/get_param.cgi` | High
-8 | File | `/csms/admin/inquiries/view_details.php` | High
-9 | File | `/cstecgi.cgi` | Medium
-10 | File | `/debuginfo.htm` | High
-11 | File | `/Employee/edit-profile.php` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/forms/doLogin` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/h/autoSaveDraft` | High
-16 | File | `/home/search` | Medium
-17 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/install/index.php` | High
-20 | File | `/lan.asp` | Medium
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/messageboard/view.php` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/novel/bookComment/list` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/rest/api/latest/projectvalidate/key` | High
-28 | File | `/rom-0` | Low
-29 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-30 | File | `/server-status` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-33 | File | `/textpattern/index.php` | High
-34 | File | `/upfile.cgi` | Medium
-35 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
-36 | File | `/wordpress/wp-admin/admin.php` | High
-37 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-38 | File | `account_footer.php` | High
-39 | File | `adclick.php` | Medium
-40 | File | `add_edit_cat.asp` | High
-41 | File | `add_edit_user.asp` | High
-42 | File | `adm.cgi` | Low
-43 | File | `admin.cropcanvas.php` | High
-44 | ... | ... | ...
+1 | File | `.git/` | Low
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/profile.php` | High
+5 | File | `/admin/reminders/manage_reminder.php` | High
+6 | File | `/API/info` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi/get_param.cgi` | High
+11 | File | `/csms/admin/inquiries/view_details.php` | High
+12 | File | `/cstecgi.cgi` | Medium
+13 | File | `/debuginfo.htm` | High
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/Employee/edit-profile.php` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forms/doLogin` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/home/search` | Medium
+21 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
+22 | File | `/include/chart_generator.php` | High
+23 | File | `/install/index.php` | High
+24 | File | `/lan.asp` | Medium
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/messageboard/view.php` | High
+27 | File | `/mhds/clinic/view_details.php` | High
+28 | File | `/newProject.php` | High
+29 | File | `/novel/bookComment/list` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/rest/api/latest/projectvalidate/key` | High
+33 | File | `/rom-0` | Low
+34 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+35 | File | `/server-status` | High
+36 | File | `/ServletAPI/accounts/login` | High
+37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+38 | File | `/textpattern/index.php` | High
+39 | File | `/upfile.cgi` | Medium
+40 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
+41 | File | `/wordpress/wp-admin/admin.php` | High
+42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+43 | File | `account_footer.php` | High
+44 | File | `adclick.php` | Medium
+45 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -51,62 +51,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/account/details.php` | High
-4 | File | `/admin/academic/studenview_left.php` | High
-5 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
-6 | File | `/admin/contenttemp` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/syslog` | High
-10 | File | `/admin/user/manage_user.php` | High
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/account/details.php` | High
+3 | File | `/admin/academic/studenview_left.php` | High
+4 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
+5 | File | `/admin/contenttemp` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/syslog` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/admin/view-card-detail.php` | High
 11 | File | `/advance_push/public/login` | High
 12 | File | `/anony/mjpg.cgi` | High
 13 | File | `/app/uploading/upload-mp3.php` | High
 14 | File | `/application/index/controller/Databasesource.php` | High
 15 | File | `/application/index/controller/File.php` | High
 16 | File | `/application/plugins/controller/Upload.php` | High
-17 | File | `/assets/components/gallery/connector.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/master.php?f=delete_order` | High
-21 | File | `/course/filterRecords/` | High
-22 | File | `/ctcprotocol/Protocol` | High
-23 | File | `/device/device=140/tab=wifi/view` | High
-24 | File | `/download/image` | High
-25 | File | `/endpoint/update-bookmark.php` | High
-26 | File | `/etc/sudoers` | Medium
-27 | File | `/ext/collect/find_text.do` | High
-28 | File | `/Forms/` | Low
-29 | File | `/forum/away.php` | High
-30 | File | `/framework/modules/users/models/user.php` | High
-31 | File | `/ghost/preview` | High
-32 | File | `/HNAP1/SetAccessPointMode` | High
-33 | File | `/index.php` | Medium
-34 | File | `/mcategory.php` | High
-35 | File | `/member/picture/album` | High
-36 | File | `/mysql/api/diags.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/ndmComponents.js` | High
-39 | File | `/oauth/idp/.well-known/openid-configuration` | High
-40 | File | `/out.php` | Medium
-41 | File | `/phpcollab/users/edituser.php` | High
-42 | File | `/plain` | Low
-43 | File | `/products/details.asp` | High
-44 | File | `/product_list.php` | High
-45 | File | `/public/login.htm` | High
-46 | File | `/replication` | Medium
-47 | File | `/secserver` | Medium
-48 | File | `/service/upload` | High
-49 | File | `/services/details.asp` | High
-50 | File | `/showfile.php` | High
-51 | File | `/spip.php` | Medium
-52 | File | `/trx_addons/v2/get/sc_layout` | High
-53 | File | `/uncpath/` | Medium
-54 | ... | ... | ...
+17 | File | `/apply.cgi` | Medium
+18 | File | `/assets/components/gallery/connector.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/master.php?f=delete_order` | High
+22 | File | `/course/filterRecords/` | High
+23 | File | `/ctcprotocol/Protocol` | High
+24 | File | `/device/device=140/tab=wifi/view` | High
+25 | File | `/download/image` | High
+26 | File | `/endpoint/update-bookmark.php` | High
+27 | File | `/etc/sudoers` | Medium
+28 | File | `/ext/collect/find_text.do` | High
+29 | File | `/filemanager/upload` | High
+30 | File | `/Forms/` | Low
+31 | File | `/forum/away.php` | High
+32 | File | `/framework/modules/users/models/user.php` | High
+33 | File | `/ghost/preview` | High
+34 | File | `/HNAP1/SetAccessPointMode` | High
+35 | File | `/index.php` | Medium
+36 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+37 | File | `/load.php` | Medium
+38 | File | `/mcategory.php` | High
+39 | File | `/member/picture/album` | High
+40 | File | `/mysql/api/diags.php` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+42 | File | `/ndmComponents.js` | High
+43 | File | `/oauth/idp/.well-known/openid-configuration` | High
+44 | File | `/out.php` | Medium
+45 | File | `/phpcollab/users/edituser.php` | High
+46 | File | `/plain` | Low
+47 | File | `/products/details.asp` | High
+48 | File | `/product_list.php` | High
+49 | File | `/public/login.htm` | High
+50 | File | `/replication` | Medium
+51 | File | `/secserver` | Medium
+52 | File | `/service/upload` | High
+53 | File | `/services/details.asp` | High
+54 | File | `/showfile.php` | High
+55 | File | `/spip.php` | Medium
+56 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 488 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -585,7 +585,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -597,27 +597,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add_ikev2.php` | High
 3 | File | `/admin/category_save.php` | High
 4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/admin/system.html` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/changePassword` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=delete_category` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/delIpMacBind` | High
-23 | ... | ... | ...
+5 | File | `/admin/foreigner-search.php` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/manage_model.php` | High
+8 | File | `/admin/manage_user.php` | High
+9 | File | `/admin/subject.php` | High
+10 | File | `/admin/system.html` | High
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/changePassword` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+18 | File | `/control/register_case.php` | High
+19 | File | `/edit-subject.php` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/foms/routers/place-order.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SetLEDCfg` | High
+25 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

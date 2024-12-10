@@ -49,35 +49,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/addNotifyServlet` | High
 4 | File | `/admin.php/pic/admin/pic/hy` | High
 5 | File | `/admin/?page=reports/stockin` | High
-6 | File | `/admin/inbox.php&action=read` | High
-7 | File | `/admin/operations/packages.php` | High
-8 | File | `/admin/orders/update_status.php` | High
-9 | File | `/admin/pages/sections_save.php` | High
-10 | File | `/admin/settings/save.php` | High
-11 | File | `/admin/uesrs.php&action=display&value=Show` | High
-12 | File | `/admin/vote_edit.php` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/classes/Master.php?f=save_inquiry` | High
-17 | File | `/collection/all` | High
-18 | File | `/config,admin.jsp` | High
-19 | File | `/config/list` | Medium
-20 | File | `/conversation/upload` | High
-21 | File | `/core/config-revisions` | High
-22 | File | `/coreframe/app/guestbook/myissue.php` | High
-23 | File | `/dede/co_do.php` | High
-24 | File | `/detailed.php` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/endpoint/Add.php` | High
-27 | File | `/endpoint/delete.php` | High
-28 | File | `/etc/init.d/sshd_service` | High
-29 | File | `/fuel/sitevariables/delete/4` | High
-30 | File | `/goform/saveParentControlInfo` | High
-31 | File | `/goform/setBlackRule` | High
-32 | ... | ... | ...
+6 | File | `/admin/blood/update/B+.php` | High
+7 | File | `/admin/inbox.php&action=read` | High
+8 | File | `/admin/operations/packages.php` | High
+9 | File | `/admin/orders/update_status.php` | High
+10 | File | `/admin/overtime_add.php` | High
+11 | File | `/admin/pages/sections_save.php` | High
+12 | File | `/admin/settings/save.php` | High
+13 | File | `/admin/uesrs.php&action=display&value=Show` | High
+14 | File | `/admin/vote_edit.php` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/classes/Master.php?f=save_inquiry` | High
+19 | File | `/collection/all` | High
+20 | File | `/config,admin.jsp` | High
+21 | File | `/config/list` | Medium
+22 | File | `/conversation/upload` | High
+23 | File | `/core/config-revisions` | High
+24 | File | `/coreframe/app/guestbook/myissue.php` | High
+25 | File | `/dede/co_do.php` | High
+26 | File | `/detailed.php` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/endpoint/Add.php` | High
+29 | File | `/endpoint/delete.php` | High
+30 | File | `/etc/init.d/sshd_service` | High
+31 | File | `/fuel/sitevariables/delete/4` | High
+32 | File | `/goform/formSetQoS` | High
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

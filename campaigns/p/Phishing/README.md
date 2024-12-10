@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -97,8 +97,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -115,54 +115,63 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=musics/manage_music` | High
 5 | File | `/admin/add_ikev2.php` | High
 6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/admin/category_save.php` | High
-8 | File | `/Admin/changepassword.php` | High
-9 | File | `/admin/cms_content.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/general-setting` | High
-12 | File | `/admin/inquiries/view_inquiry.php` | High
-13 | File | `/admin/list_ipAddressPolicy.php` | High
-14 | File | `/admin/manage_model.php` | High
-15 | File | `/admin/manage_user.php` | High
-16 | File | `/admin/order.php` | High
-17 | File | `/admin/pages/` | High
-18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-19 | File | `/admin/service` | High
-20 | File | `/admin/subject.php` | High
-21 | File | `/admin/users.php` | High
-22 | File | `/admins` | Low
-23 | File | `/ajax/getBasicInfo.php` | High
-24 | File | `/api/v1/custom_component` | High
-25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-26 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-27 | File | `/catalog/all-products` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/classes/Master.php?f=delete_category` | High
-33 | File | `/classes/Master.php?f=save_medicine` | High
-34 | File | `/classes/SystemSettings.php?f=update_settings` | High
-35 | File | `/classes/Users.php?f=delete` | High
-36 | File | `/clientdetails/admin/regester.php` | High
-37 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-38 | File | `/downloadFile.php` | High
-39 | File | `/dtale/chart-data/1` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/edit-subject.php` | High
-42 | File | `/endpoint/add-folder.php` | High
-43 | File | `/endpoint/add-user.php` | High
-44 | File | `/etc/postfix/sender_login` | High
-45 | File | `/etc/shadow` | Medium
-46 | File | `/farm/product.php` | High
-47 | File | `/file_manager/login.php` | High
-48 | File | `/film-rating.php` | High
-49 | File | `/foms/routers/place-order.php` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/goform/SetIpMacBind` | High
-52 | ... | ... | ...
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+9 | File | `/admin/book-details.php` | High
+10 | File | `/admin/bwdates-report-details.php` | High
+11 | File | `/admin/category_save.php` | High
+12 | File | `/admin/change-image.php` | High
+13 | File | `/admin/cmsVote/save` | High
+14 | File | `/admin/cms_content.php` | High
+15 | File | `/admin/emp-profile-avatar.php` | High
+16 | File | `/admin/forms/option_lists/edit.php` | High
+17 | File | `/admin/index2.html` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/list_ipAddressPolicy.php` | High
+20 | File | `/admin/manage_model.php` | High
+21 | File | `/admin/manage_user.php` | High
+22 | File | `/admin/operations/expense_category.php` | High
+23 | File | `/admin/order.php` | High
+24 | File | `/admin/orders/view_order.php` | High
+25 | File | `/admin/pages/` | High
+26 | File | `/admin/product/manage_product.php` | High
+27 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+28 | File | `/admin/sou.php` | High
+29 | File | `/admin/subject.php` | High
+30 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+31 | File | `/admin/users.php` | High
+32 | File | `/admins` | Low
+33 | File | `/ajax/getBasicInfo.php` | High
+34 | File | `/backend/admin/his_admin_add_vendor.php` | High
+35 | File | `/book_list.php` | High
+36 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/ExportSettings.sh` | High
+39 | File | `/cgi-bin/nas_sharing.cgi` | High
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_category` | High
+43 | File | `/classes/Master.php?f=save_medicine` | High
+44 | File | `/classes/SystemSettings.php?f=update_settings` | High
+45 | File | `/classes/Users.php?f=delete` | High
+46 | File | `/clientdetails/admin/regester.php` | High
+47 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+48 | File | `/downloadFile.php` | High
+49 | File | `/dtale/chart-data/1` | High
+50 | File | `/DXR.axd` | Medium
+51 | File | `/edit-subject.php` | High
+52 | File | `/editar-cliente.php` | High
+53 | File | `/editar-produto.php` | High
+54 | File | `/endpoint/add-folder.php` | High
+55 | File | `/endpoint/add-task.php` | High
+56 | File | `/endpoint/add-user.php` | High
+57 | File | `/etc/postfix/sender_login` | High
+58 | File | `/etc/shadow` | Medium
+59 | File | `/etc/shadow.sample` | High
+60 | File | `/farm/product.php` | High
+61 | ... | ... | ...
 
-There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

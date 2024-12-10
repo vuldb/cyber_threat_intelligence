@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kenya Unknown:
 
 * [KE](https://vuldb.com/?country.ke)
-* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -221,50 +220,6 @@ ID | IP address | Hostname | Campaign | Confidence
 202 | ... | ... | ... | ...
 
 There are 805 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Kenya Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
-
-There are 20 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Kenya Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/students/manage.php` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/balance/service/list` | High
-7 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/goform/form2Wan.cgi` | High
-10 | File | `/goform/WifiGuestSet` | High
-11 | File | `/HNAP1/SetClientInfo` | High
-12 | File | `/includes/rrdtool.inc.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/management/users/register` | High
-15 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-16 | File | `/php-sms/classes/Master.php` | High
-17 | File | `/php-sms/classes/SystemSettings.php` | High
-18 | File | `/plugin/getList` | High
-19 | File | `/queuing/login.php` | High
-20 | ... | ... | ...
-
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

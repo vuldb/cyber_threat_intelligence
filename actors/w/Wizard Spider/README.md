@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Wizard Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wizard Spider:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -107,11 +107,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,51 +118,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/admin-update-employee.php` | High
-6 | File | `/admin/moduleinterface.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/clusters/local/topics/{topic}/messages` | High
-9 | File | `/api/gen/clients/{language}` | High
-10 | File | `/API/info` | Medium
-11 | File | `/app/options.py` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-14 | File | `/cgi-bin/tosei_kikai.php` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/ci_spms/admin/category` | High
-17 | File | `/ci_spms/admin/search/searching/` | High
-18 | File | `/classes/Master.php?f=delete_appointment` | High
-19 | File | `/classes/Master.php?f=delete_train` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/dashboard/menu-list.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/ebics-server/ebics.aspx` | High
-26 | File | `/EXCU_SHELL` | Medium
-27 | File | `/ffos/classes/Master.php?f=save_category` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/modifyDhcpRule` | High
-30 | File | `/goform/ModifyPppAuthWhiteMac` | High
-31 | File | `/goform/net\_Web\_get_value` | High
-32 | File | `/goform/setStaOffline` | High
-33 | File | `/goforms/rlminfo` | High
-34 | File | `/GponForm/usb_restore_Form?script/` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/HNAP1` | Low
-38 | File | `/HNAP1/SetClientInfo` | High
-39 | File | `/index.php` | Medium
-40 | File | `/Items/*/RemoteImages/Download` | High
-41 | File | `/manage/IPSetup.php` | High
-42 | File | `/members/view_member.php` | High
-43 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin-update-employee.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/api/clusters/local/topics/{topic}/messages` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/API/info` | Medium
+10 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/detailed.php` | High
+14 | File | `/dist/index.js` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/ebics-server/ebics.aspx` | High
+17 | File | `/EXCU_SHELL` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/form2systime.cgi` | High
+20 | File | `/goform/modifyDhcpRule` | High
+21 | File | `/goform/ModifyPppAuthWhiteMac` | High
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/goform/setStaOffline` | High
+24 | File | `/goform/WizardHandle` | High
+25 | File | `/GponForm/usb_restore_Form?script/` | High
+26 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

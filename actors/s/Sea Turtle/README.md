@@ -49,30 +49,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/app/admin/nat/item-add-submit.php` | High
-3 | File | `/bin/login` | Medium
-4 | File | `/catalog` | Medium
-5 | File | `/category.php` | High
-6 | File | `/cgi-bin/delete_CA` | High
-7 | File | `/chart` | Low
-8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-9 | File | `/download` | Medium
-10 | File | `/get_getnetworkconf.cgi` | High
-11 | File | `/GponForm/device_Form?script/` | High
-12 | File | `/includes/rrdtool.inc.php` | High
-13 | File | `/Main_AdmStatus_Content.asp` | High
-14 | File | `/NAGErrors` | Medium
-15 | File | `/pages.php` | Medium
-16 | File | `/rest/project-templates/1.0/createshared` | High
-17 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-18 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
-19 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-20 | File | `/Search-Results` | High
-21 | File | `/see_more_details.php` | High
-22 | File | `/sgms/TreeControl` | High
-23 | ... | ... | ...
+2 | File | `/admin/index.php` | High
+3 | File | `/app/admin/nat/item-add-submit.php` | High
+4 | File | `/bin/login` | Medium
+5 | File | `/catalog` | Medium
+6 | File | `/category.php` | High
+7 | File | `/cgi-bin/delete_CA` | High
+8 | File | `/chart` | Low
+9 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+10 | File | `/download` | Medium
+11 | File | `/get_getnetworkconf.cgi` | High
+12 | File | `/GponForm/device_Form?script/` | High
+13 | File | `/includes/rrdtool.inc.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/Main_AdmStatus_Content.asp` | High
+16 | File | `/NAGErrors` | Medium
+17 | File | `/pages.php` | Medium
+18 | File | `/rest/project-templates/1.0/createshared` | High
+19 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+20 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
+21 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+22 | File | `/Search-Results` | High
+23 | File | `/see_more_details.php` | High
+24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

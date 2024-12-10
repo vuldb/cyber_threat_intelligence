@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [18.221.150.202](https://vuldb.com/?ip.18.221.150.202) | ec2-18-221-150-202.us-east-2.compute.amazonaws.com | - | Medium
-2 | [93.177.75.180](https://vuldb.com/?ip.93.177.75.180) | - | - | High
-3 | [95.211.104.253](https://vuldb.com/?ip.95.211.104.253) | v134.ce06.ams-01.nl.leaseweb.net | - | High
-4 | ... | ... | ... | ...
+1 | [13.53.124.246](https://vuldb.com/?ip.13.53.124.246) | ec2-13-53-124-246.eu-north-1.compute.amazonaws.com | - | Medium
+2 | [18.134.0.66](https://vuldb.com/?ip.18.134.0.66) | ec2-18-134-0-66.eu-west-2.compute.amazonaws.com | - | Medium
+3 | [18.221.150.202](https://vuldb.com/?ip.18.221.150.202) | ec2-18-221-150-202.us-east-2.compute.amazonaws.com | - | Medium
+4 | [45.76.65.42](https://vuldb.com/?ip.45.76.65.42) | 45.76.65.42.vultrusercontent.com | - | Medium
+5 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -55,38 +56,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/backend/system.html` | High
 6 | File | `/goform/QuickIndex` | High
 7 | File | `/include/stat/stat.php` | High
-8 | File | `/out.php` | Medium
-9 | File | `/redpass.cgi` | Medium
-10 | File | `/uncpath/` | Medium
-11 | File | `/user/profile` | High
-12 | File | `/user/zs_elite.php` | High
-13 | File | `/usr/bin/at` | Medium
-14 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | File | `5.2.9\syscrb.exe` | High
-17 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-18 | File | `admin/review.php` | High
-19 | File | `admin_add.php` | High
-20 | File | `apps/app_article/controller/rating.php` | High
-21 | File | `attachment.do` | High
-22 | File | `auth2-gss.c` | Medium
-23 | File | `backupmgt/getAlias.php` | High
-24 | File | `board.php` | Medium
-25 | File | `books.php` | Medium
-26 | File | `buy.php` | Low
-27 | File | `calendar.php` | Medium
-28 | File | `cart.php` | Medium
-29 | File | `cat.asp` | Low
-30 | File | `category.cfm` | Medium
-31 | File | `category.php` | Medium
-32 | ... | ... | ...
+8 | File | `/manage/IPSetup.php` | High
+9 | File | `/out.php` | Medium
+10 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+11 | File | `/redpass.cgi` | Medium
+12 | File | `/shop.php` | Medium
+13 | File | `/uncpath/` | Medium
+14 | File | `/user/profile` | High
+15 | File | `/user/zs_elite.php` | High
+16 | File | `/usr/bin/at` | Medium
+17 | File | `/var/log/nginx` | High
+18 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `5.2.9\syscrb.exe` | High
+21 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+22 | File | `admin.php3` | Medium
+23 | File | `admin/review.php` | High
+24 | File | `admincgi` | Medium
+25 | File | `admin_add.php` | High
+26 | File | `apps/app_article/controller/rating.php` | High
+27 | File | `attachment.do` | High
+28 | File | `auth2-gss.c` | Medium
+29 | File | `backupmgt/getAlias.php` | High
+30 | File | `board.php` | Medium
+31 | File | `books.php` | Medium
+32 | File | `buy.php` | Low
+33 | File | `calendar.php` | Medium
+34 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://censys.com/analysis-of-fox-kitten-infrastructure-reveals-unique-host-patterns-and-potentially-new-iocs/
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Iran/ClearSky-Fox-Kitten-Campaign-v1.pdf
 
 ## Literature

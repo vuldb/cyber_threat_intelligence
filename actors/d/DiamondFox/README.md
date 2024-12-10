@@ -41,11 +41,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,31 +73,31 @@ ID | Type | Indicator | Confidence
 18 | File | `/forum/away.php` | High
 19 | File | `/goform/telnet` | High
 20 | File | `/HNAP1` | Low
-21 | File | `/menu.html` | Medium
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/ptippage.cgi` | High
-25 | File | `/rom-0` | Low
-26 | File | `/slideeditor.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/sysmanage/updatelib.php` | High
-29 | File | `/tmp/out` | Medium
-30 | File | `/tmp/phpglibccheck` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/upload` | Low
-33 | File | `/users.php` | Medium
-34 | File | `/usr/sbin/httpd` | High
-35 | File | `/var/tmp/sess_*` | High
-36 | File | `/view/student_exam_mark_update_form.php` | High
-37 | File | `/webconsole/APIController` | High
-38 | File | `/wordpress/wp-admin/admin.php` | High
-39 | File | `action.php` | Medium
-40 | File | `actionphp/download.File.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `add_comment.php` | High
+21 | File | `/index.php?menu=asterisk_cli` | High
+22 | File | `/manage_block.php` | High
+23 | File | `/menu.html` | Medium
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/ptippage.cgi` | High
+27 | File | `/rom-0` | Low
+28 | File | `/slideeditor.php` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/sysmanage/updatelib.php` | High
+31 | File | `/tmp/out` | Medium
+32 | File | `/tmp/phpglibccheck` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/update-image1.php` | High
+35 | File | `/upload` | Low
+36 | File | `/users.php` | Medium
+37 | File | `/usr/sbin/httpd` | High
+38 | File | `/v1/operador/` | High
+39 | File | `/var/tmp/sess_*` | High
+40 | File | `/view/student_exam_mark_update_form.php` | High
+41 | File | `/webconsole/APIController` | High
+42 | File | `/wordpress/wp-admin/admin.php` | High
 43 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -99,18 +99,18 @@ ID | Type | Indicator | Confidence
 33 | File | `/HNAP1` | Low
 34 | File | `/inc/parser/xhtml.php` | High
 35 | File | `/index.php?menu=asterisk_cli` | High
-36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-37 | File | `/lists/index.php` | High
-38 | File | `/login.html` | Medium
-39 | File | `/medical/inventories.php` | High
-40 | File | `/mgmt/tm/util/bash` | High
-41 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-42 | File | `/modules/projects/vw_files.php` | High
-43 | File | `/new` | Low
-44 | File | `/plain` | Low
+36 | File | `/index/ajax/lang` | High
+37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+38 | File | `/lists/index.php` | High
+39 | File | `/login.html` | Medium
+40 | File | `/medical/inventories.php` | High
+41 | File | `/mgmt/tm/util/bash` | High
+42 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+43 | File | `/modules/projects/vw_files.php` | High
+44 | File | `/new` | Low
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -75,17 +75,17 @@ ID | Type | Indicator | Confidence
 14 | File | `/scripts/iisadmin/bdir.htr` | High
 15 | File | `/usr/bin/pkexec` | High
 16 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-17 | File | `add.php` | Low
-18 | File | `admin.cgi/config.cgi` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin.guestbook.php` | High
-21 | File | `admin/auth.php` | High
-22 | File | `admin/backupdb.php` | High
-23 | File | `admin/login.asp` | High
-24 | File | `admin/preview.php` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add.php` | Low
+19 | File | `admin.cgi/config.cgi` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/admin.guestbook.php` | High
+22 | File | `admin/auth.php` | High
+23 | File | `admin/backupdb.php` | High
+24 | File | `admin/login.asp` | High
 25 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

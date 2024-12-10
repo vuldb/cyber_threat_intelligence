@@ -55,26 +55,27 @@ ID | Type | Indicator | Confidence
 2 | File | `.htaccess` | Medium
 3 | File | `.kdbgrc` | Low
 4 | File | `/action/import_cert_file/` | High
-5 | File | `/admin/assign/assign.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/user/password/sent-reset-email` | High
-10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-13 | File | `/auth` | Low
-14 | File | `/balance/service/list` | High
-15 | File | `/boaform/wlan_basic_set.cgi` | High
-16 | File | `/config/getuser` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/file/upload/1` | High
-19 | File | `/goform/systemlog?cmd=set` | High
-20 | File | `/include/file.php` | High
-21 | File | `/include/helpers/upload.helper.php` | High
-22 | ... | ... | ...
+5 | File | `/admin/admin_content_tag.php?action=save_content` | High
+6 | File | `/admin/assign/assign.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/user/password/sent-reset-email` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/api /v3/auth` | High
+13 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+14 | File | `/auth` | Low
+15 | File | `/balance/service/list` | High
+16 | File | `/boaform/wlan_basic_set.cgi` | High
+17 | File | `/config/getuser` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/file/upload/1` | High
+20 | File | `/goform/systemlog?cmd=set` | High
+21 | File | `/include/file.php` | High
+22 | File | `/include/helpers/upload.helper.php` | High
+23 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

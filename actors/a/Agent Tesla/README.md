@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,10 +70,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,53 +81,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/clientdetails/admin/regester.php` | High
-10 | File | `/csms/?page=contact_us` | High
-11 | File | `/etc/ajenti/config.yml` | High
-12 | File | `/etc/gsissh/sshd_config` | High
-13 | File | `/farm/product.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/telnet` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/ptippage.cgi` | High
-19 | File | `/rom-0` | Low
-20 | File | `/tmp/out` | Medium
-21 | File | `/tmp/phpglibccheck` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/var/tmp/sess_*` | High
-25 | File | `action.php` | Medium
-26 | File | `actionphp/download.File.php` | High
-27 | File | `add_comment.php` | High
-28 | File | `admin.php3` | Medium
-29 | File | `admin.php?m=backup&c=backup&a=doback` | High
-30 | File | `admin/admin.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-33 | File | `admin/memberviewdetails.php` | High
-34 | File | `admin_gallery.php3` | High
-35 | File | `affich.php` | Medium
-36 | File | `agent/Core/Controller/SendRequest.cpp` | High
-37 | File | `ajax/telemetry.php` | High
-38 | File | `akeyActivationLogin.do` | High
-39 | File | `album_portal.php` | High
-40 | File | `apache-auth.conf` | High
-41 | File | `askapache-firefox-adsense.php` | High
-42 | File | `attachment.cgi` | High
-43 | File | `blueprints/sections/edit/1` | High
-44 | File | `boaform/admin/formPing` | High
-45 | ... | ... | ...
+1 | File | `/admin/pages/` | High
+2 | File | `/admins` | Low
+3 | File | `/ajax/getBasicInfo.php` | High
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/clientdetails/admin/regester.php` | High
+8 | File | `/csms/?page=contact_us` | High
+9 | File | `/etc/gsissh/sshd_config` | High
+10 | File | `/farm/product.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/manage_block.php` | High
+13 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

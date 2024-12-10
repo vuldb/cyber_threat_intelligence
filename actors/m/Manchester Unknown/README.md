@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,25 +96,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/mod_room/controller.php?action=add` | High
 6 | File | `/admin/profile.php` | High
 7 | File | `/admin/renewaldue.php` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/p1_ftpserver.php` | High
-13 | File | `/cgi-bin/tosei_kikai.php` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=log_employee` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/foms/routers/place-order.php` | High
-18 | File | `/forum/PostPrivateMessage` | High
-19 | File | `/fos/admin/ajax.php?action=login` | High
-20 | File | `/home/kickPlayer` | High
-21 | File | `/index.php` | Medium
-22 | File | `/intrams_sams/manage_student.php` | High
-23 | File | `/manage_sy.php` | High
-24 | File | `/mims/login.php` | High
-25 | File | `/model/delete_student_grade_subject.php` | High
-26 | File | `/one_church/churchprofile.php` | High
+8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi-bin/p1_ftpserver.php` | High
+14 | File | `/cgi-bin/tosei_kikai.php` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=log_employee` | High
+17 | File | `/control/register_case.php` | High
+18 | File | `/foms/routers/place-order.php` | High
+19 | File | `/forum/PostPrivateMessage` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/home/kickPlayer` | High
+22 | File | `/index.php` | Medium
+23 | File | `/intrams_sams/manage_student.php` | High
+24 | File | `/manage_sy.php` | High
+25 | File | `/mims/login.php` | High
+26 | File | `/model/delete_student_grade_subject.php` | High
 27 | ... | ... | ...
 
 There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

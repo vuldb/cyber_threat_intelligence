@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,9 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,18 +74,21 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/cstecgi.cgi` | High
 15 | File | `/changePassword` | High
 16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/Employee/changepassword.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/foms/routers/place-order.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/SetSysTimeCfg` | High
-24 | File | `/index.php` | Medium
-25 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-26 | ... | ... | ...
+17 | File | `/control/edit_client.php` | High
+18 | File | `/edit-subject.php` | High
+19 | File | `/Employee/changepassword.php` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/foms/routers/place-order.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SetLEDCfg` | High
+25 | File | `/goform/setMacFilterCfg` | High
+26 | File | `/goform/SetSysTimeCfg` | High
+27 | File | `/grid/console` | High
+28 | File | `/index.php` | Medium
+29 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

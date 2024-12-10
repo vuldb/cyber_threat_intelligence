@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with MyKings:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MyKings:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,13 +55,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,48 +70,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/download_frame.php` | High
-4 | File | `/admin/index.html` | High
-5 | File | `/admin/student.php` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/bin/boa` | Medium
-8 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
-9 | File | `/cgi-bin/p1_ftpserver.php` | High
-10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-11 | File | `/cgi-bin/tosei_kikai.php` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/dev/urandom` | Medium
-16 | File | `/DroboAccess/enable_user` | High
-17 | File | `/endpoint/delete-account.php` | High
-18 | File | `/etc/quantum/quantum.conf` | High
-19 | File | `/exec/` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/HNAP1` | Low
-23 | File | `/jquery_file_upload/server/php/index.php` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/modules/projects/vw_files.php` | High
-26 | File | `/mysql/api/drobo.php` | High
-27 | File | `/oauth/idp/.well-known/openid-configuration` | High
-28 | File | `/plain` | Low
-29 | File | `/rating.php` | Medium
-30 | File | `/rom-0` | Low
-31 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-32 | File | `/staff/tools/custom-fields` | High
-33 | File | `/sysmanage/licence.php` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-36 | File | `/var/log/nginx` | High
-37 | File | `/wordpress/wp-admin/admin.php` | High
-38 | File | `/xyhai.php?s=/Auth/editUser` | High
-39 | File | `/_next` | Low
-40 | File | `actionHandler/ajax_managed_services.php` | High
-41 | File | `actions.hsp` | Medium
-42 | ... | ... | ...
+3 | File | `/admin/student.php` | High
+4 | File | `/api/sys/set_passwd` | High
+5 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
+6 | File | `/cgi-bin/p1_ftpserver.php` | High
+7 | File | `/cgi-bin/tosei_kikai.php` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/endpoint/delete-account.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/index/ajax/lang` | High
+14 | File | `/jquery_file_upload/server/php/index.php` | High
+15 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

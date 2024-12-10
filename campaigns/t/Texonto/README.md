@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -57,23 +57,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/api /v3/auth` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/change_password_process` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-7 | File | `/devinfo` | Medium
-8 | File | `/env` | Low
-9 | File | `/etc/shadow.sample` | High
-10 | File | `/goform/SetNetControlList` | High
-11 | File | `/goform/SetStaticRouteCfg` | High
-12 | File | `/my_photo_gallery/image.php` | High
-13 | File | `/product.php` | Medium
-14 | File | `/src/chatbotapp/chatWindow.java` | High
-15 | ... | ... | ...
+1 | File | `/admin/config_time_sync.php` | High
+2 | File | `/ajax.php?action=read_msg` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/change_password_process` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+8 | File | `/devinfo` | Medium
+9 | File | `/env` | Low
+10 | File | `/etc/shadow.sample` | High
+11 | File | `/goform/SetNetControlList` | High
+12 | File | `/goform/SetStaticRouteCfg` | High
+13 | File | `/index.php/newsletter/subscriber/new/` | High
+14 | File | `/my_photo_gallery/image.php` | High
+15 | File | `/product.php` | Medium
+16 | File | `/src/chatbotapp/chatWindow.java` | High
+17 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

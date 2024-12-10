@@ -21,8 +21,8 @@ These _actors_ are associated with Metasploit or other actors linked to the camp
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Metasploit](https://vuldb.com/?actor.metasploit) | High
-2 | [Andariel](https://vuldb.com/?actor.andariel) | High
+1 | [Andariel](https://vuldb.com/?actor.andariel) | High
+2 | [Metasploit](https://vuldb.com/?actor.metasploit) | High
 
 ## IOC - Indicator of Compromise
 

@@ -4,13 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.croatia_unknown](https://vuldb.com/?actor.croatia_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Croatia Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [HR](https://vuldb.com/?country.hr)
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Croatia Unknown.
@@ -149,15 +142,6 @@ ID | IP address | Hostname | Campaign | Confidence
 130 | ... | ... | ... | ...
 
 There are 514 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Croatia Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
-2 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 
 ## References
 

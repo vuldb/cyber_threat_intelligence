@@ -4,13 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.paraguay_unknown](https://vuldb.com/?actor.paraguay_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Paraguay Unknown:
-
-* [ES](https://vuldb.com/?country.es)
-* [EC](https://vuldb.com/?country.ec)
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Paraguay Unknown.
@@ -62,15 +55,6 @@ ID | IP address | Hostname | Campaign | Confidence
 43 | ... | ... | ... | ...
 
 There are 168 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Paraguay Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-250 | Execution with Unnecessary Privileges | High
-2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## References
 

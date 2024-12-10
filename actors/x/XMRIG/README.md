@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [77.105.147.158](https://vuldb.com/?ip.77.105.147.158) | square-jar.aeza.network | - | High
 6 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -68,20 +69,22 @@ ID | Type | Indicator | Confidence
 9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 10 | File | `/catalog/all-products` | High
 11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/changePassword` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/edit-subject.php` | High
-15 | File | `/endpoint/add-user.php` | High
-16 | File | `/etc/postfix/sender_login` | High
-17 | File | `/foms/routers/place-order.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/delIpMacBind` | High
-20 | File | `/goform/SetDDNSCfg` | High
-21 | File | `/goform/SetSysTimeCfg` | High
-22 | File | `/goform/wifiSSIDget` | High
-23 | ... | ... | ...
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/changePassword` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+16 | File | `/edit-subject.php` | High
+17 | File | `/endpoint/add-user.php` | High
+18 | File | `/etc/postfix/sender_login` | High
+19 | File | `/foms/routers/place-order.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/SetLEDCfg` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | File | `/goform/SetSysTimeCfg` | High
+24 | File | `/goform/wifiSSIDget` | High
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,6 +95,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://tria.ge/230707-zfx1zacf4s/behavioral1
 * https://tria.ge/231117-r45rqabb9y
+* https://urlhaus.abuse.ch/url/3186497/
 * https://www.cadosecurity.com/containerised-clicks-malicious-use-of-9hits-on-vulnerable-docker-hosts/
 * https://www.cyber45.com
 * https://www.uptycs.com/blog/log4j-campaign-xmrig-malware

@@ -21,8 +21,8 @@ These _actors_ are associated with LookBack or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Witchetty](https://vuldb.com/?actor.witchetty) | High
-2 | [Lookback](https://vuldb.com/?actor.lookback) | High
+1 | [Lookback](https://vuldb.com/?actor.lookback) | High
+2 | [Witchetty](https://vuldb.com/?actor.witchetty) | High
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,37 +76,37 @@ ID | Type | Indicator | Confidence
 16 | File | `/cgi-bin/nas_sharing.cgi` | High
 17 | File | `/cgi-bin/system_mgr.cgi` | High
 18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/cgi/cpaddons_report.pl` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/common/dict/list` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-24 | File | `/endpoint/add-calorie.php` | High
-25 | File | `/etc/init.d/update_notifications.sh` | High
-26 | File | `/foms/routers/place-order.php` | High
-27 | File | `/forum/away.php` | High
+19 | File | `/classes/SystemSettings.php?f=update_settings` | High
+20 | File | `/common/dict/list` | High
+21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+22 | File | `/endpoint/add-calorie.php` | High
+23 | File | `/endpoint/add-timesheet.php` | High
+24 | File | `/etc/init.d/update_notifications.sh` | High
+25 | File | `/foms/routers/place-order.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/geoserver/gwc/rest.html` | High
 28 | File | `/goform/DhcpListClient` | High
 29 | File | `/hrm/leaverequest.php` | High
 30 | File | `/index.php` | Medium
 31 | File | `/index/ajax/lang` | High
 32 | File | `/install/` | Medium
 33 | File | `/Interface/DevManage/VM.php` | High
-34 | File | `/main/webservices/additional_webservices.php` | High
-35 | File | `/music/ajax.php?action=save_music` | High
-36 | File | `/ndmComponents.js` | High
-37 | File | `/net/bluetooth/rfcomm/core.C` | High
-38 | File | `/PC/WebService.asmx` | High
-39 | File | `/pdf` | Low
-40 | File | `/php/ping.php` | High
-41 | File | `/queue/join` | Medium
-42 | File | `/register.php` | High
-43 | File | `/registrar/` | Medium
-44 | File | `/remote/put_file` | High
-45 | File | `/routers/add-ticket.php` | High
-46 | File | `/smsa/add_class_submit.php` | High
+34 | File | `/logs` | Low
+35 | File | `/main/webservices/additional_webservices.php` | High
+36 | File | `/music/ajax.php?action=save_music` | High
+37 | File | `/ndmComponents.js` | High
+38 | File | `/net/bluetooth/rfcomm/core.C` | High
+39 | File | `/PC/WebService.asmx` | High
+40 | File | `/pdf` | Low
+41 | File | `/php/ping.php` | High
+42 | File | `/queue/join` | Medium
+43 | File | `/register.php` | High
+44 | File | `/registrar/` | Medium
+45 | File | `/remote/put_file` | High
+46 | File | `/routers/add-ticket.php` | High
 47 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

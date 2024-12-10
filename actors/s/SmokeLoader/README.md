@@ -60,7 +60,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -76,28 +76,25 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit-doc.php` | High
 2 | File | `/api/admin/store/product/list` | High
 3 | File | `/cgi-bin/qcmap_auth` | High
-4 | File | `/config/getuser` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/etc/gsissh/sshd_config` | High
-7 | File | `/film-rating.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/goform/telnet` | High
-10 | File | `/goform/WanParameterSetting` | High
-11 | File | `/group1/uploa` | High
-12 | File | `/include/makecvs.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/js/app.js` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/student/bookdetails.php` | High
-19 | File | `/test/cookie/` | High
-20 | File | `/ureport/designer/saveReportFile` | High
-21 | File | `/users` | Low
-22 | File | `account.asp` | Medium
-23 | ... | ... | ...
+4 | File | `/debug/pprof` | Medium
+5 | File | `/film-rating.php` | High
+6 | File | `/group1/uploa` | High
+7 | File | `/index.php` | Medium
+8 | File | `/js/app.js` | Medium
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/student/bookdetails.php` | High
+13 | File | `/test/cookie/` | High
+14 | File | `/ureport/designer/saveReportFile` | High
+15 | File | `/users` | Low
+16 | File | `account.asp` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin/establishment/manage.php` | High
+19 | File | `admin/inquiries/view_details.php` | High
+20 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

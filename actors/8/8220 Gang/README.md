@@ -45,11 +45,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -63,54 +63,56 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `.htaccess` | Medium
 3 | File | `//proc/kcore` | Medium
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/doAdminAction.php?act=addCate` | High
-7 | File | `/admin/edit-post.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/pages/list` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/admin_class.php` | High
-12 | File | `/alphaware/summary.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/swaggerui/static` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/cgi-bin/apkg_mgr.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=delete_record` | High
-27 | File | `/classes/Master.php?f=save_category` | High
-28 | File | `/classes/SystemSettings.php?f=update_settings` | High
-29 | File | `/classes/Users.php?f=save` | High
-30 | File | `/College/admin/teacher.php` | High
-31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-32 | File | `/cupseasylive/countrymodify.php` | High
-33 | File | `/dcim/rack-roles/` | High
-34 | File | `/deal/{note_id}/note` | High
-35 | File | `/detailed.php` | High
-36 | File | `/domains/list` | High
-37 | File | `/dtale/chart-data/1` | High
-38 | File | `/etc/shadow.sample` | High
-39 | File | `/fftools/ffmpeg_enc.c` | High
-40 | File | `/filter.php` | Medium
-41 | File | `/forms/doLogin` | High
-42 | File | `/formSysLog` | Medium
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/aspForm` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | File | `/h.php/page?ref=addtabs` | High
-47 | File | `/image.php` | Medium
-48 | File | `/inc/topBarNav.php` | High
-49 | ... | ... | ...
+4 | File | `/add_new_invoice.php` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/Admin/akun_edit.php` | High
+8 | File | `/admin/apply.php` | High
+9 | File | `/admin/create-package.php` | High
+10 | File | `/admin/doAdminAction.php?act=addCate` | High
+11 | File | `/admin/edit-brand.php` | High
+12 | File | `/admin/edit-post.php` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/admin/notes/create` | High
+15 | File | `/admin/pages/list` | High
+16 | File | `/Admin/Proses_Edit_Akun.php` | High
+17 | File | `/admin/robot.php` | High
+18 | File | `/admin/search-invoices.php` | High
+19 | File | `/admin/userprofile.php` | High
+20 | File | `/admin_class.php` | High
+21 | File | `/alphaware/summary.php` | High
+22 | File | `/api/baskets/{name}` | High
+23 | File | `/api/swaggerui/static` | High
+24 | File | `/app/index/controller/Common.php` | High
+25 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+26 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+27 | File | `/applications/nexus/modules/front/store/store.php` | High
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/cgi-bin/apkg_mgr.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Master.php?f=delete_record` | High
+35 | File | `/classes/Master.php?f=save_category` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/command_port.ini` | High
+39 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+40 | File | `/cupseasylive/countrymodify.php` | High
+41 | File | `/dcim/rack-roles/` | High
+42 | File | `/deal/{note_id}/note` | High
+43 | File | `/detailed.php` | High
+44 | File | `/domains/list` | High
+45 | File | `/dtale/chart-data/1` | High
+46 | File | `/etc/shadow.sample` | High
+47 | File | `/fftools/ffmpeg_enc.c` | High
+48 | File | `/filter.php` | Medium
+49 | File | `/forms/doLogin` | High
+50 | File | `/formSysLog` | Medium
+51 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

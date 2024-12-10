@@ -58,22 +58,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index2.html` | High
 3 | File | `/adminPage/conf/reload` | High
 4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-8 | File | `/DXR.axd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index/ajax/lang` | High
-11 | File | `/log/decodmail.php` | High
-12 | File | `/mfsNotice/page` | High
-13 | File | `/novel/bookSetting/list` | High
-14 | File | `/novel/userFeedback/list` | High
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/register.php` | High
-17 | File | `/spip.php` | Medium
-18 | ... | ... | ...
+5 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/api2/html/` | Medium
+8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+9 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+10 | File | `/DXR.axd` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/index/ajax/lang` | High
+13 | File | `/log/decodmail.php` | High
+14 | File | `/mfsNotice/page` | High
+15 | File | `/novel/bookSetting/list` | High
+16 | File | `/novel/userFeedback/list` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/register.php` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

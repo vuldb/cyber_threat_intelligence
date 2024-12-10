@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FatalRAT:
 
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -21,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [103.119.44.152](https://vuldb.com/?ip.103.119.44.152) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,9 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,9 +43,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `json_reader.cpp` | High
-2 | File | `web/jquery/uploader/uploadify.php` | High
-3 | Argument | `capability_type` | High
+1 | File | `/register.php` | High
+2 | File | `/spip.php` | Medium
+3 | File | `adclick.php` | Medium
+4 | File | `awstats.pl` | Medium
+5 | File | `cgi-bin/awstats.pl` | High
+6 | ... | ... | ...
+
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -50,6 +59,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/66/fatalrat-backdoor-ioc/
 * https://community.blueliv.com/#!/s/6107d20982df4141693319a7
 * https://threatfox.abuse.ch
+* https://tria.ge/241112-fvt33swbrg/behavioral1
 * https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/
 
 ## Literature

@@ -18,6 +18,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,11 +55,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,36 +67,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax-files/followBoard.php` | High
+1 | File | `/admin/edit-card-detail.php` | High
 2 | File | `/apply/index.php` | High
 3 | File | `/books` | Low
 4 | File | `/forum/away.php` | High
-5 | File | `/includes/lib/detail.php` | High
-6 | File | `/modules/projects/vw_files.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/out.php` | Medium
-9 | File | `/resources//../` | High
-10 | File | `/see_more_details.php` | High
-11 | File | `/server-status` | High
-12 | File | `adclick.php` | Medium
-13 | File | `add-services.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/index.php` | High
-16 | File | `admin/models/Galleries.php` | High
-17 | File | `affich.php` | Medium
-18 | File | `affiliate-preview.php` | High
-19 | File | `akocomments.php` | High
-20 | File | `album_portal.php` | High
-21 | File | `application/modules/admin/views/ecommerce/products.php` | High
-22 | File | `apps/app_article/controller/rating.php` | High
-23 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
-24 | File | `auktion.cgi` | Medium
-25 | File | `basket.php` | Medium
-26 | File | `big.php` | Low
-27 | File | `category_list.php` | High
-28 | ... | ... | ...
+5 | File | `/oauth/idp/.well-known/openid-configuration` | High
+6 | File | `/out.php` | Medium
+7 | File | `/resources//../` | High
+8 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

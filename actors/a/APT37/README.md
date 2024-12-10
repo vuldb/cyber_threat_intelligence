@@ -10,18 +10,21 @@ The following _campaigns_ are known and can be associated with APT37:
 
 * Daybreak
 * Scarcruft
-* STIFF#BIZON
+* Shrouded Sleep
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT37:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [172.93.181.249](https://vuldb.com/?ip.172.93.181.249) | 249-181-93-172.reverse-dns | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,12 +59,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `adclick.php` | Medium
-4 | File | `category.php` | Medium
-5 | ... | ... | ...
+2 | File | `/category_view.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/upload` | Low
+5 | File | `adclick.php` | Medium
+6 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +74,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/54349/
 * https://securelist.com/operation-daybreak/75100/
 * https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/
+* https://www.securonix.com/blog/shroudedsleep-a-deep-dive-into-north-koreas-ongoing-campaign-against-southeast-asia/
 * https://www.securonix.com/blog/stiffbizon-detection-new-attack-campaign-observed/
 
 ## Literature

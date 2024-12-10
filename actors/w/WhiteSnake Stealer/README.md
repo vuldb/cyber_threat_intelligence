@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.132.96.113](https://vuldb.com/?ip.45.132.96.113) | - | - | High
 10 | [45.147.99.158](https://vuldb.com/?ip.45.147.99.158) | - | - | High
 11 | [45.155.171.134](https://vuldb.com/?ip.45.155.171.134) | - | - | High
-12 | ... | ... | ... | ...
+12 | [52.86.18.77](https://vuldb.com/?ip.52.86.18.77) | ec2-52-86-18-77.compute-1.amazonaws.com | - | Medium
+13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 49 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -80,30 +81,32 @@ ID | Type | Indicator | Confidence
 20 | File | `/boafrm/formFilter` | High
 21 | File | `/cgi-bin/cstecgi.cgi` | High
 22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/churchcrm/v2/family/not-found` | High
-24 | File | `/classes/Login.php` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=delete_sub_category` | High
-27 | File | `/control/register_case.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/dosen/data` | Medium
-30 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-31 | File | `/editor/index.php` | High
-32 | File | `/env` | Low
-33 | File | `/filemanager/ajax_calls.php` | High
-34 | File | `/foms/place-order.php` | High
-35 | File | `/FreshRSS/p/ext.php` | High
-36 | File | `/goform/execCommand` | High
-37 | File | `/goform/SafeClientFilter` | High
-38 | File | `/goform/SetPptpServerCfg` | High
-39 | File | `/goform/setSysAdm` | High
-40 | File | `/goform/SetVirtualServerCfg` | High
-41 | File | `/goform/sysTools` | High
-42 | File | `/goform/WifiBasicSet` | High
-43 | File | `/include/Model/Upload.php` | High
-44 | ... | ... | ...
+23 | File | `/cgi-bin/discovery.cgi` | High
+24 | File | `/cgi-bin/widget_api.cgi` | High
+25 | File | `/churchcrm/v2/family/not-found` | High
+26 | File | `/classes/Login.php` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=delete_sub_category` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
+31 | File | `/control/register_case.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/dosen/data` | Medium
+34 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+35 | File | `/editor/index.php` | High
+36 | File | `/env` | Low
+37 | File | `/fax/fax_send.php` | High
+38 | File | `/filemanager/ajax_calls.php` | High
+39 | File | `/foms/place-order.php` | High
+40 | File | `/foms/routers/place-order.php` | High
+41 | File | `/FreshRSS/p/ext.php` | High
+42 | File | `/goform/execCommand` | High
+43 | File | `/goform/SafeClientFilter` | High
+44 | File | `/goform/SetPptpServerCfg` | High
+45 | File | `/goform/setSysAdm` | High
+46 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

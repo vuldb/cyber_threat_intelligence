@@ -21,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.225.17.53](https://vuldb.com/?ip.185.225.17.53) | xyftjms.cn | - | High
-2 | [185.225.19.35](https://vuldb.com/?ip.185.225.19.35) | no-rdns.mivocloud.com | - | High
+1 | [5.181.156.60](https://vuldb.com/?ip.5.181.156.60) | no-rdns.mivocloud.com | - | High
+2 | [5.181.159.28](https://vuldb.com/?ip.5.181.159.28) | no-rdns.mivocloud.com | - | High
+3 | [5.181.159.137](https://vuldb.com/?ip.5.181.159.137) | 5-181-159-137.mivocloud.com | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,23 +50,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/netflow/jspui/editProfile.jsp` | High
-5 | File | `/php/ping.php` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/SysInfo1.htm` | High
-9 | File | `/sysinfo_json.cgi` | High
-10 | File | `/system/dictData/loadDictItem` | High
-11 | File | `/system/user/modules/mod_users/controller.php` | High
-12 | ... | ... | ...
+4 | File | `/gena.cgi` | Medium
+5 | File | `/netflow/jspui/editProfile.jsp` | High
+6 | File | `/php/ping.php` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/scripts/unlock_tasks.php` | High
+9 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+10 | File | `/see_more_details.php` | High
+11 | File | `/SysInfo1.htm` | High
+12 | File | `/sysinfo_json.cgi` | High
+13 | File | `/system/dictData/loadDictItem` | High
+14 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://pastebin.com/iqcg0Ys7
+* https://www.domaintools.com/resources/blog/a-website-attacked/
 
 ## Literature
 

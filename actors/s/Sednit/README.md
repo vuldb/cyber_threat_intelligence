@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sednit](https://vuldb.com/?actor.sednit)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Sednit:
+
+* Trump’s_Attack_on_Syria
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sednit:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +27,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.135.183.154](https://vuldb.com/?ip.5.135.183.154) | ns3290077.ip-5-135-183.eu | - | High
-2 | [31.7.62.103](https://vuldb.com/?ip.31.7.62.103) | - | - | High
-3 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | nl-2.sa-irc.com | - | High
-4 | [46.102.152.127](https://vuldb.com/?ip.46.102.152.127) | mx8.facturation124596.site | - | High
-5 | [46.183.223.227](https://vuldb.com/?ip.46.183.223.227) | mx3.vehiculosycasas.com | - | High
-6 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | - | High
-7 | [80.255.6.5](https://vuldb.com/?ip.80.255.6.5) | - | - | High
-8 | ... | ... | ... | ...
+1 | [1.23.82.72](https://vuldb.com/?ip.1.23.82.72) | - | Trump&rsquo;s_Attack_on_Syria | High
+2 | [2.2.82.64](https://vuldb.com/?ip.2.2.82.64) | - | Trump&rsquo;s_Attack_on_Syria | High
+3 | [2.12.51.56](https://vuldb.com/?ip.2.12.51.56) | arennes-655-1-148-56.w2-12.abo.wanadoo.fr | Trump&rsquo;s_Attack_on_Syria | High
+4 | [3.95.29.25](https://vuldb.com/?ip.3.95.29.25) | ec2-3-95-29-25.compute-1.amazonaws.com | Trump&rsquo;s_Attack_on_Syria | Medium
+5 | [5.135.183.154](https://vuldb.com/?ip.5.135.183.154) | ns3290077.ip-5-135-183.eu | - | High
+6 | [19.2.45.3](https://vuldb.com/?ip.19.2.45.3) | - | Trump&rsquo;s_Attack_on_Syria | High
+7 | [21.15.46.55](https://vuldb.com/?ip.21.15.46.55) | - | Trump&rsquo;s_Attack_on_Syria | High
+8 | [31.7.62.103](https://vuldb.com/?ip.31.7.62.103) | - | - | High
+9 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | nl-2.sa-irc.com | - | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,11 +46,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -54,62 +62,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/article.php` | High
-5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/students/view_details.php` | High
-9 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-15 | File | `/applications/nexus/modules/front/store/store.php` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/cgi-bin/apkg_mgr.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-22 | File | `/cgi-bin/system_mgr.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/master.php?f=delete_order` | High
-26 | File | `/classes/Master.php?f=delete_record` | High
-27 | File | `/classes/Master.php?f=save_category` | High
-28 | File | `/classes/SystemSettings.php?f=update_settings` | High
-29 | File | `/classes/Users.php?f=save` | High
-30 | File | `/College/admin/teacher.php` | High
-31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-32 | File | `/dcim/rack-roles/` | High
-33 | File | `/dtale/chart-data/1` | High
-34 | File | `/etc/shadow.sample` | High
-35 | File | `/fftools/ffmpeg_enc.c` | High
-36 | File | `/forms/doLogin` | High
-37 | File | `/formSysLog` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/addUserName` | High
-40 | File | `/goform/aspForm` | High
-41 | File | `/goform/delAd` | High
-42 | File | `/goform/SetOnlineDevName` | High
-43 | File | `/goform/wifiSSIDset` | High
-44 | File | `/gpac/src/bifs/unquantize.c` | High
-45 | File | `/h.php/page?ref=addtabs` | High
-46 | File | `/h/autoSaveDraft` | High
-47 | File | `/image.php` | Medium
-48 | File | `/inc/topBarNav.php` | High
-49 | File | `/includes/common/require_access_recovery.php` | High
-50 | File | `/index.php` | Medium
-51 | File | `/index.php?action=editPharmacist` | High
-52 | File | `/index.php?app=main&func=passport&action=login` | High
-53 | File | `/install/` | Medium
-54 | File | `/kelas/data` | Medium
-55 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/Admin/akun_edit.php` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/article.php` | High
+8 | File | `/admin/create-package.php` | High
+9 | File | `/admin/doAdminAction.php?act=addCate` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/edit-post.php` | High
+12 | File | `/admin/edit.php` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/Admin/Proses_Edit_Akun.php` | High
+15 | File | `/admin/robot.php` | High
+16 | File | `/admin/search-invoices.php` | High
+17 | File | `/admin/students/view_details.php` | High
+18 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+19 | File | `/admin/userprofile.php` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/app/index/controller/Common.php` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+24 | File | `/applications/nexus/modules/front/store/store.php` | High
+25 | File | `/backend/doc/his_doc_update-account.php` | High
+26 | File | `/bitrix/admin/ldap_server_edit.php` | High
+27 | File | `/cgi-bin/apkg_mgr.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/master.php?f=delete_order` | High
+34 | File | `/classes/Master.php?f=delete_record` | High
+35 | File | `/classes/Master.php?f=save_category` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/College/admin/teacher.php` | High
+39 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+40 | File | `/dcim/rack-roles/` | High
+41 | File | `/deal/{note_id}/note` | High
+42 | File | `/detailed.php` | High
+43 | File | `/dtale/chart-data/1` | High
+44 | File | `/etc/shadow.sample` | High
+45 | File | `/fftools/ffmpeg_enc.c` | High
+46 | File | `/filter.php` | Medium
+47 | File | `/forms/doLogin` | High
+48 | File | `/formSysLog` | Medium
+49 | File | `/forum/away.php` | High
+50 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
+51 | File | `/general/approve_center/query/list/input_form/delete_data_attach.php` | High
+52 | File | `/goform/aspForm` | High
+53 | File | `/goform/ate` | Medium
+54 | File | `/goform/formSetPortTr` | High
+55 | File | `/goform/formSetWanNonLogin` | High
+56 | ... | ... | ...
 
-There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +128,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/history-report-pdf/eset-sednit-part3.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/history-report-pdf/sednit-update-analysis-zebrocy_.pdf
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q3
+* https://www.cyber45.com
 
 ## Literature
 

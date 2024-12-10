@@ -51,8 +51,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -80,28 +81,29 @@ ID | Type | Indicator | Confidence
 16 | File | `/getcfg.php` | Medium
 17 | File | `/goform/telnet` | High
 18 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/oscommerce/admin/currencies.php` | High
-22 | File | `/proc/pid/syscall` | High
-23 | File | `/ptippage.cgi` | High
-24 | File | `/rom-0` | Low
-25 | File | `/session/list/allActiveSession` | High
-26 | File | `/syslog_rules` | High
-27 | File | `/tmp/out` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/upload` | Low
-30 | File | `/users/{id}` | Medium
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/var/tmp/sess_*` | High
-33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-34 | File | `/video` | Low
-35 | File | `/videotalk` | Medium
-36 | File | `action-visitor.php` | High
-37 | File | `actionphp/download.File.php` | High
-38 | ... | ... | ...
+19 | File | `/manage_block.php` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/oscommerce/admin/currencies.php` | High
+23 | File | `/proc/pid/syscall` | High
+24 | File | `/ptippage.cgi` | High
+25 | File | `/rom-0` | Low
+26 | File | `/session/list/allActiveSession` | High
+27 | File | `/syslog_rules` | High
+28 | File | `/tmp/out` | Medium
+29 | File | `/uncpath/` | Medium
+30 | File | `/update-image1.php` | High
+31 | File | `/upload` | Low
+32 | File | `/users/{id}` | Medium
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/v1/operador/` | High
+35 | File | `/var/tmp/sess_*` | High
+36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+37 | File | `/video` | Low
+38 | File | `/videotalk` | Medium
+39 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

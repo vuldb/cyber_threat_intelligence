@@ -36,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [45.67.228.235](https://vuldb.com/?ip.45.67.228.235) | vm2817428.stark-industries.solutions | - | High
 8 | [45.130.151.211](https://vuldb.com/?ip.45.130.151.211) | server.com | - | High
 9 | [47.57.7.44](https://vuldb.com/?ip.47.57.7.44) | - | - | High
-10 | ... | ... | ... | ...
+10 | [47.57.184.164](https://vuldb.com/?ip.47.57.184.164) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -108,38 +109,38 @@ ID | Type | Indicator | Confidence
 44 | File | `/api/client/editemedia.php` | High
 45 | File | `/api/upload` | Medium
 46 | File | `/api/v2/open/rowsInfo` | High
-47 | File | `/api/v2/open/tablesInfo` | High
-48 | File | `/app/api/controller/caiji.php` | High
-49 | File | `/app/api/controller/default/File.php` | High
-50 | File | `/bilal final/edit_stud.php` | High
-51 | File | `/blog` | Low
-52 | File | `/cgi-bin/cstecgi.cgi` | High
-53 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-54 | File | `/cgi-bin/touchlist_sync.cgi` | High
-55 | File | `/change-language/de_DE` | High
-56 | File | `/classes/Master.php?f=delete_img` | High
-57 | File | `/classes/Master.php?f=delete_inquiry` | High
-58 | File | `/classes/Master.php?f=save_inquiry` | High
-59 | File | `/classes/Users.php?f=save` | High
-60 | File | `/clientLogin` | Medium
-61 | File | `/core/tools/customblock.php` | High
-62 | File | `/cstecgi.cgi` | Medium
-63 | File | `/dashboard/Cinvoice/manage_invoice` | High
-64 | File | `/data/0/admin.txt` | High
-65 | File | `/debug/pprof` | Medium
-66 | File | `/Default/Bd` | Medium
-67 | File | `/diagnostic/login.php` | High
-68 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-69 | File | `/edituser.php` | High
-70 | File | `/endpoint/update-file.php` | High
-71 | File | `/feeds/post/publish` | High
-72 | File | `/foms/routers/place-order.php` | High
-73 | File | `/gasmark/assets/myimages/oneWord.php` | High
-74 | File | `/goform/aspForm` | High
-75 | File | `/goForm/aspForm` | High
+47 | File | `/app/api/controller/caiji.php` | High
+48 | File | `/app/api/controller/default/File.php` | High
+49 | File | `/bilal final/edit_stud.php` | High
+50 | File | `/blog` | Low
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+53 | File | `/cgi-bin/touchlist_sync.cgi` | High
+54 | File | `/change-language/de_DE` | High
+55 | File | `/classes/Master.php?f=delete_img` | High
+56 | File | `/classes/Master.php?f=delete_inquiry` | High
+57 | File | `/classes/Master.php?f=save_inquiry` | High
+58 | File | `/classes/Users.php?f=save` | High
+59 | File | `/clientLogin` | Medium
+60 | File | `/core/tools/customblock.php` | High
+61 | File | `/cstecgi.cgi` | Medium
+62 | File | `/dashboard/Cinvoice/manage_invoice` | High
+63 | File | `/data/0/admin.txt` | High
+64 | File | `/debug/pprof` | Medium
+65 | File | `/Default/Bd` | Medium
+66 | File | `/diagnostic/login.php` | High
+67 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+68 | File | `/edituser.php` | High
+69 | File | `/endpoint/update-file.php` | High
+70 | File | `/feeds/post/publish` | High
+71 | File | `/foms/routers/place-order.php` | High
+72 | File | `/gasmark/assets/myimages/oneWord.php` | High
+73 | File | `/goform/aspForm` | High
+74 | File | `/goForm/aspForm` | High
+75 | File | `/goform/execCommand` | High
 76 | ... | ... | ...
 
-There are 668 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 665 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

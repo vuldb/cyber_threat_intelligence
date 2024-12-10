@@ -49,13 +49,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
 2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-4 | File | `acme_certificate_edit.php` | High
-5 | File | `admin/index.php` | High
-6 | File | `auth.php` | Medium
-7 | ... | ... | ...
+3 | File | `/out.php` | Medium
+4 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+5 | File | `acme_certificate_edit.php` | High
+6 | File | `admin/index.php` | High
+7 | File | `auth.php` | Medium
+8 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

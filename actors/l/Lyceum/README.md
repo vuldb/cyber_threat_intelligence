@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -79,29 +79,30 @@ ID | Type | Indicator | Confidence
 21 | File | `/classes/Master.php?f=delete_appointment` | High
 22 | File | `/classes/Master.php?f=delete_record` | High
 23 | File | `/classes/Master.php?f=delete_train` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/course/api/upload/pic` | High
-26 | File | `/ctcprotocol/Protocol` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/detailed.php` | High
-30 | File | `/dist/index.js` | High
-31 | File | `/DXR.axd` | Medium
-32 | File | `/ebics-server/ebics.aspx` | High
-33 | File | `/ecommerce/popup_Item.php` | High
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/EXCU_SHELL` | Medium
-36 | File | `/ffos/classes/Master.php?f=save_category` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/execCommand` | High
+24 | File | `/course/api/upload/pic` | High
+25 | File | `/ctcprotocol/Protocol` | High
+26 | File | `/dashboard/menu-list.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/detailed.php` | High
+29 | File | `/dist/index.js` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/ebics-server/ebics.aspx` | High
+32 | File | `/ecommerce/popup_Item.php` | High
+33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+34 | File | `/EXCU_SHELL` | Medium
+35 | File | `/ffos/classes/Master.php?f=save_category` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/execCommand` | High
+38 | File | `/goform/form2systime.cgi` | High
 39 | File | `/goform/modifyDhcpRule` | High
 40 | File | `/goform/ModifyPppAuthWhiteMac` | High
 41 | File | `/goform/net\_Web\_get_value` | High
-42 | File | `/goform/setStaOffline` | High
-43 | File | `/goform/WizardHandle` | High
-44 | ... | ... | ...
+42 | File | `/goform/SetDlnaCfg` | High
+43 | File | `/goform/setStaOffline` | High
+44 | File | `/goform/WizardHandle` | High
+45 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

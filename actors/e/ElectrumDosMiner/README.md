@@ -47,27 +47,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_member.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/backend/register.php` | High
-4 | File | `/cgi-bin` | Medium
-5 | File | `/cgi-bin/ExportAllSettings.sh` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/include/comm_post.inc.php` | High
-8 | File | `/magnoliaPublic/travel/members/login.html` | High
-9 | File | `/members/poster.php` | High
-10 | File | `/register.do` | Medium
-11 | File | `/secure/EditSubscription.jspa` | High
-12 | File | `/spip.php` | Medium
-13 | File | `addentry.php` | Medium
-14 | File | `admin.cgi/config.cgi` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/admin.guestbook.php` | High
-17 | File | `admin/admin.php` | High
-18 | File | `admin/conf_users_edit.php` | High
+1 | File | `/admin-dashboard` | High
+2 | File | `/admin/edit_member.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/backend/register.php` | High
+5 | File | `/cgi-bin` | Medium
+6 | File | `/cgi-bin/ExportAllSettings.sh` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/include/comm_post.inc.php` | High
+9 | File | `/magnoliaPublic/travel/members/login.html` | High
+10 | File | `/members/poster.php` | High
+11 | File | `/register.do` | Medium
+12 | File | `/secure/EditSubscription.jspa` | High
+13 | File | `/spip.php` | Medium
+14 | File | `addentry.php` | Medium
+15 | File | `admin.cgi/config.cgi` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/admin.guestbook.php` | High
+18 | File | `admin/admin.php` | High
 19 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

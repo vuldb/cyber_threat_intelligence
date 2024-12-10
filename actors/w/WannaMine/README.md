@@ -43,35 +43,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin` | Low
-3 | File | `/admin/action/update-deworm.php` | High
-4 | File | `/admin/application-bwdates-reports-details.php` | High
-5 | File | `/admin/curriculum/view_curriculum.php` | High
-6 | File | `/admin/deduction_row.php` | High
-7 | File | `/admin/departments/view_department.php` | High
-8 | File | `/admin/edit-accepted-appointment.php` | High
-9 | File | `/admin/edit_category.php` | High
-10 | File | `/admin/edit_teacher.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/maintenance/brand.php` | High
-13 | File | `/admin/order.php` | High
-14 | File | `/admin/pages/update_go.php` | High
-15 | File | `/admin/products/manage_product.php` | High
-16 | File | `/admin/transactions/track_shipment.php` | High
-17 | File | `/admin/vote_edit.php` | High
-18 | File | `/api/admin/store/product/list` | High
-19 | File | `/api/controllers/common/UploadsController.php` | High
-20 | File | `/application/index/controller/Icon.php` | High
-21 | File | `/application/index/controller/Unity.php` | High
-22 | File | `/apply/index.php` | High
-23 | File | `/auth/auth.php?user=1` | High
-24 | File | `/b2b-supermarket/shopping-cart` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/blog` | Low
-27 | ... | ... | ...
+1 | File | `/?g=log_import_save` | High
+2 | File | `/?p=products` | Medium
+3 | File | `/?page=tickets` | High
+4 | File | `/?page=tracks` | High
+5 | File | `/add_new_invoice.php` | High
+6 | File | `/admin` | Low
+7 | File | `/admin/action/update-deworm.php` | High
+8 | File | `/admin/application-bwdates-reports-details.php` | High
+9 | File | `/Admin/consulting_detail.php` | High
+10 | File | `/admin/curriculum/view_curriculum.php` | High
+11 | File | `/admin/deduction_row.php` | High
+12 | File | `/admin/departments/view_department.php` | High
+13 | File | `/admin/edit-accepted-appointment.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/edit_teacher.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/maintenance/brand.php` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/pages/update_go.php` | High
+20 | File | `/admin/products/manage_product.php` | High
+21 | File | `/admin/transactions/track_shipment.php` | High
+22 | File | `/admin/vote_edit.php` | High
+23 | File | `/api/admin/store/product/list` | High
+24 | File | `/api/controllers/common/UploadsController.php` | High
+25 | File | `/application/index/controller/Icon.php` | High
+26 | File | `/application/index/controller/Unity.php` | High
+27 | File | `/apply/index.php` | High
+28 | File | `/auth/auth.php?user=1` | High
+29 | File | `/b2b-supermarket/shopping-cart` | High
+30 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -59,11 +59,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-37, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-35, CWE-37, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -75,19 +75,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/abcd/opac/php/otros_sitios.php` | High
-2 | File | `/admin/admin_log.php?clear=1` | High
-3 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-4 | File | `/admin/config_time_sync.php` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/dialog/select_images_post.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/modules/product/controller.php?action=add` | High
+2 | File | `/admin/aboutus.php` | High
+3 | File | `/admin/admin_log.php?clear=1` | High
+4 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
+5 | File | `/admin/config_time_sync.php` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/dialog/select_images_post.php` | High
+8 | File | `/admin/login.php` | High
 9 | File | `/admin/robot.php` | High
 10 | File | `/admin/system.php` | High
 11 | File | `/admins/{adminId}` | High
 12 | File | `/api/swaggerui/static` | High
 13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v1` | Low
+14 | File | `/articles/welcome-to-your-site#comments-head` | High
 15 | File | `/boafrm/formSystemCheck` | High
 16 | File | `/buscar_integrada.php` | High
 17 | File | `/cgi-bin/alexserv` | High
@@ -104,25 +104,26 @@ ID | Type | Indicator | Confidence
 28 | File | `/core/tools/delete_place.php` | High
 29 | File | `/dcim/power-ports/add/` | High
 30 | File | `/debug/pprof` | Medium
-31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/ecommerce/admin/login.php` | High
-34 | File | `/edit/server` | Medium
-35 | File | `/endpoint/add-calorie.php` | High
-36 | File | `/endpoint/delete-account.php` | High
-37 | File | `/endpoint/delete-todo.php` | High
-38 | File | `/endpoint/update.php` | High
-39 | File | `/etc/passwd` | Medium
-40 | File | `/film-rating.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/qossetting` | High
-43 | File | `/guestbook` | Medium
-44 | File | `/hardware` | Medium
-45 | File | `/ims/login.php` | High
-46 | File | `/inccatadd.php` | High
-47 | ... | ... | ...
+31 | File | `/DXR.axd` | Medium
+32 | File | `/ecommerce/admin/login.php` | High
+33 | File | `/ejbca/ra/cert` | High
+34 | File | `/endpoint/add-calorie.php` | High
+35 | File | `/endpoint/delete-account.php` | High
+36 | File | `/endpoint/update.php` | High
+37 | File | `/etc/passwd` | Medium
+38 | File | `/files/` | Low
+39 | File | `/film-rating.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/goform/formEasySetTimezone` | High
+42 | File | `/goform/formSetDomainFilter` | High
+43 | File | `/goform/formSetQoS` | High
+44 | File | `/goform/formSetWanPPPoE` | High
+45 | File | `/goform/qossetting` | High
+46 | File | `/goform/setDeviceSettings` | High
+47 | File | `/guestbook` | Medium
+48 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -126,15 +126,15 @@ ID | Type | Indicator | Confidence
 51 | File | `/scripts/unlock_tasks.php` | High
 52 | File | `/servlet/webacc` | High
 53 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
-54 | File | `/sscdms/classes/Users.php?f=save` | High
-55 | File | `/textpattern/index.php` | High
-56 | File | `/uncpath/` | Medium
-57 | File | `/uploadimage` | Medium
-58 | File | `/usr/bin/at` | Medium
-59 | File | `/usr/bin/pkexec` | High
+54 | File | `/src/dede/tpl.php` | High
+55 | File | `/sscdms/classes/Users.php?f=save` | High
+56 | File | `/textpattern/index.php` | High
+57 | File | `/uncpath/` | Medium
+58 | File | `/uploadimage` | Medium
+59 | File | `/usr/bin/at` | Medium
 60 | ... | ... | ...
 
-There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

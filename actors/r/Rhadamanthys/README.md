@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,17 +76,18 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [46.175.150.169](https://vuldb.com/?ip.46.175.150.169) | smtp4.sams-club.pro | - | High
 54 | [47.57.236.111](https://vuldb.com/?ip.47.57.236.111) | - | - | High
 55 | [49.13.68.19](https://vuldb.com/?ip.49.13.68.19) | static.19.68.13.49.clients.prevps.com | - | High
-56 | [62.204.41.57](https://vuldb.com/?ip.62.204.41.57) | - | - | High
-57 | [62.233.50.246](https://vuldb.com/?ip.62.233.50.246) | - | - | High
-58 | [62.233.51.95](https://vuldb.com/?ip.62.233.51.95) | - | - | High
-59 | [62.233.51.121](https://vuldb.com/?ip.62.233.51.121) | - | - | High
-60 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
-61 | [65.21.101.233](https://vuldb.com/?ip.65.21.101.233) | - | - | High
-62 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
-63 | [68.183.230.60](https://vuldb.com/?ip.68.183.230.60) | - | - | High
-64 | [77.91.68.146](https://vuldb.com/?ip.77.91.68.146) | hosted-by.aluxe-cloud.ru | - | High
-65 | [77.91.122.230](https://vuldb.com/?ip.77.91.122.230) | vm1230500.stark-industries.solutions | - | High
-66 | ... | ... | ... | ...
+56 | [51.75.171.9](https://vuldb.com/?ip.51.75.171.9) | vps-76e61157.vps.ovh.net | - | High
+57 | [62.204.41.57](https://vuldb.com/?ip.62.204.41.57) | - | - | High
+58 | [62.233.50.246](https://vuldb.com/?ip.62.233.50.246) | - | - | High
+59 | [62.233.51.95](https://vuldb.com/?ip.62.233.51.95) | - | - | High
+60 | [62.233.51.121](https://vuldb.com/?ip.62.233.51.121) | - | - | High
+61 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
+62 | [65.21.101.233](https://vuldb.com/?ip.65.21.101.233) | - | - | High
+63 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
+64 | [68.183.230.60](https://vuldb.com/?ip.68.183.230.60) | - | - | High
+65 | [77.91.68.146](https://vuldb.com/?ip.77.91.68.146) | hosted-by.aluxe-cloud.ru | - | High
+66 | [77.91.122.230](https://vuldb.com/?ip.77.91.122.230) | vm1230500.stark-industries.solutions | - | High
+67 | ... | ... | ... | ...
 
 There are 262 more IOC items available. Please use our online service to access the data.
 
@@ -96,11 +97,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -112,68 +113,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.pomerium` | Medium
+2 | File | `/add_new_invoice.php` | High
 3 | File | `/admin/?page=bike` | High
 4 | File | `/admin/?page=musics/manage_music` | High
 5 | File | `/admin/add_ikev2.php` | High
-6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/admin/category_save.php` | High
-8 | File | `/Admin/changepassword.php` | High
-9 | File | `/admin/edit_supplier.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/general-setting` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/inquiries/view_inquiry.php` | High
-14 | File | `/admin/list_ipAddressPolicy.php` | High
-15 | File | `/admin/manage_model.php` | High
-16 | File | `/admin/manage_user.php` | High
-17 | File | `/admin/order.php` | High
-18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-19 | File | `/admin/service` | High
-20 | File | `/admin/subject.php` | High
-21 | File | `/api/v1/custom_component` | High
-22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-23 | File | `/applications/nexus/modules/front/store/store.php` | High
-24 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-25 | File | `/catalog/all-products` | High
-26 | File | `/cgi-bin/apkg_mgr.cgi` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/hd_config.cgi` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/classes/Master.php?f=delete_category` | High
-34 | File | `/classes/Master.php?f=delete_record` | High
-35 | File | `/classes/Master.php?f=save_medicine` | High
-36 | File | `/classes/SystemSettings.php?f=update_settings` | High
-37 | File | `/classes/Users.php?f=delete` | High
-38 | File | `/classes/Users.php?f=save` | High
-39 | File | `/downloadFile.php` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/edit-subject.php` | High
-42 | File | `/endpoint/add-folder.php` | High
-43 | File | `/endpoint/add-user.php` | High
-44 | File | `/etc/postfix/sender_login` | High
-45 | File | `/etc/shadow` | Medium
-46 | File | `/etc/shadow.sample` | High
-47 | File | `/export` | Low
-48 | File | `/file_manager/login.php` | High
-49 | File | `/film-rating.php` | High
-50 | File | `/foms/routers/place-order.php` | High
-51 | File | `/formSysLog` | Medium
-52 | File | `/forum/away.php` | High
-53 | File | `/goform/SetIpMacBind` | High
-54 | File | `/goform/SetOnlineDevName` | High
-55 | File | `/goform/WifiExtraSet` | High
-56 | File | `/guestbook` | Medium
-57 | File | `/h.php/page?ref=addtabs` | High
-58 | File | `/image.php` | Medium
-59 | File | `/includes/common/require_access_recovery.php` | High
-60 | File | `/index.php` | Medium
-61 | ... | ... | ...
+6 | File | `/Admin/akun_edit.php` | High
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+9 | File | `/admin/blood/update/o-.php` | High
+10 | File | `/admin/book-details.php` | High
+11 | File | `/admin/bwdates-report-details.php` | High
+12 | File | `/admin/category_save.php` | High
+13 | File | `/admin/change-image.php` | High
+14 | File | `/admin/cmsVote/save` | High
+15 | File | `/admin/cms_content.php` | High
+16 | File | `/admin/create-package.php` | High
+17 | File | `/admin/doAdminAction.php?act=addCate` | High
+18 | File | `/admin/edit-brand.php` | High
+19 | File | `/admin/emp-profile-avatar.php` | High
+20 | File | `/admin/file_manager/export` | High
+21 | File | `/admin/forms/option_lists/edit.php` | High
+22 | File | `/admin/index.php` | High
+23 | File | `/admin/index2.html` | High
+24 | File | `/admin/list_ipAddressPolicy.php` | High
+25 | File | `/admin/manage_model.php` | High
+26 | File | `/admin/manage_user.php` | High
+27 | File | `/admin/order.php` | High
+28 | File | `/admin/process_category_edit.php` | High
+29 | File | `/Admin/Proses_Edit_Akun.php` | High
+30 | File | `/admin/robot.php` | High
+31 | File | `/admin/search-invoices.php` | High
+32 | File | `/admin/sou.php` | High
+33 | File | `/admin/subject.php` | High
+34 | File | `/admin/users.php` | High
+35 | File | `/api/cron/settings/setJob/` | High
+36 | File | `/api2/html/` | Medium
+37 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+38 | File | `/cgi-bin/apkg_mgr.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/cgi-bin/ExportSettings.sh` | High
+41 | File | `/cgi-bin/hd_config.cgi` | High
+42 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+43 | File | `/cgi-bin/nas_sharing.cgi` | High
+44 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+45 | File | `/classes/Master.php` | High
+46 | File | `/classes/Master.php?f=delete_record` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=delete` | High
+49 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+50 | File | `/deal/{note_id}/note` | High
+51 | File | `/detailed.php` | High
+52 | File | `/downloadFile.php` | High
+53 | File | `/dtale/chart-data/1` | High
+54 | File | `/DXR.axd` | Medium
+55 | File | `/edit-subject.php` | High
+56 | File | `/editar-cliente.php` | High
+57 | File | `/editar-produto.php` | High
+58 | File | `/endpoint/add-folder.php` | High
+59 | File | `/endpoint/add-user.php` | High
+60 | File | `/etc/postfix/sender_login` | High
+61 | File | `/etc/shadow.sample` | High
+62 | ... | ... | ...
 
-There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 543 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -284,6 +286,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.joesandbox.com/analysis/1391616
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/03/new-go-loader-pushes-rhadamanthys
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques
+* https://x.com/K_N1kolenko/status/1852644729545994585
 * https://x.com/NDA0E/status/1809288536983589288
 
 ## Literature

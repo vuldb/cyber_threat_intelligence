@@ -87,22 +87,23 @@ ID | Type | Indicator | Confidence
 26 | File | `/user/add-notes.php` | High
 27 | File | `/user/manage-notes.php` | High
 28 | File | `/var/log/nginx` | High
-29 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-31 | File | `/zm/index.php` | High
-32 | File | `3/E_bak5.1/upload/eginfo.php` | High
-33 | File | `act.php` | Low
-34 | File | `adclick.php` | Medium
-35 | File | `add_comment.php` | High
-36 | File | `admin` | Low
-37 | File | `admin.php` | Medium
-38 | File | `admin/adminsignin.html` | High
-39 | File | `admin/movieview.php` | High
-40 | File | `admin/products/view_product.php` | High
-41 | File | `admin/versions.html` | High
-42 | ... | ... | ...
+29 | File | `/vcs/claire_blake` | High
+30 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `/zm/index.php` | High
+33 | File | `3/E_bak5.1/upload/eginfo.php` | High
+34 | File | `act.php` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `add_comment.php` | High
+37 | File | `admin` | Low
+38 | File | `admin.php` | Medium
+39 | File | `admin/adminsignin.html` | High
+40 | File | `admin/movieview.php` | High
+41 | File | `admin/products/view_product.php` | High
+42 | File | `admin/versions.html` | High
+43 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

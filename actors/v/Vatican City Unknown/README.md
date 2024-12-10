@@ -111,17 +111,18 @@ ID | Type | Indicator | Confidence
 45 | File | `/user/manage-notes.php` | High
 46 | File | `/v1/sql-runner` | High
 47 | File | `/var/mail` | Medium
-48 | File | `/zm/index.php` | High
-49 | File | `3/E_bak5.1/upload/eginfo.php` | High
-50 | File | `actions.c` | Medium
-51 | File | `actions/doreport.php` | High
-52 | File | `adclick.php` | Medium
-53 | File | `addcustomer.asp/addprod.asp/process.asp` | High
-54 | File | `addressbookprovider.php` | High
-55 | File | `admin.html` | Medium
-56 | ... | ... | ...
+48 | File | `/vcs/claire_blake` | High
+49 | File | `/zm/index.php` | High
+50 | File | `3/E_bak5.1/upload/eginfo.php` | High
+51 | File | `actions.c` | Medium
+52 | File | `actions/doreport.php` | High
+53 | File | `adclick.php` | Medium
+54 | File | `addcustomer.asp/addprod.asp/process.asp` | High
+55 | File | `addressbookprovider.php` | High
+56 | File | `admin.html` | Medium
+57 | ... | ... | ...
 
-There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

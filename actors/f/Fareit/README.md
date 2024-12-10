@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,36 +82,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/adminPage/conf/reload` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/api2/html/` | Medium
-8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/index/ajax/lang` | High
-14 | File | `/log/decodmail.php` | High
-15 | File | `/mfsNotice/page` | High
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/novel/bookSetting/list` | High
-19 | File | `/novel/userFeedback/list` | High
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/register.php` | High
-22 | File | `/secure/ViewCollectors` | High
-23 | File | `/Session` | Medium
-24 | File | `/spip.php` | Medium
-25 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-28 | ... | ... | ...
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api2/html/` | Medium
+7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+9 | File | `/DXR.axd` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index/ajax/lang` | High
+12 | File | `/log/decodmail.php` | High
+13 | File | `/mfsNotice/page` | High
+14 | File | `/novel/bookSetting/list` | High
+15 | File | `/novel/userFeedback/list` | High
+16 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

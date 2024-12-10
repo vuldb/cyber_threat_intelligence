@@ -17,9 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [38.55.144.53](https://vuldb.com/?ip.38.55.144.53) | - | - | High
-2 | [139.162.116.218](https://vuldb.com/?ip.139.162.116.218) | 139-162-116-218.ip.linodeusercontent.com | - | High
-3 | [172.105.200.233](https://vuldb.com/?ip.172.105.200.233) | 172-105-200-233.ip.linodeusercontent.com | - | High
+1 | [27.124.45.146](https://vuldb.com/?ip.27.124.45.146) | - | - | High
+2 | [38.55.144.53](https://vuldb.com/?ip.38.55.144.53) | - | - | High
+3 | [139.162.116.218](https://vuldb.com/?ip.139.162.116.218) | 139-162-116-218.ip.linodeusercontent.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,28 +59,38 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/system_mgr.cgi` | High
 14 | File | `/etc/shadow` | Medium
 15 | File | `/etc/zarafa/license` | High
-16 | File | `/guest/index.html` | High
-17 | File | `/importTool/preview` | High
-18 | File | `/index.php` | Medium
-19 | File | `/index.php?/manage/channel/addchannel` | High
-20 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
-21 | File | `/index.php?m=tags&f=index&v=add` | High
-22 | File | `/index/ajax/lang` | High
-23 | File | `/install/index.php` | High
-24 | File | `/login` | Low
-25 | File | `/mics/j_spring_security_check` | High
-26 | File | `/mifs/c/i/reg/reg.html` | High
-27 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
-28 | File | `/pms/update_user.php?user_id=1` | High
-29 | File | `/programScopes` | High
-30 | File | `/userfs/bin/tcapi` | High
-31 | File | `/userLogin.asp` | High
-32 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-33 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-34 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-35 | ... | ... | ...
+16 | File | `/forms/web_importTFTP` | High
+17 | File | `/guest/index.html` | High
+18 | File | `/importTool/preview` | High
+19 | File | `/index.php` | Medium
+20 | File | `/index.php?/manage/channel/addchannel` | High
+21 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
+22 | File | `/index.php?m=tags&f=index&v=add` | High
+23 | File | `/index/ajax/lang` | High
+24 | File | `/install/index.php` | High
+25 | File | `/login` | Low
+26 | File | `/mics/j_spring_security_check` | High
+27 | File | `/mifs/c/i/reg/reg.html` | High
+28 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
+29 | File | `/pms/update_user.php?user_id=1` | High
+30 | File | `/programScopes` | High
+31 | File | `/userfs/bin/tcapi` | High
+32 | File | `/userLogin.asp` | High
+33 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+34 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+35 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+36 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+37 | File | `/var/log/monkeyd/master.log` | High
+38 | File | `/WEB-INF/web.xml` | High
+39 | File | `addfav.php` | Medium
+40 | File | `add_vhost.php` | High
+41 | File | `admin.htm` | Medium
+42 | File | `admin.php` | Medium
+43 | File | `admin/?/layout/edit` | High
+44 | File | `admin/?/page/edit` | High
+45 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,6 +98,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/55229/
 * https://bazaar.abuse.ch/sample/8ce36d5957f359408a0a91a2045844a79260158c2f5c986e0cc7682d2e2727ba/
+* https://bazaar.abuse.ch/sample/a1c0b48199e8a47fe50c4097d86e5f43a1a1c9a9c1f7f3606ffa0d45bb4a2eb3/
 
 ## Literature
 

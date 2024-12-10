@@ -16,8 +16,8 @@ These _actors_ are associated with DarkWatchman or other actors linked to the ca
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [DarkWatchman](https://vuldb.com/?actor.darkwatchman) | High
-2 | [Hive0117](https://vuldb.com/?actor.hive0117) | High
+1 | [Hive0117](https://vuldb.com/?actor.hive0117) | High
+2 | [DarkWatchman](https://vuldb.com/?actor.darkwatchman) | High
 
 ## IOC - Indicator of Compromise
 

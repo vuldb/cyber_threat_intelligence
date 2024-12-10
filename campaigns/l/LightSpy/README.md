@@ -20,6 +20,10 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT41](https://vuldb.com/?actor.apt41) | High
 2 | [lightSpy](https://vuldb.com/?actor.lightspy) | High
+3 | [Unknown](https://vuldb.com/?actor.unknown) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +31,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [38.55.97.178](https://vuldb.com/?ip.38.55.97.178) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
-2 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
-3 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
-4 | ... | ... | ... | ...
+1 | [38.55.97.178](https://vuldb.com/?ip.38.55.97.178) | - | [APT41](https://vuldb.com/?actor.apt41) | High
+2 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | [APT41](https://vuldb.com/?actor.apt41) | High
+3 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | [APT41](https://vuldb.com/?actor.apt41) | High
+4 | [43.248.136.215](https://vuldb.com/?ip.43.248.136.215) | - | [APT41](https://vuldb.com/?actor.apt41) | High
+5 | [45.125.34.126](https://vuldb.com/?ip.45.125.34.126) | mail.market126.net163b2b.xyz | [APT41](https://vuldb.com/?actor.apt41) | High
+6 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,20 +59,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/example/editor` | High
-2 | File | `/fcgi/scrut_fcgi.fcgi` | High
-3 | File | `/filemanager/php/connector.php` | High
-4 | File | `/index/ajax/lang` | High
-5 | File | `admin/killsource` | High
-6 | ... | ... | ...
+1 | File | `/?Key=PhoneRequestAuthorization` | High
+2 | File | `/addcompany.php` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/example/editor` | High
+5 | File | `/fcgi/scrut_fcgi.fcgi` | High
+6 | File | `/filemanager/php/connector.php` | High
+7 | File | `/index/ajax/lang` | High
+8 | File | `admin/killsource` | High
+9 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blogs.blackberry.com/en/2024/04/lightspy-returns-renewed-espionage-campaign-targets-southern-asia-possibly-india
+* https://blogs.blackberry.com/en/2024/11/lightspy-apt41-deploys-advanced-deepdata-framework-in-targeted-southern-asia-espionage-campaign
 * https://search.censys.io/hosts/38.55.97.178
 * https://search.censys.io/hosts/43.248.136.104
 * https://search.censys.io/hosts/43.248.136.110
@@ -78,6 +88,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/118.195.234.243
 * https://search.censys.io/hosts/154.91.196.185
 * https://search.censys.io/hosts/222.219.183.84
+* https://threatfox.abuse.ch
 * https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack
 
 ## Literature

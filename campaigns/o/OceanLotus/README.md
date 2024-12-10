@@ -9,11 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OceanLotus:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,7 +62,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -96,15 +91,14 @@ ID | Type | Indicator | Confidence
 16 | File | `/php-inventory-management-system/categories.php` | High
 17 | File | `/php/ajax.php` | High
 18 | File | `/post.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `add-family-member.php` | High
-22 | File | `admin/ajax.attachment.php` | High
-23 | File | `admin/languages.php` | High
-24 | File | `admin/manage-categories.php` | High
-25 | ... | ... | ...
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `add-family-member.php` | High
+21 | File | `admin/ajax.attachment.php` | High
+22 | File | `admin/manage-categories.php` | High
+23 | File | `admin/ops/reports/ops/news.php` | High
+24 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

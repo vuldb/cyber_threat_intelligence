@@ -36,15 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,48 +51,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/AccountMaster/GetCurrentUserInfo` | High
-2 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-3 | File | `/admin/admin_invt2.php` | High
-4 | File | `/admin/config/save` | High
-5 | File | `/admin/edit_manufacturer.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/inquiries/view_details.php` | High
-8 | File | `/admin/maintenance/manage_department.php` | High
-9 | File | `/admin/reports/index.php` | High
-10 | File | `/admin/template/update` | High
-11 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-12 | File | `/ajax.php?action=delete_deductions` | High
-13 | File | `/ajax.php?action=update_account` | High
-14 | File | `/app/action/add_staff.php` | High
-15 | File | `/app/uploading/upload-mp3.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/chat/completions` | High
-18 | File | `/control/forgot_pass.php` | High
-19 | File | `/control/login.php` | High
-20 | File | `/core/config-revisions/` | High
-21 | File | `/detailed.php` | High
-22 | File | `/download/file` | High
-23 | File | `/edit1.php` | Medium
-24 | File | `/endpoint/add-timesheet.php` | High
-25 | File | `/endpoint/delete-timesheet.php` | High
-26 | File | `/endpoint/update.php` | High
-27 | File | `/etc/passwd` | Medium
-28 | File | `/event/admin/login.php` | High
-29 | File | `/filter.php` | Medium
-30 | File | `/forgot.php` | Medium
-31 | File | `/fx/baseinfo/SearchInfo` | High
-32 | File | `/goform/exeCommand` | High
-33 | File | `/goform/frmL7ProtForm` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/dashboard/save` | High
-36 | File | `/index.php?page=tenants` | High
-37 | File | `/info.cgi` | Medium
-38 | File | `/mfeedback.php` | High
-39 | File | `/model/viewProduct.php` | High
-40 | ... | ... | ...
+1 | File | `/abonados/public/janto/main.php` | High
+2 | File | `/addcustind.php` | High
+3 | File | `/addstock.php` | High
+4 | File | `/admin#article/edit?id=2` | High
+5 | File | `/admin#permissions` | High
+6 | File | `/admin.php?page=album` | High
+7 | File | `/admin/?page=products/view_product` | High
+8 | File | `/admin/?page=system_info/contact_info` | High
+9 | File | `/Admin/adminlogin.php` | High
+10 | File | `/admin/ajax_product.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
+13 | File | `/admin/blood/update/B-.php` | High
+14 | File | `/admin/edit-card-detail.php` | High
+15 | File | `/admin/edit_fuel.php` | High
+16 | File | `/admin/File/fileUpload` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/overtime_row.php` | High
+19 | File | `/admin/password-recovery.php` | High
+20 | File | `/admin/search-medicalcard.php` | High
+21 | File | `/admin/sou.php` | High
+22 | File | `/admin/view-card-detail.php` | High
+23 | File | `/admin/wifi/wlan1` | High
+24 | File | `/ajax.php?action=delete_tenant` | High
+25 | File | `/animalsupdate.php` | High
+26 | File | `/api/config/list` | High
+27 | File | `/ar/config/configuation/` | High
+28 | File | `/cgi-bin/settings-firewall.cgi` | High
+29 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+30 | File | `/com/esafenet/servlet/netSec/NetSecConfigService.java` | High
+31 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+32 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
+33 | File | `/com/esafenet/servlet/user/ReUserOrganiseService.java` | High
+34 | File | `/cov/triggerEnvCov` | High
+35 | File | `/curd/table/list` | High
+36 | File | `/dev/mem` | Medium
+37 | File | `/edit-pig.php` | High
+38 | File | `/edit-profile.php` | High
+39 | File | `/etc/shadow` | Medium
+40 | File | `/file/infoAdd.php` | High
+41 | File | `/filemanager/upload` | High
+42 | File | `/goform/ate` | Medium
+43 | File | `/goform/formResetStatistic` | High
+44 | File | `/goform/formSetMuti` | High
+45 | File | `/goform/formSetPortTr` | High
+46 | File | `/goform/formSetWizardSelectMode` | High
+47 | File | `/goform/formVirtualServ` | High
+48 | File | `/goform/GetIPTV?fgHPOST/goform/SysToo` | High
+49 | File | `/goform/saveParentControlInfo` | High
+50 | File | `/goform/SetNetControlList` | High
+51 | File | `/goform/SetOnlineDevName` | High
+52 | File | `/goform/WriteFacMac` | High
+53 | File | `/index.php` | Medium
+54 | File | `/manage_invoice.php` | High
+55 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

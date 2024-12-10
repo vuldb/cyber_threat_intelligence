@@ -45,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,19 +59,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/etc/shadow` | Medium
-5 | File | `/php/ping.php` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/sys/dict/loadTreeData` | High
-9 | File | `/SysInfo1.htm` | High
-10 | File | `/sysinfo_json.cgi` | High
-11 | File | `/system/dictData/loadDictItem` | High
-12 | File | `/system/user/modules/mod_users/controller.php` | High
-13 | File | `/view/vpn/autovpn/sub_commit.php` | High
-14 | ... | ... | ...
+4 | File | `/conf/app.conf` | High
+5 | File | `/etc/shadow` | Medium
+6 | File | `/php/ping.php` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/scripts/unlock_tasks.php` | High
+9 | File | `/sys/dict/loadTreeData` | High
+10 | File | `/SysInfo1.htm` | High
+11 | File | `/sysinfo_json.cgi` | High
+12 | File | `/system/dictData/loadDictItem` | High
+13 | File | `/system/user/modules/mod_users/controller.php` | High
+14 | File | `/view/vpn/autovpn/sub_commit.php` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

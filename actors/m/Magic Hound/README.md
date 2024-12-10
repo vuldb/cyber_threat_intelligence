@@ -18,10 +18,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
-* [AF](https://vuldb.com/?country.af)
-* ...
-
-There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,10 +59,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,36 +69,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/book/create/` | High
-4 | File | `/admin/curriculum/view_curriculum.php` | High
-5 | File | `/admin/departments/view_department.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/loginc.php` | High
-8 | File | `/admin/students/manage.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/auditLogAction.do` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/devices/acurite.c` | High
-13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-14 | File | `/etc/ajenti/config.yml` | High
-15 | File | `/event/admin/?page=user/list` | High
-16 | File | `/example/editor` | High
-17 | File | `/foms/place-order.php` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-20 | File | `/goform/login_process` | High
-21 | File | `/goform/rlmswitchr_process` | High
-22 | File | `/goforms/rlminfo` | High
-23 | File | `/newsDia.php` | Medium
-24 | File | `/plugin` | Low
-25 | File | `/pms/index.php` | High
-26 | File | `/rating.php` | Medium
-27 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-28 | ... | ... | ...
+1 | File | `/admin/curriculum/view_curriculum.php` | High
+2 | File | `/admin/departments/view_department.php` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/students/manage.php` | High
+5 | File | `/admin/user/manage_user.php` | High
+6 | File | `/devices/acurite.c` | High
+7 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+8 | File | `/event/admin/?page=user/list` | High
+9 | File | `/example/editor` | High
+10 | File | `/foms/place-order.php` | High
+11 | File | `/goform/login_process` | High
+12 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

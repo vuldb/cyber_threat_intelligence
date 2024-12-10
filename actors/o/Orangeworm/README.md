@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -48,41 +48,41 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/.htpasswd` | Medium
 3 | File | `//etc/RT2870STA.dat` | High
-4 | File | `/admin_ping.htm` | High
-5 | File | `/api/sys/login` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/user/{ID}` | High
-8 | File | `/bin/proc.cgi` | High
-9 | File | `/CFIDE/probe.cfm` | High
-10 | File | `/cgi-bin/login_action.cgi` | High
-11 | File | `/data/vendor/tcl` | High
-12 | File | `/download` | Medium
-13 | File | `/etc/tomcat8/Catalina/attack` | High
-14 | File | `/files.md5` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/` | Medium
-18 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-19 | File | `/install_extension` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/modules/registration_admission/patient_register.php` | High
-22 | File | `/news.dtl.php` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/rest/api/2/user/picker` | High
-26 | File | `/sbin/acos_service` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/sys/kernel/notes` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `/ViewUserHover.jspa` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
+4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+5 | File | `/admin_ping.htm` | High
+6 | File | `/api/sys/login` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/api/user/{ID}` | High
+9 | File | `/bin/proc.cgi` | High
+10 | File | `/CFIDE/probe.cfm` | High
+11 | File | `/cgi-bin/login_action.cgi` | High
+12 | File | `/data/vendor/tcl` | High
+13 | File | `/download` | Medium
+14 | File | `/etc/tomcat8/Catalina/attack` | High
+15 | File | `/files.md5` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/goform/` | Medium
+19 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+20 | File | `/install_extension` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/modules/registration_admission/patient_register.php` | High
+23 | File | `/news.dtl.php` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/rest/api/2/user/picker` | High
+27 | File | `/sbin/acos_service` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+31 | File | `/sys/kernel/notes` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/ViewUserHover.jspa` | High
+35 | File | `/WEB-INF/web.xml` | High
 36 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

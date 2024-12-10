@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -145,12 +145,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,36 +160,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/booking-bwdates-reports-details.php` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/manage_station.php` | High
-5 | File | `/admin/operations/expense_category.php` | High
+3 | File | `/admin/manage_station.php` | High
+4 | File | `/admin/operations/expense_category.php` | High
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 6 | File | `/app/Http/Controllers/ImageController.php` | High
 7 | File | `/apply.cgi` | Medium
 8 | File | `/attendancelist.php` | High
 9 | File | `/backend/register.php` | High
 10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/p1_ftpserver.php` | High
-13 | File | `/cgi-bin/tosei_kikai.php` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=delete_category` | High
-16 | File | `/classes/SystemSettings.php?f=update_settings` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/classes/Users.php?f=save` | High
-19 | File | `/config/myfield/test.php` | High
+11 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi-bin/p1_ftpserver.php` | High
+14 | File | `/cgi-bin/tosei_kikai.php` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/classes/SystemSettings.php?f=update_settings` | High
+18 | File | `/classes/Users.php?f=delete` | High
+19 | File | `/classes/Users.php?f=save` | High
 20 | File | `/control/register_case.php` | High
-21 | File | `/dev/dri/card1` | High
-22 | File | `/download` | Medium
-23 | File | `/foms/routers/place-order.php` | High
-24 | File | `/forgot-password` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
-27 | File | `/manager/ipconfig_new.php` | High
-28 | File | `/manage_sy.php` | High
-29 | File | `/ndmComponents.js` | High
-30 | ... | ... | ...
+21 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

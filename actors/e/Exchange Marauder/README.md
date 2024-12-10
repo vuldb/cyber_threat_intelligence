@@ -43,10 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,18 +56,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/cgi-bin/luci/api/auth` | High
-3 | File | `/filemanager/upload.php` | High
-4 | File | `/resources//../` | High
-5 | File | `/src/Illuminate/Laravel.php` | High
-6 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-7 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-8 | File | `/wp-json/oembed/1.0/embed?url` | High
-9 | File | `about.php` | Medium
-10 | File | `admin/modules/tools/ip_history_logs.php` | High
-11 | File | `adminer.php` | Medium
-12 | File | `admin_feature.php` | High
-13 | File | `api_poller.php` | High
-14 | ... | ... | ...
+3 | File | `/conf/app.conf` | High
+4 | File | `/filemanager/upload.php` | High
+5 | File | `/resources//../` | High
+6 | File | `/src/Illuminate/Laravel.php` | High
+7 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+8 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+9 | File | `/wp-json/oembed/1.0/embed?url` | High
+10 | File | `about.php` | Medium
+11 | File | `admin/modules/tools/ip_history_logs.php` | High
+12 | File | `adminer.php` | Medium
+13 | File | `admin_feature.php` | High
+14 | File | `api_poller.php` | High
+15 | ... | ... | ...
 
 There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -102,9 +102,10 @@ ID | Type | Indicator | Confidence
 45 | File | `admin/systempreferences.pl` | High
 46 | File | `admin/versions.html` | High
 47 | File | `admini/admin.php` | High
-48 | ... | ... | ...
+48 | File | `administrator/index.php` | High
+49 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

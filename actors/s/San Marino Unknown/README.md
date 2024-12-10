@@ -46,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -83,20 +84,21 @@ ID | Type | Indicator | Confidence
 25 | File | `/user/add-notes.php` | High
 26 | File | `/user/manage-notes.php` | High
 27 | File | `/var/log/nginx` | High
-28 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `/zm/index.php` | High
-31 | File | `3/E_bak5.1/upload/eginfo.php` | High
-32 | File | `act.php` | Low
-33 | File | `adclick.php` | Medium
-34 | File | `admin` | Low
-35 | File | `admin.php` | Medium
-36 | File | `admin/adminsignin.html` | High
-37 | File | `admin/movieview.php` | High
-38 | File | `admin/products/view_product.php` | High
-39 | ... | ... | ...
+28 | File | `/vcs/claire_blake` | High
+29 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+31 | File | `/zm/index.php` | High
+32 | File | `3/E_bak5.1/upload/eginfo.php` | High
+33 | File | `act.php` | Low
+34 | File | `adclick.php` | Medium
+35 | File | `admin` | Low
+36 | File | `admin.php` | Medium
+37 | File | `admin/adminsignin.html` | High
+38 | File | `admin/movieview.php` | High
+39 | File | `admin/products/view_product.php` | High
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

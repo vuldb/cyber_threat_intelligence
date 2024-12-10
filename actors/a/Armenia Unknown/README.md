@@ -127,7 +127,7 @@ ID | Type | Indicator | Confidence
 7 | File | `/manage_sy.php` | High
 8 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

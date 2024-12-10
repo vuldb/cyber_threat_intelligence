@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,20 +106,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_reference_to_local_model` | High
-2 | File | `/admin/edit_subject.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/manage-ambulance.php` | High
-5 | File | `/backend/register.php` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/p1_ftpserver.php` | High
-8 | File | `/cgi-bin/tosei_kikai.php` | High
-9 | File | `/check_availability.php` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/classes/SystemSettings.php?f=update_settings` | High
-12 | File | `/classes/Users.php?f=save` | High
-13 | ... | ... | ...
+2 | File | `/admin/bwdates-report-details.php` | High
+3 | File | `/admin/edit_subject.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/manage-ambulance.php` | High
+6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/cgi-bin/p1_ftpserver.php` | High
+10 | File | `/cgi-bin/tosei_kikai.php` | High
+11 | File | `/check_availability.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/SystemSettings.php?f=update_settings` | High
+14 | File | `/classes/Users.php?f=save` | High
+15 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with SugarGh0stRAT:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SugarGh0stRAT:
 
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -25,6 +26,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [43.242.203.115](https://vuldb.com/?ip.43.242.203.115) | - | American Artificial Intelligence Experts | High
 2 | [103.108.67.191](https://vuldb.com/?ip.103.108.67.191) | - | - | High
 3 | [103.148.245.235](https://vuldb.com/?ip.103.148.245.235) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SugarGh0stRAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
 
 ## References
 

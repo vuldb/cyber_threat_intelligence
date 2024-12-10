@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [23.229.3.70](https://vuldb.com/?ip.23.229.3.70) | ebonyha.club | DustySky | High
 3 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | Middle East | Medium
 4 | [45.63.97.44](https://vuldb.com/?ip.45.63.97.44) | 45.63.97.44.vultr.com | SneakyPastes | Medium
-5 | ... | ... | ... | ...
+5 | [72.11.148.147](https://vuldb.com/?ip.72.11.148.147) | mta8.wintogethere.com | - | High
+6 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,11 +50,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,49 +64,61 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/addbill.php` | Medium
-4 | File | `/admin/admin_manage/delete` | High
-5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/video/list` | High
-8 | File | `/adminlogin.asp` | High
-9 | File | `/application/index/controller/Icon.php` | High
-10 | File | `/apply/index.php` | High
-11 | File | `/boaform/device_reset.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-14 | File | `/classes/Master.php?f=save_category` | High
-15 | File | `/collection/all` | High
-16 | File | `/config/php.ini` | High
-17 | File | `/dl/dl_sendmail.php` | High
-18 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-19 | File | `/ecommerce/admin/products/controller.php` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/qci/answers` | High
-22 | File | `/file-manager/rename.php` | High
-23 | File | `/forms/nslookupHandler` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/function/booksave.php` | High
-26 | File | `/goform/form2userconfig.cgi` | High
-27 | File | `/goform/setcfm` | High
-28 | File | `/goform/SetSysTimeCfg` | High
-29 | File | `/goform/WifiWpsStart` | High
-30 | File | `/goform/WizardHandle` | High
-31 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-32 | File | `/inc/campaign/campaign-delete.php` | High
-33 | File | `/include/file.php` | High
-34 | File | `/login` | Low
-35 | File | `/manage_laundry.php` | High
-36 | File | `/proxy` | Low
-37 | File | `/search.php` | Medium
-38 | ... | ... | ...
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/addbill.php` | Medium
+5 | File | `/Admin/add-admin.php` | High
+6 | File | `/admin/admin_manage/delete` | High
+7 | File | `/admin/clientview.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/pages/` | High
+10 | File | `/admin/video/list` | High
+11 | File | `/adminlogin.asp` | High
+12 | File | `/admins` | Low
+13 | File | `/ajax.php?action=update_account` | High
+14 | File | `/ajax/getBasicInfo.php` | High
+15 | File | `/api/admin/system/store/order/list` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/apply/index.php` | High
+18 | File | `/boaform/device_reset.cgi` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php?f=save_category` | High
+23 | File | `/clientdetails/admin/regester.php` | High
+24 | File | `/collection/all` | High
+25 | File | `/config/php.ini` | High
+26 | File | `/course.php` | Medium
+27 | File | `/csms/?page=contact_us` | High
+28 | File | `/dl/dl_sendmail.php` | High
+29 | File | `/ecommerce/admin/products/controller.php` | High
+30 | File | `/etc/ajenti/config.yml` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/farm/product.php` | High
+33 | File | `/file-manager/rename.php` | High
+34 | File | `/forms/nslookupHandler` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/function/booksave.php` | High
+37 | File | `/goform/form2userconfig.cgi` | High
+38 | File | `/goform/setcfm` | High
+39 | File | `/goform/SetSysTimeCfg` | High
+40 | File | `/goform/telnet` | High
+41 | File | `/goform/WifiWpsStart` | High
+42 | File | `/goform/WizardHandle` | High
+43 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+44 | File | `/include/file.php` | High
+45 | File | `/login` | Low
+46 | File | `/manage_block.php` | High
+47 | File | `/manage_laundry.php` | High
+48 | File | `/modules/profile/index.php` | High
+49 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://ddanchev.blogspot.com/2024/06/exposing-molerats-cyber-threat-actor.html
 * https://securelist.com/gaza-cybergang-group1-operation-sneakypastes/90068/
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/
 * https://www.clearskysec.com/wp-content/uploads/2016/06/Operation-DustySky2_-6.2016_TLP_White.pdf

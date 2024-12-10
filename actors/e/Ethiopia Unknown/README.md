@@ -77,29 +77,30 @@ ID | Type | Indicator | Confidence
 25 | File | `/edit-client-details.php` | High
 26 | File | `/env` | Low
 27 | File | `/forum/away.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/member.php?action=chgpwdsubmit` | High
-30 | File | `/opt/bin/cli` | Medium
-31 | File | `/p` | Low
-32 | File | `/patient/doctors.php` | High
-33 | File | `/phpinventory/editcategory.php` | High
-34 | File | `/product-list.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/uncpath/` | Medium
-37 | File | `/updown/upload.cgi` | High
-38 | File | `/user/del.php` | High
-39 | File | `/web_cste/cgi-bin/product.ini` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/_next` | Low
-42 | File | `123flashchat.php` | High
-43 | File | `act.php` | Low
-44 | File | `admin.php/pay` | High
-45 | File | `admin/bad.php` | High
-46 | File | `admin/index.php` | High
-47 | File | `admin/index.php/user/del/1` | High
-48 | ... | ... | ...
+28 | File | `/include/file.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/member.php?action=chgpwdsubmit` | High
+32 | File | `/opt/bin/cli` | Medium
+33 | File | `/p` | Low
+34 | File | `/patient/doctors.php` | High
+35 | File | `/phpinventory/editcategory.php` | High
+36 | File | `/product-list.php` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/updown/upload.cgi` | High
+40 | File | `/user/del.php` | High
+41 | File | `/web_cste/cgi-bin/product.ini` | High
+42 | File | `/wp-admin/admin-ajax.php` | High
+43 | File | `/_next` | Low
+44 | File | `123flashchat.php` | High
+45 | File | `act.php` | Low
+46 | File | `admin.php/pay` | High
+47 | File | `admin/bad.php` | High
+48 | File | `admin/index.php` | High
+49 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

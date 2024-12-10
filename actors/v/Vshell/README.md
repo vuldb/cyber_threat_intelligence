@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [47.116.123.8](https://vuldb.com/?ip.47.116.123.8) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,6 +64,11 @@ There are 78 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/110.41.53.51
+* https://search.censys.io/hosts/114.132.226.247
+* https://search.censys.io/hosts/156.245.12.209
+* https://search.censys.io/hosts/156.245.12.210
+* https://search.censys.io/hosts/156.245.12.216
 * https://threatfox.abuse.ch
 
 ## Literature

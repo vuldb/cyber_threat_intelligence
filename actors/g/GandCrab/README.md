@@ -11,9 +11,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,13 +64,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,38 +84,32 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi/get_param.cgi` | High
 6 | File | `/csms/admin/inquiries/view_details.php` | High
 7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/files.md5` | Medium
+8 | File | `/ecommerce/support_ticket` | High
 9 | File | `/forum/away.php` | High
 10 | File | `/home/search` | Medium
 11 | File | `/hrm/employeeview.php` | High
-12 | File | `/images/` | Medium
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/login` | Low
-16 | File | `/messageboard/view.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/one_church/userregister.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-27 | File | `/textpattern/index.php` | High
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/v2/quantum/save-data-upload-big-file` | High
-30 | File | `/wordpress/wp-admin/admin.php` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `account_footer.php` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `admin.cropcanvas.php` | High
-37 | ... | ... | ...
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/messageboard/view.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+18 | File | `/textpattern/index.php` | High
+19 | File | `/upfile.cgi` | Medium
+20 | File | `/wordpress/wp-admin/admin.php` | High
+21 | File | `account_footer.php` | High
+22 | File | `adclick.php` | Medium
+23 | File | `add_edit_cat.asp` | High
+24 | File | `add_edit_user.asp` | High
+25 | File | `admin.cropcanvas.php` | High
+26 | File | `admin/editusertag.php` | High
+27 | File | `admin/edit_category.php` | High
+28 | File | `admin/gv_mail.php` | High
+29 | File | `admin/index.php` | High
+30 | File | `admin/mobile.php` | High
+31 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

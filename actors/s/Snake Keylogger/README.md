@@ -19,6 +19,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [192.3.176.138](https://vuldb.com/?ip.192.3.176.138) | 192-3-176-138-host.colocrossing.com | - | High
+2 | [208.91.199.223](https://vuldb.com/?ip.208.91.199.223) | 208-91-199-223.unifiedlayer.com | - | High
+3 | [216.252.233.118](https://vuldb.com/?ip.216.252.233.118) | cpanel2-nl-233-118.thcservers.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,11 +29,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,6 +53,8 @@ There are 23 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.fortinet.com/blog/threat-research/deep-analysis-of-snake-keylogger-new-variant
+* https://www.malware-traffic-analysis.net/2024/09/16/index.html
+* https://www.malware-traffic-analysis.net/2024/09/17/index.html
 
 ## Literature
 

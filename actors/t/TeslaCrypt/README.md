@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -101,34 +101,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/` | Low
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/admin/general.cgi` | High
-7 | File | `/admin/index3.php` | High
-8 | File | `/admin/manage-users.php` | High
-9 | File | `/admin/pages/` | High
-10 | File | `/admin/photo.php` | High
-11 | File | `/admin/reminders/manage_reminder.php` | High
-12 | File | `/admins` | Low
-13 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-14 | File | `/ajax/getBasicInfo.php` | High
-15 | File | `/api/admin/system/store/order/list` | High
-16 | File | `/API/info` | Medium
-17 | File | `/catcompany.php` | High
-18 | File | `/CCMAdmin/serverlist.asp` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/cgi/get_param.cgi` | High
-22 | File | `/clientdetails/admin/regester.php` | High
-23 | File | `/cms/category/list` | High
-24 | File | `/csms/?page=contact_us` | High
-25 | File | `/csms/admin/inquiries/view_details.php` | High
-26 | File | `/cstecgi.cgi` | Medium
-27 | File | `/Default/Bd` | Medium
-28 | File | `/ebics-server/ebics.aspx` | High
+1 | File | `/admin.php/accessory/filesdel.html` | High
+2 | File | `/admin/` | Low
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/general.cgi` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/manage-users.php` | High
+8 | File | `/admin/pages/` | High
+9 | File | `/admin/photo.php` | High
+10 | File | `/admin/reminders/manage_reminder.php` | High
+11 | File | `/admins` | Low
+12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+13 | File | `/ajax/getBasicInfo.php` | High
+14 | File | `/api/admin/system/store/order/list` | High
+15 | File | `/API/info` | Medium
+16 | File | `/catcompany.php` | High
+17 | File | `/CCMAdmin/serverlist.asp` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/cgi/get_param.cgi` | High
+21 | File | `/clientdetails/admin/regester.php` | High
+22 | File | `/cms/category/list` | High
+23 | File | `/csms/?page=contact_us` | High
+24 | File | `/csms/admin/inquiries/view_details.php` | High
+25 | File | `/cstecgi.cgi` | Medium
+26 | File | `/Default/Bd` | Medium
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/ecommerce/support_ticket` | High
 29 | File | `/egroupware/index.php` | High
 30 | File | `/farm/product.php` | High
 31 | File | `/forum/away.php` | High
@@ -139,19 +139,20 @@ ID | Type | Indicator | Confidence
 36 | File | `/index.php` | Medium
 37 | File | `/librarian/bookdetails.php` | High
 38 | File | `/loginsave.php` | High
-39 | File | `/messageboard/view.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/owa/auth/logon.aspx` | High
-42 | File | `/param.file.tgz` | High
-43 | File | `/ptippage.cgi` | High
-44 | File | `/public_html/users.php` | High
-45 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-46 | File | `/textpattern/index.php` | High
-47 | File | `/tmp/out` | Medium
-48 | File | `/upfile.cgi` | Medium
-49 | ... | ... | ...
+39 | File | `/manage_block.php` | High
+40 | File | `/messageboard/view.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/owa/auth/logon.aspx` | High
+43 | File | `/param.file.tgz` | High
+44 | File | `/ptippage.cgi` | High
+45 | File | `/public_html/users.php` | High
+46 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+47 | File | `/textpattern/index.php` | High
+48 | File | `/tmp/out` | Medium
+49 | File | `/update-image1.php` | High
+50 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

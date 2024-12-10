@@ -17,8 +17,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [154.197.124.161](https://vuldb.com/?ip.154.197.124.161) | - | - | High
-2 | [172.232.172.123](https://vuldb.com/?ip.172.232.172.123) | 172-232-172-123.ip.linodeusercontent.com | - | High
+1 | [103.91.190.180](https://vuldb.com/?ip.103.91.190.180) | 103-91-1-190-180.colodee.net | - | High
+2 | [154.197.124.161](https://vuldb.com/?ip.154.197.124.161) | - | - | High
+3 | [172.232.172.123](https://vuldb.com/?ip.172.232.172.123) | 172-232-172-123.ip.linodeusercontent.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,7 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
 3 | T1592 | CWE-532 | Invocation of Process Using Visible Sensitive Information | High
 
@@ -48,6 +49,7 @@ There are 3 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://tria.ge/241002-m9pv8sxamd/behavioral1
 
 ## Literature
 

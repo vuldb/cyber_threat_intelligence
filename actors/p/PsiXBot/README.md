@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -96,55 +96,56 @@ ID | Type | Indicator | Confidence
 34 | File | `/admin/students.php` | High
 35 | File | `/admin/system.html` | High
 36 | File | `/admin/sys_sql_query.php` | High
-37 | File | `/admin/update_s6.php` | High
-38 | File | `/admin/users.php` | High
-39 | File | `/admin/vacancy/index.php` | High
-40 | File | `/admin/view_sendlist.php` | High
-41 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-42 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-43 | File | `/admin_ping.htm` | High
-44 | File | `/adplanet/PlanetCommentList` | High
-45 | File | `/ajax.php?action=read_msg` | High
-46 | File | `/api/admin/store/product/list` | High
-47 | File | `/api/client/editemedia.php` | High
-48 | File | `/api/controllers/common/UploadsController.php` | High
-49 | File | `/api/file/downloadUrl` | High
-50 | File | `/api/files/recipepictures/` | High
-51 | File | `/api/ping` | Medium
-52 | File | `/api/plugin/uninstall` | High
-53 | File | `/api/process.php` | High
-54 | File | `/api /v3/auth` | High
-55 | File | `/app/options.py` | High
-56 | File | `/application/controller/Pengeluaran.php` | High
-57 | File | `/application/index/controller/Databasesource.php` | High
-58 | File | `/application/index/controller/Pay.php` | High
-59 | File | `/application/index/controller/Screen.php` | High
-60 | File | `/application/websocket/controller/Setting.php` | High
-61 | File | `/apply/index.php` | High
-62 | File | `/att_add.php` | Medium
-63 | File | `/backend/register.php` | High
-64 | File | `/blog` | Low
-65 | File | `/blog-single.php` | High
-66 | File | `/book-services.php` | High
-67 | File | `/card_scan.php` | High
-68 | File | `/cgi-bin/adm.cgi` | High
-69 | File | `/cgi-bin/cstecgi.cgi` | High
-70 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-71 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-72 | File | `/cgi-bin/nas_sharing.cgi` | High
-73 | File | `/cgi-bin/qcmap_auth` | High
-74 | File | `/cgi-bin/wlogin.cgi` | High
-75 | File | `/check_availability.php` | High
-76 | File | `/classes/Master.php?f=save_inquiry` | High
-77 | File | `/classes/Master.php?f=save_reminder` | High
-78 | File | `/classes/Users.php` | High
-79 | File | `/classes/Users.php?f=save` | High
-80 | File | `/collection/all` | High
-81 | File | `/control/deactivate_case.php` | High
-82 | File | `/cwc/login` | Medium
-83 | ... | ... | ...
+37 | File | `/admin/template/update` | High
+38 | File | `/admin/update_s6.php` | High
+39 | File | `/admin/users.php` | High
+40 | File | `/admin/vacancy/index.php` | High
+41 | File | `/admin/view_sendlist.php` | High
+42 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+43 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+44 | File | `/admin_ping.htm` | High
+45 | File | `/adplanet/PlanetCommentList` | High
+46 | File | `/ajax.php?action=read_msg` | High
+47 | File | `/api/admin/store/product/list` | High
+48 | File | `/api/client/editemedia.php` | High
+49 | File | `/api/controllers/common/UploadsController.php` | High
+50 | File | `/api/file/downloadUrl` | High
+51 | File | `/api/files/recipepictures/` | High
+52 | File | `/api/ping` | Medium
+53 | File | `/api/plugin/uninstall` | High
+54 | File | `/api/process.php` | High
+55 | File | `/api /v3/auth` | High
+56 | File | `/app/options.py` | High
+57 | File | `/application/controller/Pengeluaran.php` | High
+58 | File | `/application/index/controller/Databasesource.php` | High
+59 | File | `/application/index/controller/Pay.php` | High
+60 | File | `/application/index/controller/Screen.php` | High
+61 | File | `/application/websocket/controller/Setting.php` | High
+62 | File | `/apply/index.php` | High
+63 | File | `/att_add.php` | Medium
+64 | File | `/backend/register.php` | High
+65 | File | `/blog` | Low
+66 | File | `/blog-single.php` | High
+67 | File | `/book-services.php` | High
+68 | File | `/card_scan.php` | High
+69 | File | `/cgi-bin/adm.cgi` | High
+70 | File | `/cgi-bin/cstecgi.cgi` | High
+71 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+72 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+73 | File | `/cgi-bin/nas_sharing.cgi` | High
+74 | File | `/cgi-bin/qcmap_auth` | High
+75 | File | `/cgi-bin/wlogin.cgi` | High
+76 | File | `/check_availability.php` | High
+77 | File | `/classes/Master.php?f=save_inquiry` | High
+78 | File | `/classes/Master.php?f=save_reminder` | High
+79 | File | `/classes/Users.php` | High
+80 | File | `/classes/Users.php?f=save` | High
+81 | File | `/collection/all` | High
+82 | File | `/control/deactivate_case.php` | High
+83 | File | `/cwc/login` | Medium
+84 | ... | ... | ...
 
-There are 734 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 740 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

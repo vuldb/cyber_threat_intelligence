@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,8 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [66.23.226.254](https://vuldb.com/?ip.66.23.226.254) | - | - | High
 13 | [66.208.244.253](https://vuldb.com/?ip.66.208.244.253) | sbs.heraldtech.net | - | High
 14 | [77.161.25.182](https://vuldb.com/?ip.77.161.25.182) | 77-161-25-182.fixed.kpn.net | - | High
-15 | ... | ... | ... | ...
+15 | [77.223.124.210](https://vuldb.com/?ip.77.223.124.210) | - | - | High
+16 | ... | ... | ... | ...
 
 There are 58 more IOC items available. Please use our online service to access the data.
 
@@ -49,11 +50,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,41 +64,22 @@ ID | Type | Indicator | Confidence
 1 | File | `/../../conf/template/uhttpd.json` | High
 2 | File | `/admin/modal_add_product.php` | High
 3 | File | `/admin/options` | High
-4 | File | `/api/addusers` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/v11/users/sessions` | High
-7 | File | `/application/index/controller/Screen.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/category.php` | High
-10 | File | `/cgi-bin/diagnostics` | High
-11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-12 | File | `/cgi-bin/pass` | High
-13 | File | `/cmf/process/<process_id>/logs` | High
-14 | File | `/config.cgi?webmin` | High
-15 | File | `/connectors/index.php` | High
-16 | File | `/data/wps.setup.json` | High
-17 | File | `/download` | Medium
-18 | File | `/edit/server` | Medium
-19 | File | `/index.php?menu=asterisk_cli` | High
-20 | File | `/mcategory.php` | High
-21 | File | `/MIME/INBOX-MM-1/` | High
-22 | File | `/movie.php` | Medium
-23 | File | `/multi-vendor-shopping-script/product-list.php` | High
-24 | File | `/news-portal-script/information.php` | High
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/page.php` | Medium
-27 | File | `/php/ping.php` | High
-28 | File | `/preview.php` | Medium
-29 | File | `/public/login.htm` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/real-estate-script/search_property.php` | High
-32 | File | `/recordings/index.php` | High
-33 | File | `/searchJob.php` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/user/loader.php?api=1` | High
-36 | ... | ... | ...
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/application/index/controller/Screen.php` | High
+6 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+7 | File | `/dbsrv.asp` | Medium
+8 | File | `/edit/server` | Medium
+9 | File | `/index.php?menu=asterisk_cli` | High
+10 | File | `/MIME/INBOX-MM-1/` | High
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/page.php` | Medium
+13 | File | `/php/ping.php` | High
+14 | File | `/preview.php` | Medium
+15 | File | `/public/plugins/` | High
+16 | File | `/uncpath/` | Medium
+17 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

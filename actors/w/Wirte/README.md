@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Wirte:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wirte:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | Middle East | High
-2 | [45.129.97.207](https://vuldb.com/?ip.45.129.97.207) | - | Middle East | High
-3 | [91.203.6.27](https://vuldb.com/?ip.91.203.6.27) | wbqj.duound.com | Middle East | High
-4 | ... | ... | ... | ...
+1 | [5.42.221.151](https://vuldb.com/?ip.5.42.221.151) | - | - | High
+2 | [37.120.247.22](https://vuldb.com/?ip.37.120.247.22) | - | - | High
+3 | [37.120.247.100](https://vuldb.com/?ip.37.120.247.100) | - | - | High
+4 | [37.221.65.254](https://vuldb.com/?ip.37.221.65.254) | nnvusg | - | High
+5 | [38.180.151.206](https://vuldb.com/?ip.38.180.151.206) | - | - | High
+6 | [45.59.118.145](https://vuldb.com/?ip.45.59.118.145) | 145.118.59.45.static.cloudzy.com | - | High
+7 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,13 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,22 +58,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addnews.html` | High
-2 | File | `/admin.php/pic/admin/type/pl_save` | High
-3 | File | `/churchcrm/WhyCameEditor.php` | High
-4 | File | `/example/editor` | High
-5 | File | `/goform/aspForm` | High
-6 | File | `/index.php?page=search/rentals` | High
-7 | File | `/members/view_member.php` | High
-8 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/addnews.html` | High
+3 | File | `/admin.php/pic/admin/type/pl_save` | High
+4 | File | `/admin/view-appointment.php` | High
+5 | File | `/api/get-browser-snapshot` | High
+6 | File | `/app/zentao/module/repo/model.php` | High
+7 | File | `/churchcrm/WhyCameEditor.php` | High
+8 | File | `/cobbler-api` | Medium
+9 | File | `/common/dict/list` | High
+10 | File | `/edit_book.php` | High
+11 | File | `/example/editor` | High
+12 | File | `/goform/aspForm` | High
+13 | File | `/hcms/admin/index.php/language/ajax` | High
+14 | File | `/index.php?page=search/rentals` | High
+15 | File | `/list.php` | Medium
+16 | File | `/login/index.php` | High
+17 | File | `/members/view_member.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/oauth/idp/.well-known/openid-configuration` | High
+20 | File | `/php/ping.php` | High
+21 | File | `/protocol/iscgwtunnel/deleteiscgwrouteconf.php` | High
+22 | File | `/scripts/unlock_tasks.php` | High
+23 | File | `/see_more_details.php` | High
+24 | File | `/spip.php` | Medium
+25 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://lab52.io/blog/wirte-group-attacking-the-middle-east/
+* https://research.checkpoint.com/2024/hamas-affiliated-threat-actor-expands-to-disruptive-activity/
 * https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/
 
 ## Literature

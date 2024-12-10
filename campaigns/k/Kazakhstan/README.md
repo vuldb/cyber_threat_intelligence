@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -210,7 +210,7 @@ ID | IP address | Hostname | Actor | Confidence
 177 | [77.94.4.0](https://vuldb.com/?ip.77.94.4.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
 178 | ... | ... | ... | ...
 
-There are 706 more IOC items available. Please use our online service to access the data.
+There are 709 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -221,8 +221,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -237,27 +237,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin/add_ikev2.php` | High
 4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/cron/settings/setJob/` | High
-11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/changePassword` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetSysTimeCfg` | High
-23 | ... | ... | ...
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/manage_model.php` | High
+8 | File | `/admin/manage_user.php` | High
+9 | File | `/admin/overtime_add.php` | High
+10 | File | `/admin/overtime_row.php` | High
+11 | File | `/admin/subject.php` | High
+12 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/cron/settings/setJob/` | High
+15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+16 | File | `/catalog/all-products` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/ExportSettings.sh` | High
+19 | File | `/changePassword` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+22 | File | `/edit-subject.php` | High
+23 | File | `/endpoint/add-user.php` | High
+24 | File | `/etc/postfix/sender_login` | High
+25 | File | `/etc/shadow.sample` | High
+26 | File | `/foms/routers/place-order.php` | High
+27 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

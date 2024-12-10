@@ -93,28 +93,29 @@ ID | Type | Indicator | Confidence
 29 | File | `/edit-client-details.php` | High
 30 | File | `/env` | Low
 31 | File | `/forum/away.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/member.php?action=chgpwdsubmit` | High
-34 | File | `/opt/bin/cli` | Medium
-35 | File | `/p` | Low
-36 | File | `/patient/doctors.php` | High
-37 | File | `/phpinventory/editcategory.php` | High
-38 | File | `/preview.php` | Medium
-39 | File | `/product-list.php` | High
-40 | File | `/proxy/` | Low
-41 | File | `/spip.php` | Medium
-42 | File | `/uncpath/` | Medium
-43 | File | `/updown/upload.cgi` | High
-44 | File | `/user/del.php` | High
-45 | File | `/web_cste/cgi-bin/product.ini` | High
-46 | File | `/wp-admin/admin-ajax.php` | High
-47 | File | `/_next` | Low
-48 | File | `123flashchat.php` | High
-49 | File | `act.php` | Low
-50 | File | `admin.php/pay` | High
-51 | ... | ... | ...
+32 | File | `/include/file.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/member.php?action=chgpwdsubmit` | High
+36 | File | `/opt/bin/cli` | Medium
+37 | File | `/p` | Low
+38 | File | `/patient/doctors.php` | High
+39 | File | `/phpinventory/editcategory.php` | High
+40 | File | `/preview.php` | Medium
+41 | File | `/product-list.php` | High
+42 | File | `/proxy/` | Low
+43 | File | `/spip.php` | Medium
+44 | File | `/uncpath/` | Medium
+45 | File | `/updown/upload.cgi` | High
+46 | File | `/user/del.php` | High
+47 | File | `/web_cste/cgi-bin/product.ini` | High
+48 | File | `/wp-admin/admin-ajax.php` | High
+49 | File | `/_next` | Low
+50 | File | `123flashchat.php` | High
+51 | File | `act.php` | Low
+52 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

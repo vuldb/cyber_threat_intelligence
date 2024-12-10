@@ -44,9 +44,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
@@ -57,49 +57,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/manage` | High
-2 | File | `/admin/add-new.php` | High
-3 | File | `/admin/applicants/controller.php` | High
-4 | File | `/admin/book_add.php` | High
-5 | File | `/admin/book_row.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/admin/category/controller.php` | High
-8 | File | `/admin/category_row.php` | High
-9 | File | `/admin/cms_content.php` | High
-10 | File | `/admin/company/controller.php` | High
-11 | File | `/admin/company/index.php` | High
-12 | File | `/admin/doctors.php` | High
-13 | File | `/admin/edit-doc.php` | High
-14 | File | `/admin/employee/controller.php` | High
-15 | File | `/admin/employee/index.php` | High
-16 | File | `/admin/lab.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/makehtml_freelist_action.php` | High
-19 | File | `/admin/mod_room/controller.php?action=add` | High
-20 | File | `/admin/patient.php` | High
-21 | File | `/admin/return_add.php` | High
-22 | File | `/admin/sys_sql_query.php` | High
-23 | File | `/admin/user/controller.php` | High
-24 | File | `/admin/user/index.php` | High
-25 | File | `/admin/vacancy/controller.php` | High
-26 | File | `/admin/vacancy/index.php` | High
-27 | File | `/admin/vote_edit.php` | High
-28 | File | `/adminPage/conf/reload` | High
-29 | File | `/adminPage/conf/saveCmd` | High
-30 | File | `/adminPage/main/upload` | High
-31 | File | `/adminPage/www/addOver` | High
-32 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-33 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-34 | File | `/adminpanel/admin/query/loginExe.php` | High
-35 | File | `/api.php` | Medium
-36 | File | `/apply/index.php` | High
-37 | File | `/apps/system/api/user.go` | High
+1 | File | `/admin/?page=system_info/contact_info` | High
+2 | File | `/admin/?page=user/manage` | High
+3 | File | `/admin/add-new.php` | High
+4 | File | `/admin/applicants/controller.php` | High
+5 | File | `/admin/book_add.php` | High
+6 | File | `/admin/book_row.php` | High
+7 | File | `/admin/borrow_add.php` | High
+8 | File | `/admin/category/controller.php` | High
+9 | File | `/admin/category_row.php` | High
+10 | File | `/admin/cms_content.php` | High
+11 | File | `/admin/company/controller.php` | High
+12 | File | `/admin/company/index.php` | High
+13 | File | `/admin/doctors.php` | High
+14 | File | `/admin/edit-doc.php` | High
+15 | File | `/admin/employee/controller.php` | High
+16 | File | `/admin/employee/index.php` | High
+17 | File | `/admin/lab.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/makehtml_freelist_action.php` | High
+20 | File | `/admin/mod_room/controller.php?action=add` | High
+21 | File | `/admin/patient.php` | High
+22 | File | `/admin/return_add.php` | High
+23 | File | `/admin/sys_sql_query.php` | High
+24 | File | `/admin/user/controller.php` | High
+25 | File | `/admin/user/index.php` | High
+26 | File | `/admin/vacancy/controller.php` | High
+27 | File | `/admin/vacancy/index.php` | High
+28 | File | `/admin/vote_edit.php` | High
+29 | File | `/adminPage/conf/reload` | High
+30 | File | `/adminPage/conf/saveCmd` | High
+31 | File | `/adminPage/main/upload` | High
+32 | File | `/adminPage/www/addOver` | High
+33 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+34 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+35 | File | `/adminpanel/admin/query/loginExe.php` | High
+36 | File | `/api.php` | Medium
+37 | File | `/apply/index.php` | High
 38 | File | `/apps/system/router/upload.go` | High
 39 | File | `/boaform/wlan_basic_set.cgi` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

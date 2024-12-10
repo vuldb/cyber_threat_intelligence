@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,8 +43,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -55,64 +55,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/` | Low
-3 | File | `/app/options.py` | High
-4 | File | `/card_scan.php` | High
-5 | File | `/cgi-bin` | Medium
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-8 | File | `/cwc/login` | Medium
-9 | File | `/debuginfo.htm` | High
-10 | File | `/dialog/select_media.php` | High
-11 | File | `/download` | Medium
-12 | File | `/etc/passwd` | Medium
-13 | File | `/etc/quagga` | Medium
-14 | File | `/fhconf/umconfig.txt` | High
-15 | File | `/forms/doLogin` | High
-16 | File | `/h/autoSaveDraft` | High
-17 | File | `/h/calendar` | Medium
-18 | File | `/inc/extensions.php` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/includes/login.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/members/view_member.php` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/nova/bin/console` | High
-25 | File | `/nova/bin/detnet` | High
-26 | File | `/oauth/idp/.well-known/openid-configuration` | High
-27 | File | `/out.php` | Medium
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/product_list.php` | High
-30 | File | `/request.php` | Medium
-31 | File | `/req_password_user.php` | High
-32 | File | `/rest/api/latest/projectvalidate/key` | High
-33 | File | `/rom-0` | Low
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/ServletAPI/accounts/login` | High
-36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-37 | File | `/sysmanage/changelogo.php` | High
-38 | File | `/tmp/.uci/network` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/upload` | Low
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-43 | File | `/WEB-INF/web.xml` | High
-44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-45 | File | `/wp-json` | Medium
-46 | File | `aboutus.php` | Medium
-47 | File | `achat/produit_details.php` | High
-48 | File | `adclick.php` | Medium
-49 | File | `add_to_cart.php` | High
-50 | File | `adm.cgi` | Low
-51 | File | `admin.jcomments.php` | High
-52 | File | `admin/index.php` | High
-53 | File | `admin/modules/tools/ip_history_logs.php` | High
-54 | File | `admin/specials.php` | High
-55 | File | `announce.php` | Medium
+1 | File | `/?page=tracks` | High
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=system_info/contact_info` | High
+5 | File | `/app/options.py` | High
+6 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+7 | File | `/card_scan.php` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/classes/SystemSettings.php?f=update_settings` | High
+10 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+11 | File | `/cwc/login` | Medium
+12 | File | `/debuginfo.htm` | High
+13 | File | `/dialog/select_media.php` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/etc/quagga` | Medium
+16 | File | `/fhconf/umconfig.txt` | High
+17 | File | `/forms/doLogin` | High
+18 | File | `/goform/WifiExtraSet` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/include/chart_generator.php` | High
+22 | File | `/includes/login.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/members/view_member.php` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/newProject.php` | High
+27 | File | `/nova/bin/console` | High
+28 | File | `/nova/bin/detnet` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/product_list.php` | High
+33 | File | `/request.php` | Medium
+34 | File | `/req_password_user.php` | High
+35 | File | `/rest/api/latest/projectvalidate/key` | High
+36 | File | `/rom-0` | Low
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/ServletAPI/accounts/login` | High
+39 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+40 | File | `/sysmanage/changelogo.php` | High
+41 | File | `/tmp/.uci/network` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/upload` | Low
+44 | File | `/usr/bin/pkexec` | High
+45 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+46 | File | `/WEB-INF/web.xml` | High
+47 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+48 | File | `/wp-json` | Medium
+49 | File | `aboutus.php` | Medium
+50 | File | `achat/produit_details.php` | High
+51 | File | `adclick.php` | Medium
+52 | File | `add_to_cart.php` | High
+53 | File | `adm.cgi` | Low
+54 | File | `admin.jcomments.php` | High
+55 | File | `admin/index.php` | High
 56 | ... | ... | ...
 
-There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

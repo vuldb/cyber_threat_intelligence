@@ -49,12 +49,12 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/cstecgi.cgi` | High
 11 | File | `/cgi-bin/hd_config.cgi` | High
 12 | File | `/change_password.php` | High
-13 | File | `/control/deactivate_case.php` | High
-14 | File | `/ecommerce/admin/products/controller.php` | High
-15 | File | `/endpoint/add-computer.php` | High
+13 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
+14 | File | `/control/deactivate_case.php` | High
+15 | File | `/ecommerce/admin/products/controller.php` | High
 16 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

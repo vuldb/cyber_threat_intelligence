@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [MS](https://vuldb.com/?country.ms)
 
 ## Actors
 
@@ -42,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -58,32 +59,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
 2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sql` | Medium
-5 | File | `/admin/students.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/admin/system.html` | High
-8 | File | `/adminPage/conf/reload` | High
-9 | File | `/adminPage/www/addOver` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/application/index/controller/Icon.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/bin/ate` | Medium
-14 | File | `/boaform/device_reset.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/dataSet/testTransform;swagger-ui` | High
-17 | File | `/dayrui/Fcms/View/system_log.html` | High
-18 | File | `/dayrui/My/View/main.html` | High
-19 | File | `/goform/execCommand` | High
-20 | File | `/goform/goform_get_cmd_process` | High
-21 | File | `/goform/SetRebootTimer` | High
-22 | File | `/goform/WriteFacMac` | High
-23 | File | `/index.php` | Medium
-24 | File | `/index.php/admin` | High
-25 | File | `/index/ajax/lang` | High
-26 | ... | ... | ...
+3 | File | `/admin/bwdates-reports-ds.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/sql` | Medium
+6 | File | `/admin/students.php` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/admin/system.html` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/adminPage/www/addOver` | High
+11 | File | `/api /v3/auth` | High
+12 | File | `/application/index/controller/Icon.php` | High
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/boaform/device_reset.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/control/edit_client.php` | High
+18 | File | `/dataSet/testTransform;swagger-ui` | High
+19 | File | `/dayrui/Fcms/View/system_log.html` | High
+20 | File | `/dayrui/My/View/main.html` | High
+21 | File | `/general/meeting/manage/delete.php` | High
+22 | File | `/goform/execCommand` | High
+23 | File | `/goform/formResetStatistic` | High
+24 | File | `/goform/goform_get_cmd_process` | High
+25 | File | `/goform/SetRebootTimer` | High
+26 | File | `/goform/WriteFacMac` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index.php/admin` | High
+29 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

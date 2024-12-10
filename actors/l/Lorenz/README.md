@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TR](https://vuldb.com/?country.tr)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [64.190.113.100](https://vuldb.com/?ip.64.190.113.100) | - | CVE-2022-29499 | High
-2 | [137.184.181.252](https://vuldb.com/?ip.137.184.181.252) | - | CVE-2022-29499 | High
-3 | [138.68.19.94](https://vuldb.com/?ip.138.68.19.94) | node.gardenfitfoods.com | CVE-2022-29499 | High
+1 | [49.12.121.47](https://vuldb.com/?ip.49.12.121.47) | filezilla-project.org | - | High
+2 | [64.190.113.100](https://vuldb.com/?ip.64.190.113.100) | - | CVE-2022-29499 | High
+3 | [134.209.96.37](https://vuldb.com/?ip.134.209.96.37) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,18 +53,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `config.xml` | Medium
-2 | File | `contact.php` | Medium
-3 | File | `contact_support.php` | High
-4 | ... | ... | ...
+1 | File | `/config/getuser` | High
+2 | File | `/inc/jquery/uploadify/uploadify.php` | High
+3 | File | `awstats.pl` | Medium
+4 | File | `config.xml` | Medium
+5 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://arcticwolf.com/resources/blog/lorenz-ransomware-chiseling-in/
+* https://www.nccgroup.com/us/research-blog/unmasking-lorenz-ransomware-a-dive-into-recent-tactics-techniques-and-procedures/
 
 ## Literature
 

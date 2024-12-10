@@ -32,7 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
@@ -43,27 +43,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_member.php` | High
-2 | File | `/backend/register.php` | High
-3 | File | `/cgi-bin` | Medium
-4 | File | `/cgi-bin/ExportAllSettings.sh` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/include/comm_post.inc.php` | High
-7 | File | `/magnoliaPublic/travel/members/login.html` | High
-8 | File | `/members/poster.php` | High
-9 | File | `/register.do` | Medium
-10 | File | `/secure/EditSubscription.jspa` | High
-11 | File | `/spip.php` | Medium
-12 | File | `addentry.php` | Medium
-13 | File | `admin.cgi/config.cgi` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/admin.guestbook.php` | High
-16 | File | `admin/admin.php` | High
-17 | File | `admin/conf_users_edit.php` | High
-18 | File | `admin/index.php` | High
+1 | File | `/admin-dashboard` | High
+2 | File | `/admin/edit_member.php` | High
+3 | File | `/backend/register.php` | High
+4 | File | `/cgi-bin` | Medium
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/include/comm_post.inc.php` | High
+8 | File | `/magnoliaPublic/travel/members/login.html` | High
+9 | File | `/members/poster.php` | High
+10 | File | `/register.do` | Medium
+11 | File | `/secure/EditSubscription.jspa` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/student/project_selection/move_up_project.php` | High
+14 | File | `addentry.php` | Medium
+15 | File | `admin.cgi/config.cgi` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/admin.guestbook.php` | High
+18 | File | `admin/admin.php` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

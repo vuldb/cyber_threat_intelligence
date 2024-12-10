@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -225,11 +225,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -243,58 +243,58 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
 5 | File | `/admin/ajax.php?action=delete_user` | High
 6 | File | `/admin/ajax.php?action=login` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/general-setting` | High
-11 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/inquiries/view_inquiry.php` | High
-14 | File | `/admin/order.php` | High
-15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-16 | File | `/admin/service` | High
-17 | File | `/adminPage/conf/reload` | High
-18 | File | `/api/runscript` | High
-19 | File | `/api/snapshots/` | High
-20 | File | `/api/v1/custom_component` | High
-21 | File | `/api/v1/snapshots` | High
-22 | File | `/api/v2/maps` | Medium
-23 | File | `/apply/index.php` | High
-24 | File | `/candidate/index.php` | High
-25 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/system_mgr.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_category` | High
-32 | File | `/classes/Master.php?f=save_medicine` | High
-33 | File | `/classes/SystemSettings.php?f=update_settings` | High
-34 | File | `/classes/Users.php?f=delete` | High
-35 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-36 | File | `/downloadFile.php` | High
-37 | File | `/dtale/chart-data/1` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/endpoint/add-calorie.php` | High
-40 | File | `/endpoint/add-folder.php` | High
-41 | File | `/etc/init.d/update_notifications.sh` | High
-42 | File | `/etc/shadow` | Medium
-43 | File | `/file_manager/login.php` | High
-44 | File | `/film-rating.php` | High
-45 | File | `/foms/routers/place-order.php` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/goform/DhcpListClient` | High
-48 | File | `/goform/SetIpMacBind` | High
-49 | File | `/goform/WifiExtraSet` | High
-50 | File | `/guestbook` | Medium
-51 | File | `/hrm/leaverequest.php` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index/ajax/lang` | High
-54 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-55 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+9 | File | `/admin/book-details.php` | High
+10 | File | `/admin/bwdates-report-details.php` | High
+11 | File | `/admin/change-image.php` | High
+12 | File | `/admin/cmsVote/save` | High
+13 | File | `/admin/cms_content.php` | High
+14 | File | `/admin/emp-profile-avatar.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/forms/option_lists/edit.php` | High
+17 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/inquiries/view_inquiry.php` | High
+20 | File | `/admin/operations/expense_category.php` | High
+21 | File | `/admin/order.php` | High
+22 | File | `/admin/orders/view_order.php` | High
+23 | File | `/admin/product/manage_product.php` | High
+24 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+25 | File | `/admin/sou.php` | High
+26 | File | `/admin/users.php` | High
+27 | File | `/adminPage/conf/reload` | High
+28 | File | `/apply/index.php` | High
+29 | File | `/backend/admin/his_admin_add_vendor.php` | High
+30 | File | `/candidate/index.php` | High
+31 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+32 | File | `/cgi-bin/adm.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/classes/Master.php` | High
+36 | File | `/classes/Master.php?f=delete_category` | High
+37 | File | `/classes/Master.php?f=save_medicine` | High
+38 | File | `/classes/SystemSettings.php?f=update_settings` | High
+39 | File | `/classes/Users.php?f=delete` | High
+40 | File | `/core/config-revisions` | High
+41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+42 | File | `/downloadFile.php` | High
+43 | File | `/dtale/chart-data/1` | High
+44 | File | `/DXR.axd` | Medium
+45 | File | `/editar-cliente.php` | High
+46 | File | `/editar-produto.php` | High
+47 | File | `/endpoint/add-calorie.php` | High
+48 | File | `/endpoint/add-folder.php` | High
+49 | File | `/endpoint/add-timesheet.php` | High
+50 | File | `/etc/init.d/update_notifications.sh` | High
+51 | File | `/file/updateprofile.php` | High
+52 | File | `/filemanager/upload` | High
+53 | File | `/file_manager/login.php` | High
+54 | File | `/film-rating.php` | High
+55 | File | `/foms/routers/place-order.php` | High
 56 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

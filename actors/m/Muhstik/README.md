@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,11 +63,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,22 +85,17 @@ ID | Type | Indicator | Confidence
 9 | File | `/config/api/v1/reboot` | High
 10 | File | `/controller/AdminController.php` | High
 11 | File | `/ecommerce/support_ticket` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/friends/ajax_invite` | High
-15 | File | `/graphStatus/displayServiceStatus.php` | High
-16 | File | `/inc/HTTPClient.php` | High
-17 | File | `/include/makecvs.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/Items/*/RemoteImages/Download` | High
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/login/index.php` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/oauth/idp/.well-known/openid-configuration` | High
-24 | File | `/preview.php` | Medium
-25 | ... | ... | ...
+12 | File | `/forum/away.php` | High
+13 | File | `/friends/ajax_invite` | High
+14 | File | `/inc/HTTPClient.php` | High
+15 | File | `/include/makecvs.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/Items/*/RemoteImages/Download` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/login/index.php` | High
+20 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -37,9 +37,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +49,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/iwgallery/pictures/details.asp` | High
-4 | File | `/secserver` | Medium
-5 | File | `/server/ajax/user_manager.php` | High
-6 | File | `/websocket/exec` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/conf_users_edit.php` | High
-9 | File | `admin/upload.php` | High
-10 | ... | ... | ...
+2 | File | `/app/uploading/upload-mp3.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/iwgallery/pictures/details.asp` | High
+6 | File | `/secserver` | Medium
+7 | File | `/server/ajax/user_manager.php` | High
+8 | File | `/websocket/exec` | High
+9 | File | `admin.php` | Medium
+10 | File | `admin/conf_users_edit.php` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

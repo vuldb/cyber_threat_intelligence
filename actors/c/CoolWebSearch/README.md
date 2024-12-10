@@ -156,10 +156,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -189,25 +189,29 @@ ID | Type | Indicator | Confidence
 20 | File | `/candidate/index.php` | High
 21 | File | `/catalog/all-products` | High
 22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/classes/SystemSettings.php?f=update_settings` | High
-24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-25 | File | `/edit-subject.php` | High
-26 | File | `/endpoint/add-calorie.php` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/etc/init.d/update_notifications.sh` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/foms/routers/place-order.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/SetSysTimeCfg` | High
-33 | File | `/hrm/leaverequest.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index/ajax/lang` | High
-36 | File | `/lesson/controller.php` | High
-37 | File | `/manage_person.php` | High
-38 | File | `/manage_question.php` | High
-39 | ... | ... | ...
+23 | File | `/cgi-bin/ExportSettings.sh` | High
+24 | File | `/classes/SystemSettings.php?f=update_settings` | High
+25 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+27 | File | `/edit-subject.php` | High
+28 | File | `/endpoint/add-calorie.php` | High
+29 | File | `/endpoint/add-timesheet.php` | High
+30 | File | `/endpoint/add-user.php` | High
+31 | File | `/etc/init.d/update_notifications.sh` | High
+32 | File | `/etc/postfix/sender_login` | High
+33 | File | `/foms/routers/place-order.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/geoserver/gwc/rest.html` | High
+36 | File | `/goform/SetLEDCfg` | High
+37 | File | `/goform/setMacFilterCfg` | High
+38 | File | `/goform/SetSysTimeCfg` | High
+39 | File | `/grid/console` | High
+40 | File | `/hrm/leaverequest.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index/ajax/lang` | High
+43 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

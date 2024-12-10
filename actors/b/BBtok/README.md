@@ -16,12 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [147.124.213.152](https://vuldb.com/?ip.147.124.213.152) | - | - | High
-2 | [173.249.196.195](https://vuldb.com/?ip.173.249.196.195) | - | - | High
-3 | [176.31.159.196](https://vuldb.com/?ip.176.31.159.196) | ip196.ip-176-31-159.eu | - | High
+1 | [37.148.205.26](https://vuldb.com/?ip.37.148.205.26) | 26.205.148.37.host.secureserver.net | - | High
+2 | [50.62.182.1](https://vuldb.com/?ip.50.62.182.1) | 1.182.62.50.host.secureserver.net | - | High
+3 | [147.124.213.152](https://vuldb.com/?ip.147.124.213.152) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,6 +57,7 @@ There are 43 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://research.checkpoint.com/2023/behind-the-scenes-of-bbtok-analyzing-a-bankers-server-side-components/
+* https://www.trendmicro.com/de_de/research/24/i/banking-trojans-mekotio-looks-to-expand-targets--bbtok-abuses-ut.html
 
 ## Literature
 

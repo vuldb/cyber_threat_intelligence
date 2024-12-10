@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -82,17 +82,18 @@ ID | Type | Indicator | Confidence
 28 | File | `/etc/passwd` | Medium
 29 | File | `/file-manager/upload.php` | High
 30 | File | `/forum/away.php` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/inc/topBarNav.php` | High
-34 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-35 | File | `/members/view_member.php` | High
-36 | File | `/mgm_dev_reboot.asp` | High
-37 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+31 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/hrm/employeeview.php` | High
+34 | File | `/inc/topBarNav.php` | High
+35 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+36 | File | `/members/view_member.php` | High
+37 | File | `/mgm_dev_reboot.asp` | High
 38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-39 | ... | ... | ...
+39 | File | `/oauth/idp/.well-known/openid-configuration` | High
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

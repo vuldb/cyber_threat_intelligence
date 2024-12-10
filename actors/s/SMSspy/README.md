@@ -56,41 +56,41 @@ ID | Type | Indicator | Confidence
 7 | File | `/APR/signup.php` | High
 8 | File | `/classes/SystemSettings.php?f=update_settings` | High
 9 | File | `/contact.php` | Medium
-10 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-11 | File | `/emgui/rest/ums/messages` | High
-12 | File | `/foms/routers/place-order.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/FreshRSS/p/ext.php` | High
-15 | File | `/goform/setStaticRoute` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/index.php` | Medium
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/mims/login.php` | High
-20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-21 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-22 | File | `/product_list.php` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/services/details.asp` | High
-25 | File | `/SystemMng.ashx` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `account/signup.php` | High
-28 | File | `action.php` | Medium
-29 | File | `action/usermanager.htm` | High
-30 | File | `adb/adb_client.c` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add-category.php` | High
-33 | File | `addentry.php` | Medium
-34 | File | `add_comment.php` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `adm-admlog.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin.php3` | Medium
-39 | File | `admin.webring.docs.php` | High
-40 | File | `admin/admin_editor.php` | High
-41 | File | `admin/conf_users_edit.php` | High
+10 | File | `/editar-cliente.php` | High
+11 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+12 | File | `/emgui/rest/ums/messages` | High
+13 | File | `/foms/routers/place-order.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/FreshRSS/p/ext.php` | High
+16 | File | `/goform/setStaticRoute` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/index.php` | Medium
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/mims/login.php` | High
+21 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+22 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+23 | File | `/product_list.php` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/services/details.asp` | High
+26 | File | `/SystemMng.ashx` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `account/signup.php` | High
+29 | File | `action.php` | Medium
+30 | File | `action/usermanager.htm` | High
+31 | File | `adb/adb_client.c` | High
+32 | File | `adclick.php` | Medium
+33 | File | `add-category.php` | High
+34 | File | `addentry.php` | Medium
+35 | File | `add_comment.php` | High
+36 | File | `add_edit_user.asp` | High
+37 | File | `adm-admlog.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin.php3` | Medium
+40 | File | `admin.webring.docs.php` | High
+41 | File | `admin/admin_editor.php` | High
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

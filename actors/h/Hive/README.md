@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -56,27 +56,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/cashadvance_row.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/change_password_process` | High
-11 | File | `/controller/Index.php` | High
-12 | File | `/CPE` | Low
-13 | File | `/Employer/EditProfile.php` | High
-14 | File | `/endpoint/add-guest.php` | High
-15 | File | `/goform/addressNat` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/goform/SysToolRestoreSet` | High
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/include/menu_v.inc.php` | High
-20 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
-21 | File | `/librarian/lab.php` | High
-22 | File | `/login/` | Low
+5 | File | `/admin_ping.htm` | High
+6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/editBookmark` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/change_password_process` | High
+12 | File | `/controller/Index.php` | High
+13 | File | `/CPE` | Low
+14 | File | `/Employer/EditProfile.php` | High
+15 | File | `/endpoint/add-guest.php` | High
+16 | File | `/goform/addressNat` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/goform/SysToolRestoreSet` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/include/menu_v.inc.php` | High
+21 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
+22 | File | `/librarian/lab.php` | High
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,10 +62,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,27 +76,30 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/add_ikev2.php` | High
 3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/manage_model.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/admin/subject.php` | High
-8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-9 | File | `/catalog/all-products` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/changePassword` | High
-12 | File | `/edit-subject.php` | High
-13 | File | `/endpoint/add-user.php` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/etc/postfix/sender_login` | High
-16 | File | `/foms/routers/place-order.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/delIpMacBind` | High
-19 | File | `/goform/SetDDNSCfg` | High
-20 | File | `/goform/SetSysTimeCfg` | High
-21 | File | `/goform/wifiSSIDget` | High
-22 | ... | ... | ...
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/changePassword` | High
+14 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+15 | File | `/edit-subject.php` | High
+16 | File | `/endpoint/add-user.php` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/etc/postfix/sender_login` | High
+19 | File | `/etc/shadow.sample` | High
+20 | File | `/foms/routers/place-order.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/frmL7ProtForm` | High
+23 | File | `/goform/SetLEDCfg` | High
+24 | File | `/goform/setMacFilterCfg` | High
+25 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -58,38 +58,39 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi/get_param.cgi` | High
 6 | File | `/csms/admin/inquiries/view_details.php` | High
 7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/files.md5` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/home/search` | Medium
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/login` | Low
-15 | File | `/messageboard/view.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/one_church/userregister.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-26 | File | `/textpattern/index.php` | High
-27 | File | `/tmp` | Low
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/v2/quantum/save-data-upload-big-file` | High
-30 | File | `/wordpress/wp-admin/admin.php` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `account_footer.php` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `admin.cropcanvas.php` | High
-37 | ... | ... | ...
+8 | File | `/ecommerce/support_ticket` | High
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/home/search` | Medium
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/login` | Low
+16 | File | `/messageboard/view.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/one_church/userregister.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+23 | File | `/SASWebReportStudio/logonAndRender.do` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+26 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+27 | File | `/textpattern/index.php` | High
+28 | File | `/tmp` | Low
+29 | File | `/upfile.cgi` | Medium
+30 | File | `/v2/quantum/save-data-upload-big-file` | High
+31 | File | `/wordpress/wp-admin/admin.php` | High
+32 | File | `4.edu.php` | Medium
+33 | File | `account_footer.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `add_edit_cat.asp` | High
+36 | File | `add_edit_user.asp` | High
+37 | File | `admin.cropcanvas.php` | High
+38 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

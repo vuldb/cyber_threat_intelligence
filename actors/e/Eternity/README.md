@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 17 | File | `admin/categories_industry.php` | High
 18 | File | `admin/class-woo-popup-admin.php` | High
 19 | File | `admin/content/postcategory` | High
-20 | ... | ... | ...
+20 | File | `admincp/auth/secure.php` | High
+21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

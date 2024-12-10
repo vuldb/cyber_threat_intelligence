@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,33 +60,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
 2 | File | `/admin-manage-user.php` | High
-3 | File | `/admin/edit-admin.php` | High
-4 | File | `/admin/lab.php` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/edit-admin.php` | High
 5 | File | `/admin/list_resource_icon.php?action=delete` | High
 6 | File | `/admin/singlelogin.php` | High
 7 | File | `/admin/update_s6.php` | High
 8 | File | `/ajax/check_medicine_name.php` | High
-9 | File | `/api/geojson` | Medium
-10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/bcms/admin/?page=user/manage_user` | High
-13 | File | `/cbs/system/ShowAdvanced.do` | High
-14 | File | `/cgi-bin/editBookmark` | High
-15 | File | `/cgi-bin/ExportAllSettings.sh` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/cgi-bin/webviewer_login_page` | High
-18 | File | `/cgi/networkDiag.cgi` | High
-19 | File | `/cms/category/list` | High
-20 | File | `/cms/classes/Users.php?f=delete_client` | High
-21 | File | `/debug` | Low
-22 | File | `/debug/pprof` | Medium
-23 | File | `/designer/add/layout` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/em/console/logon/logon` | High
-26 | File | `/env` | Low
-27 | File | `/forum/away.php` | High
-28 | File | `/general/email/inbox/delete_webmail.php` | High
-29 | File | `/goform/setmac` | High
+9 | File | `/api/blade-user/export-user` | High
+10 | File | `/api/geojson` | Medium
+11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/bcms/admin/?page=user/manage_user` | High
+14 | File | `/cbs/system/ShowAdvanced.do` | High
+15 | File | `/cgi-bin/editBookmark` | High
+16 | File | `/cgi-bin/ExportAllSettings.sh` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/webviewer_login_page` | High
+19 | File | `/cgi/networkDiag.cgi` | High
+20 | File | `/cms/category/list` | High
+21 | File | `/cms/classes/Users.php?f=delete_client` | High
+22 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/designer/add/layout` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/em/console/logon/logon` | High
+27 | File | `/env` | Low
+28 | File | `/forum/away.php` | High
+29 | File | `/general/email/inbox/delete_webmail.php` | High
 30 | File | `/goform/SetNetControlList` | High
 31 | File | `/inc/jquery/uploadify/uploadify.php` | High
 32 | File | `/list` | Low
@@ -100,10 +100,9 @@ ID | Type | Indicator | Confidence
 40 | File | `/search.php` | Medium
 41 | File | `/secure/QueryComponent!Default.jspa` | High
 42 | File | `/ServiceContractDef.do` | High
-43 | File | `/spip.php` | Medium
-44 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

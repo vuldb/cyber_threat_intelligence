@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,52 +69,55 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/academy/home/courses` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/edit-post.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/positions_add.php` | High
-10 | File | `/ajax.php?action=save_company` | High
-11 | File | `/ajax.php?action=save_user` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/database` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/applications/nexus/modules/front/store/store.php` | High
-18 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/c/PluginsController.php` | High
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/apkg_mgr.cgi` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-26 | File | `/chaincity/user/ticket/create` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=delete_record` | High
-29 | File | `/classes/Master.php?f=save_category` | High
-30 | File | `/classes/SystemSettings.php?f=update_settings` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/collection/all` | High
-33 | File | `/Controller/Ajaxfileupload.ashx` | High
-34 | File | `/detailed.php` | High
-35 | File | `/dtale/chart-data/1` | High
-36 | File | `/ecommerce/support_ticket` | High
-37 | File | `/ecrire/exec/puce_statut.php` | High
-38 | File | `/etc/shadow.sample` | High
-39 | File | `/fftools/ffmpeg_enc.c` | High
-40 | File | `/files/` | Low
-41 | File | `/forms/doLogin` | High
-42 | File | `/formSysLog` | Medium
-43 | File | `/forum/away.php` | High
-44 | File | `/friends/ajax_invite` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | ... | ... | ...
+3 | File | `/add_new_invoice.php` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/create-package.php` | High
+8 | File | `/admin/del_feedback.php` | High
+9 | File | `/admin/doAdminAction.php?act=addCate` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/edit-post.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/modal_add_product.php` | High
+14 | File | `/admin/positions_add.php` | High
+15 | File | `/admin/robot.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/database` | High
+18 | File | `/app/index/controller/Common.php` | High
+19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+21 | File | `/applications/nexus/modules/front/store/store.php` | High
+22 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+23 | File | `/bitrix/admin/ldap_server_edit.php` | High
+24 | File | `/c/PluginsController.php` | High
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/apkg_mgr.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+30 | File | `/chaincity/user/ticket/create` | High
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/Master.php?f=delete_record` | High
+33 | File | `/classes/Master.php?f=save_category` | High
+34 | File | `/classes/SystemSettings.php?f=update_settings` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/collection/all` | High
+37 | File | `/Controller/Ajaxfileupload.ashx` | High
+38 | File | `/deal/{note_id}/note` | High
+39 | File | `/detailed.php` | High
+40 | File | `/dtale/chart-data/1` | High
+41 | File | `/ecommerce/support_ticket` | High
+42 | File | `/ecrire/exec/puce_statut.php` | High
+43 | File | `/etc/shadow.sample` | High
+44 | File | `/fftools/ffmpeg_enc.c` | High
+45 | File | `/files/` | Low
+46 | File | `/filter.php` | Medium
+47 | File | `/forms/doLogin` | High
+48 | File | `/formSysLog` | Medium
+49 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

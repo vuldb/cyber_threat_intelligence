@@ -55,7 +55,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/staff/bookdetails.php` | High
 7 | File | `/student/bookdetails.php` | High
 8 | File | `/text/pdf/PdfReader.java` | High
-9 | ... | ... | ...
+9 | File | `activate_act.php` | High
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

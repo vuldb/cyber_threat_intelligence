@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emotet:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -980,7 +980,7 @@ ID | IP address | Hostname | Campaign | Confidence
 957 | [61.233.185.198](https://vuldb.com/?ip.61.233.185.198) | - | - | High
 958 | ... | ... | ... | ...
 
-There are 3829 more IOC items available. Please use our online service to access the data.
+There are 3830 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -988,13 +988,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1083 | CWE-552 | File and Directory Information Exposure | High
+7 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1002,149 +1004,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?g=net_pro_keyword_import_save` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
-4 | File | `/Account/login.php` | High
-5 | File | `/actuator/heapdump` | High
-6 | File | `/add_members.php` | High
-7 | File | `/admin-api/upload_image` | High
-8 | File | `/admin-manage-user.php` | High
-9 | File | `/admin/` | Low
-10 | File | `/admin/?page=borrow/view_borrow` | High
-11 | File | `/admin/aboutus.php` | High
-12 | File | `/Admin/add-admin.php` | High
-13 | File | `/admin/add-ambulance.php` | High
-14 | File | `/admin/addgiving.php` | High
-15 | File | `/admin/addTithes.php` | High
-16 | File | `/admin/add_ikev2.php` | High
-17 | File | `/admin/add_postlogin.php` | High
-18 | File | `/admin/add_sundaysch.php` | High
-19 | File | `/admin/add_visitor.php` | High
-20 | File | `/admin/admin-profile.php` | High
-21 | File | `/admin/admin.php` | High
-22 | File | `/admin/adminHome.php` | High
-23 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-24 | File | `/admin/admin_user.php` | High
-25 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
-26 | File | `/admin/ajax.php?action=login` | High
-27 | File | `/admin/app/login_crud.php` | High
-28 | File | `/admin/app/product.php` | High
-29 | File | `/admin/app/profile_crud.php` | High
-30 | File | `/admin/app/service_crud.php` | High
-31 | File | `/admin/applicants/controller.php` | High
-32 | File | `/admin/applicants/index.php` | High
-33 | File | `/admin/application-bwdates-reports-details.php` | High
-34 | File | `/admin/bookdate.php` | High
-35 | File | `/admin/booking-bwdates-reports-details.php` | High
-36 | File | `/admin/booking-search.php` | High
-37 | File | `/admin/booktime.php` | High
-38 | File | `/admin/category/controller.php` | High
-39 | File | `/admin/category/index.php` | High
-40 | File | `/admin/category/view_category.php` | High
-41 | File | `/admin/company/controller.php` | High
-42 | File | `/admin/company/index.php` | High
-43 | File | `/admin/config_Anticrack.php` | High
-44 | File | `/admin/config_ISCGroupNoCache.php` | High
-45 | File | `/admin/contact-us.php` | High
-46 | File | `/admin/contactus.php` | High
-47 | File | `/admin/delete_log.php` | High
-48 | File | `/admin/dialog/select_images_post.php` | High
-49 | File | `/admin/div_data/delete?divId=9` | High
-50 | File | `/admin/edit-admin.php` | High
-51 | File | `/Admin/edit-photo.php` | High
-52 | File | `/admin/edit-post.php` | High
-53 | File | `/admin/edit-services.php` | High
-54 | File | `/admin/edit_categories.php` | High
-55 | File | `/Admin/edit_profile.php` | High
-56 | File | `/admin/edit_supplier.php` | High
-57 | File | `/admin/employee/controller.php` | High
-58 | File | `/admin/employee/index.php` | High
-59 | File | `/admin/forgot-password.php` | High
-60 | File | `/admin/index.php` | High
-61 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-62 | File | `/admin/list_crl_conf` | High
-63 | File | `/admin/list_ipAddressPolicy.php` | High
-64 | File | `/admin/list_localuser.php` | High
-65 | File | `/admin/list_resource_icon.php?action=delete` | High
-66 | File | `/admin/login.php` | High
-67 | File | `/Admin/login.php` | High
-68 | File | `/admin/maintenance/manage_category.php` | High
-69 | File | `/admin/manage-ambulance.php` | High
-70 | File | `/admin/manage-students.php` | High
-71 | File | `/admin/manage_user.php` | High
-72 | File | `/admin/menu/toEdit` | High
-73 | File | `/admin/operations/expense_category.php` | High
-74 | File | `/admin/orders/view_order.php` | High
-75 | File | `/admin/product/manage_product.php` | High
-76 | File | `/admin/receipt.php` | High
-77 | File | `/admin/rooms.php` | High
-78 | File | `/admin/search.php` | High
-79 | File | `/admin/singlelogin.php` | High
-80 | File | `/admin/system.php` | High
-81 | File | `/admin/tag.php` | High
-82 | File | `/admin/twitter.php` | High
-83 | File | `/admin/update-rooms.php` | High
-84 | File | `/admin/update-users.php` | High
-85 | File | `/admin/user-search.php` | High
-86 | File | `/admin/user/controller.php` | High
-87 | File | `/admin/user/index.php` | High
-88 | File | `/admin/users.php` | High
-89 | File | `/admin/users_photo.php` | High
-90 | File | `/admin/vacancy/controller.php` | High
-91 | File | `/admin/vacancy/index.php` | High
-92 | File | `/adminapi/system/crud` | High
-93 | File | `/adminapi/system/file/openfile` | High
-94 | File | `/adminPage/conf/reload` | High
-95 | File | `/adminPage/conf/saveCmd` | High
-96 | File | `/adminPage/main/upload` | High
-97 | File | `/adminPage/www/addOver` | High
-98 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-99 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-100 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-101 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-102 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-103 | File | `/adminpanel/admin/query/loginExe.php` | High
-104 | File | `/admins/{adminId}` | High
-105 | File | `/ajax-api.php` | High
-106 | File | `/api/blade-user/export-user` | High
-107 | File | `/api/client/editemedia.php` | High
-108 | File | `/api/process.php` | High
-109 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-110 | File | `/api/v1/toolbox/device/update/swap` | High
-111 | File | `/app/admin/controller/Upload.php` | High
-112 | File | `/app/ajax/search_sales_report.php` | High
-113 | File | `/app/controller/Setup.php` | High
-114 | File | `/app/middleware/TokenVerify.php` | High
-115 | File | `/application/controller/Pelanggan.php` | High
-116 | File | `/application/controller/Pengeluaran.php` | High
-117 | File | `/application/controller/Transaki.php` | High
-118 | File | `/apps/system/api/user.go` | High
-119 | File | `/apps/system/router/upload.go` | High
-120 | File | `/apps/system/services/role_menu.go` | High
-121 | File | `/backend/register.php` | High
-122 | File | `/billing/bill/edit/` | High
-123 | File | `/bishe/register` | High
-124 | File | `/boafrm/formSystemCheck` | High
-125 | File | `/cancel.php` | Medium
-126 | File | `/candidate/index.php` | High
-127 | File | `/cap.js` | Low
-128 | File | `/cart.php` | Medium
-129 | File | `/catalog/all-products` | High
-130 | File | `/cgi-bin/cstecgi.cgi` | High
-131 | File | `/cgi-bin/hd_config.cgi` | High
-132 | File | `/cgi-bin/info.cgi` | High
-133 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-134 | File | `/cgi-bin/nas_sharing.cgi` | High
-135 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-136 | File | `/cgi-bin/tosei_kikai.php` | High
-137 | File | `/cgi-bin/webfile_mgr.cgi` | High
-138 | File | `/change-password.php` | High
-139 | File | `/check_availability.php` | High
-140 | File | `/classes/Master.php?f=save_category` | High
-141 | ... | ... | ...
+1 | File | `.procmailrc` | Medium
+2 | File | `/?mobile=1` | Medium
+3 | File | `/aboutadd.php` | High
+4 | File | `/add_new_invoice.php` | High
+5 | File | `/admin/?setting-base.htm` | High
+6 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+7 | File | `/admin/budget/manage_budget.php` | High
+8 | File | `/admin/bwdates-reports-ds.php` | High
+9 | File | `/admin/edit_role.php` | High
+10 | File | `/admin/fetch_product_details.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/manage-pages.php` | High
+14 | File | `/admin/order.php` | High
+15 | File | `/admin/profile.php` | High
+16 | File | `/admin/settings/index.php?page=accounts` | High
+17 | File | `/admin/setup.php` | High
+18 | File | `/admin/template/edit` | High
+19 | File | `/adminapi/system/file/openfile` | High
+20 | File | `/api/blade-user/export-user` | High
+21 | File | `/articles/welcome-to-your-site#comments-head` | High
+22 | File | `/auth_files/photo/` | High
+23 | File | `/bloodrequest.php` | High
+24 | File | `/book_list.php` | High
+25 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+26 | File | `/cgi-bin/adm.cgi` | High
+27 | File | `/cgi-bin/alexserv` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/ExportSettings.sh` | High
+30 | File | `/cgi-bin/luci/api/auth` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Users.php?f=save_client` | High
+33 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+34 | File | `/crm/data/pdf.php` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/ejbca/ra/cert` | High
+37 | File | `/etc/shadow.sample` | High
+38 | File | `/filemanager/upload` | High
+39 | File | `/formLoginAuth.htm` | High
+40 | File | `/forms/doLogin` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/geoserver/gwc/rest.html` | High
+43 | File | `/goform/formResetStatistic` | High
+44 | File | `/goform/frmL7ProtForm` | High
+45 | ... | ... | ...
 
-There are 1251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1180,6 +1086,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/56ce2b869b7126e336389f768cc2ec2e60623babe39112c5b27ab9bf7eab7316/
 * https://bazaar.abuse.ch/sample/57b21f05af0facd00c9abcb23333cc3ce19ca4fb24c46b8c158a21edfef03ffb/
 * https://bazaar.abuse.ch/sample/200f8456509d6f70d23e575dbd09ed7de6d88ce5ca0c319f3ff98eeb94813277/
+* https://bazaar.abuse.ch/sample/676b3029331da1aa727799097f0599bee2759ef668a97ef5bddcc56fc22c7096/
 * https://bazaar.abuse.ch/sample/737a243fa45698a3065f01d7f6c3a64bf5b720f969f548e8106f5f272bb02616/
 * https://bazaar.abuse.ch/sample/3891b63c6a9b4bacc3618597005c3011ea7a631e9a0f63a04a10e6c6de06d46c/
 * https://bazaar.abuse.ch/sample/663691f9df3d17dde6330cff50e30c63ec795ac0b6969986c6c31414231cadbb/

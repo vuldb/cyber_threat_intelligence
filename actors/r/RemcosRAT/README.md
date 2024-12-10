@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.remcosrat](https://vuldb.com/?actor.remcosrat)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with RemcosRAT:
+
+* CVE-2017-0199
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RemcosRAT:
@@ -21,16 +27,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
-2 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
-3 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
-4 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
-5 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
-6 | [95.214.26.60](https://vuldb.com/?ip.95.214.26.60) | - | - | High
-7 | [95.214.26.79](https://vuldb.com/?ip.95.214.26.79) | - | - | High
-8 | ... | ... | ... | ...
+1 | [45.90.89.50](https://vuldb.com/?ip.45.90.89.50) | mail.xhhjxx.com | CVE-2017-0199 | High
+2 | [76.76.21.22](https://vuldb.com/?ip.76.76.21.22) | - | CVE-2017-0199 | High
+3 | [76.76.21.93](https://vuldb.com/?ip.76.76.21.93) | - | CVE-2017-0199 | High
+4 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | CVE-2017-0199 | High
+5 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
+6 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
+7 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
+8 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
+9 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -75,43 +83,42 @@ ID | Type | Indicator | Confidence
 19 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
 20 | File | `/ajax.php?action=read_msg` | High
 21 | File | `/api/baskets/{name}` | High
-22 | File | `/api/sys/login` | High
-23 | File | `/api2/html/` | Medium
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/application/index/controller/File.php` | High
-26 | File | `/application/plugins/controller/Upload.php` | High
-27 | File | `/author_posts.php` | High
-28 | File | `/be/rpc.php` | Medium
-29 | File | `/blog` | Low
-30 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/login.cgi` | High
-34 | File | `/cgi-bin/nas_sharing.cgi` | High
-35 | File | `/cgi-bin/nightled.cgi` | High
-36 | File | `/cgi-bin/system_mgr.cgi` | High
-37 | File | `/cgi-bin/vitogate.cgi` | High
-38 | File | `/classes/Login.php` | High
-39 | File | `/classes/Master.php?f=delete_category` | High
-40 | File | `/classes/Master.php?f=delete_inquiry` | High
-41 | File | `/classes/Master.php?f=delete_item` | High
-42 | File | `/classes/master.php?f=delete_order` | High
-43 | File | `/classes/Master.php? f=save_medicine` | High
-44 | File | `/classes/Master.php?f=save_service` | High
-45 | File | `/classes/SystemSettings.php?f=update_settings` | High
-46 | File | `/classes/Users.php?f=save` | High
-47 | File | `/collection/all` | High
-48 | File | `/config` | Low
-49 | File | `/control/register_case.php` | High
-50 | File | `/Controller/Ajaxfileupload.ashx` | High
-51 | File | `/core/config-revisions` | High
-52 | File | `/cupseasylive/currencylist.php` | High
-53 | File | `/cupseasylive/grnlist.php` | High
-54 | File | `/cupseasylive/locationmodify.php` | High
-55 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-56 | ... | ... | ...
+22 | File | `/api/cron/settings/setJob/` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/api2/html/` | Medium
+25 | File | `/application/index/controller/Databasesource.php` | High
+26 | File | `/application/index/controller/File.php` | High
+27 | File | `/application/plugins/controller/Upload.php` | High
+28 | File | `/author_posts.php` | High
+29 | File | `/be/rpc.php` | Medium
+30 | File | `/blog` | Low
+31 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+34 | File | `/cgi-bin/login.cgi` | High
+35 | File | `/cgi-bin/nas_sharing.cgi` | High
+36 | File | `/cgi-bin/nightled.cgi` | High
+37 | File | `/cgi-bin/system_mgr.cgi` | High
+38 | File | `/cgi-bin/vitogate.cgi` | High
+39 | File | `/classes/Login.php` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/classes/Master.php?f=delete_inquiry` | High
+42 | File | `/classes/Master.php?f=delete_item` | High
+43 | File | `/classes/master.php?f=delete_order` | High
+44 | File | `/classes/Master.php? f=save_medicine` | High
+45 | File | `/classes/Master.php?f=save_service` | High
+46 | File | `/classes/SystemSettings.php?f=update_settings` | High
+47 | File | `/classes/Users.php?f=save` | High
+48 | File | `/collection/all` | High
+49 | File | `/config` | Low
+50 | File | `/control/register_case.php` | High
+51 | File | `/Controller/Ajaxfileupload.ashx` | High
+52 | File | `/core/config-revisions` | High
+53 | File | `/cupseasylive/currencylist.php` | High
+54 | File | `/cupseasylive/grnlist.php` | High
+55 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +131,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://cert.gov.ua/article/6276567
 * https://www.esentire.com/blog/from-onlydcratfans-to-remcosrat
 * https://www.forcepoint.com/blog/x-labs/url-shortener-microsoft-word-remcos-rat-trojan
+* https://www.malware-traffic-analysis.net/2024/09/11/index.html
+* https://www.trellix.com/blogs/research/unmasking-the-hidden-threat-inside-a-sophisticated-excel-based-attack-delivering-fileless-remcos-rat/
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/a-noteworthy-threat-how-cybercriminals-are-abusing-onenote-part-2/
 
 ## Literature

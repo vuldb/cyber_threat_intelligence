@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
-* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37319,14 +37319,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-27, CWE-35, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059 | CWE-88 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37334,70 +37332,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=tracks` | High
-2 | File | `/abcd/opac/php/otros_sitios.php` | High
-3 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-4 | File | `/admin/?page=categories/view_category` | High
-5 | File | `/admin/?page=musics/manage_music` | High
-6 | File | `/admin/about_edit.php?action=modify` | High
-7 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
-8 | File | `/admin/edit_area.php` | High
-9 | File | `/admin/educloud/videobind.html` | High
-10 | File | `/admin/file_manager/export` | High
-11 | File | `/admin/file_manager/files` | High
-12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-13 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-14 | File | `/admin/index.php?r=user%2Fcreate` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/notes/create` | High
-17 | File | `/admin/order.php` | High
-18 | File | `/Admin/registration.php` | High
-19 | File | `/admin/suppliers/view_details.php` | High
-20 | File | `/admin/template/update` | High
-21 | File | `/admin/user/user-move-run.php` | High
-22 | File | `/ajax.php?action=delete_deductions` | High
-23 | File | `/ajax/checkin.php` | High
-24 | File | `/ajax/getBasicInfo.php` | High
-25 | File | `/api/blade-system/menu/list?updatexml` | High
-26 | File | `/api/files/recipepictures/` | High
-27 | File | `/apilog.php` | Medium
-28 | File | `/apply.cgi` | Medium
-29 | File | `/apply/index.php` | High
-30 | File | `/bin/boa` | Medium
-31 | File | `/cap.js` | Low
-32 | File | `/cgi-bin/apkg_mgr.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/discovery.cgi` | High
-35 | File | `/cgi-bin/hd_config.cgi` | High
-36 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-37 | File | `/cgi-bin/s3.cgi` | High
-38 | File | `/cgi-bin/wapopen` | High
-39 | File | `/cgi-bin/webdav_mgr.cgi` | High
-40 | File | `/cgi-bin/webfile_mgr.cgi` | High
-41 | File | `/cgi-bin/widget_api.cgi` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
-43 | File | `/classes/Master.php?f=delete_record` | High
-44 | File | `/classes/SystemSettings.php?f=update_settings` | High
-45 | File | `/classes/Users.php?f=delete` | High
-46 | File | `/classes/Users.php?f=save_client` | High
-47 | File | `/clientdetails/admin/regester.php` | High
-48 | File | `/common/show_image.php` | High
-49 | File | `/controllers/add_client.php` | High
-50 | File | `/controllers/add_user.php` | High
-51 | File | `/CPE` | Low
-52 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-53 | File | `/dist/index.js` | High
-54 | File | `/downloadFile.php` | High
-55 | File | `/DXR.axd` | Medium
-56 | File | `/ecommerce/admin/login.php` | High
-57 | File | `/ecommerce/admin/products/controller.php` | High
-58 | File | `/ecommerce/popup_Item.php` | High
-59 | File | `/Employee/edit-profile.php` | High
-60 | File | `/endpoint/add-folder.php` | High
-61 | File | `/endpoint/Add.php` | High
-62 | ... | ... | ...
+1 | File | `/boafrm/formSysCmd` | High
+2 | File | `/modules/profile/index.php` | High
+3 | File | `/view/DBManage/Backup_Server_commit.php` | High
+4 | ... | ... | ...
 
-There are 544 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

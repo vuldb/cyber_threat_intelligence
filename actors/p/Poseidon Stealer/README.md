@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.93.20.174](https://vuldb.com/?ip.45.93.20.174) | - | - | High
-2 | [79.137.192.4](https://vuldb.com/?ip.79.137.192.4) | - | - | High
-3 | [147.45.47.170](https://vuldb.com/?ip.147.45.47.170) | - | - | High
+1 | [5.10.250.235](https://vuldb.com/?ip.5.10.250.235) | - | - | High
+2 | [38.180.242.26](https://vuldb.com/?ip.38.180.242.26) | - | - | High
+3 | [45.93.20.174](https://vuldb.com/?ip.45.93.20.174) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-88 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,22 +47,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/getcfg.php` | Medium
-2 | File | `admin.php` | Medium
-3 | File | `discord.py` | Medium
-4 | File | `includes/settings/class-alg-download-plugins-settings.php` | High
-5 | ... | ... | ...
+1 | File | `/admin/curriculum/view_curriculum.php` | High
+2 | File | `/admin/template.php` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/edit-subject.php` | High
+5 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+6 | File | `/getcfg.php` | Medium
+7 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+8 | File | `/modules/files/list.php` | High
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/student/bookdetails.php` | High
+11 | File | `/SystemMng.ashx` | High
+12 | File | `/textpattern/index.php` | High
+13 | File | `/Web/SysManage/UserEdit.aspx` | High
+14 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/auth.php` | High
+17 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/esThreatIntelligence/iocs/blob/main/PoseidonStealer/PoseidonStealer-9-1-2024.txt
+* https://search.censys.io/hosts/5.10.250.235
+* https://search.censys.io/hosts/38.180.242.26
 * https://search.censys.io/hosts/147.45.47.170
 * https://search.censys.io/hosts/185.28.119.85
+* https://search.censys.io/hosts/185.235.128.217
 * https://search.censys.io/hosts/194.59.183.241
+* https://search.censys.io/hosts/209.126.1.139
 * https://tria.ge/240810-n9yc2ssgjf/behavioral1
 * https://tria.ge/240816-ltppvssbpp/behavioral1
 

@@ -55,25 +55,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/balance/service/list` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/include/helpers/upload.helper.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/lam/tmp/` | Medium
-10 | File | `/lan.asp` | Medium
-11 | File | `/LDMS/frm_splitfrm.aspx` | High
-12 | File | `/members/view_member.php` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/NAGErrors` | Medium
-15 | File | `/new` | Low
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/rest/api/latest/projectvalidate/key` | High
-18 | ... | ... | ...
+2 | File | `/admin/app/service_crud.php` | High
+3 | File | `/balance/service/list` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/include/helpers/upload.helper.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/lam/tmp/` | Medium
+11 | File | `/lan.asp` | Medium
+12 | File | `/LDMS/frm_splitfrm.aspx` | High
+13 | File | `/members/view_member.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/NAGErrors` | Medium
+16 | File | `/new` | Low
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/rest/api/latest/projectvalidate/key` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

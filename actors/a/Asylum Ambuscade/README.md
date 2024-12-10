@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/api/theme-edit/` | High
+3 | File | `/admin/blood/update/o-.php` | High
 4 | File | `/admin/index2.html` | High
 5 | File | `/admin/login.php` | High
 6 | File | `/admin/maintenance/view_designation.php` | High
@@ -74,21 +74,21 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 9 | File | `/api/files/recipepictures/` | High
 10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/cgi-bin/adm.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/go` | Medium
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/contact.php` | Medium
-18 | File | `/CPE` | Low
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/gsissh/sshd_config` | High
-21 | File | `/face-recognition-php/facepay-master/camera.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forum/PostPrivateMessage` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/hrm/employeeview.php` | High
+11 | File | `/app/uploading/upload-mp3.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/adm.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/go` | Medium
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/contact.php` | Medium
+20 | File | `/CPE` | Low
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/gsissh/sshd_config` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/home/masterConsole` | High
 26 | File | `/index/ajax/lang` | High
 27 | File | `/members/poster.php` | High
 28 | File | `/mics/j_spring_security_check` | High
@@ -105,10 +105,9 @@ ID | Type | Indicator | Confidence
 39 | File | `/sysinfo_json.cgi` | High
 40 | File | `/system/admin/add_group_save` | High
 41 | File | `/system/dictData/loadDictItem` | High
-42 | File | `/system/user/modules/mod_users/controller.php` | High
-43 | ... | ... | ...
+42 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

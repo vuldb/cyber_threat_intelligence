@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
-* [AT](https://vuldb.com/?country.at)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -68,30 +68,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
 2 | File | `/about.php` | Medium
-3 | File | `/admin/index2.html` | High
-4 | File | `/Api/ASF` | Medium
-5 | File | `/etc/shadow` | Medium
-6 | File | `/etc/target/saveconfig.json` | High
-7 | File | `/exec` | Low
-8 | File | `/form/index.php?module=getjson` | High
-9 | File | `/hcms/admin/index.php/language/ajax` | High
-10 | File | `/jsonrpc` | Medium
-11 | File | `/pms/admin/crimes/manage_crime.php` | High
-12 | File | `/product.php` | Medium
-13 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-14 | File | `/redpass.cgi` | Medium
-15 | File | `/registerCpe` | Medium
-16 | File | `/rest/collectors/1.0/template/custom` | High
-17 | File | `/sitecore/shell/Invoke.aspx` | High
-18 | File | `/system?action=ServiceAdmin` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/Uploads` | Medium
-21 | File | `/User/saveUser` | High
-22 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-23 | File | `/wp-admin/customization.php` | High
-24 | ... | ... | ...
+3 | File | `/admin/blood/update/o-.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/Api/ASF` | Medium
+6 | File | `/etc/shadow` | Medium
+7 | File | `/etc/target/saveconfig.json` | High
+8 | File | `/exec` | Low
+9 | File | `/form/index.php?module=getjson` | High
+10 | File | `/hcms/admin/index.php/language/ajax` | High
+11 | File | `/jsonrpc` | Medium
+12 | File | `/pms/admin/crimes/manage_crime.php` | High
+13 | File | `/product.php` | Medium
+14 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+15 | File | `/redpass.cgi` | Medium
+16 | File | `/registerCpe` | Medium
+17 | File | `/rest/collectors/1.0/template/custom` | High
+18 | File | `/sitecore/shell/Invoke.aspx` | High
+19 | File | `/system?action=ServiceAdmin` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/Uploads` | Medium
+22 | File | `/User/saveUser` | High
+23 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+24 | File | `/wp-admin/customization.php` | High
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

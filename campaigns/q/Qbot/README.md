@@ -113,14 +113,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -129,45 +129,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/index.php?page=categories` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/project/update/2` | High
-9 | File | `/admin/sql` | Medium
-10 | File | `/admin/students.php` | High
-11 | File | `/admin/students/manage.php` | High
-12 | File | `/admin/system.html` | High
-13 | File | `/adminPage/conf/reload` | High
-14 | File | `/adminPage/www/addOver` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/api /v3/auth` | High
-17 | File | `/application/index/controller/Icon.php` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/bin/ate` | Medium
-20 | File | `/boaform/device_reset.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/dataSet/testTransform;swagger-ui` | High
-24 | File | `/dayrui/Fcms/View/system_log.html` | High
-25 | File | `/dayrui/My/View/main.html` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/download/image` | High
-28 | File | `/firewall/policy/` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/general/meeting/manage/delete.php` | High
-31 | File | `/goform/execCommand` | High
-32 | File | `/goform/goform_get_cmd_process` | High
-33 | File | `/goform/SetRebootTimer` | High
-34 | File | `/goform/SetSysTimeCfg` | High
-35 | File | `/goform/WriteFacMac` | High
-36 | File | `/hedwig.cgi` | Medium
-37 | File | `/ims/login.php` | High
-38 | ... | ... | ...
+2 | File | `/?page=reports` | High
+3 | File | `/aboutadd.php` | High
+4 | File | `/admin/?setting-base.htm` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/budget/manage_budget.php` | High
+7 | File | `/admin/bwdates-reports-ds.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/index.php?page=categories` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/Admin/login.php` | High
+13 | File | `/admin/project/update/2` | High
+14 | File | `/admin/sql` | Medium
+15 | File | `/admin/students.php` | High
+16 | File | `/admin/students/manage.php` | High
+17 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+18 | File | `/admin/system.html` | High
+19 | File | `/adminPage/conf/reload` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/api /v3/auth` | High
+22 | File | `/application/index/controller/Icon.php` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/backend/admin/his_admin_register_patient.php` | High
+25 | File | `/bin/ate` | Medium
+26 | File | `/boaform/device_reset.cgi` | High
+27 | File | `/book_list.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/control/activate_case.php` | High
+31 | File | `/control/edit_client.php` | High
+32 | File | `/dataSet/testTransform;swagger-ui` | High
+33 | File | `/dayrui/Fcms/View/system_log.html` | High
+34 | File | `/dayrui/My/View/main.html` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/download` | Medium
+37 | File | `/download/image` | High
+38 | File | `/edit1.php` | Medium
+39 | File | `/Employee/edit-profile.php` | High
+40 | File | `/expedit.php` | Medium
+41 | File | `/firewall/policy/` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/general/meeting/manage/delete.php` | High
+44 | File | `/getcfg.php` | Medium
+45 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

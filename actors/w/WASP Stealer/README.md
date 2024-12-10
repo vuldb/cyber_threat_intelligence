@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [JP](https://vuldb.com/?country.jp)
+* [UA](https://vuldb.com/?country.ua)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,21 +57,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index2.html` | High
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/application/index/controller/Databasesource.php` | High
-5 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-6 | File | `/index.php` | Medium
-7 | File | `/livesite/edit_designer_region.php` | High
-8 | File | `/view-pass-detail.php` | High
-9 | File | `/wp-admin/options-general.php` | High
-10 | File | `admin.color.php` | High
-11 | File | `admin.cropcanvas.php` | High
-12 | File | `admin.joomlaradiov5.php` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/addons/archive/archive.php` | High
-15 | File | `administrator/components/com_media/helpers/media.php` | High
-16 | File | `admin\model\catalog\download.php` | High
-17 | ... | ... | ...
+5 | File | `/cgi-bin/nas_sharing.cgi` | High
+6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+7 | File | `/index.php` | Medium
+8 | File | `/livesite/edit_designer_region.php` | High
+9 | File | `/ndmComponents.js` | High
+10 | File | `/view-pass-detail.php` | High
+11 | File | `/wp-admin/options-general.php` | High
+12 | File | `admin.color.php` | High
+13 | File | `admin.cropcanvas.php` | High
+14 | File | `admin.joomlaradiov5.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/addons/archive/archive.php` | High
+17 | File | `administrator/components/com_media/helpers/media.php` | High
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

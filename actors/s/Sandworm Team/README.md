@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,24 +69,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/manage_model.php` | High
 7 | File | `/admin/manage_user.php` | High
 8 | File | `/admin/subject.php` | High
-9 | File | `/api2/html/` | Medium
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-14 | File | `/changePassword` | High
-15 | File | `/classes/SystemSettings.php?f=update_settings` | High
-16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/edit.php` | Medium
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/file-manager/upload.php` | High
-22 | File | `/foms/routers/place-order.php` | High
-23 | File | `/forum/away.php` | High
-24 | ... | ... | ...
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api2/html/` | Medium
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+15 | File | `/changePassword` | High
+16 | File | `/classes/SystemSettings.php?f=update_settings` | High
+17 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+18 | File | `/edit-subject.php` | High
+19 | File | `/edit.php` | Medium
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/file-manager/upload.php` | High
+23 | File | `/foms/routers/place-order.php` | High
+24 | File | `/forum/away.php` | High
+25 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

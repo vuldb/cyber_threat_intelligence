@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Albanian Government:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [PW](https://vuldb.com/?country.pw)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -70,9 +70,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/register.php` | High
 13 | File | `/search` | Low
 14 | File | `/wp-admin/admin-ajax.php` | High
-15 | ... | ... | ...
+15 | File | `active.log` | Medium
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

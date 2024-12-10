@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Ramnit:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ramnit:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -108,14 +108,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -123,39 +121,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit-doc.php` | High
-2 | File | `/admin/sign/out` | High
-3 | File | `/api/admin/store/product/list` | High
-4 | File | `/application/index/controller/Service.php` | High
-5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-6 | File | `/cgi-bin/luci` | High
-7 | File | `/cgi-bin/qcmap_auth` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/viewcert` | High
-10 | File | `/config/getuser` | High
-11 | File | `/core/vb/vurl.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/gsissh/sshd_config` | High
-14 | File | `/etc/shadow.sample` | High
-15 | File | `/eval/admin/manage_class.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/telnet` | High
-18 | File | `/goform/WanParameterSetting` | High
-19 | File | `/group1/uploa` | High
-20 | File | `/importTool/preview` | High
-21 | File | `/include/makecvs.php` | High
-22 | File | `/js/app.js` | Medium
-23 | File | `/lms/classes/Master.php?f=save_record` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/mods/_core/courses/users/create_course.php` | High
-26 | File | `/monitoring` | Medium
-27 | File | `/ndmComponents.js` | High
-28 | File | `/server-status` | High
-29 | File | `/test/cookie/` | High
-30 | File | `/uncpath/` | Medium
-31 | ... | ... | ...
+1 | File | `/application/index/controller/Service.php` | High
+2 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/cgi-bin/qcmap_auth` | High
+5 | File | `/emloyee_akpoly/Account/login.php` | High
+6 | File | `/etc/shadow.sample` | High
+7 | File | `/group1/uploa` | High
+8 | File | `/lms/classes/Master.php?f=save_record` | High
+9 | File | `/ndmComponents.js` | High
+10 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

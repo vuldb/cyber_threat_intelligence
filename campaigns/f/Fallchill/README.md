@@ -10,10 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [DK](https://vuldb.com/?country.dk)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -56,14 +52,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,45 +67,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/b2b-supermarket/shopping-cart` | High
-3 | File | `/calendar/minimizer/index.php` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/classes/SystemSettings.php?f=update_settings` | High
-9 | File | `/core/conditions/AbstractWrapper.java` | High
-10 | File | `/core/tools/update_menu.php` | High
-11 | File | `/dayrui/My/Config/Install.txt` | High
-12 | File | `/devinfo` | Medium
-13 | File | `/DXR.axd` | Medium
-14 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-15 | File | `/endpoint/add-user.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/forums/editforum.php` | High
-18 | File | `/goform/` | Medium
-19 | File | `/home/courses` | High
-20 | File | `/index.php?app=main&func=passport&action=login` | High
-21 | File | `/index.php?menu=asterisk_cli` | High
-22 | File | `/install/` | Medium
-23 | File | `/Interface/DevManage/VM.php` | High
-24 | File | `/ipms/imageConvert/image` | High
-25 | File | `/main/webservices/additional_webservices.php` | High
-26 | File | `/modals/class_form.php` | High
-27 | File | `/ndmComponents.js` | High
-28 | File | `/newvehicle.php` | High
-29 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-30 | File | `/out.php` | Medium
-31 | File | `/PC/WebService.asmx` | High
-32 | File | `/php-opos/index.php` | High
-33 | File | `/project/tasks/list` | High
-34 | File | `/register.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/tool/gen/createTable` | High
-37 | ... | ... | ...
+1 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+2 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/manage_user.php` | High
+5 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+6 | File | `/application/index/controller/Screen.php` | High
+7 | File | `/auth_files/photo/` | High
+8 | File | `/bin/boa` | Medium
+9 | File | `/calendar/minimizer/index.php` | High
+10 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/hd_config.cgi` | High
+13 | File | `/cgi-bin/luci/api/auth` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/webfile_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/SystemSettings.php?f=update_settings` | High
+18 | File | `/devinfo` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/ecommerce/popup_Item.php` | High
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/endpoint/delete-bookmark.php` | High
+23 | File | `/filemanager/upload` | High
+24 | File | `/formLoginAuth.htm` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/saveParentControlInfo` | High
+27 | File | `/h.php/general/config?ref=addtabs` | High
+28 | File | `/includes/fileReceive.php` | High
+29 | File | `/index.php?action=editManager` | High
+30 | File | `/index.php?app=main&func=passport&action=login` | High
+31 | File | `/index/ajax/lang` | High
+32 | File | `/Interface/DevManage/VM.php` | High
+33 | File | `/ipms/imageConvert/image` | High
+34 | File | `/main/webservices/additional_webservices.php` | High
+35 | File | `/ndmComponents.js` | High
+36 | File | `/newvehicle.php` | High
+37 | File | `/out.php` | Medium
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/PC/WebService.asmx` | High
+40 | File | `/php-ocls/classes/Master.php?f=pay_order` | High
+41 | File | `/playsms/index.php?app=main&inc=core_auth&route=forgot&op=forgot` | High
+42 | File | `/project/tasks/list` | High
+43 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

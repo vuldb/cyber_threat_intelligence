@@ -36,11 +36,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-81 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-81 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -51,68 +51,72 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
+1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `//etc/RT2870STA.dat` | High
 3 | File | `/?import` | Medium
 4 | File | `/act/ActDao.xml` | High
 5 | File | `/admin-api/upload_image` | High
 6 | File | `/admin.php/appcenter/local.html?type=addon` | High
 7 | File | `/admin.php?p=/Area/index#tab=t2` | High
-8 | File | `/admin/` | Low
-9 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+8 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+9 | File | `/admin/admin-profile.php` | High
 10 | File | `/admin/admin.php` | High
 11 | File | `/admin/admin_content_tag.php?action=save_content` | High
-12 | File | `/admin/course.php` | High
-13 | File | `/admin/div_data/delete?divId=9` | High
-14 | File | `/admin/emp-profile-avatar.php` | High
-15 | File | `/admin/index.php?act=reset_admin_psw` | High
-16 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+12 | File | `/admin/blood/update/o-.php` | High
+13 | File | `/admin/class.php?dowhat=modifyclass` | High
+14 | File | `/admin/div_data/delete?divId=9` | High
+15 | File | `/admin/emp-profile-avatar.php` | High
+16 | File | `/admin/File/pictureUpload` | High
 17 | File | `/admin/manage-ambulance.php` | High
-18 | File | `/admin/menu/toEdit` | High
-19 | File | `/Admin/News.php` | High
-20 | File | `/admin/pages/list` | High
-21 | File | `/admin/php/crud.php` | High
-22 | File | `/admin/students.php` | High
-23 | File | `/admin/system.php` | High
-24 | File | `/admin/tag.php` | High
-25 | File | `/admin/users.php` | High
-26 | File | `/admin1/file/download` | High
-27 | File | `/adminPage/conf/saveCmd` | High
-28 | File | `/admin_ping.htm` | High
-29 | File | `/ajax.php?action=load_answered` | High
-30 | File | `/analysisProject/pagingQueryData` | High
-31 | File | `/api/` | Low
-32 | File | `/api/0/api-tokens/` | High
-33 | File | `/api/admins` | Medium
-34 | File | `/api/backend/core/web-file-upload/upload` | High
-35 | File | `/api/sys/set_passwd` | High
-36 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-37 | File | `/api/system/user?deptId=1&page=1&size=10` | High
-38 | File | `/api/upload.php` | High
-39 | File | `/api/v1` | Low
-40 | File | `/api/v1/alerts` | High
-41 | File | `/api/v1/settings` | High
-42 | File | `/api/v1/snapshots` | High
-43 | File | `/api/v1/toolbox/device/update/swap` | High
-44 | File | `/api2/html/` | Medium
-45 | File | `/app/api/controller/default/Sqlite.php` | High
-46 | File | `/app/Http/Controllers/ImageController.php` | High
-47 | File | `/app/index/controller/Common.php` | High
-48 | File | `/apps/system/router/upload.go` | High
-49 | File | `/authMonitCallcenter` | High
-50 | File | `/boaform/wlan_basic_set.cgi` | High
-51 | File | `/boafrm/formMapDelDevice` | High
-52 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-53 | File | `/cache` | Low
-54 | File | `/car-rental-management-system/admin/view_car.php=` | High
-55 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-56 | File | `/cgi-bin/cstecgi.cgi` | High
-57 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/admin/manage-users.php` | High
+19 | File | `/admin/menu/toEdit` | High
+20 | File | `/admin/msg.php` | High
+21 | File | `/Admin/News.php` | High
+22 | File | `/admin/options-theme.php` | High
+23 | File | `/admin/pages/list` | High
+24 | File | `/admin/system.php` | High
+25 | File | `/admin/tag.php` | High
+26 | File | `/admin/users.php` | High
+27 | File | `/admin1/file/download` | High
+28 | File | `/adminPage/conf/saveCmd` | High
+29 | File | `/admin_ping.htm` | High
+30 | File | `/ajax.php?action=load_answered` | High
+31 | File | `/ajax/checkin.php` | High
+32 | File | `/analysisProject/pagingQueryData` | High
+33 | File | `/api/` | Low
+34 | File | `/api/0/api-tokens/` | High
+35 | File | `/api/admins` | Medium
+36 | File | `/api/backend/core/web-file-upload/upload` | High
+37 | File | `/api/baskets/{name}` | High
+38 | File | `/api/stl/actions/search` | High
+39 | File | `/api/sys/login` | High
+40 | File | `/api/sys/set_passwd` | High
+41 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+42 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+43 | File | `/api/v1` | Low
+44 | File | `/api/v1/alerts` | High
+45 | File | `/api/v1/settings` | High
+46 | File | `/api/v1/snapshots` | High
+47 | File | `/api/v1/toolbox/device/update/swap` | High
+48 | File | `/api2/html/` | Medium
+49 | File | `/apps/system/router/upload.go` | High
+50 | File | `/Attachment/fromImageUrl` | High
+51 | File | `/authMonitCallcenter` | High
+52 | File | `/bitrix/admin/ldap_server_edit.php` | High
+53 | File | `/boafrm/formMapDelDevice` | High
+54 | File | `/cache` | Low
+55 | File | `/car-rental-management-system/admin/view_car.php=` | High
+56 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
 58 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-59 | File | `/cgi-bin/ExportAllSettings.sh` | High
-60 | ... | ... | ...
+59 | File | `/cgi-bin/hd_config.cgi` | High
+60 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+61 | File | `/cgi-bin/nas_sharing.cgi` | High
+62 | File | `/cgi-bin/nightled.cgi` | High
+63 | File | `/cgi-bin/upload_vpntar` | High
+64 | ... | ... | ...
 
-There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 561 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

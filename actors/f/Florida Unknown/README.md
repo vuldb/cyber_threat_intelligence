@@ -163,35 +163,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/` | Low
 3 | File | `/admin/add-new.php` | High
 4 | File | `/admin/booking-bwdates-reports-details.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/ind_backstage.php` | High
-7 | File | `/admin/manage-ambulance.php` | High
-8 | File | `/admin/manage_complaint.php` | High
-9 | File | `/admin/mod_room/controller.php?action=add` | High
-10 | File | `/admin/students/manage.php` | High
-11 | File | `/api/client/editemedia.php` | High
-12 | File | `/attendancelist.php` | High
-13 | File | `/bilal final/edit_stud.php` | High
-14 | File | `/cancel.php` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/cgi-bin/p1_ftpserver.php` | High
-18 | File | `/cgi-bin/tosei_kikai.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/classes/Users.php?f=delete` | High
-22 | File | `/common/show_image.php` | High
-23 | File | `/control/deactivate_case.php` | High
-24 | File | `/control/register_case.php` | High
-25 | File | `/Default/Bd` | Medium
-26 | File | `/foms/routers/place-order.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/AdvSetLanip` | High
-29 | File | `/index.php` | Medium
-30 | File | `/manager/ipconfig_new.php` | High
-31 | ... | ... | ...
+5 | File | `/admin/bwdates-report-details.php` | High
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/ind_backstage.php` | High
+8 | File | `/admin/manage-ambulance.php` | High
+9 | File | `/admin/manage_complaint.php` | High
+10 | File | `/admin/mod_room/controller.php?action=add` | High
+11 | File | `/admin/students/manage.php` | High
+12 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+13 | File | `/api/client/editemedia.php` | High
+14 | File | `/attendancelist.php` | High
+15 | File | `/bilal final/edit_stud.php` | High
+16 | File | `/cancel.php` | Medium
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/p1_ftpserver.php` | High
+20 | File | `/cgi-bin/tosei_kikai.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/classes/Users.php?f=delete` | High
+24 | File | `/common/show_image.php` | High
+25 | File | `/control/deactivate_case.php` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/Default/Bd` | Medium
+28 | File | `/foms/routers/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/AdvSetLanip` | High
+31 | File | `/index.php` | Medium
+32 | File | `/manager/ipconfig_new.php` | High
+33 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

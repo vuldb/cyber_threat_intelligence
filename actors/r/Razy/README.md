@@ -10,10 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 2 more country items available. Please use our online service to access the data.
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -102,13 +99,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -116,46 +112,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/general.cgi` | High
-2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/API/info` | Medium
-4 | File | `/CCMAdmin/serverlist.asp` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/csms/admin/inquiries/view_details.php` | High
-7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/files.md5` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/home/search` | Medium
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/login` | Low
-16 | File | `/messageboard/view.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/one_church/userregister.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-27 | File | `/textpattern/index.php` | High
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/v2/quantum/save-data-upload-big-file` | High
-30 | File | `/view/timetable_grade_wise.php` | High
-31 | File | `/wordpress/wp-admin/admin.php` | High
-32 | File | `4.edu.php` | Medium
-33 | File | `account_footer.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `add_edit_cat.asp` | High
-36 | File | `add_edit_user.asp` | High
-37 | File | `admin.cropcanvas.php` | High
-38 | ... | ... | ...
+1 | File | `/API/info` | Medium
+2 | File | `/ecommerce/support_ticket` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/home/search` | Medium
+5 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+6 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

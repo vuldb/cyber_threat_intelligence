@@ -82,14 +82,15 @@ ID | Type | Indicator | Confidence
 9 | File | `/exec/` | Low
 10 | File | `/getcfg.php` | Medium
 11 | File | `/HNAP1` | Low
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/modules/projects/vw_files.php` | High
-14 | File | `/plain` | Low
-15 | File | `/staff/tools/custom-fields` | High
-16 | File | `/uncpath/` | Medium
-17 | ... | ... | ...
+12 | File | `/index/ajax/lang` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/modules/projects/vw_files.php` | High
+15 | File | `/plain` | Low
+16 | File | `/staff/tools/custom-fields` | High
+17 | File | `/uncpath/` | Medium
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Conti:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -522,14 +522,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -539,39 +539,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/add-students.php` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/pages/list` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/admin/system.html` | High
-12 | File | `/admins` | Low
-13 | File | `/ajax/getBasicInfo.php` | High
-14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-16 | File | `/catalog/all-products` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/myMusic.cgi` | High
-19 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php?f=save_medicine` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/clientdetails/admin/regester.php` | High
-24 | File | `/dayrui/My/Config/Install.txt` | High
-25 | File | `/edit-subject.php` | High
-26 | File | `/Employee/edit-profile.php` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/endpoint/delete-account.php` | High
-29 | File | `/etc/passwd` | Medium
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/farm/product.php` | High
-32 | File | `/foms/routers/place-order.php` | High
-33 | ... | ... | ...
+3 | File | `/addstock.php` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/admin/?page=reports` | High
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/add_ikev2.php` | High
+8 | File | `/admin/book-details.php` | High
+9 | File | `/admin/category_save.php` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/list_ipAddressPolicy.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/massage.php` | High
+17 | File | `/admin/pages/` | High
+18 | File | `/admin/pages/list` | High
+19 | File | `/admin/password-recovery.php` | High
+20 | File | `/admin/profile.php` | High
+21 | File | `/admin/subject.php` | High
+22 | File | `/admin/system.html` | High
+23 | File | `/admins` | Low
+24 | File | `/ajax/getBasicInfo.php` | High
+25 | File | `/animalsupdate.php` | High
+26 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+27 | File | `/app/admin/controller/api/Plugs.php` | High
+28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+29 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/ExportSettings.sh` | High
+33 | File | `/cgi-bin/myMusic.cgi` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/classes/Master.php?f=save_medicine` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/clientdetails/admin/regester.php` | High
+39 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+40 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+41 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+42 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+43 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+44 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+45 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

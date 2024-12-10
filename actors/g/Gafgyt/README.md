@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,44 +58,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/accounts/login` | High
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/ajax.php` | High
-4 | File | `/admin/general/change-lang` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/modal_add_product.php` | High
-7 | File | `/admin/offenses/view_details.php` | High
-8 | File | `/admin/sysmon.php` | High
-9 | File | `/Admin/user-record.php` | High
-10 | File | `/admin/users.php` | High
-11 | File | `/admin_class.php` | High
-12 | File | `/alarm_pi/alarmService.php` | High
-13 | File | `/api/content/posts/comments` | High
-14 | File | `/api/v2/events` | High
-15 | File | `/api/v4/teams` | High
-16 | File | `/appliance/users?action=edit` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/auth/callback` | High
-19 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-22 | File | `/cgi-bin/hd_config.cgi` | High
-23 | File | `/cimom` | Low
-24 | File | `/ci_spms/admin/category` | High
-25 | File | `/ci_spms/admin/search/searching/` | High
-26 | File | `/classes/master.php?f=delete_facility` | High
-27 | File | `/classes/Master.php?f=delete_record` | High
-28 | File | `/cupseasylive/itemgroupcreate.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/dev/kmem` | Medium
-31 | File | `/edit-db.php` | Medium
-32 | File | `/exponentcms/administration/configure_site` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/setMacFilterList` | High
-35 | File | `/goform/SetOnlineDevName` | High
+1 | File | `/?page=reports` | High
+2 | File | `/accounts/login` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin/ajax.php` | High
+5 | File | `/admin/general/change-lang` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/offenses/view_details.php` | High
+9 | File | `/admin/sysmon.php` | High
+10 | File | `/Admin/user-record.php` | High
+11 | File | `/admin/users.php` | High
+12 | File | `/admin_class.php` | High
+13 | File | `/alarm_pi/alarmService.php` | High
+14 | File | `/api/content/posts/comments` | High
+15 | File | `/api/v2/events` | High
+16 | File | `/api/v4/teams` | High
+17 | File | `/appliance/users?action=edit` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/auth/callback` | High
+20 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+23 | File | `/cgi-bin/hd_config.cgi` | High
+24 | File | `/cimom` | Low
+25 | File | `/ci_spms/admin/category` | High
+26 | File | `/ci_spms/admin/search/searching/` | High
+27 | File | `/classes/master.php?f=delete_facility` | High
+28 | File | `/classes/Master.php?f=delete_record` | High
+29 | File | `/cupseasylive/itemgroupcreate.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/dev/kmem` | Medium
+32 | File | `/edit-db.php` | Medium
+33 | File | `/exponentcms/administration/configure_site` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/setMacFilterList` | High
 36 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

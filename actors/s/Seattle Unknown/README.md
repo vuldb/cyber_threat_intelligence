@@ -114,9 +114,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -125,32 +126,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#ProductSerie/view/` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/bookdate.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/employee_add.php` | High
-8 | File | `/admin/manage-ambulance.php` | High
-9 | File | `/admin/manage-users.php` | High
-10 | File | `/admin/offenses/view_details.php` | High
-11 | File | `/admin/students/update_status.php` | High
-12 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-13 | File | `/application/index/controller/Databasesource.php` | High
-14 | File | `/assets/something/services/AppModule.class` | High
-15 | File | `/billing/bill/edit/` | High
-16 | File | `/bsms_ci/index.php/user/edit_user/` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/p1_ftpserver.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/classes/Users.php?f=delete` | High
-22 | File | `/devinfo` | Medium
-23 | File | `/edit.php` | Medium
-24 | File | `/endpoint/update-bookmark.php` | High
-25 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/admin.php` | High
+6 | File | `/admin/bookdate.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/employee_add.php` | High
+9 | File | `/admin/manage-ambulance.php` | High
+10 | File | `/admin/manage-users.php` | High
+11 | File | `/admin/offenses/view_details.php` | High
+12 | File | `/admin/students/update_status.php` | High
+13 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+14 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+15 | File | `/application/index/controller/Databasesource.php` | High
+16 | File | `/assets/something/services/AppModule.class` | High
+17 | File | `/billing/bill/edit/` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/p1_ftpserver.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/classes/Users.php?f=delete` | High
+24 | File | `/devinfo` | Medium
+25 | File | `/edit.php` | Medium
+26 | File | `/endpoint/update-bookmark.php` | High
+27 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

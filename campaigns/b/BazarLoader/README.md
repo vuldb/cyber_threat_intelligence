@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BazarLoader:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -75,10 +75,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,27 +87,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/Admin/login.php` | High
-3 | File | `/api` | Low
-4 | File | `/api/sys_username_passwd.cmd` | High
-5 | File | `/download/image` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/home/cavesConsole` | High
-8 | File | `/inc/parser/xhtml.php` | High
-9 | File | `/include/makecvs.php` | High
-10 | File | `/member/index/login.html` | High
-11 | File | `/member/myfriend.php` | High
-12 | File | `/member/reg.asp` | High
-13 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-14 | File | `/pms/admin/actions/view_action.php` | High
-15 | File | `/pms/admin/cells/view_cell.php` | High
-16 | File | `/pms/admin/crimes/manage_crime.php` | High
-17 | File | `/pms/admin/inmates/view_inmate.php` | High
-18 | File | `/pms/admin/prisons/view_prison.php` | High
-19 | File | `/pms/admin/visits/view_visit.php` | High
-20 | File | `/pms/index.php` | High
-21 | ... | ... | ...
+3 | File | `/api/sys_username_passwd.cmd` | High
+4 | File | `/download/image` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/home/cavesConsole` | High
+7 | File | `/inc/parser/xhtml.php` | High
+8 | File | `/member/index/login.html` | High
+9 | File | `/member/myfriend.php` | High
+10 | File | `/member/reg.asp` | High
+11 | File | `/pms/admin/actions/view_action.php` | High
+12 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

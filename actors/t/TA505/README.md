@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -133,23 +133,23 @@ ID | Type | Indicator | Confidence
 59 | File | `/cms/classes/Users.php?f=delete_client` | High
 60 | File | `/collection/all` | High
 61 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-62 | File | `/crmeb/crmeb/services/UploadService.php` | High
-63 | File | `/dashboard/createblog` | High
-64 | File | `/debug/pprof` | Medium
-65 | File | `/Default/Bd` | Medium
-66 | File | `/dipam/athlete-profile.php` | High
-67 | File | `/dosen/data` | Medium
-68 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-69 | File | `/Employee/apply_leave.php` | High
-70 | File | `/Employee/edit-profile.php` | High
-71 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-72 | File | `/etc/pki/pesign` | High
-73 | File | `/etc/postfix/sender_login` | High
-74 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-75 | File | `/file-manager/rename.php` | High
+62 | File | `/dashboard/createblog` | High
+63 | File | `/debug/pprof` | Medium
+64 | File | `/Default/Bd` | Medium
+65 | File | `/dipam/athlete-profile.php` | High
+66 | File | `/dosen/data` | Medium
+67 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+68 | File | `/Employee/apply_leave.php` | High
+69 | File | `/Employee/edit-profile.php` | High
+70 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+71 | File | `/etc/pki/pesign` | High
+72 | File | `/etc/postfix/sender_login` | High
+73 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+74 | File | `/file-manager/rename.php` | High
+75 | File | `/filex/proxy-download` | High
 76 | ... | ... | ...
 
-There are 666 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 668 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

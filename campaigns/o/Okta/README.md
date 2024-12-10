@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,10 +43,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -60,43 +60,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/accounts_con/register_account` | High
-3 | File | `/admin/app/product.php` | High
-4 | File | `/admin/app/service_crud.php` | High
-5 | File | `/admin/edit_categories.php` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/service/stop/` | High
-10 | File | `/admin/student.php` | High
-11 | File | `/admin/students/update_status.php` | High
-12 | File | `/admin/system.html` | High
-13 | File | `/advanced-tools/nova/bin/netwatch` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/app/api/controller/default/File.php` | High
-16 | File | `/app/api/controller/default/Sqlite.php` | High
-17 | File | `/app/controller/Setup.php` | High
-18 | File | `/assets/php/upload.php` | High
-19 | File | `/bin/boa` | Medium
-20 | File | `/bin/sh` | Low
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/cancel.php` | Medium
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/luci;stok=/locale` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/collection/all` | High
-27 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-29 | File | `/devinfo` | Medium
-30 | File | `/edoc/doctor/patient.php` | High
-31 | File | `/endpoint/update-tracker.php` | High
-32 | File | `/general/email/outbox/delete.php` | High
-33 | File | `/get_membership_amount.php` | High
-34 | File | `/goform/addIpMacBind` | High
-35 | File | `/goform/execCommand` | High
-36 | File | `/goform/SetLEDCfg` | High
-37 | ... | ... | ...
+3 | File | `/add_new_purchase.php?action=is_supplier` | High
+4 | File | `/admin/?page=reports` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/app/product.php` | High
+7 | File | `/admin/app/service_crud.php` | High
+8 | File | `/admin/blood/update/B-.php` | High
+9 | File | `/admin/edit_categories.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/Admin/login.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/massage.php` | High
+14 | File | `/admin/password-recovery.php` | High
+15 | File | `/admin/service/stop/` | High
+16 | File | `/admin/student.php` | High
+17 | File | `/admin/students/update_status.php` | High
+18 | File | `/admin/system.html` | High
+19 | File | `/advanced-tools/nova/bin/netwatch` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/app/admin/controller/api/Plugs.php` | High
+22 | File | `/app/api/controller/default/File.php` | High
+23 | File | `/app/api/controller/default/Sqlite.php` | High
+24 | File | `/app/controller/Setup.php` | High
+25 | File | `/assets/php/upload.php` | High
+26 | File | `/bin/boa` | Medium
+27 | File | `/bin/sh` | Low
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/cancel.php` | Medium
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/luci;stok=/locale` | High
+33 | File | `/cgi-bin/nas_sharing.cgi` | High
+34 | File | `/collection/all` | High
+35 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+36 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
+37 | File | `/dbsrv.asp` | Medium
+38 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+39 | File | `/dev/sda` | Medium
+40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+41 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

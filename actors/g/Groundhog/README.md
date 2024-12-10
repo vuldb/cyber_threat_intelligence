@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,21 +105,22 @@ ID | Type | Indicator | Confidence
 29 | File | `/ctcprotocol/Protocol` | High
 30 | File | `/dashboard/menu-list.php` | High
 31 | File | `/debug/pprof` | Medium
-32 | File | `/dist/index.js` | High
-33 | File | `/DXR.axd` | Medium
-34 | File | `/ebics-server/ebics.aspx` | High
-35 | File | `/EXCU_SHELL` | Medium
-36 | File | `/farm/product.php` | High
-37 | File | `/ffos/classes/Master.php?f=save_category` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/modifyDhcpRule` | High
-40 | File | `/goform/ModifyPppAuthWhiteMac` | High
-41 | File | `/goform/net\_Web\_get_value` | High
-42 | File | `/goform/setStaOffline` | High
-43 | File | `/goform/WizardHandle` | High
-44 | ... | ... | ...
+32 | File | `/detailed.php` | High
+33 | File | `/dist/index.js` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/ebics-server/ebics.aspx` | High
+36 | File | `/EXCU_SHELL` | Medium
+37 | File | `/farm/product.php` | High
+38 | File | `/ffos/classes/Master.php?f=save_category` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/form2systime.cgi` | High
+41 | File | `/goform/modifyDhcpRule` | High
+42 | File | `/goform/ModifyPppAuthWhiteMac` | High
+43 | File | `/goform/net\_Web\_get_value` | High
+44 | File | `/goform/setStaOffline` | High
+45 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

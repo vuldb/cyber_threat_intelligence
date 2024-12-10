@@ -43,7 +43,8 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [45.77.146.176](https://vuldb.com/?ip.45.77.146.176) | 45.77.146.176.vultrusercontent.com | - | Medium
 21 | [45.81.39.90](https://vuldb.com/?ip.45.81.39.90) | - | - | High
 22 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
-23 | ... | ... | ... | ...
+23 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
+24 | ... | ... | ... | ...
 
 There are 90 more IOC items available. Please use our online service to access the data.
 
@@ -85,15 +86,16 @@ ID | Type | Indicator | Confidence
 16 | File | `/goform/WifiExtraSet` | High
 17 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
 18 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-19 | File | `/integrations.json` | High
-20 | File | `/lists/admin/` | High
-21 | File | `/oauth/idp/.well-known/openid-configuration` | High
-22 | File | `/phppath/php` | Medium
-23 | File | `/project/tasks/list` | High
-24 | File | `/services/details.asp` | High
-25 | ... | ... | ...
+19 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+20 | File | `/integrations.json` | High
+21 | File | `/lists/admin/` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/phppath/php` | Medium
+24 | File | `/project/tasks/list` | High
+25 | File | `/services/details.asp` | High
+26 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

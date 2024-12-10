@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -59,27 +59,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/cardo/api` | Medium
 4 | File | `/cgi-bin/nobody/Search.cgi` | High
-5 | File | `/config` | Low
-6 | File | `/ConsoleHelp/` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/data/app` | Medium
-9 | File | `/etc/passwd` | Medium
-10 | File | `/inc/lists/csvexport.php` | High
-11 | File | `/js` | Low
-12 | File | `/LoadFrame` | Medium
-13 | File | `/login.php` | Medium
-14 | File | `/MicroStrategyWS/` | High
-15 | File | `/plain` | Low
-16 | File | `/replication` | Medium
-17 | File | `/rest/collectors/1.0/template/custom` | High
-18 | File | `/server-info` | Medium
-19 | File | `/server-status` | High
-20 | File | `/Service/ImageStationDataService.asmx` | High
-21 | File | `/servlet/file` | High
-22 | File | `/storage.html` | High
-23 | File | `/testssi.ssi` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/bin/pkexec` | High
+5 | File | `/ConsoleHelp/` | High
+6 | File | `/context/%2e/WEB-INF/web.xml` | High
+7 | File | `/data/app` | Medium
+8 | File | `/etc/passwd` | Medium
+9 | File | `/inc/lists/csvexport.php` | High
+10 | File | `/js` | Low
+11 | File | `/LoadFrame` | Medium
+12 | File | `/login.php` | Medium
+13 | File | `/MicroStrategyWS/` | High
+14 | File | `/plain` | Low
+15 | File | `/replication` | Medium
+16 | File | `/rest/collectors/1.0/template/custom` | High
+17 | File | `/server-info` | Medium
+18 | File | `/server-status` | High
+19 | File | `/Service/ImageStationDataService.asmx` | High
+20 | File | `/servlet/file` | High
+21 | File | `/storage.html` | High
+22 | File | `/testssi.ssi` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/vdesk` | Low
 26 | ... | ... | ...
 
 There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

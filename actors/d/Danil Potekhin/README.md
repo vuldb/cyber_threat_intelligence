@@ -4,13 +4,33 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.danil_potekhin](https://vuldb.com/?actor.danil_potekhin)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Danil Potekhin:
+
+* [TR](https://vuldb.com/?country.tr)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Danil Potekhin.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [46.30.40.103](https://vuldb.com/?ip.46.30.40.103) | isp13.eurobyte.ru | - | High
+1 | [31.31.204.161](https://vuldb.com/?ip.31.31.204.161) | - | - | High
+2 | [46.30.40.103](https://vuldb.com/?ip.46.30.40.103) | isp13.eurobyte.ru | - | High
+3 | [194.58.56.54](https://vuldb.com/?ip.194.58.56.54) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 7 more IOC items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Danil Potekhin. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/App/Core/Extend/Function/ydLib.php` | High
+2 | Argument | `url` | Low
 
 ## References
 

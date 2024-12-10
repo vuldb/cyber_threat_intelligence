@@ -85,33 +85,34 @@ ID | Type | Indicator | Confidence
 24 | File | `/nova/bin/detnet` | High
 25 | File | `/nova/bin/igmp-proxy` | High
 26 | File | `/nova/bin/route` | High
-27 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-28 | File | `/royal_event/userregister.php` | High
-29 | File | `/scas/admin/` | Medium
-30 | File | `/see_more_details.php` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/setSystemAdmin` | High
-33 | File | `/setup` | Low
-34 | File | `/signup.php` | Medium
-35 | File | `/spip.php` | Medium
-36 | File | `/squashfs-root/etc_ro/custom.conf` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/update-employee.php` | High
-39 | File | `/user/add-notes.php` | High
-40 | File | `/user/manage-notes.php` | High
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/var/log/rkhunter.log` | High
-43 | File | `/vpn/list_vpn_web_custom.php` | High
-44 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-45 | File | `/wbms/classes/Users.php?f=save` | High
-46 | File | `/wp-admin/admin-ajax.php` | High
-47 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-48 | File | `/zm/index.php` | High
-49 | File | `3/E_bak5.1/upload/eginfo.php` | High
-50 | File | `3f.jsp` | Low
-51 | ... | ... | ...
+27 | File | `/php/exportrecord.php` | High
+28 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+29 | File | `/royal_event/userregister.php` | High
+30 | File | `/scas/admin/` | Medium
+31 | File | `/see_more_details.php` | High
+32 | File | `/services/details.asp` | High
+33 | File | `/setSystemAdmin` | High
+34 | File | `/setup` | Low
+35 | File | `/signup.php` | Medium
+36 | File | `/spip.php` | Medium
+37 | File | `/squashfs-root/etc_ro/custom.conf` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/update-employee.php` | High
+40 | File | `/user/add-notes.php` | High
+41 | File | `/user/manage-notes.php` | High
+42 | File | `/usr/bin/pkexec` | High
+43 | File | `/var/log/rkhunter.log` | High
+44 | File | `/vcs/claire_blake` | High
+45 | File | `/vpn/list_vpn_web_custom.php` | High
+46 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+47 | File | `/wbms/classes/Users.php?f=save` | High
+48 | File | `/wp-admin/admin-ajax.php` | High
+49 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+50 | File | `/zm/index.php` | High
+51 | File | `3/E_bak5.1/upload/eginfo.php` | High
+52 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

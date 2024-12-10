@@ -92,40 +92,41 @@ ID | Type | Indicator | Confidence
 6 | File | `/csms/admin/inquiries/view_details.php` | High
 7 | File | `/cstecgi.cgi` | Medium
 8 | File | `/dashboard/updatelogo.php` | High
-9 | File | `/etc/openshift/server_priv.pem` | High
-10 | File | `/files.md5` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/home/search` | Medium
-13 | File | `/hrm/employeeview.php` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/licenses` | Medium
-18 | File | `/members/view_member.php` | High
-19 | File | `/messageboard/view.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/mkshop/Men/profile.php` | High
-22 | File | `/Noxen-master/users.php` | High
-23 | File | `/one_church/userregister.php` | High
-24 | File | `/out.php` | Medium
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/rest/api/latest/projectvalidate/key` | High
-27 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-28 | File | `/SASWebReportStudio/logonAndRender.do` | High
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-31 | File | `/textpattern/index.php` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/upfile.cgi` | Medium
-34 | File | `/v2/quantum/save-data-upload-big-file` | High
-35 | File | `/wordpress/wp-admin/admin.php` | High
-36 | File | `/_vti_bin/_vti_log` | High
-37 | File | `4.edu.php` | Medium
-38 | File | `account_footer.php` | High
-39 | File | `adclick.php` | Medium
-40 | ... | ... | ...
+9 | File | `/ecommerce/support_ticket` | High
+10 | File | `/etc/openshift/server_priv.pem` | High
+11 | File | `/files.md5` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/home/search` | Medium
+14 | File | `/hrm/employeeview.php` | High
+15 | File | `/include/chart_generator.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/licenses` | Medium
+19 | File | `/members/view_member.php` | High
+20 | File | `/messageboard/view.php` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/Noxen-master/users.php` | High
+24 | File | `/one_church/userregister.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/rest/api/latest/projectvalidate/key` | High
+28 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+29 | File | `/SASWebReportStudio/logonAndRender.do` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+32 | File | `/textpattern/index.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/upfile.cgi` | Medium
+35 | File | `/v2/quantum/save-data-upload-big-file` | High
+36 | File | `/wordpress/wp-admin/admin.php` | High
+37 | File | `/_vti_bin/_vti_log` | High
+38 | File | `4.edu.php` | Medium
+39 | File | `account_footer.php` | High
+40 | File | `adclick.php` | Medium
+41 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

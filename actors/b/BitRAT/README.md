@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -121,9 +121,11 @@ ID | IP address | Hostname | Campaign | Confidence
 98 | [41.225.46.176](https://vuldb.com/?ip.41.225.46.176) | - | - | High
 99 | [41.225.216.176](https://vuldb.com/?ip.41.225.216.176) | - | - | High
 100 | [41.227.43.76](https://vuldb.com/?ip.41.227.43.76) | - | - | High
-101 | ... | ... | ... | ...
+101 | [41.232.215.20](https://vuldb.com/?ip.41.232.215.20) | host-41.232.215.20.tedata.net | - | High
+102 | [45.15.143.171](https://vuldb.com/?ip.45.15.143.171) | - | - | High
+103 | ... | ... | ... | ...
 
-There are 401 more IOC items available. Please use our online service to access the data.
+There are 406 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -131,14 +133,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -147,63 +149,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.pomerium` | Medium
-2 | File | `/admin/?page=bike` | High
-3 | File | `/admin/?page=musics/manage_music` | High
-4 | File | `/admin/ajax.php?action=delete_user` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/doAdminAction.php?act=addCate` | High
-7 | File | `/admin/edit-post.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/general-setting` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/inquiries/view_inquiry.php` | High
-12 | File | `/admin/order.php` | High
-13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-14 | File | `/admin/service` | High
-15 | File | `/adminPage/conf/reload` | High
-16 | File | `/api/v1/custom_component` | High
-17 | File | `/api/wechat/app_auth` | High
-18 | File | `/api2/html/` | Medium
-19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-20 | File | `/applications/nexus/modules/front/store/store.php` | High
-21 | File | `/bbdms/sign-up.php` | High
-22 | File | `/cancel.php` | Medium
-23 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/apkg_mgr.cgi` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_category` | High
-32 | File | `/classes/Master.php?f=delete_record` | High
-33 | File | `/classes/Master.php?f=save_category` | High
-34 | File | `/classes/Master.php?f=save_medicine` | High
-35 | File | `/classes/SystemSettings.php?f=update_settings` | High
-36 | File | `/classes/Users.php?f=delete` | High
-37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/control/register_case.php` | High
-39 | File | `/detailed.php` | High
-40 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-41 | File | `/download` | Medium
-42 | File | `/downloadFile.php` | High
-43 | File | `/dtale/chart-data/1` | High
-44 | File | `/DXR.axd` | Medium
-45 | File | `/endpoint/add-folder.php` | High
-46 | File | `/etc/shadow` | Medium
-47 | File | `/etc/shadow.sample` | High
-48 | File | `/fftools/ffmpeg_enc.c` | High
-49 | File | `/file_manager/login.php` | High
-50 | File | `/film-rating.php` | High
-51 | File | `/filter.php` | Medium
-52 | File | `/foms/routers/place-order.php` | High
-53 | File | `/formSysLog` | Medium
-54 | File | `/forum/away.php` | High
-55 | File | `/goform/SetIpMacBind` | High
-56 | ... | ... | ...
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/admin/?page=bike` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/apply.php` | High
+7 | File | `/admin/book-details.php` | High
+8 | File | `/admin/bwdates-report-details.php` | High
+9 | File | `/Admin/changepassword.php` | High
+10 | File | `/admin/cms_content.php` | High
+11 | File | `/admin/create-package.php` | High
+12 | File | `/admin/doAdminAction.php?act=addCate` | High
+13 | File | `/admin/edit-brand.php` | High
+14 | File | `/admin/emp-profile-avatar.php` | High
+15 | File | `/admin/forms/option_lists/edit.php` | High
+16 | File | `/admin/general-setting` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/inquiries/view_inquiry.php` | High
+20 | File | `/admin/order.php` | High
+21 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+22 | File | `/admin/robot.php` | High
+23 | File | `/admin/service` | High
+24 | File | `/admin/sou.php` | High
+25 | File | `/admin/users.php` | High
+26 | File | `/api/cron/settings/setJob/` | High
+27 | File | `/api/v1/custom_component` | High
+28 | File | `/api2/html/` | Medium
+29 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+30 | File | `/applications/nexus/modules/front/store/store.php` | High
+31 | File | `/bbdms/sign-up.php` | High
+32 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+33 | File | `/cgi-bin/apkg_mgr.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+38 | File | `/classes/Master.php` | High
+39 | File | `/classes/Master.php?f=delete_category` | High
+40 | File | `/classes/Master.php?f=delete_record` | High
+41 | File | `/classes/Master.php?f=save_medicine` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/classes/Users.php?f=delete` | High
+44 | File | `/classes/Users.php?f=save` | High
+45 | File | `/deal/{note_id}/note` | High
+46 | File | `/detailed.php` | High
+47 | File | `/downloadFile.php` | High
+48 | File | `/dtale/chart-data/1` | High
+49 | File | `/DXR.axd` | Medium
+50 | File | `/endpoint/add-folder.php` | High
+51 | File | `/etc/shadow` | Medium
+52 | File | `/etc/shadow.sample` | High
+53 | File | `/filemanager/upload` | High
+54 | File | `/file_manager/login.php` | High
+55 | File | `/film-rating.php` | High
+56 | File | `/filter.php` | Medium
+57 | File | `/foms/routers/place-order.php` | High
+58 | File | `/formSysLog` | Medium
+59 | File | `/forum/away.php` | High
+60 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -220,8 +226,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.207.52.74
 * https://search.censys.io/hosts/46.175.146.21
 * https://search.censys.io/hosts/51.195.145.87
+* https://search.censys.io/hosts/71.183.76.190
 * https://search.censys.io/hosts/77.221.151.31
+* https://search.censys.io/hosts/85.209.11.15
 * https://search.censys.io/hosts/116.122.95.74
+* https://search.censys.io/hosts/176.113.115.178
 * https://search.censys.io/hosts/178.236.247.210
 * https://search.censys.io/hosts/193.42.32.25
 * https://search.censys.io/hosts/194.147.140.172

@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -84,36 +84,36 @@ ID | Type | Indicator | Confidence
 27 | File | `/pages/items` | Medium
 28 | File | `/proc/iomem` | Medium
 29 | File | `/profile/deleteWatch.do` | High
-30 | File | `/show_news.php` | High
-31 | File | `/status.js` | Medium
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-35 | File | `/usr/local/ssl/openssl.cnf` | High
-36 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-37 | File | `/var/log/nginx` | High
-38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-39 | File | `/wp-admin` | Medium
-40 | File | `/xampp/guestbook-en.pl` | High
-41 | File | `abook_database.php` | High
-42 | File | `account.asp` | Medium
-43 | File | `AccountStatus.jsp` | High
-44 | File | `action/usermanager.htm` | High
-45 | File | `add.php` | Low
-46 | File | `add_comment.php` | High
-47 | File | `admin.a6mambocredits.php` | High
-48 | File | `admin.cgi?action=config_restore` | High
-49 | File | `admin.cropcanvas.php` | High
-50 | File | `Admin.PHP` | Medium
-51 | File | `admin.php3` | Medium
-52 | File | `admin/add-news.php` | High
-53 | File | `admin/ajax/op_kandidat.php` | High
-54 | File | `admin/gv_mail.php` | High
-55 | File | `admin/manage-articles.php` | High
-56 | File | `admin/manage-departments.php` | High
-57 | File | `admin/systemOutOfBand.do` | High
-58 | File | `adminAvatars.php` | High
-59 | File | `adminBackupdatabase.php` | High
+30 | File | `/setup/finish` | High
+31 | File | `/show_news.php` | High
+32 | File | `/status.js` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+36 | File | `/usr/local/ssl/openssl.cnf` | High
+37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+38 | File | `/var/log/nginx` | High
+39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+40 | File | `/wp-admin` | Medium
+41 | File | `/xampp/guestbook-en.pl` | High
+42 | File | `abook_database.php` | High
+43 | File | `account.asp` | Medium
+44 | File | `AccountStatus.jsp` | High
+45 | File | `action/usermanager.htm` | High
+46 | File | `add.php` | Low
+47 | File | `add_comment.php` | High
+48 | File | `admin.a6mambocredits.php` | High
+49 | File | `admin.cgi?action=config_restore` | High
+50 | File | `admin.cropcanvas.php` | High
+51 | File | `Admin.PHP` | Medium
+52 | File | `admin.php3` | Medium
+53 | File | `admin/add-news.php` | High
+54 | File | `admin/ajax/op_kandidat.php` | High
+55 | File | `admin/gv_mail.php` | High
+56 | File | `admin/manage-articles.php` | High
+57 | File | `admin/manage-departments.php` | High
+58 | File | `admin/systemOutOfBand.do` | High
+59 | File | `adminAvatars.php` | High
 60 | ... | ... | ...
 
 There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

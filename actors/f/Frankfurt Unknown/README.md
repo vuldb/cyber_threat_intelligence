@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -105,13 +105,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,45 +119,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add-students.php` | High
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/cms.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/manage_station.php` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/reports.php` | High
-9 | File | `/admin/success_story.php` | High
-10 | File | `/admin/system.html` | High
-11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-12 | File | `/apps/` | Low
-13 | File | `/back/index.php/user/User/?1` | High
-14 | File | `/backup.pl` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/p1_ftpserver.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/Users.php?f=delete` | High
-21 | File | `/classes/Users.php?f=save_client` | High
-22 | File | `/common/info.cgi` | High
-23 | File | `/config/getuser` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/Default/Bd` | Medium
-26 | File | `/endpoint/add-folder.php` | High
-27 | File | `/foms/routers/place-order.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/manage_sy.php` | High
-31 | File | `/ndmComponents.js` | High
-32 | File | `/param.file.tgz` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/register.php` | High
-35 | File | `/reservation/add_message.php` | High
-36 | File | `/scas/admin/` | Medium
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | ... | ... | ...
+2 | File | `/admin/manage_station.php` | High
+3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+4 | File | `/admin/system.html` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/cgi-bin/p1_ftpserver.php` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Users.php?f=delete` | High
+11 | File | `/classes/Users.php?f=save_client` | High
+12 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

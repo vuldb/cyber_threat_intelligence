@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -77,36 +77,37 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/cmsWebFile/doUpload` | High
 10 | File | `/admin/config_save.php` | High
 11 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
-12 | File | `/admin/edit_visitor.php` | High
-13 | File | `/admin/info.php` | High
-14 | File | `/admin/plugin.php` | High
-15 | File | `/admin/template.php` | High
-16 | File | `/admin/template/update` | High
-17 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-18 | File | `/alphaware/summary.php` | High
-19 | File | `/api/monitors/import` | High
-20 | File | `/api/sys/login` | High
-21 | File | `/application/index/controller/Unity.php` | High
-22 | File | `/apply.cgi` | Medium
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-26 | File | `/cgi-bin/webdav_mgr.cgi` | High
-27 | File | `/classes/Master.php?f=delete_inquiry` | High
-28 | File | `/classes/Users.php` | High
-29 | File | `/cupseasylive/grndisplay.php` | High
-30 | File | `/dipam/save-delegates.php` | High
-31 | File | `/ecommerce/support_ticket` | High
-32 | File | `/etc/controller-agent/agent.conf` | High
-33 | File | `/forms/web_importTFTP` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/front/admin/tenancyDetail.php` | High
-36 | File | `/goform/GetParentControlInfo` | High
-37 | File | `/goform/SetSysTimeCfg` | High
-38 | File | `/goform/SysToolReboot` | High
-39 | ... | ... | ...
+12 | File | `/admin/edit-card-detail.php` | High
+13 | File | `/admin/edit_visitor.php` | High
+14 | File | `/admin/info.php` | High
+15 | File | `/admin/plugin.php` | High
+16 | File | `/admin/template.php` | High
+17 | File | `/admin/template/update` | High
+18 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+19 | File | `/admin/view-enquiry.php` | High
+20 | File | `/alphaware/summary.php` | High
+21 | File | `/api` | Low
+22 | File | `/api/monitors/import` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/application/index/controller/Unity.php` | High
+25 | File | `/apply.cgi` | Medium
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+29 | File | `/cgi-bin/webdav_mgr.cgi` | High
+30 | File | `/classes/Master.php?f=delete_inquiry` | High
+31 | File | `/classes/Users.php` | High
+32 | File | `/cupseasylive/grndisplay.php` | High
+33 | File | `/dipam/save-delegates.php` | High
+34 | File | `/ecommerce/support_ticket` | High
+35 | File | `/etc/controller-agent/agent.conf` | High
+36 | File | `/forms/web_importTFTP` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/front/admin/tenancyDetail.php` | High
+39 | File | `/goform/GetParentControlInfo` | High
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,30 +64,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/manage_model.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/admin/subject.php` | High
-8 | File | `/admin/template/edit` | High
-9 | File | `/App/Core/Extend/Function/ydLib.php` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/changePassword` | High
-14 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-15 | File | `/dtale/chart-data/1` | High
-16 | File | `/edit-subject.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/postfix/sender_login` | High
-19 | File | `/foms/routers/place-order.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/DelDhcpRule` | High
-22 | File | `/goform/delIpMacBind` | High
-23 | ... | ... | ...
+2 | File | `/addcustcom.php` | High
+3 | File | `/addcustind.php` | High
+4 | File | `/addstock.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=products/view_product` | High
+7 | File | `/admin/add_ikev2.php` | High
+8 | File | `/Admin/adminlogin.php` | High
+9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
+12 | File | `/admin/book-details.php` | High
+13 | File | `/admin/bwdates-report-details.php` | High
+14 | File | `/admin/category_save.php` | High
+15 | File | `/admin/edit-brand.php` | High
+16 | File | `/admin/edit-subadmin.php` | High
+17 | File | `/admin/edit_customer.php` | High
+18 | File | `/admin/edit_fuel.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/list_ipAddressPolicy.php` | High
+21 | File | `/admin/manage_model.php` | High
+22 | File | `/admin/manage_user.php` | High
+23 | File | `/admin/search-vehicle.php` | High
+24 | File | `/admin/sou.php` | High
+25 | File | `/admin/subject.php` | High
+26 | File | `/admin/template/edit` | High
+27 | File | `/App/Core/Extend/Function/ydLib.php` | High
+28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+29 | File | `/catalog/all-products` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/ExportSettings.sh` | High
+32 | File | `/changePassword` | High
+33 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+34 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

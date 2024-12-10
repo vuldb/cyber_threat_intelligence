@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.95.232.82](https://vuldb.com/?ip.45.95.232.82) | cx11.ip-ptr.tech | - | High
 2 | [45.120.177.220](https://vuldb.com/?ip.45.120.177.220) | - | - | High
 3 | [46.249.49.148](https://vuldb.com/?ip.46.249.49.148) | - | - | High
-4 | ... | ... | ... | ...
+4 | [46.249.58.40](https://vuldb.com/?ip.46.249.58.40) | yufrt.g5.housinglandshares.info | - | High
+5 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,15 +52,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/api /v3/auth` | High
 3 | File | `/debug/pprof` | Medium
 4 | File | `/devinfo` | Medium
-5 | ... | ... | ...
+5 | File | `/film-rating.php` | High
+6 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cert.gov.ua/article/6276988
+* https://cert.gov.ua/article/6278521
 * https://cyble.com/blog/uac-0184-abuses-python-in-dll-sideloading-for-xworm-distribution/
 
 ## Literature

@@ -21,8 +21,8 @@ These _actors_ are associated with Anchor or other actors linked to the campaign
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TrickBot](https://vuldb.com/?actor.trickbot) | High
-2 | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+1 | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+2 | [TrickBot](https://vuldb.com/?actor.trickbot) | High
 
 ## IOC - Indicator of Compromise
 

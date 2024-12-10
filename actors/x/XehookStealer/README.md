@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XehookStealer:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
 
 ## IOC - Indicator of Compromise
@@ -18,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [49.12.115.241](https://vuldb.com/?ip.49.12.115.241) | static.241.115.12.49.clients.your-server.de | - | High
-2 | [65.109.218.88](https://vuldb.com/?ip.65.109.218.88) | static.88.218.109.65.clients.your-server.de | - | High
-3 | [65.109.242.248](https://vuldb.com/?ip.65.109.242.248) | static.248.242.109.65.clients.your-server.de | - | High
+1 | [5.75.215.230](https://vuldb.com/?ip.5.75.215.230) | static.230.215.75.5.clients.your-server.de | - | High
+2 | [49.12.115.241](https://vuldb.com/?ip.49.12.115.241) | static.241.115.12.49.clients.your-server.de | - | High
+3 | [65.109.218.88](https://vuldb.com/?ip.65.109.218.88) | static.88.218.109.65.clients.your-server.de | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1068 | CWE-268 | Execution with Unnecessary Privileges | High
 3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
@@ -56,6 +56,8 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/51c043bdb6901b9b5afbc976286703158d5ac1d362666c0ae8101b92075e18e9/
+* https://search.censys.io/hosts/5.75.215.230
+* https://search.censys.io/hosts/5.75.215.230+static.230.215.75.5.clients.your-server.de
 * https://search.censys.io/hosts/49.12.115.241
 * https://search.censys.io/hosts/49.12.115.241+static.241.115.12.49.clients.your-server.de
 * https://search.censys.io/hosts/116.202.4.145

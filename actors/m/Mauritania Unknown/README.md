@@ -65,37 +65,37 @@ ID | Type | Indicator | Confidence
 10 | File | `/healthcare/Admin/consulting_detail.php` | High
 11 | File | `/I/list.php` | Medium
 12 | File | `/if.cgi` | Low
-13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/model/update_classroom.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/royal_event/userregister.php` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/see_more_details.php` | High
-21 | File | `/services/details.asp` | High
-22 | File | `/setup` | Low
-23 | File | `/signup.php` | Medium
-24 | File | `/spip.php` | Medium
-25 | File | `/uapi/doc` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/update-employee.php` | High
-28 | File | `/user/add-notes.php` | High
-29 | File | `/user/manage-notes.php` | High
-30 | File | `/var/log/nginx` | High
-31 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-33 | File | `/zm/index.php` | High
-34 | File | `3/E_bak5.1/upload/eginfo.php` | High
-35 | File | `act.php` | Low
-36 | File | `adclick.php` | Medium
-37 | File | `admin` | Low
-38 | File | `admin.php` | Medium
-39 | File | `admin/adminsignin.html` | High
-40 | File | `admin/movieview.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+15 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+16 | File | `/mifs/c/i/reg/reg.html` | High
+17 | File | `/model/update_classroom.php` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/news.dtl.php` | High
+20 | File | `/royal_event/userregister.php` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/see_more_details.php` | High
+23 | File | `/services/details.asp` | High
+24 | File | `/setup` | Low
+25 | File | `/signup.php` | Medium
+26 | File | `/spip.php` | Medium
+27 | File | `/uapi/doc` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/update-employee.php` | High
+30 | File | `/user/add-notes.php` | High
+31 | File | `/user/manage-notes.php` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/vcs/claire_blake` | High
+34 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+36 | File | `/zm/index.php` | High
+37 | File | `3/E_bak5.1/upload/eginfo.php` | High
+38 | File | `act.php` | Low
+39 | File | `adclick.php` | Medium
+40 | File | `admin` | Low
 41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

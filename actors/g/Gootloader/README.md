@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -60,46 +60,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.config/Yubico` | High
-2 | File | `/admin/SensitiveWords` | High
-3 | File | `/admin/sign/out` | High
-4 | File | `/backupsettings.conf` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/cgi-bin/return.cgi` | High
-7 | File | `/checkLogin.cgi` | High
-8 | File | `/csms/admin/?page=user/list` | High
-9 | File | `/depotHead/list` | High
-10 | File | `/etc/postfix/sender_login` | High
-11 | File | `/forms/web_importTFTP` | High
-12 | File | `/framework/modules/users/models/user.php` | High
-13 | File | `/goform/openSchedWifi` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/Home/GetAttachment` | High
-16 | File | `/lesson/controller.php` | High
-17 | File | `/mkshope/login.php` | High
-18 | File | `/model/viewProduct.php` | High
-19 | File | `/objects/getImageMP4.php` | High
-20 | File | `/objects/getSpiritsFromVideo.php` | High
-21 | File | `/payu/icpcheckout/` | High
-22 | File | `/php_action/createUser.php` | High
-23 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-24 | File | `/see_more_details.php` | High
-25 | File | `/show_news.php` | High
-26 | File | `/src/jfif.c` | Medium
-27 | File | `/tracking/admin/view_itprofile.php` | High
-28 | File | `/tracking/nbproject/` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local/www/pkg.php` | High
-31 | File | `/v1/continue` | Medium
-32 | File | `/v1/tokens` | Medium
-33 | File | `/web/Public/Conn.php` | High
-34 | File | `/www/cgi-bin/cstecgi.cgi` | High
-35 | File | `adaptive-images-script.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/backupdb.php` | High
-38 | File | `admin/getparam.cgi` | High
-39 | ... | ... | ...
+2 | File | `.git/` | Low
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+4 | File | `/admin/cmsVote/save` | High
+5 | File | `/admin/SensitiveWords` | High
+6 | File | `/admin/sign/out` | High
+7 | File | `/backupsettings.conf` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/return.cgi` | High
+10 | File | `/checkLogin.cgi` | High
+11 | File | `/csms/admin/?page=user/list` | High
+12 | File | `/depotHead/list` | High
+13 | File | `/etc/postfix/sender_login` | High
+14 | File | `/forms/web_importTFTP` | High
+15 | File | `/framework/modules/users/models/user.php` | High
+16 | File | `/goform/openSchedWifi` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/Home/GetAttachment` | High
+19 | File | `/lesson/controller.php` | High
+20 | File | `/login?service` | High
+21 | File | `/mkshope/login.php` | High
+22 | File | `/model/viewProduct.php` | High
+23 | File | `/objects/getImageMP4.php` | High
+24 | File | `/objects/getSpiritsFromVideo.php` | High
+25 | File | `/payu/icpcheckout/` | High
+26 | File | `/php_action/createUser.php` | High
+27 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/show_news.php` | High
+30 | File | `/src/jfif.c` | Medium
+31 | File | `/tracking/admin/view_itprofile.php` | High
+32 | File | `/tracking/nbproject/` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/usr/local/www/pkg.php` | High
+35 | File | `/v1/continue` | Medium
+36 | File | `/v1/tokens` | Medium
+37 | File | `/web/Public/Conn.php` | High
+38 | File | `/www/cgi-bin/cstecgi.cgi` | High
+39 | File | `accessibility.js` | High
+40 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

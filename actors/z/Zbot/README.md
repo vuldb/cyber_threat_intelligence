@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -109,12 +109,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,38 +120,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/admin/imageslider/file.php` | High
-4 | File | `/admin/sign/out` | High
-5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/application/index/controller/Service.php` | High
-7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-8 | File | `/cgi-bin/luci` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/cgi-bin/viewcert` | High
-11 | File | `/core/vb/vurl.php` | High
-12 | File | `/etc/ldap.conf` | High
-13 | File | `/etc/shadow.sample` | High
-14 | File | `/eval/admin/manage_class.php` | High
-15 | File | `/importTool/preview` | High
-16 | File | `/lms/classes/Master.php?f=save_record` | High
-17 | File | `/mods/_core/courses/users/create_course.php` | High
-18 | File | `/ndmComponents.js` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/phppath/php` | Medium
-21 | File | `/plugins/Dashboard/Controller.php` | High
-22 | File | `/server-status` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/vpn/list_service_manage.php` | High
-25 | File | `/vpn/list_vpn_web_custom.php` | High
-26 | File | `/vpn/vpn_template_style.php` | High
-27 | File | `?page=about` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `add_comment.php` | High
-30 | ... | ... | ...
+1 | File | `/Admin/consulting_detail.php` | High
+2 | File | `/application/index/controller/Service.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/emloyee_akpoly/Account/login.php` | High
+6 | File | `/etc/shadow.sample` | High
+7 | File | `/lms/classes/Master.php?f=save_record` | High
+8 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

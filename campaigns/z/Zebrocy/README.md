@@ -17,8 +17,8 @@ These _actors_ are associated with Zebrocy or other actors linked to the campaig
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Sofacy](https://vuldb.com/?actor.sofacy) | High
-2 | [Zebrocy](https://vuldb.com/?actor.zebrocy) | High
+1 | [Zebrocy](https://vuldb.com/?actor.zebrocy) | High
+2 | [Sofacy](https://vuldb.com/?actor.sofacy) | High
 
 ## IOC - Indicator of Compromise
 

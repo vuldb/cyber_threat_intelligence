@@ -25,7 +25,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-80 | Cross Site Scripting | High
+2 | T1059.007 | CWE-80 | Basic Cross Site Scripting | High
 3 | T1204.001 | CWE-601 | Open Redirect | High
 4 | ... | ... | ... | ...
 

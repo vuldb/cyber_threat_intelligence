@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Seychelles Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [DK](https://vuldb.com/?country.dk)
 * [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -566,13 +566,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -580,53 +579,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/?admin/user.html` | High
-3 | File | `/admin.php?r=admin/AdminBackup/del` | High
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/index.php/template/ajax?action=delete` | High
-7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/pages/edit_chicken.php` | High
-11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/quizquestion.php` | High
-13 | File | `/admin/report/index.php` | High
-14 | File | `/admin/search-appointment.php` | High
-15 | File | `/admin/users.php?source=edit_user&id=1` | High
-16 | File | `/administrator/alerts/alertLightbox.php` | High
-17 | File | `/administrator/templates/default/html/windows/right.php` | High
-18 | File | `/admin_route/inc_service_credits.php` | High
-19 | File | `/api/runscript` | High
-20 | File | `/app/Http/Controllers/ImageController.php` | High
-21 | File | `/application/index/controller/Icon.php` | High
-22 | File | `/buscar_integrada.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/webadminget.cgi` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=delete_service` | High
-27 | File | `/classes/Master.php?f=save_course` | High
-28 | File | `/config/php.ini` | High
-29 | File | `/controllers/add_client.php` | High
-30 | File | `/demo/module/?module=HERE` | High
-31 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-32 | File | `/endpoint/add-calorie.php` | High
-33 | File | `/foms/routers/place-order.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-36 | File | `/goform/SysToolReboot` | High
-37 | File | `/goform/WifiExtraSet` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-40 | File | `/Interface/DevManage/VM.php` | High
-41 | File | `/mkshop/Men/profile.php` | High
-42 | File | `/mobile/downloadfile.aspx` | High
-43 | File | `/myprofile.php` | High
-44 | File | `/net/nfc/netlink.c` | High
-45 | ... | ... | ...
+1 | File | `/add_new_supplier.php` | High
+2 | File | `/admin/quizquestion.php` | High
+3 | File | `/app/api/controller/caiji.php` | High
+4 | File | `/buscar_integrada.php` | High
+5 | File | `/classes/Master.php` | High
+6 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

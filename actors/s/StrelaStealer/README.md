@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.9.74.32](https://vuldb.com/?ip.45.9.74.32) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,8 +68,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/53158/
 * https://bazaar.abuse.ch/sample/3a948982d87b89fe3c05f1b6265d6435e19d51fd970bd773ab0b01e013e1a171/
 * https://bazaar.abuse.ch/sample/956c50d8878fc708f27dd53fca71ec874c4304d2a43e4ca939c4a0b26d87d6f8/
+* https://bazaar.abuse.ch/sample/b9ae263904d3a5fb8471a0f8ab95fcbb224f632e6185e3a110e8d5aed9785420/
+* https://bazaar.abuse.ch/sample/c1300da81e37d2ec5fe1b1fdea0014f6d2c7d2262dc9056a55922cb13f5070d4/
 * https://blog.sonicwall.com/en-us/2024/04/updated-strelastealer-targeting-european-countries/
 * https://gbhackers.com/strelastealer-malware-attacks-eu-us/
+* https://medium.com/@DCSO_CyTec/shortandmalicious-strelastealer-aims-for-mail-credentials-a4c3e78c8abc
 * https://threatfox.abuse.ch
 * https://twitter.com/AgidCert/status/1695004388190806210
 
