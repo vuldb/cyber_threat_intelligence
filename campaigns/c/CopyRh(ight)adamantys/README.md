@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IL](https://vuldb.com/?country.il)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -90,35 +90,35 @@ ID | Type | Indicator | Confidence
 31 | File | `/admin_route/dec_service_credits.php` | High
 32 | File | `/api/v1/custom_component` | High
 33 | File | `/api/wechat/app_auth` | High
-34 | File | `/backend/admin/his_admin_add_vendor.php` | High
-35 | File | `/cancel.php` | Medium
-36 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-37 | File | `/category.php` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/cgi-bin/nas_sharing.cgi` | High
-40 | File | `/classes/Master.php` | High
-41 | File | `/classes/Master.php?f=delete_category` | High
-42 | File | `/classes/Master.php?f=save_medicine` | High
-43 | File | `/classes/SystemSettings.php?f=update_settings` | High
-44 | File | `/classes/Users.php?f=delete` | High
-45 | File | `/control/register_case.php` | High
-46 | File | `/download` | Medium
-47 | File | `/downloadFile.php` | High
-48 | File | `/dtale/chart-data/1` | High
-49 | File | `/DXR.axd` | Medium
-50 | File | `/editar-cliente.php` | High
-51 | File | `/editar-produto.php` | High
-52 | File | `/endpoint/add-folder.php` | High
-53 | File | `/endpoint/add-task.php` | High
-54 | File | `/etc/shadow` | Medium
-55 | File | `/file/updateprofile.php` | High
-56 | File | `/filemanager/upload` | High
-57 | File | `/file_manager/login.php` | High
-58 | File | `/film-rating.php` | High
-59 | File | `/foms/routers/place-order.php` | High
+34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+35 | File | `/backend/admin/his_admin_add_vendor.php` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/cancel.php` | Medium
+38 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+39 | File | `/category.php` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=save_medicine` | High
+45 | File | `/classes/SystemSettings.php?f=update_settings` | High
+46 | File | `/classes/Users.php?f=delete` | High
+47 | File | `/control/register_case.php` | High
+48 | File | `/download` | Medium
+49 | File | `/downloadFile.php` | High
+50 | File | `/dtale/chart-data/1` | High
+51 | File | `/DXR.axd` | Medium
+52 | File | `/editar-cliente.php` | High
+53 | File | `/editar-produto.php` | High
+54 | File | `/endpoint/add-folder.php` | High
+55 | File | `/endpoint/add-task.php` | High
+56 | File | `/etc/shadow` | Medium
+57 | File | `/file/updateprofile.php` | High
+58 | File | `/filemanager/upload` | High
+59 | File | `/file_manager/login.php` | High
 60 | ... | ... | ...
 
-There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

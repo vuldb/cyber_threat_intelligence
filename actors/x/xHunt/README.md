@@ -132,7 +132,7 @@ ID | Type | Indicator | Confidence
 72 | File | `/control/register_case.php` | High
 73 | ... | ... | ...
 
-There are 643 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 641 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,24 +56,26 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/admin_user.php` | High
 6 | File | `/admin/ajax.php?action=save_area` | High
 7 | File | `/admin/edit_teacher.php` | High
-8 | File | `/admin/order.php` | High
-9 | File | `/admin/pages/yearlevel.php` | High
-10 | File | `/admin/upload/img` | High
-11 | File | `/admin1/file/download` | High
-12 | File | `/ajax.php?action=read_msg` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/public/register/family` | High
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/application/index/controller/Datament.php` | High
-17 | File | `/application/index/controller/File.php` | High
-18 | File | `/application/index/controller/Pay.php` | High
-19 | File | `/ext/collect/filter_text.do` | High
-20 | File | `/file-manager/rename.php` | High
-21 | File | `/file-manager/upload.php` | High
-22 | File | `/filex/proxy-download` | High
-23 | ... | ... | ...
+8 | File | `/admin/manage-users.php` | High
+9 | File | `/admin/order.php` | High
+10 | File | `/admin/pages/yearlevel.php` | High
+11 | File | `/admin/upload/img` | High
+12 | File | `/admin1/file/download` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/public/register/family` | High
+16 | File | `/application/index/controller/Databasesource.php` | High
+17 | File | `/application/index/controller/Datament.php` | High
+18 | File | `/application/index/controller/File.php` | High
+19 | File | `/application/index/controller/Pay.php` | High
+20 | File | `/b2b-supermarket/catalog/all-products` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+22 | File | `/ext/collect/filter_text.do` | High
+23 | File | `/file-manager/rename.php` | High
+24 | File | `/file-manager/upload.php` | High
+25 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

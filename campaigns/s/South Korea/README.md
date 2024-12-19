@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -409,33 +409,32 @@ ID | Type | Indicator | Confidence
 33 | File | `/authMonitCallcenter` | High
 34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 35 | File | `/backend/admin/his_admin_add_vendor.php` | High
-36 | File | `/backend/register.php` | High
-37 | File | `/bloodrequest.php` | High
-38 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/hd_config.cgi` | High
-41 | File | `/cgi-bin/nas_sharing.cgi` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/backend/register.php` | High
+38 | File | `/bloodrequest.php` | High
+39 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/hd_config.cgi` | High
 42 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-43 | File | `/classes/Master.php` | High
-44 | File | `/classes/Master.php?f=delete_category` | High
-45 | File | `/classes/Master.php?f=save_package` | High
-46 | File | `/classes/SystemSettings.php?f=update_settings` | High
-47 | File | `/classes/Users.php?f=delete` | High
-48 | File | `/cms/category/list` | High
-49 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-50 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
-51 | File | `/deleteanimal.php` | High
-52 | File | `/downloadFile.php` | High
-53 | File | `/dtale/chart-data/1` | High
-54 | File | `/DXR.axd` | Medium
-55 | File | `/editar-cliente.php` | High
-56 | File | `/editar-produto.php` | High
-57 | File | `/endpoint/add-folder.php` | High
-58 | File | `/endpoint/add-task.php` | High
-59 | File | `/endpoint/delete-calorie.php` | High
-60 | ... | ... | ...
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=save_package` | High
+45 | File | `/classes/SystemSettings.php?f=update_settings` | High
+46 | File | `/classes/Users.php?f=delete` | High
+47 | File | `/cms/category/list` | High
+48 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+49 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
+50 | File | `/deleteanimal.php` | High
+51 | File | `/downloadFile.php` | High
+52 | File | `/dtale/chart-data/1` | High
+53 | File | `/editar-cliente.php` | High
+54 | File | `/editar-produto.php` | High
+55 | File | `/endpoint/add-folder.php` | High
+56 | File | `/endpoint/add-task.php` | High
+57 | File | `/endpoint/delete-calorie.php` | High
+58 | File | `/file/infoAdd.php` | High
+59 | ... | ... | ...
 
-There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

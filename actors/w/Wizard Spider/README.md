@@ -143,9 +143,10 @@ ID | Type | Indicator | Confidence
 23 | File | `/goform/setStaOffline` | High
 24 | File | `/goform/WizardHandle` | High
 25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | ... | ... | ...
+26 | File | `/group1/uploa` | High
+27 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

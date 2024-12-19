@@ -162,9 +162,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/classes/Master.php?f=save_category` | High
 27 | File | `/classes/SystemSettings.php?f=update_settings` | High
 28 | File | `/classes/Users.php?f=save` | High
-29 | ... | ... | ...
+29 | File | `/customnode/install` | High
+30 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

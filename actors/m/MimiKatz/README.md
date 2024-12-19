@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,13 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [39.98.204.142](https://vuldb.com/?ip.39.98.204.142) | - | - | High
 8 | [39.101.170.107](https://vuldb.com/?ip.39.101.170.107) | - | - | High
 9 | [43.138.140.179](https://vuldb.com/?ip.43.138.140.179) | - | - | High
-10 | ... | ... | ... | ...
+10 | [43.157.65.53](https://vuldb.com/?ip.43.157.65.53) | - | - | High
+11 | [45.150.108.3](https://vuldb.com/?ip.45.150.108.3) | - | - | High
+12 | [52.151.88.215](https://vuldb.com/?ip.52.151.88.215) | - | - | High
+13 | [62.109.5.25](https://vuldb.com/?ip.62.109.5.25) | aeroflot.me | - | High
+14 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,11 +44,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -76,31 +80,32 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 20 | File | `/ajax.php?action=load_answered` | High
 21 | File | `/api/v2/cli/commands` | High
-22 | File | `/boaform/device_reset.cgi` | High
-23 | File | `/boaform/wlan_basic_set.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/course/filterRecords/` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/download/image` | High
-31 | File | `/edit1.php` | Medium
-32 | File | `/Employee/edit-profile.php` | High
-33 | File | `/Employer/EditProfile.php` | High
-34 | File | `/Employer/ManageJob.php` | High
-35 | File | `/etc/sysconfig/btrfsmaintenance` | High
-36 | File | `/firewall/policy/` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Users.php?f=save` | High
+26 | File | `/control/activate_case.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/download` | Medium
+29 | File | `/download/image` | High
+30 | File | `/edit1.php` | Medium
+31 | File | `/Employee/edit-profile.php` | High
+32 | File | `/Employer/EditProfile.php` | High
+33 | File | `/Employer/ManageJob.php` | High
+34 | File | `/etc/sysconfig/btrfsmaintenance` | High
+35 | File | `/firewall/policy/` | High
+36 | File | `/forgot.php` | Medium
 37 | File | `/forum/away.php` | High
-38 | File | `/getcfg.php` | Medium
-39 | File | `/goform/formEasySetTimezone` | High
-40 | File | `/goform/SetSysTimeCfg` | High
-41 | File | `/hedwig.cgi` | Medium
-42 | File | `/ims/login.php` | High
-43 | File | `/inc/modules_install.php` | High
-44 | ... | ... | ...
+38 | File | `/general/email/inbox/delete_webmail.php` | High
+39 | File | `/getcfg.php` | Medium
+40 | File | `/goform/addWifiMacFilter` | High
+41 | File | `/goform/formEasySetTimezone` | High
+42 | File | `/goform/SetSysTimeCfg` | High
+43 | File | `/hedwig.cgi` | Medium
+44 | File | `/ims/login.php` | High
+45 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,13 +123,25 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/43.138.140.179
 * https://search.censys.io/hosts/43.157.65.53
 * https://search.censys.io/hosts/45.150.108.3
+* https://search.censys.io/hosts/52.151.88.215
+* https://search.censys.io/hosts/62.109.5.25
+* https://search.censys.io/hosts/62.109.5.25+117.54.129.180.unknown.m1.com.sg.prodejdilu.cz
+* https://search.censys.io/hosts/62.109.5.25+184.88.78.218.dial.xw.sh.dynamic.163data.com.cn.prodejdilu.cz
 * https://search.censys.io/hosts/80.76.51.159
 * https://search.censys.io/hosts/81.16.6.166
 * https://search.censys.io/hosts/81.95.8.174
+* https://search.censys.io/hosts/81.169.141.174
+* https://search.censys.io/hosts/83.136.254.53
 * https://search.censys.io/hosts/83.136.255.209
 * https://search.censys.io/hosts/84.201.150.223
+* https://search.censys.io/hosts/86.125.233.221
 * https://search.censys.io/hosts/89.197.154.116
+* https://search.censys.io/hosts/94.237.29.84
+* https://search.censys.io/hosts/94.237.31.241
+* https://search.censys.io/hosts/94.237.55.77
 * https://search.censys.io/hosts/94.237.59.211
+* https://search.censys.io/hosts/94.237.87.140
+* https://search.censys.io/hosts/94.237.101.5
 * https://search.censys.io/hosts/100.1.226.154
 * https://search.censys.io/hosts/101.42.158.190
 * https://search.censys.io/hosts/103.142.9.181
@@ -132,16 +149,22 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/106.51.16.29
 * https://search.censys.io/hosts/106.55.181.138
 * https://search.censys.io/hosts/108.143.124.130
+* https://search.censys.io/hosts/117.50.177.30
+* https://search.censys.io/hosts/117.72.36.133
 * https://search.censys.io/hosts/120.25.163.165
 * https://search.censys.io/hosts/121.5.73.12
+* https://search.censys.io/hosts/124.221.38.181
 * https://search.censys.io/hosts/124.221.47.70
 * https://search.censys.io/hosts/147.45.156.121
 * https://search.censys.io/hosts/149.88.74.5
 * https://search.censys.io/hosts/165.232.161.164
+* https://search.censys.io/hosts/165.232.186.159
 * https://search.censys.io/hosts/167.99.60.195
+* https://search.censys.io/hosts/169.239.129.45
 * https://search.censys.io/hosts/172.233.1.11
 * https://search.censys.io/hosts/173.249.57.136
 * https://search.censys.io/hosts/176.145.117.173
+* https://search.censys.io/hosts/178.63.172.2
 * https://search.censys.io/hosts/182.153.48.169
 * https://search.censys.io/hosts/185.203.216.41
 * https://search.censys.io/hosts/188.127.249.150
@@ -149,9 +172,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/192.248.154.28
 * https://search.censys.io/hosts/193.32.178.182
 * https://search.censys.io/hosts/209.94.59.99
+* https://search.censys.io/hosts/209.151.146.107
 * https://search.censys.io/hosts/209.151.153.216
 * https://search.censys.io/hosts/209.151.154.222
 * https://search.censys.io/hosts/213.199.51.167
+* https://search.censys.io/hosts/218.250.51.135
 
 ## Literature
 

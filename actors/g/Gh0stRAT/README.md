@@ -133,47 +133,46 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/ajax.php?action=login` | High
 10 | File | `/admin/budget/manage_budget.php` | High
 11 | File | `/admin/bwdates-reports-ds.php` | High
-12 | File | `/admin/forgot-password.php` | High
-13 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/sql` | Medium
-17 | File | `/admin/students/manage.php` | High
-18 | File | `/admin/system.html` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/ajax/check_medicine_name.php` | High
-21 | File | `/api/blade-user/export-user` | High
-22 | File | `/api/snapshots/` | High
-23 | File | `/api /v3/auth` | High
-24 | File | `/application/index/controller/Icon.php` | High
-25 | File | `/apply/index.php` | High
-26 | File | `/backend/admin/his_admin_register_patient.php` | High
-27 | File | `/bin/ate` | Medium
-28 | File | `/boaform/device_reset.cgi` | High
-29 | File | `/book_list.php` | High
-30 | File | `/candidate/index.php` | High
-31 | File | `/cgi-bin/adm.cgi` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-34 | File | `/cgi-bin/tosei_kikai.php` | High
-35 | File | `/classes/SystemSettings.php?f=update_settings` | High
-36 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-37 | File | `/control/edit_client.php` | High
-38 | File | `/core/config-revisions` | High
-39 | File | `/detailed.php` | High
-40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-41 | File | `/dist/index.js` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/endpoint/add-calorie.php` | High
-44 | File | `/endpoint/add-timesheet.php` | High
-45 | File | `/etc/init.d/update_notifications.sh` | High
-46 | File | `/EXCU_SHELL` | Medium
-47 | File | `/expedit.php` | Medium
-48 | File | `/filemanager/upload` | High
-49 | File | `/foms/routers/place-order.php` | High
-50 | ... | ... | ...
+12 | File | `/admin/DatabaseQuery` | High
+13 | File | `/admin/forgot-password.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+16 | File | `/admin/index2.html` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/options-theme.php` | High
+19 | File | `/admin/sql` | Medium
+20 | File | `/admin/students/manage.php` | High
+21 | File | `/admin/system.html` | High
+22 | File | `/adminPage/conf/reload` | High
+23 | File | `/ajax/check_medicine_name.php` | High
+24 | File | `/api/blade-user/export-user` | High
+25 | File | `/api /v3/auth` | High
+26 | File | `/application/index/controller/Icon.php` | High
+27 | File | `/apply/index.php` | High
+28 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+29 | File | `/backend/admin/his_admin_register_patient.php` | High
+30 | File | `/bin/ate` | Medium
+31 | File | `/boaform/device_reset.cgi` | High
+32 | File | `/book_list.php` | High
+33 | File | `/candidate/index.php` | High
+34 | File | `/cgi-bin/adm.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/kerbynet` | High
+37 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+38 | File | `/cgi-bin/tosei_kikai.php` | High
+39 | File | `/classes/SystemSettings.php?f=update_settings` | High
+40 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+41 | File | `/control/edit_client.php` | High
+42 | File | `/core/config-revisions` | High
+43 | File | `/detailed.php` | High
+44 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+45 | File | `/dist/index.js` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/endpoint/add-calorie.php` | High
+48 | File | `/endpoint/add-timesheet.php` | High
+49 | ... | ... | ...
 
-There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

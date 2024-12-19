@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Washington DC Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [PT](https://vuldb.com/?country.pt)
-* ...
-
-There are 2 more country items available. Please use our online service to access the data.
+* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -151,9 +148,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -164,33 +161,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin/aboutus.php` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/booking-bwdates-reports-details.php` | High
-5 | File | `/admin/edit-admin.php` | High
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/booking-bwdates-reports-details.php` | High
+4 | File | `/admin/edit-admin.php` | High
+5 | File | `/admin/edit-card-detail.php` | High
 6 | File | `/admin/emp-profile-avatar.php` | High
 7 | File | `/admin/index.php?page=manage_product` | High
-8 | File | `/admin/index3.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/manage_complaint.php` | High
-11 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-12 | File | `/admin/transactions/track_shipment.php` | High
-13 | File | `/api/v2/maps` | Medium
-14 | File | `/APR/login.php` | High
-15 | File | `/APR/signup.php` | High
-16 | File | `/backend/register.php` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/p1_ftpserver.php` | High
-19 | File | `/cgi-bin/tosei_kikai.php` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/classes/SystemSettings.php?f=update_settings` | High
-22 | File | `/classes/Users.php?f=delete` | High
-23 | File | `/control/deactivate_case.php` | High
-24 | File | `/control/register_case.php` | High
-25 | ... | ... | ...
+8 | File | `/admin/manage_complaint.php` | High
+9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+10 | File | `/api/v2/maps` | Medium
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/backend/admin/his_admin_register_patient.php` | High
+13 | File | `/backend/register.php` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/p1_ftpserver.php` | High
+16 | File | `/cgi-bin/tosei_kikai.php` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/SystemSettings.php?f=update_settings` | High
+19 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

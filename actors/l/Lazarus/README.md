@@ -27,7 +27,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -308,14 +308,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -323,57 +323,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=reports` | High
-2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-3 | File | `/admin/apply.php` | High
-4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-5 | File | `/admin/book-details.php` | High
-6 | File | `/admin/bwdates-report-details.php` | High
-7 | File | `/admin/change-image.php` | High
-8 | File | `/admin/cmsVote/save` | High
-9 | File | `/admin/edit_role.php` | High
-10 | File | `/admin/fetch_product_details.php` | High
-11 | File | `/admin/file_manager/export` | High
-12 | File | `/admin/forms/option_lists/edit.php` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/operations/expense_category.php` | High
-16 | File | `/admin/order.php` | High
-17 | File | `/admin/orders/view_order.php` | High
-18 | File | `/admin/product/manage_product.php` | High
-19 | File | `/admin/profile.php` | High
-20 | File | `/admin/settings/index.php?page=accounts` | High
-21 | File | `/admin/sou.php` | High
-22 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-23 | File | `/admin/template/edit` | High
-24 | File | `/adminapi/system/file/openfile` | High
-25 | File | `/api/cron/settings/setJob/` | High
-26 | File | `/api/v1/settings` | High
-27 | File | `/application/index/controller/Screen.php` | High
-28 | File | `/application/plugins/controller/Upload.php` | High
-29 | File | `/articles/welcome-to-your-site#comments-head` | High
-30 | File | `/auth_files/photo/` | High
-31 | File | `/backend/admin/his_admin_add_vendor.php` | High
-32 | File | `/bloodrequest.php` | High
-33 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-34 | File | `/cgi-bin/alexserv` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/luci/api/auth` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/control/activate_case.php` | High
-39 | File | `/dbsrv.asp` | Medium
-40 | File | `/DXR.axd` | Medium
-41 | File | `/editar-cliente.php` | High
-42 | File | `/editar-produto.php` | High
-43 | File | `/ejbca/ra/cert` | High
-44 | File | `/Employee/edit-profile.php` | High
-45 | File | `/file/updateprofile.php` | High
-46 | File | `/filemanager/upload` | High
-47 | File | `/formLoginAuth.htm` | High
-48 | File | `/forms/doLogin` | High
-49 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+3 | File | `/admin/change-image.php` | High
+4 | File | `/admin/cmsVote/save` | High
+5 | File | `/admin/config_ISCGroupNoCache.php` | High
+6 | File | `/admin/edit_role.php` | High
+7 | File | `/admin/fetch_product_details.php` | High
+8 | File | `/admin/file_manager/export` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/operations/expense_category.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/orders/view_order.php` | High
+13 | File | `/admin/product/manage_product.php` | High
+14 | File | `/admin/profile.php` | High
+15 | File | `/admin/settings/index.php?page=accounts` | High
+16 | File | `/admin/template/edit` | High
+17 | File | `/adminapi/system/file/openfile` | High
+18 | File | `/api/job/add/` | High
+19 | File | `/api/v1/settings` | High
+20 | File | `/application/plugins/controller/Upload.php` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/auth_files/photo/` | High
+23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+24 | File | `/backend/admin/his_admin_add_vendor.php` | High
+25 | File | `/backend/admin/his_admin_register_patient.php` | High
+26 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/luci/api/auth` | High
+29 | File | `/chat/completions` | High
+30 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+31 | File | `/control/activate_case.php` | High
+32 | File | `/data/app` | Medium
+33 | File | `/dbsrv.asp` | Medium
+34 | File | `/download` | Medium
+35 | File | `/DXR.axd` | Medium
+36 | File | `/editar-cliente.php` | High
+37 | File | `/editar-produto.php` | High
+38 | File | `/endpoint/add-task.php` | High
+39 | File | `/file/updateprofile.php` | High
+40 | File | `/filemanager/upload` | High
+41 | File | `/formLoginAuth.htm` | High
+42 | File | `/forms/doLogin` | High
+43 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

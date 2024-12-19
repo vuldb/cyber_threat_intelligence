@@ -99,14 +99,14 @@ ID | Type | Indicator | Confidence
 21 | File | `/ajax/checkin.php` | High
 22 | File | `/api/v1/settings` | High
 23 | File | `/api/v2/cli/commands` | High
-24 | File | `/boaform/device_reset.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/control/activate_case.php` | High
-30 | File | `/dbsrv.asp` | Medium
-31 | File | `/debug/pprof` | Medium
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/control/activate_case.php` | High
+29 | File | `/dbsrv.asp` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/download` | Medium
 32 | File | `/download/image` | High
 33 | File | `/edit1.php` | Medium
 34 | File | `/Employee/edit-profile.php` | High
@@ -119,7 +119,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/goform/formEasySetTimezone` | High
 42 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

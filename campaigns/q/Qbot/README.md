@@ -136,45 +136,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/budget/manage_budget.php` | High
 7 | File | `/admin/bwdates-reports-ds.php` | High
 8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/index.php?page=categories` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/Admin/login.php` | High
-13 | File | `/admin/project/update/2` | High
-14 | File | `/admin/sql` | Medium
-15 | File | `/admin/students.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-18 | File | `/admin/system.html` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/api /v3/auth` | High
-22 | File | `/application/index/controller/Icon.php` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/backend/admin/his_admin_register_patient.php` | High
-25 | File | `/bin/ate` | Medium
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/book_list.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/control/activate_case.php` | High
-31 | File | `/control/edit_client.php` | High
-32 | File | `/dataSet/testTransform;swagger-ui` | High
-33 | File | `/dayrui/Fcms/View/system_log.html` | High
-34 | File | `/dayrui/My/View/main.html` | High
-35 | File | `/debug/pprof` | Medium
-36 | File | `/download` | Medium
-37 | File | `/download/image` | High
-38 | File | `/edit1.php` | Medium
-39 | File | `/Employee/edit-profile.php` | High
-40 | File | `/expedit.php` | Medium
-41 | File | `/firewall/policy/` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/meeting/manage/delete.php` | High
-44 | File | `/getcfg.php` | Medium
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/index.php?page=categories` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/Admin/login.php` | High
+14 | File | `/admin/project/update/2` | High
+15 | File | `/admin/sql` | Medium
+16 | File | `/admin/students.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+19 | File | `/admin/system.html` | High
+20 | File | `/adminPage/conf/reload` | High
+21 | File | `/api/v2/cli/commands` | High
+22 | File | `/api /v3/auth` | High
+23 | File | `/application/index/controller/Icon.php` | High
+24 | File | `/application/index/controller/Screen.php` | High
+25 | File | `/backend/admin/his_admin_register_patient.php` | High
+26 | File | `/bin/ate` | Medium
+27 | File | `/boaform/device_reset.cgi` | High
+28 | File | `/book_list.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/control/activate_case.php` | High
+32 | File | `/control/edit_client.php` | High
+33 | File | `/dataSet/testTransform;swagger-ui` | High
+34 | File | `/dayrui/Fcms/View/system_log.html` | High
+35 | File | `/dayrui/My/View/main.html` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/download` | Medium
+38 | File | `/download/image` | High
+39 | File | `/edit1.php` | Medium
+40 | File | `/Employee/edit-profile.php` | High
+41 | File | `/expedit.php` | Medium
+42 | File | `/firewall/policy/` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/general/meeting/manage/delete.php` | High
 45 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -12426,3 +12426,82 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 ## License
 
 (c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+m/cobalt-stike-beacon-detected-207-180-248-202-port-5858/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-209-97-156-75-port-8080/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-209-127-27-17-port-80/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-209-141-52-22-port-443/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-210-29-38-52-port-80/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-210-209-123-100-port-443/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-212-193-30-14-port-443/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-212-193-30-15-port-10443/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-213-252-244-69-port-80/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-216-24-243-168-port-80/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-216-83-45-175-port-8443/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-216-83-46-88-port-8080/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-217-12-206-146-port-4433/
+* https://www.redpacketsecurity.com/cobalt-stike-beacon-detected-218-11-133-33-port-8805/
+* https://www.sentinelone.com/blog/geacon-brings-cobalt-strike-capabilities-to-macos-threat-actors/
+* https://www.sentinelone.com/labs/chinese-entanglement-dll-hijacking-in-the-asian-gambling-sector/
+* https://www.shodan.io/host/45.155.249.7
+* https://www.shodan.io/host/104.168.171.135
+* https://www.shodan.io/search?query=%22Cobalt%20Strike%20Beacon%22
+* https://www.shodan.io/search?query=%22Cobalt+Strike+Beacon%22
+* https://www.trendmicro.com/de_de/research/22/e/patch-your-wso2-cve-2022-29464-exploited-to-install-linux-compatible-cobalt-strike-beacons-other-malware.html
+* https://www.trendmicro.com/de_de/research/22/i/play-ransomware-s-attack-playbook-unmasks-it-as-another-hive-aff.html
+* https://www.trendmicro.com/en_us/research/22/j/black-basta-infiltrates-networks-via-qakbot-brute-ratel-and-coba.html
+* https://www.virustotal.com/gui/file/01e3c4a4f44c02d4ce6c7f3f94401618ad3fbe8f07f9861df88c0f4ea2416009
+* https://www.virustotal.com/gui/file/02005117cb32ef5d44a53283157a4245a7cc3a99c55299e8135804a96689849a
+* https://www.virustotal.com/gui/file/1d8b6a93b44e9a9a6b7ce696ff947e475ebb423473b4870304dadcb77a3b908a
+* https://www.virustotal.com/gui/file/1fc451955ad55d28a7f8d9031969c214c6a52f411afe30cac8ca87007194ba59
+* https://www.virustotal.com/gui/file/3b8648e73380f65ea913d6ebe6eb86faee2538f2346f650f7c78e6607183eda4
+* https://www.virustotal.com/gui/file/3c38d76d18f2313ba1155adcab66773a2ab61dcb4958d636897772a8b99cb024
+* https://www.virustotal.com/gui/file/3f5decf4fb3954d1e558fa6275546f3e0620c4c274df2de51257a7a05361c964
+* https://www.virustotal.com/gui/file/5b37198dd82bc3f8e03628831d68a9a93ed7878758e68c485b6f2ad4ce47b90a
+* https://www.virustotal.com/gui/file/6ff77106e8b6877e710b013e24bb4f0a2ee6714c81c33932639c641e7c6cbe1a
+* https://www.virustotal.com/gui/file/7c0c33799c260f154b1c4d3c5cd5116de979368615bb1415eab9df60c0ec6ca3
+* https://www.virustotal.com/gui/file/7f2e6f59e538c2686a86a02db435df9f1c172393206a6169792377bc2689b91c
+* https://www.virustotal.com/gui/file/8d4d217babb1fb217493ef34729569fec6a9bcc0297ec868eaeff9413d65dff7
+* https://www.virustotal.com/gui/file/9a479b361d5e043873ad1bc454aa124b0d5558f0cb929219382518ad5c2eed7a/detection
+* https://www.virustotal.com/gui/file/9ebc56ef13e3f1eed8df194a806121778b822f792c279434ac8bc8459919324f
+* https://www.virustotal.com/gui/file/9f28ef2deeec2c1e2a15e43bd905bab4784c5e538726208a2b93c0919dcd41bd
+* https://www.virustotal.com/gui/file/26bfad47f3b6ade893196ab5cd5b3070e7cbc6cb6df9db5aa29c0a701a8920a3
+* https://www.virustotal.com/gui/file/62be22d9521bf48e161704aec1d35dbe3e579fda4cafc9f6aef62a41eb19b63b
+* https://www.virustotal.com/gui/file/149c3d044abc3c3a15ba1bb55db7e05cbf87008bd3d23d7dd4a3e31fcfd7af10
+* https://www.virustotal.com/gui/file/559bb235a5a04cef877a7c7b3ad51177a4706169fa03167d3d284a0a54712a0b
+* https://www.virustotal.com/gui/file/659b22a5ef6fb30febf26468e526761eb63c888c920bce218b35b44889c4b7b4
+* https://www.virustotal.com/gui/file/7593a4d2da53d4e2dd17d27cb99a27936593aaff17e4df970a89bb73e883b962/behavior
+* https://www.virustotal.com/gui/file/213084fa1db7fd7a6e1a6bbd9233763145cc2778207d618c6c86a5109b987e0a
+* https://www.virustotal.com/gui/file/414440ed510b4354d3f0fe20198f85ef4ffe4573a612ccfbbeda80a6cf72a414
+* https://www.virustotal.com/gui/file/1102918d212dd3b8feabb1da5d80c050737099d8242ebf90cfc1574af1676c5d
+* https://www.virustotal.com/gui/file/72107347bbe6b6573adfc6e8812ccea157d9e0abddf14877f7aa9b369d3d7382
+* https://www.virustotal.com/gui/file/a0ae99231dbcd73f80a9adef58b5724f8d94e881176345e16cbe4566c3172886
+* https://www.virustotal.com/gui/file/a25006ebf676ab6152e46e0226d68db008fc09ec62006ee6a1ac0c6f67bf3e35
+* https://www.virustotal.com/gui/file/b8034b4eb24d52fcc673c22d507b286771b8daadc1084f320974ce8240678c1d
+* https://www.virustotal.com/gui/file/d8d44bb4ce6d8b2f9f7bc92484aed09ce7807cf7e11cf4be1b84de261d8be0a8
+* https://www.virustotal.com/gui/file/d57e441a60b0acc6a6a4d7453f309b70b262158c6cb9789a86b4991e55fe5dd3
+* https://www.virustotal.com/gui/file/d605e23c8c76b6972e193951adb3930aff283cbad7e13cd54199e5881839fbab/behavior
+* https://www.virustotal.com/gui/file/d3682a58294335839d22b0952418b7d974ff7da1ed2218ce9348c90235c20751
+* https://www.virustotal.com/gui/file/dd532e013f07fcaaa420c9908655039f065437d6287dfb8deb4303f5ec30b8ea
+* https://www.virustotal.com/gui/file/e6c7fd308786adaee1a2fbc5e31f19420bba6b458c3cbb533e9796c12eb366b8
+* https://www.virustotal.com/gui/file/e7ebf5e62121bb2d40b37d171e681cd31edd6c7ad1fe39349c19a74436ad4093
+* https://www.virustotal.com/gui/file/eaf071eca2c9feb62b090e1bcceb5f9f202ac62b10bdc0173f0a8ad3f8cb7131
+* https://www.virustotal.com/gui/file/eefda3a10a08127c6079897ad9df92fc3f5c1772fafc77b69b7f5279a8c5c31b
+* https://www.virustotal.com/gui/file/fcf86766e0b2db9584da429e0503c8ce5e7c42cf850146dacade31a0fbbdfdcf
+* https://www.virustotal.com/gui/ip-address/179.43.175.207/community
+* https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
+* https://www.zscaler.com/blogs/research/targeted-attack-leverages-india-china-border-dispute-lure-victims
+* https://www.zscaler.com/blogs/security-research/warhawk-new-backdoor-arsenal-sidewinder-apt-group-0
+* https://x.com/Gi7w0rm/status/1718778188795363682
+* https://x.com/lontze7/status/1796823844335890633
+* https://x.com/smica83/status/1869018362535460888
+
+## Literature
+
+The following _articles_ explain our unique predictive cyber threat intelligence:
+
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
+
+## License
+
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

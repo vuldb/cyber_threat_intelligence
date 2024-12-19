@@ -243,25 +243,26 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/manage_user.php` | High
 9 | File | `/admin/overtime_add.php` | High
 10 | File | `/admin/overtime_row.php` | High
-11 | File | `/admin/subject.php` | High
-12 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/cron/settings/setJob/` | High
-15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-16 | File | `/catalog/all-products` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/ExportSettings.sh` | High
-19 | File | `/changePassword` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-22 | File | `/edit-subject.php` | High
-23 | File | `/endpoint/add-user.php` | High
-24 | File | `/etc/postfix/sender_login` | High
-25 | File | `/etc/shadow.sample` | High
-26 | File | `/foms/routers/place-order.php` | High
-27 | ... | ... | ...
+11 | File | `/admin/search-vehicle.php` | High
+12 | File | `/admin/subject.php` | High
+13 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/cron/settings/setJob/` | High
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/catalog/all-products` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/ExportSettings.sh` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/changePassword` | High
+22 | File | `/classes/Users.php?f=save` | High
+23 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+24 | File | `/edit-subject.php` | High
+25 | File | `/endpoint/add-user.php` | High
+26 | File | `/etc/postfix/sender_login` | High
+27 | File | `/etc/shadow.sample` | High
+28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

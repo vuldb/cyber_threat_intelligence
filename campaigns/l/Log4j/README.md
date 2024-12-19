@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
 * [VN](https://vuldb.com/?country.vn)
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4860,14 +4860,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4875,26 +4873,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/complaint-search.php` | High
-3 | File | `/admin/search-medicalcard.php` | High
-4 | File | `/admin/subcategory.php` | High
-5 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-6 | File | `/admin/user-search.php` | High
-7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-8 | File | `/backend/admin/his_admin_register_patient.php` | High
-9 | File | `/boafrm/formSysCmd` | High
-10 | File | `/brains/stu.php` | High
-11 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-12 | File | `/control/WANIPConnection` | High
-13 | File | `/data/app` | Medium
-14 | File | `/editar-fornecedor.php` | High
-15 | File | `/endpoint/add-task.php` | High
-16 | File | `/etc/shadow` | Medium
-17 | File | `/forum/away.php` | High
-18 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/config_ISCGroupNoCache.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/options-theme.php` | High
+5 | File | `/admin/search-vehicle.php` | High
+6 | File | `/admin?do=admin:user:editPost` | High
+7 | File | `/api/job/add/` | High
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/kerbynet` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/customnode/install` | High
+13 | File | `/en-US/app/search/report` | High
+14 | File | `/formLoginAuth.htm` | High
+15 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

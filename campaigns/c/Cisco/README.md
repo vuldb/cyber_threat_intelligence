@@ -115,35 +115,35 @@ ID | Type | Indicator | Confidence
 36 | File | `/adminPage/conf/reload` | High
 37 | File | `/api/v1/custom_component` | High
 38 | File | `/api/wechat/app_auth` | High
-39 | File | `/backend/admin/his_admin_add_vendor.php` | High
-40 | File | `/cancel.php` | Medium
-41 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-42 | File | `/category.php` | High
-43 | File | `/cgi-bin/cstecgi.cgi` | High
-44 | File | `/cgi-bin/hd_config.cgi` | High
-45 | File | `/cgi-bin/nas_sharing.cgi` | High
-46 | File | `/cgi-bin/param.cgi` | High
-47 | File | `/classes/Master.php` | High
-48 | File | `/classes/Master.php?f=delete_category` | High
-49 | File | `/classes/Master.php?f=delete_record` | High
-50 | File | `/classes/Master.php?f=save_medicine` | High
-51 | File | `/classes/SystemSettings.php?f=update_settings` | High
-52 | File | `/classes/Users.php?f=delete` | High
-53 | File | `/classes/Users.php?f=save_client` | High
-54 | File | `/control/register_case.php` | High
-55 | File | `/controllers/add_client.php` | High
-56 | File | `/controllers/add_user.php` | High
-57 | File | `/download` | Medium
-58 | File | `/downloadFile.php` | High
-59 | File | `/dtale/chart-data/1` | High
-60 | File | `/DXR.axd` | Medium
-61 | File | `/editar-cliente.php` | High
-62 | File | `/editar-produto.php` | High
-63 | File | `/endpoint/add-folder.php` | High
-64 | File | `/endpoint/add-task.php` | High
+39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+40 | File | `/backend/admin/his_admin_add_vendor.php` | High
+41 | File | `/backend/admin/his_admin_register_patient.php` | High
+42 | File | `/cancel.php` | Medium
+43 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+44 | File | `/category.php` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/hd_config.cgi` | High
+47 | File | `/cgi-bin/nas_sharing.cgi` | High
+48 | File | `/cgi-bin/param.cgi` | High
+49 | File | `/classes/Master.php` | High
+50 | File | `/classes/Master.php?f=delete_category` | High
+51 | File | `/classes/Master.php?f=delete_record` | High
+52 | File | `/classes/Master.php?f=save_medicine` | High
+53 | File | `/classes/SystemSettings.php?f=update_settings` | High
+54 | File | `/classes/Users.php?f=delete` | High
+55 | File | `/classes/Users.php?f=save_client` | High
+56 | File | `/control/register_case.php` | High
+57 | File | `/controllers/add_client.php` | High
+58 | File | `/controllers/add_user.php` | High
+59 | File | `/download` | Medium
+60 | File | `/downloadFile.php` | High
+61 | File | `/dtale/chart-data/1` | High
+62 | File | `/DXR.axd` | Medium
+63 | File | `/editar-cliente.php` | High
+64 | File | `/editar-produto.php` | High
 65 | ... | ... | ...
 
-There are 570 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

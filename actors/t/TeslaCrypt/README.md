@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,12 +88,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,57 +101,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin/` | Low
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/photo.php` | High
-10 | File | `/admin/reminders/manage_reminder.php` | High
-11 | File | `/admins` | Low
-12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-13 | File | `/ajax/getBasicInfo.php` | High
-14 | File | `/api/admin/system/store/order/list` | High
-15 | File | `/API/info` | Medium
-16 | File | `/catcompany.php` | High
-17 | File | `/CCMAdmin/serverlist.asp` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/cgi/get_param.cgi` | High
-21 | File | `/clientdetails/admin/regester.php` | High
-22 | File | `/cms/category/list` | High
-23 | File | `/csms/?page=contact_us` | High
-24 | File | `/csms/admin/inquiries/view_details.php` | High
-25 | File | `/cstecgi.cgi` | Medium
-26 | File | `/Default/Bd` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/ecommerce/support_ticket` | High
-29 | File | `/egroupware/index.php` | High
-30 | File | `/farm/product.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/home/search` | Medium
-33 | File | `/hrm/employeeview.php` | High
-34 | File | `/importexport.php` | High
-35 | File | `/include/chart_generator.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/loginsave.php` | High
-39 | File | `/manage_block.php` | High
-40 | File | `/messageboard/view.php` | High
-41 | File | `/out.php` | Medium
-42 | File | `/owa/auth/logon.aspx` | High
-43 | File | `/param.file.tgz` | High
-44 | File | `/ptippage.cgi` | High
-45 | File | `/public_html/users.php` | High
-46 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-47 | File | `/textpattern/index.php` | High
-48 | File | `/tmp/out` | Medium
-49 | File | `/update-image1.php` | High
-50 | ... | ... | ...
+2 | File | `/admin/general.cgi` | High
+3 | File | `/admin/index3.php` | High
+4 | File | `/admin/manage-users.php` | High
+5 | File | `/admin/pages/` | High
+6 | File | `/admin/reminders/manage_reminder.php` | High
+7 | File | `/admins` | Low
+8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+9 | File | `/ajax/getBasicInfo.php` | High
+10 | File | `/api/admin/system/store/order/list` | High
+11 | File | `/API/info` | Medium
+12 | File | `/CCMAdmin/serverlist.asp` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cgi/get_param.cgi` | High
+16 | File | `/clientdetails/admin/regester.php` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/csms/admin/inquiries/view_details.php` | High
+19 | File | `/cstecgi.cgi` | Medium
+20 | File | `/ecommerce/support_ticket` | High
+21 | File | `/farm/product.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/home/search` | Medium
+24 | File | `/importexport.php` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/loginsave.php` | High
+28 | File | `/manage_block.php` | High
+29 | File | `/messageboard/view.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/param.file.tgz` | High
+33 | File | `/ptippage.cgi` | High
+34 | File | `/public_html/users.php` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+37 | File | `/textpattern/index.php` | High
+38 | File | `/tmp/out` | Medium
+39 | File | `/update-image1.php` | High
+40 | File | `/upfile.cgi` | Medium
+41 | File | `/upload` | Low
+42 | File | `/user/s.php` | Medium
+43 | File | `/v1/operador/` | High
+44 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

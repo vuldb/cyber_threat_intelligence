@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ValleyRAT:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [CH](https://vuldb.com/?country.ch)
 
 ## Actors
@@ -28,12 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [43.129.233.99](https://vuldb.com/?ip.43.129.233.99) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
-2 | [43.129.233.146](https://vuldb.com/?ip.43.129.233.146) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
-3 | [43.132.212.111](https://vuldb.com/?ip.43.132.212.111) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
+1 | [43.128.141.78](https://vuldb.com/?ip.43.128.141.78) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+2 | [43.129.233.99](https://vuldb.com/?ip.43.129.233.99) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
+3 | [43.129.233.146](https://vuldb.com/?ip.43.129.233.146) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,12 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,18 +54,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/editBookmark` | High
-2 | File | `admin/config/confmgr.php` | High
-3 | File | `inc/config.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/index.php` | High
+2 | File | `/api/` | Low
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+5 | File | `/backend/admin/his_admin_register_patient.php` | High
+6 | File | `/cgi-bin/editBookmark` | High
+7 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://asec.ahnlab.com/en/82707/
+* https://bazaar.abuse.ch/sample/bb1d91e8f93a1b08b098969e48a12d2f2b8203a30de0c3d85ec8cd36a3fa8049/
+* https://urlhaus.abuse.ch/host/43.128.141.78/
 * https://www.fortinet.com/blog/threat-research/valleyrat-campaign-targeting-chinese-speakers
 * https://www.splunk.com/en_us/blog/security/valleyrat-insights-tactics-techniques-and-detection-methods.html
 * https://www.zscaler.com/blogs/security-research/technical-analysis-latest-variant-valleyrat

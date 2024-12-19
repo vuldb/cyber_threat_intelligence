@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -79,24 +79,25 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/manage_user.php` | High
 10 | File | `/admin/network/diag_pinginterface` | High
 11 | File | `/admin/order.php` | High
-12 | File | `/admin/subject.php` | High
-13 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-15 | File | `/cap.js` | Low
-16 | File | `/catalog/all-products` | High
-17 | File | `/category.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/ExportSettings.sh` | High
-20 | File | `/changePassword` | High
-21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-22 | File | `/edit-subject.php` | High
-23 | File | `/endpoint/add-user.php` | High
-24 | File | `/etc/postfix/sender_login` | High
-25 | File | `/etc/shadow.sample` | High
-26 | File | `/foms/routers/place-order.php` | High
-27 | ... | ... | ...
+12 | File | `/admin/search-vehicle.php` | High
+13 | File | `/admin/subject.php` | High
+14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+16 | File | `/cap.js` | Low
+17 | File | `/catalog/all-products` | High
+18 | File | `/category.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/ExportSettings.sh` | High
+21 | File | `/changePassword` | High
+22 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+23 | File | `/edit-subject.php` | High
+24 | File | `/endpoint/add-user.php` | High
+25 | File | `/etc/postfix/sender_login` | High
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

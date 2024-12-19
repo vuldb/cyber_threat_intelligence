@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Responder:
 
 * [VN](https://vuldb.com/?country.vn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -249,7 +249,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -269,55 +269,56 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
 4 | File | `/admin/admin_log.php?clear=1` | High
 5 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-6 | File | `/admin/dialog/select_images_post.php` | High
-7 | File | `/admin/edit_role.php` | High
-8 | File | `/admin/fetch_product_details.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/order.php` | High
-11 | File | `/admin/profile.php` | High
-12 | File | `/admin/robot.php` | High
-13 | File | `/admin/settings/index.php?page=accounts` | High
-14 | File | `/admin/system.php` | High
-15 | File | `/admin/template/edit` | High
-16 | File | `/adminapi/system/file/openfile` | High
-17 | File | `/admins/{adminId}` | High
-18 | File | `/api/sys/set_passwd` | High
-19 | File | `/api/v1/challenges//solves` | High
-20 | File | `/articles/welcome-to-your-site#comments-head` | High
-21 | File | `/backend/admin/his_admin_add_vendor.php` | High
-22 | File | `/bloodrequest.php` | High
-23 | File | `/boafrm/formSystemCheck` | High
-24 | File | `/buscar_integrada.php` | High
-25 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-26 | File | `/cgi-bin/alexserv` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/hd_config.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-31 | File | `/cgi-bin/tosei_kikai.php` | High
-32 | File | `/cgi-bin/webfile_mgr.cgi` | High
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/chat/completions` | High
-35 | File | `/check` | Low
-36 | File | `/classes/Master.php?f=save_package` | High
-37 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-38 | File | `/controllers/add_user.php` | High
-39 | File | `/core/config-revisions` | High
-40 | File | `/core/tools/delete_place.php` | High
-41 | File | `/dcim/power-ports/add/` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ecommerce/admin/login.php` | High
-44 | File | `/ejbca/ra/cert` | High
-45 | File | `/endpoint/add-calorie.php` | High
-46 | File | `/endpoint/update.php` | High
-47 | File | `/etc/passwd` | Medium
-48 | File | `/files/` | Low
-49 | File | `/film-rating.php` | High
-50 | File | `/formLoginAuth.htm` | High
-51 | File | `/forms/doLogin` | High
-52 | ... | ... | ...
+6 | File | `/admin/config_ISCGroupNoCache.php` | High
+7 | File | `/admin/dialog/select_images_post.php` | High
+8 | File | `/admin/edit_role.php` | High
+9 | File | `/admin/fetch_product_details.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/profile.php` | High
+13 | File | `/admin/robot.php` | High
+14 | File | `/admin/settings/index.php?page=accounts` | High
+15 | File | `/admin/system.php` | High
+16 | File | `/admin/template/edit` | High
+17 | File | `/adminapi/system/file/openfile` | High
+18 | File | `/admins/{adminId}` | High
+19 | File | `/api/job/add/` | High
+20 | File | `/api/sys/set_passwd` | High
+21 | File | `/api/v1/challenges//solves` | High
+22 | File | `/articles/welcome-to-your-site#comments-head` | High
+23 | File | `/backend/admin/his_admin_add_vendor.php` | High
+24 | File | `/bloodrequest.php` | High
+25 | File | `/boafrm/formSystemCheck` | High
+26 | File | `/buscar_integrada.php` | High
+27 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+28 | File | `/cgi-bin/alexserv` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/hd_config.cgi` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+33 | File | `/cgi-bin/tosei_kikai.php` | High
+34 | File | `/cgi-bin/webfile_mgr.cgi` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/chat/completions` | High
+37 | File | `/check` | Low
+38 | File | `/classes/Master.php?f=save_package` | High
+39 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+40 | File | `/controllers/add_user.php` | High
+41 | File | `/core/config-revisions` | High
+42 | File | `/core/tools/delete_place.php` | High
+43 | File | `/dcim/power-ports/add/` | High
+44 | File | `/DXR.axd` | Medium
+45 | File | `/ecommerce/admin/login.php` | High
+46 | File | `/ejbca/ra/cert` | High
+47 | File | `/endpoint/add-calorie.php` | High
+48 | File | `/endpoint/update.php` | High
+49 | File | `/files/` | Low
+50 | File | `/film-rating.php` | High
+51 | File | `/formLoginAuth.htm` | High
+52 | File | `/forms/doLogin` | High
+53 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -426,7 +426,7 @@ ID | IP address | Hostname | Campaign | Confidence
 403 | [43.229.21.180](https://vuldb.com/?ip.43.229.21.180) | - | - | High
 404 | ... | ... | ... | ...
 
-There are 1612 more IOC items available. Please use our online service to access the data.
+There are 1613 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -450,58 +450,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/aboutadd.php` | High
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-5 | File | `/Admin/akun_edit.php` | High
-6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-7 | File | `/admin/book-details.php` | High
-8 | File | `/admin/budget/manage_budget.php` | High
-9 | File | `/admin/bwdates-report-details.php` | High
-10 | File | `/admin/bwdates-reports-ds.php` | High
-11 | File | `/admin/change-image.php` | High
-12 | File | `/admin/cmsTagType/save` | High
-13 | File | `/admin/cmsVote/save` | High
-14 | File | `/admin/edit-brand.php` | High
-15 | File | `/admin/edit_role.php` | High
-16 | File | `/admin/fetch_product_details.php` | High
-17 | File | `/admin/file_manager/export` | High
-18 | File | `/admin/forms/option_lists/edit.php` | High
-19 | File | `/admin/index2.html` | High
-20 | File | `/admin/operations/expense_category.php` | High
-21 | File | `/admin/order.php` | High
-22 | File | `/admin/orders/view_order.php` | High
-23 | File | `/admin/process_category_add.php` | High
-24 | File | `/admin/product/manage_product.php` | High
-25 | File | `/admin/profile.php` | High
-26 | File | `/Admin/Proses_Edit_Akun.php` | High
-27 | File | `/admin/robot.php` | High
-28 | File | `/admin/search-invoices.php` | High
-29 | File | `/admin/settings/index.php?page=accounts` | High
-30 | File | `/admin/sou.php` | High
-31 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-32 | File | `/admin/template/edit` | High
-33 | File | `/adminapi/system/file/openfile` | High
-34 | File | `/api/cron/settings/setJob/` | High
-35 | File | `/app/api/controller/caiji.php` | High
-36 | File | `/application/index/controller/Screen.php` | High
-37 | File | `/backend/admin/his_admin_add_vendor.php` | High
-38 | File | `/backend/admin/his_admin_register_patient.php` | High
-39 | File | `/backend/doc/his_doc_update-account.php` | High
-40 | File | `/bloodrequest.php` | High
-41 | File | `/book_list.php` | High
-42 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-43 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-44 | File | `/cgi-bin/alexserv` | High
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/cgi-bin/ExportSettings.sh` | High
-47 | File | `/cgi-bin/wlogin.cgi` | High
-48 | File | `/chat/completions` | High
-49 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-50 | File | `/DXR.axd` | Medium
-51 | ... | ... | ...
+2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+3 | File | `/Admin/akun_edit.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+5 | File | `/admin/budget/manage_budget.php` | High
+6 | File | `/admin/change-image.php` | High
+7 | File | `/admin/cmsTagType/save` | High
+8 | File | `/admin/cmsVote/save` | High
+9 | File | `/admin/config_ISCGroupNoCache.php` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/edit_role.php` | High
+12 | File | `/admin/fetch_product_details.php` | High
+13 | File | `/admin/file_manager/export` | High
+14 | File | `/admin/forms/option_lists/edit.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index2.html` | High
+17 | File | `/admin/operations/expense_category.php` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/orders/view_order.php` | High
+20 | File | `/admin/process_category_add.php` | High
+21 | File | `/admin/product/manage_product.php` | High
+22 | File | `/admin/profile.php` | High
+23 | File | `/Admin/Proses_Edit_Akun.php` | High
+24 | File | `/admin/robot.php` | High
+25 | File | `/admin/search-invoices.php` | High
+26 | File | `/admin/search-vehicle.php` | High
+27 | File | `/admin/settings/index.php?page=accounts` | High
+28 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+29 | File | `/admin/template/edit` | High
+30 | File | `/adminapi/system/file/openfile` | High
+31 | File | `/api/job/add/` | High
+32 | File | `/app/api/controller/caiji.php` | High
+33 | File | `/application/index/controller/Screen.php` | High
+34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+35 | File | `/backend/admin/his_admin_add_vendor.php` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/backend/doc/his_doc_update-account.php` | High
+38 | File | `/bloodrequest.php` | High
+39 | File | `/book_list.php` | High
+40 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+41 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/ExportSettings.sh` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/chat/completions` | High
+46 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+47 | File | `/customnode/install` | High
+48 | File | `/DXR.axd` | Medium
+49 | File | `/editar-cliente.php` | High
+50 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

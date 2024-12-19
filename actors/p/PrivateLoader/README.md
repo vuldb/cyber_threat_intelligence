@@ -154,7 +154,7 @@ ID | Type | Indicator | Confidence
 91 | File | `/manage/IPSetup.php` | High
 92 | ... | ... | ...
 
-There are 812 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 808 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

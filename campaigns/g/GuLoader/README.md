@@ -119,7 +119,7 @@ ID | Type | Indicator | Confidence
 55 | File | `/spip.php` | Medium
 56 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 488 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

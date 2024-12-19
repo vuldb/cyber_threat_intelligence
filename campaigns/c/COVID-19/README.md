@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -156,7 +156,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,9 +164,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/abcd/opac/php/otros_sitios.php` | High
-2 | File | `/admin/aboutus.php` | High
-3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+3 | File | `/admin/config_ISCGroupNoCache.php` | High
 4 | File | `/admin/dialog/select_images_post.php` | High
 5 | File | `/admin/edit_role.php` | High
 6 | File | `/admin/fetch_product_details.php` | High
@@ -175,7 +175,7 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/login.php` | High
 10 | File | `/admin/order.php` | High
 11 | File | `/admin/profile.php` | High
-12 | File | `/admin/robot.php` | High
+12 | File | `/admin/search-vehicle.php` | High
 13 | File | `/admin/settings/index.php?page=accounts` | High
 14 | File | `/admin/system.php` | High
 15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
@@ -183,28 +183,28 @@ ID | Type | Indicator | Confidence
 17 | File | `/adminapi/system/file/openfile` | High
 18 | File | `/admins/{adminId}` | High
 19 | File | `/api/cron/settings/setJob/` | High
-20 | File | `/api/sys/set_passwd` | High
-21 | File | `/api2/html/` | Medium
-22 | File | `/application/models/Oqrs_model.php` | High
-23 | File | `/articles/welcome-to-your-site#comments-head` | High
-24 | File | `/backend/admin/his_admin_add_vendor.php` | High
-25 | File | `/bloodrequest.php` | High
-26 | File | `/boafrm/formSystemCheck` | High
-27 | File | `/buscar_integrada.php` | High
-28 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-29 | File | `/cgi-bin/alexserv` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/ExportSettings.sh` | High
-32 | File | `/cgi-bin/hd_config.cgi` | High
-33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-34 | File | `/cgi-bin/tosei_kikai.php` | High
-35 | File | `/cgi-bin/webfile_mgr.cgi` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/chat/completions` | High
-38 | File | `/classes/Master.php?f=save_package` | High
-39 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-40 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-41 | File | `/controllers/add_user.php` | High
+20 | File | `/api/job/add/` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/api2/html/` | Medium
+23 | File | `/application/models/Oqrs_model.php` | High
+24 | File | `/articles/welcome-to-your-site#comments-head` | High
+25 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+26 | File | `/backend/admin/his_admin_add_vendor.php` | High
+27 | File | `/bloodrequest.php` | High
+28 | File | `/boafrm/formSystemCheck` | High
+29 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+30 | File | `/cgi-bin/alexserv` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/ExportSettings.sh` | High
+33 | File | `/cgi-bin/hd_config.cgi` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/cgi-bin/tosei_kikai.php` | High
+36 | File | `/cgi-bin/webfile_mgr.cgi` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/chat/completions` | High
+39 | File | `/classes/Master.php?f=save_package` | High
+40 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+41 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
 42 | File | `/core/config-revisions` | High
 43 | File | `/core/tools/delete_place.php` | High
 44 | File | `/dcim/power-ports/add/` | High
@@ -212,12 +212,10 @@ ID | Type | Indicator | Confidence
 46 | File | `/ecommerce/admin/login.php` | High
 47 | File | `/ejbca/ra/cert` | High
 48 | File | `/endpoint/add-calorie.php` | High
-49 | File | `/endpoint/update.php` | High
-50 | File | `/etc/shadow.sample` | High
-51 | File | `/files/` | Low
-52 | ... | ... | ...
+49 | File | `/etc/shadow.sample` | High
+50 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,20 +67,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/api/cron/settings/setJob/` | High
 7 | File | `/api/v2/cli/commands` | High
 8 | File | `/api2/html/` | Medium
-9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/index/ajax/lang` | High
-14 | File | `/log/decodmail.php` | High
-15 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-16 | File | `/LogInOut.php` | High
-17 | File | `/log_proxy` | Medium
-18 | File | `/mailcleaner.php/getStats` | High
-19 | File | `/mfsNotice/page` | High
-20 | ... | ... | ...
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+11 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+12 | File | `/DXR.axd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/index/ajax/lang` | High
+15 | File | `/log/decodmail.php` | High
+16 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+17 | File | `/LogInOut.php` | High
+18 | File | `/log_proxy` | Medium
+19 | File | `/mailcleaner.php/getStats` | High
+20 | File | `/mfsNotice/page` | High
+21 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

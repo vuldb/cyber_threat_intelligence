@@ -147,33 +147,34 @@ ID | IP address | Hostname | Campaign | Confidence
 118 | [43.242.34.12](https://vuldb.com/?ip.43.242.34.12) | - | - | High
 119 | [43.242.34.23](https://vuldb.com/?ip.43.242.34.23) | - | - | High
 120 | [43.242.34.30](https://vuldb.com/?ip.43.242.34.30) | - | - | High
-121 | [43.255.28.190](https://vuldb.com/?ip.43.255.28.190) | - | - | High
-122 | [45.32.32.252](https://vuldb.com/?ip.45.32.32.252) | 45.32.32.252.vultrusercontent.com | - | Medium
-123 | [45.32.106.247](https://vuldb.com/?ip.45.32.106.247) | 45.32.106.247.vultrusercontent.com | - | Medium
-124 | [45.32.115.37](https://vuldb.com/?ip.45.32.115.37) | 45.32.115.37.vultrusercontent.com | - | Medium
-125 | [45.32.151.219](https://vuldb.com/?ip.45.32.151.219) | 45.32.151.219.vultrusercontent.com | - | Medium
-126 | [45.63.65.123](https://vuldb.com/?ip.45.63.65.123) | 45.63.65.123.vultrusercontent.com | - | Medium
-127 | [45.67.34.151](https://vuldb.com/?ip.45.67.34.151) | vm1974176.stark-industries.solutions | - | High
-128 | [45.67.230.185](https://vuldb.com/?ip.45.67.230.185) | vm1503208.stark-industries.solutions | - | High
-129 | [45.74.6.14](https://vuldb.com/?ip.45.74.6.14) | - | - | High
-130 | [45.74.6.77](https://vuldb.com/?ip.45.74.6.77) | - | - | High
-131 | [45.74.6.148](https://vuldb.com/?ip.45.74.6.148) | - | - | High
-132 | [45.74.6.169](https://vuldb.com/?ip.45.74.6.169) | - | - | High
-133 | [45.74.6.174](https://vuldb.com/?ip.45.74.6.174) | - | - | High
-134 | [45.74.6.175](https://vuldb.com/?ip.45.74.6.175) | - | - | High
-135 | [45.74.6.188](https://vuldb.com/?ip.45.74.6.188) | - | - | High
-136 | [45.74.6.251](https://vuldb.com/?ip.45.74.6.251) | - | - | High
-137 | [45.74.41.38](https://vuldb.com/?ip.45.74.41.38) | - | - | High
-138 | [45.76.83.253](https://vuldb.com/?ip.45.76.83.253) | 45.76.83.253.vultrusercontent.com | - | Medium
-139 | [45.76.110.175](https://vuldb.com/?ip.45.76.110.175) | 45.76.110.175.vultrusercontent.com | - | Medium
-140 | [45.76.189.33](https://vuldb.com/?ip.45.76.189.33) | 45.76.189.33.vultrusercontent.com | - | Medium
-141 | [45.76.189.91](https://vuldb.com/?ip.45.76.189.91) | 45.76.189.91.vultrusercontent.com | - | Medium
-142 | [45.76.191.59](https://vuldb.com/?ip.45.76.191.59) | 45.76.191.59.vultrusercontent.com | - | Medium
-143 | [45.76.213.19](https://vuldb.com/?ip.45.76.213.19) | 45.76.213.19.vultrusercontent.com | - | Medium
-144 | [45.76.217.11](https://vuldb.com/?ip.45.76.217.11) | 45.76.217.11.vultrusercontent.com | - | Medium
-145 | ... | ... | ... | ...
+121 | [43.246.210.196](https://vuldb.com/?ip.43.246.210.196) | - | - | High
+122 | [43.255.28.190](https://vuldb.com/?ip.43.255.28.190) | - | - | High
+123 | [45.32.32.252](https://vuldb.com/?ip.45.32.32.252) | 45.32.32.252.vultrusercontent.com | - | Medium
+124 | [45.32.106.247](https://vuldb.com/?ip.45.32.106.247) | 45.32.106.247.vultrusercontent.com | - | Medium
+125 | [45.32.115.37](https://vuldb.com/?ip.45.32.115.37) | 45.32.115.37.vultrusercontent.com | - | Medium
+126 | [45.32.151.219](https://vuldb.com/?ip.45.32.151.219) | 45.32.151.219.vultrusercontent.com | - | Medium
+127 | [45.63.65.123](https://vuldb.com/?ip.45.63.65.123) | 45.63.65.123.vultrusercontent.com | - | Medium
+128 | [45.67.34.151](https://vuldb.com/?ip.45.67.34.151) | vm1974176.stark-industries.solutions | - | High
+129 | [45.67.230.185](https://vuldb.com/?ip.45.67.230.185) | vm1503208.stark-industries.solutions | - | High
+130 | [45.74.6.14](https://vuldb.com/?ip.45.74.6.14) | - | - | High
+131 | [45.74.6.77](https://vuldb.com/?ip.45.74.6.77) | - | - | High
+132 | [45.74.6.148](https://vuldb.com/?ip.45.74.6.148) | - | - | High
+133 | [45.74.6.169](https://vuldb.com/?ip.45.74.6.169) | - | - | High
+134 | [45.74.6.174](https://vuldb.com/?ip.45.74.6.174) | - | - | High
+135 | [45.74.6.175](https://vuldb.com/?ip.45.74.6.175) | - | - | High
+136 | [45.74.6.188](https://vuldb.com/?ip.45.74.6.188) | - | - | High
+137 | [45.74.6.251](https://vuldb.com/?ip.45.74.6.251) | - | - | High
+138 | [45.74.41.38](https://vuldb.com/?ip.45.74.41.38) | - | - | High
+139 | [45.76.83.253](https://vuldb.com/?ip.45.76.83.253) | 45.76.83.253.vultrusercontent.com | - | Medium
+140 | [45.76.110.175](https://vuldb.com/?ip.45.76.110.175) | 45.76.110.175.vultrusercontent.com | - | Medium
+141 | [45.76.189.33](https://vuldb.com/?ip.45.76.189.33) | 45.76.189.33.vultrusercontent.com | - | Medium
+142 | [45.76.189.91](https://vuldb.com/?ip.45.76.189.91) | 45.76.189.91.vultrusercontent.com | - | Medium
+143 | [45.76.191.59](https://vuldb.com/?ip.45.76.191.59) | 45.76.191.59.vultrusercontent.com | - | Medium
+144 | [45.76.209.205](https://vuldb.com/?ip.45.76.209.205) | 45.76.209.205.vultrusercontent.com | - | Medium
+145 | [45.76.213.19](https://vuldb.com/?ip.45.76.213.19) | 45.76.213.19.vultrusercontent.com | - | Medium
+146 | ... | ... | ... | ...
 
-There are 576 more IOC items available. Please use our online service to access the data.
+There are 580 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -181,7 +182,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -201,55 +202,56 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
 4 | File | `/admin/admin_log.php?clear=1` | High
 5 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-6 | File | `/admin/dialog/select_images_post.php` | High
-7 | File | `/admin/edit_role.php` | High
-8 | File | `/admin/fetch_product_details.php` | High
-9 | File | `/admin/file_manager/export` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/order.php` | High
-12 | File | `/admin/profile.php` | High
-13 | File | `/admin/robot.php` | High
-14 | File | `/admin/settings/index.php?page=accounts` | High
-15 | File | `/admin/system.php` | High
-16 | File | `/admin/template/edit` | High
-17 | File | `/adminapi/system/file/openfile` | High
-18 | File | `/admins/{adminId}` | High
-19 | File | `/api/cron/settings/setJob/` | High
-20 | File | `/api/sys/set_passwd` | High
-21 | File | `/api2/html/` | Medium
-22 | File | `/articles/welcome-to-your-site#comments-head` | High
-23 | File | `/backend/admin/his_admin_add_vendor.php` | High
-24 | File | `/bloodrequest.php` | High
-25 | File | `/boafrm/formSystemCheck` | High
-26 | File | `/buscar_integrada.php` | High
-27 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-28 | File | `/cgi-bin/alexserv` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/hd_config.cgi` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-33 | File | `/cgi-bin/tosei_kikai.php` | High
-34 | File | `/cgi-bin/webfile_mgr.cgi` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/chat/completions` | High
-37 | File | `/classes/Master.php?f=save_package` | High
-38 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-39 | File | `/controllers/add_user.php` | High
-40 | File | `/core/config-revisions` | High
-41 | File | `/core/tools/delete_place.php` | High
-42 | File | `/dcim/power-ports/add/` | High
-43 | File | `/DXR.axd` | Medium
-44 | File | `/ecommerce/admin/login.php` | High
-45 | File | `/ejbca/ra/cert` | High
-46 | File | `/endpoint/add-calorie.php` | High
-47 | File | `/endpoint/update.php` | High
-48 | File | `/etc/passwd` | Medium
-49 | File | `/files/` | Low
-50 | File | `/film-rating.php` | High
-51 | File | `/formLoginAuth.htm` | High
-52 | ... | ... | ...
+6 | File | `/admin/config_ISCGroupNoCache.php` | High
+7 | File | `/admin/dialog/select_images_post.php` | High
+8 | File | `/admin/edit_role.php` | High
+9 | File | `/admin/fetch_product_details.php` | High
+10 | File | `/admin/file_manager/export` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/order.php` | High
+13 | File | `/admin/profile.php` | High
+14 | File | `/admin/robot.php` | High
+15 | File | `/admin/settings/index.php?page=accounts` | High
+16 | File | `/admin/system.php` | High
+17 | File | `/admin/template/edit` | High
+18 | File | `/adminapi/system/file/openfile` | High
+19 | File | `/admins/{adminId}` | High
+20 | File | `/api/cron/settings/setJob/` | High
+21 | File | `/api/job/add/` | High
+22 | File | `/api/sys/set_passwd` | High
+23 | File | `/api2/html/` | Medium
+24 | File | `/articles/welcome-to-your-site#comments-head` | High
+25 | File | `/backend/admin/his_admin_add_vendor.php` | High
+26 | File | `/bloodrequest.php` | High
+27 | File | `/boafrm/formSystemCheck` | High
+28 | File | `/buscar_integrada.php` | High
+29 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+30 | File | `/cgi-bin/alexserv` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/hd_config.cgi` | High
+33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/cgi-bin/tosei_kikai.php` | High
+36 | File | `/cgi-bin/webfile_mgr.cgi` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/chat/completions` | High
+39 | File | `/classes/Master.php?f=save_package` | High
+40 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+41 | File | `/controllers/add_user.php` | High
+42 | File | `/core/config-revisions` | High
+43 | File | `/core/tools/delete_place.php` | High
+44 | File | `/dcim/power-ports/add/` | High
+45 | File | `/DXR.axd` | Medium
+46 | File | `/ecommerce/admin/login.php` | High
+47 | File | `/ejbca/ra/cert` | High
+48 | File | `/endpoint/add-calorie.php` | High
+49 | File | `/endpoint/update.php` | High
+50 | File | `/files/` | Low
+51 | File | `/film-rating.php` | High
+52 | File | `/formLoginAuth.htm` | High
+53 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -296,6 +298,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/38.60.250.74
 * https://search.censys.io/hosts/39.96.58.23
 * https://search.censys.io/hosts/43.153.63.174
+* https://search.censys.io/hosts/43.246.210.196
 * https://search.censys.io/hosts/45.32.32.252
 * https://search.censys.io/hosts/45.32.106.247
 * https://search.censys.io/hosts/45.32.151.219
@@ -303,6 +306,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.76.83.253
 * https://search.censys.io/hosts/45.76.189.33
 * https://search.censys.io/hosts/45.76.191.59
+* https://search.censys.io/hosts/45.76.209.205
 * https://search.censys.io/hosts/45.77.9.96
 * https://search.censys.io/hosts/45.77.16.161
 * https://search.censys.io/hosts/45.77.36.13
@@ -349,6 +353,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/95.179.145.120
 * https://search.censys.io/hosts/95.179.163.123
 * https://search.censys.io/hosts/95.179.176.94
+* https://search.censys.io/hosts/95.179.179.83
 * https://search.censys.io/hosts/95.179.217.17
 * https://search.censys.io/hosts/95.179.220.191
 * https://search.censys.io/hosts/95.179.221.218
@@ -368,6 +373,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/103.87.10.214
 * https://search.censys.io/hosts/103.91.64.204
 * https://search.censys.io/hosts/103.215.216.72
+* https://search.censys.io/hosts/104.167.16.95
 * https://search.censys.io/hosts/104.233.167.99
 * https://search.censys.io/hosts/106.14.196.21
 * https://search.censys.io/hosts/106.52.128.236
@@ -385,6 +391,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/114.34.106.146
 * https://search.censys.io/hosts/114.116.237.206
 * https://search.censys.io/hosts/114.255.80.175
+* https://search.censys.io/hosts/117.50.213.101
 * https://search.censys.io/hosts/117.78.9.251
 * https://search.censys.io/hosts/117.220.15.119
 * https://search.censys.io/hosts/118.26.39.144

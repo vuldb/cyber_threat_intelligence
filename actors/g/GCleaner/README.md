@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GCleaner:
 
 * [US](https://vuldb.com/?country.us)
-* [RO](https://vuldb.com/?country.ro)
 * [RU](https://vuldb.com/?country.ru)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.42.65.64](https://vuldb.com/?ip.5.42.65.64) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,9 +55,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/protocol/iscuser/uploadiscuser.php` | High
 7 | File | `/protocol/log/listloginfo.php` | High
 8 | File | `/qsr_server/device/reboot` | High
-9 | ... | ... | ...
+9 | File | `/spip.php` | Medium
+10 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -67,6 +68,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/0b17198dfde8bc47f1f903dfe0a33b57abf6cbca31292ee1d526a3143a11d648/
 * https://bazaar.abuse.ch/sample/dee97c0c3d5ec6b18d68104fb7703b0457157751ee999ae44f388db055b854a7/
 * https://threatfox.abuse.ch
+* https://tria.ge/241212-x272ysvlby
 * https://twitter.com/crep1x/status/1630992258584518656
 
 ## Literature

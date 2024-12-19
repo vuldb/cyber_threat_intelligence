@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [NZ](https://vuldb.com/?country.nz)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -424,9 +424,11 @@ ID | IP address | Hostname | Campaign | Confidence
 401 | [41.250.151.242](https://vuldb.com/?ip.41.250.151.242) | - | - | High
 402 | [43.229.148.210](https://vuldb.com/?ip.43.229.148.210) | - | - | High
 403 | [43.229.151.64](https://vuldb.com/?ip.43.229.151.64) | - | - | High
-404 | ... | ... | ... | ...
+404 | [43.229.151.135](https://vuldb.com/?ip.43.229.151.135) | - | - | High
+405 | [43.229.151.171](https://vuldb.com/?ip.43.229.151.171) | - | - | High
+406 | ... | ... | ... | ...
 
-There are 1614 more IOC items available. Please use our online service to access the data.
+There are 1618 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -475,42 +477,41 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/login.php` | High
 25 | File | `/admin/manage-pages.php` | High
 26 | File | `/admin/operations/expense_category.php` | High
-27 | File | `/admin/order.php` | High
-28 | File | `/admin/orders/view_order.php` | High
-29 | File | `/admin/process_category_add.php` | High
-30 | File | `/admin/product/manage_product.php` | High
+27 | File | `/admin/orders/view_order.php` | High
+28 | File | `/admin/process_category_add.php` | High
+29 | File | `/admin/product/manage_product.php` | High
+30 | File | `/admin/products/view_product.php` | High
 31 | File | `/admin/robot.php` | High
 32 | File | `/admin/setup.php` | High
 33 | File | `/admin/sou.php` | High
 34 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 35 | File | `/admin/users.php` | High
 36 | File | `/ajax.php?action=delete_tenant` | High
-37 | File | `/ajax/getBasicInfo.php` | High
-38 | File | `/api/baskets/{name}` | High
-39 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-40 | File | `/api/cron/settings/setJob/` | High
-41 | File | `/api/v2/schema` | High
-42 | File | `/api2/html/` | Medium
-43 | File | `/app/api/controller/caiji.php` | High
-44 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-45 | File | `/backend/admin/his_admin_add_vendor.php` | High
+37 | File | `/api/baskets/{name}` | High
+38 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+39 | File | `/api/cron/settings/setJob/` | High
+40 | File | `/api/v2/schema` | High
+41 | File | `/api2/html/` | Medium
+42 | File | `/app/api/controller/caiji.php` | High
+43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+44 | File | `/backend/admin/his_admin_add_vendor.php` | High
+45 | File | `/backend/admin/his_admin_register_patient.php` | High
 46 | File | `/backend/doc/his_doc_update-account.php` | High
 47 | File | `/backend/register.php` | High
 48 | File | `/bloodrequest.php` | High
-49 | File | `/buscar_integrada.php` | High
-50 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-54 | File | `/cgi-bin/wlogin.cgi` | High
-55 | File | `/classes/Master.php?f=delete_category` | High
-56 | File | `/classes/SystemSettings.php?f=update_settings` | High
-57 | File | `/classes/Users.php?f=save_client` | High
-58 | File | `/clientdetails/admin/regester.php` | High
-59 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-60 | ... | ... | ...
+49 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+52 | File | `/cgi-bin/wlogin.cgi` | High
+53 | File | `/classes/Master.php?f=delete_category` | High
+54 | File | `/classes/Users.php?f=save_client` | High
+55 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+56 | File | `/crm/data/pdf.php` | High
+57 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
+58 | File | `/deleteanimal.php` | High
+59 | ... | ... | ...
 
-There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

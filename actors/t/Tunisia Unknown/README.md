@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -96,22 +96,23 @@ ID | Type | Indicator | Confidence
 30 | File | `/user/add-notes.php` | High
 31 | File | `/user/manage-notes.php` | High
 32 | File | `/var/log/nginx` | High
-33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-34 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-35 | File | `/wbms/classes/Master.php?f=delete_client` | High
-36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-37 | File | `/zm/index.php` | High
-38 | File | `3/E_bak5.1/upload/eginfo.php` | High
-39 | File | `?r=dashboard/roleadmin/edit&op=member` | High
-40 | File | `accessibility.js` | High
-41 | File | `act.php` | Low
-42 | File | `adclick.php` | Medium
-43 | File | `add_comment.php` | High
-44 | File | `admin` | Low
-45 | File | `admin.php` | Medium
-46 | ... | ... | ...
+33 | File | `/vcs/claire_blake` | High
+34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+35 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+36 | File | `/wbms/classes/Master.php?f=delete_client` | High
+37 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+38 | File | `/zm/index.php` | High
+39 | File | `3/E_bak5.1/upload/eginfo.php` | High
+40 | File | `?r=dashboard/roleadmin/edit&op=member` | High
+41 | File | `accessibility.js` | High
+42 | File | `act.php` | Low
+43 | File | `adclick.php` | Medium
+44 | File | `add_comment.php` | High
+45 | File | `admin` | Low
+46 | File | `admin.php` | Medium
+47 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

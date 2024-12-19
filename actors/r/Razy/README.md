@@ -119,7 +119,7 @@ ID | Type | Indicator | Confidence
 5 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
 6 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

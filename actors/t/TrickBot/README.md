@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -455,53 +455,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_new_invoice.php` | High
-2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-3 | File | `/Admin/akun_edit.php` | High
-4 | File | `/admin/edit-brand.php` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/Admin/akun_edit.php` | High
+3 | File | `/admin/config_ISCGroupNoCache.php` | High
+4 | File | `/admin/DatabaseQuery` | High
 5 | File | `/admin/edit_role.php` | High
 6 | File | `/admin/fetch_product_details.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/order.php` | High
-10 | File | `/admin/profile.php` | High
-11 | File | `/Admin/Proses_Edit_Akun.php` | High
-12 | File | `/admin/robot.php` | High
-13 | File | `/admin/search-invoices.php` | High
-14 | File | `/admin/settings/index.php?page=accounts` | High
-15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-16 | File | `/admin/template/edit` | High
-17 | File | `/adminapi/system/file/openfile` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/order.php` | High
+9 | File | `/admin/profile.php` | High
+10 | File | `/Admin/Proses_Edit_Akun.php` | High
+11 | File | `/admin/search-invoices.php` | High
+12 | File | `/admin/search-vehicle.php` | High
+13 | File | `/admin/settings/index.php?page=accounts` | High
+14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+15 | File | `/admin/template/edit` | High
+16 | File | `/adminapi/system/file/openfile` | High
+17 | File | `/api/job/add/` | High
 18 | File | `/api/v1/settings` | High
 19 | File | `/application/index/controller/Screen.php` | High
 20 | File | `/apply.cgi` | Medium
-21 | File | `/articles/welcome-to-your-site#comments-head` | High
-22 | File | `/auth_files/photo/` | High
-23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-24 | File | `/backend/admin/his_admin_add_vendor.php` | High
-25 | File | `/backend/doc/his_doc_update-account.php` | High
-26 | File | `/bloodrequest.php` | High
+21 | File | `/auth_files/photo/` | High
+22 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+23 | File | `/backend/admin/his_admin_add_vendor.php` | High
+24 | File | `/backend/doc/his_doc_update-account.php` | High
+25 | File | `/bloodrequest.php` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
 27 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-28 | File | `/cgi-bin/alexserv` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/ExportSettings.sh` | High
-31 | File | `/cgi-bin/luci/api/auth` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/chat/completions` | High
-34 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-35 | File | `/data/app` | Medium
-36 | File | `/dbsrv.asp` | Medium
-37 | File | `/deal/{note_id}/note` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/ejbca/ra/cert` | High
-40 | File | `/endpoint/delete-bill.php` | High
-41 | File | `/etc/shadow.sample` | High
-42 | File | `/filemanager/upload` | High
-43 | File | `/formLoginAuth.htm` | High
-44 | File | `/forms/doLogin` | High
-45 | ... | ... | ...
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/ExportSettings.sh` | High
+30 | File | `/cgi-bin/luci/api/auth` | High
+31 | File | `/chat/completions` | High
+32 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+33 | File | `/customnode/install` | High
+34 | File | `/data/app` | Medium
+35 | File | `/dbsrv.asp` | Medium
+36 | File | `/DXR.axd` | Medium
+37 | File | `/endpoint/delete-bill.php` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/filemanager/upload` | High
+40 | File | `/formLoginAuth.htm` | High
+41 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,32 +83,32 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/users.php` | High
 31 | File | `/api/v1/custom_component` | High
 32 | File | `/api/wechat/app_auth` | High
-33 | File | `/backend/admin/his_admin_add_vendor.php` | High
-34 | File | `/cancel.php` | Medium
-35 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-36 | File | `/category.php` | High
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/nas_sharing.cgi` | High
-39 | File | `/cgi-bin/p1_ftpserver.php` | High
-40 | File | `/classes/Master.php` | High
-41 | File | `/classes/Master.php?f=delete_category` | High
-42 | File | `/classes/Master.php?f=save_medicine` | High
-43 | File | `/classes/SystemSettings.php?f=update_settings` | High
-44 | File | `/classes/Users.php?f=delete` | High
-45 | File | `/control/register_case.php` | High
-46 | File | `/download` | Medium
-47 | File | `/downloadFile.php` | High
-48 | File | `/dtale/chart-data/1` | High
-49 | File | `/DXR.axd` | Medium
-50 | File | `/editar-cliente.php` | High
-51 | File | `/editar-produto.php` | High
-52 | File | `/endpoint/add-folder.php` | High
-53 | File | `/endpoint/add-task.php` | High
-54 | File | `/etc/keystone/user-project-map.json` | High
-55 | File | `/etc/shadow` | Medium
+33 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+34 | File | `/backend/admin/his_admin_add_vendor.php` | High
+35 | File | `/backend/admin/his_admin_register_patient.php` | High
+36 | File | `/cancel.php` | Medium
+37 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/nas_sharing.cgi` | High
+40 | File | `/cgi-bin/p1_ftpserver.php` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_category` | High
+43 | File | `/classes/Master.php?f=save_medicine` | High
+44 | File | `/classes/SystemSettings.php?f=update_settings` | High
+45 | File | `/classes/Users.php?f=delete` | High
+46 | File | `/control/register_case.php` | High
+47 | File | `/download` | Medium
+48 | File | `/downloadFile.php` | High
+49 | File | `/dtale/chart-data/1` | High
+50 | File | `/DXR.axd` | Medium
+51 | File | `/editar-cliente.php` | High
+52 | File | `/editar-produto.php` | High
+53 | File | `/endpoint/add-folder.php` | High
+54 | File | `/endpoint/add-task.php` | High
+55 | File | `/etc/keystone/user-project-map.json` | High
 56 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

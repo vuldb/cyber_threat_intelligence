@@ -3978,9 +3978,10 @@ ID | IP address | Hostname | Campaign | Confidence
 3955 | [47.201.138.241](https://vuldb.com/?ip.47.201.138.241) | - | - | High
 3956 | [47.202.98.230](https://vuldb.com/?ip.47.202.98.230) | - | - | High
 3957 | [47.203.42.163](https://vuldb.com/?ip.47.203.42.163) | - | - | High
-3958 | ... | ... | ... | ...
+3958 | [47.203.89.36](https://vuldb.com/?ip.47.203.89.36) | - | - | High
+3959 | ... | ... | ... | ...
 
-There are 15829 more IOC items available. Please use our online service to access the data.
+There are 15830 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3988,13 +3989,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4002,20 +4002,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply.cgi` | Medium
-2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `/backend/admin/his_admin_add_vendor.php` | High
+1 | File | `/admin/config_ISCGroupNoCache.php` | High
+2 | File | `/admin/template/edit` | High
+3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 4 | File | `/backend/admin/his_admin_register_patient.php` | High
-5 | File | `/chat/completions` | High
-6 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/endpoint/add-task.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/ate` | Medium
-11 | File | `/mailcleaner.php/getStats` | High
-12 | ... | ... | ...
+5 | File | `/data/app` | Medium
+6 | File | `/DXR.axd` | Medium
+7 | File | `/endpoint/add-task.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/public/login.htm` | High
+10 | File | `/Public/webuploader/0.1.5/server/fileupload.php` | High
+11 | File | `/secure/QueryComponent!Default.jspa` | High
+12 | File | `/tool/index.php?c=download&a=save` | High
+13 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -4962,6 +4963,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/77.49.83.47
 * https://search.censys.io/hosts/77.49.83.103
 * https://search.censys.io/hosts/77.49.187.148
+* https://search.censys.io/hosts/77.49.243.208
 * https://search.censys.io/hosts/77.91.78.192
 * https://search.censys.io/hosts/77.103.187.164
 * https://search.censys.io/hosts/77.124.16.58
@@ -5733,6 +5735,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/172.91.3.194
 * https://search.censys.io/hosts/172.242.145.126
 * https://search.censys.io/hosts/172.243.117.21
+* https://search.censys.io/hosts/172.251.171.170
 * https://search.censys.io/hosts/173.24.8.121
 * https://search.censys.io/hosts/173.30.189.100
 * https://search.censys.io/hosts/173.33.15.171

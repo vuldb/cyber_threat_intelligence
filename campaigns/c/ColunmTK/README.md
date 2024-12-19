@@ -57,21 +57,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/order.php` | High
 2 | File | `/att_add.php` | Medium
-3 | File | `/forum/away.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/jeecg-boot/sys/common/upload` | High
-6 | File | `/librarian/bookdetails.php` | High
-7 | File | `/members/view_member.php` | High
-8 | File | `/mhds/clinic/view_details.php` | High
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/rest/api/latest/projectvalidate/key` | High
-11 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-12 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/wp-admin/options.php` | High
-15 | ... | ... | ...
+3 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/index.php` | Medium
+6 | File | `/jeecg-boot/sys/common/upload` | High
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/members/view_member.php` | High
+9 | File | `/mhds/clinic/view_details.php` | High
+10 | File | `/owa/auth/logon.aspx` | High
+11 | File | `/rest/api/latest/projectvalidate/key` | High
+12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+13 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/wp-admin/options.php` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

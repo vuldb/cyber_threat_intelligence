@@ -48,15 +48,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/cstecgi.cgi` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/h/` | Low
-5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | File | `/public/launchNewWindow.jsp` | High
-7 | File | `/rapi/read_url` | High
+2 | File | `/backend/admin/his_admin_register_patient.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/h/` | Low
+6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+7 | File | `/public/launchNewWindow.jsp` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

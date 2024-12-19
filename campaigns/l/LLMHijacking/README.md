@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,13 +90,13 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 25 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
 26 | File | `/api/admin` | Medium
-27 | File | `/api/admin/user` | High
-28 | File | `/API/info` | Medium
-29 | File | `/api/v1/admin/restart` | High
-30 | File | `/api/v1/steps` | High
-31 | File | `/application/index/controller/Screen.php` | High
-32 | File | `/article/Content/index?class_id` | High
-33 | File | `/artist.php` | Medium
+27 | File | `/api/admin/settings` | High
+28 | File | `/api/admin/user` | High
+29 | File | `/API/info` | Medium
+30 | File | `/api/v1/admin/restart` | High
+31 | File | `/api/v1/steps` | High
+32 | File | `/application/index/controller/Screen.php` | High
+33 | File | `/article/Content/index?class_id` | High
 34 | File | `/attendancelist.php` | High
 35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 36 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -107,11 +107,11 @@ ID | Type | Indicator | Confidence
 41 | File | `/classes/SystemSettings.php?f=update_settings` | High
 42 | File | `/classes/Users.php?f=delete` | High
 43 | File | `/collections/{name}/snapshots/upload` | High
-44 | File | `/control/register_case.php` | High
-45 | File | `/core/api/calls/Throughput.php` | High
+44 | File | `/command_port.ini` | High
+45 | File | `/control/register_case.php` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

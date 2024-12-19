@@ -398,9 +398,10 @@ ID | IP address | Hostname | Campaign | Confidence
 375 | [52.9.207.250](https://vuldb.com/?ip.52.9.207.250) | ec2-52-9-207-250.us-west-1.compute.amazonaws.com | - | Medium
 376 | [52.14.18.129](https://vuldb.com/?ip.52.14.18.129) | ec2-52-14-18-129.us-east-2.compute.amazonaws.com | - | Medium
 377 | [52.28.112.211](https://vuldb.com/?ip.52.28.112.211) | ec2-52-28-112-211.eu-central-1.compute.amazonaws.com | - | Medium
-378 | ... | ... | ... | ...
+378 | [52.28.247.255](https://vuldb.com/?ip.52.28.247.255) | ec2-52-28-247-255.eu-central-1.compute.amazonaws.com | - | Medium
+379 | ... | ... | ... | ...
 
-There are 1509 more IOC items available. Please use our online service to access the data.
+There are 1512 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -415,7 +416,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -432,52 +433,51 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/bwdates-report-details.php` | High
 8 | File | `/admin/change-image.php` | High
 9 | File | `/admin/cmsVote/save` | High
-10 | File | `/admin/create-package.php` | High
-11 | File | `/admin/edit-brand.php` | High
-12 | File | `/admin/edit_role.php` | High
-13 | File | `/admin/fetch_product_details.php` | High
-14 | File | `/admin/file_manager/export` | High
-15 | File | `/admin/forms/option_lists/edit.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/operations/expense_category.php` | High
-19 | File | `/admin/order.php` | High
-20 | File | `/admin/orders/view_order.php` | High
-21 | File | `/admin/product/manage_product.php` | High
-22 | File | `/admin/profile.php` | High
-23 | File | `/Admin/Proses_Edit_Akun.php` | High
-24 | File | `/admin/robot.php` | High
-25 | File | `/admin/search-invoices.php` | High
-26 | File | `/admin/settings/index.php?page=accounts` | High
-27 | File | `/admin/sou.php` | High
-28 | File | `/admin/template/edit` | High
-29 | File | `/admin/users.php` | High
-30 | File | `/adminapi/system/file/openfile` | High
-31 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-32 | File | `/api/cron/settings/setJob/` | High
-33 | File | `/articles/welcome-to-your-site#comments-head` | High
-34 | File | `/backend/admin/his_admin_add_vendor.php` | High
-35 | File | `/backend/doc/his_doc_update-account.php` | High
-36 | File | `/bloodrequest.php` | High
-37 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-38 | File | `/cgi-bin/alexserv` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/wlogin.cgi` | High
-41 | File | `/chat/completions` | High
-42 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-43 | File | `/deal/{note_id}/note` | High
-44 | File | `/DXR.axd` | Medium
-45 | File | `/editar-cliente.php` | High
-46 | File | `/editar-produto.php` | High
-47 | File | `/ejbca/ra/cert` | High
-48 | File | `/endpoint/add-task.php` | High
-49 | File | `/file/updateprofile.php` | High
-50 | File | `/filemanager/upload` | High
-51 | File | `/formLoginAuth.htm` | High
-52 | File | `/forms/doLogin` | High
-53 | ... | ... | ...
+10 | File | `/admin/config_ISCGroupNoCache.php` | High
+11 | File | `/admin/create-package.php` | High
+12 | File | `/admin/DatabaseQuery` | High
+13 | File | `/admin/edit-brand.php` | High
+14 | File | `/admin/edit_role.php` | High
+15 | File | `/admin/fetch_product_details.php` | High
+16 | File | `/admin/file_manager/export` | High
+17 | File | `/admin/forms/option_lists/edit.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/operations/expense_category.php` | High
+21 | File | `/admin/order.php` | High
+22 | File | `/admin/orders/view_order.php` | High
+23 | File | `/admin/product/manage_product.php` | High
+24 | File | `/admin/profile.php` | High
+25 | File | `/Admin/Proses_Edit_Akun.php` | High
+26 | File | `/admin/robot.php` | High
+27 | File | `/admin/search-invoices.php` | High
+28 | File | `/admin/settings/index.php?page=accounts` | High
+29 | File | `/admin/sou.php` | High
+30 | File | `/admin/template/edit` | High
+31 | File | `/adminapi/system/file/openfile` | High
+32 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+33 | File | `/api/cron/settings/setJob/` | High
+34 | File | `/api/job/add/` | High
+35 | File | `/articles/welcome-to-your-site#comments-head` | High
+36 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+37 | File | `/backend/admin/his_admin_add_vendor.php` | High
+38 | File | `/backend/admin/his_admin_register_patient.php` | High
+39 | File | `/backend/doc/his_doc_update-account.php` | High
+40 | File | `/bloodrequest.php` | High
+41 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+42 | File | `/cgi-bin/alexserv` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/chat/completions` | High
+46 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+47 | File | `/customnode/install` | High
+48 | File | `/deal/{note_id}/note` | High
+49 | File | `/DXR.axd` | Medium
+50 | File | `/editar-cliente.php` | High
+51 | File | `/editar-produto.php` | High
+52 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

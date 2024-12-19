@@ -79,7 +79,7 @@ ID | IP address | Hostname | Campaign | Confidence
 56 | [45.145.41.251](https://vuldb.com/?ip.45.145.41.251) | - | - | High
 57 | ... | ... | ... | ...
 
-There are 222 more IOC items available. Please use our online service to access the data.
+There are 223 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,11 +87,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -113,42 +114,42 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
 11 | File | `/api2/html/` | Medium
 12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/auth_files/photo/` | High
-14 | File | `/bin/boa` | Medium
-15 | File | `/calendar/minimizer/index.php` | High
-16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/hd_config.cgi` | High
-19 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-20 | File | `/cgi-bin/luci/api/auth` | High
-21 | File | `/cgi-bin/webfile_mgr.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php?f=delete_category` | High
-24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/devinfo` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ecommerce/admin/products/controller.php` | High
-28 | File | `/ecommerce/popup_Item.php` | High
-29 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-30 | File | `/endpoint/delete-bookmark.php` | High
-31 | File | `/filemanager/upload` | High
-32 | File | `/formLoginAuth.htm` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/saveParentControlInfo` | High
-35 | File | `/goform/setDebugCfg` | High
-36 | File | `/h.php/general/config?ref=addtabs` | High
-37 | File | `/html/portal/flash.jsp` | High
-38 | File | `/include/dialog/select_templets_post.php` | High
-39 | File | `/includes/fileReceive.php` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index.php?action=editManager` | High
-42 | File | `/index/ajax/lang` | High
-43 | File | `/Interface/DevManage/VM.php` | High
-44 | File | `/ipms/imageConvert/image` | High
-45 | File | `/log/decodmail.php` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/auth_files/photo/` | High
+15 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+16 | File | `/bin/boa` | Medium
+17 | File | `/calendar/minimizer/index.php` | High
+18 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/hd_config.cgi` | High
+21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+22 | File | `/cgi-bin/luci/api/auth` | High
+23 | File | `/cgi-bin/webfile_mgr.cgi` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/data/app` | Medium
+27 | File | `/DXR.axd` | Medium
+28 | File | `/ecommerce/admin/products/controller.php` | High
+29 | File | `/ecommerce/popup_Item.php` | High
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/endpoint/delete-bill.php` | High
+32 | File | `/endpoint/delete-bookmark.php` | High
+33 | File | `/filemanager/upload` | High
+34 | File | `/formLoginAuth.htm` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/ate` | Medium
+37 | File | `/goform/saveParentControlInfo` | High
+38 | File | `/goform/setDebugCfg` | High
+39 | File | `/h.php/general/config?ref=addtabs` | High
+40 | File | `/html/portal/flash.jsp` | High
+41 | File | `/include/dialog/select_templets_post.php` | High
+42 | File | `/includes/fileReceive.php` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php?action=editManager` | High
+45 | File | `/index/ajax/lang` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -94,10 +94,9 @@ ID | Type | Indicator | Confidence
 10 | File | `/filemanager/upload` | High
 11 | File | `/libraries` | Medium
 12 | File | `/register.php` | High
-13 | File | `/RestAPI` | Medium
-14 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

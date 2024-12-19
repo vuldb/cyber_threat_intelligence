@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with France:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
 
 ## Actors
 
@@ -11598,22 +11598,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1505 | CWE-89 | SQL Injection | High
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during France. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-2 | File | `awstats.pl` | Medium
-3 | File | `suggest-listing.php` | High
-4 | ... | ... | ...
-
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 
 ## References
 

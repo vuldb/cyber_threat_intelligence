@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1324,7 +1324,7 @@ ID | IP address | Hostname | Campaign | Confidence
 1301 | [45.150.108.187](https://vuldb.com/?ip.45.150.108.187) | - | - | High
 1302 | ... | ... | ... | ...
 
-There are 5203 more IOC items available. Please use our online service to access the data.
+There are 5205 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1375,18 +1375,20 @@ ID | Type | Indicator | Confidence
 26 | File | `/admin/robot.php` | High
 27 | File | `/admin/sales/manage_sale.php` | High
 28 | File | `/admin/search-invoices.php` | High
-29 | File | `/admin/sou.php` | High
-30 | File | `/admin/subject.php` | High
-31 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-32 | File | `/admin/users.php` | High
-33 | File | `/api/cron/settings/setJob/` | High
-34 | File | `/backend/admin/his_admin_add_vendor.php` | High
-35 | File | `/backend/doc/his_doc_update-account.php` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/ExportSettings.sh` | High
-38 | ... | ... | ...
+29 | File | `/admin/search-vehicle.php` | High
+30 | File | `/admin/sou.php` | High
+31 | File | `/admin/subject.php` | High
+32 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+33 | File | `/admin/users.php` | High
+34 | File | `/api/cron/settings/setJob/` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/backend/admin/his_admin_add_vendor.php` | High
+37 | File | `/backend/admin/his_admin_register_patient.php` | High
+38 | File | `/backend/doc/his_doc_update-account.php` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1595,6 +1597,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/94.131.11.107
 * https://search.censys.io/hosts/94.156.65.203
 * https://search.censys.io/hosts/152.89.198.155
+* https://search.censys.io/hosts/176.111.174.177
 * https://search.censys.io/hosts/176.113.115.178
 * https://search.censys.io/hosts/185.119.196.166
 * https://search.censys.io/hosts/185.236.234.70

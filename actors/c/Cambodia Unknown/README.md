@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -180,11 +180,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -192,31 +192,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/AddNewCity/Add_City` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/app/index/controller/Common.php` | High
-6 | File | `/food/admin/all_users.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-9 | File | `/log/download.php` | High
-10 | File | `/mkshop/Men/profile.php` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/netflow/servlet/CReportPDFServlet` | High
-13 | File | `/nova/bin/console` | High
-14 | File | `/oauth/idp/.well-known/openid-configuration` | High
-15 | File | `/out.php` | Medium
-16 | File | `/request.php` | Medium
-17 | File | `/signup.php` | Medium
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/user/settings` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `adclick.php` | Medium
-23 | ... | ... | ...
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/app/index/controller/Common.php` | High
+4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/request.php` | Medium
+7 | File | `/signup.php` | Medium
+8 | File | `/spip.php` | Medium
+9 | File | `/tms/admin/change-image.php` | High
+10 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

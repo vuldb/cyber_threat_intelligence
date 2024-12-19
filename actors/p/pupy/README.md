@@ -67,14 +67,15 @@ ID | IP address | Hostname | Campaign | Confidence
 44 | [34.92.235.56](https://vuldb.com/?ip.34.92.235.56) | 56.235.92.34.bc.googleusercontent.com | - | Medium
 45 | [34.96.194.162](https://vuldb.com/?ip.34.96.194.162) | 162.194.96.34.bc.googleusercontent.com | - | Medium
 46 | [34.150.43.70](https://vuldb.com/?ip.34.150.43.70) | 70.43.150.34.bc.googleusercontent.com | - | Medium
-47 | [35.201.196.246](https://vuldb.com/?ip.35.201.196.246) | 246.196.201.35.bc.googleusercontent.com | - | Medium
-48 | [35.220.154.238](https://vuldb.com/?ip.35.220.154.238) | 238.154.220.35.bc.googleusercontent.com | - | Medium
-49 | [35.241.106.118](https://vuldb.com/?ip.35.241.106.118) | 118.106.241.35.bc.googleusercontent.com | - | Medium
-50 | [37.59.239.17](https://vuldb.com/?ip.37.59.239.17) | olakar1.s454d.marketingbyjackie.com | - | High
-51 | [38.6.177.93](https://vuldb.com/?ip.38.6.177.93) | - | - | High
-52 | ... | ... | ... | ...
+47 | [35.78.32.135](https://vuldb.com/?ip.35.78.32.135) | ec2-35-78-32-135.ap-northeast-1.compute.amazonaws.com | - | Medium
+48 | [35.201.196.246](https://vuldb.com/?ip.35.201.196.246) | 246.196.201.35.bc.googleusercontent.com | - | Medium
+49 | [35.220.154.238](https://vuldb.com/?ip.35.220.154.238) | 238.154.220.35.bc.googleusercontent.com | - | Medium
+50 | [35.241.106.118](https://vuldb.com/?ip.35.241.106.118) | 118.106.241.35.bc.googleusercontent.com | - | Medium
+51 | [37.59.239.17](https://vuldb.com/?ip.37.59.239.17) | olakar1.s454d.marketingbyjackie.com | - | High
+52 | [38.6.177.93](https://vuldb.com/?ip.38.6.177.93) | - | - | High
+53 | ... | ... | ... | ...
 
-There are 203 more IOC items available. Please use our online service to access the data.
+There are 209 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,54 +103,54 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?setting-base.htm` | High
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/del_service.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_resource_icon.php?action=delete` | High
-10 | File | `/admin/read.php?mudi=announContent` | High
-11 | File | `/admin/upload.php` | High
-12 | File | `/adminapi/system/crud` | High
-13 | File | `/animalsupdate.php` | High
-14 | File | `/api/authentication/login` | High
-15 | File | `/api/blade-user/export-user` | High
-16 | File | `/api/stl/actions/search` | High
-17 | File | `/api/upload.php` | High
-18 | File | `/api/v1/terminal/sessions/?limit=1` | High
-19 | File | `/api/v1/users/{user_name_or_id}/activate` | High
-20 | File | `/api /v3/auth` | High
-21 | File | `/app/sys1.php` | High
-22 | File | `/assets/php/upload.php` | High
-23 | File | `/b2b-supermarket/shopping-cart` | High
-24 | File | `/bin/protest` | Medium
-25 | File | `/bin/rc4_crypt` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/kerbynet` | High
-28 | File | `/cgi-bin/login.cgi` | High
-29 | File | `/cgi-bin/luci/api/auth` | High
-30 | File | `/cgi-bin/luci/api/switch` | High
-31 | File | `/cgi-bin/qcmap_auth` | High
-32 | File | `/cgi-bin/wapopen` | High
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/classes/Master.php?f=delete_category` | High
-35 | File | `/classes/Master.php?f=delete_item` | High
-36 | File | `/classes/Users.php` | High
-37 | File | `/CMD_ACCOUNT_ADMIN` | High
-38 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-39 | File | `/conf/` | Low
-40 | File | `/config/getuser` | High
-41 | File | `/config/php.ini` | High
-42 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-43 | File | `/core/admin/categories.php` | High
-44 | File | `/CPE` | Low
-45 | File | `/cupseasylive/taxstructuredisplay.php` | High
-46 | File | `/dayrui/My/View/main.html` | High
-47 | File | `/dede/sys_sql_query.php` | High
-48 | File | `/dus/fotos_grafiken/index.php` | High
-49 | File | `/dus/shopliste/index.php` | High
-50 | File | `/dus_en/medieninfo_detail/index.php` | High
-51 | File | `/edit.php` | Medium
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/list_resource_icon.php?action=delete` | High
+9 | File | `/admin/read.php?mudi=announContent` | High
+10 | File | `/admin/upload.php` | High
+11 | File | `/adminapi/system/crud` | High
+12 | File | `/animalsupdate.php` | High
+13 | File | `/api/authentication/login` | High
+14 | File | `/api/blade-user/export-user` | High
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api/upload.php` | High
+17 | File | `/api/v1/terminal/sessions/?limit=1` | High
+18 | File | `/api/v1/users/{user_name_or_id}/activate` | High
+19 | File | `/api /v3/auth` | High
+20 | File | `/app/sys1.php` | High
+21 | File | `/assets/php/upload.php` | High
+22 | File | `/b2b-supermarket/shopping-cart` | High
+23 | File | `/bin/protest` | Medium
+24 | File | `/bin/rc4_crypt` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/kerbynet` | High
+27 | File | `/cgi-bin/login.cgi` | High
+28 | File | `/cgi-bin/luci/api/auth` | High
+29 | File | `/cgi-bin/luci/api/switch` | High
+30 | File | `/cgi-bin/qcmap_auth` | High
+31 | File | `/cgi-bin/wapopen` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=delete_item` | High
+35 | File | `/CMD_ACCOUNT_ADMIN` | High
+36 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+37 | File | `/conf/` | Low
+38 | File | `/config/getuser` | High
+39 | File | `/config/php.ini` | High
+40 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+41 | File | `/core/admin/categories.php` | High
+42 | File | `/CPE` | Low
+43 | File | `/cupseasylive/taxstructuredisplay.php` | High
+44 | File | `/dayrui/My/View/main.html` | High
+45 | File | `/dede/sys_sql_query.php` | High
+46 | File | `/dus/fotos_grafiken/index.php` | High
+47 | File | `/dus/shopliste/index.php` | High
+48 | File | `/dus_en/medieninfo_detail/index.php` | High
+49 | File | `/edit.php` | Medium
+50 | File | `/etc/init.d/openfire` | High
+51 | File | `/ethash/algorithm.go` | High
 52 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -197,6 +198,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/34.92.235.56
 * https://search.censys.io/hosts/34.96.194.162
 * https://search.censys.io/hosts/34.150.43.70
+* https://search.censys.io/hosts/35.78.32.135
 * https://search.censys.io/hosts/35.201.196.246
 * https://search.censys.io/hosts/35.220.154.238
 * https://search.censys.io/hosts/35.241.106.118
@@ -250,6 +252,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/47.102.87.85
 * https://search.censys.io/hosts/49.233.9.106
 * https://search.censys.io/hosts/51.195.29.38
+* https://search.censys.io/hosts/52.37.79.138
 * https://search.censys.io/hosts/52.70.252.57
 * https://search.censys.io/hosts/54.156.169.56
 * https://search.censys.io/hosts/54.179.188.121
@@ -272,6 +275,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/66.42.50.189
 * https://search.censys.io/hosts/66.42.59.191
 * https://search.censys.io/hosts/66.42.62.138
+* https://search.censys.io/hosts/66.42.98.90
 * https://search.censys.io/hosts/71.19.146.64
 * https://search.censys.io/hosts/77.91.101.173
 * https://search.censys.io/hosts/82.157.173.114
@@ -332,6 +336,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/138.197.56.161
 * https://search.censys.io/hosts/139.84.132.161
 * https://search.censys.io/hosts/139.84.134.80
+* https://search.censys.io/hosts/139.84.139.135
 * https://search.censys.io/hosts/139.84.140.110
 * https://search.censys.io/hosts/139.84.140.157
 * https://search.censys.io/hosts/139.84.142.38
@@ -380,6 +385,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/192.119.68.243
 * https://search.censys.io/hosts/192.169.7.17
 * https://search.censys.io/hosts/193.42.25.233
+* https://search.censys.io/hosts/193.53.126.12
 * https://search.censys.io/hosts/195.80.151.57
 * https://search.censys.io/hosts/199.247.24.153
 * https://search.censys.io/hosts/202.102.36.252

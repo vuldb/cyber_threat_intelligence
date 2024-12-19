@@ -198,19 +198,20 @@ ID | IP address | Hostname | Campaign | Confidence
 175 | [45.128.156.3](https://vuldb.com/?ip.45.128.156.3) | webfair.store | - | High
 176 | [45.128.156.10](https://vuldb.com/?ip.45.128.156.10) | frm3-zendable.com | - | High
 177 | [45.128.156.43](https://vuldb.com/?ip.45.128.156.43) | buyetcapp.store | - | High
-178 | [45.133.195.90](https://vuldb.com/?ip.45.133.195.90) | - | - | High
-179 | [45.134.173.229](https://vuldb.com/?ip.45.134.173.229) | mta02.speedtsur.info | - | High
-180 | [45.134.174.99](https://vuldb.com/?ip.45.134.174.99) | dedicated.vsys.host | - | High
-181 | [45.138.172.80](https://vuldb.com/?ip.45.138.172.80) | - | - | High
-182 | [45.144.30.139](https://vuldb.com/?ip.45.144.30.139) | rechea.ru | - | High
-183 | [45.145.186.188](https://vuldb.com/?ip.45.145.186.188) | - | - | High
-184 | [45.150.65.235](https://vuldb.com/?ip.45.150.65.235) | vm1350630.stark-industries.solutions | - | High
-185 | [45.150.65.251](https://vuldb.com/?ip.45.150.65.251) | vm1463007.stark-industries.solutions | - | High
-186 | [45.152.85.10](https://vuldb.com/?ip.45.152.85.10) | - | - | High
-187 | [45.152.85.15](https://vuldb.com/?ip.45.152.85.15) | - | - | High
-188 | ... | ... | ... | ...
+178 | [45.130.147.118](https://vuldb.com/?ip.45.130.147.118) | - | - | High
+179 | [45.133.195.90](https://vuldb.com/?ip.45.133.195.90) | - | - | High
+180 | [45.134.173.229](https://vuldb.com/?ip.45.134.173.229) | mta02.speedtsur.info | - | High
+181 | [45.134.174.99](https://vuldb.com/?ip.45.134.174.99) | dedicated.vsys.host | - | High
+182 | [45.138.172.80](https://vuldb.com/?ip.45.138.172.80) | - | - | High
+183 | [45.144.30.139](https://vuldb.com/?ip.45.144.30.139) | rechea.ru | - | High
+184 | [45.145.186.188](https://vuldb.com/?ip.45.145.186.188) | - | - | High
+185 | [45.150.65.235](https://vuldb.com/?ip.45.150.65.235) | vm1350630.stark-industries.solutions | - | High
+186 | [45.150.65.251](https://vuldb.com/?ip.45.150.65.251) | vm1463007.stark-industries.solutions | - | High
+187 | [45.152.85.10](https://vuldb.com/?ip.45.152.85.10) | - | - | High
+188 | [45.152.85.15](https://vuldb.com/?ip.45.152.85.15) | - | - | High
+189 | ... | ... | ... | ...
 
-There are 748 more IOC items available. Please use our online service to access the data.
+There are 751 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -241,33 +242,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/index.php` | High
 7 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
 8 | File | `/admin/index2.html` | High
-9 | File | `/admin/process_category_add.php` | High
-10 | File | `/admin/process_category_edit.php` | High
-11 | File | `/admin/quizquestion.php` | High
-12 | File | `/adminPage/conf/reload` | High
-13 | File | `/app/api/controller/caiji.php` | High
-14 | File | `/apply/index.php` | High
-15 | File | `/buscar_integrada.php` | High
-16 | File | `/candidate/index.php` | High
-17 | File | `/cgi-bin/adm.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/hd_config.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/SystemSettings.php?f=update_settings` | High
-23 | File | `/core/config-revisions` | High
-24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-25 | File | `/endpoint/add-calorie.php` | High
-26 | File | `/endpoint/add-timesheet.php` | High
-27 | File | `/etc/init.d/update_notifications.sh` | High
-28 | File | `/etc/passwd` | Medium
-29 | File | `/expedit.php` | Medium
-30 | File | `/export` | Low
-31 | File | `/filemanager/upload` | High
-32 | File | `/foms/routers/cancel-order.php` | High
-33 | ... | ... | ...
+9 | File | `/admin/options-theme.php` | High
+10 | File | `/admin/process_category_add.php` | High
+11 | File | `/admin/process_category_edit.php` | High
+12 | File | `/admin/quizquestion.php` | High
+13 | File | `/adminPage/conf/reload` | High
+14 | File | `/app/api/controller/caiji.php` | High
+15 | File | `/apply/index.php` | High
+16 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+17 | File | `/buscar_integrada.php` | High
+18 | File | `/candidate/index.php` | High
+19 | File | `/cgi-bin/adm.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/hd_config.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/SystemSettings.php?f=update_settings` | High
+25 | File | `/core/config-revisions` | High
+26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+27 | File | `/endpoint/add-calorie.php` | High
+28 | File | `/endpoint/add-timesheet.php` | High
+29 | File | `/etc/init.d/update_notifications.sh` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/expedit.php` | Medium
+32 | File | `/export` | Low
+33 | File | `/filemanager/upload` | High
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -292,6 +294,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.66.248.135
 * https://search.censys.io/hosts/45.95.175.213
 * https://search.censys.io/hosts/45.128.133.21
+* https://search.censys.io/hosts/45.130.147.118
 * https://search.censys.io/hosts/46.149.76.101
 * https://search.censys.io/hosts/51.16.209.105
 * https://search.censys.io/hosts/51.159.183.32
@@ -331,6 +334,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/103.119.47.150
 * https://search.censys.io/hosts/103.125.217.129
 * https://search.censys.io/hosts/104.36.229.149
+* https://search.censys.io/hosts/104.36.229.179
 * https://search.censys.io/hosts/104.200.72.15
 * https://search.censys.io/hosts/104.200.72.113
 * https://search.censys.io/hosts/104.219.214.103
@@ -340,6 +344,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/105.96.57.196
 * https://search.censys.io/hosts/109.236.90.53
 * https://search.censys.io/hosts/118.178.132.183
+* https://search.censys.io/hosts/122.114.8.215
 * https://search.censys.io/hosts/130.193.52.194
 * https://search.censys.io/hosts/136.244.98.49
 * https://search.censys.io/hosts/139.59.40.48
@@ -353,6 +358,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/151.236.16.44
 * https://search.censys.io/hosts/151.236.16.70
 * https://search.censys.io/hosts/151.236.22.182
+* https://search.censys.io/hosts/154.203.197.96
 * https://search.censys.io/hosts/156.236.76.243
 * https://search.censys.io/hosts/157.230.53.228
 * https://search.censys.io/hosts/158.160.3.224

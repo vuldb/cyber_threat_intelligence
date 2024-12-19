@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -123,35 +123,35 @@ ID | Type | Indicator | Confidence
 23 | File | `/app/api/controller/caiji.php` | High
 24 | File | `/application/index/controller/Service.php` | High
 25 | File | `/buscar_integrada.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-30 | File | `/cgi-bin/tosei_kikai.php` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/config/php.ini` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/detailed.php` | High
-36 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-37 | File | `/dist/index.js` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/ebics-server/ebics.aspx` | High
-40 | File | `/emloyee_akpoly/Account/login.php` | High
-41 | File | `/endpoint/add-calorie.php` | High
-42 | File | `/etc/shadow.sample` | High
-43 | File | `/eval/admin/manage_class.php` | High
-44 | File | `/EXCU_SHELL` | Medium
-45 | File | `/forum/away.php` | High
-46 | File | `/goform/form2systime.cgi` | High
-47 | File | `/goform/modifyDhcpRule` | High
-48 | File | `/goform/ModifyPppAuthWhiteMac` | High
-49 | File | `/goform/net\_Web\_get_value` | High
-50 | File | `/goform/setStaOffline` | High
-51 | File | `/goform/WizardHandle` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+31 | File | `/cgi-bin/tosei_kikai.php` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/config/php.ini` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/detailed.php` | High
+37 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+38 | File | `/dist/index.js` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ebics-server/ebics.aspx` | High
+41 | File | `/emloyee_akpoly/Account/login.php` | High
+42 | File | `/endpoint/add-calorie.php` | High
+43 | File | `/etc/shadow.sample` | High
+44 | File | `/eval/admin/manage_class.php` | High
+45 | File | `/EXCU_SHELL` | Medium
+46 | File | `/forum/away.php` | High
+47 | File | `/goform/form2systime.cgi` | High
+48 | File | `/goform/modifyDhcpRule` | High
+49 | File | `/goform/ModifyPppAuthWhiteMac` | High
+50 | File | `/goform/net\_Web\_get_value` | High
+51 | File | `/goform/setStaOffline` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

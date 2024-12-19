@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,15 +78,15 @@ ID | Type | Indicator | Confidence
 16 | File | `/Admin/Proses_Edit_Akun.php` | High
 17 | File | `/admin/robot.php` | High
 18 | File | `/admin/search-invoices.php` | High
-19 | File | `/admin/userprofile.php` | High
-20 | File | `/admin_class.php` | High
-21 | File | `/alphaware/summary.php` | High
-22 | File | `/api/baskets/{name}` | High
-23 | File | `/api/swaggerui/static` | High
-24 | File | `/app/index/controller/Common.php` | High
-25 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-26 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-27 | File | `/applications/nexus/modules/front/store/store.php` | High
+19 | File | `/admin_class.php` | High
+20 | File | `/alphaware/summary.php` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/swaggerui/static` | High
+23 | File | `/app/index/controller/Common.php` | High
+24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+25 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+26 | File | `/applications/nexus/modules/front/store/store.php` | High
+27 | File | `/backend/doc/his_doc_update-account.php` | High
 28 | File | `/bitrix/admin/ldap_server_edit.php` | High
 29 | File | `/cgi-bin/apkg_mgr.cgi` | High
 30 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -112,7 +112,7 @@ ID | Type | Indicator | Confidence
 50 | File | `/formSysLog` | Medium
 51 | ... | ... | ...
 
-There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

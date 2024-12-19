@@ -42,31 +42,32 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [37.120.239.72](https://vuldb.com/?ip.37.120.239.72) | - | - | High
 12 | [37.120.239.224](https://vuldb.com/?ip.37.120.239.224) | - | - | High
 13 | [45.8.159.172](https://vuldb.com/?ip.45.8.159.172) | - | - | High
-14 | [45.11.27.232](https://vuldb.com/?ip.45.11.27.232) | - | CVE-2023-38831 | High
-15 | [45.32.108.54](https://vuldb.com/?ip.45.32.108.54) | 45.32.108.54.vultrusercontent.com | - | Medium
-16 | [45.87.245.30](https://vuldb.com/?ip.45.87.245.30) | - | CVE-2023-38831 | High
-17 | [45.87.246.169](https://vuldb.com/?ip.45.87.246.169) | prod.andvo.ru | CVE-2023-38831 | High
-18 | [45.91.83.176](https://vuldb.com/?ip.45.91.83.176) | - | - | High
-19 | [45.129.2.63](https://vuldb.com/?ip.45.129.2.63) | - | - | High
-20 | [45.129.2.242](https://vuldb.com/?ip.45.129.2.242) | mmm13.cn | - | High
-21 | [45.129.3.107](https://vuldb.com/?ip.45.129.3.107) | - | - | High
-22 | [45.129.137.233](https://vuldb.com/?ip.45.129.137.233) | - | CVE-2023-4966 | High
-23 | [45.130.147.73](https://vuldb.com/?ip.45.130.147.73) | - | - | High
-24 | [45.131.46.193](https://vuldb.com/?ip.45.131.46.193) | 601330.msk-kvm.ru | - | High
-25 | [45.140.19.105](https://vuldb.com/?ip.45.140.19.105) | 601310.msk-kvm.ru | - | High
-26 | [45.227.255.190](https://vuldb.com/?ip.45.227.255.190) | - | - | High
-27 | [46.17.41.17](https://vuldb.com/?ip.46.17.41.17) | - | - | High
-28 | [46.29.162.81](https://vuldb.com/?ip.46.29.162.81) | - | - | High
-29 | [46.29.163.230](https://vuldb.com/?ip.46.29.163.230) | - | - | High
-30 | [51.15.18.180](https://vuldb.com/?ip.51.15.18.180) | 51-15-18-180.rev.poneytelecom.eu | - | High
-31 | [51.89.134.150](https://vuldb.com/?ip.51.89.134.150) | postal.sendovo.net | - | High
-32 | [52.237.96.13](https://vuldb.com/?ip.52.237.96.13) | - | - | High
-33 | [54.38.212.197](https://vuldb.com/?ip.54.38.212.197) | connect.eaglemarine.co.uk | - | High
-34 | [54.84.248.205](https://vuldb.com/?ip.54.84.248.205) | ec2-54-84-248-205.compute-1.amazonaws.com | CVE-2023-4966 | Medium
-35 | [54.163.53.159](https://vuldb.com/?ip.54.163.53.159) | ec2-54-163-53-159.compute-1.amazonaws.com | - | Medium
-36 | ... | ... | ... | ...
+14 | [45.10.247.152](https://vuldb.com/?ip.45.10.247.152) | - | - | High
+15 | [45.11.27.232](https://vuldb.com/?ip.45.11.27.232) | - | CVE-2023-38831 | High
+16 | [45.32.108.54](https://vuldb.com/?ip.45.32.108.54) | 45.32.108.54.vultrusercontent.com | - | Medium
+17 | [45.87.245.30](https://vuldb.com/?ip.45.87.245.30) | - | CVE-2023-38831 | High
+18 | [45.87.245.53](https://vuldb.com/?ip.45.87.245.53) | 127803.deep.host | - | High
+19 | [45.87.246.169](https://vuldb.com/?ip.45.87.246.169) | prod.andvo.ru | CVE-2023-38831 | High
+20 | [45.91.83.176](https://vuldb.com/?ip.45.91.83.176) | - | - | High
+21 | [45.129.2.63](https://vuldb.com/?ip.45.129.2.63) | - | - | High
+22 | [45.129.2.242](https://vuldb.com/?ip.45.129.2.242) | mmm13.cn | - | High
+23 | [45.129.3.107](https://vuldb.com/?ip.45.129.3.107) | - | - | High
+24 | [45.129.137.233](https://vuldb.com/?ip.45.129.137.233) | - | CVE-2023-4966 | High
+25 | [45.130.147.73](https://vuldb.com/?ip.45.130.147.73) | - | - | High
+26 | [45.131.46.193](https://vuldb.com/?ip.45.131.46.193) | 601330.msk-kvm.ru | - | High
+27 | [45.140.19.105](https://vuldb.com/?ip.45.140.19.105) | 601310.msk-kvm.ru | - | High
+28 | [45.227.255.190](https://vuldb.com/?ip.45.227.255.190) | - | - | High
+29 | [46.17.41.17](https://vuldb.com/?ip.46.17.41.17) | - | - | High
+30 | [46.29.162.81](https://vuldb.com/?ip.46.29.162.81) | - | - | High
+31 | [46.29.163.230](https://vuldb.com/?ip.46.29.163.230) | - | - | High
+32 | [51.15.18.180](https://vuldb.com/?ip.51.15.18.180) | 51-15-18-180.rev.poneytelecom.eu | - | High
+33 | [51.89.134.150](https://vuldb.com/?ip.51.89.134.150) | postal.sendovo.net | - | High
+34 | [52.237.96.13](https://vuldb.com/?ip.52.237.96.13) | - | - | High
+35 | [54.38.212.197](https://vuldb.com/?ip.54.38.212.197) | connect.eaglemarine.co.uk | - | High
+36 | [54.84.248.205](https://vuldb.com/?ip.54.84.248.205) | ec2-54-84-248-205.compute-1.amazonaws.com | CVE-2023-4966 | Medium
+37 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 144 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -129,34 +130,34 @@ ID | Type | Indicator | Confidence
 38 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
 39 | File | `/api/v1/custom_component` | High
 40 | File | `/app/admin/controller/api/Plugs.php` | High
-41 | File | `/apply/index.php` | High
+41 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 42 | File | `/backend/admin/his_admin_add_vendor.php` | High
-43 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-44 | File | `/cgi-bin/cstecgi.cgi` | High
-45 | File | `/cgi-bin/myMusic.cgi` | High
-46 | File | `/cgi-bin/nas_sharing.cgi` | High
-47 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-48 | File | `/classes/Master.php` | High
-49 | File | `/classes/Master.php?f=delete_category` | High
-50 | File | `/classes/Master.php?f=save_medicine` | High
-51 | File | `/classes/SystemSettings.php?f=update_settings` | High
-52 | File | `/classes/Users.php?f=delete` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-55 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-56 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-57 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-58 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-59 | File | `/downloadFile.php` | High
-60 | File | `/dtale/chart-data/1` | High
-61 | File | `/DXR.axd` | Medium
-62 | File | `/editar-cliente.php` | High
-63 | File | `/editar-produto.php` | High
-64 | File | `/endpoint/add-folder.php` | High
-65 | File | `/endpoint/add-task.php` | High
+43 | File | `/backend/admin/his_admin_register_patient.php` | High
+44 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/myMusic.cgi` | High
+47 | File | `/cgi-bin/nas_sharing.cgi` | High
+48 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+49 | File | `/classes/Master.php` | High
+50 | File | `/classes/Master.php?f=delete_category` | High
+51 | File | `/classes/Master.php?f=save_medicine` | High
+52 | File | `/classes/SystemSettings.php?f=update_settings` | High
+53 | File | `/classes/Users.php?f=delete` | High
+54 | File | `/classes/Users.php?f=save` | High
+55 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+56 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+57 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+58 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+59 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+60 | File | `/downloadFile.php` | High
+61 | File | `/dtale/chart-data/1` | High
+62 | File | `/DXR.axd` | Medium
+63 | File | `/editar-cliente.php` | High
+64 | File | `/editar-produto.php` | High
+65 | File | `/endpoint/add-folder.php` | High
 66 | ... | ... | ...
 
-There are 583 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,6 +167,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/41450/
 * https://asec.ahnlab.com/en/58750/
 * https://blog.cyble.com/2023/06/06/lockbit-2-0-ransomware-resurfaces/
+* https://cyble.com/blog/head-mare-deploys-phantomcore-against-russia/
 * https://cyble.com/blog/the-rise-of-head-mare-a-geopolitical-and-cybersecurity-analysis/
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Proxyshell/HvS_Proxyshell_2021_09_IOCs.csv
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit.csv

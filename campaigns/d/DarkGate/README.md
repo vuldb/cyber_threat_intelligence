@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,7 +62,7 @@ ID | IP address | Hostname | Actor | Confidence
 30 | [47.252.45.173](https://vuldb.com/?ip.47.252.45.173) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
 31 | ... | ... | ... | ...
 
-There are 120 more IOC items available. Please use our online service to access the data.
+There are 121 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,13 +71,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,8 +101,8 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/forgot-password.php` | High
 15 | File | `/admin/forms/option_lists/edit.php` | High
 16 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-17 | File | `/admin/index2.html` | High
-18 | File | `/admin/operations/expense_category.php` | High
+17 | File | `/admin/operations/expense_category.php` | High
+18 | File | `/admin/options-theme.php` | High
 19 | File | `/admin/order.php` | High
 20 | File | `/admin/orders/view_order.php` | High
 21 | File | `/admin/process_category_edit.php` | High
@@ -113,38 +113,38 @@ ID | Type | Indicator | Confidence
 26 | File | `/api/cron/settings/setJob/` | High
 27 | File | `/api2/html/` | Medium
 28 | File | `/apply/index.php` | High
-29 | File | `/backend/admin/his_admin_add_vendor.php` | High
-30 | File | `/candidate/index.php` | High
-31 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-32 | File | `/cgi-bin/adm.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/hd_config.cgi` | High
-35 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-36 | File | `/cgi-bin/nas_sharing.cgi` | High
-37 | File | `/classes/Master.php` | High
-38 | File | `/classes/SystemSettings.php?f=update_settings` | High
-39 | File | `/classes/Users.php?f=delete` | High
-40 | File | `/core/config-revisions` | High
-41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-42 | File | `/downloadFile.php` | High
-43 | File | `/dtale/chart-data/1` | High
-44 | File | `/DXR.axd` | Medium
-45 | File | `/editar-cliente.php` | High
-46 | File | `/editar-produto.php` | High
-47 | File | `/endpoint/add-calorie.php` | High
-48 | File | `/endpoint/add-folder.php` | High
-49 | File | `/endpoint/add-task.php` | High
-50 | File | `/endpoint/add-timesheet.php` | High
-51 | File | `/etc/init.d/update_notifications.sh` | High
-52 | File | `/expedit.php` | Medium
-53 | File | `/export` | Low
-54 | File | `/file/updateprofile.php` | High
-55 | File | `/filemanager/upload` | High
-56 | File | `/file_manager/login.php` | High
-57 | File | `/film-rating.php` | High
+29 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+30 | File | `/backend/admin/his_admin_add_vendor.php` | High
+31 | File | `/backend/admin/his_admin_register_patient.php` | High
+32 | File | `/candidate/index.php` | High
+33 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+34 | File | `/cgi-bin/adm.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/hd_config.cgi` | High
+37 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+38 | File | `/cgi-bin/nas_sharing.cgi` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/SystemSettings.php?f=update_settings` | High
+41 | File | `/classes/Users.php?f=delete` | High
+42 | File | `/core/config-revisions` | High
+43 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+44 | File | `/downloadFile.php` | High
+45 | File | `/dtale/chart-data/1` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/editar-cliente.php` | High
+48 | File | `/editar-produto.php` | High
+49 | File | `/endpoint/add-calorie.php` | High
+50 | File | `/endpoint/add-folder.php` | High
+51 | File | `/endpoint/add-task.php` | High
+52 | File | `/endpoint/add-timesheet.php` | High
+53 | File | `/expedit.php` | Medium
+54 | File | `/export` | Low
+55 | File | `/file/updateprofile.php` | High
+56 | File | `/filemanager/upload` | High
+57 | File | `/file_manager/login.php` | High
 58 | ... | ... | ...
 
-There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,6 +154,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://app.any.run/tasks/4437c29a-0bfc-40f2-84e5-9b51f7527289/
 * https://asec.ahnlab.com/en/61000/
 * https://bazaar.abuse.ch/sample/8a2edeef9978d454882bfb233d9cd77505618b854f7899b27aeb095ff8ebb3f4/
+* https://bazaar.abuse.ch/sample/9e4f036dd6fbb45ce414cb5d040b3255b5ccc9ecacbfaf022b631545f9a19a02/
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://circleid.com/posts/20240308-darkgate-rat-comes-into-the-dns-spotlight
 * https://github.com/Cisco-Talos/IOCs/blob/main/2024/06/darkgate-remote-template-injection.txt

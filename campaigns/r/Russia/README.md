@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -3348,10 +3348,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -3363,53 +3363,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/abs.php` | Medium
-2 | File | `/add.php` | Medium
-3 | File | `/admin/add-doctor.php` | High
-4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-5 | File | `/admin/cmsVote/save` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/abs.php` | Medium
+3 | File | `/add.php` | Medium
+4 | File | `/admin/add-doctor.php` | High
+5 | File | `/admin/add_postlogin.php` | High
 6 | File | `/admin/complaint-search.php` | High
-7 | File | `/admin/edit_role.php` | High
-8 | File | `/admin/file_manager/export` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/network/diag_nslookup` | High
-13 | File | `/admin/network/diag_ping6` | High
-14 | File | `/admin/operations/expense_category.php` | High
-15 | File | `/admin/orders/view_order.php` | High
-16 | File | `/admin/product/manage_product.php` | High
-17 | File | `/admin/profile.php` | High
-18 | File | `/admin/reset-password.php` | High
-19 | File | `/admin/room.php` | High
-20 | File | `/admin/settings/index.php?page=accounts` | High
-21 | File | `/admin/sn_package/sn_https` | High
-22 | File | `/admin/subcategory.php` | High
-23 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-24 | File | `/adminapi/system/file/openfile` | High
-25 | File | `/app/admin/controller/api/Plugs.php` | High
-26 | File | `/app/admin/view/web_user.html` | High
-27 | File | `/apply.cgi` | Medium
-28 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-29 | File | `/backend/admin/his_admin_add_vendor.php` | High
-30 | File | `/backend/admin/his_admin_register_patient.php` | High
-31 | File | `/backend/doc/his_doc_register_patient.php` | High
-32 | File | `/backend/doc/his_doc_update-account.php` | High
-33 | File | `/boafrm/formSysCmd` | High
-34 | File | `/book_car.php` | High
-35 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-36 | File | `/chat/completions` | High
-37 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-38 | File | `/data/app` | Medium
-39 | File | `/dataSet/resolveSql` | High
-40 | File | `/decoration/admin/btndates_report.php` | High
-41 | File | `/decoration/admin/update_image.php` | High
-42 | File | `/decoration/admin/userregister.php` | High
-43 | File | `/deleteanimal.php` | High
-44 | File | `/DXR.axd` | Medium
-45 | ... | ... | ...
+7 | File | `/admin/config_ISCGroupNoCache.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/network/diag_nslookup` | High
+10 | File | `/admin/network/diag_ping6` | High
+11 | File | `/admin/reset-password.php` | High
+12 | File | `/admin/room.php` | High
+13 | File | `/admin/search-vehicle.php` | High
+14 | File | `/admin/settings/index.php?page=accounts` | High
+15 | File | `/admin/sn_package/sn_https` | High
+16 | File | `/admin/subcategory.php` | High
+17 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+18 | File | `/admin/template/edit` | High
+19 | File | `/api/job/add/` | High
+20 | File | `/app/admin/view/web_user.html` | High
+21 | File | `/app/search/table` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+24 | File | `/backend/admin/his_admin_add_vendor.php` | High
+25 | File | `/backend/admin/his_admin_register_patient.php` | High
+26 | File | `/backend/doc/his_doc_register_patient.php` | High
+27 | File | `/backend/doc/his_doc_update-account.php` | High
+28 | File | `/boafrm/formSysCmd` | High
+29 | File | `/book_car.php` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/chat/completions` | High
+32 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+33 | File | `/customnode/install` | High
+34 | File | `/data/app` | Medium
+35 | File | `/dataSet/resolveSql` | High
+36 | File | `/decoration/admin/btndates_report.php` | High
+37 | File | `/decoration/admin/update_image.php` | High
+38 | File | `/decoration/admin/userregister.php` | High
+39 | File | `/DXR.axd` | Medium
+40 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

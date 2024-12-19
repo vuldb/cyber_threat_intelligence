@@ -47,7 +47,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -93,9 +94,10 @@ ID | Type | Indicator | Confidence
 34 | File | `/deletefile.php` | High
 35 | File | `/doc/packages` | High
 36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | ... | ... | ...
+37 | File | `/endpoint/delete-faq.php` | High
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

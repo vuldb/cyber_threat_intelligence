@@ -49,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -84,30 +84,28 @@ ID | Type | Indicator | Confidence
 18 | File | `/classes/Master.php` | High
 19 | File | `/contact.php` | Medium
 20 | File | `/CPE` | Low
-21 | File | `/debug/pprof` | Medium
-22 | File | `/etc/gsissh/sshd_config` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/forum/PostPrivateMessage` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/index/ajax/lang` | High
-27 | File | `/members/poster.php` | High
-28 | File | `/mics/j_spring_security_check` | High
-29 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/php/ping.php` | High
-32 | File | `/Script/admin/core/update_policy` | High
-33 | File | `/scripts/unlock_tasks.php` | High
-34 | File | `/secserver` | Medium
-35 | File | `/Session` | Medium
-36 | File | `/spip.php` | Medium
-37 | File | `/staff_login.php` | High
-38 | File | `/SysInfo1.htm` | High
-39 | File | `/sysinfo_json.cgi` | High
-40 | File | `/system/admin/add_group_save` | High
-41 | File | `/system/dictData/loadDictItem` | High
-42 | ... | ... | ...
+21 | File | `/dataSet/resolveSql` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/etc/gsissh/sshd_config` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/forum/PostPrivateMessage` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/index/ajax/lang` | High
+28 | File | `/members/poster.php` | High
+29 | File | `/mics/j_spring_security_check` | High
+30 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php/ping.php` | High
+33 | File | `/Script/admin/core/update_policy` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/secserver` | Medium
+36 | File | `/Session` | Medium
+37 | File | `/spip.php` | Medium
+38 | File | `/staff_login.php` | High
+39 | File | `/SysInfo1.htm` | High
+40 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

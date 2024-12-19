@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -431,7 +431,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-36, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -450,48 +450,48 @@ ID | Type | Indicator | Confidence
 2 | File | `/abs.php` | Medium
 3 | File | `/action/docker/open_subshell` | High
 4 | File | `/activation.php` | High
-5 | File | `/admin#permissions` | High
-6 | File | `/admin/?setting-base.htm` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/add-doctor.php` | High
-9 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-10 | File | `/admin/budget/manage_budget.php` | High
-11 | File | `/admin/edit_role.php` | High
-12 | File | `/admin/fetch_product_details.php` | High
+5 | File | `/admin/?setting-base.htm` | High
+6 | File | `/admin/add-category.php` | High
+7 | File | `/admin/add-doctor.php` | High
+8 | File | `/admin/budget/manage_budget.php` | High
+9 | File | `/admin/config_ISCGroupNoCache.php` | High
+10 | File | `/admin/edit_role.php` | High
+11 | File | `/admin/fetch_product_details.php` | High
+12 | File | `/admin/index.php` | High
 13 | File | `/admin/index2.html` | High
-14 | File | `/admin/login.php` | High
+14 | File | `/admin/options-theme.php` | High
 15 | File | `/admin/order.php` | High
 16 | File | `/admin/profile.php` | High
-17 | File | `/admin/settings/index.php?page=accounts` | High
-18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-19 | File | `/admin/template/edit` | High
-20 | File | `/adminapi/system/file/openfile` | High
-21 | File | `/ajax.php?action=delete_tenant` | High
-22 | File | `/api/v1/settings` | High
-23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-24 | File | `/backend/admin/his_admin_add_vendor.php` | High
-25 | File | `/backend/admin/his_admin_register_patient.php` | High
-26 | File | `/bloodrequest.php` | High
-27 | File | `/book_list.php` | High
-28 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-29 | File | `/cgi-bin/adm.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/ExportSettings.sh` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/chat/completions` | High
-34 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-35 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-36 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-37 | File | `/config/getuser` | High
-38 | File | `/core/config-revisions` | High
-39 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
-40 | File | `/dbsrv.asp` | Medium
-41 | File | `/deleteanimal.php` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/etc/shadow.sample` | High
+17 | File | `/admin/search-vehicle.php` | High
+18 | File | `/admin/settings/index.php?page=accounts` | High
+19 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+20 | File | `/admin/template/edit` | High
+21 | File | `/adminapi/system/file/openfile` | High
+22 | File | `/api/deploy/upload` | High
+23 | File | `/api/deploy/upload /api/database/upload` | High
+24 | File | `/api/job/add/` | High
+25 | File | `/api/v1/settings` | High
+26 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+27 | File | `/backend/admin/his_admin_add_vendor.php` | High
+28 | File | `/backend/admin/his_admin_register_patient.php` | High
+29 | File | `/book_list.php` | High
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/adm.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/kerbynet` | High
+34 | File | `/chat/completions` | High
+35 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+36 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+37 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+38 | File | `/config/getuser` | High
+39 | File | `/core/config-revisions` | High
+40 | File | `/crm/wechatSession/index.php?msgid=1&operation=upload` | High
+41 | File | `/dbsrv.asp` | Medium
+42 | File | `/deleteanimal.php` | High
+43 | File | `/DXR.axd` | Medium
 44 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

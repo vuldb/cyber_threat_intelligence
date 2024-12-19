@@ -49,10 +49,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,39 +62,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=reserve` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/index.php` | High
-4 | File | `/admin/products/controller.php?action=add` | High
-5 | File | `/admin/students/manage.php` | High
-6 | File | `/adminPage/main/upload` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/auth/register` | High
-9 | File | `/bifs/field_decode.c` | High
-10 | File | `/bin/proc.cgi` | High
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/book-services.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/system_mgr.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/run_cross_report.php` | High
-17 | File | `/Core/Ap4File.cpp` | High
-18 | File | `/dev/audio` | Medium
-19 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-20 | File | `/DXR.axd` | Medium
-21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-22 | File | `/en/blog-comment-4` | High
-23 | File | `/etc/crash` | Medium
-24 | File | `/etc/shadow` | Medium
-25 | File | `/EXCU_SHELL` | Medium
-26 | File | `/foms/routers/cancel-order.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/addressNat` | High
-29 | File | `/goform/AddSysLogRule` | High
-30 | File | `/goform/NatStaticSetting` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/h/` | Low
-33 | ... | ... | ...
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/process_category_add.php` | High
+6 | File | `/admin/products/controller.php?action=add` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/adminPage/main/upload` | High
+9 | File | `/advanced-tools/nova/bin/netwatch` | High
+10 | File | `/auth/register` | High
+11 | File | `/bifs/field_decode.c` | High
+12 | File | `/bin/proc.cgi` | High
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/book-services.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/common/run_cross_report.php` | High
+19 | File | `/Core/Ap4File.cpp` | High
+20 | File | `/dev/audio` | Medium
+21 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+24 | File | `/en/blog-comment-4` | High
+25 | File | `/etc/crash` | Medium
+26 | File | `/etc/shadow` | Medium
+27 | File | `/EXCU_SHELL` | Medium
+28 | File | `/foms/routers/cancel-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/addressNat` | High
+31 | File | `/goform/AddSysLogRule` | High
+32 | File | `/goform/NatStaticSetting` | High
+33 | File | `/goform/WifiBasicSet` | High
+34 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -136,42 +136,42 @@ ID | Type | Indicator | Confidence
 25 | File | `/admin/pages/` | High
 26 | File | `/admin/product/manage_product.php` | High
 27 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-28 | File | `/admin/sou.php` | High
-29 | File | `/admin/subject.php` | High
-30 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-31 | File | `/admin/users.php` | High
-32 | File | `/admins` | Low
-33 | File | `/ajax/getBasicInfo.php` | High
-34 | File | `/backend/admin/his_admin_add_vendor.php` | High
-35 | File | `/book_list.php` | High
-36 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/ExportSettings.sh` | High
-39 | File | `/cgi-bin/nas_sharing.cgi` | High
-40 | File | `/cgi-bin/wlogin.cgi` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
-43 | File | `/classes/Master.php?f=save_medicine` | High
-44 | File | `/classes/SystemSettings.php?f=update_settings` | High
-45 | File | `/classes/Users.php?f=delete` | High
-46 | File | `/clientdetails/admin/regester.php` | High
-47 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-48 | File | `/downloadFile.php` | High
-49 | File | `/dtale/chart-data/1` | High
-50 | File | `/DXR.axd` | Medium
-51 | File | `/edit-subject.php` | High
-52 | File | `/editar-cliente.php` | High
-53 | File | `/editar-produto.php` | High
-54 | File | `/endpoint/add-folder.php` | High
-55 | File | `/endpoint/add-task.php` | High
-56 | File | `/endpoint/add-user.php` | High
-57 | File | `/etc/postfix/sender_login` | High
-58 | File | `/etc/shadow` | Medium
-59 | File | `/etc/shadow.sample` | High
-60 | File | `/farm/product.php` | High
+28 | File | `/admin/search-vehicle.php` | High
+29 | File | `/admin/sou.php` | High
+30 | File | `/admin/subject.php` | High
+31 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+32 | File | `/admin/users.php` | High
+33 | File | `/admins` | Low
+34 | File | `/ajax/getBasicInfo.php` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/backend/admin/his_admin_add_vendor.php` | High
+37 | File | `/backend/admin/his_admin_register_patient.php` | High
+38 | File | `/book_list.php` | High
+39 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/ExportSettings.sh` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/wlogin.cgi` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=save_medicine` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=delete` | High
+49 | File | `/clientdetails/admin/regester.php` | High
+50 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+51 | File | `/downloadFile.php` | High
+52 | File | `/dtale/chart-data/1` | High
+53 | File | `/DXR.axd` | Medium
+54 | File | `/edit-subject.php` | High
+55 | File | `/editar-cliente.php` | High
+56 | File | `/editar-produto.php` | High
+57 | File | `/endpoint/add-folder.php` | High
+58 | File | `/endpoint/add-task.php` | High
+59 | File | `/endpoint/add-user.php` | High
+60 | File | `/etc/postfix/sender_login` | High
 61 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

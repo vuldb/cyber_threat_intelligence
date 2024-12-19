@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
 17 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 39 | File | `/view/vpn/autovpn/sub_commit.php` | High
 40 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

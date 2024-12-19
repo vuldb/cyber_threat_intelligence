@@ -114,7 +114,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -134,60 +134,60 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
 4 | File | `/admin/admin_log.php?clear=1` | High
 5 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
-6 | File | `/admin/dialog/select_images_post.php` | High
-7 | File | `/admin/edit_role.php` | High
-8 | File | `/admin/fetch_product_details.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/network/ajax_getChannelList` | High
-12 | File | `/admin/network/diag_iperf` | High
-13 | File | `/admin/order.php` | High
-14 | File | `/admin/profile.php` | High
-15 | File | `/admin/robot.php` | High
-16 | File | `/admin/search-invoices.php` | High
-17 | File | `/admin/settings/index.php?page=accounts` | High
-18 | File | `/admin/system.php` | High
-19 | File | `/admin/template/edit` | High
-20 | File | `/adminapi/system/file/openfile` | High
-21 | File | `/admins/{adminId}` | High
-22 | File | `/api/sys/set_passwd` | High
-23 | File | `/app/admin/controller/file/File.php` | High
-24 | File | `/application/index/controller/Screen.php` | High
-25 | File | `/articles/welcome-to-your-site#comments-head` | High
-26 | File | `/backend/admin/his_admin_add_vendor.php` | High
-27 | File | `/bloodrequest.php` | High
-28 | File | `/boafrm/formSystemCheck` | High
-29 | File | `/book_list.php` | High
-30 | File | `/buscar_integrada.php` | High
-31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-32 | File | `/cgi-bin/alexserv` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/hd_config.cgi` | High
-35 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-36 | File | `/cgi-bin/tosei_kikai.php` | High
-37 | File | `/cgi-bin/webfile_mgr.cgi` | High
-38 | File | `/cgi-bin/wlogin.cgi` | High
-39 | File | `/chat/completions` | High
-40 | File | `/classes/Master.php?f=save_package` | High
-41 | File | `/classes/SystemSettings.php?f=update_settings` | High
-42 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-43 | File | `/controllers/add_user.php` | High
-44 | File | `/controllers/control.php` | High
-45 | File | `/core/config-revisions` | High
-46 | File | `/core/tools/delete_place.php` | High
-47 | File | `/dcim/power-ports/add/` | High
-48 | File | `/deal/{note_id}/note` | High
-49 | File | `/Doctor/user_appointment.php` | High
-50 | File | `/DXR.axd` | Medium
-51 | File | `/ecommerce/admin/login.php` | High
-52 | File | `/ejbca/ra/cert` | High
-53 | File | `/endpoint/add-calorie.php` | High
-54 | File | `/endpoint/update.php` | High
-55 | File | `/etc/passwd` | Medium
-56 | File | `/files/` | Low
+6 | File | `/admin/config_ISCGroupNoCache.php` | High
+7 | File | `/admin/DatabaseQuery` | High
+8 | File | `/admin/dialog/select_images_post.php` | High
+9 | File | `/admin/edit_role.php` | High
+10 | File | `/admin/fetch_product_details.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/network/ajax_getChannelList` | High
+14 | File | `/admin/network/diag_iperf` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/profile.php` | High
+17 | File | `/admin/robot.php` | High
+18 | File | `/admin/search-invoices.php` | High
+19 | File | `/admin/settings/index.php?page=accounts` | High
+20 | File | `/admin/system.php` | High
+21 | File | `/admin/template/edit` | High
+22 | File | `/adminapi/system/file/openfile` | High
+23 | File | `/admins/{adminId}` | High
+24 | File | `/api/job/add/` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/app/admin/controller/file/File.php` | High
+27 | File | `/application/index/controller/Screen.php` | High
+28 | File | `/articles/welcome-to-your-site#comments-head` | High
+29 | File | `/backend/admin/his_admin_add_vendor.php` | High
+30 | File | `/bloodrequest.php` | High
+31 | File | `/boafrm/formSystemCheck` | High
+32 | File | `/book_list.php` | High
+33 | File | `/buscar_integrada.php` | High
+34 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+35 | File | `/cgi-bin/alexserv` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/hd_config.cgi` | High
+38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+39 | File | `/cgi-bin/tosei_kikai.php` | High
+40 | File | `/cgi-bin/webfile_mgr.cgi` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/chat/completions` | High
+43 | File | `/classes/Master.php?f=save_package` | High
+44 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+45 | File | `/controllers/add_user.php` | High
+46 | File | `/controllers/control.php` | High
+47 | File | `/core/config-revisions` | High
+48 | File | `/core/tools/delete_place.php` | High
+49 | File | `/dcim/power-ports/add/` | High
+50 | File | `/deal/{note_id}/note` | High
+51 | File | `/Doctor/user_appointment.php` | High
+52 | File | `/DXR.axd` | Medium
+53 | File | `/ecommerce/admin/login.php` | High
+54 | File | `/ejbca/ra/cert` | High
+55 | File | `/endpoint/add-calorie.php` | High
+56 | File | `/endpoint/update.php` | High
 57 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 501 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

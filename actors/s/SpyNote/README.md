@@ -140,7 +140,7 @@ ID | Type | Indicator | Confidence
 75 | File | `/goform/execCommand` | High
 76 | ... | ... | ...
 
-There are 665 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 664 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

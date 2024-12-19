@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -47,32 +47,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/produts/controller.php` | High
-4 | File | `/admin/user/team` | High
-5 | File | `/book-services.php` | High
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/common/logViewer/logViewer.jsf` | High
-8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/DXR.axd` | Medium
-10 | File | `/en/blog-comment-4` | High
-11 | File | `/foms/routers/cancel-order.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/aspForm` | High
-14 | File | `/h/` | Low
-15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-16 | File | `/InternalPages/ExecuteTask.aspx` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/ms/cms/content/list.do` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/orms/` | Low
-21 | File | `/plesk-site-preview/` | High
-22 | File | `/project/PROJECTNAME/reports/` | High
-23 | File | `/protocol/iscuser/uploadiscuser.php` | High
-24 | File | `/report/printlogs.php` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/process_category_add.php` | High
+5 | File | `/admin/produts/controller.php` | High
+6 | File | `/admin/user/team` | High
+7 | File | `/book-services.php` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/common/logViewer/logViewer.jsf` | High
+10 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/en/blog-comment-4` | High
+13 | File | `/foms/routers/cancel-order.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/h/` | Low
+17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+18 | File | `/InternalPages/ExecuteTask.aspx` | High
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/ms/cms/content/list.do` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/orms/` | Low
+23 | File | `/plesk-site-preview/` | High
+24 | File | `/project/PROJECTNAME/reports/` | High
 25 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

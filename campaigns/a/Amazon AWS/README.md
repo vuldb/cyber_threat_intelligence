@@ -110,17 +110,16 @@ ID | Type | Indicator | Confidence
 39 | File | `/classes/Master.php?f=save_category` | High
 40 | File | `/classes/SystemSettings.php?f=update_settings` | High
 41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-43 | File | `/dashboard/system/basics/name` | High
-44 | File | `/deal/{note_id}/note` | High
-45 | File | `/debug/pprof` | Medium
-46 | File | `/detailed.php` | High
-47 | File | `/dtale/chart-data/1` | High
-48 | File | `/E-Insurance/` | High
-49 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-50 | ... | ... | ...
+42 | File | `/customnode/install` | High
+43 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+44 | File | `/dashboard/system/basics/name` | High
+45 | File | `/deal/{note_id}/note` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/detailed.php` | High
+48 | File | `/dtale/chart-data/1` | High
+49 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

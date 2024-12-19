@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [49.36.185.0](https://vuldb.com/?ip.49.36.185.0) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,46 +68,48 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/courses/manage_course.php` | High
 5 | File | `/admin/maintenance/brand.php` | High
 6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/product/manage.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/boaform/device_reset.cgi` | High
-10 | File | `/buspassms/download-pass.php` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/master.php?f=delete_order` | High
-16 | File | `/classes/Master.php?f=update_order_status` | High
-17 | File | `/controllers/add_client.php` | High
-18 | File | `/defaultui/player/modern.html` | High
-19 | File | `/dotproject/index.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/importexport.php` | High
-24 | File | `/include/chart_generator.php` | High
-25 | File | `/items/search` | High
-26 | File | `/LoginAdmin` | Medium
-27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-28 | File | `/model/all_events1.php` | High
-29 | File | `/modules/registration_admission/patient_register.php` | High
-30 | File | `/nova/bin/detnet` | High
-31 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
-32 | File | `/property` | Medium
-33 | File | `/publisher` | Medium
-34 | File | `/recordings/index.php` | High
-35 | File | `/rest/api/2/user/picker` | High
-36 | File | `/search.php` | Medium
-37 | File | `/sys/class/zram-control/hot_add` | High
-38 | File | `/tmp/portmap.xdr` | High
-39 | ... | ... | ...
+7 | File | `/admin/patient.php` | High
+8 | File | `/admin/product/manage.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/buspassms/download-pass.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+15 | File | `/changeimage.php` | High
+16 | File | `/classes/master.php?f=delete_order` | High
+17 | File | `/classes/Master.php?f=update_order_status` | High
+18 | File | `/config/getuser` | High
+19 | File | `/controllers/add_client.php` | High
+20 | File | `/defaultui/player/modern.html` | High
+21 | File | `/dotproject/index.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/importexport.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/items/search` | High
+28 | File | `/LoginAdmin` | Medium
+29 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+30 | File | `/model/all_events1.php` | High
+31 | File | `/modules/registration_admission/patient_register.php` | High
+32 | File | `/nova/bin/detnet` | High
+33 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+34 | File | `/property` | Medium
+35 | File | `/publisher` | Medium
+36 | File | `/rest/api/2/user/picker` | High
+37 | File | `/search.php` | Medium
+38 | File | `/sys/class/zram-control/hot_add` | High
+39 | File | `/tmp/portmap.xdr` | High
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/eset/malware-ioc/tree/master/evasive_panda
 * https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/
 * https://www.welivesecurity.com/en/eset-research/evasive-panda-leverages-monlam-festival-target-tibetans/
 

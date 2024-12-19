@@ -78,10 +78,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/wapopen` | High
 9 | File | `/cgi-bin/wlogin.cgi` | High
 10 | File | `/classes/Master.php` | High
-11 | File | `/endpoint/delete-account.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/index/ajax/lang` | High
-14 | File | `/jquery_file_upload/server/php/index.php` | High
+11 | File | `/config/getuser` | High
+12 | File | `/endpoint/delete-account.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/index/ajax/lang` | High
 15 | ... | ... | ...
 
 There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

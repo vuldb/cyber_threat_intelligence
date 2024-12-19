@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1297,14 +1297,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1312,55 +1312,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/aboutadd.php` | High
-2 | File | `/aboutedit.php` | High
-3 | File | `/activation.php` | High
-4 | File | `/adicionar-cliente.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-7 | File | `/admin/change-image.php` | High
-8 | File | `/admin/cmsVote/save` | High
-9 | File | `/Admin/detail.php` | High
-10 | File | `/admin/edit_role.php` | High
-11 | File | `/admin/fetch_product_details.php` | High
-12 | File | `/admin/file_manager/export` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/network/diag_iperf` | High
-15 | File | `/admin/network/diag_traceroute` | High
-16 | File | `/admin/network/diag_traceroute6` | High
-17 | File | `/admin/operations/expense_category.php` | High
-18 | File | `/admin/order.php` | High
-19 | File | `/admin/orders/view_order.php` | High
-20 | File | `/admin/process_category_add.php` | High
-21 | File | `/admin/process_category_edit.php` | High
-22 | File | `/admin/product/manage_product.php` | High
-23 | File | `/admin/profile.php` | High
-24 | File | `/admin/reset-password.php` | High
-25 | File | `/admin/room.php` | High
-26 | File | `/admin/search-invoices.php` | High
-27 | File | `/admin/settings/index.php?page=accounts` | High
-28 | File | `/admin/sn_package/sn_https` | High
-29 | File | `/admin/subcategory.php` | High
-30 | File | `/admin/SysNotifyUser/del.html?id=93` | High
-31 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-32 | File | `/admin/user-search.php` | High
-33 | File | `/admin/view-appointment.php` | High
-34 | File | `/adminapi/system/file/openfile` | High
-35 | File | `/apply.cgi` | Medium
-36 | File | `/Apps/TOPqw/BenutzerManagement.aspx` | High
-37 | File | `/auth_files/photo/` | High
-38 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-39 | File | `/backend/admin/his_admin_add_vendor.php` | High
-40 | File | `/backend/admin/his_admin_register_patient.php` | High
-41 | File | `/backend/doc/his_doc_update-account.php` | High
-42 | File | `/book_car.php` | High
-43 | File | `/book_list.php` | High
-44 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/cgi-bin/luci/api/auth` | High
-47 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+3 | File | `/admin/cmsVote/save` | High
+4 | File | `/admin/config_ISCGroupNoCache.php` | High
+5 | File | `/admin/file_manager/export` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/network/diag_iperf` | High
+9 | File | `/admin/network/diag_traceroute` | High
+10 | File | `/admin/network/diag_traceroute6` | High
+11 | File | `/admin/operations/expense_category.php` | High
+12 | File | `/admin/orders/view_order.php` | High
+13 | File | `/admin/product/manage_product.php` | High
+14 | File | `/admin/reset-password.php` | High
+15 | File | `/admin/room.php` | High
+16 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+17 | File | `/admin/search-vehicle.php` | High
+18 | File | `/admin/settings/index.php?page=accounts` | High
+19 | File | `/admin/sn_package/sn_https` | High
+20 | File | `/admin/subcategory.php` | High
+21 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+22 | File | `/admin/template/edit` | High
+23 | File | `/admin/user-search.php` | High
+24 | File | `/admin/view-appointment.php` | High
+25 | File | `/api/job/add/` | High
+26 | File | `/apply.cgi` | Medium
+27 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+28 | File | `/backend/admin/his_admin_add_vendor.php` | High
+29 | File | `/backend/admin/his_admin_register_patient.php` | High
+30 | File | `/backend/doc/his_doc_update-account.php` | High
+31 | File | `/book_car.php` | High
+32 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/chat/completions` | High
+36 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
+37 | File | `/commons/attachment/upload` | High
+38 | File | `/control/WANIPConnection` | High
+39 | File | `/controllers/updatesettings.php` | High
+40 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

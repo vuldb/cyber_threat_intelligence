@@ -55,19 +55,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/forum/away.php` | High
 4 | File | `/inc/parser/xhtml.php` | High
 5 | File | `/include/makecvs.php` | High
-6 | File | `/lua/set-passwd.lua` | High
-7 | File | `/member/index/login.html` | High
-8 | File | `/member/myfriend.php` | High
-9 | File | `/member/reg.asp` | High
-10 | File | `/pms/admin/actions/view_action.php` | High
-11 | File | `/pms/admin/cells/view_cell.php` | High
-12 | File | `/pms/admin/crimes/manage_crime.php` | High
-13 | File | `/pms/admin/inmates/view_inmate.php` | High
-14 | File | `/pms/admin/prisons/view_prison.php` | High
-15 | File | `/pms/admin/visits/view_visit.php` | High
-16 | ... | ... | ...
+6 | File | `/index/ajax/lang` | High
+7 | File | `/lua/set-passwd.lua` | High
+8 | File | `/member/index/login.html` | High
+9 | File | `/member/myfriend.php` | High
+10 | File | `/member/reg.asp` | High
+11 | File | `/pms/admin/actions/view_action.php` | High
+12 | File | `/pms/admin/cells/view_cell.php` | High
+13 | File | `/pms/admin/crimes/manage_crime.php` | High
+14 | File | `/pms/admin/inmates/view_inmate.php` | High
+15 | File | `/pms/admin/prisons/view_prison.php` | High
+16 | File | `/pms/admin/visits/view_visit.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

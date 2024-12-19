@@ -119,20 +119,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
-2 | File | `/admin/general.cgi` | High
-3 | File | `/admin/profile.php` | High
-4 | File | `/API/info` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/debuginfo.htm` | High
-7 | File | `/ecommerce/support_ticket` | High
-8 | File | `/Employee/edit-profile.php` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/h/autoSaveDraft` | High
-12 | File | `/home/search` | Medium
-13 | ... | ... | ...
+2 | File | `/admin/profile.php` | High
+3 | File | `/API/info` | Medium
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/debuginfo.htm` | High
+6 | File | `/ecommerce/support_ticket` | High
+7 | File | `/Employee/edit-profile.php` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/h/autoSaveDraft` | High
+11 | File | `/home/search` | Medium
+12 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

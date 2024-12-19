@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IL](https://vuldb.com/?country.il)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -98,9 +98,10 @@ ID | IP address | Hostname | Campaign | Confidence
 75 | [23.92.22.235](https://vuldb.com/?ip.23.92.22.235) | 23-92-22-235.ip.linodeusercontent.com | - | High
 76 | [23.168.152.67](https://vuldb.com/?ip.23.168.152.67) | - | - | High
 77 | [23.168.152.68](https://vuldb.com/?ip.23.168.152.68) | - | - | High
-78 | ... | ... | ... | ...
+78 | [23.254.167.32](https://vuldb.com/?ip.23.254.167.32) | hwsrv-1075866.hostwindsdns.com | - | High
+79 | ... | ... | ... | ...
 
-There are 309 more IOC items available. Please use our online service to access the data.
+There are 311 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -108,7 +109,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -153,39 +154,39 @@ ID | Type | Indicator | Confidence
 28 | File | `/admin/sou.php` | High
 29 | File | `/admin/users.php` | High
 30 | File | `/adminapi/system/crud` | High
-31 | File | `/adminapi/system/file/openfile` | High
-32 | File | `/api/v1/custom_component` | High
-33 | File | `/api/wechat/app_auth` | High
-34 | File | `/app/api/controller/caiji.php` | High
+31 | File | `/api/v1/custom_component` | High
+32 | File | `/api/wechat/app_auth` | High
+33 | File | `/app/api/controller/caiji.php` | High
+34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 35 | File | `/backend/admin/his_admin_add_vendor.php` | High
-36 | File | `/buscar_integrada.php` | High
-37 | File | `/cancel.php` | Medium
-38 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-39 | File | `/category.php` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | File | `/cgi-bin/nas_sharing.cgi` | High
-42 | File | `/cgi-bin/wlogin.cgi` | High
-43 | File | `/classes/Master.php` | High
-44 | File | `/classes/Master.php?f=delete_category` | High
-45 | File | `/classes/Master.php?f=save_medicine` | High
-46 | File | `/classes/SystemSettings.php?f=update_settings` | High
-47 | File | `/classes/Users.php?f=delete` | High
-48 | File | `/control/register_case.php` | High
-49 | File | `/download` | Medium
-50 | File | `/downloadFile.php` | High
-51 | File | `/dtale/chart-data/1` | High
-52 | File | `/DXR.axd` | Medium
-53 | File | `/editar-cliente.php` | High
-54 | File | `/editar-produto.php` | High
-55 | File | `/endpoint/add-calorie.php` | High
-56 | File | `/endpoint/add-folder.php` | High
-57 | File | `/endpoint/add-task.php` | High
-58 | File | `/etc/shadow` | Medium
-59 | File | `/file/updateprofile.php` | High
-60 | File | `/filemanager/upload` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/buscar_integrada.php` | High
+38 | File | `/cancel.php` | Medium
+39 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+40 | File | `/category.php` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/wlogin.cgi` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=save_medicine` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=delete` | High
+49 | File | `/control/register_case.php` | High
+50 | File | `/download` | Medium
+51 | File | `/downloadFile.php` | High
+52 | File | `/dtale/chart-data/1` | High
+53 | File | `/DXR.axd` | Medium
+54 | File | `/editar-cliente.php` | High
+55 | File | `/editar-produto.php` | High
+56 | File | `/endpoint/add-calorie.php` | High
+57 | File | `/endpoint/add-folder.php` | High
+58 | File | `/endpoint/add-task.php` | High
+59 | File | `/etc/shadow` | Medium
+60 | File | `/file/updateprofile.php` | High
 61 | ... | ... | ...
 
-There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 533 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -193,6 +194,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/409/brute-ratel-c4-brc4-iocs/
 * https://bazaar.abuse.ch/sample/c3f8ebc9cfb7ebe1ebbe3a4210753b271fecf73392fef98519b823a3e7c056c7/
+* https://bazaar.abuse.ch/sample/ea2c9e620d779449a2d5176ace0c4993934e85be7a0207f3f51b4a432627ad2f/
 * https://cybergeeks.tech/a-deep-dive-into-brute-ratel-c4-payloads/
 * https://search.censys.io/hosts/2.34.147.152
 * https://search.censys.io/hosts/3.28.39.6
@@ -403,6 +405,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/104.234.239.217
 * https://search.censys.io/hosts/107.148.9.252
 * https://search.censys.io/hosts/107.148.27.54
+* https://search.censys.io/hosts/107.174.0.170
 * https://search.censys.io/hosts/107.191.60.134
 * https://search.censys.io/hosts/112.213.121.7
 * https://search.censys.io/hosts/112.213.121.11
