@@ -78,13 +78,13 @@ ID | Type | Indicator | Confidence
 27 | File | `attachment.do` | High
 28 | File | `auth2-gss.c` | Medium
 29 | File | `backupmgt/getAlias.php` | High
-30 | File | `board.php` | Medium
-31 | File | `books.php` | Medium
-32 | File | `buy.php` | Low
-33 | File | `calendar.php` | Medium
+30 | File | `bitrix/modules/main/tools.php` | High
+31 | File | `board.php` | Medium
+32 | File | `books.php` | Medium
+33 | File | `buy.php` | Low
 34 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -51,26 +51,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi` | High
-2 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-3 | File | `/cgi-bin/system_mgr.cgi` | High
-4 | File | `/download` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/include/helpers/upload.helper.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-9 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-10 | File | `/register.php` | High
-11 | File | `/rom-0` | Low
-12 | File | `/spip.php` | Medium
-13 | File | `/uncpath/` | Medium
-14 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-15 | File | `adclick.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `admin/cmsWebFile/list.html?path=../` | High
-18 | ... | ... | ...
+1 | File | `/admin/attendance_action.php` | High
+2 | File | `/ajax` | Low
+3 | File | `/campaign.php` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+6 | File | `/cgi-bin/system_mgr.cgi` | High
+7 | File | `/dede/article_string_mix.php` | High
+8 | File | `/download` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/include/helpers/upload.helper.php` | High
+11 | File | `/oauth/idp/.well-known/openid-configuration` | High
+12 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+13 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+14 | File | `/register.php` | High
+15 | File | `/rom-0` | Low
+16 | File | `/spip.php` | Medium
+17 | File | `/uncpath/` | Medium
+18 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+19 | File | `adclick.php` | Medium
+20 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

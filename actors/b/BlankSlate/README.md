@@ -47,26 +47,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php` | High
-2 | File | `/admin/invoice.php` | High
-3 | File | `/admin/list_addr_fwresource_ip.php` | High
-4 | File | `/admin/makehtml_freelist_action.php` | High
-5 | File | `/admin/return_add.php` | High
-6 | File | `/admin/save.php` | High
-7 | File | `/admin/service/stop/` | High
-8 | File | `/admin/students/manage_academic.php` | High
-9 | File | `/api/v1/attack/falco` | High
-10 | File | `/application/websocket/controller/Setting.php` | High
-11 | File | `/bin/boa` | Medium
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/discovery.cgi` | High
-14 | File | `/cgi-bin/login_action.cgi` | High
-15 | File | `/event/admin/?page=user/list` | High
-16 | File | `/include/file.php` | High
-17 | File | `/index.php` | Medium
+1 | File | `/add.php` | Medium
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/invoice.php` | High
+4 | File | `/admin/list_addr_fwresource_ip.php` | High
+5 | File | `/admin/makehtml_freelist_action.php` | High
+6 | File | `/admin/return_add.php` | High
+7 | File | `/admin/save.php` | High
+8 | File | `/admin/service/stop/` | High
+9 | File | `/admin/students/manage_academic.php` | High
+10 | File | `/api/client/article/list` | High
+11 | File | `/api/v1/attack/falco` | High
+12 | File | `/application/websocket/controller/Setting.php` | High
+13 | File | `/bin/boa` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/discovery.cgi` | High
+16 | File | `/cgi-bin/login_action.cgi` | High
+17 | File | `/event/admin/?page=user/list` | High
 18 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

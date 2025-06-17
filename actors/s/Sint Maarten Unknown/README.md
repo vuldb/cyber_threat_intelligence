@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sint Maarten Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [SX](https://vuldb.com/?country.sx)
-* [NL](https://vuldb.com/?country.nl)
+* [GB](https://vuldb.com/?country.gb)
+* [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,12 +30,20 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [65.217.50.0](https://vuldb.com/?ip.65.217.50.0) | - | - | High
 8 | [65.248.160.0](https://vuldb.com/?ip.65.248.160.0) | - | - | High
 9 | [72.252.8.0](https://vuldb.com/?ip.72.252.8.0) | - | - | High
-10 | [131.161.84.0](https://vuldb.com/?ip.131.161.84.0) | ip-131-161-084-000.v4.isp.telem.sx | - | High
-11 | [168.0.84.0](https://vuldb.com/?ip.168.0.84.0) | 168-000-084-000.xdsl.telemgroup.sx | - | High
-12 | [168.197.108.0](https://vuldb.com/?ip.168.197.108.0) | - | - | High
-13 | ... | ... | ... | ...
+10 | [104.28.13.52](https://vuldb.com/?ip.104.28.13.52) | - | - | High
+11 | [104.28.13.54](https://vuldb.com/?ip.104.28.13.54) | - | - | High
+12 | [104.28.50.222](https://vuldb.com/?ip.104.28.50.222) | - | - | High
+13 | [104.28.50.224](https://vuldb.com/?ip.104.28.50.224) | - | - | High
+14 | [104.28.92.196](https://vuldb.com/?ip.104.28.92.196) | - | - | High
+15 | [104.28.220.111](https://vuldb.com/?ip.104.28.220.111) | - | - | High
+16 | [104.28.220.112](https://vuldb.com/?ip.104.28.220.112) | - | - | High
+17 | [104.28.252.111](https://vuldb.com/?ip.104.28.252.111) | - | - | High
+18 | [104.28.252.112](https://vuldb.com/?ip.104.28.252.112) | - | - | High
+19 | [131.161.84.0](https://vuldb.com/?ip.131.161.84.0) | ip-131-161-084-000.v4.isp.telem.sx | - | High
+20 | [136.23.23.39](https://vuldb.com/?ip.136.23.23.39) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 80 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +51,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,8 +67,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Library | `winmm.dll` | Medium
-2 | Argument | `SSID` | Low
+1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
+2 | File | `%PROGRAMDATA%\SSCService` | High
+3 | File | `.FBCIndex` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/mod_reports/index.php` | High
+8 | File | `/application/index/controller/Databasesource.php` | High
+9 | File | `/bcms/admin/?page=sales/view_details` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/boaform/getASPdata/formFirewall` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/download_config.cgi` | High
+14 | File | `/classes/Users.php?f=save` | High
+15 | File | `/control/WANIPConnection` | High
+16 | File | `/cwms/admin/?page=articles/view_article/` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/display/map` | Medium
+19 | File | `/ecommerce/support_ticket` | High
+20 | File | `/Employer/EditProfile.php` | High
+21 | File | `/goform/apPortalPhoneAuth` | High
+22 | File | `/index.php/sysmanage/Login/login_auth/` | High
+23 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+24 | File | `/index/ajax/lang` | High
+25 | ... | ... | ...
+
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

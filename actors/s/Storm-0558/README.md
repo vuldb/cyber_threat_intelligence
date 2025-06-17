@@ -39,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-38 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37, CWE-38 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,32 +59,34 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/edit_supplier.php` | High
 4 | File | `/admin/emp-profile-avatar.php` | High
 5 | File | `/admin/index2.html` | High
-6 | File | `/admin/sales/view_details.php` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/bin/webs` | Medium
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/hd_config.cgi` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-15 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-16 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-17 | File | `/edit-computer-detail.php` | High
-18 | File | `/endpoint/Add.php` | High
-19 | File | `/etc/sudoers` | Medium
-20 | File | `/export` | Low
-21 | File | `/goform/formSetEmail` | High
-22 | File | `/goform/SetSpeedWan` | High
-23 | File | `/LMS/LM/#main` | High
-24 | File | `/mhds/clinic/view_details.php` | High
-25 | File | `/modules/atari-img.c` | High
-26 | File | `/modules/projects/vw_files.php` | High
-27 | File | `/password/reset` | High
-28 | File | `/php/ping.php` | High
-29 | ... | ... | ...
+6 | File | `/admin/process_category_edit.php` | High
+7 | File | `/admin/sales/view_details.php` | High
+8 | File | `/api/v1/terminal/sessions/?limit=1` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/apply_noauth.cgi` | High
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/bin/webs` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/hd_config.cgi` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+17 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+19 | File | `/edit-computer-detail.php` | High
+20 | File | `/endpoint/Add.php` | High
+21 | File | `/etc/sudoers` | Medium
+22 | File | `/expedit.php` | Medium
+23 | File | `/export` | Low
+24 | File | `/goform/formSetEmail` | High
+25 | File | `/goform/SetSpeedWan` | High
+26 | File | `/LMS/LM/#main` | High
+27 | File | `/logout.php` | Medium
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/password/reset` | High
+31 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [PL](https://vuldb.com/?country.pl)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -96,11 +96,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -110,15 +109,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
+1 | File | `/admin/add_content.php` | High
 2 | File | `/admin/book_row.php` | High
 3 | File | `/admin/category_row.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/index.php?page=manage_product` | High
-6 | File | `/admin/manage-ambulance.php` | High
-7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-8 | File | `/assets/ctx` | Medium
-9 | File | `/cgi-bin/kerbynet` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/index.php?page=manage_product` | High
+7 | File | `/admin/manage-ambulance.php` | High
+8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+9 | File | `/backend/admin/his_admin_register_patient.php` | High
 10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 11 | File | `/cgi-bin/nas_sharing.cgi` | High
 12 | File | `/cgi-bin/p1_ftpserver.php` | High
@@ -127,12 +126,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/classes/Master.php?f=log_employee` | High
 16 | File | `/classes/SystemSettings.php?f=update_settings` | High
 17 | File | `/common/info.cgi` | High
-18 | File | `/config/getuser` | High
-19 | File | `/dashboard/Cinvoice/manage_invoice` | High
-20 | File | `/dashboard/message` | High
-21 | ... | ... | ...
+18 | File | `/dashboard/Cinvoice/manage_invoice` | High
+19 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,8 +21,8 @@ These _actors_ are associated with RomCom or other actors linked to the campaign
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [ROMCOM RAT](https://vuldb.com/?actor.romcom_rat) | High
-2 | [RomCom](https://vuldb.com/?actor.romcom) | High
+1 | [RomCom](https://vuldb.com/?actor.romcom) | High
+2 | [ROMCOM RAT](https://vuldb.com/?actor.romcom_rat) | High
 3 | [UAT-5647](https://vuldb.com/?actor.uat-5647) | High
 4 | ... | ...
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -80,14 +80,16 @@ ID | Type | Indicator | Confidence
 15 | File | `/app/ajax/sell_return_data.php` | High
 16 | File | `/cgi-bin/nas_sharing.cgi` | High
 17 | File | `/classes/Master.php?f=delete_inquiry` | High
-18 | File | `/conf/app.conf` | High
-19 | File | `/dipam/athlete-profile.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/SetVirtualServerCfg` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | ... | ... | ...
+18 | File | `/collect/PortV4/downLoad.html` | High
+19 | File | `/conf/app.conf` | High
+20 | File | `/dipam/athlete-profile.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetVirtualServerCfg` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/item/item_con` | High
+25 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

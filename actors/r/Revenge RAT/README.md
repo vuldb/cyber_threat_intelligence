@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Revenge RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,19 +23,21 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.138.180.119](https://vuldb.com/?ip.3.138.180.119) | ec2-3-138-180-119.us-east-2.compute.amazonaws.com | - | Medium
 2 | [5.39.19.8](https://vuldb.com/?ip.5.39.19.8) | - | - | High
-3 | [18.228.165.84](https://vuldb.com/?ip.18.228.165.84) | ec2-18-228-165-84.sa-east-1.compute.amazonaws.com | - | Medium
-4 | [18.228.173.171](https://vuldb.com/?ip.18.228.173.171) | ec2-18-228-173-171.sa-east-1.compute.amazonaws.com | - | Medium
-5 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
-6 | [18.231.150.177](https://vuldb.com/?ip.18.231.150.177) | ec2-18-231-150-177.sa-east-1.compute.amazonaws.com | - | Medium
-7 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
-8 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
-9 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
-10 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
-11 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
-12 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
-13 | ... | ... | ... | ...
+3 | [5.79.71.205](https://vuldb.com/?ip.5.79.71.205) | - | - | High
+4 | [5.79.71.225](https://vuldb.com/?ip.5.79.71.225) | - | - | High
+5 | [13.49.66.229](https://vuldb.com/?ip.13.49.66.229) | ec2-13-49-66-229.eu-north-1.compute.amazonaws.com | - | Medium
+6 | [16.171.35.35](https://vuldb.com/?ip.16.171.35.35) | ec2-16-171-35-35.eu-north-1.compute.amazonaws.com | - | Medium
+7 | [18.228.165.84](https://vuldb.com/?ip.18.228.165.84) | ec2-18-228-165-84.sa-east-1.compute.amazonaws.com | - | Medium
+8 | [18.228.173.171](https://vuldb.com/?ip.18.228.173.171) | ec2-18-228-173-171.sa-east-1.compute.amazonaws.com | - | Medium
+9 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
+10 | [18.231.106.232](https://vuldb.com/?ip.18.231.106.232) | ec2-18-231-106-232.sa-east-1.compute.amazonaws.com | - | Medium
+11 | [18.231.150.177](https://vuldb.com/?ip.18.231.150.177) | ec2-18-231-150-177.sa-east-1.compute.amazonaws.com | - | Medium
+12 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
+13 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
+14 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,14 +45,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-35 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,55 +59,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `/?Key=PhoneRequestAuthorization` | High
-3 | File | `/account/ResetPassword` | High
-4 | File | `/admin/?/layout/add` | High
-5 | File | `/admin/dialog/select_images_post.php` | High
-6 | File | `/admin/pass-bwdates-reports-details.php` | High
-7 | File | `/admin/search-medicalcard.php` | High
-8 | File | `/admin/syslog` | High
-9 | File | `/admin_giant/add_team_member.php` | High
+1 | File | `/admin/?/layout/add` | High
+2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+3 | File | `/admin/dialog/select_images_post.php` | High
+4 | File | `/admin/overtime_add.php` | High
+5 | File | `/admin/pass-bwdates-reports-details.php` | High
+6 | File | `/admin/property-details.php` | High
+7 | File | `/Admin/Proses_Edit_Akun.php` | High
+8 | File | `/admin/search-medicalcard.php` | High
+9 | File | `/admin/tag/save` | High
 10 | File | `/ajax.php` | Medium
-11 | File | `/bin/login` | Medium
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/ExportALLSettings.sh` | High
-14 | File | `/cgi-bin/hd_config.cgi` | High
-15 | File | `/cgi-bin/mainfunction.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/hd_config.cgi` | High
+13 | File | `/cgi-bin/mainfunction.cgi` | High
+14 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+15 | File | `/cgi-bin/webfile_mgr.cgi` | High
 16 | File | `/classes/Master.php` | High
 17 | File | `/classes/Master.php?f=delete_category` | High
-18 | File | `/common/info.cgi` | High
-19 | File | `/control/forgot_pass.php` | High
-20 | File | `/course/filterRecords/` | High
-21 | File | `/download/image` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/endpoint/delete.php` | High
-24 | File | `/etc/sudoers` | Medium
-25 | File | `/fhconf/umconfig.txt` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/get_getnetworkconf.cgi` | High
-28 | File | `/goform/formSetMACFilter` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/horde/util/go.php` | High
-31 | File | `/hrm/controller/employee.php` | High
-32 | File | `/include/chart_generator.php` | High
-33 | File | `/includes/` | Medium
-34 | File | `/index.php/admin` | High
-35 | File | `/integrations.json` | High
-36 | File | `/login/signOut` | High
-37 | File | `/manage_block.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/product.php` | Medium
-40 | File | `/public` | Low
-41 | File | `/public/login.htm` | High
-42 | File | `/report/ParkChargeRecord/GetDataList` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/uncpath/` | Medium
-45 | File | `/users/admin/user_activity.php` | High
-46 | File | `/usr/local/www/pkg.php` | High
-47 | ... | ... | ...
+18 | File | `/control/forgot_pass.php` | High
+19 | File | `/course/filterRecords/` | High
+20 | File | `/dataSet/resolveSql` | High
+21 | File | `/details.php` | Medium
+22 | File | `/download/image` | High
+23 | File | `/DXR.axd` | Medium
+24 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

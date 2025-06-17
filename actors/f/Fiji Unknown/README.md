@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fiji Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [FJ](https://vuldb.com/?country.fj)
+* [AU](https://vuldb.com/?country.au)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +40,19 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [103.58.20.0](https://vuldb.com/?ip.103.58.20.0) | - | - | High
 18 | [103.71.204.0](https://vuldb.com/?ip.103.71.204.0) | - | - | High
 19 | [103.76.157.0](https://vuldb.com/?ip.103.76.157.0) | - | - | High
-20 | ... | ... | ... | ...
+20 | [103.77.225.0](https://vuldb.com/?ip.103.77.225.0) | - | - | High
+21 | [103.88.139.0](https://vuldb.com/?ip.103.88.139.0) | - | - | High
+22 | [103.99.43.0](https://vuldb.com/?ip.103.99.43.0) | - | - | High
+23 | [103.101.240.0](https://vuldb.com/?ip.103.101.240.0) | - | - | High
+24 | [103.116.156.0](https://vuldb.com/?ip.103.116.156.0) | - | - | High
+25 | [103.137.129.0](https://vuldb.com/?ip.103.137.129.0) | - | - | High
+26 | [103.147.194.0](https://vuldb.com/?ip.103.147.194.0) | - | - | High
+27 | [103.148.54.0](https://vuldb.com/?ip.103.148.54.0) | - | - | High
+28 | [103.169.143.0](https://vuldb.com/?ip.103.169.143.0) | - | - | High
+29 | [103.178.195.0](https://vuldb.com/?ip.103.178.195.0) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,12 +60,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,30 +75,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/Admin/login.php` | High
-3 | File | `/admin/manage_academic.php` | High
-4 | File | `/admin/photo.php` | High
-5 | File | `/admin/upload.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/blog` | Low
-8 | File | `/config/config.json` | High
-9 | File | `/download` | Medium
-10 | File | `/login.php` | Medium
-11 | File | `/portal/search.htm` | High
-12 | File | `/preauth` | Medium
-13 | File | `/student/bookdetails.php` | High
-14 | File | `/update-article.php` | High
-15 | File | `/wordpress/wp-admin/options-general.php` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `4.2.0.CP09` | Medium
-18 | File | `admin.php` | Medium
-19 | File | `admin/admin.php` | High
-20 | File | `admin/y_admin.asp` | High
-21 | File | `adminer.php` | Medium
-22 | ... | ... | ...
+1 | File | `/activate_hook.php` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/ajax.php?action=save_settings` | High
+4 | File | `/admin/config_Anticrack.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/singlelogin.php?submit=1` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/application/views/themeOptions/update.php` | High
+9 | File | `/boaform/device_reset.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/HNAP1/` | Low
+14 | File | `/itbox_pi/networksafe.php?a=set` | High
+15 | File | `/manage_sy.php` | High
+16 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+17 | File | `/oauth/idp/.well-known/openid-configuration` | High
+18 | File | `/protocol/iscuser/uploadiscuser.php` | High
+19 | File | `/REBOOTSYSTEM` | High
+20 | File | `/register.php` | High
+21 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -45,55 +45,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-2 | File | `/apps/system/services/role_menu.go` | High
-3 | File | `/cap.js` | Low
-4 | File | `/category_view.php` | High
-5 | File | `/cgi-bin/cgiServer.exx` | High
-6 | File | `/cgi-bin/info.cgi` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-10 | File | `/devinfo` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/general/meeting/manage/delete.php` | High
-13 | File | `/goform/formSetWanPPPoE` | High
-14 | File | `/goform/GetParentControlInfo` | High
-15 | File | `/goform/SetNetControlList` | High
-16 | File | `/goform/SysToolRestoreSet` | High
-17 | File | `/highlight/index.html` | High
-18 | File | `/hotel.php` | Medium
-19 | File | `/Login.do` | Medium
-20 | File | `/register.php` | High
-21 | File | `/sys_verifies.php?action=view` | High
-22 | File | `/var/etc/shadow` | High
-23 | File | `/var/log/cgred` | High
-24 | File | `/var/run/hostapd` | High
-25 | File | `/version.js` | Medium
-26 | File | `/view/student_exam_mark_insert_form1.php` | High
-27 | File | `add.php` | Low
-28 | File | `AddEvent.php` | Medium
-29 | File | `addlisting.asp` | High
-30 | File | `add_tmsp.php` | Medium
-31 | File | `admin.php` | Medium
-32 | File | `admin/handlers.php` | High
-33 | File | `admin/help.php` | High
-34 | File | `admin/modules/system/app_user.php` | High
-35 | File | `admin/tools/trackback/index.php` | High
-36 | File | `admin/update_room.php` | High
-37 | File | `admin/users_edit.php` | High
-38 | File | `administrators/backups/` | High
-39 | File | `afmparse.c` | Medium
-40 | File | `ajax.php` | Medium
-41 | File | `answers.php` | Medium
-42 | File | `apsetup.php` | Medium
-43 | File | `arch/powerpc/kernel/process.c` | High
-44 | File | `arch/x86/kvm/vmx.c` | High
-45 | File | `ArchiveUtil.java` | High
-46 | File | `bmp.c` | Low
-47 | ... | ... | ...
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/profile.php` | High
+3 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+4 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+5 | File | `/api/deploy/upload` | High
+6 | File | `/apps/system/services/role_menu.go` | High
+7 | File | `/cap.js` | Low
+8 | File | `/category_view.php` | High
+9 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+10 | File | `/cgi-bin/cgiServer.exx` | High
+11 | File | `/cgi-bin/info.cgi` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+15 | File | `/devinfo` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/general/meeting/manage/delete.php` | High
+18 | File | `/goform/formSetWanPPPoE` | High
+19 | File | `/goform/GetParentControlInfo` | High
+20 | File | `/goform/SetNetControlList` | High
+21 | File | `/goform/SysToolRestoreSet` | High
+22 | File | `/highlight/index.html` | High
+23 | File | `/hotel.php` | Medium
+24 | File | `/Login.do` | Medium
+25 | File | `/novel/bookSetting/list` | High
+26 | File | `/register.php` | High
+27 | File | `/rental/ajax.php?action=delete_user` | High
+28 | File | `/sys_verifies.php?action=view` | High
+29 | File | `/var/etc/shadow` | High
+30 | File | `/var/log/cgred` | High
+31 | File | `/var/run/hostapd` | High
+32 | File | `/version.js` | Medium
+33 | File | `/view/student_exam_mark_insert_form1.php` | High
+34 | File | `/xml/info.xml` | High
+35 | File | `add.php` | Low
+36 | File | `AddEvent.php` | Medium
+37 | File | `addlisting.asp` | High
+38 | File | `add_tmsp.php` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin/handlers.php` | High
+41 | File | `admin/help.php` | High
+42 | File | `admin/modules/system/app_user.php` | High
+43 | File | `admin/tools/trackback/index.php` | High
+44 | File | `admin/update_room.php` | High
+45 | File | `admin/users_edit.php` | High
+46 | File | `administrators/backups/` | High
+47 | File | `afmparse.c` | Medium
+48 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,17 +9,18 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with MirrorFace:
 
 * LiberalFace
+* Operation AkaiRyū
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MirrorFace:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,10 +30,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.95.174](https://vuldb.com/?ip.5.8.95.174) | free.ds | LiberalFace | High
 2 | [45.32.13.180](https://vuldb.com/?ip.45.32.13.180) | 45.32.13.180.vultrusercontent.com | LiberalFace | Medium
-3 | [45.66.217.106](https://vuldb.com/?ip.45.66.217.106) | - | - | High
-4 | ... | ... | ... | ...
+3 | [45.32.116.146](https://vuldb.com/?ip.45.32.116.146) | 45.32.116.146.vultrusercontent.com | Operation AkaiRyū | Medium
+4 | [45.66.217.106](https://vuldb.com/?ip.45.66.217.106) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,9 +74,11 @@ ID | Type | Indicator | Confidence
 16 | File | `/new` | Low
 17 | File | `/owa/auth/logon.aspx` | High
 18 | File | `/rest/api/latest/projectvalidate/key` | High
-19 | ... | ... | ...
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/spip.php` | Medium
+21 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.jpcert.or.jp/en/2024/07/mirrorface-attack-against-japanese-organisations.html
 * https://www.welivesecurity.com/2022/12/14/unmasking-mirrorface-operation-liberalface-targeting-japanese-political-entities/
+* https://www.welivesecurity.com/en/eset-research/operation-akairyu-mirrorface-invites-europe-expo-2025-revives-anel-backdoor/
 
 ## Literature
 
@@ -92,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

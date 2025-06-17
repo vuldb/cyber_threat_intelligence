@@ -69,41 +69,41 @@ ID | Type | Indicator | Confidence
 15 | File | `/assets/components/gallery/connector.php` | High
 16 | File | `/author_posts.php` | High
 17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/bsms_ci/index.php` | High
-19 | File | `/change-language/de_DE` | High
-20 | File | `/cms/category/list` | High
-21 | File | `/College/admin/teacher.php` | High
-22 | File | `/dashboard/message` | High
-23 | File | `/dashboard/settings` | High
-24 | File | `/Default/Bd` | Medium
-25 | File | `/dipam/athlete-profile.php` | High
-26 | File | `/dipam/save-delegates.php` | High
-27 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-28 | File | `/editbrand.php` | High
-29 | File | `/employeeview.php` | High
-30 | File | `/etc/target` | Medium
-31 | File | `/export` | Low
-32 | File | `/get.php` | Medium
-33 | File | `/getcfg.php` | Medium
-34 | File | `/goform/WriteFacMac` | High
-35 | File | `/home/kickPlayer` | High
-36 | File | `/home/masterConsole` | High
-37 | File | `/index.php` | Medium
-38 | File | `/lists/admin/user.php` | High
-39 | File | `/manager?action=getlogcat` | High
-40 | File | `/mkshop/Men/profile.php` | High
-41 | File | `/movie.php` | Medium
-42 | File | `/news-portal-script/information.php` | High
-43 | File | `/pages/apply_vacancy.php` | High
-44 | File | `/param.file.tgz` | High
-45 | File | `/paysystem/branch.php` | High
-46 | File | `/paysystem/datatable.php` | High
-47 | File | `/php-opos/index.php` | High
-48 | File | `/preview.php` | Medium
-49 | File | `/protocol/nsasg6.0.tgz` | High
+18 | File | `/backend/admin/his_admin_register_patient.php` | High
+19 | File | `/bsms_ci/index.php` | High
+20 | File | `/change-language/de_DE` | High
+21 | File | `/cms/category/list` | High
+22 | File | `/College/admin/teacher.php` | High
+23 | File | `/dashboard/message` | High
+24 | File | `/dashboard/settings` | High
+25 | File | `/Default/Bd` | Medium
+26 | File | `/dipam/athlete-profile.php` | High
+27 | File | `/dipam/save-delegates.php` | High
+28 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+29 | File | `/editbrand.php` | High
+30 | File | `/employeeview.php` | High
+31 | File | `/etc/target` | Medium
+32 | File | `/export` | Low
+33 | File | `/get.php` | Medium
+34 | File | `/getcfg.php` | Medium
+35 | File | `/goform/WriteFacMac` | High
+36 | File | `/home/kickPlayer` | High
+37 | File | `/home/masterConsole` | High
+38 | File | `/index.php` | Medium
+39 | File | `/lists/admin/user.php` | High
+40 | File | `/manager?action=getlogcat` | High
+41 | File | `/mkshop/Men/profile.php` | High
+42 | File | `/movie.php` | Medium
+43 | File | `/news-portal-script/information.php` | High
+44 | File | `/pages/apply_vacancy.php` | High
+45 | File | `/param.file.tgz` | High
+46 | File | `/paysystem/branch.php` | High
+47 | File | `/paysystem/datatable.php` | High
+48 | File | `/php-opos/index.php` | High
+49 | File | `/preview.php` | Medium
 50 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -53,13 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,22 +68,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/core/conditions/AbstractWrapper.java` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/export` | Low
-6 | File | `/file?action=download&file` | High
-7 | File | `/hardware` | Medium
-8 | File | `/librarian/bookdetails.php` | High
-9 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-10 | File | `/plugin/LiveChat/getChat.json.php` | High
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/RestAPI` | Medium
-14 | File | `/tmp/zarafa-vacation-*` | High
-15 | ... | ... | ...
+2 | File | `/api/front/search/books` | High
+3 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+4 | File | `/application/index/controller/Screen.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/goform/aspForm` | High
+10 | File | `/hardware` | Medium
+11 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

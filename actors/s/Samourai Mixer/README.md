@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Samourai Mixer:
 
-* [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -39,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,26 +59,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/book-details.php` | High
 4 | File | `/admin/curriculum/view_curriculum.php` | High
 5 | File | `/admin/massage.php` | High
-6 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-7 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-8 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-9 | File | `/common/show_image.php` | High
-10 | File | `/cupseasylive/grnlinecreate.php` | High
-11 | File | `/file-manager/upload.php` | High
-12 | File | `/goform/SetFirewallCfg` | High
-13 | File | `/goform/WriteFacMac` | High
-14 | File | `/includes/create_share.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/InnerRepPlus.html` | High
-17 | File | `/j_security_check` | High
-18 | File | `/manage_invoice.php` | High
-19 | File | `/moddable/xs/sources/xsDebug.c` | High
-20 | File | `/Monitoring-History.php` | High
-21 | File | `/nova/bin/diskd` | High
-22 | File | `/php/add_new_medicine.php` | High
-23 | ... | ... | ...
+6 | File | `/admin/sys/log/list` | High
+7 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+8 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+9 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+10 | File | `/common/show_image.php` | High
+11 | File | `/cupseasylive/grnlinecreate.php` | High
+12 | File | `/file-manager/upload.php` | High
+13 | File | `/goform/formResetStatistic` | High
+14 | File | `/goform/formSetPortTr` | High
+15 | File | `/goform/SafeEmailFilter` | High
+16 | File | `/goform/SetFirewallCfg` | High
+17 | File | `/goform/WriteFacMac` | High
+18 | File | `/includes/create_share.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/InnerRepPlus.html` | High
+21 | File | `/j_security_check` | High
+22 | File | `/manage_invoice.php` | High
+23 | File | `/moddable/xs/sources/xsDebug.c` | High
+24 | File | `/Monitoring-History.php` | High
+25 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

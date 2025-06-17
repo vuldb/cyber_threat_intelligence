@@ -32,7 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -46,21 +46,21 @@ ID | Type | Indicator | Confidence
 1 | File | `/account/details.php` | High
 2 | File | `/Account/login.php` | High
 3 | File | `/admin/subject.php` | High
-4 | File | `/cgi/get_param.cgi` | High
-5 | File | `/classes/Master.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/modules/registration_admission/patient_register.php` | High
-8 | File | `/oauth/idp/.well-known/openid-configuration` | High
-9 | File | `/out.php` | Medium
-10 | File | `/sbin/gs_config` | High
-11 | File | `adclick.php` | Medium
-12 | File | `add_comment.php` | High
-13 | File | `album_portal.php` | High
-14 | File | `browse-category.php` | High
-15 | File | `category.cfm` | Medium
+4 | File | `/backend/admin/his_admin_register_patient.php` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/classes/Master.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/modules/registration_admission/patient_register.php` | High
+9 | File | `/oauth/idp/.well-known/openid-configuration` | High
+10 | File | `/out.php` | Medium
+11 | File | `/sbin/gs_config` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/user_proposal_update_order.php` | High
+14 | File | `adclick.php` | Medium
+15 | File | `add_comment.php` | High
 16 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

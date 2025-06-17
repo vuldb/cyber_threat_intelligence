@@ -21,8 +21,8 @@ These _actors_ are associated with DDoS Ukraine or other actors linked to the ca
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Mirai](https://vuldb.com/?actor.mirai) | High
-2 | [Gafgyt](https://vuldb.com/?actor.gafgyt) | High
+1 | [Gafgyt](https://vuldb.com/?actor.gafgyt) | High
+2 | [Mirai](https://vuldb.com/?actor.mirai) | High
 3 | [Moobot](https://vuldb.com/?actor.moobot) | High
 4 | ... | ...
 
@@ -95,62 +95,61 @@ ID | Type | Indicator | Confidence
 32 | File | `/sitemagic/upgrade.php` | High
 33 | File | `/src/njs/src/njs_module.c` | High
 34 | File | `/userui/ticket_list.php` | High
-35 | File | `/usr/5bin/su` | Medium
-36 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-37 | File | `/wp-admin/options-general.php` | High
-38 | File | `/zm/index.php` | High
-39 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-40 | File | `abook_database.php` | High
-41 | File | `accounts/inc/include.php` | High
-42 | File | `ActivityOptions.java` | High
-43 | File | `adaptive-images-script.php` | High
-44 | File | `adclick.php` | Medium
-45 | File | `additem.asp` | Medium
-46 | File | `adherents/subscription/info.php` | High
-47 | File | `admin.asp` | Medium
-48 | File | `admin.php` | Medium
-49 | File | `admin/admin.php` | High
-50 | File | `admin/admin_users.php` | High
-51 | File | `admin/article_save.php` | High
-52 | File | `admin/general.php` | High
-53 | File | `admin/header.php` | High
-54 | File | `admin/index.php` | High
-55 | File | `admin/login.asp` | High
-56 | File | `admin/manage-comments.php` | High
-57 | File | `admin/manage-news.php` | High
-58 | File | `admin/plugin-settings.php` | High
-59 | File | `admin:de` | Medium
-60 | File | `administrator/components/com_media/helpers/media.php` | High
-61 | File | `administrator/index.php` | High
-62 | File | `admin_login.asp` | High
-63 | File | `ajax_url.php` | Medium
-64 | File | `al_initialize.php` | High
-65 | File | `annonces-p-f.php` | High
-66 | File | `announce.php` | Medium
-67 | File | `announcement.php` | High
-68 | File | `announcements.php` | High
-69 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-70 | File | `app/models/user.rb` | High
-71 | File | `application/config/config.php` | High
-72 | File | `application/controllers/basedata/inventory.php` | High
-73 | File | `apply.cgi` | Medium
-74 | File | `apps/app_article/controller/rating.php` | High
-75 | File | `article.php` | Medium
-76 | File | `articles.php` | Medium
-77 | File | `artikel_anzeige.php` | High
-78 | File | `AudioFlinger.cpp` | High
-79 | File | `auktion.cgi` | Medium
-80 | File | `authfiles/login.asp` | High
-81 | File | `avahi-core/socket.c` | High
-82 | File | `basket.php` | Medium
-83 | File | `books.php` | Medium
-84 | File | `browse.php` | Medium
-85 | File | `browse_videos.php` | High
-86 | File | `BrudaNews/BrudaGB` | High
-87 | File | `bwlist_inc.html` | High
-88 | ... | ... | ...
+35 | File | `/user_proposal_update_order.php` | High
+36 | File | `/usr/5bin/su` | Medium
+37 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+38 | File | `/wp-admin/options-general.php` | High
+39 | File | `/zm/index.php` | High
+40 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+41 | File | `abook_database.php` | High
+42 | File | `accounts/inc/include.php` | High
+43 | File | `ActivityOptions.java` | High
+44 | File | `adaptive-images-script.php` | High
+45 | File | `adclick.php` | Medium
+46 | File | `additem.asp` | Medium
+47 | File | `adherents/subscription/info.php` | High
+48 | File | `admin.asp` | Medium
+49 | File | `admin.php` | Medium
+50 | File | `admin/admin.php` | High
+51 | File | `admin/admin_users.php` | High
+52 | File | `admin/article_save.php` | High
+53 | File | `admin/general.php` | High
+54 | File | `admin/header.php` | High
+55 | File | `admin/index.php` | High
+56 | File | `admin/login.asp` | High
+57 | File | `admin/manage-comments.php` | High
+58 | File | `admin/manage-news.php` | High
+59 | File | `admin/plugin-settings.php` | High
+60 | File | `admin:de` | Medium
+61 | File | `administrator/components/com_media/helpers/media.php` | High
+62 | File | `administrator/index.php` | High
+63 | File | `admin_login.asp` | High
+64 | File | `ajax_url.php` | Medium
+65 | File | `al_initialize.php` | High
+66 | File | `annonces-p-f.php` | High
+67 | File | `announce.php` | Medium
+68 | File | `announcement.php` | High
+69 | File | `announcements.php` | High
+70 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+71 | File | `app/models/user.rb` | High
+72 | File | `application/config/config.php` | High
+73 | File | `application/controllers/basedata/inventory.php` | High
+74 | File | `apply.cgi` | Medium
+75 | File | `apps/app_article/controller/rating.php` | High
+76 | File | `article.php` | Medium
+77 | File | `articles.php` | Medium
+78 | File | `artikel_anzeige.php` | High
+79 | File | `AudioFlinger.cpp` | High
+80 | File | `auktion.cgi` | Medium
+81 | File | `authfiles/login.asp` | High
+82 | File | `avahi-core/socket.c` | High
+83 | File | `basket.php` | Medium
+84 | File | `books.php` | Medium
+85 | File | `browse.php` | Medium
+86 | File | `browse_videos.php` | High
+87 | ... | ... | ...
 
-There are 772 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 770 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,4 +166,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -91,20 +92,20 @@ ID | Type | Indicator | Confidence
 40 | File | `/Default/Bd` | Medium
 41 | File | `/etc/passwd` | Medium
 42 | File | `/event/admin/?page=user/list` | High
-43 | File | `/extension/gdata/authorized` | High
-44 | File | `/file-manager/upload.php` | High
-45 | File | `/file/delete.php` | High
-46 | File | `/file/request.php` | High
-47 | File | `/filemanager/upload/drop` | High
-48 | File | `/getcfg.php` | Medium
-49 | File | `/goform/WifiBasicSet` | High
-50 | File | `/hrm/employeeview.php` | High
-51 | File | `/inc/topBarNav.php` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+43 | File | `/expense-datewise-reports-detailed.php` | High
+44 | File | `/extension/gdata/authorized` | High
+45 | File | `/FB/getFbVideoSource.php` | High
+46 | File | `/file-manager/upload.php` | High
+47 | File | `/file/delete.php` | High
+48 | File | `/file/request.php` | High
+49 | File | `/filemanager/upload/drop` | High
+50 | File | `/fladmin/cat_edit.php` | High
+51 | File | `/getcfg.php` | Medium
+52 | File | `/getHistoryItems` | High
+53 | File | `/goform/SafeEmailFilter` | High
 54 | ... | ... | ...
 
-There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

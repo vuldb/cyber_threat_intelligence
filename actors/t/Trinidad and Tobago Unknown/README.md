@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.trinidad_and_tobago_unknown](https://vuldb.com/?actor.trinidad_and_tobago_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Trinidad and Tobago Unknown:
+
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* [HT](https://vuldb.com/?country.ht)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Trinidad and Tobago Unknown.
@@ -25,16 +36,61 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [57.91.192.0](https://vuldb.com/?ip.57.91.192.0) | - | - | High
 14 | [63.245.72.49](https://vuldb.com/?ip.63.245.72.49) | - | - | High
 15 | [63.245.90.124](https://vuldb.com/?ip.63.245.90.124) | - | - | High
-16 | [63.245.90.152](https://vuldb.com/?ip.63.245.90.152) | - | - | High
-17 | [64.28.128.0](https://vuldb.com/?ip.64.28.128.0) | - | - | High
-18 | [66.96.115.0](https://vuldb.com/?ip.66.96.115.0) | - | - | High
-19 | [66.205.36.0](https://vuldb.com/?ip.66.205.36.0) | - | - | High
-20 | [104.224.17.0](https://vuldb.com/?ip.104.224.17.0) | - | - | High
-21 | [131.72.76.0](https://vuldb.com/?ip.131.72.76.0) | 131-72-76-0.rev.airlinkdc.com | - | High
-22 | [131.72.76.1](https://vuldb.com/?ip.131.72.76.1) | 131-72-76-1.rev.airlinkdc.com | - | High
-23 | ... | ... | ... | ...
+16 | [63.245.90.126](https://vuldb.com/?ip.63.245.90.126) | - | - | High
+17 | [63.245.90.152](https://vuldb.com/?ip.63.245.90.152) | - | - | High
+18 | [64.28.128.0](https://vuldb.com/?ip.64.28.128.0) | - | - | High
+19 | [66.9.171.0](https://vuldb.com/?ip.66.9.171.0) | customer.mmmiflx1.pop.starlinkisp.net | - | High
+20 | [66.96.115.0](https://vuldb.com/?ip.66.96.115.0) | - | - | High
+21 | [66.205.36.0](https://vuldb.com/?ip.66.205.36.0) | - | - | High
+22 | [76.74.77.32](https://vuldb.com/?ip.76.74.77.32) | - | - | High
+23 | [76.74.77.48](https://vuldb.com/?ip.76.74.77.48) | - | - | High
+24 | [104.28.13.125](https://vuldb.com/?ip.104.28.13.125) | - | - | High
+25 | [104.28.13.126](https://vuldb.com/?ip.104.28.13.126) | - | - | High
+26 | [104.28.36.152](https://vuldb.com/?ip.104.28.36.152) | - | - | High
+27 | [104.28.61.106](https://vuldb.com/?ip.104.28.61.106) | - | - | High
+28 | [104.28.92.138](https://vuldb.com/?ip.104.28.92.138) | - | - | High
+29 | [104.28.94.138](https://vuldb.com/?ip.104.28.94.138) | - | - | High
+30 | [104.28.126.134](https://vuldb.com/?ip.104.28.126.134) | - | - | High
+31 | ... | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
+There are 120 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Trinidad and Tobago Unknown_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21, CWE-24, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
+
+There are 12 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Trinidad and Tobago Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/addgiving.php` | High
+2 | File | `/admin/index.php?page=manage_lot` | High
+3 | File | `/admin/pages/subjects.php` | High
+4 | File | `/analysisProject/pagingQueryData` | High
+5 | File | `/api/api.php?mod=upload&type=1` | High
+6 | File | `/app/admin/view/web_user.html` | High
+7 | File | `/app/sys1.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+10 | File | `/classes/Master.php?f=delete_reminder` | High
+11 | File | `/data/app` | Medium
+12 | File | `/debuginfo.htm` | High
+13 | File | `/detalheIdUra` | High
+14 | File | `/editar-cliente.php` | High
+15 | ... | ... | ...
+
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -53,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

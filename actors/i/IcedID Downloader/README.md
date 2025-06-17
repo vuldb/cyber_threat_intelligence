@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,12 +73,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,16 +86,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply.cgi` | Medium
-2 | File | `/cgi-bin/cstecgi.cgi` | High
-3 | File | `/mhds/clinic/view_details.php` | High
-4 | File | `/php/ping.php` | High
-5 | File | `/rest/api/latest/projectvalidate/key` | High
-6 | File | `/scripts/unlock_tasks.php` | High
-7 | File | `/SysInfo1.htm` | High
-8 | ... | ... | ...
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/mhds/clinic/view_details.php` | High
+3 | File | `/php/ping.php` | High
+4 | File | `/rest/api/latest/projectvalidate/key` | High
+5 | File | `/scripts/unlock_tasks.php` | High
+6 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

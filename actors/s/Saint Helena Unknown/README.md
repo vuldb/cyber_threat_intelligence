@@ -51,44 +51,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/admin/addemployee.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/healthcare/Admin/consulting_detail.php` | High
-10 | File | `/I/list.php` | Medium
-11 | File | `/if.cgi` | Low
-12 | File | `/mifs/c/i/reg/reg.html` | High
-13 | File | `/model/update_classroom.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/news.dtl.php` | High
-16 | File | `/royal_event/userregister.php` | High
-17 | File | `/see_more_details.php` | High
-18 | File | `/services/details.asp` | High
-19 | File | `/setup` | Low
-20 | File | `/signup.php` | Medium
-21 | File | `/spip.php` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/update-employee.php` | High
-24 | File | `/user/add-notes.php` | High
-25 | File | `/user/manage-notes.php` | High
-26 | File | `/var/log/nginx` | High
-27 | File | `/vcs/claire_blake` | High
-28 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `/zm/index.php` | High
-31 | File | `3/E_bak5.1/upload/eginfo.php` | High
-32 | File | `act.php` | Low
-33 | File | `adclick.php` | Medium
-34 | File | `admin` | Low
-35 | File | `admin.php` | Medium
-36 | File | `admin/adminsignin.html` | High
-37 | File | `admin/movieview.php` | High
-38 | File | `admin/products/view_product.php` | High
-39 | File | `admin/versions.html` | High
-40 | ... | ... | ...
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/apilog.php` | Medium
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/filemanager/upload.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/healthcare/Admin/consulting_detail.php` | High
+11 | File | `/I/list.php` | Medium
+12 | File | `/if.cgi` | Low
+13 | File | `/mifs/c/i/reg/reg.html` | High
+14 | File | `/model/update_classroom.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/news.dtl.php` | High
+17 | File | `/notice-edit.php` | High
+18 | File | `/royal_event/userregister.php` | High
+19 | File | `/see_more_details.php` | High
+20 | File | `/services/details.asp` | High
+21 | File | `/setup` | Low
+22 | File | `/signup.php` | Medium
+23 | File | `/spip.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/update-employee.php` | High
+26 | File | `/user/add-notes.php` | High
+27 | File | `/user/manage-notes.php` | High
+28 | File | `/var/log/nginx` | High
+29 | File | `/vcs/claire_blake` | High
+30 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `/zm/index.php` | High
+33 | File | `3/E_bak5.1/upload/eginfo.php` | High
+34 | File | `act.php` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `admin` | Low
+37 | File | `admin.php` | Medium
+38 | File | `admin/adminsignin.html` | High
+39 | File | `admin/movieview.php` | High
+40 | File | `admin/products/view_product.php` | High
+41 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -78,53 +78,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/admin-update-employee.php` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/pages/edit_chicken.php` | High
-10 | File | `/admin/pages/student-print.php` | High
-11 | File | `/admin/report/index.php` | High
-12 | File | `/admins` | Low
-13 | File | `/admin_route/inc_service_credits.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/ajax/getBasicInfo.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/api/clusters/local/topics/{topic}/messages` | High
-18 | File | `/api/gen/clients/{language}` | High
-19 | File | `/API/info` | Medium
-20 | File | `/api/runscript` | High
-21 | File | `/app/Http/Controllers/ImageController.php` | High
-22 | File | `/application/index/controller/Icon.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-25 | File | `/cgi-bin/tosei_kikai.php` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/classes/Master.php?f=delete_service` | High
-28 | File | `/classes/Master.php?f=save_course` | High
+2 | File | `/add-students.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/admin-update-employee.php` | High
+6 | File | `/admin/booktime.php` | High
+7 | File | `/admin/change-image.php` | High
+8 | File | `/admin/index.php/web/ajax_all_lists` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/member_save.php` | High
+11 | File | `/admin/pages/` | High
+12 | File | `/admin/pages/edit_chicken.php` | High
+13 | File | `/admin/pages/student-print.php` | High
+14 | File | `/admins` | Low
+15 | File | `/admin_route/inc_service_credits.php` | High
+16 | File | `/ajax.php?action=read_msg` | High
+17 | File | `/ajax/getBasicInfo.php` | High
+18 | File | `/api/admin/system/store/order/list` | High
+19 | File | `/api/clusters/local/topics/{topic}/messages` | High
+20 | File | `/API/info` | Medium
+21 | File | `/api/runscript` | High
+22 | File | `/app/Http/Controllers/ImageController.php` | High
+23 | File | `/application/index/controller/Icon.php` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+26 | File | `/cgi-bin/tosei_kikai.php` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/classes/Master.php?f=delete_service` | High
 29 | File | `/clientdetails/admin/regester.php` | High
 30 | File | `/controllers/add_client.php` | High
-31 | File | `/csms/?page=contact_us` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/detailed.php` | High
-34 | File | `/dist/index.js` | High
-35 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-36 | File | `/DXR.axd` | Medium
-37 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-38 | File | `/EXCU_SHELL` | Medium
-39 | File | `/farm/product.php` | High
-40 | File | `/foms/routers/place-order.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-43 | File | `/goform/form2systime.cgi` | High
-44 | File | `/goform/modifyDhcpRule` | High
-45 | File | `/goform/ModifyPppAuthWhiteMac` | High
-46 | ... | ... | ...
+31 | File | `/cov/triggerEnvCov` | High
+32 | File | `/csms/?page=contact_us` | High
+33 | File | `/dashboard/admin/del_plan.php` | High
+34 | File | `/dashboard/approve-reject.php` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/dede/file_manage_control.php` | High
+37 | File | `/detailed.php` | High
+38 | File | `/dist/index.js` | High
+39 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+42 | File | `/EXCU_SHELL` | Medium
+43 | File | `/farm/product.php` | High
+44 | File | `/foms/routers/place-order.php` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/general/address/private/address/query/delete.php` | High
+47 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+48 | File | `/goform/ate` | Medium
+49 | File | `/goform/form2systime.cgi` | High
+50 | File | `/goform/formSetLog` | High
+51 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,4 +171,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

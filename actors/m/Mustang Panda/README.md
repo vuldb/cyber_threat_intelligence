@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with Mustang Panda:
 * Europe and Asia Pacific
 * ...
 
-There are 2 more campaign items available. Please use our online service to access the data.
+There are 3 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -21,7 +21,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -56,7 +55,7 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [45.147.26.45](https://vuldb.com/?ip.45.147.26.45) | - | Europe and Asia Pacific | High
 26 | ... | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,26 +77,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/file_manager/export` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/adminPage/conf/reload` | High
+1 | File | `/admin/file_manager/export` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/admin_topic.php?action=delall` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/cron/settings/setJob/` | High
 7 | File | `/api/v2/cli/commands` | High
 8 | File | `/api2/html/` | Medium
-9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-11 | File | `/dipam/athlete-profile.php` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/index/ajax/lang` | High
-15 | File | `/log/decodmail.php` | High
-16 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-17 | File | `/log_proxy` | Medium
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+12 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+13 | File | `/dipam/athlete-profile.php` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/h/rest` | Low
+17 | File | `/index/ajax/lang` | High
 18 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,6 +113,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/xorhex/status/1422815329684758537
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations#When:17:14:00Z
+* https://www.cadosecurity.com/blog/chinese-apt-target-royal-thai-police-in-malware-campaign
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
 * https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx
 * https://www.trendmicro.com/en_us/research/23/f/behind-the-scenes-unveiling-the-hidden-workings-of-earth-preta.html
@@ -129,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.37.149.230](https://vuldb.com/?ip.2.37.149.230) | net-2-37-149-230.cust.vodafonedsl.it | - | High
-2 | [64.42.152.46](https://vuldb.com/?ip.64.42.152.46) | bern-wstd-gw.wireless.nmia.com | - | High
-3 | [98.144.56.47](https://vuldb.com/?ip.98.144.56.47) | cpe-98-144-56-47.wi.res.rr.com | - | High
+2 | [42.200.207.90](https://vuldb.com/?ip.42.200.207.90) | 42-200-207-90.static.imsbiz.com | - | High
+3 | [64.42.152.46](https://vuldb.com/?ip.64.42.152.46) | bern-wstd-gw.wireless.nmia.com | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,9 +57,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
 8 | File | `/webman/info.cgi` | High
 9 | File | `account/gallery.php` | High
-10 | ... | ... | ...
+10 | File | `action.asp` | Medium
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -67,6 +68,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://community.blueliv.com/#!/s/61126ed882df413eb5357b59
 * https://threatfox.abuse.ch/ioc/715905/
+* https://urlhaus.abuse.ch/url/3537001/
 * https://www.anomali.com/blog/the-ech0raix-ransomware#When:14:00:00Z
 
 ## Literature
@@ -78,4 +80,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

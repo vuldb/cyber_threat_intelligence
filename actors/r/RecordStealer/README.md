@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -52,41 +52,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-3 | File | `/agc/vicidial.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/luci/api/switch` | High
-9 | File | `/cgi-bin/sm_changepassword.cgi` | High
-10 | File | `/classes/Master.php?f=delete_inquiry` | High
-11 | File | `/contact.php` | Medium
-12 | File | `/core/config-revisions` | High
-13 | File | `/debuginfo.htm` | High
-14 | File | `/Electron/download` | High
-15 | File | `/export` | Low
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/WifiExtraSet` | High
-18 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/items/search` | High
-22 | File | `/jsonrpc` | Medium
-23 | File | `/load.php` | Medium
-24 | File | `/lua/set-passwd.lua` | High
-25 | File | `/mims/login.php` | High
-26 | File | `/newProject.php` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/pages/animals.php` | High
-29 | File | `/php/ping.php` | High
-30 | File | `/rapi/read_url` | High
-31 | File | `/scripts/cpan_config` | High
-32 | File | `/scripts/unlock_tasks.php` | High
-33 | ... | ... | ...
+1 | File | `/add_user.php` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/attendance_action.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/agc/vicidial.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/luci/api/switch` | High
+12 | File | `/cgi-bin/sm_changepassword.cgi` | High
+13 | File | `/classes/Master.php?f=delete_inquiry` | High
+14 | File | `/contact.php` | Medium
+15 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+16 | File | `/core/config-revisions` | High
+17 | File | `/debuginfo.htm` | High
+18 | File | `/Electron/download` | High
+19 | File | `/export` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/VerAPIMant` | High
+22 | File | `/goform/WifiExtraSet` | High
+23 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+24 | File | `/h/rest` | Low
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/items/search` | High
+28 | File | `/jsonrpc` | Medium
+29 | File | `/load.php` | Medium
+30 | File | `/lua/set-passwd.lua` | High
+31 | File | `/mims/login.php` | High
+32 | File | `/newProject.php` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/pages/animals.php` | High
+35 | File | `/php/ping.php` | High
+36 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

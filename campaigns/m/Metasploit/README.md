@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
-2 | [35.185.187.24](https://vuldb.com/?ip.35.185.187.24) | 24.187.185.35.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
-3 | [94.232.43.201](https://vuldb.com/?ip.94.232.43.201) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
+1 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
+2 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
+3 | [35.185.187.24](https://vuldb.com/?ip.35.185.187.24) | 24.187.185.35.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,14 +56,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/oauth/idp/.well-known/openid-configuration` | High
-2 | File | `arch/powerpc/kernel/entry_64.S` | High
-3 | File | `auth2-gss.c` | Medium
-4 | File | `block/bfq-iosched.c` | High
-5 | File | `chat.php` | Medium
-6 | ... | ... | ...
+1 | File | `.git/` | Low
+2 | File | `/dataSet/resolveSql` | High
+3 | File | `/index.php` | Medium
+4 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
+5 | File | `/oauth/idp/.well-known/openid-configuration` | High
+6 | File | `arch/powerpc/kernel/entry_64.S` | High
+7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,6 +74,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://asec.ahnlab.com/en/64034/
 * https://thedfirreport.com/2023/09/25/from-screenconnect-to-hive-ransomware-in-61-hours/
 * https://thedfirreport.com/2023/12/18/lets-opendir-some-presents-an-analysis-of-a-persistent-actors-activity/
+* https://urlhaus.abuse.ch/url/3550439/
+* https://urlhaus.abuse.ch/url/3555537/
+* https://urlhaus.abuse.ch/url/3556172/
 
 ## Literature
 
@@ -83,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

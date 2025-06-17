@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LV](https://vuldb.com/?country.lv)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,25 +60,26 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/touchlist_sync.cgi` | High
 7 | File | `/classes/Master.php?f=delete_brand` | High
 8 | File | `/diag_ping_admin.asp` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/forum/PostPrivateMessage` | High
-11 | File | `/goform/formSysCmd` | High
-12 | File | `/HNAP1` | Low
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/pages/systemcall.php?command={COMMAND}` | High
-15 | File | `/phppath/php` | Medium
-16 | File | `/setSystemAdmin` | High
-17 | File | `/shell` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/user/loader.php?api=1` | High
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/webpages/data` | High
-24 | File | `/wp-admin/options.php` | High
-25 | ... | ... | ...
+9 | File | `/endpoint/update.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/goform/formSysCmd` | High
+13 | File | `/HNAP1` | Low
+14 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/pages/systemcall.php?command={COMMAND}` | High
+17 | File | `/phppath/php` | Medium
+18 | File | `/setSystemAdmin` | High
+19 | File | `/shell` | Low
+20 | File | `/spip.php` | Medium
+21 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/user/loader.php?api=1` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/webpages/data` | High
+26 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

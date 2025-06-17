@@ -11,9 +11,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +31,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,49 +42,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/general.cgi` | High
-2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/API/info` | Medium
-4 | File | `/CCMAdmin/serverlist.asp` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-7 | File | `/crmeb/crmeb/services/UploadService.php` | High
-8 | File | `/csms/admin/inquiries/view_details.php` | High
-9 | File | `/cstecgi.cgi` | Medium
-10 | File | `/ecommerce/support_ticket` | High
-11 | File | `/files.md5` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/formSetMACFilter` | High
-14 | File | `/goform/formSetMuti` | High
-15 | File | `/goform/formSetPassword` | High
-16 | File | `/goform/formSetPortTr` | High
-17 | File | `/goform/formSetQoS` | High
-18 | File | `/goform/formSetRoute` | High
-19 | File | `/goform/formSetWizardSelectMode` | High
-20 | File | `/goform/formVirtualServ` | High
-21 | File | `/home/search` | Medium
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/login` | Low
-26 | File | `/messageboard/view.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/multi-vendor-shopping-script/product-list.php` | High
-29 | File | `/one_church/userregister.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-34 | File | `/SASWebReportStudio/logonAndRender.do` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-38 | File | `/textpattern/index.php` | High
-39 | File | `/upfile.cgi` | Medium
-40 | File | `/v2/quantum/save-data-upload-big-file` | High
+1 | File | `/admin/category/controller.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/reminders/manage_reminder.php` | High
+5 | File | `/API/info` | Medium
+6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+7 | File | `/CCMAdmin/serverlist.asp` | High
+8 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+9 | File | `/cgi/get_param.cgi` | High
+10 | File | `/csms/admin/inquiries/view_details.php` | High
+11 | File | `/cstecgi.cgi` | Medium
+12 | File | `/ecommerce/support_ticket` | High
+13 | File | `/files.md5` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/form2LocalAclEditcfg.cgi` | High
+16 | File | `/goform/formResetStatistic` | High
+17 | File | `/goform/formSetMACFilter` | High
+18 | File | `/goform/formSetMuti` | High
+19 | File | `/goform/formSetPassword` | High
+20 | File | `/goform/formSetPortTr` | High
+21 | File | `/goform/formSetQoS` | High
+22 | File | `/goform/formSetRoute` | High
+23 | File | `/goform/formSetWizardSelectMode` | High
+24 | File | `/goform/formVirtualServ` | High
+25 | File | `/home/search` | Medium
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/messageboard/view.php` | High
+30 | File | `/multi-vendor-shopping-script/product-list.php` | High
+31 | File | `/one_church/userregister.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+35 | File | `/SASWebReportStudio/logonAndRender.do` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+40 | File | `/textpattern/index.php` | High
 41 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

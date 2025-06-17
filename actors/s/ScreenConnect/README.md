@@ -18,12 +18,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.238.181.238](https://vuldb.com/?ip.91.238.181.238) | - | - | High
-2 | [116.0.56.101](https://vuldb.com/?ip.116.0.56.101) | - | - | High
-3 | [119.3.12.54](https://vuldb.com/?ip.119.3.12.54) | ecs-119-3-12-54.compute.hwclouds-dns.com | - | High
-4 | ... | ... | ... | ...
+1 | [23.95.173.124](https://vuldb.com/?ip.23.95.173.124) | 23-95-173-124-host.colocrossing.com | - | High
+2 | [62.60.226.252](https://vuldb.com/?ip.62.60.226.252) | - | - | High
+3 | [91.238.181.238](https://vuldb.com/?ip.91.238.181.238) | - | - | High
+4 | [94.26.90.5](https://vuldb.com/?ip.94.26.90.5) | - | - | High
+5 | [94.26.90.6](https://vuldb.com/?ip.94.26.90.6) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,12 +33,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,12 +46,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `AffiliateLogin.asp` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `downloadmanagerv2.ocx` | High
-4 | ... | ... | ...
+1 | File | `/modules/profile/index.php` | High
+2 | File | `/spip.php` | Medium
+3 | File | `adclick.php` | Medium
+4 | File | `AffiliateLogin.asp` | High
+5 | File | `album_portal.php` | High
+6 | File | `awstats.pl` | Medium
+7 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -57,6 +62,21 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/sophoslabs/IoCs/blob/master/2024-02_Payloads_associated_with_ScreenConnect_attacks.csv
 * https://thedfirreport.com/2023/09/25/from-screenconnect-to-hive-ransomware-in-61-hours/
+* https://urlhaus.abuse.ch/url/3535241/
+* https://urlhaus.abuse.ch/url/3535242/
+* https://urlhaus.abuse.ch/url/3535243/
+* https://urlhaus.abuse.ch/url/3535246/
+* https://urlhaus.abuse.ch/url/3535247/
+* https://urlhaus.abuse.ch/url/3535248/
+* https://urlhaus.abuse.ch/url/3535249/
+* https://urlhaus.abuse.ch/url/3535250/
+* https://urlhaus.abuse.ch/url/3535251/
+* https://urlhaus.abuse.ch/url/3535252/
+* https://urlhaus.abuse.ch/url/3535253/
+* https://urlhaus.abuse.ch/url/3535254/
+* https://urlhaus.abuse.ch/url/3535255/
+* https://urlhaus.abuse.ch/url/3535256/
+* https://urlhaus.abuse.ch/url/3538650/
 
 ## Literature
 
@@ -67,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

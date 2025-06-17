@@ -21,9 +21,9 @@ These _actors_ are associated with HOPLIGHT or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [DPRK](https://vuldb.com/?actor.dprk) | High
-3 | [HopLight](https://vuldb.com/?actor.hoplight) | High
+1 | [DPRK](https://vuldb.com/?actor.dprk) | High
+2 | [HopLight](https://vuldb.com/?actor.hoplight) | High
+3 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [10.10.30.130](https://vuldb.com/?ip.10.10.30.130) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
 2 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | [HopLight](https://vuldb.com/?actor.hoplight) | High
 3 | [21.0.0.0](https://vuldb.com/?ip.21.0.0.0) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
-4 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+4 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 5 | [21.255.255.255](https://vuldb.com/?ip.21.255.255.255) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
 6 | [26.0.0.0](https://vuldb.com/?ip.26.0.0.0) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
-7 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+7 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 8 | [26.255.255.255](https://vuldb.com/?ip.26.255.255.255) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
-9 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [HopLight](https://vuldb.com/?actor.hoplight) | High
+9 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 10 | ... | ... | ... | ...
 
 There are 35 more IOC items available. Please use our online service to access the data.
@@ -85,10 +85,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/etc/passwd` | Medium
 19 | File | `/face-recognition-php/facepay-master/camera.php` | High
 20 | File | `/forms/doLogin` | High
-21 | File | `/goform/aspForm` | High
+21 | File | `/forum/away.php` | High
 22 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

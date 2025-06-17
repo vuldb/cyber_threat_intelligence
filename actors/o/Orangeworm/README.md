@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,22 +67,23 @@ ID | Type | Indicator | Confidence
 20 | File | `/install_extension` | High
 21 | File | `/modules/profile/index.php` | High
 22 | File | `/modules/registration_admission/patient_register.php` | High
-23 | File | `/news.dtl.php` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/rest/api/2/user/picker` | High
-27 | File | `/sbin/acos_service` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-31 | File | `/sys/kernel/notes` | High
-32 | File | `/uncpath/` | Medium
+23 | File | `/public/plugins/` | High
+24 | File | `/rapi/read_url` | High
+25 | File | `/rest/api/2/user/picker` | High
+26 | File | `/sbin/acos_service` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+30 | File | `/sys/kernel/notes` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/user_dashboard/donor.php` | High
 33 | File | `/usr/bin/pkexec` | High
 34 | File | `/ViewUserHover.jspa` | High
 35 | File | `/WEB-INF/web.xml` | High
-36 | ... | ... | ...
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

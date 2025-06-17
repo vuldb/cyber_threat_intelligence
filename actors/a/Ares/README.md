@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [2.58.113.190](https://vuldb.com/?ip.2.58.113.190) | tube-hosting.com | - | High
 2 | [5.161.104.72](https://vuldb.com/?ip.5.161.104.72) | h91.wpherc.dev | - | High
 3 | [18.142.254.96](https://vuldb.com/?ip.18.142.254.96) | ec2-18-142-254-96.ap-southeast-1.compute.amazonaws.com | - | Medium
-4 | ... | ... | ... | ...
+4 | [31.220.41.207](https://vuldb.com/?ip.31.220.41.207) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,33 +50,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/administrator/components/table_manager/` | High
-3 | File | `/Content/Template/root/reverse-shell.aspx` | High
-4 | File | `/school/model/get_events.php` | High
-5 | File | `/sessions/sess_<sessionid>` | High
-6 | File | `/tmp` | Low
-7 | File | `/whbs/?page=manage_account` | High
-8 | File | `/xxl-job-admin/jobinfo` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/index.php` | High
-11 | File | `admin/moduleinterface.php` | High
-12 | File | `admin/products/view_product.php` | High
-13 | File | `ajax_calls.php` | High
-14 | File | `app/sections/user-menu.php` | High
-15 | ... | ... | ...
+2 | File | `/admin/markdown` | High
+3 | File | `/admin/modal_add_product.php` | High
+4 | File | `/administrator/components/table_manager/` | High
+5 | File | `/blog` | Low
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/Content/Template/root/reverse-shell.aspx` | High
+8 | File | `/expedit.php` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/setsambacfg` | High
+11 | File | `/routers/add-ticket.php` | High
+12 | File | `/school/model/get_events.php` | High
+13 | File | `/sessions/sess_<sessionid>` | High
+14 | File | `/tmp` | Low
+15 | File | `/tool/gen/create` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/whbs/?page=manage_account` | High
+18 | File | `/xxl-job-admin/jobinfo` | High
+19 | File | `adclick.php` | Medium
+20 | File | `admin.php` | Medium
+21 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://search.censys.io/hosts/5.161.104.72
+* https://search.censys.io/hosts/31.220.41.207
 * https://search.censys.io/hosts/34.121.161.18
 * https://search.censys.io/hosts/38.242.144.29
 * https://search.censys.io/hosts/47.242.51.181
 * https://search.censys.io/hosts/66.42.93.127
 * https://search.censys.io/hosts/77.68.91.91
+* https://search.censys.io/hosts/84.247.172.112
+* https://search.censys.io/hosts/84.247.176.126
+* https://search.censys.io/hosts/92.84.154.5
+* https://search.censys.io/hosts/141.98.11.95
 * https://search.censys.io/hosts/161.97.151.220
 * https://search.censys.io/hosts/194.163.178.229
 * https://search.censys.io/hosts/207.180.220.55
@@ -92,4 +104,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

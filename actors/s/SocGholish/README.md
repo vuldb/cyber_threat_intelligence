@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SocGholish:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,13 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,50 +56,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/apply.php` | High
-6 | File | `/admin/create-package.php` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/doAdminAction.php?act=addCate` | High
-9 | File | `/admin/edit-post.php` | High
-10 | File | `/admin/edit_category.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/SystemUsers` | High
-13 | File | `/admin_ping.htm` | High
-14 | File | `/api/user` | Medium
-15 | File | `/api/v1/steps` | High
-16 | File | `/app/index/controller/Common.php` | High
-17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-19 | File | `/applications/nexus/modules/front/store/store.php` | High
-20 | File | `/backend/register.php` | High
-21 | File | `/bin/httpd` | Medium
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/cgi-bin/apkg_mgr.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-27 | File | `/cgi-bin/system_mgr.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Master.php?f=delete_record` | High
-31 | File | `/classes/Master.php?f=save_category` | High
-32 | File | `/classes/SystemSettings.php?f=update_settings` | High
-33 | File | `/classes/Users.php?f=save` | High
-34 | File | `/classes/Users.php?f=save_client` | High
-35 | File | `/deal/{note_id}/note` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/detailed.php` | High
-38 | File | `/dtale/chart-data/1` | High
-39 | File | `/endpoint/add-task.php` | High
-40 | File | `/etc/shadow.sample` | High
-41 | File | `/fftools/ffmpeg_enc.c` | High
-42 | ... | ... | ...
+1 | File | `/abs.php` | Medium
+2 | File | `/accessdenied` | High
+3 | File | `/add-subadmin.php` | High
+4 | File | `/add_new_invoice.php` | High
+5 | File | `/add_user.php` | High
+6 | File | `/admin-dashboard` | High
+7 | File | `/admin.php?mod=brand&act=del` | High
+8 | File | `/admin/add-nurse.php` | High
+9 | File | `/Admin/akun_edit.php` | High
+10 | File | `/admin/apply.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+12 | File | `/admin/content/editor` | High
+13 | File | `/admin/create-package.php` | High
+14 | File | `/admin/del_service.php` | High
+15 | File | `/admin/doAdminAction.php?act=addCate` | High
+16 | File | `/admin/edit-brand.php` | High
+17 | File | `/admin/edit-post.php` | High
+18 | File | `/admin/edit_category.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/overtime_add.php` | High
+21 | File | `/admin/profile.php` | High
+22 | File | `/Admin/Proses_Edit_Akun.php` | High
+23 | File | `/admin/robot.php` | High
+24 | File | `/admin/sales/manage_sale.php` | High
+25 | File | `/admin/search-invoices.php` | High
+26 | File | `/admin/SystemUsers` | High
+27 | File | `/admin/twitter.php` | High
+28 | File | `/admin/update-user.php` | High
+29 | File | `/admin_ping.htm` | High
+30 | File | `/api/asset/upload` | High
+31 | File | `/api/blade-user/submit` | High
+32 | File | `/api/pipelines/upload` | High
+33 | File | `/api/user` | Medium
+34 | File | `/api/v1/documents/` | High
+35 | File | `/api/v1/memories/{id}/update` | High
+36 | File | `/api/v1/steps` | High
+37 | File | `/api/v2/open/tablesInfo` | High
+38 | File | `/app/admin/controller/Upload.php` | High
+39 | File | `/app/controller/Api.php` | High
+40 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+41 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+42 | File | `/applications/nexus/modules/front/store/store.php` | High
+43 | File | `/apps/system/router/upload.go` | High
+44 | File | `/backend/doc/his_doc_update-account.php` | High
+45 | File | `/backend/register.php` | High
+46 | File | `/bin/httpd` | Medium
+47 | File | `/bin/webs` | Medium
+48 | File | `/book_list.php` | High
+49 | File | `/cgi` | Low
+50 | File | `/cgi-bin/apkg_mgr.cgi` | High
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | File | `/cgi-bin/nas_sharing.cgi` | High
+53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+54 | File | `/cgi-bin/system_mgr.cgi` | High
+55 | File | `/classes/Master.php` | High
+56 | File | `/classes/Master.php?f=delete_record` | High
+57 | File | `/classes/Master.php?f=save_category` | High
+58 | File | `/classes/SystemSettings.php?f=update_settings` | High
+59 | File | `/classes/Users.php?f=register_user` | High
+60 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +140,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

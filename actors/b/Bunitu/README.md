@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -60,42 +60,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/categories/view_category.php` | High
 6 | File | `/admin/maintenance/view_designation.php` | High
 7 | File | `/admin/member_save.php` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-10 | File | `/assets/something/services/AppModule.class` | High
-11 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-12 | File | `/cgi-bin/kerbynet` | High
-13 | File | `/cgi-bin/luci;stok=/locale` | High
-14 | File | `/cgi-bin/pass` | High
-15 | File | `/classes/Master.php?f=save_item` | High
-16 | File | `/classes/SystemSettings.php?f=update_settings` | High
-17 | File | `/collection/all` | High
-18 | File | `/ctpms/admin/?page=applications/view_application` | High
-19 | File | `/dev/tcx0` | Medium
-20 | File | `/dev/urandom` | Medium
-21 | File | `/etc/environment` | High
-22 | File | `/etc/keystone/user-project-map.json` | High
-23 | File | `/etc/passwd` | Medium
-24 | File | `/home.jsp` | Medium
-25 | File | `/inc/campaign/view-campaign-list.php` | High
-26 | File | `/include/menu_v.inc.php` | High
-27 | File | `/index.php/weblinks-categories` | High
-28 | File | `/servlet/webacc` | High
-29 | File | `/student-grading-system/rms.php?page=school_year` | High
-30 | File | `/system?action=ServiceAdmin` | High
-31 | File | `/usr/` | Low
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-34 | File | `ActiveMQConnection.java` | High
-35 | File | `addq.php` | Medium
-36 | File | `admin-ajax.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin/ad_list.php` | High
-39 | File | `admin/panels/uploader/admin.uploader.php` | High
-40 | File | `admin/status/realtime/bandwidth_status` | High
-41 | ... | ... | ...
+8 | File | `/admin/products/view_product.php` | High
+9 | File | `/admin/usermanagement.php` | High
+10 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+11 | File | `/assets/something/services/AppModule.class` | High
+12 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/luci;stok=/locale` | High
+15 | File | `/cgi-bin/pass` | High
+16 | File | `/classes/Master.php?f=save_item` | High
+17 | File | `/classes/SystemSettings.php?f=update_settings` | High
+18 | File | `/collection/all` | High
+19 | File | `/ctpms/admin/?page=applications/view_application` | High
+20 | File | `/dev/tcx0` | Medium
+21 | File | `/dev/urandom` | Medium
+22 | File | `/etc/environment` | High
+23 | File | `/etc/keystone/user-project-map.json` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/home.jsp` | Medium
+26 | File | `/inc/campaign/view-campaign-list.php` | High
+27 | File | `/include/menu_v.inc.php` | High
+28 | File | `/index.php/weblinks-categories` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/servlet/webacc` | High
+31 | File | `/student-grading-system/rms.php?page=school_year` | High
+32 | File | `/system?action=ServiceAdmin` | High
+33 | File | `/usr/` | Low
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+36 | File | `ActiveMQConnection.java` | High
+37 | File | `addq.php` | Medium
+38 | File | `admin-ajax.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/ad_list.php` | High
+41 | File | `admin/panels/uploader/admin.uploader.php` | High
+42 | File | `admin/status/realtime/bandwidth_status` | High
+43 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

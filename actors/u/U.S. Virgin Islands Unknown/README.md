@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with U.S. Virgin Islands Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* [HT](https://vuldb.com/?country.ht)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +45,53 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [12.174.244.0](https://vuldb.com/?ip.12.174.244.0) | - | - | High
 23 | [12.174.248.0](https://vuldb.com/?ip.12.174.248.0) | - | - | High
 24 | [12.196.53.0](https://vuldb.com/?ip.12.196.53.0) | - | - | High
-25 | ... | ... | ... | ...
+25 | [12.196.60.0](https://vuldb.com/?ip.12.196.60.0) | - | - | High
+26 | [12.204.12.0](https://vuldb.com/?ip.12.204.12.0) | - | - | High
+27 | [23.143.120.0](https://vuldb.com/?ip.23.143.120.0) | - | - | High
+28 | [45.12.70.241](https://vuldb.com/?ip.45.12.70.241) | farreaching.globalhilive.com | - | High
+29 | [45.12.71.241](https://vuldb.com/?ip.45.12.71.241) | - | - | High
+30 | [45.42.0.0](https://vuldb.com/?ip.45.42.0.0) | - | - | High
+31 | ... | ... | ... | ...
 
-There are 95 more IOC items available. Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _U.S. Virgin Islands Unknown_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21, CWE-24, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
+
+There are 12 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by U.S. Virgin Islands Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/addgiving.php` | High
+2 | File | `/admin/index.php?page=manage_lot` | High
+3 | File | `/admin/pages/subjects.php` | High
+4 | File | `/analysisProject/pagingQueryData` | High
+5 | File | `/api/api.php?mod=upload&type=1` | High
+6 | File | `/app/admin/view/web_user.html` | High
+7 | File | `/app/sys1.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+10 | File | `/classes/Master.php?f=delete_reminder` | High
+11 | File | `/data/app` | Medium
+12 | File | `/debuginfo.htm` | High
+13 | File | `/detalheIdUra` | High
+14 | File | `/editar-cliente.php` | High
+15 | File | `/edit_user.php` | High
+16 | ... | ... | ...
+
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

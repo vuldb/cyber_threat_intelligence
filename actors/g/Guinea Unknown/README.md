@@ -8,12 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Guinea Unknown:
 
-* [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
-* [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 19 more country items available. Please use our online service to access the data.
+* [GN](https://vuldb.com/?country.gn)
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +29,16 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [45.59.154.0](https://vuldb.com/?ip.45.59.154.0) | - | - | High
 12 | [45.220.52.0](https://vuldb.com/?ip.45.220.52.0) | - | - | High
 13 | [57.82.160.0](https://vuldb.com/?ip.57.82.160.0) | - | - | High
-14 | ... | ... | ... | ...
+14 | [63.246.45.64](https://vuldb.com/?ip.63.246.45.64) | - | - | High
+15 | [79.134.224.20](https://vuldb.com/?ip.79.134.224.20) | conakry-r1.mpls.fink-telecom.com | - | High
+16 | [80.15.230.0](https://vuldb.com/?ip.80.15.230.0) | - | - | High
+17 | [80.78.16.240](https://vuldb.com/?ip.80.78.16.240) | - | - | High
+18 | [80.78.17.72](https://vuldb.com/?ip.80.78.17.72) | - | - | High
+19 | [80.78.17.120](https://vuldb.com/?ip.80.78.17.120) | - | - | High
+20 | [80.78.17.136](https://vuldb.com/?ip.80.78.17.136) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,74 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 18 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Guinea Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/.env` | Low
-3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/admin/aboutus.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/lab.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/backend/register.php` | High
-16 | File | `/boat/login.php` | High
-17 | File | `/clinic/disease_symptoms_view.php` | High
-18 | File | `/config-manager/save` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/dashboard/table-list.php` | High
-21 | File | `/default.php?idx=17` | High
-22 | File | `/doctor/view-appointment-detail.php` | High
-23 | File | `/download` | Medium
-24 | File | `/downloadFile.php` | High
-25 | File | `/edit-client-details.php` | High
-26 | File | `/env` | Low
-27 | File | `/forum/away.php` | High
-28 | File | `/include/file.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/member.php?action=chgpwdsubmit` | High
-32 | File | `/nova/bin/traceroute` | High
-33 | File | `/opt/bin/cli` | Medium
-34 | File | `/p` | Low
-35 | File | `/patient/doctors.php` | High
-36 | File | `/phpinventory/editcategory.php` | High
-37 | File | `/php_action/createUser.php` | High
-38 | File | `/product-list.php` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/updown/upload.cgi` | High
-42 | File | `/user/del.php` | High
-43 | File | `/web_cste/cgi-bin/product.ini` | High
-44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `/_next` | Low
-46 | File | `123flashchat.php` | High
-47 | File | `act.php` | Low
-48 | File | `admin.php` | Medium
-49 | File | `admin.php/pay` | High
-50 | File | `admin/bad.php` | High
-51 | File | `admin/index.php` | High
-52 | ... | ... | ...
-
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+1 | T1083 | CWE-552 | File and Directory Information Exposure | High
 
 ## References
 
@@ -130,4 +65,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

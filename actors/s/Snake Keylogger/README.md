@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snake Keylogger:
 
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
-* [SV](https://vuldb.com/?country.sv)
 * [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [192.3.176.138](https://vuldb.com/?ip.192.3.176.138) | 192-3-176-138-host.colocrossing.com | - | High
-2 | [208.91.199.223](https://vuldb.com/?ip.208.91.199.223) | 208-91-199-223.unifiedlayer.com | - | High
-3 | [216.252.233.118](https://vuldb.com/?ip.216.252.233.118) | cpanel2-nl-233-118.thcservers.com | - | High
+1 | [103.72.56.30](https://vuldb.com/?ip.103.72.56.30) | - | - | High
+2 | [192.3.176.138](https://vuldb.com/?ip.192.3.176.138) | 192-3-176-138-host.colocrossing.com | - | High
+3 | [208.91.199.223](https://vuldb.com/?ip.208.91.199.223) | 208-91-199-223.unifiedlayer.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,12 +47,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/submit-articles` | High
-2 | File | `/artist.php` | Medium
-3 | File | `add_comment.php` | High
-4 | ... | ... | ...
+1 | File | `/?page=reports` | High
+2 | File | `/addcompany.php` | High
+3 | File | `/addcustcom.php` | High
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/home.php` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/admin/reportupload.aspx` | High
+8 | File | `/admin/submit-articles` | High
+9 | File | `/admin/view-enquiry.php` | High
+10 | File | `/application/index/controller/Databasesource.php` | High
+11 | File | `/application/index/controller/Icon.php` | High
+12 | File | `/application/index/controller/Unity.php` | High
+13 | File | `/apply/index.php` | High
+14 | File | `/artist.php` | Medium
+15 | File | `/category.php` | High
+16 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -55,6 +73,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fortinet.com/blog/threat-research/deep-analysis-of-snake-keylogger-new-variant
 * https://www.malware-traffic-analysis.net/2024/09/16/index.html
 * https://www.malware-traffic-analysis.net/2024/09/17/index.html
+* https://www.seqrite.com/blog/snakekeylogger-a-multistage-info-stealer-malware-campaign/
 
 ## Literature
 
@@ -65,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

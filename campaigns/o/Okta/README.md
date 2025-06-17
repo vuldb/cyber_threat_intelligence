@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -84,23 +84,22 @@ ID | Type | Indicator | Confidence
 24 | File | `/app/controller/Setup.php` | High
 25 | File | `/assets/php/upload.php` | High
 26 | File | `/bin/boa` | Medium
-27 | File | `/bin/sh` | Low
-28 | File | `/bitrix/admin/ldap_server_edit.php` | High
-29 | File | `/cancel.php` | Medium
-30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/luci;stok=/locale` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/collection/all` | High
-35 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-36 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
-37 | File | `/dbsrv.asp` | Medium
-38 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-39 | File | `/dev/sda` | Medium
-40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-41 | ... | ... | ...
+27 | File | `/bin/httpd` | Medium
+28 | File | `/bin/sh` | Low
+29 | File | `/bitrix/admin/ldap_server_edit.php` | High
+30 | File | `/cancel.php` | Medium
+31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/luci;stok=/locale` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/collection/all` | High
+36 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+37 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
+38 | File | `/dbsrv.asp` | Medium
+39 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+40 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -23,11 +23,11 @@ There are 11 more campaign items available. Please use our online service to acc
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -298,9 +298,11 @@ ID | IP address | Hostname | Campaign | Confidence
 261 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | Chemical Sector | Medium
 262 | [52.79.120.37](https://vuldb.com/?ip.52.79.120.37) | ec2-52-79-120-37.ap-northeast-2.compute.amazonaws.com | - | Medium
 263 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
-264 | ... | ... | ... | ...
+264 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
+265 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
+266 | ... | ... | ... | ...
 
-There are 1052 more IOC items available. Please use our online service to access the data.
+There are 1061 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -308,14 +310,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -323,51 +325,132 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-3 | File | `/admin/change-image.php` | High
-4 | File | `/admin/cmsVote/save` | High
-5 | File | `/admin/config_ISCGroupNoCache.php` | High
-6 | File | `/admin/edit_role.php` | High
-7 | File | `/admin/fetch_product_details.php` | High
-8 | File | `/admin/file_manager/export` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/operations/expense_category.php` | High
-11 | File | `/admin/order.php` | High
-12 | File | `/admin/orders/view_order.php` | High
-13 | File | `/admin/product/manage_product.php` | High
-14 | File | `/admin/profile.php` | High
-15 | File | `/admin/settings/index.php?page=accounts` | High
-16 | File | `/admin/template/edit` | High
-17 | File | `/adminapi/system/file/openfile` | High
-18 | File | `/api/job/add/` | High
-19 | File | `/api/v1/settings` | High
-20 | File | `/application/plugins/controller/Upload.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/auth_files/photo/` | High
-23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-24 | File | `/backend/admin/his_admin_add_vendor.php` | High
-25 | File | `/backend/admin/his_admin_register_patient.php` | High
-26 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/luci/api/auth` | High
-29 | File | `/chat/completions` | High
-30 | File | `/CollatWebApp/gcmsRefInsert?name=SUPP` | High
-31 | File | `/control/activate_case.php` | High
-32 | File | `/data/app` | Medium
-33 | File | `/dbsrv.asp` | Medium
-34 | File | `/download` | Medium
-35 | File | `/DXR.axd` | Medium
-36 | File | `/editar-cliente.php` | High
-37 | File | `/editar-produto.php` | High
-38 | File | `/endpoint/add-task.php` | High
-39 | File | `/file/updateprofile.php` | High
-40 | File | `/filemanager/upload` | High
-41 | File | `/formLoginAuth.htm` | High
-42 | File | `/forms/doLogin` | High
-43 | ... | ... | ...
+1 | File | `/%61dmin/api/logs` | High
+2 | File | `/?s=doudou&c=file&a=list` | High
+3 | File | `/aa` | Low
+4 | File | `/aboutus.php` | Medium
+5 | File | `/AcceptZip.ashx` | High
+6 | File | `/add-category.php` | High
+7 | File | `/add-normal-ticket.php` | High
+8 | File | `/add-notes.php` | High
+9 | File | `/add_classes.php` | High
+10 | File | `/add_employee.php` | High
+11 | File | `/admin#themes` | High
+12 | File | `/admin-api/mp/material/upload-permanent` | High
+13 | File | `/admin-api/upload_image` | High
+14 | File | `/admin-cp/logs/email` | High
+15 | File | `/admin-cp/media` | High
+16 | File | `/admin-cp/plugin/editor` | High
+17 | File | `/admin-cp/theme/editor/default` | High
+18 | File | `/admin-page.php` | High
+19 | File | `/admin-profile.php` | High
+20 | File | `/admin/` | Low
+21 | File | `/admin/?page=system_info` | High
+22 | File | `/admin/about-us.php` | High
+23 | File | `/admin/action/delete-vaccine.php` | High
+24 | File | `/admin/add-category.php` | High
+25 | File | `/admin/add-customer-services.php` | High
+26 | File | `/admin/add-doctor.php` | High
+27 | File | `/admin/add_student.php` | High
+28 | File | `/admin/add_teacher.php` | High
+29 | File | `/admin/admin-profile.php` | High
+30 | File | `/admin/AdminLogin.php` | High
+31 | File | `/admin/admin_addnew_product.php` | High
+32 | File | `/admin/ajax.php?action=add_to_cart` | High
+33 | File | `/admin/ajax.php?action=login` | High
+34 | File | `/admin/api/theme-edit/` | High
+35 | File | `/admin/app/asset_crud.php` | High
+36 | File | `/admin/app/profile_crud.php` | High
+37 | File | `/admin/app/soulwinning_crud.php` | High
+38 | File | `/admin/app/web_crud.php` | High
+39 | File | `/admin/approve.php` | High
+40 | File | `/admin/article/add/do` | High
+41 | File | `/admin/article/list` | High
+42 | File | `/admin/auth/roles` | High
+43 | File | `/admin/booking-bwdates-reports-details.php` | High
+44 | File | `/admin/book_add.php` | High
+45 | File | `/admin/bwdates-report-details.php` | High
+46 | File | `/admin/campsdetails.php` | High
+47 | File | `/admin/carousels/save` | High
+48 | File | `/admin/category.php` | High
+49 | File | `/admin/category_update.php` | High
+50 | File | `/admin/changeimage.php` | High
+51 | File | `/admin/conferences/list/` | High
+52 | File | `/admin/contact-us.php` | High
+53 | File | `/admin/edit-artist-detail.php?editid=1` | High
+54 | File | `/admin/edit-boat.php` | High
+55 | File | `/admin/edit-category.php` | High
+56 | File | `/admin/edit-guard-detail.php` | High
+57 | File | `/admin/edit-pass-detail.php` | High
+58 | File | `/admin/edit-subcategory.php` | High
+59 | File | `/Admin/edit_profile.php` | High
+60 | File | `/admin/edit_state.php` | High
+61 | File | `/admin/employee/index.php` | High
+62 | File | `/admin/file/delete.do` | High
+63 | File | `/admin/file/rename.do` | High
+64 | File | `/admin/file/upload.do` | High
+65 | File | `/admin/forgot-password.php` | High
+66 | File | `/admin/googleads.php` | High
+67 | File | `/admin/group` | Medium
+68 | File | `/admin/group/list/` | High
+69 | File | `/admin/home/index.html` | High
+70 | File | `/admin/index.php` | High
+71 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+72 | File | `/Admin/InsertCategory.php` | High
+73 | File | `/admin/leancloud.php` | High
+74 | File | `/admin/level.php` | High
+75 | File | `/admin/manage-pages.php` | High
+76 | File | `/admin/manage-teams.php` | High
+77 | File | `/admin/manage-users.php` | High
+78 | File | `/admin/manage_user.php` | High
+79 | File | `/admin/member_update.php` | High
+80 | File | `/admin/menus/view_menu.php` | High
+81 | File | `/admin/model/addOrUpdate` | High
+82 | File | `/admin/modules/lesson/index.php` | High
+83 | File | `/admin/order.php` | High
+84 | File | `/admin/pass-bwdates-report.php` | High
+85 | File | `/admin/pass-details.php` | High
+86 | File | `/admin/payment.php` | High
+87 | File | `/admin/post-avehical.php` | High
+88 | File | `/admin/print.php` | High
+89 | File | `/admin/print_barcode.php` | High
+90 | File | `/admin/products/manage_product.php` | High
+91 | File | `/admin/profile.php` | High
+92 | File | `/admin/publishnews.php` | High
+93 | File | `/admin/reports/index.php` | High
+94 | File | `/admin/reportupload.aspx` | High
+95 | File | `/admin/save_teacher.php` | High
+96 | File | `/admin/search-booking-request.php` | High
+97 | File | `/admin/search-medicalcard.php` | High
+98 | File | `/admin/search-pass.php` | High
+99 | File | `/admin/search.php` | High
+100 | File | `/admin/service/stop/` | High
+101 | File | `/admin/settings/` | High
+102 | File | `/admin/student.php` | High
+103 | File | `/admin/subscriber-csv.php` | High
+104 | File | `/admin/sys/role/list` | High
+105 | File | `/admin/theme/Upload.html` | High
+106 | File | `/admin/update_room.php` | High
+107 | File | `/admin/upload/upimage.html` | High
+108 | File | `/admin/vacancy/controller.php` | High
+109 | File | `/adminprofile.php` | High
+110 | File | `/admin_paylog.php` | High
+111 | File | `/admin_user.php` | High
+112 | File | `/aim/storage/query.py` | High
+113 | File | `/ajax.php?action=delete_member` | High
+114 | File | `/ajax.php?action=delete_trainer` | High
+115 | File | `/ajax.php?action=login` | High
+116 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
+117 | File | `/ample/app/ajax/member_data.php` | High
+118 | File | `/api/admin/question/edit` | High
+119 | File | `/api/deploy/upload` | High
+120 | File | `/Api/FileUploadApi.ashx` | High
+121 | File | `/api/front/search/books` | High
+122 | File | `/api/GylOperator/LoadData` | High
+123 | File | `/api/login/auth` | High
+124 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -400,6 +483,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf
 * https://research.checkpoint.com/2019/north-korea-turns-against-russian-targets/
 * https://securelist.com/dtrack-targeting-europe-latin-america/107798/
+* https://socket.dev/blog/lazarus-strikes-npm-again-with-a-new-wave-of-malicious-packages
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lazarus-dream-job-chemical
 * https://threatbook.io/blog/id/1093
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
@@ -417,6 +501,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.esentire.com/blog/bored-beavertail-yacht-club-a-lazarus-lure
 * https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/
 * https://www.sentinelone.com/labs/comrades-in-arms-north-korea-compromises-sanctioned-russian-missile-engineering-company/
+* https://www.silentpush.com/blog/astrill-vpn/
 * https://www.threatminer.org/report.php?q=LAZARUS&WATERING-HOLEATTACKS-BAESystems.pdf&y=2017
 * https://www.trendmicro.com/en_us/research/18/k/lazarus-continues-heists-mounts-attacks-on-financial-organizations-in-latin-america.html
 * https://www.trendmicro.com/en_us/research/20/e/new-macos-dacls-rat-backdoor-show-lazarus-multi-platform-attack-capability.html
@@ -435,4 +520,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

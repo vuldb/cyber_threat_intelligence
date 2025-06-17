@@ -4,16 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.unc3886](https://vuldb.com/?actor.unc3886)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with UNC3886:
+
+* Junos OS router
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC3886:
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +33,12 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [8.219.131.77](https://vuldb.com/?ip.8.219.131.77) | - | - | High
 5 | [8.222.216.144](https://vuldb.com/?ip.8.222.216.144) | - | - | High
 6 | [8.222.218.20](https://vuldb.com/?ip.8.222.218.20) | - | - | High
-7 | [45.32.252.98](https://vuldb.com/?ip.45.32.252.98) | 45.32.252.98.vultrusercontent.com | - | Medium
-8 | ... | ... | ... | ...
+7 | [8.222.225.8](https://vuldb.com/?ip.8.222.225.8) | - | Junos OS router | High
+8 | [45.32.252.98](https://vuldb.com/?ip.45.32.252.98) | 45.32.252.98.vultrusercontent.com | - | Medium
+9 | [45.77.39.28](https://vuldb.com/?ip.45.77.39.28) | 45.77.39.28.vultrusercontent.com | Junos OS router | Medium
+10 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,9 +49,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,32 +60,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/calendar/minimizer/index.php` | High
-2 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-3 | File | `/category.php` | High
-4 | File | `/category_view.php` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/forms/doLogin` | High
-8 | File | `/h/autoSaveDraft` | High
-9 | File | `/manage-courses.php?del=1` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/preauth` | Medium
-12 | File | `/protocol/nsasg6.0.tgz` | High
-13 | File | `/tmp/moses` | Medium
-14 | File | `/webmail/` | Medium
-15 | File | `/webmail/server/webmail.php` | High
-16 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-17 | File | `admin/review.php` | High
-18 | File | `api/v1/alarms` | High
-19 | ... | ... | ...
+1 | File | `.procmailrc` | Medium
+2 | File | `/admin/?setting-base.htm` | High
+3 | File | `/api/` | Low
+4 | File | `/api/cron/settings/setJob/` | High
+5 | File | `/authUserAction!edit.action` | High
+6 | File | `/calendar/minimizer/index.php` | High
+7 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+8 | File | `/category.php` | High
+9 | File | `/category_view.php` | High
+10 | File | `/cgi-bin/luci;stok=/locale` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/course/modedit.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/devinfo` | Medium
+15 | File | `/forms/doLogin` | High
+16 | File | `/h/autoSaveDraft` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/importexport.php` | High
+19 | File | `/manage-courses.php?del=1` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/plain` | Low
+22 | File | `/preauth` | Medium
+23 | File | `/protocol/nsasg6.0.tgz` | High
+24 | File | `/setnetworksettings/IPAddress` | High
+25 | File | `/settings` | Medium
+26 | File | `/tmp/moses` | Medium
+27 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers/?hl=en
 * https://cloud.google.com/blog/topics/threat-intelligence/uncovering-unc3886-espionage-operations?hl=en
 
 ## Literature
@@ -88,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

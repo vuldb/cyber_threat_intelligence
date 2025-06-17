@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-41 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -61,41 +61,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/admin/app/product.php` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/ajax` | Low
-6 | File | `/api/set-password` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/classes/Users.php` | High
-10 | File | `/conf/app.conf` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/customer_support/index.php` | High
-13 | File | `/dashboard/updatelogo.php` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/openshift/server_priv.pem` | High
-16 | File | `/export` | Low
-17 | File | `/file?action=download&file` | High
-18 | File | `/goform/openSchedWifi` | High
-19 | File | `/hardware` | Medium
-20 | File | `/importexport.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/medical/inventories.php` | High
-24 | File | `/mfsNotice/page` | High
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/monitoring` | Medium
-27 | File | `/Noxen-master/users.php` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/php/busyscreenshotpush.php` | High
-30 | File | `/plugin/LiveChat/getChat.json.php` | High
-31 | File | `/plugins/servlet/audit/resource` | High
-32 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-33 | File | `/preview.php` | Medium
-34 | ... | ... | ...
+2 | File | `/admin/app/product.php` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/ajax` | Low
+5 | File | `/api/front/search/books` | High
+6 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+7 | File | `/api/set-password` | High
+8 | File | `/application/index/controller/Screen.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/classes/Users.php` | High
+12 | File | `/conf/app.conf` | High
+13 | File | `/core/conditions/AbstractWrapper.java` | High
+14 | File | `/customer_support/index.php` | High
+15 | File | `/dashboard/updatelogo.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/openshift/server_priv.pem` | High
+18 | File | `/export` | Low
+19 | File | `/file?action=download&file` | High
+20 | File | `/goform/openSchedWifi` | High
+21 | File | `/hardware` | Medium
+22 | File | `/importexport.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/mfsNotice/page` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/monitoring` | Medium
+28 | File | `/Noxen-master/users.php` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/php/busyscreenshotpush.php` | High
+31 | File | `/plugin/LiveChat/getChat.json.php` | High
+32 | File | `/plugins/servlet/audit/resource` | High
+33 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+34 | File | `/preview.php` | Medium
+35 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

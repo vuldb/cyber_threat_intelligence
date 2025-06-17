@@ -17,8 +17,8 @@ These _actors_ are associated with Russia and Belarus or other actors linked to 
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Inception](https://vuldb.com/?actor.inception) | High
-2 | [Cloud Atlas](https://vuldb.com/?actor.cloud_atlas) | High
+1 | [Cloud Atlas](https://vuldb.com/?actor.cloud_atlas) | High
+2 | [Inception](https://vuldb.com/?actor.inception) | High
 
 ## IOC - Indicator of Compromise
 
@@ -26,8 +26,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [146.70.88.123](https://vuldb.com/?ip.146.70.88.123) | - | [Cloud Atlas](https://vuldb.com/?actor.cloud_atlas) | High
-2 | [185.227.82.21](https://vuldb.com/?ip.185.227.82.21) | - | [Cloud Atlas](https://vuldb.com/?actor.cloud_atlas) | High
+1 | [146.70.88.123](https://vuldb.com/?ip.146.70.88.123) | - | [Inception](https://vuldb.com/?actor.inception) | High
+2 | [185.227.82.21](https://vuldb.com/?ip.185.227.82.21) | - | [Inception](https://vuldb.com/?actor.inception) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +48,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/inc/parser/xhtml.php` | High
-2 | File | `api_jsonrpc.php` | High
-3 | File | `application/controller/InstallerController.php` | High
+1 | File | `/goform/ShutdownSetAdd` | High
+2 | File | `/inc/parser/xhtml.php` | High
+3 | File | `/OpenPublicCourse.aspx` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

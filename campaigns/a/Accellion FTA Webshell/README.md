@@ -72,37 +72,37 @@ ID | Type | Indicator | Confidence
 14 | File | `/data/vendor/tcl` | High
 15 | File | `/dayrui/My/View/main.html` | High
 16 | File | `/debug/pprof` | Medium
-17 | File | `/DLSnap` | Low
-18 | File | `/etc/postfix/sender_login` | High
-19 | File | `/exec/` | Low
-20 | File | `/index.php` | Medium
-21 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-22 | File | `/items/view_item.php` | High
-23 | File | `/ldclient/ldprov.cgi` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/login` | Low
-26 | File | `/login/index.php` | High
-27 | File | `/mail/index.html` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/mygym/admin/index.php?view_exercises` | High
-30 | File | `/plugin/extended-choice-parameter/js/` | High
-31 | File | `/plugins/servlet/gadgets/makeRequest` | High
-32 | File | `/PreviewHandler.ashx` | High
-33 | File | `/products/details.asp` | High
-34 | File | `/rest/api/2/user/picker` | High
-35 | File | `/rest/api/latest/groupuserpicker` | High
-36 | File | `/rom-0` | Low
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/services/details.asp` | High
-39 | File | `/ServletAPI/accounts/login` | High
-40 | File | `/student/bookdetails.php` | High
-41 | File | `/sys/replicate/check` | High
-42 | File | `/templates/header.inc.php` | High
-43 | File | `/uncpath/` | Medium
-44 | File | `/usr/bin/pkexec` | High
+17 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+18 | File | `/DLSnap` | Low
+19 | File | `/etc/postfix/sender_login` | High
+20 | File | `/exec/` | Low
+21 | File | `/index.php` | Medium
+22 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+23 | File | `/items/view_item.php` | High
+24 | File | `/ldclient/ldprov.cgi` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/login` | Low
+27 | File | `/login/index.php` | High
+28 | File | `/mail/index.html` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/mygym/admin/index.php?view_exercises` | High
+31 | File | `/plugin/extended-choice-parameter/js/` | High
+32 | File | `/plugins/servlet/gadgets/makeRequest` | High
+33 | File | `/PreviewHandler.ashx` | High
+34 | File | `/products/details.asp` | High
+35 | File | `/rest/api/2/user/picker` | High
+36 | File | `/rest/api/latest/groupuserpicker` | High
+37 | File | `/rom-0` | Low
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/services/details.asp` | High
+40 | File | `/ServletAPI/accounts/login` | High
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/sys/replicate/check` | High
+43 | File | `/templates/header.inc.php` | High
+44 | File | `/uncpath/` | Medium
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

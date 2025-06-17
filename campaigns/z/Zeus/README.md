@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -108,11 +108,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,33 +122,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/admin/add_ikev2.php` | High
-5 | File | `/admin/category_save.php` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/manage_model.php` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/admin/process_category_add.php` | High
-10 | File | `/admin/quizquestion.php` | High
-11 | File | `/admin/subject.php` | High
-12 | File | `/app/api/controller/caiji.php` | High
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/buscar_integrada.php` | High
-15 | File | `/catalog/all-products` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/ExportSettings.sh` | High
-18 | File | `/changePassword` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-21 | File | `/edit-subject.php` | High
-22 | File | `/endpoint/add-calorie.php` | High
-23 | File | `/endpoint/add-user.php` | High
-24 | File | `/etc/postfix/sender_login` | High
-25 | File | `/foms/routers/place-order.php` | High
-26 | ... | ... | ...
+2 | File | `.travis.yml` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/adfs/ls` | Medium
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/add_ikev2.php` | High
+8 | File | `/admin/categories/update` | High
+9 | File | `/admin/category_save.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/admin/manage_model.php` | High
+13 | File | `/admin/manage_user.php` | High
+14 | File | `/admin/process_category_add.php` | High
+15 | File | `/admin/quizquestion.php` | High
+16 | File | `/admin/search-vehicle.php` | High
+17 | File | `/admin/subject.php` | High
+18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+19 | File | `/admin/twitter.php` | High
+20 | File | `/api/v1/toolbox/device/update/swap` | High
+21 | File | `/app/api/controller/caiji.php` | High
+22 | File | `/app/zentao/module/repo/model.php` | High
+23 | File | `/bin/httpd` | Medium
+24 | File | `/buscar_integrada.php` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/ExportSettings.sh` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/classes/Master.php` | High
+29 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+30 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+31 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -178,4 +184,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

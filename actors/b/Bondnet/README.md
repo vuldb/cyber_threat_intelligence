@@ -19,13 +19,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [47.90.206.226](https://vuldb.com/?ip.47.90.206.226) | - | - | High
-2 | [50.207.71.22](https://vuldb.com/?ip.50.207.71.22) | 50-207-71-22-static.hfc.comcastbusiness.net | - | High
-3 | [59.3.127.132](https://vuldb.com/?ip.59.3.127.132) | - | - | High
-4 | [69.90.114.185](https://vuldb.com/?ip.69.90.114.185) | - | - | High
-5 | [72.167.201.140](https://vuldb.com/?ip.72.167.201.140) | ip-72-167-201-140.ip.secureserver.net | - | High
-6 | ... | ... | ... | ...
+2 | [47.99.155.111](https://vuldb.com/?ip.47.99.155.111) | - | - | High
+3 | [50.207.71.22](https://vuldb.com/?ip.50.207.71.22) | 50-207-71-22-static.hfc.comcastbusiness.net | - | High
+4 | [59.3.127.132](https://vuldb.com/?ip.59.3.127.132) | - | - | High
+5 | [69.90.114.185](https://vuldb.com/?ip.69.90.114.185) | - | - | High
+6 | [72.167.201.140](https://vuldb.com/?ip.72.167.201.140) | ip-72-167-201-140.ip.secureserver.net | - | High
+7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,12 +52,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/E-mobile/App/System/File/downfile.php` | High
 4 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/66662/
 * https://github.com/guardicore/labs_campaigns/tree/master/Bondnet
 
 ## Literature
@@ -68,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

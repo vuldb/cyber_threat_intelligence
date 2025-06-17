@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Satellite Service Providers:
 
 * [LA](https://vuldb.com/?country.la)
-* [IL](https://vuldb.com/?country.il)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,23 +58,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/file_manager/export` | High
 3 | File | `/admin/index2.html` | High
 4 | File | `/adminPage/conf/reload` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/index/ajax/lang` | High
-14 | File | `/log/decodmail.php` | High
-15 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-16 | File | `/log_proxy` | Medium
-17 | File | `/mailcleaner.php/getStats` | High
-18 | File | `/mfsNotice/page` | High
-19 | ... | ... | ...
+5 | File | `/admin_topic.php?action=delall` | High
+6 | File | `/api/authentication/login` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/cron/settings/setJob/` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/api2/html/` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/h/rest` | Low
+18 | File | `/index/ajax/lang` | High
+19 | File | `/log/decodmail.php` | High
+20 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+21 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

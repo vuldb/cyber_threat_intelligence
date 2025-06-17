@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.155.204.5](https://vuldb.com/?ip.45.155.204.5) | - | - | High
 2 | [77.83.36.6](https://vuldb.com/?ip.77.83.36.6) | f.77.83.36.6.outlook.fxtsport.com | - | High
-3 | [193.106.31.98](https://vuldb.com/?ip.193.106.31.98) | ip-193-106-31-98.infiumhost.net | - | High
+3 | [77.105.140.181](https://vuldb.com/?ip.77.105.140.181) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,15 +48,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/out.php` | Medium
-4 | File | `/SetTriggerLEDBlink/Blink` | High
-5 | File | `/spip.php` | Medium
-6 | File | `adclick.php` | Medium
-7 | File | `application/shop/controller/member.php` | High
-8 | ... | ... | ...
+2 | File | `/app/admin/controller/Upload.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cms/classes/Master.php?f=delete_service` | High
+5 | File | `/download` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/out.php` | Medium
+8 | File | `/php_action/createUser.php` | High
+9 | File | `/resource/addgood.php` | High
+10 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+11 | File | `/SetTriggerLEDBlink/Blink` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/Tool/querysql.php` | High
+14 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,6 +70,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://thedfirreport.com/2024/01/29/buzzing-on-christmas-eve-trigona-ransomware-in-3-hours/
 * https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion/
+* https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment/
 
 ## Literature
 
@@ -71,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

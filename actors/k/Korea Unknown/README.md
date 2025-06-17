@@ -29,12 +29,12 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [47.237.128.104](https://vuldb.com/?ip.47.237.128.104) | - | - | High
 7 | [50.127.177.194](https://vuldb.com/?ip.50.127.177.194) | static-50-127-177-194.chtn.wv.frontiernet.net | - | High
 8 | [52.142.229.204](https://vuldb.com/?ip.52.142.229.204) | - | - | High
-9 | [58.211.191.14](https://vuldb.com/?ip.58.211.191.14) | - | - | High
-10 | [61.7.241.146](https://vuldb.com/?ip.61.7.241.146) | - | - | High
-11 | [62.36.40.104](https://vuldb.com/?ip.62.36.40.104) | mail1.prevecam.es | - | High
+9 | [57.73.214.0](https://vuldb.com/?ip.57.73.214.0) | - | - | High
+10 | [58.211.191.14](https://vuldb.com/?ip.58.211.191.14) | - | - | High
+11 | [61.7.241.146](https://vuldb.com/?ip.61.7.241.146) | - | - | High
 12 | ... | ... | ... | ...
 
-There are 43 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/84294/
 * https://asec.ahnlab.com/en/84315/
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Korea/DrillMalware-ioc.MD
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_kp.netset
 
 ## Literature
 
@@ -94,4 +95,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -52,30 +52,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/appliance/users?action=edit` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/core/conditions/AbstractWrapper.java` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/export` | Low
-11 | File | `/file?action=download&file` | High
-12 | File | `/hardware` | Medium
-13 | File | `/hub/api/user` | High
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/medical/inventories.php` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/plugin/LiveChat/getChat.json.php` | High
-19 | File | `/plugins/servlet/audit/resource` | High
-20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-21 | File | `/replication` | Medium
-22 | File | `/RestAPI` | Medium
-23 | File | `/tmp/zarafa-vacation-*` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
-26 | ... | ... | ...
+5 | File | `/api/front/search/books` | High
+6 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/application/index/controller/Screen.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/control/register_case.php` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/export` | Low
+15 | File | `/file?action=download&file` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/hardware` | Medium
+18 | File | `/hub/api/user` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/medical/inventories.php` | High
+21 | File | `/monitoring` | Medium
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/plugin/LiveChat/getChat.json.php` | High
+24 | File | `/plugins/servlet/audit/resource` | High
+25 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+26 | File | `/replication` | Medium
+27 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

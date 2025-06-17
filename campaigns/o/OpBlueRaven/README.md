@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,13 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,34 +65,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/boafrm/formFilter` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/changePassword` | High
-15 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-16 | File | `/edit-subject.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/postfix/sender_login` | High
-19 | File | `/etc/shadow.sample` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/goform_get_cmd_process` | High
-23 | File | `/goform/SetLEDCfg` | High
-24 | File | `/goform/setMacFilterCfg` | High
-25 | File | `/goform/SetSysTimeCfg` | High
-26 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/category_save.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/search-vehicle.php` | High
+12 | File | `/admin/subject.php` | High
+13 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+14 | File | `/admin/twitter.php` | High
+15 | File | `/api/v1/toolbox/device/update/swap` | High
+16 | File | `/app/zentao/module/repo/model.php` | High
+17 | File | `/backend/admin/his_admin_register_patient.php` | High
+18 | File | `/bin/httpd` | Medium
+19 | File | `/boafrm/formFilter` | High
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/catalog/all-products` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/ExportSettings.sh` | High
+24 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+25 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+26 | File | `/decoration/admin/btndates_report.php` | High
+27 | File | `/dental_form.php` | High
+28 | File | `/edit-subject.php` | High
+29 | File | `/endpoint/add-user.php` | High
+30 | File | `/etc/postfix/sender_login` | High
+31 | File | `/etc/shadow.sample` | High
+32 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+33 | File | `/foms/routers/place-order.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/AdvSetMacMtuWan` | High
+36 | File | `/goform/aspForm` | High
+37 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

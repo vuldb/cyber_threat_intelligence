@@ -63,10 +63,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,79 +87,79 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/students/view_student.php` | High
 12 | File | `/admin/upload.php` | High
 13 | File | `/ample/app/action/edit_product.php` | High
-14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/admin/store/product/save` | High
-16 | File | `/api/browserextension/UpdatePassword/` | High
-17 | File | `/api /v3/auth` | High
-18 | File | `/app/ajax/sell_return_data.php` | High
-19 | File | `/app/sys1.php` | High
-20 | File | `/aqpg/users/login.php` | High
-21 | File | `/back/index.php/user/User/?1` | High
-22 | File | `/bilal final/edit_stud.php` | High
-23 | File | `/bilal final/login.php` | High
-24 | File | `/bin/ate` | Medium
-25 | File | `/blog/comment` | High
-26 | File | `/bsenordering/index.php` | High
-27 | File | `/bsms_ci/index.php/user/edit_user/` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/mainfunction.cgi` | High
-30 | File | `/claire_blake` | High
-31 | File | `/cms/category/list` | High
-32 | File | `/common/sysFile/list` | High
-33 | File | `/config/myfield/test.php` | High
-34 | File | `/cwms/classes/Master.php?f=save_contact` | High
-35 | File | `/dashboard/add-blog.php` | High
-36 | File | `/dashboard/add-portfolio.php` | High
-37 | File | `/dashboard/contact` | High
-38 | File | `/dayrui/Fcms/View/system_log.html` | High
-39 | File | `/dayrui/My/Config/Install.txt` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/Default/Bd` | Medium
-42 | File | `/devinfo` | Medium
-43 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-44 | File | `/doping.asp` | Medium
-45 | File | `/DXR.axd` | Medium
-46 | File | `/edituser.php` | High
-47 | File | `/employeeview.php` | High
-48 | File | `/etc/postfix/sender_login` | High
-49 | File | `/event/admin/?page=user/list` | High
-50 | File | `/face-recognition-php/facepay-master/camera.php` | High
-51 | File | `/files/list-file` | High
-52 | File | `/film-rating.php` | High
-53 | File | `/forum/PostPrivateMessage` | High
-54 | File | `/fos/admin/ajax.php?action=login` | High
-55 | File | `/fos/admin/index.php?page=menu` | High
-56 | File | `/gasmark/assets/myimages/oneWord.php` | High
-57 | File | `/goForm/aspForm` | High
-58 | File | `/goform/DhcpListClient` | High
-59 | File | `/goform/GetIPTV` | High
-60 | File | `/goform/WriteFacMac` | High
-61 | File | `/home/cavesConsole` | High
-62 | File | `/home/kickPlayer` | High
-63 | File | `/home/masterConsole` | High
-64 | File | `/home/sendBroadcast` | High
-65 | File | `/hrm/controller/employee.php` | High
-66 | File | `/hrm/employeeadd.php` | High
-67 | File | `/hrm/employeeview.php` | High
-68 | File | `/importexport.php` | High
-69 | File | `/index.php` | Medium
-70 | File | `/index/ajax/lang` | High
-71 | File | `/install/index.php` | High
-72 | File | `/kelas/data` | Medium
-73 | File | `/lan.asp` | Medium
-74 | File | `/librarian/bookdetails.php` | High
-75 | File | `/log/decodmail.php` | High
-76 | File | `/login.php` | Medium
-77 | File | `/LogoStore/search.php` | High
-78 | File | `/management/api/rcx_management/global_config_query` | High
-79 | File | `/mhds/clinic/view_details.php` | High
-80 | File | `/mkshop/Men/profile.php` | High
-81 | File | `/mkshope/login.php` | High
-82 | File | `/movie.php` | Medium
-83 | File | `/mygym/admin/index.php` | High
-84 | File | `/mygym/admin/index.php?view_exercises` | High
-85 | File | `/news-portal-script/information.php` | High
-86 | File | `/note/index/delete` | High
+14 | File | `/api/browserextension/UpdatePassword/` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/ajax/sell_return_data.php` | High
+17 | File | `/app/sys1.php` | High
+18 | File | `/aqpg/users/login.php` | High
+19 | File | `/back/index.php/user/User/?1` | High
+20 | File | `/bilal final/edit_stud.php` | High
+21 | File | `/bilal final/login.php` | High
+22 | File | `/bin/ate` | Medium
+23 | File | `/blog/comment` | High
+24 | File | `/bsms_ci/index.php/user/edit_user/` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/mainfunction.cgi` | High
+27 | File | `/claire_blake` | High
+28 | File | `/cms/category/list` | High
+29 | File | `/common/sysFile/list` | High
+30 | File | `/config/myfield/test.php` | High
+31 | File | `/cwms/classes/Master.php?f=save_contact` | High
+32 | File | `/dashboard/add-blog.php` | High
+33 | File | `/dashboard/add-portfolio.php` | High
+34 | File | `/dashboard/contact` | High
+35 | File | `/dayrui/Fcms/View/system_log.html` | High
+36 | File | `/dayrui/My/Config/Install.txt` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/Default/Bd` | Medium
+39 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+40 | File | `/devinfo` | Medium
+41 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+42 | File | `/doping.asp` | Medium
+43 | File | `/DXR.axd` | Medium
+44 | File | `/edituser.php` | High
+45 | File | `/employeeview.php` | High
+46 | File | `/etc/postfix/sender_login` | High
+47 | File | `/event/admin/?page=user/list` | High
+48 | File | `/face-recognition-php/facepay-master/camera.php` | High
+49 | File | `/files/list-file` | High
+50 | File | `/film-rating.php` | High
+51 | File | `/forum/PostPrivateMessage` | High
+52 | File | `/fos/admin/ajax.php?action=login` | High
+53 | File | `/fos/admin/index.php?page=menu` | High
+54 | File | `/gasmark/assets/myimages/oneWord.php` | High
+55 | File | `/geoserver/gwc/rest.html` | High
+56 | File | `/goForm/aspForm` | High
+57 | File | `/goform/DhcpListClient` | High
+58 | File | `/goform/GetIPTV` | High
+59 | File | `/goform/WriteFacMac` | High
+60 | File | `/home/cavesConsole` | High
+61 | File | `/home/kickPlayer` | High
+62 | File | `/home/masterConsole` | High
+63 | File | `/home/sendBroadcast` | High
+64 | File | `/hrm/controller/employee.php` | High
+65 | File | `/hrm/employeeadd.php` | High
+66 | File | `/hrm/employeeview.php` | High
+67 | File | `/importexport.php` | High
+68 | File | `/index.php` | Medium
+69 | File | `/index/ajax/lang` | High
+70 | File | `/install/index.php` | High
+71 | File | `/kelas/data` | Medium
+72 | File | `/lan.asp` | Medium
+73 | File | `/librarian/bookdetails.php` | High
+74 | File | `/log/decodmail.php` | High
+75 | File | `/login.php` | Medium
+76 | File | `/LogoStore/search.php` | High
+77 | File | `/management/api/rcx_management/global_config_query` | High
+78 | File | `/mhds/clinic/view_details.php` | High
+79 | File | `/mkshop/Men/profile.php` | High
+80 | File | `/mkshope/login.php` | High
+81 | File | `/movie.php` | Medium
+82 | File | `/mygym/admin/index.php` | High
+83 | File | `/mygym/admin/index.php?view_exercises` | High
+84 | File | `/news-portal-script/information.php` | High
+85 | File | `/note/index/delete` | High
+86 | File | `/opac_css/pmb.php` | High
 87 | File | `/pages/animals.php` | High
 88 | File | `/pages/processlogin.php` | High
 89 | File | `/param.file.tgz` | High
@@ -175,19 +175,14 @@ ID | Type | Indicator | Confidence
 99 | File | `/royal_event/companyprofile.php` | High
 100 | File | `/royal_event/userregister.php` | High
 101 | File | `/services/Card/findUser` | High
-102 | File | `/subnet-masks/popup.php` | High
-103 | File | `/sys/dict/loadTreeData` | High
-104 | File | `/template/edit` | High
-105 | File | `/uploads/tags.php` | High
-106 | File | `/user/profile` | High
-107 | File | `/user/s.php` | Medium
-108 | File | `/view-property.php` | High
-109 | File | `/whbs/?page=manage_account` | High
-110 | File | `/wireless/basic.asp` | High
-111 | File | `/wireless/guestnetwork.asp` | High
-112 | ... | ... | ...
+102 | File | `/spip.php` | Medium
+103 | File | `/subnet-masks/popup.php` | High
+104 | File | `/sys/dict/loadTreeData` | High
+105 | File | `/template/edit` | High
+106 | File | `/uploads/tags.php` | High
+107 | ... | ... | ...
 
-There are 996 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 950 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -204,4 +199,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,24 +23,34 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.34.176.150](https://vuldb.com/?ip.5.34.176.150) | vps.hostry.com | - | High
 2 | [5.34.178.144](https://vuldb.com/?ip.5.34.178.144) | vps.hostry.com | - | High
-3 | [38.54.50.120](https://vuldb.com/?ip.38.54.50.120) | - | - | High
-4 | [38.54.50.163](https://vuldb.com/?ip.38.54.50.163) | - | - | High
-5 | [38.54.50.253](https://vuldb.com/?ip.38.54.50.253) | - | - | High
-6 | [38.54.56.45](https://vuldb.com/?ip.38.54.56.45) | - | - | High
-7 | [38.54.85.244](https://vuldb.com/?ip.38.54.85.244) | - | - | High
-8 | [38.54.88.248](https://vuldb.com/?ip.38.54.88.248) | - | - | High
-9 | [38.60.196.86](https://vuldb.com/?ip.38.60.196.86) | - | - | High
-10 | [38.60.203.61](https://vuldb.com/?ip.38.60.203.61) | - | - | High
-11 | [38.60.203.83](https://vuldb.com/?ip.38.60.203.83) | - | - | High
-12 | [38.60.206.78](https://vuldb.com/?ip.38.60.206.78) | - | - | High
-13 | [38.60.212.13](https://vuldb.com/?ip.38.60.212.13) | - | - | High
-14 | [38.60.212.167](https://vuldb.com/?ip.38.60.212.167) | - | - | High
-15 | [38.60.212.233](https://vuldb.com/?ip.38.60.212.233) | - | - | High
-16 | [38.60.221.211](https://vuldb.com/?ip.38.60.221.211) | - | - | High
-17 | [38.60.223.208](https://vuldb.com/?ip.38.60.223.208) | - | - | High
-18 | ... | ... | ... | ...
+3 | [8.130.93.243](https://vuldb.com/?ip.8.130.93.243) | - | - | High
+4 | [8.136.148.80](https://vuldb.com/?ip.8.136.148.80) | - | - | High
+5 | [8.210.5.244](https://vuldb.com/?ip.8.210.5.244) | - | - | High
+6 | [8.210.62.134](https://vuldb.com/?ip.8.210.62.134) | - | - | High
+7 | [8.217.81.132](https://vuldb.com/?ip.8.217.81.132) | - | - | High
+8 | [8.217.139.174](https://vuldb.com/?ip.8.217.139.174) | - | - | High
+9 | [8.217.230.57](https://vuldb.com/?ip.8.217.230.57) | - | - | High
+10 | [8.217.245.90](https://vuldb.com/?ip.8.217.245.90) | - | - | High
+11 | [8.218.176.198](https://vuldb.com/?ip.8.218.176.198) | - | - | High
+12 | [34.64.121.236](https://vuldb.com/?ip.34.64.121.236) | 236.121.64.34.bc.googleusercontent.com | - | Medium
+13 | [34.172.184.195](https://vuldb.com/?ip.34.172.184.195) | 195.184.172.34.bc.googleusercontent.com | - | Medium
+14 | [38.54.50.120](https://vuldb.com/?ip.38.54.50.120) | - | - | High
+15 | [38.54.50.163](https://vuldb.com/?ip.38.54.50.163) | - | - | High
+16 | [38.54.50.253](https://vuldb.com/?ip.38.54.50.253) | - | - | High
+17 | [38.54.56.45](https://vuldb.com/?ip.38.54.56.45) | - | - | High
+18 | [38.54.84.238](https://vuldb.com/?ip.38.54.84.238) | - | - | High
+19 | [38.54.85.21](https://vuldb.com/?ip.38.54.85.21) | - | - | High
+20 | [38.54.85.70](https://vuldb.com/?ip.38.54.85.70) | - | - | High
+21 | [38.54.85.164](https://vuldb.com/?ip.38.54.85.164) | - | - | High
+22 | [38.54.85.178](https://vuldb.com/?ip.38.54.85.178) | - | - | High
+23 | [38.54.85.244](https://vuldb.com/?ip.38.54.85.244) | - | - | High
+24 | [38.54.88.40](https://vuldb.com/?ip.38.54.88.40) | - | - | High
+25 | [38.54.88.193](https://vuldb.com/?ip.38.54.88.193) | - | - | High
+26 | [38.54.88.248](https://vuldb.com/?ip.38.54.88.248) | - | - | High
+27 | [38.60.134.236](https://vuldb.com/?ip.38.60.134.236) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 68 more IOC items available. Please use our online service to access the data.
+There are 106 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,14 +58,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,41 +73,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/adm/setmain.php` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/ajax` | Low
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/edit-subject.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetLEDCfg` | High
-23 | File | `/goform/setMacFilterCfg` | High
-24 | File | `/goform/SetSysTimeCfg` | High
-25 | File | `/grid/console` | High
-26 | File | `/h/autoSaveDraft` | High
-27 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/adm/setmain.php` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/manage_model.php` | High
+11 | File | `/admin/manage_user.php` | High
+12 | File | `/admin/search-vehicle.php` | High
+13 | File | `/admin/subject.php` | High
+14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+15 | File | `/admin/twitter.php` | High
+16 | File | `/ajax` | Low
+17 | File | `/api/v1/settings` | High
+18 | File | `/api/v1/toolbox/device/update/swap` | High
+19 | File | `/app/zentao/module/repo/model.php` | High
+20 | File | `/auth_files/photo/` | High
+21 | File | `/bin/httpd` | Medium
+22 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+23 | File | `/catalog/all-products` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/ExportSettings.sh` | High
+26 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+27 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/edit-subject.php` | High
+30 | File | `/endpoint/add-user.php` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/etc/postfix/sender_login` | High
+33 | File | `/etc/shadow.sample` | High
+34 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+35 | File | `/foms/routers/place-order.php` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/AdvSetMacMtuWan` | High
+38 | File | `/goform/aspForm` | High
+39 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sekoia.io/bulbature-beneath-the-waves-of-gobrat/
+* https://threatfox.abuse.ch
 
 ## Literature
 
@@ -108,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

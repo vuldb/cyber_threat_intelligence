@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with WannaMine:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,9 +72,10 @@ ID | Type | Indicator | Confidence
 27 | File | `/apply/index.php` | High
 28 | File | `/auth/auth.php?user=1` | High
 29 | File | `/b2b-supermarket/shopping-cart` | High
-30 | ... | ... | ...
+30 | File | `/bin/boa` | Medium
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

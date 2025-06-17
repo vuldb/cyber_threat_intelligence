@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -63,25 +63,27 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/group` | Medium
 6 | File | `/admin/group/list/` | High
 7 | File | `/admin/lab.php` | High
-8 | File | `/appLms/ajax.server.php` | High
-9 | File | `/as/authorization.oauth2` | High
-10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/classes/Users.php?f=save` | High
-12 | File | `/detailed.php` | High
-13 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-14 | File | `/getImage` | Medium
-15 | File | `/goform/AddDnsForward` | High
-16 | File | `/guestmanagement/front.php` | High
-17 | File | `/horde/imp/search.php` | High
-18 | File | `/ipms/imageConvert/image` | High
-19 | File | `/login.php` | Medium
-20 | File | `/LogoStore/search.php` | High
-21 | File | `/manage-apartment.php` | High
-22 | File | `/mics/j_spring_security_check` | High
-23 | File | `/mkshope/login.php` | High
-24 | ... | ... | ...
+8 | File | `/api/wizard/getNetworkStatus` | High
+9 | File | `/app/admin/controller/api/Plugs.php` | High
+10 | File | `/appLms/ajax.server.php` | High
+11 | File | `/as/authorization.oauth2` | High
+12 | File | `/cgi-bin/editBookmark` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/dental_form.php` | High
+15 | File | `/detailed.php` | High
+16 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+17 | File | `/getImage` | Medium
+18 | File | `/goform/AddDnsForward` | High
+19 | File | `/guestmanagement/front.php` | High
+20 | File | `/horde/imp/search.php` | High
+21 | File | `/ipms/imageConvert/image` | High
+22 | File | `/login` | Low
+23 | File | `/login.php` | Medium
+24 | File | `/LogoStore/search.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

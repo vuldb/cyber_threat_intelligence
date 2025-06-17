@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,22 +51,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/template/update` | High
-2 | File | `/ajax.php?action=delete_tenant` | High
-3 | File | `/animalsadd.php` | High
-4 | File | `/api/blade-system/menu/list?updatexml` | High
-5 | File | `/apply/index.php` | High
-6 | File | `/catcompany.php` | High
-7 | File | `/cgi-bin/adm.cgi` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-10 | File | `/cgi-bin/hd_config.cgi` | High
-11 | File | `/eclime/manufacturers.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/DelDhcpRule` | High
-14 | ... | ... | ...
+1 | File | `/?page=reports` | High
+2 | File | `/admin/template/update` | High
+3 | File | `/ajax.php?action=delete_tenant` | High
+4 | File | `/animalsadd.php` | High
+5 | File | `/api/blade-system/menu/list?updatexml` | High
+6 | File | `/Api/FileUploadApi.ashx` | High
+7 | File | `/apply/index.php` | High
+8 | File | `/catcompany.php` | High
+9 | File | `/cgi-bin/adm.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+12 | File | `/cgi-bin/hd_config.cgi` | High
+13 | File | `/eclime/manufacturers.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/gbo.aspx` | Medium
+16 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

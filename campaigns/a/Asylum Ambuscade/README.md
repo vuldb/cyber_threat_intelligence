@@ -21,8 +21,8 @@ These _actors_ are associated with Asylum Ambuscade or other actors linked to th
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+1 | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,45 +76,46 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/ajax.php` | High
 3 | File | `/admin/blood/update/o-.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/robot/approval/list` | High
-8 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-9 | File | `/api/files/recipepictures/` | High
-10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-11 | File | `/app/uploading/upload-mp3.php` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/cgi-bin/adm.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/go` | Medium
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Master.php` | High
-19 | File | `/contact.php` | Medium
-20 | File | `/CPE` | Low
-21 | File | `/dataSet/resolveSql` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/etc/gsissh/sshd_config` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/forum/PostPrivateMessage` | High
-26 | File | `/home/masterConsole` | High
-27 | File | `/index/ajax/lang` | High
-28 | File | `/members/poster.php` | High
-29 | File | `/mics/j_spring_security_check` | High
-30 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/Script/admin/core/update_policy` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/secserver` | Medium
-36 | File | `/Session` | Medium
-37 | File | `/spip.php` | Medium
-38 | File | `/staff_login.php` | High
-39 | File | `/SysInfo1.htm` | High
-40 | ... | ... | ...
+4 | File | `/admin/bookdate.php` | High
+5 | File | `/admin/edit-admin.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/robot/approval/list` | High
+10 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+11 | File | `/api/files/recipepictures/` | High
+12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+13 | File | `/app/uploading/upload-mp3.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/cgi-bin/adm.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/change-password.php` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+22 | File | `/contact.php` | Medium
+23 | File | `/CPE` | Low
+24 | File | `/dataSet/resolveSql` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/formSetPassword` | High
+28 | File | `/goform/setBlackRule` | High
+29 | File | `/index/ajax/lang` | High
+30 | File | `/lms/classes/Master.php?f=save_record` | High
+31 | File | `/login.php` | Medium
+32 | File | `/members/poster.php` | High
+33 | File | `/mics/j_spring_security_check` | High
+34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/pda/workflow/check_seal.php` | High
+37 | File | `/php/ping.php` | High
+38 | File | `/Script/admin/core/update_policy` | High
+39 | File | `/scripts/unlock_tasks.php` | High
+40 | File | `/secserver` | Medium
+41 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

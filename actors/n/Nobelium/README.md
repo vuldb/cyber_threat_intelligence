@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,26 +60,28 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit.php` | High
 2 | File | `/admin/functions.php` | High
 3 | File | `/admin/user/manage_user.php` | High
-4 | File | `/cgi-bin/webadminget.cgi` | High
-5 | File | `/dashboard/updatelogo.php` | High
-6 | File | `/etc/networkd-dispatcher` | High
-7 | File | `/etc/openshift/server_priv.pem` | High
-8 | File | `/etc/shadow.sample` | High
-9 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-12 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-13 | File | `/mkshop/Men/profile.php` | High
-14 | File | `/notice-edit.php` | High
-15 | File | `/Noxen-master/users.php` | High
-16 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/start_apply.htm` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | ... | ... | ...
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/webadminget.cgi` | High
+6 | File | `/dashboard/updatelogo.php` | High
+7 | File | `/etc/networkd-dispatcher` | High
+8 | File | `/etc/openshift/server_priv.pem` | High
+9 | File | `/etc/shadow.sample` | High
+10 | File | `/expense-yearwise-reports-detailed.php` | High
+11 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+14 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+15 | File | `/mkshop/Men/profile.php` | High
+16 | File | `/notice-edit.php` | High
+17 | File | `/Noxen-master/users.php` | High
+18 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+19 | File | `/public/login.htm` | High
+20 | File | `/start_apply.htm` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

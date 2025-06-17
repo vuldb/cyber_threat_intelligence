@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,27 +52,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/file_manager/export` | High
 3 | File | `/admin/index2.html` | High
 4 | File | `/adminPage/conf/reload` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/apply.cgi` | Medium
-10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-11 | File | `/dede/sys_sql_query.php` | High
-12 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/index/ajax/lang` | High
-16 | File | `/log/decodmail.php` | High
-17 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-18 | File | `/log_proxy` | Medium
-19 | File | `/mfsNotice/page` | High
-20 | File | `/novel/bookSetting/list` | High
-21 | File | `/novel/userFeedback/list` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | ... | ... | ...
+5 | File | `/admin_topic.php?action=delall` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/api2/html/` | Medium
+10 | File | `/apply.cgi` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/dede/sys_sql_query.php` | High
+15 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/h/rest` | Low
+19 | File | `/index/ajax/lang` | High
+20 | File | `/log/decodmail.php` | High
+21 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+22 | File | `/log_proxy` | Medium
+23 | File | `/mailcleaner.php/getStats` | High
+24 | File | `/mfsNotice/page` | High
+25 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Syria Unknown:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -76,9 +76,20 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [83.150.200.0](https://vuldb.com/?ip.83.150.200.0) | - | - | High
 54 | [83.229.27.216](https://vuldb.com/?ip.83.229.27.216) | - | - | High
 55 | [84.39.192.0](https://vuldb.com/?ip.84.39.192.0) | - | - | High
-56 | ... | ... | ... | ...
+56 | [84.51.20.128](https://vuldb.com/?ip.84.51.20.128) | host-84-51-20-128.teletektelekom.com | - | High
+57 | [86.107.16.0](https://vuldb.com/?ip.86.107.16.0) | - | - | High
+58 | [88.86.0.0](https://vuldb.com/?ip.88.86.0.0) | - | - | High
+59 | [88.255.102.0](https://vuldb.com/?ip.88.255.102.0) | 88.255.102.0.static.ttnet.com.tr | - | High
+60 | [88.255.102.96](https://vuldb.com/?ip.88.255.102.96) | 88.255.102.96.static.ttnet.com.tr | - | High
+61 | [88.255.102.160](https://vuldb.com/?ip.88.255.102.160) | 88.255.102.160.static.ttnet.com.tr | - | High
+62 | [88.255.102.224](https://vuldb.com/?ip.88.255.102.224) | 88.255.102.224.static.ttnet.com.tr | - | High
+63 | [89.33.56.0](https://vuldb.com/?ip.89.33.56.0) | - | - | High
+64 | [89.33.224.0](https://vuldb.com/?ip.89.33.224.0) | - | - | High
+65 | [89.34.162.0](https://vuldb.com/?ip.89.34.162.0) | - | - | High
+66 | [89.41.138.0](https://vuldb.com/?ip.89.41.138.0) | - | - | High
+67 | ... | ... | ... | ...
 
-There are 221 more IOC items available. Please use our online service to access the data.
+There are 265 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,7 +97,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -104,16 +115,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
 4 | File | `/bin/boa` | Medium
 5 | File | `/cimom` | Low
-6 | File | `/cms/category/list` | High
-7 | ... | ... | ...
+6 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sy.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_sy.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_sy.netset
 * https://otx.alienvault.com/pulse/54c7e17b11d4085eb82e0597
 
@@ -126,4 +137,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

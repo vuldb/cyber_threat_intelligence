@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crypt Ghouls:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CH](https://vuldb.com/?country.ch)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,11 +37,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,53 +50,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/client_user` | High
-3 | File | `/admin/cms_admin.php` | High
-4 | File | `/admin/expense-type` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/role` | Medium
-7 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/api/user/password/sent-reset-email` | High
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/backup.pl` | Medium
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/dayrui/My/View/main.html` | High
-14 | File | `/dipam/athlete-profile.php` | High
-15 | File | `/domains/list` | High
-16 | File | `/donor-wall` | Medium
-17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-21 | File | `/frontend/x3/mail/def.html` | High
-22 | File | `/goform/formSetWizardSelectMode` | High
-23 | File | `/home/cavesConsole` | High
-24 | File | `/home/kickPlayer` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/home/sendBroadcast` | High
-27 | File | `/hrm/controller/employee.php` | High
-28 | File | `/hrm/employeeadd.php` | High
-29 | File | `/hrm/employeeview.php` | High
-30 | File | `/idm/includes/helpServer.jsp` | High
-31 | File | `/index.php/weblinks-categories` | High
-32 | File | `/index/ajax/lang` | High
-33 | File | `/intrams_sams/manage_student.php` | High
-34 | File | `/MicroStrategyWS/` | High
-35 | File | `/model/add_student_subject.php` | High
-36 | File | `/model/update_grade.php` | High
-37 | File | `/model/update_subject.php` | High
-38 | File | `/net-banking/send_funds_action.php` | High
-39 | File | `/out.php` | Medium
-40 | File | `/param.file.tgz` | High
-41 | File | `/paysystem/datatable.php` | High
-42 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-43 | File | `/php-opos/index.php` | High
-44 | File | `/phppath/php` | Medium
-45 | File | `/plain` | Low
-46 | ... | ... | ...
+2 | File | `/admin/?page=reports` | High
+3 | File | `/admin/client_user` | High
+4 | File | `/admin/cms_admin.php` | High
+5 | File | `/admin/expense-type` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/profile.php` | High
+9 | File | `/admin/role` | Medium
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/api/user/password/sent-reset-email` | High
+13 | File | `/b2b-supermarket/shopping-cart` | High
+14 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+15 | File | `/backup.pl` | Medium
+16 | File | `/bsms_ci/index.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/dayrui/My/View/main.html` | High
+19 | File | `/dipam/athlete-profile.php` | High
+20 | File | `/domains/list` | High
+21 | File | `/donor-wall` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
+26 | File | `/frontend/x3/mail/def.html` | High
+27 | File | `/goform/formSetWizardSelectMode` | High
+28 | File | `/home/cavesConsole` | High
+29 | File | `/home/kickPlayer` | High
+30 | File | `/home/masterConsole` | High
+31 | File | `/home/sendBroadcast` | High
+32 | File | `/hrm/controller/employee.php` | High
+33 | File | `/hrm/employeeadd.php` | High
+34 | File | `/hrm/employeeview.php` | High
+35 | File | `/idm/includes/helpServer.jsp` | High
+36 | File | `/index.php/weblinks-categories` | High
+37 | File | `/index/ajax/lang` | High
+38 | File | `/intrams_sams/manage_student.php` | High
+39 | File | `/MicroStrategyWS/` | High
+40 | File | `/model/add_student_subject.php` | High
+41 | File | `/model/update_grade.php` | High
+42 | File | `/model/update_subject.php` | High
+43 | File | `/net-banking/send_funds_action.php` | High
+44 | File | `/out.php` | Medium
+45 | File | `/param.file.tgz` | High
+46 | File | `/paysystem/datatable.php` | High
+47 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+48 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arkei:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [FR](https://vuldb.com/?country.fr)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -38,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,12 +57,13 @@ ID | Type | Indicator | Confidence
 5 | File | `/application/index/common.php` | High
 6 | File | `/cgi-bin/cstecgi.cgi` | High
 7 | File | `/farm/product.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/goform/formEasySetupWWConfig` | High
-10 | File | `/manage_user.php` | High
-11 | ... | ... | ...
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform/formEasySetupWWConfig` | High
+11 | File | `/manage_user.php` | High
+12 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

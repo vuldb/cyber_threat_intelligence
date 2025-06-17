@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -56,41 +56,43 @@ ID | Type | Indicator | Confidence
 4 | File | `/app/options.py` | High
 5 | File | `/application/common.php#action_log` | High
 6 | File | `/apply.cgi` | Medium
-7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/changeimage.php` | High
-12 | File | `/cwc/login` | Medium
-13 | File | `/debuginfo.htm` | High
-14 | File | `/download` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/quagga` | Medium
-17 | File | `/etc/shadow` | Medium
-18 | File | `/forms/doLogin` | High
-19 | File | `/goform/L7Im` | Medium
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/h/calendar` | Medium
-22 | File | `/icingaweb2/navigation/add` | High
-23 | File | `/inc/extensions.php` | High
-24 | File | `/mhds/clinic/view_details.php` | High
-25 | File | `/netflow/jspui/editProfile.jsp` | High
-26 | File | `/nova/bin/console` | High
-27 | File | `/nova/bin/detnet` | High
-28 | File | `/out.php` | Medium
-29 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-30 | File | `/php/ping.php` | High
-31 | File | `/rapi/read_url` | High
-32 | File | `/req_password_user.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/ServletAPI/accounts/login` | High
-37 | File | `/setNTP.cgi` | Medium
-38 | File | `/student/bookdetails.php` | High
-39 | ... | ... | ...
+7 | File | `/auth_files/photo/` | High
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/changeimage.php` | High
+14 | File | `/cwc/login` | Medium
+15 | File | `/debuginfo.htm` | High
+16 | File | `/download` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/etc/quagga` | Medium
+19 | File | `/etc/shadow` | Medium
+20 | File | `/forms/doLogin` | High
+21 | File | `/goform/L7Im` | Medium
+22 | File | `/h/autoSaveDraft` | High
+23 | File | `/h/calendar` | Medium
+24 | File | `/icingaweb2/navigation/add` | High
+25 | File | `/inc/extensions.php` | High
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/netflow/jspui/editProfile.jsp` | High
+28 | File | `/nova/bin/console` | High
+29 | File | `/nova/bin/detnet` | High
+30 | File | `/out.php` | Medium
+31 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+32 | File | `/php/ping.php` | High
+33 | File | `/rapi/read_url` | High
+34 | File | `/req_password_user.php` | High
+35 | File | `/rom-0` | Low
+36 | File | `/scripts/unlock_tasks.php` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/ServletAPI/accounts/login` | High
+39 | File | `/setNTP.cgi` | Medium
+40 | File | `/spip.php` | Medium
+41 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

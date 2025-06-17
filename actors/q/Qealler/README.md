@@ -38,11 +38,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,50 +53,52 @@ ID | Type | Indicator | Confidence
 1 | File | `.procmailrc` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/.env` | Low
-4 | File | `/?Key=PhoneRequestAuthorization` | High
+4 | File | `/?ajax-request=jnews` | High
 5 | File | `/Admin/login.php` | High
 6 | File | `/api/blade-user/export-user` | High
-7 | File | `/api/swaggerui/static` | High
-8 | File | `/api/v1/users/{user_name_or_id}/activate` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/bin/boa` | Medium
-11 | File | `/cachesys/csp` | High
-12 | File | `/cas/logout` | Medium
-13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/context.json` | High
-19 | File | `/core/vb/vurl.php` | High
-20 | File | `/dashboard/snapshot/*?orgId=0` | High
-21 | File | `/dl/dl_print.php` | High
-22 | File | `/export` | Low
-23 | File | `/file?action=download&file` | High
-24 | File | `/foms/routers/place-order.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/gaia-job-admin/user/add` | High
-27 | File | `/home.jsp` | Medium
-28 | File | `/hrm/controller/employee.php` | High
-29 | File | `/icingaweb2/navigation/add` | High
-30 | File | `/importexport.php` | High
-31 | File | `/include/chart_generator.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/iwgallery/pictures/details.asp` | High
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/log/download.php` | High
-36 | File | `/login` | Low
-37 | File | `/loginsave.php` | High
-38 | File | `/LogoStore/search.php` | High
-39 | File | `/maint/index.php` | High
-40 | File | `/MTFWU` | Low
-41 | File | `/new` | Low
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-44 | File | `/pf/idprofile.ping` | High
-45 | ... | ... | ...
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/swaggerui/static` | High
+9 | File | `/api/v1/users/{user_name_or_id}/activate` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/cachesys/csp` | High
+13 | File | `/cas/logout` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+18 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/common/info.cgi` | High
+22 | File | `/context.json` | High
+23 | File | `/core/vb/vurl.php` | High
+24 | File | `/dashboard/snapshot/*?orgId=0` | High
+25 | File | `/dl/dl_print.php` | High
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/export` | Low
+28 | File | `/foms/routers/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/gaia-job-admin/user/add` | High
+31 | File | `/home.jsp` | Medium
+32 | File | `/hrm/controller/employee.php` | High
+33 | File | `/icingaweb2/navigation/add` | High
+34 | File | `/importexport.php` | High
+35 | File | `/include/chart_generator.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/iwgallery/pictures/details.asp` | High
+38 | File | `/librarian/bookdetails.php` | High
+39 | File | `/log/download.php` | High
+40 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+41 | File | `/login` | Low
+42 | File | `/loginsave.php` | High
+43 | File | `/LogoStore/search.php` | High
+44 | File | `/MTFWU` | Low
+45 | File | `/new` | Low
+46 | File | `/oauth/idp/.well-known/openid-configuration` | High
+47 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

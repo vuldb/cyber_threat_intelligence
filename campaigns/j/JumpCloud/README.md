@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,35 +60,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/abcd/opac/php/otros_sitios.php` | High
 2 | File | `/add-students.php` | High
-3 | File | `/addcategory.php` | High
-4 | File | `/addcompany.php` | High
-5 | File | `/addcustcom.php` | High
-6 | File | `/addcustind.php` | High
-7 | File | `/addproduct.php` | High
+3 | File | `/add-subadmin.php` | High
+4 | File | `/addcategory.php` | High
+5 | File | `/addcompany.php` | High
+6 | File | `/addcustcom.php` | High
+7 | File | `/addcustind.php` | High
 8 | File | `/addstock.php` | High
 9 | File | `/add_new_invoice.php` | High
-10 | File | `/admin/?page=musics/manage_music` | High
-11 | File | `/admin/?page=reports` | High
-12 | File | `/Admin/adminlogin.php` | High
-13 | File | `/admin/ajax.php?action=login` | High
-14 | File | `/Admin/akun_edit.php` | High
-15 | File | `/admin/apply.php` | High
-16 | File | `/admin/blood/update/o-.php` | High
-17 | File | `/admin/categories/manage_category.php` | High
-18 | File | `/admin/config_time_sync.php` | High
-19 | File | `/admin/create-package.php` | High
-20 | File | `/admin/doAdminAction.php?act=addCate` | High
-21 | File | `/admin/edit-brand.php` | High
-22 | File | `/admin/edit-card-detail.php` | High
-23 | File | `/admin/emp-profile-avatar.php` | High
-24 | File | `/admin/forgot-password.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/index.php?page=manage_product` | High
-27 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-28 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
-29 | File | `/admin/index.php?r=user%2Fcreate` | High
-30 | File | `/admin/login.php` | High
-31 | File | `/admin/mod_room/controller.php?action=add` | High
+10 | File | `/add_user.php` | High
+11 | File | `/admin/?page=musics/manage_music` | High
+12 | File | `/admin/?page=reports` | High
+13 | File | `/Admin/adminlogin.php` | High
+14 | File | `/admin/ajax.php?action=login` | High
+15 | File | `/Admin/akun_edit.php` | High
+16 | File | `/admin/apply.php` | High
+17 | File | `/admin/blood/update/o-.php` | High
+18 | File | `/admin/categories/manage_category.php` | High
+19 | File | `/admin/config_time_sync.php` | High
+20 | File | `/admin/content/editor` | High
+21 | File | `/admin/create-package.php` | High
+22 | File | `/admin/doAdminAction.php?act=addCate` | High
+23 | File | `/admin/edit-brand.php` | High
+24 | File | `/admin/edit-card-detail.php` | High
+25 | File | `/admin/emp-profile-avatar.php` | High
+26 | File | `/admin/forgot-password.php` | High
+27 | File | `/admin/index.php` | High
+28 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+29 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+30 | File | `/admin/index.php?r=user%2Fcreate` | High
+31 | File | `/admin/login.php` | High
 32 | File | `/admin/password-recovery.php` | High
 33 | File | `/admin/process_category_edit.php` | High
 34 | File | `/admin/profile.php` | High
@@ -98,69 +98,56 @@ ID | Type | Indicator | Confidence
 38 | File | `/admin/search-invoices.php` | High
 39 | File | `/admin/search-medicalcard.php` | High
 40 | File | `/admin/system.html` | High
-41 | File | `/admin/view-card-detail.php` | High
-42 | File | `/admin/view-enquiry.php` | High
-43 | File | `/adminPage/conf/saveCmd` | High
-44 | File | `/admin_class.php` | High
-45 | File | `/ajax.php?action=delete_deductions` | High
-46 | File | `/ajax.php?action=login` | High
-47 | File | `/ajax/checkin.php` | High
-48 | File | `/ajax/get_patient_history.php` | High
-49 | File | `/animalsupdate.php` | High
-50 | File | `/apply.cgi` | Medium
-51 | File | `/assoc_table.php` | High
-52 | File | `/authMonitCallcenter` | High
-53 | File | `/backend/doc/his_doc_update-account.php` | High
-54 | File | `/cgi-bin/apkg_mgr.cgi` | High
-55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-57 | File | `/cgi-bin/hd_config.cgi` | High
-58 | File | `/cgi-bin/myMusic.cgi` | High
-59 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-60 | File | `/classes/Master.php` | High
-61 | File | `/classes/Master.php?f=delete_category` | High
-62 | File | `/classes/Master.php?f=delete_record` | High
-63 | File | `/classes/SystemSettings.php?f=update_settings` | High
-64 | File | `/classes/Users.php?f=save` | High
-65 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
-66 | File | `/common/show_image.php` | High
-67 | File | `/control/forgot_pass.php` | High
-68 | File | `/control/login.php` | High
-69 | File | `/controllers/logincontrol.php` | High
-70 | File | `/deal/{note_id}/note` | High
-71 | File | `/deletebird.php` | High
-72 | File | `/detailed.php` | High
-73 | File | `/diag_s.php` | Medium
-74 | File | `/dtale/chart-data/1` | High
-75 | File | `/E-Insurance/` | High
-76 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-77 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-78 | File | `/endpoint/add-folder.php` | High
-79 | File | `/endpoint/delete-account.php` | High
-80 | File | `/etc/shadow.sample` | High
-81 | File | `/expedit.php` | Medium
-82 | File | `/export` | Low
-83 | File | `/filter.php` | Medium
-84 | File | `/forget.php` | Medium
-85 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
-86 | File | `/general/approve_center/query/list/input_form/delete_data_attach.php` | High
-87 | File | `/goform/AddDnsForward` | High
-88 | File | `/goform/addIpMacBind` | High
-89 | File | `/goform/addressNat` | High
-90 | File | `/goform/AdvSetMacMtuWan` | High
-91 | File | `/goform/apPortalAccessCodeAuth` | High
-92 | File | `/goform/apPortalAuth` | High
-93 | File | `/goform/apPortalOneKeyAuth` | High
-94 | File | `/goform/apPortalPhoneAuth` | High
-95 | File | `/goform/ate` | Medium
-96 | File | `/goform/DelDhcpRule` | High
-97 | File | `/goform/delIpMacBind` | High
-98 | File | `/goform/DelPortMapping` | High
-99 | File | `/goform/DhcpListClient` | High
-100 | File | `/goform/DhcpSetSe` | High
-101 | ... | ... | ...
+41 | File | `/admin/twitter.php` | High
+42 | File | `/admin/view-card-detail.php` | High
+43 | File | `/admin/view-enquiry.php` | High
+44 | File | `/adminPage/conf/saveCmd` | High
+45 | File | `/admin_class.php` | High
+46 | File | `/ajax.php?action=delete_deductions` | High
+47 | File | `/ajax.php?action=login` | High
+48 | File | `/ajax/checkin.php` | High
+49 | File | `/ajax/get_patient_history.php` | High
+50 | File | `/animalsupdate.php` | High
+51 | File | `/api/workspace/:workspace-slug/update` | High
+52 | File | `/app/controller/Api.php` | High
+53 | File | `/apply.cgi` | Medium
+54 | File | `/authMonitCallcenter` | High
+55 | File | `/backend/doc/his_doc_update-account.php` | High
+56 | File | `/cgi-bin/apkg_mgr.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+59 | File | `/cgi-bin/hd_config.cgi` | High
+60 | File | `/cgi-bin/lighttpd.cgi` | High
+61 | File | `/cgi-bin/myMusic.cgi` | High
+62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+63 | File | `/classes/Master.php?f=delete_category` | High
+64 | File | `/classes/Master.php?f=delete_record` | High
+65 | File | `/classes/SystemSettings.php?f=update_settings` | High
+66 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
+67 | File | `/common/show_image.php` | High
+68 | File | `/control/forgot_pass.php` | High
+69 | File | `/control/login.php` | High
+70 | File | `/controllers/logincontrol.php` | High
+71 | File | `/customnode/install` | High
+72 | File | `/deal/{note_id}/note` | High
+73 | File | `/deletebird.php` | High
+74 | File | `/detailed.php` | High
+75 | File | `/dtale/chart-data/1` | High
+76 | File | `/E-Insurance/` | High
+77 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+78 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+79 | File | `/endpoint/add-folder.php` | High
+80 | File | `/endpoint/delete-account.php` | High
+81 | File | `/etc/shadow.sample` | High
+82 | File | `/expedit.php` | Medium
+83 | File | `/export` | Low
+84 | File | `/filter.php` | Medium
+85 | File | `/fladmin/sysconfig_doedit.php` | High
+86 | File | `/forget.php` | Medium
+87 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
+88 | ... | ... | ...
 
-There are 896 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 778 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -177,4 +164,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

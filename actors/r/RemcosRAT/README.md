@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,17 +28,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.90.89.50](https://vuldb.com/?ip.45.90.89.50) | mail.xhhjxx.com | CVE-2017-0199 | High
-2 | [76.76.21.22](https://vuldb.com/?ip.76.76.21.22) | - | CVE-2017-0199 | High
-3 | [76.76.21.93](https://vuldb.com/?ip.76.76.21.93) | - | CVE-2017-0199 | High
-4 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | CVE-2017-0199 | High
-5 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
-6 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
-7 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
-8 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
-9 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
-10 | ... | ... | ... | ...
+2 | [62.60.226.165](https://vuldb.com/?ip.62.60.226.165) | - | - | High
+3 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
+4 | [67.217.240.53](https://vuldb.com/?ip.67.217.240.53) | ip67-217-240-53.pbiaas.com | - | High
+5 | [74.208.45.193](https://vuldb.com/?ip.74.208.45.193) | ip74-208-45-193.pbiaas.com | - | High
+6 | [76.76.21.22](https://vuldb.com/?ip.76.76.21.22) | - | CVE-2017-0199 | High
+7 | [76.76.21.93](https://vuldb.com/?ip.76.76.21.93) | - | CVE-2017-0199 | High
+8 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | CVE-2017-0199 | High
+9 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
+10 | [87.121.79.22](https://vuldb.com/?ip.87.121.79.22) | - | - | High
+11 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
+12 | [91.219.151.227](https://vuldb.com/?ip.91.219.151.227) | s1211027.smartape-vps.com | - | High
+13 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
+14 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
+15 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,10 +57,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,63 +67,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?r=recruit/resume/edit&op=status` | High
-2 | File | `/admin/attendance_row.php` | High
-3 | File | `/admin/cms_content.php` | High
-4 | File | `/admin/deduction_row.php` | High
-5 | File | `/admin/departments/manage_department.php` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/invoice.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/reportupload.aspx` | High
-12 | File | `/admin/return_add.php` | High
-13 | File | `/admin/sales/view_details.php` | High
-14 | File | `/admin/service_requests/manage_inventory.php` | High
-15 | File | `/admin/sys_sql_query.php` | High
-16 | File | `/admin/transactions/track_shipment.php` | High
-17 | File | `/admin/upload.php` | High
-18 | File | `/adminPage/conf/reload` | High
-19 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
-20 | File | `/ajax.php?action=read_msg` | High
-21 | File | `/api/baskets/{name}` | High
-22 | File | `/api/cron/settings/setJob/` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api2/html/` | Medium
-25 | File | `/application/index/controller/Databasesource.php` | High
-26 | File | `/application/index/controller/File.php` | High
-27 | File | `/application/plugins/controller/Upload.php` | High
-28 | File | `/author_posts.php` | High
-29 | File | `/be/rpc.php` | Medium
-30 | File | `/blog` | Low
-31 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-34 | File | `/cgi-bin/login.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/cgi-bin/nightled.cgi` | High
-37 | File | `/cgi-bin/system_mgr.cgi` | High
-38 | File | `/cgi-bin/vitogate.cgi` | High
-39 | File | `/classes/Login.php` | High
-40 | File | `/classes/Master.php?f=delete_category` | High
-41 | File | `/classes/Master.php?f=delete_inquiry` | High
-42 | File | `/classes/Master.php?f=delete_item` | High
-43 | File | `/classes/master.php?f=delete_order` | High
-44 | File | `/classes/Master.php? f=save_medicine` | High
-45 | File | `/classes/Master.php?f=save_service` | High
-46 | File | `/classes/SystemSettings.php?f=update_settings` | High
-47 | File | `/classes/Users.php?f=save` | High
-48 | File | `/collection/all` | High
-49 | File | `/config` | Low
-50 | File | `/control/register_case.php` | High
-51 | File | `/Controller/Ajaxfileupload.ashx` | High
-52 | File | `/core/config-revisions` | High
-53 | File | `/cupseasylive/currencylist.php` | High
-54 | File | `/cupseasylive/grnlist.php` | High
-55 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/cms_content.php` | High
+3 | File | `/admin/departments/manage_department.php` | High
+4 | File | `/admin/file_manager/export` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/invoice.php` | High
+8 | File | `/admin/quote-details.php` | High
+9 | File | `/admin/return_add.php` | High
+10 | File | `/admin/sales/view_details.php` | High
+11 | File | `/admin/sys_sql_query.php` | High
+12 | File | `/admin/upload.php` | High
+13 | File | `/adminPage/conf/reload` | High
+14 | File | `/admin_topic.php?action=delall` | High
+15 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/cron/settings/setJob/` | High
+18 | File | `/api/sys/login` | High
+19 | File | `/api/wizard/setsyncpppoecfg` | High
+20 | File | `/api2/html/` | Medium
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/application/index/controller/File.php` | High
+23 | File | `/application/plugins/controller/Upload.php` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+26 | File | `/backend/admin/his_admin_register_patient.php` | High
+27 | File | `/be/rpc.php` | Medium
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+32 | File | `/cgi-bin/login.cgi` | High
+33 | File | `/cgi-bin/nas_sharing.cgi` | High
+34 | File | `/cgi-bin/sysconf.cgi` | High
+35 | File | `/cgi-bin/system_mgr.cgi` | High
+36 | File | `/cgi-bin/vitogate.cgi` | High
+37 | File | `/classes/Master.php?f=delete_category` | High
+38 | File | `/classes/master.php?f=delete_order` | High
+39 | File | `/classes/Master.php? f=save_medicine` | High
+40 | File | `/classes/SystemSettings.php?f=update_settings` | High
+41 | File | `/collection/all` | High
+42 | File | `/control/register_case.php` | High
+43 | File | `/Controller/Ajaxfileupload.ashx` | High
+44 | File | `/core/config-revisions` | High
+45 | File | `/cupseasylive/currencylist.php` | High
+46 | File | `/cupseasylive/grnlist.php` | High
+47 | File | `/cupseasylive/locationmodify.php` | High
+48 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
+49 | ... | ... | ...
 
-There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +128,39 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/66463/
 * https://blog.morphisec.com/unveiling-uac-0184-the-remcos-rat-steganography-saga
 * https://cert.gov.ua/article/6276567
+* https://urlhaus.abuse.ch/url/3519411/
+* https://urlhaus.abuse.ch/url/3522567/
+* https://urlhaus.abuse.ch/url/3526358/
+* https://urlhaus.abuse.ch/url/3527469/
+* https://urlhaus.abuse.ch/url/3528150/
+* https://urlhaus.abuse.ch/url/3544532/
+* https://urlhaus.abuse.ch/url/3545199/
+* https://urlhaus.abuse.ch/url/3547362/
+* https://urlhaus.abuse.ch/url/3547363/
+* https://urlhaus.abuse.ch/url/3547372/
+* https://urlhaus.abuse.ch/url/3547842/
+* https://urlhaus.abuse.ch/url/3547944/
+* https://urlhaus.abuse.ch/url/3550882/
+* https://urlhaus.abuse.ch/url/3551741/
+* https://urlhaus.abuse.ch/url/3551831/
+* https://urlhaus.abuse.ch/url/3552964/
+* https://urlhaus.abuse.ch/url/3553407/
+* https://urlhaus.abuse.ch/url/3553711/
+* https://urlhaus.abuse.ch/url/3555585/
+* https://urlhaus.abuse.ch/url/3555679/
+* https://urlhaus.abuse.ch/url/3556114/
+* https://urlhaus.abuse.ch/url/3556613/
+* https://urlhaus.abuse.ch/url/3556628/
+* https://urlhaus.abuse.ch/url/3556672/
+* https://urlhaus.abuse.ch/url/3556693/
+* https://urlhaus.abuse.ch/url/3556791/
+* https://urlhaus.abuse.ch/url/3557923/
+* https://urlhaus.abuse.ch/url/3558175/
+* https://urlhaus.abuse.ch/url/3559203/
+* https://urlhaus.abuse.ch/url/3559804/
+* https://urlhaus.abuse.ch/url/3560170/
+* https://urlhaus.abuse.ch/url/3561754/
+* https://urlhaus.abuse.ch/url/3562120/
 * https://www.esentire.com/blog/from-onlydcratfans-to-remcosrat
 * https://www.forcepoint.com/blog/x-labs/url-shortener-microsoft-word-remcos-rat-trojan
 * https://www.malware-traffic-analysis.net/2024/09/11/index.html
@@ -144,4 +176,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -70,13 +70,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,49 +83,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/general.cgi` | High
-2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/API/info` | Medium
-4 | File | `/CCMAdmin/serverlist.asp` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/csms/admin/inquiries/view_details.php` | High
-7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/dashboard/updatelogo.php` | High
-9 | File | `/ecommerce/support_ticket` | High
-10 | File | `/etc/openshift/server_priv.pem` | High
-11 | File | `/files.md5` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/home/search` | Medium
-14 | File | `/hrm/employeeview.php` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/licenses` | Medium
-19 | File | `/members/view_member.php` | High
-20 | File | `/messageboard/view.php` | High
-21 | File | `/mhds/clinic/view_details.php` | High
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/Noxen-master/users.php` | High
-24 | File | `/one_church/userregister.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/rest/api/latest/projectvalidate/key` | High
-28 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-29 | File | `/SASWebReportStudio/logonAndRender.do` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-32 | File | `/textpattern/index.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upfile.cgi` | Medium
-35 | File | `/v2/quantum/save-data-upload-big-file` | High
-36 | File | `/wordpress/wp-admin/admin.php` | High
-37 | File | `/_vti_bin/_vti_log` | High
-38 | File | `4.edu.php` | Medium
-39 | File | `account_footer.php` | High
-40 | File | `adclick.php` | Medium
-41 | ... | ... | ...
+1 | File | `/admin/category/controller.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/reminders/manage_reminder.php` | High
+5 | File | `/API/info` | Medium
+6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+7 | File | `/Bloodgroop_process.php` | High
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+10 | File | `/cgi/get_param.cgi` | High
+11 | File | `/csms/admin/inquiries/view_details.php` | High
+12 | File | `/cstecgi.cgi` | Medium
+13 | File | `/dashboard/updatelogo.php` | High
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/etc/openshift/server_priv.pem` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/home/search` | Medium
+18 | File | `/hrm/employeeview.php` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/licenses` | Medium
+23 | File | `/members/view_member.php` | High
+24 | File | `/messageboard/view.php` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/Noxen-master/users.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/rest/api/latest/projectvalidate/key` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+33 | File | `/textpattern/index.php` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upfile.cgi` | Medium
+36 | File | `/webui/modules/log/operate.mds` | High
+37 | File | `/wordpress/wp-admin/admin.php` | High
+38 | File | `/wuser/anyUserBoundHouse.php` | High
+39 | File | `/_vti_bin/_vti_log` | High
+40 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,4 +152,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

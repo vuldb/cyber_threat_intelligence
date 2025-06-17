@@ -48,9 +48,14 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [94.125.138.0](https://vuldb.com/?ip.94.125.138.0) | - | - | High
 26 | [94.125.140.0](https://vuldb.com/?ip.94.125.140.0) | - | - | High
 27 | [94.142.206.0](https://vuldb.com/?ip.94.142.206.0) | - | - | High
-28 | ... | ... | ... | ...
+28 | [102.38.225.0](https://vuldb.com/?ip.102.38.225.0) | - | - | High
+29 | [104.28.8.1](https://vuldb.com/?ip.104.28.8.1) | - | - | High
+30 | [104.28.8.2](https://vuldb.com/?ip.104.28.8.2) | - | - | High
+31 | [104.28.34.4](https://vuldb.com/?ip.104.28.34.4) | - | - | High
+32 | [104.28.42.0](https://vuldb.com/?ip.104.28.42.0) | - | - | High
+33 | ... | ... | ... | ...
 
-There are 110 more IOC items available. Please use our online service to access the data.
+There are 129 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,7 +88,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/control/register_case.php` | High
 11 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

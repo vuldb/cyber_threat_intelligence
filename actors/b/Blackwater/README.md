@@ -35,12 +35,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,38 +53,44 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/Actions.php?a=login` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/app/login_crud.php` | High
-7 | File | `/admin/app/product.php` | High
-8 | File | `/admin/app/service_crud.php` | High
-9 | File | `/admin/blood/update/o-.php` | High
-10 | File | `/admin/category/view_category.php` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/googleads.php` | High
-13 | File | `/admin/list_ipAddressPolicy.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/Admin/login.php` | High
-16 | File | `/admin/pages/update_go.php` | High
-17 | File | `/admin/profile.php` | High
-18 | File | `/admin/reg.php` | High
-19 | File | `/admin/renewaldue.php` | High
-20 | File | `/admin/search.php` | High
-21 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-22 | File | `/ajax` | Low
-23 | File | `/analysisProject/pagingQueryData` | High
-24 | File | `/api/sys/login` | High
-25 | File | `/app/ajax/search_sales_report.php` | High
-26 | File | `/app/middleware/TokenVerify.php` | High
-27 | File | `/application/index/controller/Databasesource.php` | High
-28 | File | `/application/index/controller/Screen.php` | High
-29 | File | `/bin/boa` | Medium
-30 | File | `/booking/show_bookings/` | High
-31 | File | `/cancel.php` | Medium
-32 | File | `/cgi-bin/adm.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | ... | ... | ...
+5 | File | `/add_new_invoice.php` | High
+6 | File | `/add_new_supplier.php` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/app/login_crud.php` | High
+9 | File | `/admin/app/product.php` | High
+10 | File | `/admin/app/service_crud.php` | High
+11 | File | `/admin/blood/update/o-.php` | High
+12 | File | `/admin/category/view_category.php` | High
+13 | File | `/admin/edit.php` | High
+14 | File | `/admin/googleads.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/list_ipAddressPolicy.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/Admin/login.php` | High
+19 | File | `/admin/massage.php` | High
+20 | File | `/admin/menu_save.php` | High
+21 | File | `/admin/pages/update_go.php` | High
+22 | File | `/admin/profile.php` | High
+23 | File | `/admin/reg.php` | High
+24 | File | `/admin/renewaldue.php` | High
+25 | File | `/admin/search.php` | High
+26 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+27 | File | `/ajax` | Low
+28 | File | `/analysisProject/pagingQueryData` | High
+29 | File | `/api/sys/login` | High
+30 | File | `/app/ajax/search_sales_report.php` | High
+31 | File | `/app/middleware/TokenVerify.php` | High
+32 | File | `/application/index/controller/Databasesource.php` | High
+33 | File | `/application/index/controller/Screen.php` | High
+34 | File | `/bin/boa` | Medium
+35 | File | `/booking/show_bookings/` | High
+36 | File | `/cancel.php` | Medium
+37 | File | `/cgi-bin/adm.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+40 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

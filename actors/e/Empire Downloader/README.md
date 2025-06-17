@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ME](https://vuldb.com/?country.me)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.52.36.101](https://vuldb.com/?ip.13.52.36.101) | ec2-13-52-36-101.us-west-1.compute.amazonaws.com | - | Medium
-2 | [18.221.226.193](https://vuldb.com/?ip.18.221.226.193) | ec2-18-221-226-193.us-east-2.compute.amazonaws.com | - | Medium
-3 | [20.102.61.215](https://vuldb.com/?ip.20.102.61.215) | - | - | High
-4 | ... | ... | ... | ...
+1 | [3.10.19.221](https://vuldb.com/?ip.3.10.19.221) | ec2-3-10-19-221.eu-west-2.compute.amazonaws.com | - | Medium
+2 | [13.48.48.93](https://vuldb.com/?ip.13.48.48.93) | ec2-13-48-48-93.eu-north-1.compute.amazonaws.com | - | Medium
+3 | [13.52.36.101](https://vuldb.com/?ip.13.52.36.101) | ec2-13-52-36-101.us-west-1.compute.amazonaws.com | - | Medium
+4 | [16.171.153.139](https://vuldb.com/?ip.16.171.153.139) | ec2-16-171-153-139.eu-north-1.compute.amazonaws.com | - | Medium
+5 | [16.171.198.229](https://vuldb.com/?ip.16.171.198.229) | ec2-16-171-198-229.eu-north-1.compute.amazonaws.com | - | Medium
+6 | [18.221.226.193](https://vuldb.com/?ip.18.221.226.193) | ec2-18-221-226-193.us-east-2.compute.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +37,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,23 +59,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/new-content` | High
 7 | File | `/api/v1/snapshots` | High
 8 | File | `/aqpg/users/login.php` | High
-9 | File | `/backups/` | Medium
-10 | File | `/bcms/admin/?page=user/list` | High
-11 | File | `/CCMAdmin/serverlist.asp` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/classes/Users.php?f=save` | High
-14 | File | `/cwms/admin/?page=articles/view_article/` | High
-15 | File | `/cwms/classes/Master.php?f=save_contact` | High
-16 | File | `/goform/RgDdns` | High
-17 | File | `/goform/RgDhcp` | High
-18 | File | `/goform/RGFirewallEL` | High
-19 | File | `/goform/RgTime` | High
-20 | File | `/goform/RgUrlBlock.asp` | High
-21 | File | `/goform/wlanPrimaryNetwork` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | ... | ... | ...
+9 | File | `/asms/products/view_product.php` | High
+10 | File | `/backups/` | Medium
+11 | File | `/bcms/admin/?page=user/list` | High
+12 | File | `/CCMAdmin/serverlist.asp` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/editBookmark` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/cwms/admin/?page=articles/view_article/` | High
+17 | File | `/cwms/classes/Master.php?f=save_contact` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+20 | File | `/goform/RgDdns` | High
+21 | File | `/goform/RgDhcp` | High
+22 | File | `/goform/RGFirewallEL` | High
+23 | File | `/goform/RgTime` | High
+24 | File | `/goform/RgUrlBlock.asp` | High
+25 | File | `/goform/wlanPrimaryNetwork` | High
+26 | File | `/index.php?case=database&act=backAll&admin_dir=admin&site=default` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/member/soft_add.php` | High
+29 | File | `/mims/app/addcustomerHandler.php` | High
+30 | File | `/mims/login.php` | High
+31 | File | `/mnotice.php?id=2` | High
+32 | File | `/one_church/churchprofile.php` | High
+33 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,6 +93,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://threatfox.abuse.ch
 * https://twitter.com/Malwar3Ninja/status/1448234445920563200
+* https://www.shodan.io/host/178.128.220.125#80
 
 ## Literature
 
@@ -90,4 +104,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

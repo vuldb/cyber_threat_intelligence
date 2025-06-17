@@ -14,9 +14,12 @@ The following _campaigns_ are known and can be associated with UNC5820:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC5820:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.32.41.202](https://vuldb.com/?ip.45.32.41.202) | 45.32.41.202.vultrusercontent.com | CVE-2024-47575 | Medium
-2 | [48.32.41.202](https://vuldb.com/?ip.48.32.41.202) | - | CVE-2024-47575 | High
-3 | [104.238.141.143](https://vuldb.com/?ip.104.238.141.143) | 104.238.141.143.vultrusercontent.com | CVE-2024-47575 | Medium
+2 | [45.32.63.2](https://vuldb.com/?ip.45.32.63.2) | 45.32.63.2.vultrusercontent.com | CVE-2024-47575 | Medium
+3 | [48.32.41.202](https://vuldb.com/?ip.48.32.41.202) | - | CVE-2024-47575 | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,18 +53,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/includes/decorators/global-translations.jsp` | High
-3 | File | `cgi-bin/MANGA/admin.cgi` | High
-4 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/blood/update/o-.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+5 | File | `/api/v1/credentials/id` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://socradar.io/fortimanager-zero-day-fortijump-is-now-publicly-addressed-cve-2024-47575/
 * https://www.picussecurity.com/resource/blog/cve-2024-47575-fortimanager-missing-authentication-zero-day-vulnerability-explained
+* https://www.securonix.com/blog/details-and-guidance-on-new-fortijump-vulnerability-or-cve-2024-47575/
 
 ## Literature
 
@@ -72,4 +80,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

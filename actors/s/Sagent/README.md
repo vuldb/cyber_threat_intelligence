@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,26 +60,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/dev/dri/card1` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/integrations.json` | High
-5 | File | `/login/bin/set_param` | High
-6 | File | `/mims/app/addcustomerHandler.php` | High
-7 | File | `/nidp/app/login` | High
-8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/webconsole/APIController` | High
-11 | File | `1.user.php` | Medium
-12 | File | `adclick.php` | Medium
-13 | File | `admin.jcomments.php` | High
-14 | File | `admin/batch_manager_unit.php` | High
-15 | File | `admin/index.php` | High
-16 | File | `admin/user.php?form=update_f&user_name` | High
-17 | File | `admincp.php` | Medium
-18 | File | `ajaxServerSettingsChk.php` | High
-19 | File | `app/system/language/admin/language_general.class.php` | High
+3 | File | `/DXR.axd` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/integrations.json` | High
+6 | File | `/login/bin/set_param` | High
+7 | File | `/mims/app/addcustomerHandler.php` | High
+8 | File | `/nidp/app/login` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/webconsole/APIController` | High
+12 | File | `1.user.php` | Medium
+13 | File | `adclick.php` | Medium
+14 | File | `admin.jcomments.php` | High
+15 | File | `admin/batch_manager_unit.php` | High
+16 | File | `admin/index.php` | High
+17 | File | `admin/user.php?form=update_f&user_name` | High
+18 | File | `admincp.php` | Medium
+19 | File | `ajaxServerSettingsChk.php` | High
 20 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

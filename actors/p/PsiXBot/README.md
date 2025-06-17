@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -76,43 +76,43 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/cms_content.php` | High
 15 | File | `/admin/conferences/list/` | High
 16 | File | `/admin/court` | Medium
-17 | File | `/admin/div_data/delete?divId=9` | High
-18 | File | `/admin/edit-doc.php` | High
-19 | File | `/admin/edit_teacher.php` | High
-20 | File | `/admin/educloud/videobind.html` | High
-21 | File | `/admin/employee/controller.php` | High
-22 | File | `/admin/employee/index.php` | High
-23 | File | `/admin/index.php` | High
-24 | File | `/admin/index.php?page=categories` | High
-25 | File | `/admin/index.php?page=manage_product` | High
-26 | File | `/admin/ind_backstage.php` | High
-27 | File | `/admin/login.php` | High
-28 | File | `/admin/maintenance/view_designation.php` | High
-29 | File | `/admin/pages/student-print.php` | High
-30 | File | `/admin/pages/subjects.php` | High
-31 | File | `/admin/return_add.php` | High
-32 | File | `/admin/search.php` | High
-33 | File | `/admin/service.php` | High
-34 | File | `/admin/students.php` | High
-35 | File | `/admin/system.html` | High
-36 | File | `/admin/sys_sql_query.php` | High
-37 | File | `/admin/template/update` | High
-38 | File | `/admin/update_s6.php` | High
-39 | File | `/admin/users.php` | High
-40 | File | `/admin/vacancy/index.php` | High
-41 | File | `/admin/view_sendlist.php` | High
-42 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-43 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-44 | File | `/admin_ping.htm` | High
-45 | File | `/adplanet/PlanetCommentList` | High
-46 | File | `/ajax.php?action=read_msg` | High
-47 | File | `/api/admin/store/product/list` | High
-48 | File | `/api/client/editemedia.php` | High
-49 | File | `/api/controllers/common/UploadsController.php` | High
-50 | File | `/api/file/downloadUrl` | High
-51 | File | `/api/files/recipepictures/` | High
-52 | File | `/api/ping` | Medium
-53 | File | `/api/plugin/uninstall` | High
+17 | File | `/admin/create_product.php` | High
+18 | File | `/admin/div_data/delete?divId=9` | High
+19 | File | `/admin/edit-doc.php` | High
+20 | File | `/admin/edit_teacher.php` | High
+21 | File | `/admin/educloud/videobind.html` | High
+22 | File | `/admin/employee/controller.php` | High
+23 | File | `/admin/employee/index.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index.php?page=categories` | High
+26 | File | `/admin/index.php?page=manage_product` | High
+27 | File | `/admin/ind_backstage.php` | High
+28 | File | `/admin/login.php` | High
+29 | File | `/admin/maintenance/view_designation.php` | High
+30 | File | `/admin/pages/student-print.php` | High
+31 | File | `/admin/pages/subjects.php` | High
+32 | File | `/admin/return_add.php` | High
+33 | File | `/admin/search.php` | High
+34 | File | `/admin/service.php` | High
+35 | File | `/admin/students.php` | High
+36 | File | `/admin/system.html` | High
+37 | File | `/admin/sys_sql_query.php` | High
+38 | File | `/admin/template/update` | High
+39 | File | `/admin/update_s6.php` | High
+40 | File | `/admin/users.php` | High
+41 | File | `/admin/vacancy/index.php` | High
+42 | File | `/admin/view_sendlist.php` | High
+43 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+44 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+45 | File | `/admin_ping.htm` | High
+46 | File | `/adplanet/PlanetCommentList` | High
+47 | File | `/ajax.php?action=read_msg` | High
+48 | File | `/api/admin/store/product/list` | High
+49 | File | `/api/client/editemedia.php` | High
+50 | File | `/api/controllers/common/UploadsController.php` | High
+51 | File | `/api/file/downloadUrl` | High
+52 | File | `/api/files/recipepictures/` | High
+53 | File | `/api/ping` | Medium
 54 | File | `/api/process.php` | High
 55 | File | `/api /v3/auth` | High
 56 | File | `/app/options.py` | High
@@ -123,29 +123,31 @@ ID | Type | Indicator | Confidence
 61 | File | `/application/websocket/controller/Setting.php` | High
 62 | File | `/apply/index.php` | High
 63 | File | `/att_add.php` | Medium
-64 | File | `/backend/register.php` | High
-65 | File | `/blog` | Low
-66 | File | `/blog-single.php` | High
-67 | File | `/book-services.php` | High
-68 | File | `/card_scan.php` | High
-69 | File | `/cgi-bin/adm.cgi` | High
-70 | File | `/cgi-bin/cstecgi.cgi` | High
-71 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-72 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-73 | File | `/cgi-bin/nas_sharing.cgi` | High
-74 | File | `/cgi-bin/qcmap_auth` | High
-75 | File | `/cgi-bin/wlogin.cgi` | High
-76 | File | `/check_availability.php` | High
-77 | File | `/classes/Master.php?f=save_inquiry` | High
-78 | File | `/classes/Master.php?f=save_reminder` | High
-79 | File | `/classes/Users.php` | High
-80 | File | `/classes/Users.php?f=save` | High
-81 | File | `/collection/all` | High
-82 | File | `/control/deactivate_case.php` | High
-83 | File | `/cwc/login` | Medium
-84 | ... | ... | ...
+64 | File | `/auth_files/photo/` | High
+65 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+66 | File | `/backend/admin/his_admin_register_patient.php` | High
+67 | File | `/backend/register.php` | High
+68 | File | `/blog` | Low
+69 | File | `/blog-single.php` | High
+70 | File | `/book-services.php` | High
+71 | File | `/cgi-bin/adm.cgi` | High
+72 | File | `/cgi-bin/cstecgi.cgi` | High
+73 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+74 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+75 | File | `/cgi-bin/nas_sharing.cgi` | High
+76 | File | `/cgi-bin/qcmap_auth` | High
+77 | File | `/check_availability.php` | High
+78 | File | `/classes/Master.php?f=save_inquiry` | High
+79 | File | `/classes/Master.php?f=save_reminder` | High
+80 | File | `/classes/Users.php` | High
+81 | File | `/classes/Users.php?f=save` | High
+82 | File | `/collection/all` | High
+83 | File | `/conf/` | Low
+84 | File | `/control/deactivate_case.php` | High
+85 | File | `/debuginfo.htm` | High
+86 | ... | ... | ...
 
-There are 740 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 762 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -163,4 +165,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

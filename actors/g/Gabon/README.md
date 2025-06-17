@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -88,27 +88,29 @@ ID | Type | Indicator | Confidence
 28 | File | `/index.php` | Medium
 29 | File | `/librarian/bookdetails.php` | High
 30 | File | `/member.php?action=chgpwdsubmit` | High
-31 | File | `/opt/bin/cli` | Medium
-32 | File | `/p` | Low
-33 | File | `/patient/doctors.php` | High
-34 | File | `/phpinventory/editcategory.php` | High
-35 | File | `/product-list.php` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/updown/upload.cgi` | High
-39 | File | `/user/del.php` | High
-40 | File | `/web_cste/cgi-bin/product.ini` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/_next` | Low
-43 | File | `123flashchat.php` | High
-44 | File | `act.php` | Low
-45 | File | `admin.php/pay` | High
-46 | File | `admin/bad.php` | High
-47 | File | `admin/index.php` | High
-48 | File | `admin/index.php/user/del/1` | High
-49 | ... | ... | ...
+31 | File | `/multi-vendor-shopping-script/product-list.php` | High
+32 | File | `/opt/bin/cli` | Medium
+33 | File | `/p` | Low
+34 | File | `/patient/doctors.php` | High
+35 | File | `/phpinventory/editcategory.php` | High
+36 | File | `/product-list.php` | High
+37 | File | `/products/view_product.php` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/updown/upload.cgi` | High
+41 | File | `/user/del.php` | High
+42 | File | `/web_cste/cgi-bin/product.ini` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `/_next` | Low
+45 | File | `123flashchat.php` | High
+46 | File | `act.php` | Low
+47 | File | `admin.php/pay` | High
+48 | File | `admin/bad.php` | High
+49 | File | `admin/index.php` | High
+50 | File | `admin/index.php/user/del/1` | High
+51 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

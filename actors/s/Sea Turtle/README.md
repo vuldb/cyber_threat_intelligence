@@ -62,18 +62,19 @@ ID | Type | Indicator | Confidence
 12 | File | `/GponForm/device_Form?script/` | High
 13 | File | `/includes/rrdtool.inc.php` | High
 14 | File | `/index.php` | Medium
-15 | File | `/Main_AdmStatus_Content.asp` | High
-16 | File | `/NAGErrors` | Medium
-17 | File | `/pages.php` | Medium
-18 | File | `/rest/project-templates/1.0/createshared` | High
-19 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-20 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
-21 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-22 | File | `/Search-Results` | High
-23 | File | `/see_more_details.php` | High
-24 | ... | ... | ...
+15 | File | `/login.php` | Medium
+16 | File | `/Main_AdmStatus_Content.asp` | High
+17 | File | `/NAGErrors` | Medium
+18 | File | `/pages.php` | Medium
+19 | File | `/rest/project-templates/1.0/createshared` | High
+20 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+21 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
+22 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+23 | File | `/Search-Results` | High
+24 | File | `/see_more_details.php` | High
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

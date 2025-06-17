@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Razy:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -99,12 +99,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1059 | CWE-88 | Argument Injection | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,14 +112,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/API/info` | Medium
-2 | File | `/ecommerce/support_ticket` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/home/search` | Medium
-5 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-6 | ... | ... | ...
+1 | File | `/admin/category/controller.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+4 | File | `/Bloodgroop_process.php` | High
+5 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+6 | File | `/ecommerce/support_ticket` | High
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -188,4 +189,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

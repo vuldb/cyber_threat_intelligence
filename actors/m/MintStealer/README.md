@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MintStealer:
 
 * [US](https://vuldb.com/?country.us)
-* [PS](https://vuldb.com/?country.ps)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [85.114.96.2](https://vuldb.com/?ip.85.114.96.2) | - | - | High
-2 | [95.214.25.207](https://vuldb.com/?ip.95.214.25.207) | - | - | High
-3 | [104.21.67.23](https://vuldb.com/?ip.104.21.67.23) | - | - | High
+2 | [85.192.56.133](https://vuldb.com/?ip.85.192.56.133) | possiblesquare.aeza.network | - | High
+3 | [95.214.25.207](https://vuldb.com/?ip.95.214.25.207) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-2 | T1222 | CWE-275 | Permission Issues | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,16 +50,21 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/login.php` | High
 2 | File | `/cgi-bin/wlogin.cgi` | High
 3 | File | `/htmlcode/html/system_reboot.asp` | High
-4 | ... | ... | ...
+4 | File | `/index/ajax/lang` | High
+5 | File | `/sauvegarde/restaure_act.php` | High
+6 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/6fd3cf432287a224d1748b2638849134595d17c767cc91e231b73f9643f85455/
+* https://search.censys.io/hosts/85.192.56.133
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=95.214.25.207
+* https://www.virustotal.com/gui/ip-address/206.188.197.237/relations
 
 ## Literature
 
@@ -70,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

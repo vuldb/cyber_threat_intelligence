@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [TR](https://vuldb.com/?country.tr)
 * [PL](https://vuldb.com/?country.pl)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1204.001 | CWE-601 | Open Redirect | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,15 +49,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/launch_message.php` | High
 2 | File | `/endpoint/delete-account.php` | High
-3 | File | `content/content.blueprintspages.php` | High
+3 | File | `/UserSelfServiceSettings.jsp` | High
 4 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/0241a17a20b2cdc613afedfd6f26f952d79613944f0b7435ea2c87a4ad0f9bf8/
 * https://bazaar.abuse.ch/sample/153a5a770e7594794ce3ac19121c1ad44edc6acdf4e4ae6d77adbd964ae6609e/
 * https://bazaar.abuse.ch/sample/951c2f341e914601140aa9ead05895f6957d5cbfda80b81be99015d2be02d44f/
 * https://bazaar.abuse.ch/sample/eb5ea730abf432d169a1560ef19f6100b96aecd4a18d41fd20f9a06e2d15077e/
@@ -70,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

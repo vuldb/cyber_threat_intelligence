@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -65,49 +65,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/admin/#maintenance_sysTask/edit` | High
-3 | File | `/admin/?/snippet/edit/3` | High
-4 | File | `/admin/action/add_con.php` | High
-5 | File | `/admin/action/new-feed.php` | High
-6 | File | `/admin/ajax.php?action=login` | High
-7 | File | `/admin/app` | Medium
-8 | File | `/admin/ballot_down.php` | High
-9 | File | `/admin/cmsWebFile/doUpload` | High
-10 | File | `/admin/config_save.php` | High
-11 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
-12 | File | `/admin/edit-card-detail.php` | High
-13 | File | `/admin/edit_visitor.php` | High
-14 | File | `/admin/info.php` | High
-15 | File | `/admin/plugin.php` | High
-16 | File | `/admin/template.php` | High
-17 | File | `/admin/template/update` | High
-18 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-19 | File | `/admin/view-enquiry.php` | High
-20 | File | `/alphaware/summary.php` | High
-21 | File | `/api` | Low
-22 | File | `/api/monitors/import` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/application/index/controller/Unity.php` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-29 | File | `/cgi-bin/webdav_mgr.cgi` | High
-30 | File | `/classes/Master.php?f=delete_inquiry` | High
-31 | File | `/classes/Users.php` | High
-32 | File | `/cupseasylive/grndisplay.php` | High
-33 | File | `/dashboard/updatelogo.php` | High
-34 | File | `/dipam/save-delegates.php` | High
-35 | File | `/ecommerce/support_ticket` | High
-36 | File | `/etc/controller-agent/agent.conf` | High
-37 | File | `/etc/openshift/server_priv.pem` | High
-38 | File | `/forms/web_importTFTP` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/front/admin/tenancyDetail.php` | High
-41 | File | `/goform/GetParentControlInfo` | High
-42 | ... | ... | ...
+2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+3 | File | `/admin#themes` | High
+4 | File | `/admin-page.php` | High
+5 | File | `/admin/#maintenance_sysTask/edit` | High
+6 | File | `/admin/?/snippet/edit/3` | High
+7 | File | `/admin/action/add_con.php` | High
+8 | File | `/admin/action/new-feed.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/app` | Medium
+11 | File | `/admin/ballot_down.php` | High
+12 | File | `/admin/category.php` | High
+13 | File | `/admin/cmsWebFile/doUpload` | High
+14 | File | `/admin/config_save.php` | High
+15 | File | `/admin/delete-session.php` | High
+16 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
+17 | File | `/admin/edit-card-detail.php` | High
+18 | File | `/admin/edit-class.php` | High
+19 | File | `/admin/edit_visitor.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/manage-art-medium.php` | High
+22 | File | `/admin/plugin.php` | High
+23 | File | `/admin/publishnews.php` | High
+24 | File | `/admin/subscriber-csv.php` | High
+25 | File | `/admin/tag.php` | High
+26 | File | `/admin/template.php` | High
+27 | File | `/admin/template/update` | High
+28 | File | `/admin/unreadenq.php` | High
+29 | File | `/admin/upload/upimage.html` | High
+30 | File | `/admin/user.php` | High
+31 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+32 | File | `/admin/view-enquiry.php` | High
+33 | File | `/alphaware/summary.php` | High
+34 | File | `/api` | Low
+35 | File | `/api/monitors/import` | High
+36 | File | `/api/sys/login` | High
+37 | File | `/application/index/controller/Unity.php` | High
+38 | File | `/apply.cgi` | Medium
+39 | File | `/auth/soup-auth-digest.c` | High
+40 | File | `/backup/import` | High
+41 | File | `/bid/1/admin/entry-edit/` | High
+42 | File | `/boafrm/formFilter` | High
+43 | File | `/boafrm/formReflashClientTbl` | High
+44 | File | `/boafrm/formSaveConfig` | High
+45 | File | `/book-nurse.php?bookid=1` | High
+46 | File | `/bwdates-report-result.php` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

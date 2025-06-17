@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,12 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,16 +75,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/trackedEntityInstances` | High
-2 | File | `/cgi-bin/portal` | High
-3 | File | `/index.php` | Medium
-4 | File | `/Items/*/RemoteImages/Download` | High
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | ... | ... | ...
+1 | File | `/admin/card-bwdates-reports-details.php` | High
+2 | File | `/admin/edit-card-detail.php` | High
+3 | File | `/admin/edit-class.php?cid=1` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/profile.php` | High
+6 | File | `/admin/search-medicalcard.php` | High
+7 | File | `/adpweb/wechat/verifyToken/` | High
+8 | File | `/doctor/view-appointment-detail.php` | High
+9 | File | `/fladmin/friendlink_dodel.php` | High
+10 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+11 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +104,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

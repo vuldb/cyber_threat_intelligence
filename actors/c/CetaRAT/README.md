@@ -49,30 +49,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/hardware` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/replication` | Medium
-19 | File | `/RestAPI` | Medium
-20 | File | `/tmp/speedtest_urls.xml` | High
-21 | File | `/tmp/zarafa-vacation-*` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/uploadeditor.html?action=uploadimage` | High
-25 | File | `/user/loader.php?api=1` | High
-26 | ... | ... | ...
+5 | File | `/api/front/search/books` | High
+6 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/core/conditions/AbstractWrapper.java` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/export` | Low
+12 | File | `/file?action=download&file` | High
+13 | File | `/hardware` | Medium
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/medical/inventories.php` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/plugin/LiveChat/getChat.json.php` | High
+19 | File | `/plugins/servlet/audit/resource` | High
+20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+21 | File | `/replication` | Medium
+22 | File | `/RestAPI` | Medium
+23 | File | `/tmp/speedtest_urls.xml` | High
+24 | File | `/tmp/zarafa-vacation-*` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload` | Low
+27 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +90,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

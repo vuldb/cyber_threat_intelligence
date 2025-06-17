@@ -42,13 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,18 +61,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/cstecgi.cgi` | High
 4 | File | `/conf/app.conf` | High
 5 | File | `/etc/shadow` | Medium
-6 | File | `/php/ping.php` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/sys/dict/loadTreeData` | High
-10 | File | `/SysInfo1.htm` | High
-11 | File | `/sysinfo_json.cgi` | High
-12 | File | `/system/dictData/loadDictItem` | High
-13 | File | `/system/user/modules/mod_users/controller.php` | High
-14 | File | `/view/vpn/autovpn/sub_commit.php` | High
+6 | File | `/import` | Low
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/sys/dict/loadTreeData` | High
+11 | File | `/SysInfo1.htm` | High
+12 | File | `/sysinfo_json.cgi` | High
+13 | File | `/system/dictData/loadDictItem` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
 15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

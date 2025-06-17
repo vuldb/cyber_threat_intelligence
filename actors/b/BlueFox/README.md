@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,23 +49,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dialog/select_images_post.php` | High
 2 | File | `/admin/edit_fuel.php` | High
-3 | File | `/api/deploy/upload` | High
-4 | File | `/api/deploy/upload /api/database/upload` | High
-5 | File | `/control/edit_client.php` | High
-6 | File | `/Employee/changepassword.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/importexport.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/show_news.php` | High
-12 | File | `/Users/registration.php` | High
-13 | File | `/version.js` | Medium
-14 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
-15 | File | `/view_payment.php` | High
-16 | File | `/view_single_result.php?vr=123321&vn=mirage` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/api/deploy/upload` | High
+5 | File | `/api/deploy/upload /api/database/upload` | High
+6 | File | `/control/edit_client.php` | High
+7 | File | `/Employee/changepassword.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/importexport.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/show_news.php` | High
+13 | File | `/Users/registration.php` | High
+14 | File | `/version.js` | Medium
+15 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
+16 | File | `/view_payment.php` | High
 17 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

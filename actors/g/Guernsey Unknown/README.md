@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.guernsey_unknown](https://vuldb.com/?actor.guernsey_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Guernsey Unknown:
+
+* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 15 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Guernsey Unknown.
@@ -31,18 +42,67 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [62.68.172.0](https://vuldb.com/?ip.62.68.172.0) | bbdj62.68.172.0.network.sure.com | - | High
 20 | [62.68.176.0](https://vuldb.com/?ip.62.68.176.0) | - | - | High
 21 | [62.68.184.0](https://vuldb.com/?ip.62.68.184.0) | - | - | High
-22 | [77.81.75.0](https://vuldb.com/?ip.77.81.75.0) | - | - | High
-23 | [78.41.0.0](https://vuldb.com/?ip.78.41.0.0) | - | - | High
-24 | [78.41.0.130](https://vuldb.com/?ip.78.41.0.130) | 130.0.41.78.jtglobal.com | - | High
-25 | [78.41.1.0](https://vuldb.com/?ip.78.41.1.0) | - | - | High
-26 | [78.41.2.0](https://vuldb.com/?ip.78.41.2.0) | - | - | High
-27 | [78.41.4.0](https://vuldb.com/?ip.78.41.4.0) | - | - | High
-28 | [78.111.192.0](https://vuldb.com/?ip.78.111.192.0) | - | - | High
-29 | [78.111.193.0](https://vuldb.com/?ip.78.111.193.0) | - | - | High
-30 | [78.111.194.0](https://vuldb.com/?ip.78.111.194.0) | - | - | High
-31 | ... | ... | ... | ...
+22 | [77.77.187.16](https://vuldb.com/?ip.77.77.187.16) | - | - | High
+23 | [77.81.75.0](https://vuldb.com/?ip.77.81.75.0) | - | - | High
+24 | [78.41.0.0](https://vuldb.com/?ip.78.41.0.0) | - | - | High
+25 | [78.41.0.8](https://vuldb.com/?ip.78.41.0.8) | 8.0.41.78.jtglobal.com | - | High
+26 | [78.41.0.130](https://vuldb.com/?ip.78.41.0.130) | 130.0.41.78.jtglobal.com | - | High
+27 | [78.41.1.0](https://vuldb.com/?ip.78.41.1.0) | - | - | High
+28 | [78.41.2.0](https://vuldb.com/?ip.78.41.2.0) | - | - | High
+29 | [78.41.4.0](https://vuldb.com/?ip.78.41.4.0) | - | - | High
+30 | [78.41.5.0](https://vuldb.com/?ip.78.41.5.0) | - | - | High
+31 | [78.41.7.24](https://vuldb.com/?ip.78.41.7.24) | 24.7.41.78.jtglobal.com | - | High
+32 | [78.41.7.40](https://vuldb.com/?ip.78.41.7.40) | 40.7.41.78.jtglobal.com | - | High
+33 | [78.111.192.0](https://vuldb.com/?ip.78.111.192.0) | - | - | High
+34 | [78.111.193.0](https://vuldb.com/?ip.78.111.193.0) | - | - | High
+35 | [78.111.194.0](https://vuldb.com/?ip.78.111.194.0) | - | - | High
+36 | [78.111.196.0](https://vuldb.com/?ip.78.111.196.0) | - | - | High
+37 | [78.111.200.0](https://vuldb.com/?ip.78.111.200.0) | - | - | High
+38 | [84.247.0.0](https://vuldb.com/?ip.84.247.0.0) | - | - | High
+39 | [84.247.1.0](https://vuldb.com/?ip.84.247.1.0) | - | - | High
+40 | [85.204.71.0](https://vuldb.com/?ip.85.204.71.0) | - | - | High
+41 | [85.204.135.0](https://vuldb.com/?ip.85.204.135.0) | - | - | High
+42 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 162 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Guernsey Unknown_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
+
+There are 18 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Guernsey Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/api/0/api-tokens/` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+6 | File | `/classes/Login.php` | High
+7 | File | `/classes/master.php?f=delete_order` | High
+8 | File | `/classes/Master.php?f=log_employee` | High
+9 | File | `/contact.php` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/ims/login.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+14 | File | `/main/webservices/additional_webservices.php` | High
+15 | ... | ... | ...
+
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

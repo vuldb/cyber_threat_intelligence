@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,25 +55,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/admin/template` | High
-3 | File | `/auth/register` | High
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-6 | File | `/etc/quagga` | Medium
-7 | File | `/filemanager/upload` | High
-8 | File | `/index.php/dashboard/save` | High
-9 | File | `/main?cmd=invalid_browser` | High
-10 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-11 | File | `/pda/workflow/check_seal.php` | High
-12 | File | `/pdf/InfoOutputDev.cc` | High
-13 | File | `/plugins/Dashboard/Controller.php` | High
-14 | File | `/register.php` | High
-15 | File | `/signup.php` | Medium
-16 | File | `/storage/app/media/evil.svg` | High
-17 | ... | ... | ...
+1 | File | `/admin/chatroom.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/publishnews.php` | High
+5 | File | `/admin/template` | High
+6 | File | `/auth/register` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/backend/admin/his_admin_register_patient.php` | High
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+11 | File | `/etc/quagga` | Medium
+12 | File | `/filemanager/upload` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/index.php/dashboard/save` | High
+15 | File | `/main?cmd=invalid_browser` | High
+16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+17 | File | `/pda/workflow/check_seal.php` | High
+18 | File | `/pdf/InfoOutputDev.cc` | High
+19 | File | `/plugins/Dashboard/Controller.php` | High
+20 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

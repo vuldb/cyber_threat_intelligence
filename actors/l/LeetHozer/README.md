@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -50,17 +50,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/php/ping.php` | High
-5 | File | `/rapi/read_url` | High
-6 | File | `/scripts/unlock_tasks.php` | High
-7 | File | `/SysInfo1.htm` | High
-8 | File | `/sysinfo_json.cgi` | High
-9 | File | `/system/dictData/loadDictItem` | High
-10 | File | `/system/user/modules/mod_users/controller.php` | High
-11 | File | `/view/vpn/autovpn/sub_commit.php` | High
+4 | File | `/del.php` | Medium
+5 | File | `/delete.php` | Medium
+6 | File | `/index.php?menu=asterisk_cli` | High
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/SysInfo1.htm` | High
+11 | File | `/sysinfo_json.cgi` | High
 12 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

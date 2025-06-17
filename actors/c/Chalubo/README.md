@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [103.27.185.139](https://vuldb.com/?ip.103.27.185.139) | - | - | High
-2 | [103.82.143.51](https://vuldb.com/?ip.103.82.143.51) | - | - | High
-3 | [103.140.187.149](https://vuldb.com/?ip.103.140.187.149) | - | - | High
+1 | [38.54.27.204](https://vuldb.com/?ip.38.54.27.204) | - | - | High
+2 | [103.27.185.139](https://vuldb.com/?ip.103.27.185.139) | - | - | High
+3 | [103.82.143.51](https://vuldb.com/?ip.103.82.143.51) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,6 +59,7 @@ There are 13 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/lilacsquid/
+* https://threatfox.abuse.ch
 * https://twitter.com/zom3y3/status/1229258375189262336
 
 ## Literature
@@ -70,4 +71,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

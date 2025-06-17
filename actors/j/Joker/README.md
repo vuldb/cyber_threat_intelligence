@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [TT](https://vuldb.com/?country.tt)
-* [US](https://vuldb.com/?country.us)
+* [ID](https://vuldb.com/?country.id)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -26,9 +26,10 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [1.45.76.1](https://vuldb.com/?ip.1.45.76.1) | - | - | High
 4 | [2.1.5.3](https://vuldb.com/?ip.2.1.5.3) | - | - | High
 5 | [3.1.5.3](https://vuldb.com/?ip.3.1.5.3) | ec2-3-1-5-3.ap-southeast-1.compute.amazonaws.com | - | Medium
-6 | ... | ... | ... | ...
+6 | [3.122.143.26](https://vuldb.com/?ip.3.122.143.26) | ec2-3-122-143-26.eu-central-1.compute.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,12 +58,14 @@ ID | Type | Indicator | Confidence
 5 | File | `admin/app/mediamanager` | High
 6 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/4e82f72cc44424ec5790c4ca27a5983d480e7de5c8aabf4d70376ff3744a49cf/
+* https://bazaar.abuse.ch/sample/61ea7758e9e7bb55cae66590cd3e2735063181012b78aa94af78367bf9c527f4/
 * https://community.blueliv.com/#!/s/5f72fe1482df413eb234d2d4
 * https://medium.com/csis-techblog/analysis-of-joker-a-spy-premium-subscription-bot-on-googleplay-9ad24f044451
 * https://www.bleepingcomputer.com/news/security/joker-android-malware-keeps-evading-google-play-store-defenses/
@@ -76,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

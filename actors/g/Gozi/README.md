@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gozi:
 
 * [US](https://vuldb.com/?country.us)
+* [ME](https://vuldb.com/?country.me)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,7 +63,7 @@ ID | IP address | Hostname | Campaign | Confidence
 40 | [45.90.58.179](https://vuldb.com/?ip.45.90.58.179) | ipsec-an-pro-ch-20210909.com | - | High
 41 | ... | ... | ... | ...
 
-There are 159 more IOC items available. Please use our online service to access the data.
+There are 161 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,12 +71,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+2 | T1059 | CWE-1321 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,16 +85,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/wlogin.cgi` | High
-2 | File | `/index.php` | Medium
-3 | File | `/members/view_member.php` | High
-4 | File | `/mhds/clinic/view_details.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/rest/api/latest/projectvalidate/key` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/uncpath/` | Medium
-9 | ... | ... | ...
+2 | File | `/mhds/clinic/view_details.php` | High
+3 | File | `/rest/api/latest/projectvalidate/key` | High
+4 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

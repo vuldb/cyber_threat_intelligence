@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GravityRAT:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -45,90 +47,89 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.kss.pid` | Medium
 2 | File | `/admin.php?m=Config&a=add` | High
-3 | File | `/adminsys/index.php?load=admins&act=edit_info&act_type=add` | High
-4 | File | `/advance_push/public/login` | High
-5 | File | `/bin/goahead` | Medium
-6 | File | `/category/list?limit=10&offset=0&order=desc` | High
-7 | File | `/cgi-bin` | Medium
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/configs/application.ini` | High
-12 | File | `/core/MY_Security.php` | High
-13 | File | `/dede/freelist_edit.php` | High
-14 | File | `/download` | Medium
-15 | File | `/dus/shopliste/index.php` | High
-16 | File | `/egroupware/index.php` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/event-management/index.php` | High
-19 | File | `/ext/phar/phar_object.c` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/fpui/jsp/index.jsp` | High
-22 | File | `/goform/GetParentControlInfo` | High
-23 | File | `/goform/langSwitch` | High
-24 | File | `/goform/setAutoPing` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/home/kickPlayer` | High
-27 | File | `/Hospital-Management-System-master/contact.php` | High
-28 | File | `/Hospital-Management-System-master/func.php` | High
-29 | File | `/htdocs/cgibin` | High
-30 | File | `/iisadmin` | Medium
-31 | File | `/index.php` | Medium
-32 | File | `/jerry-core/ecma/base/ecma-helpers.c` | High
-33 | File | `/knowledgebase/view.php` | High
-34 | File | `/LEPTON_stable_2.2.2/upload/admins/pages/index.php` | High
-35 | File | `/Manager/index.aspx` | High
-36 | File | `/mc-admin/page-edit.php` | High
-37 | File | `/navigate/navigate_download.php` | High
-38 | File | `/opensis/modules/users/Staff.php` | High
-39 | File | `/pay-with-paypal/{id}` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/spacecom/login.php` | High
-42 | File | `/text/pdf/PdfReader.java` | High
-43 | File | `/var/run/jboss-eap/` | High
-44 | File | `/var/www/core/controller/index.php` | High
-45 | File | `/wp-json` | Medium
-46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-47 | File | `act.php` | Low
-48 | File | `addfav.php` | Medium
-49 | File | `addguest.cgi` | Medium
-50 | File | `admin.php` | Medium
-51 | File | `Admin.php` | Medium
-52 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-53 | File | `admin/add-news.php` | High
-54 | File | `admin/admin.php` | High
-55 | File | `admin/file.do` | High
-56 | File | `admin/index.php` | High
-57 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-58 | File | `adsearch.php` | Medium
-59 | File | `announcements.php` | High
-60 | File | `ans.pl` | Low
-61 | File | `apachectl` | Medium
-62 | File | `app/admin/controller/themecontroller.php` | High
-63 | File | `arch/arm64/kernel/sys.c` | High
-64 | File | `archive_read_extract2.c` | High
-65 | File | `article.php` | Medium
-66 | File | `articles/index.php` | High
-67 | File | `assets/download.aspx` | High
-68 | File | `audio/SDL_wave.c` | High
-69 | File | `auth.c` | Low
-70 | File | `auth.php` | Medium
-71 | File | `C.html` | Low
-72 | File | `C:\dir` | Low
-73 | File | `cairo-truetype-subset.c` | High
-74 | File | `calc.php` | Medium
-75 | File | `cart.php` | Medium
-76 | File | `cgi-bin` | Low
-77 | File | `cgi-bin/awstats.pl` | High
-78 | File | `checkuser.php` | High
-79 | File | `client.c` | Medium
-80 | File | `clients/editclient.php` | High
-81 | File | `clone-master-clean-up.sh` | High
-82 | File | `cloud.php` | Medium
-83 | File | `cobc/parser.y` | High
-84 | ... | ... | ...
+3 | File | `/admin/report.php` | High
+4 | File | `/adminsys/index.php?load=admins&act=edit_info&act_type=add` | High
+5 | File | `/advance_push/public/login` | High
+6 | File | `/api/wizard/setsyncpppoecfg` | High
+7 | File | `/bin/goahead` | Medium
+8 | File | `/category/list?limit=10&offset=0&order=desc` | High
+9 | File | `/cgi-bin` | Medium
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/configs/application.ini` | High
+14 | File | `/core/MY_Security.php` | High
+15 | File | `/dede/freelist_edit.php` | High
+16 | File | `/download` | Medium
+17 | File | `/dus/shopliste/index.php` | High
+18 | File | `/egroupware/index.php` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/event-management/index.php` | High
+21 | File | `/ext/phar/phar_object.c` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/fpui/jsp/index.jsp` | High
+24 | File | `/goform/GetParentControlInfo` | High
+25 | File | `/goform/langSwitch` | High
+26 | File | `/goform/setAutoPing` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/home/kickPlayer` | High
+29 | File | `/Hospital-Management-System-master/contact.php` | High
+30 | File | `/Hospital-Management-System-master/func.php` | High
+31 | File | `/htdocs/cgibin` | High
+32 | File | `/iisadmin` | Medium
+33 | File | `/index.php` | Medium
+34 | File | `/jerry-core/ecma/base/ecma-helpers.c` | High
+35 | File | `/knowledgebase/view.php` | High
+36 | File | `/LEPTON_stable_2.2.2/upload/admins/pages/index.php` | High
+37 | File | `/Manager/index.aspx` | High
+38 | File | `/mc-admin/page-edit.php` | High
+39 | File | `/opensis/modules/users/Staff.php` | High
+40 | File | `/pay-with-paypal/{id}` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/spacecom/login.php` | High
+43 | File | `/summary.php` | Medium
+44 | File | `/text/pdf/PdfReader.java` | High
+45 | File | `/var/run/jboss-eap/` | High
+46 | File | `/var/www/core/controller/index.php` | High
+47 | File | `/wp-json` | Medium
+48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+49 | File | `act.php` | Low
+50 | File | `addfav.php` | Medium
+51 | File | `addguest.cgi` | Medium
+52 | File | `admin.php` | Medium
+53 | File | `Admin.php` | Medium
+54 | File | `admin/add-news.php` | High
+55 | File | `admin/admin.php` | High
+56 | File | `admin/file.do` | High
+57 | File | `admin/index.php` | High
+58 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+59 | File | `adsearch.php` | Medium
+60 | File | `ajax.php` | Medium
+61 | File | `announcements.php` | High
+62 | File | `ans.pl` | Low
+63 | File | `apachectl` | Medium
+64 | File | `app/admin/controller/themecontroller.php` | High
+65 | File | `apps/home/controller/IndexController.php` | High
+66 | File | `arch/arm64/kernel/sys.c` | High
+67 | File | `archive_read_extract2.c` | High
+68 | File | `article.php` | Medium
+69 | File | `articles/index.php` | High
+70 | File | `assets/download.aspx` | High
+71 | File | `audio/SDL_wave.c` | High
+72 | File | `auth.c` | Low
+73 | File | `auth.php` | Medium
+74 | File | `awstats.pl` | Medium
+75 | File | `backend/comics/comics-document.c` | High
+76 | File | `C.html` | Low
+77 | File | `C:\dir` | Low
+78 | File | `cairo-truetype-subset.c` | High
+79 | File | `calc.php` | Medium
+80 | File | `cart.php` | Medium
+81 | File | `cgi-bin` | Low
+82 | File | `cgi-bin/awstats.pl` | High
+83 | ... | ... | ...
 
-There are 736 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 729 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

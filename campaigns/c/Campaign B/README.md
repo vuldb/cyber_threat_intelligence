@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,34 +69,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/` | Low
 3 | File | `/admin/action/update-deworm.php` | High
 4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/orders/update_status.php` | High
-8 | File | `/api/1.0/rest/language_configuration` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/filemanager` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/billing/home.php` | High
-14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/etc/tomcat8/Catalina/attack` | High
-21 | File | `/filemanager/upload.php` | High
-22 | File | `/fileupload/upload.cfm` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/home/cavesConsole` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/home/playerOperate` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-29 | File | `/items/search` | High
-30 | ... | ... | ...
+5 | File | `/admin/addroom.php` | High
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/orders/update_status.php` | High
+9 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+10 | File | `/api/1.0/rest/language_configuration` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/controllers/merchant/app/ComboController.php` | High
+13 | File | `/api/dept/build` | High
+14 | File | `/api/filemanager` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/application/index/controller/Screen.php` | High
+17 | File | `/archibus/login.axvw` | High
+18 | File | `/billing/home.php` | High
+19 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/cgi-bin/wapopen` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/dede/uploads/dede/friendlink_add.php` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/etc/tomcat8/Catalina/attack` | High
+27 | File | `/filemanager/upload.php` | High
+28 | File | `/fileupload/upload.cfm` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/SetOnlineDevName` | High
+31 | File | `/home/cavesConsole` | High
+32 | File | `/home/masterConsole` | High
+33 | File | `/home/playerOperate` | High
+34 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

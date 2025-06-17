@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,15 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-37, CWE-44 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,58 +62,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
-2 | File | `/admin/ajax.php?action=login` | High
-3 | File | `/admin/app/product.php` | High
-4 | File | `/admin/forgot-password.php` | High
-5 | File | `/admin/index.php?page=manage_product` | High
-6 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/adminPage/conf/reload` | High
-10 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-11 | File | `/API/info` | Medium
-12 | File | `/api/runscript` | High
-13 | File | `/api/snapshots/` | High
-14 | File | `/api/v1/snapshots` | High
-15 | File | `/api/v2/maps` | Medium
-16 | File | `/application/index/controller/Datament.php` | High
-17 | File | `/application/index/controller/File.php` | High
-18 | File | `/apply/index.php` | High
-19 | File | `/att_add.php` | Medium
-20 | File | `/candidate/index.php` | High
-21 | File | `/cgi-bin/adm.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/cgi-bin/system_mgr.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/check_availability.php` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/SystemSettings.php?f=update_settings` | High
-28 | File | `/common/dict/list` | High
-29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-30 | File | `/download.php?file=author.png` | High
-31 | File | `/Employer/EditProfile.php` | High
-32 | File | `/Employer/ManageWalkin.php` | High
-33 | File | `/endpoint/add-calorie.php` | High
-34 | File | `/endpoint/add-timesheet.php` | High
-35 | File | `/endpoint/update-tracker.php` | High
-36 | File | `/etc/init.d/update_notifications.sh` | High
-37 | File | `/filemanager/upload` | High
-38 | File | `/foms/routers/place-order.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/general/email/outbox/delete.php` | High
-41 | File | `/geoserver/gwc/rest.html` | High
-42 | File | `/goform/DhcpListClient` | High
-43 | File | `/hrm/leaverequest.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index/ajax/lang` | High
-46 | File | `/install/` | Medium
-47 | File | `/Interface/DevManage/VM.php` | High
-48 | File | `/logs` | Low
-49 | File | `/main/webservices/additional_webservices.php` | High
-50 | ... | ... | ...
+1 | File | `/addcompany.php` | High
+2 | File | `/admin.php/appcenter/local.html?type=addon` | High
+3 | File | `/admin/add-property.php` | High
+4 | File | `/admin/admin_editor.php` | High
+5 | File | `/admin/admin_user.php` | High
+6 | File | `/admin/ad_list.php?action=pass` | High
+7 | File | `/admin/booking-bwdates-reports-details.php` | High
+8 | File | `/admin/category.php` | High
+9 | File | `/admin/check_availability.php` | High
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/DatabaseQuery` | High
+12 | File | `/admin/edit-admin.php` | High
+13 | File | `/admin/edit_area.php` | High
+14 | File | `/admin/edit_role.php` | High
+15 | File | `/admin/extensions/upload.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/makehtml_freelist_action.php` | High
+18 | File | `/admin/options-theme.php` | High
+19 | File | `/admin/reports/index.php` | High
+20 | File | `/admin/request-received-bydonar.php` | High
+21 | File | `/admin/salary_slip.php` | High
+22 | File | `/admin/sales/index.php` | High
+23 | File | `/admin/team_update.php` | High
+24 | File | `/admin/user_save.php` | High
+25 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+26 | File | `/adpweb/wechat/verifyToken/` | High
+27 | File | `/ajax.php?action=login` | High
+28 | File | `/api/` | Low
+29 | File | `/api/client/editemedia.php` | High
+30 | File | `/api/Common/uploadFile` | High
+31 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
+32 | File | `/api/wizard/setsyncpppoecfg` | High
+33 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+34 | File | `/backend/admin/his_admin_register_patient.php` | High
+35 | File | `/boafrm/formReflashClientTbl` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/classes/Login.php` | High
+40 | File | `/cms/category/list` | High
+41 | File | `/company/service/increment/add/im` | High
+42 | File | `/confirmbooking.php` | High
+43 | File | `/control/login.php` | High
+44 | File | `/core/config-revisions` | High
+45 | File | `/currentsetting.htm` | High
+46 | File | `/Default/Bd` | Medium
+47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+48 | File | `/film-rating.php` | High
+49 | File | `/fladmin/user_recoverpwd.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+52 | File | `/front/admin/tenancyDetail.php` | High
+53 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

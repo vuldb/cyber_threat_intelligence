@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AMOS:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,9 +33,13 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [5.42.96.124](https://vuldb.com/?ip.5.42.96.124) | - | - | High
 11 | [5.42.96.184](https://vuldb.com/?ip.5.42.96.184) | - | - | High
 12 | [5.182.86.8](https://vuldb.com/?ip.5.182.86.8) | frequent-minute.aeza.network | - | High
-13 | ... | ... | ... | ...
+13 | [5.182.86.95](https://vuldb.com/?ip.5.182.86.95) | heavy-look.aeza.network | - | High
+14 | [5.255.107.149](https://vuldb.com/?ip.5.255.107.149) | - | - | High
+15 | [31.31.196.161](https://vuldb.com/?ip.31.31.196.161) | server159.hosting.reg.ru | - | High
+16 | [31.31.196.178](https://vuldb.com/?ip.31.31.196.178) | server195.hosting.reg.ru | - | High
+17 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 63 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,14 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,45 +62,73 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/dialog/select_images_post.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/manage_model.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/api/deploy/upload` | High
-11 | File | `/api/deploy/upload /api/database/upload` | High
-12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-13 | File | `/catalog/all-products` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/changePassword` | High
-16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-17 | File | `/control/edit_client.php` | High
-18 | File | `/edit-subject.php` | High
-19 | File | `/Employee/changepassword.php` | High
-20 | File | `/endpoint/add-user.php` | High
-21 | File | `/etc/postfix/sender_login` | High
-22 | File | `/foms/routers/place-order.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/SetLEDCfg` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SetSysTimeCfg` | High
-27 | File | `/grid/console` | High
-28 | File | `/index.php` | Medium
-29 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/add_deductions.php` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/all-applications.php` | High
+6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+7 | File | `/admin/bookList?page=1&limit=10` | High
+8 | File | `/admin/bwdates-report-details.php` | High
+9 | File | `/admin/chatroom.php` | High
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/edit-products.php` | High
+12 | File | `/admin/enrollment-details.php` | High
+13 | File | `/admin/getallarticleinfo` | High
+14 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index2.html` | High
+17 | File | `/admin/normal-search.php` | High
+18 | File | `/admin/salary_slip.php` | High
+19 | File | `/admin/template/update` | High
+20 | File | `/admin/twitter.php` | High
+21 | File | `/admin/user-search.php` | High
+22 | File | `/adminPage/main/upload` | High
+23 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+24 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+27 | File | `/api/v1/settings` | High
+28 | File | `/api/v1/toolbox/device/update/swap` | High
+29 | File | `/api/wizard/setsyncpppoecfg` | High
+30 | File | `/app/controller/Api.php` | High
+31 | File | `/app/zentao/module/repo/model.php` | High
+32 | File | `/auth.asp` | Medium
+33 | File | `/auth/register` | High
+34 | File | `/bin/httpd` | Medium
+35 | File | `/boafrm/formFilter` | High
+36 | File | `/catalog/compare` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/hd_config.cgi` | High
+39 | File | `/cgi-bin/mainfunction.cgi` | High
+40 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+41 | File | `/change-password.php` | High
+42 | File | `/classes/Master.php?f=save_course` | High
+43 | File | `/classes/Master.php?f=save_position` | High
+44 | File | `/config/config.properties` | High
+45 | File | `/coreframe/app/guestbook/myissue.php` | High
+46 | File | `/cupseasylive/locationcreate.php` | High
+47 | File | `/dash/update.php` | High
+48 | File | `/edit-category.php` | High
+49 | File | `/endpoint/add-user.php` | High
+50 | File | `/endpoint/delete-calorie.php` | High
+51 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/4b351c938aa176e1c6e46949e6e409179f5e4b4ed593de46da1071f728290495/
+* https://bazaar.abuse.ch/sample/7b8835e99a82a9d5002ca637a4db41031477e261fa0fb16aebbb571129051d8c/
+* https://bazaar.abuse.ch/sample/97c57caae35331f00e2d51b1f09c0b62518c0ebde6e3e35c79205c30f957ecfc/
+* https://bazaar.abuse.ch/sample/b9f0b6d6d0e3310fdc7f2a269db7bfd9d168fa8817774a1e701c3ecd5a287804/
 * https://search.censys.io/hosts/5.42.65.55
 * https://search.censys.io/hosts/79.137.198.170
+* https://search.censys.io/hosts/88.214.50.3
 * https://search.censys.io/hosts/89.208.105.191
+* https://search.censys.io/hosts/185.147.124.212
 * https://search.censys.io/hosts/185.172.128.31/
 * https://search.censys.io/hosts/185.172.128.163
 * https://search.censys.io/hosts/185.215.113.71/
@@ -136,6 +168,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.infosecurity-magazine.com/news/russian-legitimate-services/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/01/atomic-stealer-rings-in-the-new-year-with-updated-version
 * https://www.recordedfuture.com/cybercriminal-campaign-spreads-infostealers-highlighting-risks-to-web3-gaming
+* https://x.com/suyog41/status/1878707544576974922
 
 ## Literature
 
@@ -146,4 +179,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

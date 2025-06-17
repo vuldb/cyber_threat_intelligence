@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with OceanLotus:
 
+* MST Transforms
 * WateringHole
 
 ## Countries
@@ -47,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
 24 | ... | ... | ... | ...
 
-There are 91 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,6 +101,7 @@ There are 197 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
+* https://dmpdump.github.io/posts/Possible-Ocean-LotusInstaller-Abusing-MST-Transforms/
 * https://github.com/blackorbird/APT_REPORT/blob/master/Oceanlotus/apt32_report_2019.pdf
 * https://github.com/eset/malware-ioc/tree/master/oceanlotus
 * https://www.threatminer.org/report.php?q=ESET_OceanLotus.pdf&y=2018
@@ -116,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

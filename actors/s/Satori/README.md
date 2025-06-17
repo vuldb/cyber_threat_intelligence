@@ -55,19 +55,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/manage_user.php` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/plain` | Low
-6 | File | `/public/login.htm` | High
-7 | File | `/spip.php` | Medium
-8 | File | `/uncpath/` | Medium
-9 | File | `/wbms/classes/Master.php?f=delete_client` | High
-10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-11 | File | `admin_add.php` | High
-12 | File | `awstats.pl` | Medium
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/plain` | Low
+7 | File | `/public/login.htm` | High
+8 | File | `/spip.php` | Medium
+9 | File | `/uncpath/` | Medium
+10 | File | `/wbms/classes/Master.php?f=delete_client` | High
+11 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+12 | File | `admin_add.php` | High
 13 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

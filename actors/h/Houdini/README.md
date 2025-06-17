@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,65 +61,67 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/admin.php` | High
 8 | File | `/admin/admin_user.php` | High
 9 | File | `/admin/article.php` | High
-10 | File | `/admin/emp-profile-avatar.php` | High
-11 | File | `/admin/forgot-password.php` | High
-12 | File | `/admin/general/change-lang` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/inquiries/view_details.php` | High
-15 | File | `/Admin/login.php` | High
-16 | File | `/admin/login.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/Admin/News.php` | High
-19 | File | `/admin/save.php` | High
-20 | File | `/admin/transactions/update_status.php` | High
-21 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-22 | File | `/admin/users.php` | High
-23 | File | `/AdminDir` | Medium
-24 | File | `/analysisProject/pagingQueryData` | High
-25 | File | `/api/authentication/login` | High
-26 | File | `/api/user/password/sent-reset-email` | High
-27 | File | `/app/api/controller/caiji.php` | High
-28 | File | `/application/controller/Transaki.php` | High
-29 | File | `/application/index/common.php` | High
-30 | File | `/blog` | Low
-31 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-32 | File | `/category.php` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/nas_sharing.cgi` | High
-35 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-36 | File | `/cgi-bin/system_mgr.cgi` | High
-37 | File | `/cgi-bin/vitogate.cgi` | High
-38 | File | `/classes/Master.php` | High
-39 | File | `/control/register_case.php` | High
-40 | File | `/coreframe/app/order/admin/index.php` | High
-41 | File | `/course/filterRecords/` | High
-42 | File | `/debug/pprof` | Medium
-43 | File | `/dev/snd/seq` | Medium
-44 | File | `/en/blog-comment-4` | High
-45 | File | `/etc/sudoers` | Medium
-46 | File | `/film-rating.php` | High
-47 | File | `/forgot-password` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/fos/admin/ajax.php?action=login` | High
-50 | File | `/goForm/aspForm` | High
-51 | File | `/guestbook` | Medium
-52 | File | `/home/kickPlayer` | High
-53 | File | `/index.jsp#settings` | High
-54 | File | `/index.php/signin` | High
-55 | File | `/index.php?action=editManager` | High
-56 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-57 | File | `/login` | Low
-58 | File | `/login.php` | Medium
-59 | File | `/net-banking/beneficiary.php` | High
-60 | File | `/net-banking/delete_customer.php` | High
-61 | File | `/net-banking/edit_customer_action.php` | High
-62 | File | `/net-banking/transactions.php` | High
-63 | File | `/philosophy/admin/login.php` | High
-64 | File | `/pms/update_user.php?user_id=1` | High
-65 | File | `/portal/reports/account_statement` | High
-66 | ... | ... | ...
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/emp-profile-avatar.php` | High
+12 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/general/change-lang` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/inquiries/view_details.php` | High
+16 | File | `/admin/lab.php` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/maintenance/view_designation.php` | High
+20 | File | `/Admin/News.php` | High
+21 | File | `/admin/save.php` | High
+22 | File | `/admin/transactions/update_status.php` | High
+23 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+24 | File | `/admin/users.php` | High
+25 | File | `/AdminDir` | Medium
+26 | File | `/analysisProject/pagingQueryData` | High
+27 | File | `/api/authentication/login` | High
+28 | File | `/api/user/password/sent-reset-email` | High
+29 | File | `/app/api/controller/caiji.php` | High
+30 | File | `/application/controller/Transaki.php` | High
+31 | File | `/application/index/common.php` | High
+32 | File | `/blog` | Low
+33 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+37 | File | `/cgi-bin/nas_sharing.cgi` | High
+38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+39 | File | `/cgi-bin/system_mgr.cgi` | High
+40 | File | `/cgi-bin/vitogate.cgi` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/control/register_case.php` | High
+43 | File | `/coreframe/app/order/admin/index.php` | High
+44 | File | `/course/filterRecords/` | High
+45 | File | `/debug/pprof` | Medium
+46 | File | `/dev/snd/seq` | Medium
+47 | File | `/en/blog-comment-4` | High
+48 | File | `/etc/config/rpcd` | High
+49 | File | `/etc/sudoers` | Medium
+50 | File | `/film-rating.php` | High
+51 | File | `/forgot-password` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/fos/admin/ajax.php?action=login` | High
+54 | File | `/goForm/aspForm` | High
+55 | File | `/guestbook` | Medium
+56 | File | `/home/kickPlayer` | High
+57 | File | `/index.jsp#settings` | High
+58 | File | `/index.php/signin` | High
+59 | File | `/index.php?action=editManager` | High
+60 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+61 | File | `/login` | Low
+62 | File | `/login.php` | Medium
+63 | File | `/modules/profile/index.php` | High
+64 | File | `/net-banking/beneficiary.php` | High
+65 | File | `/net-banking/delete_customer.php` | High
+66 | File | `/net-banking/edit_customer_action.php` | High
+67 | File | `/net-banking/transactions.php` | High
+68 | ... | ... | ...
 
-There are 575 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 599 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,4 +150,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

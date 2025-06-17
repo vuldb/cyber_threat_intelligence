@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -69,66 +69,66 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
 2 | File | `/accountancy/admin/accountmodel.php` | High
-3 | File | `/admin/conferences/get-all-status/` | High
-4 | File | `/admin/edit-admin.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/setup` | Medium
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/advance_push/public/login` | High
-12 | File | `/ajax-files/postComment.php` | High
-13 | File | `/anony/mjpg.cgi` | High
-14 | File | `/application/common.php#action_log` | High
-15 | File | `/catalog` | Medium
-16 | File | `/cgi-bin/ExportSettings.sh` | High
-17 | File | `/cgi-bin/login_action.cgi` | High
-18 | File | `/cgi-bin/webproc` | High
-19 | File | `/checkLogin.cgi` | High
-20 | File | `/classes/profile.class.php` | High
-21 | File | `/common/run_report.php` | High
-22 | File | `/data/inc/images.php` | High
-23 | File | `/data/syslog.filter.json` | High
-24 | File | `/data/wps.setup.json` | High
-25 | File | `/docs/captcha_(number).jpeg` | High
-26 | File | `/etc/config/rpcd` | High
-27 | File | `/etc/hosts` | Medium
-28 | File | `/export` | Low
-29 | File | `/forum/` | Low
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/net\_Web\_get_value` | High
-32 | File | `/index.php` | Medium
-33 | File | `/index.php/weblinks-categories` | High
-34 | File | `/j_security_check` | High
-35 | File | `/login.html` | Medium
-36 | File | `/menu.html` | Medium
-37 | File | `/mics/j_spring_security_check` | High
-38 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
-39 | File | `/mnt/skyeye/mode_switch.sh` | High
-40 | File | `/mybb_1806/Upload/admin/index.php` | High
-41 | File | `/oauth/token` | Medium
-42 | File | `/plain` | Low
-43 | File | `/pms/admin/visits/view_visit.php` | High
-44 | File | `/public/login.htm` | High
-45 | File | `/romfile.cfg` | Medium
-46 | File | `/scp/directory.php` | High
-47 | File | `/setSystemAdmin` | High
-48 | File | `/smsa/add_class_submit.php` | High
-49 | File | `/spip.php` | Medium
-50 | File | `/system/WCore/WHelper.php` | High
-51 | File | `/uncpath/` | Medium
-52 | File | `/upload` | Low
-53 | File | `/uploads/tags.php` | High
-54 | File | `/userfs/bin/tcapi` | High
-55 | File | `/var/www/xms/application/config/config.php` | High
-56 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-57 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-58 | File | `/var/www/xms/cleanzip.sh` | High
-59 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+3 | File | `/admin/bookList?page=1&limit=10` | High
+4 | File | `/admin/conferences/get-all-status/` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/edit-admin.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/setup` | Medium
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/advance_push/public/login` | High
+14 | File | `/ajax-files/postComment.php` | High
+15 | File | `/anony/mjpg.cgi` | High
+16 | File | `/application/common.php#action_log` | High
+17 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+18 | File | `/catalog` | Medium
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/ExportSettings.sh` | High
+21 | File | `/cgi-bin/login_action.cgi` | High
+22 | File | `/cgi-bin/webproc` | High
+23 | File | `/checkLogin.cgi` | High
+24 | File | `/classes/profile.class.php` | High
+25 | File | `/common/run_report.php` | High
+26 | File | `/data/inc/images.php` | High
+27 | File | `/data/syslog.filter.json` | High
+28 | File | `/data/wps.setup.json` | High
+29 | File | `/docs/captcha_(number).jpeg` | High
+30 | File | `/etc/config/rpcd` | High
+31 | File | `/etc/hosts` | Medium
+32 | File | `/export` | Low
+33 | File | `/forum/` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/net\_Web\_get_value` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php/weblinks-categories` | High
+38 | File | `/j_security_check` | High
+39 | File | `/login.html` | Medium
+40 | File | `/menu.html` | Medium
+41 | File | `/mics/j_spring_security_check` | High
+42 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
+43 | File | `/mnt/skyeye/mode_switch.sh` | High
+44 | File | `/mybb_1806/Upload/admin/index.php` | High
+45 | File | `/oauth/token` | Medium
+46 | File | `/plain` | Low
+47 | File | `/pms/admin/visits/view_visit.php` | High
+48 | File | `/public/login.htm` | High
+49 | File | `/romfile.cfg` | Medium
+50 | File | `/scp/directory.php` | High
+51 | File | `/search.php` | Medium
+52 | File | `/setSystemAdmin` | High
+53 | File | `/smsa/add_class_submit.php` | High
+54 | File | `/spip.php` | Medium
+55 | File | `/system/WCore/WHelper.php` | High
+56 | File | `/uncpath/` | Medium
+57 | File | `/upload` | Low
+58 | File | `/uploads/tags.php` | High
+59 | File | `/var/www/xms/application/config/config.php` | High
 60 | ... | ... | ...
 
-There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +149,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

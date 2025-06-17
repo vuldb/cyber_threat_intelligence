@@ -51,57 +51,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/.xsession-errors` | High
-3 | File | `/admin/sysmon.php` | High
-4 | File | `/api/content/posts/comments` | High
-5 | File | `/API/info` | Medium
-6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-7 | File | `/Basic_Goperation_Content.asp` | High
+3 | File | `/admin/check_availability.php` | High
+4 | File | `/admin/sysmon.php` | High
+5 | File | `/api/content/posts/comments` | High
+6 | File | `/API/info` | Medium
+7 | File | `/asms/classes/Master.php?f=delete_transaction` | High
 8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/goform/addressNat` | High
-12 | File | `/goform/aspForm` | High
-13 | File | `/Home/GetAttachment` | High
-14 | File | `/include/menu_v.inc.php` | High
-15 | File | `/librarian/lab.php` | High
-16 | File | `/login/` | Low
-17 | File | `/modules/projects/vw_files.php` | High
-18 | File | `/omos/admin/?page=user/list` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/p` | Low
-21 | File | `/panel/fields/add` | High
-22 | File | `/patient/settings.php` | High
-23 | File | `/proc/*/cmdline"` | High
-24 | File | `/proc/pid/syscall` | High
-25 | File | `/sbin/acos_service` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/var/log/pcp/configs.sh` | High
-30 | File | `/var/tmp/abrt/*/maps` | High
-31 | File | `action.php` | Medium
-32 | File | `add.asp` | Low
-33 | File | `addinterviewsform.php` | High
-34 | File | `admin-files/ad.php` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/addsptemplate.php` | High
-37 | File | `admin/admin.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/limits.php` | High
-40 | File | `admin/membership_pricing.php` | High
-41 | File | `admin/picture/picture_real_edit.asp` | High
-42 | File | `admin/plugin.php` | High
-43 | File | `admin/view.asp` | High
-44 | File | `adminfoot.php` | High
-45 | File | `administration.php` | High
-46 | File | `advertise.php` | High
-47 | File | `api.php` | Low
-48 | File | `appl/user_user/server.c` | High
-49 | File | `application/classes/application.php` | High
-50 | File | `app\conference_controls\conference_control_details.php` | High
+9 | File | `/controllers/updatesettings.php` | High
+10 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/goform/addressNat` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/Home/GetAttachment` | High
+15 | File | `/include/menu_v.inc.php` | High
+16 | File | `/librarian/lab.php` | High
+17 | File | `/login/` | Low
+18 | File | `/modules/projects/vw_files.php` | High
+19 | File | `/omos/admin/?page=user/list` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/p` | Low
+22 | File | `/panel/fields/add` | High
+23 | File | `/patient/settings.php` | High
+24 | File | `/proc/*/cmdline"` | High
+25 | File | `/proc/pid/syscall` | High
+26 | File | `/sbin/acos_service` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/var/log/pcp/configs.sh` | High
+31 | File | `/var/tmp/abrt/*/maps` | High
+32 | File | `action.php` | Medium
+33 | File | `add.asp` | Low
+34 | File | `addinterviewsform.php` | High
+35 | File | `admin-files/ad.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/addsptemplate.php` | High
+38 | File | `admin/admin.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/limits.php` | High
+41 | File | `admin/membership_pricing.php` | High
+42 | File | `admin/picture/picture_real_edit.asp` | High
+43 | File | `admin/plugin.php` | High
+44 | File | `admin/view.asp` | High
+45 | File | `adminfoot.php` | High
+46 | File | `administration.php` | High
+47 | File | `advertise.php` | High
+48 | File | `api.php` | Low
+49 | File | `appl/user_user/server.c` | High
+50 | File | `application/classes/application.php` | High
 51 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

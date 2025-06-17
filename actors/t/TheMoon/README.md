@@ -47,18 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/webserver` | High
-2 | File | `/cgi-bin/hi3510/param.cgi` | High
-3 | File | `/cgi-bin/user/Config.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/htsrv/call_plugin.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/var/avamar/f_cache.dat` | High
-8 | File | `/webmail/` | Medium
-9 | File | `admin.asp` | Medium
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/bin/webserver` | High
+3 | File | `/cgi-bin/hi3510/param.cgi` | High
+4 | File | `/cgi-bin/user/Config.cgi` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/htsrv/call_plugin.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/var/avamar/f_cache.dat` | High
+9 | File | `/webmail/` | Medium
 10 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

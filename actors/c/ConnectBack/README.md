@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ConnectBack:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [107.172.16.206](https://vuldb.com/?ip.107.172.16.206) | 107-172-16-206-host.colocrossing.com | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 
 ## IOA - Indicator of Attack
@@ -53,6 +53,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/690f29dd425f7415ecb50986aa26750960c39a0ca8a02ddfd37ec4196993bd9e/
 * https://bazaar.abuse.ch/sample/a46e386c540170f42b0815c151a2c6f87c53af3eb3126f1d1f6812be272e4004/
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3560076/
 
 ## Literature
 
@@ -63,4 +64,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

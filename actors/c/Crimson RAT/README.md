@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -32,21 +32,23 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.9.191.183](https://vuldb.com/?ip.45.9.191.183) | srv515612.hstgr.cloud | - | High
 10 | [45.14.194.253](https://vuldb.com/?ip.45.14.194.253) | vmi1497978.contaboserver.net | - | High
 11 | [45.15.143.151](https://vuldb.com/?ip.45.15.143.151) | - | - | High
-12 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | - | Medium
-13 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | - | High
-14 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | - | High
-15 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | - | High
-16 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | - | High
-17 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | - | High
-18 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | - | Medium
-19 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | - | Medium
-20 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | - | High
-21 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | - | High
-22 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
-23 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
-24 | ... | ... | ... | ...
+12 | [45.61.151.96](https://vuldb.com/?ip.45.61.151.96) | 96.151.61.45.static.cloudzy.com | - | High
+13 | [45.61.158.240](https://vuldb.com/?ip.45.61.158.240) | - | - | High
+14 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | - | Medium
+15 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | - | High
+16 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | - | High
+17 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | - | High
+18 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | - | High
+19 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | - | High
+20 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | - | Medium
+21 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | - | Medium
+22 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | - | High
+23 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | - | High
+24 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
+25 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
+26 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -75,12 +77,9 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/cstecgi.cgi` | High
 6 | File | `/cgi-bin/wlogin.cgi` | High
 7 | File | `/clientdetails/admin/regester.php` | High
-8 | File | `/csms/?page=contact_us` | High
-9 | File | `/farm/product.php` | High
-10 | File | `/forum/away.php` | High
-11 | ... | ... | ...
+8 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,14 +91,22 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/sophoslabs/IoCs/blob/master/crimson_palace_stac1870_bravo.csv
 * https://search.censys.io/hosts/5.189.140.142
 * https://search.censys.io/hosts/37.60.236.186
+* https://search.censys.io/hosts/45.61.151.96
+* https://search.censys.io/hosts/45.61.158.240
 * https://search.censys.io/hosts/81.17.102.55
 * https://search.censys.io/hosts/91.107.209.50
+* https://search.censys.io/hosts/94.177.123.112
 * https://search.censys.io/hosts/107.175.113.198
+* https://search.censys.io/hosts/107.189.26.70
 * https://search.censys.io/hosts/109.199.108.1
 * https://search.censys.io/hosts/138.201.245.101
 * https://search.censys.io/hosts/161.97.180.199
 * https://search.censys.io/hosts/165.140.85.87
+* https://search.censys.io/hosts/172.86.80.211
+* https://search.censys.io/hosts/172.86.109.207
 * https://search.censys.io/hosts/185.157.77.32
+* https://search.censys.io/hosts/192.3.95.164
+* https://search.censys.io/hosts/209.145.56.66
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
 * https://twitter.com/0xrb/status/1704827410695528554
@@ -119,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

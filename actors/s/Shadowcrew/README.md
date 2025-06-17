@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shadowcrew:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -747,13 +747,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -761,33 +760,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/maintenance/manage_brand.php` | High
-7 | File | `/admin/manage_model.php` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/admin/order.php` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/ping.cgi` | High
-15 | File | `/changePassword` | High
-16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-17 | File | `/download` | Medium
-18 | File | `/edit-subject.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/foms/routers/place-order.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/goform/SetLEDCfg` | High
-25 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/login.php` | High
+4 | File | `/adpweb/wechat/verifyToken/` | High
+5 | File | `/auth/v1/user/` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -804,4 +786,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

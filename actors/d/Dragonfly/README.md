@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,21 +56,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
-2 | File | `/cgi-bin/system_mgr.cgi` | High
-3 | File | `/s/` | Low
-4 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/wbg/core/_includes/authorization.inc.php` | High
-7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-8 | File | `adclick.php` | Medium
-9 | File | `admin/import/class-import-settings.php` | High
-10 | File | `ajax/comments.php` | High
-11 | File | `architext.conf` | High
-12 | File | `attachment_send.php` | High
-13 | File | `auth2-gss.c` | Medium
-14 | ... | ... | ...
+2 | File | `/admin/room.php` | High
+3 | File | `/admin?do=admin:user:editPost` | High
+4 | File | `/adminapi/system/crud` | High
+5 | File | `/backend/doc/his_doc_update-account.php` | High
+6 | File | `/cancel.php` | Medium
+7 | File | `/cgi-bin/system_mgr.cgi` | High
+8 | File | `/goform/formResetStatistic` | High
+9 | File | `/goform/formSetPortTr` | High
+10 | File | `/login` | Low
+11 | File | `/manager/frontdesk/online_status.php` | High
+12 | File | `/myprofile.php` | High
+13 | File | `/s/` | Low
+14 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+15 | File | `/storage/classes/Login.php` | High
+16 | File | `/student/controller.php` | High
+17 | File | `/uncpath/` | Medium
+18 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +95,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

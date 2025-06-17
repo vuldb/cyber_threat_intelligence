@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,25 +21,35 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
-2 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
-3 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
-4 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
-5 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
-6 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
-7 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
-8 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
-9 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
-10 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-11 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-12 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
-13 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
-14 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-15 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
-16 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
-17 | ... | ... | ... | ...
+1 | [0.0.1.1](https://vuldb.com/?ip.0.0.1.1) | - | - | High
+2 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
+3 | [5.75.212.196](https://vuldb.com/?ip.5.75.212.196) | downtowninbusiness.com | - | High
+4 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
+5 | [5.187.7.144](https://vuldb.com/?ip.5.187.7.144) | 239476.fornex.cloud | - | High
+6 | [5.252.118.50](https://vuldb.com/?ip.5.252.118.50) | cageyhouses.aeza.network | - | High
+7 | [5.253.59.210](https://vuldb.com/?ip.5.253.59.210) | 47149.ip-ptr.tech | - | High
+8 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
+9 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
+10 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
+11 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
+12 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
+13 | [37.143.15.50](https://vuldb.com/?ip.37.143.15.50) | hosted-by.ihc.ru | - | High
+14 | [38.180.147.18](https://vuldb.com/?ip.38.180.147.18) | - | - | High
+15 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
+16 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
+17 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
+18 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
+19 | [45.159.189.41](https://vuldb.com/?ip.45.159.189.41) | edgewayfunds.com | - | High
+20 | [46.202.155.128](https://vuldb.com/?ip.46.202.155.128) | srv663770.hstgr.cloud | - | High
+21 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
+22 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
+23 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
+24 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+25 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+26 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,14 +57,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,48 +70,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/advanced-tools/nova/bin/netwatch` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/profile` | Medium
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin-sdb/` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/dataset/data/{id}` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/edit-subject.php` | High
-12 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-13 | File | `/etc/grafana/grafana.ini` | High
-14 | File | `/film-rating.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/forum/PostPrivateMessage` | High
-17 | File | `/index.php` | Medium
-18 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/nova/bin/igmp-proxy` | High
-21 | File | `/orrs/admin/?page=user/manage_user` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/pages/processlogin.php` | High
-24 | File | `/php/ping.php` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/register.php` | High
-27 | File | `/scripts/unlock_tasks.php` | High
-28 | File | `/show_news.php` | High
-29 | File | `/src/vmir_wasm_parser.c` | High
-30 | File | `/student/bookdetails.php` | High
-31 | File | `/SysInfo1.htm` | High
-32 | File | `/sysinfo_json.cgi` | High
-33 | File | `/system/dictData/loadDictItem` | High
-34 | File | `/system/user/modules/mod_users/controller.php` | High
-35 | File | `/SystemMng.ashx` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-38 | File | `/version.js` | Medium
-39 | File | `/view/vpn/autovpn/sub_commit.php` | High
-40 | ... | ... | ...
+1 | File | `.git/` | Low
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/film-rating.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/php/ping.php` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/student/bookdetails.php` | High
+11 | File | `/SysInfo1.htm` | High
+12 | File | `/sysinfo_json.cgi` | High
+13 | File | `/system/dictData/loadDictItem` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
+15 | File | `/view/vpn/autovpn/sub_commit.php` | High
+16 | File | `account.asp` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin/establishment/manage.php` | High
+19 | File | `admin/inquiries/view_details.php` | High
+20 | File | `album_portal.php` | High
+21 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,10 +103,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/9a53fdba-8af6-4d2c-9c2b-e5b86fa34e8b
 * https://app.any.run/tasks/330d3bb4-cb91-4311-8bf3-f3d8db2712fb
 * https://app.any.run/tasks/549cccfd-2b19-42f1-b1de-131d9aad5d34
+* https://app.any.run/tasks/623e9dca-1436-498a-b4d4-40cbe4af1243
+* https://app.any.run/tasks/6371365b-462d-4912-b634-3ac7c3b44fa6
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
+* https://bazaar.abuse.ch/sample/22ee40c14dcd7013d54483f24ac213921b6b7c36536c26c1115a364e10007635/
 * https://search.censys.io/hosts/5.42.92.179
+* https://search.censys.io/hosts/5.252.118.50
+* https://search.censys.io/hosts/84.32.185.206
+* https://search.censys.io/hosts/92.255.57.224
 * https://search.censys.io/hosts/95.217.74.243
 * https://search.censys.io/hosts/117.220.15.119
+* https://search.censys.io/hosts/185.7.214.73
+* https://search.censys.io/hosts/195.82.147.187
 * https://search.censys.io/hosts/195.211.97.9
 * https://threatfox.abuse.ch
 * https://tip.neiki.dev/file/d68fc909007ff005a9c41863f65641f288c3792fe2c3ba039299495911fd781e
@@ -131,6 +128,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/Ishusoka/status/1649716132822089728
 * https://twitter.com/sekoia_io/status/1572889505497223169
 * https://urlhaus.abuse.ch/url/3318251/
+* https://urlscan.io/result/0196ddb8-bdeb-7609-9355-df1ac9956cac
+* https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html
 * https://www.welivesecurity.com/en/eset-research/tap-estry-threats-targeting-hamster-kombat-players/
 * https://x.com/Gi7w0rm/status/1711900442899149240
 
@@ -143,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

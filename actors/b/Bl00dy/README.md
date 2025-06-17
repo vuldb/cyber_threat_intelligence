@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Bl00dy:
 
 * CVE-2023-27350
+* CVE-2024-1708 / CVE-2024-1709
 
 ## Countries
 
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +31,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.8.18.233](https://vuldb.com/?ip.5.8.18.233) | - | CVE-2023-27350 | High
 2 | [5.8.18.240](https://vuldb.com/?ip.5.8.18.240) | - | CVE-2023-27350 | High
 3 | [5.188.206.14](https://vuldb.com/?ip.5.188.206.14) | - | CVE-2023-27350 | High
-4 | ... | ... | ... | ...
+4 | [23.26.137.225](https://vuldb.com/?ip.23.26.137.225) | - | CVE-2024-1708 / CVE-2024-1709 | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,11 +45,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,57 +59,63 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/admin-update-employee.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/clusters/local/topics/{topic}/messages` | High
-11 | File | `/api/gen/clients/{language}` | High
-12 | File | `/API/info` | Medium
-13 | File | `/app/options.py` | High
-14 | File | `/application/index/controller/Databasesource.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-18 | File | `/cgi-bin/tosei_kikai.php` | High
-19 | File | `/cgi-bin/wapopen` | High
-20 | File | `/ci_spms/admin/category` | High
-21 | File | `/ci_spms/admin/search/searching/` | High
-22 | File | `/classes/Master.php?f=delete_appointment` | High
-23 | File | `/classes/Master.php?f=delete_train` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/ctcprotocol/Protocol` | High
-26 | File | `/dashboard/menu-list.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/detailed.php` | High
-29 | File | `/dist/index.js` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/ebics-server/ebics.aspx` | High
-32 | File | `/EXCU_SHELL` | Medium
-33 | File | `/ffos/classes/Master.php?f=save_category` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/form2systime.cgi` | High
-36 | File | `/goform/modifyDhcpRule` | High
-37 | File | `/goform/ModifyPppAuthWhiteMac` | High
-38 | File | `/goform/net\_Web\_get_value` | High
-39 | File | `/goform/setStaOffline` | High
-40 | File | `/goform/WizardHandle` | High
-41 | File | `/goforms/rlminfo` | High
-42 | File | `/GponForm/usb_restore_Form?script/` | High
-43 | File | `/group1/uploa` | High
-44 | File | `/hedwig.cgi` | Medium
-45 | ... | ... | ...
+3 | File | `/add-students.php` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/admin-update-employee.php` | High
+7 | File | `/admin/booktime.php` | High
+8 | File | `/admin/change-image.php` | High
+9 | File | `/admin/index.php/web/ajax_all_lists` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/member_save.php` | High
+13 | File | `/admin/search-vehicle.php` | High
+14 | File | `/ajax.php?action=read_msg` | High
+15 | File | `/api/authentication/login` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/clusters/local/topics/{topic}/messages` | High
+18 | File | `/api/gen/clients/{language}` | High
+19 | File | `/API/info` | Medium
+20 | File | `/app/options.py` | High
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/bin/httpd` | Medium
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+26 | File | `/cgi-bin/tosei_kikai.php` | High
+27 | File | `/cgi-bin/wapopen` | High
+28 | File | `/classes/Master.php?f=delete_appointment` | High
+29 | File | `/cov/triggerEnvCov` | High
+30 | File | `/ctcprotocol/Protocol` | High
+31 | File | `/dashboard/admin/del_plan.php` | High
+32 | File | `/dashboard/approve-reject.php` | High
+33 | File | `/dashboard/menu-list.php` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/dede/file_manage_control.php` | High
+36 | File | `/detailed.php` | High
+37 | File | `/dist/index.js` | High
+38 | File | `/DXR.axd` | Medium
+39 | File | `/ebics-server/ebics.aspx` | High
+40 | File | `/EXCU_SHELL` | Medium
+41 | File | `/ffos/classes/Master.php?f=save_category` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/general/address/private/address/query/delete.php` | High
+44 | File | `/goform/ate` | Medium
+45 | File | `/goform/form2systime.cgi` | High
+46 | File | `/goform/formSetLog` | High
+47 | File | `/goform/formWlanSetup_Wizard` | High
+48 | File | `/goform/formWlanWizardSetup` | High
+49 | File | `/goform/modifyDhcpRule` | High
+50 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-131a
+* https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html
 
 ## Literature
 
@@ -118,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

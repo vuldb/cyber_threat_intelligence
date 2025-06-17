@@ -81,38 +81,39 @@ ID | Type | Indicator | Confidence
 17 | File | `/apply/index.php` | High
 18 | File | `/boaform/device_reset.cgi` | High
 19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wapopen` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php?f=save_category` | High
-23 | File | `/clientdetails/admin/regester.php` | High
-24 | File | `/collection/all` | High
-25 | File | `/config/php.ini` | High
-26 | File | `/course.php` | Medium
-27 | File | `/csms/?page=contact_us` | High
-28 | File | `/dl/dl_sendmail.php` | High
-29 | File | `/ecommerce/admin/products/controller.php` | High
-30 | File | `/etc/ajenti/config.yml` | High
-31 | File | `/etc/passwd` | Medium
-32 | File | `/farm/product.php` | High
-33 | File | `/file-manager/rename.php` | High
-34 | File | `/forms/nslookupHandler` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/function/booksave.php` | High
-37 | File | `/goform/form2userconfig.cgi` | High
-38 | File | `/goform/setcfm` | High
-39 | File | `/goform/SetSysTimeCfg` | High
-40 | File | `/goform/telnet` | High
-41 | File | `/goform/WifiWpsStart` | High
-42 | File | `/goform/WizardHandle` | High
-43 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-44 | File | `/include/file.php` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php?f=save_category` | High
+22 | File | `/clientdetails/admin/regester.php` | High
+23 | File | `/collection/all` | High
+24 | File | `/config/php.ini` | High
+25 | File | `/course.php` | Medium
+26 | File | `/csms/?page=contact_us` | High
+27 | File | `/dl/dl_sendmail.php` | High
+28 | File | `/ecommerce/admin/products/controller.php` | High
+29 | File | `/etc/ajenti/config.yml` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/farm/product.php` | High
+32 | File | `/file-manager/rename.php` | High
+33 | File | `/forms/nslookupHandler` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/function/booksave.php` | High
+36 | File | `/goform/form2userconfig.cgi` | High
+37 | File | `/goform/setcfm` | High
+38 | File | `/goform/SetSysTimeCfg` | High
+39 | File | `/goform/telnet` | High
+40 | File | `/goform/WifiWpsStart` | High
+41 | File | `/goform/WizardHandle` | High
+42 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+43 | File | `/include/file.php` | High
+44 | File | `/install/installdb.php` | High
 45 | File | `/login` | Low
 46 | File | `/manage_block.php` | High
 47 | File | `/manage_laundry.php` | High
 48 | File | `/modules/profile/index.php` | High
-49 | ... | ... | ...
+49 | File | `/plain` | Low
+50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

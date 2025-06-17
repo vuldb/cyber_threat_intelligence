@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +31,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -38,13 +42,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/update_setup` | High
-2 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-3 | File | `/tmp/etc/htpasswd` | High
-4 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
-5 | ... | ... | ...
+1 | File | `/api/job/add/` | High
+2 | File | `/api/update_setup` | High
+3 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+4 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+5 | File | `/tmp/etc/htpasswd` | High
+6 | ... | ... | ...
 
-There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,4 +66,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,13 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,34 +74,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/read.php?mudi=getSignal` | High
-6 | File | `/admin/subnets/ripe-query.php` | High
+1 | File | `/admin/add-category.php` | High
+2 | File | `/admin/read.php?mudi=getSignal` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/api/front/search/books` | High
+5 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+6 | File | `/application/index/controller/Screen.php` | High
 7 | File | `/apply.cgi` | Medium
 8 | File | `/core/conditions/AbstractWrapper.java` | High
 9 | File | `/debug/pprof` | Medium
 10 | File | `/export` | Low
-11 | File | `/file?action=download&file` | High
-12 | File | `/hardware` | Medium
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/medical/inventories.php` | High
-15 | File | `/monitoring` | Medium
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/plugin/LiveChat/getChat.json.php` | High
-18 | File | `/plugins/servlet/audit/resource` | High
-19 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-20 | File | `/replication` | Medium
-21 | File | `/RestAPI` | Medium
-22 | File | `/tmp/zarafa-vacation-*` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/uploadeditor.html?action=uploadimage` | High
-26 | ... | ... | ...
+11 | File | `/goform/aspForm` | High
+12 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

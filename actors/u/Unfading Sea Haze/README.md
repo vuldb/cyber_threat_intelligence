@@ -36,8 +36,8 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -49,18 +49,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/app/uploading/upload-mp3.php` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/iwgallery/pictures/details.asp` | High
-6 | File | `/secserver` | Medium
-7 | File | `/server/ajax/user_manager.php` | High
-8 | File | `/websocket/exec` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/conf_users_edit.php` | High
-11 | ... | ... | ...
+2 | File | `/api/programs/orgUnits?programs` | High
+3 | File | `/app/uploading/upload-mp3.php` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/iwgallery/pictures/details.asp` | High
+8 | File | `/secserver` | Medium
+9 | File | `/server/ajax/user_manager.php` | High
+10 | File | `/trackedEntityInstances` | High
+11 | File | `/websocket/exec` | High
+12 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

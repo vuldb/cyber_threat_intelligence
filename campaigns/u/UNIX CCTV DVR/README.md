@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -66,59 +66,60 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin.php/singer/admin/lists/zhuan` | High
 6 | File | `/admin.php/User/level_sort` | High
 7 | File | `/admin/book_row.php` | High
-8 | File | `/admin/del_service.php` | High
-9 | File | `/admin/edit-subadmin.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/process_category_add.php` | High
-12 | File | `/admin/quizquestion.php` | High
-13 | File | `/admin/search-appointment.php` | High
-14 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-15 | File | `/admin/tag/delete` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/ajax.php?action=login` | High
-18 | File | `/ajax.php?action=read_msg` | High
-19 | File | `/ajax.php?action=save_category` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/app/api/controller/caiji.php` | High
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/blog/edit` | Medium
-24 | File | `/buscar_integrada.php` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=delete_category` | High
-28 | File | `/classes/Master.php?f=save_item` | High
-29 | File | `/config/php.ini` | High
-30 | File | `/data/remove` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-33 | File | `/dms/admin/reports/daily_collection_report.php` | High
-34 | File | `/editprofile.php` | High
-35 | File | `/Employer/ManageWalkin.php` | High
-36 | File | `/endpoint/add-calorie.php` | High
-37 | File | `/endpoint/delete-computer.php` | High
-38 | File | `/endpoint/update.php` | High
-39 | File | `/export` | Low
-40 | File | `/food/admin/all_users.php` | High
-41 | File | `/formLoginAuth.htm` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/goform/PowerSaveSet` | High
-44 | File | `/goform/SetClientState` | High
-45 | File | `/goform/SetFirewallCfg` | High
-46 | File | `/goform/wizard_end` | High
-47 | File | `/guest/update.php` | High
-48 | File | `/home/get_tasks_list` | High
-49 | File | `/index.php` | Medium
-50 | File | `/isms/classes/Users.php` | High
-51 | File | `/jobportal/index.php` | High
-52 | File | `/lists/index.php` | High
-53 | File | `/MailAdmin_dll.htm` | High
-54 | File | `/manage_supplier.php` | High
-55 | File | `/members/view_member.php` | High
-56 | File | `/messageboard/view.php` | High
-57 | File | `/mhds/clinic/view_details.php` | High
-58 | ... | ... | ...
+8 | File | `/admin/categories/update` | High
+9 | File | `/admin/del_service.php` | High
+10 | File | `/admin/edit-subadmin.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/process_category_add.php` | High
+14 | File | `/admin/quizquestion.php` | High
+15 | File | `/admin/search-appointment.php` | High
+16 | File | `/admin/tag/delete` | High
+17 | File | `/admin/user/manage_user.php` | High
+18 | File | `/ajax.php?action=login` | High
+19 | File | `/ajax.php?action=read_msg` | High
+20 | File | `/ajax.php?action=save_category` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/app/api/controller/caiji.php` | High
+23 | File | `/bitrix/admin/ldap_server_edit.php` | High
+24 | File | `/blog/edit` | Medium
+25 | File | `/buscar_integrada.php` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=delete_category` | High
+29 | File | `/classes/Master.php?f=save_item` | High
+30 | File | `/config/php.ini` | High
+31 | File | `/data/remove` | Medium
+32 | File | `/debug/pprof` | Medium
+33 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+34 | File | `/details.php` | Medium
+35 | File | `/editprofile.php` | High
+36 | File | `/Employer/ManageWalkin.php` | High
+37 | File | `/endpoint/add-calorie.php` | High
+38 | File | `/endpoint/delete-computer.php` | High
+39 | File | `/endpoint/update.php` | High
+40 | File | `/expedit.php` | Medium
+41 | File | `/export` | Low
+42 | File | `/formLoginAuth.htm` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/goform/PowerSaveSet` | High
+45 | File | `/goform/SetClientState` | High
+46 | File | `/goform/SetFirewallCfg` | High
+47 | File | `/goform/wizard_end` | High
+48 | File | `/guest/update.php` | High
+49 | File | `/home/get_tasks_list` | High
+50 | File | `/index.php` | Medium
+51 | File | `/isms/classes/Users.php` | High
+52 | File | `/jobportal/index.php` | High
+53 | File | `/lists/index.php` | High
+54 | File | `/MailAdmin_dll.htm` | High
+55 | File | `/manage_supplier.php` | High
+56 | File | `/members/view_member.php` | High
+57 | File | `/messageboard/view.php` | High
+58 | File | `/mhds/clinic/view_details.php` | High
+59 | ... | ... | ...
 
-There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

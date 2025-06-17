@@ -21,11 +21,15 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [101.42.0.0](https://vuldb.com/?ip.101.42.0.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 2 | [101.248.0.0](https://vuldb.com/?ip.101.248.0.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 3 | [150.242.120.0](https://vuldb.com/?ip.150.242.120.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.talosintelligence.com/spam-campaign-targeting-brazil-abuses-rmm-tools/
 * https://github.com/SecOps-Institute/SpamhausIPLists/blob/master/drop.txt
 
 ## Literature
@@ -37,4 +41,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

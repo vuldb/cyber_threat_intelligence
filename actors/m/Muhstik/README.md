@@ -19,12 +19,12 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Muhstik:
 
-* [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,27 +75,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addbill.php` | Medium
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/ample/app/action/edit_product.php` | High
-4 | File | `/api/v2/open/rowsInfo` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/classes/Master.php` | High
-7 | File | `/cms/classes/Master.php?f=delete_service` | High
-8 | File | `/conf/` | Low
-9 | File | `/config/api/v1/reboot` | High
-10 | File | `/controller/AdminController.php` | High
-11 | File | `/ecommerce/support_ticket` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/friends/ajax_invite` | High
-14 | File | `/inc/HTTPClient.php` | High
-15 | File | `/include/makecvs.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/Items/*/RemoteImages/Download` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/login/index.php` | High
-20 | ... | ... | ...
+2 | File | `/admin.php` | Medium
+3 | File | `/admin/edit_product.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/mod_reports/printreport.php` | High
+6 | File | `/admin/update-clients.php` | High
+7 | File | `/ample/app/action/edit_product.php` | High
+8 | File | `/api/v2/open/rowsInfo` | High
+9 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/cms/classes/Master.php?f=delete_service` | High
+13 | File | `/conf/` | Low
+14 | File | `/config/api/v1/reboot` | High
+15 | File | `/controller/AdminController.php` | High
+16 | File | `/cwc/login` | Medium
+17 | File | `/ecommerce/support_ticket` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/friends/ajax_invite` | High
+20 | File | `/goform/fromSetDDNS` | High
+21 | File | `/goform/telnet` | High
+22 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

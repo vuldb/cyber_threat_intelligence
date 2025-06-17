@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -64,13 +64,13 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/.asp` | Low
-4 | File | `/admin/layout` | High
-5 | File | `/admin/success_story.php` | High
-6 | File | `/advanced/adv_dns.xgi` | High
-7 | File | `/api/RecordingList/DownloadRecord?file=` | High
-8 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/CFIDE/probe.cfm` | High
+4 | File | `/.env` | Low
+5 | File | `/admin/layout` | High
+6 | File | `/admin/success_story.php` | High
+7 | File | `/advanced/adv_dns.xgi` | High
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
+10 | File | `/apply.cgi` | Medium
 11 | File | `/cgi-bin/cstecgi.cgi` | High
 12 | File | `/cgi-bin/kerbynet` | High
 13 | File | `/cgi-bin/wlogin.cgi` | High
@@ -86,28 +86,29 @@ ID | Type | Indicator | Confidence
 23 | File | `/goform/SetFirewallCfg` | High
 24 | File | `/goform/setMacFilterList` | High
 25 | File | `/goform/SysToolChangePwd` | High
-26 | File | `/movie.php` | Medium
-27 | File | `/nidp/app/login` | High
-28 | File | `/php/ping.php` | High
-29 | File | `/pms/admin/crimes/manage_crime.php` | High
-30 | File | `/proc` | Low
-31 | File | `/release-x64/otfccdump` | High
-32 | File | `/roomtype-details.php` | High
-33 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/see_more_details.php` | High
-36 | File | `/show_news.php` | High
-37 | File | `/sitecore/shell/Invoke.aspx` | High
-38 | File | `/subpage.php` | Medium
-39 | File | `/SysInfo1.htm` | High
-40 | File | `/sysinfo_json.cgi` | High
-41 | File | `/system/dictData/loadDictItem` | High
-42 | File | `/system/user/modules/mod_users/controller.php` | High
-43 | File | `/tmp` | Low
-44 | File | `/uncpath/` | Medium
-45 | ... | ... | ...
+26 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
+27 | File | `/movie.php` | Medium
+28 | File | `/nidp/app/login` | High
+29 | File | `/php/ping.php` | High
+30 | File | `/pictory/php/getFileList.php` | High
+31 | File | `/pms/admin/crimes/manage_crime.php` | High
+32 | File | `/proc` | Low
+33 | File | `/release-x64/otfccdump` | High
+34 | File | `/roomtype-details.php` | High
+35 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+36 | File | `/scripts/unlock_tasks.php` | High
+37 | File | `/see_more_details.php` | High
+38 | File | `/show_news.php` | High
+39 | File | `/sitecore/shell/Invoke.aspx` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/src/dede/member_type.php` | High
+42 | File | `/subpage.php` | Medium
+43 | File | `/SysInfo1.htm` | High
+44 | File | `/sysinfo_json.cgi` | High
+45 | File | `/system/dictData/loadDictItem` | High
+46 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

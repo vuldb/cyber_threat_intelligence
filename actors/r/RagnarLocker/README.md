@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,8 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [37.120.238.107](https://vuldb.com/?ip.37.120.238.107) | - | - | High
 5 | [45.63.89.250](https://vuldb.com/?ip.45.63.89.250) | 45.63.89.250.vultr.com | - | Medium
 6 | [45.90.59.131](https://vuldb.com/?ip.45.90.59.131) | unallocated.layer6.net | - | High
-7 | ... | ... | ... | ...
+7 | [45.91.93.75](https://vuldb.com/?ip.45.91.93.75) | mnbbim4.uniteq.xyz | - | High
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -56,49 +57,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin` | Low
 3 | File | `/adminlogin.asp` | High
 4 | File | `/app/index/controller/Common.php` | High
-5 | File | `/bitrix/admin/ldap_server_edit.php` | High
-6 | File | `/category_view.php` | High
-7 | File | `/dipam/athlete-profile.php` | High
-8 | File | `/dtale/chart-data/1` | High
-9 | File | `/filter.php` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/delAd` | High
-12 | File | `/HNAP1` | Low
-13 | File | `/includes/fileReceive.php` | High
-14 | File | `/mc-admin/post.php?state=delete&delete` | High
-15 | File | `/mkshop/Men/profile.php` | High
-16 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-17 | File | `/php-jms/review_se_result.php` | High
-18 | File | `/public/login.htm` | High
-19 | File | `/Side.php` | Medium
-20 | File | `/spip.php` | Medium
-21 | File | `/student/bookdetails.php` | High
-22 | File | `/textpattern/index.php` | High
-23 | File | `/user/profile` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/usr/ucb/mail` | High
-26 | File | `/vicidial/AST_agent_time_sheet.php` | High
-27 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-28 | File | `account.asp` | Medium
-29 | File | `adclick.php` | Medium
-30 | File | `addmember.php` | High
-31 | File | `addtocart.asp` | High
-32 | File | `addtomylist.asp` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin.x-shop.php` | High
-35 | File | `admin/auth.php` | High
-36 | File | `admin/import/class-import-settings.php` | High
-37 | File | `admin/sqlpatch.php` | High
-38 | File | `adminAttachments.php` | High
-39 | File | `adminBoards.php` | High
-40 | ... | ... | ...
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/bitrix/admin/ldap_server_edit.php` | High
+8 | File | `/category_view.php` | High
+9 | File | `/dipam/athlete-profile.php` | High
+10 | File | `/dtale/chart-data/1` | High
+11 | File | `/filter.php` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/delAd` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/includes/fileReceive.php` | High
+16 | File | `/mc-admin/post.php?state=delete&delete` | High
+17 | File | `/mkshop/Men/profile.php` | High
+18 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+19 | File | `/php-jms/review_se_result.php` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/Side.php` | Medium
+22 | File | `/spip.php` | Medium
+23 | File | `/student/bookdetails.php` | High
+24 | File | `/textpattern/index.php` | High
+25 | File | `/user/profile` | High
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/usr/ucb/mail` | High
+28 | File | `/vicidial/AST_agent_time_sheet.php` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+30 | File | `account.asp` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `addmember.php` | High
+33 | File | `addtocart.asp` | High
+34 | File | `addtomylist.asp` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin.x-shop.php` | High
+37 | File | `admin/auth.php` | High
+38 | File | `admin/import/class-import-settings.php` | High
+39 | File | `admin/sqlpatch.php` | High
+40 | File | `adminAttachments.php` | High
+41 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://www.ic3.gov/Media/News/2022/220307.pdf
 
 ## Literature
@@ -110,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

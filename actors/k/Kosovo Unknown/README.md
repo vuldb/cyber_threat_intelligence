@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.kosovo_unknown](https://vuldb.com/?actor.kosovo_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kosovo Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [AL](https://vuldb.com/?country.al)
-* [GB](https://vuldb.com/?country.gb)
-* ...
-
-There are 11 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Kosovo Unknown.
@@ -25,72 +14,28 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [37.26.64.0](https://vuldb.com/?ip.37.26.64.0) | - | - | High
 3 | [37.35.64.0](https://vuldb.com/?ip.37.35.64.0) | - | - | High
 4 | [45.84.116.0](https://vuldb.com/?ip.45.84.116.0) | - | - | High
-5 | [46.19.224.0](https://vuldb.com/?ip.46.19.224.0) | - | - | High
-6 | [46.99.0.0](https://vuldb.com/?ip.46.99.0.0) | - | - | High
-7 | [77.83.120.0](https://vuldb.com/?ip.77.83.120.0) | - | - | High
-8 | [77.247.248.0](https://vuldb.com/?ip.77.247.248.0) | - | - | High
-9 | [77.247.250.0](https://vuldb.com/?ip.77.247.250.0) | - | - | High
-10 | [79.101.106.22](https://vuldb.com/?ip.79.101.106.22) | - | - | High
-11 | [80.80.160.0](https://vuldb.com/?ip.80.80.160.0) | - | - | High
-12 | [82.114.64.0](https://vuldb.com/?ip.82.114.64.0) | - | - | High
-13 | [84.22.32.0](https://vuldb.com/?ip.84.22.32.0) | - | - | High
-14 | [84.22.45.0](https://vuldb.com/?ip.84.22.45.0) | - | - | High
-15 | [84.22.62.248](https://vuldb.com/?ip.84.22.62.248) | - | - | High
-16 | [87.238.208.0](https://vuldb.com/?ip.87.238.208.0) | - | - | High
-17 | ... | ... | ... | ...
+5 | [45.128.197.0](https://vuldb.com/?ip.45.128.197.0) | - | - | High
+6 | [45.198.3.0](https://vuldb.com/?ip.45.198.3.0) | - | - | High
+7 | [46.19.224.0](https://vuldb.com/?ip.46.19.224.0) | - | - | High
+8 | [46.99.0.0](https://vuldb.com/?ip.46.99.0.0) | - | - | High
+9 | [62.4.122.0](https://vuldb.com/?ip.62.4.122.0) | - | - | High
+10 | [77.46.238.52](https://vuldb.com/?ip.77.46.238.52) | 77-46-238-52.static.isp.telekom.rs | - | High
+11 | [77.83.120.0](https://vuldb.com/?ip.77.83.120.0) | - | - | High
+12 | [77.247.248.0](https://vuldb.com/?ip.77.247.248.0) | - | - | High
+13 | [77.247.250.0](https://vuldb.com/?ip.77.247.250.0) | - | - | High
+14 | [79.101.106.22](https://vuldb.com/?ip.79.101.106.22) | - | - | High
+15 | [80.80.160.0](https://vuldb.com/?ip.80.80.160.0) | - | - | High
+16 | [82.114.64.0](https://vuldb.com/?ip.82.114.64.0) | - | - | High
+17 | [84.22.32.0](https://vuldb.com/?ip.84.22.32.0) | - | - | High
+18 | [84.22.45.0](https://vuldb.com/?ip.84.22.45.0) | - | - | High
+19 | [84.22.62.248](https://vuldb.com/?ip.84.22.62.248) | - | - | High
+20 | [87.238.208.0](https://vuldb.com/?ip.87.238.208.0) | - | - | High
+21 | [91.150.90.208](https://vuldb.com/?ip.91.150.90.208) | 91-150-90-208.static.isp.telekom.rs | - | High
+22 | [91.150.107.197](https://vuldb.com/?ip.91.150.107.197) | 91-150-107-197.dynamic.isp.telekom.rs | - | High
+23 | [91.150.107.198](https://vuldb.com/?ip.91.150.107.198) | 91-150-107-198.dynamic.isp.telekom.rs | - | High
+24 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Kosovo Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 16 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Kosovo Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/accounts/password_change/` | High
-2 | File | `/addbill.php` | Medium
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/casedetails.php` | High
-5 | File | `/admin/featured.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/ample/app/action/edit_product.php` | High
-8 | File | `/api/process.php` | High
-9 | File | `/aqpg/users/login.php` | High
-10 | File | `/card/in-card.php` | High
-11 | File | `/conf/` | Low
-12 | File | `/config.cgi?webmin` | High
-13 | File | `/configs/application.ini` | High
-14 | File | `/controller/AdminController.php` | High
-15 | File | `/dishes.php` | Medium
-16 | File | `/DXR.axd` | Medium
-17 | File | `/fax/fax_send.php` | High
-18 | File | `/friends/ajax_invite` | High
-19 | File | `/mobile/downloadfile.aspx` | High
-20 | File | `/pages/animals.php` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/psrs/admin/categories/manage_category.php` | High
-23 | File | `/rom-0` | Low
-24 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-25 | File | `/show_news.php` | High
-26 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-27 | File | `/Status/wan_button_action.asp` | High
-28 | ... | ... | ...
-
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +53,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

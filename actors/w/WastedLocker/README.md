@@ -34,11 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -68,20 +68,22 @@ ID | Type | Indicator | Confidence
 17 | File | `/function/booksave.php` | High
 18 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
 19 | File | `/goform/SysToolChangePwd` | High
-20 | File | `/horde/util/go.php` | High
-21 | File | `/login.html` | Medium
-22 | File | `/manage_laundry.php` | High
-23 | File | `/proxy` | Low
-24 | File | `/romfile.cfg` | Medium
-25 | File | `/see_more_details.php` | High
-26 | File | `/so.php` | Low
-27 | File | `/SysInfo.htm` | Medium
-28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local` | Medium
-31 | ... | ... | ...
+20 | File | `/H5/versionupdate.data` | High
+21 | File | `/horde/util/go.php` | High
+22 | File | `/login.html` | Medium
+23 | File | `/manage_laundry.php` | High
+24 | File | `/pictory/php/getFileList.php` | High
+25 | File | `/proxy` | Low
+26 | File | `/rental/ajax.php?action=delete_tenant` | High
+27 | File | `/romfile.cfg` | Medium
+28 | File | `/see_more_details.php` | High
+29 | File | `/so.php` | Low
+30 | File | `/SysInfo.htm` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/uncpath/` | Medium
+33 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

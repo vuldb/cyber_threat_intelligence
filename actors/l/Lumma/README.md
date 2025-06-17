@@ -4,13 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lumma](https://vuldb.com/?actor.lumma)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Lumma:
+
+* Genesis Market Browser Extension
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lumma:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -24,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.9.74.78](https://vuldb.com/?ip.45.9.74.78) | - | - | High
 2 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
 3 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | vds1223468.hosted-by-itldc.com | - | High
-4 | ... | ... | ... | ...
+4 | [82.117.255.127](https://vuldb.com/?ip.82.117.255.127) | vds1221946.hosted-by-itldc.com | - | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,24 +57,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/comn/service/update.json` | High
 3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-4 | File | `/api/0/api-tokens/` | High
-5 | File | `/api/profile` | Medium
-6 | File | `/filemanager/php/connector.php` | High
-7 | File | `/forum/PostPrivateMessage` | High
-8 | File | `/pages.php` | Medium
-9 | File | `/pages/processlogin.php` | High
-10 | File | `/tmp` | Low
-11 | File | `admin.cgi` | Medium
-12 | File | `admin/?page=system_info` | High
-13 | File | `admin/adminlogin.php` | High
-14 | File | `admin/gallery.php` | High
-15 | File | `admin\posts\view_post.php` | High
-16 | File | `article.php` | Medium
-17 | File | `articles.php` | Medium
-18 | File | `bb-hist.sh/bb-histlog.sh/bb-hostsvc.sh/bb-rep.sh/bb-replog.sh/bb-ack.sh` | High
-19 | ... | ... | ...
+4 | File | `/admin/search-pass.php` | High
+5 | File | `/admin/view-request.php` | High
+6 | File | `/api/0/api-tokens/` | High
+7 | File | `/api/profile` | Medium
+8 | File | `/api/v1/admin/` | High
+9 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
+10 | File | `/edit_xpatient.php` | High
+11 | File | `/filemanager/php/connector.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+14 | File | `/goform/MtuSetMacWan` | High
+15 | File | `/historyList` | Medium
+16 | File | `/htdocs/soap.cgi` | High
+17 | File | `/index.php` | Medium
+18 | File | `/manage-notes.php` | High
+19 | File | `/pages.php` | Medium
+20 | File | `/pages/processlogin.php` | High
+21 | File | `/pages/product_update.php` | High
+22 | File | `/paicoding-core/src/main/java/com/github/paicoding/forum/core/util/CrossUtil.java` | High
+23 | File | `/queryTotal` | Medium
+24 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +89,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://de.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 * https://perception-point.io/blog/behind-the-attack-lumma-malware/
+* https://www.cybereason.com/blog/threat-alert-genesis-market
+* https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/
 * https://www.silentpush.com/blog/lummac2
 
 ## Literature
@@ -88,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

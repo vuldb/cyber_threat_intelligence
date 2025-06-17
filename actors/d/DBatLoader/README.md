@@ -8,8 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DBatLoader:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -20,6 +21,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [103.91.190.180](https://vuldb.com/?ip.103.91.190.180) | 103-91-1-190-180.colodee.net | - | High
 2 | [154.197.124.161](https://vuldb.com/?ip.154.197.124.161) | - | - | High
 3 | [172.232.172.123](https://vuldb.com/?ip.172.232.172.123) | 172-232-172-123.ip.linodeusercontent.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,11 +42,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/quarantine.php?id=3` | High
-2 | File | `adclick.php` | Medium
-3 | File | `afGdStream.php` | High
+2 | File | `/uncpath/` | Medium
+3 | File | `adclick.php` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -50,6 +54,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://threatfox.abuse.ch
 * https://tria.ge/241002-m9pv8sxamd/behavioral1
+* https://urlhaus.abuse.ch/url/3550871/
 
 ## Literature
 
@@ -60,4 +65,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

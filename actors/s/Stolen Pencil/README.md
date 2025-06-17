@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -49,25 +49,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/api/admin/articles/` | High
 2 | File | `/admin/photo.php` | High
-3 | File | `/admin/transactions/track_shipment.php` | High
-4 | File | `/api/browserextension/UpdatePassword/` | High
-5 | File | `/boat/login.php` | High
-6 | File | `/book-services.php` | High
-7 | File | `/coreframe/app/member/admin/group.php` | High
-8 | File | `/curd/index/delfile` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/home/courses` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/secure/EditSubscription.jspa` | High
-14 | File | `/systemrw/` | Medium
-15 | File | `/tmp/supp_log` | High
-16 | File | `?r=recruit/bgchecks/export&checkids=x` | High
-17 | File | `account.php` | Medium
-18 | File | `ActivityStarter.java` | High
-19 | ... | ... | ...
+3 | File | `/admin/sales/manage_sale.php` | High
+4 | File | `/admin/transactions/track_shipment.php` | High
+5 | File | `/api/browserextension/UpdatePassword/` | High
+6 | File | `/auth_files/photo/` | High
+7 | File | `/boat/login.php` | High
+8 | File | `/book-services.php` | High
+9 | File | `/coreframe/app/member/admin/group.php` | High
+10 | File | `/curd/index/delfile` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/HNAP1/` | Low
+13 | File | `/home/courses` | High
+14 | File | `/horde/util/go.php` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/secure/EditSubscription.jspa` | High
+17 | File | `/systemrw/` | Medium
+18 | File | `/tmp/supp_log` | High
+19 | File | `/track-result.php` | High
+20 | File | `?r=recruit/bgchecks/export&checkids=x` | High
+21 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

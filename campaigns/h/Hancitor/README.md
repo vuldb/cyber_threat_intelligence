@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,8 +21,8 @@ These _actors_ are associated with Hancitor or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TA551](https://vuldb.com/?actor.ta551) | High
-2 | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+1 | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+2 | [Hancitor (AZORULT AND ZEUS Payload)](https://vuldb.com/?actor.hancitor_(azorult_and_zeus_payload)) | High
 3 | [Hancitor (Docusign Theme)](https://vuldb.com/?actor.hancitor_(docusign_theme)) | High
 4 | ... | ...
 
@@ -66,7 +66,7 @@ ID | IP address | Hostname | Actor | Confidence
 30 | [31.44.184.62](https://vuldb.com/?ip.31.44.184.62) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
 31 | [31.44.184.123](https://vuldb.com/?ip.31.44.184.123) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
 32 | [34.213.214.65](https://vuldb.com/?ip.34.213.214.65) | ec2-34-213-214-65.us-west-2.compute.amazonaws.com | [Hancitor](https://vuldb.com/?actor.hancitor) | Medium
-33 | [35.187.117.14](https://vuldb.com/?ip.35.187.117.14) | 14.117.187.35.bc.googleusercontent.com | [Hancitor (US Bank Theme)](https://vuldb.com/?actor.hancitor_(us_bank_theme)) | Medium
+33 | [35.187.117.14](https://vuldb.com/?ip.35.187.117.14) | 14.117.187.35.bc.googleusercontent.com | [Hancitor (Verizon Theme)](https://vuldb.com/?actor.hancitor_(verizon_theme)) | Medium
 34 | [35.198.83.97](https://vuldb.com/?ip.35.198.83.97) | 97.83.198.35.bc.googleusercontent.com | [Hancitor (HelloFax Theme)](https://vuldb.com/?actor.hancitor_(hellofax_theme)) | Medium
 35 | [35.204.172.181](https://vuldb.com/?ip.35.204.172.181) | 181.172.204.35.bc.googleusercontent.com | [Hancitor (AZORULT AND ZEUS Payload)](https://vuldb.com/?actor.hancitor_(azorult_and_zeus_payload)) | Medium
 36 | [38.98.124.62](https://vuldb.com/?ip.38.98.124.62) | - | [Hancitor (Malspam)](https://vuldb.com/?actor.hancitor_(malspam)) | High
@@ -105,12 +105,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,19 +119,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
-2 | File | `/admin/profile.php` | High
-3 | File | `/API/info` | Medium
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/debuginfo.htm` | High
-6 | File | `/ecommerce/support_ticket` | High
-7 | File | `/Employee/edit-profile.php` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/h/autoSaveDraft` | High
-11 | File | `/home/search` | Medium
-12 | ... | ... | ...
+2 | File | `/admin/category/controller.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/products/view_product.php` | High
+5 | File | `/admin/profile.php` | High
+6 | File | `/auth_files/photo/` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/Bloodgroop_process.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+11 | File | `/ecommerce/support_ticket` | High
+12 | File | `/Employee/edit-profile.php` | High
+13 | File | `/etc/passwd` | Medium
+14 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,4 +169,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

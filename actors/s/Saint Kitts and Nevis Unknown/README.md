@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Saint Kitts and Nevis Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [NO](https://vuldb.com/?country.no)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,19 +23,27 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.131.208.0](https://vuldb.com/?ip.23.131.208.0) | - | - | High
 2 | [23.137.40.0](https://vuldb.com/?ip.23.137.40.0) | - | - | High
-3 | [38.86.181.28](https://vuldb.com/?ip.38.86.181.28) | - | - | High
-4 | [38.87.225.0](https://vuldb.com/?ip.38.87.225.0) | - | - | High
-5 | [38.87.231.192](https://vuldb.com/?ip.38.87.231.192) | - | - | High
-6 | [38.131.5.0](https://vuldb.com/?ip.38.131.5.0) | - | - | High
-7 | [45.42.252.0](https://vuldb.com/?ip.45.42.252.0) | - | - | High
-8 | [45.88.187.0](https://vuldb.com/?ip.45.88.187.0) | - | - | High
-9 | [57.74.108.0](https://vuldb.com/?ip.57.74.108.0) | - | - | High
-10 | [57.91.128.0](https://vuldb.com/?ip.57.91.128.0) | - | - | High
-11 | [65.48.155.0](https://vuldb.com/?ip.65.48.155.0) | - | - | High
-12 | [65.48.156.0](https://vuldb.com/?ip.65.48.156.0) | - | - | High
-13 | ... | ... | ... | ...
+3 | [38.57.108.0](https://vuldb.com/?ip.38.57.108.0) | - | - | High
+4 | [38.86.181.28](https://vuldb.com/?ip.38.86.181.28) | - | - | High
+5 | [38.87.225.0](https://vuldb.com/?ip.38.87.225.0) | - | - | High
+6 | [38.87.231.192](https://vuldb.com/?ip.38.87.231.192) | - | - | High
+7 | [38.131.5.0](https://vuldb.com/?ip.38.131.5.0) | - | - | High
+8 | [45.42.252.0](https://vuldb.com/?ip.45.42.252.0) | - | - | High
+9 | [45.88.187.0](https://vuldb.com/?ip.45.88.187.0) | - | - | High
+10 | [57.74.108.0](https://vuldb.com/?ip.57.74.108.0) | - | - | High
+11 | [57.91.128.0](https://vuldb.com/?ip.57.91.128.0) | - | - | High
+12 | [65.48.155.0](https://vuldb.com/?ip.65.48.155.0) | - | - | High
+13 | [65.48.156.0](https://vuldb.com/?ip.65.48.156.0) | - | - | High
+14 | [65.48.213.25](https://vuldb.com/?ip.65.48.213.25) | skb-vpls1.caribsurf.com | - | High
+15 | [65.48.213.26](https://vuldb.com/?ip.65.48.213.26) | skb-vpls2.caribsurf.com | - | High
+16 | [66.96.118.64](https://vuldb.com/?ip.66.96.118.64) | - | - | High
+17 | [67.213.158.0](https://vuldb.com/?ip.67.213.158.0) | - | - | High
+18 | [67.230.96.48](https://vuldb.com/?ip.67.230.96.48) | - | - | High
+19 | [69.57.238.0](https://vuldb.com/?ip.69.57.238.0) | - | - | High
+20 | [69.57.253.0](https://vuldb.com/?ip.69.57.253.0) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-23 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,13 +66,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/index.php` | Medium
-3 | File | `/pms/index.php` | High
-4 | File | `/uncpath/` | Medium
-5 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\SSCService` | High
+2 | File | `.FBCIndex` | Medium
+3 | File | `/admin/ajax.php?action=confirm_order` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/notes/create` | High
+6 | File | `/admin_ping.htm` | High
+7 | File | `/ajax` | Low
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/snapshot and /api/get_log_file` | High
+10 | File | `/api/v1` | Low
+11 | File | `/api2/html/` | Medium
+12 | File | `/app/sae/design/desktop/flat` | High
+13 | File | `/application/index/controller/Databasesource.php` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/bin/boa` | Medium
+16 | File | `/blog` | Low
+17 | File | `/bolt/editcontent/showcases` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/download_config.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/contact/store` | High
+22 | File | `/core/redirect` | High
+23 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+24 | File | `/devinfo` | Medium
+25 | File | `/DXR.axd` | Medium
+26 | File | `/Employer/EditProfile.php` | High
+27 | File | `/endpoint/delete-bill.php` | High
+28 | File | `/formPasswordAuth` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/` | Medium
+31 | File | `/goform/apPortalPhoneAuth` | High
+32 | File | `/goform/WifiExtraSet` | High
+33 | File | `/h/autoSaveDraft` | High
+34 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

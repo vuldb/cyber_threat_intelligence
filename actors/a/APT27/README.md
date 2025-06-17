@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,49 +62,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/live_api.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/clientdetails/admin/regester.php` | High
-10 | File | `/config/getuser` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-13 | File | `/etc/ajenti/config.yml` | High
-14 | File | `/etc/shadow` | Medium
-15 | File | `/farm/product.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/telnet` | High
-18 | File | `/h/` | Low
-19 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-20 | File | `/lan.asp` | Medium
-21 | File | `/manage_block.php` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-24 | File | `/oscommerce/admin/currencies.php` | High
-25 | File | `/proc/pid/syscall` | High
-26 | File | `/ptippage.cgi` | High
-27 | File | `/public/launchNewWindow.jsp` | High
-28 | File | `/rapi/read_url` | High
-29 | File | `/rom-0` | Low
-30 | File | `/session/list/allActiveSession` | High
-31 | File | `/sys/dict/loadTreeData` | High
-32 | File | `/SysInfo.htm` | Medium
-33 | File | `/syslog_rules` | High
-34 | File | `/tmp/out` | Medium
-35 | File | `/Tool/uploadfile.php` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/update-image1.php` | High
-38 | File | `/upload` | Low
-39 | File | `/users/{id}` | Medium
-40 | File | `/v1/operador/` | High
-41 | File | `/var/tmp/sess_*` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/pages/` | High
+4 | File | `/admins` | Low
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/live_api.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/config/getuser` | High
+12 | File | `/csms/?page=contact_us` | High
+13 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+14 | File | `/etc/ajenti/config.yml` | High
+15 | File | `/etc/shadow` | Medium
+16 | File | `/farm/product.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/telnet` | High
+19 | File | `/h/` | Low
+20 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+21 | File | `/lan.asp` | Medium
+22 | File | `/manage_block.php` | High
+23 | File | `/modules/profile/index.php` | High
+24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+25 | File | `/oscommerce/admin/currencies.php` | High
+26 | File | `/proc/pid/syscall` | High
+27 | File | `/ptippage.cgi` | High
+28 | File | `/public/launchNewWindow.jsp` | High
+29 | File | `/rapi/read_url` | High
+30 | File | `/rom-0` | Low
+31 | File | `/session/list/allActiveSession` | High
+32 | File | `/sys/dict/loadTreeData` | High
+33 | File | `/SysInfo.htm` | Medium
+34 | File | `/syslog_rules` | High
+35 | File | `/tmp/out` | Medium
+36 | File | `/Tool/uploadfile.php` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/update-image1.php` | High
+39 | File | `/upload` | Low
+40 | File | `/users/{id}` | Medium
+41 | File | `/usr/sbin/httpd` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

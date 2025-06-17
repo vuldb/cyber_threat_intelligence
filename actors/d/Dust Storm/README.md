@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Dust Storm:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dust Storm:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [MS](https://vuldb.com/?country.ms)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -41,13 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,37 +56,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/admin/bwdates-reports-ds.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sql` | Medium
-6 | File | `/admin/students.php` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/admin/system.html` | High
-9 | File | `/adminPage/conf/reload` | High
-10 | File | `/adminPage/www/addOver` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/application/index/controller/Icon.php` | High
-13 | File | `/application/index/controller/Screen.php` | High
-14 | File | `/bin/ate` | Medium
-15 | File | `/boaform/device_reset.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/control/edit_client.php` | High
-18 | File | `/dataSet/testTransform;swagger-ui` | High
-19 | File | `/dayrui/Fcms/View/system_log.html` | High
-20 | File | `/dayrui/My/View/main.html` | High
-21 | File | `/general/meeting/manage/delete.php` | High
-22 | File | `/goform/execCommand` | High
-23 | File | `/goform/formResetStatistic` | High
-24 | File | `/goform/goform_get_cmd_process` | High
-25 | File | `/goform/SetRebootTimer` | High
-26 | File | `/goform/WriteFacMac` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index.php/admin` | High
-29 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+3 | File | `/aboutadd.php` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/?setting-base.htm` | High
+6 | File | `/admin/budget/manage_budget.php` | High
+7 | File | `/admin/bwdates-reports-ds.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/sql` | Medium
+11 | File | `/admin/students.php` | High
+12 | File | `/admin/students/manage.php` | High
+13 | File | `/admin/system.html` | High
+14 | File | `/admin/system.php` | High
+15 | File | `/admin/twitter.php` | High
+16 | File | `/admin/update_users.php` | High
+17 | File | `/adminapi/system/crud` | High
+18 | File | `/adminPage/conf/reload` | High
+19 | File | `/amssplus/index.php` | High
+20 | File | `/api/admin/store/product/save` | High
+21 | File | `/api/admin/system/store/order/list` | High
+22 | File | `/api/snapshots/` | High
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/api /v3/auth` | High
+25 | File | `/api/wechat/app_auth` | High
+26 | File | `/api/wizard/getDualbandSync` | High
+27 | File | `/api/wizard/getWifiNeighbour` | High
+28 | File | `/app-api/infra/file/upload` | High
+29 | File | `/app/api/controller/Store.php` | High
+30 | File | `/application/index/controller/Icon.php` | High
+31 | File | `/application/index/controller/Screen.php` | High
+32 | File | `/apps/api/views/deploy_api.py` | High
+33 | File | `/backend/admin/his_admin_register_patient.php` | High
+34 | File | `/backend/register.php` | High
+35 | File | `/bin/ate` | Medium
+36 | File | `/boaform/device_reset.cgi` | High
+37 | File | `/book_list.php` | High
+38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+39 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
+43 | File | `/control/edit_client.php` | High
+44 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with French Polynesia Unknown:
 
-* [PF](https://vuldb.com/?country.pf)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [43.249.176.0](https://vuldb.com/?ip.43.249.176.0) | - | - | High
-2 | [45.12.70.176](https://vuldb.com/?ip.45.12.70.176) | wholesomely.alltieinc.com | - | High
-3 | [45.12.71.176](https://vuldb.com/?ip.45.12.71.176) | - | - | High
-4 | [50.21.80.0](https://vuldb.com/?ip.50.21.80.0) | 0.80.21.50.abo.mana.pf | - | High
-5 | [64.140.144.0](https://vuldb.com/?ip.64.140.144.0) | 0.144.140.64.dsl.dyn.mana.pf | - | High
-6 | [103.4.72.0](https://vuldb.com/?ip.103.4.72.0) | - | - | High
-7 | [103.46.216.0](https://vuldb.com/?ip.103.46.216.0) | - | - | High
-8 | ... | ... | ... | ...
+1 | [38.51.136.0](https://vuldb.com/?ip.38.51.136.0) | - | - | High
+2 | [43.249.176.0](https://vuldb.com/?ip.43.249.176.0) | - | - | High
+3 | [45.12.70.176](https://vuldb.com/?ip.45.12.70.176) | wholesomely.alltieinc.com | - | High
+4 | [45.12.71.176](https://vuldb.com/?ip.45.12.71.176) | - | - | High
+5 | [50.21.80.0](https://vuldb.com/?ip.50.21.80.0) | 0.80.21.50.abo.mana.pf | - | High
+6 | [64.140.144.0](https://vuldb.com/?ip.64.140.144.0) | 0.144.140.64.dsl.dyn.mana.pf | - | High
+7 | [103.4.72.0](https://vuldb.com/?ip.103.4.72.0) | - | - | High
+8 | [103.46.216.0](https://vuldb.com/?ip.103.46.216.0) | - | - | High
+9 | [103.129.120.0](https://vuldb.com/?ip.103.129.120.0) | 0.120.129.103.pba.apn.pmt.pf | - | High
+10 | [103.166.70.0](https://vuldb.com/?ip.103.166.70.0) | - | - | High
+11 | [103.254.224.0](https://vuldb.com/?ip.103.254.224.0) | - | - | High
+12 | [103.254.232.0](https://vuldb.com/?ip.103.254.232.0) | 0.232.254.103.dsl.dyn.mana.pf | - | High
+13 | [104.28.12.101](https://vuldb.com/?ip.104.28.12.101) | - | - | High
+14 | [104.28.12.102](https://vuldb.com/?ip.104.28.12.102) | - | - | High
+15 | [104.28.29.47](https://vuldb.com/?ip.104.28.29.47) | - | - | High
+16 | [104.28.29.48](https://vuldb.com/?ip.104.28.29.48) | - | - | High
+17 | [104.28.35.50](https://vuldb.com/?ip.104.28.35.50) | - | - | High
+18 | [104.28.59.169](https://vuldb.com/?ip.104.28.59.169) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,12 +49,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,12 +65,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `Access.app/Contents/Resources/kcproxy` | High
-2 | File | `accountancy/customer/card.php` | High
-3 | File | `admin/downloadbackup.php` | High
-4 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\SSCService` | High
+2 | File | `%PROGRAMFILES(X86)%\TSplus\Clients\www.` | High
+3 | File | `/?g=log_import_save` | High
+4 | File | `/add-apartment.php` | High
+5 | File | `/adm/syscmd.asp` | High
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/adminproc.asp` | High
+9 | File | `/admin/chart1.php` | High
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/email/send-test-email` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/mod_reports/index.php` | High
+14 | File | `/Admin/Proses_Edit_Akun.php` | High
+15 | File | `/adminPage/conf/reload` | High
+16 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
+17 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+18 | File | `/api/admin/question/edit` | High
+19 | File | `/api/v1/dashboards/export` | High
+20 | File | `/api/v1/settings` | High
+21 | File | `/application/index/controller/Screen.php` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/applications/nexus/modules/front/store/store.php` | High
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/car-rental-management-system/admin/view_car.php=` | High
+26 | File | `/CCMAdmin/serverlist.asp` | High
+27 | File | `/cgi` | Low
+28 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/glc` | Medium
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/ping.cgi` | High
+33 | File | `/cgi-bin/settings-firewall.cgi` | High
+34 | File | `/common/info.cgi` | High
+35 | File | `/Control/Api/Api.php` | High
+36 | File | `/course/filterRecords/` | High
+37 | File | `/dashboard/admin/more-userprofile.php` | High
+38 | File | `/dashboard/admin/updateroutine.php` | High
+39 | File | `/dashboard/approve-reject.php` | High
+40 | File | `/debug/` | Low
+41 | File | `/debug/pprof` | Medium
+42 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+43 | File | `/devinfo` | Medium
+44 | File | `/DXR.axd` | Medium
+45 | File | `/ecommerce/support_ticket` | High
+46 | File | `/Employee/edit-photo.php` | High
+47 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Agent.BTZ:
 
 * [FR](https://vuldb.com/?country.fr)
-* [UA](https://vuldb.com/?country.ua)
-* [SN](https://vuldb.com/?country.sn)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,10 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1059.007 | CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/goform/formSetQoS` | High
-3 | File | `/goform/formVirtualServ` | High
+2 | File | `/app/api/controller/Site.php` | High
+3 | File | `/goform/formSetQoS` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -69,4 +69,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

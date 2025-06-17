@@ -96,25 +96,25 @@ ID | Type | Indicator | Confidence
 29 | File | `/goForm/aspForm` | High
 30 | File | `/goform/aspForm` | High
 31 | File | `/home/www/cgi-bin/login.cgi` | High
-32 | File | `/index/ajax/lang` | High
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/items/view_item.php` | High
-35 | File | `/jeecg-boot/sys/common/upload` | High
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/login.php` | Medium
-38 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-39 | File | `/mail/index.html` | High
-40 | File | `/medical/inventories.php` | High
-41 | File | `/modules/profile/index.php` | High
-42 | File | `/oews/classes/Master.php?f=save_product` | High
-43 | File | `/out.php` | Medium
-44 | File | `/php-jms/updateTxtview.php` | High
-45 | File | `/proxy` | Low
-46 | File | `/question.php` | High
-47 | File | `/replication` | Medium
+32 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
+33 | File | `/index/ajax/lang` | High
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/items/view_item.php` | High
+36 | File | `/jeecg-boot/sys/common/upload` | High
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/login.php` | Medium
+39 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+40 | File | `/mail/index.html` | High
+41 | File | `/medical/inventories.php` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/oews/classes/Master.php?f=save_product` | High
+44 | File | `/opac_css/pmb.php` | High
+45 | File | `/out.php` | Medium
+46 | File | `/php-jms/updateTxtview.php` | High
+47 | File | `/proxy` | Low
 48 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,49 +55,50 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin` | Low
-3 | File | `/admin/pages/` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cap.js` | Low
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/clientdetails/admin/regester.php` | High
-12 | File | `/csms/?page=contact_us` | High
-13 | File | `/ctpms/admin/?page=applications/view_application` | High
-14 | File | `/department_viewmore.php` | High
-15 | File | `/download` | Medium
-16 | File | `/etc/ajenti/config.yml` | High
-17 | File | `/farm/product.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/telnet` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/index.php?menu=asterisk_cli` | High
-22 | File | `/manage_block.php` | High
-23 | File | `/menu.html` | Medium
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/ptippage.cgi` | High
-27 | File | `/rom-0` | Low
-28 | File | `/slideeditor.php` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/sysmanage/updatelib.php` | High
-31 | File | `/tmp/out` | Medium
-32 | File | `/tmp/phpglibccheck` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/update-image1.php` | High
-35 | File | `/upload` | Low
-36 | File | `/users.php` | Medium
-37 | File | `/usr/sbin/httpd` | High
-38 | File | `/v1/operador/` | High
-39 | File | `/var/tmp/sess_*` | High
-40 | File | `/view/student_exam_mark_update_form.php` | High
-41 | File | `/webconsole/APIController` | High
-42 | File | `/wordpress/wp-admin/admin.php` | High
-43 | ... | ... | ...
+3 | File | `/admin/attendance_action.php` | High
+4 | File | `/admin/content/book` | High
+5 | File | `/admin/pages/` | High
+6 | File | `/admins` | Low
+7 | File | `/ajax/getBasicInfo.php` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/cap.js` | Low
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/clientdetails/admin/regester.php` | High
+14 | File | `/Control/Api/Api.php` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/department_viewmore.php` | High
+18 | File | `/download` | Medium
+19 | File | `/etc/ajenti/config.yml` | High
+20 | File | `/farm/product.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/telnet` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/index.php?menu=asterisk_cli` | High
+25 | File | `/manage_block.php` | High
+26 | File | `/menu.html` | Medium
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/ptippage.cgi` | High
+30 | File | `/rom-0` | Low
+31 | File | `/slideeditor.php` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/sysmanage/updatelib.php` | High
+34 | File | `/tmp/out` | Medium
+35 | File | `/tmp/phpglibccheck` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/update-image1.php` | High
+38 | File | `/upload` | Low
+39 | File | `/users.php` | Medium
+40 | File | `/usr/sbin/httpd` | High
+41 | File | `/v1/operador/` | High
+42 | File | `/var/tmp/sess_*` | High
+43 | File | `/view/student_exam_mark_update_form.php` | High
+44 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

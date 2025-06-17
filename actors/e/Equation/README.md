@@ -14,12 +14,8 @@ The following _campaigns_ are known and can be associated with Equation:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Equation:
 
-* [KE](https://vuldb.com/?country.ke)
 * [PK](https://vuldb.com/?country.pk)
-* [KR](https://vuldb.com/?country.kr)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [KE](https://vuldb.com/?country.ke)
 
 ## IOC - Indicator of Compromise
 
@@ -90,12 +86,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
-
-There are 13 more TTP items available. Please use our online service to access the data.
+1 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -103,17 +94,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/.env` | Low
-3 | File | `/aux` | Low
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/cgi-bin/upload_vpntar` | High
-7 | File | `/edit-db.php` | Medium
-8 | File | `/EXCU_SHELL` | Medium
-9 | ... | ... | ...
+1 | File | `/goform/aspForm` | High
+2 | File | `/sacco_shield/manage_user.php` | High
+3 | File | `sdp_db.cc` | Medium
+4 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

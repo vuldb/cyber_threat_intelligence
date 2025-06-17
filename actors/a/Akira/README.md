@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -50,40 +50,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_supplier.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
-4 | File | `/ajax-files/followBoard.php` | High
-5 | File | `/ajax-files/postComment.php` | High
-6 | File | `/api/authentication/login` | High
-7 | File | `/apiadmin/upload/attach` | High
-8 | File | `/app/system/column/admin/index.class.php` | High
-9 | File | `/artist-display.php` | High
-10 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-11 | File | `/categorypage.php` | High
-12 | File | `/cgi-bin/hd_config.cgi` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-15 | File | `/classes/profile.class.php` | High
-16 | File | `/dataSet/testTransform;swagger-ui` | High
-17 | File | `/edit-computer-detail.php` | High
-18 | File | `/export` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/SetSpeedWan` | High
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/home.php` | Medium
-23 | File | `/inc/lists/edit-list.php` | High
-24 | File | `/inc/lists/view-list.php` | High
-25 | File | `/include/menu_v.inc.php` | High
-26 | File | `/include/Model/Upload.php` | High
-27 | File | `/include/stat/stat.php` | High
-28 | File | `/include/up.php` | High
-29 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-30 | File | `/info.asp` | Medium
-31 | File | `/members/poster.php` | High
-32 | ... | ... | ...
+1 | File | `/admin/create_product.php` | High
+2 | File | `/admin/edit_supplier.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
+5 | File | `/admin/process_category_edit.php` | High
+6 | File | `/ajax-files/followBoard.php` | High
+7 | File | `/ajax-files/postComment.php` | High
+8 | File | `/api/authentication/login` | High
+9 | File | `/apiadmin/upload/attach` | High
+10 | File | `/app/system/column/admin/index.class.php` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/backend/admin/his_admin_register_patient.php` | High
+13 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+18 | File | `/classes/profile.class.php` | High
+19 | File | `/dataSet/testTransform;swagger-ui` | High
+20 | File | `/edit-computer-detail.php` | High
+21 | File | `/expedit.php` | Medium
+22 | File | `/export` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SetSpeedWan` | High
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/home.php` | Medium
+27 | File | `/hoteldruid/clienti.php` | High
+28 | File | `/inc/lists/edit-list.php` | High
+29 | File | `/inc/lists/view-list.php` | High
+30 | File | `/include/menu_v.inc.php` | High
+31 | File | `/include/Model/Upload.php` | High
+32 | File | `/include/stat/stat.php` | High
+33 | File | `/include/up.php` | High
+34 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+35 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

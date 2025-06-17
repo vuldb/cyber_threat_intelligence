@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,24 +61,26 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/admin-profile.php` | High
 7 | File | `/admin/adminHome.php` | High
-8 | File | `/admin/booking-search.php` | High
-9 | File | `/admin/msg.php` | High
-10 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-11 | File | `/apply/index.php` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/conf/app.conf` | High
-14 | File | `/goform/AddDnsForward` | High
-15 | File | `/goform/fromRouteStatic` | High
-16 | File | `/goform/ModifyPppAuthWhiteMac` | High
-17 | File | `/goform/saveParentControlInfo` | High
-18 | File | `/goform/setcfm` | High
-19 | File | `/goform/setsambacfg` | High
-20 | File | `/goform/SetSysTimeCfg` | High
-21 | File | `/goform/WifiWpsStart` | High
-22 | File | `/goform/WriteFacMac` | High
-23 | ... | ... | ...
+8 | File | `/admin/api/theme-edit/` | High
+9 | File | `/admin/booking-search.php` | High
+10 | File | `/admin/modules/bibliography/index.php` | High
+11 | File | `/admin/msg.php` | High
+12 | File | `/admin/report.php` | High
+13 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+14 | File | `/apply/index.php` | High
+15 | File | `/classes/Master.php?f=delete_category` | High
+16 | File | `/conf/app.conf` | High
+17 | File | `/goform/AddDnsForward` | High
+18 | File | `/goform/fromRouteStatic` | High
+19 | File | `/goform/ModifyPppAuthWhiteMac` | High
+20 | File | `/goform/saveParentControlInfo` | High
+21 | File | `/goform/setcfm` | High
+22 | File | `/goform/setsambacfg` | High
+23 | File | `/goform/SetSysTimeCfg` | High
+24 | File | `/goform/WifiWpsStart` | High
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -59,52 +59,56 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/admin-update-employee.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/administrator/components/table_manager/` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/clusters/local/topics/{topic}/messages` | High
-10 | File | `/api/gen/clients/{language}` | High
-11 | File | `/API/info` | Medium
-12 | File | `/app/options.py` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-15 | File | `/cgi-bin/tosei_kikai.php` | High
-16 | File | `/cgi-bin/wapopen` | High
-17 | File | `/ci_spms/admin/category` | High
-18 | File | `/ci_spms/admin/search/searching/` | High
-19 | File | `/classes/Master.php?f=delete_appointment` | High
-20 | File | `/classes/Master.php?f=delete_train` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/ctcprotocol/Protocol` | High
-23 | File | `/dashboard/menu-list.php` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/detailed.php` | High
-26 | File | `/dist/index.js` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/ebics-server/ebics.aspx` | High
-29 | File | `/EXCU_SHELL` | Medium
-30 | File | `/ffos/classes/Master.php?f=save_category` | High
-31 | File | `/filemanager/upload/drop` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/form2systime.cgi` | High
-34 | File | `/goform/modifyDhcpRule` | High
-35 | File | `/goform/ModifyPppAuthWhiteMac` | High
-36 | File | `/goform/net\_Web\_get_value` | High
-37 | File | `/goform/setStaOffline` | High
-38 | File | `/goform/WizardHandle` | High
-39 | File | `/goforms/rlminfo` | High
-40 | File | `/GponForm/usb_restore_Form?script/` | High
-41 | File | `/group1/uploa` | High
-42 | File | `/hedwig.cgi` | Medium
-43 | File | `/HNAP1` | Low
-44 | File | `/HNAP1/SetClientInfo` | High
-45 | File | `/index.php/newsletter/subscriber/new/` | High
-46 | ... | ... | ...
+3 | File | `/add-students.php` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/admin-update-employee.php` | High
+7 | File | `/admin/booktime.php` | High
+8 | File | `/admin/change-image.php` | High
+9 | File | `/admin/index.php/web/ajax_all_lists` | High
+10 | File | `/admin/ind_backstage.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/administrator/components/table_manager/` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/clusters/local/topics/{topic}/messages` | High
+15 | File | `/api/gen/clients/{language}` | High
+16 | File | `/API/info` | Medium
+17 | File | `/app/options.py` | High
+18 | File | `/bin/httpd` | Medium
+19 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+20 | File | `/cgi-bin/tosei_kikai.php` | High
+21 | File | `/cgi-bin/wapopen` | High
+22 | File | `/ci_spms/admin/category` | High
+23 | File | `/ci_spms/admin/search/searching/` | High
+24 | File | `/classes/Master.php?f=delete_appointment` | High
+25 | File | `/classes/Master.php?f=delete_train` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/cov/triggerEnvCov` | High
+28 | File | `/ctcprotocol/Protocol` | High
+29 | File | `/dashboard/admin/del_plan.php` | High
+30 | File | `/dashboard/approve-reject.php` | High
+31 | File | `/dashboard/menu-list.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/detailed.php` | High
+34 | File | `/dist/index.js` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/ebics-server/ebics.aspx` | High
+37 | File | `/EXCU_SHELL` | Medium
+38 | File | `/ffos/classes/Master.php?f=save_category` | High
+39 | File | `/filemanager/upload/drop` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/general/address/private/address/query/delete.php` | High
+42 | File | `/goform/ate` | Medium
+43 | File | `/goform/form2systime.cgi` | High
+44 | File | `/goform/formSetLog` | High
+45 | File | `/goform/formWlanSetup_Wizard` | High
+46 | File | `/goform/formWlanWizardSetup` | High
+47 | File | `/goform/modifyDhcpRule` | High
+48 | File | `/goform/ModifyPppAuthWhiteMac` | High
+49 | File | `/goform/net\_Web\_get_value` | High
+50 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,9 +57,11 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [43.230.131.138](https://vuldb.com/?ip.43.230.131.138) | srv1.nusadatacenter.com | - | High
 28 | [45.33.8.30](https://vuldb.com/?ip.45.33.8.30) | 45-33-8-30.ip.linodeusercontent.com | - | High
 29 | [45.38.135.112](https://vuldb.com/?ip.45.38.135.112) | - | - | High
-30 | ... | ... | ... | ...
+30 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
+31 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
+32 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 124 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,7 +75,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,21 +83,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/pages/` | High
-2 | File | `/admins` | Low
-3 | File | `/ajax/getBasicInfo.php` | High
-4 | File | `/api/admin/system/store/order/list` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/clientdetails/admin/regester.php` | High
-8 | File | `/csms/?page=contact_us` | High
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/farm/product.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/manage_block.php` | High
-13 | ... | ... | ...
+1 | File | `/admin/category/controller.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/pages/` | High
+5 | File | `/admin/reminders/manage_reminder.php` | High
+6 | File | `/admins` | Low
+7 | File | `/ajax/getBasicInfo.php` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/API/info` | Medium
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/Bloodgroop_process.php` | High
+12 | File | `/CCMAdmin/serverlist.asp` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/clientdetails/admin/regester.php` | High
+18 | File | `/csms/?page=contact_us` | High
+19 | File | `/csms/admin/inquiries/view_details.php` | High
+20 | File | `/cstecgi.cgi` | Medium
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/etc/gsissh/sshd_config` | High
+23 | File | `/farm/product.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/home/search` | Medium
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/manage_block.php` | High
+30 | File | `/messageboard/view.php` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/ptippage.cgi` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+36 | File | `/textpattern/index.php` | High
+37 | File | `/tmp/out` | Medium
+38 | File | `/update-image1.php` | High
+39 | File | `/upfile.cgi` | Medium
+40 | File | `/upload` | Low
+41 | File | `/v1/operador/` | High
+42 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,10 +134,16 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/254/gs-002-agent-tesla-spyware-iocs/
 * https://1275.ru/ioc/310/gs-032-agent-tesla-spyware-iocs/
+* https://app.any.run/tasks/1b00352a-963c-49a7-8b7c-2fb2c5243fc4#
 * https://app.any.run/tasks/5f20b5d1-d039-48cb-8481-f3c451d8bcf0/#
 * https://app.any.run/tasks/7a81253d-98e4-45d4-a009-098b7c19b992
 * https://app.any.run/tasks/91b72945-2a21-4e9e-98c5-132ed8d15714/
 * https://app.any.run/tasks/126973bd-0df8-408d-85ae-913ba5c53612/#
+* https://app.any.run/tasks/7497880c-fb2d-4a40-aa6d-57222069de70
+* https://app.any.run/tasks/dedc8121-54bb-4114-b010-dfe44891d45f
+* https://app.any.run/tasks/f66e627d-af01-46c3-8bb3-3155f2d17164#
+* https://app.any.run/tasks/f7429791-e5a7-4c20-9c8d-d1a406a794bf
+* https://app.any.run/tasks/ff2fa8e5-6770-4288-bb6a-ad0976bc4952
 * https://asec.ahnlab.com/en/31083/
 * https://bazaar.abuse.ch/sample/f0ec9d000de9e7f1ee91e824b1714854e1989cfa39c1b3c91471bf387f939d73/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
@@ -125,6 +162,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-20%20Agent%20Tesla%20IOCs
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://malware-traffic-analysis.net/2023/11/22/index.html
+* https://malware-traffic-analysis.net/2025/01/09/index.html
 * https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia/
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://threatfox.abuse.ch
@@ -159,4 +197,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

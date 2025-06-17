@@ -42,7 +42,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -56,27 +57,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/cashadvance_row.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/admin_ping.htm` | High
-6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/change_password_process` | High
-12 | File | `/controller/Index.php` | High
-13 | File | `/CPE` | Low
-14 | File | `/Employer/EditProfile.php` | High
-15 | File | `/endpoint/add-guest.php` | High
-16 | File | `/goform/addressNat` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/SysToolRestoreSet` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/include/menu_v.inc.php` | High
-21 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
-22 | File | `/librarian/lab.php` | High
-23 | ... | ... | ...
+5 | File | `/admin/receipt.php` | High
+6 | File | `/admin/user_update.php` | High
+7 | File | `/admin_ping.htm` | High
+8 | File | `/api/wizard/getBasicInfo` | High
+9 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+10 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/editBookmark` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/change_password_process` | High
+16 | File | `/controller/Index.php` | High
+17 | File | `/controllers/updatesettings.php` | High
+18 | File | `/CPE` | Low
+19 | File | `/Employer/EditProfile.php` | High
+20 | File | `/endpoint/add-guest.php` | High
+21 | File | `/goform/addressNat` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/SysToolRestoreSet` | High
+24 | File | `/include/chart_generator.php` | High
+25 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,7 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bolivia Unknown:
 
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -38,28 +38,41 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [45.163.18.0](https://vuldb.com/?ip.45.163.18.0) | - | - | High
 21 | [45.183.184.0](https://vuldb.com/?ip.45.183.184.0) | 45-183-184-0.golochtelnet.com | - | High
 22 | [45.225.75.0](https://vuldb.com/?ip.45.225.75.0) | - | - | High
-23 | [45.226.32.0](https://vuldb.com/?ip.45.226.32.0) | - | - | High
-24 | [45.227.61.0](https://vuldb.com/?ip.45.227.61.0) | - | - | High
-25 | [45.229.195.0](https://vuldb.com/?ip.45.229.195.0) | - | - | High
-26 | [45.229.244.0](https://vuldb.com/?ip.45.229.244.0) | - | - | High
-27 | [45.232.46.0](https://vuldb.com/?ip.45.232.46.0) | - | - | High
-28 | [45.236.192.0](https://vuldb.com/?ip.45.236.192.0) | - | - | High
-29 | [46.36.200.21](https://vuldb.com/?ip.46.36.200.21) | - | - | High
-30 | [46.36.200.22](https://vuldb.com/?ip.46.36.200.22) | - | - | High
-31 | [46.36.200.24](https://vuldb.com/?ip.46.36.200.24) | - | - | High
-32 | [46.36.200.28](https://vuldb.com/?ip.46.36.200.28) | - | - | High
-33 | [46.36.200.30](https://vuldb.com/?ip.46.36.200.30) | - | - | High
-34 | [46.36.200.81](https://vuldb.com/?ip.46.36.200.81) | - | - | High
-35 | [46.36.200.82](https://vuldb.com/?ip.46.36.200.82) | - | - | High
-36 | [46.36.200.84](https://vuldb.com/?ip.46.36.200.84) | - | - | High
-37 | [46.36.200.88](https://vuldb.com/?ip.46.36.200.88) | - | - | High
-38 | [46.36.200.90](https://vuldb.com/?ip.46.36.200.90) | - | - | High
-39 | [46.36.202.37](https://vuldb.com/?ip.46.36.202.37) | - | - | High
-40 | [46.36.202.38](https://vuldb.com/?ip.46.36.202.38) | - | - | High
-41 | [46.36.202.57](https://vuldb.com/?ip.46.36.202.57) | - | - | High
-42 | ... | ... | ... | ...
+23 | [45.225.75.128](https://vuldb.com/?ip.45.225.75.128) | - | - | High
+24 | [45.225.75.192](https://vuldb.com/?ip.45.225.75.192) | - | - | High
+25 | [45.225.75.224](https://vuldb.com/?ip.45.225.75.224) | - | - | High
+26 | [45.225.75.242](https://vuldb.com/?ip.45.225.75.242) | - | - | High
+27 | [45.225.75.244](https://vuldb.com/?ip.45.225.75.244) | - | - | High
+28 | [45.225.75.248](https://vuldb.com/?ip.45.225.75.248) | - | - | High
+29 | [45.226.32.0](https://vuldb.com/?ip.45.226.32.0) | - | - | High
+30 | [45.227.61.0](https://vuldb.com/?ip.45.227.61.0) | - | - | High
+31 | [45.229.195.0](https://vuldb.com/?ip.45.229.195.0) | - | - | High
+32 | [45.229.244.0](https://vuldb.com/?ip.45.229.244.0) | - | - | High
+33 | [45.232.46.0](https://vuldb.com/?ip.45.232.46.0) | - | - | High
+34 | [45.236.192.0](https://vuldb.com/?ip.45.236.192.0) | - | - | High
+35 | [46.36.200.21](https://vuldb.com/?ip.46.36.200.21) | - | - | High
+36 | [46.36.200.22](https://vuldb.com/?ip.46.36.200.22) | - | - | High
+37 | [46.36.200.24](https://vuldb.com/?ip.46.36.200.24) | - | - | High
+38 | [46.36.200.28](https://vuldb.com/?ip.46.36.200.28) | - | - | High
+39 | [46.36.200.30](https://vuldb.com/?ip.46.36.200.30) | - | - | High
+40 | [46.36.200.81](https://vuldb.com/?ip.46.36.200.81) | - | - | High
+41 | [46.36.200.82](https://vuldb.com/?ip.46.36.200.82) | - | - | High
+42 | [46.36.200.84](https://vuldb.com/?ip.46.36.200.84) | - | - | High
+43 | [46.36.200.88](https://vuldb.com/?ip.46.36.200.88) | - | - | High
+44 | [46.36.200.90](https://vuldb.com/?ip.46.36.200.90) | - | - | High
+45 | [46.36.202.37](https://vuldb.com/?ip.46.36.202.37) | - | - | High
+46 | [46.36.202.38](https://vuldb.com/?ip.46.36.202.38) | - | - | High
+47 | [46.36.202.57](https://vuldb.com/?ip.46.36.202.57) | - | - | High
+48 | [46.36.202.58](https://vuldb.com/?ip.46.36.202.58) | - | - | High
+49 | [46.36.202.60](https://vuldb.com/?ip.46.36.202.60) | - | - | High
+50 | [46.36.202.64](https://vuldb.com/?ip.46.36.202.64) | - | - | High
+51 | [46.36.202.67](https://vuldb.com/?ip.46.36.202.67) | - | - | High
+52 | [46.36.202.68](https://vuldb.com/?ip.46.36.202.68) | - | - | High
+53 | [46.36.202.70](https://vuldb.com/?ip.46.36.202.70) | - | - | High
+54 | [57.74.240.0](https://vuldb.com/?ip.57.74.240.0) | - | - | High
+55 | ... | ... | ... | ...
 
-There are 165 more IOC items available. Please use our online service to access the data.
+There are 214 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,7 +88,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
+1 | File | `WebRoot/js/ajax/dwt/xforms/XFormItem.js` | High
+2 | Argument | `message` | Low
 
 ## References
 
@@ -94,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

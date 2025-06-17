@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Montreal Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
 * [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 6 more country items available. Please use our online service to access the data.
+* [NL](https://vuldb.com/?country.nl)
 
 ## IOC - Indicator of Compromise
 
@@ -197,12 +194,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+1 | T1006 | CWE-21 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -210,21 +207,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/user/Config.cgi` | High
-2 | File | `/index.php` | Medium
-3 | File | `/NAGErrors` | Medium
-4 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-5 | File | `/secure/QueryComponent!Default.jspa` | High
-6 | File | `/src/njs_vmcode.c` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/vdesk` | Low
-9 | File | `/zm/index.php` | High
-10 | File | `attachment.cgi` | High
-11 | File | `auth.inc.php` | Medium
-12 | File | `AutomaticZenRule.java` | High
-13 | ... | ... | ...
+1 | File | `cgi-bin/awstats.pl` | High
+2 | File | `sapi/apache2handler/sapi_apache2.c` | High
+3 | File | `tiki-login.php` | High
+4 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -241,4 +229,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

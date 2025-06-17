@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pacha:
 
+* [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
 * [RU](https://vuldb.com/?country.ru)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,45 +60,44 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=system_info/contact_info` | High
 2 | File | `/admin/?page=user/manage` | High
 3 | File | `/admin/add-new.php` | High
-4 | File | `/admin/applicants/controller.php` | High
-5 | File | `/admin/book_add.php` | High
-6 | File | `/admin/book_row.php` | High
-7 | File | `/admin/borrow_add.php` | High
-8 | File | `/admin/category/controller.php` | High
-9 | File | `/admin/category_row.php` | High
-10 | File | `/admin/cms_content.php` | High
-11 | File | `/admin/company/controller.php` | High
-12 | File | `/admin/company/index.php` | High
-13 | File | `/admin/doctors.php` | High
-14 | File | `/admin/edit-doc.php` | High
-15 | File | `/admin/employee/controller.php` | High
-16 | File | `/admin/employee/index.php` | High
-17 | File | `/admin/lab.php` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/admin/makehtml_freelist_action.php` | High
-20 | File | `/admin/mod_room/controller.php?action=add` | High
-21 | File | `/admin/patient.php` | High
-22 | File | `/admin/return_add.php` | High
-23 | File | `/admin/sys_sql_query.php` | High
-24 | File | `/admin/user/controller.php` | High
-25 | File | `/admin/user/index.php` | High
-26 | File | `/admin/vacancy/controller.php` | High
-27 | File | `/admin/vacancy/index.php` | High
-28 | File | `/admin/vote_edit.php` | High
-29 | File | `/adminPage/conf/reload` | High
-30 | File | `/adminPage/conf/saveCmd` | High
-31 | File | `/adminPage/main/upload` | High
-32 | File | `/adminPage/www/addOver` | High
-33 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-34 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-35 | File | `/adminpanel/admin/query/loginExe.php` | High
-36 | File | `/api.php` | Medium
-37 | File | `/apply/index.php` | High
-38 | File | `/apps/system/router/upload.go` | High
-39 | File | `/boaform/wlan_basic_set.cgi` | High
-40 | ... | ... | ...
+4 | File | `/admin/book_add.php` | High
+5 | File | `/admin/book_row.php` | High
+6 | File | `/admin/borrow_add.php` | High
+7 | File | `/admin/category/controller.php` | High
+8 | File | `/admin/category_row.php` | High
+9 | File | `/admin/cms_content.php` | High
+10 | File | `/admin/doctors.php` | High
+11 | File | `/admin/edit-doc.php` | High
+12 | File | `/admin/employee/controller.php` | High
+13 | File | `/admin/lab.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/makehtml_freelist_action.php` | High
+16 | File | `/admin/mod_room/controller.php?action=add` | High
+17 | File | `/admin/patient.php` | High
+18 | File | `/admin/return_add.php` | High
+19 | File | `/admin/sys_sql_query.php` | High
+20 | File | `/admin/user/controller.php` | High
+21 | File | `/admin/user/index.php` | High
+22 | File | `/admin/vacancy/controller.php` | High
+23 | File | `/admin/vacancy/index.php` | High
+24 | File | `/admin/view-appointment.php` | High
+25 | File | `/admin/vote_edit.php` | High
+26 | File | `/adminPage/conf/reload` | High
+27 | File | `/adminPage/conf/saveCmd` | High
+28 | File | `/adminPage/main/upload` | High
+29 | File | `/adminPage/www/addOver` | High
+30 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+31 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+32 | File | `/adminpanel/admin/query/loginExe.php` | High
+33 | File | `/api.php` | Medium
+34 | File | `/apply/index.php` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/boaform/wlan_basic_set.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

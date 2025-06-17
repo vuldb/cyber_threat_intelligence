@@ -16,7 +16,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -35,19 +34,20 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [61.97.248.7](https://vuldb.com/?ip.61.97.248.7) | vlan-routing.viberhow.com | - | High
 10 | [61.97.248.8](https://vuldb.com/?ip.61.97.248.8) | can-man.viberhow.com | - | High
 11 | [61.97.248.9](https://vuldb.com/?ip.61.97.248.9) | client-any.viberhow.com | - | High
-12 | [91.204.227.19](https://vuldb.com/?ip.91.204.227.19) | - | - | High
-13 | [91.204.227.20](https://vuldb.com/?ip.91.204.227.20) | - | - | High
-14 | [91.204.227.21](https://vuldb.com/?ip.91.204.227.21) | - | - | High
-15 | [91.204.227.22](https://vuldb.com/?ip.91.204.227.22) | - | - | High
-16 | [91.204.227.23](https://vuldb.com/?ip.91.204.227.23) | - | - | High
-17 | [91.204.227.24](https://vuldb.com/?ip.91.204.227.24) | - | - | High
-18 | [91.204.227.25](https://vuldb.com/?ip.91.204.227.25) | - | - | High
-19 | [91.204.227.26](https://vuldb.com/?ip.91.204.227.26) | - | - | High
-20 | [91.204.227.27](https://vuldb.com/?ip.91.204.227.27) | - | - | High
-21 | [91.204.227.28](https://vuldb.com/?ip.91.204.227.28) | - | - | High
-22 | ... | ... | ... | ...
+12 | [91.204.226.54](https://vuldb.com/?ip.91.204.226.54) | - | - | High
+13 | [91.204.226.166](https://vuldb.com/?ip.91.204.226.166) | - | - | High
+14 | [91.204.226.171](https://vuldb.com/?ip.91.204.226.171) | - | - | High
+15 | [91.204.227.19](https://vuldb.com/?ip.91.204.227.19) | - | - | High
+16 | [91.204.227.20](https://vuldb.com/?ip.91.204.227.20) | - | - | High
+17 | [91.204.227.21](https://vuldb.com/?ip.91.204.227.21) | - | - | High
+18 | [91.204.227.22](https://vuldb.com/?ip.91.204.227.22) | - | - | High
+19 | [91.204.227.23](https://vuldb.com/?ip.91.204.227.23) | - | - | High
+20 | [91.204.227.24](https://vuldb.com/?ip.91.204.227.24) | - | - | High
+21 | [91.204.227.25](https://vuldb.com/?ip.91.204.227.25) | - | - | High
+22 | [91.204.227.26](https://vuldb.com/?ip.91.204.227.26) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,12 +56,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,23 +68,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/addnews.html` | High
-3 | File | `/admin/system/database/filedown.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/bin/protest` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/ExportSettings.sh` | High
-9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/HNAP1` | Low
-12 | File | `/htdocs/web/getcfg.php` | High
-13 | File | `/lan.asp` | Medium
-14 | File | `/MTFWU` | Low
-15 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/bin/protest` | Medium
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/ExportSettings.sh` | High
+5 | File | `/getcfg.php` | Medium
+6 | File | `/HNAP1` | Low
+7 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,6 +85,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.kaspersky.co.jp/roaming-mantis-update/20383/
 * https://blog.sekoia.io/ongoing-roaming-mantis-smishing-campaign-targeting-france/
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/roamingmantis/roaming_mantis_iocs_20220718.csv
+* https://hunt.io/blog/moqhao-icloud-vk-targets-apple-android
 * https://www.cyber45.com
 
 ## Literature
@@ -105,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

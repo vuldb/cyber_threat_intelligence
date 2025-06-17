@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,8 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -66,76 +65,71 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/action/new-father.php` | High
 13 | File | `/admin/app/service_crud.php` | High
 14 | File | `/admin/book-details.php` | High
-15 | File | `/admin/del_category.php` | High
-16 | File | `/admin/del_service.php` | High
-17 | File | `/admin/edit-accepted-appointment.php` | High
-18 | File | `/admin/edit-admin.php` | High
-19 | File | `/admin/edit-brand.php` | High
-20 | File | `/admin/edit-services.php` | High
-21 | File | `/admin/edit.php` | High
-22 | File | `/admin/edit_category.php` | High
-23 | File | `/admin/edit_subject.php` | High
-24 | File | `/admin/forgot-password.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/list_crl_conf` | High
-27 | File | `/Admin/login.php` | High
-28 | File | `/admin/manage_user.php` | High
-29 | File | `/admin/massage.php` | High
-30 | File | `/admin/pages/list` | High
-31 | File | `/admin/password-recovery.php` | High
-32 | File | `/admin/products/manage_product.php` | High
-33 | File | `/admin/profile.php` | High
-34 | File | `/admin/reg.php` | High
-35 | File | `/admin/search-appointment.php` | High
-36 | File | `/admin/search.php` | High
-37 | File | `/admin/system.html` | High
-38 | File | `/admin/sys_sql_query.php` | High
-39 | File | `/animalsupdate.php` | High
-40 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-41 | File | `/api/v4/teams//channels/deleted` | High
-42 | File | `/api2/html/` | Medium
-43 | File | `/app/admin/controller/api/Plugs.php` | High
-44 | File | `/app/admin/controller/Upload.php` | High
-45 | File | `/app/ajax/search_sales_report.php` | High
-46 | File | `/app/controller/Setup.php` | High
-47 | File | `/app/middleware/TokenVerify.php` | High
-48 | File | `/appliance/users?action=edit` | High
-49 | File | `/application/index/controller/Screen.php` | High
-50 | File | `/application/websocket/controller/Setting.php` | High
-51 | File | `/apply/index.php` | High
-52 | File | `/backup.pl` | Medium
-53 | File | `/bin/boa` | Medium
-54 | File | `/blog` | Low
-55 | File | `/boafrm/formMapDelDevice` | High
-56 | File | `/booking/show_bookings/` | High
-57 | File | `/cgi-bin/cstecgi.cgi` | High
-58 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-59 | File | `/cgi-bin/myMusic.cgi` | High
-60 | File | `/cgi-bin/nas_sharing.cgi` | High
-61 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-62 | File | `/classes/Master.php` | High
-63 | File | `/classes/Master.php?f=save_medicine` | High
-64 | File | `/classes/Users.php?f=save` | High
-65 | File | `/collection/all` | High
-66 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-67 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-68 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-69 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-70 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-71 | File | `/description.php` | High
-72 | File | `/dipam/athlete-profile.php` | High
-73 | File | `/E-mobile/App/System/File/downfile.php` | High
-74 | File | `/ecommerce/support_ticket` | High
-75 | File | `/edoc/doctor/patient.php` | High
-76 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-77 | File | `/Employer/ManageWalkin.php` | High
-78 | File | `/endpoint/add-faq.php` | High
-79 | File | `/endpoint/delete-account.php` | High
-80 | File | `/endpoint/delete-computer.php` | High
-81 | File | `/endpoint/update-resident.php` | High
-82 | ... | ... | ...
+15 | File | `/admin/create_product.php` | High
+16 | File | `/admin/del_category.php` | High
+17 | File | `/admin/del_service.php` | High
+18 | File | `/admin/edit-accepted-appointment.php` | High
+19 | File | `/admin/edit-admin.php` | High
+20 | File | `/admin/edit-brand.php` | High
+21 | File | `/admin/edit-services.php` | High
+22 | File | `/admin/edit.php` | High
+23 | File | `/admin/edit_category.php` | High
+24 | File | `/admin/edit_subject.php` | High
+25 | File | `/admin/forgot-password.php` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/list_crl_conf` | High
+28 | File | `/Admin/login.php` | High
+29 | File | `/admin/manage_user.php` | High
+30 | File | `/admin/massage.php` | High
+31 | File | `/admin/network/ajax_getChannelList` | High
+32 | File | `/admin/pages/list` | High
+33 | File | `/admin/password-recovery.php` | High
+34 | File | `/admin/products/manage_product.php` | High
+35 | File | `/admin/profile.php` | High
+36 | File | `/admin/reg.php` | High
+37 | File | `/admin/search-appointment.php` | High
+38 | File | `/admin/search.php` | High
+39 | File | `/admin/system.html` | High
+40 | File | `/admin/sys_sql_query.php` | High
+41 | File | `/admin/tag.php` | High
+42 | File | `/animalsupdate.php` | High
+43 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+44 | File | `/api/v4/teams//channels/deleted` | High
+45 | File | `/api/wizard/networkSetup` | High
+46 | File | `/app/admin/controller/api/Plugs.php` | High
+47 | File | `/app/admin/controller/Upload.php` | High
+48 | File | `/app/ajax/search_sales_report.php` | High
+49 | File | `/app/controller/Setup.php` | High
+50 | File | `/app/middleware/TokenVerify.php` | High
+51 | File | `/appliance/users?action=edit` | High
+52 | File | `/application/index/controller/Screen.php` | High
+53 | File | `/application/websocket/controller/Setting.php` | High
+54 | File | `/apply/index.php` | High
+55 | File | `/b2b-supermarket/catalog/all-products` | High
+56 | File | `/backend/admin/his_admin_register_patient.php` | High
+57 | File | `/bin/boa` | Medium
+58 | File | `/blog` | Low
+59 | File | `/boafrm/formMapDelDevice` | High
+60 | File | `/booking/show_bookings/` | High
+61 | File | `/cgi-bin/cstecgi.cgi` | High
+62 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+63 | File | `/cgi-bin/myMusic.cgi` | High
+64 | File | `/cgi-bin/nas_sharing.cgi` | High
+65 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+66 | File | `/cgi-bin/system_mgr.cgi` | High
+67 | File | `/classes/Master.php` | High
+68 | File | `/classes/Master.php?f=save_medicine` | High
+69 | File | `/classes/Users.php?f=save` | High
+70 | File | `/collection/all` | High
+71 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+72 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+73 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+74 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+75 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+76 | File | `/course/modedit.php` | High
+77 | ... | ... | ...
 
-There are 725 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 673 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,4 +148,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

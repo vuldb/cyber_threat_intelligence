@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [84.46.22.158](https://vuldb.com/?ip.84.46.22.158) | 84.46.22.158.dynamic-pppoe.dt.ipv4.wtnet.de | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,6 +47,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/66372/
+* https://threatfox.abuse.ch
 * https://www.cyber45.com
 
 ## Literature
@@ -58,4 +59,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

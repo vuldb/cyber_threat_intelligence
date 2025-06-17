@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bitter](https://vuldb.com/?actor.bitter)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Bitter:
+
+* Pakistan Telecommunication Company
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bitter:
@@ -24,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.11.19.170](https://vuldb.com/?ip.45.11.19.170) | - | - | High
 2 | [64.44.131.109](https://vuldb.com/?ip.64.44.131.109) | 64.44.131.147 | - | High
 3 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
-4 | ... | ... | ... | ...
+4 | [82.221.129.18](https://vuldb.com/?ip.82.221.129.18) | baula.orangewebsite.com | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,46 +62,48 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/comn/service/update.json` | High
 5 | File | `/admin/moduleinterface.php` | High
 6 | File | `/auth_files/photo/` | High
-7 | File | `/classes/master.php?f=delete_order` | High
-8 | File | `/curd/index/delfile` | High
-9 | File | `/dev/shm` | Medium
-10 | File | `/dl/dl_print.php` | High
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/forms/nslookupHandler` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/h/autoSaveDraft` | High
-16 | File | `/index.php` | Medium
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/model/update_grade.php` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/ofcms/company-c-47` | High
-22 | File | `/out.php` | Medium
-23 | File | `/patient/appointment.php` | High
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-26 | File | `/ptms/?page=user` | High
-27 | File | `/systemrw/` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/upload/file.php` | High
-30 | File | `/usr/sbin/httpd` | High
-31 | File | `/util/print.c` | High
-32 | File | `/vpn/list_ip_network.php` | High
-33 | File | `/web/MCmsAction.java` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-36 | File | `5.2.9\syscrb.exe` | High
-37 | File | `abc-pcie.c` | Medium
-38 | ... | ... | ...
+7 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+8 | File | `/cgi-bin/touchlist_sync.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/classes/master.php?f=delete_order` | High
+11 | File | `/curd/index/delfile` | High
+12 | File | `/dev/shm` | Medium
+13 | File | `/dl/dl_print.php` | High
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/forms/nslookupHandler` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/h/autoSaveDraft` | High
+19 | File | `/HNAP1/` | Low
+20 | File | `/index.php` | Medium
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/model/update_grade.php` | High
+23 | File | `/module/word_model/view/index.php` | High
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/news.dtl.php` | High
+26 | File | `/ofcms/company-c-47` | High
+27 | File | `/out.php` | Medium
+28 | File | `/patient/appointment.php` | High
+29 | File | `/plesk-site-preview/` | High
+30 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+31 | File | `/ptms/?page=user` | High
+32 | File | `/systemrw/` | Medium
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload/file.php` | High
+35 | File | `/usr/sbin/httpd` | High
+36 | File | `/util/print.c` | High
+37 | File | `/vpn/list_ip_network.php` | High
+38 | File | `/web/MCmsAction.java` | High
+39 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/414/bitter-apt-iocs/
+* https://blog.eclecticiq.com/pakistan-telecommunication-company-ptcl-targeted-by-bitter-apt-during-heightened-regional-conflict
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
 * https://community.blueliv.com/#!/s/62f5f3fe82df41552632fc11
 * https://twitter.com/ShadowChasing1/status/1504833720489951234
@@ -109,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

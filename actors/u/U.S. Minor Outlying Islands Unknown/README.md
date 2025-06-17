@@ -57,43 +57,44 @@ ID | Type | Indicator | Confidence
 3 | File | `/action/ipcamRecordPost` | High
 4 | File | `/admin/ajax.php` | High
 5 | File | `/admin/ajax.php?action=delete_window` | High
-6 | File | `/admin/inquiries/view_details.php` | High
-7 | File | `/admin/maintenance/manage_category.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/mechanics/manage_mechanic.php` | High
-10 | File | `/admin/service_requests/manage_inventory.php` | High
-11 | File | `/admin/syslog` | High
-12 | File | `/administrator/components/table_manager/` | High
-13 | File | `/ajax/GetInheritedProperties` | High
-14 | File | `/alphaware/details.php` | High
-15 | File | `/Api/ASF` | Medium
-16 | File | `/api/public/signup` | High
-17 | File | `/appConfig/userDB.json` | High
-18 | File | `/catcompany.php` | High
-19 | File | `/cgi-bin/` | Medium
-20 | File | `/classes/Login.php` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Users.php` | High
-23 | File | `/common/run_cross_report.php` | High
-24 | File | `/dashboard/contact` | High
-25 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-26 | File | `/dcim/sites/add/` | High
-27 | File | `/dev/ptpX` | Medium
-28 | File | `/etc/passwd` | Medium
-29 | File | `/file-manager/upload.php` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/hrm/employeeview.php` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-36 | File | `/members/view_member.php` | High
-37 | File | `/mgm_dev_reboot.asp` | High
-38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-39 | File | `/oauth/idp/.well-known/openid-configuration` | High
-40 | ... | ... | ...
+6 | File | `/admin/create_product.php` | High
+7 | File | `/admin/inquiries/view_details.php` | High
+8 | File | `/admin/maintenance/manage_category.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/mechanics/manage_mechanic.php` | High
+11 | File | `/admin/products/view_product.php` | High
+12 | File | `/admin/service_requests/manage_inventory.php` | High
+13 | File | `/admin/syslog` | High
+14 | File | `/administrator/components/table_manager/` | High
+15 | File | `/alphaware/details.php` | High
+16 | File | `/Api/ASF` | Medium
+17 | File | `/api/public/signup` | High
+18 | File | `/appConfig/userDB.json` | High
+19 | File | `/catcompany.php` | High
+20 | File | `/cgi-bin/` | Medium
+21 | File | `/classes/Login.php` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/common/run_cross_report.php` | High
+25 | File | `/dashboard/contact` | High
+26 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+27 | File | `/dcim/sites/add/` | High
+28 | File | `/dev/ptpX` | Medium
+29 | File | `/etc/passwd` | Medium
+30 | File | `/file-manager/upload.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
+33 | File | `/goform/WifiBasicSet` | High
+34 | File | `/hrm/employeeview.php` | High
+35 | File | `/inc/topBarNav.php` | High
+36 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+37 | File | `/members/view_member.php` | High
+38 | File | `/mgm_dev_reboot.asp` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bhutan Unknown:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [ES](https://vuldb.com/?country.es)
+* [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,23 +25,37 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.62.62.36](https://vuldb.com/?ip.5.62.62.36) | r-36-62-62-5.consumer-pool.prcdn.net | - | High
 3 | [5.182.196.0](https://vuldb.com/?ip.5.182.196.0) | - | - | High
 4 | [8.20.124.0](https://vuldb.com/?ip.8.20.124.0) | - | - | High
-5 | [43.229.124.0](https://vuldb.com/?ip.43.229.124.0) | - | - | High
-6 | [43.230.208.0](https://vuldb.com/?ip.43.230.208.0) | - | - | High
-7 | [43.241.136.0](https://vuldb.com/?ip.43.241.136.0) | - | - | High
-8 | [43.241.138.0](https://vuldb.com/?ip.43.241.138.0) | - | - | High
-9 | [43.241.139.0](https://vuldb.com/?ip.43.241.139.0) | - | - | High
-10 | [43.241.139.64](https://vuldb.com/?ip.43.241.139.64) | - | - | High
-11 | [43.241.139.96](https://vuldb.com/?ip.43.241.139.96) | - | - | High
-12 | [43.241.139.112](https://vuldb.com/?ip.43.241.139.112) | - | - | High
-13 | [43.241.139.120](https://vuldb.com/?ip.43.241.139.120) | - | - | High
-14 | [43.241.139.122](https://vuldb.com/?ip.43.241.139.122) | edge1-ln.as38740.tashicell.com | - | High
-15 | [43.241.139.124](https://vuldb.com/?ip.43.241.139.124) | - | - | High
-16 | [43.241.139.126](https://vuldb.com/?ip.43.241.139.126) | - | - | High
-17 | [43.241.139.128](https://vuldb.com/?ip.43.241.139.128) | if201-cr1-tpu.as38740.tashicell.com | - | High
-18 | [43.241.139.160](https://vuldb.com/?ip.43.241.139.160) | if102-cr1-plg.as38740.tashicell.com | - | High
-19 | ... | ... | ... | ...
+5 | [14.1.76.0](https://vuldb.com/?ip.14.1.76.0) | customer.sngesgp1.pop.starlinkisp.net | - | High
+6 | [36.50.37.0](https://vuldb.com/?ip.36.50.37.0) | - | - | High
+7 | [43.229.124.0](https://vuldb.com/?ip.43.229.124.0) | - | - | High
+8 | [43.230.208.0](https://vuldb.com/?ip.43.230.208.0) | - | - | High
+9 | [43.241.136.0](https://vuldb.com/?ip.43.241.136.0) | - | - | High
+10 | [43.241.138.0](https://vuldb.com/?ip.43.241.138.0) | - | - | High
+11 | [43.241.139.0](https://vuldb.com/?ip.43.241.139.0) | - | - | High
+12 | [43.241.139.64](https://vuldb.com/?ip.43.241.139.64) | - | - | High
+13 | [43.241.139.96](https://vuldb.com/?ip.43.241.139.96) | - | - | High
+14 | [43.241.139.112](https://vuldb.com/?ip.43.241.139.112) | - | - | High
+15 | [43.241.139.120](https://vuldb.com/?ip.43.241.139.120) | - | - | High
+16 | [43.241.139.122](https://vuldb.com/?ip.43.241.139.122) | edge1-ln.as38740.tashicell.com | - | High
+17 | [43.241.139.124](https://vuldb.com/?ip.43.241.139.124) | - | - | High
+18 | [43.241.139.126](https://vuldb.com/?ip.43.241.139.126) | - | - | High
+19 | [43.241.139.128](https://vuldb.com/?ip.43.241.139.128) | if201-cr1-tpu.as38740.tashicell.com | - | High
+20 | [43.241.139.160](https://vuldb.com/?ip.43.241.139.160) | if102-cr1-plg.as38740.tashicell.com | - | High
+21 | [43.241.139.162](https://vuldb.com/?ip.43.241.139.162) | - | - | High
+22 | [43.241.139.164](https://vuldb.com/?ip.43.241.139.164) | if137-cr1-plg.as38740.tashicell.com | - | High
+23 | [43.241.139.168](https://vuldb.com/?ip.43.241.139.168) | - | - | High
+24 | [43.241.139.172](https://vuldb.com/?ip.43.241.139.172) | if101-cr1-gpu.as38740.tashicell.com | - | High
+25 | [43.241.139.174](https://vuldb.com/?ip.43.241.139.174) | if103-cr1-mlb.as38740.tashicell.com | - | High
+26 | [43.241.139.178](https://vuldb.com/?ip.43.241.139.178) | - | - | High
+27 | [43.241.139.180](https://vuldb.com/?ip.43.241.139.180) | if238-bb1-tpu.as38740.tashicell.com | - | High
+28 | [43.241.139.184](https://vuldb.com/?ip.43.241.139.184) | if238-bb1-plg.as38740.tashicell.com | - | High
+29 | [43.241.139.192](https://vuldb.com/?ip.43.241.139.192) | - | - | High
+30 | [43.241.139.224](https://vuldb.com/?ip.43.241.139.224) | - | - | High
+31 | [43.241.139.240](https://vuldb.com/?ip.43.241.139.240) | - | - | High
+32 | [43.241.139.248](https://vuldb.com/?ip.43.241.139.248) | - | - | High
+33 | ... | ... | ... | ...
 
-There are 71 more IOC items available. Please use our online service to access the data.
+There are 126 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +63,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,66 +76,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.php.gif` | Medium
-3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/admin/aboutus.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/lab.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/api/file_uploader.php` | High
-16 | File | `/backend/register.php` | High
-17 | File | `/boat/login.php` | High
-18 | File | `/clinic/disease_symptoms_view.php` | High
-19 | File | `/config-manager/save` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/dashboard/table-list.php` | High
-22 | File | `/default.php?idx=17` | High
-23 | File | `/doctor/view-appointment-detail.php` | High
-24 | File | `/download` | Medium
-25 | File | `/downloadFile.php` | High
-26 | File | `/edit-client-details.php` | High
-27 | File | `/env` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/include/commrecc.inc.php` | High
-30 | File | `/include/file.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/Main_AdmStatus_Content.asp` | High
-34 | File | `/member.php?action=chgpwdsubmit` | High
-35 | File | `/opt/bin/cli` | Medium
-36 | File | `/out.php` | Medium
-37 | File | `/p` | Low
-38 | File | `/patient/doctors.php` | High
-39 | File | `/phpinventory/editcategory.php` | High
-40 | File | `/product-list.php` | High
-41 | File | `/setup/finish` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/system-info/health` | High
-44 | File | `/uncpath/` | Medium
-45 | File | `/updown/upload.cgi` | High
-46 | File | `/user/del.php` | High
-47 | File | `/web_cste/cgi-bin/product.ini` | High
-48 | File | `/wp-admin/admin-ajax.php` | High
-49 | File | `/_next` | Low
-50 | File | `123flashchat.php` | High
-51 | File | `act.php` | Low
-52 | File | `admin.php/pay` | High
-53 | File | `admin/bad.php` | High
-54 | File | `admin/index.php` | High
-55 | File | `admin/index.php/user/del/1` | High
-56 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-57 | File | `admin/loginform.php` | High
-58 | ... | ... | ...
+1 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+2 | File | `avahi-core/socket.c` | High
+3 | File | `include/downmix.inc.php` | High
+4 | ... | ... | ...
 
-There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VMware:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [IL](https://vuldb.com/?country.il)
-* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -69,13 +69,13 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/?page=inmates/view_inmate` | High
 10 | File | `/admin/aboutus.php` | High
 11 | File | `/Admin/add-student.php` | High
-12 | File | `/admin/addTithes.php` | High
-13 | File | `/admin/add_exercises.php` | High
-14 | File | `/admin/add_trainers.php` | High
-15 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-16 | File | `/admin/app/profile_crud.php` | High
-17 | File | `/admin/applicants/controller.php` | High
-18 | File | `/admin/bookdate.php` | High
+12 | File | `/admin/add_exercises.php` | High
+13 | File | `/admin/add_trainers.php` | High
+14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+15 | File | `/admin/app/profile_crud.php` | High
+16 | File | `/admin/applicants/controller.php` | High
+17 | File | `/admin/bookdate.php` | High
+18 | File | `/admin/booking-bwdates-reports-details.php` | High
 19 | File | `/admin/booking-search.php` | High
 20 | File | `/admin/category/index.php` | High
 21 | File | `/admin/communitymanagement.php` | High
@@ -89,44 +89,44 @@ ID | Type | Indicator | Confidence
 29 | File | `/admin/employee/index.php` | High
 30 | File | `/admin/extended` | High
 31 | File | `/admin/featured.php` | High
-32 | File | `/admin/forgot-password.php` | High
-33 | File | `/admin/general-setting` | High
-34 | File | `/admin/general/change-lang` | High
-35 | File | `/admin/googleads.php` | High
-36 | File | `/admin/group` | Medium
-37 | File | `/Admin/login.php` | High
-38 | File | `/admin/login.php` | High
-39 | File | `/Admin/News.php` | High
-40 | File | `/admin/newsletter1.php` | High
-41 | File | `/admin/payment.php` | High
-42 | File | `/admin/photo.php` | High
-43 | File | `/admin/renewaldue.php` | High
-44 | File | `/admin/rooms.php` | High
-45 | File | `/admin/search.php` | High
-46 | File | `/admin/searchview.php` | High
-47 | File | `/admin/students/manage.php` | High
-48 | File | `/admin/twitter.php` | High
-49 | File | `/admin/update-rooms.php` | High
-50 | File | `/admin/user-search.php` | High
-51 | File | `/admin/usermanagement.php` | High
-52 | File | `/admin/users.php` | High
-53 | File | `/admin/vendor` | High
-54 | File | `/admin/view_sendlist.php` | High
-55 | File | `/adminapi/system/crud` | High
-56 | File | `/adminapi/system/file/openfile` | High
-57 | File | `/adminPage/main/upload` | High
-58 | File | `/adminPage/www/addOver` | High
-59 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-60 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-61 | File | `/adminpanel/admin/query/loginExe.php` | High
-62 | File | `/admin_route/inc_service_credits.php` | High
-63 | File | `/api/` | Low
-64 | File | `/api/browserextension/UpdatePassword/` | High
-65 | File | `/api/controllers/admin/app/AppController.php` | High
-66 | File | `/api/controllers/admin/app/ComboController.php` | High
-67 | File | `/api/controllers/common/UploadsController.php` | High
-68 | File | `/api/controllers/merchant/app/ComboController.php` | High
-69 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+32 | File | `/admin/general-setting` | High
+33 | File | `/admin/general/change-lang` | High
+34 | File | `/admin/googleads.php` | High
+35 | File | `/admin/group` | Medium
+36 | File | `/Admin/login.php` | High
+37 | File | `/admin/login.php` | High
+38 | File | `/Admin/News.php` | High
+39 | File | `/admin/newsletter1.php` | High
+40 | File | `/admin/payment.php` | High
+41 | File | `/admin/photo.php` | High
+42 | File | `/admin/renewaldue.php` | High
+43 | File | `/admin/rooms.php` | High
+44 | File | `/admin/search.php` | High
+45 | File | `/admin/searchview.php` | High
+46 | File | `/admin/students/manage.php` | High
+47 | File | `/admin/twitter.php` | High
+48 | File | `/admin/update-rooms.php` | High
+49 | File | `/admin/user-search.php` | High
+50 | File | `/admin/usermanagement.php` | High
+51 | File | `/admin/users.php` | High
+52 | File | `/admin/vendor` | High
+53 | File | `/admin/view_sendlist.php` | High
+54 | File | `/adminapi/system/crud` | High
+55 | File | `/adminapi/system/file/openfile` | High
+56 | File | `/adminPage/main/upload` | High
+57 | File | `/adminPage/www/addOver` | High
+58 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+59 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+60 | File | `/adminpanel/admin/query/loginExe.php` | High
+61 | File | `/admin_route/inc_service_credits.php` | High
+62 | File | `/api/` | Low
+63 | File | `/api/browserextension/UpdatePassword/` | High
+64 | File | `/api/controllers/admin/app/AppController.php` | High
+65 | File | `/api/controllers/admin/app/ComboController.php` | High
+66 | File | `/api/controllers/common/UploadsController.php` | High
+67 | File | `/api/controllers/merchant/app/ComboController.php` | High
+68 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+69 | File | `/api/deploy/upload` | High
 70 | File | `/api/v1/bait/set` | High
 71 | File | `/api/v2/open/tablesInfo` | High
 72 | File | `/app/ajax/search_sales_report.php` | High
@@ -145,22 +145,22 @@ ID | Type | Indicator | Confidence
 85 | File | `/apps/system/router/upload.go` | High
 86 | File | `/cardo/api` | Medium
 87 | File | `/category.php` | High
-88 | File | `/cgi-bin/cstecgi.cgi` | High
-89 | File | `/cgi-bin/nas_sharing.cgi` | High
-90 | File | `/cgi-bin/nightled.cgi` | High
-91 | File | `/ci_hms/massage_room/edit/1` | High
-92 | File | `/ci_hms/search` | High
-93 | File | `/ci_spms/admin/category` | High
-94 | File | `/ci_ssms/index.php/orders/create` | High
-95 | File | `/claire_blake` | High
-96 | File | `/classes/Users.php?f=save` | High
-97 | File | `/control/deactivate_case.php` | High
-98 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-99 | File | `/dashboard/add-portfolio.php` | High
-100 | File | `/dashboard/message` | High
+88 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+89 | File | `/cgi-bin/cstecgi.cgi` | High
+90 | File | `/cgi-bin/nas_sharing.cgi` | High
+91 | File | `/cgi-bin/nightled.cgi` | High
+92 | File | `/ci_hms/massage_room/edit/1` | High
+93 | File | `/ci_hms/search` | High
+94 | File | `/ci_spms/admin/category` | High
+95 | File | `/ci_ssms/index.php/orders/create` | High
+96 | File | `/claire_blake` | High
+97 | File | `/classes/Users.php?f=save` | High
+98 | File | `/control/deactivate_case.php` | High
+99 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+100 | File | `/dashboard/add-portfolio.php` | High
 101 | ... | ... | ...
 
-There are 897 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 898 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -178,4 +178,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

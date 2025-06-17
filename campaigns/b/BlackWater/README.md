@@ -21,8 +21,8 @@ These _actors_ are associated with BlackWater or other actors linked to the camp
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
-2 | [Blackwater](https://vuldb.com/?actor.blackwater) | High
+1 | [Blackwater](https://vuldb.com/?actor.blackwater) | High
+2 | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | [Blackwater](https://vuldb.com/?actor.blackwater) | High
-2 | [82.102.8.101](https://vuldb.com/?ip.82.102.8.101) | h82-102-8-101.host.redstation.co.uk | [Blackwater](https://vuldb.com/?actor.blackwater) | High
-3 | [94.23.148.194](https://vuldb.com/?ip.94.23.148.194) | ip194.ip-94-23-148.eu | [Blackwater](https://vuldb.com/?actor.blackwater) | High
+1 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
+2 | [82.102.8.101](https://vuldb.com/?ip.82.102.8.101) | h82-102-8-101.host.redstation.co.uk | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
+3 | [94.23.148.194](https://vuldb.com/?ip.94.23.148.194) | ip194.ip-94-23-148.eu | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
@@ -44,12 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,41 +62,44 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/Actions.php?a=login` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/app/login_crud.php` | High
-7 | File | `/admin/app/product.php` | High
-8 | File | `/admin/app/service_crud.php` | High
-9 | File | `/admin/blood/update/o-.php` | High
-10 | File | `/admin/category/view_category.php` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/googleads.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/list_ipAddressPolicy.php` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/Admin/login.php` | High
-17 | File | `/admin/massage.php` | High
-18 | File | `/admin/pages/update_go.php` | High
-19 | File | `/admin/profile.php` | High
-20 | File | `/admin/reg.php` | High
-21 | File | `/admin/renewaldue.php` | High
-22 | File | `/admin/search.php` | High
-23 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-24 | File | `/ajax` | Low
-25 | File | `/analysisProject/pagingQueryData` | High
-26 | File | `/api/sys/login` | High
-27 | File | `/app/ajax/search_sales_report.php` | High
-28 | File | `/app/middleware/TokenVerify.php` | High
-29 | File | `/application/index/controller/Databasesource.php` | High
-30 | File | `/application/index/controller/Screen.php` | High
-31 | File | `/bin/boa` | Medium
-32 | File | `/booking/show_bookings/` | High
-33 | File | `/cancel.php` | Medium
-34 | File | `/cgi-bin/adm.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-37 | ... | ... | ...
+5 | File | `/add_new_invoice.php` | High
+6 | File | `/add_new_supplier.php` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/app/login_crud.php` | High
+9 | File | `/admin/app/product.php` | High
+10 | File | `/admin/app/service_crud.php` | High
+11 | File | `/admin/blood/update/o-.php` | High
+12 | File | `/admin/category/view_category.php` | High
+13 | File | `/admin/edit-category.php` | High
+14 | File | `/admin/edit.php` | High
+15 | File | `/admin/googleads.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/Admin/login.php` | High
+20 | File | `/admin/massage.php` | High
+21 | File | `/admin/menu_save.php` | High
+22 | File | `/admin/pages/update_go.php` | High
+23 | File | `/admin/profile.php` | High
+24 | File | `/admin/reg.php` | High
+25 | File | `/admin/renewaldue.php` | High
+26 | File | `/admin/search.php` | High
+27 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+28 | File | `/ajax` | Low
+29 | File | `/analysisProject/pagingQueryData` | High
+30 | File | `/api/sys/login` | High
+31 | File | `/app/ajax/search_sales_report.php` | High
+32 | File | `/app/middleware/TokenVerify.php` | High
+33 | File | `/application/index/controller/Databasesource.php` | High
+34 | File | `/application/index/controller/Screen.php` | High
+35 | File | `/bin/boa` | Medium
+36 | File | `/booking/show_bookings/` | High
+37 | File | `/cancel.php` | Medium
+38 | File | `/cgi-bin/adm.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

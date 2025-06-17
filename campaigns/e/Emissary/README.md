@@ -21,9 +21,9 @@ These _actors_ are associated with Emissary or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom) | High
-2 | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
-3 | [Emissary](https://vuldb.com/?actor.emissary) | High
+1 | [Emissary](https://vuldb.com/?actor.emissary) | High
+2 | [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom) | High
+3 | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +31,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [101.55.33.92](https://vuldb.com/?ip.101.55.33.92) | - | [Emissary](https://vuldb.com/?actor.emissary) | High
-2 | [101.55.33.95](https://vuldb.com/?ip.101.55.33.95) | - | [Emissary](https://vuldb.com/?actor.emissary) | High
-3 | [101.55.121.79](https://vuldb.com/?ip.101.55.121.79) | - | [Emissary](https://vuldb.com/?actor.emissary) | High
+1 | [101.55.33.92](https://vuldb.com/?ip.101.55.33.92) | - | [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom) | High
+2 | [101.55.33.95](https://vuldb.com/?ip.101.55.33.95) | - | [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom) | High
+3 | [101.55.121.79](https://vuldb.com/?ip.101.55.121.79) | - | [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom) | High
 4 | [103.59.144.183](https://vuldb.com/?ip.103.59.144.183) | - | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 5 | ... | ... | ... | ...
 
@@ -97,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

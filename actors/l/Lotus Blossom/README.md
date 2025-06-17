@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Lotus Blossom:
 
 * Emissary
+* Sagerunex
 
 ## Countries
 
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,17 +30,22 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.234.63.197](https://vuldb.com/?ip.23.234.63.197) | - | - | High
 2 | [27.255.64.231](https://vuldb.com/?ip.27.255.64.231) | - | - | High
-3 | [45.64.113.130](https://vuldb.com/?ip.45.64.113.130) | - | - | High
-4 | [46.251.237.59](https://vuldb.com/?ip.46.251.237.59) | - | - | High
-5 | [50.7.11.10](https://vuldb.com/?ip.50.7.11.10) | yem1.entregadorvirtual9.com | - | High
-6 | [58.64.183.92](https://vuldb.com/?ip.58.64.183.92) | - | - | High
-7 | [59.6.2.16](https://vuldb.com/?ip.59.6.2.16) | - | - | High
-8 | [59.188.247.32](https://vuldb.com/?ip.59.188.247.32) | - | - | High
-9 | [61.58.31.102](https://vuldb.com/?ip.61.58.31.102) | - | - | High
-10 | [95.154.195.152](https://vuldb.com/?ip.95.154.195.152) | hrms.blinkgator.net | - | High
-11 | ... | ... | ... | ...
+3 | [43.252.161.22](https://vuldb.com/?ip.43.252.161.22) | - | Sagerunex | High
+4 | [43.254.217.138](https://vuldb.com/?ip.43.254.217.138) | - | Sagerunex | High
+5 | [43.254.218.69](https://vuldb.com/?ip.43.254.218.69) | - | Sagerunex | High
+6 | [43.255.104.100](https://vuldb.com/?ip.43.255.104.100) | ecs-43-255-104-100.compute.hwclouds-dns.com | Sagerunex | High
+7 | [45.32.127.121](https://vuldb.com/?ip.45.32.127.121) | 45.32.127.121.vultrusercontent.com | Sagerunex | Medium
+8 | [45.32.127.212](https://vuldb.com/?ip.45.32.127.212) | 45.32.127.212.vultrusercontent.com | Sagerunex | Medium
+9 | [45.64.113.130](https://vuldb.com/?ip.45.64.113.130) | - | - | High
+10 | [46.251.237.59](https://vuldb.com/?ip.46.251.237.59) | - | - | High
+11 | [50.7.11.10](https://vuldb.com/?ip.50.7.11.10) | yem1.entregadorvirtual9.com | - | High
+12 | [58.64.183.92](https://vuldb.com/?ip.58.64.183.92) | - | - | High
+13 | [58.64.193.166](https://vuldb.com/?ip.58.64.193.166) | - | Sagerunex | High
+14 | [58.64.193.225](https://vuldb.com/?ip.58.64.193.225) | - | Sagerunex | High
+15 | [59.6.2.16](https://vuldb.com/?ip.59.6.2.16) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,57 +68,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/analysisProject/pagingQueryData` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/etc/ajenti/config.yml` | High
-13 | File | `/farm/product.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/telnet` | High
-16 | File | `/manage_block.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/ptippage.cgi` | High
-19 | File | `/rom-0` | Low
-20 | File | `/tmp/out` | Medium
-21 | File | `/tmp/phpglibccheck` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/update-image1.php` | High
-24 | File | `/upload` | Low
-25 | File | `/v1/operador/` | High
-26 | File | `/var/tmp/sess_*` | High
-27 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-28 | File | `action.php` | Medium
-29 | File | `actionphp/download.File.php` | High
-30 | File | `add_comment.php` | High
-31 | File | `admin/admin.php` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-34 | File | `admin/memberviewdetails.php` | High
-35 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-36 | File | `admin_gallery.php3` | High
-37 | File | `affich.php` | Medium
-38 | File | `agent/Core/Controller/SendRequest.cpp` | High
-39 | File | `ajax/telemetry.php` | High
-40 | File | `akeyActivationLogin.do` | High
-41 | File | `album_portal.php` | High
-42 | File | `apache-auth.conf` | High
-43 | File | `askapache-firefox-adsense.php` | High
-44 | File | `attachment.cgi` | High
-45 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin.php?page=cat_list` | High
+4 | File | `/admin/pages/` | High
+5 | File | `/admins` | Low
+6 | File | `/ajax/getBasicInfo.php` | High
+7 | File | `/analysisProject/pagingQueryData` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/app/admin/controller/api/Plugs.php` | High
+10 | File | `/assets/ctx` | Medium
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/clientdetails/admin/regester.php` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/etc/ajenti/config.yml` | High
+17 | File | `/farm/product.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/telnet` | High
+20 | File | `/index/ajax/lang` | High
+21 | File | `/jmreport/loadTableData` | High
+22 | File | `/lms/admin.php` | High
+23 | File | `/manage_block.php` | High
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/onlDragDatasetHead/getTotalData` | High
+26 | File | `/onvif/device_service` | High
+27 | File | `/ptippage.cgi` | High
+28 | File | `/question` | Medium
+29 | File | `/rom-0` | Low
+30 | File | `/swdHGFizaW.php/general/attachment/edit/ids/4?dialog=1` | High
+31 | File | `/tmp/out` | Medium
+32 | File | `/tmp/phpglibccheck` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/update-image1.php` | High
+35 | File | `/upload` | Low
+36 | File | `/v1/operador/` | High
+37 | File | `/var/tmp/sess_*` | High
+38 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+39 | File | `/[admins_url].php/general/attachment/edit/ids/4?dialog=1` | High
+40 | File | `action.php` | Medium
+41 | File | `actionphp/download.File.php` | High
+42 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/lotus-blossom-espionage-group/
 * https://securelist.com/the-spring-dragon-apt/70726/
 * https://unit42.paloaltonetworks.com/attack-on-french-diplomat-linked-to-operation-lotus-blossom/
 * https://unit42.paloaltonetworks.com/emissary-trojan-changelog-did-operation-lotus-blossom-cause-it-to-evolve/
@@ -127,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

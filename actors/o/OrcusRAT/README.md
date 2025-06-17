@@ -26,8 +26,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
-2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+1 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,12 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ndmComponents.js` | High
-2 | File | `/wp-admin/admin-ajax.php` | High
-3 | File | `dede\co_do.php` | High
+1 | File | `/filemanager/upload` | High
+2 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+3 | File | `/ndmComponents.js` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -58,4 +62,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

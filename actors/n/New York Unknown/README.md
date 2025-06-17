@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -189,12 +189,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -202,29 +202,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-profile.php` | High
-2 | File | `/admin/ajax.php?action=login` | High
-3 | File | `/admin/booking-bwdates-reports-details.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/forgot-password.php` | High
-6 | File | `/admin/maintenance/manage_brand.php` | High
-7 | File | `/admin/manage-ambulance.php` | High
-8 | File | `/admin/manage_station.php` | High
-9 | File | `/admin/school_year.php` | High
-10 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-11 | File | `/Basics/DownloadInpFile` | High
-12 | File | `/cancel.php` | Medium
-13 | File | `/cgi-bin/` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
+1 | File | `/admin-api/bpm/model/deploy` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/ajax.php?action=login` | High
+4 | File | `/admin/app/slider_crud.php` | High
+5 | File | `/admin/config_MT.php?action=delete` | High
+6 | File | `/admin/create_product.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/maintenance/manage_brand.php` | High
+9 | File | `/admin/manage_station.php` | High
+10 | File | `/admin/profile.php` | High
+11 | File | `/admin/school_year.php` | High
+12 | File | `/admin/search-booking-request.php` | High
+13 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+14 | File | `/atv-cli` | Medium
+15 | File | `/Basics/DownloadInpFile` | High
 16 | File | `/cgi-bin/p1_ftpserver.php` | High
 17 | File | `/cgi-bin/tosei_kikai.php` | High
-18 | File | `/check_availability.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | ... | ... | ...
+18 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
+19 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -241,4 +239,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

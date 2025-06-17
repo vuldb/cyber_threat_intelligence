@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,56 +54,58 @@ ID | Type | Indicator | Confidence
 2 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
 3 | File | `/admin/` | Low
 4 | File | `/admin/AddNewState/Add_State` | High
-5 | File | `/admin/theme-edit.php` | High
-6 | File | `/category.php` | High
-7 | File | `/data/syslog.filter.json` | High
-8 | File | `/database.php` | High
-9 | File | `/details.php` | Medium
-10 | File | `/etc/stunnel.key` | High
-11 | File | `/FlexiCapture12/Login/Server/SevaUserProfile` | High
-12 | File | `/help/lccon.nsf/` | High
-13 | File | `/jsp/xmlhttp/AjaxResponse.jsp` | High
-14 | File | `/login.html` | Medium
-15 | File | `/member/settings_account.php` | High
-16 | File | `/net/mac80211/mac80211/sta_info.c` | High
-17 | File | `/nova/bin/igmp-proxy` | High
-18 | File | `/otweb/OTPClientLogin` | High
-19 | File | `/product.php` | Medium
-20 | File | `/tests/add_duration_test.php` | High
-21 | File | `/tests/all_tests.php` | High
-22 | File | `/var/run/storage_account_root` | High
-23 | File | `/vm/doctor/edit-doc.php` | High
-24 | File | `AccessPoint.aspx` | High
-25 | File | `account.asp` | Medium
-26 | File | `activate.php` | Medium
-27 | File | `addevent.php` | Medium
-28 | File | `adherents/cartes/carte.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/` | Low
-31 | File | `admin/?/plugin/file_manager/upload` | High
-32 | File | `admin/app/physical/physical.php` | High
-33 | File | `admin/edit.php` | High
-34 | File | `admin/editusertag.php` | High
-35 | File | `admin/eventlist.php` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/languages.php` | High
-38 | File | `admin/manufacturers.php` | High
-39 | File | `admin/newsletters.php` | High
-40 | File | `admin/products_attributes.php` | High
-41 | File | `admin/products_expected.php` | High
-42 | File | `admin/reviews.php` | High
-43 | File | `admin/siteprefs.php` | High
-44 | File | `admin/worklist/worklist_edit.asp` | High
-45 | File | `administrator/index.php` | High
-46 | File | `ad_popup.php` | Medium
-47 | File | `afd.sys` | Low
-48 | File | `agent.exe` | Medium
-49 | File | `apps/calendar/export.php` | High
-50 | File | `archive.php` | Medium
-51 | File | `ask_chat.php` | Medium
-52 | ... | ... | ...
+5 | File | `/admin/add_postlogin.php` | High
+6 | File | `/admin/theme-edit.php` | High
+7 | File | `/bolt/editcontent/showcases` | High
+8 | File | `/category.php` | High
+9 | File | `/data/syslog.filter.json` | High
+10 | File | `/database.php` | High
+11 | File | `/Default.aspx` | High
+12 | File | `/details.php` | Medium
+13 | File | `/etc/stunnel.key` | High
+14 | File | `/FlexiCapture12/Login/Server/SevaUserProfile` | High
+15 | File | `/help/lccon.nsf/` | High
+16 | File | `/jsp/xmlhttp/AjaxResponse.jsp` | High
+17 | File | `/login.html` | Medium
+18 | File | `/manage/IPSetup.php` | High
+19 | File | `/member/settings_account.php` | High
+20 | File | `/net/mac80211/mac80211/sta_info.c` | High
+21 | File | `/nova/bin/igmp-proxy` | High
+22 | File | `/otweb/OTPClientLogin` | High
+23 | File | `/product.php` | Medium
+24 | File | `/protocol/index.php` | High
+25 | File | `/tests/add_duration_test.php` | High
+26 | File | `/tests/all_tests.php` | High
+27 | File | `/var/run/storage_account_root` | High
+28 | File | `/vm/doctor/edit-doc.php` | High
+29 | File | `AccessPoint.aspx` | High
+30 | File | `account.asp` | Medium
+31 | File | `activate.php` | Medium
+32 | File | `addevent.php` | Medium
+33 | File | `adherents/cartes/carte.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/` | Low
+36 | File | `admin/?/plugin/file_manager/upload` | High
+37 | File | `admin/app/physical/physical.php` | High
+38 | File | `admin/edit.php` | High
+39 | File | `admin/editusertag.php` | High
+40 | File | `admin/eventlist.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/languages.php` | High
+43 | File | `admin/manufacturers.php` | High
+44 | File | `admin/newsletters.php` | High
+45 | File | `admin/products_attributes.php` | High
+46 | File | `admin/products_expected.php` | High
+47 | File | `admin/reviews.php` | High
+48 | File | `admin/siteprefs.php` | High
+49 | File | `admin/worklist/worklist_edit.asp` | High
+50 | File | `administrator/index.php` | High
+51 | File | `ad_popup.php` | Medium
+52 | File | `afd.sys` | Low
+53 | File | `agent.exe` | Medium
+54 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

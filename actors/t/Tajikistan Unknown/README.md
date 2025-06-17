@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.tajikistan_unknown](https://vuldb.com/?actor.tajikistan_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tajikistan Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 26 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Tajikistan Unknown.
@@ -24,96 +13,28 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.59.96.0](https://vuldb.com/?ip.5.59.96.0) | - | - | High
 2 | [5.62.61.168](https://vuldb.com/?ip.5.62.61.168) | r-168-61-62-5.consumer-pool.prcdn.net | - | High
 3 | [5.62.63.148](https://vuldb.com/?ip.5.62.63.148) | r-148-63-62-5.consumer-pool.prcdn.net | - | High
-4 | [37.98.152.0](https://vuldb.com/?ip.37.98.152.0) | - | - | High
-5 | [45.12.70.220](https://vuldb.com/?ip.45.12.70.220) | in-feed-defrag.globalhilive.com | - | High
-6 | [45.12.71.220](https://vuldb.com/?ip.45.12.71.220) | - | - | High
-7 | [45.59.165.0](https://vuldb.com/?ip.45.59.165.0) | - | - | High
-8 | [45.94.216.0](https://vuldb.com/?ip.45.94.216.0) | - | - | High
-9 | [45.142.121.0](https://vuldb.com/?ip.45.142.121.0) | - | - | High
-10 | [46.20.192.0](https://vuldb.com/?ip.46.20.192.0) | - | - | High
-11 | [46.36.202.181](https://vuldb.com/?ip.46.36.202.181) | - | - | High
-12 | [46.36.202.182](https://vuldb.com/?ip.46.36.202.182) | - | - | High
-13 | [46.36.202.184](https://vuldb.com/?ip.46.36.202.184) | - | - | High
-14 | [46.36.202.188](https://vuldb.com/?ip.46.36.202.188) | - | - | High
-15 | ... | ... | ... | ...
+4 | [23.26.230.0](https://vuldb.com/?ip.23.26.230.0) | - | - | High
+5 | [23.148.72.0](https://vuldb.com/?ip.23.148.72.0) | - | - | High
+6 | [37.98.152.0](https://vuldb.com/?ip.37.98.152.0) | - | - | High
+7 | [45.12.70.220](https://vuldb.com/?ip.45.12.70.220) | in-feed-defrag.globalhilive.com | - | High
+8 | [45.12.71.220](https://vuldb.com/?ip.45.12.71.220) | - | - | High
+9 | [45.59.165.0](https://vuldb.com/?ip.45.59.165.0) | - | - | High
+10 | [45.81.37.0](https://vuldb.com/?ip.45.81.37.0) | - | - | High
+11 | [45.94.216.0](https://vuldb.com/?ip.45.94.216.0) | - | - | High
+12 | [45.124.96.0](https://vuldb.com/?ip.45.124.96.0) | - | - | High
+13 | [45.142.121.0](https://vuldb.com/?ip.45.142.121.0) | - | - | High
+14 | [46.20.192.0](https://vuldb.com/?ip.46.20.192.0) | - | - | High
+15 | [46.36.202.181](https://vuldb.com/?ip.46.36.202.181) | - | - | High
+16 | [46.36.202.182](https://vuldb.com/?ip.46.36.202.182) | - | - | High
+17 | [46.36.202.184](https://vuldb.com/?ip.46.36.202.184) | - | - | High
+18 | [46.36.202.188](https://vuldb.com/?ip.46.36.202.188) | - | - | High
+19 | [46.36.202.190](https://vuldb.com/?ip.46.36.202.190) | - | - | High
+20 | [57.90.156.0](https://vuldb.com/?ip.57.90.156.0) | - | - | High
+21 | [57.93.32.0](https://vuldb.com/?ip.57.93.32.0) | - | - | High
+22 | [62.89.208.0](https://vuldb.com/?ip.62.89.208.0) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Tajikistan Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
-
-There are 15 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Tajikistan Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/photo.php` | High
-7 | File | `/admin/problem_judge.php` | High
-8 | File | `/api/files/recipepictures/` | High
-9 | File | `/apilog.php` | Medium
-10 | File | `/appliance/users?action=edit` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/formSetQoS` | High
-14 | File | `/healthcare/Admin/consulting_detail.php` | High
-15 | File | `/I/list.php` | Medium
-16 | File | `/if.cgi` | Low
-17 | File | `/index.php/weblinks-categories` | High
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/model/update_classroom.php` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/news.dtl.php` | High
-22 | File | `/redirect?url` | High
-23 | File | `/royal_event/userregister.php` | High
-24 | File | `/see_more_details.php` | High
-25 | File | `/services/details.asp` | High
-26 | File | `/setup` | Low
-27 | File | `/setup/setup_maintain_firmware-default.html` | High
-28 | File | `/signup.php` | Medium
-29 | File | `/spip.php` | Medium
-30 | File | `/uncpath/` | Medium
-31 | File | `/update-employee.php` | High
-32 | File | `/user/add-notes.php` | High
-33 | File | `/user/manage-notes.php` | High
-34 | File | `/var/log/nginx` | High
-35 | File | `/vcs/claire_blake` | High
-36 | File | `/view/teacher_salary_details2.php` | High
-37 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-39 | File | `/zm/index.php` | High
-40 | File | `3/E_bak5.1/upload/eginfo.php` | High
-41 | File | `act.php` | Low
-42 | File | `adclick.php` | Medium
-43 | File | `admin` | Low
-44 | File | `admin.a6mambocredits.php` | High
-45 | File | `admin.php` | Medium
-46 | File | `admin/adminsignin.html` | High
-47 | File | `admin/admin_password.php` | High
-48 | File | `admin/movieview.php` | High
-49 | File | `admin/plib/api-rpc/Agent.php` | High
-50 | File | `admin/products/view_product.php` | High
-51 | File | `admin/versions.html` | High
-52 | File | `agenda.php` | Medium
-53 | ... | ... | ...
-
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +53,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

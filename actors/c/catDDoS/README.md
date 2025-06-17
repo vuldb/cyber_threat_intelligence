@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,15 +51,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/advanced-tools/nova/bin/netwatch` | High
 2 | File | `/arcgis/rest/services` | High
-3 | File | `/classes/Master.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/proc/iomem` | Medium
-6 | File | `/spip.php` | Medium
-7 | File | `/uncpath/` | Medium
-8 | File | `admin/dashboard.php` | High
+3 | File | `/books` | Low
+4 | File | `/classes/Master.php` | High
+5 | File | `/filemanager/upload` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/proc/iomem` | Medium
+8 | File | `/spip.php` | Medium
 9 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

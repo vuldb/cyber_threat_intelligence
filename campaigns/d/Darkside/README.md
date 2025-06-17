@@ -35,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [99.83.154.118](https://vuldb.com/?ip.99.83.154.118) | a51062ecadbb5a26e.awsglobalaccelerator.com | [DarkSide](https://vuldb.com/?actor.darkside) | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,6 +68,7 @@ There are 14 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://bazaar.abuse.ch/sample/6a7b7147fea63d77368c73cef205eb75d16ef209a246b05698358a28fd16e502/
+* https://urlhaus.abuse.ch/url/3519850/
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar21-189a
 * https://us-cert.cisa.gov/sites/default/files/publications/AA21-131A.stix.xml
 * https://www.fireeye.com/blog/threat-research/2021/06/darkside-affiliate-supply-chain-software-compromise.html
@@ -81,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

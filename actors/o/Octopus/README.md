@@ -25,11 +25,12 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.188.231.101](https://vuldb.com/?ip.5.188.231.101) | free.ds | - | High
 3 | [5.255.71.84](https://vuldb.com/?ip.5.255.71.84) | - | - | High
 4 | [5.255.71.85](https://vuldb.com/?ip.5.255.71.85) | - | - | High
-5 | [34.173.57.207](https://vuldb.com/?ip.34.173.57.207) | 207.57.173.34.bc.googleusercontent.com | - | Medium
-6 | [46.249.52.244](https://vuldb.com/?ip.46.249.52.244) | echichens-c | - | High
-7 | ... | ... | ... | ...
+5 | [13.231.202.34](https://vuldb.com/?ip.13.231.202.34) | ec2-13-231-202-34.ap-northeast-1.compute.amazonaws.com | - | Medium
+6 | [34.70.101.232](https://vuldb.com/?ip.34.70.101.232) | 232.101.70.34.bc.googleusercontent.com | - | Medium
+7 | [34.173.57.207](https://vuldb.com/?ip.34.173.57.207) | 207.57.173.34.bc.googleusercontent.com | - | Medium
+8 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -71,14 +72,19 @@ ID | Type | Indicator | Confidence
 18 | File | `/mcategory.php` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/13.231.202.34
+* https://search.censys.io/hosts/34.70.101.232
 * https://search.censys.io/hosts/34.173.57.207
 * https://search.censys.io/hosts/65.108.17.222
+* https://search.censys.io/hosts/74.226.247.135
+* https://search.censys.io/hosts/89.168.124.112
+* https://search.censys.io/hosts/121.40.17.177
 * https://search.censys.io/hosts/130.61.242.29
 * https://search.censys.io/hosts/149.81.74.204
 * https://search.censys.io/hosts/149.81.74.205
@@ -100,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

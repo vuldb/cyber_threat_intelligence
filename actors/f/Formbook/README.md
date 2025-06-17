@@ -17,9 +17,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,9 +83,12 @@ ID | IP address | Hostname | Campaign | Confidence
 57 | [44.194.24.167](https://vuldb.com/?ip.44.194.24.167) | ec2-44-194-24-167.compute-1.amazonaws.com | - | Medium
 58 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
 59 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
-60 | ... | ... | ... | ...
+60 | [44.230.85.241](https://vuldb.com/?ip.44.230.85.241) | ec2-44-230-85-241.us-west-2.compute.amazonaws.com | - | Medium
+61 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+62 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | Medium
+63 | ... | ... | ... | ...
 
-There are 236 more IOC items available. Please use our online service to access the data.
+There are 250 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,12 +96,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,24 +111,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
 2 | File | `/api/sys/set_passwd` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/dev/urandom` | Medium
-7 | File | `/endpoint/delete-account.php` | High
-8 | File | `/etc/quantum/quantum.conf` | High
-9 | File | `/exec/` | Low
-10 | File | `/getcfg.php` | Medium
-11 | File | `/HNAP1` | Low
-12 | File | `/index/ajax/lang` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/modules/projects/vw_files.php` | High
-15 | File | `/plain` | Low
-16 | File | `/staff/tools/custom-fields` | High
-17 | File | `/uncpath/` | Medium
-18 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/hd_config.cgi` | High
+5 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -161,6 +148,23 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Formbook%20IOCs
 * https://isc.sans.edu/forums/diary/Excel+spreasheet+macro+kicks+off+Formbook+infection/26332/
 * https://research.checkpoint.com/2023/cloud-based-malware-delivery-the-evolution-of-guloader/
+* https://urlhaus.abuse.ch/url/3518496/
+* https://urlhaus.abuse.ch/url/3519409/
+* https://urlhaus.abuse.ch/url/3526489/
+* https://urlhaus.abuse.ch/url/3536063/
+* https://urlhaus.abuse.ch/url/3543276/
+* https://urlhaus.abuse.ch/url/3544155/
+* https://urlhaus.abuse.ch/url/3544188/
+* https://urlhaus.abuse.ch/url/3545184/
+* https://urlhaus.abuse.ch/url/3545540/
+* https://urlhaus.abuse.ch/url/3546809/
+* https://urlhaus.abuse.ch/url/3551833/
+* https://urlhaus.abuse.ch/url/3553666/
+* https://urlhaus.abuse.ch/url/3553700/
+* https://urlhaus.abuse.ch/url/3556108/
+* https://urlhaus.abuse.ch/url/3556639/
+* https://urlhaus.abuse.ch/url/3556692/
+* https://urlhaus.abuse.ch/url/3557905/
 * https://www.malware-traffic-analysis.net/2019/05/20/index.html
 
 ## Literature
@@ -172,4 +176,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

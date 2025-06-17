@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,9 +49,10 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | - | - | High
 27 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | - | - | High
 28 | [45.137.22.166](https://vuldb.com/?ip.45.137.22.166) | hosted-by.rootlayer.net | - | High
-29 | ... | ... | ... | ...
+29 | [45.137.116.156](https://vuldb.com/?ip.45.137.116.156) | vps-zap937104-1.zap-srv.com | - | High
+30 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,35 +88,34 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 12 | File | `/api/cron/settings/setJob/` | High
 13 | File | `/api/v2/cli/commands` | High
-14 | File | `/api/v4/users/ids` | High
-15 | File | `/api2/html/` | Medium
-16 | File | `/apply.cgi` | Medium
-17 | File | `/bbdms/sign-up.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/clientdetails/admin/regester.php` | High
-22 | File | `/csms/?page=contact_us` | High
-23 | File | `/cwms/classes/Master.php?f=save_contact` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/etc/shadow` | Medium
-28 | File | `/farm/product.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/get_getnetworkconf.cgi` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-34 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-35 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-36 | File | `/index/ajax/lang` | High
-37 | File | `/integrations.json` | High
-38 | File | `/log/decodmail.php` | High
-39 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-40 | ... | ... | ...
+14 | File | `/api/v2/open/rowsInfo` | High
+15 | File | `/api/v4/users/ids` | High
+16 | File | `/api2/html/` | Medium
+17 | File | `/apply.cgi` | Medium
+18 | File | `/bbdms/sign-up.php` | High
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/clientdetails/admin/regester.php` | High
+24 | File | `/csms/?page=contact_us` | High
+25 | File | `/cwms/classes/Master.php?f=save_contact` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/etc/shadow` | Medium
+30 | File | `/farm/product.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/get_getnetworkconf.cgi` | High
+33 | File | `/goform/WifiExtraSet` | High
+34 | File | `/h/rest` | Low
+35 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+36 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+37 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+38 | File | `/index/ajax/lang` | High
+39 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

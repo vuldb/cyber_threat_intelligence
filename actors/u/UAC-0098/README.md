@@ -60,17 +60,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/wlogin.cgi` | High
 2 | File | `/etc/shadow` | Medium
-3 | File | `/goform/net\_Web\_get_value` | High
-4 | File | `/goform/net_WebCSRGen` | High
-5 | File | `/goform/WebRSAKEYGen` | High
-6 | File | `/lam/tmp/` | Medium
-7 | File | `/uncpath/` | Medium
-8 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-9 | File | `add-category.php` | High
-10 | File | `admin/dashboard.php` | High
-11 | ... | ... | ...
+3 | File | `/goform/modifyIpMacBind` | High
+4 | File | `/goform/net\_Web\_get_value` | High
+5 | File | `/goform/net_WebCSRGen` | High
+6 | File | `/goform/WebRSAKEYGen` | High
+7 | File | `/lam/tmp/` | Medium
+8 | File | `/uncpath/` | Medium
+9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+10 | File | `add-category.php` | High
+11 | File | `admin/dashboard.php` | High
+12 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

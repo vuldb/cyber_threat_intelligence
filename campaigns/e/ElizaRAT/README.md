@@ -26,12 +26,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | [APT36](https://vuldb.com/?actor.apt36) | High
-2 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | [APT36](https://vuldb.com/?actor.apt36) | High
-3 | [83.171.248.67](https://vuldb.com/?ip.83.171.248.67) | vmi1548375.contaboserver.net | [APT36](https://vuldb.com/?actor.apt36) | High
+1 | [13.107.21.237](https://vuldb.com/?ip.13.107.21.237) | - | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | [APT36](https://vuldb.com/?actor.apt36) | High
+3 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | [APT36](https://vuldb.com/?actor.apt36) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,30 +52,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.asp` | Low
-2 | File | `/nidp/idff/sso` | High
-3 | File | `/search` | Low
-4 | File | `/var/run/.inetd.uds` | High
-5 | File | `about` | Low
-6 | File | `addressbook.php` | High
-7 | File | `admin-ajax.php` | High
-8 | File | `admin/` | Low
-9 | File | `afd.sys` | Low
-10 | File | `aolfix.exe` | Medium
-11 | File | `api.php` | Low
-12 | File | `apply.cgi` | Medium
-13 | File | `auth-options.c` | High
-14 | File | `bcbadmSettings.jsp` | High
-15 | File | `calendar.php` | Medium
-16 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.asp` | Low
+3 | File | `/nidp/idff/sso` | High
+4 | File | `/search` | Low
+5 | File | `/var/run/.inetd.uds` | High
+6 | File | `about` | Low
+7 | File | `addressbook.php` | High
+8 | File | `admin-ajax.php` | High
+9 | File | `admin/` | Low
+10 | File | `afd.sys` | Low
+11 | File | `aolfix.exe` | Medium
+12 | File | `api.php` | Low
+13 | File | `apply.cgi` | Medium
+14 | File | `auth-options.c` | High
+15 | File | `bcbadmSettings.jsp` | High
+16 | File | `calendar.php` | Medium
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://research.checkpoint.com/2024/the-evolution-of-transparent-tribes-new-malware/
+* https://www.reco.ai/blog/how-apt36-elizarat-redefines-cyber-espionage
 
 ## Literature
 
@@ -86,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -47,7 +47,7 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [62.210.204.81](https://vuldb.com/?ip.62.210.204.81) | 62-210-204-81.rev.poneytelecom.eu | - | High
 29 | ... | ... | ... | ...
 
-There are 111 more IOC items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,13 +55,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,22 +70,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/application/index/controller/Screen.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/core/conditions/AbstractWrapper.java` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/export` | Low
-7 | File | `/file?action=download&file` | High
-8 | File | `/hardware` | Medium
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/plugin/LiveChat/getChat.json.php` | High
-12 | File | `/tmp/zarafa-vacation-*` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/upload` | Low
-15 | ... | ... | ...
+2 | File | `/api/front/search/books` | High
+3 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+4 | File | `/application/index/controller/Screen.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/goform/aspForm` | High
+10 | File | `/hardware` | Medium
+11 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/4c57ca4c-db7a-444c-822d-35bafda21a49/#
 * https://bazaar.abuse.ch/sample/528334ed9e4567a89f3cf4e4700946056499624dcfdd3b32a7800abc08eff9fe/
+* https://bazaar.abuse.ch/sample/eb04f77eb4f92dd2b46d04408166a32505e5016435ccd84476f20eeba542dafd/
 * https://bsky.app/profile/netresec.com/post/3lckyn3q4pk2o
 * https://de.darktrace.com/blog/socks5systemz-how-darktraces-anomaly-detection-unraveled-a-stealthy-botnet
 * https://threatfox.abuse.ch
@@ -110,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

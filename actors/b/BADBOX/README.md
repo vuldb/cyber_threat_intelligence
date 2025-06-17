@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,8 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [139.162.40.221](https://vuldb.com/?ip.139.162.40.221) | 139-162-40-221.ip.linodeusercontent.com | - | High
-2 | [172.105.119.17](https://vuldb.com/?ip.172.105.119.17) | 172-105-119-17.ip.linodeusercontent.com | - | High
+1 | [103.145.58.236](https://vuldb.com/?ip.103.145.58.236) | - | - | High
+2 | [139.162.40.221](https://vuldb.com/?ip.139.162.40.221) | 139-162-40-221.ip.linodeusercontent.com | - | High
+3 | [172.105.119.17](https://vuldb.com/?ip.172.105.119.17) | 172-105-119-17.ip.linodeusercontent.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,10 +33,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,9 +47,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin-api/upload_image` | High
 2 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 3 | File | `/admin/settings.php` | High
-4 | ... | ... | ...
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/dashboard/add-portfolio.php` | High
+8 | File | `/example/editor` | High
+9 | File | `/forum/away.php` | High
+10 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -65,4 +72,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

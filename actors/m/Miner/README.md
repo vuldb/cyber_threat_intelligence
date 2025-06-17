@@ -52,21 +52,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/pic/admin/type/pl_save` | High
-2 | File | `/admin/sysmon.php` | High
-3 | File | `/api/content/posts/comments` | High
-4 | File | `/app/sys1.php` | High
-5 | File | `/churchcrm/WhyCameEditor.php` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/example/editor` | High
-8 | File | `/goform/aspForm` | High
-9 | File | `/Home/GetAttachment` | High
-10 | File | `/index.php?page=search/rentals` | High
-11 | File | `/members/view_member.php` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/modules/projects/vw_files.php` | High
-14 | ... | ... | ...
+2 | File | `/admin/edit-subcategory.php` | High
+3 | File | `/admin/sysmon.php` | High
+4 | File | `/alphaware/summary.php` | High
+5 | File | `/api/content/posts/comments` | High
+6 | File | `/app/sys1.php` | High
+7 | File | `/churchcrm/WhyCameEditor.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/example/editor` | High
+10 | File | `/goform/aspForm` | High
+11 | File | `/Home/GetAttachment` | High
+12 | File | `/index.php?page=search/rentals` | High
+13 | File | `/members/view_member.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

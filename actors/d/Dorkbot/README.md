@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -55,45 +55,47 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/add_new_supplier.php` | High
 3 | File | `/admin-api/upload_image` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/process_category_add.php` | High
-6 | File | `/admin/quizquestion.php` | High
-7 | File | `/admin/search-appointment.php` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/app/api/controller/caiji.php` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/buscar_integrada.php` | High
-12 | File | `/cap.js` | Low
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Users.php` | High
-17 | File | `/config/php.ini` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/dcim/sites/add/` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/devinfo` | Medium
-22 | File | `/ecrire` | Low
-23 | File | `/endpoint/add-calorie.php` | High
-24 | File | `/export` | Low
-25 | File | `/file?action=download&file` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/openSchedWifi` | High
-28 | File | `/hardware` | Medium
-29 | File | `/importexport.php` | High
-30 | File | `/include/makecvs.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/manage_supplier.php` | High
-34 | File | `/mfsNotice/page` | High
-35 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-36 | File | `/monitoring` | Medium
-37 | File | `/myprofile.php` | High
-38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-39 | File | `/out.php` | Medium
-40 | ... | ... | ...
+4 | File | `/admin/categories/update` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/process_category_add.php` | High
+7 | File | `/admin/quizquestion.php` | High
+8 | File | `/admin/search-appointment.php` | High
+9 | File | `/admin/subnets/ripe-query.php` | High
+10 | File | `/api/front/search/books` | High
+11 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+12 | File | `/api/wizard/setsyncpppoecfg` | High
+13 | File | `/app/api/controller/caiji.php` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/buscar_integrada.php` | High
+17 | File | `/bwdates-reports-details.php?vid=2` | High
+18 | File | `/cap.js` | Low
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/config/php.ini` | High
+24 | File | `/core/conditions/AbstractWrapper.java` | High
+25 | File | `/dcim/sites/add/` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/ecrire` | Low
+29 | File | `/endpoint/add-calorie.php` | High
+30 | File | `/export` | Low
+31 | File | `/file?action=download&file` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/goform/openSchedWifi` | High
+35 | File | `/hardware` | Medium
+36 | File | `/importexport.php` | High
+37 | File | `/include/file.php` | High
+38 | File | `/include/makecvs.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/manage_supplier.php` | High
+42 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

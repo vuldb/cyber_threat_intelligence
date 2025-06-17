@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -64,51 +64,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
-2 | File | `/act/ActDao.xml` | High
+2 | File | `/add-students.php` | High
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
 4 | File | `/admin/` | Low
 5 | File | `/admin/?setting-base.htm` | High
 6 | File | `/admin/add-category.php` | High
 7 | File | `/admin/admin-update-employee.php` | High
-8 | File | `/admin/list_resource_icon.php?action=delete` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/singlelogin.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/ajax/check_medicine_name.php` | High
-13 | File | `/api/blade-user/export-user` | High
-14 | File | `/api/clusters/local/topics/{topic}/messages` | High
-15 | File | `/API/info` | Medium
-16 | File | `/api/sys/login` | High
-17 | File | `/bcms/admin/?page=user/manage_user` | High
-18 | File | `/book_list.php` | High
-19 | File | `/cgi-bin/ExportAllSettings.sh` | High
-20 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-21 | File | `/cgi-bin/tosei_kikai.php` | High
-22 | File | `/cgi/networkDiag.cgi` | High
-23 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/detailed.php` | High
-26 | File | `/dist/index.js` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/em/console/logon/logon` | High
-29 | File | `/env` | Low
-30 | File | `/EXCU_SHELL` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/general/email/inbox/delete_webmail.php` | High
-33 | File | `/goform/form2systime.cgi` | High
-34 | File | `/goform/modifyDhcpRule` | High
-35 | File | `/goform/ModifyPppAuthWhiteMac` | High
-36 | File | `/goform/net\_Web\_get_value` | High
-37 | File | `/goform/SetNetControlList` | High
-38 | File | `/goform/setStaOffline` | High
-39 | File | `/goform/WizardHandle` | High
-40 | File | `/GponForm/usb_restore_Form?script/` | High
-41 | File | `/group1/uploa` | High
-42 | File | `/hedwig.cgi` | Medium
-43 | File | `/list` | Low
-44 | ... | ... | ...
+8 | File | `/admin/booktime.php` | High
+9 | File | `/admin/change-image.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index.php/web/ajax_all_lists` | High
+12 | File | `/admin/list_resource_icon.php?action=delete` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/singlelogin.php` | High
+15 | File | `/ajax/check_medicine_name.php` | High
+16 | File | `/api/blade-user/export-user` | High
+17 | File | `/api/clusters/local/topics/{topic}/messages` | High
+18 | File | `/API/info` | Medium
+19 | File | `/api/sys/login` | High
+20 | File | `/bcms/admin/?page=user/manage_user` | High
+21 | File | `/book_list.php` | High
+22 | File | `/cgi-bin/ExportAllSettings.sh` | High
+23 | File | `/cgi-bin/kerbynet` | High
+24 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+25 | File | `/cgi-bin/tosei_kikai.php` | High
+26 | File | `/cgi/networkDiag.cgi` | High
+27 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+28 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+29 | File | `/cov/triggerEnvCov` | High
+30 | File | `/dashboard/admin/del_plan.php` | High
+31 | File | `/dashboard/approve-reject.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/dede/file_manage_control.php` | High
+34 | File | `/detailed.php` | High
+35 | File | `/dist/index.js` | High
+36 | File | `/DXR.axd` | Medium
+37 | File | `/em/console/logon/logon` | High
+38 | File | `/EXCU_SHELL` | Medium
+39 | File | `/forum/away.php` | High
+40 | File | `/general/address/private/address/query/delete.php` | High
+41 | File | `/general/email/inbox/delete_webmail.php` | High
+42 | File | `/goform/ate` | Medium
+43 | File | `/goform/form2systime.cgi` | High
+44 | File | `/goform/formSetLog` | High
+45 | File | `/goform/formWlanSetup_Wizard` | High
+46 | File | `/goform/formWlanWizardSetup` | High
+47 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

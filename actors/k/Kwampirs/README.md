@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [NZ](https://vuldb.com/?country.nz)
-* [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -137,14 +137,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -152,52 +152,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?import` | Medium
-2 | File | `/aboutadd.php` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/action/update-deworm.php` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/admin-update-employee.php` | High
-9 | File | `/admin/budget/manage_budget.php` | High
-10 | File | `/admin/bwdates-reports-ds.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/sql` | Medium
-15 | File | `/admin/students.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-18 | File | `/admin/system.html` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/ajax/check_medicine_name.php` | High
-21 | File | `/api/1.0/rest/language_configuration` | High
-22 | File | `/api/blade-user/export-user` | High
-23 | File | `/api/sys/set_passwd` | High
-24 | File | `/api /v3/auth` | High
-25 | File | `/application/index/controller/Icon.php` | High
-26 | File | `/application/index/controller/Screen.php` | High
-27 | File | `/bin/ate` | Medium
-28 | File | `/boaform/device_reset.cgi` | High
-29 | File | `/book_list.php` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/ExportAllSettings.sh` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-35 | File | `/cgi-bin/tosei_kikai.php` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-38 | File | `/control/edit_client.php` | High
-39 | File | `/dataSet/testTransform;swagger-ui` | High
-40 | File | `/dayrui/Fcms/View/system_log.html` | High
-41 | File | `/dayrui/My/View/main.html` | High
-42 | File | `/detailed.php` | High
-43 | File | `/dist/index.js` | High
-44 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+4 | File | `/aboutadd.php` | High
+5 | File | `/add-students.php` | High
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/?setting-base.htm` | High
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/addroom.php` | High
+10 | File | `/admin/booktime.php` | High
+11 | File | `/admin/budget/manage_budget.php` | High
+12 | File | `/admin/bwdates-reports-ds.php` | High
+13 | File | `/admin/change-image.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php/web/ajax_all_lists` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+18 | File | `/admin/system.php` | High
+19 | File | `/admin/twitter.php` | High
+20 | File | `/admin/update_users.php` | High
+21 | File | `/adminapi/system/crud` | High
+22 | File | `/amssplus/index.php` | High
+23 | File | `/api/admin/store/product/save` | High
+24 | File | `/api/admin/system/store/order/list` | High
+25 | File | `/api/blade-user/export-user` | High
+26 | File | `/api/controllers/merchant/app/ComboController.php` | High
+27 | File | `/api/dept/build` | High
+28 | File | `/api/snapshots/` | High
+29 | File | `/api/sys/login` | High
+30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+31 | File | `/api/wechat/app_auth` | High
+32 | File | `/api/wizard/getDualbandSync` | High
+33 | File | `/api/wizard/getWifiNeighbour` | High
+34 | File | `/app-api/infra/file/upload` | High
+35 | File | `/app/api/controller/Store.php` | High
+36 | File | `/apps/api/views/deploy_api.py` | High
+37 | File | `/archibus/login.axvw` | High
+38 | File | `/backend/admin/his_admin_register_patient.php` | High
+39 | File | `/backend/register.php` | High
+40 | File | `/book_list.php` | High
+41 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+42 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/kerbynet` | High
+45 | File | `/cgi-bin/nas_sharing.cgi` | High
+46 | File | `/cgi-bin/wapopen` | High
+47 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+48 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+49 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
+50 | File | `/cov/triggerEnvCov` | High
+51 | File | `/csms/classes/Master.php?f=delete_message` | High
+52 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -221,4 +229,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cerberus:
 
 * [US](https://vuldb.com/?country.us)
+* [KE](https://vuldb.com/?country.ke)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -20,6 +21,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [1.5.0.9](https://vuldb.com/?ip.1.5.0.9) | - | - | High
 2 | [91.210.169.114](https://vuldb.com/?ip.91.210.169.114) | 490023-cc75354.tmweb.ru | - | High
 3 | [161.117.85.153](https://vuldb.com/?ip.161.117.85.153) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,9 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,6 +55,7 @@ There are 6 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/a52d2105d680d029f9cc5c9c77f639e47ae520e41ce7294bbad77b8f2931796a/
 * https://research.checkpoint.com/2020/mobile-as-attack-vector-using-mdm/
 * https://www.anomali.com/blog/leashing-cerberus#When:15:16:00Z
 
@@ -60,4 +68,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

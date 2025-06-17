@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with UNC2596:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC2596:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [MO](https://vuldb.com/?country.mo)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,19 +54,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/index.php` | Medium
-3 | File | `/supervisor/procesa_carga.php` | High
-4 | File | `/wireless/basic.asp` | High
-5 | File | `action.php` | Medium
-6 | File | `add.php` | Low
-7 | File | `administrator.php` | High
-8 | File | `admin\categories\manage_category.php` | High
-9 | File | `agents.php` | Medium
-10 | File | `AGENTS/index.php` | High
-11 | File | `awstats.pl` | Medium
-12 | ... | ... | ...
+2 | File | `/front/admin/tenancyDetail.php` | High
+3 | File | `/index.php` | Medium
+4 | File | `/supervisor/procesa_carga.php` | High
+5 | File | `/sys/file/upload` | High
+6 | File | `/wireless/basic.asp` | High
+7 | File | `action.php` | Medium
+8 | File | `add.php` | Low
+9 | File | `adminauthenticate.php` | High
+10 | File | `administrator.php` | High
+11 | File | `admin\categories\manage_category.php` | High
+12 | File | `admin\posts\manage_post.php` | High
+13 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

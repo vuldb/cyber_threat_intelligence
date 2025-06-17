@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,9 +39,22 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [91.90.120.133](https://vuldb.com/?ip.91.90.120.133) | - | - | High
 17 | [91.90.120.134](https://vuldb.com/?ip.91.90.120.134) | - | - | High
 18 | [91.90.120.135](https://vuldb.com/?ip.91.90.120.135) | - | - | High
-19 | ... | ... | ... | ...
+19 | [91.90.120.136](https://vuldb.com/?ip.91.90.120.136) | - | - | High
+20 | [91.90.120.137](https://vuldb.com/?ip.91.90.120.137) | - | - | High
+21 | [91.90.120.138](https://vuldb.com/?ip.91.90.120.138) | - | - | High
+22 | [91.90.120.139](https://vuldb.com/?ip.91.90.120.139) | - | - | High
+23 | [91.90.120.140](https://vuldb.com/?ip.91.90.120.140) | - | - | High
+24 | [91.90.120.141](https://vuldb.com/?ip.91.90.120.141) | - | - | High
+25 | [91.90.120.142](https://vuldb.com/?ip.91.90.120.142) | - | - | High
+26 | [91.90.120.143](https://vuldb.com/?ip.91.90.120.143) | - | - | High
+27 | [91.90.120.144](https://vuldb.com/?ip.91.90.120.144) | - | - | High
+28 | [91.90.120.146](https://vuldb.com/?ip.91.90.120.146) | - | - | High
+29 | [91.90.120.147](https://vuldb.com/?ip.91.90.120.147) | - | - | High
+30 | [91.90.120.148](https://vuldb.com/?ip.91.90.120.148) | - | - | High
+31 | [91.90.120.149](https://vuldb.com/?ip.91.90.120.149) | - | - | High
+32 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 124 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,59 +75,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/aboutus.php` | High
-5 | File | `/admin/add-services.php` | High
-6 | File | `/admin/ajax/avatar.php` | High
-7 | File | `/admin/edit-services.php` | High
-8 | File | `/admin/forgot-password.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/lab.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/reportupload.aspx` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/backend/register.php` | High
-16 | File | `/boat/login.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/clinic/disease_symptoms_view.php` | High
-19 | File | `/config-manager/save` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/dashboard/table-list.php` | High
-22 | File | `/default.php?idx=17` | High
-23 | File | `/doctor/view-appointment-detail.php` | High
-24 | File | `/download` | Medium
-25 | File | `/downloadFile.php` | High
-26 | File | `/edit-client-details.php` | High
-27 | File | `/env` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/include/file.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/librarian/bookdetails.php` | High
-32 | File | `/member.php?action=chgpwdsubmit` | High
-33 | File | `/opt/bin/cli` | Medium
-34 | File | `/p` | Low
-35 | File | `/patient/doctors.php` | High
-36 | File | `/phpinventory/editcategory.php` | High
-37 | File | `/product-list.php` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/updown/upload.cgi` | High
-41 | File | `/user/del.php` | High
-42 | File | `/web_cste/cgi-bin/product.ini` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `/_next` | Low
-45 | File | `123flashchat.php` | High
-46 | File | `act.php` | Low
-47 | File | `ActivityManagerService.java` | High
-48 | File | `add_comments.php` | High
-49 | File | `admin.php/pay` | High
-50 | File | `admin/bad.php` | High
-51 | ... | ... | ...
+1 | File | `/admin/reportupload.aspx` | High
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `ActivityManagerService.java` | High
+4 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,6 +88,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gl.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_gl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_gl.netset
 * https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.cs
 * https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
@@ -135,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

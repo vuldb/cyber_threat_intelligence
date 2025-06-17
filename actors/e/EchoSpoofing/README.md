@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -57,32 +57,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/cardo/api` | Medium
-4 | File | `/cgi-bin/nobody/Search.cgi` | High
-5 | File | `/ConsoleHelp/` | High
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/data/app` | Medium
-8 | File | `/etc/passwd` | Medium
-9 | File | `/inc/lists/csvexport.php` | High
-10 | File | `/js` | Low
-11 | File | `/LoadFrame` | Medium
-12 | File | `/login.php` | Medium
-13 | File | `/MicroStrategyWS/` | High
-14 | File | `/plain` | Low
-15 | File | `/replication` | Medium
-16 | File | `/rest/collectors/1.0/template/custom` | High
-17 | File | `/server-info` | Medium
-18 | File | `/server-status` | High
-19 | File | `/Service/ImageStationDataService.asmx` | High
-20 | File | `/servlet/file` | High
-21 | File | `/storage.html` | High
-22 | File | `/testssi.ssi` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/vdesk` | Low
-26 | ... | ... | ...
+3 | File | `/admin/new-autoortaxi-entry-form.php` | High
+4 | File | `/admin/pass-bwdates-report.php` | High
+5 | File | `/admin_link.php?action=delall` | High
+6 | File | `/cardo/api` | Medium
+7 | File | `/cgi-bin/nobody/Search.cgi` | High
+8 | File | `/ConsoleHelp/` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/data/app` | Medium
+11 | File | `/druid/index.html` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/inc/lists/csvexport.php` | High
+14 | File | `/js` | Low
+15 | File | `/LoadFrame` | Medium
+16 | File | `/login.php` | Medium
+17 | File | `/MicroStrategyWS/` | High
+18 | File | `/plain` | Low
+19 | File | `/replication` | Medium
+20 | File | `/rest/collectors/1.0/template/custom` | High
+21 | File | `/server-info` | Medium
+22 | File | `/server-status` | High
+23 | File | `/Service/ImageStationDataService.asmx` | High
+24 | File | `/servlet/file` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/storage.html` | High
+27 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

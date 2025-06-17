@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Oski Stealer:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [WF](https://vuldb.com/?country.wf)
 * ...
 
@@ -48,13 +48,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
-2 | File | `/Noxen-master/users.php` | High
-3 | File | `/product.php` | Medium
-4 | File | `/spip.php` | Medium
-5 | File | `admin.php` | Medium
+2 | File | `/libxml2/SAX2.c` | High
+3 | File | `/Noxen-master/users.php` | High
+4 | File | `/product.php` | Medium
+5 | File | `/spip.php` | Medium
 6 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

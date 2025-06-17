@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Niger Unknown:
 
+* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
-* [SV](https://vuldb.com/?country.sv)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +27,17 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [41.138.32.0](https://vuldb.com/?ip.41.138.32.0) | - | - | High
 5 | [41.190.228.0](https://vuldb.com/?ip.41.190.228.0) | - | - | High
 6 | [41.203.128.0](https://vuldb.com/?ip.41.203.128.0) | - | - | High
-7 | [41.221.217.0](https://vuldb.com/?ip.41.221.217.0) | - | - | High
-8 | ... | ... | ... | ...
+7 | [41.207.106.0](https://vuldb.com/?ip.41.207.106.0) | - | - | High
+8 | [41.221.217.0](https://vuldb.com/?ip.41.221.217.0) | - | - | High
+9 | [45.12.70.163](https://vuldb.com/?ip.45.12.70.163) | foursome.alltieinc.com | - | High
+10 | [45.12.71.163](https://vuldb.com/?ip.45.12.71.163) | - | - | High
+11 | [45.59.178.0](https://vuldb.com/?ip.45.59.178.0) | - | - | High
+12 | [45.221.28.0](https://vuldb.com/?ip.45.221.28.0) | - | - | High
+13 | [57.82.150.0](https://vuldb.com/?ip.57.82.150.0) | - | - | High
+14 | [57.84.80.0](https://vuldb.com/?ip.57.84.80.0) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,73 +60,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/addNotifyServlet` | High
-5 | File | `/admin.php/pic/admin/pic/hy` | High
-6 | File | `/admin/?page=reports/stockin` | High
-7 | File | `/admin/addemployee.php` | High
-8 | File | `/admin/blood/update/B+.php` | High
-9 | File | `/admin/inbox.php&action=read` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/operations/packages.php` | High
-12 | File | `/admin/orders/update_status.php` | High
-13 | File | `/admin/overtime_add.php` | High
-14 | File | `/admin/pages/sections_save.php` | High
-15 | File | `/admin/settings/save.php` | High
-16 | File | `/admin/uesrs.php&action=display&value=Show` | High
-17 | File | `/admin/vote_edit.php` | High
-18 | File | `/apilog.php` | Medium
-19 | File | `/appliance/users?action=edit` | High
-20 | File | `/apply.cgi` | Medium
-21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/collection/all` | High
-25 | File | `/config,admin.jsp` | High
-26 | File | `/config/list` | Medium
-27 | File | `/conversation/upload` | High
-28 | File | `/core/config-revisions` | High
-29 | File | `/coreframe/app/guestbook/myissue.php` | High
-30 | File | `/dede/co_do.php` | High
-31 | File | `/detailed.php` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/endpoint/Add.php` | High
-34 | File | `/endpoint/delete.php` | High
-35 | File | `/etc/init.d/sshd_service` | High
-36 | File | `/filemanager/upload.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/fuel/sitevariables/delete/4` | High
-39 | File | `/goform/formSetQoS` | High
-40 | File | `/goform/formSetRoute` | High
-41 | File | `/goform/formSetWizardSelectMode` | High
-42 | File | `/goform/saveParentControlInfo` | High
-43 | File | `/goform/setBlackRule` | High
-44 | File | `/goform/setMacFilter` | High
-45 | File | `/goform/setSnmpInfo` | High
-46 | File | `/healthcare/Admin/consulting_detail.php` | High
-47 | File | `/hospital_activities/birth/form` | High
-48 | File | `/I/list.php` | Medium
-49 | File | `/if.cgi` | Low
-50 | File | `/include/make.php` | High
-51 | File | `/index.php` | Medium
-52 | File | `/index.php/admins/Fields/get_fields.html` | High
-53 | File | `/index.php?page=tenants` | High
-54 | File | `/login` | Low
-55 | File | `/mgm_dev_reset.asp` | High
-56 | File | `/mifs/c/i/reg/reg.html` | High
-57 | File | `/model/delete_student_grade_subject.php` | High
-58 | File | `/model/update_classroom.php` | High
-59 | File | `/modules/profile/index.php` | High
-60 | File | `/news.dtl.php` | High
-61 | File | `/odlms/classes/Master.php?f=delete_message` | High
-62 | File | `/php-sms/classes/SystemSettings.php` | High
-63 | File | `/php_action/createUser.php` | High
-64 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-65 | ... | ... | ...
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/admin/` | Low
+3 | File | `/Admin/adminlogin.php` | High
+4 | File | `/admin/blood/update/B+.php` | High
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/newsletter.php` | High
+8 | File | `/admin/orders/update_status.php` | High
+9 | File | `/admin/overtime_add.php` | High
+10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+11 | File | `/admin/update_user.php` | High
+12 | File | `/admin/update_users.php` | High
+13 | File | `/admin/vote_edit.php` | High
+14 | File | `/bbdms/admin/update-contactinfo.php` | High
+15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/gui.cgi` | High
+19 | File | `/classes/Master.php?f=save_inquiry` | High
+20 | File | `/collection/all` | High
+21 | File | `/config,admin.jsp` | High
+22 | File | `/contact_process.php` | High
+23 | File | `/conversation/upload` | High
+24 | File | `/core/config-revisions` | High
+25 | File | `/detailed.php` | High
+26 | File | `/devinfo` | Medium
+27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+28 | File | `/endpoint/Add.php` | High
+29 | File | `/endpoint/delete.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/formSetQoS` | High
+32 | File | `/goform/formSetRoute` | High
+33 | File | `/goform/formSetWizardSelectMode` | High
+34 | File | `/goform/saveParentControlInfo` | High
+35 | File | `/goform/setBlackRule` | High
+36 | File | `/goform/setMacFilter` | High
+37 | File | `/grade/report/grader/index.php` | High
+38 | File | `/healthcare/Admin/consulting_detail.php` | High
+39 | File | `/HNAP1/` | Low
+40 | File | `/hospital_activities/birth/form` | High
+41 | File | `/I/list.php` | Medium
+42 | File | `/index.php` | Medium
+43 | File | `/index.php?page=tenants` | High
+44 | File | `/login.php` | Medium
+45 | File | `/login.php?do=login` | High
+46 | File | `/model/delete_student_grade_subject.php` | High
+47 | File | `/model/update_classroom.php` | High
+48 | ... | ... | ...
 
-There are 571 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

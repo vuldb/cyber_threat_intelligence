@@ -4,12 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.famoussparrow](https://vuldb.com/?actor.famoussparrow)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with FamousSparrow:
+
+* SparrowDoor
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FamousSparrow:
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [BR](https://vuldb.com/?country.br)
 
 ## IOC - Indicator of Compromise
 
@@ -18,7 +25,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.102.113.240](https://vuldb.com/?ip.27.102.113.240) | power.playtimeins.net | - | High
-2 | [45.192.178.206](https://vuldb.com/?ip.45.192.178.206) | - | - | High
+2 | [43.254.216.195](https://vuldb.com/?ip.43.254.216.195) | - | SparrowDoor | High
+3 | [45.131.179.24](https://vuldb.com/?ip.45.131.179.24) | - | SparrowDoor | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,15 +58,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/secure/QueryComponent!Default.jspa` | High
 6 | File | `/service/upload` | High
 7 | File | `/system?action=ServiceAdmin` | High
-8 | ... | ... | ...
+8 | File | `/var/log/nginx` | High
+9 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.welivesecurity.com/2021/09/23/famoussparrow-suspicious-hotel-guest/
+* https://www.welivesecurity.com/en/eset-research/you-will-always-remember-this-as-the-day-you-finally-caught-famoussparrow/
 
 ## Literature
 
@@ -66,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

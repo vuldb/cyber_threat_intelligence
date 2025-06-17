@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,15 +43,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/oauth/idp/.well-known/openid-configuration` | High
-2 | File | `arch/powerpc/kernel/entry_64.S` | High
-3 | File | `auth2-gss.c` | Medium
-4 | File | `block/bfq-iosched.c` | High
-5 | File | `chat.php` | Medium
-6 | File | `Crypt32.dll` | Medium
+1 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
+2 | File | `/oauth/idp/.well-known/openid-configuration` | High
+3 | File | `arch/powerpc/kernel/entry_64.S` | High
+4 | File | `auth2-gss.c` | Medium
+5 | File | `block/bfq-iosched.c` | High
+6 | File | `chat.php` | Medium
 7 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,4 +68,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MintsLoader:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -21,7 +21,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [192.153.57.125](https://vuldb.com/?ip.192.153.57.125) | - | - | High
+1 | [45.61.138.200](https://vuldb.com/?ip.45.61.138.200) | - | - | High
+2 | [192.153.57.125](https://vuldb.com/?ip.192.153.57.125) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,12 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,16 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `and/or` | Low
-2 | File | `Horde/Form/Type.php` | High
-3 | File | `rcube_plugin_api.php` | High
+2 | File | `category.php` | Medium
+3 | File | `cgi-bin/awstats.pl` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/3b98dbb7962739800e54afdd915ba344f4359c369e3ee7693998b986611c476d/
 * https://threatfox.abuse.ch
 
 ## Literature
@@ -64,4 +66,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

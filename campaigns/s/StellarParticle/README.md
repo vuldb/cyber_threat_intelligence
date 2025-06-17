@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with StellarParticle:
 
 * [US](https://vuldb.com/?country.us)
-* [AT](https://vuldb.com/?country.at)
-* [CZ](https://vuldb.com/?country.cz)
+* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,13 +57,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/cgiServer.exx` | High
 2 | File | `/forum/away.php` | High
-3 | File | `/php/exportrecord.php` | High
-4 | File | `adclick.php` | Medium
-5 | File | `add_vhost.php` | High
-6 | File | `admin/index.php` | High
-7 | ... | ... | ...
+3 | File | `/index.php` | Medium
+4 | File | `/php/exportrecord.php` | High
+5 | File | `adclick.php` | Medium
+6 | File | `add_vhost.php` | High
+7 | File | `admin/index.php` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

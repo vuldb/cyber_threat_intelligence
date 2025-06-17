@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -86,43 +86,45 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/upload.php` | High
 25 | File | `/admin/user/manage_user.php` | High
 26 | File | `/alarm_pi/alarmService.php` | High
-27 | File | `/api/blade-system/menu/list?updatexml` | High
-28 | File | `/api/crontab` | Medium
-29 | File | `/api/es/admin/v3/security/user/1` | High
-30 | File | `/api/ping` | Medium
-31 | File | `/api/runscript` | High
-32 | File | `/api/sys/login` | High
-33 | File | `/api/sys/set_passwd` | High
-34 | File | `/app/admin/controller/api/Plugs.php` | High
-35 | File | `/asms/admin/products/manage_product.php` | High
-36 | File | `/asms/products/view_product.php` | High
-37 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-38 | File | `/category.php` | High
-39 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-40 | File | `/changeimage.php` | High
-41 | File | `/classes/Master.php?f=delete_service` | High
-42 | File | `/clearance/clearance.php` | High
-43 | File | `/config/getuser` | High
-44 | File | `/config/list` | Medium
-45 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-46 | File | `/core/config-revisions` | High
-47 | File | `/core/config-revisions/` | High
-48 | File | `/dashboard/snapshot/*?orgId=0` | High
-49 | File | `/dosen/data` | Medium
-50 | File | `/E-mobile/App/System/File/downfile.php` | High
-51 | File | `/export` | Low
-52 | File | `/forum/away.php` | High
-53 | File | `/gena.cgi` | Medium
-54 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-55 | File | `/goform/ate` | Medium
-56 | File | `/goform/formLogDnsquery` | High
-57 | File | `/goform/GetIPTV?fgHPOST/goform/SysToo` | High
-58 | File | `/goform/setcfm` | High
-59 | File | `/goform/SetOnlineDevName` | High
-60 | File | `/goform/WifiExtraSet` | High
-61 | ... | ... | ...
+27 | File | `/anony/mjpg.cgi` | High
+28 | File | `/api/blade-system/menu/list?updatexml` | High
+29 | File | `/api/crontab` | Medium
+30 | File | `/api/es/admin/v3/security/user/1` | High
+31 | File | `/api/ping` | Medium
+32 | File | `/api/runscript` | High
+33 | File | `/api/sys/login` | High
+34 | File | `/api/sys/set_passwd` | High
+35 | File | `/app/admin/controller/api/Plugs.php` | High
+36 | File | `/asms/admin/products/manage_product.php` | High
+37 | File | `/asms/products/view_product.php` | High
+38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+39 | File | `/category.php` | High
+40 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+41 | File | `/cgi-bin/sysconf.cgi` | High
+42 | File | `/changeimage.php` | High
+43 | File | `/classes/Master.php?f=delete_service` | High
+44 | File | `/clearance/clearance.php` | High
+45 | File | `/config/getuser` | High
+46 | File | `/config/list` | Medium
+47 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+48 | File | `/core/config-revisions` | High
+49 | File | `/core/config-revisions/` | High
+50 | File | `/dashboard/snapshot/*?orgId=0` | High
+51 | File | `/dosen/data` | Medium
+52 | File | `/E-mobile/App/System/File/downfile.php` | High
+53 | File | `/edit-category.php` | High
+54 | File | `/export` | Low
+55 | File | `/forum/away.php` | High
+56 | File | `/gena.cgi` | Medium
+57 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+58 | File | `/goform/ate` | Medium
+59 | File | `/goform/formLogDnsquery` | High
+60 | File | `/goform/GetIPTV?fgHPOST/goform/SysToo` | High
+61 | File | `/goform/setcfm` | High
+62 | File | `/goform/SetOnlineDevName` | High
+63 | ... | ... | ...
 
-There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 551 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

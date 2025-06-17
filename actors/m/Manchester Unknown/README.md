@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,33 +91,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_reference_to_local_model` | High
 2 | File | `/admin/cms_admin.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/manage_complaint.php` | High
-5 | File | `/admin/mod_room/controller.php?action=add` | High
-6 | File | `/admin/profile.php` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/p1_ftpserver.php` | High
-14 | File | `/cgi-bin/tosei_kikai.php` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=log_employee` | High
-17 | File | `/control/register_case.php` | High
-18 | File | `/foms/routers/place-order.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/home/kickPlayer` | High
-22 | File | `/index.php` | Medium
-23 | File | `/intrams_sams/manage_student.php` | High
-24 | File | `/manage_sy.php` | High
-25 | File | `/mims/login.php` | High
-26 | File | `/model/delete_student_grade_subject.php` | High
-27 | ... | ... | ...
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/edit-person-detail.php?editid=2` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/manage_complaint.php` | High
+7 | File | `/admin/mod_room/controller.php?action=add` | High
+8 | File | `/admin/profile.php` | High
+9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/bsms_ci/index.php/user/edit_user/` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/p1_ftpserver.php` | High
+16 | File | `/cgi-bin/tosei_kikai.php` | High
+17 | File | `/cgi-bin/touchlist_sync.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/Master.php?f=log_employee` | High
+20 | File | `/control/register_case.php` | High
+21 | File | `/foms/routers/place-order.php` | High
+22 | File | `/forum/PostPrivateMessage` | High
+23 | File | `/fos/admin/ajax.php?action=login` | High
+24 | File | `/home/kickPlayer` | High
+25 | File | `/index.php` | Medium
+26 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

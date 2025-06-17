@@ -53,7 +53,7 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
 34 | ... | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 133 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,12 +61,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,7 +79,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/pages/processlogin.php` | High
 4 | ... | ... | ...
 
-There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +95,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://circleid.com/posts/20240425-digging-deep-to-examine-the-roots-of-the-glupteba-uefi-bootkit
 * https://github.com/eset/malware-ioc/tree/master/glupteba
+* https://urlhaus.abuse.ch/url/3556357/
 * https://www.cyber45.com
 
 ## Literature
@@ -106,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

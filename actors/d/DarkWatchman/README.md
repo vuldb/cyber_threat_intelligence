@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkWatchman:
 
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -17,6 +18,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.156.27.245](https://vuldb.com/?ip.45.156.27.245) | dasee-1.net7.dns.cloudbackbone.net | - | High
+2 | [188.40.187.134](https://vuldb.com/?ip.188.40.187.134) | 134.187.40.188.sinkhole.caad.fkie.fraunhofer.de | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,6 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://www.prevailion.com/darkwatchman-new-fileless-techniques/
 
 ## Literature
@@ -41,4 +44,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

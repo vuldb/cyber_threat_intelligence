@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Koi Stealer:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -22,6 +22,8 @@ These _actors_ are associated with Koi Stealer or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Koi Loader](https://vuldb.com/?actor.koi_loader) | High
+2 | [Koi Stealer](https://vuldb.com/?actor.koi_stealer) | High
+3 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,11 +32,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | [Koi Loader](https://vuldb.com/?actor.koi_loader) | High
-2 | [91.202.233.209](https://vuldb.com/?ip.91.202.233.209) | - | [Koi Loader](https://vuldb.com/?actor.koi_loader) | High
-3 | [121.127.33.20](https://vuldb.com/?ip.121.127.33.20) | - | [Koi Loader](https://vuldb.com/?actor.koi_loader) | High
+2 | [79.124.78.109](https://vuldb.com/?ip.79.124.78.109) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [79.124.78.173](https://vuldb.com/?ip.79.124.78.173) | - | [Koi Stealer](https://vuldb.com/?actor.koi_stealer) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,17 +58,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api /v3/auth` | High
-2 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-3 | File | `epan/dissectors/asn1/tcap/tcap.cnf` | High
+2 | File | `/common/info.cgi` | High
+3 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://bazaar.abuse.ch/sample/f87cf2f67dbbbe69e14dc40cca510ec19034f1787b6c4167c1fae078f3fe5aed/
 * https://github.com/esThreatIntelligence/iocs/blob/main/Koi/iocs_4-4-2024.txt
+* https://www.malware-traffic-analysis.net/2025/01/23/index.html
 
 ## Literature
 
@@ -77,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

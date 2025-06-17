@@ -17,6 +17,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [20.200.213.72](https://vuldb.com/?ip.20.200.213.72) | - | - | High
-2 | [20.214.201.166](https://vuldb.com/?ip.20.214.201.166) | - | Korea / Thailand | High
-3 | [52.77.230.248](https://vuldb.com/?ip.52.77.230.248) | ec2-52-77-230-248.ap-southeast-1.compute.amazonaws.com | - | Medium
+1 | [5.206.227.142](https://vuldb.com/?ip.5.206.227.142) | line001 | - | High
+2 | [20.200.213.72](https://vuldb.com/?ip.20.200.213.72) | - | - | High
+3 | [20.214.201.166](https://vuldb.com/?ip.20.214.201.166) | - | Korea / Thailand | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,12 +53,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/options.py` | High
-2 | File | `/itbox_pi/networksafe.php?a=set` | High
-3 | File | `/options/mailman` | High
-4 | ... | ... | ...
+1 | File | `/../../conf/template/uhttpd.json` | High
+2 | File | `/app/options.py` | High
+3 | File | `/cgi-bin/portal` | High
+4 | File | `/dev/block/mmcblk0rpmb` | High
+5 | File | `/etc/shadow` | Medium
+6 | File | `/etc/sudoers` | Medium
+7 | File | `/itbox_pi/networksafe.php?a=set` | High
+8 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

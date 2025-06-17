@@ -19,8 +19,8 @@ These _actors_ are associated with Hotcroissant or other actors linked to the ca
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [HOTCROISSANT](https://vuldb.com/?actor.hotcroissant) | High
-2 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-3 | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
+2 | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
+3 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
 ## IOC - Indicator of Compromise
 
@@ -28,7 +28,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [94.177.123.138](https://vuldb.com/?ip.94.177.123.138) | - | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
+1 | [94.177.123.138](https://vuldb.com/?ip.94.177.123.138) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 2 | [195.50.242.110](https://vuldb.com/?ip.195.50.242.110) | 110-242-50-195.sta.estpak.ee | [HOTCROISSANT](https://vuldb.com/?actor.hotcroissant) | High
 
 ## TTP - Tactics, Techniques, Procedures
@@ -74,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

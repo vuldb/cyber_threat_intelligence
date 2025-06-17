@@ -23,12 +23,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [61.239.68.73](https://vuldb.com/?ip.61.239.68.73) | 061239068073.ctinets.com | CVE-2023-46747 | High
-2 | [118.140.151.242](https://vuldb.com/?ip.118.140.151.242) | - | CVE-2023-46747 | High
-3 | [172.104.124.74](https://vuldb.com/?ip.172.104.124.74) | li1734-74.members.linode.com | CVE-2023-46747 | High
+1 | [8.219.171.47](https://vuldb.com/?ip.8.219.171.47) | - | - | High
+2 | [34.55.187.149](https://vuldb.com/?ip.34.55.187.149) | 149.187.55.34.bc.googleusercontent.com | - | Medium
+3 | [34.92.255.51](https://vuldb.com/?ip.34.92.255.51) | 51.255.92.34.bc.googleusercontent.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,27 +49,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/portal/user-register.php` | High
-4 | File | `adclick.php` | Medium
-5 | File | `add.php/del.php` | High
-6 | File | `addentry.php` | Medium
-7 | File | `admin/conf_users_edit.php` | High
-8 | File | `admin/page-login.php` | High
-9 | File | `awstats.pl` | Medium
-10 | File | `base_maintenance.php` | High
-11 | File | `classified_right.php` | High
-12 | File | `cloud.php` | Medium
-13 | ... | ... | ...
+1 | File | `/admin/edit_product.php` | High
+2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/portal/user-register.php` | High
+5 | File | `adclick.php` | Medium
+6 | File | `add.php/del.php` | High
+7 | File | `addentry.php` | Medium
+8 | File | `admin/conf_users_edit.php` | High
+9 | File | `admin/page-login.php` | High
+10 | File | `app/modules/ut-cac/admin/cli.php` | High
+11 | File | `awstats.pl` | Medium
+12 | File | `base_maintenance.php` | High
+13 | File | `cgi-bin/awstats.pl` | High
+14 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cloud.google.com/blog/topics/threat-intelligence/initial-access-brokers-exploit-f5-screenconnect?hl=en
+* https://sysdig.com/blog/unc5174-chinese-threat-actor-vshell/
 * https://www.mandiant.com/resources/blog/initial-access-brokers-exploit-f5-screenconnect
 
 ## Literature
@@ -81,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

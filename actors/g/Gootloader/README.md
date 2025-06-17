@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -61,46 +61,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.config/Yubico` | High
 2 | File | `.git/` | Low
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-4 | File | `/admin/cmsVote/save` | High
-5 | File | `/admin/SensitiveWords` | High
-6 | File | `/admin/sign/out` | High
-7 | File | `/backupsettings.conf` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/return.cgi` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/csms/admin/?page=user/list` | High
-12 | File | `/depotHead/list` | High
-13 | File | `/etc/postfix/sender_login` | High
-14 | File | `/forms/web_importTFTP` | High
-15 | File | `/framework/modules/users/models/user.php` | High
-16 | File | `/goform/openSchedWifi` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/Home/GetAttachment` | High
-19 | File | `/lesson/controller.php` | High
-20 | File | `/login?service` | High
-21 | File | `/mkshope/login.php` | High
-22 | File | `/model/viewProduct.php` | High
-23 | File | `/objects/getImageMP4.php` | High
-24 | File | `/objects/getSpiritsFromVideo.php` | High
-25 | File | `/payu/icpcheckout/` | High
-26 | File | `/php_action/createUser.php` | High
-27 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/show_news.php` | High
-30 | File | `/src/jfif.c` | Medium
-31 | File | `/tracking/admin/view_itprofile.php` | High
-32 | File | `/tracking/nbproject/` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/usr/local/www/pkg.php` | High
-35 | File | `/v1/continue` | Medium
-36 | File | `/v1/tokens` | Medium
-37 | File | `/web/Public/Conn.php` | High
-38 | File | `/www/cgi-bin/cstecgi.cgi` | High
-39 | File | `accessibility.js` | High
-40 | ... | ... | ...
+3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+4 | File | `/admin-profile.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+6 | File | `/admin/cmsVote/save` | High
+7 | File | `/admin/SensitiveWords` | High
+8 | File | `/admin/sign/out` | High
+9 | File | `/admin/sn_package/sn_https` | High
+10 | File | `/backupsettings.conf` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/return.cgi` | High
+13 | File | `/checkLogin.cgi` | High
+14 | File | `/csms/admin/?page=user/list` | High
+15 | File | `/depotHead/list` | High
+16 | File | `/etc/postfix/sender_login` | High
+17 | File | `/forms/web_importTFTP` | High
+18 | File | `/framework/modules/users/models/user.php` | High
+19 | File | `/goform/openSchedWifi` | High
+20 | File | `/goform/VerAPIMant` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/Home/GetAttachment` | High
+23 | File | `/lesson/controller.php` | High
+24 | File | `/login?service` | High
+25 | File | `/mfsNotice/page` | High
+26 | File | `/mkshope/login.php` | High
+27 | File | `/model/viewProduct.php` | High
+28 | File | `/objects/getImageMP4.php` | High
+29 | File | `/objects/getSpiritsFromVideo.php` | High
+30 | File | `/payu/icpcheckout/` | High
+31 | File | `/php_action/createUser.php` | High
+32 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+33 | File | `/see_more_details.php` | High
+34 | File | `/show_news.php` | High
+35 | File | `/src/jfif.c` | Medium
+36 | File | `/storage` | Medium
+37 | File | `/tracking/admin/view_itprofile.php` | High
+38 | File | `/tracking/nbproject/` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/usr/local/www/pkg.php` | High
+41 | File | `/v1/continue` | Medium
+42 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

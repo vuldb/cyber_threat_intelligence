@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,20 +61,23 @@ ID | Type | Indicator | Confidence
 3 | File | `/?ajax-request=jnews` | High
 4 | File | `/admin/students/view_student.php` | High
 5 | File | `/admin_ping.htm` | High
-6 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-7 | File | `/CommunitySSORedirect.jsp` | High
-8 | File | `/goform/formSetPassword` | High
-9 | File | `/loginLess/../../etc/passwd` | High
-10 | File | `/see_more_details.php` | High
-11 | File | `/system/proxy` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/local/nagios/bin/npcd` | High
-14 | File | `accountancy/customer/card.php` | High
-15 | File | `addentry.php` | Medium
-16 | File | `add_comment.php` | High
-17 | ... | ... | ...
+6 | File | `/bin/goahead` | Medium
+7 | File | `/boafrm/formIpQoS` | High
+8 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+9 | File | `/cgi-bin/adm.cgi` | High
+10 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/goform/form2lansetup.cgi` | High
+13 | File | `/goform/formSetPassword` | High
+14 | File | `/goform/setModules` | High
+15 | File | `/goform/SetNetControlList` | High
+16 | File | `/goform/set_cmd` | High
+17 | File | `/goform/WifiExtraSet` | High
+18 | File | `/htdocs/soap.cgi` | High
+19 | File | `/htdocs/ssdpcgi` | High
+20 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

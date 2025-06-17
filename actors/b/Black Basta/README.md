@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Black Basta:
 
+* Bruted
 * CVE-2024-1708 / CVE-2024-1709
 * Qbot
 
@@ -16,8 +17,11 @@ The following _campaigns_ are known and can be associated with Black Basta:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black Basta:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,29 +29,47 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.43.252](https://vuldb.com/?ip.5.62.43.252) | r-252-43-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.196.124.228](https://vuldb.com/?ip.5.196.124.228) | ip228.ip-5-196-124.eu | - | High
-3 | [5.199.162.220](https://vuldb.com/?ip.5.199.162.220) | - | - | High
-4 | [23.81.246.84](https://vuldb.com/?ip.23.81.246.84) | - | - | High
-5 | [23.106.160.188](https://vuldb.com/?ip.23.106.160.188) | - | - | High
-6 | [23.227.178.65](https://vuldb.com/?ip.23.227.178.65) | 23-227-178-65.static.hvvc.us | - | High
-7 | [24.49.232.96](https://vuldb.com/?ip.24.49.232.96) | 24-49-232-96.resi.cgocable.ca | Qbot | High
-8 | [24.64.114.59](https://vuldb.com/?ip.24.64.114.59) | S0106b06ebfd79790.cg.shawcable.net | Qbot | High
-9 | [24.178.196.44](https://vuldb.com/?ip.24.178.196.44) | 024-178-196-044.biz.spectrum.com | - | High
-10 | [37.186.54.185](https://vuldb.com/?ip.37.186.54.185) | - | - | High
-11 | [39.44.144.182](https://vuldb.com/?ip.39.44.144.182) | - | - | High
-12 | [45.63.1.88](https://vuldb.com/?ip.45.63.1.88) | 45.63.1.88.vultrusercontent.com | - | Medium
-13 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | vm978261.stark-industries.solutions | - | High
-14 | [45.87.154.208](https://vuldb.com/?ip.45.87.154.208) | vm1075965.stark-industries.solutions | - | High
-15 | [45.133.216.39](https://vuldb.com/?ip.45.133.216.39) | vm627637.stark-industries.solutions | - | High
-16 | [45.153.241.167](https://vuldb.com/?ip.45.153.241.167) | - | - | High
-17 | [46.22.211.151](https://vuldb.com/?ip.46.22.211.151) | ns6.printembrace.com | - | High
-18 | [46.166.161.68](https://vuldb.com/?ip.46.166.161.68) | - | - | High
-19 | [46.166.161.93](https://vuldb.com/?ip.46.166.161.93) | - | - | High
-20 | [46.176.222.241](https://vuldb.com/?ip.46.176.222.241) | ppp046176222241.access.hol.gr | - | High
-21 | ... | ... | ... | ...
+1 | [2.57.149.22](https://vuldb.com/?ip.2.57.149.22) | - | Bruted | High
+2 | [2.57.149.25](https://vuldb.com/?ip.2.57.149.25) | - | Bruted | High
+3 | [2.57.149.231](https://vuldb.com/?ip.2.57.149.231) | - | Bruted | High
+4 | [2.57.149.237](https://vuldb.com/?ip.2.57.149.237) | - | Bruted | High
+5 | [5.62.43.252](https://vuldb.com/?ip.5.62.43.252) | r-252-43-62-5.consumer-pool.prcdn.net | - | High
+6 | [5.78.41.255](https://vuldb.com/?ip.5.78.41.255) | static.255.41.78.5.clients.your-server.de | - | High
+7 | [5.181.3.164](https://vuldb.com/?ip.5.181.3.164) | 49897.ip-ptr.tech | - | High
+8 | [5.181.159.48](https://vuldb.com/?ip.5.181.159.48) | 5-181-159-48.mivocloud.com | - | High
+9 | [5.196.124.228](https://vuldb.com/?ip.5.196.124.228) | ip228.ip-5-196-124.eu | - | High
+10 | [5.199.162.220](https://vuldb.com/?ip.5.199.162.220) | - | - | High
+11 | [8.209.111.227](https://vuldb.com/?ip.8.209.111.227) | - | - | High
+12 | [8.211.34.166](https://vuldb.com/?ip.8.211.34.166) | - | - | High
+13 | [20.82.136.218](https://vuldb.com/?ip.20.82.136.218) | - | - | High
+14 | [20.187.1.254](https://vuldb.com/?ip.20.187.1.254) | - | - | High
+15 | [23.26.137.225](https://vuldb.com/?ip.23.26.137.225) | - | CVE-2024-1708 / CVE-2024-1709 | High
+16 | [23.81.246.84](https://vuldb.com/?ip.23.81.246.84) | - | - | High
+17 | [23.106.160.188](https://vuldb.com/?ip.23.106.160.188) | - | - | High
+18 | [23.227.178.65](https://vuldb.com/?ip.23.227.178.65) | 23-227-178-65.static.hvvc.us | - | High
+19 | [24.49.232.96](https://vuldb.com/?ip.24.49.232.96) | 24-49-232-96.resi.cgocable.ca | Qbot | High
+20 | [24.64.114.59](https://vuldb.com/?ip.24.64.114.59) | S0106b06ebfd79790.cg.shawcable.net | Qbot | High
+21 | [24.178.196.44](https://vuldb.com/?ip.24.178.196.44) | 024-178-196-044.biz.spectrum.com | - | High
+22 | [37.186.54.185](https://vuldb.com/?ip.37.186.54.185) | - | - | High
+23 | [38.132.111.19](https://vuldb.com/?ip.38.132.111.19) | jawu0119.fruitfast.eu | - | High
+24 | [38.180.25.3](https://vuldb.com/?ip.38.180.25.3) | - | - | High
+25 | [38.180.135.232](https://vuldb.com/?ip.38.180.135.232) | - | - | High
+26 | [38.180.159.239](https://vuldb.com/?ip.38.180.159.239) | - | - | High
+27 | [38.180.192.243](https://vuldb.com/?ip.38.180.192.243) | - | - | High
+28 | [39.44.144.182](https://vuldb.com/?ip.39.44.144.182) | - | - | High
+29 | [45.8.157.146](https://vuldb.com/?ip.45.8.157.146) | 0fsjupu3.nktele.com | - | High
+30 | [45.8.157.158](https://vuldb.com/?ip.45.8.157.158) | u34bht89.nktele.com | - | High
+31 | [45.8.157.162](https://vuldb.com/?ip.45.8.157.162) | - | - | High
+32 | [45.8.157.199](https://vuldb.com/?ip.45.8.157.199) | - | - | High
+33 | [45.61.152.154](https://vuldb.com/?ip.45.61.152.154) | 154.152.61.45.static.cloudzy.com | - | High
+34 | [45.63.1.88](https://vuldb.com/?ip.45.63.1.88) | 45.63.1.88.vultrusercontent.com | - | Medium
+35 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | vm978261.stark-industries.solutions | - | High
+36 | [45.87.154.208](https://vuldb.com/?ip.45.87.154.208) | vm1075965.stark-industries.solutions | - | High
+37 | [45.128.133.17](https://vuldb.com/?ip.45.128.133.17) | smx0.dralo813.com | - | High
+38 | [45.128.135.14](https://vuldb.com/?ip.45.128.135.14) | smx0.dorpa328.com | - | High
+39 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 151 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,12 +77,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,25 +90,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `dodosmail.php` | High
-2 | File | `index.php` | Medium
-3 | File | `login.php3` | Medium
-4 | ... | ... | ...
+1 | File | `/admin/pages/` | High
+2 | File | `/admins` | Low
+3 | File | `/ajax/getBasicInfo.php` | High
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/311/black-basta-apt-iocs/
+* https://blog.eclecticiq.com/inside-bruted-black-basta-raas-members-used-automated-brute-forcing-framework-to-target-edge-network-devices
 * https://darktrace.com/blog/elevating-network-security-confronting-trust-challenges-ransomware-epidemics-and-novel-attack-tactics
 * https://de.darktrace.com/blog/black-basta-old-dogs-with-new-tricks
 * https://get.zerofox.com/rs/143-DHV-007/images/ZeroFox-Intelligence-Update-Black-Basta-Ransomware-Report-2023.pdf
+* https://github.com/rapid7/Rapid7-Labs/blob/main/IOCs/BlackBasta_SocialEngineering_IOCs.txt
+* https://www.cloudflare.com/threat-intelligence/research/report/black-bastas-blunder-exploiting-the-gangs-leaked-chats/
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
 * https://www.secureworks.com/blog/qakbot-campaign-delivered-black-basta-ransomware
 * https://www.trendmicro.com/de_de/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html
 * https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html
+* https://www.trendmicro.com/en_us/research/25/b/black-basta-cactus-ransomware-backconnect.html
 
 ## Literature
 
@@ -97,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

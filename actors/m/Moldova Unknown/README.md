@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -50,18 +50,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin_login.php` | High
-2 | File | `/alarm_pi/alarmService.php` | High
-3 | File | `/assets/components/gallery/connector.php` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/p1_ftpserver.php` | High
-6 | File | `/cgi-bin/tosei_kikai.php` | High
-7 | File | `/classes/Master.php` | High
-8 | File | `/cloud_config/router_post/modify_account_pwd` | High
-9 | File | `/control/register_case.php` | High
-10 | File | `/endpoint/delete-account.php` | High
-11 | ... | ... | ...
+2 | File | `/admin/create_product.php` | High
+3 | File | `/alarm_pi/alarmService.php` | High
+4 | File | `/assets/components/gallery/connector.php` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/p1_ftpserver.php` | High
+9 | File | `/cgi-bin/tosei_kikai.php` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/cloud_config/router_post/modify_account_pwd` | High
+12 | File | `/control/register_case.php` | High
+13 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +80,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,39 +60,39 @@ ID | Type | Indicator | Confidence
 6 | File | `/api/swaggerui/static` | High
 7 | File | `/cgi-bin/activate.cgi` | High
 8 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/etc/quagga` | Medium
-11 | File | `/export` | Low
-12 | File | `/foms/routers/place-order.php` | High
-13 | File | `/forms/doLogin` | High
-14 | File | `/get_getnetworkconf.cgi` | High
-15 | File | `/guestbook` | Medium
-16 | File | `/index.php` | Medium
-17 | File | `/intrams_sams/manage_student.php` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/manage_sy.php` | High
-20 | File | `/messageboard/view.php` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/opensis/modules/users/Staff.php` | High
-23 | File | `/orrs/admin/reservations/view_details.php` | High
-24 | File | `/php_action/createUser.php` | High
-25 | File | `/plugins/servlet/gadgets/makeRequest` | High
-26 | File | `/REBOOTSYSTEM` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/services` | Medium
-29 | File | `/Setting/change_password_save` | High
-30 | File | `/smsa/add_class_submit.php` | High
-31 | File | `/stockmovment/stockmovment/delete/` | High
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/Uploads` | Medium
-35 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-36 | File | `/view/timetable_update_form.php` | High
-37 | File | `/WEB-INF/web.xml` | High
-38 | File | `/webconsole/APIController` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/touchlist_sync.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/etc/quagga` | Medium
+13 | File | `/export` | Low
+14 | File | `/foms/routers/place-order.php` | High
+15 | File | `/forms/doLogin` | High
+16 | File | `/get_getnetworkconf.cgi` | High
+17 | File | `/guestbook` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/intrams_sams/manage_student.php` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/manage_sy.php` | High
+22 | File | `/messageboard/view.php` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/opensis/modules/users/Staff.php` | High
+25 | File | `/orrs/admin/reservations/view_details.php` | High
+26 | File | `/php_action/createUser.php` | High
+27 | File | `/plugins/servlet/gadgets/makeRequest` | High
+28 | File | `/product.php` | Medium
+29 | File | `/REBOOTSYSTEM` | High
+30 | File | `/req_password_user.php` | High
+31 | File | `/services` | Medium
+32 | File | `/Setting/change_password_save` | High
+33 | File | `/smsa/add_class_submit.php` | High
+34 | File | `/stockmovment/stockmovment/delete/` | High
+35 | File | `/tmp` | Low
+36 | File | `/uncpath/` | Medium
+37 | File | `/Uploads` | Medium
+38 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
 39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

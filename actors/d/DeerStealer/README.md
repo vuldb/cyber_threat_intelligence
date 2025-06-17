@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DeerStealer:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [52.162.121.170](https://vuldb.com/?ip.52.162.121.170) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,15 +49,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/app/admin/controller/Upload.php` | High
 2 | File | `/cms/classes/Master.php?f=delete_service` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/php_action/createUser.php` | High
-5 | File | `/resource/addgood.php` | High
-6 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-7 | File | `/Tool/querysql.php` | High
-8 | File | `/Tool/uploadfile.php` | High
-9 | ... | ... | ...
+3 | File | `/download` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/php_action/createUser.php` | High
+6 | File | `/resource/addgood.php` | High
+7 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+8 | File | `/Tool/querysql.php` | High
+9 | File | `/Tool/uploadfile.php` | High
+10 | File | `admin/index.php` | High
+11 | File | `appointment.php` | High
+12 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -65,6 +68,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://any.run/cybersecurity-blog/fake-google-authenticator-campaign/
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
+* https://urlhaus.abuse.ch/url/3558736/
 
 ## Literature
 
@@ -75,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -32,10 +32,11 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.132.96.113](https://vuldb.com/?ip.45.132.96.113) | - | - | High
 10 | [45.147.99.158](https://vuldb.com/?ip.45.147.99.158) | - | - | High
 11 | [45.155.171.134](https://vuldb.com/?ip.45.155.171.134) | - | - | High
-12 | [52.86.18.77](https://vuldb.com/?ip.52.86.18.77) | ec2-52-86-18-77.compute-1.amazonaws.com | - | Medium
-13 | ... | ... | ... | ...
+12 | [46.235.26.83](https://vuldb.com/?ip.46.235.26.83) | 1248.de-provider.de | - | High
+13 | [51.159.4.50](https://vuldb.com/?ip.51.159.4.50) | 51-159-4-50.rev.poneytelecom.eu | - | High
+14 | ... | ... | ... | ...
 
-There are 49 more IOC items available. Please use our online service to access the data.
+There are 51 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,54 +60,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_nodejs_app/` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/categories/view_category.php` | High
-4 | File | `/admin/delete_user.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/maintenance/manage_category.php` | High
-7 | File | `/admin/sales/manage_sale.php` | High
-8 | File | `/admin/sales/view_details.php` | High
-9 | File | `/admin/sign/out` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin/users_add.php` | High
-12 | File | `/admin_system/api.php` | High
-13 | File | `/adms/admin/?page=user/manage_user` | High
-14 | File | `/api/audits` | Medium
-15 | File | `/api/browserextension/UpdatePassword/` | High
-16 | File | `/apngopt/ubuntu.png` | High
-17 | File | `/asms/classes/Master.php?f=delete_service` | High
-18 | File | `/balance/service/list` | High
-19 | File | `/be/rpc.php` | Medium
-20 | File | `/boafrm/formFilter` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/cgi-bin/discovery.cgi` | High
-24 | File | `/cgi-bin/widget_api.cgi` | High
-25 | File | `/churchcrm/v2/family/not-found` | High
-26 | File | `/classes/Login.php` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=delete_sub_category` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
-31 | File | `/control/register_case.php` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/dosen/data` | Medium
-34 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-35 | File | `/editor/index.php` | High
-36 | File | `/env` | Low
-37 | File | `/fax/fax_send.php` | High
-38 | File | `/filemanager/ajax_calls.php` | High
-39 | File | `/foms/place-order.php` | High
-40 | File | `/foms/routers/place-order.php` | High
-41 | File | `/FreshRSS/p/ext.php` | High
-42 | File | `/goform/execCommand` | High
-43 | File | `/goform/SafeClientFilter` | High
-44 | File | `/goform/SetPptpServerCfg` | High
-45 | File | `/goform/setSysAdm` | High
-46 | ... | ... | ...
+1 | File | `/action/import_https_cert_file/` | High
+2 | File | `/action/import_nodejs_app/` | High
+3 | File | `/admin` | Low
+4 | File | `/admin#themes` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/categories/view_category.php` | High
+8 | File | `/admin/cmsVote/save` | High
+9 | File | `/Admin/CustomerReport.php` | High
+10 | File | `/Admin/dashboard.php` | High
+11 | File | `/admin/delete_user.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/admin/maintenance/manage_category.php` | High
+14 | File | `/admin/sales/manage_sale.php` | High
+15 | File | `/admin/sales/view_details.php` | High
+16 | File | `/admin/sign/out` | High
+17 | File | `/admin/user/manage_user.php` | High
+18 | File | `/admin_system/api.php` | High
+19 | File | `/adms/admin/?page=user/manage_user` | High
+20 | File | `/api/audits` | Medium
+21 | File | `/api/browserextension/UpdatePassword/` | High
+22 | File | `/api/esps` | Medium
+23 | File | `/api/front/search/books` | High
+24 | File | `/apngopt/ubuntu.png` | High
+25 | File | `/asms/classes/Master.php?f=delete_service` | High
+26 | File | `/balance/service/list` | High
+27 | File | `/be/rpc.php` | Medium
+28 | File | `/boafrm/formFilter` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/discovery.cgi` | High
+32 | File | `/cgi-bin/widget_api.cgi` | High
+33 | File | `/churchcrm/v2/family/not-found` | High
+34 | File | `/classes/Login.php` | High
+35 | File | `/classes/Master.php` | High
+36 | File | `/classes/Master.php?f=delete_sub_category` | High
+37 | File | `/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
+39 | File | `/control/register_case.php` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/dosen/data` | Medium
+42 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+43 | File | `/editor/index.php` | High
+44 | File | `/env` | Low
+45 | File | `/fax/fax_send.php` | High
+46 | File | `/foms/place-order.php` | High
+47 | File | `/foms/routers/place-order.php` | High
+48 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

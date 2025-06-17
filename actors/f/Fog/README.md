@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fog:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -21,12 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.227.162.18](https://vuldb.com/?ip.23.227.162.18) | 23-227-162-18.static.hvvc.us | - | High
-2 | [45.11.59.16](https://vuldb.com/?ip.45.11.59.16) | dedicated.sollutium.com | - | High
-3 | [45.86.208.146](https://vuldb.com/?ip.45.86.208.146) | - | - | High
-4 | ... | ... | ... | ...
+1 | [5.230.33.176](https://vuldb.com/?ip.5.230.33.176) | placeholder.noezserver.de | - | High
+2 | [20.99.133.109](https://vuldb.com/?ip.20.99.133.109) | - | - | High
+3 | [20.99.184.37](https://vuldb.com/?ip.20.99.184.37) | - | - | High
+4 | [20.99.185.48](https://vuldb.com/?ip.20.99.185.48) | - | - | High
+5 | [20.99.186.246](https://vuldb.com/?ip.20.99.186.246) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,33 +50,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_supplier.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/api/authentication/login` | High
-4 | File | `/apiadmin/upload/attach` | High
-5 | File | `/artist-display.php` | High
-6 | File | `/cgi-bin/hd_config.cgi` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/classes/profile.class.php` | High
-10 | File | `/dataSet/testTransform;swagger-ui` | High
-11 | File | `/edit-computer-detail.php` | High
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/SetSpeedWan` | High
-15 | File | `/h/autoSaveDraft` | High
-16 | File | `/include/menu_v.inc.php` | High
-17 | File | `/include/Model/Upload.php` | High
-18 | File | `/include/stat/stat.php` | High
-19 | ... | ... | ...
+1 | File | `/admin/create_product.php` | High
+2 | File | `/admin/edit_supplier.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/process_category_edit.php` | High
+5 | File | `/api/authentication/login` | High
+6 | File | `/apiadmin/upload/attach` | High
+7 | File | `/artist-display.php` | High
+8 | File | `/backend/admin/his_admin_register_patient.php` | High
+9 | File | `/cgi-bin/hd_config.cgi` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+12 | File | `/classes/profile.class.php` | High
+13 | File | `/dataSet/testTransform;swagger-ui` | High
+14 | File | `/edit-computer-detail.php` | High
+15 | File | `/expedit.php` | Medium
+16 | File | `/export` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/SetSpeedWan` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/hoteldruid/clienti.php` | High
+21 | File | `/include/menu_v.inc.php` | High
+22 | File | `/include/Model/Upload.php` | High
+23 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://arcticwolf.com/resources/blog/arctic-wolf-labs-observes-increased-fog-and-akira-ransomware-activity-linked-to-sonicwall-ssl-vpn/
+* https://github.com/lodestonesecurity/Public-Rules-and-IOCs/blob/main/Fog%20Ransomware/IoC's.md
 
 ## Literature
 
@@ -85,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

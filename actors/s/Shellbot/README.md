@@ -33,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [39.165.53.17](https://vuldb.com/?ip.39.165.53.17) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -57,25 +57,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.php` | Low
 2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/save.php` | High
-4 | File | `/admin/team_save.php` | High
-5 | File | `/admin/user/user-move-run.php` | High
-6 | File | `/ajax.php?action=login` | High
-7 | File | `/animalsadd.php` | High
-8 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-9 | File | `/chetc/shutdown` | High
-10 | File | `/classes/Master.php?f=delete_product` | High
-11 | File | `/classes/Users.php?f=save_user` | High
-12 | File | `/cms/classes/Users.php?f=delete_client` | High
-13 | File | `/control/activate.php` | High
-14 | File | `/endpoint/delete-account.php` | High
-15 | File | `/endpoint/delete-task.php` | High
-16 | File | `/etc/networkd-dispatcher` | High
-17 | File | `/goform/formLogDnsquery` | High
-18 | File | `/goform/formSetPortTr` | High
-19 | ... | ... | ...
+3 | File | `/admin/network/wifi_schedule` | High
+4 | File | `/admin/quote-details.php` | High
+5 | File | `/admin/save.php` | High
+6 | File | `/admin/team_save.php` | High
+7 | File | `/admin/user/user-move-run.php` | High
+8 | File | `/ajax.php?action=login` | High
+9 | File | `/animalsadd.php` | High
+10 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+11 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+12 | File | `/chetc/shutdown` | High
+13 | File | `/classes/Master.php?f=delete_product` | High
+14 | File | `/classes/Users.php?f=save_user` | High
+15 | File | `/cms/classes/Users.php?f=delete_client` | High
+16 | File | `/control/activate.php` | High
+17 | File | `/dashboard/admin/submit_payments.php` | High
+18 | File | `/endpoint/delete-account.php` | High
+19 | File | `/endpoint/delete-task.php` | High
+20 | File | `/etc/networkd-dispatcher` | High
+21 | File | `/goform/formLogDnsquery` | High
+22 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,6 +87,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/49769/
 * https://asec.ahnlab.com/en/57635/
 * https://unit42.paloaltonetworks.com/cve-2020-17496/
+* https://urlhaus.abuse.ch/url/3518097/
+* https://urlhaus.abuse.ch/url/3518102/
 
 ## Literature
 
@@ -94,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

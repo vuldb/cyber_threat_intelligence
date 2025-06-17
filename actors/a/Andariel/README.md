@@ -41,7 +41,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [27.102.107.233](https://vuldb.com/?ip.27.102.107.233) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -77,40 +77,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/authenticate.php` | High
 12 | File | `/bin/boa` | Medium
 13 | File | `/blog` | Low
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/cgi-bin/webproc` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/conf/app.conf` | High
-22 | File | `/dev/urandom` | Medium
-23 | File | `/dist/index.js` | High
-24 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-25 | File | `/endpoint/delete-account.php` | High
-26 | File | `/etc/postfix/sender_login` | High
-27 | File | `/etc/quantum/quantum.conf` | High
-28 | File | `/fax/fax_send.php` | High
-29 | File | `/files/list-file` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/getcfg.php` | Medium
-32 | File | `/goform/RGFirewallEL` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/inc/parser/xhtml.php` | High
-35 | File | `/index.php?menu=asterisk_cli` | High
-36 | File | `/index/ajax/lang` | High
-37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-38 | File | `/lists/index.php` | High
-39 | File | `/login.html` | Medium
-40 | File | `/medical/inventories.php` | High
-41 | File | `/mgmt/tm/util/bash` | High
-42 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-43 | File | `/modules/projects/vw_files.php` | High
-44 | File | `/new` | Low
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi-bin/system_mgr.cgi` | High
+19 | File | `/cgi-bin/wapopen` | High
+20 | File | `/cgi-bin/webfile_mgr.cgi` | High
+21 | File | `/cgi-bin/webproc` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/conf/app.conf` | High
+25 | File | `/config/getuser` | High
+26 | File | `/dist/index.js` | High
+27 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+28 | File | `/endpoint/delete-account.php` | High
+29 | File | `/etc/postfix/sender_login` | High
+30 | File | `/etc/quantum/quantum.conf` | High
+31 | File | `/fax/fax_send.php` | High
+32 | File | `/files/list-file` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/getcfg.php` | Medium
+35 | File | `/goform/RGFirewallEL` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/index.php?menu=asterisk_cli` | High
+38 | File | `/index/ajax/lang` | High
+39 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/lists/index.php` | High
+42 | File | `/login.html` | Medium
+43 | File | `/medical/inventories.php` | High
+44 | File | `/mgmt/tm/util/bash` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/59904/
 * https://asec.ahnlab.com/en/63192/
 * https://asec.ahnlab.com/en/66088/
+* https://asec.ahnlab.com/en/85400/
 
 ## Literature
 
@@ -132,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

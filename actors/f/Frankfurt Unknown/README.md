@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -105,12 +105,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,16 +122,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/manage_station.php` | High
 3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 4 | File | `/admin/system.html` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
 8 | File | `/cgi-bin/p1_ftpserver.php` | High
 9 | File | `/classes/Master.php` | High
 10 | File | `/classes/Users.php?f=delete` | High
-11 | File | `/classes/Users.php?f=save_client` | High
-12 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

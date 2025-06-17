@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,10 +29,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.48.89.8](https://vuldb.com/?ip.37.48.89.8) | - | - | High
 2 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | galya.gitarova.example.com | Ukraine | High
-3 | [65.21.127.164](https://vuldb.com/?ip.65.21.127.164) | static.164.127.21.65.clients.your-server.de | - | High
-4 | ... | ... | ... | ...
+3 | [45.15.162.16](https://vuldb.com/?ip.45.15.162.16) | vm3758814.stark-industries.solutions | - | High
+4 | [65.21.127.164](https://vuldb.com/?ip.65.21.127.164) | static.164.127.21.65.clients.your-server.de | - | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,9 +103,13 @@ ID | Type | Indicator | Confidence
 46 | File | `ashnews.php/ashheadlines.php` | High
 47 | File | `AttributionSource.java` | High
 48 | File | `auction\auction_common.php` | High
-49 | ... | ... | ...
+49 | File | `auktion.cgi` | Medium
+50 | File | `auth.inc.php` | Medium
+51 | File | `auth.php` | Medium
+52 | File | `authform.inc.php` | High
+53 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,6 +117,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.morphisec.com/nft-malware-new-evasion-abilities
 * https://twitter.com/s1ckb017/status/1494047314792665088
+* https://urlhaus.abuse.ch/url/3530005/
+* https://urlhaus.abuse.ch/url/3555540/
+* https://urlhaus.abuse.ch/url/3561830/
 
 ## Literature
 
@@ -122,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

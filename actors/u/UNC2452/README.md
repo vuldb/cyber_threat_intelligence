@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with UNC2452:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC2452:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -320,12 +320,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-41 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -336,80 +336,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/?page=reports` | High
-3 | File | `/?page=reserve` | High
-4 | File | `/abcd/opac/php/otros_sitios.php` | High
-5 | File | `/addcustind.php` | High
-6 | File | `/addstock.php` | High
-7 | File | `/add_new_invoice.php` | High
-8 | File | `/add_new_purchase.php?action=is_supplier` | High
-9 | File | `/add_new_supplier.php` | High
-10 | File | `/admin` | Low
-11 | File | `/admin#article/edit?id=2` | High
-12 | File | `/admin#permissions` | High
-13 | File | `/admin#themes` | High
-14 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-15 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-16 | File | `/admin/?page=products/view_product` | High
-17 | File | `/admin/?page=reports` | High
-18 | File | `/admin/?page=system_info/contact_info` | High
-19 | File | `/Admin/add-admin.php` | High
-20 | File | `/admin/admin_invt2.php` | High
-21 | File | `/admin/ajax_product.php` | High
-22 | File | `/admin/apply.php` | High
-23 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-24 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-25 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-26 | File | `/admin/blood/update/B+.php` | High
-27 | File | `/admin/blood/update/B-.php` | High
-28 | File | `/admin/blood/update/o-.php` | High
-29 | File | `/admin/campsdetails.php` | High
-30 | File | `/admin/change-image.php` | High
-31 | File | `/Admin/consulting_detail.php` | High
-32 | File | `/admin/edit-brand.php` | High
-33 | File | `/admin/edit-card-detail.php` | High
-34 | File | `/admin/edit_customer.php` | High
-35 | File | `/admin/edit_role.php` | High
-36 | File | `/admin/educloud/videobind.html` | High
-37 | File | `/admin/fetch_product_details.php` | High
-38 | File | `/admin/forgot-password.php` | High
-39 | File | `/admin/home.php` | High
-40 | File | `/admin/login.php` | High
-41 | File | `/admin/overtime_add.php` | High
-42 | File | `/admin/overtime_row.php` | High
-43 | File | `/admin/profile.php` | High
-44 | File | `/admin/sou.php` | High
-45 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-46 | File | `/admin/tag.php` | High
-47 | File | `/admin/template/update` | High
-48 | File | `/admin/view-enquiry.php` | High
-49 | File | `/admin_class.php` | High
-50 | File | `/ajax.php?action=delete_deductions` | High
-51 | File | `/ajax.php?action=delete_tenant` | High
-52 | File | `/ajax.php?action=signup` | High
-53 | File | `/ajax.php?action=update_account` | High
-54 | File | `/animalsupdate.php` | High
-55 | File | `/api/config/list` | High
-56 | File | `/app/admin/controller/api/Plugs.php` | High
-57 | File | `/apply.cgi` | Medium
-58 | File | `/bearer.c` | Medium
-59 | File | `/bin/boa` | Medium
-60 | File | `/CDGServer3/document/Catelogs;logindojojs?command=DelCatelogs` | High
-61 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-62 | File | `/cgi-bin/cstecgi.cgi` | High
-63 | File | `/cgi-bin/discovery.cgi` | High
-64 | File | `/cgi-bin/param.cgi` | High
-65 | File | `/cgi-bin/widget_api.cgi` | High
-66 | File | `/cgi/login` | Medium
-67 | File | `/classes/Master.php?f=delete_category` | High
-68 | File | `/classes/Master.php?f=delete_product` | High
-69 | File | `/classes/SystemSettings.php?f=update_settings` | High
-70 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-71 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-72 | ... | ... | ...
+1 | File | `%WINDIR%\temp` | High
+2 | File | `../mtd/Config/Sha1Account1` | High
+3 | File | `/;/admin/role/edit` | High
+4 | File | `/Account/EditProfile` | High
+5 | File | `/add-pig.php` | Medium
+6 | File | `/adm/index.php` | High
+7 | File | `/admin.php?mod=brand&act=del` | High
+8 | File | `/admin/AdminLogin.php` | High
+9 | File | `/admin/admin_addnew_product.php` | High
+10 | File | `/admin/admin_members.php?ac=search` | High
+11 | File | `/admin/all-request.php` | High
+12 | File | `/admin/article.php` | High
+13 | File | `/admin/betweendates-detailsreports.php` | High
+14 | File | `/admin/campsdetails.php` | High
+15 | File | `/admin/contactus.php` | High
+16 | File | `/admin/course.php` | High
+17 | File | `/admin/create_product.php` | High
+18 | File | `/admin/deleteroom.php` | High
+19 | File | `/admin/department.php` | High
+20 | File | `/admin/edit-customer-detailed.php` | High
+21 | File | `/admin/edit-services.php` | High
+22 | File | `/admin/edit_action.php` | High
+23 | File | `/admin/forgot-password.php` | High
+24 | File | `/admin/gallery.php` | High
+25 | File | `/admin/index.php` | High
+26 | File | `/admin/level.php` | High
+27 | File | `/admin/login.php` | High
+28 | File | `/admin/manage-pages.php` | High
+29 | File | `/admin/search-property.php` | High
+30 | File | `/admin/search-report-details.php` | High
+31 | File | `/admin/View_user.php` | High
+32 | File | `/adminUser/updateImg` | High
+33 | File | `/ajax_state.php` | High
+34 | File | `/api/core/mod.rs` | High
+35 | File | `/api/esps` | Medium
+36 | File | `/api/wizard/getDualbandSync` | High
+37 | File | `/api/wizard/getNetworkConf` | High
+38 | File | `/api/wizard/networkSetup` | High
+39 | File | `/app/platform/controllers/ResetpwdController.php` | High
+40 | File | `/app/search/table` | High
+41 | File | `/auth.asp` | Medium
+42 | File | `/auth/setup` | Medium
+43 | File | `/auth/soup-auth-digest.c` | High
+44 | File | `/authenticate.php` | High
+45 | File | `/bin/goahead` | Medium
+46 | File | `/bin/gpio` | Medium
+47 | File | `/bin/httpd` | Medium
+48 | File | `/binutils/debug.c` | High
+49 | File | `/blog-details.php` | High
+50 | File | `/boafrm/formDMZ` | High
+51 | File | `/boafrm/formDosCfg` | High
+52 | File | `/boafrm/formFilter` | High
+53 | File | `/boafrm/formMapDelDevice` | High
+54 | File | `/boafrm/formNtp` | High
+55 | File | `/boafrm/formPortFw` | High
+56 | File | `/boafrm/formSetLg` | High
+57 | ... | ... | ...
 
-There are 637 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -427,4 +412,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

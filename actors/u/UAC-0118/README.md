@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,19 +50,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/index.php` | High
-3 | File | `/category.php` | High
-4 | File | `/cgi-bin/delete_CA` | High
-5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/download` | Medium
-7 | File | `/get_getnetworkconf.cgi` | High
-8 | File | `/GponForm/device_Form?script/` | High
-9 | File | `/includes/rrdtool.inc.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/Main_AdmStatus_Content.asp` | High
-12 | File | `/NAGErrors` | Medium
-13 | ... | ... | ...
+3 | File | `/Admin/News.php` | High
+4 | File | `/api/v2/open/tablesInfo` | High
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/delete_CA` | High
+7 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+8 | File | `/download` | Medium
+9 | File | `/get_getnetworkconf.cgi` | High
+10 | File | `/GponForm/device_Form?script/` | High
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/Main_AdmStatus_Content.asp` | High
+14 | File | `/member/soft_add.php` | High
+15 | File | `/NAGErrors` | Medium
+16 | File | `/RestAPI` | Medium
+17 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

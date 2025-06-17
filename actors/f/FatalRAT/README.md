@@ -17,12 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [103.119.44.93](https://vuldb.com/?ip.103.119.44.93) | - | - | High
-2 | [103.119.44.100](https://vuldb.com/?ip.103.119.44.100) | - | - | High
-3 | [103.119.44.152](https://vuldb.com/?ip.103.119.44.152) | - | - | High
+1 | [47.76.184.172](https://vuldb.com/?ip.47.76.184.172) | - | - | High
+2 | [103.119.44.93](https://vuldb.com/?ip.103.119.44.93) | - | - | High
+3 | [103.119.44.100](https://vuldb.com/?ip.103.119.44.100) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,20 +43,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/register.php` | High
-2 | File | `/spip.php` | Medium
-3 | File | `adclick.php` | Medium
-4 | File | `awstats.pl` | Medium
-5 | File | `cgi-bin/awstats.pl` | High
-6 | ... | ... | ...
+1 | File | `/api/log/killJob` | High
+2 | File | `/register.php` | High
+3 | File | `/spip.php` | Medium
+4 | File | `adclick.php` | Medium
+5 | File | `awstats.pl` | Medium
+6 | File | `cgi-bin/awstats.pl` | High
+7 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/66/fatalrat-backdoor-ioc/
+* https://bazaar.abuse.ch/sample/1924b09ff1e25fe9d39bad70f094766863f366543658627fe94f435b07da6109/
 * https://community.blueliv.com/#!/s/6107d20982df4141693319a7
 * https://threatfox.abuse.ch
 * https://tria.ge/241112-fvt33swbrg/behavioral1
@@ -71,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

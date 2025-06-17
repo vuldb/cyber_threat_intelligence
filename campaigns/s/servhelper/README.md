@@ -21,8 +21,8 @@ These _actors_ are associated with servhelper or other actors linked to the camp
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TA505](https://vuldb.com/?actor.ta505) | High
-2 | [ServHelper](https://vuldb.com/?actor.servhelper) | High
+1 | [ServHelper](https://vuldb.com/?actor.servhelper) | High
+2 | [TA505](https://vuldb.com/?actor.ta505) | High
 
 ## IOC - Indicator of Compromise
 
@@ -59,51 +59,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin_login.php` | High
-2 | File | `/api/addusers` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/dus/shopliste/index.php` | High
-8 | File | `/etc/path` | Medium
-9 | File | `/hrm/employeeadd.php` | High
-10 | File | `/licenses` | Medium
-11 | File | `/login` | Low
-12 | File | `/nagiosql/admin/checkcommands.php` | High
-13 | File | `/php/ping.php` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/rapi/read_url` | High
-16 | File | `/scripts/unlock_tasks.php` | High
-17 | File | `/sendKey` | Medium
-18 | File | `/setSystemAdmin` | High
-19 | File | `/signup_script.php` | High
-20 | File | `/SysInfo1.htm` | High
-21 | File | `/sysinfo_json.cgi` | High
-22 | File | `/system/dictData/loadDictItem` | High
-23 | File | `/system/user/modules/mod_users/controller.php` | High
-24 | File | `/tmp` | Low
-25 | File | `/type.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/5bin/su` | Medium
-28 | File | `/usr/bin/mail` | High
-29 | File | `/var/dt/` | Medium
-30 | File | `/view-property.php` | High
-31 | File | `/view/vpn/autovpn/sub_commit.php` | High
-32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-33 | File | `/_vti_bin/_vti_log` | High
-34 | File | `00.jsp` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `admin.asp` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin/` | Low
-39 | File | `admin/Login.php` | High
-40 | File | `admin/manage-comments.php` | High
-41 | File | `Administration/Controllers/ImportController.cs` | High
-42 | File | `administrator/mail/download.cfm` | High
-43 | File | `AdminViewError/AdminAddadmin` | High
-44 | File | `agentdisplay.php` | High
-45 | File | `appserv/main.php` | High
-46 | ... | ... | ...
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/dus/shopliste/index.php` | High
+7 | File | `/etc/path` | Medium
+8 | File | `/hrm/employeeadd.php` | High
+9 | File | `/licenses` | Medium
+10 | File | `/login` | Low
+11 | File | `/nagiosql/admin/checkcommands.php` | High
+12 | File | `/php/ping.php` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/scripts/unlock_tasks.php` | High
+16 | File | `/sendKey` | Medium
+17 | File | `/setSystemAdmin` | High
+18 | File | `/signup_script.php` | High
+19 | File | `/SysInfo1.htm` | High
+20 | File | `/sysinfo_json.cgi` | High
+21 | File | `/system/dictData/loadDictItem` | High
+22 | File | `/system/user/modules/mod_users/controller.php` | High
+23 | File | `/tmp` | Low
+24 | File | `/type.php` | Medium
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/5bin/su` | Medium
+27 | File | `/usr/bin/mail` | High
+28 | File | `/var/dt/` | Medium
+29 | File | `/view-property.php` | High
+30 | File | `/view/vpn/autovpn/sub_commit.php` | High
+31 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+32 | File | `/_vti_bin/_vti_log` | High
+33 | File | `00.jsp` | Low
+34 | File | `adclick.php` | Medium
+35 | File | `admin.asp` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin/` | Low
+38 | File | `admin/Login.php` | High
+39 | File | `admin/manage-comments.php` | High
+40 | File | `Administration/Controllers/ImportController.cs` | High
+41 | File | `administrator/mail/download.cfm` | High
+42 | File | `AdminViewError/AdminAddadmin` | High
+43 | File | `agentdisplay.php` | High
+44 | File | `appserv/main.php` | High
+45 | ... | ... | ...
 
 There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -130,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

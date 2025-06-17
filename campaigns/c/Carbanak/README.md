@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Carbanak:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -79,10 +79,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,27 +89,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/order.php` | High
-2 | File | `/adminPage/conf/saveCmd` | High
-3 | File | `/car.php` | Medium
-4 | File | `/category.php` | High
-5 | File | `/core/admin/categories.php` | High
-6 | File | `/forum/away.php` | High
+1 | File | `/.env` | Low
+2 | File | `/admin/order.php` | High
+3 | File | `/adminPage/conf/saveCmd` | High
+4 | File | `/car.php` | Medium
+5 | File | `/category.php` | High
+6 | File | `/core/admin/categories.php` | High
 7 | File | `/goform/set_ntp` | High
-8 | File | `/items/manage_item.php` | High
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/login/index.php` | High
-11 | File | `/multi-vendor-shopping-script/product-list.php` | High
-12 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-13 | File | `/php-sms/classes/SystemSettings.php` | High
-14 | File | `/preview.php` | Medium
-15 | File | `/psrs/admin/fields/manage_field.php` | High
-16 | File | `/see_more_details.php` | High
-17 | File | `/shell` | Low
-18 | File | `/subpage.php` | Medium
-19 | ... | ... | ...
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/multi-vendor-shopping-script/product-list.php` | High
+10 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+11 | File | `/preview.php` | Medium
+12 | File | `/psrs/admin/fields/manage_field.php` | High
+13 | File | `/reservation.php` | High
+14 | File | `/see_more_details.php` | High
+15 | File | `/spring-boot-quick-master/quick-img2txt/src/main/java/com/quick/controller/Img2TxtController.java` | High
+16 | File | `/subpage.php` | Medium
+17 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

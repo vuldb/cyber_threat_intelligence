@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DNS Hijacking:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -65,21 +65,22 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/lab.php` | High
 7 | File | `/admin/maintenance/view_designation.php` | High
 8 | File | `/api/v2/open/rowsInfo` | High
-9 | File | `/cgi-bin/touchlist_sync.cgi` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/classes/Users.php?f=save` | High
-12 | File | `/dashboard/add-blog.php` | High
-13 | File | `/dashboard/add-portfolio.php` | High
-14 | File | `/dashboard/settings` | High
-15 | File | `/ebics-server/ebics.aspx` | High
-16 | File | `/etc/fstab` | Medium
-17 | File | `/etc/shadow` | Medium
-18 | File | `/EXCU_SHELL` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/guestmanagement/front.php` | High
-21 | ... | ... | ...
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/touchlist_sync.cgi` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/dashboard/add-blog.php` | High
+14 | File | `/dashboard/add-portfolio.php` | High
+15 | File | `/dashboard/settings` | High
+16 | File | `/ebics-server/ebics.aspx` | High
+17 | File | `/etc/fstab` | Medium
+18 | File | `/etc/shadow` | Medium
+19 | File | `/EXCU_SHELL` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/guestmanagement/front.php` | High
+22 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

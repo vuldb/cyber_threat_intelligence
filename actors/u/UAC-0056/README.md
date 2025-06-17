@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -62,40 +62,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=reserve` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/process_category_add.php` | High
-6 | File | `/admin/products/controller.php?action=add` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/adminPage/main/upload` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/auth/register` | High
-11 | File | `/bifs/field_decode.c` | High
-12 | File | `/bin/proc.cgi` | High
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/book-services.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/common/run_cross_report.php` | High
-19 | File | `/Core/Ap4File.cpp` | High
-20 | File | `/dev/audio` | Medium
-21 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/en/blog-comment-4` | High
-25 | File | `/etc/crash` | Medium
-26 | File | `/etc/shadow` | Medium
-27 | File | `/EXCU_SHELL` | Medium
-28 | File | `/foms/routers/cancel-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/addressNat` | High
-31 | File | `/goform/AddSysLogRule` | High
-32 | File | `/goform/NatStaticSetting` | High
-33 | File | `/goform/WifiBasicSet` | High
-34 | ... | ... | ...
+3 | File | `/admin-profile.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/process_category_add.php` | High
+7 | File | `/admin/products/controller.php?action=add` | High
+8 | File | `/admin/students/manage.php` | High
+9 | File | `/adminPage/main/upload` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/api/deploy/upload` | High
+12 | File | `/api/esps` | Medium
+13 | File | `/api/login/auth` | High
+14 | File | `/auth/register` | High
+15 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+16 | File | `/bifs/field_decode.c` | High
+17 | File | `/bin/proc.cgi` | High
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/book-services.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+22 | File | `/cgi-bin/system_mgr.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/common/run_cross_report.php` | High
+25 | File | `/Core/Ap4File.cpp` | High
+26 | File | `/dev/audio` | Medium
+27 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+30 | File | `/en/blog-comment-4` | High
+31 | File | `/etc/crash` | Medium
+32 | File | `/etc/shadow` | Medium
+33 | File | `/EXCU_SHELL` | Medium
+34 | File | `/foms/routers/cancel-order.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+37 | File | `/goform/addressNat` | High
+38 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

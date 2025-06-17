@@ -73,27 +73,27 @@ ID | Type | Indicator | Confidence
 14 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
 15 | File | `/scripts/unlock_tasks.php` | High
 16 | File | `/setSystemAdmin` | High
-17 | File | `/SysInfo1.htm` | High
-18 | File | `/sysinfo_json.cgi` | High
-19 | File | `/system/dictData/loadDictItem` | High
-20 | File | `/system/user/modules/mod_users/controller.php` | High
-21 | File | `/tmp` | Low
-22 | File | `/usr/lib/utmp_update` | High
-23 | File | `/view/vpn/autovpn/sub_commit.php` | High
-24 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-25 | File | `admin/Login.php` | High
-26 | File | `admin/plugin-index.php` | High
-27 | File | `administration` | High
-28 | File | `administrative` | High
-29 | File | `aolfix.exe` | Medium
-30 | File | `appserv/main.php` | High
-31 | File | `awhost32.exe` | Medium
-32 | File | `bidhistory.php` | High
-33 | File | `bitrix/modules/main/tools.php` | High
-34 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
+17 | File | `/src/dede/member_type.php` | High
+18 | File | `/SysInfo1.htm` | High
+19 | File | `/sysinfo_json.cgi` | High
+20 | File | `/system/dictData/loadDictItem` | High
+21 | File | `/system/user/modules/mod_users/controller.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/usr/lib/utmp_update` | High
+24 | File | `/view/vpn/autovpn/sub_commit.php` | High
+25 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+26 | File | `admin/Login.php` | High
+27 | File | `admin/plugin-index.php` | High
+28 | File | `administration` | High
+29 | File | `administrative` | High
+30 | File | `aolfix.exe` | Medium
+31 | File | `appserv/main.php` | High
+32 | File | `awhost32.exe` | Medium
+33 | File | `bidhistory.php` | High
+34 | File | `bitrix/modules/main/tools.php` | High
 35 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

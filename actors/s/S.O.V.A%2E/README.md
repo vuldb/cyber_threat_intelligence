@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -48,39 +48,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/login.php` | High
 2 | File | `/admin/mechanics/manage_mechanic.php` | High
-3 | File | `/admin_route/dec_service_credits.php` | High
-4 | File | `/aterm_httpif.cgi/negotiate` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/churchcrm/WhyCameEditor.php` | High
-7 | File | `/cmsms-2.1.6-install.php/index.php` | High
-8 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-9 | File | `/coreframe/app/member/admin/group.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/GetNewDir` | High
-12 | File | `/guestmanagement/front.php` | High
-13 | File | `/Interface/DevManage/VM.php` | High
-14 | File | `/proc/self/environ` | High
-15 | File | `/Pwrchute` | Medium
-16 | File | `/recordings/index.php` | High
-17 | File | `/royal_event/companyprofile.php` | High
-18 | File | `/school/model/get_events.php` | High
-19 | File | `/setting_hidden.asp` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/staff_login.php` | High
-22 | File | `/usr/bin/gxserve-update.sh` | High
-23 | File | `active_appointments.asp` | High
-24 | File | `add_edit_user.asp` | High
-25 | File | `admin/versions.html` | High
-26 | File | `admindocumentworker.jsp` | High
-27 | File | `admin_class.php` | High
-28 | File | `albums.php` | Medium
-29 | File | `announcements.php` | High
-30 | File | `app/admin/custom-fields/edit-result.php` | High
-31 | File | `app/admin/custom-fields/edit.php` | High
-32 | File | `apply.cgi` | Medium
-33 | ... | ... | ...
+3 | File | `/admin/payment.php` | High
+4 | File | `/admin_route/dec_service_credits.php` | High
+5 | File | `/aterm_httpif.cgi/negotiate` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/churchcrm/WhyCameEditor.php` | High
+8 | File | `/cmsms-2.1.6-install.php/index.php` | High
+9 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
+10 | File | `/coreframe/app/member/admin/group.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/GetNewDir` | High
+13 | File | `/guestmanagement/front.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/Interface/DevManage/VM.php` | High
+16 | File | `/isec/index.php` | High
+17 | File | `/proc/self/environ` | High
+18 | File | `/Pwrchute` | Medium
+19 | File | `/recordings/index.php` | High
+20 | File | `/royal_event/companyprofile.php` | High
+21 | File | `/school/model/get_events.php` | High
+22 | File | `/setting_hidden.asp` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/staff_login.php` | High
+25 | File | `/usr/bin/gxserve-update.sh` | High
+26 | File | `active_appointments.asp` | High
+27 | File | `adds.php` | Medium
+28 | File | `add_edit_user.asp` | High
+29 | File | `admin/versions.html` | High
+30 | File | `admindocumentworker.jsp` | High
+31 | File | `admin_class.php` | High
+32 | File | `albums.php` | Medium
+33 | File | `announcements.php` | High
+34 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

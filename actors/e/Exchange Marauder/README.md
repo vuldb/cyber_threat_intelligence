@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,22 +55,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/cgi-bin/luci/api/auth` | High
-3 | File | `/conf/app.conf` | High
-4 | File | `/filemanager/upload.php` | High
-5 | File | `/resources//../` | High
-6 | File | `/src/Illuminate/Laravel.php` | High
-7 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-8 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-9 | File | `/wp-json/oembed/1.0/embed?url` | High
-10 | File | `about.php` | Medium
-11 | File | `admin/modules/tools/ip_history_logs.php` | High
-12 | File | `adminer.php` | Medium
-13 | File | `admin_feature.php` | High
-14 | File | `api_poller.php` | High
-15 | ... | ... | ...
+2 | File | `/admin/educloud/videobind.html` | High
+3 | File | `/admin/invoice.php` | High
+4 | File | `/cgi-bin/luci/api/auth` | High
+5 | File | `/conf/app.conf` | High
+6 | File | `/filemanager/upload.php` | High
+7 | File | `/public/login.htm` | High
+8 | File | `/resources//../` | High
+9 | File | `/sdTodoDetail.jsp` | High
+10 | File | `/src/Illuminate/Laravel.php` | High
+11 | File | `/static/libs/common/jquery.stickyNavbar.min.js` | High
+12 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+13 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+14 | File | `/wp-json/oembed/1.0/embed?url` | High
+15 | File | `about.php` | Medium
+16 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

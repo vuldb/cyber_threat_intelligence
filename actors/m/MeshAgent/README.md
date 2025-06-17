@@ -20,6 +20,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
 2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
 3 | [78.141.238.182](https://vuldb.com/?ip.78.141.238.182) | 78.141.238.182.vultrusercontent.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `shop.php` | Medium
-2 | Argument | `id` | Low
+2 | File | `tiki-register.php` | High
+3 | Argument | `id` | Low
 
 ## References
 
@@ -44,6 +48,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/53267/
 * https://hackerseye.net/all-blog-items/checkmesh/
+* https://urlhaus.abuse.ch/url/3526277/
 
 ## Literature
 
@@ -54,4 +59,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

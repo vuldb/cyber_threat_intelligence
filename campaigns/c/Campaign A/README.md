@@ -58,38 +58,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php?page=manage_product` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/apply/index.php` | High
-4 | File | `/cgi-bin/nas_sharing.cgi` | High
-5 | File | `/check_availability.php` | High
-6 | File | `/foms/routers/place-order.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/general/email/outbox/delete.php` | High
-9 | File | `/manage_sy.php` | High
-10 | File | `/oauth/idp/.well-known/openid-configuration` | High
-11 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-12 | File | `/resourceNode/resources.jsf` | High
-13 | File | `/Script/admin/core/update_policy` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/view/student_exam_mark_insert_form1.php` | High
-16 | File | `3.6.cpj` | Low
-17 | File | `404.php` | Low
-18 | File | `adclick.php` | Medium
-19 | File | `add-testimonial.php` | High
-20 | File | `admin.asp` | Medium
-21 | File | `admin.aspx` | Medium
-22 | File | `admin.php` | Medium
-23 | File | `admin/conf_users_edit.php` | High
-24 | File | `admin/member_details.php` | High
-25 | File | `admin_chatconfig.php` | High
-26 | File | `admin_iplog.php` | High
-27 | File | `ajaxp.php` | Medium
-28 | File | `alphabet.php` | Medium
-29 | File | `app/controllers/oauth.js` | High
-30 | ... | ... | ...
+1 | File | `/admin/create_product.php` | High
+2 | File | `/admin/index.php?page=manage_product` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/apply/index.php` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/check_availability.php` | High
+9 | File | `/foms/routers/place-order.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/general/email/outbox/delete.php` | High
+12 | File | `/manage_sy.php` | High
+13 | File | `/oauth/idp/.well-known/openid-configuration` | High
+14 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+15 | File | `/resourceNode/resources.jsf` | High
+16 | File | `/Script/admin/core/update_policy` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/view/student_exam_mark_insert_form1.php` | High
+19 | File | `3.6.cpj` | Low
+20 | File | `404.php` | Low
+21 | File | `adclick.php` | Medium
+22 | File | `add-testimonial.php` | High
+23 | File | `admin.asp` | Medium
+24 | File | `admin.aspx` | Medium
+25 | File | `admin.php` | Medium
+26 | File | `admin/conf_users_edit.php` | High
+27 | File | `admin/member_details.php` | High
+28 | File | `admin_chatconfig.php` | High
+29 | File | `admin_iplog.php` | High
+30 | File | `ajaxp.php` | Medium
+31 | File | `alphabet.php` | Medium
+32 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

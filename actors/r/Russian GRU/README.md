@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.russian_gru](https://vuldb.com/?actor.russian_gru)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Russian GRU:
+
+* Russia and Ukraine Conflict
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russian GRU:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +32,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [46.101.242.222](https://vuldb.com/?ip.46.101.242.222) | kukij.com | - | High
 4 | [62.173.140.223](https://vuldb.com/?ip.62.173.140.223) | zaxar.example.com | - | High
 5 | [79.124.8.66](https://vuldb.com/?ip.79.124.8.66) | - | - | High
-6 | ... | ... | ... | ...
+6 | [80.78.16.0](https://vuldb.com/?ip.80.78.16.0) | - | Russia and Ukraine Conflict | High
+7 | [80.78.22.146](https://vuldb.com/?ip.80.78.22.146) | 504e1692.host.njalla.net | Russia and Ukraine Conflict | High
+8 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,14 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,90 +59,84 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `//proc/kcore` | Medium
+1 | File | `.git/` | Low
+2 | File | `//index.php` | Medium
 3 | File | `/add-students.php` | High
-4 | File | `/addstock.php` | High
-5 | File | `/add_new_invoice.php` | High
-6 | File | `/add_new_supplier.php` | High
-7 | File | `/admin/?page=reports` | High
-8 | File | `/admin/?page=system_info/contact_info` | High
-9 | File | `/admin/about-us.php` | High
-10 | File | `/admin/action/delete-vaccine.php` | High
-11 | File | `/admin/action/new-father.php` | High
-12 | File | `/Admin/akun_edit.php` | High
-13 | File | `/admin/app/service_crud.php` | High
-14 | File | `/admin/apply.php` | High
+4 | File | `/add-subadmin.php` | High
+5 | File | `/addstock.php` | High
+6 | File | `/add_new_invoice.php` | High
+7 | File | `/add_new_supplier.php` | High
+8 | File | `/add_user.php` | High
+9 | File | `/admin/?page=reports` | High
+10 | File | `/admin/?page=system_info/contact_info` | High
+11 | File | `/Admin/akun_edit.php` | High
+12 | File | `/admin/app/service_crud.php` | High
+13 | File | `/admin/apply.php` | High
+14 | File | `/admin/betweendates-detailsreports.php` | High
 15 | File | `/admin/book-details.php` | High
-16 | File | `/admin/create-package.php` | High
-17 | File | `/admin/doAdminAction.php?act=addCate` | High
-18 | File | `/admin/edit-admin.php` | High
-19 | File | `/admin/edit-brand.php` | High
-20 | File | `/admin/edit-post.php` | High
-21 | File | `/admin/index2.html` | High
-22 | File | `/admin/list_crl_conf` | High
-23 | File | `/Admin/login.php` | High
-24 | File | `/admin/manage_user.php` | High
-25 | File | `/admin/massage.php` | High
-26 | File | `/admin/pages/list` | High
-27 | File | `/admin/password-recovery.php` | High
-28 | File | `/admin/profile.php` | High
-29 | File | `/Admin/Proses_Edit_Akun.php` | High
-30 | File | `/admin/robot.php` | High
-31 | File | `/admin/search-invoices.php` | High
-32 | File | `/admin/search.php` | High
-33 | File | `/admin/system.html` | High
-34 | File | `/animalsupdate.php` | High
-35 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-36 | File | `/api/v4/teams//channels/deleted` | High
-37 | File | `/app/admin/controller/api/Plugs.php` | High
-38 | File | `/app/admin/controller/Upload.php` | High
-39 | File | `/app/ajax/search_sales_report.php` | High
-40 | File | `/app/controller/Setup.php` | High
-41 | File | `/app/index/controller/Common.php` | High
-42 | File | `/app/middleware/TokenVerify.php` | High
-43 | File | `/appliance/users?action=edit` | High
-44 | File | `/application/index/controller/Screen.php` | High
-45 | File | `/application/websocket/controller/Setting.php` | High
-46 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-47 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-48 | File | `/applications/nexus/modules/front/store/store.php` | High
-49 | File | `/apply/index.php` | High
-50 | File | `/bin/boa` | Medium
-51 | File | `/bitrix/admin/ldap_server_edit.php` | High
-52 | File | `/boafrm/formMapDelDevice` | High
-53 | File | `/cgi-bin/apkg_mgr.cgi` | High
-54 | File | `/cgi-bin/cstecgi.cgi` | High
-55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-56 | File | `/cgi-bin/myMusic.cgi` | High
-57 | File | `/cgi-bin/nas_sharing.cgi` | High
-58 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-59 | File | `/classes/Master.php` | High
-60 | File | `/classes/Master.php?f=delete_record` | High
-61 | File | `/classes/Master.php?f=save_category` | High
-62 | File | `/classes/Master.php?f=save_medicine` | High
-63 | File | `/classes/SystemSettings.php?f=update_settings` | High
-64 | File | `/classes/Users.php?f=save` | High
-65 | File | `/collection/all` | High
-66 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-67 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-68 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-69 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-70 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-71 | File | `/deal/{note_id}/note` | High
-72 | File | `/description.php` | High
-73 | File | `/detailed.php` | High
-74 | File | `/dtale/chart-data/1` | High
-75 | File | `/Employer/ManageWalkin.php` | High
-76 | ... | ... | ...
+16 | File | `/admin/content/editor` | High
+17 | File | `/admin/create-package.php` | High
+18 | File | `/admin/create_product.php` | High
+19 | File | `/admin/doAdminAction.php?act=addCate` | High
+20 | File | `/admin/edit-admin.php` | High
+21 | File | `/admin/edit-brand.php` | High
+22 | File | `/admin/edit-post.php` | High
+23 | File | `/admin/list_crl_conf` | High
+24 | File | `/Admin/login.php` | High
+25 | File | `/admin/manage_user.php` | High
+26 | File | `/admin/massage.php` | High
+27 | File | `/admin/network/ajax_getChannelList` | High
+28 | File | `/admin/pages/list` | High
+29 | File | `/admin/password-recovery.php` | High
+30 | File | `/admin/profile.php` | High
+31 | File | `/Admin/Proses_Edit_Akun.php` | High
+32 | File | `/admin/robot.php` | High
+33 | File | `/admin/search-invoices.php` | High
+34 | File | `/admin/search.php` | High
+35 | File | `/admin/system.html` | High
+36 | File | `/admin/twitter.php` | High
+37 | File | `/animalsupdate.php` | High
+38 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+39 | File | `/api/wizard/networkSetup` | High
+40 | File | `/app/admin/controller/api/Plugs.php` | High
+41 | File | `/app/admin/controller/Upload.php` | High
+42 | File | `/app/ajax/search_sales_report.php` | High
+43 | File | `/app/controller/Api.php` | High
+44 | File | `/app/controller/Setup.php` | High
+45 | File | `/app/middleware/TokenVerify.php` | High
+46 | File | `/application/index/controller/Screen.php` | High
+47 | File | `/application/websocket/controller/Setting.php` | High
+48 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+49 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+50 | File | `/applications/nexus/modules/front/store/store.php` | High
+51 | File | `/apply/index.php` | High
+52 | File | `/b2b-supermarket/catalog/all-products` | High
+53 | File | `/backend/doc/his_doc_update-account.php` | High
+54 | File | `/bin/boa` | Medium
+55 | File | `/boafrm/formMapDelDevice` | High
+56 | File | `/cgi-bin/apkg_mgr.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/cgi-bin/myMusic.cgi` | High
+59 | File | `/cgi-bin/nas_sharing.cgi` | High
+60 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+61 | File | `/cgi-bin/system_mgr.cgi` | High
+62 | File | `/classes/Master.php` | High
+63 | File | `/classes/Master.php?f=delete_record` | High
+64 | File | `/classes/Master.php?f=save_category` | High
+65 | File | `/classes/Master.php?f=save_medicine` | High
+66 | File | `/classes/SystemSettings.php?f=update_settings` | High
+67 | File | `/classes/Users.php?f=save` | High
+68 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+69 | ... | ... | ...
 
-There are 666 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 603 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a
+* https://www.silentpush.com/blog/russian-intelligence-phishing/
 
 ## Literature
 
@@ -145,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

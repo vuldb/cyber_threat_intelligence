@@ -51,21 +51,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/cgi-bin/luci;stok=/locale` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/classes/Users.php?f=save` | High
-6 | File | `/HNAP1` | Low
-7 | File | `/index.php` | Medium
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-10 | File | `/setSystemAdmin` | High
-11 | File | `/sp/ListSp.php` | High
-12 | File | `/updown/upload.cgi` | High
-13 | File | `/usr/bin/pkexec` | High
-14 | File | `?r=dashboard/database/optimize` | High
-15 | ... | ... | ...
+3 | File | `/b2b-supermarket/catalog/all-products` | High
+4 | File | `/cgi-bin/luci;stok=/locale` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/webproc?getpage=html/index.html&var:menu=24gwlan&var:page=24G_basic` | High
+7 | File | `/classes/Users.php?f=save` | High
+8 | File | `/ctxz.asp` | Medium
+9 | File | `/dashboard/Cinvoice/manage_invoice` | High
+10 | File | `/goform/qosClassifier` | High
+11 | File | `/goform/QoSPortSetup` | High
+12 | File | `/goform/SetCmdlineRun` | High
+13 | File | `/goform/WifiExtraSet` | High
+14 | File | `/goform/wirelessApcli_5g` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/index.php` | Medium
+17 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+18 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

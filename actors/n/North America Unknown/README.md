@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
-* [JP](https://vuldb.com/?country.jp)
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37319,12 +37319,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059 | CWE-88 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37332,12 +37332,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/boafrm/formSysCmd` | High
-2 | File | `/modules/profile/index.php` | High
-3 | File | `/view/DBManage/Backup_Server_commit.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/group` | Medium
+2 | File | `/admin/indexConfigs/update` | High
+3 | File | `/Admin/News.php` | High
+4 | File | `/application/index/controller/Icon.php` | High
+5 | File | `/boafrm/formFilter` | High
+6 | File | `/boafrm/formMapReboot` | High
+7 | File | `/branch.php` | Medium
+8 | File | `/bsenordering/index.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -37358,4 +37364,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

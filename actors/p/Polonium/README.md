@@ -44,8 +44,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -57,35 +57,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/advanced-tools/nova/bin/netwatch` | High
-3 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-4 | File | `/classes/master.php?f=delete_order` | High
-5 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-6 | File | `/downloadFile.php` | High
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/forms/nslookupHandler` | High
-10 | File | `/h/autoSaveDraft` | High
-11 | File | `/index.php` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/model/update_grade.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/news.dtl.php` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/out.php` | Medium
-18 | File | `/patient/appointment.php` | High
-19 | File | `/php-opos/index.php` | High
-20 | File | `/plesk-site-preview/` | High
-21 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-22 | File | `/ptms/?page=user` | High
-23 | File | `/sqfs/bin/sccd` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload/file.php` | High
-27 | File | `/usr/bin/at` | Medium
-28 | ... | ... | ...
+2 | File | `/AcceptZip.ashx` | High
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+5 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+6 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+7 | File | `/cgi-bin/touchlist_sync.cgi` | High
+8 | File | `/classes/master.php?f=delete_order` | High
+9 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+10 | File | `/downloadFile.php` | High
+11 | File | `/etc/gsissh/sshd_config` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forms/nslookupHandler` | High
+14 | File | `/goform/wirelessAdvancedHidden` | High
+15 | File | `/h/autoSaveDraft` | High
+16 | File | `/index.php` | Medium
+17 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/model/update_grade.php` | High
+20 | File | `/module/word_model/view/index.php` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/news.dtl.php` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/out.php` | Medium
+25 | File | `/patient/appointment.php` | High
+26 | File | `/personal/updateInfo` | High
+27 | File | `/php-opos/index.php` | High
+28 | File | `/plesk-site-preview/` | High
+29 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+30 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

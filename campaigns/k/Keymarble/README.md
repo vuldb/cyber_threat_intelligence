@@ -17,8 +17,8 @@ These _actors_ are associated with Keymarble or other actors linked to the campa
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
+1 | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
+2 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +26,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [100.43.153.60](https://vuldb.com/?ip.100.43.153.60) | 100.43.153.60.static.krypt.com | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
-2 | [104.194.160.59](https://vuldb.com/?ip.104.194.160.59) | a.59.160.194.104.servpac.com | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
-3 | [212.143.21.43](https://vuldb.com/?ip.212.143.21.43) | - | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
+1 | [100.43.153.60](https://vuldb.com/?ip.100.43.153.60) | 100.43.153.60.static.krypt.com | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [104.194.160.59](https://vuldb.com/?ip.104.194.160.59) | a.59.160.194.104.servpac.com | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+3 | [212.143.21.43](https://vuldb.com/?ip.212.143.21.43) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,4 +62,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -11,11 +11,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [173.201.180.75](https://vuldb.com/?ip.173.201.180.75) | ip-173-201-180-75.ip.secureserver.net | - | High
+2 | [195.20.18.146](https://vuldb.com/?ip.195.20.18.146) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/7d955bb75c0eb8d8c50d911cfb6320df0c7af260d16522c71b5a8e8f52d121c4/
 * https://www.virustotal.com/gui/file/400471a357266923af7b64048acd77f3d132dd429c3ef8eae4ab5dfd6652fd39/behavior
 
 ## Literature
@@ -27,4 +29,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

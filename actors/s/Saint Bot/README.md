@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,28 +49,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?page=reserve` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/adminPage/main/upload` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cwc/login` | Medium
-7 | File | `/includes/rrdtool.inc.php` | High
-8 | File | `/intern/controller.php` | High
-9 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-10 | File | `/iwguestbook/admin/messages_edit.asp` | High
-11 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-12 | File | `/www/ping_response.cgi` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/dashboard.php` | High
-15 | File | `admin/gallery.php` | High
-16 | File | `admin/manage-departments.php` | High
-17 | File | `admin/sellerupd.php` | High
-18 | File | `admin/vqmods.app/vqmods.inc.php` | High
-19 | File | `administrator/logviewer/searchlog.cfm` | High
-20 | File | `backend/utilities/terminal.js` | High
-21 | File | `bb_usage_stats.php` | High
-22 | ... | ... | ...
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/adminPage/main/upload` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cwc/login` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/includes/rrdtool.inc.php` | High
+10 | File | `/intern/controller.php` | High
+11 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+12 | File | `/iwguestbook/admin/messages_edit.asp` | High
+13 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+14 | File | `/www/ping_response.cgi` | High
+15 | File | `adclick.php` | Medium
+16 | File | `admin.php` | Medium
+17 | File | `admin/dashboard.php` | High
+18 | File | `admin/gallery.php` | High
+19 | File | `admin/manage-departments.php` | High
+20 | File | `admin/sellerupd.php` | High
+21 | File | `admin/vqmods.app/vqmods.inc.php` | High
+22 | File | `administrator/logviewer/searchlog.cfm` | High
+23 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

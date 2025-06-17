@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PhotoLoader:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -120,13 +120,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -134,38 +134,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_new_invoice.php` | High
-2 | File | `/admin/action/delete-vaccine.php` | High
-3 | File | `/Admin/akun_edit.php` | High
-4 | File | `/admin/apply.php` | High
-5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-6 | File | `/admin/create-package.php` | High
-7 | File | `/admin/doAdminAction.php?act=addCate` | High
-8 | File | `/admin/edit-brand.php` | High
-9 | File | `/admin/edit-post.php` | High
-10 | File | `/Admin/Proses_Edit_Akun.php` | High
-11 | File | `/admin/robot.php` | High
-12 | File | `/admin/search-invoices.php` | High
-13 | File | `/ajax.php` | Medium
-14 | File | `/app/controller/Setup.php` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/backend/doc/his_doc_update-account.php` | High
-20 | File | `/cgi-bin/apkg_mgr.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
+1 | File | `/add-subadmin.php` | High
+2 | File | `/add_new_invoice.php` | High
+3 | File | `/add_user.php` | High
+4 | File | `/Admin/akun_edit.php` | High
+5 | File | `/admin/apply.php` | High
+6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+7 | File | `/admin/content/editor` | High
+8 | File | `/admin/create-package.php` | High
+9 | File | `/admin/doAdminAction.php?act=addCate` | High
+10 | File | `/admin/edit-brand.php` | High
+11 | File | `/admin/profile.php` | High
+12 | File | `/Admin/Proses_Edit_Akun.php` | High
+13 | File | `/admin/robot.php` | High
+14 | File | `/admin/search-invoices.php` | High
+15 | File | `/admin/twitter.php` | High
+16 | File | `/ajax.php` | Medium
+17 | File | `/app/controller/Api.php` | High
+18 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+19 | File | `/applications/nexus/modules/front/store/store.php` | High
+20 | File | `/backend/doc/his_doc_update-account.php` | High
+21 | File | `/cgi-bin/apkg_mgr.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
 23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 24 | File | `/classes/Master.php` | High
 25 | File | `/classes/Master.php?f=delete_record` | High
-26 | File | `/classes/Master.php?f=save_category` | High
-27 | File | `/classes/SystemSettings.php?f=update_settings` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/customnode/install` | High
-30 | ... | ... | ...
+26 | File | `/classes/SystemSettings.php?f=update_settings` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -182,4 +180,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

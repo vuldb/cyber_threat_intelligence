@@ -18,8 +18,8 @@ These _actors_ are associated with SmokeLoader or other actors linked to the cam
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-2 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
+1 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
+2 | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 
 ## IOC - Indicator of Compromise
 
@@ -52,9 +52,10 @@ ID | IP address | Hostname | Actor | Confidence
 23 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 24 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 25 | [31.44.6.123](https://vuldb.com/?ip.31.44.6.123) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-26 | ... | ... | ... | ...
+26 | [31.44.185.182](https://vuldb.com/?ip.31.44.185.182) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+27 | ... | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,25 +79,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit-doc.php` | High
 2 | File | `/api/admin/store/product/list` | High
 3 | File | `/cgi-bin/qcmap_auth` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/film-rating.php` | High
-6 | File | `/group1/uploa` | High
-7 | File | `/index.php` | Medium
-8 | File | `/js/app.js` | Medium
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/student/bookdetails.php` | High
-13 | File | `/test/cookie/` | High
-14 | File | `/ureport/designer/saveReportFile` | High
-15 | File | `/users` | Low
-16 | File | `account.asp` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/establishment/manage.php` | High
-19 | File | `admin/inquiries/view_details.php` | High
-20 | ... | ... | ...
+4 | File | `/conf/` | Low
+5 | File | `/debug/pprof` | Medium
+6 | File | `/film-rating.php` | High
+7 | File | `/group1/uploa` | High
+8 | File | `/index.php` | Medium
+9 | File | `/js/app.js` | Medium
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/pix_projetos/servlet?act=login&submit=1&evento=0&pixrnd=0125021816444195731041` | High
+12 | File | `/soplanning/www/process/xajax_server.php` | High
+13 | File | `/student/bookdetails.php` | High
+14 | File | `/test/cookie/` | High
+15 | File | `/ureport/designer/saveReportFile` | High
+16 | File | `/users` | Low
+17 | File | `account.asp` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/establishment/manage.php` | High
+20 | File | `admin/inquiries/view_details.php` | High
+21 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +112,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/5e30a88fb1c9a45bd6697990493098ca05e87b2560172ae89e9811ea887ff8b4/#intel
 * https://bazaar.abuse.ch/sample/83b5b5e0e33939cd18fbb34cb15e39647d93aeeb878df52a324f73f357749811/
 * https://bazaar.abuse.ch/sample/217098c45eed16334b9d30551cc45b8a7b5e028163ee2bbc0d0906c2b381a1c4/
+* https://bazaar.abuse.ch/sample/871884457a26252704be8ed779adb8420580f0d879ce40fca002de154770eaeb/
+* https://bazaar.abuse.ch/sample/c7d04743911aa4264b47d44df511d4c1f72dc789293b2457bf995ca2a592add3/#intel
+* https://bazaar.abuse.ch/sample/ea0a7467efc74d7a947774d83d440426510243bd4b443391f753902bf275c86c/
 * https://bazaar.abuse.ch/sample/ea8ecda6aaf0a6560b614a46a33112caf8ab6404be64ced23fa202737ddbacbf/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
@@ -125,6 +130,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://threatfox.abuse.ch
 * https://tria.ge/220511-fxrezafgg2
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
+* https://urlhaus.abuse.ch/url/3533501/
 * https://www.secureworks.com/blog/smoke-loader-drops-whiffy-recon-wi-fi-scanning-and-geolocation-malware
 
 ## Literature
@@ -136,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

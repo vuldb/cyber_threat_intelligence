@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -52,46 +52,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin/login.php` | High
 4 | File | `/admin/students/view_details.php` | High
-5 | File | `/cgi-bin/nobody` | High
-6 | File | `/cgi-bin/nobody/Search.cgi` | High
-7 | File | `/edit-db.php` | Medium
-8 | File | `/etc/passwd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/get_getnetworkconf.cgi` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/messageboard/view.php` | High
-14 | File | `/mobile_seal/get_seal.php` | High
-15 | File | `/new` | Low
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/orrs/admin/reservations/view_details.php` | High
-18 | File | `/show_news.php` | High
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-22 | File | `/vicidial/AST_agent_time_sheet.php` | High
-23 | File | `/ViewUserHover.jspa` | High
-24 | File | `account.asp` | Medium
-25 | File | `AccountStatus.jsp` | High
-26 | File | `adclick.php` | Medium
-27 | File | `add.php` | Low
-28 | File | `admin.a6mambocredits.php` | High
-29 | File | `admin.color.php` | High
-30 | File | `admin.cropcanvas.php` | High
-31 | File | `admin.joomlaradiov5.php` | High
-32 | File | `Admin.PHP` | Medium
-33 | File | `admin/products/view_product.php` | High
-34 | File | `admin/systemOutOfBand.do` | High
-35 | File | `adminAvatars.php` | High
-36 | File | `adminBackupdatabase.php` | High
-37 | File | `adminForums.php` | High
-38 | File | `allopass-error.php` | High
-39 | File | `app/application.cpp` | High
-40 | File | `ashnews.php/ashheadlines.php` | High
-41 | File | `auth-gss2.c` | Medium
+5 | File | `/agc/vicidial.php` | High
+6 | File | `/cgi-bin/nobody` | High
+7 | File | `/cgi-bin/nobody/Search.cgi` | High
+8 | File | `/edit-db.php` | Medium
+9 | File | `/etc/passwd` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/get_getnetworkconf.cgi` | High
+12 | File | `/horde/util/go.php` | High
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/messageboard/view.php` | High
+15 | File | `/mobile_seal/get_seal.php` | High
+16 | File | `/new` | Low
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/orrs/admin/reservations/view_details.php` | High
+19 | File | `/show_news.php` | High
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+23 | File | `/vicidial/AST_agent_time_sheet.php` | High
+24 | File | `/ViewUserHover.jspa` | High
+25 | File | `account.asp` | Medium
+26 | File | `AccountStatus.jsp` | High
+27 | File | `adclick.php` | Medium
+28 | File | `add.php` | Low
+29 | File | `admin.a6mambocredits.php` | High
+30 | File | `admin.color.php` | High
+31 | File | `admin.cropcanvas.php` | High
+32 | File | `admin.joomlaradiov5.php` | High
+33 | File | `Admin.PHP` | Medium
+34 | File | `admin.php` | Medium
+35 | File | `admin/products/view_product.php` | High
+36 | File | `admin/systemOutOfBand.do` | High
+37 | File | `adminAvatars.php` | High
+38 | File | `adminBackupdatabase.php` | High
+39 | File | `adminForums.php` | High
+40 | File | `allopass-error.php` | High
+41 | File | `app/application.cpp` | High
 42 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

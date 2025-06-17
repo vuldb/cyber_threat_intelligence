@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Ramnit:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ramnit:
 
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -109,11 +109,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,18 +122,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/application/index/controller/Service.php` | High
-2 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+1 | File | `/Admin/consulting_detail.php` | High
+2 | File | `/boafrm/formIpQoS` | High
 3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/cgi-bin/qcmap_auth` | High
+4 | File | `/conf/` | Low
 5 | File | `/emloyee_akpoly/Account/login.php` | High
 6 | File | `/etc/shadow.sample` | High
-7 | File | `/group1/uploa` | High
-8 | File | `/lms/classes/Master.php?f=save_record` | High
-9 | File | `/ndmComponents.js` | High
-10 | ... | ... | ...
+7 | File | `/lms/classes/Master.php?f=save_record` | High
+8 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -183,4 +182,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

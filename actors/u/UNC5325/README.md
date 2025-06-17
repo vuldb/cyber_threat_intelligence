@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -54,14 +54,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-3 | File | `/index/ajax/lang` | High
-4 | File | `/spip.php` | Medium
-5 | File | `/var/backup/tower` | High
-6 | File | `adclick.php` | Medium
-7 | ... | ... | ...
+2 | File | `/api/programs/orgUnits?programs` | High
+3 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+4 | File | `/index/ajax/lang` | High
+5 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/trackedEntityInstances` | High
+8 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

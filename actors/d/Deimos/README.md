@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Deimos:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [PK](https://vuldb.com/?country.pk)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -154,10 +154,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
@@ -170,52 +170,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
-2 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-3 | File | `/admin/?setting-base.htm` | High
-4 | File | `/admin/list_resource_icon.php?action=delete` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/order.php` | High
-7 | File | `/admin/singlelogin.php` | High
-8 | File | `/admin/upload.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/ajax/check_medicine_name.php` | High
-11 | File | `/animalsupdate.php` | High
-12 | File | `/api/blade-user/export-user` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/auth/session` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/bcms/admin/?page=user/manage_user` | High
-19 | File | `/bin/sh` | Low
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/ExportAllSettings.sh` | High
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-26 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-27 | File | `/CPE` | Low
-28 | File | `/dashboard/message` | High
-29 | File | `/dus/fotos_grafiken/index.php` | High
-30 | File | `/dus/shopliste/index.php` | High
-31 | File | `/dus_en/medieninfo_detail/index.php` | High
-32 | File | `/edit.php` | Medium
-33 | File | `/fudforum/adm/hlplist.php` | High
-34 | File | `/goform/ate` | Medium
-35 | File | `/goform/setMacFilterCfg` | High
-36 | File | `/goform/SetNetControlList` | High
-37 | File | `/goform/WizardHandle` | High
-38 | File | `/group1/uploa` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?c=api` | High
-41 | File | `/Interface/DevManage/VM.php` | High
-42 | File | `/link/` | Low
-43 | File | `/list` | Low
-44 | File | `/login` | Low
-45 | ... | ... | ...
+2 | File | `/activation.php` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+5 | File | `/admin/?page=reports` | High
+6 | File | `/admin/?setting-base.htm` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/template_admin.php` | High
+13 | File | `/admin/upload.php` | High
+14 | File | `/adminapi/system/crud` | High
+15 | File | `/ajax/check_medicine_name.php` | High
+16 | File | `/animalsupdate.php` | High
+17 | File | `/api/blade-user/export-user` | High
+18 | File | `/api/stl/actions/search` | High
+19 | File | `/api/sys/login` | High
+20 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+21 | File | `/api/v1/terminal/sessions/?limit=1` | High
+22 | File | `/auth/session` | High
+23 | File | `/b2b-supermarket/shopping-cart` | High
+24 | File | `/bcms/admin/?page=user/manage_user` | High
+25 | File | `/bin/sh` | Low
+26 | File | `/book_list.php` | High
+27 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+28 | File | `/cgi-bin/adm.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/ExportAllSettings.sh` | High
+31 | File | `/cgi-bin/kerbynet` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/SystemSettings.php?f=update_settings` | High
+34 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+35 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+36 | File | `/config` | Low
+37 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+38 | File | `/CPE` | Low
+39 | File | `/goform/ate` | Medium
+40 | File | `/goform/setMacFilterCfg` | High
+41 | File | `/goform/SetNetControlList` | High
+42 | File | `/goform/SysToolReboot` | High
+43 | File | `/goform/WizardHandle` | High
+44 | File | `/Home/JS_CarregaCombo?formName=DADOS_PESSOAIS_PLANO&additionalCondition=&insideParameters=&elementToReturn=DADOS_PESSOAIS_PLANO&ordenarPelaDescricao=true&direcaoOrdenacao=asc&_=1739290047295` | High
+45 | File | `/index.php` | Medium
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -837,4 +838,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

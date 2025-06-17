@@ -27,7 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
@@ -44,7 +44,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/_vti_bin/_vti_log` | High
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,4 +61,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

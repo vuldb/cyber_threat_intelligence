@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -53,19 +53,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/products/controller.php?action=add` | High
 4 | File | `/admin/question/edit` | High
 5 | File | `/api/` | Low
-6 | File | `/bifs/field_decode.c` | High
-7 | File | `/bin/proc.cgi` | High
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/Core/Ap4File.cpp` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/DXR.axd` | Medium
-14 | File | `/index.php` | Medium
-15 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-16 | ... | ... | ...
+6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+7 | File | `/bifs/field_decode.c` | High
+8 | File | `/bin/proc.cgi` | High
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/Core/Ap4File.cpp` | High
+12 | File | `/csms/?page=contact_us` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/DXR.axd` | Medium
+15 | File | `/hospital/hms/admin/manage-doctors.php` | High
+16 | File | `/index.php` | Medium
+17 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

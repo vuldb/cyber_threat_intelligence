@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,34 +56,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-profile.php` | High
-2 | File | `/admin/DBbackup/` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/classes/Master.php?f=delete_schedule` | High
-5 | File | `/controller/OnlinePreviewController.java` | High
-6 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-7 | File | `/etc/init0.d/S80telnetd.sh` | High
-8 | File | `/etc/srapi/config/system.conf` | High
-9 | File | `/etc/sysconfig/tomcat` | High
-10 | File | `/goform/exeCommand` | High
-11 | File | `/goform/SafeEmailFilter` | High
-12 | File | `/goform/setMAC` | High
-13 | File | `/goform/wifiSSIDget` | High
-14 | File | `/hrm/controller/employee.php` | High
-15 | File | `/htmldoc/htmldoc/html.cxx` | High
-16 | File | `/includes/create_share.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-19 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-20 | File | `/leave_system/classes/Users.php?f=save` | High
-21 | File | `/net-banking/manage_customers.php` | High
-22 | File | `/novel/bookSetting/list` | High
-23 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-24 | File | `/release-x64/otfccdump+0x6c0a32` | High
-25 | File | `/release-x64/otfccdump+0x703969` | High
-26 | ... | ... | ...
+1 | File | `/add-table.php` | High
+2 | File | `/admin-api/bpm/model/deploy` | High
+3 | File | `/admin-api/infra/file/upload` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/admin_login.php` | High
+6 | File | `/admin/all-request.php` | High
+7 | File | `/admin/app/role_crud.php` | High
+8 | File | `/admin/app/web_crud.php` | High
+9 | File | `/admin/booking-details.php` | High
+10 | File | `/admin/carousels/save` | High
+11 | File | `/admin/check_availability.php` | High
+12 | File | `/admin/DBbackup/` | High
+13 | File | `/admin/goods/update` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/print1.php` | High
+16 | File | `/admin/upload/upimage.html` | High
+17 | File | `/ajax_state.php` | High
+18 | File | `/bin/boa` | Medium
+19 | File | `/Blood/A-.php` | High
+20 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+21 | File | `/check_availability.php` | High
+22 | File | `/classes/Master.php?f=delete_schedule` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/controller/OnlinePreviewController.java` | High
+26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+27 | File | `/download-medical-cards.php` | High
+28 | File | `/etc/srapi/config/system.conf` | High
+29 | File | `/etc/sysconfig/tomcat` | High
+30 | File | `/extensions/realestate/index.php/agents/agent-register/addagent` | High
+31 | File | `/goform/exeCommand` | High
+32 | File | `/goform/GetIPTV` | High
+33 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

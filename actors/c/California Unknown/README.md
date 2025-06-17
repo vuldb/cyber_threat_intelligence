@@ -158,29 +158,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/booking-bwdates-reports-details.php` | High
+1 | File | `/admin/create_product.php` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
 3 | File | `/admin/manage_station.php` | High
-4 | File | `/admin/operations/expense_category.php` | High
-5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-6 | File | `/app/Http/Controllers/ImageController.php` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/attendancelist.php` | High
-9 | File | `/backend/register.php` | High
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/p1_ftpserver.php` | High
-14 | File | `/cgi-bin/tosei_kikai.php` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/SystemSettings.php?f=update_settings` | High
-18 | File | `/classes/Users.php?f=delete` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/control/register_case.php` | High
-21 | ... | ... | ...
+4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/attendancelist.php` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/backend/admin/his_admin_register_patient.php` | High
+9 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/classes/SystemSettings.php?f=update_settings` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/foms/routers/place-order.php` | High
+18 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -197,4 +194,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

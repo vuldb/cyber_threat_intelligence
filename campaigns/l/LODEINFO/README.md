@@ -21,8 +21,8 @@ These _actors_ are associated with LODEINFO or other actors linked to the campai
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | High
-2 | [APT10](https://vuldb.com/?actor.apt10) | High
+1 | [APT10](https://vuldb.com/?actor.apt10) | High
+2 | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | High
 3 | [Earth Kasha](https://vuldb.com/?actor.earth_kasha) | High
 
 ## IOC - Indicator of Compromise
@@ -33,7 +33,7 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.8.95.174](https://vuldb.com/?ip.5.8.95.174) | sei809753.example.com | [APT10](https://vuldb.com/?actor.apt10) | High
 2 | [45.67.231.169](https://vuldb.com/?ip.45.67.231.169) | vm377031.pq.hosting | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | High
-3 | [45.76.197.236](https://vuldb.com/?ip.45.76.197.236) | 45.76.197.236.vultrusercontent.com | [Earth Kasha](https://vuldb.com/?actor.earth_kasha) | Medium
+3 | [45.76.197.236](https://vuldb.com/?ip.45.76.197.236) | 45.76.197.236.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
 4 | [45.76.216.40](https://vuldb.com/?ip.45.76.216.40) | 45.76.216.40.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
 5 | [45.76.222.130](https://vuldb.com/?ip.45.76.222.130) | 45.76.222.130.vultrusercontent.com | [Lodeinfo](https://vuldb.com/?actor.lodeinfo) | Medium
 6 | [45.77.28.124](https://vuldb.com/?ip.45.77.28.124) | 45.77.28.124.vultrusercontent.com | [APT10](https://vuldb.com/?actor.apt10) | Medium
@@ -86,7 +86,7 @@ ID | Type | Indicator | Confidence
 22 | File | `/include/helpers/upload.helper.php` | High
 23 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

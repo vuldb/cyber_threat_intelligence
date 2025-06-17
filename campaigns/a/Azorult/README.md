@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,8 +21,8 @@ These _actors_ are associated with Azorult or other actors linked to the campaig
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Ramnit](https://vuldb.com/?actor.ramnit) | High
-2 | [Azorult](https://vuldb.com/?actor.azorult) | High
+1 | [Azorult](https://vuldb.com/?actor.azorult) | High
+2 | [Ramnit](https://vuldb.com/?actor.ramnit) | High
 3 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
 4 | ... | ...
 
@@ -89,46 +89,47 @@ ID | IP address | Hostname | Actor | Confidence
 53 | [23.249.162.26](https://vuldb.com/?ip.23.249.162.26) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
 54 | [23.249.162.163](https://vuldb.com/?ip.23.249.162.163) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
 55 | [31.148.220.50](https://vuldb.com/?ip.31.148.220.50) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-56 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
-57 | [35.228.218.42](https://vuldb.com/?ip.35.228.218.42) | 42.218.228.35.bc.googleusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
-58 | [37.0.10.51](https://vuldb.com/?ip.37.0.10.51) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-59 | [37.44.212.156](https://vuldb.com/?ip.37.44.212.156) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-60 | [37.46.150.14](https://vuldb.com/?ip.37.46.150.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-61 | [37.49.225.167](https://vuldb.com/?ip.37.49.225.167) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-62 | [37.49.225.178](https://vuldb.com/?ip.37.49.225.178) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-63 | [37.49.225.194](https://vuldb.com/?ip.37.49.225.194) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-64 | [37.72.175.157](https://vuldb.com/?ip.37.72.175.157) | 37-72-175-157.static.hvvc.us | [Azorult](https://vuldb.com/?actor.azorult) | High
-65 | [37.97.190.174](https://vuldb.com/?ip.37.97.190.174) | 37-97-190-174.colo.transip.net | [Azorult](https://vuldb.com/?actor.azorult) | High
-66 | [37.140.192.153](https://vuldb.com/?ip.37.140.192.153) | scp59.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
-67 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
-68 | [38.68.39.209](https://vuldb.com/?ip.38.68.39.209) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-69 | [45.14.50.207](https://vuldb.com/?ip.45.14.50.207) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-70 | [45.56.89.165](https://vuldb.com/?ip.45.56.89.165) | 45-56-89-165.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-71 | [45.56.100.248](https://vuldb.com/?ip.45.56.100.248) | 45-56-100-248.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-72 | [45.56.106.128](https://vuldb.com/?ip.45.56.106.128) | 45-56-106-128.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-73 | [45.67.14.179](https://vuldb.com/?ip.45.67.14.179) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-74 | [45.67.14.181](https://vuldb.com/?ip.45.67.14.181) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-75 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
-76 | [45.80.149.68](https://vuldb.com/?ip.45.80.149.68) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-77 | [45.81.226.17](https://vuldb.com/?ip.45.81.226.17) | vm4511296.34ssd.had.wf | [Azorult](https://vuldb.com/?actor.azorult) | High
-78 | [45.88.78.37](https://vuldb.com/?ip.45.88.78.37) | free.example.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-79 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1271478.hosted-by-itldc.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-80 | [45.95.147.64](https://vuldb.com/?ip.45.95.147.64) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-81 | [45.95.168.162](https://vuldb.com/?ip.45.95.168.162) | server2.allianttgroup.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-82 | [45.137.22.58](https://vuldb.com/?ip.45.137.22.58) | hosted-by.rootlayer.net | [Azorult](https://vuldb.com/?actor.azorult) | High
-83 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-84 | [45.140.146.18](https://vuldb.com/?ip.45.140.146.18) | node.28 | [Azorult](https://vuldb.com/?actor.azorult) | High
-85 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
-86 | [45.145.185.26](https://vuldb.com/?ip.45.145.185.26) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-87 | [45.145.185.73](https://vuldb.com/?ip.45.145.185.73) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-88 | [45.145.185.111](https://vuldb.com/?ip.45.145.185.111) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-89 | [45.145.185.253](https://vuldb.com/?ip.45.145.185.253) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-90 | [45.147.228.74](https://vuldb.com/?ip.45.147.228.74) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-91 | [45.147.230.200](https://vuldb.com/?ip.45.147.230.200) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-92 | [45.153.203.81](https://vuldb.com/?ip.45.153.203.81) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-93 | ... | ... | ... | ...
+56 | [31.220.52.8](https://vuldb.com/?ip.31.220.52.8) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+57 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
+58 | [35.228.218.42](https://vuldb.com/?ip.35.228.218.42) | 42.218.228.35.bc.googleusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
+59 | [37.0.10.51](https://vuldb.com/?ip.37.0.10.51) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+60 | [37.44.212.156](https://vuldb.com/?ip.37.44.212.156) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+61 | [37.46.150.14](https://vuldb.com/?ip.37.46.150.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+62 | [37.49.225.167](https://vuldb.com/?ip.37.49.225.167) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+63 | [37.49.225.178](https://vuldb.com/?ip.37.49.225.178) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+64 | [37.49.225.194](https://vuldb.com/?ip.37.49.225.194) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+65 | [37.72.175.157](https://vuldb.com/?ip.37.72.175.157) | 37-72-175-157.static.hvvc.us | [Azorult](https://vuldb.com/?actor.azorult) | High
+66 | [37.97.190.174](https://vuldb.com/?ip.37.97.190.174) | 37-97-190-174.colo.transip.net | [Azorult](https://vuldb.com/?actor.azorult) | High
+67 | [37.140.192.153](https://vuldb.com/?ip.37.140.192.153) | scp59.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
+68 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
+69 | [38.68.39.209](https://vuldb.com/?ip.38.68.39.209) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+70 | [45.14.50.207](https://vuldb.com/?ip.45.14.50.207) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+71 | [45.56.89.165](https://vuldb.com/?ip.45.56.89.165) | 45-56-89-165.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+72 | [45.56.100.248](https://vuldb.com/?ip.45.56.100.248) | 45-56-100-248.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+73 | [45.56.106.128](https://vuldb.com/?ip.45.56.106.128) | 45-56-106-128.ip.linodeusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+74 | [45.67.14.179](https://vuldb.com/?ip.45.67.14.179) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+75 | [45.67.14.181](https://vuldb.com/?ip.45.67.14.181) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+76 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
+77 | [45.80.149.68](https://vuldb.com/?ip.45.80.149.68) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+78 | [45.81.226.17](https://vuldb.com/?ip.45.81.226.17) | vm4511296.34ssd.had.wf | [Azorult](https://vuldb.com/?actor.azorult) | High
+79 | [45.88.78.37](https://vuldb.com/?ip.45.88.78.37) | free.example.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+80 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1271478.hosted-by-itldc.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+81 | [45.95.147.64](https://vuldb.com/?ip.45.95.147.64) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+82 | [45.95.168.162](https://vuldb.com/?ip.45.95.168.162) | server2.allianttgroup.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+83 | [45.137.22.58](https://vuldb.com/?ip.45.137.22.58) | hosted-by.rootlayer.net | [Azorult](https://vuldb.com/?actor.azorult) | High
+84 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+85 | [45.140.146.18](https://vuldb.com/?ip.45.140.146.18) | node.28 | [Azorult](https://vuldb.com/?actor.azorult) | High
+86 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
+87 | [45.145.185.26](https://vuldb.com/?ip.45.145.185.26) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+88 | [45.145.185.73](https://vuldb.com/?ip.45.145.185.73) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+89 | [45.145.185.111](https://vuldb.com/?ip.45.145.185.111) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+90 | [45.145.185.253](https://vuldb.com/?ip.45.145.185.253) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+91 | [45.147.228.74](https://vuldb.com/?ip.45.147.228.74) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+92 | [45.147.230.200](https://vuldb.com/?ip.45.147.230.200) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+93 | [45.153.203.81](https://vuldb.com/?ip.45.153.203.81) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+94 | ... | ... | ... | ...
 
-There are 366 more IOC items available. Please use our online service to access the data.
+There are 372 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -136,14 +137,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -151,51 +153,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/add-students.php` | High
-3 | File | `/addstock.php` | High
-4 | File | `/add_new_supplier.php` | High
-5 | File | `/admin/?page=reports` | High
-6 | File | `/admin/?page=system_info/contact_info` | High
-7 | File | `/admin/add_ikev2.php` | High
-8 | File | `/admin/book-details.php` | High
-9 | File | `/admin/category_save.php` | High
-10 | File | `/admin/edit-brand.php` | High
-11 | File | `/admin/file_manager/export` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/list_ipAddressPolicy.php` | High
-15 | File | `/admin/manage_model.php` | High
-16 | File | `/admin/manage_user.php` | High
-17 | File | `/admin/massage.php` | High
-18 | File | `/admin/pages/list` | High
-19 | File | `/admin/password-recovery.php` | High
-20 | File | `/admin/profile.php` | High
-21 | File | `/admin/subject.php` | High
-22 | File | `/admin/system.html` | High
-23 | File | `/animalsupdate.php` | High
-24 | File | `/api/cron/settings/setJob/` | High
-25 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-26 | File | `/api2/html/` | Medium
-27 | File | `/app/admin/controller/api/Plugs.php` | High
-28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-29 | File | `/catalog/all-products` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/ExportSettings.sh` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/myMusic.cgi` | High
-34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-35 | File | `/classes/Master.php?f=save_medicine` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-38 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-39 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-40 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-41 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-42 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-43 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/add-students.php` | High
+4 | File | `/addstock.php` | High
+5 | File | `/add_new_supplier.php` | High
+6 | File | `/adfs/ls` | Medium
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/?page=reports` | High
+9 | File | `/admin/?page=system_info/contact_info` | High
+10 | File | `/admin/add_ikev2.php` | High
+11 | File | `/admin/betweendates-detailsreports.php` | High
+12 | File | `/admin/book-details.php` | High
+13 | File | `/admin/category_save.php` | High
+14 | File | `/admin/create_product.php` | High
+15 | File | `/admin/edit-brand.php` | High
+16 | File | `/admin/file_manager/export` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/list_ipAddressPolicy.php` | High
+20 | File | `/admin/manage_model.php` | High
+21 | File | `/admin/manage_user.php` | High
+22 | File | `/admin/massage.php` | High
+23 | File | `/admin/network/ajax_getChannelList` | High
+24 | File | `/admin/pages/list` | High
+25 | File | `/admin/password-recovery.php` | High
+26 | File | `/admin/profile.php` | High
+27 | File | `/admin/search-vehicle.php` | High
+28 | File | `/admin/subject.php` | High
+29 | File | `/admin/system.html` | High
+30 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+31 | File | `/admin/twitter.php` | High
+32 | File | `/admin_topic.php?action=delall` | High
+33 | File | `/animalsupdate.php` | High
+34 | File | `/api/cron/settings/setJob/` | High
+35 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+36 | File | `/api/v1/settings` | High
+37 | File | `/api/v1/toolbox/device/update/swap` | High
+38 | File | `/api/wizard/networkSetup` | High
+39 | File | `/api2/html/` | Medium
+40 | File | `/app/admin/controller/api/Plugs.php` | High
+41 | File | `/app/zentao/module/repo/model.php` | High
+42 | File | `/b2b-supermarket/catalog/all-products` | High
+43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+44 | File | `/bin/httpd` | Medium
+45 | File | `/bitrix/admin/ldap_server_edit.php` | High
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/ExportSettings.sh` | High
+48 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+49 | File | `/cgi-bin/myMusic.cgi` | High
+50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+51 | File | `/cgi-bin/system_mgr.cgi` | High
+52 | File | `/classes/Master.php?f=save_medicine` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+55 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+56 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+57 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+58 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+59 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -206,6 +224,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/1609eb4e44b1fa7f776e21ba522d7a83aa473df55e75fd7c49485685f09a6653/
 * https://bazaar.abuse.ch/sample/7897cbf57b2a25446cedc1995c9950478a2c371c99ef87a0c82c7544742925f8/
 * https://bazaar.abuse.ch/sample/c157531bb4d14cd35fc3ffe2a62fdd292f8e16566c663dcfbf083d75c4a94773/
+* https://bazaar.abuse.ch/sample/cfc18a036f28fc7a233ed8daaf747998a84b66fe3bd91d5decc45d61f1e45382/
 * https://bazaar.abuse.ch/sample/d0549673b20a4041c1d1bfbdd841b0b768fefa6057f6a4203d54d0694f270cff/
 * https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
@@ -232,4 +251,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XtremeRAT:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,12 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-40, CWE-44 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -61,54 +62,78 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
-2 | File | `/admin/ajax.php?action=login` | High
-3 | File | `/admin/forgot-password.php` | High
-4 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/adminPage/conf/reload` | High
-8 | File | `/api/runscript` | High
-9 | File | `/api/snapshots/` | High
-10 | File | `/api/v1/snapshots` | High
-11 | File | `/api/v2/maps` | Medium
-12 | File | `/apply/index.php` | High
-13 | File | `/candidate/index.php` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/cpaddons_report.pl` | High
-18 | File | `/classes/SystemSettings.php?f=update_settings` | High
-19 | File | `/common/dict/list` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-22 | File | `/endpoint/add-calorie.php` | High
-23 | File | `/endpoint/add-timesheet.php` | High
-24 | File | `/etc/init.d/update_notifications.sh` | High
-25 | File | `/foms/routers/place-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/geoserver/gwc/rest.html` | High
-28 | File | `/goform/DhcpListClient` | High
-29 | File | `/hrm/leaverequest.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index/ajax/lang` | High
-32 | File | `/install/` | Medium
-33 | File | `/Interface/DevManage/VM.php` | High
-34 | File | `/logs` | Low
-35 | File | `/main/webservices/additional_webservices.php` | High
-36 | File | `/music/ajax.php?action=save_music` | High
-37 | File | `/ndmComponents.js` | High
-38 | File | `/net/bluetooth/rfcomm/core.C` | High
-39 | File | `/PC/WebService.asmx` | High
-40 | File | `/pdf` | Low
-41 | File | `/queue/join` | Medium
-42 | File | `/register.php` | High
-43 | File | `/registrar/` | Medium
-44 | File | `/remote/put_file` | High
-45 | File | `/routers/add-ticket.php` | High
-46 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
+2 | File | `%PROGRAMDATA%\WrData\PKG` | High
+3 | File | `/addcompany.php` | High
+4 | File | `/admin-cp/plugin/install` | High
+5 | File | `/admin.php/appcenter/local.html?type=addon` | High
+6 | File | `/admin/add-property.php` | High
+7 | File | `/admin/admin_editor.php` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/ad_list.php?action=pass` | High
+10 | File | `/admin/booking-bwdates-reports-details.php` | High
+11 | File | `/admin/case-status` | High
+12 | File | `/admin/category.php` | High
+13 | File | `/admin/category/add.do` | High
+14 | File | `/admin/change-password.php` | High
+15 | File | `/admin/check_admin.php` | High
+16 | File | `/admin/company/index.php` | High
+17 | File | `/Admin/createClass.php` | High
+18 | File | `/admin/create_product.php` | High
+19 | File | `/Admin/CustomerReport.php` | High
+20 | File | `/admin/edit-artist-detail.php?editid=1` | High
+21 | File | `/admin/edit_area.php` | High
+22 | File | `/admin/edit_role.php` | High
+23 | File | `/admin/file/delete.do` | High
+24 | File | `/admin/group` | Medium
+25 | File | `/admin/index.php` | High
+26 | File | `/admin/indexConfigs/update` | High
+27 | File | `/admin/makehtml_freelist_action.php` | High
+28 | File | `/admin/reports/index.php` | High
+29 | File | `/admin/request-received-bydonar.php` | High
+30 | File | `/admin/reservation_view.php` | High
+31 | File | `/admin/sales/index.php` | High
+32 | File | `/admin/search.php` | High
+33 | File | `/admin/team_update.php` | High
+34 | File | `/admin/updatestudent.php` | High
+35 | File | `/admin/user/manage_user.php` | High
+36 | File | `/admin/user_save.php` | High
+37 | File | `/adpweb/wechat/verifyToken/` | High
+38 | File | `/ajax.php?action=login` | High
+39 | File | `/ajax.php?action=save_membership` | High
+40 | File | `/api/client/editemedia.php` | High
+41 | File | `/api/comment/add` | High
+42 | File | `/api/Common/uploadFile` | High
+43 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
+44 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+45 | File | `/api/wizard/setsyncpppoecfg` | High
+46 | File | `/apps/system/router/upload.go` | High
+47 | File | `/auth/userkey/logout.php` | High
+48 | File | `/bin/boa` | Medium
+49 | File | `/boafrm/formFilter` | High
+50 | File | `/boafrm/formReflashClientTbl` | High
+51 | File | `/book_edit_do.html` | High
+52 | File | `/bsenordering/index.php` | High
+53 | File | `/bwdates-reports-details.php` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+56 | File | `/cgi-bin/touchlist_sync.cgi` | High
+57 | File | `/checkout` | Medium
+58 | File | `/classes/Login.php` | High
+59 | File | `/cms/smf/Sources/ManageMembers.php` | High
+60 | File | `/company/service/increment/add/im` | High
+61 | File | `/confirmbooking.php` | High
+62 | File | `/contract` | Medium
+63 | File | `/control/login.php` | High
+64 | File | `/currentsetting.htm` | High
+65 | File | `/Default/Bd` | Medium
+66 | File | `/download-medical-cards.php` | High
+67 | File | `/Employee/edit-profile.php` | High
+68 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+69 | File | `/film-rating.php` | High
+70 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 611 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +159,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

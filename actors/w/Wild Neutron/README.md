@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wild Neutron:
 
 * [NL](https://vuldb.com/?country.nl)
+* [CN](https://vuldb.com/?country.cn)
 * [OM](https://vuldb.com/?country.om)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
@@ -50,33 +50,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/hardware` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/replication` | Medium
-19 | File | `/RestAPI` | Medium
-20 | File | `/tmp/speedtest_urls.xml` | High
-21 | File | `/tmp/zarafa-vacation-*` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/uploadeditor.html?action=uploadimage` | High
-25 | File | `/user/loader.php?api=1` | High
-26 | File | `/var/log/nginx` | High
-27 | ... | ... | ...
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/api/front/search/books` | High
+7 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+8 | File | `/application/index/controller/Screen.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/export` | Low
+13 | File | `/file?action=download&file` | High
+14 | File | `/goform/aspForm` | High
+15 | File | `/hardware` | Medium
+16 | File | `/index.php/upload/upload_file/1/1` | High
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/medical/inventories.php` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/plugin/LiveChat/getChat.json.php` | High
+22 | File | `/plugins/servlet/audit/resource` | High
+23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+24 | File | `/replication` | Medium
+25 | File | `/RestAPI` | Medium
+26 | File | `/tmp/speedtest_urls.xml` | High
+27 | File | `/tmp/zarafa-vacation-*` | High
+28 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

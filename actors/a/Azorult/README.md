@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,9 +111,10 @@ ID | IP address | Hostname | Campaign | Confidence
 88 | [45.147.230.200](https://vuldb.com/?ip.45.147.230.200) | - | - | High
 89 | [45.153.203.81](https://vuldb.com/?ip.45.153.203.81) | - | - | High
 90 | [45.156.22.167](https://vuldb.com/?ip.45.156.22.167) | - | - | High
-91 | ... | ... | ... | ...
+91 | [46.17.43.102](https://vuldb.com/?ip.46.17.43.102) | - | - | High
+92 | ... | ... | ... | ...
 
-There are 358 more IOC items available. Please use our online service to access the data.
+There are 363 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,13 +122,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -137,42 +140,64 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/add-students.php` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/admin/add_ikev2.php` | High
-5 | File | `/admin/category_save.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/manage_model.php` | High
-10 | File | `/admin/manage_user.php` | High
-11 | File | `/admin/pages/list` | High
-12 | File | `/admin/password-recovery.php` | High
-13 | File | `/admin/subject.php` | High
-14 | File | `/admin/system.html` | High
-15 | File | `/api/cron/settings/setJob/` | High
-16 | File | `/api2/html/` | Medium
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/catalog/all-products` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-21 | File | `/cgi-bin/myMusic.cgi` | High
-22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/classes/Master.php?f=save_medicine` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-26 | File | `/edit-subject.php` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/endpoint/delete-account.php` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/foms/routers/place-order.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/formdumpeasysetup` | High
-33 | File | `/goform/SetLEDCfg` | High
-34 | File | `/goform/setMacFilterCfg` | High
-35 | File | `/goform/SetRemoteWebCfg` | High
-36 | ... | ... | ...
+3 | File | `/addstock.php` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/?page=reports` | High
+7 | File | `/admin/?page=system_info/contact_info` | High
+8 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/book-details.php` | High
+10 | File | `/admin/category_save.php` | High
+11 | File | `/admin/create_product.php` | High
+12 | File | `/admin/edit-brand.php` | High
+13 | File | `/admin/file_manager/export` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index2.html` | High
+16 | File | `/admin/list_ipAddressPolicy.php` | High
+17 | File | `/admin/manage_model.php` | High
+18 | File | `/admin/manage_user.php` | High
+19 | File | `/admin/massage.php` | High
+20 | File | `/admin/network/ajax_getChannelList` | High
+21 | File | `/admin/pages/list` | High
+22 | File | `/admin/password-recovery.php` | High
+23 | File | `/admin/profile.php` | High
+24 | File | `/admin/search-vehicle.php` | High
+25 | File | `/admin/subject.php` | High
+26 | File | `/admin/system.html` | High
+27 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+28 | File | `/admin/twitter.php` | High
+29 | File | `/admin_topic.php?action=delall` | High
+30 | File | `/animalsupdate.php` | High
+31 | File | `/api/cron/settings/setJob/` | High
+32 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+33 | File | `/api/v1/toolbox/device/update/swap` | High
+34 | File | `/api/wizard/networkSetup` | High
+35 | File | `/api2/html/` | Medium
+36 | File | `/app/admin/controller/api/Plugs.php` | High
+37 | File | `/app/zentao/module/repo/model.php` | High
+38 | File | `/b2b-supermarket/catalog/all-products` | High
+39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+40 | File | `/bin/httpd` | Medium
+41 | File | `/bitrix/admin/ldap_server_edit.php` | High
+42 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/ExportSettings.sh` | High
+45 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+46 | File | `/cgi-bin/myMusic.cgi` | High
+47 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+48 | File | `/cgi-bin/system_mgr.cgi` | High
+49 | File | `/classes/Master.php?f=save_medicine` | High
+50 | File | `/classes/Users.php?f=save` | High
+51 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+52 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+53 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+54 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+55 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+56 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+57 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+58 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -183,6 +208,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/1609eb4e44b1fa7f776e21ba522d7a83aa473df55e75fd7c49485685f09a6653/
 * https://bazaar.abuse.ch/sample/7897cbf57b2a25446cedc1995c9950478a2c371c99ef87a0c82c7544742925f8/
 * https://bazaar.abuse.ch/sample/c157531bb4d14cd35fc3ffe2a62fdd292f8e16566c663dcfbf083d75c4a94773/
+* https://bazaar.abuse.ch/sample/cfc18a036f28fc7a233ed8daaf747998a84b66fe3bd91d5decc45d61f1e45382/
+* https://bazaar.abuse.ch/sample/d0549673b20a4041c1d1bfbdd841b0b768fefa6057f6a4203d54d0694f270cff/
 * https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://blog.talosintelligence.com/threat-roundup-0630-0707-2/
@@ -205,4 +232,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

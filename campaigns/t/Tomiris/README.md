@@ -18,8 +18,8 @@ These _actors_ are associated with Tomiris or other actors linked to the campaig
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Tomiris](https://vuldb.com/?actor.tomiris) | High
-2 | [Nobelium](https://vuldb.com/?actor.nobelium) | High
+1 | [Nobelium](https://vuldb.com/?actor.nobelium) | High
+2 | [Tomiris](https://vuldb.com/?actor.tomiris) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +27,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [51.195.68.217](https://vuldb.com/?ip.51.195.68.217) | time1.lyhuao.com | [Nobelium](https://vuldb.com/?actor.nobelium) | High
-2 | [185.193.126.172](https://vuldb.com/?ip.185.193.126.172) | b9c17eac.host.njalla.net | [Nobelium](https://vuldb.com/?actor.nobelium) | High
-3 | [185.193.127.92](https://vuldb.com/?ip.185.193.127.92) | b9c17f5c.host.njalla.net | [Nobelium](https://vuldb.com/?actor.nobelium) | High
+1 | [51.195.68.217](https://vuldb.com/?ip.51.195.68.217) | time1.lyhuao.com | [Tomiris](https://vuldb.com/?actor.tomiris) | High
+2 | [185.193.126.172](https://vuldb.com/?ip.185.193.126.172) | b9c17eac.host.njalla.net | [Tomiris](https://vuldb.com/?actor.tomiris) | High
+3 | [185.193.127.92](https://vuldb.com/?ip.185.193.127.92) | arbf.io | [Tomiris](https://vuldb.com/?actor.tomiris) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-23 | Path Traversal | High
-2 | T1059.007 | CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,11 +51,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/manage_user.php` | High
-2 | File | `/cgi-bin/webadminget.cgi` | High
-3 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-4 | ... | ... | ...
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/cgi-bin/webadminget.cgi` | High
+4 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+5 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

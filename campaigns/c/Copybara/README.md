@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [46.249.35.219](https://vuldb.com/?ip.46.249.35.219) | amztact.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [80.251.153.96](https://vuldb.com/?ip.80.251.153.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [92.255.85.200](https://vuldb.com/?ip.92.255.85.200) | - | [Copybara](https://vuldb.com/?actor.copybara) | High
+1 | [45.86.231.15](https://vuldb.com/?ip.45.86.231.15) | - | [Copybara](https://vuldb.com/?actor.copybara) | High
+2 | [46.249.35.219](https://vuldb.com/?ip.46.249.35.219) | amztact.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [80.251.153.96](https://vuldb.com/?ip.80.251.153.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,20 +59,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/index.php` | High
-3 | File | `/category.php` | High
-4 | File | `/cgi-bin/delete_CA` | High
-5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/download` | Medium
-7 | File | `/get_getnetworkconf.cgi` | High
-8 | File | `/GponForm/device_Form?script/` | High
-9 | File | `/includes/rrdtool.inc.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/login.php` | Medium
-12 | File | `/Main_AdmStatus_Content.asp` | High
-13 | File | `/NAGErrors` | Medium
-14 | ... | ... | ...
+3 | File | `/api/system/cluster_config/` | High
+4 | File | `/category.php` | High
+5 | File | `/cgi-bin/delete_CA` | High
+6 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+7 | File | `/download` | Medium
+8 | File | `/get_getnetworkconf.cgi` | High
+9 | File | `/GponForm/device_Form?script/` | High
+10 | File | `/includes/rrdtool.inc.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/login.php` | Medium
+13 | File | `/Main_AdmStatus_Content.asp` | High
+14 | File | `/NAGErrors` | Medium
+15 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

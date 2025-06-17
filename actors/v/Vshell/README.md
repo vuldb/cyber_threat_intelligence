@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [38.207.178.156](https://vuldb.com/?ip.38.207.178.156) | - | - | High
 2 | [47.74.4.13](https://vuldb.com/?ip.47.74.4.13) | - | - | High
-3 | [47.116.123.8](https://vuldb.com/?ip.47.116.123.8) | - | - | High
-4 | ... | ... | ... | ...
+3 | [47.109.178.63](https://vuldb.com/?ip.47.109.178.63) | - | - | High
+4 | [47.116.123.8](https://vuldb.com/?ip.47.116.123.8) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,28 +49,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=save_area` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/settings.php` | High
-4 | File | `/api/v1/attack/falco` | High
-5 | File | `/boaform/wlan_basic_set.cgi` | High
-6 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-7 | File | `/CMD_ACCOUNT_ADMIN` | High
-8 | File | `/E-mobile/App/System/File/downfile.php` | High
-9 | File | `/htdocs/cgibin` | High
-10 | ... | ... | ...
+1 | File | `/admin/admintools/tool.php` | High
+2 | File | `/admin/ajax.php?action=confirm_order` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/company/index.php` | High
+5 | File | `/admin/contactus.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/settings.php` | High
+8 | File | `/Ant_Suxin.php` | High
+9 | File | `/api/Common/uploadFile` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/api/sys/set_passwd` | High
+12 | File | `/api/v1/attack/falco` | High
+13 | File | `/app/ajax/search_sales_report.php` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/boaform/wlan_basic_set.cgi` | High
+16 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+17 | File | `/classes/Users.php` | High
+18 | File | `/CMD_ACCOUNT_ADMIN` | High
+19 | File | `/E-mobile/App/System/File/downfile.php` | High
+20 | File | `/HNAP1/` | Low
+21 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/47.109.178.63
+* https://search.censys.io/hosts/47.121.30.118
+* https://search.censys.io/hosts/64.69.34.217
+* https://search.censys.io/hosts/106.15.6.181
 * https://search.censys.io/hosts/110.41.53.51
 * https://search.censys.io/hosts/114.132.226.247
+* https://search.censys.io/hosts/118.31.70.79
+* https://search.censys.io/hosts/119.45.71.218
+* https://search.censys.io/hosts/123.60.135.200
+* https://search.censys.io/hosts/124.223.71.152
+* https://search.censys.io/hosts/125.65.28.180
 * https://search.censys.io/hosts/156.245.12.209
 * https://search.censys.io/hosts/156.245.12.210
 * https://search.censys.io/hosts/156.245.12.216
+* https://search.censys.io/hosts/166.108.226.235
 * https://threatfox.abuse.ch
 
 ## Literature
@@ -80,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

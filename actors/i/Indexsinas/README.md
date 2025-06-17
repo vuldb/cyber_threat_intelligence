@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,14 +287,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -302,53 +301,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-2 | File | `/admin/edit_role.php` | High
-3 | File | `/admin/fetch_product_details.php` | High
-4 | File | `/admin/forgot-password.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/order.php` | High
-7 | File | `/admin/profile.php` | High
-8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-9 | File | `/admin/template/edit` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/app/action/add_staff.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/application/models/Oqrs_model.php` | High
-14 | File | `/articles/welcome-to-your-site#comments-head` | High
-15 | File | `/auth_files/photo/` | High
-16 | File | `/bloodrequest.php` | High
-17 | File | `/calendar/minimizer/index.php` | High
-18 | File | `/CCMAdmin/serverlist.asp` | High
-19 | File | `/cgi-bin/adm.cgi` | High
-20 | File | `/cgi-bin/alexserv` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/luci/api/auth` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/ejbca/ra/cert` | High
-27 | File | `/endpoint/add-timesheet.php` | High
-28 | File | `/filemanager/upload` | High
-29 | File | `/files/` | Low
-30 | File | `/formLoginAuth.htm` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/geoserver/gwc/rest.html` | High
-34 | File | `/goform/formAdvanceSetup` | High
-35 | File | `/goform/formDeviceReboot` | High
-36 | File | `/goform/formdumpeasysetup` | High
-37 | File | `/goform/formEasySetPassword` | High
-38 | File | `/goform/formEasySetTimezone` | High
-39 | File | `/goform/formEasySetupWizard` | High
-40 | File | `/goform/formEasySetupWWConfig` | High
-41 | File | `/goform/formLogDnsquery` | High
-42 | File | `/goform/formSetDomainFilter` | High
-43 | File | `/goform/formSetEasy_Wizard` | High
-44 | File | `/goform/formSetEnableWizard` | High
-45 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/?page=categories/view_category` | High
+3 | File | `/admin/?page=maintenance/brand` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/?page=orders/view_order` | High
+6 | File | `/Admin/add-admin.php` | High
+7 | File | `/admin/add_exercises.php` | High
+8 | File | `/admin/admin-add-employee.php` | High
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/application-bwdates-reports-details.php` | High
+11 | File | `/admin/attendance_action.php` | High
+12 | File | `/admin/categories/manage_category.php` | High
+13 | File | `/admin/category.php` | High
+14 | File | `/admin/contactus.php` | High
+15 | File | `/admin/content/editor` | High
+16 | File | `/admin/edit-products.php` | High
+17 | File | `/admin/edit_role.php` | High
+18 | File | `/admin/read.php` | High
+19 | File | `/admin/report.php` | High
+20 | File | `/admin/sign/out` | High
+21 | File | `/admin/students/manage.php` | High
+22 | File | `/admin/students/view_student.php` | High
+23 | File | `/admin/subcategory.php` | High
+24 | File | `/admin/visitors-form.php` | High
+25 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+26 | File | `/api/system/meshsync/resources/kinds` | High
+27 | File | `/api/wizard/getNetworkStatus` | High
+28 | File | `/api/wizard/getWifiNeighbour` | High
+29 | File | `/application/controller/Pelanggan.php` | High
+30 | File | `/application/index/controller/Databasesource.php` | High
+31 | File | `/application/index/controller/File.php` | High
+32 | File | `/application/index/controller/Screen.php` | High
+33 | File | `/application/plugins/controller/Upload.php` | High
+34 | File | `/backup.pl` | Medium
+35 | File | `/bin/boa` | Medium
+36 | File | `/binutils/debug.c` | High
+37 | File | `/bsms_ci/index.php/book` | High
+38 | File | `/bwdates-report-result.php` | High
+39 | File | `/cardo/api` | Medium
+40 | File | `/cfg` | Low
+41 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+42 | File | `/classes/Login.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=save_category` | High
+45 | File | `/classes/Master.php?f=update_order_status` | High
+46 | File | `/company/view_be_browsed/total` | High
+47 | File | `/config` | Low
+48 | File | `/contact.php` | Medium
+49 | File | `/control/addcase_stage.php` | High
+50 | File | `/control/adds.php` | High
+51 | File | `/control/register_case.php` | High
+52 | File | `/customeredit.php` | High
+53 | File | `/employeeview.php` | High
+54 | File | `/event/admin/?page=user/list` | High
+55 | File | `/fos/admin/index.php?page=menu` | High
+56 | File | `/front/admin/tenancyDetail.php` | High
+57 | File | `/goform/aspForm` | High
+58 | File | `/goform/RgDdns` | High
+59 | File | `/goform/RgTime` | High
+60 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -365,4 +379,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

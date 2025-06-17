@@ -50,13 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,45 +68,52 @@ ID | Type | Indicator | Confidence
 2 | File | `.FBCIndex` | Medium
 3 | File | `/.vnc/sesman_${username}_passwd` | High
 4 | File | `/?page=reports` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/add_ikev2.php` | High
-7 | File | `/admin/admin-profile.php` | High
-8 | File | `/admin/admin_user.php` | High
-9 | File | `/admin/borrow_add.php` | High
-10 | File | `/admin/category_row.php` | High
-11 | File | `/admin/communitymanagement.php` | High
-12 | File | `/admin/div_data/delete?divId=9` | High
-13 | File | `/admin/emp-profile-avatar.php` | High
-14 | File | `/admin/index.php?page=categories` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/Admin/login.php` | High
-17 | File | `/admin/project/update/2` | High
-18 | File | `/admin/request-received-bydonar.php` | High
-19 | File | `/admin/students/manage.php` | High
-20 | File | `/admin/success_story.php` | High
-21 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-22 | File | `/api/v2/cli/commands` | High
-23 | File | `/boaform/device_reset.cgi` | High
-24 | File | `/boaform/wlan_basic_set.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/course/filterRecords/` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/download/image` | High
-32 | File | `/edit1.php` | Medium
-33 | File | `/Employee/edit-profile.php` | High
-34 | File | `/Employer/EditProfile.php` | High
-35 | File | `/Employer/ManageJob.php` | High
-36 | File | `/endpoint/update-computer.php` | High
-37 | File | `/firewall/policy/` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/FuguHub/cmsdocs/` | High
-40 | File | `/getcfg.php` | Medium
-41 | ... | ... | ...
+5 | File | `/academic-calendar` | High
+6 | File | `/add-notes.php` | High
+7 | File | `/add-pig.php` | Medium
+8 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/borrow_add.php` | High
+11 | File | `/admin/category_row.php` | High
+12 | File | `/admin/communitymanagement.php` | High
+13 | File | `/admin/contactus.php` | High
+14 | File | `/admin/div_data/delete?divId=9` | High
+15 | File | `/admin/edit-artist-detail.php?editid=1` | High
+16 | File | `/admin/emp-profile-avatar.php` | High
+17 | File | `/admin/goods/update` | High
+18 | File | `/admin/index.php?page=categories` | High
+19 | File | `/admin/index2.html` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/Admin/login.php` | High
+22 | File | `/admin/manage-pages.php` | High
+23 | File | `/admin/menu_update.php` | High
+24 | File | `/admin/project/update/2` | High
+25 | File | `/admin/request-received-bydonar.php` | High
+26 | File | `/admin/students/manage.php` | High
+27 | File | `/admin/success_story.php` | High
+28 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+29 | File | `/api/upload` | Medium
+30 | File | `/api/v1/settings` | High
+31 | File | `/api/v2/cli/commands` | High
+32 | File | `/billaction.php` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/chat/group/send` | High
+36 | File | `/class/edit/edit` | High
+37 | File | `/classes/Master.php` | High
+38 | File | `/classes/Users.php?f=save` | High
+39 | File | `/control/activate_case.php` | High
+40 | File | `/create-id-card` | High
+41 | File | `/data/add_employee.php` | High
+42 | File | `/debug/pprof` | Medium
+43 | File | `/directRouter.rfc` | High
+44 | File | `/dllog.cgi` | Medium
+45 | File | `/DNNGo_xBlog/Resource_Service.aspx` | High
+46 | File | `/doctor/deletepatient.php` | High
+47 | File | `/download` | Medium
+48 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,4 +137,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

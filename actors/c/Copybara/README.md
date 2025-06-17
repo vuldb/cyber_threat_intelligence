@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Copybara:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.251.153.96](https://vuldb.com/?ip.80.251.153.96) | - | - | High
-2 | [146.103.41.28](https://vuldb.com/?ip.146.103.41.28) | - | - | High
-3 | [213.109.147.35](https://vuldb.com/?ip.213.109.147.35) | - | - | High
+1 | [45.86.231.15](https://vuldb.com/?ip.45.86.231.15) | - | - | High
+2 | [80.251.153.96](https://vuldb.com/?ip.80.251.153.96) | - | - | High
+3 | [92.255.85.200](https://vuldb.com/?ip.92.255.85.200) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,7 +34,37 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 15 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Copybara. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/.env` | Low
+2 | File | `/admin/index.php` | High
+3 | File | `/api/system/cluster_config/` | High
+4 | File | `/category.php` | High
+5 | File | `/cgi-bin/delete_CA` | High
+6 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+7 | File | `/download` | Medium
+8 | File | `/get_getnetworkconf.cgi` | High
+9 | File | `/GponForm/device_Form?script/` | High
+10 | File | `/includes/rrdtool.inc.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/login.php` | Medium
+13 | File | `/Main_AdmStatus_Content.asp` | High
+14 | File | `/NAGErrors` | Medium
+15 | ... | ... | ...
+
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -46,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

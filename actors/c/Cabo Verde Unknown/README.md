@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [PT](https://vuldb.com/?country.pt)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -57,55 +57,58 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/aboutus.php` | High
 6 | File | `/admin/add-services.php` | High
 7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/lab.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/api/json/admin/getmailserversettings` | High
-16 | File | `/backend/register.php` | High
-17 | File | `/boat/login.php` | High
-18 | File | `/clinic/disease_symptoms_view.php` | High
-19 | File | `/config-manager/save` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/dashboard/table-list.php` | High
-22 | File | `/default.php?idx=17` | High
-23 | File | `/doctor/view-appointment-detail.php` | High
-24 | File | `/download` | Medium
-25 | File | `/downloadFile.php` | High
-26 | File | `/edit-client-details.php` | High
-27 | File | `/env` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/home.php` | Medium
-30 | File | `/include/file.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/member.php?action=chgpwdsubmit` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/opt/bin/cli` | Medium
-36 | File | `/p` | Low
-37 | File | `/patient/doctors.php` | High
-38 | File | `/phpinventory/editcategory.php` | High
-39 | File | `/product-list.php` | High
-40 | File | `/rest/api/2/user/picker` | High
-41 | File | `/RestAPI` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/uncpath/` | Medium
-44 | File | `/updown/upload.cgi` | High
-45 | File | `/user/del.php` | High
-46 | File | `/web_cste/cgi-bin/product.ini` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `/_next` | Low
-49 | File | `123flashchat.php` | High
-50 | File | `act.php` | Low
-51 | File | `admin.php` | Medium
-52 | File | `admin.php/pay` | High
-53 | File | `admin/bad.php` | High
-54 | ... | ... | ...
+8 | File | `/admin/create_product.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/lab.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/show.php` | High
+16 | File | `/api/json/admin/getmailserversettings` | High
+17 | File | `/api/wizard/setsyncpppoecfg` | High
+18 | File | `/backend/register.php` | High
+19 | File | `/boat/login.php` | High
+20 | File | `/clinic/disease_symptoms_view.php` | High
+21 | File | `/config-manager/save` | High
+22 | File | `/dashboard/menu-list.php` | High
+23 | File | `/dashboard/table-list.php` | High
+24 | File | `/database.php` | High
+25 | File | `/default.php?idx=17` | High
+26 | File | `/doctor/view-appointment-detail.php` | High
+27 | File | `/download` | Medium
+28 | File | `/downloadFile.php` | High
+29 | File | `/edit-client-details.php` | High
+30 | File | `/env` | Low
+31 | File | `/forum/away.php` | High
+32 | File | `/home.php` | Medium
+33 | File | `/include/file.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/librarian/bookdetails.php` | High
+36 | File | `/member.php?action=chgpwdsubmit` | High
+37 | File | `/modules/profile/index.php` | High
+38 | File | `/multi-vendor-shopping-script/product-list.php` | High
+39 | File | `/opt/bin/cli` | Medium
+40 | File | `/p` | Low
+41 | File | `/patient/doctors.php` | High
+42 | File | `/phpinventory/editcategory.php` | High
+43 | File | `/product-list.php` | High
+44 | File | `/products/view_product.php` | High
+45 | File | `/rest/api/2/user/picker` | High
+46 | File | `/RestAPI` | Medium
+47 | File | `/spip.php` | Medium
+48 | File | `/uncpath/` | Medium
+49 | File | `/updown/upload.cgi` | High
+50 | File | `/user/del.php` | High
+51 | File | `/usr/sbin/httpd` | High
+52 | File | `/web_cste/cgi-bin/product.ini` | High
+53 | File | `/wp-admin/admin-ajax.php` | High
+54 | File | `/_next` | Low
+55 | File | `123flashchat.php` | High
+56 | File | `act.php` | Low
+57 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

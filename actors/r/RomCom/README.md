@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with RomCom:
 
+* CVE-2024-9680 / CVE‑2024‑49039
 * Ukraine
 
 ## Countries
@@ -15,11 +16,11 @@ The following _campaigns_ are known and can be associated with RomCom:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RomCom:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [46.246.98.15](https://vuldb.com/?ip.46.246.98.15) | 46-246-98-15.static.glesys.net | Ukraine | High
-2 | [104.234.10.207](https://vuldb.com/?ip.104.234.10.207) | - | Ukraine | High
+1 | [45.138.74.238](https://vuldb.com/?ip.45.138.74.238) | military-giraffe.aeza.network | CVE-2024-9680 / CVE‑2024‑49039 | High
+2 | [46.226.163.67](https://vuldb.com/?ip.46.226.163.67) | meaty-thrill.aeza.network | CVE-2024-9680 / CVE‑2024‑49039 | High
+3 | [46.246.98.15](https://vuldb.com/?ip.46.246.98.15) | 46-246-98-15.static.glesys.net | Ukraine | High
+4 | ... | ... | ... | ...
+
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,9 +42,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-425 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -59,24 +65,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/update.php` | High
 9 | File | `/admin/user/manage_user.php` | High
 10 | File | `/admin_class.php` | High
-11 | File | `/api/admin/user` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/app/action/add_staff.php` | High
-14 | File | `/app/ajax/sell_return_data.php` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/classes/Master.php?f=delete_inquiry` | High
-17 | File | `/conf/app.conf` | High
-18 | File | `/dipam/athlete-profile.php` | High
-19 | File | `/forum/away.php` | High
-20 | ... | ... | ...
+11 | File | `/ajax.php?action=save_establishment` | High
+12 | File | `/api/admin/user` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/app/action/add_staff.php` | High
+15 | File | `/app/ajax/sell_return_data.php` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/classes/Master.php?f=delete_inquiry` | High
+18 | File | `/collect/PortV4/downLoad.html` | High
+19 | File | `/conf/app.conf` | High
+20 | File | `/dipam/athlete-profile.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetVirtualServerCfg` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2023/06/romcom-resurfaces-targeting-ukraine
+* https://www.welivesecurity.com/en/eset-research/romcom-exploits-firefox-and-windows-zero-days-in-the-wild/
 
 ## Literature
 
@@ -87,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

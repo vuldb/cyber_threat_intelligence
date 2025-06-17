@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -83,19 +84,19 @@ ID | Type | Indicator | Confidence
 25 | File | `/ajax-files/followBoard.php` | High
 26 | File | `/ajax-files/postComment.php` | High
 27 | File | `/ajax.php` | Medium
-28 | File | `/apps/app_comment/controller/insert.php` | High
-29 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-30 | File | `/classes/SystemSettings.php?f=update_settings` | High
-31 | File | `/employee_gatepass/classes/Users.php?f=ssave` | High
-32 | File | `/endpoint/delete-mark.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/general/meeting/manage/delete.php` | High
-35 | File | `/goform/WifiBasicSet` | High
-36 | File | `/improve/home.php` | High
-37 | File | `/inc/parser/xhtml.php` | High
+28 | File | `/app/ConfirmSmsCode` | High
+29 | File | `/apps/app_comment/controller/insert.php` | High
+30 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+31 | File | `/classes/SystemSettings.php?f=update_settings` | High
+32 | File | `/employee_gatepass/classes/Users.php?f=ssave` | High
+33 | File | `/endpoint/delete-mark.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/general/meeting/manage/delete.php` | High
+36 | File | `/goform/WifiBasicSet` | High
+37 | File | `/improve/home.php` | High
 38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

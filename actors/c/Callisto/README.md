@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -67,50 +67,50 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/` | Low
 4 | File | `/admin/?page=system_info/contact_info` | High
 5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/leancloud.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/manage-ambulance.php` | High
-10 | File | `/admin/menu/toEdit` | High
-11 | File | `/app/sys1.php` | High
-12 | File | `/bin/ate` | Medium
-13 | File | `/book-services.php` | High
-14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-15 | File | `/cgi-bin/vitogate.cgi` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/company/store` | High
-18 | File | `/conf/app.conf` | High
-19 | File | `/config/php.ini` | High
-20 | File | `/endpoint/update-bookmark.php` | High
-21 | File | `/file` | Low
-22 | File | `/forum/away.php` | High
-23 | File | `/fusion/portal/action/Link` | High
-24 | File | `/importexport.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/log/decodmail.php` | High
-27 | File | `/login` | Low
-28 | File | `/mims/login.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/net-banking/edit_customer_action.php` | High
-31 | File | `/ordering/admin/stockin/loaddata.php` | High
-32 | File | `/page.php` | Medium
-33 | File | `/patient/appointment.php` | High
-34 | File | `/php-opos/index.php` | High
-35 | File | `/portal/reports/account_statement` | High
-36 | File | `/Script/admin/core/update_policy` | High
-37 | File | `/search` | Low
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/Service/ImageStationDataService.asmx` | High
-40 | File | `/src/admin/makehtml_taglist_action.php` | High
-41 | File | `/src/admin/tags_main.php` | High
-42 | File | `/SysManage/AddUpdateRole.aspx` | High
-43 | File | `/SysManage/AddUpdateSites.aspx` | High
-44 | File | `/sysmanage/licence.php` | High
-45 | File | `/tools_command.php` | High
-46 | File | `/Upgrade/FixConfig` | High
+6 | File | `/admin/fetch_product_details.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/item/view_item.php` | High
+9 | File | `/admin/leancloud.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/manage-ambulance.php` | High
+12 | File | `/admin/menu/toEdit` | High
+13 | File | `/app/sys1.php` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/book-services.php` | High
+16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+17 | File | `/cgi-bin/vitogate.cgi` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+20 | File | `/company/store` | High
+21 | File | `/conf/app.conf` | High
+22 | File | `/config/php.ini` | High
+23 | File | `/endpoint/update-bookmark.php` | High
+24 | File | `/file` | Low
+25 | File | `/forum/away.php` | High
+26 | File | `/fusion/portal/action/Link` | High
+27 | File | `/goform/formSetMACFilter` | High
+28 | File | `/import` | Low
+29 | File | `/importexport.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/index.php/admin/web/useradmin.html` | High
+32 | File | `/index/ajax/lang` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/login` | Low
+35 | File | `/login.jsp` | Medium
+36 | File | `/mims/login.php` | High
+37 | File | `/ordering/admin/stockin/loaddata.php` | High
+38 | File | `/page.php` | Medium
+39 | File | `/patient/appointment.php` | High
+40 | File | `/photo-gallery` | High
+41 | File | `/php-opos/index.php` | High
+42 | File | `/portal/reports/account_statement` | High
+43 | File | `/Script/admin/core/update_policy` | High
+44 | File | `/search` | Low
+45 | File | `/secure/QueryComponent!Default.jspa` | High
+46 | File | `/security/addUser.jsp` | High
 47 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

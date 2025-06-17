@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT-C-01:
 
-* [RU](https://vuldb.com/?country.ru)
+* [UA](https://vuldb.com/?country.ua)
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -42,32 +47,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/add_con.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/action/edit_chicken.php` | High
-7 | File | `/admin/action/new-father.php` | High
-8 | File | `/admin/action/new-feed.php` | High
-9 | File | `/admin/action/update-deworm.php` | High
-10 | File | `/admin/admin_login_process.php` | High
-11 | File | `/admin/admin_user.php` | High
-12 | File | `/admin/book_add.php` | High
-13 | File | `/admin/book_row.php` | High
-14 | File | `/admin/borrow_add.php` | High
-15 | File | `/admin/category_row.php` | High
-16 | File | `/admin/clientview.php` | High
-17 | File | `/admin/edit_teacher.php` | High
-18 | File | `/admin/index.php?act=reset_admin_psw` | High
-19 | File | `/Admin/login.php` | High
-20 | File | `/admin/makehtml_freelist_action.php` | High
-21 | File | `/Admin/News.php` | High
-22 | File | `/admin/pages/edit_chicken.php` | High
-23 | File | `/admin/pages/student-print.php` | High
-24 | File | `/admin/pages/subjects.php` | High
-25 | File | `/admin/pages/update_go.php` | High
-26 | File | `/admin/pages/yearlevel.php` | High
+1 | File | `/.env` | Low
+2 | File | `/admin` | Low
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/action/add_con.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/admin/action/edit_chicken.php` | High
+8 | File | `/admin/action/new-father.php` | High
+9 | File | `/admin/action/new-feed.php` | High
+10 | File | `/admin/action/update-deworm.php` | High
+11 | File | `/admin/admin_login_process.php` | High
+12 | File | `/admin/admin_user.php` | High
+13 | File | `/admin/book_add.php` | High
+14 | File | `/admin/book_row.php` | High
+15 | File | `/admin/borrow_add.php` | High
+16 | File | `/admin/category_row.php` | High
+17 | File | `/admin/clientview.php` | High
+18 | File | `/admin/edit_teacher.php` | High
+19 | File | `/admin/index.php?act=reset_admin_psw` | High
+20 | File | `/Admin/login.php` | High
+21 | File | `/admin/makehtml_freelist_action.php` | High
+22 | File | `/Admin/News.php` | High
+23 | File | `/admin/pages/edit_chicken.php` | High
+24 | File | `/admin/pages/student-print.php` | High
+25 | File | `/admin/pages/subjects.php` | High
+26 | File | `/admin/pages/update_go.php` | High
 27 | File | `/admin/regester.php` | High
 28 | File | `/admin/request-received-bydonar.php` | High
 29 | File | `/admin/return_add.php` | High
@@ -108,17 +113,16 @@ ID | Type | Indicator | Confidence
 64 | File | `/auth/user/all.api` | High
 65 | File | `/bin/boa` | Medium
 66 | File | `/boaform/device_reset.cgi` | High
-67 | File | `/boaform/wlan_basic_set.cgi` | High
-68 | File | `/boafrm/formMapDelDevice` | High
-69 | File | `/cgi-bin/cstecgi.cgi` | High
-70 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-71 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-72 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-73 | File | `/classes/Master.php? f=save_medicine` | High
-74 | File | `/classes/Users.php?f=save` | High
-75 | ... | ... | ...
+67 | File | `/boafrm/formMapDelDevice` | High
+68 | File | `/cgi-bin/cstecgi.cgi` | High
+69 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+70 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+71 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+72 | File | `/classes/Master.php? f=save_medicine` | High
+73 | File | `/classes/Users.php?f=save` | High
+74 | ... | ... | ...
 
-There are 657 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 654 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +139,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

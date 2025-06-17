@@ -9,11 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Florida Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
 * [BR](https://vuldb.com/?country.br)
-* ...
-
-There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -145,13 +141,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -159,41 +154,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_reference_to_local_model` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/add-new.php` | High
-4 | File | `/admin/booking-bwdates-reports-details.php` | High
-5 | File | `/admin/bwdates-report-details.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/ind_backstage.php` | High
-8 | File | `/admin/manage-ambulance.php` | High
-9 | File | `/admin/manage_complaint.php` | High
-10 | File | `/admin/mod_room/controller.php?action=add` | High
-11 | File | `/admin/students/manage.php` | High
-12 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-13 | File | `/api/client/editemedia.php` | High
-14 | File | `/attendancelist.php` | High
-15 | File | `/bilal final/edit_stud.php` | High
-16 | File | `/cancel.php` | Medium
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/p1_ftpserver.php` | High
-20 | File | `/cgi-bin/tosei_kikai.php` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/SystemSettings.php?f=update_settings` | High
-23 | File | `/classes/Users.php?f=delete` | High
-24 | File | `/common/show_image.php` | High
-25 | File | `/control/deactivate_case.php` | High
-26 | File | `/control/register_case.php` | High
-27 | File | `/Default/Bd` | Medium
-28 | File | `/foms/routers/place-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/AdvSetLanip` | High
-31 | File | `/index.php` | Medium
-32 | File | `/manager/ipconfig_new.php` | High
-33 | ... | ... | ...
+1 | File | `/admin/bookList?page=1&limit=10` | High
+2 | File | `/admin/bwdates-report-details.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/fetch_product_details.php` | High
+6 | File | `/admin/manage_complaint.php` | High
+7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+8 | File | `/attendancelist.php` | High
+9 | File | `/auth/register` | High
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/backend/admin/his_admin_register_patient.php` | High
+12 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+13 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -210,4 +185,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

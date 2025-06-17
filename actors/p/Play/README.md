@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Play:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -16,7 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [137.220.49.66](https://vuldb.com/?ip.137.220.49.66) | 137.220.49.66.vultrusercontent.com | - | Medium
+1 | [45.76.165.129](https://vuldb.com/?ip.45.76.165.129) | 45.76.165.129.vultrusercontent.com | - | Medium
+2 | [108.61.142.190](https://vuldb.com/?ip.108.61.142.190) | 108.61.142.190.vultrusercontent.com | - | Medium
+3 | [137.220.49.66](https://vuldb.com/?ip.137.220.49.66) | 137.220.49.66.vultrusercontent.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -24,13 +30,30 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1552 | CWE-640 | Credentials Management | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Play. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/ext/collect/filter_text.do` | High
+2 | File | `/ext/collect/find_text.do` | High
+3 | File | `tags.php` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://unit42.paloaltonetworks.com/north-korean-threat-group-play-ransomware/
 * https://www.security.com/threat-intelligence/play-ransomware-volume-shadow-copy
+* https://www.trendmicro.com/de_de/research/24/g/new-play-ransomware-linux-variant-targets-esxi-shows-ties-with-p.html
 
 ## Literature
 
@@ -41,4 +64,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -69,46 +69,46 @@ ID | Type | Indicator | Confidence
 16 | File | `/application/plugins/controller/Upload.php` | High
 17 | File | `/apply.cgi` | Medium
 18 | File | `/assets/components/gallery/connector.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/master.php?f=delete_order` | High
-22 | File | `/course/filterRecords/` | High
-23 | File | `/ctcprotocol/Protocol` | High
-24 | File | `/device/device=140/tab=wifi/view` | High
-25 | File | `/download/image` | High
-26 | File | `/endpoint/update-bookmark.php` | High
-27 | File | `/etc/sudoers` | Medium
-28 | File | `/ext/collect/find_text.do` | High
-29 | File | `/filemanager/upload` | High
-30 | File | `/Forms/` | Low
-31 | File | `/forum/away.php` | High
-32 | File | `/framework/modules/users/models/user.php` | High
-33 | File | `/ghost/preview` | High
-34 | File | `/HNAP1/SetAccessPointMode` | High
-35 | File | `/index.php` | Medium
-36 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-37 | File | `/load.php` | Medium
-38 | File | `/mcategory.php` | High
-39 | File | `/member/picture/album` | High
-40 | File | `/mysql/api/diags.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/ndmComponents.js` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/out.php` | Medium
-45 | File | `/phpcollab/users/edituser.php` | High
-46 | File | `/plain` | Low
-47 | File | `/products/details.asp` | High
-48 | File | `/product_list.php` | High
-49 | File | `/public/login.htm` | High
-50 | File | `/replication` | Medium
-51 | File | `/secserver` | Medium
-52 | File | `/service/upload` | High
-53 | File | `/services/details.asp` | High
-54 | File | `/showfile.php` | High
-55 | File | `/spip.php` | Medium
+19 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/master.php?f=delete_order` | High
+23 | File | `/course/filterRecords/` | High
+24 | File | `/ctcprotocol/Protocol` | High
+25 | File | `/device/device=140/tab=wifi/view` | High
+26 | File | `/download/image` | High
+27 | File | `/endpoint/update-bookmark.php` | High
+28 | File | `/etc/sudoers` | Medium
+29 | File | `/ext/collect/find_text.do` | High
+30 | File | `/filemanager/upload` | High
+31 | File | `/Forms/` | Low
+32 | File | `/forum/away.php` | High
+33 | File | `/framework/modules/users/models/user.php` | High
+34 | File | `/ghost/preview` | High
+35 | File | `/HNAP1/SetAccessPointMode` | High
+36 | File | `/index.php` | Medium
+37 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+38 | File | `/load.php` | Medium
+39 | File | `/mcategory.php` | High
+40 | File | `/member/picture/album` | High
+41 | File | `/mysql/api/diags.php` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/ndmComponents.js` | High
+44 | File | `/oauth/idp/.well-known/openid-configuration` | High
+45 | File | `/out.php` | Medium
+46 | File | `/phpcollab/users/edituser.php` | High
+47 | File | `/plain` | Low
+48 | File | `/products/details.asp` | High
+49 | File | `/product_list.php` | High
+50 | File | `/public/login.htm` | High
+51 | File | `/replication` | Medium
+52 | File | `/secserver` | Medium
+53 | File | `/service/upload` | High
+54 | File | `/services/details.asp` | High
+55 | File | `/showfile.php` | High
 56 | ... | ... | ...
 
-There are 488 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

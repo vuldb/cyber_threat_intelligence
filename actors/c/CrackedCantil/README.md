@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -49,23 +49,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/advanced-tools/nova/bin/netwatch` | High
-3 | File | `/cgi-bin/downloadFile.cgi` | High
-4 | File | `/cgi-bin/system_mgr.cgi` | High
-5 | File | `/client/campaign_track.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/userLogin.asp` | High
-10 | File | `ad.cgi` | Low
-11 | File | `addguest.cgi` | Medium
-12 | File | `admin/addProxyConnector_commit.action` | High
-13 | File | `admin/admin_index.php` | High
-14 | File | `aff_news.php` | Medium
-15 | File | `allmanageup.pl` | High
-16 | File | `amadmin.pl` | Medium
+3 | File | `/auth_files/photo/` | High
+4 | File | `/cgi-bin/downloadFile.cgi` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/client/campaign_track.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/oauth/idp/.well-known/openid-configuration` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/userLogin.asp` | High
+11 | File | `ad.cgi` | Low
+12 | File | `addguest.cgi` | Medium
+13 | File | `admin/addProxyConnector_commit.action` | High
+14 | File | `admin/admin_index.php` | High
+15 | File | `aff_news.php` | Medium
+16 | File | `allmanageup.pl` | High
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

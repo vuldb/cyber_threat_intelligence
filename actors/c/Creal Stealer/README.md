@@ -34,11 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-29, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -51,43 +51,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/Actions.php?a=login` | High
-4 | File | `/add-students.php` | High
-5 | File | `/addcategory.php` | High
-6 | File | `/admin/application-bwdates-reports-details.php` | High
-7 | File | `/admin/conferences/get-all-status/` | High
-8 | File | `/admin/store.php` | High
-9 | File | `/admin/system.html` | High
-10 | File | `/admin/template/edit` | High
-11 | File | `/admin_ping.htm` | High
-12 | File | `/ajax.php?action=signup` | High
-13 | File | `/ample/app/action/edit_product.php` | High
-14 | File | `/api/dashboard/activity` | High
-15 | File | `/api/files/recipepictures/` | High
-16 | File | `/api/system/sessions` | High
-17 | File | `/app/api/controller/default/Sqlite.php` | High
-18 | File | `/BRS_netgear_success.html` | High
-19 | File | `/buscar_integrada.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/cgi-bin/system_mgr.cgi` | High
-24 | File | `/controllers/add_client.php` | High
-25 | File | `/dana-admin/user/update.cgi` | High
-26 | File | `/dashboard/deposit` | High
-27 | File | `/DataSrvs/UCCGSrv.asmx` | High
-28 | File | `/dtale/chart-data/1` | High
-29 | File | `/ecommerce/admin/products/controller.php` | High
-30 | File | `/endpoint/delete-account.php` | High
-31 | File | `/endpoint/delete-expense.php` | High
-32 | File | `/etc/shadow.sample` | High
-33 | File | `/foms/routers/place-order.php` | High
-34 | File | `/forget.php` | Medium
-35 | File | `/goform/execCommand` | High
-36 | File | `/goform/setAutoPing` | High
-37 | ... | ... | ...
+3 | File | `/abs.php` | Medium
+4 | File | `/Actions.php?a=login` | High
+5 | File | `/add-students.php` | High
+6 | File | `/addcategory.php` | High
+7 | File | `/addcustcom.php` | High
+8 | File | `/addcustind.php` | High
+9 | File | `/addstock.php` | High
+10 | File | `/add_new_invoice.php` | High
+11 | File | `/admin/` | Low
+12 | File | `/admin/add-doctor.php` | High
+13 | File | `/admin/application-bwdates-reports-details.php` | High
+14 | File | `/admin/changeimage.php` | High
+15 | File | `/admin/conferences/get-all-status/` | High
+16 | File | `/admin/overtime_row.php` | High
+17 | File | `/admin/store.php` | High
+18 | File | `/admin/system.html` | High
+19 | File | `/admin/template/edit` | High
+20 | File | `/admin/view-enquiry.php` | High
+21 | File | `/adminapi/system/crud` | High
+22 | File | `/admin_ping.htm` | High
+23 | File | `/ajax.php?action=signup` | High
+24 | File | `/ample/app/action/edit_product.php` | High
+25 | File | `/animalsupdate.php` | High
+26 | File | `/api/authentication/login` | High
+27 | File | `/api/dashboard/activity` | High
+28 | File | `/api/files/recipepictures/` | High
+29 | File | `/api/system/sessions` | High
+30 | File | `/app/api/controller/default/Sqlite.php` | High
+31 | File | `/BRS_netgear_success.html` | High
+32 | File | `/buscar_integrada.php` | High
+33 | File | `/bypass/config` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+36 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+37 | File | `/cgi-bin/system_mgr.cgi` | High
+38 | File | `/controllers/add_client.php` | High
+39 | File | `/dana-admin/user/update.cgi` | High
+40 | File | `/dashboard/deposit` | High
+41 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

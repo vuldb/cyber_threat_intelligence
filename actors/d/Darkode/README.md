@@ -32,8 +32,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -45,25 +46,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/add_new_supplier.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/quizquestion.php` | High
-5 | File | `/admin/search-appointment.php` | High
-6 | File | `/buscar_integrada.php` | High
-7 | File | `/cgi-bin/user/Config.cgi` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/config/php.ini` | High
-10 | File | `/endpoint/add-calorie.php` | High
-11 | File | `/htdocs/cgibin` | High
-12 | File | `/myprofile.php` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/videotalk` | Medium
-15 | File | `/viewrequest.php` | High
-16 | File | `/web/MCmsAction.java` | High
-17 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-18 | File | `activity_log.php` | High
-19 | ... | ... | ...
+3 | File | `/admin/categories/update` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/process_category_add.php` | High
+6 | File | `/admin/quizquestion.php` | High
+7 | File | `/admin/search-appointment.php` | High
+8 | File | `/app/api/controller/caiji.php` | High
+9 | File | `/buscar_integrada.php` | High
+10 | File | `/cgi-bin/user/Config.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/config/php.ini` | High
+14 | File | `/endpoint/add-calorie.php` | High
+15 | File | `/htdocs/cgibin` | High
+16 | File | `/manage_supplier.php` | High
+17 | File | `/myprofile.php` | High
+18 | File | `/pda/workflow/check_seal.php` | High
+19 | File | `/teacher.php` | Medium
+20 | File | `/uncpath/` | Medium
+21 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -51,21 +51,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/index.php` | High
-3 | File | `/category.php` | High
-4 | File | `/cgi-bin/delete_CA` | High
-5 | File | `/cgi-bin/luci;stok=/locale` | High
-6 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-7 | File | `/download` | Medium
-8 | File | `/general/email/outbox/delete.php` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/get_getnetworkconf.cgi` | High
-11 | File | `/GponForm/device_Form?script/` | High
-12 | File | `/includes/rrdtool.inc.php` | High
-13 | File | `/index.php` | Medium
-14 | ... | ... | ...
+2 | File | `/admin/bookdate.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/category.php` | High
+5 | File | `/cgi-bin/delete_CA` | High
+6 | File | `/cgi-bin/luci;stok=/locale` | High
+7 | File | `/change-password.php` | High
+8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+9 | File | `/download` | Medium
+10 | File | `/general/email/outbox/delete.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/get_getnetworkconf.cgi` | High
+13 | File | `/goform/formSetPassword` | High
+14 | File | `/goform/setBlackRule` | High
+15 | File | `/GponForm/device_Form?script/` | High
+16 | File | `/includes/rrdtool.inc.php` | High
+17 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

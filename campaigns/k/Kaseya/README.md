@@ -18,8 +18,8 @@ These _actors_ are associated with Kaseya or other actors linked to the campaign
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
-2 | [Unknown](https://vuldb.com/?actor.unknown) | High
+1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
 
 ## IOC - Indicator of Compromise
 
@@ -76,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -50,32 +50,34 @@ ID | Type | Indicator | Confidence
 3 | File | `/Admin/add-admin.php` | High
 4 | File | `/admin/api/theme-edit/` | High
 5 | File | `/admin/categories/manage_category.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/normal-search.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/admin/sign/out` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/adminui/history_log.php` | High
-12 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-13 | File | `/api/v1/attack` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/blog/edit` | Medium
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/cgi-bin/p1_ftpserver.php` | High
-18 | File | `/cgi-bin/webfile_mgr.cgi` | High
-19 | File | `/classes/Master.php?f=delete_record` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/clients/listclients.php` | High
-22 | File | `/common/run_cross_report.php` | High
-23 | File | `/common/user_profile.php` | High
-24 | File | `/Employee/edit-profile.php` | High
-25 | File | `/endpoint/update-bookmark.php` | High
-26 | File | `/etc/gsissh/sshd_config` | High
-27 | File | `/etc/shadow` | Medium
-28 | File | `/goForm/aspForm` | High
-29 | ... | ... | ...
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/normal-search.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/admin/sign/out` | High
+11 | File | `/admin/twitter.php` | High
+12 | File | `/adminPage/conf/reload` | High
+13 | File | `/adminui/history_log.php` | High
+14 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+15 | File | `/api/v1/attack` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/blog/edit` | Medium
+18 | File | `/cgi-bin/hd_config.cgi` | High
+19 | File | `/cgi-bin/p1_ftpserver.php` | High
+20 | File | `/cgi-bin/webfile_mgr.cgi` | High
+21 | File | `/classes/Master.php?f=delete_record` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/clients/listclients.php` | High
+24 | File | `/common/run_cross_report.php` | High
+25 | File | `/common/user_profile.php` | High
+26 | File | `/Employee/edit-profile.php` | High
+27 | File | `/endpoint/update-bookmark.php` | High
+28 | File | `/enquiry.php` | Medium
+29 | File | `/etc/gsissh/sshd_config` | High
+30 | File | `/etc/shadow` | Medium
+31 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,4 +95,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

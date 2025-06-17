@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -61,43 +61,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/sys/set_passwd` | High
 6 | File | `/app/controller/Books.php` | High
 7 | File | `/bin/boa` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/config/getuser` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/dev/urandom` | Medium
-13 | File | `/endpoint/delete-account.php` | High
-14 | File | `/etc/ajenti/config.yml` | High
-15 | File | `/etc/quantum/quantum.conf` | High
-16 | File | `/etc/shadow` | Medium
-17 | File | `/exec/` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/dir_setWanWifi` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/index/ajax/lang` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/MIME/INBOX-MM-1/` | High
-25 | File | `/modules/projects/vw_files.php` | High
-26 | File | `/opt/tms/bin/cli` | High
-27 | File | `/out.php` | Medium
-28 | File | `/plain` | Low
-29 | File | `/server-status` | High
-30 | File | `/setSystemAdmin` | High
-31 | File | `/staff/tools/custom-fields` | High
-32 | File | `/tmp/phpglibccheck` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/WebMstr7/servlet/mstrWeb` | High
-35 | File | `/webpages/data` | High
-36 | File | `/wp-admin/options.php` | High
-37 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-38 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-39 | File | `/wp-json/oembed/1.0/embed?url` | High
-40 | File | `/xyhai.php?s=/Auth/editUser` | High
-41 | File | `/_next` | Low
-42 | ... | ... | ...
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/hd_config.cgi` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi-bin/webfile_mgr.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/config/getuser` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dev/urandom` | Medium
+16 | File | `/endpoint/delete-account.php` | High
+17 | File | `/etc/ajenti/config.yml` | High
+18 | File | `/etc/quantum/quantum.conf` | High
+19 | File | `/etc/shadow` | Medium
+20 | File | `/exec/` | Low
+21 | File | `/forum/away.php` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/dir_setWanWifi` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/index/ajax/lang` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/MIME/INBOX-MM-1/` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/opt/tms/bin/cli` | High
+30 | File | `/out.php` | Medium
+31 | File | `/plain` | Low
+32 | File | `/server-status` | High
+33 | File | `/setSystemAdmin` | High
+34 | File | `/staff/tools/custom-fields` | High
+35 | File | `/tmp/phpglibccheck` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/WebMstr7/servlet/mstrWeb` | High
+38 | File | `/webpages/data` | High
+39 | File | `/wp-admin/options.php` | High
+40 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+42 | File | `/wp-json/oembed/1.0/embed?url` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

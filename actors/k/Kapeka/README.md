@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [88.80.148.65](https://vuldb.com/?ip.88.80.148.65) | - | - | High
-2 | [103.78.122.94](https://vuldb.com/?ip.103.78.122.94) | - | - | High
-3 | [185.38.150.8](https://vuldb.com/?ip.185.38.150.8) | 8.150.38.185.baremetal.zare.com | - | High
+1 | [5.45.75.45](https://vuldb.com/?ip.5.45.75.45) | mail.virtual-businessman.com | - | High
+2 | [88.80.148.65](https://vuldb.com/?ip.88.80.148.65) | - | - | High
+3 | [103.78.122.94](https://vuldb.com/?ip.103.78.122.94) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-26, CWE-35, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 26 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,25 +50,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply.cgi` | Medium
-2 | File | `/common/info.cgi` | High
-3 | File | `/filemanager/upload.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/redbin/rpwebutilities.exe/text` | High
-6 | File | `/services` | Medium
-7 | File | `/servlet/com.adventnet.me.opmanager.servlet.FailOverHelperServlet` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `admin/product_category.php?rec=update` | High
-10 | File | `bug_report_page.php` | High
-11 | ... | ... | ...
+1 | File | `/addbill.php` | Medium
+2 | File | `/add_new_supplier.php` | High
+3 | File | `/admin-cp/theme/editor/default` | High
+4 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+5 | File | `/admin.php?page=plugins&tab=new&installstatus=ok&plugin_id=[here` | High
+6 | File | `/admin/ajax.php?action=delete_transaction` | High
+7 | File | `/admin/ajax.php?action=login` | High
+8 | File | `/admin/article.php` | High
+9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
+11 | File | `/admin/course_action.php` | High
+12 | File | `/admin/edit-brand.php` | High
+13 | File | `/admin/edit_area.php` | High
+14 | File | `/admin/gnssAutoAlign.php` | High
+15 | File | `/admin/idcProData_deal.php?mudi=del` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/inquiries/view_inquiry.php` | High
+18 | File | `/admin/pages/list` | High
+19 | File | `/admin/property-details.php` | High
+20 | File | `/admin/search-maid.php` | High
+21 | File | `/admin/subnets/ripe-query.php` | High
+22 | File | `/admin/update-clients.php` | High
+23 | File | `/admin/upgrade` | High
+24 | File | `/Admin/user-record.php` | High
+25 | File | `/adminPage/www/addOver` | High
+26 | File | `/ajax.php` | Medium
+27 | File | `/ajax.php?action=signup` | High
+28 | File | `/ajax.php?action=update_account` | High
+29 | File | `/ample/app/action/edit_product.php` | High
+30 | File | `/api/authentication/login` | High
+31 | File | `/api/job/add/` | High
+32 | File | `/api/mob/instrucao/conta/destinatarios` | High
+33 | File | `/api/v1/get-upload-file` | High
+34 | File | `/application/controller/Transaki.php` | High
+35 | File | `/apply.cgi` | Medium
+36 | File | `/assets` | Low
+37 | File | `/attachments` | Medium
+38 | File | `/author_posts.php` | High
+39 | File | `/bin/boa` | Medium
+40 | File | `/blog` | Low
+41 | File | `/category.php` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/discovery.cgi` | High
+44 | File | `/classes/Master.php?f=save_inquiry` | High
+45 | File | `/classes/Users.php?f=save_client` | High
+46 | File | `/collect/PortV4/downLoad.html` | High
+47 | File | `/collection/all` | High
+48 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+49 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cybersecuritynews.com/new-flexible-kapeka-backdoor/
+* https://github.com/blackorbird/APT_REPORT/blob/master/Sandworm/Kapeka/understanding-the-kapeka-backdoor-detailed-analysis-by-apt44.pdf
 
 ## Literature
 
@@ -76,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

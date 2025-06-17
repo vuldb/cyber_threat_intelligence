@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -65,33 +65,33 @@ ID | Type | Indicator | Confidence
 7 | File | `/alphaware/details.php` | High
 8 | File | `/Api/ASF` | Medium
 9 | File | `/auth/fn.php` | Medium
-10 | File | `/cgi-bin/ExportLogs.sh` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Users.php?f=save` | High
-13 | File | `/clients/editclient.php` | High
-14 | File | `/CommunitySSORedirect.jsp` | High
-15 | File | `/ctpms/admin/?page=applications/view_application` | High
-16 | File | `/dist/index.js` | High
-17 | File | `/dl/dl_sendmail.php` | High
-18 | File | `/editor/index.php` | High
-19 | File | `/Electron/download` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/formStaticDHCP` | High
-22 | File | `/formVirtualApp` | High
-23 | File | `/formVirtualServ` | High
-24 | File | `/goForm/aspForm` | High
-25 | File | `/goform/form2WizardStep4` | High
-26 | File | `/goform/rlmswitchr_process` | High
-27 | File | `/goform/SafeMacFilter` | High
-28 | File | `/goform/SafeUrlFilter` | High
-29 | File | `/goforms/rlminfo` | High
-30 | File | `/include/make.php` | High
-31 | File | `/include/Model/Upload.php` | High
-32 | File | `/kruxton/sales_report.php` | High
-33 | File | `/magnoliaAuthor/.magnolia/` | High
+10 | File | `/backend/admin/his_admin_register_patient.php` | High
+11 | File | `/cgi-bin/ExportLogs.sh` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/clients/editclient.php` | High
+15 | File | `/CommunitySSORedirect.jsp` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/dist/index.js` | High
+18 | File | `/dl/dl_sendmail.php` | High
+19 | File | `/editor/index.php` | High
+20 | File | `/Electron/download` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/formStaticDHCP` | High
+23 | File | `/formVirtualApp` | High
+24 | File | `/formVirtualServ` | High
+25 | File | `/goForm/aspForm` | High
+26 | File | `/goform/form2WizardStep4` | High
+27 | File | `/goform/rlmswitchr_process` | High
+28 | File | `/goform/SafeMacFilter` | High
+29 | File | `/goform/SafeUrlFilter` | High
+30 | File | `/goforms/rlminfo` | High
+31 | File | `/include/make.php` | High
+32 | File | `/include/Model/Upload.php` | High
+33 | File | `/kruxton/sales_report.php` | High
 34 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

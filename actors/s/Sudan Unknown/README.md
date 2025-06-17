@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sudan_unknown](https://vuldb.com/?actor.sudan_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sudan Unknown:
+
+* [US](https://vuldb.com/?country.us)
+* [IN](https://vuldb.com/?country.in)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Sudan Unknown.
@@ -32,9 +39,25 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [57.84.208.0](https://vuldb.com/?ip.57.84.208.0) | - | - | High
 21 | [62.12.40.120](https://vuldb.com/?ip.62.12.40.120) | - | - | High
 22 | [62.12.96.0](https://vuldb.com/?ip.62.12.96.0) | - | - | High
-23 | ... | ... | ... | ...
+23 | [66.96.119.64](https://vuldb.com/?ip.66.96.119.64) | - | - | High
+24 | [78.138.18.120](https://vuldb.com/?ip.78.138.18.120) | 120.18.138.78.cust-fiber.enegan.it | - | High
+25 | [78.138.35.240](https://vuldb.com/?ip.78.138.35.240) | host240-35-138-78.convergenze.it | - | High
+26 | [78.138.36.160](https://vuldb.com/?ip.78.138.36.160) | - | - | High
+27 | [78.138.40.136](https://vuldb.com/?ip.78.138.40.136) | - | - | High
+28 | [78.138.44.232](https://vuldb.com/?ip.78.138.44.232) | - | - | High
+29 | [80.88.131.72](https://vuldb.com/?ip.80.88.131.72) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 86 more IOC items available. Please use our online service to access the data.
+There are 116 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sudan Unknown_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1552 | CWE-522 | Credentials Management | High
 
 ## References
 
@@ -53,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

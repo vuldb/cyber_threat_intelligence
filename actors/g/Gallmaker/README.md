@@ -31,10 +31,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,27 +43,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/adminPage/conf/reload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/cron/settings/setJob/` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/api2/html/` | Medium
-8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-9 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/index/ajax/lang` | High
-13 | File | `/log/decodmail.php` | High
-14 | File | `/mfsNotice/page` | High
-15 | File | `/novel/bookSetting/list` | High
-16 | File | `/novel/userFeedback/list` | High
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/register.php` | High
-19 | File | `/spip.php` | Medium
-20 | ... | ... | ...
+2 | File | `/admin/file_manager/export` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/adminPage/conf/reload` | High
+5 | File | `/admin_topic.php?action=delall` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/api2/html/` | Medium
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+13 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/h/rest` | Low
+17 | File | `/index/ajax/lang` | High
+18 | File | `/log/decodmail.php` | High
+19 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+20 | File | `/log_proxy` | Medium
+21 | File | `/mailcleaner.php/getStats` | High
+22 | File | `/mfsNotice/page` | High
+23 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

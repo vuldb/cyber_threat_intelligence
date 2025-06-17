@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SideWinder:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,9 +64,10 @@ ID | IP address | Hostname | Campaign | Confidence
 41 | [5.230.74.103](https://vuldb.com/?ip.5.230.74.103) | - | - | High
 42 | [5.230.74.251](https://vuldb.com/?ip.5.230.74.251) | - | - | High
 43 | [5.230.75.40](https://vuldb.com/?ip.5.230.75.40) | - | - | High
-44 | ... | ... | ... | ...
+44 | [5.230.75.175](https://vuldb.com/?ip.5.230.75.175) | placeholder.noezserver.de | - | High
+45 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 174 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,7 +82,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,56 +91,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/Admin/akun_edit.php` | High
-6 | File | `/admin/apply.php` | High
-7 | File | `/admin/create-package.php` | High
-8 | File | `/admin/doAdminAction.php?act=addCate` | High
-9 | File | `/admin/edit-brand.php` | High
-10 | File | `/admin/edit-post.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/Admin/Proses_Edit_Akun.php` | High
-13 | File | `/admin/robot.php` | High
-14 | File | `/admin/search-invoices.php` | High
-15 | File | `/admin/userprofile.php` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/app/controller/Setup.php` | High
-18 | File | `/app/index/controller/Common.php` | High
-19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-21 | File | `/applications/nexus/modules/front/store/store.php` | High
-22 | File | `/apply.cgi` | Medium
-23 | File | `/backend/doc/his_doc_update-account.php` | High
-24 | File | `/bitrix/admin/ldap_server_edit.php` | High
-25 | File | `/cgi-bin/apkg_mgr.cgi` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_record` | High
-32 | File | `/classes/Master.php?f=save_category` | High
-33 | File | `/classes/SystemSettings.php?f=update_settings` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/College/admin/teacher.php` | High
-36 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-37 | File | `/dcim/rack-roles/` | High
-38 | File | `/deal/{note_id}/note` | High
-39 | File | `/detailed.php` | High
-40 | File | `/dipam/athlete-profile.php` | High
-41 | File | `/dtale/chart-data/1` | High
-42 | File | `/etc/shadow.sample` | High
-43 | File | `/fftools/ffmpeg_enc.c` | High
-44 | File | `/filter.php` | Medium
-45 | File | `/forms/doLogin` | High
-46 | File | `/formSysLog` | Medium
-47 | File | `/forum/away.php` | High
-48 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
-49 | ... | ... | ...
+2 | File | `/add-subadmin.php` | High
+3 | File | `/add_new_invoice.php` | High
+4 | File | `/add_user.php` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/Admin/akun_edit.php` | High
+8 | File | `/admin/apply.php` | High
+9 | File | `/admin/content/editor` | High
+10 | File | `/admin/create-package.php` | High
+11 | File | `/admin/doAdminAction.php?act=addCate` | High
+12 | File | `/admin/edit-brand.php` | High
+13 | File | `/admin/edit-post.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/profile.php` | High
+16 | File | `/Admin/Proses_Edit_Akun.php` | High
+17 | File | `/admin/robot.php` | High
+18 | File | `/admin/search-invoices.php` | High
+19 | File | `/admin/twitter.php` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/app/controller/Api.php` | High
+22 | File | `/app/controller/Setup.php` | High
+23 | File | `/app/index/controller/Common.php` | High
+24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+25 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+26 | File | `/applications/nexus/modules/front/store/store.php` | High
+27 | File | `/backend/doc/his_doc_update-account.php` | High
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/cgi-bin/apkg_mgr.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Master.php?f=delete_record` | High
+35 | File | `/classes/Master.php?f=save_category` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/customnode/install` | High
+39 | File | `/deal/{note_id}/note` | High
+40 | File | `/detailed.php` | High
+41 | File | `/dipam/athlete-profile.php` | High
+42 | File | `/dtale/chart-data/1` | High
+43 | File | `/etc/shadow.sample` | High
+44 | File | `/fftools/ffmpeg_enc.c` | High
+45 | File | `/filter.php` | Medium
+46 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,6 +147,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.blackberry.com/en/2024/07/sidewinder-targets-ports-and-maritime-facilities-in-the-mediterranean-sea
 * https://circleid.com/posts/exploring-the-sidewinder-apt-groups-dns-footprint
 * https://www.bridewell.com/insights/blogs/detail/the-distinctive-rattle-of-apt-sidewinder
+* https://x.com/banthisguy9349/status/1875901285783962024
+* https://x.com/ginkgo_g/status/1877604805612548507
 
 ## Literature
 
@@ -159,4 +159,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

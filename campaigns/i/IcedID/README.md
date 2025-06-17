@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,8 +22,8 @@ These _actors_ are associated with IcedID or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [IcedID](https://vuldb.com/?actor.icedid) | High
-2 | [UAC-0098](https://vuldb.com/?actor.uac-0098) | High
-3 | [TA551](https://vuldb.com/?actor.ta551) | High
+2 | [ICEDID](https://vuldb.com/?actor.icedid) | High
+3 | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 4 | ... | ...
 
 There are 2 more actor items available. Please use our online service to access the data.
@@ -95,7 +95,7 @@ ID | IP address | Hostname | Actor | Confidence
 59 | [5.180.114.165](https://vuldb.com/?ip.5.180.114.165) | 165.114.180.5.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
 60 | [5.180.114.171](https://vuldb.com/?ip.5.180.114.171) | 171.114.180.5.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
 61 | [5.180.114.190](https://vuldb.com/?ip.5.180.114.190) | 190.114.180.5.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-62 | [5.181.27.192](https://vuldb.com/?ip.5.181.27.192) | gcl-lon.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+62 | [5.181.27.192](https://vuldb.com/?ip.5.181.27.192) | gcl-lon.com | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 63 | [5.181.80.125](https://vuldb.com/?ip.5.181.80.125) | ip-80-125-bullethost.net | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 64 | [5.181.80.213](https://vuldb.com/?ip.5.181.80.213) | ip-80-213-bullethost.net | [IcedID](https://vuldb.com/?actor.icedid) | High
 65 | [5.181.80.214](https://vuldb.com/?ip.5.181.80.214) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
@@ -108,7 +108,7 @@ ID | IP address | Hostname | Actor | Confidence
 72 | [5.181.159.54](https://vuldb.com/?ip.5.181.159.54) | no-rdns.mivocloud.com | [IcedID](https://vuldb.com/?actor.icedid) | High
 73 | [5.181.159.55](https://vuldb.com/?ip.5.181.159.55) | no-rdns.mivocloud.com | [IcedID](https://vuldb.com/?actor.icedid) | High
 74 | [5.182.27.71](https://vuldb.com/?ip.5.182.27.71) | s322800.cloud.flynet.pro | [IcedID](https://vuldb.com/?actor.icedid) | High
-75 | [5.188.0.52](https://vuldb.com/?ip.5.188.0.52) | saycain.example.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+75 | [5.188.0.52](https://vuldb.com/?ip.5.188.0.52) | saycain.example.com | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 76 | [5.188.93.137](https://vuldb.com/?ip.5.188.93.137) | free.ds | [IcedID](https://vuldb.com/?actor.icedid) | High
 77 | [5.189.217.203](https://vuldb.com/?ip.5.189.217.203) | domenart.fr | [IcedID](https://vuldb.com/?actor.icedid) | High
 78 | [5.189.253.164](https://vuldb.com/?ip.5.189.253.164) | slamco.fr | [IcedID](https://vuldb.com/?actor.icedid) | High
@@ -124,7 +124,7 @@ ID | IP address | Hostname | Actor | Confidence
 88 | [5.199.162.81](https://vuldb.com/?ip.5.199.162.81) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 89 | [5.199.162.123](https://vuldb.com/?ip.5.199.162.123) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 90 | [5.199.162.162](https://vuldb.com/?ip.5.199.162.162) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-91 | [5.199.162.166](https://vuldb.com/?ip.5.199.162.166) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+91 | [5.199.162.166](https://vuldb.com/?ip.5.199.162.166) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 92 | [5.199.162.174](https://vuldb.com/?ip.5.199.162.174) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 93 | [5.199.162.235](https://vuldb.com/?ip.5.199.162.235) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 94 | [5.199.168.14](https://vuldb.com/?ip.5.199.168.14) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
@@ -136,19 +136,19 @@ ID | IP address | Hostname | Actor | Confidence
 100 | [5.199.168.255](https://vuldb.com/?ip.5.199.168.255) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 101 | [5.199.173.20](https://vuldb.com/?ip.5.199.173.20) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 102 | [5.199.173.24](https://vuldb.com/?ip.5.199.173.24) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-103 | [5.199.173.27](https://vuldb.com/?ip.5.199.173.27) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+103 | [5.199.173.27](https://vuldb.com/?ip.5.199.173.27) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 104 | [5.199.173.29](https://vuldb.com/?ip.5.199.173.29) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 105 | [5.199.173.51](https://vuldb.com/?ip.5.199.173.51) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 106 | [5.199.173.107](https://vuldb.com/?ip.5.199.173.107) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 107 | [5.199.173.120](https://vuldb.com/?ip.5.199.173.120) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 108 | [5.199.173.141](https://vuldb.com/?ip.5.199.173.141) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-109 | [5.199.173.150](https://vuldb.com/?ip.5.199.173.150) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+109 | [5.199.173.150](https://vuldb.com/?ip.5.199.173.150) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 110 | [5.199.173.162](https://vuldb.com/?ip.5.199.173.162) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 111 | [5.199.173.173](https://vuldb.com/?ip.5.199.173.173) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 112 | [5.199.173.210](https://vuldb.com/?ip.5.199.173.210) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-113 | [5.199.173.217](https://vuldb.com/?ip.5.199.173.217) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+113 | [5.199.173.217](https://vuldb.com/?ip.5.199.173.217) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 114 | [5.199.173.233](https://vuldb.com/?ip.5.199.173.233) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-115 | [5.199.173.234](https://vuldb.com/?ip.5.199.173.234) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+115 | [5.199.173.234](https://vuldb.com/?ip.5.199.173.234) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 116 | [5.199.174.189](https://vuldb.com/?ip.5.199.174.189) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 117 | [5.199.174.232](https://vuldb.com/?ip.5.199.174.232) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
 118 | [5.199.174.234](https://vuldb.com/?ip.5.199.174.234) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
@@ -265,182 +265,182 @@ ID | IP address | Hostname | Actor | Confidence
 229 | [8.39.147.62](https://vuldb.com/?ip.8.39.147.62) | vyc1.achlycole.org.uk | [IcedID](https://vuldb.com/?actor.icedid) | High
 230 | [13.52.121.66](https://vuldb.com/?ip.13.52.121.66) | ec2-13-52-121-66.us-west-1.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
 231 | [13.57.55.155](https://vuldb.com/?ip.13.57.55.155) | ec2-13-57-55-155.us-west-1.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-232 | [13.237.1.27](https://vuldb.com/?ip.13.237.1.27) | ec2-13-237-1-27.ap-southeast-2.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-233 | [13.237.195.116](https://vuldb.com/?ip.13.237.195.116) | ec2-13-237-195-116.ap-southeast-2.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-234 | [14.99.115.211](https://vuldb.com/?ip.14.99.115.211) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-235 | [15.236.140.116](https://vuldb.com/?ip.15.236.140.116) | ec2-15-236-140-116.eu-west-3.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-236 | [18.232.250.39](https://vuldb.com/?ip.18.232.250.39) | ec2-18-232-250-39.compute-1.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-237 | [23.82.128.186](https://vuldb.com/?ip.23.82.128.186) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-238 | [23.82.128.215](https://vuldb.com/?ip.23.82.128.215) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-239 | [23.88.35.240](https://vuldb.com/?ip.23.88.35.240) | static.240.35.88.23.clients.your-server.de | [IcedID](https://vuldb.com/?actor.icedid) | High
-240 | [23.88.37.159](https://vuldb.com/?ip.23.88.37.159) | static.159.37.88.23.clients.your-server.de | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-241 | [23.106.124.26](https://vuldb.com/?ip.23.106.124.26) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-242 | [23.106.124.168](https://vuldb.com/?ip.23.106.124.168) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-243 | [23.106.124.181](https://vuldb.com/?ip.23.106.124.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-244 | [23.106.215.93](https://vuldb.com/?ip.23.106.215.93) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-245 | [23.160.193.140](https://vuldb.com/?ip.23.160.193.140) | unknown.ip-xfer.net | [IcedID](https://vuldb.com/?actor.icedid) | High
-246 | [23.164.240.130](https://vuldb.com/?ip.23.164.240.130) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-247 | [23.227.202.165](https://vuldb.com/?ip.23.227.202.165) | 23-227-202-165.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
-248 | [23.227.203.131](https://vuldb.com/?ip.23.227.203.131) | 23-227-203-131.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
-249 | [23.227.206.161](https://vuldb.com/?ip.23.227.206.161) | 23-227-206-161.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
-250 | [23.227.206.195](https://vuldb.com/?ip.23.227.206.195) | 23-227-206-195.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
-251 | [23.254.202.234](https://vuldb.com/?ip.23.254.202.234) | hwsrv-1055605.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-252 | [23.254.211.137](https://vuldb.com/?ip.23.254.211.137) | hwsrv-1045976.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-253 | [23.254.224.115](https://vuldb.com/?ip.23.254.224.115) | hwsrv-1031288.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-254 | [23.254.224.148](https://vuldb.com/?ip.23.254.224.148) | client-23-254-224-148.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-255 | [23.254.226.152](https://vuldb.com/?ip.23.254.226.152) | hwsrv-1069457.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-256 | [23.254.229.208](https://vuldb.com/?ip.23.254.229.208) | hwsrv-1015537.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-257 | [23.254.253.106](https://vuldb.com/?ip.23.254.253.106) | WIN-KP9WSUDC4N.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-258 | [31.13.195.119](https://vuldb.com/?ip.31.13.195.119) | sm.cfconsult.net | [IcedID](https://vuldb.com/?actor.icedid) | High
-259 | [31.13.195.127](https://vuldb.com/?ip.31.13.195.127) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-260 | [31.24.224.12](https://vuldb.com/?ip.31.24.224.12) | 1f18e00c.setaptr.net | [IcedID](https://vuldb.com/?actor.icedid) | High
-261 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-262 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-263 | [35.212.196.32](https://vuldb.com/?ip.35.212.196.32) | 32.196.212.35.bc.googleusercontent.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
-264 | [37.1.192.40](https://vuldb.com/?ip.37.1.192.40) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-265 | [37.1.193.136](https://vuldb.com/?ip.37.1.193.136) | webcomdition.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-266 | [37.1.195.84](https://vuldb.com/?ip.37.1.195.84) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-267 | [37.1.195.238](https://vuldb.com/?ip.37.1.195.238) | autoreflash.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-268 | [37.1.205.217](https://vuldb.com/?ip.37.1.205.217) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-269 | [37.1.208.48](https://vuldb.com/?ip.37.1.208.48) | reveltip.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-270 | [37.1.213.234](https://vuldb.com/?ip.37.1.213.234) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-271 | [37.1.221.209](https://vuldb.com/?ip.37.1.221.209) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-272 | [37.46.129.17](https://vuldb.com/?ip.37.46.129.17) | info50.fvds.ru | [IcedID](https://vuldb.com/?actor.icedid) | High
-273 | [37.61.229.95](https://vuldb.com/?ip.37.61.229.95) | zeno.igorclark.net | [IcedID](https://vuldb.com/?actor.icedid) | High
-274 | [37.120.222.100](https://vuldb.com/?ip.37.120.222.100) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-275 | [37.120.247.104](https://vuldb.com/?ip.37.120.247.104) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-276 | [37.221.115.12](https://vuldb.com/?ip.37.221.115.12) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-277 | [37.235.55.75](https://vuldb.com/?ip.37.235.55.75) | 75.55.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-278 | [37.235.55.103](https://vuldb.com/?ip.37.235.55.103) | 103.55.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-279 | [37.235.56.30](https://vuldb.com/?ip.37.235.56.30) | 30.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-280 | [37.235.56.37](https://vuldb.com/?ip.37.235.56.37) | 37.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-281 | [37.235.56.94](https://vuldb.com/?ip.37.235.56.94) | 94.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-282 | [37.235.56.185](https://vuldb.com/?ip.37.235.56.185) | 185.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
-283 | [37.252.5.228](https://vuldb.com/?ip.37.252.5.228) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-284 | [37.252.6.77](https://vuldb.com/?ip.37.252.6.77) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-285 | [37.252.10.231](https://vuldb.com/?ip.37.252.10.231) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-286 | [37.252.11.170](https://vuldb.com/?ip.37.252.11.170) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-287 | [37.252.11.221](https://vuldb.com/?ip.37.252.11.221) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-288 | [38.180.0.89](https://vuldb.com/?ip.38.180.0.89) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-289 | [38.180.8.107](https://vuldb.com/?ip.38.180.8.107) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-290 | [38.180.8.169](https://vuldb.com/?ip.38.180.8.169) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-291 | [38.180.34.14](https://vuldb.com/?ip.38.180.34.14) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-292 | [39.104.16.102](https://vuldb.com/?ip.39.104.16.102) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-293 | [39.104.17.212](https://vuldb.com/?ip.39.104.17.212) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-294 | [39.104.23.152](https://vuldb.com/?ip.39.104.23.152) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-295 | [39.104.27.24](https://vuldb.com/?ip.39.104.27.24) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-296 | [39.104.57.145](https://vuldb.com/?ip.39.104.57.145) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-297 | [39.104.72.59](https://vuldb.com/?ip.39.104.72.59) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-298 | [39.104.94.83](https://vuldb.com/?ip.39.104.94.83) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-299 | [39.104.164.115](https://vuldb.com/?ip.39.104.164.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-300 | [45.8.146.139](https://vuldb.com/?ip.45.8.146.139) | vm580483.stark-industries.solutions | [TA551](https://vuldb.com/?actor.ta551) | High
-301 | [45.8.158.140](https://vuldb.com/?ip.45.8.158.140) | mail.aeoncard-co-jp.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-302 | [45.11.19.121](https://vuldb.com/?ip.45.11.19.121) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-303 | [45.11.19.168](https://vuldb.com/?ip.45.11.19.168) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-304 | [45.11.182.61](https://vuldb.com/?ip.45.11.182.61) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-305 | [45.11.182.114](https://vuldb.com/?ip.45.11.182.114) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-306 | [45.11.182.115](https://vuldb.com/?ip.45.11.182.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-307 | [45.11.182.117](https://vuldb.com/?ip.45.11.182.117) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-308 | [45.11.182.118](https://vuldb.com/?ip.45.11.182.118) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-309 | [45.11.182.119](https://vuldb.com/?ip.45.11.182.119) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-310 | [45.11.182.120](https://vuldb.com/?ip.45.11.182.120) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-311 | [45.11.182.121](https://vuldb.com/?ip.45.11.182.121) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-312 | [45.12.109.136](https://vuldb.com/?ip.45.12.109.136) | kemp.strongwallsys.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-313 | [45.12.109.195](https://vuldb.com/?ip.45.12.109.195) | ryan.earthbroadcasting.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-314 | [45.12.109.221](https://vuldb.com/?ip.45.12.109.221) | weaver.earthbroadcasting.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-315 | [45.12.139.90](https://vuldb.com/?ip.45.12.139.90) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-316 | [45.15.161.254](https://vuldb.com/?ip.45.15.161.254) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-317 | [45.41.204.5](https://vuldb.com/?ip.45.41.204.5) | fastshipus.xyz | [IcedID](https://vuldb.com/?actor.icedid) | High
-318 | [45.55.42.13](https://vuldb.com/?ip.45.55.42.13) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-319 | [45.55.53.206](https://vuldb.com/?ip.45.55.53.206) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-320 | [45.55.56.244](https://vuldb.com/?ip.45.55.56.244) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-321 | [45.61.136.6](https://vuldb.com/?ip.45.61.136.6) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-322 | [45.61.136.22](https://vuldb.com/?ip.45.61.136.22) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-323 | [45.61.136.193](https://vuldb.com/?ip.45.61.136.193) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-324 | [45.61.137.95](https://vuldb.com/?ip.45.61.137.95) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-325 | [45.61.137.97](https://vuldb.com/?ip.45.61.137.97) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-326 | [45.61.137.119](https://vuldb.com/?ip.45.61.137.119) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-327 | [45.61.137.158](https://vuldb.com/?ip.45.61.137.158) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-328 | [45.61.137.159](https://vuldb.com/?ip.45.61.137.159) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-329 | [45.61.137.220](https://vuldb.com/?ip.45.61.137.220) | svenska.re | [IcedID](https://vuldb.com/?actor.icedid) | High
-330 | [45.61.137.225](https://vuldb.com/?ip.45.61.137.225) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-331 | [45.61.138.12](https://vuldb.com/?ip.45.61.138.12) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-332 | [45.61.138.149](https://vuldb.com/?ip.45.61.138.149) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-333 | [45.61.138.171](https://vuldb.com/?ip.45.61.138.171) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-334 | [45.61.138.175](https://vuldb.com/?ip.45.61.138.175) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-335 | [45.61.138.181](https://vuldb.com/?ip.45.61.138.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-336 | [45.61.138.227](https://vuldb.com/?ip.45.61.138.227) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-337 | [45.61.139.138](https://vuldb.com/?ip.45.61.139.138) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-338 | [45.61.139.144](https://vuldb.com/?ip.45.61.139.144) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-339 | [45.61.139.179](https://vuldb.com/?ip.45.61.139.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-340 | [45.61.139.196](https://vuldb.com/?ip.45.61.139.196) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-341 | [45.61.139.206](https://vuldb.com/?ip.45.61.139.206) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-342 | [45.61.139.232](https://vuldb.com/?ip.45.61.139.232) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-343 | [45.61.139.235](https://vuldb.com/?ip.45.61.139.235) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-344 | [45.61.139.243](https://vuldb.com/?ip.45.61.139.243) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-345 | [45.66.248.7](https://vuldb.com/?ip.45.66.248.7) | mta0.burjeela.gq | [IcedID](https://vuldb.com/?actor.icedid) | High
-346 | [45.66.248.37](https://vuldb.com/?ip.45.66.248.37) | mta0.quarrantinereport-center.gq | [IcedID](https://vuldb.com/?actor.icedid) | High
-347 | [45.66.248.64](https://vuldb.com/?ip.45.66.248.64) | 0n3reye0i0.alyanova.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-348 | [45.66.248.69](https://vuldb.com/?ip.45.66.248.69) | outbound5.imaille.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-349 | [45.66.248.71](https://vuldb.com/?ip.45.66.248.71) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-350 | [45.66.248.79](https://vuldb.com/?ip.45.66.248.79) | mta0.coldspikes.autos | [IcedID](https://vuldb.com/?actor.icedid) | High
-351 | [45.66.248.119](https://vuldb.com/?ip.45.66.248.119) | finixdeal.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-352 | [45.66.248.148](https://vuldb.com/?ip.45.66.248.148) | QuanTs.defaultproduct.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-353 | [45.66.248.151](https://vuldb.com/?ip.45.66.248.151) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-354 | [45.66.248.244](https://vuldb.com/?ip.45.66.248.244) | mta0.axminster-carpets.cf | [IcedID](https://vuldb.com/?actor.icedid) | High
-355 | [45.66.249.26](https://vuldb.com/?ip.45.66.249.26) | 8axj5rsx1e.marketingforbreweries.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-356 | [45.66.249.221](https://vuldb.com/?ip.45.66.249.221) | mta0.lizengeneering.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-357 | [45.67.231.235](https://vuldb.com/?ip.45.67.231.235) | am-tun2.warwish.pro | [IcedID](https://vuldb.com/?actor.icedid) | High
-358 | [45.82.247.87](https://vuldb.com/?ip.45.82.247.87) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-359 | [45.82.247.121](https://vuldb.com/?ip.45.82.247.121) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-360 | [45.82.247.148](https://vuldb.com/?ip.45.82.247.148) | prostatehealth.click | [IcedID](https://vuldb.com/?actor.icedid) | High
-361 | [45.82.251.34](https://vuldb.com/?ip.45.82.251.34) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-362 | [45.82.251.36](https://vuldb.com/?ip.45.82.251.36) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-363 | [45.82.251.44](https://vuldb.com/?ip.45.82.251.44) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-364 | [45.85.117.196](https://vuldb.com/?ip.45.85.117.196) | naskal.de | [IcedID](https://vuldb.com/?actor.icedid) | High
-365 | [45.86.229.46](https://vuldb.com/?ip.45.86.229.46) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-366 | [45.86.229.94](https://vuldb.com/?ip.45.86.229.94) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-367 | [45.86.229.105](https://vuldb.com/?ip.45.86.229.105) | 1lf7cf33e.northernstarmarketing.com | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-368 | [45.86.229.180](https://vuldb.com/?ip.45.86.229.180) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-369 | [45.86.229.251](https://vuldb.com/?ip.45.86.229.251) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
-370 | [45.86.229.253](https://vuldb.com/?ip.45.86.229.253) | 32l.edUcated-352.insuranceforourfamily.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-371 | [45.86.230.43](https://vuldb.com/?ip.45.86.230.43) | google.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-372 | [45.86.230.141](https://vuldb.com/?ip.45.86.230.141) | mta0.ungho.cf | [IcedID](https://vuldb.com/?actor.icedid) | High
-373 | [45.86.230.149](https://vuldb.com/?ip.45.86.230.149) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-374 | [45.86.230.181](https://vuldb.com/?ip.45.86.230.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-375 | [45.86.231.210](https://vuldb.com/?ip.45.86.231.210) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-376 | [45.87.154.181](https://vuldb.com/?ip.45.87.154.181) | vm.solutions | [IcedID](https://vuldb.com/?actor.icedid) | High
-377 | [45.88.221.211](https://vuldb.com/?ip.45.88.221.211) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-378 | [45.89.98.138](https://vuldb.com/?ip.45.89.98.138) | ruiz.thegamersnet.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-379 | [45.89.107.120](https://vuldb.com/?ip.45.89.107.120) | d120.lifedigitz.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-380 | [45.92.162.84](https://vuldb.com/?ip.45.92.162.84) | butler.egnerarch.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-381 | [45.92.163.123](https://vuldb.com/?ip.45.92.163.123) | vars-long-kks.currishfine.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-382 | [45.92.163.233](https://vuldb.com/?ip.45.92.163.233) | landing-messy.samewaged.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-383 | [45.92.163.238](https://vuldb.com/?ip.45.92.163.238) | sup-size.samewaged.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-384 | [45.95.11.125](https://vuldb.com/?ip.45.95.11.125) | vm324206.pq.hosting | [IcedID](https://vuldb.com/?actor.icedid) | High
-385 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | [IcedID](https://vuldb.com/?actor.icedid) | High
-386 | [45.129.199.13](https://vuldb.com/?ip.45.129.199.13) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-387 | [45.129.199.15](https://vuldb.com/?ip.45.129.199.15) | server2.divslabs.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-388 | [45.129.199.26](https://vuldb.com/?ip.45.129.199.26) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-389 | [45.129.199.67](https://vuldb.com/?ip.45.129.199.67) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-390 | [45.129.199.75](https://vuldb.com/?ip.45.129.199.75) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-391 | [45.129.199.92](https://vuldb.com/?ip.45.129.199.92) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-392 | [45.129.199.127](https://vuldb.com/?ip.45.129.199.127) | mta0.thedutchgroup.org | [IcedID](https://vuldb.com/?actor.icedid) | High
-393 | [45.129.199.158](https://vuldb.com/?ip.45.129.199.158) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-394 | [45.129.199.161](https://vuldb.com/?ip.45.129.199.161) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-395 | [45.129.199.169](https://vuldb.com/?ip.45.129.199.169) | mta0.agungpodomoroland.co | [IcedID](https://vuldb.com/?actor.icedid) | High
-396 | [45.129.199.172](https://vuldb.com/?ip.45.129.199.172) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-397 | [45.129.199.228](https://vuldb.com/?ip.45.129.199.228) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-398 | [45.129.199.246](https://vuldb.com/?ip.45.129.199.246) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-399 | [45.129.199.250](https://vuldb.com/?ip.45.129.199.250) | mta0.fatimia-group.cc | [IcedID](https://vuldb.com/?actor.icedid) | High
-400 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-401 | [45.138.172.240](https://vuldb.com/?ip.45.138.172.240) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-402 | [45.142.214.176](https://vuldb.com/?ip.45.142.214.176) | vm546665.stark-industries.solutions | [IcedID](https://vuldb.com/?actor.icedid) | High
-403 | [45.144.178.236](https://vuldb.com/?ip.45.144.178.236) | e.wise-sourcing.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-404 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+232 | [13.92.242.18](https://vuldb.com/?ip.13.92.242.18) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+233 | [13.237.1.27](https://vuldb.com/?ip.13.237.1.27) | ec2-13-237-1-27.ap-southeast-2.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
+234 | [13.237.195.116](https://vuldb.com/?ip.13.237.195.116) | ec2-13-237-195-116.ap-southeast-2.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
+235 | [14.99.115.211](https://vuldb.com/?ip.14.99.115.211) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+236 | [15.236.140.116](https://vuldb.com/?ip.15.236.140.116) | ec2-15-236-140-116.eu-west-3.compute.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
+237 | [18.232.250.39](https://vuldb.com/?ip.18.232.250.39) | ec2-18-232-250-39.compute-1.amazonaws.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
+238 | [23.82.128.186](https://vuldb.com/?ip.23.82.128.186) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+239 | [23.82.128.215](https://vuldb.com/?ip.23.82.128.215) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+240 | [23.88.35.240](https://vuldb.com/?ip.23.88.35.240) | static.240.35.88.23.clients.your-server.de | [IcedID](https://vuldb.com/?actor.icedid) | High
+241 | [23.88.37.159](https://vuldb.com/?ip.23.88.37.159) | static.159.37.88.23.clients.your-server.de | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+242 | [23.106.124.26](https://vuldb.com/?ip.23.106.124.26) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+243 | [23.106.124.168](https://vuldb.com/?ip.23.106.124.168) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+244 | [23.106.124.181](https://vuldb.com/?ip.23.106.124.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+245 | [23.106.215.93](https://vuldb.com/?ip.23.106.215.93) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+246 | [23.160.193.140](https://vuldb.com/?ip.23.160.193.140) | unknown.ip-xfer.net | [IcedID](https://vuldb.com/?actor.icedid) | High
+247 | [23.164.240.130](https://vuldb.com/?ip.23.164.240.130) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+248 | [23.227.202.165](https://vuldb.com/?ip.23.227.202.165) | 23-227-202-165.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
+249 | [23.227.203.131](https://vuldb.com/?ip.23.227.203.131) | 23-227-203-131.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
+250 | [23.227.206.161](https://vuldb.com/?ip.23.227.206.161) | 23-227-206-161.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
+251 | [23.227.206.195](https://vuldb.com/?ip.23.227.206.195) | 23-227-206-195.static.hvvc.us | [IcedID](https://vuldb.com/?actor.icedid) | High
+252 | [23.254.202.234](https://vuldb.com/?ip.23.254.202.234) | hwsrv-1055605.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+253 | [23.254.211.137](https://vuldb.com/?ip.23.254.211.137) | hwsrv-1045976.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+254 | [23.254.224.115](https://vuldb.com/?ip.23.254.224.115) | hwsrv-1031288.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+255 | [23.254.224.148](https://vuldb.com/?ip.23.254.224.148) | client-23-254-224-148.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+256 | [23.254.226.152](https://vuldb.com/?ip.23.254.226.152) | hwsrv-1069457.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+257 | [23.254.229.208](https://vuldb.com/?ip.23.254.229.208) | hwsrv-1015537.hostwindsdns.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+258 | [23.254.253.106](https://vuldb.com/?ip.23.254.253.106) | WIN-KP9WSUDC4N.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+259 | [31.13.195.119](https://vuldb.com/?ip.31.13.195.119) | sm.cfconsult.net | [IcedID](https://vuldb.com/?actor.icedid) | High
+260 | [31.13.195.127](https://vuldb.com/?ip.31.13.195.127) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+261 | [31.24.224.12](https://vuldb.com/?ip.31.24.224.12) | 1f18e00c.setaptr.net | [IcedID](https://vuldb.com/?actor.icedid) | High
+262 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+263 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+264 | [35.212.196.32](https://vuldb.com/?ip.35.212.196.32) | 32.196.212.35.bc.googleusercontent.com | [IcedID](https://vuldb.com/?actor.icedid) | Medium
+265 | [37.1.192.40](https://vuldb.com/?ip.37.1.192.40) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+266 | [37.1.193.136](https://vuldb.com/?ip.37.1.193.136) | webcomdition.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+267 | [37.1.195.84](https://vuldb.com/?ip.37.1.195.84) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+268 | [37.1.195.238](https://vuldb.com/?ip.37.1.195.238) | autoreflash.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+269 | [37.1.205.217](https://vuldb.com/?ip.37.1.205.217) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+270 | [37.1.208.48](https://vuldb.com/?ip.37.1.208.48) | reveltip.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+271 | [37.1.213.234](https://vuldb.com/?ip.37.1.213.234) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+272 | [37.1.221.209](https://vuldb.com/?ip.37.1.221.209) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+273 | [37.46.129.17](https://vuldb.com/?ip.37.46.129.17) | info50.fvds.ru | [IcedID](https://vuldb.com/?actor.icedid) | High
+274 | [37.61.229.95](https://vuldb.com/?ip.37.61.229.95) | zeno.igorclark.net | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+275 | [37.120.222.100](https://vuldb.com/?ip.37.120.222.100) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+276 | [37.120.247.104](https://vuldb.com/?ip.37.120.247.104) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+277 | [37.221.115.12](https://vuldb.com/?ip.37.221.115.12) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+278 | [37.235.55.75](https://vuldb.com/?ip.37.235.55.75) | 75.55.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+279 | [37.235.55.103](https://vuldb.com/?ip.37.235.55.103) | 103.55.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+280 | [37.235.56.30](https://vuldb.com/?ip.37.235.56.30) | 30.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+281 | [37.235.56.37](https://vuldb.com/?ip.37.235.56.37) | 37.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+282 | [37.235.56.94](https://vuldb.com/?ip.37.235.56.94) | 94.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+283 | [37.235.56.185](https://vuldb.com/?ip.37.235.56.185) | 185.56.235.37.in-addr.arpa | [IcedID](https://vuldb.com/?actor.icedid) | High
+284 | [37.252.5.228](https://vuldb.com/?ip.37.252.5.228) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+285 | [37.252.6.77](https://vuldb.com/?ip.37.252.6.77) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+286 | [37.252.10.231](https://vuldb.com/?ip.37.252.10.231) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+287 | [37.252.11.170](https://vuldb.com/?ip.37.252.11.170) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+288 | [37.252.11.221](https://vuldb.com/?ip.37.252.11.221) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+289 | [38.180.0.89](https://vuldb.com/?ip.38.180.0.89) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+290 | [38.180.8.107](https://vuldb.com/?ip.38.180.8.107) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+291 | [38.180.8.169](https://vuldb.com/?ip.38.180.8.169) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+292 | [38.180.34.14](https://vuldb.com/?ip.38.180.34.14) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+293 | [39.104.16.102](https://vuldb.com/?ip.39.104.16.102) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+294 | [39.104.17.212](https://vuldb.com/?ip.39.104.17.212) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+295 | [39.104.23.152](https://vuldb.com/?ip.39.104.23.152) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+296 | [39.104.27.24](https://vuldb.com/?ip.39.104.27.24) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+297 | [39.104.57.145](https://vuldb.com/?ip.39.104.57.145) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+298 | [39.104.72.59](https://vuldb.com/?ip.39.104.72.59) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+299 | [39.104.94.83](https://vuldb.com/?ip.39.104.94.83) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+300 | [39.104.164.115](https://vuldb.com/?ip.39.104.164.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+301 | [45.8.146.139](https://vuldb.com/?ip.45.8.146.139) | vm580483.stark-industries.solutions | [TA551](https://vuldb.com/?actor.ta551) | High
+302 | [45.8.158.140](https://vuldb.com/?ip.45.8.158.140) | mail.aeoncard-co-jp.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+303 | [45.11.19.121](https://vuldb.com/?ip.45.11.19.121) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+304 | [45.11.19.168](https://vuldb.com/?ip.45.11.19.168) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+305 | [45.11.182.61](https://vuldb.com/?ip.45.11.182.61) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+306 | [45.11.182.114](https://vuldb.com/?ip.45.11.182.114) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+307 | [45.11.182.115](https://vuldb.com/?ip.45.11.182.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+308 | [45.11.182.117](https://vuldb.com/?ip.45.11.182.117) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+309 | [45.11.182.118](https://vuldb.com/?ip.45.11.182.118) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+310 | [45.11.182.119](https://vuldb.com/?ip.45.11.182.119) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+311 | [45.11.182.120](https://vuldb.com/?ip.45.11.182.120) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+312 | [45.11.182.121](https://vuldb.com/?ip.45.11.182.121) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+313 | [45.12.109.136](https://vuldb.com/?ip.45.12.109.136) | kemp.strongwallsys.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+314 | [45.12.109.195](https://vuldb.com/?ip.45.12.109.195) | ryan.earthbroadcasting.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+315 | [45.12.109.221](https://vuldb.com/?ip.45.12.109.221) | weaver.earthbroadcasting.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+316 | [45.12.139.90](https://vuldb.com/?ip.45.12.139.90) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+317 | [45.15.161.254](https://vuldb.com/?ip.45.15.161.254) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+318 | [45.41.204.5](https://vuldb.com/?ip.45.41.204.5) | fastshipus.xyz | [IcedID](https://vuldb.com/?actor.icedid) | High
+319 | [45.55.42.13](https://vuldb.com/?ip.45.55.42.13) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+320 | [45.55.53.206](https://vuldb.com/?ip.45.55.53.206) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+321 | [45.55.56.244](https://vuldb.com/?ip.45.55.56.244) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+322 | [45.61.136.6](https://vuldb.com/?ip.45.61.136.6) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+323 | [45.61.136.22](https://vuldb.com/?ip.45.61.136.22) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+324 | [45.61.136.193](https://vuldb.com/?ip.45.61.136.193) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+325 | [45.61.137.95](https://vuldb.com/?ip.45.61.137.95) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+326 | [45.61.137.97](https://vuldb.com/?ip.45.61.137.97) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+327 | [45.61.137.119](https://vuldb.com/?ip.45.61.137.119) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+328 | [45.61.137.158](https://vuldb.com/?ip.45.61.137.158) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+329 | [45.61.137.159](https://vuldb.com/?ip.45.61.137.159) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+330 | [45.61.137.220](https://vuldb.com/?ip.45.61.137.220) | svenska.re | [IcedID](https://vuldb.com/?actor.icedid) | High
+331 | [45.61.137.225](https://vuldb.com/?ip.45.61.137.225) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+332 | [45.61.138.12](https://vuldb.com/?ip.45.61.138.12) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+333 | [45.61.138.149](https://vuldb.com/?ip.45.61.138.149) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+334 | [45.61.138.171](https://vuldb.com/?ip.45.61.138.171) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+335 | [45.61.138.175](https://vuldb.com/?ip.45.61.138.175) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+336 | [45.61.138.181](https://vuldb.com/?ip.45.61.138.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+337 | [45.61.138.227](https://vuldb.com/?ip.45.61.138.227) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+338 | [45.61.139.138](https://vuldb.com/?ip.45.61.139.138) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+339 | [45.61.139.144](https://vuldb.com/?ip.45.61.139.144) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+340 | [45.61.139.179](https://vuldb.com/?ip.45.61.139.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+341 | [45.61.139.196](https://vuldb.com/?ip.45.61.139.196) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+342 | [45.61.139.206](https://vuldb.com/?ip.45.61.139.206) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+343 | [45.61.139.232](https://vuldb.com/?ip.45.61.139.232) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+344 | [45.61.139.235](https://vuldb.com/?ip.45.61.139.235) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+345 | [45.61.139.243](https://vuldb.com/?ip.45.61.139.243) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+346 | [45.66.248.7](https://vuldb.com/?ip.45.66.248.7) | mta0.burjeela.gq | [IcedID](https://vuldb.com/?actor.icedid) | High
+347 | [45.66.248.37](https://vuldb.com/?ip.45.66.248.37) | mta0.quarrantinereport-center.gq | [IcedID](https://vuldb.com/?actor.icedid) | High
+348 | [45.66.248.64](https://vuldb.com/?ip.45.66.248.64) | 0n3reye0i0.alyanova.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+349 | [45.66.248.69](https://vuldb.com/?ip.45.66.248.69) | outbound5.imaille.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+350 | [45.66.248.71](https://vuldb.com/?ip.45.66.248.71) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+351 | [45.66.248.79](https://vuldb.com/?ip.45.66.248.79) | mta0.coldspikes.autos | [IcedID](https://vuldb.com/?actor.icedid) | High
+352 | [45.66.248.119](https://vuldb.com/?ip.45.66.248.119) | finixdeal.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+353 | [45.66.248.148](https://vuldb.com/?ip.45.66.248.148) | QuanTs.defaultproduct.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+354 | [45.66.248.151](https://vuldb.com/?ip.45.66.248.151) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+355 | [45.66.248.244](https://vuldb.com/?ip.45.66.248.244) | mta0.axminster-carpets.cf | [IcedID](https://vuldb.com/?actor.icedid) | High
+356 | [45.66.249.26](https://vuldb.com/?ip.45.66.249.26) | 8axj5rsx1e.marketingforbreweries.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+357 | [45.66.249.221](https://vuldb.com/?ip.45.66.249.221) | mta0.lizengeneering.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+358 | [45.67.231.235](https://vuldb.com/?ip.45.67.231.235) | am-tun2.warwish.pro | [IcedID](https://vuldb.com/?actor.icedid) | High
+359 | [45.82.247.87](https://vuldb.com/?ip.45.82.247.87) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+360 | [45.82.247.121](https://vuldb.com/?ip.45.82.247.121) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+361 | [45.82.247.148](https://vuldb.com/?ip.45.82.247.148) | prostatehealth.click | [IcedID](https://vuldb.com/?actor.icedid) | High
+362 | [45.82.251.34](https://vuldb.com/?ip.45.82.251.34) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+363 | [45.82.251.36](https://vuldb.com/?ip.45.82.251.36) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+364 | [45.82.251.44](https://vuldb.com/?ip.45.82.251.44) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+365 | [45.85.117.196](https://vuldb.com/?ip.45.85.117.196) | naskal.de | [IcedID](https://vuldb.com/?actor.icedid) | High
+366 | [45.86.229.46](https://vuldb.com/?ip.45.86.229.46) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+367 | [45.86.229.94](https://vuldb.com/?ip.45.86.229.94) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+368 | [45.86.229.105](https://vuldb.com/?ip.45.86.229.105) | 1lf7cf33e.northernstarmarketing.com | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+369 | [45.86.229.180](https://vuldb.com/?ip.45.86.229.180) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+370 | [45.86.229.251](https://vuldb.com/?ip.45.86.229.251) | - | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+371 | [45.86.229.253](https://vuldb.com/?ip.45.86.229.253) | 32l.edUcated-352.insuranceforourfamily.com | [IcedID Downloader](https://vuldb.com/?actor.icedid_downloader) | High
+372 | [45.86.230.43](https://vuldb.com/?ip.45.86.230.43) | google.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+373 | [45.86.230.141](https://vuldb.com/?ip.45.86.230.141) | mta0.ungho.cf | [IcedID](https://vuldb.com/?actor.icedid) | High
+374 | [45.86.230.149](https://vuldb.com/?ip.45.86.230.149) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+375 | [45.86.230.181](https://vuldb.com/?ip.45.86.230.181) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+376 | [45.86.231.210](https://vuldb.com/?ip.45.86.231.210) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+377 | [45.87.154.181](https://vuldb.com/?ip.45.87.154.181) | vm.solutions | [IcedID](https://vuldb.com/?actor.icedid) | High
+378 | [45.88.221.211](https://vuldb.com/?ip.45.88.221.211) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+379 | [45.89.98.138](https://vuldb.com/?ip.45.89.98.138) | ruiz.thegamersnet.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+380 | [45.89.107.120](https://vuldb.com/?ip.45.89.107.120) | d120.lifedigitz.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+381 | [45.92.162.84](https://vuldb.com/?ip.45.92.162.84) | butler.egnerarch.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+382 | [45.92.163.123](https://vuldb.com/?ip.45.92.163.123) | vars-long-kks.currishfine.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+383 | [45.92.163.233](https://vuldb.com/?ip.45.92.163.233) | landing-messy.samewaged.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+384 | [45.92.163.238](https://vuldb.com/?ip.45.92.163.238) | sup-size.samewaged.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+385 | [45.95.11.125](https://vuldb.com/?ip.45.95.11.125) | vm324206.pq.hosting | [IcedID](https://vuldb.com/?actor.icedid) | High
+386 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | [IcedID](https://vuldb.com/?actor.icedid) | High
+387 | [45.129.199.13](https://vuldb.com/?ip.45.129.199.13) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+388 | [45.129.199.15](https://vuldb.com/?ip.45.129.199.15) | server2.divslabs.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+389 | [45.129.199.26](https://vuldb.com/?ip.45.129.199.26) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+390 | [45.129.199.67](https://vuldb.com/?ip.45.129.199.67) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+391 | [45.129.199.75](https://vuldb.com/?ip.45.129.199.75) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+392 | [45.129.199.92](https://vuldb.com/?ip.45.129.199.92) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+393 | [45.129.199.127](https://vuldb.com/?ip.45.129.199.127) | mta0.thedutchgroup.org | [IcedID](https://vuldb.com/?actor.icedid) | High
+394 | [45.129.199.158](https://vuldb.com/?ip.45.129.199.158) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+395 | [45.129.199.161](https://vuldb.com/?ip.45.129.199.161) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+396 | [45.129.199.169](https://vuldb.com/?ip.45.129.199.169) | mta0.agungpodomoroland.co | [IcedID](https://vuldb.com/?actor.icedid) | High
+397 | [45.129.199.172](https://vuldb.com/?ip.45.129.199.172) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+398 | [45.129.199.228](https://vuldb.com/?ip.45.129.199.228) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+399 | [45.129.199.246](https://vuldb.com/?ip.45.129.199.246) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+400 | [45.129.199.250](https://vuldb.com/?ip.45.129.199.250) | mta0.fatimia-group.cc | [IcedID](https://vuldb.com/?actor.icedid) | High
+401 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+402 | [45.138.172.240](https://vuldb.com/?ip.45.138.172.240) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+403 | [45.142.214.176](https://vuldb.com/?ip.45.142.214.176) | vm546665.stark-industries.solutions | [IcedID](https://vuldb.com/?actor.icedid) | High
+404 | [45.144.178.236](https://vuldb.com/?ip.45.144.178.236) | e.wise-sourcing.com | [IcedID](https://vuldb.com/?actor.icedid) | High
 405 | ... | ... | ... | ...
 
-There are 1617 more IOC items available. Please use our online service to access the data.
+There are 1618 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -448,14 +448,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -463,71 +462,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/admin/?page=bike` | High
-4 | File | `/admin/?page=musics/manage_music` | High
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/Admin/akun_edit.php` | High
-7 | File | `/admin/apply.php` | High
-8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-10 | File | `/admin/book-details.php` | High
-11 | File | `/admin/bwdates-report-details.php` | High
-12 | File | `/admin/change-image.php` | High
-13 | File | `/admin/cmsVote/save` | High
-14 | File | `/admin/cms_content.php` | High
-15 | File | `/admin/create-package.php` | High
-16 | File | `/admin/doAdminAction.php?act=addCate` | High
-17 | File | `/admin/edit-brand.php` | High
-18 | File | `/admin/emp-profile-avatar.php` | High
-19 | File | `/admin/forms/option_lists/edit.php` | High
-20 | File | `/admin/operations/expense_category.php` | High
-21 | File | `/admin/order.php` | High
-22 | File | `/admin/orders/view_order.php` | High
-23 | File | `/admin/pages/` | High
-24 | File | `/admin/product/manage_product.php` | High
-25 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-26 | File | `/Admin/Proses_Edit_Akun.php` | High
-27 | File | `/admin/robot.php` | High
-28 | File | `/admin/search-invoices.php` | High
-29 | File | `/admin/sou.php` | High
-30 | File | `/admin/users.php` | High
-31 | File | `/admins` | Low
-32 | File | `/ajax.php` | Medium
-33 | File | `/ajax/getBasicInfo.php` | High
-34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-35 | File | `/backend/admin/his_admin_add_vendor.php` | High
-36 | File | `/backend/admin/his_admin_register_patient.php` | High
-37 | File | `/backend/doc/his_doc_update-account.php` | High
-38 | File | `/bitrix/admin/ldap_server_edit.php` | High
-39 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-40 | File | `/cgi-bin/apkg_mgr.cgi` | High
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | File | `/cgi-bin/nas_sharing.cgi` | High
-43 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-44 | File | `/cgi-bin/wlogin.cgi` | High
-45 | File | `/classes/Master.php` | High
-46 | File | `/classes/Master.php?f=delete_category` | High
-47 | File | `/classes/Master.php?f=delete_record` | High
-48 | File | `/classes/SystemSettings.php?f=update_settings` | High
-49 | File | `/classes/Users.php?f=delete` | High
-50 | File | `/clientdetails/admin/regester.php` | High
-51 | File | `/customnode/install` | High
-52 | File | `/deal/{note_id}/note` | High
-53 | File | `/detailed.php` | High
-54 | File | `/download/image` | High
-55 | File | `/downloadFile.php` | High
-56 | File | `/dtale/chart-data/1` | High
-57 | File | `/DXR.axd` | Medium
-58 | ... | ... | ...
+1 | File | `/add-subadmin.php` | High
+2 | File | `/add_deductions.php` | High
+3 | File | `/admin/all-applications.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+5 | File | `/admin/bookList?page=1&limit=10` | High
+6 | File | `/admin/bwdates-report-details.php` | High
+7 | File | `/admin/chatroom.php` | High
+8 | File | `/admin/create_product.php` | High
+9 | File | `/admin/edit-products.php` | High
+10 | File | `/admin/enrollment-details.php` | High
+11 | File | `/admin/getallarticleinfo` | High
+12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/normal-search.php` | High
+16 | File | `/admin/salary_slip.php` | High
+17 | File | `/admin/template/update` | High
+18 | File | `/admin/user-search.php` | High
+19 | File | `/adminPage/main/upload` | High
+20 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+21 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+22 | File | `/api/sys/set_passwd` | High
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/api/wizard/setsyncpppoecfg` | High
+25 | File | `/app/controller/Api.php` | High
+26 | File | `/auth.asp` | Medium
+27 | File | `/auth/register` | High
+28 | File | `/auth_files/photo/` | High
+29 | File | `/boafrm/formFilter` | High
+30 | File | `/catalog/compare` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/hd_config.cgi` | High
+33 | File | `/cgi-bin/mainfunction.cgi` | High
+34 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+35 | File | `/change-password.php` | High
+36 | File | `/classes/Master.php?f=save_course` | High
+37 | File | `/classes/Master.php?f=save_position` | High
+38 | File | `/config/config.properties` | High
+39 | File | `/coreframe/app/guestbook/myissue.php` | High
+40 | File | `/cupseasylive/locationcreate.php` | High
+41 | File | `/dash/update.php` | High
+42 | File | `/edit-category.php` | High
+43 | File | `/endpoint/add-user.php` | High
+44 | File | `/endpoint/delete-calorie.php` | High
+45 | File | `/extensions/realestate/index.php/agents/agent-register/addagent` | High
+46 | File | `/fladmin/article_dodel.php` | High
+47 | File | `/fladmin/sysconfig_doedit.php` | High
+48 | File | `/forum/away.php` | High
+49 | ... | ... | ...
 
-There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://app.any.run/tasks/ad7a83a7-6627-4b16-815a-990d1a0c9eff
 * https://bazaar.abuse.ch/sample/38b742be48b426b5c89408092fb6ebdd93eefcb584b131abd9c7e3561641c3f1/
 * https://blog.malwarebytes.com/threat-analysis/2019/12/new-version-of-icedid-trojan-uses-steganographic-payloads/
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
@@ -604,4 +595,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

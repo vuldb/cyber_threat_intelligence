@@ -53,40 +53,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
 2 | File | `/cgi-bin/system_mgr.cgi` | High
-3 | File | `/devices/ProcessRequest.do` | High
-4 | File | `/dus/shopliste/index.php` | High
-5 | File | `/etc/path` | Medium
-6 | File | `/fax/fax_send.php` | High
-7 | File | `/hotel.php` | Medium
-8 | File | `/index/ajax/lang` | High
-9 | File | `/jeecg-boot/sys/common/upload` | High
-10 | File | `/lam/tmp/` | Medium
-11 | File | `/nagiosql/admin/checkcommands.php` | High
-12 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-13 | File | `/usr/5bin/su` | Medium
-14 | File | `/usr/bin/mail` | High
-15 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-16 | File | `/zm/index.php` | High
-17 | File | `add_edit_download.asp` | High
-18 | File | `admin.asp` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/` | Low
-21 | File | `admin/admin.php` | High
-22 | File | `admin/manage-comments.php` | High
-23 | File | `admin/moduleinterface.php` | High
-24 | File | `agentdisplay.php` | High
-25 | File | `agora.cgi` | Medium
-26 | File | `and/or` | Low
-27 | File | `att_protocol.cc` | High
-28 | File | `auction.cgi` | Medium
-29 | File | `authent.php4` | Medium
-30 | File | `autologin.jsp` | High
-31 | File | `axspawn.c` | Medium
-32 | File | `base_ag_main.php` | High
-33 | File | `base_qry_main.php` | High
+3 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+5 | File | `/devices/ProcessRequest.do` | High
+6 | File | `/dus/shopliste/index.php` | High
+7 | File | `/etc/path` | Medium
+8 | File | `/fax/fax_send.php` | High
+9 | File | `/hotel.php` | Medium
+10 | File | `/index/ajax/lang` | High
+11 | File | `/jeecg-boot/sys/common/upload` | High
+12 | File | `/lam/tmp/` | Medium
+13 | File | `/nagiosql/admin/checkcommands.php` | High
+14 | File | `/sys/file/upload` | High
+15 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+16 | File | `/usr/5bin/su` | Medium
+17 | File | `/usr/bin/mail` | High
+18 | File | `/version.js` | Medium
+19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+20 | File | `/zm/index.php` | High
+21 | File | `add_edit_download.asp` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin/` | Low
+24 | File | `admin/admin.php` | High
+25 | File | `admin/manage-comments.php` | High
+26 | File | `admin/moduleinterface.php` | High
+27 | File | `agentdisplay.php` | High
+28 | File | `agora.cgi` | Medium
+29 | File | `and/or` | Low
+30 | File | `att_protocol.cc` | High
+31 | File | `auction.cgi` | Medium
+32 | File | `authent.php4` | Medium
+33 | File | `awstats.pl` | Medium
 34 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +104,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

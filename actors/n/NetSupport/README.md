@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetSupport:
 
+* [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.181.159.137](https://vuldb.com/?ip.5.181.159.137) | 5-181-159-137.mivocloud.com | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,28 +48,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/gena.cgi` | Medium
-5 | File | `/netflow/jspui/editProfile.jsp` | High
-6 | File | `/php/ping.php` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-10 | File | `/see_more_details.php` | High
-11 | File | `/SysInfo1.htm` | High
-12 | File | `/sysinfo_json.cgi` | High
-13 | File | `/system/dictData/loadDictItem` | High
-14 | ... | ... | ...
+1 | File | `/admin/dl_sendmail.php` | High
+2 | File | `/admin/edit_subject.php` | High
+3 | File | `/admin/file_manager/export` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/adminPage/conf/reload` | High
+6 | File | `/admin_topic.php?action=delall` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/cron/settings/setJob/` | High
+9 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/api2/html/` | Medium
+12 | File | `/apply.cgi` | Medium
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/gena.cgi` | Medium
+20 | File | `/h/rest` | Low
+21 | File | `/index.php` | Medium
+22 | File | `/index/ajax/lang` | High
+23 | File | `/log/decodmail.php` | High
+24 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+25 | File | `/log_proxy` | Medium
+26 | File | `/mailcleaner.php/getStats` | High
+27 | File | `/mfsNotice/page` | High
+28 | File | `/netflow/jspui/editProfile.jsp` | High
+29 | File | `/novel/bookSetting/list` | High
+30 | File | `/novel/userFeedback/list` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php/ping.php` | High
+34 | File | `/rapi/read_url` | High
+35 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://pastebin.com/iqcg0Ys7
+* https://urlhaus.abuse.ch/url/3519140/
+* https://urlhaus.abuse.ch/url/3519203/
+* https://urlhaus.abuse.ch/url/3536229/
+* https://urlhaus.abuse.ch/url/3543173/
+* https://urlhaus.abuse.ch/url/3543176/
 * https://www.domaintools.com/resources/blog/a-website-attacked/
 
 ## Literature
@@ -80,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

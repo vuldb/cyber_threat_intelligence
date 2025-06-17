@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TR](https://vuldb.com/?country.tr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,9 +76,28 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [41.188.62.0](https://vuldb.com/?ip.41.188.62.0) | - | - | High
 54 | [41.190.236.0](https://vuldb.com/?ip.41.190.236.0) | - | - | High
 55 | [41.204.96.0](https://vuldb.com/?ip.41.204.96.0) | - | - | High
-56 | ... | ... | ... | ...
+56 | [41.204.100.0](https://vuldb.com/?ip.41.204.100.0) | - | - | High
+57 | [41.204.101.0](https://vuldb.com/?ip.41.204.101.0) | - | - | High
+58 | [41.204.101.16](https://vuldb.com/?ip.41.204.101.16) | a41.204.101.16.deploy.akamaitechnologies.com | - | High
+59 | [41.204.101.32](https://vuldb.com/?ip.41.204.101.32) | static-101-32.blueline.mg | - | High
+60 | [41.204.101.64](https://vuldb.com/?ip.41.204.101.64) | static-101-64.blueline.mg | - | High
+61 | [41.204.101.80](https://vuldb.com/?ip.41.204.101.80) | static-101-80.blueline.mg | - | High
+62 | [41.204.101.88](https://vuldb.com/?ip.41.204.101.88) | static-101-88.blueline.mg | - | High
+63 | [41.204.101.92](https://vuldb.com/?ip.41.204.101.92) | static-101-92.blueline.mg | - | High
+64 | [41.204.101.94](https://vuldb.com/?ip.41.204.101.94) | sw-ixp-1-v3752.malagasy.com | - | High
+65 | [41.204.101.96](https://vuldb.com/?ip.41.204.101.96) | static-101-96.blueline.mg | - | High
+66 | [41.204.101.116](https://vuldb.com/?ip.41.204.101.116) | static-101-116.blueline.mg | - | High
+67 | [41.204.101.120](https://vuldb.com/?ip.41.204.101.120) | static-101-120.blueline.mg | - | High
+68 | [41.204.101.132](https://vuldb.com/?ip.41.204.101.132) | static-101-132.blueline.mg | - | High
+69 | [41.204.101.144](https://vuldb.com/?ip.41.204.101.144) | static-101-144.blueline.mg | - | High
+70 | [41.204.101.156](https://vuldb.com/?ip.41.204.101.156) | static-101-156.blueline.mg | - | High
+71 | [41.204.101.160](https://vuldb.com/?ip.41.204.101.160) | static-101-160.blueline.mg | - | High
+72 | [41.204.101.192](https://vuldb.com/?ip.41.204.101.192) | static-101-192.blueline.mg | - | High
+73 | [41.204.101.208](https://vuldb.com/?ip.41.204.101.208) | static-101-208.blueline.mg | - | High
+74 | [41.204.101.216](https://vuldb.com/?ip.41.204.101.216) | static-101-216.blueline.mg | - | High
+75 | ... | ... | ... | ...
 
-There are 218 more IOC items available. Please use our online service to access the data.
+There are 298 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,12 +105,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -101,68 +119,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-3 | File | `/admin/?page=bike` | High
-4 | File | `/admin/?page=musics/manage_music` | High
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/admin/apply.php` | High
-7 | File | `/admin/book-details.php` | High
-8 | File | `/admin/bwdates-report-details.php` | High
-9 | File | `/Admin/changepassword.php` | High
-10 | File | `/admin/cms_content.php` | High
-11 | File | `/admin/emp-profile-avatar.php` | High
-12 | File | `/admin/forms/option_lists/edit.php` | High
-13 | File | `/admin/general-setting` | High
-14 | File | `/admin/inquiries/view_inquiry.php` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-17 | File | `/admin/service` | High
-18 | File | `/admin/sou.php` | High
-19 | File | `/admin/upload.php` | High
-20 | File | `/admin/users.php` | High
-21 | File | `/adminapi/system/crud` | High
-22 | File | `/animalsupdate.php` | High
-23 | File | `/api/blade-user/export-user` | High
-24 | File | `/api/stl/actions/search` | High
-25 | File | `/api/v1/custom_component` | High
-26 | File | `/api/v1/terminal/sessions/?limit=1` | High
-27 | File | `/api/wechat/app_auth` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/cancel.php` | Medium
-30 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/kerbynet` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/classes/Master.php` | High
-36 | File | `/classes/Master.php?f=delete_category` | High
-37 | File | `/classes/Master.php?f=save_medicine` | High
-38 | File | `/classes/SystemSettings.php?f=update_settings` | High
-39 | File | `/classes/Users.php?f=delete` | High
-40 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-41 | File | `/control/register_case.php` | High
-42 | File | `/CPE` | Low
-43 | File | `/download` | Medium
-44 | File | `/downloadFile.php` | High
-45 | File | `/dtale/chart-data/1` | High
-46 | File | `/dus/fotos_grafiken/index.php` | High
-47 | File | `/dus/shopliste/index.php` | High
-48 | File | `/dus_en/medieninfo_detail/index.php` | High
-49 | File | `/DXR.axd` | Medium
-50 | File | `/edit.php` | Medium
-51 | File | `/endpoint/add-folder.php` | High
-52 | File | `/etc/shadow` | Medium
-53 | File | `/filemanager/upload` | High
-54 | File | `/file_manager/login.php` | High
-55 | File | `/film-rating.php` | High
-56 | File | `/foms/routers/place-order.php` | High
-57 | File | `/forum/away.php` | High
-58 | File | `/fudforum/adm/hlplist.php` | High
-59 | File | `/goform/ate` | Medium
-60 | ... | ... | ...
+1 | File | `/add_deductions.php` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin-api/bpm/model/deploy` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+6 | File | `/admin/bookList?page=1&limit=10` | High
+7 | File | `/admin/bwdates-report-details.php` | High
+8 | File | `/admin/chatroom.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/edit_action.php` | High
+11 | File | `/admin/getallarticleinfo` | High
+12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/manage-pages.php` | High
+16 | File | `/admin/normal-search.php` | High
+17 | File | `/admin/print.php` | High
+18 | File | `/admin/salary_slip.php` | High
+19 | File | `/admin/template/update` | High
+20 | File | `/admin/template_admin.php` | High
+21 | File | `/admin/user-search.php` | High
+22 | File | `/adminPage/main/upload` | High
+23 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+24 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/api/system/other` | High
+27 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+28 | File | `/api/v1/getbaseconfig` | High
+29 | File | `/api/wizard/getCapability` | High
+30 | File | `/api/wizard/getCapabilityWeb` | High
+31 | File | `/api/wizard/getLanguage` | High
+32 | File | `/api/wizard/getSpecs` | High
+33 | File | `/api/wizard/getsyncpppoecfg` | High
+34 | File | `/api/wizard/setLanguage` | High
+35 | File | `/api/wizard/setsyncpppoecfg` | High
+36 | File | `/app/controller/Api.php` | High
+37 | File | `/auth.asp` | Medium
+38 | File | `/auth/register` | High
+39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+40 | File | `/bin/httpd` | Medium
+41 | File | `/catalog/compare` | High
+42 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+43 | File | `/cgi-bin/adm.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/hd_config.cgi` | High
+46 | File | `/cgi-bin/mainfunction.cgi` | High
+47 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+48 | File | `/change-password.php` | High
+49 | File | `/classes/Master.php?f=save_course` | High
+50 | File | `/classes/Master.php?f=save_position` | High
+51 | File | `/Code/loginnew.php` | High
+52 | ... | ... | ...
 
-There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -181,4 +191,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

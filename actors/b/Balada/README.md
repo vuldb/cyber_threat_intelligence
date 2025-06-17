@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,25 +49,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/adminPage/conf/reload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/cron/settings/setJob/` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/api2/html/` | Medium
-8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-9 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/index/ajax/lang` | High
-13 | File | `/log/decodmail.php` | High
-14 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-15 | File | `/log_proxy` | Medium
-16 | File | `/mfsNotice/page` | High
-17 | File | `/novel/bookSetting/list` | High
-18 | ... | ... | ...
+2 | File | `/admin/file_manager/export` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/adminPage/conf/reload` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/api2/html/` | Medium
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+12 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+13 | File | `/DXR.axd` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/h/rest` | Low
+16 | File | `/index/ajax/lang` | High
+17 | File | `/log/decodmail.php` | High
+18 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+19 | File | `/log_proxy` | Medium
+20 | File | `/mailcleaner.php/getStats` | High
+21 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

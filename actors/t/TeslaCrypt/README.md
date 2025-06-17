@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TeslaCrypt:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,11 +88,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,52 +100,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin/general.cgi` | High
-3 | File | `/admin/index3.php` | High
+1 | File | `/admin/category/controller.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/general.cgi` | High
 4 | File | `/admin/manage-users.php` | High
 5 | File | `/admin/pages/` | High
 6 | File | `/admin/reminders/manage_reminder.php` | High
 7 | File | `/admins` | Low
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/ajax/getBasicInfo.php` | High
-10 | File | `/api/admin/system/store/order/list` | High
-11 | File | `/API/info` | Medium
-12 | File | `/CCMAdmin/serverlist.asp` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cgi/get_param.cgi` | High
-16 | File | `/clientdetails/admin/regester.php` | High
-17 | File | `/csms/?page=contact_us` | High
-18 | File | `/csms/admin/inquiries/view_details.php` | High
-19 | File | `/cstecgi.cgi` | Medium
-20 | File | `/ecommerce/support_ticket` | High
-21 | File | `/farm/product.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/home/search` | Medium
-24 | File | `/importexport.php` | High
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/loginsave.php` | High
+8 | File | `/ajax/getBasicInfo.php` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/API/info` | Medium
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/Bloodgroop_process.php` | High
+13 | File | `/CCMAdmin/serverlist.asp` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cgi/get_param.cgi` | High
+18 | File | `/clientdetails/admin/regester.php` | High
+19 | File | `/csms/?page=contact_us` | High
+20 | File | `/csms/admin/inquiries/view_details.php` | High
+21 | File | `/cstecgi.cgi` | Medium
+22 | File | `/ecommerce/support_ticket` | High
+23 | File | `/farm/product.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/home/search` | Medium
+26 | File | `/importexport.php` | High
+27 | File | `/include/chart_generator.php` | High
 28 | File | `/manage_block.php` | High
-29 | File | `/messageboard/view.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/param.file.tgz` | High
-33 | File | `/ptippage.cgi` | High
-34 | File | `/public_html/users.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-37 | File | `/textpattern/index.php` | High
-38 | File | `/tmp/out` | Medium
-39 | File | `/update-image1.php` | High
-40 | File | `/upfile.cgi` | Medium
-41 | File | `/upload` | Low
-42 | File | `/user/s.php` | Medium
-43 | File | `/v1/operador/` | High
-44 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -187,4 +172,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

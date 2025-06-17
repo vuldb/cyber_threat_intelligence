@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Indra:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indra:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -54,8 +54,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/` | Low
-2 | Argument | `file` | Low
-3 | Argument | `PAGE_SIZE` | Medium
+2 | File | `admin.jcomments.php` | High
+3 | Argument | `file` | Low
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

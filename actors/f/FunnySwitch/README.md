@@ -53,15 +53,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/forum/away.php` | High
 5 | File | `/lists/admin/` | High
 6 | File | `/public/login.htm` | High
-7 | File | `/upload` | Low
-8 | File | `/wp-admin/admin-ajax.php` | High
-9 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
-10 | File | `/_next` | Low
-11 | File | `addentry.php` | Medium
-12 | File | `admin/conf_users_edit.php` | High
-13 | ... | ... | ...
+7 | File | `/spip.php` | Medium
+8 | File | `/upload` | Low
+9 | File | `/wp-admin/admin-ajax.php` | High
+10 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+11 | File | `/_next` | Low
+12 | File | `addentry.php` | Medium
+13 | File | `admin/conf_users_edit.php` | High
+14 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

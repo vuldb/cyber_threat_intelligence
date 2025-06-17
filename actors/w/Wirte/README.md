@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,30 +61,32 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/addnews.html` | High
 3 | File | `/admin.php/pic/admin/type/pl_save` | High
-4 | File | `/admin/view-appointment.php` | High
-5 | File | `/api/get-browser-snapshot` | High
-6 | File | `/app/zentao/module/repo/model.php` | High
-7 | File | `/churchcrm/WhyCameEditor.php` | High
-8 | File | `/cobbler-api` | Medium
-9 | File | `/common/dict/list` | High
-10 | File | `/edit_book.php` | High
-11 | File | `/example/editor` | High
-12 | File | `/goform/aspForm` | High
-13 | File | `/hcms/admin/index.php/language/ajax` | High
-14 | File | `/index.php?page=search/rentals` | High
-15 | File | `/list.php` | Medium
-16 | File | `/login/index.php` | High
-17 | File | `/members/view_member.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/php/ping.php` | High
-21 | File | `/protocol/iscgwtunnel/deleteiscgwrouteconf.php` | High
-22 | File | `/scripts/unlock_tasks.php` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/spip.php` | Medium
-25 | ... | ... | ...
+4 | File | `/admin/educloud/videobind.html` | High
+5 | File | `/admin/invoice.php` | High
+6 | File | `/admin/view-appointment.php` | High
+7 | File | `/api/get-browser-snapshot` | High
+8 | File | `/app/zentao/module/repo/model.php` | High
+9 | File | `/churchcrm/WhyCameEditor.php` | High
+10 | File | `/cobbler-api` | Medium
+11 | File | `/common/dict/list` | High
+12 | File | `/dental_form.php` | High
+13 | File | `/edit_book.php` | High
+14 | File | `/example/editor` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/hcms/admin/index.php/language/ajax` | High
+17 | File | `/index.php?page=search/rentals` | High
+18 | File | `/list.php` | Medium
+19 | File | `/login/index.php` | High
+20 | File | `/members/view_member.php` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/php/ping.php` | High
+24 | File | `/protocol/iscgwtunnel/deleteiscgwrouteconf.php` | High
+25 | File | `/scripts/unlock_tasks.php` | High
+26 | File | `/sdTodoDetail.jsp` | High
+27 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

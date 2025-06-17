@@ -20,11 +20,11 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kinsing:
 
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,34 +88,36 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index2.html` | High
 6 | File | `/admin/login.php` | High
 7 | File | `/adminPage/conf/reload` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/cron/settings/setJob/` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/api2/html/` | Medium
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/inc/parser/xhtml.php` | High
-19 | File | `/index/ajax/lang` | High
-20 | File | `/livesite/edit_designer_region.php` | High
-21 | File | `/log/decodmail.php` | High
-22 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-23 | File | `/log_proxy` | Medium
-24 | File | `/mailcleaner.php/getStats` | High
-25 | File | `/member/index/login.html` | High
-26 | File | `/member/myfriend.php` | High
-27 | File | `/member/reg.asp` | High
-28 | File | `/mfsNotice/page` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/ndmComponents.js` | High
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/novel/userFeedback/list` | High
-33 | ... | ... | ...
+8 | File | `/admin_topic.php?action=delall` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/cron/settings/setJob/` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/api/wizard/setsyncpppoecfg` | High
+13 | File | `/api2/html/` | Medium
+14 | File | `/application/index/controller/Databasesource.php` | High
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+20 | File | `/donor-wall` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/etc/shadow` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/h/rest` | Low
+25 | File | `/inc/jquery/uploadify/uploadify.php` | High
+26 | File | `/inc/parser/xhtml.php` | High
+27 | File | `/index/ajax/lang` | High
+28 | File | `/ipms/imageConvert/image` | High
+29 | File | `/livesite/edit_designer_region.php` | High
+30 | File | `/log/decodmail.php` | High
+31 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+32 | File | `/log_proxy` | Medium
+33 | File | `/mailcleaner.php/getStats` | High
+34 | File | `/member/index/login.html` | High
+35 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -144,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

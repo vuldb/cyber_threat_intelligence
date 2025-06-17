@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.63.25.55](https://vuldb.com/?ip.45.63.25.55) | 45.63.25.55.vultr.com | - | Medium
 4 | [51.83.216.232](https://vuldb.com/?ip.51.83.216.232) | a1c.s.cuk.pl | - | High
 5 | [62.113.203.55](https://vuldb.com/?ip.62.113.203.55) | - | - | High
-6 | ... | ... | ... | ...
+6 | [77.221.149.190](https://vuldb.com/?ip.77.221.149.190) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,23 +114,26 @@ ID | Type | Indicator | Confidence
 55 | File | `/application/websocket/controller/Setting.php` | High
 56 | File | `/apply/index.php` | High
 57 | File | `/att_add.php` | Medium
-58 | File | `/backend/register.php` | High
-59 | File | `/baseOpLog.do` | High
-60 | File | `/bcms/admin/?page=user/list` | High
-61 | File | `/blog` | Low
-62 | File | `/blog-single.php` | High
-63 | File | `/book-services.php` | High
-64 | File | `/cgi-bin/adm.cgi` | High
-65 | File | `/cgi-bin/cstecgi.cgi` | High
-66 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-67 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-68 | File | `/classes/Master.php?f=save_inquiry` | High
-69 | File | `/classes/Users.php` | High
-70 | File | `/classes/Users.php?f=save` | High
-71 | File | `/collection/all` | High
-72 | ... | ... | ...
+58 | File | `/backend/admin/his_admin_register_patient.php` | High
+59 | File | `/backend/register.php` | High
+60 | File | `/baseOpLog.do` | High
+61 | File | `/bcms/admin/?page=user/list` | High
+62 | File | `/blog` | Low
+63 | File | `/blog-single.php` | High
+64 | File | `/book-services.php` | High
+65 | File | `/cgi-bin/adm.cgi` | High
+66 | File | `/cgi-bin/cstecgi.cgi` | High
+67 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+68 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+69 | File | `/classes/Master.php?f=save_inquiry` | High
+70 | File | `/classes/Users.php` | High
+71 | File | `/classes/Users.php?f=save` | High
+72 | File | `/collection/all` | High
+73 | File | `/control/deactivate_case.php` | High
+74 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+75 | ... | ... | ...
 
-There are 633 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 662 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,10 +141,13 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.blackberry.com/en/2017/12/threat-spotlight-terdot-a-zloader-malicious-downloader
 * https://community.blueliv.com/#!/s/6141e29b82df417a0032fc18
+* https://github.com/eSentire/iocs/blob/main/Zloader/zloader-iocs.txt
 * https://isc.sans.edu/forums/diary/German+malspam+pushes+ZLoader+malware/25996/
 * https://isc.sans.edu/forums/diary/Job+applicationthemed+malspam+pushes+ZLoader/26222/
 * https://isc.sans.edu/forums/diary/Polish+malspam+pushes+ZLoader+malware/26196/
 * https://research.checkpoint.com/2022/can-you-trust-a-files-digital-signature-new-zloader-campaign-exploits-microsofts-signature-verification-putting-users-at-risk/
+* https://threatfox.abuse.ch
+* https://www.zscaler.com/blogs/security-research/inside-zloader-s-latest-trick-dns-tunneling
 
 ## Literature
 
@@ -151,4 +158,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

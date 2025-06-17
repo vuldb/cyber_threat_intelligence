@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Montenegro Unknown:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,24 +32,32 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [37.221.176.0](https://vuldb.com/?ip.37.221.176.0) | - | - | High
 10 | [45.12.70.141](https://vuldb.com/?ip.45.12.70.141) | book-s11-in.alltieinc.com | - | High
 11 | [45.12.71.141](https://vuldb.com/?ip.45.12.71.141) | - | - | High
-12 | [45.128.45.0](https://vuldb.com/?ip.45.128.45.0) | - | - | High
-13 | [46.33.192.0](https://vuldb.com/?ip.46.33.192.0) | mobint-46-33-l32000.crnagora.net | - | High
-14 | [46.161.64.0](https://vuldb.com/?ip.46.161.64.0) | ill-46-161-64000.crnagora.net | - | High
-15 | [57.90.60.0](https://vuldb.com/?ip.57.90.60.0) | - | - | High
-16 | [57.90.200.0](https://vuldb.com/?ip.57.90.200.0) | - | - | High
-17 | [62.4.32.0](https://vuldb.com/?ip.62.4.32.0) | - | - | High
-18 | [77.222.0.0](https://vuldb.com/?ip.77.222.0.0) | adsl-lns3-l0.crnagora.net | - | High
-19 | [77.237.225.64](https://vuldb.com/?ip.77.237.225.64) | - | - | High
-20 | [78.155.32.0](https://vuldb.com/?ip.78.155.32.0) | adsl-new32-l1.crnagora.net | - | High
-21 | [79.140.144.0](https://vuldb.com/?ip.79.140.144.0) | - | - | High
-22 | [79.143.96.0](https://vuldb.com/?ip.79.143.96.0) | - | - | High
-23 | [81.17.234.0](https://vuldb.com/?ip.81.17.234.0) | - | - | High
-24 | [81.18.48.0](https://vuldb.com/?ip.81.18.48.0) | IP-48-0.zapadbanka.me | - | High
-25 | [81.28.248.0](https://vuldb.com/?ip.81.28.248.0) | - | - | High
-26 | [85.94.96.0](https://vuldb.com/?ip.85.94.96.0) | - | - | High
-27 | ... | ... | ... | ...
+12 | [45.91.52.0](https://vuldb.com/?ip.45.91.52.0) | - | - | High
+13 | [45.128.45.0](https://vuldb.com/?ip.45.128.45.0) | - | - | High
+14 | [45.150.64.0](https://vuldb.com/?ip.45.150.64.0) | . | - | High
+15 | [46.33.192.0](https://vuldb.com/?ip.46.33.192.0) | mobint-46-33-l32000.crnagora.net | - | High
+16 | [46.161.64.0](https://vuldb.com/?ip.46.161.64.0) | ill-46-161-64000.crnagora.net | - | High
+17 | [57.90.60.0](https://vuldb.com/?ip.57.90.60.0) | - | - | High
+18 | [57.90.200.0](https://vuldb.com/?ip.57.90.200.0) | - | - | High
+19 | [62.4.32.0](https://vuldb.com/?ip.62.4.32.0) | - | - | High
+20 | [77.222.0.0](https://vuldb.com/?ip.77.222.0.0) | adsl-lns3-l0.crnagora.net | - | High
+21 | [77.237.225.64](https://vuldb.com/?ip.77.237.225.64) | - | - | High
+22 | [78.155.32.0](https://vuldb.com/?ip.78.155.32.0) | adsl-new32-l1.crnagora.net | - | High
+23 | [79.140.144.0](https://vuldb.com/?ip.79.140.144.0) | - | - | High
+24 | [79.143.96.0](https://vuldb.com/?ip.79.143.96.0) | - | - | High
+25 | [81.17.234.0](https://vuldb.com/?ip.81.17.234.0) | - | - | High
+26 | [81.17.235.0](https://vuldb.com/?ip.81.17.235.0) | n235-h0.loc-x.akton.net | - | High
+27 | [81.18.48.0](https://vuldb.com/?ip.81.18.48.0) | IP-48-0.zapadbanka.me | - | High
+28 | [81.28.248.0](https://vuldb.com/?ip.81.28.248.0) | - | - | High
+29 | [81.28.250.0](https://vuldb.com/?ip.81.28.250.0) | - | - | High
+30 | [85.94.96.0](https://vuldb.com/?ip.85.94.96.0) | - | - | High
+31 | [85.203.22.224](https://vuldb.com/?ip.85.203.22.224) | - | - | High
+32 | [89.188.32.0](https://vuldb.com/?ip.89.188.32.0) | - | - | High
+33 | [89.188.40.0](https://vuldb.com/?ip.89.188.40.0) | - | - | High
+34 | [89.188.45.0](https://vuldb.com/?ip.89.188.45.0) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 104 more IOC items available. Please use our online service to access the data.
+There are 136 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,12 +65,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,17 +80,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/emp-profile-avatar.php` | High
-2 | File | `/admin/mod_room/controller.php?action=add` | High
-3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-4 | File | `/backend/register.php` | High
-5 | File | `/cgi-bin/gui.cgi` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/p1_ftpserver.php` | High
-8 | File | `/classes/Master.php` | High
-9 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/mod_room/controller.php?action=add` | High
+12 | File | `/admin/search-vehicle.php` | High
+13 | File | `/admin/subject.php` | High
+14 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+16 | File | `/admin/twitter.php` | High
+17 | File | `/api/v1/toolbox/device/update/swap` | High
+18 | File | `/app/zentao/module/repo/model.php` | High
+19 | File | `/backend/admin/his_admin_register_patient.php` | High
+20 | File | `/bin/httpd` | Medium
+21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/ExportSettings.sh` | High
+25 | File | `/cgi-bin/p1_ftpserver.php` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/SystemSettings.php?f=update_settings` | High
+28 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+29 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+30 | File | `/edit-subject.php` | High
+31 | File | `/endpoint/add-user.php` | High
+32 | File | `/etc/postfix/sender_login` | High
+33 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_me.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_me.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_me.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_me.netset
 * https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
@@ -100,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

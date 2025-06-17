@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -57,62 +57,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=tracks` | High
 2 | File | `/academy/tutor/filter` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/?page=system_info/contact_info` | High
-5 | File | `/app/options.py` | High
-6 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/classes/SystemSettings.php?f=update_settings` | High
-10 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-11 | File | `/cwc/login` | Medium
-12 | File | `/debuginfo.htm` | High
-13 | File | `/dialog/select_media.php` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/etc/quagga` | Medium
-16 | File | `/fhconf/umconfig.txt` | High
-17 | File | `/forms/doLogin` | High
-18 | File | `/goform/WifiExtraSet` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | File | `/h/calendar` | Medium
-21 | File | `/include/chart_generator.php` | High
-22 | File | `/includes/login.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/members/view_member.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/newProject.php` | High
-27 | File | `/nova/bin/console` | High
-28 | File | `/nova/bin/detnet` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/product_list.php` | High
-33 | File | `/request.php` | Medium
-34 | File | `/req_password_user.php` | High
-35 | File | `/rest/api/latest/projectvalidate/key` | High
-36 | File | `/rom-0` | Low
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/ServletAPI/accounts/login` | High
-39 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-40 | File | `/sysmanage/changelogo.php` | High
-41 | File | `/tmp/.uci/network` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/upload` | Low
-44 | File | `/usr/bin/pkexec` | High
-45 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-46 | File | `/WEB-INF/web.xml` | High
-47 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-48 | File | `/wp-json` | Medium
-49 | File | `aboutus.php` | Medium
-50 | File | `achat/produit_details.php` | High
-51 | File | `adclick.php` | Medium
-52 | File | `add_to_cart.php` | High
-53 | File | `adm.cgi` | Low
-54 | File | `admin.jcomments.php` | High
-55 | File | `admin/index.php` | High
-56 | ... | ... | ...
+3 | File | `/add_user.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/app/options.py` | High
+7 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+8 | File | `/auth_files/photo/` | High
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/classes/SystemSettings.php?f=update_settings` | High
+12 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+13 | File | `/cwc/login` | Medium
+14 | File | `/debuginfo.htm` | High
+15 | File | `/dialog/select_media.php` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/etc/quagga` | Medium
+18 | File | `/fhconf/umconfig.txt` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/goform/VerAPIMant` | High
+21 | File | `/goform/WifiExtraSet` | High
+22 | File | `/h/autoSaveDraft` | High
+23 | File | `/h/calendar` | Medium
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/includes/login.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/libswresample/swresample.c` | High
+28 | File | `/members/view_member.php` | High
+29 | File | `/mhds/clinic/view_details.php` | High
+30 | File | `/newProject.php` | High
+31 | File | `/nova/bin/console` | High
+32 | File | `/nova/bin/detnet` | High
+33 | File | `/oauth/idp/.well-known/openid-configuration` | High
+34 | File | `/out.php` | Medium
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/print_diseases.php` | High
+37 | File | `/product_list.php` | High
+38 | File | `/request.php` | Medium
+39 | File | `/rest/api/latest/projectvalidate/key` | High
+40 | File | `/rom-0` | Low
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/ServletAPI/accounts/login` | High
+43 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+44 | File | `/sysmanage/changelogo.php` | High
+45 | File | `/tmp/.uci/network` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/upload` | Low
+48 | File | `/user/chat/mynewuser` | High
+49 | File | `/usr/bin/pkexec` | High
+50 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+51 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

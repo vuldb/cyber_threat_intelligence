@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -72,22 +72,24 @@ ID | Type | Indicator | Confidence
 21 | File | `/jpg/image.jpg` | High
 22 | File | `/out.php` | Medium
 23 | File | `/php/ping.php` | High
-24 | File | `/product_list.php` | High
-25 | File | `/project/task/{task_id}/show` | High
-26 | File | `/rapi/read_url` | High
-27 | File | `/rrps/classes/Master.php?f=delete_category` | High
-28 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-29 | File | `/scripts/unlock_tasks.php` | High
-30 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-31 | File | `/see_more_details.php` | High
-32 | File | `/src/core/controllers/cm.php` | High
-33 | File | `/SysInfo1.htm` | High
-34 | File | `/sysinfo_json.cgi` | High
-35 | File | `/system/dictData/loadDictItem` | High
-36 | File | `/system/user/modules/mod_users/controller.php` | High
-37 | ... | ... | ...
+24 | File | `/pictory/php/getFileList.php` | High
+25 | File | `/product_list.php` | High
+26 | File | `/project/task/{task_id}/show` | High
+27 | File | `/rapi/read_url` | High
+28 | File | `/rrps/classes/Master.php?f=delete_category` | High
+29 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+30 | File | `/scripts/unlock_tasks.php` | High
+31 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+32 | File | `/see_more_details.php` | High
+33 | File | `/src/core/controllers/cm.php` | High
+34 | File | `/SysInfo1.htm` | High
+35 | File | `/sysinfo_json.cgi` | High
+36 | File | `/system/dictData/loadDictItem` | High
+37 | File | `/system/user/modules/mod_users/controller.php` | High
+38 | File | `/transmission/web/` | High
+39 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

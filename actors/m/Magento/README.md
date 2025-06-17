@@ -54,40 +54,43 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/role` | Medium
 3 | File | `/api/es/admin/v3/security/user/1` | High
 4 | File | `/api /v3/auth` | High
-5 | File | `/boaform/getASPdata/formFirewall` | High
-6 | File | `/cgi-bin/webviewer_login_page` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/common/sysFile/list` | High
-9 | File | `/Content/Template/root/reverse-shell.aspx` | High
-10 | File | `/dede/group_store.php` | High
-11 | File | `/ebics-server/ebics.aspx` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/hedwig.cgi` | Medium
-15 | File | `/monitoring` | Medium
-16 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-17 | File | `/one/getpassword.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/phppath/php` | Medium
-20 | File | `/pms/admin/crimes/manage_crime.php` | High
-21 | File | `/preview.php` | Medium
-22 | File | `/products/details.asp` | High
-23 | File | `/products/view_product.php` | High
-24 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-25 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/servlet/webacc` | High
-28 | File | `/setNTP.cgi` | Medium
-29 | File | `/Side.php` | Medium
-30 | File | `/spip/ecrire/` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/uploads/tags.php` | High
-33 | File | `/userfs/bin/tcapi` | High
-34 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
-35 | File | `/usr/bin/pkexec` | High
-36 | ... | ... | ...
+5 | File | `/api/workspace/:workspace-slug/update` | High
+6 | File | `/boaform/getASPdata/formFirewall` | High
+7 | File | `/cgi-bin/webviewer_login_page` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/common/sysFile/list` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/dede/group_store.php` | High
+12 | File | `/ebics-server/ebics.aspx` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/hedwig.cgi` | Medium
+16 | File | `/monitoring` | Medium
+17 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+18 | File | `/one/getpassword.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/phppath/php` | Medium
+21 | File | `/pms/admin/crimes/manage_crime.php` | High
+22 | File | `/preview.php` | Medium
+23 | File | `/products/details.asp` | High
+24 | File | `/products/view_product.php` | High
+25 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+26 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/servlet/webacc` | High
+29 | File | `/setNTP.cgi` | Medium
+30 | File | `/Side.php` | Medium
+31 | File | `/spip/ecrire/` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/uploads/tags.php` | High
+34 | File | `/userfs/bin/tcapi` | High
+35 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/vendor/views/add_product.php` | High
+38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+39 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

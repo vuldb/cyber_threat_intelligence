@@ -64,34 +64,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/jmreport/loadTableData` | High
 9 | File | `/lists/index.php` | High
 10 | File | `/mail/index.html` | High
-11 | File | `/okm:root` | Medium
-12 | File | `/public/plugins/` | High
-13 | File | `/replication` | Medium
-14 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/uploads/dede` | High
-17 | File | `/WEB-INF/web.xml` | High
-18 | File | `/wp-json/oembed/1.0/embed?url` | High
-19 | File | `AccessPoint.aspx` | High
-20 | File | `activateuser.aspx` | High
-21 | File | `AdHocQuery_Processor.aspx` | High
-22 | File | `admin.asp` | Medium
-23 | File | `admin/admin.asp` | High
-24 | File | `admin/images.aspx` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/login.asp` | High
-27 | File | `advsearch.asp` | High
-28 | File | `AEAgent.cpp` | Medium
-29 | File | `ajax.php` | Medium
-30 | File | `ajax_calls.php` | High
-31 | File | `ajax_cmd.php` | Medium
-32 | File | `allmanageup.pl` | High
-33 | File | `appfeed.c` | Medium
-34 | File | `appointment.php` | High
-35 | File | `ara.asp` | Low
-36 | ... | ... | ...
+11 | File | `/module/word_model/view/index.php` | High
+12 | File | `/okm:root` | Medium
+13 | File | `/public/plugins/` | High
+14 | File | `/replication` | Medium
+15 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+16 | File | `/tool/index.php?c=download&a=save` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/uploads/dede` | High
+19 | File | `/WEB-INF/web.xml` | High
+20 | File | `/wp-json/oembed/1.0/embed?url` | High
+21 | File | `AccessPoint.aspx` | High
+22 | File | `activateuser.aspx` | High
+23 | File | `AdHocQuery_Processor.aspx` | High
+24 | File | `admin.asp` | Medium
+25 | File | `admin/admin.asp` | High
+26 | File | `admin/images.aspx` | High
+27 | File | `admin/index.php` | High
+28 | File | `admin/login.asp` | High
+29 | File | `advsearch.asp` | High
+30 | File | `AEAgent.cpp` | Medium
+31 | File | `ajax.php` | Medium
+32 | File | `ajax_calls.php` | High
+33 | File | `ajax_cmd.php` | Medium
+34 | File | `allmanageup.pl` | High
+35 | File | `appfeed.c` | Medium
+36 | File | `appointment.php` | High
+37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

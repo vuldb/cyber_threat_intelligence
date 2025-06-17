@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,11 +23,12 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.21.234](https://vuldb.com/?ip.5.252.21.234) | kuvshinov.ru | - | High
 2 | [62.182.156.148](https://vuldb.com/?ip.62.182.156.148) | - | - | High
-3 | [109.248.206.49](https://vuldb.com/?ip.109.248.206.49) | 109.248.206.49.yadc.ru | - | High
-4 | [109.248.206.51](https://vuldb.com/?ip.109.248.206.51) | 109.248.206.51.yadc.ru | - | High
-5 | ... | ... | ... | ...
+3 | [80.64.30.238](https://vuldb.com/?ip.80.64.30.238) | - | - | High
+4 | [83.217.208.130](https://vuldb.com/?ip.83.217.208.130) | - | - | High
+5 | [109.248.206.49](https://vuldb.com/?ip.109.248.206.49) | 109.248.206.49.yadc.ru | - | High
+6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,11 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +49,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/public/launchNewWindow.jsp` | High
-3 | File | `/wp-admin/admin-ajax.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/dialog/select_images_post.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/public/launchNewWindow.jsp` | High
+6 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -71,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

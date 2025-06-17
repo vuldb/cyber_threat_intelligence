@@ -17,14 +17,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
-2 | [45.79.77.20](https://vuldb.com/?ip.45.79.77.20) | li1176-20.members.linode.com | - | High
-3 | [54.221.253.252](https://vuldb.com/?ip.54.221.253.252) | ec2-54-221-253-252.compute-1.amazonaws.com | - | Medium
-4 | [54.225.66.103](https://vuldb.com/?ip.54.225.66.103) | ec2-54-225-66-103.compute-1.amazonaws.com | - | Medium
-5 | [54.225.220.115](https://vuldb.com/?ip.54.225.220.115) | ec2-54-225-220-115.compute-1.amazonaws.com | - | Medium
+1 | [1.94.52.128](https://vuldb.com/?ip.1.94.52.128) | ecs-1-94-52-128.compute.hwclouds-dns.com | - | High
+2 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
+3 | [45.79.77.20](https://vuldb.com/?ip.45.79.77.20) | li1176-20.members.linode.com | - | High
+4 | [54.221.253.252](https://vuldb.com/?ip.54.221.253.252) | ec2-54-221-253-252.compute-1.amazonaws.com | - | Medium
+5 | [54.225.66.103](https://vuldb.com/?ip.54.225.66.103) | ec2-54-225-66-103.compute-1.amazonaws.com | - | Medium
 6 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,6 +59,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0503-0510.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
+* https://urlhaus.abuse.ch/url/3560527/
 
 ## Literature
 
@@ -69,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

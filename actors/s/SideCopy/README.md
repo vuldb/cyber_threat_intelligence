@@ -54,33 +54,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/?page=inmates/view_inmate` | High
 5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/boaform/device_reset.cgi` | High
-8 | File | `/core/conditions/AbstractWrapper.java` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/defaultui/player/modern.html` | High
-11 | File | `/dvcset/sysset/set.cgi` | High
-12 | File | `/edit-db.php` | Medium
-13 | File | `/export` | Low
-14 | File | `/file?action=download&file` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/hardware` | Medium
-18 | File | `/installers/common.sh` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/medical/inventories.php` | High
-21 | File | `/monitoring` | Medium
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/pincode-verification.php` | High
-24 | File | `/plugin/LiveChat/getChat.json.php` | High
-25 | File | `/plugins/servlet/audit/resource` | High
-26 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-27 | File | `/proc` | Low
-28 | File | `/products/view_product.php` | High
-29 | File | `/replication` | Medium
+6 | File | `/api/front/search/books` | High
+7 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+8 | File | `/application/index/controller/Screen.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/defaultui/player/modern.html` | High
+14 | File | `/dvcset/sysset/set.cgi` | High
+15 | File | `/edit-db.php` | Medium
+16 | File | `/export` | Low
+17 | File | `/file?action=download&file` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/hardware` | Medium
+21 | File | `/installers/common.sh` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/medical/inventories.php` | High
+24 | File | `/monitoring` | Medium
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/pincode-verification.php` | High
+27 | File | `/plugin/LiveChat/getChat.json.php` | High
+28 | File | `/plugins/servlet/audit/resource` | High
+29 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

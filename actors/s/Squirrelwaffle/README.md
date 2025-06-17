@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,21 +60,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/ExportALLSettings.sh` | High
 3 | File | `/cgi-bin/ExportAllSettings.sh` | High
 4 | File | `/config/getuser` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/include/chart_generator.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-9 | File | `/product_list.php` | High
-10 | File | `/qsr_server/device/reboot` | High
-11 | File | `/resource/file/api/save?auto=1` | High
-12 | File | `/snmpGet` | Medium
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | File | `administrator/components/com_media/helpers/media.php` | High
-17 | ... | ... | ...
+5 | File | `/core/config-revisions` | High
+6 | File | `/etc/passwd` | Medium
+7 | File | `/include/chart_generator.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+10 | File | `/product_list.php` | High
+11 | File | `/qsr_server/device/reboot` | High
+12 | File | `/resource/file/api/save?auto=1` | High
+13 | File | `/snmpGet` | Medium
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | File | `/wp-admin/admin-ajax.php` | High
+17 | File | `administrator/components/com_media/helpers/media.php` | High
+18 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

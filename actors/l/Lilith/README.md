@@ -34,11 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -48,29 +49,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/art/data.html` | High
-2 | File | `/admin.php/pic/admin/pic/del` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-6 | File | `/env` | Low
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/SetNetControlList` | High
-9 | File | `/goform/SetStaticRouteCfg` | High
-10 | File | `/librarian/bookdetails.php` | High
-11 | File | `/ptipupgrade.cgi` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/src/chatbotapp/chatWindow.java` | High
-14 | File | `/staff/bookdetails.php` | High
-15 | File | `about.php` | Medium
-16 | File | `admin.color.php` | High
-17 | File | `admin/addons/archive/archive.php` | High
-18 | File | `admin/categories_industry.php` | High
-19 | File | `admin/class-woo-popup-admin.php` | High
-20 | File | `admin/content/postcategory` | High
-21 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/ad-list` | Medium
+3 | File | `/admin.php/admin/art/data.html` | High
+4 | File | `/admin.php/pic/admin/pic/del` | High
+5 | File | `/admin/suppliers/view_details.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/api/authentication/login` | High
+8 | File | `/api/sys/login` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/v2/open/rowsInfo` | High
+11 | File | `/app/sys1.php` | High
+12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+13 | File | `/cas/logout` | Medium
+14 | File | `/catalog/all-products` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/nightled.cgi` | High
+19 | File | `/cgi-bin/touchlist_sync.cgi` | High
+20 | File | `/cgi-bin/vitogate.cgi` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+23 | File | `/downloadFile.php` | High
+24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+25 | File | `/env` | Low
+26 | File | `/find-a-match` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/friends` | Medium
+29 | File | `/friends/ajax_invite` | High
+30 | File | `/goform/SetNetControlList` | High
+31 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

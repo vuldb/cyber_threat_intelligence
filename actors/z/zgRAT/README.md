@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
@@ -56,29 +56,29 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/edit_product.php` | High
 8 | File | `/admin/products/manage_product.php` | High
 9 | File | `/admin/products/view_product.php` | High
-10 | File | `/config/myfield/test.php` | High
-11 | File | `/eclime/manufacturers.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/horde/util/go.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/index.php?app=main&func=passport&action=login` | High
-16 | File | `/manage-apartment.php` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/Noxen-master/users.php` | High
-19 | File | `/pages/animals.php` | High
-20 | File | `/reports/rwservlet` | High
-21 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-22 | File | `/Service/ImageStationDataService.asmx` | High
-23 | File | `/wp-admin/options-general.php` | High
-24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-25 | File | `ad.cgi` | Low
-26 | File | `adclick.php` | Medium
-27 | File | `admin.color.php` | High
-28 | File | `admin.cropcanvas.php` | High
-29 | File | `admin.joomlaradiov5.php` | High
+10 | File | `/auth_files/photo/` | High
+11 | File | `/config/myfield/test.php` | High
+12 | File | `/eclime/manufacturers.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/horde/util/go.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index.php?app=main&func=passport&action=login` | High
+17 | File | `/manage-apartment.php` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/Noxen-master/users.php` | High
+20 | File | `/pages/animals.php` | High
+21 | File | `/reports/rwservlet` | High
+22 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+23 | File | `/Service/ImageStationDataService.asmx` | High
+24 | File | `/wp-admin/options-general.php` | High
+25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+26 | File | `ad.cgi` | Low
+27 | File | `adclick.php` | Medium
+28 | File | `admin.color.php` | High
+29 | File | `admin.cropcanvas.php` | High
 30 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -51,28 +51,31 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/ajax/file-browser/upload/` | High
 3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/apply_noauth.cgi` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/config.cgi?webmin` | High
-8 | File | `/core/feeds/custom.php` | High
-9 | File | `/home/masterConsole` | High
-10 | File | `/index.php` | Medium
-11 | File | `/lib/` | Low
-12 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-13 | File | `/phppath/php` | Medium
-14 | File | `/public/login.htm` | High
-15 | File | `/public_main_modul.php` | High
-16 | File | `/rom-0` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/var/run/beaker/container_file/` | High
-20 | File | `/wireless/basic.asp` | High
-21 | File | `/wireless/guestnetwork.asp` | High
-22 | File | `/wordpress/wp-admin/options-general.php` | High
-23 | ... | ... | ...
+4 | File | `/admin/config_ISCGroupNoCache.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/apply_noauth.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/config.cgi?webmin` | High
+11 | File | `/core/feeds/custom.php` | High
+12 | File | `/coreframe/app/member/admin/group.php` | High
+13 | File | `/home/masterConsole` | High
+14 | File | `/index.php` | Medium
+15 | File | `/lib/` | Low
+16 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+17 | File | `/module/word_model/view/index.php` | High
+18 | File | `/phppath/php` | Medium
+19 | File | `/public/login.htm` | High
+20 | File | `/public_main_modul.php` | High
+21 | File | `/rom-0` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/var/run/beaker/container_file/` | High
+25 | File | `/wireless/basic.asp` | High
+26 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

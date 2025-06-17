@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Darktrack RAT:
 
-* [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -126,15 +126,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-25 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -142,45 +139,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/adfs/ls` | Medium
-5 | File | `/auth/session` | High
-6 | File | `/category_view.php` | High
-7 | File | `/cgi-bin` | Medium
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/common/info.cgi` | High
-10 | File | `/concat?/%2557EB-INF/web.xml` | High
-11 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-12 | File | `/Employee/edit-profile.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/guest/s/default/` | High
-15 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
-16 | File | `/install/index.php` | High
-17 | File | `/lan.asp` | Medium
-18 | File | `/lists/index.php` | High
-19 | File | `/novel/bookComment/list` | High
-20 | File | `/plugins/servlet/gadgets/makeRequest` | High
-21 | File | `/replication` | Medium
-22 | File | `/rom-0` | Low
-23 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-24 | File | `/server-status` | High
-25 | File | `/setSystemAdmin` | High
-26 | File | `/tmp` | Low
-27 | File | `/trx_addons/v2/get/sc_layout` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/var/log/nginx` | High
-30 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-31 | File | `/webtools/control/httpService` | High
-32 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `adclick.php` | Medium
-36 | File | `add_vhost.php` | High
-37 | ... | ... | ...
+1 | File | `/admin/products/view_product.php` | High
+2 | File | `/admin/profile.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/Employee/edit-profile.php` | High
+5 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -667,4 +632,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

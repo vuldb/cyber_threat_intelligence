@@ -4,24 +4,59 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.uac-0020](https://vuldb.com/?actor.uac-0020)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0020:
+
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [IL](https://vuldb.com/?country.il)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of UAC-0020.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [176.119.2.212](https://vuldb.com/?ip.176.119.2.212) | - | - | High
-2 | [176.119.2.214](https://vuldb.com/?ip.176.119.2.214) | - | - | High
-3 | [176.119.5.194](https://vuldb.com/?ip.176.119.5.194) | - | - | High
+1 | [91.225.219.185](https://vuldb.com/?ip.91.225.219.185) | cerj.cerj | - | High
+2 | [171.22.120.50](https://vuldb.com/?ip.171.22.120.50) | vm3081488.stark-industries.solutions | - | High
+3 | [176.119.2.212](https://vuldb.com/?ip.176.119.2.212) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _UAC-0020_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by UAC-0020. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/wp-admin/admin-ajax.php` | High
+2 | File | `init.php` | Medium
+3 | File | `lists/admin/template.php` | High
+4 | ... | ... | ...
+
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cert.gov.ua/article/37815
+* https://cert.gov.ua/article/6280422
 
 ## Literature
 
@@ -32,4 +67,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

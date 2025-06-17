@@ -9,8 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Silicon Valley Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
-* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -178,12 +176,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -191,29 +189,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/booking-bwdates-reports-details.php` | High
+1 | File | `/AcceptZip.ashx` | High
 2 | File | `/admin/bwdates-report-details.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/index.php?page=manage_product` | High
-5 | File | `/admin/manage-ambulance.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/index.php?page=manage_product` | High
 6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-7 | File | `/api/client/editemedia.php` | High
-8 | File | `/api/v2/maps` | Medium
-9 | File | `/application/index/controller/Databasesource.php` | High
-10 | File | `/backend/register.php` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/p1_ftpserver.php` | High
-13 | File | `/cgi-bin/tosei_kikai.php` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=save_sub_category` | High
-16 | File | `/classes/SystemSettings.php?f=update_settings` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/control/register_case.php` | High
-19 | File | `/dashboard/Cinvoice/manage_invoice` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | ... | ... | ...
+7 | File | `/api/v2/maps` | Medium
+8 | File | `/backend/admin/his_admin_register_patient.php` | High
+9 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/SystemSettings.php?f=update_settings` | High
+14 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -230,4 +221,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

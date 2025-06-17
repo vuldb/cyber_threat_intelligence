@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,10 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,16 +57,18 @@ ID | Type | Indicator | Confidence
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/asms/classes/Master.php?f=delete_transaction` | High
 3 | File | `/cgi-bin/editBookmark` | High
-4 | File | `/goform/addressNat` | High
-5 | File | `/goform/aspForm` | High
-6 | File | `/include/menu_v.inc.php` | High
-7 | File | `/librarian/lab.php` | High
-8 | File | `/login/` | Low
-9 | File | `/omos/admin/?page=user/list` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | ... | ... | ...
+4 | File | `/controllers/updatesettings.php` | High
+5 | File | `/goform/addressNat` | High
+6 | File | `/goform/aspForm` | High
+7 | File | `/include/menu_v.inc.php` | High
+8 | File | `/librarian/lab.php` | High
+9 | File | `/login/` | Low
+10 | File | `/omos/admin/?page=user/list` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/panel/fields/add` | High
+13 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +79,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://twitter.com/suyog41/status/1655524692164214784
 * https://twitter.com/suyog41/status/1699438327508734306
+* https://www.f5.com/labs/articles/threat-intelligence/delving-into-the-sparkrat-remote-access-tool
 * https://www.trendmicro.com/en_us/research/24/c/teamcity-vulnerability-exploits-lead-to-jasmin-ransomware.html
 
 ## Literature
@@ -88,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

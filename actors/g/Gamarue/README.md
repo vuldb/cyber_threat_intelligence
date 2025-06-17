@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,14 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,44 +64,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin/config.php?display=disa&view=form` | High
-4 | File | `/admin/settings.php` | High
-5 | File | `/admin/settings/sites/new` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/api/admin/store/product/save` | High
-8 | File | `/app/admin/nat/item-add-submit.php` | High
-9 | File | `/app/sys1.php` | High
-10 | File | `/bin/sh` | Low
-11 | File | `/cgi-bin/adm.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/config/netconf.cmd` | High
-14 | File | `/customer_support/ajax.php?action=save_ticket` | High
-15 | File | `/folder/list` | Medium
-16 | File | `/group/comment` | High
-17 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-18 | File | `/index/ajax/lang` | High
-19 | File | `/ipms/imageConvert/image` | High
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/log/decodmail.php` | High
-22 | File | `/lookin/info` | Medium
-23 | File | `/manage_inv.php` | High
-24 | File | `/plugins/servlet/jira-blockers/` | High
-25 | File | `/ptipupgrade.cgi` | High
-26 | File | `/public/login.htm` | High
-27 | File | `/register.do` | Medium
-28 | File | `/request.php` | Medium
-29 | File | `/sessions/sess_<sessionid>` | High
-30 | File | `/sysmanage/edit_manageadmin.php` | High
-31 | File | `/themes/<php_file_name>` | High
-32 | File | `/tmp/speedtest_urls.xml` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload` | Low
-35 | File | `/var/log/nginx` | High
-36 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/admin/config.php?display=disa&view=form` | High
+3 | File | `/admin/settings.php` | High
+4 | File | `/ajax` | Low
+5 | File | `/api/admin/store/product/save` | High
+6 | File | `/app/sys1.php` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/cgi-bin/adm.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/customer_support/ajax.php?action=save_ticket` | High
+11 | File | `/editar-cliente.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+14 | File | `/index/ajax/lang` | High
+15 | File | `/ipms/imageConvert/image` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/log/decodmail.php` | High
+18 | File | `/manage_inv.php` | High
+19 | File | `/ptipupgrade.cgi` | High
+20 | File | `/public/login.htm` | High
+21 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sanctionedmedia:
 
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
-* [KW](https://vuldb.com/?country.kw)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -32,6 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -40,7 +41,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-2 | Argument | `fileName` | Medium
+2 | File | `product_data.php.` | High
+3 | Argument | `columns[1][data]` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -57,4 +62,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

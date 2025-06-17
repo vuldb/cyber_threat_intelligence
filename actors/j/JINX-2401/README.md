@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with JINX-2401:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [BR](https://vuldb.com/?country.br)
-* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,21 +49,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/core/vb/vurl.php` | High
-4 | File | `/doping.asp` | Medium
-5 | File | `/etc/shadow.sample` | High
-6 | File | `/goform/ate` | Medium
-7 | File | `/ihomers/app` | Medium
-8 | File | `/IISADMPWD` | Medium
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/see_more_details.php` | High
-11 | File | `/support/messages` | High
-12 | File | `/uncpath/` | Medium
-13 | ... | ... | ...
+1 | File | `/account/forgotpassword` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/core/vb/vurl.php` | High
+5 | File | `/doping.asp` | Medium
+6 | File | `/etc/shadow.sample` | High
+7 | File | `/goform/ate` | Medium
+8 | File | `/ihomers/app` | Medium
+9 | File | `/IISADMPWD` | Medium
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/see_more_details.php` | High
+12 | File | `/shopping/admin/index.php` | High
+13 | File | `/support/messages` | High
+14 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

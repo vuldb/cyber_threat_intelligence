@@ -48,14 +48,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/dayrui/My/Config/Install.txt` | High
 3 | File | `/etc/skel` | Medium
 4 | File | `/hedwig.cgi` | Medium
-5 | File | `/jeecg-boot/jmreport/show` | High
-6 | File | `/novel/bookSetting/list` | High
-7 | File | `/php-opos/index.php` | High
-8 | File | `/rom-0` | Low
-9 | File | `/uncpath/` | Medium
+5 | File | `/index.php?mod=textviewer` | High
+6 | File | `/jeecg-boot/jmreport/show` | High
+7 | File | `/novel/bookSetting/list` | High
+8 | File | `/php-opos/index.php` | High
+9 | File | `/rom-0` | Low
 10 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,4 +72,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

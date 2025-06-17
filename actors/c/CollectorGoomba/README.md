@@ -17,6 +17,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.137.64.40](https://vuldb.com/?ip.45.137.64.40) | vm3984148.25ssd.had.wf | - | High
+2 | [104.21.51.181](https://vuldb.com/?ip.104.21.51.181) | - | - | High
+3 | [172.67.183.148](https://vuldb.com/?ip.172.67.183.148) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,6 +48,8 @@ There are 4 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://tracker.viriback.com/index.php?q=45.137.64.40
+* https://www.shodan.io/host/104.21.51.181#80
+* https://www.shodan.io/host/172.67.183.148#80
 
 ## Literature
 
@@ -56,4 +60,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

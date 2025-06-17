@@ -63,25 +63,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/file_manager/export` | High
 3 | File | `/admin/index2.html` | High
 4 | File | `/adminPage/conf/reload` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-11 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/index/ajax/lang` | High
-15 | File | `/log/decodmail.php` | High
-16 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-17 | File | `/LogInOut.php` | High
-18 | File | `/log_proxy` | Medium
-19 | File | `/mailcleaner.php/getStats` | High
-20 | File | `/mfsNotice/page` | High
-21 | ... | ... | ...
+5 | File | `/admin_topic.php?action=delall` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/api2/html/` | Medium
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+13 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/h/rest` | Low
+17 | File | `/index/ajax/lang` | High
+18 | File | `/log/decodmail.php` | High
+19 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+20 | File | `/LogInOut.php` | High
+21 | File | `/log_proxy` | Medium
+22 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

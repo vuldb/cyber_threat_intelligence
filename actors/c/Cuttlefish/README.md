@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -52,54 +52,54 @@ ID | Type | Indicator | Confidence
 4 | File | `/baseOpLog.do` | High
 5 | File | `/cgi-bin/New_GUI/Igmp.asp` | High
 6 | File | `/cgi-bin/portal` | High
-7 | File | `/forgetpassword.php` | High
-8 | File | `/goform/Diagnosis` | High
-9 | File | `/highlight/index.html` | High
-10 | File | `/HNAP1` | Low
-11 | File | `/index.php` | Medium
-12 | File | `/net/core/filter.c` | High
-13 | File | `/pincode-verification.php` | High
-14 | File | `/rapi/read_url` | High
-15 | File | `/test/cookie/` | High
-16 | File | `/tmp/foo2zjs` | Medium
-17 | File | `/tmp/kamailio_fifo` | High
-18 | File | `/upload` | Low
-19 | File | `/Users.phpf=save` | High
-20 | File | `03-00-/b` | Medium
-21 | File | `add.php` | Low
-22 | File | `addtocart.asp` | High
-23 | File | `adherents/subscription/info.php` | High
-24 | File | `admin/general` | High
-25 | File | `admin/general.php` | High
-26 | File | `admin/graph_trend.php` | High
-27 | File | `admin/login.php` | High
-28 | File | `admin/sitesettings.php` | High
-29 | File | `adminler.asp` | Medium
-30 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-31 | File | `admin\db\DoSql.php` | High
-32 | File | `aide.php3` | Medium
-33 | File | `ajax/ph_save.php` | High
-34 | File | `ansible.cfg` | Medium
-35 | File | `Ap4EsDescriptor.cpp` | High
-36 | File | `app/plug/controller/giftcontroller.php` | High
-37 | File | `arch/arm/kernel/process.c` | High
-38 | File | `arch/x86/entry/entry_64.S` | High
-39 | File | `article.php` | Medium
-40 | File | `asm.js` | Low
-41 | File | `attachment_send.php` | High
-42 | File | `auth-gss2.c` | Medium
-43 | File | `backend\media\ajax_rename.php` | High
-44 | File | `bbms.php` | Medium
-45 | File | `bigdump.php` | Medium
-46 | File | `bpost.php` | Medium
-47 | File | `buffer/gegl-buffer-access.c` | High
-48 | File | `buffer/gegl-tile-backend-swap.c` | High
-49 | File | `byterun/bigarray.c` | High
-50 | File | `caladmin.inc.php` | High
-51 | File | `categoria.php` | High
+7 | File | `/classes/Users.php?f=save` | High
+8 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+9 | File | `/forgetpassword.php` | High
+10 | File | `/goform/Diagnosis` | High
+11 | File | `/highlight/index.html` | High
+12 | File | `/HNAP1` | Low
+13 | File | `/index.php` | Medium
+14 | File | `/net/core/filter.c` | High
+15 | File | `/patient-report.php` | High
+16 | File | `/pincode-verification.php` | High
+17 | File | `/rapi/read_url` | High
+18 | File | `/test/cookie/` | High
+19 | File | `/tmp/foo2zjs` | Medium
+20 | File | `/tmp/kamailio_fifo` | High
+21 | File | `/upload` | Low
+22 | File | `/Users.phpf=save` | High
+23 | File | `03-00-/b` | Medium
+24 | File | `add.php` | Low
+25 | File | `addtocart.asp` | High
+26 | File | `adherents/subscription/info.php` | High
+27 | File | `admin/general` | High
+28 | File | `admin/general.php` | High
+29 | File | `admin/graph_trend.php` | High
+30 | File | `admin/login.php` | High
+31 | File | `admin/sitesettings.php` | High
+32 | File | `adminler.asp` | Medium
+33 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+34 | File | `admin\db\DoSql.php` | High
+35 | File | `aide.php3` | Medium
+36 | File | `ajax/ph_save.php` | High
+37 | File | `ansible.cfg` | Medium
+38 | File | `Ap4EsDescriptor.cpp` | High
+39 | File | `app/plug/controller/giftcontroller.php` | High
+40 | File | `arch/arm/kernel/process.c` | High
+41 | File | `arch/x86/entry/entry_64.S` | High
+42 | File | `article.php` | Medium
+43 | File | `asm.js` | Low
+44 | File | `attachment_send.php` | High
+45 | File | `auth-gss2.c` | Medium
+46 | File | `backend\media\ajax_rename.php` | High
+47 | File | `bbms.php` | Medium
+48 | File | `bigdump.php` | Medium
+49 | File | `bpost.php` | Medium
+50 | File | `buffer/gegl-buffer-access.c` | High
+51 | File | `buffer/gegl-tile-backend-swap.c` | High
 52 | ... | ... | ...
 
-There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## Literature
 
@@ -110,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

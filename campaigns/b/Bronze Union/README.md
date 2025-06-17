@@ -18,8 +18,8 @@ These _actors_ are associated with Bronze Union or other actors linked to the ca
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
-2 | [Bronze Union](https://vuldb.com/?actor.bronze_union) | High
+1 | [Bronze Union](https://vuldb.com/?actor.bronze_union) | High
+2 | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +27,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.114.9.174](https://vuldb.com/?ip.45.114.9.174) | - | [Bronze Union](https://vuldb.com/?actor.bronze_union) | High
-2 | [96.90.63.57](https://vuldb.com/?ip.96.90.63.57) | nleq.com | [Bronze Union](https://vuldb.com/?actor.bronze_union) | High
+1 | [45.114.9.174](https://vuldb.com/?ip.45.114.9.174) | - | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
+2 | [96.90.63.57](https://vuldb.com/?ip.96.90.63.57) | nleq.com | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 3 | [104.130.244.126](https://vuldb.com/?ip.104.130.244.126) | - | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 4 | ... | ... | ... | ...
 
@@ -42,10 +42,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

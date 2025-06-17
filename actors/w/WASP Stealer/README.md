@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,19 +60,20 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/nas_sharing.cgi` | High
 6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 7 | File | `/index.php` | Medium
-8 | File | `/livesite/edit_designer_region.php` | High
-9 | File | `/ndmComponents.js` | High
-10 | File | `/view-pass-detail.php` | High
-11 | File | `/wp-admin/options-general.php` | High
-12 | File | `admin.color.php` | High
-13 | File | `admin.cropcanvas.php` | High
-14 | File | `admin.joomlaradiov5.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/addons/archive/archive.php` | High
-17 | File | `administrator/components/com_media/helpers/media.php` | High
-18 | ... | ... | ...
+8 | File | `/ipms/imageConvert/image` | High
+9 | File | `/livesite/edit_designer_region.php` | High
+10 | File | `/ndmComponents.js` | High
+11 | File | `/v1/sql-runner` | High
+12 | File | `/view-pass-detail.php` | High
+13 | File | `/wp-admin/options-general.php` | High
+14 | File | `admin.color.php` | High
+15 | File | `admin.cropcanvas.php` | High
+16 | File | `admin.joomlaradiov5.php` | High
+17 | File | `admin.php` | Medium
+18 | File | `admin/addons/archive/archive.php` | High
+19 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

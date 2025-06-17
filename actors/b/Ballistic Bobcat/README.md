@@ -51,12 +51,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/user/level_del` | High
 3 | File | `/admin/borrow_add.php` | High
 4 | File | `/admin/general.cgi` | High
-5 | File | `/api/plugin/uninstall` | High
-6 | File | `/api/plugin/upload` | High
-7 | File | `/api/v2/cli/commands` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/api/plugin/uninstall` | High
+7 | File | `/api/plugin/upload` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

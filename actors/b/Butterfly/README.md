@@ -48,31 +48,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/broadcast.php` | High
-2 | File | `/admin/sysmon.php` | High
-3 | File | `/cgi-bin/webviewer_login_page` | High
-4 | File | `/devinfo` | Medium
-5 | File | `/ecrire` | Low
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/pg_meta/default/query` | High
-11 | File | `/proc//auxv` | Medium
-12 | File | `/proc/fs/nfsd/clients/2/states` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/search.php` | Medium
-15 | File | `/services/details.asp` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/Upload.ashx` | Medium
-19 | File | `/usr/sbin/suexec` | High
-20 | File | `/var/tmp/sess_*` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `activateuser.aspx` | High
-23 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/broadcast.php` | High
+3 | File | `/admin/sysmon.php` | High
+4 | File | `/api/wizard/setsyncpppoecfg` | High
+5 | File | `/bwdates-reports-details.php?vid=2` | High
+6 | File | `/cgi-bin/webviewer_login_page` | High
+7 | File | `/devinfo` | Medium
+8 | File | `/ecrire` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/index.php/upload/upload_file/1/1` | High
+12 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+13 | File | `/owa/auth/logon.aspx` | High
+14 | File | `/pg_meta/default/query` | High
+15 | File | `/proc//auxv` | Medium
+16 | File | `/proc/fs/nfsd/clients/2/states` | High
+17 | File | `/proc/ioports` | High
+18 | File | `/search.php` | Medium
+19 | File | `/services/details.asp` | High
+20 | File | `/tmp` | Low
+21 | File | `/Tool/uploadfile.php` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/Upload.ashx` | Medium
+24 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +90,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

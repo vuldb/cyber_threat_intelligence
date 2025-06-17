@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [HT](https://vuldb.com/?country.ht)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,9 +39,13 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [45.12.70.129](https://vuldb.com/?ip.45.12.70.129) | figure-bottom.yourbandinc.com | - | High
 17 | [45.12.71.129](https://vuldb.com/?ip.45.12.71.129) | - | - | High
 18 | [45.74.23.0](https://vuldb.com/?ip.45.74.23.0) | - | - | High
-19 | ... | ... | ... | ...
+19 | [57.74.118.0](https://vuldb.com/?ip.57.74.118.0) | - | - | High
+20 | [57.91.144.0](https://vuldb.com/?ip.57.91.144.0) | - | - | High
+21 | [65.48.170.0](https://vuldb.com/?ip.65.48.170.0) | - | - | High
+22 | [65.48.172.0](https://vuldb.com/?ip.65.48.172.0) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 71 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +53,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,78 +66,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/manage_academic.php` | High
-3 | File | `/admin/photo.php` | High
-4 | File | `/admin/upload.php` | High
-5 | File | `/admin/user/add` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/APP_Installation.asp` | High
-8 | File | `/blog` | Low
-9 | File | `/categorypage.php` | High
-10 | File | `/cm/delete` | Medium
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/config/config.json` | High
-13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-14 | File | `/download` | Medium
-15 | File | `/drivers/media/media-device.c` | High
-16 | File | `/etc/master.passwd` | High
-17 | File | `/filemanager/upload.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/home.php` | Medium
-21 | File | `/homeaction.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/index.php?action=editSalesman` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/modules/tasks/summary.inc.php` | High
-26 | File | `/multi-vendor-shopping-script/product-list.php` | High
-27 | File | `/out.php` | Medium
-28 | File | `/p` | Low
-29 | File | `/portal/search.htm` | High
-30 | File | `/preauth` | Medium
-31 | File | `/products/details.asp` | High
-32 | File | `/recordings/index.php` | High
-33 | File | `/see_more_details.php` | High
-34 | File | `/show_news.php` | High
-35 | File | `/student/bookdetails.php` | High
-36 | File | `/tmp/before` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/update-article.php` | High
-39 | File | `/updownload/t.report` | High
-40 | File | `/user.profile.php` | High
-41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-42 | File | `/wordpress/wp-admin/options-general.php` | High
-43 | File | `/wp-admin` | Medium
-44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `4.2.0.CP09` | Medium
-46 | File | `account.asp` | Medium
-47 | File | `activateuser.aspx` | High
-48 | File | `adclick.php` | Medium
-49 | File | `adm/systools.asp` | High
-50 | File | `admin.php` | Medium
-51 | File | `admin/admin.php` | High
-52 | File | `admin/admin.shtml` | High
-53 | File | `Admin/ADM_Pagina.php` | High
-54 | File | `admin/category.inc.php` | High
-55 | File | `admin/main.asp` | High
-56 | File | `admin/param/param_func.inc.php` | High
-57 | File | `admin/y_admin.asp` | High
-58 | File | `adminer.php` | Medium
-59 | File | `administration/admins.php` | High
-60 | File | `administrator/components/com_media/helpers/media.php` | High
-61 | File | `admin_ok.asp` | Medium
-62 | File | `album_portal.php` | High
-63 | File | `app/Core/Paginator.php` | High
-64 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-65 | File | `application/controller/InstallerController.php` | High
-66 | File | `artlinks.dispnew.php` | High
-67 | File | `auth.php` | Medium
-68 | File | `awstats.pl` | Medium
-69 | File | `bin/named/query.c` | High
-70 | ... | ... | ...
+1 | File | `/admin/addgiving.php` | High
+2 | File | `/admin/index.php?page=manage_lot` | High
+3 | File | `/admin/pages/subjects.php` | High
+4 | File | `/analysisProject/pagingQueryData` | High
+5 | File | `/api/api.php?mod=upload&type=1` | High
+6 | File | `/app/admin/view/web_user.html` | High
+7 | File | `/app/sys1.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+10 | File | `/classes/Master.php?f=delete_reminder` | High
+11 | File | `/data/app` | Medium
+12 | File | `/debuginfo.htm` | High
+13 | File | `/detalheIdUra` | High
+14 | File | `/editar-cliente.php` | High
+15 | File | `/edit_user.php` | High
+16 | ... | ... | ...
 
-There are 616 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -153,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

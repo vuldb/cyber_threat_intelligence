@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Berlin Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,10 +94,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-29 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,8 +107,8 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_reference_to_local_model` | High
 2 | File | `/admin/bwdates-report-details.php` | High
-3 | File | `/admin/edit_subject.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/fetch_product_details.php` | High
 5 | File | `/admin/manage-ambulance.php` | High
 6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 7 | File | `/backend/register.php` | High
@@ -118,10 +118,9 @@ ID | Type | Indicator | Confidence
 11 | File | `/check_availability.php` | High
 12 | File | `/classes/Master.php` | High
 13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | ... | ... | ...
+14 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,4 +137,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

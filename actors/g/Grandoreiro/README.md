@@ -27,7 +27,8 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [15.228.57.146](https://vuldb.com/?ip.15.228.57.146) | ec2-15-228-57-146.sa-east-1.compute.amazonaws.com | - | Medium
 5 | [15.228.233.242](https://vuldb.com/?ip.15.228.233.242) | ec2-15-228-233-242.sa-east-1.compute.amazonaws.com | - | Medium
 6 | [15.229.47.198](https://vuldb.com/?ip.15.229.47.198) | ec2-15-229-47-198.sa-east-1.compute.amazonaws.com | - | Medium
-7 | ... | ... | ... | ...
+7 | [18.215.238.53](https://vuldb.com/?ip.18.215.238.53) | ec2-18-215-238-53.compute-1.amazonaws.com | - | Medium
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -52,18 +53,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin-profile.php` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/archibus/login.axvw` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/classes/SystemSettings.php?f=update_settings` | High
-6 | File | `/download` | Medium
-7 | File | `/foms/routers/place-order.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-10 | File | `/kortex_lite/control/edit_profile.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | ... | ... | ...
+3 | File | `/api/runs/search/run/` | High
+4 | File | `/archibus/login.axvw` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/download` | Medium
+10 | File | `/foms/routers/place-order.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+13 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +80,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/Merlax_/status/1594862075897339904
 * https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-grandoreiro-banking-trojan/
 * https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals
+* https://x.com/500mk500/status/1863622487159816567
 
 ## Literature
 
@@ -88,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

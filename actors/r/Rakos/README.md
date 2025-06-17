@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,13 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,39 +49,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/addWhiteListDomain.imss` | High
-3 | File | `/admin/app/product.php` | High
-4 | File | `/anony/mjpg.cgi` | High
-5 | File | `/api/get-browser-snapshot` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cobbler-api` | Medium
-8 | File | `/customer_support/index.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/login/index.php` | High
-14 | File | `/member/index/login.html` | High
-15 | File | `/member/myfriend.php` | High
-16 | File | `/member/reg.asp` | High
-17 | File | `/pms/admin/actions/view_action.php` | High
-18 | File | `/pms/admin/cells/view_cell.php` | High
-19 | File | `/pms/admin/crimes/manage_crime.php` | High
-20 | File | `/pms/admin/inmates/view_inmate.php` | High
-21 | File | `/pms/admin/prisons/view_prison.php` | High
-22 | File | `/pms/admin/visits/view_visit.php` | High
-23 | File | `/pms/index.php` | High
-24 | File | `/pms/update_medicine.php` | High
-25 | File | `/pms/update_patient.php` | High
-26 | File | `/pms/update_user.php` | High
-27 | File | `/preview.php` | Medium
-28 | File | `/protocol/index.php` | High
-29 | File | `/requests.php` | High
-30 | File | `/search-result.php` | High
-31 | ... | ... | ...
+1 | File | `/#ProductSerie/view/` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/addWhiteListDomain.imss` | High
+4 | File | `/admin/app/product.php` | High
+5 | File | `/anony/mjpg.cgi` | High
+6 | File | `/api/get-browser-snapshot` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cobbler-api` | Medium
+9 | File | `/customer_support/index.php` | High
+10 | File | `/donor-wall` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/inc/jquery/uploadify/uploadify.php` | High
+13 | File | `/inc/parser/xhtml.php` | High
+14 | File | `/include/makecvs.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index/ajax/lang` | High
+17 | File | `/login/index.php` | High
+18 | File | `/member/index/login.html` | High
+19 | File | `/member/myfriend.php` | High
+20 | File | `/member/reg.asp` | High
+21 | File | `/modules/messaging/` | High
+22 | File | `/pms/admin/actions/view_action.php` | High
+23 | File | `/pms/admin/cells/view_cell.php` | High
+24 | File | `/pms/admin/crimes/manage_crime.php` | High
+25 | File | `/pms/admin/inmates/view_inmate.php` | High
+26 | File | `/pms/admin/prisons/view_prison.php` | High
+27 | File | `/pms/admin/visits/view_visit.php` | High
+28 | File | `/pms/index.php` | High
+29 | File | `/pms/update_medicine.php` | High
+30 | File | `/pms/update_patient.php` | High
+31 | File | `/pms/update_user.php` | High
+32 | File | `/preview.php` | Medium
+33 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

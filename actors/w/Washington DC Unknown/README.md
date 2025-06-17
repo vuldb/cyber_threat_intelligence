@@ -163,25 +163,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/aboutus.php` | High
 2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/booking-bwdates-reports-details.php` | High
-4 | File | `/admin/edit-admin.php` | High
-5 | File | `/admin/edit-card-detail.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/index.php?page=manage_product` | High
-8 | File | `/admin/manage_complaint.php` | High
-9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-10 | File | `/api/v2/maps` | Medium
-11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-12 | File | `/backend/admin/his_admin_register_patient.php` | High
-13 | File | `/backend/register.php` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/p1_ftpserver.php` | High
-16 | File | `/cgi-bin/tosei_kikai.php` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/SystemSettings.php?f=update_settings` | High
-19 | ... | ... | ...
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/edit-card-detail.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/index.php?page=manage_product` | High
+7 | File | `/admin/manage_complaint.php` | High
+8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+9 | File | `/api/v2/maps` | Medium
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/backend/admin/his_admin_register_patient.php` | High
+12 | File | `/cgi-bin/p1_ftpserver.php` | High
+13 | File | `/cgi-bin/tosei_kikai.php` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -198,4 +195,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

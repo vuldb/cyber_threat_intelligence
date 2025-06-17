@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.squidloader](https://vuldb.com/?actor.squidloader)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SquidLoader:
+
+* [SV](https://vuldb.com/?country.sv)
+* [DE](https://vuldb.com/?country.de)
+* [PT](https://vuldb.com/?country.pt)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of SquidLoader.
@@ -11,11 +22,37 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.140.230.234](https://vuldb.com/?ip.8.140.230.234) | - | - | High
-2 | [38.12.251.124](https://vuldb.com/?ip.38.12.251.124) | - | - | High
-3 | [43.143.123.22](https://vuldb.com/?ip.43.143.123.22) | - | - | High
+2 | [8.155.33.13](https://vuldb.com/?ip.8.155.33.13) | - | - | High
+3 | [38.12.251.124](https://vuldb.com/?ip.38.12.251.124) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SquidLoader_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by SquidLoader. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/ajax.php?action=save_uploads` | High
+2 | File | `/api/v2/open/rowsInfo` | High
+3 | File | `/cgi-bin/DownloadCfg/RouterCfm.cfg` | High
+4 | ... | ... | ...
+
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -32,4 +69,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

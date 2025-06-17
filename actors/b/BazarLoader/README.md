@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,13 +70,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,29 +83,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/Admin/login.php` | High
-3 | File | `/api` | Low
-4 | File | `/api/sys_username_passwd.cmd` | High
-5 | File | `/download/image` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/home/cavesConsole` | High
-8 | File | `/inc/parser/xhtml.php` | High
-9 | File | `/include/makecvs.php` | High
-10 | File | `/member/index/login.html` | High
-11 | File | `/member/myfriend.php` | High
-12 | File | `/member/reg.asp` | High
-13 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-14 | File | `/pms/admin/actions/view_action.php` | High
-15 | File | `/pms/admin/cells/view_cell.php` | High
-16 | File | `/pms/admin/crimes/manage_crime.php` | High
-17 | File | `/pms/admin/inmates/view_inmate.php` | High
-18 | File | `/pms/admin/prisons/view_prison.php` | High
-19 | File | `/pms/admin/visits/view_visit.php` | High
-20 | File | `/pms/index.php` | High
-21 | ... | ... | ...
+1 | File | `/#ProductSerie/view/` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/Admin/login.php` | High
+4 | File | `/api/wizard/setsyncpppoecfg` | High
+5 | File | `/donor-wall` | Medium
+6 | File | `/download/image` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/home/cavesConsole` | High
+9 | File | `/inc/jquery/uploadify/uploadify.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/index/ajax/lang` | High
+12 | File | `/member/index/login.html` | High
+13 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

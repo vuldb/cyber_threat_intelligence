@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Norfolk Island Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [AU](https://vuldb.com/?country.au)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,15 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.56.156](https://vuldb.com/?ip.5.62.56.156) | r-156-56-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.58.148](https://vuldb.com/?ip.5.62.58.148) | r-148-58-62-5.consumer-pool.prcdn.net | - | High
 3 | [45.12.70.164](https://vuldb.com/?ip.45.12.70.164) | corpc-aahbean.alltieinc.com | - | High
-4 | ... | ... | ... | ...
+4 | [45.12.71.164](https://vuldb.com/?ip.45.12.71.164) | - | - | High
+5 | [46.36.200.206](https://vuldb.com/?ip.46.36.200.206) | - | - | High
+6 | [46.36.200.208](https://vuldb.com/?ip.46.36.200.208) | - | - | High
+7 | [46.36.200.210](https://vuldb.com/?ip.46.36.200.210) | - | - | High
+8 | [103.43.204.0](https://vuldb.com/?ip.103.43.204.0) | - | - | High
+9 | [104.28.12.21](https://vuldb.com/?ip.104.28.12.21) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-41 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,81 +55,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/manage_academic.php` | High
-3 | File | `/admin/photo.php` | High
-4 | File | `/admin/upload.php` | High
-5 | File | `/admin/user/add` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/APP_Installation.asp` | High
-8 | File | `/blog` | Low
-9 | File | `/categorypage.php` | High
-10 | File | `/cm/delete` | Medium
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/config/config.json` | High
-13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-14 | File | `/download` | Medium
-15 | File | `/drivers/media/media-device.c` | High
-16 | File | `/etc/master.passwd` | High
-17 | File | `/filemanager/upload.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/home.php` | Medium
-21 | File | `/homeaction.php` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/modules/tasks/summary.inc.php` | High
-24 | File | `/multi-vendor-shopping-script/product-list.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/p` | Low
-27 | File | `/portal/search.htm` | High
-28 | File | `/preauth` | Medium
-29 | File | `/products/details.asp` | High
-30 | File | `/recordings/index.php` | High
-31 | File | `/see_more_details.php` | High
-32 | File | `/show_news.php` | High
-33 | File | `/student/bookdetails.php` | High
-34 | File | `/tmp/before` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/update-article.php` | High
-37 | File | `/updownload/t.report` | High
-38 | File | `/user.profile.php` | High
-39 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-40 | File | `/wordpress/wp-admin/options-general.php` | High
-41 | File | `/wp-admin` | Medium
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `4.2.0.CP09` | Medium
-44 | File | `account.asp` | Medium
-45 | File | `adclick.php` | Medium
-46 | File | `adm/systools.asp` | High
-47 | File | `admin.php` | Medium
-48 | File | `admin/admin.php` | High
-49 | File | `admin/admin.shtml` | High
-50 | File | `Admin/ADM_Pagina.php` | High
-51 | File | `admin/category.inc.php` | High
-52 | File | `admin/main.asp` | High
-53 | File | `admin/param/param_func.inc.php` | High
-54 | File | `admin/y_admin.asp` | High
-55 | File | `adminer.php` | Medium
-56 | File | `administration/admins.php` | High
-57 | File | `administrator/components/com_media/helpers/media.php` | High
-58 | File | `admin_ok.asp` | Medium
-59 | File | `album_portal.php` | High
-60 | File | `app/Core/Paginator.php` | High
-61 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-62 | File | `application/controller/InstallerController.php` | High
-63 | File | `artlinks.dispnew.php` | High
-64 | File | `auth.php` | Medium
-65 | File | `awstats.pl` | Medium
-66 | File | `bin/named/query.c` | High
-67 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\Steam` | High
+2 | File | `.git/` | Low
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/manage_academic.php` | High
+7 | File | `/admin/upload.php` | High
+8 | File | `/admin/user/user-move-run.php` | High
+9 | File | `/adminapi/system/crud` | High
+10 | File | `/ajax_city.php` | High
+11 | File | `/analysisProject/pagingQueryData` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/snapshots/` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/upload.php` | High
+16 | File | `/api/wizard/getWifiNeighbour` | High
+17 | File | `/ari/asterisk/variable` | High
+18 | File | `/backend/register.php` | High
+19 | File | `/blog` | Low
+20 | File | `/car-rental-management-system/admin/view_car.php=` | High
+21 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+22 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/change-password.php` | High
+26 | File | `/config/config.json` | High
+27 | File | `/control/register_case.php` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/dottie.js` | Medium
+30 | File | `/download` | Medium
+31 | File | `/dtale/chart-data/1` | High
+32 | File | `/etc/hosts.deny` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/setcfm` | High
+35 | File | `/HNAP1` | Low
+36 | File | `/index.php/ccm/system/file/upload` | High
+37 | File | `/index.php?menu=asterisk_cli` | High
+38 | File | `/index/ajax/lang` | High
+39 | File | `/jeecg-boot/jmreport/show` | High
+40 | File | `/kortex_lite/control/edit_profile.php` | High
+41 | File | `/listplace/user/ticket/create` | High
+42 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+43 | File | `/messageboard/view.php` | High
+44 | File | `/modules/projects/vw_files.php` | High
+45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+46 | File | `/phppath/php` | Medium
+47 | File | `/portal/search.htm` | High
+48 | File | `/pro/common/download` | High
+49 | ... | ... | ...
 
-There are 589 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_nf.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_nf.netset
 
 ## Literature
 
@@ -133,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

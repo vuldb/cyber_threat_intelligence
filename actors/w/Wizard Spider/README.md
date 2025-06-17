@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -104,13 +104,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,34 +119,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/admin-update-employee.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/clusters/local/topics/{topic}/messages` | High
-8 | File | `/api/gen/clients/{language}` | High
-9 | File | `/API/info` | Medium
-10 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-11 | File | `/cgi-bin/tosei_kikai.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/detailed.php` | High
-14 | File | `/dist/index.js` | High
-15 | File | `/DXR.axd` | Medium
-16 | File | `/ebics-server/ebics.aspx` | High
-17 | File | `/EXCU_SHELL` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/form2systime.cgi` | High
-20 | File | `/goform/modifyDhcpRule` | High
-21 | File | `/goform/ModifyPppAuthWhiteMac` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/goform/setStaOffline` | High
-24 | File | `/goform/WizardHandle` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
+2 | File | `/add-students.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/admin-update-employee.php` | High
+6 | File | `/admin/booktime.php` | High
+7 | File | `/admin/change-image.php` | High
+8 | File | `/admin/index.php/web/ajax_all_lists` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/member_save.php` | High
+11 | File | `/api/clusters/local/topics/{topic}/messages` | High
+12 | File | `/API/info` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+15 | File | `/cgi-bin/tosei_kikai.php` | High
+16 | File | `/cov/triggerEnvCov` | High
+17 | File | `/dashboard/admin/del_plan.php` | High
+18 | File | `/dashboard/approve-reject.php` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/dede/file_manage_control.php` | High
+21 | File | `/detailed.php` | High
+22 | File | `/dist/index.js` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/EXCU_SHELL` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/general/address/private/address/query/delete.php` | High
 27 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -171,4 +171,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

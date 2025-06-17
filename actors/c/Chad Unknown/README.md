@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chad Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +31,16 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.12.71.216](https://vuldb.com/?ip.45.12.71.216) | - | - | High
 9 | [45.59.180.0](https://vuldb.com/?ip.45.59.180.0) | - | - | High
 10 | [46.36.203.11](https://vuldb.com/?ip.46.36.203.11) | - | - | High
-11 | ... | ... | ... | ...
+11 | [46.36.203.12](https://vuldb.com/?ip.46.36.203.12) | - | - | High
+12 | [57.82.58.0](https://vuldb.com/?ip.57.82.58.0) | - | - | High
+13 | [57.82.176.0](https://vuldb.com/?ip.57.82.176.0) | - | - | High
+14 | [63.246.45.0](https://vuldb.com/?ip.63.246.45.0) | - | - | High
+15 | [80.78.17.48](https://vuldb.com/?ip.80.78.17.48) | - | - | High
+16 | [81.199.101.0](https://vuldb.com/?ip.81.199.101.0) | - | - | High
+17 | [81.199.101.20](https://vuldb.com/?ip.81.199.101.20) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,13 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,58 +63,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+1 | File | `.git/` | Low
+2 | File | `.php.gif` | Medium
+3 | File | `/admin/` | Low
 4 | File | `/admin/aboutus.php` | High
 5 | File | `/admin/add-services.php` | High
-6 | File | `/admin/ajax/avatar.php` | High
-7 | File | `/admin/edit-services.php` | High
-8 | File | `/admin/forgot-password.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/lab.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/show.php` | High
-14 | File | `/backend/register.php` | High
-15 | File | `/boat/login.php` | High
-16 | File | `/clinic/disease_symptoms_view.php` | High
-17 | File | `/config-manager/save` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/dashboard/table-list.php` | High
-20 | File | `/default.php?idx=17` | High
-21 | File | `/doctor/view-appointment-detail.php` | High
-22 | File | `/download` | Medium
-23 | File | `/downloadFile.php` | High
-24 | File | `/edit-client-details.php` | High
-25 | File | `/env` | Low
-26 | File | `/forum/away.php` | High
-27 | File | `/include/file.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/member.php?action=chgpwdsubmit` | High
-31 | File | `/nova/bin/graphing` | High
-32 | File | `/opt/bin/cli` | Medium
-33 | File | `/p` | Low
-34 | File | `/patient/doctors.php` | High
-35 | File | `/phpinventory/editcategory.php` | High
-36 | File | `/product-list.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/uncpath/` | Medium
-39 | File | `/updown/upload.cgi` | High
-40 | File | `/user/del.php` | High
-41 | File | `/web_cste/cgi-bin/product.ini` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `/_next` | Low
-44 | File | `123flashchat.php` | High
-45 | File | `act.php` | Low
-46 | File | `admin.php` | Medium
-47 | File | `admin.php/pay` | High
-48 | File | `admin/bad.php` | High
-49 | File | `admin/index.php` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/process_category_add.php` | High
+10 | File | `/admin/registration.php` | High
+11 | File | `/admin/userprofile.php` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+14 | File | `/analysisProject/pagingQueryData` | High
+15 | File | `/api/snapshots/` | High
+16 | File | `/api/sys/login` | High
+17 | File | `/api/upload.php` | High
+18 | File | `/api/wizard/getWifiNeighbour` | High
+19 | File | `/app/middleware/TokenVerify.php` | High
+20 | File | `/backend/register.php` | High
+21 | File | `/blog` | Low
+22 | File | `/boat/login.php` | High
+23 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+24 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+25 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+28 | File | `/cgi-bin/gui.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/s3.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/change-password.php` | High
+33 | File | `/clinic/disease_symptoms_view.php` | High
+34 | File | `/config-manager/save` | High
+35 | File | `/control/register_case.php` | High
+36 | File | `/dashboard/menu-list.php` | High
+37 | File | `/dashboard/table-list.php` | High
+38 | File | `/data/app` | Medium
+39 | File | `/debug/pprof` | Medium
+40 | File | `/devinfo` | Medium
+41 | File | `/doctor/view-appointment-detail.php` | High
+42 | File | `/downloadFile.php` | High
+43 | File | `/dtale/chart-data/1` | High
+44 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+45 | File | `/edit-client-details.php` | High
+46 | File | `/edit_account.php` | High
+47 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+48 | File | `/employeeview.php` | High
+49 | File | `/etc/hosts` | Medium
 50 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lock360](https://vuldb.com/?actor.lock360) | High
 2 | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
+3 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -32,10 +33,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [1.3.9.1](https://vuldb.com/?ip.1.3.9.1) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
 2 | [3.5.33.11](https://vuldb.com/?ip.3.5.33.11) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
-3 | [86.109.170.200](https://vuldb.com/?ip.86.109.170.200) | www02.dnsprimario.com | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
+3 | [83.217.208.130](https://vuldb.com/?ip.83.217.208.130) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,16 +58,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/categorypage.php` | High
-2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-3 | File | `adclick.php` | Medium
+2 | File | `/student/project_selection/move_up_project.php` | High
+3 | File | `/usr/local/psa/admin/sbin/wrapper` | High
 4 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.sucuri.net/2025/02/wordpress-clickfix-malware-causes-google-warnings-and-infected-computers.html
 * https://www.claudiokuenzler.com/blog/1183/technical-analysis-hack-php-script-running-process-read-code-from-memory
 * https://www.wordfence.com/blog/2019/03/hackers-abusing-recently-patched-vulnerability-in-easy-wp-smtp-plugin/
 
@@ -79,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
