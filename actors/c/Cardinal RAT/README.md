@@ -41,11 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,17 +56,19 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?/plugin/comment/settings` | High
 2 | File | `/filemanager/upload.php` | High
 3 | File | `/forum/away.php` | High
-4 | File | `/inc/parser/xhtml.php` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/webconsole/APIController` | High
-7 | File | `/webmail/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `admin.php?s=/Admin/doedit` | High
-10 | File | `admin/conf_users_edit.php` | High
-11 | File | `admin/web_config.php` | High
-12 | ... | ... | ...
+4 | File | `/goform/formSetACLFilter` | High
+5 | File | `/goform/openSchedWifi` | High
+6 | File | `/inc/parser/xhtml.php` | High
+7 | File | `/php_action/fetchSelectedCategories.php` | High
+8 | File | `/pppoe_base.asp` | High
+9 | File | `/routing/goform/aspForm` | High
+10 | File | `/transactionsave.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/webconsole/APIController` | High
+13 | File | `/webmail/` | Medium
+14 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

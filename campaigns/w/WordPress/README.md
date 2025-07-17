@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with WordPress:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -33,10 +33,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [1.3.9.1](https://vuldb.com/?ip.1.3.9.1) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
 2 | [3.5.33.11](https://vuldb.com/?ip.3.5.33.11) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
-3 | [83.217.208.130](https://vuldb.com/?ip.83.217.208.130) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [5.252.178.123](https://vuldb.com/?ip.5.252.178.123) | no-rdns.mivocloud.com | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,18 +58,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/categorypage.php` | High
-2 | File | `/student/project_selection/move_up_project.php` | High
-3 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-4 | ... | ... | ...
+1 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/apply.cgi` | Medium
+3 | File | `/categorypage.php` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+6 | File | `/login` | Low
+7 | File | `/php/ajax.php` | High
+8 | File | `/php/ping.php` | High
+9 | File | `/rapi/read_url` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/student/project_selection/move_up_project.php` | High
+12 | File | `/sys/user/queryUserComponentData` | High
+13 | File | `/SysInfo1.htm` | High
+14 | File | `/sysinfo_json.cgi` | High
+15 | File | `/system/dictData/loadDictItem` | High
+16 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.sucuri.net/2025/02/wordpress-clickfix-malware-causes-google-warnings-and-infected-computers.html
+* https://blog.sucuri.net/2025/06/stealthy-wordpress-malware-drops-windows-trojan-via-php-backdoor.html
 * https://www.claudiokuenzler.com/blog/1183/technical-analysis-hack-php-script-running-process-read-code-from-memory
 * https://www.wordfence.com/blog/2019/03/hackers-abusing-recently-patched-vulnerability-in-easy-wp-smtp-plugin/
 

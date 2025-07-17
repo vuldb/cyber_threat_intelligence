@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [65.109.218.88](https://vuldb.com/?ip.65.109.218.88) | static.88.218.109.65.clients.your-server.de | - | High
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ecshop/admin/template.php` | High
-2 | File | `my_profile.php` | High
-3 | File | `ZenSysSrv.exe` | High
+1 | File | `/customer_register.php` | High
+2 | File | `/ecshop/admin/template.php` | High
+3 | File | `ccn-lite-valid.c` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -65,6 +68,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/116.203.167.104
 * https://search.censys.io/hosts/152.89.218.110
 * https://search.censys.io/hosts/159.69.246.30
+* https://search.censys.io/hosts/195.62.48.195
 * https://threatfox.abuse.ch
 
 ## Literature

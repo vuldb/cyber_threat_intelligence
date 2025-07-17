@@ -114,9 +114,10 @@ ID | Type | Indicator | Confidence
 54 | File | `/booklist.php` | High
 55 | File | `/cgi-bin/cstecgi.cgi` | High
 56 | File | `/cgi-bin/hd_config.cgi` | High
-57 | ... | ... | ...
+57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+58 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

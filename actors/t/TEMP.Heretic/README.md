@@ -55,10 +55,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 2 | File | `/fax/fax_send.php` | High
-3 | File | `/sys/file/upload` | High
+3 | File | `/spip.php` | Medium
 4 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

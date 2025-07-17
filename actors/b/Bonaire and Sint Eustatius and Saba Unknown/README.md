@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/collections/{COLLECTION}/snapshots/upload` | High
 13 | File | `/common/info.cgi` | High
 14 | File | `/dayrui/My/View/main.html` | High
-15 | ... | ... | ...
+15 | File | `/Employer/EditProfile.php` | High
+16 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

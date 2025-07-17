@@ -63,24 +63,24 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/adminHome.php` | High
 8 | File | `/admin/api/theme-edit/` | High
 9 | File | `/admin/booking-search.php` | High
-10 | File | `/admin/modules/bibliography/index.php` | High
-11 | File | `/admin/msg.php` | High
-12 | File | `/admin/report.php` | High
-13 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-14 | File | `/apply/index.php` | High
-15 | File | `/classes/Master.php?f=delete_category` | High
-16 | File | `/conf/app.conf` | High
-17 | File | `/goform/AddDnsForward` | High
-18 | File | `/goform/fromRouteStatic` | High
-19 | File | `/goform/ModifyPppAuthWhiteMac` | High
-20 | File | `/goform/saveParentControlInfo` | High
-21 | File | `/goform/setcfm` | High
-22 | File | `/goform/setsambacfg` | High
-23 | File | `/goform/SetSysTimeCfg` | High
-24 | File | `/goform/WifiWpsStart` | High
+10 | File | `/admin/delete-doctor.php` | High
+11 | File | `/admin/modules/bibliography/index.php` | High
+12 | File | `/admin/msg.php` | High
+13 | File | `/admin/report.php` | High
+14 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+15 | File | `/apply/index.php` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/conf/app.conf` | High
+18 | File | `/goform/AddDnsForward` | High
+19 | File | `/goform/fromRouteStatic` | High
+20 | File | `/goform/ModifyPppAuthWhiteMac` | High
+21 | File | `/goform/saveParentControlInfo` | High
+22 | File | `/goform/setcfm` | High
+23 | File | `/goform/setsambacfg` | High
+24 | File | `/goform/SetSysTimeCfg` | High
 25 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

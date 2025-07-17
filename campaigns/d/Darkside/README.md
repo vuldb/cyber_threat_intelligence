@@ -58,10 +58,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/wapopen` | High
 2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `addentry.php` | Medium
+3 | File | `/log/download.php` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

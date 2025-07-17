@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,52 +55,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-2 | File | `/add_user.php` | High
-3 | File | `/adfs/ls` | Medium
-4 | File | `/admin.php/news/admin/topic/save` | High
-5 | File | `/admin/attendance_action.php` | High
-6 | File | `/admin/comn/service/update.json` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-9 | File | `/agc/vicidial.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/RecordingList/DownloadRecord?file=` | High
-12 | File | `/app/options.py` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/auth_files/photo/` | High
-15 | File | `/card_scan.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/luci/api/switch` | High
-18 | File | `/cgi-bin/touchlist_sync.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php?f=delete_inquiry` | High
-21 | File | `/contact.php` | Medium
-22 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-23 | File | `/core/config-revisions` | High
-24 | File | `/cwc/login` | Medium
-25 | File | `/debuginfo.htm` | High
-26 | File | `/Electron/download` | High
-27 | File | `/etc/passwd` | Medium
-28 | File | `/etc/quagga` | Medium
-29 | File | `/export` | Low
-30 | File | `/forms/doLogin` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-34 | File | `/h/autoSaveDraft` | High
-35 | File | `/h/calendar` | Medium
-36 | File | `/h/rest` | Low
-37 | File | `/index.php` | Medium
-38 | File | `/items/search` | High
-39 | File | `/load.php` | Medium
-40 | File | `/lua/set-passwd.lua` | High
-41 | File | `/mims/login.php` | High
-42 | File | `/newProject.php` | High
-43 | File | `/nova/bin/console` | High
-44 | ... | ... | ...
+1 | File | `/add_user.php` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php/news/admin/topic/save` | High
+4 | File | `/admin/attendance_action.php` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+8 | File | `/agc/vicidial.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/RecordingList/DownloadRecord?file=` | High
+11 | File | `/app/options.py` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/auth_files/photo/` | High
+14 | File | `/card_scan.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/luci/api/switch` | High
+17 | File | `/cgi-bin/touchlist_sync.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=delete_inquiry` | High
+20 | File | `/contact.php` | Medium
+21 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+22 | File | `/core/config-revisions` | High
+23 | File | `/cwc/login` | Medium
+24 | File | `/debuginfo.htm` | High
+25 | File | `/Electron/download` | High
+26 | File | `/etc/passwd` | Medium
+27 | File | `/etc/quagga` | Medium
+28 | File | `/forms/doLogin` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/VerAPIMant` | High
+31 | File | `/goform/WifiExtraSet` | High
+32 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+33 | File | `/h/autoSaveDraft` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/h/rest` | Low
+36 | File | `/index.php` | Medium
+37 | File | `/items/search` | High
+38 | File | `/load.php` | Medium
+39 | File | `/lua/set-passwd.lua` | High
+40 | File | `/mims/login.php` | High
+41 | File | `/newProject.php` | High
+42 | File | `/nova/bin/detnet` | High
+43 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+44 | File | `/out.php` | Medium
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

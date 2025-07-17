@@ -108,26 +108,24 @@ ID | Type | Indicator | Confidence
 29 | File | `/include/chart_generator.php` | High
 30 | File | `/install/index.php` | High
 31 | File | `/lan.asp` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/messageboard/view.php` | High
-34 | File | `/mhds/clinic/view_details.php` | High
-35 | File | `/newProject.php` | High
-36 | File | `/novel/bookComment/list` | High
-37 | File | `/out.php` | Medium
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/rest/api/latest/projectvalidate/key` | High
-40 | File | `/rom-0` | Low
-41 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-42 | File | `/server-status` | High
-43 | File | `/ServletAPI/accounts/login` | High
+32 | File | `/messageboard/view.php` | High
+33 | File | `/mhds/clinic/view_details.php` | High
+34 | File | `/newProject.php` | High
+35 | File | `/novel/bookComment/list` | High
+36 | File | `/out.php` | Medium
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/rest/api/latest/projectvalidate/key` | High
+39 | File | `/rom-0` | Low
+40 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+41 | File | `/server-status` | High
+42 | File | `/ServletAPI/accounts/login` | High
+43 | File | `/spgpm/updateListing` | High
 44 | File | `/spip.php` | Medium
 45 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
 46 | File | `/textpattern/index.php` | High
-47 | File | `/uncpath/` | Medium
-48 | File | `/upfile.cgi` | Medium
-49 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

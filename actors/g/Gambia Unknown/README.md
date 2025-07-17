@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,41 +70,43 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/create_product.php` | High
 9 | File | `/admin/edit_action.php` | High
 10 | File | `/Admin/edit_profile.php` | High
-11 | File | `/admin/forms/option_lists/edit.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/manage-pages.php` | High
-15 | File | `/admin/mod_reports/index.php` | High
-16 | File | `/admin/sales/manage_sale.php` | High
-17 | File | `/admin/settings/index.php?page=accounts` | High
-18 | File | `/advanced-tools/nova/bin/netwatch` | High
-19 | File | `/api/configs` | Medium
-20 | File | `/apilog.php` | Medium
-21 | File | `/auth_pic.cgi` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-24 | File | `/cgi-bin/api-get_line_status` | High
-25 | File | `/cgi-bin/myMusic.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cgi-bin/settings-firewall.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/classes/Master.php?f=save_medicine` | High
-30 | File | `/Code/loginnew.php` | High
-31 | File | `/Code/sc_login.php` | High
-32 | File | `/config-manager/save` | High
-33 | File | `/control/add_act.php` | High
-34 | File | `/control/login.php` | High
-35 | File | `/dashboard/admin/edit_member.php` | High
-36 | File | `/dashboard/admin/edit_mem_submit.php` | High
-37 | File | `/dashboard/admin/new_submit.php` | High
-38 | File | `/dashboard/menu-list.php` | High
-39 | File | `/dashboard/message` | High
-40 | File | `/dashboard/table-list.php` | High
-41 | File | `/details.php` | Medium
-42 | File | `/downloadFile.php` | High
-43 | ... | ... | ...
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/forms/option_lists/edit.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/manage-pages.php` | High
+16 | File | `/admin/mod_reports/index.php` | High
+17 | File | `/admin/sales/manage_sale.php` | High
+18 | File | `/admin/settings/index.php?page=accounts` | High
+19 | File | `/advanced-tools/nova/bin/netwatch` | High
+20 | File | `/api/configs` | Medium
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+23 | File | `/apilog.php` | Medium
+24 | File | `/auth_pic.cgi` | High
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+27 | File | `/cgi-bin/api-get_line_status` | High
+28 | File | `/cgi-bin/gui.cgi` | High
+29 | File | `/cgi-bin/myMusic.cgi` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/settings-firewall.cgi` | High
+32 | File | `/change_pass/forgot_password_sql.php` | High
+33 | File | `/classes/Master.php?f=save_medicine` | High
+34 | File | `/Code/loginnew.php` | High
+35 | File | `/Code/sc_login.php` | High
+36 | File | `/config-manager/save` | High
+37 | File | `/control/add_act.php` | High
+38 | File | `/control/login.php` | High
+39 | File | `/dashboard/admin/edit_member.php` | High
+40 | File | `/dashboard/admin/edit_mem_submit.php` | High
+41 | File | `/dashboard/admin/new_submit.php` | High
+42 | File | `/dashboard/menu-list.php` | High
+43 | File | `/dashboard/message` | High
+44 | File | `/dashboard/table-list.php` | High
+45 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

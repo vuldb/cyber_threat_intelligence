@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brazil:
 
+* [BR](https://vuldb.com/?country.br)
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -3170,13 +3170,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-44, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3184,43 +3185,71 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-table.php` | High
-2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/article.php` | High
-4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-5 | File | `/admin/bwdates-report-details.php` | High
-6 | File | `/admin/case-type` | High
-7 | File | `/admin/chatroom.php` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/delete_members.php` | High
-10 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index.php?page=manage_lot` | High
-13 | File | `/admin/ind_backstage.php` | High
-14 | File | `/admin/menu.php` | High
-15 | File | `/admin/pages/subjects.php` | High
-16 | File | `/admin/print1.php` | High
-17 | File | `/admin/services.php` | High
-18 | File | `/admin/template/update` | High
-19 | File | `/adminPage/main/upload` | High
-20 | File | `/analysisProject/pagingQueryData` | High
-21 | File | `/api/sys/set_passwd` | High
-22 | File | `/app/admin/view/web_user.html` | High
-23 | File | `/app/sys1.php` | High
-24 | File | `/auth/setup` | Medium
-25 | File | `/bin/boa` | Medium
-26 | File | `/boafrm/formFilter` | High
-27 | File | `/catalog/compare` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/hd_config.cgi` | High
-30 | File | `/cgi-bin/mainfunction.cgi` | High
-31 | File | `/classes/Master.php?f=delete_reminder` | High
-32 | File | `/classes/Master.php?f=save_course` | High
-33 | File | `/classes/Master.php?f=save_position` | High
-34 | File | `/debuginfo.htm` | High
-35 | ... | ... | ...
+1 | File | `/.htaccess` | Medium
+2 | File | `/access/setup` | High
+3 | File | `/activity/admin/modules/modstudent/index.php?view=view` | High
+4 | File | `/admin/bwdates-request-report-details.php` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/configurations/userInfo` | High
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/maintenance/` | High
+10 | File | `/admin/pages/update_go.php` | High
+11 | File | `/admin/settings/` | High
+12 | File | `/admin/sys/role/list` | High
+13 | File | `/admin/transactions/track_shipment.php` | High
+14 | File | `/adpweb/a/base/barcodeDetail/` | High
+15 | File | `/api/docs/index.php` | High
+16 | File | `/api/process.php` | High
+17 | File | `/api/user` | Medium
+18 | File | `/app/api/controller/caiji.php` | High
+19 | File | `/app/api/controller/collect.php` | High
+20 | File | `/app/controller/Setup.php` | High
+21 | File | `/appConfig/userDB.json` | High
+22 | File | `/application/controllers/Users.php` | High
+23 | File | `/apply/index.php` | High
+24 | File | `/bibliography/marcsru.php` | High
+25 | File | `/boafrm/formIPv6Addr` | High
+26 | File | `/boafrm/formMultiAP` | High
+27 | File | `/boafrm/formNtp` | High
+28 | File | `/boafrm/formPortFw` | High
+29 | File | `/boafrm/formSaveConfig` | High
+30 | File | `/boafrm/formStats` | High
+31 | File | `/boafrm/formSysCmd` | High
+32 | File | `/boafrm/formSysLog` | High
+33 | File | `/boafrm/formTmultiAP` | High
+34 | File | `/boafrm/formWirelessTbl` | High
+35 | File | `/boafrm/formWsc` | High
+36 | File | `/BRS_top.html` | High
+37 | File | `/categories/view_category.php` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
+40 | File | `/claire_blake` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/CMD_ACCOUNT_ADMIN` | High
+43 | File | `/cms/notify` | Medium
+44 | File | `/cmscp/ext/collect/fetch_url.do` | High
+45 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+46 | File | `/dashboard/add-blog.php` | High
+47 | File | `/dashboard/add-service.php` | High
+48 | File | `/data/config.ftp.php` | High
+49 | File | `/dev/mapper/control` | High
+50 | File | `/doctor/search.php` | High
+51 | File | `/download/image` | High
+52 | File | `/edit-profile.php` | High
+53 | File | `/endpoint/delete-bookmark.php?bookmark=1` | High
+54 | File | `/etc/origin/master/master-config.yaml` | High
+55 | File | `/file-manager/rename.php` | High
+56 | File | `/forms/nslookupHandler` | High
+57 | File | `/friends` | Medium
+58 | File | `/goform/AdvSetLanip` | High
+59 | File | `/goform/formSetACLFilter` | High
+60 | File | `/goform/formSetDomainFilter` | High
+61 | File | `/goform/formWlanGuestSetup` | High
+62 | File | `/goform/formWlSiteSurvey` | High
+63 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

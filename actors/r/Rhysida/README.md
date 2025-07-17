@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,15 +38,15 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [23.227.198.234](https://vuldb.com/?ip.23.227.198.234) | 23-227-198-234.static.hvvc.us | - | High
 16 | [31.57.243.18](https://vuldb.com/?ip.31.57.243.18) | - | - | High
 17 | [35.182.112.88](https://vuldb.com/?ip.35.182.112.88) | ec2-35-182-112-88.ca-central-1.compute.amazonaws.com | - | Medium
-18 | [37.59.205.5](https://vuldb.com/?ip.37.59.205.5) | ip5.ip-37-59-205.eu | - | High
-19 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
-20 | [41.255.166.66](https://vuldb.com/?ip.41.255.166.66) | - | - | High
-21 | [45.61.136.48](https://vuldb.com/?ip.45.61.136.48) | - | - | High
-22 | [45.61.136.85](https://vuldb.com/?ip.45.61.136.85) | - | - | High
-23 | [45.61.136.244](https://vuldb.com/?ip.45.61.136.244) | - | - | High
+18 | [37.59.132.163](https://vuldb.com/?ip.37.59.132.163) | ip163.ip-37-59-132.eu | - | High
+19 | [37.59.205.5](https://vuldb.com/?ip.37.59.205.5) | ip5.ip-37-59-205.eu | - | High
+20 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
+21 | [41.255.166.66](https://vuldb.com/?ip.41.255.166.66) | - | - | High
+22 | [45.61.136.48](https://vuldb.com/?ip.45.61.136.48) | - | - | High
+23 | [45.61.136.85](https://vuldb.com/?ip.45.61.136.85) | - | - | High
 24 | ... | ... | ... | ...
 
-There are 91 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 51 | File | `/forms/doLogin` | High
 52 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

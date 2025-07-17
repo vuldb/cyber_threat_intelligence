@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UP007:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [KR](https://vuldb.com/?country.kr)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +44,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `Main_Analysis_Content.asp` | High
-2 | Argument | `SystemCmd` | Medium
+2 | File | `tiki-register.php` | High
+3 | Argument | `SystemCmd` | Medium
 
 ## References
 

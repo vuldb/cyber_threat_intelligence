@@ -114,7 +114,7 @@ ID | Type | Indicator | Confidence
 47 | File | `/proxy` | Low
 48 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

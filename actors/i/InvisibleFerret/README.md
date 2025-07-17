@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -50,18 +50,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin.php/appcenter/local.html?type=addon` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/store.php` | High
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/forum/away.php` | High
+2 | File | `/admin-api/mp/material/upload-permanent` | High
+3 | File | `/admin.php/appcenter/local.html?type=addon` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/store.php` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/classes/Master.php` | High
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

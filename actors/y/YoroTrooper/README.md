@@ -52,41 +52,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/cgi-bin/system_mgr.cgi` | High
-3 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-5 | File | `/devices/ProcessRequest.do` | High
-6 | File | `/dus/shopliste/index.php` | High
-7 | File | `/etc/path` | Medium
-8 | File | `/fax/fax_send.php` | High
-9 | File | `/hotel.php` | Medium
-10 | File | `/index/ajax/lang` | High
-11 | File | `/jeecg-boot/sys/common/upload` | High
-12 | File | `/lam/tmp/` | Medium
-13 | File | `/nagiosql/admin/checkcommands.php` | High
-14 | File | `/sys/file/upload` | High
-15 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-16 | File | `/usr/5bin/su` | Medium
-17 | File | `/usr/bin/mail` | High
-18 | File | `/version.js` | Medium
-19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-20 | File | `/zm/index.php` | High
-21 | File | `add_edit_download.asp` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/` | Low
-24 | File | `admin/admin.php` | High
-25 | File | `admin/manage-comments.php` | High
-26 | File | `admin/moduleinterface.php` | High
-27 | File | `agentdisplay.php` | High
-28 | File | `agora.cgi` | Medium
-29 | File | `and/or` | Low
-30 | File | `att_protocol.cc` | High
-31 | File | `auction.cgi` | Medium
-32 | File | `authent.php4` | Medium
-33 | File | `awstats.pl` | Medium
+2 | File | `/api/programs/orgUnits?programs` | High
+3 | File | `/cgi-bin/system_mgr.cgi` | High
+4 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+6 | File | `/devices/ProcessRequest.do` | High
+7 | File | `/dus/shopliste/index.php` | High
+8 | File | `/etc/path` | Medium
+9 | File | `/fax/fax_send.php` | High
+10 | File | `/goform/aspForm` | High
+11 | File | `/hotel.php` | Medium
+12 | File | `/index/ajax/lang` | High
+13 | File | `/jeecg-boot/sys/common/upload` | High
+14 | File | `/lam/tmp/` | Medium
+15 | File | `/nagiosql/admin/checkcommands.php` | High
+16 | File | `/spip.php` | Medium
+17 | File | `/sys/file/upload` | High
+18 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+19 | File | `/trackedEntityInstances` | High
+20 | File | `/usr/5bin/su` | Medium
+21 | File | `/usr/bin/mail` | High
+22 | File | `/version.js` | Medium
+23 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+24 | File | `/zm/index.php` | High
+25 | File | `add_edit_download.asp` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/` | Low
+28 | File | `admin/admin.php` | High
+29 | File | `admin/manage-comments.php` | High
+30 | File | `admin/moduleinterface.php` | High
+31 | File | `agentdisplay.php` | High
+32 | File | `agora.cgi` | Medium
+33 | File | `and/or` | Low
 34 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

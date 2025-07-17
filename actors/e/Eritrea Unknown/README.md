@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,10 +39,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -54,59 +54,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/abs.php` | Medium
-3 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-4 | File | `/admin/aboutus.php` | High
-5 | File | `/admin/add-services.php` | High
-6 | File | `/admin/addroom.php` | High
-7 | File | `/admin/ajax.php?action=save_settings` | High
-8 | File | `/admin/app/profile_crud.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/sys/role/list` | High
-13 | File | `/api/set-password` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/backend/register.php` | High
-17 | File | `/backup.pl` | Medium
-18 | File | `/batchGetBlockAttrs` | High
-19 | File | `/bin/boa` | Medium
-20 | File | `/boafrm/formMapDelDevice` | High
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/user/edit_user/` | High
-24 | File | `/calendar/minimizer/index.php` | High
-25 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-26 | File | `/cgi-bin/` | Medium
-27 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/check` | Low
-32 | File | `/classes/Master.php?f=save_product` | High
-33 | File | `/classes/profile.class.php` | High
-34 | File | `/clinic/disease_symptoms_view.php` | High
-35 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
-36 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
-37 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-38 | File | `/config-manager/save` | High
-39 | File | `/ConfigFile.ini` | High
-40 | File | `/control/activate_case.php` | High
-41 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
-42 | File | `/cov/triggerUnitCover` | High
-43 | File | `/dashboard/menu-list.php` | High
-44 | File | `/dashboard/table-list.php` | High
-45 | File | `/data/system/users/0/settings_secure.xml` | High
-46 | File | `/dev/shm` | Medium
-47 | File | `/devinfo` | Medium
-48 | File | `/directRouter.rfc` | High
-49 | File | `/doctor/view-appointment-detail.php` | High
-50 | File | `/downloadFile.php` | High
-51 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.php.gif` | Medium
+3 | File | `/abs.php` | Medium
+4 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/add-services.php` | High
+7 | File | `/admin/addroom.php` | High
+8 | File | `/admin/ajax.php?action=save_settings` | High
+9 | File | `/admin/app/profile_crud.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/sys/role/list` | High
+14 | File | `/admin/user-search.php` | High
+15 | File | `/admin/visitor-details.php` | High
+16 | File | `/adms/admin/?page=user/manage_user` | High
+17 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+19 | File | `/adms/classes/Users.php` | High
+20 | File | `/api/Cdn/GetFile` | High
+21 | File | `/api/DocumentTemplate/{GUID}` | High
+22 | File | `/api/set-password` | High
+23 | File | `/api/sys/set_passwd` | High
+24 | File | `/backend/register.php` | High
+25 | File | `/backup.pl` | Medium
+26 | File | `/batchGetBlockAttrs` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/bin/httpd` | Medium
+29 | File | `/boafrm/formMapDelDevice` | High
+30 | File | `/boat/login.php` | High
+31 | File | `/booking/show_bookings/` | High
+32 | File | `/bsms_ci/index.php/user/edit_user/` | High
+33 | File | `/calendar/minimizer/index.php` | High
+34 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/wapopen` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/check` | Low
+39 | File | `/classes/Master.php?f=save_product` | High
+40 | File | `/clinic/disease_symptoms_view.php` | High
+41 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
+42 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
+43 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+44 | File | `/config-manager/save` | High
+45 | File | `/ConfigFile.ini` | High
+46 | File | `/control/activate_case.php` | High
+47 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
+48 | File | `/cov/triggerUnitCover` | High
+49 | File | `/dashboard/menu-list.php` | High
+50 | File | `/dashboard/table-list.php` | High
+51 | File | `/data/config.ftp.php` | High
+52 | File | `/data/system/users/0/settings_secure.xml` | High
+53 | File | `/devinfo` | Medium
+54 | File | `/directRouter.rfc` | High
+55 | File | `/doctor/view-appointment-detail.php` | High
+56 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,13 +56,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/Plugins/update.html` | High
-2 | File | `/api/blade-log/api/list` | High
-3 | File | `/api /v3/auth` | High
-4 | File | `/data/remove` | Medium
-5 | File | `/dede/file_manage_control.php` | High
-6 | ... | ... | ...
+2 | File | `/admin/index.php` | High
+3 | File | `/api/blade-log/api/list` | High
+4 | File | `/api /v3/auth` | High
+5 | File | `/category.php` | High
+6 | File | `/data/remove` | Medium
+7 | File | `/dede/file_manage_control.php` | High
+8 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

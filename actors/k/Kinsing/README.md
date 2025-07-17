@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [62.113.113.60](https://vuldb.com/?ip.62.113.113.60) | v2065801.hosted-by-vdsina.ru | CVE-2022-36804 | High
 26 | ... | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,22 +83,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#ProductSerie/view/` | High
 2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/dl_sendmail.php` | High
-4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/adminPage/conf/reload` | High
-8 | File | `/admin_topic.php?action=delall` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/cron/settings/setJob/` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/api/wizard/setsyncpppoecfg` | High
-13 | File | `/api2/html/` | Medium
-14 | File | `/application/index/controller/Databasesource.php` | High
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
+3 | File | `/admin/file_manager/export` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/adminPage/conf/reload` | High
+7 | File | `/admin_topic.php?action=delall` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/api/wizard/setsyncpppoecfg` | High
+12 | File | `/api2/html/` | Medium
+13 | File | `/application/index/controller/Databasesource.php` | High
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 19 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
 20 | File | `/donor-wall` | Medium
 21 | File | `/DXR.axd` | Medium
@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 34 | File | `/member/index/login.html` | High
 35 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,6 +134,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/host/185.246.90.205/
 * https://urlhaus.abuse.ch/url/2532766/
 * https://urlhaus.abuse.ch/url/2532772/
+* https://urlhaus.abuse.ch/url/3539650/
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/honeypot-recon-enterprise-applications-honeypot-unveiling-findings-from-six-worldwide-locations/
 

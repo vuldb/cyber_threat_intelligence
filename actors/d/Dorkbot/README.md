@@ -92,10 +92,9 @@ ID | Type | Indicator | Confidence
 38 | File | `/include/makecvs.php` | High
 39 | File | `/index.php` | Medium
 40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/manage_supplier.php` | High
-42 | ... | ... | ...
+41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

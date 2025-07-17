@@ -82,18 +82,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/download_config.cgi` | High
 14 | File | `/classes/Users.php?f=save` | High
 15 | File | `/control/WANIPConnection` | High
-16 | File | `/cwms/admin/?page=articles/view_article/` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/display/map` | Medium
-19 | File | `/ecommerce/support_ticket` | High
-20 | File | `/Employer/EditProfile.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/display/map` | Medium
+18 | File | `/ecommerce/support_ticket` | High
+19 | File | `/Employer/EditProfile.php` | High
+20 | File | `/forum/away.php` | High
 21 | File | `/goform/apPortalPhoneAuth` | High
 22 | File | `/index.php/sysmanage/Login/login_auth/` | High
 23 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
 24 | File | `/index/ajax/lang` | High
-25 | ... | ... | ...
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

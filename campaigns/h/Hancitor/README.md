@@ -128,12 +128,13 @@ ID | Type | Indicator | Confidence
 8 | File | `/Bloodgroop_process.php` | High
 9 | File | `/cgi-bin/cstecgi.cgi` | High
 10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-11 | File | `/ecommerce/support_ticket` | High
-12 | File | `/Employee/edit-profile.php` | High
-13 | File | `/etc/passwd` | Medium
-14 | ... | ... | ...
+11 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+12 | File | `/ecommerce/support_ticket` | High
+13 | File | `/Employee/edit-profile.php` | High
+14 | File | `/forum/away.php` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

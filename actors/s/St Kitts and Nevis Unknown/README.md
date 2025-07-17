@@ -125,9 +125,10 @@ ID | Type | Indicator | Confidence
 68 | File | `app/Core/Paginator.php` | High
 69 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
 70 | File | `application/controller/InstallerController.php` | High
-71 | ... | ... | ...
+71 | File | `artlinks.dispnew.php` | High
+72 | ... | ... | ...
 
-There are 627 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 628 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

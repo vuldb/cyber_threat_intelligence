@@ -75,31 +75,32 @@ ID | Type | Indicator | Confidence
 14 | File | `/DXR.axd` | Medium
 15 | File | `/etc/passwd` | Medium
 16 | File | `/etc/quagga` | Medium
-17 | File | `/etc/shadow` | Medium
-18 | File | `/forms/doLogin` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/h/calendar` | Medium
-23 | File | `/inc/extensions.php` | High
-24 | File | `/include/chart_generator.php` | High
-25 | File | `/manager?action=getlogcat` | High
-26 | File | `/members/profiles.php` | High
-27 | File | `/nova/bin/console` | High
-28 | File | `/nova/bin/detnet` | High
-29 | File | `/out.php` | Medium
-30 | File | `/php/ping.php` | High
-31 | File | `/products/view_product.php` | High
-32 | File | `/req_password_user.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/ServletAPI/accounts/login` | High
-36 | File | `/show_news.php` | High
-37 | File | `/src/helper.c` | High
-38 | File | `/tmp` | Low
-39 | ... | ... | ...
+17 | File | `/forms/doLogin` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/inc/extensions.php` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/manager?action=getlogcat` | High
+25 | File | `/members/profiles.php` | High
+26 | File | `/nova/bin/console` | High
+27 | File | `/nova/bin/detnet` | High
+28 | File | `/out.php` | Medium
+29 | File | `/php/ping.php` | High
+30 | File | `/products/view_product.php` | High
+31 | File | `/req_password_user.php` | High
+32 | File | `/rom-0` | Low
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/ServletAPI/accounts/login` | High
+35 | File | `/show_news.php` | High
+36 | File | `/src/helper.c` | High
+37 | File | `/tmp` | Low
+38 | File | `/tools_command.php` | High
+39 | File | `/uncpath/` | Medium
+40 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

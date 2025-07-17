@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with France Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [BR](https://vuldb.com/?country.br)
+* [OM](https://vuldb.com/?country.om)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -14531,8 +14531,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1204.001 | CWE-601 | Open Redirect | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
@@ -14544,12 +14544,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ogp_show.php` | Medium
-2 | File | `\usr\www\application\models\settingsregional.php` | High
-3 | Argument | `display` | Low
+1 | File | `/admin/edit_category.php` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/goform/RGFirewallEL` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

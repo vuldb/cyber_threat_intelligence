@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Canada Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
 * [CN](https://vuldb.com/?country.cn)
+* [ID](https://vuldb.com/?country.id)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -6186,12 +6186,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -6199,20 +6200,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/add_deductions.php` | High
-3 | File | `/admin/action/update-deworm.php` | High
-4 | File | `/admin/admin_login.php` | High
-5 | File | `/admin/bookList?page=1&limit=10` | High
-6 | File | `/admin/deleteuser.php` | High
-7 | File | `/admin/manage-services.php` | High
-8 | File | `/admin/publishnews.php` | High
-9 | File | `/admin/search-report-details.php` | High
-10 | File | `/admin/sys/log/list` | High
-11 | File | `/api/api.php?mod=upload&type=1` | High
-12 | ... | ... | ...
+1 | File | `/add-course.php` | High
+2 | File | `/admin-cp/media` | High
+3 | File | `/admin/?page=return/view_return` | High
+4 | File | `/admin/add-subadmin.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/admin_index.php` | High
+8 | File | `/admin/booking-search.php` | High
+9 | File | `/admin/categories/view_category.php` | High
+10 | File | `/admin/category.php` | High
+11 | File | `/admin/category/add.do` | High
+12 | File | `/admin/changeimage.php` | High
+13 | File | `/admin/delete-doctor.php` | High
+14 | File | `/admin/edit-admin.php` | High
+15 | File | `/admin/edit-guard-detail.php` | High
+16 | File | `/admin/edit-services.php` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/settings/users/edit/` | High
+19 | File | `/ajax.php?action=save_package` | High
+20 | File | `/ajax.php?action=save_plan` | High
+21 | File | `/ajax.php?action=save_user` | High
+22 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

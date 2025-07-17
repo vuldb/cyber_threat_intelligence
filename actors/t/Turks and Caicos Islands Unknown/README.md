@@ -113,10 +113,9 @@ ID | Type | Indicator | Confidence
 52 | File | `/OpenPublicCourse.aspx` | High
 53 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 54 | File | `/out.php` | Medium
-55 | File | `/portal/search.htm` | High
-56 | ... | ... | ...
+55 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

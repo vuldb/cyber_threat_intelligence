@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-41 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -78,34 +78,35 @@ ID | Type | Indicator | Confidence
 21 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
 22 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
 23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/change-password.php` | High
-26 | File | `/config/config.json` | High
-27 | File | `/control/register_case.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/dottie.js` | Medium
-30 | File | `/download` | Medium
-31 | File | `/dtale/chart-data/1` | High
-32 | File | `/etc/hosts.deny` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/setcfm` | High
-35 | File | `/HNAP1` | Low
-36 | File | `/index.php/ccm/system/file/upload` | High
-37 | File | `/index.php?menu=asterisk_cli` | High
-38 | File | `/index/ajax/lang` | High
-39 | File | `/jeecg-boot/jmreport/show` | High
-40 | File | `/kortex_lite/control/edit_profile.php` | High
-41 | File | `/listplace/user/ticket/create` | High
-42 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-43 | File | `/messageboard/view.php` | High
-44 | File | `/modules/projects/vw_files.php` | High
-45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-46 | File | `/phppath/php` | Medium
-47 | File | `/portal/search.htm` | High
-48 | File | `/pro/common/download` | High
-49 | ... | ... | ...
+24 | File | `/cgi-bin/sessions/get-temp-file` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/change-password.php` | High
+27 | File | `/config/config.json` | High
+28 | File | `/control/register_case.php` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/dottie.js` | Medium
+31 | File | `/download` | Medium
+32 | File | `/dtale/chart-data/1` | High
+33 | File | `/etc/hosts.deny` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/setcfm` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/index.php/ccm/system/file/upload` | High
+38 | File | `/index.php?menu=asterisk_cli` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/jeecg-boot/jmreport/show` | High
+41 | File | `/kortex_lite/control/edit_profile.php` | High
+42 | File | `/listplace/user/ticket/create` | High
+43 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+44 | File | `/messageboard/view.php` | High
+45 | File | `/modules/projects/vw_files.php` | High
+46 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+47 | File | `/phppath/php` | Medium
+48 | File | `/portal/search.htm` | High
+49 | File | `/pro/common/download` | High
+50 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

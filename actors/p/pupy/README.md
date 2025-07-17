@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,7 +85,7 @@ ID | IP address | Hostname | Campaign | Confidence
 62 | [38.6.177.93](https://vuldb.com/?ip.38.6.177.93) | - | - | High
 63 | ... | ... | ... | ...
 
-There are 246 more IOC items available. Please use our online service to access the data.
+There are 249 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,7 +93,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -116,66 +116,67 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
 7 | File | `/admin.php?p=/Area/index#tab=t2` | High
 8 | File | `/admin/aboutPost.php` | High
-9 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/admin_action.php` | High
 10 | File | `/admin/article/list` | High
 11 | File | `/admin/category_save.php` | High
 12 | File | `/admin/change-password.php` | High
 13 | File | `/admin/group/edit.do` | High
 14 | File | `/admin/ImgUpdaPost.php` | High
-15 | File | `/admin/index2.html` | High
-16 | File | `/admin/list_ipAddressPolicy.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index2.html` | High
 17 | File | `/admin/manage_model.php` | High
 18 | File | `/admin/manage_user.php` | High
 19 | File | `/admin/member_save.php` | High
-20 | File | `/admin/search-vehicle.php` | High
-21 | File | `/admin/subject.php` | High
-22 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-23 | File | `/admin/template_admin.php` | High
-24 | File | `/admin/twitter.php` | High
-25 | File | `/admin/upload.php` | High
-26 | File | `/admin/user/edit.do` | High
-27 | File | `/adminprofile.php` | High
-28 | File | `/admin_ping.htm` | High
-29 | File | `/adv_arpspoofing.php` | High
-30 | File | `/adv_dhcps.php` | High
-31 | File | `/adv_macbypass.php` | High
-32 | File | `/allreaders.html` | High
-33 | File | `/all_student.php` | High
-34 | File | `/animalsupdate.php` | High
-35 | File | `/api/stl/actions/search` | High
-36 | File | `/api/system/other` | High
-37 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-38 | File | `/api/upload.php` | High
-39 | File | `/api/v1/admin/` | High
-40 | File | `/api/v1/getbaseconfig` | High
-41 | File | `/api/v1/settings` | High
-42 | File | `/api/v1/toolbox/device/update/swap` | High
-43 | File | `/api/v1/users/{user_name_or_id}/activate` | High
-44 | File | `/api/wizard/getCapability` | High
-45 | File | `/api/wizard/getCapabilityWeb` | High
-46 | File | `/api/wizard/getLanguage` | High
-47 | File | `/api/wizard/getSpecs` | High
-48 | File | `/api/wizard/getsyncpppoecfg` | High
-49 | File | `/api/wizard/setLanguage` | High
-50 | File | `/api/wizard/setsyncpppoecfg` | High
-51 | File | `/app/controller/Api.php` | High
-52 | File | `/app/zentao/module/repo/model.php` | High
-53 | File | `/auth.asp` | Medium
-54 | File | `/bin/gpio` | Medium
-55 | File | `/bin/httpd` | Medium
-56 | File | `/boafrm/formDMZ` | High
-57 | File | `/boafrm/formDosCfg` | High
-58 | File | `/boafrm/formFilter` | High
-59 | File | `/boafrm/formIpQoS` | High
-60 | File | `/boafrm/formMapDel` | High
-61 | File | `/boafrm/formMapDelDevice` | High
-62 | File | `/boafrm/formNtp` | High
-63 | File | `/boafrm/formPortFw` | High
-64 | File | `/boafrm/formReflashClientTbl` | High
-65 | File | `/boafrm/formSaveConfig` | High
-66 | ... | ... | ...
+20 | File | `/admin/new-content` | High
+21 | File | `/admin/search-vehicle.php` | High
+22 | File | `/admin/subject.php` | High
+23 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+24 | File | `/admin/template_admin.php` | High
+25 | File | `/admin/twitter.php` | High
+26 | File | `/admin/upload.php` | High
+27 | File | `/admin/user/edit.do` | High
+28 | File | `/admin/voters_add.php` | High
+29 | File | `/admin/voters_delete.php` | High
+30 | File | `/adminprofile.php` | High
+31 | File | `/admin_ping.htm` | High
+32 | File | `/adv_arpspoofing.php` | High
+33 | File | `/adv_dhcps.php` | High
+34 | File | `/adv_macbypass.php` | High
+35 | File | `/allreaders.html` | High
+36 | File | `/all_student.php` | High
+37 | File | `/animalsupdate.php` | High
+38 | File | `/api/stl/actions/search` | High
+39 | File | `/api/system/other` | High
+40 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+41 | File | `/api/upload.php` | High
+42 | File | `/api/v1/admin/` | High
+43 | File | `/api/v1/getbaseconfig` | High
+44 | File | `/api/v1/settings` | High
+45 | File | `/api/v1/toolbox/device/update/swap` | High
+46 | File | `/api/wizard/getCapability` | High
+47 | File | `/api/wizard/getCapabilityWeb` | High
+48 | File | `/api/wizard/getLanguage` | High
+49 | File | `/api/wizard/getSpecs` | High
+50 | File | `/api/wizard/getsyncpppoecfg` | High
+51 | File | `/api/wizard/setLanguage` | High
+52 | File | `/api/wizard/setsyncpppoecfg` | High
+53 | File | `/app/controller/Api.php` | High
+54 | File | `/app/zentao/module/repo/model.php` | High
+55 | File | `/application/models/ApplicationDataObject.class.php` | High
+56 | File | `/auth.asp` | Medium
+57 | File | `/bin/gpio` | Medium
+58 | File | `/bin/httpd` | Medium
+59 | File | `/boa/formWSC` | Medium
+60 | File | `/boafrm/formDMZ` | High
+61 | File | `/boafrm/formDosCfg` | High
+62 | File | `/boafrm/formFilter` | High
+63 | File | `/boafrm/formIpQoS` | High
+64 | File | `/boafrm/formMapDel` | High
+65 | File | `/boafrm/formMapDelDevice` | High
+66 | File | `/boafrm/formMultiAP` | High
+67 | ... | ... | ...
 
-There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 591 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -366,6 +367,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/104.168.146.71
 * https://search.censys.io/hosts/104.168.163.200
 * https://search.censys.io/hosts/104.194.152.141
+* https://search.censys.io/hosts/106.14.2.243
 * https://search.censys.io/hosts/106.14.147.179
 * https://search.censys.io/hosts/106.75.24.63
 * https://search.censys.io/hosts/106.75.66.128
@@ -414,6 +416,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/141.164.48.82
 * https://search.censys.io/hosts/142.93.15.10
 * https://search.censys.io/hosts/143.42.74.25
+* https://search.censys.io/hosts/144.172.96.219
 * https://search.censys.io/hosts/146.190.52.2
 * https://search.censys.io/hosts/149.28.19.155
 * https://search.censys.io/hosts/149.248.34.178
@@ -467,6 +470,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/207.148.17.169
 * https://search.censys.io/hosts/207.148.96.97
 * https://search.censys.io/hosts/207.148.99.121
+* https://search.censys.io/hosts/207.254.31.224
 * https://search.censys.io/hosts/208.117.85.9
 * https://search.censys.io/hosts/212.115.55.53
 * https://search.censys.io/hosts/212.192.12.156

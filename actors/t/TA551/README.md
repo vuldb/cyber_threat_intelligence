@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -134,45 +134,44 @@ ID | Type | Indicator | Confidence
 61 | File | `/admin/students/update_status.php` | High
 62 | File | `/admin/sys_sql_query.php` | High
 63 | File | `/admin/update-clients.php` | High
-64 | File | `/adminapi/system/file/openfile` | High
-65 | File | `/admin_route/inc_service_credits.php` | High
-66 | File | `/adplanet/PlanetCommentList` | High
-67 | File | `/ajax-api.php` | High
-68 | File | `/ample/app/action/edit_product.php` | High
-69 | File | `/ample/app/ajax/member_data.php` | High
-70 | File | `/api/` | Low
-71 | File | `/api/authentication/login` | High
-72 | File | `/api/controllers/admin/app/AppController.php` | High
-73 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-74 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-75 | File | `/api/DataDictionary/GetItemList` | High
-76 | File | `/api/es/admin/v3/security/user/1` | High
-77 | File | `/api/log/killJob` | High
-78 | File | `/api/sys/set_passwd` | High
-79 | File | `/app/ajax/search_sales_report.php` | High
-80 | File | `/app/api/controller/collect.php` | High
-81 | File | `/app/api/controller/default/File.php` | High
-82 | File | `/app/api/controller/default/Sqlite.php` | High
-83 | File | `/app/middleware/TokenVerify.php` | High
-84 | File | `/app/sys1.php` | High
-85 | File | `/application/index/controller/Databasesource.php` | High
-86 | File | `/application/index/controller/Icon.php` | High
-87 | File | `/application/index/controller/Pay.php` | High
-88 | File | `/application/index/controller/Service.php` | High
-89 | File | `/application/index/controller/Unity.php` | High
-90 | File | `/application/pay/controller/Api.php` | High
-91 | File | `/apply/index.php` | High
-92 | File | `/apps/reg_go.php` | High
-93 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-94 | File | `/article/DelectArticleById/` | High
-95 | File | `/bin/boa` | Medium
-96 | File | `/blog` | Low
-97 | File | `/boaform/wlan_basic_set.cgi` | High
-98 | File | `/book-services.php` | High
-99 | File | `/catalog/compare` | High
-100 | ... | ... | ...
+64 | File | `/admin/upload/authorImg/` | High
+65 | File | `/adminapi/system/file/openfile` | High
+66 | File | `/admin_route/inc_service_credits.php` | High
+67 | File | `/adplanet/PlanetCommentList` | High
+68 | File | `/ajax-api.php` | High
+69 | File | `/ample/app/action/edit_product.php` | High
+70 | File | `/ample/app/ajax/member_data.php` | High
+71 | File | `/api/` | Low
+72 | File | `/api/authentication/login` | High
+73 | File | `/api/controllers/admin/app/AppController.php` | High
+74 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+75 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+76 | File | `/api/DataDictionary/GetItemList` | High
+77 | File | `/api/es/admin/v3/security/user/1` | High
+78 | File | `/api/log/killJob` | High
+79 | File | `/api/sys/set_passwd` | High
+80 | File | `/app/ajax/search_sales_report.php` | High
+81 | File | `/app/api/controller/collect.php` | High
+82 | File | `/app/api/controller/default/File.php` | High
+83 | File | `/app/api/controller/default/Sqlite.php` | High
+84 | File | `/app/middleware/TokenVerify.php` | High
+85 | File | `/app/sys1.php` | High
+86 | File | `/application/index/controller/Databasesource.php` | High
+87 | File | `/application/index/controller/Icon.php` | High
+88 | File | `/application/index/controller/Pay.php` | High
+89 | File | `/application/index/controller/Service.php` | High
+90 | File | `/application/index/controller/Unity.php` | High
+91 | File | `/application/pay/controller/Api.php` | High
+92 | File | `/apply/index.php` | High
+93 | File | `/apps/reg_go.php` | High
+94 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+95 | File | `/article/DelectArticleById/` | High
+96 | File | `/bin/boa` | Medium
+97 | File | `/blog` | Low
+98 | File | `/boaform/wlan_basic_set.cgi` | High
+99 | ... | ... | ...
 
-There are 888 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 880 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

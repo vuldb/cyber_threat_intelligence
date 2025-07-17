@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Japan Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -4409,12 +4409,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4422,26 +4422,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/ad-list` | Medium
-3 | File | `/add-admin.php` | High
-4 | File | `/add_deductions.php` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/admin_login.php` | High
-7 | File | `/admin/bookList?page=1&limit=10` | High
-8 | File | `/admin/campsdetails.php` | High
-9 | File | `/admin/getallarticleinfo` | High
-10 | File | `/admin/user-search.php` | High
-11 | File | `/admin/user.php` | High
-12 | File | `/api/system/other` | High
-13 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-14 | File | `/api/upload/image` | High
-15 | File | `/api/v1/getbaseconfig` | High
-16 | File | `/app/controller/Api.php` | High
-17 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-18 | ... | ... | ...
+1 | File | `/admin/aboutPost.php` | High
+2 | File | `/admin/bwdates-request-report-details.php` | High
+3 | File | `/admin/forms/option_lists/edit.php` | High
+4 | File | `/admin/ImgUpdaPost.php` | High
+5 | File | `/boafrm/formFilter` | High
+6 | File | `/boafrm/formMultiAP` | High
+7 | File | `/boafrm/formNtp` | High
+8 | File | `/boafrm/formSysCmd` | High
+9 | File | `/boafrm/formSysLog` | High
+10 | File | `/BRS_top.html` | High
+11 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

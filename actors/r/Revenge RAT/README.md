@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Revenge RAT:
 
+* [BR](https://vuldb.com/?country.br)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [BR](https://vuldb.com/?country.br)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -35,9 +35,10 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
 13 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
 14 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
-15 | ... | ... | ... | ...
+15 | [38.51.135.44](https://vuldb.com/?ip.38.51.135.44) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -62,29 +63,38 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?/layout/add` | High
 2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
 3 | File | `/admin/dialog/select_images_post.php` | High
-4 | File | `/admin/overtime_add.php` | High
-5 | File | `/admin/pass-bwdates-reports-details.php` | High
-6 | File | `/admin/property-details.php` | High
-7 | File | `/Admin/Proses_Edit_Akun.php` | High
-8 | File | `/admin/search-medicalcard.php` | High
-9 | File | `/admin/tag/save` | High
-10 | File | `/ajax.php` | Medium
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/hd_config.cgi` | High
-13 | File | `/cgi-bin/mainfunction.cgi` | High
-14 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-15 | File | `/cgi-bin/webfile_mgr.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Master.php?f=delete_category` | High
-18 | File | `/control/forgot_pass.php` | High
-19 | File | `/course/filterRecords/` | High
-20 | File | `/dataSet/resolveSql` | High
-21 | File | `/details.php` | Medium
-22 | File | `/download/image` | High
-23 | File | `/DXR.axd` | Medium
-24 | ... | ... | ...
+4 | File | `/admin/edit-vehicle.php` | High
+5 | File | `/admin/overtime_add.php` | High
+6 | File | `/admin/pass-bwdates-reports-details.php` | High
+7 | File | `/admin/property-details.php` | High
+8 | File | `/Admin/Proses_Edit_Akun.php` | High
+9 | File | `/admin/search-medicalcard.php` | High
+10 | File | `/admin/tag/save` | High
+11 | File | `/ajax.php` | Medium
+12 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+13 | File | `/boafrm/formMapReboot` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/mainfunction.cgi` | High
+17 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+18 | File | `/cgi-bin/tosei_kikai.php` | High
+19 | File | `/cgi-bin/webfile_mgr.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_category` | High
+22 | File | `/control/forgot_pass.php` | High
+23 | File | `/course/filterRecords/` | High
+24 | File | `/dataSet/resolveSql` | High
+25 | File | `/details.php` | Medium
+26 | File | `/download/image` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/endpoint/delete.php` | High
+29 | File | `/etc/shadow` | Medium
+30 | File | `/file/accept.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/fos/admin/ajax.php?action=save_settings` | High
+33 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

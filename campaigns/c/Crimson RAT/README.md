@@ -58,7 +58,7 @@ ID | IP address | Hostname | Actor | Confidence
 26 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 27 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 103 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -115,6 +115,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/165.140.85.87
 * https://search.censys.io/hosts/172.86.80.211
 * https://search.censys.io/hosts/172.86.109.207
+* https://search.censys.io/hosts/174.138.184.252
 * https://search.censys.io/hosts/185.157.77.32
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227

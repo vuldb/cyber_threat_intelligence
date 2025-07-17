@@ -99,7 +99,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 24 more TTP items available. Please use our online service to access the data.
@@ -119,7 +119,7 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/manage-pages.php` | High
 8 | File | `/admin/sales/manage_sale.php` | High
 9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/ajax/networking/get_wgkey.php` | High
+10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
 11 | File | `/api/upload.php` | High
 12 | File | `/apilog.php` | Medium
 13 | File | `/auth_pic.cgi` | High
@@ -139,12 +139,13 @@ ID | Type | Indicator | Confidence
 27 | File | `/dashboard/admin/new_submit.php` | High
 28 | File | `/dashboard/message` | High
 29 | File | `/details.php` | Medium
-30 | File | `/dev/kmem` | Medium
-31 | File | `/DXR.axd` | Medium
-32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-33 | ... | ... | ...
+30 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+31 | File | `/devinfo` | Medium
+32 | File | `/DXR.axd` | Medium
+33 | File | `/etc/shadow` | Medium
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

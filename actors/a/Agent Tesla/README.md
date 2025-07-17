@@ -61,7 +61,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
 32 | ... | ... | ... | ...
 
-There are 124 more IOC items available. Please use our online service to access the data.
+There are 125 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -126,7 +126,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/v1/operador/` | High
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

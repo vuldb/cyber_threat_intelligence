@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [77.110.107.38](https://vuldb.com/?ip.77.110.107.38) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,25 +61,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/login.php` | High
 9 | File | `/api/esps` | Medium
 10 | File | `/app/admin/controller/Upload.php` | High
-11 | File | `/APR/signup.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-14 | File | `/classes/SystemSettings.php?f=update_settings` | High
-15 | File | `/cms/classes/Master.php?f=delete_service` | High
-16 | File | `/download` | Medium
-17 | File | `/endpoint/Add.php` | High
-18 | File | `/endpoint/delete-menu.php` | High
-19 | File | `/endpoint/update.php` | High
-20 | File | `/expense-datewise-reports-detailed.php` | High
-21 | File | `/feed/insert.json` | High
-22 | File | `/filemanager/php/connector.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/include/file.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/mfeedback.php` | High
-27 | ... | ... | ...
+11 | File | `/appointment-history.php` | High
+12 | File | `/APR/signup.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/cms/classes/Master.php?f=delete_service` | High
+17 | File | `/complainer_page.php` | High
+18 | File | `/download` | Medium
+19 | File | `/endpoint/Add.php` | High
+20 | File | `/endpoint/delete-menu.php` | High
+21 | File | `/endpoint/update.php` | High
+22 | File | `/expense-datewise-reports-detailed.php` | High
+23 | File | `/feed/insert.json` | High
+24 | File | `/filemanager/php/connector.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/include/file.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/mfeedback.php` | High
+29 | File | `/news-details.php` | High
+30 | File | `/php_action/createUser.php` | High
+31 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/4641c993478534eeca8f5c777f352e0f3592d1dc67f52fabc3ff3957f195e8ab/
 * https://bazaar.abuse.ch/sample/b1b4ffcd21342c7de7f0bc286eb3f4ec6a5b919df5f20d383b4df0bd462cbe48/
 * https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
+* https://bazaar.abuse.ch/sample/e8185b17156f56d07e51573d63ae3060e1e8341555fe083ab1328609decdcc60/
 * https://bazaar.abuse.ch/sample/ec202b2050cc7a4030c74c6fa04ef98e67c11fa64a1a1dd0ff592141ff7771de/
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
 * https://medium.com/walmartglobaltech/metastealer-string-decryption-and-dga-overview-5f38f76830cd
@@ -109,6 +114,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3548715/
 * https://urlhaus.abuse.ch/url/3548743/
 * https://urlhaus.abuse.ch/url/3552798/
+* https://urlhaus.abuse.ch/url/3568063/
 * https://www.sentinelone.com/blog/macos-metastealer-new-family-of-obfuscated-go-infostealers-spread-in-targeted-attacks/
 
 ## Literature

@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-267, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -91,13 +91,13 @@ ID | Type | Indicator | Confidence
 14 | File | `/itbox_pi/networksafe.php?a=set` | High
 15 | File | `/manage_sy.php` | High
 16 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-17 | File | `/oauth/idp/.well-known/openid-configuration` | High
-18 | File | `/protocol/iscuser/uploadiscuser.php` | High
-19 | File | `/REBOOTSYSTEM` | High
-20 | File | `/register.php` | High
+17 | File | `/oa/setup/setup.jsp` | High
+18 | File | `/oauth/idp/.well-known/openid-configuration` | High
+19 | File | `/product/savenewproduct.php?flag=1` | High
+20 | File | `/protocol/iscuser/uploadiscuser.php` | High
 21 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

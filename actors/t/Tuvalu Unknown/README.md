@@ -76,36 +76,35 @@ ID | Type | Indicator | Confidence
 20 | File | `/classes/Users.php?f=save` | High
 21 | File | `/common/logViewer/logViewer.jsf` | High
 22 | File | `/config/config.json` | High
-23 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/download` | Medium
-26 | File | `/ecommerce/admin/category/controller.php` | High
-27 | File | `/ecommerce/support_ticket` | High
-28 | File | `/etc/hosts.deny` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/homeaction.php` | High
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-33 | File | `/index/ajax/lang` | High
-34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-35 | File | `/load.php` | Medium
-36 | File | `/login.php` | Medium
-37 | File | `/mee/login` | Medium
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
-40 | File | `/owa/auth/logon.aspx` | High
-41 | File | `/portal/search.htm` | High
-42 | File | `/preauth` | Medium
-43 | File | `/see_more_details.php` | High
-44 | File | `/settings` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/download` | Medium
+25 | File | `/ecommerce/admin/category/controller.php` | High
+26 | File | `/ecommerce/support_ticket` | High
+27 | File | `/etc/hosts.deny` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/homeaction.php` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+32 | File | `/index/ajax/lang` | High
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/load.php` | Medium
+35 | File | `/login.php` | Medium
+36 | File | `/mee/login` | Medium
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/portal/search.htm` | High
+41 | File | `/preauth` | Medium
+42 | File | `/see_more_details.php` | High
+43 | File | `/settings` | Medium
+44 | File | `/spip.php` | Medium
 45 | File | `/sqleditor/query_tool/download` | High
-46 | File | `/student/bookdetails.php` | High
-47 | File | `/update-article.php` | High
-48 | File | `/usr/bin/pkexec` | High
-49 | File | `/v2_1/file` | Medium
-50 | ... | ... | ...
+46 | File | `/src/dede/makehtml_spec.php` | High
+47 | File | `/student/bookdetails.php` | High
+48 | File | `/test-details.php` | High
+49 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index2.html` | High
 6 | File | `/api/plugin/uninstall` | High
 7 | File | `/api/plugin/upload` | High
-8 | ... | ... | ...
+8 | File | `/api/v2/cli/commands` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

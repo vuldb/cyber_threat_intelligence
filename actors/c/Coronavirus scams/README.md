@@ -48,14 +48,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/adminlogin.asp` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/calendar/minimizer/index.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/spip.php` | Medium
+2 | File | `/admin/clients/` | High
+3 | File | `/admin/settings/index.php?page=accounts` | High
+4 | File | `/adminlogin.asp` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/calendar/minimizer/index.php` | High
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

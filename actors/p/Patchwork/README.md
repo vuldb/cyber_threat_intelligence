@@ -138,32 +138,33 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/quizquestion.php` | High
 18 | File | `/admin/search-appointment.php` | High
 19 | File | `/admin/search-vehicle.php` | High
-20 | File | `/adminPage/conf/saveCmd` | High
-21 | File | `/api/clusters/local/topics/{topic}/messages` | High
-22 | File | `/API/info` | Medium
-23 | File | `/app/api/controller/caiji.php` | High
-24 | File | `/buscar_integrada.php` | High
-25 | File | `/car.php` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-28 | File | `/cgi-bin/tosei_kikai.php` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/config/php.ini` | High
-32 | File | `/core/admin/categories.php` | High
-33 | File | `/cov/triggerEnvCov` | High
-34 | File | `/dashboard/admin/del_plan.php` | High
-35 | File | `/dashboard/approve-reject.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/dede/file_manage_control.php` | High
-38 | File | `/detailed.php` | High
-39 | File | `/dist/index.js` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/endpoint/add-calorie.php` | High
-42 | File | `/EXCU_SHELL` | Medium
-43 | ... | ... | ...
+20 | File | `/admin/voters_row.php` | High
+21 | File | `/adminPage/conf/saveCmd` | High
+22 | File | `/api/authentication/login` | High
+23 | File | `/api/clusters/local/topics/{topic}/messages` | High
+24 | File | `/API/info` | Medium
+25 | File | `/app/api/controller/caiji.php` | High
+26 | File | `/buscar_integrada.php` | High
+27 | File | `/car.php` | Medium
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+30 | File | `/cgi-bin/tosei_kikai.php` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/config/php.ini` | High
+34 | File | `/core/admin/categories.php` | High
+35 | File | `/cov/triggerEnvCov` | High
+36 | File | `/dashboard/admin/del_plan.php` | High
+37 | File | `/dashboard/approve-reject.php` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/dede/file_manage_control.php` | High
+40 | File | `/detailed.php` | High
+41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+42 | File | `/dist/index.js` | High
+43 | File | `/doctor/search.php` | High
+44 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

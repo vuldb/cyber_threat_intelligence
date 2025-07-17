@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 41 more country items available. Please use our online service to access the data.
@@ -67,10 +67,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,12 +88,12 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/registration.php` | High
 10 | File | `/admin/sales/manage_sale.php` | High
 11 | File | `/admin/userprofile.php` | High
-12 | File | `/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/api/upload.php` | High
-14 | File | `/apilog.php` | Medium
-15 | File | `/app/middleware/TokenVerify.php` | High
-16 | File | `/auth_pic.cgi` | High
-17 | File | `/base/ecma-helpers.c` | High
+12 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+13 | File | `/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+15 | File | `/apilog.php` | Medium
+16 | File | `/app/middleware/TokenVerify.php` | High
+17 | File | `/auth_pic.cgi` | High
 18 | File | `/blog` | Low
 19 | File | `/category.php` | High
 20 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
@@ -114,11 +113,12 @@ ID | Type | Indicator | Confidence
 34 | File | `/dashboard/admin/new_submit.php` | High
 35 | File | `/dashboard/message` | High
 36 | File | `/details.php` | Medium
-37 | File | `/DXR.axd` | Medium
-38 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-39 | ... | ... | ...
+37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+38 | File | `/devinfo` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,10 +77,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/?page=reports` | High
-4 | File | `/academic-calendar` | High
-5 | File | `/add-company.php` | High
+2 | File | `/?page=reports` | High
+3 | File | `/academic-calendar` | High
+4 | File | `/add-company.php` | High
+5 | File | `/add-customer.php` | High
 6 | File | `/add-notes.php` | High
 7 | File | `/add-pig.php` | Medium
 8 | File | `/adfs/ls` | Medium
@@ -88,10 +88,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/?page=inventory/view_inventory&id=2` | High
 11 | File | `/admin/add-category.php` | High
 12 | File | `/admin/add_ikev2.php` | High
-13 | File | `/admin/admin-profile.php` | High
-14 | File | `/admin/ajax.php?action=login` | High
-15 | File | `/admin/communitymanagement.php` | High
-16 | File | `/admin/contactus.php` | High
+13 | File | `/admin/ajax.php?action=login` | High
+14 | File | `/admin/ajax.php?action=save_settings` | High
+15 | File | `/admin/contactus.php` | High
+16 | File | `/admin/delete_account.php` | High
 17 | File | `/admin/edit-artist-detail.php?editid=1` | High
 18 | File | `/admin/edit-category.php` | High
 19 | File | `/admin/edit-subadmin.php` | High
@@ -103,38 +103,42 @@ ID | Type | Indicator | Confidence
 25 | File | `/admin/login.php` | High
 26 | File | `/Admin/login.php` | High
 27 | File | `/admin/manage-pages.php` | High
-28 | File | `/admin/menu_update.php` | High
-29 | File | `/admin/project/update/2` | High
-30 | File | `/admin/students/manage.php` | High
-31 | File | `/admin/success_story.php` | High
-32 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-33 | File | `/adminapi/system/file/openfile` | High
-34 | File | `/ajax/checkin.php` | High
-35 | File | `/api/upload` | Medium
-36 | File | `/api/v1/settings` | High
-37 | File | `/api/v2/categories` | High
-38 | File | `/api/v2/cli/commands` | High
-39 | File | `/api/wizard/getBasicInfo` | High
-40 | File | `/app/fax/fax_view.php` | High
-41 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
-42 | File | `/app/xml_cdr/xml_cdr_details.php` | High
-43 | File | `/auth_files/photo/` | High
-44 | File | `/billaction.php` | High
-45 | File | `/binutils/debug.c` | High
-46 | File | `/boafrm/formWlanRedirect` | High
-47 | File | `/bwdates-reports-details.php` | High
-48 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/nas_sharing.cgi` | High
-51 | File | `/chat/group/send` | High
-52 | File | `/class/edit/edit` | High
-53 | File | `/classes/Master.php` | High
-54 | File | `/control/activate_case.php` | High
-55 | File | `/create-id-card` | High
-56 | File | `/data/add_employee.php` | High
-57 | ... | ... | ...
+28 | File | `/admin/manage_user.php` | High
+29 | File | `/admin/menu_update.php` | High
+30 | File | `/admin/modal_add_product.php` | High
+31 | File | `/admin/project/update/2` | High
+32 | File | `/admin/readDeal.php?mudi=clearWebCache` | High
+33 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+34 | File | `/adminapi/system/file/openfile` | High
+35 | File | `/ajax/checkin.php` | High
+36 | File | `/api/upload` | Medium
+37 | File | `/api/v1/settings` | High
+38 | File | `/api/v2/categories` | High
+39 | File | `/api/v2/cli/commands` | High
+40 | File | `/api/wizard/getBasicInfo` | High
+41 | File | `/api/wizard/getCapability` | High
+42 | File | `/app/fax/fax_view.php` | High
+43 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
+44 | File | `/app/xml_cdr/xml_cdr_details.php` | High
+45 | File | `/auth_files/photo/` | High
+46 | File | `/billaction.php` | High
+47 | File | `/binutils/debug.c` | High
+48 | File | `/boafrm/formMultiAP` | High
+49 | File | `/boafrm/formStats` | High
+50 | File | `/boafrm/formWlanRedirect` | High
+51 | File | `/bwdates-reports-details.php` | High
+52 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+53 | File | `/cgi-bin/Config.cgi?action=set` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/changeUsername.php` | High
+56 | File | `/chat/group/send` | High
+57 | File | `/class/edit/edit` | High
+58 | File | `/classes/Master.php` | High
+59 | File | `/control/activate_case.php` | High
+60 | File | `/create-id-card` | High
+61 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

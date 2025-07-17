@@ -93,7 +93,7 @@ ID | Type | Indicator | Confidence
 34 | File | `bitrix/modules/main/tools.php` | High
 35 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

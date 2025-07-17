@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 37 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -134,14 +134,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-28, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -149,59 +149,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/abs.php` | Medium
-2 | File | `/Account/login.php` | High
-3 | File | `/action/docker/open_subshell` | High
-4 | File | `/activation.php` | High
-5 | File | `/ad-list` | Medium
-6 | File | `/add-admin.php` | High
-7 | File | `/add-table.php` | High
-8 | File | `/admin#themes` | High
-9 | File | `/admin.php?p=/Area/index#tab=t2` | High
-10 | File | `/admin/add-doctor.php` | High
-11 | File | `/admin/admin_login.php` | High
-12 | File | `/admin/ajax.php?action=login` | High
-13 | File | `/admin/bookList?page=1&limit=10` | High
-14 | File | `/admin/case-type` | High
-15 | File | `/admin/contact-us.php` | High
-16 | File | `/admin/create_product.php` | High
-17 | File | `/admin/edit_action.php` | High
-18 | File | `/admin/edit_manufacturer.php` | High
-19 | File | `/admin/file/delete.do` | High
-20 | File | `/admin/index.php` | High
-21 | File | `/admin/index2.html` | High
-22 | File | `/admin/ind_backstage.php` | High
-23 | File | `/admin/login.php` | High
-24 | File | `/admin/manage-pages.php` | High
-25 | File | `/admin/manage-services.php` | High
-26 | File | `/admin/menu.php` | High
-27 | File | `/admin/search-vehicle.php` | High
-28 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-29 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-30 | File | `/admin/twitter.php` | High
-31 | File | `/advanced-tools/nova/bin/netwatch` | High
-32 | File | `/ajax.php?action=delete_tenant` | High
-33 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-34 | File | `/api/resources` | High
-35 | File | `/api/system/other` | High
-36 | File | `/api/v1/toolbox/device/update/swap` | High
-37 | File | `/app/platform/controllers/ResetpwdController.php` | High
-38 | File | `/app/zentao/module/repo/model.php` | High
-39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-40 | File | `/backend/admin/his_admin_register_patient.php` | High
-41 | File | `/bin/boa` | Medium
-42 | File | `/bloodrequest.php` | High
-43 | File | `/boafrm/formFilter` | High
-44 | File | `/booklist.php` | High
-45 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-46 | File | `/cgi-bin/ExportSettings.sh` | High
-47 | File | `/cgi-bin/wapopen` | High
-48 | File | `/classes/Master.php?f=delete_category` | High
-49 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-50 | File | `/Code/loginnew.php` | High
-51 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/abs.php` | Medium
+3 | File | `/Account/login.php` | High
+4 | File | `/action/docker/open_subshell` | High
+5 | File | `/activation.php` | High
+6 | File | `/ad-list` | Medium
+7 | File | `/add-admin.php` | High
+8 | File | `/add-table.php` | High
+9 | File | `/adfs/ls` | Medium
+10 | File | `/admin#themes` | High
+11 | File | `/admin.php?p=/Area/index#tab=t2` | High
+12 | File | `/admin/add-admin.php` | High
+13 | File | `/admin/add-doctor.php` | High
+14 | File | `/admin/admin_login.php` | High
+15 | File | `/admin/ajax.php?action=login` | High
+16 | File | `/admin/app/role_crud.php` | High
+17 | File | `/admin/bookList?page=1&limit=10` | High
+18 | File | `/admin/case-type` | High
+19 | File | `/admin/contact-us.php` | High
+20 | File | `/admin/create_product.php` | High
+21 | File | `/admin/edit_action.php` | High
+22 | File | `/admin/edit_area.php` | High
+23 | File | `/admin/file/delete.do` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index2.html` | High
+26 | File | `/admin/ind_backstage.php` | High
+27 | File | `/admin/manage-pages.php` | High
+28 | File | `/admin/manage-services.php` | High
+29 | File | `/admin/menu.php` | High
+30 | File | `/admin/search-vehicle.php` | High
+31 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+32 | File | `/admin/twitter.php` | High
+33 | File | `/advanced-tools/nova/bin/netwatch` | High
+34 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+35 | File | `/ajax.php?action=delete_tenant` | High
+36 | File | `/api/resources` | High
+37 | File | `/api/system/other` | High
+38 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+39 | File | `/api/v1/settings` | High
+40 | File | `/api/v1/toolbox/device/update/swap` | High
+41 | File | `/app/platform/controllers/ResetpwdController.php` | High
+42 | File | `/app/zentao/module/repo/model.php` | High
+43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+44 | File | `/backend/admin/his_admin_register_patient.php` | High
+45 | File | `/bin/boa` | Medium
+46 | File | `/bin/httpd` | Medium
+47 | File | `/bloodrequest.php` | High
+48 | File | `/boafrm/formFilter` | High
+49 | File | `/booklist.php` | High
+50 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | File | `/cgi-bin/ExportSettings.sh` | High
+53 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -166,7 +166,7 @@ ID | Type | Indicator | Confidence
 114 | File | `/cgi-bin/discovery.cgi` | High
 115 | ... | ... | ...
 
-There are 1020 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1021 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

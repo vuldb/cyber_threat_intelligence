@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1849,12 +1849,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-44 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1862,23 +1863,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/adfs/ls` | Medium
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/add_cars.php` | High
 3 | File | `/admin/all-applications.php` | High
-4 | File | `/admin/edit-products.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-8 | File | `/astre/iodasweb/app.jsp` | High
-9 | File | `/birthing_pending.php` | High
-10 | File | `/boafrm/formFilter` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/config/config.properties` | High
-13 | File | `/coreframe/app/guestbook/myissue.php` | High
-14 | File | `/devinfo` | Medium
+4 | File | `/admin/bwdates-request-report-details.php` | High
+5 | File | `/admin/forms/option_lists/edit.php` | High
+6 | File | `/admin/uesrs.php&action=display&value=Show` | High
+7 | File | `/admin_ping.htm` | High
+8 | File | `/adpweb/a/base/barcodeDetail/` | High
+9 | File | `/api/docs/index.php` | High
+10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+11 | File | `/api/v1/settings` | High
+12 | File | `/boafrm/formWlSiteSurvey` | High
+13 | File | `/BRS_top.html` | High
+14 | File | `/cgi-bin/editBookmark` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

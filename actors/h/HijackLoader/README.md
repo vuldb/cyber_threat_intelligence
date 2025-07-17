@@ -18,6 +18,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [62.60.234.80](https://vuldb.com/?ip.62.60.234.80) | susko.aho.cuata | - | High
+2 | [77.83.207.69](https://vuldb.com/?ip.77.83.207.69) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `src/lib/libssl/s3_lib.c` | High
+2 | File | `TeamViewer_service.exe` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/16a0e939d42dbe39946c3a48bc07ec9b6ef565c0828f66be053d1320e5f7c4f7/
+* https://urlhaus.abuse.ch/url/3555651/
 
 ## Literature
 

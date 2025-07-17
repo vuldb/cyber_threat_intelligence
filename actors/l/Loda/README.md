@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,14 +57,14 @@ ID | Type | Indicator | Confidence
 1 | File | `../mtd/Config/Sha1Account1` | High
 2 | File | `/;/admin/role/edit` | High
 3 | File | `/add_achievement_details.php` | High
-4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
-5 | File | `/admin/blood/update/B+.php` | High
-6 | File | `/admin/complaint-search.php` | High
-7 | File | `/admin/edit-brand.php` | High
-8 | File | `/admin/edit-customer-detailed.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit-subadmin.php` | High
-11 | File | `/admin/edit_area.php` | High
+4 | File | `/admin/action/edit_chicken.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+6 | File | `/admin/booking-bwdates-reports-details.php` | High
+7 | File | `/admin/complaint-search.php` | High
+8 | File | `/admin/edit-brand.php` | High
+9 | File | `/admin/edit-customer-detailed.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/edit-subadmin.php` | High
 12 | File | `/admin/faculty_action.php` | High
 13 | File | `/admin/File/fileUpload` | High
 14 | File | `/admin/File/pictureUpload` | High
@@ -80,9 +80,9 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/search-maid.php` | High
 25 | File | `/admin/services/view_service.php` | High
 26 | File | `/admin/update_user.php` | High
-27 | File | `/animalsadd.php` | High
-28 | File | `/api/Cdn/GetFile` | High
-29 | File | `/api/v1/dashboards/export` | High
+27 | File | `/admin/visitors-form.php` | High
+28 | File | `/animalsadd.php` | High
+29 | File | `/api/front/search/books` | High
 30 | File | `/api/v1/user/accept-invite` | High
 31 | File | `/api/wizard/setsyncpppoecfg` | High
 32 | File | `/app/admin/controller/api/Plugs.php` | High
@@ -93,20 +93,20 @@ ID | Type | Indicator | Confidence
 37 | File | `/blog-details.php` | High
 38 | File | `/catalog/all-products` | High
 39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/hd_config.cgi` | High
-41 | File | `/cgi-bin/nas_sharing.cgi` | High
-42 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-43 | File | `/cgi-bin/wlogin.cgi` | High
-44 | File | `/class/edit/edit` | High
-45 | File | `/classes/Master.php?f=delete_category` | High
-46 | File | `/classes/Users.php?f=save_client` | High
-47 | File | `/com/esafenet/servlet/user/ReUserOrganiseService.java` | High
-48 | File | `/control/forgot_pass.php` | High
-49 | File | `/crm/inicio.php` | High
-50 | File | `/Doctor/chat.php` | High
+40 | File | `/cgi-bin/nas_sharing.cgi` | High
+41 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/class/edit/edit` | High
+44 | File | `/collect/PortV4/downLoad.html` | High
+45 | File | `/com/esafenet/servlet/user/ReUserOrganiseService.java` | High
+46 | File | `/crm/inicio.php` | High
+47 | File | `/Doctor/chat.php` | High
+48 | File | `/documentCache/upload` | High
+49 | File | `/DXR.axd` | Medium
+50 | File | `/edit-category.php?id=8` | High
 51 | ... | ... | ...
 
-There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

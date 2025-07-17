@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SmartLoader:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,13 +22,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [77.105.164.40](https://vuldb.com/?ip.77.105.164.40) | 2366squidsbased.example.com | - | High
-2 | [80.66.81.11](https://vuldb.com/?ip.80.66.81.11) | zaroshiico.com | - | High
-3 | [80.66.81.134](https://vuldb.com/?ip.80.66.81.134) | argentajagneaux2.serv.host | - | High
-4 | [80.66.89.146](https://vuldb.com/?ip.80.66.89.146) | argentajagneaux.serv.host | - | High
-5 | [80.66.89.161](https://vuldb.com/?ip.80.66.89.161) | mudriedmouse604.serv.host | - | High
-6 | ... | ... | ... | ...
+2 | [77.105.164.178](https://vuldb.com/?ip.77.105.164.178) | 3292squidsbased.example.com | - | High
+3 | [80.66.81.11](https://vuldb.com/?ip.80.66.81.11) | zaroshiico.com | - | High
+4 | [80.66.81.134](https://vuldb.com/?ip.80.66.81.134) | argentajagneaux2.serv.host | - | High
+5 | [80.66.89.146](https://vuldb.com/?ip.80.66.89.146) | argentajagneaux.serv.host | - | High
+6 | [80.66.89.161](https://vuldb.com/?ip.80.66.89.161) | mudriedmouse604.serv.host | - | High
+7 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-1321 | Argument Injection | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,12 +50,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/history/getDocHistoryContent` | High
-2 | File | `akocomments.php` | High
-3 | File | `suggest-listing.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/ajax.php` | High
+2 | File | `/admin/ajax.php?action=save_window` | High
+3 | File | `/api/history/getDocHistoryContent` | High
+4 | File | `/config/list` | Medium
+5 | File | `/goform/WifiBasicSet` | High
+6 | File | `/login.php` | Medium
+7 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

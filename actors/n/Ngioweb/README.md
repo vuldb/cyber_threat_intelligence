@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ngioweb:
 
+* [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,13 +75,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,47 +105,45 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/index2.html` | High
 15 | File | `/admin/login.php` | High
 16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/process_category_add.php` | High
-18 | File | `/admin/quizquestion.php` | High
-19 | File | `/admin/search-appointment.php` | High
-20 | File | `/adminPage/conf/reload` | High
-21 | File | `/ajax.php?action=read_msg` | High
-22 | File | `/api/baskets/{name}` | High
-23 | File | `/api/clusters/local/topics/{topic}/messages` | High
-24 | File | `/api/cron/settings/setJob/` | High
-25 | File | `/API/info` | Medium
-26 | File | `/api2/html/` | Medium
-27 | File | `/app/api/controller/caiji.php` | High
-28 | File | `/application/index/controller/Service.php` | High
-29 | File | `/buscar_integrada.php` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-35 | File | `/cgi-bin/tosei_kikai.php` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/classes/Master.php` | High
-38 | File | `/config/php.ini` | High
-39 | File | `/cov/triggerEnvCov` | High
-40 | File | `/dashboard/admin/del_plan.php` | High
-41 | File | `/dashboard/approve-reject.php` | High
-42 | File | `/debug/pprof` | Medium
-43 | File | `/detailed.php` | High
-44 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-45 | File | `/dist/index.js` | High
-46 | File | `/DXR.axd` | Medium
-47 | File | `/emloyee_akpoly/Account/login.php` | High
-48 | File | `/endpoint/add-calorie.php` | High
-49 | File | `/etc/shadow.sample` | High
-50 | File | `/eval/admin/manage_class.php` | High
-51 | File | `/EXCU_SHELL` | Medium
-52 | File | `/forum/away.php` | High
-53 | File | `/general/address/private/address/query/delete.php` | High
-54 | File | `/goform/ate` | Medium
-55 | ... | ... | ...
+17 | File | `/admin/member_save.php` | High
+18 | File | `/admin/process_category_add.php` | High
+19 | File | `/admin/quizquestion.php` | High
+20 | File | `/admin/search-appointment.php` | High
+21 | File | `/admin/search-vehicle.php` | High
+22 | File | `/admin/voters_row.php` | High
+23 | File | `/adminPage/conf/reload` | High
+24 | File | `/admin_topic.php?action=delall` | High
+25 | File | `/api/authentication/login` | High
+26 | File | `/api/baskets/{name}` | High
+27 | File | `/api/clusters/local/topics/{topic}/messages` | High
+28 | File | `/api/cron/settings/setJob/` | High
+29 | File | `/API/info` | Medium
+30 | File | `/api2/html/` | Medium
+31 | File | `/app/api/controller/caiji.php` | High
+32 | File | `/application/index/controller/Service.php` | High
+33 | File | `/bitrix/admin/ldap_server_edit.php` | High
+34 | File | `/boafrm/formIpQoS` | High
+35 | File | `/buscar_integrada.php` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+38 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+39 | File | `/cgi-bin/nas_sharing.cgi` | High
+40 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+41 | File | `/cgi-bin/tosei_kikai.php` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/config/php.ini` | High
+45 | File | `/cov/triggerEnvCov` | High
+46 | File | `/dashboard/admin/del_plan.php` | High
+47 | File | `/dashboard/approve-reject.php` | High
+48 | File | `/debug/pprof` | Medium
+49 | File | `/dede/file_manage_control.php` | High
+50 | File | `/detailed.php` | High
+51 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+52 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+53 | ... | ... | ...
 
-There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

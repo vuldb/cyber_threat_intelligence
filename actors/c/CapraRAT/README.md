@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [ID](https://vuldb.com/?country.id)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
 2 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | - | High
-3 | [194.233.70.54](https://vuldb.com/?ip.194.233.70.54) | vmi1131302.contaboserver.net | - | High
+3 | [80.241.209.53](https://vuldb.com/?ip.80.241.209.53) | ip-53-209-241-80.static.contabo.net | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,14 +51,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/nas_sharing.cgi` | High
 3 | File | `/edit-db.php` | Medium
 4 | File | `/ndmComponents.js` | High
-5 | ... | ... | ...
+5 | File | `/pageList` | Medium
+6 | ... | ... | ...
 
-There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://www.welivesecurity.com/2023/03/07/love-scam-espionage-transparent-tribe-lures-indian-pakistani-officials/
 
 ## Literature

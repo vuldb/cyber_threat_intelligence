@@ -74,37 +74,37 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/products/index.php` | High
 10 | File | `/admin/transactions/track_shipment.php` | High
 11 | File | `/admin1/file/download` | High
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/role` | Medium
-14 | File | `/api/upload.php` | High
-15 | File | `/api /v3/auth` | High
-16 | File | `/api2/html/` | Medium
-17 | File | `/aqpg/users/login.php` | High
-18 | File | `/b2b-supermarket/shopping-cart` | High
-19 | File | `/bilal final/edit_stud.php` | High
-20 | File | `/bilal final/login.php` | High
-21 | File | `/bin/sh` | Low
-22 | File | `/boafrm/formFilter` | High
-23 | File | `/car-rental-management-system/admin/view_car.php=` | High
-24 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/wapopen` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php?f=save_position` | High
-31 | File | `/classes/SystemSettings.php?f=update_settings` | High
-32 | File | `/common/download?filename=1.jsp&delete=false` | High
-33 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/devinfo` | Medium
-36 | File | `/etc/hosts.deny` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/WifiExtraSet` | High
-39 | File | `/GponForm/device_Form?script/` | High
+12 | File | `/adpweb/wechat/verifyToken/` | High
+13 | File | `/api/authentication/login` | High
+14 | File | `/api/role` | Medium
+15 | File | `/api/upload.php` | High
+16 | File | `/api /v3/auth` | High
+17 | File | `/api2/html/` | Medium
+18 | File | `/aqpg/users/login.php` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
+20 | File | `/bilal final/edit_stud.php` | High
+21 | File | `/bilal final/login.php` | High
+22 | File | `/bin/sh` | Low
+23 | File | `/boafrm/formFilter` | High
+24 | File | `/car-rental-management-system/admin/view_car.php=` | High
+25 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/wapopen` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/classes/Master.php?f=save_position` | High
+32 | File | `/classes/SystemSettings.php?f=update_settings` | High
+33 | File | `/common/download?filename=1.jsp&delete=false` | High
+34 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/devinfo` | Medium
+37 | File | `/etc/hosts.deny` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/WifiExtraSet` | High
 40 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

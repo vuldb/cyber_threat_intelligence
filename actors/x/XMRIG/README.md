@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with xmrig:
 
 * CVE-2021-44228
+* CVE-2025-31324
 * SeleniumGreed
 
 ## Countries
@@ -16,11 +17,11 @@ The following _campaigns_ are known and can be associated with xmrig:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with xmrig:
 
 * [CN](https://vuldb.com/?country.cn)
-* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
+* [SH](https://vuldb.com/?country.sh)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,17 +29,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [27.36.82.56](https://vuldb.com/?ip.27.36.82.56) | - | - | High
-2 | [43.163.195.252](https://vuldb.com/?ip.43.163.195.252) | - | - | High
-3 | [45.95.147.236](https://vuldb.com/?ip.45.95.147.236) | protect.privacy | - | High
-4 | [45.138.16.193](https://vuldb.com/?ip.45.138.16.193) | - | - | High
-5 | [47.109.69.229](https://vuldb.com/?ip.47.109.69.229) | - | - | High
-6 | [51.195.211.231](https://vuldb.com/?ip.51.195.211.231) | ip231.ip-51-195-211.eu | - | High
-7 | [59.36.188.253](https://vuldb.com/?ip.59.36.188.253) | - | - | High
-8 | [77.105.147.158](https://vuldb.com/?ip.77.105.147.158) | square-jar.aeza.network | - | High
-9 | ... | ... | ... | ...
+1 | [23.95.123.5](https://vuldb.com/?ip.23.95.123.5) | 23-95-123-5-host.colocrossing.com | CVE-2025-31324 | High
+2 | [27.36.82.56](https://vuldb.com/?ip.27.36.82.56) | - | - | High
+3 | [43.163.195.252](https://vuldb.com/?ip.43.163.195.252) | - | - | High
+4 | [45.95.147.236](https://vuldb.com/?ip.45.95.147.236) | protect.privacy | - | High
+5 | [45.138.16.193](https://vuldb.com/?ip.45.138.16.193) | - | - | High
+6 | [47.109.69.229](https://vuldb.com/?ip.47.109.69.229) | - | - | High
+7 | [51.195.211.231](https://vuldb.com/?ip.51.195.211.231) | ip231.ip-51-195-211.eu | - | High
+8 | [59.36.188.253](https://vuldb.com/?ip.59.36.188.253) | - | - | High
+9 | [77.105.147.158](https://vuldb.com/?ip.77.105.147.158) | square-jar.aeza.network | - | High
+10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-36, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -65,30 +67,30 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin.php?page=album` | High
-6 | File | `/Admin/add-admin.php` | High
-7 | File | `/admin/add_ikev2.php` | High
-8 | File | `/admin/admin_action.php` | High
-9 | File | `/admin/admin_members.php?ac=search` | High
-10 | File | `/admin/ajax.php?action=login` | High
-11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
-12 | File | `/admin/blood/update/B+.php` | High
-13 | File | `/admin/category/view_category.php` | High
-14 | File | `/admin/category_save.php` | High
-15 | File | `/admin/cmsTemplate/replace` | High
-16 | File | `/admin/content/editor` | High
-17 | File | `/admin/customermanagementframework/customers/list` | High
-18 | File | `/admin/deleteBooking.php` | High
-19 | File | `/admin/emp-profile-avatar.php` | High
-20 | File | `/admin/foreigner-search.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/index2.html` | High
-23 | File | `/admin/list_ipAddressPolicy.php` | High
-24 | File | `/admin/manage_model.php` | High
-25 | File | `/admin/manage_user.php` | High
-26 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
-27 | File | `/admin/normal-search.php` | High
+4 | File | `/admin-api/upload_image` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin.php?page=album` | High
+7 | File | `/Admin/add-admin.php` | High
+8 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/admin_action.php` | High
+10 | File | `/admin/admin_members.php?ac=search` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+13 | File | `/admin/blood/update/B+.php` | High
+14 | File | `/admin/category/view_category.php` | High
+15 | File | `/admin/category_save.php` | High
+16 | File | `/admin/cmsTemplate/replace` | High
+17 | File | `/admin/content/editor` | High
+18 | File | `/admin/customermanagementframework/customers/list` | High
+19 | File | `/admin/deleteBooking.php` | High
+20 | File | `/admin/emp-profile-avatar.php` | High
+21 | File | `/admin/foreigner-search.php` | High
+22 | File | `/admin/index.php` | High
+23 | File | `/admin/index2.html` | High
+24 | File | `/admin/list_ipAddressPolicy.php` | High
+25 | File | `/admin/manage_model.php` | High
+26 | File | `/admin/manage_user.php` | High
+27 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
 28 | File | `/admin/password-recovery.php` | High
 29 | File | `/admin/print.php` | High
 30 | File | `/admin/products/index.php` | High
@@ -100,10 +102,10 @@ ID | Type | Indicator | Confidence
 36 | File | `/admin/template` | High
 37 | File | `/admin/twitter.php` | High
 38 | File | `/admin/update_room.php` | High
-39 | File | `/admin_class.php` | High
-40 | File | `/animalsupdate.php` | High
-41 | File | `/api/admin/user?id` | High
-42 | File | `/api/upload` | Medium
+39 | File | `/animalsupdate.php` | High
+40 | File | `/api/admin/user?id` | High
+41 | File | `/api/upload` | Medium
+42 | File | `/api/v1/settings` | High
 43 | File | `/api/v1/toolbox/device/update/swap` | High
 44 | File | `/api/v2/maps` | Medium
 45 | File | `/app/zentao/module/repo/model.php` | High
@@ -122,9 +124,10 @@ ID | Type | Indicator | Confidence
 58 | File | `/com/esafenet/servlet/policy/HookService.java` | High
 59 | File | `/control/WANIPConnection` | High
 60 | File | `/course.php` | Medium
-61 | ... | ... | ...
+61 | File | `/cov/triggerUnitCover` | High
+62 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,7 +140,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/89.221.225.7
 * https://search.censys.io/hosts/104.233.210.195
 * https://search.censys.io/hosts/172.84.76.231
+* https://search.censys.io/hosts/179.61.147.132
 * https://search.censys.io/hosts/196.251.70.216
+* https://search.censys.io/hosts/196.251.86.71
 * https://search.censys.io/hosts/213.192.33.143
 * https://threatfox.abuse.ch
 * https://tria.ge/230707-zfx1zacf4s/behavioral1
@@ -148,8 +153,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3551023/
 * https://urlhaus.abuse.ch/url/3555257/
 * https://urlhaus.abuse.ch/url/3555767/
+* https://urlhaus.abuse.ch/url/3569048/
 * https://www.cadosecurity.com/containerised-clicks-malicious-use-of-9hits-on-vulnerable-docker-hosts/
 * https://www.cyber45.com
+* https://www.darktrace.com/blog/tracking-cve-2025-31324-darktraces-detection-of-sap-netweaver-exploitation-before-and-after-disclosure
 * https://www.shodan.io/host/195.201.139.229
 * https://www.uptycs.com/blog/log4j-campaign-xmrig-malware
 * https://www.virustotal.com/gui/file/7f98872e415358424986167baac5c0bf3e729207b6a3562187ee89892f5a7fbc/relations

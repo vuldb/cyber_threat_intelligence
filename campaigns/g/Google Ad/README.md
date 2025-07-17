@@ -75,9 +75,10 @@ ID | Type | Indicator | Confidence
 17 | File | `/system/user/modules/mod_users/controller.php` | High
 18 | File | `/view/vpn/autovpn/sub_commit.php` | High
 19 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-20 | ... | ... | ...
+20 | File | `admin/conf_users_edit.php` | High
+21 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

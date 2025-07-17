@@ -65,17 +65,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/v2/cli/commands` | High
 6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 7 | File | `/cgi/loginDefaultUser` | High
-8 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-9 | File | `/mics/j_spring_security_check` | High
-10 | File | `/oauth/token` | Medium
-11 | File | `/opt/bin/cli` | Medium
-12 | File | `/rom-0` | Low
-13 | File | `/spip.php` | Medium
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-16 | ... | ... | ...
+8 | File | `/dental_form.php` | High
+9 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+10 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+11 | File | `/mics/j_spring_security_check` | High
+12 | File | `/oauth/token` | Medium
+13 | File | `/opt/bin/cli` | Medium
+14 | File | `/rom-0` | Low
+15 | File | `/spip.php` | Medium
+16 | File | `/uncpath/` | Medium
+17 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

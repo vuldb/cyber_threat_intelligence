@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,24 +109,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/addemployee.php` | High
 3 | File | `/Admin/consulting_detail.php` | High
 4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/update-users.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-9 | File | `/bin/boa` | Medium
-10 | File | `/cimom` | Low
-11 | File | `/cms/category/list` | High
-12 | File | `/Forms/oadmin_1` | High
+5 | File | `/admin/massage.php` | High
+6 | File | `/admin/update-users.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/v1/terminal/sessions/?limit=1` | High
+9 | File | `/cms/category/list` | High
+10 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+11 | File | `/Forms/oadmin_1` | High
+12 | File | `/get.php` | Medium
 13 | File | `/goform/operateMacFilter` | High
 14 | File | `/home/search` | Medium
 15 | File | `/inc/jquery/uploadify/uploadify.php` | High
 16 | File | `/main/doctype.php` | High
-17 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-18 | File | `/oauth/idp/.well-known/openid-configuration` | High
-19 | File | `/shell` | Low
-20 | ... | ... | ...
+17 | File | `/mims/app/addcustomerHandler.php` | High
+18 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+19 | File | `/oauth/idp/.well-known/openid-configuration` | High
+20 | File | `/shell` | Low
+21 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

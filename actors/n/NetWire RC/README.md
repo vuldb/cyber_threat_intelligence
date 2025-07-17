@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,37 +41,38 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [37.0.14.203](https://vuldb.com/?ip.37.0.14.203) | - | - | High
 19 | [37.0.14.206](https://vuldb.com/?ip.37.0.14.206) | - | - | High
 20 | [37.0.14.214](https://vuldb.com/?ip.37.0.14.214) | - | - | High
-21 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
-22 | [37.120.145.160](https://vuldb.com/?ip.37.120.145.160) | - | - | High
-23 | [37.120.234.120](https://vuldb.com/?ip.37.120.234.120) | no-rdns.m247.com | - | High
-24 | [37.120.247.24](https://vuldb.com/?ip.37.120.247.24) | - | - | High
-25 | [43.154.232.190](https://vuldb.com/?ip.43.154.232.190) | - | - | High
-26 | [43.226.229.43](https://vuldb.com/?ip.43.226.229.43) | - | - | High
-27 | [45.57.161.9](https://vuldb.com/?ip.45.57.161.9) | - | - | High
-28 | [45.83.88.218](https://vuldb.com/?ip.45.83.88.218) | - | - | High
-29 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-30 | [45.133.174.214](https://vuldb.com/?ip.45.133.174.214) | - | - | High
-31 | [45.144.225.128](https://vuldb.com/?ip.45.144.225.128) | - | - | High
-32 | [45.144.225.174](https://vuldb.com/?ip.45.144.225.174) | - | - | High
-33 | [51.15.19.32](https://vuldb.com/?ip.51.15.19.32) | 51-15-19-32.rev.poneytelecom.eu | - | High
-34 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
-35 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
-36 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
-37 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
-38 | [54.36.4.180](https://vuldb.com/?ip.54.36.4.180) | ip180.ip-54-36-4.eu | - | High
-39 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
-40 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
-41 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
-42 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
-43 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
-44 | [66.42.43.177](https://vuldb.com/?ip.66.42.43.177) | 66.42.43.177.vultrusercontent.com | - | Medium
-45 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
-46 | [66.154.103.106](https://vuldb.com/?ip.66.154.103.106) | 66.154.103.106.static.quadranet.com | - | High
-47 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
-48 | [74.201.28.67](https://vuldb.com/?ip.74.201.28.67) | - | - | High
-49 | ... | ... | ... | ...
+21 | [37.9.53.122](https://vuldb.com/?ip.37.9.53.122) | - | - | High
+22 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
+23 | [37.120.145.160](https://vuldb.com/?ip.37.120.145.160) | - | - | High
+24 | [37.120.208.40](https://vuldb.com/?ip.37.120.208.40) | - | - | High
+25 | [37.120.234.120](https://vuldb.com/?ip.37.120.234.120) | no-rdns.m247.com | - | High
+26 | [37.120.247.24](https://vuldb.com/?ip.37.120.247.24) | - | - | High
+27 | [43.154.232.190](https://vuldb.com/?ip.43.154.232.190) | - | - | High
+28 | [43.226.229.43](https://vuldb.com/?ip.43.226.229.43) | - | - | High
+29 | [45.57.161.9](https://vuldb.com/?ip.45.57.161.9) | - | - | High
+30 | [45.83.88.218](https://vuldb.com/?ip.45.83.88.218) | - | - | High
+31 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+32 | [45.133.174.214](https://vuldb.com/?ip.45.133.174.214) | - | - | High
+33 | [45.144.225.128](https://vuldb.com/?ip.45.144.225.128) | - | - | High
+34 | [45.144.225.174](https://vuldb.com/?ip.45.144.225.174) | - | - | High
+35 | [51.15.19.32](https://vuldb.com/?ip.51.15.19.32) | 51-15-19-32.rev.poneytelecom.eu | - | High
+36 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
+37 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
+38 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
+39 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
+40 | [54.36.4.180](https://vuldb.com/?ip.54.36.4.180) | ip180.ip-54-36-4.eu | - | High
+41 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
+42 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
+43 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
+44 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
+45 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
+46 | [66.42.43.177](https://vuldb.com/?ip.66.42.43.177) | 66.42.43.177.vultrusercontent.com | - | Medium
+47 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
+48 | [66.154.103.106](https://vuldb.com/?ip.66.154.103.106) | 66.154.103.106.static.quadranet.com | - | High
+49 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
+50 | ... | ... | ... | ...
 
-There are 194 more IOC items available. Please use our online service to access the data.
+There are 196 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -130,46 +131,45 @@ ID | Type | Indicator | Confidence
 33 | File | `/API/info` | Medium
 34 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
 35 | File | `/api/v2/open/rowsInfo` | High
-36 | File | `/api/v4/teams//channels/deleted` | High
-37 | File | `/api/wizard/networkSetup` | High
-38 | File | `/api2/html/` | Medium
-39 | File | `/app/admin/controller/api/Plugs.php` | High
-40 | File | `/app/admin/controller/Upload.php` | High
-41 | File | `/app/ajax/search_sales_report.php` | High
-42 | File | `/app/controller/Setup.php` | High
-43 | File | `/app/middleware/TokenVerify.php` | High
-44 | File | `/application/index/controller/Screen.php` | High
-45 | File | `/application/websocket/controller/Setting.php` | High
-46 | File | `/apply.cgi` | Medium
-47 | File | `/apply/index.php` | High
-48 | File | `/b2b-supermarket/catalog/all-products` | High
-49 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-50 | File | `/bbdms/sign-up.php` | High
-51 | File | `/bin/boa` | Medium
-52 | File | `/bitrix/admin/ldap_server_edit.php` | High
-53 | File | `/Bloodgroop_process.php` | High
-54 | File | `/boafrm/formMapDelDevice` | High
+36 | File | `/api/wizard/networkSetup` | High
+37 | File | `/api2/html/` | Medium
+38 | File | `/app/admin/controller/api/Plugs.php` | High
+39 | File | `/app/admin/controller/Upload.php` | High
+40 | File | `/app/ajax/search_sales_report.php` | High
+41 | File | `/app/controller/Setup.php` | High
+42 | File | `/app/middleware/TokenVerify.php` | High
+43 | File | `/application/index/controller/Screen.php` | High
+44 | File | `/application/websocket/controller/Setting.php` | High
+45 | File | `/apply.cgi` | Medium
+46 | File | `/apply/index.php` | High
+47 | File | `/b2b-supermarket/catalog/all-products` | High
+48 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+49 | File | `/bbdms/sign-up.php` | High
+50 | File | `/bin/boa` | Medium
+51 | File | `/bitrix/admin/ldap_server_edit.php` | High
+52 | File | `/Bloodgroop_process.php` | High
+53 | File | `/boafrm/formMapDelDevice` | High
+54 | File | `/boafrm/formMultiAP` | High
 55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-57 | File | `/cgi-bin/hd_config.cgi` | High
-58 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-59 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-60 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-61 | File | `/cgi-bin/myMusic.cgi` | High
-62 | File | `/cgi-bin/nas_sharing.cgi` | High
-63 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-64 | File | `/cgi-bin/system_mgr.cgi` | High
-65 | File | `/cgi-bin/touchlist_sync.cgi` | High
-66 | File | `/classes/Master.php?f=save_medicine` | High
-67 | File | `/classes/Users.php?f=save` | High
-68 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-69 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-70 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-71 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-72 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-73 | ... | ... | ...
+56 | File | `/cgi-bin/hd_config.cgi` | High
+57 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+58 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+59 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+60 | File | `/cgi-bin/myMusic.cgi` | High
+61 | File | `/cgi-bin/nas_sharing.cgi` | High
+62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+63 | File | `/cgi-bin/system_mgr.cgi` | High
+64 | File | `/cgi-bin/touchlist_sync.cgi` | High
+65 | File | `/classes/Master.php?f=save_medicine` | High
+66 | File | `/classes/Users.php?f=save` | High
+67 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+68 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+69 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+70 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+71 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+72 | ... | ... | ...
 
-There are 640 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 632 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

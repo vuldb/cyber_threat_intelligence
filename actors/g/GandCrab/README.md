@@ -63,12 +63,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,28 +79,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/category/controller.php` | High
 2 | File | `/admin/create_product.php` | High
 3 | File | `/admin/general.cgi` | High
-4 | File | `/admin/reminders/manage_reminder.php` | High
-5 | File | `/API/info` | Medium
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+4 | File | `/API/info` | Medium
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/Bloodgroop_process.php` | High
 7 | File | `/CCMAdmin/serverlist.asp` | High
 8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 9 | File | `/cgi/get_param.cgi` | High
-10 | File | `/csms/admin/inquiries/view_details.php` | High
-11 | File | `/cstecgi.cgi` | Medium
-12 | File | `/ecommerce/support_ticket` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/home/search` | Medium
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-20 | File | `/upfile.cgi` | Medium
-21 | File | `/webui/modules/log/operate.mds` | High
-22 | File | `/wordpress/wp-admin/admin.php` | High
-23 | ... | ... | ...
+10 | File | `/cstecgi.cgi` | Medium
+11 | File | `/ecommerce/support_ticket` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/home/search` | Medium
+14 | File | `/out.php` | Medium
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/spgpm/updateListing` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/upfile.cgi` | Medium
+19 | File | `/webui/modules/log/operate.mds` | High
+20 | File | `/wordpress/wp-admin/admin.php` | High
+21 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

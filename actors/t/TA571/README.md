@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/food/admin/all_users.php` | High
 7 | File | `/php_action/createUser.php` | High
 8 | File | `/resource/addgood.php` | High
-9 | ... | ... | ...
+9 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

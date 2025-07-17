@@ -45,11 +45,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/fax/fax_send.php` | High
-2 | File | `/tmp/csman/0` | Medium
-3 | File | `/version.js` | Medium
+2 | File | `/spip.php` | Medium
+3 | File | `/tmp/csman/0` | Medium
 4 | ... | ... | ...
 
-There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

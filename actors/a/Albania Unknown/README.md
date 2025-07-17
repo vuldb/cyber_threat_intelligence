@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Albania Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
+* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 40 more country items available. Please use our online service to access the data.
+There are 43 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -126,45 +126,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
 2 | File | `/add_reference_to_local_model` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/clients/` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/edit_action.php` | High
-7 | File | `/Admin/edit_profile.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/file/delete.do` | High
-10 | File | `/admin/forms/option_lists/edit.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/maintenance/manage_brand.php` | High
-13 | File | `/admin/manage-pages.php` | High
-14 | File | `/admin/sales/manage_sale.php` | High
-15 | File | `/admin/settings/index.php?page=accounts` | High
-16 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-17 | File | `/advanced-tools/nova/bin/netwatch` | High
-18 | File | `/api/configs` | Medium
-19 | File | `/api/resources` | High
-20 | File | `/apilog.php` | Medium
-21 | File | `/auth_pic.cgi` | High
-22 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-25 | File | `/cgi-bin/api-get_line_status` | High
-26 | File | `/cgi-bin/luci` | High
-27 | File | `/cgi-bin/myMusic.cgi` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/check_availability.php` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/classes/Master.php?f=save_medicine` | High
-33 | File | `/classes/SystemSettings.php?f=update_settings` | High
-34 | File | `/classes/Users.php?f=delete` | High
-35 | File | `/Code/loginnew.php` | High
-36 | File | `/Code/sc_login.php` | High
-37 | File | `/control/add_act.php` | High
-38 | File | `/control/login.php` | High
-39 | ... | ... | ...
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/add-admin.php` | High
+5 | File | `/admin/add_trainers.php` | High
+6 | File | `/admin/app/role_crud.php` | High
+7 | File | `/admin/auto-taxi-entry-detail.php` | High
+8 | File | `/admin/check_availability.php` | High
+9 | File | `/admin/clients/` | High
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/edit_action.php` | High
+12 | File | `/admin/edit_area.php` | High
+13 | File | `/Admin/edit_profile.php` | High
+14 | File | `/admin/emp-profile-avatar.php` | High
+15 | File | `/admin/file/delete.do` | High
+16 | File | `/admin/file_manager/export` | High
+17 | File | `/admin/forms/option_lists/edit.php` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/manage-pages.php` | High
+20 | File | `/admin/manage_model.php` | High
+21 | File | `/admin/sales/manage_sale.php` | High
+22 | File | `/admin/settings/index.php?page=accounts` | High
+23 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+24 | File | `/advanced-tools/nova/bin/netwatch` | High
+25 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+26 | File | `/api/configs` | Medium
+27 | File | `/api/resources` | High
+28 | File | `/api/sys/set_passwd` | High
+29 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+30 | File | `/apilog.php` | Medium
+31 | File | `/auth_pic.cgi` | High
+32 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+33 | File | `/bin/httpd` | Medium
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+36 | File | `/cgi-bin/api-get_line_status` | High
+37 | File | `/cgi-bin/myMusic.cgi` | High
+38 | File | `/cgi-bin/nas_sharing.cgi` | High
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/change_pass/forgot_password_sql.php` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_product` | High
+43 | File | `/classes/Master.php?f=save_medicine` | High
+44 | File | `/classes/SystemSettings.php?f=update_settings` | High
+45 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

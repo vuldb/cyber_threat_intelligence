@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 41 more country items available. Please use our online service to access the data.
+There are 42 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/manage-pages.php` | High
 8 | File | `/admin/sales/manage_sale.php` | High
 9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/ajax/networking/get_wgkey.php` | High
+10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
 11 | File | `/api/upload.php` | High
 12 | File | `/apilog.php` | Medium
 13 | File | `/auth_pic.cgi` | High
@@ -119,12 +119,13 @@ ID | Type | Indicator | Confidence
 27 | File | `/dashboard/admin/new_submit.php` | High
 28 | File | `/dashboard/message` | High
 29 | File | `/details.php` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-32 | File | `/expadd.php` | Medium
-33 | ... | ... | ...
+30 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+31 | File | `/devinfo` | Medium
+32 | File | `/DXR.axd` | Medium
+33 | File | `/expadd.php` | Medium
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

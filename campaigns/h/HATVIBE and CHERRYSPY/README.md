@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -56,12 +56,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `classes/class-woo-sidebars.php` | High
-3 | File | `cloud.php` | Medium
-4 | File | `components/com_users/models/registration.php` | High
-5 | ... | ... | ...
+2 | File | `/dental_form.php` | High
+3 | File | `/user_order_customer_update.php` | High
+4 | File | `classes/class-woo-sidebars.php` | High
+5 | File | `cloud.php` | Medium
+6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

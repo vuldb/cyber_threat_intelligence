@@ -71,40 +71,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/article.php` | High
 3 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
 4 | File | `/api/` | Low
-5 | File | `/cgi-bin/cgiServer.exx` | High
-6 | File | `/cgi-bin/login_action.cgi` | High
-7 | File | `/cgi-bin/nobody/Search.cgi` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/cgi-bin/webviewer_login_page` | High
-10 | File | `/dev/sg0` | Medium
-11 | File | `/event/runquery.do` | High
-12 | File | `/export` | Low
-13 | File | `/filemanager/php/connector.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/setmac` | High
-16 | File | `/log_download.cgi` | High
-17 | File | `/manager?action=getlogcat` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/nova/bin/detnet` | High
-20 | File | `/pages/systemcall.php?command={COMMAND}` | High
-21 | File | `/password.html` | High
-22 | File | `/php_action/fetchSelectedCategories.php` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/services/prefs.php` | High
-25 | File | `/system/ws/v11/ss/email` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload` | Low
-28 | File | `/user/update_booking.php` | High
-29 | File | `add_edit_user.asp` | High
-30 | File | `add_vhost.php` | High
-31 | File | `admin/gv_mail.php` | High
-32 | File | `admin/images.aspx` | High
-33 | File | `admin/index.php` | High
-34 | File | `administrator.php` | High
-35 | File | `administrator/components/com_media/helpers/media.php` | High
-36 | ... | ... | ...
+5 | File | `/api/v1/settings` | High
+6 | File | `/cgi-bin/cgiServer.exx` | High
+7 | File | `/cgi-bin/login_action.cgi` | High
+8 | File | `/cgi-bin/nobody/Search.cgi` | High
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/cgi-bin/webviewer_login_page` | High
+11 | File | `/dev/sg0` | Medium
+12 | File | `/event/runquery.do` | High
+13 | File | `/export` | Low
+14 | File | `/filemanager/php/connector.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/setmac` | High
+17 | File | `/log_download.cgi` | High
+18 | File | `/manager?action=getlogcat` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/pages/systemcall.php?command={COMMAND}` | High
+22 | File | `/password.html` | High
+23 | File | `/php_action/fetchSelectedCategories.php` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/services/prefs.php` | High
+26 | File | `/system/ws/v11/ss/email` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/upload` | Low
+29 | File | `/user/update_booking.php` | High
+30 | File | `add_edit_user.asp` | High
+31 | File | `add_vhost.php` | High
+32 | File | `admin/gv_mail.php` | High
+33 | File | `admin/images.aspx` | High
+34 | File | `admin/index.php` | High
+35 | File | `administrator.php` | High
+36 | File | `administrator/components/com_media/helpers/media.php` | High
+37 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

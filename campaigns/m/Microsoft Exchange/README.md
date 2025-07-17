@@ -124,7 +124,7 @@ ID | Type | Indicator | Confidence
 62 | File | `/goform/SetOnlineDevName` | High
 63 | ... | ... | ...
 
-There are 551 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 556 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

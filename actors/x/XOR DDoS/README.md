@@ -58,9 +58,12 @@ ID | IP address | Hostname | Campaign | Confidence
 39 | [48.138.207.203](https://vuldb.com/?ip.48.138.207.203) | - | - | High
 40 | [49.14.187.47](https://vuldb.com/?ip.49.14.187.47) | - | - | High
 41 | [51.183.72.67](https://vuldb.com/?ip.51.183.72.67) | 33b74843.skybroadband.com | - | High
-42 | ... | ... | ... | ...
+42 | [52.152.113.213](https://vuldb.com/?ip.52.152.113.213) | - | - | High
+43 | [52.178.131.251](https://vuldb.com/?ip.52.178.131.251) | - | - | High
+44 | [53.87.218.39](https://vuldb.com/?ip.53.87.218.39) | - | - | High
+45 | ... | ... | ... | ...
 
-There are 166 more IOC items available. Please use our online service to access the data.
+There are 177 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,10 +71,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -84,56 +87,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.cpr/` | Low
-2 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-3 | File | `/aboutadd.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/?setting-base.htm` | High
+2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+4 | File | `/aboutadd.php` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
 6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/bwdates-reports-ds.php` | High
-8 | File | `/admin/category/controller.php` | High
-9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/sql` | Medium
-13 | File | `/admin/students.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/admin/system.html` | High
-16 | File | `/admin/system.php` | High
-17 | File | `/admin/twitter.php` | High
-18 | File | `/admin/update_users.php` | High
-19 | File | `/adminapi/system/crud` | High
-20 | File | `/adminPage/conf/reload` | High
-21 | File | `/amssplus/index.php` | High
-22 | File | `/api/admin/store/product/save` | High
-23 | File | `/api/admin/system/store/order/list` | High
-24 | File | `/API/info` | Medium
-25 | File | `/api/snapshots/` | High
-26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-27 | File | `/api /v3/auth` | High
-28 | File | `/api/wechat/app_auth` | High
-29 | File | `/api/wizard/getDualbandSync` | High
-30 | File | `/api/wizard/getWifiNeighbour` | High
-31 | File | `/app-api/infra/file/upload` | High
-32 | File | `/app/api/controller/Store.php` | High
-33 | File | `/application/index/controller/Icon.php` | High
-34 | File | `/application/index/controller/Screen.php` | High
-35 | File | `/apps/api/views/deploy_api.py` | High
-36 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-37 | File | `/backend/admin/his_admin_register_patient.php` | High
-38 | File | `/backend/register.php` | High
-39 | File | `/bin/ate` | Medium
-40 | File | `/boaform/device_reset.cgi` | High
-41 | File | `/book_list.php` | High
+7 | File | `/admin/category/controller.php` | High
+8 | File | `/admin/create_product.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/index.php/news/edit` | High
+11 | File | `/admin/system.php` | High
+12 | File | `/admin/twitter.php` | High
+13 | File | `/admin/update_users.php` | High
+14 | File | `/adminapi/system/crud` | High
+15 | File | `/ajax.php?action=delete_package` | High
+16 | File | `/ajax/loadShopInfo.php` | High
+17 | File | `/amssplus/index.php` | High
+18 | File | `/api/admin/store/product/save` | High
+19 | File | `/api/admin/system/store/order/list` | High
+20 | File | `/api/file/getRemoteContent` | High
+21 | File | `/api/snapshots/` | High
+22 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+23 | File | `/api/wechat/app_auth` | High
+24 | File | `/api/wizard/getDualbandSync` | High
+25 | File | `/api/wizard/getWifiNeighbour` | High
+26 | File | `/app-api/infra/file/upload` | High
+27 | File | `/app/api/controller/Store.php` | High
+28 | File | `/apps/api/views/deploy_api.py` | High
+29 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+30 | File | `/backend/admin/his_admin_register_patient.php` | High
+31 | File | `/backend/register.php` | High
+32 | File | `/bin/boa` | Medium
+33 | File | `/Bloodgroop_process.php` | High
+34 | File | `/boafrm/formDMZ` | High
+35 | File | `/boafrm/formFilter` | High
+36 | File | `/boafrm/formMapDel` | High
+37 | File | `/boafrm/formMapDelDevice` | High
+38 | File | `/boafrm/formPortFw` | High
+39 | File | `/boafrm/formSetLg` | High
+40 | File | `/book_list.php` | High
+41 | File | `/BRS_top.html` | High
 42 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-43 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-44 | File | `/cgi-bin/cstecgi.cgi` | High
-45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-46 | File | `/cgi-bin/nas_sharing.cgi` | High
-47 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
-48 | File | `/control/edit_client.php` | High
-49 | ... | ... | ...
+43 | File | `/bwdates-reports-details.php` | High
+44 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+45 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -160,6 +159,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/diary/rss/30880
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/1653849/
+* https://x.com/UNP4CK/status/1913649866523460002
 
 ## Literature
 

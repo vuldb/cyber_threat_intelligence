@@ -57,13 +57,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 2 | File | `/backend/admin/his_admin_register_patient.php` | High
 3 | File | `/mfsNotice/page` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `add_comment.php` | High
-6 | File | `admin\posts\view_post.php` | High
-7 | File | `ajax/include.php` | High
+4 | File | `/spgpm/updateListing` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `add_comment.php` | High
+7 | File | `admin\posts\view_post.php` | High
 8 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -82,9 +82,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/scp/directory.php` | High
 20 | File | `/search.php` | Medium
 21 | File | `/smsa/add_class_submit.php` | High
-22 | ... | ... | ...
+22 | File | `/spip.php` | Medium
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -85,16 +85,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/hd_config.cgi` | High
+2 | File | `/action/upload_file` | High
+3 | File | `/admin/pages/` | High
+4 | File | `/admins` | Low
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
 9 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

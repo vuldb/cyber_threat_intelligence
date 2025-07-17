@@ -11,6 +11,9 @@ The following _campaigns_ are known and can be associated with APT36:
 * C-Major
 * Crimson RAT
 * ElizaRAT
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -35,17 +38,19 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | C-Major | High
 5 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | C-Major | High
 6 | [13.107.21.237](https://vuldb.com/?ip.13.107.21.237) | - | ElizaRAT | High
-7 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
-8 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
-9 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
-10 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
-11 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
-12 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
-13 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
-14 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
-15 | ... | ... | ... | ...
+7 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | Indian Defense Officials | High
+8 | [15.197.148.33](https://vuldb.com/?ip.15.197.148.33) | a2aa9ff50de748dbe.awsglobalaccelerator.com | Indian Defense Officials | High
+9 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
+10 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
+11 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
+12 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
+13 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
+14 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
+15 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
+16 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
+17 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,57 +74,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.asp` | Low
-3 | File | `/about.php` | Medium
-4 | File | `/admin` | Low
-5 | File | `/admin/?page=inmates/view_inmate` | High
-6 | File | `/admin/?page=system_info` | High
-7 | File | `/admin/?page=system_info/contact_info` | High
-8 | File | `/admin/conferences/get-all-status/` | High
-9 | File | `/admin/conferences/list/` | High
-10 | File | `/admin/countrymanagement.php` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/edit_admin_details.php?id=admin` | High
-13 | File | `/admin/general/change-lang` | High
-14 | File | `/admin/group/list/` | High
-15 | File | `/admin/lab.php` | High
-16 | File | `/admin/new-content` | High
-17 | File | `/admin/renewaldue.php` | High
-18 | File | `/admin/sign/out` | High
-19 | File | `/admin/usermanagement.php` | High
-20 | File | `/aqpg/users/login.php` | High
-21 | File | `/artist-display.php` | High
-22 | File | `/assets/php/upload.php` | High
-23 | File | `/backend/admin/his_admin_register_patient.php` | High
-24 | File | `/backups/` | Medium
-25 | File | `/bcms/admin/?page=user/list` | High
-26 | File | `/cardo/api` | Medium
-27 | File | `/catcompany.php` | High
-28 | File | `/CCMAdmin/serverlist.asp` | High
-29 | File | `/cgi-bin/editBookmark` | High
-30 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-31 | File | `/cgi-bin/nightled.cgi` | High
-32 | File | `/cgi-bin/touchlist_sync.cgi` | High
-33 | File | `/ci_hms/massage_room/edit/1` | High
-34 | File | `/ci_hms/search` | High
-35 | File | `/ci_spms/admin/category` | High
-36 | File | `/ci_spms/admin/search/searching/` | High
-37 | File | `/ci_ssms/index.php/orders/create` | High
-38 | File | `/classes/Users.php?f=save` | High
-39 | File | `/cwms/admin/?page=articles/view_article/` | High
-40 | File | `/cwms/classes/Master.php?f=save_contact` | High
-41 | File | `/editbrand.php` | High
-42 | File | `/film-rating.php` | High
-43 | File | `/front/roomtype-details.php` | High
-44 | File | `/goform/RgDdns` | High
-45 | File | `/goform/RgDhcp` | High
-46 | File | `/goform/RGFirewallEL` | High
-47 | File | `/goform/RgTime` | High
-48 | File | `/goform/RgUrlBlock.asp` | High
-49 | File | `/goform/wlanPrimaryNetwork` | High
-50 | File | `/horde/imp/search.php` | High
-51 | ... | ... | ...
+3 | File | `/admin` | Low
+4 | File | `/admin/conferences/get-all-status/` | High
+5 | File | `/admin/conferences/list/` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/general/change-lang` | High
+8 | File | `/admin/group/list/` | High
+9 | File | `/admin/renewaldue.php` | High
+10 | File | `/admin/usermanagement.php` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/assets/php/upload.php` | High
+13 | File | `/backend/admin/his_admin_register_patient.php` | High
+14 | File | `/backups/` | Medium
+15 | File | `/catcompany.php` | High
+16 | File | `/CCMAdmin/serverlist.asp` | High
+17 | File | `/cgi-bin/editBookmark` | High
+18 | File | `/film-rating.php` | High
+19 | File | `/front/roomtype-details.php` | High
+20 | File | `/horde/imp/search.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mcategory.php` | High
+23 | File | `/mces/?p=class/view_class` | High
+24 | File | `/movie.php` | Medium
+25 | File | `/nidp/idff/sso` | High
+26 | File | `/products/view_product.php` | High
+27 | File | `/real-estate-script/search_property.php` | High
+28 | File | `/search` | Low
+29 | File | `/sitemagic/index.php` | High
+30 | File | `/spip.php` | Medium
+31 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,6 +113,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.malwarebytes.com/threat-analysis/2020/03/apt36-jumps-on-the-coronavirus-bandwagon-delivers-crimson-rat/
 * https://research.checkpoint.com/2024/the-evolution-of-transparent-tribes-new-malware/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
+* https://www.cyfirma.com/research/apt36-phishing-campaign-targets-indian-defense-using-credential-stealing-malware/
 * https://www.cyfirma.com/research/turning-aid-into-attack-exploitation-of-pakistans-youth-laptop-scheme-to-target-india/
 * https://www.reco.ai/blog/how-apt36-elizarat-redefines-cyber-espionage
 * https://www.threatminer.org/report.php?q=indian-military-personnel-targeted-by-information-theft-campaign-cmajor.pdf&y=2016

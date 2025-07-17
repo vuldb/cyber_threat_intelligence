@@ -27,9 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [165.154.227.192](https://vuldb.com/?ip.165.154.227.192) | - | - | High
-2 | [185.82.200.181](https://vuldb.com/?ip.185.82.200.181) | - | CVE-2018-0171 / CVE-2023-20198 / CVE-2023-20273 / CVE-2024-20399 | High
-3 | [185.141.24.28](https://vuldb.com/?ip.185.141.24.28) | - | CVE-2018-0171 / CVE-2023-20198 / CVE-2023-20273 / CVE-2024-20399 | High
+1 | [101.78.177.227](https://vuldb.com/?ip.101.78.177.227) | - | - | High
+2 | [165.154.227.192](https://vuldb.com/?ip.165.154.227.192) | - | - | High
+3 | [185.82.200.181](https://vuldb.com/?ip.185.82.200.181) | - | CVE-2018-0171 / CVE-2023-20198 / CVE-2023-20273 / CVE-2024-20399 | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,11 +65,12 @@ ID | Type | Indicator | Confidence
 9 | File | `/includes/lib/tree.php` | High
 10 | File | `/main?cmd=invalid_browser` | High
 11 | File | `/manager?action=getlogcat` | High
-12 | File | `/SASWebReportStudio/logonAndRender.do` | High
-13 | File | `/syscmd.asp` | Medium
-14 | ... | ... | ...
+12 | File | `/preauth` | Medium
+13 | File | `/SASWebReportStudio/logonAndRender.do` | High
+14 | File | `/syscmd.asp` | Medium
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/salt-typhoon-analysis/
 * https://censys.com/blog/the-persistent-threat-of-salt-typhoon-tracking-exposures-of-potentially-targeted-devices
+* https://circleid.com/posts/new-mitre-attck-groups-for-2025-a-dns-deep-dive
 
 ## Literature
 

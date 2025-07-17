@@ -57,23 +57,23 @@ ID | Type | Indicator | Confidence
 10 | File | `/debug/pprof` | Medium
 11 | File | `/export` | Low
 12 | File | `/file?action=download&file` | High
-13 | File | `/hardware` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/medical/inventories.php` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/plugin/LiveChat/getChat.json.php` | High
-19 | File | `/plugins/servlet/audit/resource` | High
-20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-21 | File | `/replication` | Medium
-22 | File | `/RestAPI` | Medium
-23 | File | `/tmp/speedtest_urls.xml` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/hardware` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/medical/inventories.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/replication` | Medium
+23 | File | `/RestAPI` | Medium
 24 | File | `/tmp/zarafa-vacation-*` | High
 25 | File | `/uncpath/` | Medium
 26 | File | `/upload` | Low
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

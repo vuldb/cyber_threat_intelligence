@@ -44,13 +44,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi` | High
-2 | File | `/cgi-bin/hd_config.cgi` | High
-3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | ... | ... | ...
+1 | File | `/appointment-history.php` | High
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/cgi-bin/hd_config.cgi` | High
+4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+5 | File | `/forum/away.php` | High
+6 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -113,24 +113,25 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/index.php/web/ajax_all_lists` | High
 9 | File | `/admin/login.php` | High
 10 | File | `/admin/member_save.php` | High
-11 | File | `/api/clusters/local/topics/{topic}/messages` | High
-12 | File | `/API/info` | Medium
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-15 | File | `/cgi-bin/tosei_kikai.php` | High
-16 | File | `/cov/triggerEnvCov` | High
-17 | File | `/dashboard/admin/del_plan.php` | High
-18 | File | `/dashboard/approve-reject.php` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dede/file_manage_control.php` | High
-21 | File | `/detailed.php` | High
-22 | File | `/dist/index.js` | High
-23 | File | `/DXR.axd` | Medium
-24 | File | `/EXCU_SHELL` | Medium
-25 | File | `/forum/away.php` | High
-26 | ... | ... | ...
+11 | File | `/admin/search-vehicle.php` | High
+12 | File | `/api/authentication/login` | High
+13 | File | `/api/clusters/local/topics/{topic}/messages` | High
+14 | File | `/API/info` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+17 | File | `/cgi-bin/tosei_kikai.php` | High
+18 | File | `/cov/triggerEnvCov` | High
+19 | File | `/dashboard/admin/del_plan.php` | High
+20 | File | `/dashboard/approve-reject.php` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/dede/file_manage_control.php` | High
+23 | File | `/detailed.php` | High
+24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+25 | File | `/dist/index.js` | High
+26 | File | `/DXR.axd` | Medium
+27 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -93,10 +93,9 @@ ID | Type | Indicator | Confidence
 14 | File | `/DXR.axd` | Medium
 15 | File | `/forum/away.php` | High
 16 | File | `/h/rest` | Low
-17 | File | `/index/ajax/lang` | High
-18 | ... | ... | ...
+17 | ... | ... | ...
 
-There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

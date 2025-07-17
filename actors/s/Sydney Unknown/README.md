@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sydney Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [AU](https://vuldb.com/?country.au)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -118,12 +118,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/service_requests/manage_inventory.php` | High
-2 | File | `/index.php?action=editManager` | High
-3 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+1 | File | `/index.php?action=editManager` | High
+2 | File | `pan/addr_resolv.c` | High
+3 | File | `sofia.c` | Low
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

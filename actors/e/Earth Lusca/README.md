@@ -123,19 +123,18 @@ ID | Type | Indicator | Confidence
 55 | File | `/tmp/jetadmin.log` | High
 56 | File | `/tourism/rate_review.php` | High
 57 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-58 | File | `/var/tmp` | Medium
-59 | File | `/wireless/security.asp` | High
-60 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
-61 | File | `/zoo/admin/public_html/view_accounts?type=zookeeper` | High
-62 | File | `?r=dashboard/database/optimize` | High
-63 | File | `?r=dashboard/position/del` | High
-64 | File | `?r=dashboard/user/export&uid=X` | High
-65 | File | `?r=file/dashboard/trash&op=del` | High
-66 | File | `?r=recruit/contact/export&contactids=x` | High
-67 | File | `access.conf` | Medium
-68 | File | `accton` | Low
-69 | File | `acloudCosAction.php.SQL` | High
-70 | ... | ... | ...
+58 | File | `/userfs/bin/tcapi` | High
+59 | File | `/var/tmp` | Medium
+60 | File | `/wireless/security.asp` | High
+61 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+62 | File | `/zoo/admin/public_html/view_accounts?type=zookeeper` | High
+63 | File | `?r=dashboard/database/optimize` | High
+64 | File | `?r=dashboard/position/del` | High
+65 | File | `?r=dashboard/user/export&uid=X` | High
+66 | File | `?r=file/dashboard/trash&op=del` | High
+67 | File | `?r=recruit/contact/export&contactids=x` | High
+68 | File | `access.conf` | Medium
+69 | ... | ... | ...
 
 There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

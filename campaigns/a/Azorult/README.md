@@ -137,7 +137,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -198,22 +198,26 @@ ID | Type | Indicator | Confidence
 43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 44 | File | `/bin/httpd` | Medium
 45 | File | `/bitrix/admin/ldap_server_edit.php` | High
-46 | File | `/cgi-bin/cstecgi.cgi` | High
-47 | File | `/cgi-bin/ExportSettings.sh` | High
-48 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-49 | File | `/cgi-bin/myMusic.cgi` | High
-50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-51 | File | `/cgi-bin/system_mgr.cgi` | High
-52 | File | `/classes/Master.php?f=save_medicine` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-55 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-56 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-57 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-58 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-59 | ... | ... | ...
+46 | File | `/boafrm/formMultiAP` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/ExportSettings.sh` | High
+49 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+50 | File | `/cgi-bin/myMusic.cgi` | High
+51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+52 | File | `/cgi-bin/system_mgr.cgi` | High
+53 | File | `/classes/Master.php?f=save_medicine` | High
+54 | File | `/classes/Users.php?f=save` | High
+55 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+56 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+57 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+58 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+59 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+60 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+61 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+62 | File | `/course/modedit.php` | High
+63 | ... | ... | ...
 
-There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

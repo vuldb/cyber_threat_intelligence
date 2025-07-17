@@ -68,9 +68,11 @@ ID | IP address | Hostname | Campaign | Confidence
 50 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
 51 | [47.236.50.236](https://vuldb.com/?ip.47.236.50.236) | - | - | High
 52 | [47.236.136.231](https://vuldb.com/?ip.47.236.136.231) | - | - | High
-53 | ... | ... | ... | ...
+53 | [47.236.172.42](https://vuldb.com/?ip.47.236.172.42) | - | - | High
+54 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
+55 | ... | ... | ... | ...
 
-There are 210 more IOC items available. Please use our online service to access the data.
+There are 214 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -219,6 +221,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/64.74.160.92#10001
 * https://www.shodan.io/host/64.74.160.147#10001
 * https://www.shodan.io/host/66.23.205.235#10001
+* https://www.shodan.io/host/66.23.207.210#10001
 * https://www.shodan.io/host/66.94.121.195#10001
 * https://www.shodan.io/host/69.16.249.54#10001
 * https://www.shodan.io/host/70.167.250.169#444
@@ -237,6 +240,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/92.81.96.116#19
 * https://www.shodan.io/host/98.182.138.118#3306
 * https://www.shodan.io/host/98.191.28.184#3310
+* https://www.shodan.io/host/103.130.215.202#27036
 * https://www.shodan.io/host/103.214.108.82#10001
 * https://www.shodan.io/host/103.214.109.34#10001
 * https://www.shodan.io/host/108.181.251.57#10001
@@ -255,11 +259,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/119.167.234.93#10001
 * https://www.shodan.io/host/121.196.37.112#10001
 * https://www.shodan.io/host/125.103.71.200#161
+* https://www.shodan.io/host/147.135.36.161#10001
 * https://www.shodan.io/host/148.72.155.196#10001
 * https://www.shodan.io/host/157.245.82.125#12345
 * https://www.shodan.io/host/162.251.166.162#10001
 * https://www.shodan.io/host/162.255.116.92#10001
 * https://www.shodan.io/host/165.22.91.195#10001
+* https://www.shodan.io/host/166.255.181.65#4002
 * https://www.shodan.io/host/170.130.200.118#10001
 * https://www.shodan.io/host/172.96.165.138#10001
 * https://www.shodan.io/host/174.76.246.246#61613
@@ -275,6 +281,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/216.244.95.18#10001
 * https://www.shodan.io/host/221.229.52.147#10001
 * https://www.shodan.io/host/223.109.175.247#10001
+* https://www.shodan.io/host/223.109.206.162#10001
+* https://www.shodan.io/host/223.109.206.168#10001
 
 ## Literature
 

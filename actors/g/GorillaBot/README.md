@@ -18,6 +18,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [193.143.1.59](https://vuldb.com/?ip.193.143.1.59) | - | - | High
 2 | [193.143.1.70](https://vuldb.com/?ip.193.143.1.70) | - | - | High
+3 | [206.123.145.38](https://vuldb.com/?ip.206.123.145.38) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,6 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -38,13 +40,14 @@ ID | Type | Indicator | Confidence
 3 | File | `suggest-listing.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://any.run/cybersecurity-blog/gorillabot-malware-analysis/
+* https://urlhaus.abuse.ch/url/3570725/
 
 ## Literature
 

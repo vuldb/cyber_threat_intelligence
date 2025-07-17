@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [ME](https://vuldb.com/?country.me)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.153.120](https://vuldb.com/?ip.5.252.153.120) | hosted-by.csrdp.host | - | High
-2 | [62.133.60.69](https://vuldb.com/?ip.62.133.60.69) | 51447.ip-ptr.tech | - | High
-3 | [95.164.53.146](https://vuldb.com/?ip.95.164.53.146) | - | - | High
+2 | [5.252.153.122](https://vuldb.com/?ip.5.252.153.122) | hosted-by.csrdp.host | - | High
+3 | [62.60.226.233](https://vuldb.com/?ip.62.60.226.233) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,15 +52,21 @@ ID | Type | Indicator | Confidence
 3 | File | `/itbox_pi/networksafe.php?a=set` | High
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/browse/signature/NodeLoader/
+* https://bazaar.abuse.ch/sample/2cee9b72969beb59dd8441a637fdc8275afe13dfb6356e24a1daa1f77c555639/
+* https://bazaar.abuse.ch/sample/3a73b2fa5b99bf2c037291bb880bc22a5912b91d244accf48eb28cef8592f908/
 * https://bazaar.abuse.ch/sample/987b6680e092bb4dbe391a7c53fd1e3c67a18725f5741d9e76fae21364a322fc/
 * https://bazaar.abuse.ch/sample/1926fb62341c55f76441c711b65b5f00ce6c2f2b64f1a89a5244dd14142b6e09/
 * https://threatfox.abuse.ch
+* https://www.shodan.io/host/62.60.226.233#3000
+* https://www.shodan.io/host/167.82.5.133#80
+* https://x.com/500mk500/status/1912556177860231351
 
 ## Literature
 

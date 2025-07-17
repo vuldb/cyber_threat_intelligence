@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,32 +61,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index2.html` | High
 6 | File | `/admin/process_category_edit.php` | High
 7 | File | `/admin/sales/view_details.php` | High
-8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/apply_noauth.cgi` | High
-11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-12 | File | `/bin/webs` | Medium
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/hd_config.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-17 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-19 | File | `/edit-computer-detail.php` | High
-20 | File | `/endpoint/Add.php` | High
-21 | File | `/etc/sudoers` | Medium
-22 | File | `/expedit.php` | Medium
-23 | File | `/export` | Low
-24 | File | `/goform/formSetEmail` | High
-25 | File | `/goform/SetSpeedWan` | High
-26 | File | `/LMS/LM/#main` | High
-27 | File | `/logout.php` | Medium
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/password/reset` | High
-31 | ... | ... | ...
+8 | File | `/api/programs/orgUnits?programs` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/apply_noauth.cgi` | High
+12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+13 | File | `/bin/webs` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/dental_form.php` | High
+18 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+19 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+20 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+21 | File | `/edit-computer-detail.php` | High
+22 | File | `/endpoint/Add.php` | High
+23 | File | `/etc/sudoers` | Medium
+24 | File | `/expedit.php` | Medium
+25 | File | `/expense-yearwise-reports-detailed.php` | High
+26 | File | `/export` | Low
+27 | File | `/goform/formSetEmail` | High
+28 | File | `/goform/SetSpeedWan` | High
+29 | File | `/LMS/LM/#main` | High
+30 | File | `/logout.php` | Medium
+31 | File | `/mhds/clinic/view_details.php` | High
+32 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

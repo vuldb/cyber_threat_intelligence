@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,20 +81,21 @@ ID | Type | Indicator | Confidence
 27 | File | `/dcim/sites/add/` | High
 28 | File | `/dev/ptpX` | Medium
 29 | File | `/etc/passwd` | Medium
-30 | File | `/file-manager/upload.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
-33 | File | `/goform/WifiBasicSet` | High
-34 | File | `/hrm/employeeview.php` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-37 | File | `/members/view_member.php` | High
-38 | File | `/mgm_dev_reboot.asp` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/oauth/idp/.well-known/openid-configuration` | High
-41 | ... | ... | ...
+30 | File | `/expense-datewise-reports-detailed.php` | High
+31 | File | `/file-manager/upload.php` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
+34 | File | `/goform/RP_checkCredentialsByBBS` | High
+35 | File | `/goform/WifiBasicSet` | High
+36 | File | `/hrm/employeeview.php` | High
+37 | File | `/inc/topBarNav.php` | High
+38 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+39 | File | `/members/view_member.php` | High
+40 | File | `/mgm_dev_reboot.asp` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

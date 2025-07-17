@@ -82,15 +82,15 @@ ID | Type | Indicator | Confidence
 25 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
 26 | File | `/cgi-bin/cstecgi.cgi` | High
 27 | File | `/cgi-bin/download_config.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/change-password.php` | High
-30 | File | `/config/config.json` | High
-31 | File | `/control/register_case.php` | High
-32 | File | `/control/WANIPConnection` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/display/map` | Medium
-35 | File | `/dottie.js` | Medium
-36 | File | `/download` | Medium
+28 | File | `/cgi-bin/sessions/get-temp-file` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/change-password.php` | High
+31 | File | `/config/config.json` | High
+32 | File | `/control/register_case.php` | High
+33 | File | `/control/WANIPConnection` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/display/map` | Medium
+36 | File | `/dottie.js` | Medium
 37 | File | `/dtale/chart-data/1` | High
 38 | File | `/Employer/EditProfile.php` | High
 39 | File | `/forum/away.php` | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 48 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 49 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

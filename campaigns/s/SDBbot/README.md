@@ -96,32 +96,33 @@ ID | Type | Indicator | Confidence
 36 | File | `/app/sys1.php` | High
 37 | File | `/application/index/controller/File.php` | High
 38 | File | `/apply/index.php` | High
-39 | File | `/assets/php/upload.php` | High
-40 | File | `/audimex/cgi-bin/wal.fcgi` | High
-41 | File | `/auth_pic.cgi` | High
-42 | File | `/blog` | Low
-43 | File | `/boaform/device_reset.cgi` | High
-44 | File | `/boafrm/formMapDelDevice` | High
-45 | File | `/cgi-bin/adm.cgi` | High
-46 | File | `/cgi-bin/cstecgi.cgi` | High
-47 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-48 | File | `/cgi-bin/nas_sharing.cgi` | High
-49 | File | `/cgi-bin/webproc` | High
-50 | File | `/checkout` | Medium
-51 | File | `/classes/Master.php?f=save_inquiry` | High
-52 | File | `/classes/SystemSettings.php?f=update_settings` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/cms/classes/Users.php?f=delete_client` | High
-55 | File | `/collection/all` | High
-56 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-57 | File | `/dashboard/createblog` | High
-58 | File | `/Default/Bd` | Medium
-59 | File | `/dipam/athlete-profile.php` | High
-60 | File | `/dosen/data` | Medium
-61 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-62 | ... | ... | ...
+39 | File | `/approve.php` | Medium
+40 | File | `/assets/php/upload.php` | High
+41 | File | `/audimex/cgi-bin/wal.fcgi` | High
+42 | File | `/auth_pic.cgi` | High
+43 | File | `/blog` | Low
+44 | File | `/boaform/device_reset.cgi` | High
+45 | File | `/boafrm/formMapDelDevice` | High
+46 | File | `/cgi-bin/adm.cgi` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+49 | File | `/cgi-bin/nas_sharing.cgi` | High
+50 | File | `/cgi-bin/webproc` | High
+51 | File | `/checkout` | Medium
+52 | File | `/classes/Master.php?f=save_inquiry` | High
+53 | File | `/classes/SystemSettings.php?f=update_settings` | High
+54 | File | `/classes/Users.php?f=save` | High
+55 | File | `/cms/classes/Users.php?f=delete_client` | High
+56 | File | `/collection/all` | High
+57 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+58 | File | `/dashboard/createblog` | High
+59 | File | `/Default/Bd` | Medium
+60 | File | `/dipam/athlete-profile.php` | High
+61 | File | `/dosen/data` | Medium
+62 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+63 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

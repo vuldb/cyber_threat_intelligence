@@ -19,11 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [38.55.97.178](https://vuldb.com/?ip.38.55.97.178) | - | - | High
-2 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | - | High
-3 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | - | High
+2 | [43.248.78.215](https://vuldb.com/?ip.43.248.78.215) | - | - | High
+3 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

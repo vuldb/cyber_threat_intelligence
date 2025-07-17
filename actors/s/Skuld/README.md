@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Skuld:
 
 * [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -87,14 +87,14 @@ ID | Type | Indicator | Confidence
 34 | File | `/endpoint/delete-account.php` | High
 35 | File | `/etc/hosts.deny` | High
 36 | File | `/forum/away.php` | High
-37 | File | `/goform/SetOnlineDevName` | High
-38 | File | `/goform/WifiExtraSet` | High
-39 | File | `/include/file.php` | High
-40 | File | `/items/search` | High
-41 | File | `/kelas/data` | Medium
+37 | File | `/goform/formAdvanceSetup` | High
+38 | File | `/goform/formSetWanPPTP` | High
+39 | File | `/goform/openSchedWifi` | High
+40 | File | `/goform/SetOnlineDevName` | High
+41 | File | `/goform/SetSysTimeCfg` | High
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

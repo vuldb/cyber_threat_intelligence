@@ -10,7 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -113,7 +112,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -123,7 +122,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addstock.php` | High
 2 | File | `/add_new_invoice.php` | High
-3 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin-profile.php` | High
 4 | File | `/admin/create_product.php` | High
 5 | File | `/admin/emp-profile-avatar.php` | High
 6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
@@ -133,13 +132,9 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/p1_ftpserver.php` | High
 11 | File | `/classes/Master.php` | High
 12 | File | `/classes/SystemSettings.php?f=update_settings` | High
-13 | File | `/classes/Users.php?f=delete` | High
-14 | File | `/devinfo` | Medium
-15 | File | `/endpoint/update-bookmark.php` | High
-16 | File | `/foms/routers/place-order.php` | High
-17 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [34.172.208.55](https://vuldb.com/?ip.34.172.208.55) | 55.208.172.34.bc.googleusercontent.com | - | Medium
 18 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -193,7 +193,7 @@ ID | Type | Indicator | Confidence
 128 | File | `/app/admin/view/web_user.html` | High
 129 | ... | ... | ...
 
-There are 1150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -245,10 +245,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/161.35.21.152
 * https://search.censys.io/hosts/164.90.183.39
 * https://search.censys.io/hosts/165.227.246.129
+* https://search.censys.io/hosts/166.1.22.149
 * https://search.censys.io/hosts/167.99.78.69
 * https://search.censys.io/hosts/176.111.174.138
 * https://search.censys.io/hosts/176.119.159.177
 * https://search.censys.io/hosts/184.72.153.18
+* https://search.censys.io/hosts/185.119.17.37
 * https://search.censys.io/hosts/185.147.124.10
 * https://search.censys.io/hosts/185.147.124.104
 * https://search.censys.io/hosts/185.147.124.108

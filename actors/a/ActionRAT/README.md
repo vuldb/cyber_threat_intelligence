@@ -48,10 +48,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/forum/away.php` | High
 3 | File | `/wordpress/wp-admin/admin.php` | High
 4 | File | `adclick.php` | Medium
-5 | File | `admin/index.php` | High
+5 | File | `admin.jcomments.php` | High
 6 | ... | ... | ...
 
-There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

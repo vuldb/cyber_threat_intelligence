@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South Africa Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -2217,7 +2217,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2225,22 +2225,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-lockertype.php` | High
-2 | File | `/add_deductions.php` | High
-3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/bookList?page=1&limit=10` | High
-5 | File | `/admin/bwdates-report-details.php` | High
-6 | File | `/admin/getallarticleinfo` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/manage-scdetails.php` | High
-9 | File | `/admin/user-search.php` | High
-10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-11 | File | `/api/wizard/setsyncpppoecfg` | High
-12 | File | `/auth.asp` | Medium
-13 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-14 | ... | ... | ...
+1 | File | `/admin/all-applications.php` | High
+2 | File | `/admin/forms/option_lists/edit.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/boafrm/formFilter` | High
+5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+6 | File | `/forum/away.php` | High
+7 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

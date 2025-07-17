@@ -70,14 +70,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
 2 | File | `/ajax.php?action=update_account` | High
 3 | File | `/api/upload.php` | High
-4 | File | `/dist/index.js` | High
-5 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-6 | File | `/file-manager/delete.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/manage/IPSetup.php` | High
+4 | File | `/checklogin.php` | High
+5 | File | `/dist/index.js` | High
+6 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+7 | File | `/file-manager/delete.php` | High
+8 | File | `/index.php` | Medium
 9 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

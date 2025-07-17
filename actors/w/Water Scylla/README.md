@@ -61,25 +61,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index.php` | High
-2 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-3 | File | `/api/v2/open/tablesInfo` | High
-4 | File | `/app/admin/controller/Upload.php` | High
-5 | File | `/apps/system/router/upload.go` | High
-6 | File | `/cgi` | Low
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi/sshcheck.cgi` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Users.php?f=register_user` | High
-11 | File | `/cms/classes/Master.php?f=delete_service` | High
-12 | File | `/csms/admin/?page=user/manage_user` | High
-13 | File | `/database.php` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/download` | Medium
-16 | File | `/etc/shadow` | Medium
-17 | File | `/ghost/preview` | High
-18 | ... | ... | ...
+2 | File | `/admin/overtime_add.php` | High
+3 | File | `/admin/sales/manage_sale.php` | High
+4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+5 | File | `/api/v2/open/tablesInfo` | High
+6 | File | `/app/admin/controller/Upload.php` | High
+7 | File | `/apps/system/router/upload.go` | High
+8 | File | `/cgi` | Low
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi/sshcheck.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/Users.php?f=register_user` | High
+13 | File | `/cms/classes/Master.php?f=delete_service` | High
+14 | File | `/csms/admin/?page=user/manage_user` | High
+15 | File | `/database.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/download` | Medium
+18 | File | `/etc/shadow` | Medium
+19 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+20 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

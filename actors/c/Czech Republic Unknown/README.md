@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [EG](https://vuldb.com/?country.eg)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 23 more country items available. Please use our online service to access the data.
@@ -834,14 +834,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -849,32 +849,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/edit_action.php` | High
-4 | File | `/admin/group/list/` | High
-5 | File | `/admin/index2.html` | High
+1 | File | `.travis.yml` | Medium
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/edit_action.php` | High
 6 | File | `/admin/manage-pages.php` | High
-7 | File | `/admin/process_category_edit.php` | High
-8 | File | `/admin/search-vehicle.php` | High
-9 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-10 | File | `/admin/twitter.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+7 | File | `/admin/manage-tickets.php` | High
+8 | File | `/admin/report.php` | High
+9 | File | `/admin/twitter.php` | High
+10 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+12 | File | `/api/v1/settings` | High
 13 | File | `/api/v1/toolbox/device/update/swap` | High
 14 | File | `/app/zentao/module/repo/model.php` | High
-15 | File | `/backend/admin/his_admin_register_patient.php` | High
-16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/cgi-bin/cstecgi.cgi` | High
 17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-18 | File | `/Code/loginnew.php` | High
-19 | File | `/Code/sc_login.php` | High
-20 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-21 | File | `/dashboard/admin/edit_member.php` | High
-22 | File | `/dashboard/admin/edit_mem_submit.php` | High
-23 | File | `/dashboard/admin/new_submit.php` | High
-24 | ... | ... | ...
+18 | File | `/cgi-bin/info.cgi` | High
+19 | File | `/Code/loginnew.php` | High
+20 | File | `/Code/sc_login.php` | High
+21 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+22 | File | `/dashboard/admin/edit_member.php` | High
+23 | File | `/dashboard/admin/edit_mem_submit.php` | High
+24 | File | `/dashboard/admin/new_submit.php` | High
+25 | File | `/dashboard/message` | High
+26 | File | `/details.php` | Medium
+27 | File | `/details2.php` | High
+28 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

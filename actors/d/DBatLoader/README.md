@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [172.232.172.123](https://vuldb.com/?ip.172.232.172.123) | 172-232-172-123.ip.linodeusercontent.com | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://tria.ge/241002-m9pv8sxamd/behavioral1
 * https://urlhaus.abuse.ch/url/3550871/
+* https://urlhaus.abuse.ch/url/3561977/
 
 ## Literature
 

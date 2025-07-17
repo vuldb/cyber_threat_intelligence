@@ -125,7 +125,7 @@ ID | Type | Indicator | Confidence
 63 | File | `/hrm/employeeview.php` | High
 64 | ... | ... | ...
 
-There are 563 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 562 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -112,18 +112,18 @@ ID | Type | Indicator | Confidence
 49 | File | `/cgi-bin/nas_sharing.cgi` | High
 50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 51 | File | `/cgi-bin/system_mgr.cgi` | High
-52 | File | `/changeimage.php` | High
-53 | File | `/classes/Master.php` | High
-54 | File | `/classes/Master.php?f=delete_record` | High
-55 | File | `/classes/Master.php?f=save_category` | High
-56 | File | `/classes/SystemSettings.php?f=update_settings` | High
-57 | File | `/classes/Users.php?f=save` | High
-58 | File | `/classes/Users.php?f=save_client` | High
-59 | File | `/company/store` | High
-60 | File | `/customnode/install` | High
+52 | File | `/classes/Master.php` | High
+53 | File | `/classes/Master.php?f=delete_record` | High
+54 | File | `/classes/Master.php?f=save_category` | High
+55 | File | `/classes/SystemSettings.php?f=update_settings` | High
+56 | File | `/classes/Users.php?f=save` | High
+57 | File | `/classes/Users.php?f=save_client` | High
+58 | File | `/company/store` | High
+59 | File | `/customnode/install` | High
+60 | File | `/deal/{note_id}/note` | High
 61 | ... | ... | ...
 
-There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

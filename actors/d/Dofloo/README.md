@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dofloo:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [TO](https://vuldb.com/?country.to)
 * ...
 
@@ -45,13 +45,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/tag.php` | High
 2 | File | `/be/erpc.php` | Medium
-3 | File | `/goform/SetNetControlList` | High
-4 | File | `/goform/WifiBasicSet` | High
-5 | File | `/logout.php` | Medium
-6 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-7 | ... | ... | ...
+3 | File | `/general/email/inbox/delete_webmail.php` | High
+4 | File | `/goform/SetNetControlList` | High
+5 | File | `/goform/WifiBasicSet` | High
+6 | File | `/jeecg-boot/airag/knowledge/doc/import/zip` | High
+7 | File | `/logout.php` | Medium
+8 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

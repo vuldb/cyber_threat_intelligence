@@ -75,36 +75,36 @@ ID | Type | Indicator | Confidence
 25 | File | `/edit-client-details.php` | High
 26 | File | `/env` | Low
 27 | File | `/forum/away.php` | High
-28 | File | `/include/file.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/member.php?action=chgpwdsubmit` | High
-32 | File | `/multi-vendor-shopping-script/product-list.php` | High
-33 | File | `/opt/bin/cli` | Medium
-34 | File | `/p` | Low
-35 | File | `/patient/doctors.php` | High
-36 | File | `/phpinventory/editcategory.php` | High
-37 | File | `/product-list.php` | High
-38 | File | `/products/view_product.php` | High
-39 | File | `/public/login.htm` | High
-40 | File | `/register.php` | High
-41 | File | `/server-info` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/tmp` | Low
-44 | File | `/tmp/sysstat.run` | High
-45 | File | `/uncpath/` | Medium
-46 | File | `/updown/upload.cgi` | High
-47 | File | `/user/del.php` | High
-48 | File | `/websocket/exec` | High
-49 | File | `/web_cste/cgi-bin/product.ini` | High
-50 | File | `/wp-admin/admin-ajax.php` | High
-51 | File | `/_next` | Low
-52 | File | `123flashchat.php` | High
-53 | File | `act.php` | Low
-54 | File | `add_vhost.php` | High
+28 | File | `/goform/RP_checkCredentialsByBBS` | High
+29 | File | `/include/file.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/member.php?action=chgpwdsubmit` | High
+33 | File | `/multi-vendor-shopping-script/product-list.php` | High
+34 | File | `/opt/bin/cli` | Medium
+35 | File | `/p` | Low
+36 | File | `/patient/doctors.php` | High
+37 | File | `/phpinventory/editcategory.php` | High
+38 | File | `/product-list.php` | High
+39 | File | `/products/view_product.php` | High
+40 | File | `/public/login.htm` | High
+41 | File | `/register.php` | High
+42 | File | `/server-info` | Medium
+43 | File | `/spip.php` | Medium
+44 | File | `/tmp` | Low
+45 | File | `/tmp/sysstat.run` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/updown/upload.cgi` | High
+48 | File | `/user/del.php` | High
+49 | File | `/user_proposal_update_order.php` | High
+50 | File | `/websocket/exec` | High
+51 | File | `/web_cste/cgi-bin/product.ini` | High
+52 | File | `/wp-admin/admin-ajax.php` | High
+53 | File | `/_next` | Low
+54 | File | `123flashchat.php` | High
 55 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

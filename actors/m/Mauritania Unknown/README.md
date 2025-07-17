@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,10 +50,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,10 +64,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/admin/` | Low
 4 | File | `/admin/addemployee.php` | High
-5 | File | `/Admin/News.php` | High
-6 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-7 | File | `/affair/delete.php` | High
-8 | File | `/appliance/users?action=edit` | High
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/Admin/News.php` | High
+7 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+8 | File | `/affair/delete.php` | High
 9 | File | `/application/index/controller/Service.php` | High
 10 | File | `/cgi-bin/gui.cgi` | High
 11 | File | `/devinfo` | Medium
@@ -82,26 +81,26 @@ ID | Type | Indicator | Confidence
 19 | File | `/login.php` | Medium
 20 | File | `/mgmt/tm/util/bash` | High
 21 | File | `/model/update_classroom.php` | High
-22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-23 | File | `/notice-edit.php` | High
-24 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-25 | File | `/pg_meta/default/query` | High
-26 | File | `/process/assignp.php` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/royal_event/userregister.php` | High
-29 | File | `/Scada-LTS/app.shtm#/alarms/Scada` | High
-30 | File | `/settings/store` | High
-31 | File | `/signup.php` | Medium
-32 | File | `/spip.php` | Medium
-33 | File | `/src/Illuminate/Laravel.php` | High
-34 | File | `/subscriptions/get.php` | High
-35 | File | `/uir/` | Low
-36 | File | `/uncpath/` | Medium
-37 | File | `/update-employee.php` | High
-38 | File | `/update-resource-data/` | High
+22 | File | `/my-calendar/v1/events` | High
+23 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+24 | File | `/notice-edit.php` | High
+25 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+26 | File | `/pg_meta/default/query` | High
+27 | File | `/process/assignp.php` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/royal_event/userregister.php` | High
+30 | File | `/Scada-LTS/app.shtm#/alarms/Scada` | High
+31 | File | `/settings/store` | High
+32 | File | `/signup.php` | Medium
+33 | File | `/spip.php` | Medium
+34 | File | `/src/Illuminate/Laravel.php` | High
+35 | File | `/subscriptions/get.php` | High
+36 | File | `/uir/` | Low
+37 | File | `/uncpath/` | Medium
+38 | File | `/update-employee.php` | High
 39 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

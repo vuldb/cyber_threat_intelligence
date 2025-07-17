@@ -52,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -63,63 +64,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `.DS_Store` | Medium
-3 | File | `.DS_Store/.htaccess` | High
-4 | File | `/admin/?page=system_info` | High
-5 | File | `/admin/action/update-deworm.php` | High
-6 | File | `/admin/assign/assign.php` | High
-7 | File | `/admin/contacts/organizations/edit/2` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/modal_add_product.php` | High
-12 | File | `/admin/save_teacher.php` | High
-13 | File | `/admin/search-appointment.php` | High
-14 | File | `/admin/user.php` | High
-15 | File | `/api/admin/store/product/list` | High
-16 | File | `/api/v2/maps` | Medium
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/asms/products/view_product.php` | High
-19 | File | `/boaform/device_reset.cgi` | High
-20 | File | `/car-rental-management-system/admin/view_car.php=` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_sub_category` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/csms/admin/inquiries/view_details.php` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/devicegroups.jsp` | High
-28 | File | `/download` | Medium
-29 | File | `/ecommerce/admin/category/controller.php` | High
-30 | File | `/Employee/edit-profile.php` | High
-31 | File | `/envato/codecanyon/demo/web-file-explorer/download.php` | High
-32 | File | `/etc/hosts.deny` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/execCommand` | High
-35 | File | `/hrm/employeeadd.php` | High
-36 | File | `/include/file.php` | High
-37 | File | `/items/search` | High
-38 | File | `/log/download.php` | High
-39 | File | `/main/fileupload.php` | High
-40 | File | `/mee/login` | Medium
-41 | File | `/modules/projects/vw_files.php` | High
-42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-43 | File | `/obs/bookPerPub.php` | High
-44 | File | `/oews/classes/Master.php?f=update_cart` | High
-45 | File | `/pages/apply_vacancy.php` | High
-46 | File | `/pg_meta/default/query` | High
-47 | File | `/pme` | Low
-48 | File | `/product-details.php` | High
-49 | File | `/products/view_product.php` | High
-50 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-51 | File | `/see_more_details.php` | High
-52 | File | `/sqleditor/query_tool/download` | High
-53 | File | `/src/Illuminate/Laravel.php` | High
-54 | File | `/uncpath/` | Medium
-55 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-56 | ... | ... | ...
+2 | File | `/admin/?page=system_info` | High
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/create_product.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/modal_add_product.php` | High
+10 | File | `/admin/save_teacher.php` | High
+11 | File | `/admin/search-appointment.php` | High
+12 | File | `/admin/user.php` | High
+13 | File | `/api/admin/store/product/list` | High
+14 | File | `/api/v2/maps` | Medium
+15 | File | `/application/index/controller/Screen.php` | High
+16 | File | `/asms/products/view_product.php` | High
+17 | File | `/boaform/device_reset.cgi` | High
+18 | File | `/car-rental-management-system/admin/view_car.php=` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_sub_category` | High
+22 | File | `/common/info.cgi` | High
+23 | File | `/csms/admin/inquiries/view_details.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/devicegroups.jsp` | High
+26 | File | `/download` | Medium
+27 | File | `/ecommerce/admin/category/controller.php` | High
+28 | File | `/Employee/edit-profile.php` | High
+29 | File | `/etc/hosts.deny` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/execCommand` | High
+32 | File | `/hrm/employeeadd.php` | High
+33 | File | `/include/file.php` | High
+34 | File | `/install/index.php` | High
+35 | File | `/items/search` | High
+36 | File | `/log/download.php` | High
+37 | File | `/main/fileupload.php` | High
+38 | File | `/mee/login` | Medium
+39 | File | `/modules/projects/vw_files.php` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/obs/bookPerPub.php` | High
+42 | File | `/oews/classes/Master.php?f=update_cart` | High
+43 | File | `/pages/apply_vacancy.php` | High
+44 | File | `/pg_meta/default/query` | High
+45 | File | `/pme` | Low
+46 | File | `/product-details.php` | High
+47 | File | `/products/view_product.php` | High
+48 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+49 | File | `/see_more_details.php` | High
+50 | File | `/sqleditor/query_tool/download` | High
+51 | File | `/src/dede/makehtml_spec.php` | High
+52 | File | `/src/Illuminate/Laravel.php` | High
+53 | File | `/uncpath/` | Medium
+54 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

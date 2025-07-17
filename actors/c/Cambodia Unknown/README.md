@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cambodia Unknown:
 
 * [KH](https://vuldb.com/?country.kh)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -233,9 +233,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -246,16 +246,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/bookList?page=1&limit=10` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/php/ping.php` | High
-7 | File | `/spip.php` | Medium
+1 | File | `/admin/bookList?page=1&limit=10` | High
+2 | File | `/admin/forgot-password.php` | High
+3 | File | `/api/Common/uploadFile` | High
+4 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+5 | File | `/api/wechat/app_auth` | High
+6 | File | `/api/wizard/setsyncpppoecfg` | High
+7 | File | `/dede/article_string_mix.php` | High
 8 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

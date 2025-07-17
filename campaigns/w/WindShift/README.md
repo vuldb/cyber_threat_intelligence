@@ -21,8 +21,8 @@ These _actors_ are associated with WindShift or other actors linked to the campa
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [WindShift](https://vuldb.com/?actor.windshift) | High
-2 | [Hangover](https://vuldb.com/?actor.hangover) | High
+1 | [Hangover](https://vuldb.com/?actor.hangover) | High
+2 | [WindShift](https://vuldb.com/?actor.windshift) | High
 
 ## IOC - Indicator of Compromise
 

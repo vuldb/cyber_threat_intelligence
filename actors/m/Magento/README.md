@@ -50,47 +50,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php` | High
-2 | File | `/admin/role` | Medium
-3 | File | `/api/es/admin/v3/security/user/1` | High
-4 | File | `/api /v3/auth` | High
-5 | File | `/api/workspace/:workspace-slug/update` | High
-6 | File | `/boaform/getASPdata/formFirewall` | High
-7 | File | `/cgi-bin/webviewer_login_page` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/common/sysFile/list` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/dede/group_store.php` | High
-12 | File | `/ebics-server/ebics.aspx` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/hedwig.cgi` | Medium
-16 | File | `/monitoring` | Medium
-17 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-18 | File | `/one/getpassword.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/phppath/php` | Medium
-21 | File | `/pms/admin/crimes/manage_crime.php` | High
-22 | File | `/preview.php` | Medium
-23 | File | `/products/details.asp` | High
-24 | File | `/products/view_product.php` | High
-25 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-26 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/servlet/webacc` | High
-29 | File | `/setNTP.cgi` | Medium
-30 | File | `/Side.php` | Medium
-31 | File | `/spip/ecrire/` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/uploads/tags.php` | High
-34 | File | `/userfs/bin/tcapi` | High
-35 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/vendor/views/add_product.php` | High
-38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+1 | File | `/?g=route_ispinfo_export_save` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/role` | Medium
+4 | File | `/api/es/admin/v3/security/user/1` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/api/workspace/:workspace-slug/update` | High
+7 | File | `/boaform/getASPdata/formFirewall` | High
+8 | File | `/cgi-bin/lighttpd.cgi` | High
+9 | File | `/cgi-bin/webviewer_login_page` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/common/sysFile/list` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/dede/group_store.php` | High
+14 | File | `/ebics-server/ebics.aspx` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/hedwig.cgi` | Medium
+18 | File | `/monitoring` | Medium
+19 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+20 | File | `/one/getpassword.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/phppath/php` | Medium
+23 | File | `/pms/admin/crimes/manage_crime.php` | High
+24 | File | `/preview.php` | Medium
+25 | File | `/products/details.asp` | High
+26 | File | `/products/view_product.php` | High
+27 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+28 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/servlet/webacc` | High
+31 | File | `/setNTP.cgi` | Medium
+32 | File | `/Side.php` | Medium
+33 | File | `/spip/ecrire/` | High
+34 | File | `/storage` | Medium
+35 | File | `/uncpath/` | Medium
+36 | File | `/uploads/tags.php` | High
+37 | File | `/userfs/bin/tcapi` | High
+38 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
 39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

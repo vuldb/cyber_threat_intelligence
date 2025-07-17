@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.12.253.98](https://vuldb.com/?ip.5.12.253.98) | 5-12-253-98.residential.rdsnet.ro | - | High
 2 | [5.42.64.56](https://vuldb.com/?ip.5.42.64.56) | - | - | High
 3 | [5.42.65.64](https://vuldb.com/?ip.5.42.65.64) | - | - | High
-4 | ... | ... | ... | ...
+4 | [45.12.253.51](https://vuldb.com/?ip.45.12.253.51) | - | - | High
+5 | [45.12.253.56](https://vuldb.com/?ip.45.12.253.56) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -56,20 +58,35 @@ ID | Type | Indicator | Confidence
 7 | File | `/protocol/log/listloginfo.php` | High
 8 | File | `/qsr_server/device/reboot` | High
 9 | File | `/spip.php` | Medium
-10 | ... | ... | ...
+10 | File | `/userLogin.asp` | High
+11 | File | `/view/emarks_range_grade_update_form.php` | High
+12 | File | `/view/student_attendance_history1.php` | High
+13 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/18e8a2e2-b2f5-4ca3-af48-05807b85c704
+* https://app.any.run/tasks/58ec95c8-b47e-4fa1-9434-c270e0864e9b
+* https://app.any.run/tasks/2158cd68-31fe-4fd7-afcb-3bc0ebf527c2
 * https://bazaar.abuse.ch/sample/0b17198dfde8bc47f1f903dfe0a33b57abf6cbca31292ee1d526a3143a11d648/
 * https://bazaar.abuse.ch/sample/dee97c0c3d5ec6b18d68104fb7703b0457157751ee999ae44f388db055b854a7/
 * https://threatfox.abuse.ch
 * https://tria.ge/241212-x272ysvlby
 * https://twitter.com/crep1x/status/1630992258584518656
+* https://urlhaus.abuse.ch/url/3518567/
+* https://urlhaus.abuse.ch/url/3519117/
+* https://urlhaus.abuse.ch/url/3519210/
+* https://urlhaus.abuse.ch/url/3526462/
+* https://urlhaus.abuse.ch/url/3536059/
+* https://urlhaus.abuse.ch/url/3538346/
+* https://urlhaus.abuse.ch/url/3540269/
+* https://urlhaus.abuse.ch/url/3542101/
+* https://urlhaus.abuse.ch/url/3570663/
+* https://urlhaus.abuse.ch/url/3573995/
 
 ## Literature
 

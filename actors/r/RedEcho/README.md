@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,11 +67,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/ajax.php?action=confirm_order` | High
 6 | File | `/admin/controller/JobLogController.java` | High
 7 | File | `/admin/login.php` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alerts/alertConfigField.php` | High
-10 | File | `/api/blade-log/api/list` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/alerts/alertConfigField.php` | High
+9 | File | `/api/blade-log/api/list` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/classes/Master.php?f=save_item` | High
 13 | File | `/config/myfield/test.php` | High
 14 | File | `/context/%2e/WEB-INF/web.xml` | High
 15 | File | `/core/conditions/AbstractWrapper.java` | High
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 27 | File | `/param.file.tgz` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

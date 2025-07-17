@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -60,10 +60,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,55 +72,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adm/setmain.php` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin.php?page=album` | High
-4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/article/article-edit-run.php` | High
-7 | File | `/admin/employee/index.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/admin_class.php` | High
-11 | File | `/ajax` | Low
-12 | File | `/api/admin/user/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/blade-system/menu/list?updatexml` | High
-15 | File | `/api2/html/` | Medium
-16 | File | `/app/options.py` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/auth_files/photo/` | High
-19 | File | `/bin/goahead` | Medium
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/luci;stok=/locale` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/wapopen` | High
-26 | File | `/cgi-bin/webproc` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/CMD_ACCOUNT_ADMIN` | High
-29 | File | `/conf/app.conf` | High
-30 | File | `/config/getuser` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/debuginfo.htm` | High
-33 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-34 | File | `/ecrire` | Low
-35 | File | `/ecshop/admin/template.php` | High
-36 | File | `/etc/init0.d/S80telnetd.sh` | High
-37 | File | `/etc/passwd` | Medium
-38 | File | `/export` | Low
-39 | File | `/file/delete.php` | High
-40 | File | `/forms/doLogin` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/get.php` | Medium
-43 | File | `/getcfg.php` | Medium
-44 | File | `/goform/Diagnosis` | High
-45 | File | `/goform/SetFirewallCfg` | High
-46 | File | `/goform/WifiExtraSet` | High
-47 | File | `/h/autoSaveDraft` | High
-48 | ... | ... | ...
+2 | File | `/admin-page.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin.php?page=album` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax/avatar.php` | High
+7 | File | `/admin/article/article-edit-run.php` | High
+8 | File | `/admin/employee/index.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/adminapi/system/file/openfile` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/ajax` | Low
+13 | File | `/api/admin/user/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/blade-system/menu/list?updatexml` | High
+16 | File | `/api/upload` | Medium
+17 | File | `/api2/html/` | Medium
+18 | File | `/app/options.py` | High
+19 | File | `/apply.cgi` | Medium
+20 | File | `/auth_files/photo/` | High
+21 | File | `/bin/goahead` | Medium
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/luci/api/auth` | High
+26 | File | `/cgi-bin/luci;stok=/locale` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/cgi-bin/wapopen` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/CMD_ACCOUNT_ADMIN` | High
+31 | File | `/cms/templates/templatesAssetsEditor` | High
+32 | File | `/conf/app.conf` | High
+33 | File | `/config/getuser` | High
+34 | File | `/console/dashboard/executorCount?zkClusterKey` | High
+35 | File | `/customnode/install` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/debuginfo.htm` | High
+38 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+39 | File | `/ecrire` | Low
+40 | File | `/ecshop/admin/template.php` | High
+41 | File | `/etc/init0.d/S80telnetd.sh` | High
+42 | File | `/etc/passwd` | Medium
+43 | File | `/export` | Low
+44 | File | `/file/delete.php` | High
+45 | File | `/forms/doLogin` | High
+46 | File | `/forum/away.php` | High
+47 | File | `/get.php` | Medium
+48 | File | `/getcfg.php` | Medium
+49 | File | `/goform/Diagnosis` | High
+50 | File | `/goform/SetFirewallCfg` | High
+51 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

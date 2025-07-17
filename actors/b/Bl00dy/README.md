@@ -70,13 +70,13 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/login.php` | High
 12 | File | `/admin/member_save.php` | High
 13 | File | `/admin/search-vehicle.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/authentication/login` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/clusters/local/topics/{topic}/messages` | High
-18 | File | `/api/gen/clients/{language}` | High
-19 | File | `/API/info` | Medium
-20 | File | `/app/options.py` | High
+14 | File | `/admin/voters_row.php` | High
+15 | File | `/ajax.php?action=read_msg` | High
+16 | File | `/api/authentication/login` | High
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/api/clusters/local/topics/{topic}/messages` | High
+19 | File | `/api/gen/clients/{language}` | High
+20 | File | `/API/info` | Medium
 21 | File | `/application/index/controller/Databasesource.php` | High
 22 | File | `/bin/httpd` | Medium
 23 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -93,22 +93,23 @@ ID | Type | Indicator | Confidence
 34 | File | `/debug/pprof` | Medium
 35 | File | `/dede/file_manage_control.php` | High
 36 | File | `/detailed.php` | High
-37 | File | `/dist/index.js` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/ebics-server/ebics.aspx` | High
-40 | File | `/EXCU_SHELL` | Medium
-41 | File | `/ffos/classes/Master.php?f=save_category` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/address/private/address/query/delete.php` | High
-44 | File | `/goform/ate` | Medium
-45 | File | `/goform/form2systime.cgi` | High
-46 | File | `/goform/formSetLog` | High
-47 | File | `/goform/formWlanSetup_Wizard` | High
-48 | File | `/goform/formWlanWizardSetup` | High
-49 | File | `/goform/modifyDhcpRule` | High
-50 | ... | ... | ...
+37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+38 | File | `/dist/index.js` | High
+39 | File | `/doctor/search.php` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/ebics-server/ebics.aspx` | High
+42 | File | `/empty_rooms.php` | High
+43 | File | `/EXCU_SHELL` | Medium
+44 | File | `/ffos/classes/Master.php?f=save_category` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/general/address/private/address/query/delete.php` | High
+47 | File | `/goform/ate` | Medium
+48 | File | `/goform/form2systime.cgi` | High
+49 | File | `/goform/formSetLog` | High
+50 | File | `/goform/formWlanSetup_Wizard` | High
+51 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

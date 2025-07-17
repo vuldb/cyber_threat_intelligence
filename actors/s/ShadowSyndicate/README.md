@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,56 +75,60 @@ ID | Type | Indicator | Confidence
 21 | File | `/admin/categories/update` | High
 22 | File | `/admin/category.php` | High
 23 | File | `/admin/check_availability.php` | High
-24 | File | `/admin/class.php?dowhat=modifyclass` | High
-25 | File | `/admin/content/book` | High
-26 | File | `/admin/deleteroom.php` | High
-27 | File | `/admin/edit-services.php` | High
-28 | File | `/admin/editempexp.php` | High
-29 | File | `/admin/faculty_action.php` | High
-30 | File | `/admin/File/pictureUpload` | High
-31 | File | `/admin/forgot-password.php` | High
-32 | File | `/admin/group/edit.do` | High
-33 | File | `/admin/index.php` | High
-34 | File | `/admin/index.php/web/ajax_all_lists` | High
-35 | File | `/admin/indexConfigs/save` | High
-36 | File | `/admin/link.php` | High
-37 | File | `/admin/login.php` | High
-38 | File | `/admin/manage-nurse.php` | High
-39 | File | `/admin/manage-users.php` | High
-40 | File | `/admin/model/addOrUpdate` | High
-41 | File | `/admin/msg.php` | High
-42 | File | `/admin/network/wifi_schedule` | High
-43 | File | `/admin/options-theme.php` | High
-44 | File | `/admin/sales-reports-detail.php` | High
-45 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-46 | File | `/admin/setup.cgi` | High
-47 | File | `/admin/subcategory.php` | High
-48 | File | `/admin/tag/save` | High
+24 | File | `/admin/content/book` | High
+25 | File | `/admin/deleteroom.php` | High
+26 | File | `/admin/edit-services.php` | High
+27 | File | `/admin/editempexp.php` | High
+28 | File | `/admin/faculty_action.php` | High
+29 | File | `/admin/File/pictureUpload` | High
+30 | File | `/admin/forgot-password.php` | High
+31 | File | `/admin/group/edit.do` | High
+32 | File | `/admin/index.php` | High
+33 | File | `/admin/index.php/web/ajax_all_lists` | High
+34 | File | `/admin/indexConfigs/save` | High
+35 | File | `/admin/link.php` | High
+36 | File | `/admin/login.php` | High
+37 | File | `/admin/manage-nurse.php` | High
+38 | File | `/admin/manage-users.php` | High
+39 | File | `/admin/model/addOrUpdate` | High
+40 | File | `/admin/msg.php` | High
+41 | File | `/admin/network/wifi_schedule` | High
+42 | File | `/admin/options-theme.php` | High
+43 | File | `/admin/sales-reports-detail.php` | High
+44 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+45 | File | `/admin/setup.cgi` | High
+46 | File | `/admin/subcategory.php` | High
+47 | File | `/admin/tag/save` | High
+48 | File | `/admin/view-user-queries.php` | High
 49 | File | `/adminprofile.php` | High
 50 | File | `/admin_topic.php?action=delall` | High
-51 | File | `/adpweb/wechat/verifyToken/` | High
-52 | File | `/ajax/checkin.php` | High
-53 | File | `/api/admin/attachments/upload` | High
-54 | File | `/api/baskets/{name}` | High
-55 | File | `/api/client/article/list` | High
-56 | File | `/api/client/editemedia.php` | High
-57 | File | `/api/data.php` | High
-58 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
-59 | File | `/api/front/search/books` | High
-60 | File | `/api/login/auth` | High
-61 | File | `/api/stl/actions/search` | High
-62 | File | `/api/sys/login` | High
-63 | File | `/api/system/dept/update` | High
-64 | File | `/Api/TinyMce/UploadAjax.ashx` | High
-65 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-66 | File | `/api/v1/alerts` | High
-67 | File | `/api/v1/vhosts/vid-` | High
-68 | File | `/api /v3/auth` | High
-69 | File | `/api/wechat/app_auth` | High
-70 | File | `/api/wizard/getBasicInfo` | High
-71 | ... | ... | ...
+51 | File | `/adpweb/a/base/barcodeDetail/` | High
+52 | File | `/adpweb/a/ica/api/service/rfa/testService` | High
+53 | File | `/adpweb/wechat/verifyToken/` | High
+54 | File | `/analysisProject/pagingQueryData` | High
+55 | File | `/api/admin/attachments/upload` | High
+56 | File | `/api/backend/v1/user/create` | High
+57 | File | `/api/baskets/{name}` | High
+58 | File | `/api/client/article/list` | High
+59 | File | `/api/client/editemedia.php` | High
+60 | File | `/api/data.php` | High
+61 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
+62 | File | `/api/front/search/books` | High
+63 | File | `/api/login/auth` | High
+64 | File | `/api/stl/actions/search` | High
+65 | File | `/api/sys/login` | High
+66 | File | `/api/system/dept/update` | High
+67 | File | `/Api/TinyMce/UploadAjax.ashx` | High
+68 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+69 | File | `/api/user/update` | High
+70 | File | `/api/v1/alerts` | High
+71 | File | `/api/v1/vhosts/vid-` | High
+72 | File | `/api /v3/auth` | High
+73 | File | `/api/wechat/app_auth` | High
+74 | File | `/api/wizard/getBasicInfo` | High
+75 | ... | ... | ...
 
-There are 626 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 656 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

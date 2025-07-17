@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [38.54.6.120](https://vuldb.com/?ip.38.54.6.120) | - | - | High
 2 | [45.141.87.200](https://vuldb.com/?ip.45.141.87.200) | - | - | High
-3 | [176.65.140.31](https://vuldb.com/?ip.176.65.140.31) | - | - | High
+3 | [144.172.91.41](https://vuldb.com/?ip.144.172.91.41) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +60,9 @@ There are 39 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/376b605e1a1ab380b7c2a9b363e87e21388c9feeda32465adc177c330f019086/
 * https://bazaar.abuse.ch/sample/c1f249ec791d19b8b93f9a8f9473830db459d668d0ff1e25c8531612707c9f03/
+* https://bazaar.abuse.ch/sample/ce6402ae264ace318eebc4214f061ecb7253a87482834fddd96bf297eb733d44/
 * https://threatfox.abuse.ch
 * https://www.morphisec.com/blog/new-malware-variant-identified-resolverrat-enters-the-maze/
 

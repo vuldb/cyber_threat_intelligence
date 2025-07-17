@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zuru](https://vuldb.com/?actor.zuru)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with ZuRu:
+
+* Khepri
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ZuRu:
@@ -18,6 +24,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.217.132.190](https://vuldb.com/?ip.8.217.132.190) | - | - | High
 2 | [46.137.201.254](https://vuldb.com/?ip.46.137.201.254) | ec2-46-137-201-254.ap-southeast-1.compute.amazonaws.com | - | Medium
+3 | [47.238.28.21](https://vuldb.com/?ip.47.238.28.21) | - | Khepri | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,6 +54,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://www.jamf.com/blog/jtl-malware-pirated-applications/
 * https://www.sentinelone.com/blog/from-the-front-lines-new-macos-covid-malware-masquerades-as-apple-wears-face-of-apt/
+* https://www.sentinelone.com/blog/macos-zuru-resurfaces-modified-khepri-c2-hides-inside-doctored-termius-app/
 
 ## Literature
 

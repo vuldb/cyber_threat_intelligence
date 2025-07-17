@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PhotoLoader:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -122,7 +122,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -151,19 +151,19 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/twitter.php` | High
 16 | File | `/ajax.php` | Medium
 17 | File | `/app/controller/Api.php` | High
-18 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-19 | File | `/applications/nexus/modules/front/store/store.php` | High
-20 | File | `/backend/doc/his_doc_update-account.php` | High
-21 | File | `/cgi-bin/apkg_mgr.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_record` | High
-26 | File | `/classes/SystemSettings.php?f=update_settings` | High
-27 | File | `/classes/Users.php?f=save` | High
+18 | File | `/backend/doc/his_doc_update-account.php` | High
+19 | File | `/cgi-bin/apkg_mgr.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/nas_sharing.cgi` | High
+22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_record` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/customnode/install` | High
+27 | File | `/deal/{note_id}/note` | High
 28 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

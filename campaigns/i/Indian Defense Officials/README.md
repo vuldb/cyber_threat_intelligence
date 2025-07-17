@@ -17,7 +17,8 @@ These _actors_ are associated with Indian Defense Officials or other actors link
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
+1 | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,7 +26,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.147.228.195](https://vuldb.com/?ip.45.147.228.195) | - | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
+1 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [15.197.148.33](https://vuldb.com/?ip.15.197.148.33) | a2aa9ff50de748dbe.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
+3 | [45.147.228.195](https://vuldb.com/?ip.45.147.228.195) | - | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
+4 | ... | ... | ... | ...
+
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,11 +40,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +53,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/export` | Low
-2 | File | `application/controllers/admin/export.php` | High
-3 | File | `member/Orderinfo.asp` | High
+2 | File | `/mces/?p=class/view_class` | High
+3 | File | `application/controllers/admin/export.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.cyble.com/2021/09/14/apt-group-targets-indian-defense-officials-through-enhanced-ttps/
+* https://www.cyfirma.com/research/apt36-phishing-campaign-targets-indian-defense-using-credential-stealing-malware/
 
 ## Literature
 

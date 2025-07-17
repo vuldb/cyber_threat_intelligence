@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -103,11 +103,11 @@ ID | Type | Indicator | Confidence
 29 | File | `/adminPage/main/upload` | High
 30 | File | `/admin_class.php` | High
 31 | File | `/admin_ping.htm` | High
-32 | File | `/ample/app/action/edit_product.php` | High
-33 | File | `/api/` | Low
-34 | File | `/api/clusters/local/topics/{topic}/messages` | High
-35 | File | `/api/discoveries/` | High
-36 | File | `/api/plugin/uninstall` | High
+32 | File | `/admin_type.php` | High
+33 | File | `/ample/app/action/edit_product.php` | High
+34 | File | `/api/` | Low
+35 | File | `/api/clusters/local/topics/{topic}/messages` | High
+36 | File | `/api/discoveries/` | High
 37 | File | `/api/RecordingList/DownloadRecord?file=` | High
 38 | File | `/api/sys/login` | High
 39 | File | `/api/test/download` | High
@@ -115,41 +115,40 @@ ID | Type | Indicator | Confidence
 41 | File | `/application/index/controller/File.php` | High
 42 | File | `/apply.cgi` | Medium
 43 | File | `/apply/index.php` | High
-44 | File | `/assets/php/upload.php` | High
-45 | File | `/audimex/cgi-bin/wal.fcgi` | High
-46 | File | `/auth_pic.cgi` | High
-47 | File | `/blog` | Low
-48 | File | `/boaform/device_reset.cgi` | High
-49 | File | `/boafrm/formMapDelDevice` | High
-50 | File | `/cgi-bin-sdb/` | High
-51 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-52 | File | `/cgi-bin/adm.cgi` | High
-53 | File | `/cgi-bin/cstecgi.cgi` | High
-54 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-55 | File | `/cgi-bin/nas_sharing.cgi` | High
-56 | File | `/cgi-bin/wlogin.cgi` | High
-57 | File | `/checkout` | Medium
-58 | File | `/classes/Master.php?f=save_inquiry` | High
-59 | File | `/classes/SystemSettings.php?f=update_settings` | High
-60 | File | `/classes/Users.php?f=save` | High
-61 | File | `/cms/classes/Users.php?f=delete_client` | High
-62 | File | `/collection/all` | High
-63 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-64 | File | `/dashboard/createblog` | High
-65 | File | `/debug/pprof` | Medium
-66 | File | `/Default/Bd` | Medium
-67 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-68 | File | `/dipam/athlete-profile.php` | High
-69 | File | `/dosen/data` | Medium
-70 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-71 | File | `/Employee/apply_leave.php` | High
-72 | File | `/Employee/edit-profile.php` | High
-73 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-74 | File | `/etc/pki/pesign` | High
-75 | File | `/etc/postfix/sender_login` | High
-76 | ... | ... | ...
+44 | File | `/approve.php` | Medium
+45 | File | `/assets/php/upload.php` | High
+46 | File | `/audimex/cgi-bin/wal.fcgi` | High
+47 | File | `/auth_pic.cgi` | High
+48 | File | `/blog` | Low
+49 | File | `/boaform/device_reset.cgi` | High
+50 | File | `/boafrm/formMapDelDevice` | High
+51 | File | `/cgi-bin-sdb/` | High
+52 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+53 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+54 | File | `/cgi-bin/adm.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi` | High
+56 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+57 | File | `/cgi-bin/nas_sharing.cgi` | High
+58 | File | `/cgi-bin/wlogin.cgi` | High
+59 | File | `/checkout` | Medium
+60 | File | `/classes/Master.php?f=save_inquiry` | High
+61 | File | `/classes/SystemSettings.php?f=update_settings` | High
+62 | File | `/classes/Users.php?f=save` | High
+63 | File | `/cms/classes/Users.php?f=delete_client` | High
+64 | File | `/collection/all` | High
+65 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+66 | File | `/dashboard/createblog` | High
+67 | File | `/debug/pprof` | Medium
+68 | File | `/Default/Bd` | Medium
+69 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+70 | File | `/dipam/athlete-profile.php` | High
+71 | File | `/dosen/data` | Medium
+72 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+73 | File | `/Employee/apply_leave.php` | High
+74 | File | `/Employee/edit-profile.php` | High
+75 | ... | ... | ...
 
-There are 667 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 660 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

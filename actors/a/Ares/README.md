@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [31.220.41.207](https://vuldb.com/?ip.31.220.41.207) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,19 +59,21 @@ ID | Type | Indicator | Confidence
 8 | File | `/expedit.php` | Medium
 9 | File | `/forum/away.php` | High
 10 | File | `/goform/setsambacfg` | High
-11 | File | `/routers/add-ticket.php` | High
-12 | File | `/school/model/get_events.php` | High
-13 | File | `/sessions/sess_<sessionid>` | High
-14 | File | `/tmp` | Low
-15 | File | `/tool/gen/create` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/whbs/?page=manage_account` | High
-18 | File | `/xxl-job-admin/jobinfo` | High
-19 | File | `adclick.php` | Medium
-20 | File | `admin.php` | Medium
-21 | ... | ... | ...
+11 | File | `/MRcgi/MRchat.pl` | High
+12 | File | `/routers/add-ticket.php` | High
+13 | File | `/school/model/get_events.php` | High
+14 | File | `/sessions/sess_<sessionid>` | High
+15 | File | `/spip.php` | Medium
+16 | File | `/tmp` | Low
+17 | File | `/tool/gen/create` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/whbs/?page=manage_account` | High
+20 | File | `/xxl-job-admin/jobinfo` | High
+21 | File | `adclick.php` | Medium
+22 | File | `admin.php` | Medium
+23 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,9 +88,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/77.68.91.91
 * https://search.censys.io/hosts/84.247.172.112
 * https://search.censys.io/hosts/84.247.176.126
+* https://search.censys.io/hosts/85.158.108.85
 * https://search.censys.io/hosts/92.84.154.5
 * https://search.censys.io/hosts/141.98.11.95
 * https://search.censys.io/hosts/161.97.151.220
+* https://search.censys.io/hosts/185.123.102.180
+* https://search.censys.io/hosts/185.235.137.237
 * https://search.censys.io/hosts/194.163.178.229
 * https://search.censys.io/hosts/207.180.220.55
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE&q=name%3A+static.72.104.161.5.clients.your-server.de&ref=threatfox

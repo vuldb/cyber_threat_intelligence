@@ -55,23 +55,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/educloud/videobind.html` | High
-3 | File | `/admin/invoice.php` | High
-4 | File | `/cgi-bin/luci/api/auth` | High
-5 | File | `/conf/app.conf` | High
-6 | File | `/filemanager/upload.php` | High
-7 | File | `/public/login.htm` | High
-8 | File | `/resources//../` | High
-9 | File | `/sdTodoDetail.jsp` | High
-10 | File | `/src/Illuminate/Laravel.php` | High
-11 | File | `/static/libs/common/jquery.stickyNavbar.min.js` | High
-12 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-13 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-14 | File | `/wp-json/oembed/1.0/embed?url` | High
-15 | File | `about.php` | Medium
+2 | File | `/Admin/add-fee.php` | High
+3 | File | `/admin/educloud/videobind.html` | High
+4 | File | `/admin/invoice.php` | High
+5 | File | `/cgi-bin/luci/api/auth` | High
+6 | File | `/conf/app.conf` | High
+7 | File | `/filemanager/upload.php` | High
+8 | File | `/public/login.htm` | High
+9 | File | `/resources//../` | High
+10 | File | `/sdTodoDetail.jsp` | High
+11 | File | `/src/Illuminate/Laravel.php` | High
+12 | File | `/static/libs/common/jquery.stickyNavbar.min.js` | High
+13 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+14 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+15 | File | `/wp-json/oembed/1.0/embed?url` | High
 16 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

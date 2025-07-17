@@ -70,26 +70,27 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/payment.php` | High
 20 | File | `/admin/profile.php` | High
 21 | File | `/admin/reg.php` | High
-22 | File | `/admin/search-appointment.php` | High
-23 | File | `/ajax-api.php` | High
-24 | File | `/app/ajax/search_sales_report.php` | High
-25 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-26 | File | `/bin/boa` | Medium
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-29 | File | `/collection/all` | High
-30 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-31 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-32 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-33 | File | `/core/config-revisions` | High
-34 | File | `/deletefile.php` | High
-35 | File | `/doc/packages` | High
-36 | File | `/doctor/deleteappointment.php` | High
-37 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-38 | File | `/endpoint/delete-faq.php` | High
-39 | ... | ... | ...
+22 | File | `/admin/registration.php` | High
+23 | File | `/admin/search-appointment.php` | High
+24 | File | `/ajax-api.php` | High
+25 | File | `/app/ajax/search_sales_report.php` | High
+26 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/boafrm/formWlSiteSurvey` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+31 | File | `/collection/all` | High
+32 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+33 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+34 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+35 | File | `/core/config-revisions` | High
+36 | File | `/deletefile.php` | High
+37 | File | `/doc/packages` | High
+38 | File | `/doctor/deleteappointment.php` | High
+39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+40 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

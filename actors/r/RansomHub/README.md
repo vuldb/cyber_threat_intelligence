@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RansomHub:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [38.180.81.153](https://vuldb.com/?ip.38.180.81.153) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,10 +38,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -54,52 +54,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/about.php` | Medium
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/add-category.php` | High
-4 | File | `/admin/add_student.php` | High
-5 | File | `/admin/file_manage_view` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/maintenance/brand.php` | High
-8 | File | `/admin/profile.php` | High
-9 | File | `/admin/search-vehicle.php` | High
-10 | File | `/admin/student.php` | High
-11 | File | `/admins/{adminId}` | High
-12 | File | `/api/dept` | Medium
-13 | File | `/api/RecordingList/DownloadRecord?file=` | High
-14 | File | `/api/v1/public-chatflows/id` | High
-15 | File | `/app/admin/controller/Upload.php` | High
-16 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-17 | File | `/backend/admin/his_admin_register_patient.php` | High
-18 | File | `/blog/blog.php` | High
-19 | File | `/category.php` | High
-20 | File | `/cgi` | Low
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/cms/classes/Master.php?f=delete_service` | High
-24 | File | `/download` | Medium
-25 | File | `/etc/shadow` | Medium
-26 | File | `/expcatedit.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/SetNetControlList` | High
-29 | File | `/hedwig.cgi` | Medium
-30 | File | `/homeaction.php` | High
-31 | File | `/ims/login.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/index.php?menu=asterisk_cli` | High
-34 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
-35 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/login/index.php` | High
-38 | File | `/lot_details.php` | High
-39 | File | `/mhds/clinic/view_details.php` | High
-40 | File | `/online` | Low
-41 | File | `/php_action/createUser.php` | High
-42 | File | `/preview.php` | Medium
-43 | File | `/resource/addgood.php` | High
-44 | ... | ... | ...
+4 | File | `/adfs/ls` | Medium
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/add_student.php` | High
+8 | File | `/admin/category_save.php` | High
+9 | File | `/admin/file_manage_view` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/admin/manage-pages.php` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/profile.php` | High
+16 | File | `/admin/search-vehicle.php` | High
+17 | File | `/admin/student.php` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+20 | File | `/admin/twitter.php` | High
+21 | File | `/admins/{adminId}` | High
+22 | File | `/api/dept` | Medium
+23 | File | `/api/v1/public-chatflows/id` | High
+24 | File | `/api/v1/settings` | High
+25 | File | `/api/v1/toolbox/device/update/swap` | High
+26 | File | `/app/admin/controller/Upload.php` | High
+27 | File | `/app/zentao/module/repo/model.php` | High
+28 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+29 | File | `/backend/admin/his_admin_register_patient.php` | High
+30 | File | `/bin/httpd` | Medium
+31 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+32 | File | `/catalog/all-products` | High
+33 | File | `/cgi` | Low
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/ExportSettings.sh` | High
+36 | File | `/classes/Master.php` | High
+37 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+38 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+39 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+40 | File | `/download` | Medium
+41 | File | `/edit-subject.php` | High
+42 | File | `/endpoint/add-user.php` | High
+43 | File | `/etc/postfix/sender_login` | High
+44 | File | `/etc/shadow` | Medium
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

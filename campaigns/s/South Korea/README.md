@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,11 +22,11 @@ These _actors_ are associated with South Korea or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-2 | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-3 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [MeshAgent](https://vuldb.com/?actor.meshagent) | High
+3 | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
 4 | ... | ...
 
-There are 3 more actor items available. Please use our online service to access the data.
+There are 4 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -317,42 +317,43 @@ ID | IP address | Hostname | Actor | Confidence
 281 | [45.64.152.0](https://vuldb.com/?ip.45.64.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
 282 | [45.64.172.0](https://vuldb.com/?ip.45.64.172.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
 283 | [45.67.97.0](https://vuldb.com/?ip.45.67.97.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-284 | [45.91.225.0](https://vuldb.com/?ip.45.91.225.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-285 | [45.93.28.103](https://vuldb.com/?ip.45.93.28.103) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-286 | [45.93.31.75](https://vuldb.com/?ip.45.93.31.75) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-287 | [45.93.31.122](https://vuldb.com/?ip.45.93.31.122) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-288 | [45.94.152.0](https://vuldb.com/?ip.45.94.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-289 | [45.112.88.0](https://vuldb.com/?ip.45.112.88.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-290 | [45.112.96.0](https://vuldb.com/?ip.45.112.96.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-291 | [45.112.112.0](https://vuldb.com/?ip.45.112.112.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-292 | [45.112.152.0](https://vuldb.com/?ip.45.112.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-293 | [45.112.160.0](https://vuldb.com/?ip.45.112.160.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-294 | [45.112.168.0](https://vuldb.com/?ip.45.112.168.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-295 | [45.113.44.0](https://vuldb.com/?ip.45.113.44.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-296 | [45.113.48.0](https://vuldb.com/?ip.45.113.48.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-297 | [45.113.82.0](https://vuldb.com/?ip.45.113.82.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-298 | [45.114.128.0](https://vuldb.com/?ip.45.114.128.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-299 | [45.114.131.0](https://vuldb.com/?ip.45.114.131.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-300 | [45.115.25.0](https://vuldb.com/?ip.45.115.25.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-301 | [45.115.152.0](https://vuldb.com/?ip.45.115.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-302 | [45.117.12.0](https://vuldb.com/?ip.45.117.12.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-303 | [45.119.40.0](https://vuldb.com/?ip.45.119.40.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-304 | [45.119.144.0](https://vuldb.com/?ip.45.119.144.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-305 | [45.120.64.0](https://vuldb.com/?ip.45.120.64.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-306 | [45.120.200.0](https://vuldb.com/?ip.45.120.200.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-307 | [45.121.164.0](https://vuldb.com/?ip.45.121.164.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-308 | [45.125.232.0](https://vuldb.com/?ip.45.125.232.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-309 | [45.126.148.0](https://vuldb.com/?ip.45.126.148.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-310 | [45.130.33.0](https://vuldb.com/?ip.45.130.33.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-311 | [45.136.186.19](https://vuldb.com/?ip.45.136.186.19) | 45.136.186.19.static.xtom.com | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-312 | [45.136.186.175](https://vuldb.com/?ip.45.136.186.175) | 45.136.186.175.static.xtom.com | [Dalbit](https://vuldb.com/?actor.dalbit) | High
-313 | [45.138.209.0](https://vuldb.com/?ip.45.138.209.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-314 | [45.142.153.0](https://vuldb.com/?ip.45.142.153.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-315 | [45.146.240.0](https://vuldb.com/?ip.45.146.240.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-316 | [45.150.140.0](https://vuldb.com/?ip.45.150.140.0) | 45.150.140.0.ipv4.telcom.network | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
-317 | ... | ... | ... | ...
+284 | [45.76.219.39](https://vuldb.com/?ip.45.76.219.39) | 45.76.219.39.vultrusercontent.com | [MeshAgent](https://vuldb.com/?actor.meshagent) | Medium
+285 | [45.91.225.0](https://vuldb.com/?ip.45.91.225.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+286 | [45.93.28.103](https://vuldb.com/?ip.45.93.28.103) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+287 | [45.93.31.75](https://vuldb.com/?ip.45.93.31.75) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+288 | [45.93.31.122](https://vuldb.com/?ip.45.93.31.122) | - | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+289 | [45.94.152.0](https://vuldb.com/?ip.45.94.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+290 | [45.112.88.0](https://vuldb.com/?ip.45.112.88.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+291 | [45.112.96.0](https://vuldb.com/?ip.45.112.96.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+292 | [45.112.112.0](https://vuldb.com/?ip.45.112.112.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+293 | [45.112.152.0](https://vuldb.com/?ip.45.112.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+294 | [45.112.160.0](https://vuldb.com/?ip.45.112.160.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+295 | [45.112.168.0](https://vuldb.com/?ip.45.112.168.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+296 | [45.113.44.0](https://vuldb.com/?ip.45.113.44.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+297 | [45.113.48.0](https://vuldb.com/?ip.45.113.48.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+298 | [45.113.82.0](https://vuldb.com/?ip.45.113.82.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+299 | [45.114.128.0](https://vuldb.com/?ip.45.114.128.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+300 | [45.114.131.0](https://vuldb.com/?ip.45.114.131.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+301 | [45.115.25.0](https://vuldb.com/?ip.45.115.25.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+302 | [45.115.152.0](https://vuldb.com/?ip.45.115.152.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+303 | [45.117.12.0](https://vuldb.com/?ip.45.117.12.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+304 | [45.119.40.0](https://vuldb.com/?ip.45.119.40.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+305 | [45.119.144.0](https://vuldb.com/?ip.45.119.144.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+306 | [45.120.64.0](https://vuldb.com/?ip.45.120.64.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+307 | [45.120.200.0](https://vuldb.com/?ip.45.120.200.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+308 | [45.121.164.0](https://vuldb.com/?ip.45.121.164.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+309 | [45.125.232.0](https://vuldb.com/?ip.45.125.232.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+310 | [45.126.148.0](https://vuldb.com/?ip.45.126.148.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+311 | [45.130.33.0](https://vuldb.com/?ip.45.130.33.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+312 | [45.136.186.19](https://vuldb.com/?ip.45.136.186.19) | 45.136.186.19.static.xtom.com | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+313 | [45.136.186.175](https://vuldb.com/?ip.45.136.186.175) | 45.136.186.175.static.xtom.com | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+314 | [45.138.209.0](https://vuldb.com/?ip.45.138.209.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+315 | [45.142.153.0](https://vuldb.com/?ip.45.142.153.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+316 | [45.146.240.0](https://vuldb.com/?ip.45.146.240.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+317 | [45.150.140.0](https://vuldb.com/?ip.45.150.140.0) | 45.150.140.0.ipv4.telcom.network | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
+318 | ... | ... | ... | ...
 
-There are 1264 more IOC items available. Please use our online service to access the data.
+There are 1269 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -361,12 +362,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-27, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -374,61 +376,76 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/add-admin.php` | High
-3 | File | `/add-table.php` | High
-4 | File | `/add_deductions.php` | High
-5 | File | `/admin#themes` | High
-6 | File | `/admin/admin_login.php` | High
-7 | File | `/admin/all-applications.php` | High
-8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-9 | File | `/admin/bookList?page=1&limit=10` | High
-10 | File | `/admin/bwdates-report-details.php` | High
-11 | File | `/admin/case-type` | High
-12 | File | `/admin/chatroom.php` | High
-13 | File | `/admin/contact-us.php` | High
-14 | File | `/admin/create_product.php` | High
-15 | File | `/admin/edit-products.php` | High
-16 | File | `/admin/enrollment-details.php` | High
-17 | File | `/admin/getallarticleinfo` | High
-18 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/index2.html` | High
-21 | File | `/admin/ind_backstage.php` | High
-22 | File | `/admin/manage-services.php` | High
-23 | File | `/admin/menu.php` | High
-24 | File | `/admin/normal-search.php` | High
-25 | File | `/admin/salary_slip.php` | High
-26 | File | `/admin/template/update` | High
-27 | File | `/admin/user-search.php` | High
-28 | File | `/adminPage/main/upload` | High
-29 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-30 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-31 | File | `/api/sys/set_passwd` | High
-32 | File | `/api/system/other` | High
-33 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-34 | File | `/api/wizard/setsyncpppoecfg` | High
-35 | File | `/app/controller/Api.php` | High
-36 | File | `/auth.asp` | Medium
-37 | File | `/auth/register` | High
-38 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-39 | File | `/bin/boa` | Medium
-40 | File | `/boafrm/formFilter` | High
-41 | File | `/catalog/compare` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/hd_config.cgi` | High
-44 | File | `/cgi-bin/mainfunction.cgi` | High
-45 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-46 | File | `/change-password.php` | High
-47 | File | `/classes/Master.php?f=save_course` | High
-48 | File | `/classes/Master.php?f=save_position` | High
-49 | File | `/config/config.properties` | High
-50 | File | `/coreframe/app/guestbook/myissue.php` | High
-51 | File | `/cupseasylive/locationcreate.php` | High
-52 | File | `/dash/update.php` | High
-53 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/ad-list` | Medium
+3 | File | `/add-admin.php` | High
+4 | File | `/add-table.php` | High
+5 | File | `/add_deductions.php` | High
+6 | File | `/admin#themes` | High
+7 | File | `/admin-cp/media` | High
+8 | File | `/admin/?page=return/view_return` | High
+9 | File | `/admin/add-subadmin.php` | High
+10 | File | `/admin/add_cars.php` | High
+11 | File | `/admin/admin_index.php` | High
+12 | File | `/admin/admin_login.php` | High
+13 | File | `/admin/all-applications.php` | High
+14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+15 | File | `/admin/bookList?page=1&limit=10` | High
+16 | File | `/admin/bwdates-report-details.php` | High
+17 | File | `/admin/bwdates-request-report-details.php` | High
+18 | File | `/admin/case-type` | High
+19 | File | `/admin/category/add.do` | High
+20 | File | `/admin/changeimage.php` | High
+21 | File | `/admin/chatroom.php` | High
+22 | File | `/admin/contact-us.php` | High
+23 | File | `/admin/create_product.php` | High
+24 | File | `/admin/delete-doctor.php` | High
+25 | File | `/admin/edit-admin.php` | High
+26 | File | `/admin/edit-guard-detail.php` | High
+27 | File | `/admin/edit-products.php` | High
+28 | File | `/admin/enrollment-details.php` | High
+29 | File | `/admin/forms/option_lists/edit.php` | High
+30 | File | `/admin/getallarticleinfo` | High
+31 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+32 | File | `/admin/index.php` | High
+33 | File | `/admin/index2.html` | High
+34 | File | `/admin/ind_backstage.php` | High
+35 | File | `/Admin/login.php` | High
+36 | File | `/admin/manage-services.php` | High
+37 | File | `/admin/menu.php` | High
+38 | File | `/admin/normal-search.php` | High
+39 | File | `/admin/salary_slip.php` | High
+40 | File | `/admin/template/update` | High
+41 | File | `/admin/user-search.php` | High
+42 | File | `/adminPage/main/upload` | High
+43 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+44 | File | `/adpweb/a/base/barcodeDetail/` | High
+45 | File | `/ajax.php?action=save_package` | High
+46 | File | `/api/docs/index.php` | High
+47 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+48 | File | `/api/sys/set_passwd` | High
+49 | File | `/api/system/other` | High
+50 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+51 | File | `/api/wizard/setsyncpppoecfg` | High
+52 | File | `/app/controller/Api.php` | High
+53 | File | `/auth.asp` | Medium
+54 | File | `/auth/register` | High
+55 | File | `/backend/register.php` | High
+56 | File | `/bic/ssoService/v1/applyCT` | High
+57 | File | `/bin/boa` | Medium
+58 | File | `/bin/httpd` | Medium
+59 | File | `/boafrm/formFilter` | High
+60 | File | `/boafrm/formSaveConfig` | High
+61 | File | `/boafrm/formWlSiteSurvey` | High
+62 | File | `/BRS_top.html` | High
+63 | File | `/cashconfirm.php` | High
+64 | File | `/catalog/compare` | High
+65 | File | `/cgi-bin/Config.cgi?action=set` | High
+66 | File | `/cgi-bin/cstecgi.cgi` | High
+67 | File | `/cgi-bin/editBookmark` | High
+68 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 598 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -438,6 +455,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://asec.ahnlab.com/en/67558/
 * https://asec.ahnlab.com/en/84393/
 * https://asec.ahnlab.com/en/87945/
+* https://asec.ahnlab.com/en/88472/
+* https://asec.ahnlab.com/en/88627/
 * https://blog.cyble.com/2023/06/06/lockbit-2-0-ransomware-resurfaces/
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kr.netset
 * https://osintteam.blog/criminal-ips-approach-to-identifying-malicious-infrastructure-in-hacking-campaigns-613312082977

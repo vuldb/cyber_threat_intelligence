@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-27 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -54,56 +54,54 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add-customer.php` | High
 4 | File | `/admin/add_content.php` | High
 5 | File | `/admin/attendance_action.php` | High
-6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/bwdates-report-details.php` | High
-8 | File | `/Admin/consulting_detail.php` | High
-9 | File | `/admin/contacts/organizations/edit/2` | High
-10 | File | `/admin/create_product.php` | High
-11 | File | `/admin/edit-services.php` | High
-12 | File | `/admin/edit_subject.php` | High
-13 | File | `/admin/emp-profile-avatar.php` | High
-14 | File | `/admin/home.php` | High
-15 | File | `/admin/home.php?con=add` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/index.php?page=manage_product` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/admin/manage-ambulance.php` | High
-20 | File | `/admin/network/ajax_getChannelList` | High
-21 | File | `/admin/network/diag_iperf` | High
-22 | File | `/admin/network/diag_nslookup` | High
-23 | File | `/admin/network/diag_ping6` | High
-24 | File | `/admin/network/diag_pinginterface` | High
-25 | File | `/admin/network/diag_traceroute` | High
-26 | File | `/admin/network/diag_traceroute6` | High
-27 | File | `/admin/network/wifi_schedule` | High
-28 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-29 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-30 | File | `/admin/search-appointment.php` | High
-31 | File | `/admin/search-vehicle.php` | High
-32 | File | `/admin/sn_package/sn_https` | High
-33 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-34 | File | `/admin/view-appointment.php` | High
-35 | File | `/ajax.php?action=read_msg` | High
-36 | File | `/ajax/get_patient_history.php` | High
-37 | File | `/api/baskets/{name}` | High
-38 | File | `/api/cron/settings/setJob/` | High
-39 | File | `/api/deploy/upload` | High
-40 | File | `/api/deploy/upload /api/database/upload` | High
-41 | File | `/api/sys/set_passwd` | High
-42 | File | `/apps/api/views/deploy_api.py` | High
-43 | File | `/article/Content/index?class_id` | High
-44 | File | `/authMonitCallcenter` | High
-45 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-46 | File | `/bin/appmgr` | Medium
-47 | File | `/cgi-bin/cstecgi.cgi` | High
-48 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-49 | File | `/cgi-bin/nas_sharing.cgi` | High
-50 | File | `/cgi-bin/p1_ftpserver.php` | High
-51 | File | `/cgi-bin/wlogin.cgi` | High
-52 | File | `/change_password.php` | High
-53 | ... | ... | ...
+6 | File | `/admin/bwdates-report-details.php` | High
+7 | File | `/Admin/consulting_detail.php` | High
+8 | File | `/admin/create_product.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/home.php` | High
+12 | File | `/admin/home.php?con=add` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index.php?page=manage_product` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/manage-ambulance.php` | High
+17 | File | `/admin/network/ajax_getChannelList` | High
+18 | File | `/admin/network/diag_iperf` | High
+19 | File | `/admin/network/diag_nslookup` | High
+20 | File | `/admin/network/diag_ping6` | High
+21 | File | `/admin/network/diag_pinginterface` | High
+22 | File | `/admin/network/diag_traceroute` | High
+23 | File | `/admin/network/diag_traceroute6` | High
+24 | File | `/admin/network/wifi_schedule` | High
+25 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+26 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+27 | File | `/admin/search-appointment.php` | High
+28 | File | `/admin/search-vehicle.php` | High
+29 | File | `/admin/sn_package/sn_https` | High
+30 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+31 | File | `/admin/view-appointment.php` | High
+32 | File | `/ajax.php?action=read_msg` | High
+33 | File | `/ajax/get_patient_history.php` | High
+34 | File | `/api/baskets/{name}` | High
+35 | File | `/api/cron/settings/setJob/` | High
+36 | File | `/api/deploy/upload` | High
+37 | File | `/api/deploy/upload /api/database/upload` | High
+38 | File | `/api/sys/set_passwd` | High
+39 | File | `/apps/api/views/deploy_api.py` | High
+40 | File | `/article/Content/index?class_id` | High
+41 | File | `/authMonitCallcenter` | High
+42 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+43 | File | `/bin/appmgr` | Medium
+44 | File | `/biurl_grou` | Medium
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+47 | File | `/cgi-bin/nas_sharing.cgi` | High
+48 | File | `/cgi-bin/p1_ftpserver.php` | High
+49 | File | `/cgi-bin/wlogin.cgi` | High
+50 | File | `/change_password.php` | High
+51 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

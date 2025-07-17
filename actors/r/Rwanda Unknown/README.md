@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rwanda Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
 * [DE](https://vuldb.com/?country.de)
+* [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 41 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,15 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,43 +79,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addbill.php` | Medium
-2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/edit_action.php` | High
-5 | File | `/Admin/edit_profile.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/manage-pages.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/apilog.php` | Medium
-11 | File | `/app/api/controller/caiji.php` | High
-12 | File | `/auth_pic.cgi` | High
-13 | File | `/base/ecma-helpers.c` | High
-14 | File | `/category.php` | High
-15 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-16 | File | `/cgi-bin/api-get_line_status` | High
-17 | File | `/cgi-bin/luci` | High
-18 | File | `/cgi-bin/myMusic.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/changeimage1.php` | High
-21 | File | `/Code/loginnew.php` | High
-22 | File | `/Code/sc_login.php` | High
-23 | File | `/control/register_case.php` | High
-24 | File | `/dashboard/admin/edit_member.php` | High
-25 | File | `/dashboard/admin/edit_mem_submit.php` | High
-26 | File | `/dashboard/admin/new_submit.php` | High
-27 | File | `/dashboard/message` | High
-28 | File | `/details.php` | Medium
-29 | File | `/DXR.axd` | Medium
-30 | File | `/etc/fwupd/redfish.conf` | High
-31 | File | `/expadd.php` | Medium
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/` | Medium
-34 | File | `/goform/SetStaticRouteCfg` | High
-35 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/addbill.php` | Medium
+4 | File | `/addNotifyServlet` | High
+5 | File | `/admin.php/appcenter/local.html?type=addon` | High
+6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+7 | File | `/admin/addproduct.php` | High
+8 | File | `/admin/budget.php` | High
+9 | File | `/admin/changestock.php` | High
+10 | File | `/admin/configurations/userInfo` | High
+11 | File | `/admin/create_product.php` | High
+12 | File | `/admin/edit-admin.php` | High
+13 | File | `/admin/edit-category.php` | High
+14 | File | `/admin/edit_action.php` | High
+15 | File | `/admin/edit_category.php` | High
+16 | File | `/Admin/edit_profile.php` | High
+17 | File | `/admin/edit_state.php` | High
+18 | File | `/admin/get_price.php` | High
+19 | File | `/admin/manage-pages.php` | High
+20 | File | `/admin/sys_sql_query.php` | High
+21 | File | `/admin/transactions/track_shipment.php` | High
+22 | File | `/admin/user/manage_user.php` | High
+23 | File | `/api/front/search/books` | High
+24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+25 | File | `/app/api/controller/caiji.php` | High
+26 | File | `/app/controller/Api.php` | High
+27 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+28 | File | `/apply/index.php` | High
+29 | File | `/backups/` | Medium
+30 | File | `/boafrm/formFilter` | High
+31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/nas_sharing.cgi` | High
+34 | File | `/changeimage1.php` | High
+35 | File | `/cms/notify` | Medium
+36 | File | `/Code/loginnew.php` | High
+37 | File | `/Code/sc_login.php` | High
+38 | File | `/collection/all` | High
+39 | File | `/content_top.jsp` | High
+40 | File | `/customeredit.php` | High
+41 | File | `/cwms/admin/?page=articles/view_article/` | High
+42 | File | `/dashboard/admin/edit_member.php` | High
+43 | File | `/dashboard/admin/edit_mem_submit.php` | High
+44 | File | `/dashboard/admin/new_submit.php` | High
+45 | File | `/dashboard/message` | High
+46 | File | `/details.php` | Medium
+47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+48 | File | `/devinfo` | Medium
+49 | File | `/etc/group` | Medium
+50 | File | `/expadd.php` | Medium
+51 | File | `/file/accept.php` | High
+52 | File | `/firewall/urlblist.php` | High
+53 | File | `/forum/away.php` | High
+54 | File | `/freelance/resume_list` | High
+55 | File | `/function/audit/newstatistics/mon_stat_hist.php` | High
+56 | File | `/goform/` | Medium
+57 | File | `/goform/formSetMACFilter` | High
+58 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

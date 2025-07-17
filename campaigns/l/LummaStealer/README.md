@@ -86,9 +86,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/goform/WifiWpsStart` | High
 27 | File | `/goform/WriteFacMac` | High
 28 | File | `/hedwig.cgi` | Medium
-29 | ... | ... | ...
+29 | File | `/index/jobfairol/show/` | High
+30 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

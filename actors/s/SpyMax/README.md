@@ -10,12 +10,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [154.213.65.28](https://vuldb.com/?ip.154.213.65.28) | - | - | High
+1 | [104.234.167.145](https://vuldb.com/?ip.104.234.167.145) | - | - | High
+2 | [154.213.65.28](https://vuldb.com/?ip.154.213.65.28) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://labs.k7computing.com/index.php/spymax-a-fake-wedding-invitation-app-targeting-indian-mobile-users/
 * https://labs.k7computing.com/index.php/spymax-an-android-rat-targets-telegram-users/
 
 ## Literature

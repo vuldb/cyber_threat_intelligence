@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,24 +61,24 @@ ID | Type | Indicator | Confidence
 3 | File | `/balance/service/list` | High
 4 | File | `/cgi-bin/nas_sharing.cgi` | High
 5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/include/helpers/upload.helper.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/lam/tmp/` | Medium
-11 | File | `/lan.asp` | Medium
-12 | File | `/LDMS/frm_splitfrm.aspx` | High
-13 | File | `/members/view_member.php` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/NAGErrors` | Medium
-16 | File | `/new` | Low
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/rest/api/latest/projectvalidate/key` | High
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/spip.php` | Medium
+6 | File | `/dashboard/getData.php` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/aspForm` | High
+10 | File | `/include/helpers/upload.helper.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/lam/tmp/` | Medium
+13 | File | `/lan.asp` | Medium
+14 | File | `/LDMS/frm_splitfrm.aspx` | High
+15 | File | `/members/view_member.php` | High
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/NAGErrors` | Medium
+18 | File | `/new` | Low
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/rest/api/latest/projectvalidate/key` | High
 21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

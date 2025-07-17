@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -85,42 +85,41 @@ ID | Type | Indicator | Confidence
 23 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 24 | File | `/cwms/classes/Master.php?f=save_contact` | High
 25 | File | `/debug/pprof` | Medium
-26 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
-27 | File | `/download` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/apPortalPhoneAuth` | High
-30 | File | `/GponForm/device_Form?script/` | High
-31 | File | `/GponForm/usb_restore_Form?script/` | High
-32 | File | `/homeaction.php` | High
-33 | File | `/index.php/user/login` | High
-34 | File | `/index.php?menu=asterisk_cli` | High
-35 | File | `/login.php` | Medium
-36 | File | `/mobileredir/openApp.jsp` | High
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/multi-vendor-shopping-script/product-list.php` | High
-39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/p` | Low
-42 | File | `/pg_meta/default/query` | High
-43 | File | `/portal/search.htm` | High
-44 | File | `/preauth` | Medium
-45 | File | `/report,daily.jsp?stime=2023%2F07%2F12&timeOption=yesterday&` | High
-46 | File | `/romfile.cfg` | Medium
-47 | File | `/show_news.php` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/static/ueditor/php/controller.php` | High
-50 | File | `/student.php` | Medium
-51 | File | `/student/bookdetails.php` | High
-52 | File | `/tool/saveAttachment.php` | High
-53 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-54 | File | `/uncpath/` | Medium
-55 | File | `/update-article.php` | High
-56 | File | `/upload/ueditorConfig?action=config` | High
-57 | File | `/user/chat/mynewuser` | High
-58 | File | `/user/loader.php?api=1` | High
-59 | ... | ... | ...
+26 | File | `/devinfo` | Medium
+27 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
+28 | File | `/download` | Medium
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/apPortalPhoneAuth` | High
+31 | File | `/GponForm/device_Form?script/` | High
+32 | File | `/GponForm/usb_restore_Form?script/` | High
+33 | File | `/homeaction.php` | High
+34 | File | `/index.php/user/login` | High
+35 | File | `/index.php?menu=asterisk_cli` | High
+36 | File | `/login.php` | Medium
+37 | File | `/mobileredir/openApp.jsp` | High
+38 | File | `/modules/profile/index.php` | High
+39 | File | `/multi-vendor-shopping-script/product-list.php` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/p` | Low
+43 | File | `/pg_meta/default/query` | High
+44 | File | `/portal/search.htm` | High
+45 | File | `/preauth` | Medium
+46 | File | `/report,daily.jsp?stime=2023%2F07%2F12&timeOption=yesterday&` | High
+47 | File | `/romfile.cfg` | Medium
+48 | File | `/show_news.php` | High
+49 | File | `/spip.php` | Medium
+50 | File | `/static/ueditor/php/controller.php` | High
+51 | File | `/student.php` | Medium
+52 | File | `/student/bookdetails.php` | High
+53 | File | `/tool/saveAttachment.php` | High
+54 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+55 | File | `/uncpath/` | Medium
+56 | File | `/update-article.php` | High
+57 | File | `/upload/ueditorConfig?action=config` | High
+58 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

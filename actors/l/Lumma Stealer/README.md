@@ -44,12 +44,14 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
 22 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
 23 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
-24 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
-25 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-26 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
-27 | ... | ... | ... | ...
+24 | [75.15.140.9](https://vuldb.com/?ip.75.15.140.9) | 75-15-140-9.lightspeed.rcsntx.sbcglobal.net | - | High
+25 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+26 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+27 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+28 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
+29 | ... | ... | ... | ...
 
-There are 104 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,7 +94,7 @@ ID | Type | Indicator | Confidence
 20 | File | `album_portal.php` | High
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,13 +109,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/6371365b-462d-4912-b634-3ac7c3b44fa6
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
 * https://bazaar.abuse.ch/sample/22ee40c14dcd7013d54483f24ac213921b6b7c36536c26c1115a364e10007635/
+* https://bazaar.abuse.ch/sample/526edfcea1fbe7f32cd32fb4821d11fcbc5ff07ed80156bbea4791b6b33d3a65/
 * https://search.censys.io/hosts/5.42.92.179
 * https://search.censys.io/hosts/5.252.118.50
 * https://search.censys.io/hosts/84.32.185.206
+* https://search.censys.io/hosts/85.90.196.153
 * https://search.censys.io/hosts/92.255.57.224
 * https://search.censys.io/hosts/95.217.74.243
 * https://search.censys.io/hosts/117.220.15.119
+* https://search.censys.io/hosts/144.172.96.106
 * https://search.censys.io/hosts/185.7.214.73
+* https://search.censys.io/hosts/195.82.146.191
 * https://search.censys.io/hosts/195.82.147.187
 * https://search.censys.io/hosts/195.211.97.9
 * https://threatfox.abuse.ch

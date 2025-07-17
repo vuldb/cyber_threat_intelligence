@@ -91,25 +91,26 @@ ID | Type | Indicator | Confidence
 38 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
 39 | File | `/resourceNode/resources.jsf` | High
 40 | File | `/resources//../` | High
-41 | File | `/Script/admin/core/update_policy` | High
-42 | File | `/scripts/unlock_tasks.php` | High
-43 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-44 | File | `/see_more_details.php` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/student/bookdetails.php` | High
-47 | File | `/SysInfo1.htm` | High
-48 | File | `/sysinfo_json.cgi` | High
-49 | File | `/system/dictData/loadDictItem` | High
-50 | File | `/system/user/modules/mod_users/controller.php` | High
-51 | File | `/usr/bin/pkexec` | High
-52 | File | `/view/student_exam_mark_insert_form1.php` | High
-53 | File | `/view/vpn/autovpn/sub_commit.php` | High
-54 | File | `/wmiwizard.jsp` | High
-55 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-56 | File | `/wp-json` | Medium
-57 | ... | ... | ...
+41 | File | `/script/academic/announcement` | High
+42 | File | `/Script/admin/core/update_policy` | High
+43 | File | `/scripts/unlock_tasks.php` | High
+44 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+45 | File | `/see_more_details.php` | High
+46 | File | `/spgpm/updateListing` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/student/bookdetails.php` | High
+49 | File | `/SysInfo1.htm` | High
+50 | File | `/sysinfo_json.cgi` | High
+51 | File | `/system/dictData/loadDictItem` | High
+52 | File | `/system/user/modules/mod_users/controller.php` | High
+53 | File | `/usr/bin/pkexec` | High
+54 | File | `/view/student_exam_mark_insert_form1.php` | High
+55 | File | `/view/vpn/autovpn/sub_commit.php` | High
+56 | File | `/wmiwizard.jsp` | High
+57 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+58 | ... | ... | ...
 
-There are 497 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

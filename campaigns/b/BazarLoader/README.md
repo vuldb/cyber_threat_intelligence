@@ -131,10 +131,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -145,16 +145,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/#ProductSerie/view/` | High
 2 | File | `/api/wizard/setsyncpppoecfg` | High
 3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/donor-wall` | Medium
-5 | File | `/download/image` | High
-6 | File | `/etc/shadow` | Medium
-7 | File | `/inc/jquery/uploadify/uploadify.php` | High
-8 | File | `/index/ajax/lang` | High
-9 | File | `/member/index/login.html` | High
-10 | File | `/member/myfriend.php` | High
+4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+5 | File | `/donor-wall` | Medium
+6 | File | `/download/image` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/inc/jquery/uploadify/uploadify.php` | High
+9 | File | `/index/ajax/lang` | High
+10 | File | `/member/index/login.html` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

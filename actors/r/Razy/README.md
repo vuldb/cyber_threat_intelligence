@@ -99,12 +99,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-88 | Argument Injection | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21 | Path Traversal | High
+2 | T1059 | CWE-88 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -118,9 +118,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/Bloodgroop_process.php` | High
 5 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 6 | File | `/ecommerce/support_ticket` | High
-7 | ... | ... | ...
+7 | File | `/forum/away.php` | High
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

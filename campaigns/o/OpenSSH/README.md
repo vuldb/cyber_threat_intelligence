@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -57,11 +57,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
 2 | File | `/getcfg.php` | Medium
-3 | File | `/modules/profile/index.php` | High
-4 | File | `adclick.php` | Medium
-5 | ... | ... | ...
+3 | File | `/horde/imp/search.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/modules/profile/index.php` | High
+6 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,65 +61,63 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=system_info` | High
 3 | File | `/admin/action/update-deworm.php` | High
 4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/manage_academic.php` | High
-6 | File | `/admin/photo.php` | High
-7 | File | `/admin/upload.php` | High
-8 | File | `/admin/user/add` | High
-9 | File | `/admin/user/user-move-run.php` | High
-10 | File | `/ajax_city.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/v1/dashboards/export` | High
-13 | File | `/APP_Installation.asp` | High
-14 | File | `/asms/products/view_product.php` | High
-15 | File | `/blog` | Low
-16 | File | `/boaform/device_reset.cgi` | High
-17 | File | `/car-rental-management-system/admin/view_car.php=` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/cm/delete` | Medium
-21 | File | `/common/logViewer/logViewer.jsf` | High
-22 | File | `/config/config.json` | High
-23 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-24 | File | `/csms/admin/inquiries/view_details.php` | High
-25 | File | `/download` | Medium
-26 | File | `/ecommerce/admin/category/controller.php` | High
-27 | File | `/etc/hosts.deny` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/home.php` | Medium
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/manage_academic.php` | High
+7 | File | `/admin/photo.php` | High
+8 | File | `/admin/upload.php` | High
+9 | File | `/admin/user.php` | High
+10 | File | `/admin/user/add` | High
+11 | File | `/admin/user/user-move-run.php` | High
+12 | File | `/ajax_city.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/v1/dashboards/export` | High
+15 | File | `/asms/products/view_product.php` | High
+16 | File | `/blog` | Low
+17 | File | `/boaform/device_reset.cgi` | High
+18 | File | `/car-rental-management-system/admin/view_car.php=` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/cm/delete` | Medium
+22 | File | `/common/logViewer/logViewer.jsf` | High
+23 | File | `/config/config.json` | High
+24 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+25 | File | `/csms/admin/inquiries/view_details.php` | High
+26 | File | `/download` | Medium
+27 | File | `/ecommerce/admin/category/controller.php` | High
+28 | File | `/etc/hosts.deny` | High
+29 | File | `/forum/away.php` | High
 30 | File | `/homeaction.php` | High
 31 | File | `/hrm/employeeadd.php` | High
 32 | File | `/index.php/sysmanage/Login/login_auth/` | High
-33 | File | `/log/download.php` | High
-34 | File | `/main/fileupload.php` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/modules/projects/vw_files.php` | High
-37 | File | `/multi-vendor-shopping-script/product-list.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/out.php` | Medium
-40 | File | `/p` | Low
-41 | File | `/pg_meta/default/query` | High
-42 | File | `/portal/search.htm` | High
-43 | File | `/preauth` | Medium
-44 | File | `/product-details.php` | High
-45 | File | `/products/view_product.php` | High
-46 | File | `/see_more_details.php` | High
-47 | File | `/show_news.php` | High
-48 | File | `/sqleditor/query_tool/download` | High
-49 | File | `/src/Illuminate/Laravel.php` | High
-50 | File | `/student/bookdetails.php` | High
-51 | File | `/uncpath/` | Medium
-52 | File | `/update-article.php` | High
-53 | File | `/updownload/t.report` | High
-54 | File | `/user.profile.php` | High
-55 | File | `/var/log/rkhunter.log` | High
-56 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-57 | File | `/view/student_exam_mark_update_form.php` | High
-58 | File | `/wordpress/wp-admin/options-general.php` | High
-59 | File | `/wp-admin` | Medium
-60 | File | `/wp-admin/admin-ajax.php` | High
-61 | ... | ... | ...
+33 | File | `/install/index.php` | High
+34 | File | `/log/download.php` | High
+35 | File | `/main/fileupload.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/modules/projects/vw_files.php` | High
+38 | File | `/multi-vendor-shopping-script/product-list.php` | High
+39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+40 | File | `/out.php` | Medium
+41 | File | `/p` | Low
+42 | File | `/pg_meta/default/query` | High
+43 | File | `/portal/search.htm` | High
+44 | File | `/preauth` | Medium
+45 | File | `/product-details.php` | High
+46 | File | `/products/view_product.php` | High
+47 | File | `/see_more_details.php` | High
+48 | File | `/show_news.php` | High
+49 | File | `/sqleditor/query_tool/download` | High
+50 | File | `/src/dede/makehtml_spec.php` | High
+51 | File | `/src/Illuminate/Laravel.php` | High
+52 | File | `/student/bookdetails.php` | High
+53 | File | `/uncpath/` | Medium
+54 | File | `/update-article.php` | High
+55 | File | `/user.profile.php` | High
+56 | File | `/userRpm/WlanNetworkRpm` | High
+57 | File | `/var/log/rkhunter.log` | High
+58 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+59 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

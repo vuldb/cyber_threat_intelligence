@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.76.53.253](https://vuldb.com/?ip.45.76.53.253) | 45.76.53.253.vultrusercontent.com | - | Medium
 2 | [92.63.197.48](https://vuldb.com/?ip.92.63.197.48) | - | - | High
-3 | [176.65.134.8](https://vuldb.com/?ip.176.65.134.8) | - | - | High
+3 | [172.245.123.11](https://vuldb.com/?ip.172.245.123.11) | 172-245-123-11-host.colocrossing.com | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,10 +50,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/HNAP1` | Low
 3 | File | `/index.php` | Medium
-4 | File | `ajax/api/hook/decodeArguments` | High
-5 | ... | ... | ...
+4 | File | `/patient/booking.php` | High
+5 | File | `admin_boxes.ajax.php` | High
+6 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -63,6 +64,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/01/threat-roundup-0111-0118.html
 * https://community.blueliv.com/#!/s/6192412f82df413eb2354f9a
 * https://urlhaus.abuse.ch/url/3524502/
+* https://urlhaus.abuse.ch/url/3567832/
+* https://urlhaus.abuse.ch/url/3569952/
 
 ## Literature
 

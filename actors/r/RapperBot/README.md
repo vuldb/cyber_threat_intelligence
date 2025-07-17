@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.58.149.116](https://vuldb.com/?ip.2.58.149.116) | - | - | High
-2 | [31.44.185.235](https://vuldb.com/?ip.31.44.185.235) | - | - | High
-3 | [109.206.243.207](https://vuldb.com/?ip.109.206.243.207) | - | - | High
+2 | [5.231.3.32](https://vuldb.com/?ip.5.231.3.32) | studiomolekuul.be | - | High
+3 | [5.231.4.35](https://vuldb.com/?ip.5.231.4.35) | anossabundaestabem.net.br | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,21 +48,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/fos/admin/ajax.php` | High
-3 | File | `/include/chart_generator.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/modules/projects/vw_files.php` | High
-6 | File | `admin.php` | Medium
-7 | File | `affich.php` | Medium
-8 | File | `album_portal.php` | High
-9 | ... | ... | ...
+2 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
+3 | File | `/fos/admin/ajax.php` | High
+4 | File | `/include/chart_generator.php` | High
+5 | File | `/index.php` | Medium
+6 | File | `/modules/projects/vw_files.php` | High
+7 | File | `/SystemMng.ashx` | High
+8 | File | `AdClass.php` | Medium
+9 | File | `admin.php` | Medium
+10 | File | `admin_add.php` | High
+11 | File | `affich.php` | Medium
+12 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.xlab.qianxin.com/rapperbot-en/
 * https://community.blueliv.com/#!/s/62f0af7a82df417a00331dae
 * https://threatfox.abuse.ch
 * https://www.fortinet.com/blog/threat-research/new-rapperbot-campaign-ddos-attacks

@@ -52,10 +52,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/responsiveUI/EnvelopeOpenServlet` | High
 2 | File | `/var/www/core/controller/index.php` | High
-3 | Library | `aswSnx.sys` | Medium
+3 | File | `drivers/tty/vt/keyboard.c` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

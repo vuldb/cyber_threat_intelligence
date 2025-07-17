@@ -164,8 +164,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059 | CWE-88 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,12 +177,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `catagory_data.php` | High
+1 | File | `/admin/categories/view_category.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/admin/user_save.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

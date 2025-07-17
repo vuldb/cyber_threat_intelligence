@@ -103,18 +103,18 @@ ID | Type | Indicator | Confidence
 28 | File | `/out.php` | Medium
 29 | File | `/owa/auth/logon.aspx` | High
 30 | File | `/rest/api/latest/projectvalidate/key` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-33 | File | `/textpattern/index.php` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/upfile.cgi` | Medium
-36 | File | `/webui/modules/log/operate.mds` | High
-37 | File | `/wordpress/wp-admin/admin.php` | High
-38 | File | `/wuser/anyUserBoundHouse.php` | High
-39 | File | `/_vti_bin/_vti_log` | High
+31 | File | `/spgpm/updateListing` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+34 | File | `/textpattern/index.php` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upfile.cgi` | Medium
+37 | File | `/webui/modules/log/operate.mds` | High
+38 | File | `/wordpress/wp-admin/admin.php` | High
+39 | File | `/wuser/anyUserBoundHouse.php` | High
 40 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

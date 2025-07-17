@@ -181,9 +181,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/sys/set_passwd` | High
 8 | File | `/cgi-bin/nas_sharing.cgi` | High
 9 | File | `/change_pass/forgot_password_sql.php` | High
-10 | ... | ... | ...
+10 | File | `/classes/Master.php?f=save_medicine` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

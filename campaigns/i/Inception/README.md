@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 54 | File | `/goform/form2WizardStep54` | High
 55 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

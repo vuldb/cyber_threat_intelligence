@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,7 +88,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,22 +103,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/app/Http/Controllers/ImageController.php` | High
 6 | File | `/application/index/controller/Icon.php` | High
 7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/classes/Master.php?f=delete_service` | High
-9 | File | `/controllers/add_client.php` | High
-10 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-11 | File | `/foms/routers/place-order.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-14 | File | `/Interface/DevManage/VM.php` | High
-15 | File | `/oauth/idp/.well-known/openid-configuration` | High
-16 | File | `/out.php` | Medium
-17 | File | `/register.do` | Medium
-18 | File | `/spip.php` | Medium
-19 | File | `/system/traceLog/page` | High
-20 | File | `/vpn/list_vpn_web_custom.php` | High
-21 | ... | ... | ...
+8 | File | `/controllers/add_client.php` | High
+9 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+10 | File | `/foms/routers/place-order.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+13 | File | `/Interface/DevManage/VM.php` | High
+14 | File | `/oauth/idp/.well-known/openid-configuration` | High
+15 | File | `/out.php` | Medium
+16 | File | `/register.do` | Medium
+17 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

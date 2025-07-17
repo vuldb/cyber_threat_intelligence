@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indonesia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1740,14 +1740,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1755,37 +1755,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/add-admin.php` | High
-3 | File | `/add_deductions.php` | High
-4 | File | `/admin/admin_login.php` | High
-5 | File | `/admin/article.php` | High
-6 | File | `/admin/bookList?page=1&limit=10` | High
-7 | File | `/admin/campsdetails.php` | High
-8 | File | `/admin/contact-us.php` | High
-9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/getallarticleinfo` | High
-11 | File | `/admin/manage-services.php` | High
-12 | File | `/admin/user-search.php` | High
-13 | File | `/api/esps` | Medium
-14 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-15 | File | `/api/snapshots/` | High
-16 | File | `/api/system/other` | High
-17 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-18 | File | `/api/wizard/getDualbandSync` | High
-19 | File | `/api/wizard/getNetworkConf` | High
-20 | File | `/api/wizard/getWifiNeighbour` | High
-21 | File | `/api/wizard/networkSetup` | High
-22 | File | `/app/api/controller/Store.php` | High
-23 | File | `/backend/register.php` | High
-24 | File | `/bin/goahead` | Medium
-25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-28 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-29 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/aboutus.php` | Medium
+3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+4 | File | `/admin-cp/media` | High
+5 | File | `/admin/?page=orders/manage_request` | High
+6 | File | `/admin/?page=return/view_return` | High
+7 | File | `/admin/aboutPost.php` | High
+8 | File | `/admin/add-subadmin.php` | High
+9 | File | `/admin/add_cars.php` | High
+10 | File | `/admin/admin_index.php` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/bwdates-request-report-details.php` | High
+13 | File | `/admin/category/add.do` | High
+14 | File | `/admin/changeimage.php` | High
+15 | File | `/admin/contacts/organizations/edit/2` | High
+16 | File | `/admin/delete-doctor.php` | High
+17 | File | `/admin/edit-admin.php` | High
+18 | File | `/admin/edit-guard-detail.php` | High
+19 | File | `/admin/forms/option_lists/edit.php` | High
+20 | File | `/admin/index.php/news/edit` | High
+21 | File | `/Admin/login.php` | High
+22 | File | `/admin/registration.php` | High
+23 | File | `/admin/search.php` | High
+24 | File | `/admin/setup.cgi` | High
+25 | File | `/admin/view-pass-detail.php` | High
+26 | File | `/adminapi/system/file/openfile` | High
+27 | File | `/adpweb/a/base/barcodeDetail/` | High
+28 | File | `/ajax.php?action=save_package` | High
+29 | File | `/api/browserextension/UpdatePassword/` | High
+30 | File | `/api/discoveries/` | High
+31 | File | `/api/docs/index.php` | High
+32 | File | `/app/api/controller/caiji.php` | High
+33 | File | `/app/api/controller/collect.php` | High
+34 | File | `/app/controller/Setup.php` | High
+35 | File | `/application/models/ApplicationDataObject.class.php` | High
+36 | File | `/backend/register.php` | High
+37 | File | `/bin/main` | Medium
+38 | File | `/biurl_grou` | Medium
+39 | File | `/boa/formWSC` | Medium
+40 | File | `/boafrm/formDMZ` | High
+41 | File | `/boafrm/formDosCfg` | High
+42 | File | `/boafrm/formFilter` | High
+43 | File | `/boafrm/formIpQoS` | High
+44 | File | `/boafrm/formIPv6Addr` | High
+45 | File | `/boafrm/formMultiAP` | High
+46 | File | `/boafrm/formNtp` | High
+47 | File | `/boafrm/formParentControl` | High
+48 | File | `/boafrm/formPortFw` | High
+49 | File | `/boafrm/formReflashClientTbl` | High
+50 | File | `/boafrm/formSaveConfig` | High
+51 | File | `/boafrm/formStaticDHCP` | High
+52 | File | `/boafrm/formStats` | High
+53 | File | `/boafrm/formSysCmd` | High
+54 | File | `/boafrm/formSysLog` | High
+55 | File | `/boafrm/formTmultiAP` | High
+56 | File | `/boafrm/formWirelessTbl` | High
+57 | File | `/boafrm/formWlSiteSurvey` | High
+58 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -119,35 +119,35 @@ ID | Type | Indicator | Confidence
 59 | File | `/cgi-bin/hd_config.cgi` | High
 60 | File | `/cgi-bin/lighttpd.cgi` | High
 61 | File | `/cgi-bin/myMusic.cgi` | High
-62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-63 | File | `/classes/Master.php?f=delete_category` | High
-64 | File | `/classes/Master.php?f=delete_record` | High
-65 | File | `/classes/SystemSettings.php?f=update_settings` | High
-66 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
-67 | File | `/common/show_image.php` | High
-68 | File | `/control/forgot_pass.php` | High
-69 | File | `/control/login.php` | High
-70 | File | `/controllers/logincontrol.php` | High
-71 | File | `/customnode/install` | High
-72 | File | `/deal/{note_id}/note` | High
-73 | File | `/deletebird.php` | High
-74 | File | `/detailed.php` | High
-75 | File | `/dtale/chart-data/1` | High
-76 | File | `/E-Insurance/` | High
-77 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-78 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-79 | File | `/endpoint/add-folder.php` | High
-80 | File | `/endpoint/delete-account.php` | High
-81 | File | `/etc/shadow.sample` | High
-82 | File | `/expedit.php` | Medium
-83 | File | `/export` | Low
-84 | File | `/filter.php` | Medium
-85 | File | `/fladmin/sysconfig_doedit.php` | High
-86 | File | `/forget.php` | Medium
-87 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
+62 | File | `/cgi-bin/nas_sharing.cgi` | High
+63 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+64 | File | `/classes/Master.php?f=delete_category` | High
+65 | File | `/classes/Master.php?f=delete_record` | High
+66 | File | `/classes/SystemSettings.php?f=update_settings` | High
+67 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
+68 | File | `/common/show_image.php` | High
+69 | File | `/control/forgot_pass.php` | High
+70 | File | `/control/login.php` | High
+71 | File | `/controllers/logincontrol.php` | High
+72 | File | `/customnode/install` | High
+73 | File | `/deal/{note_id}/note` | High
+74 | File | `/deletebird.php` | High
+75 | File | `/detailed.php` | High
+76 | File | `/dtale/chart-data/1` | High
+77 | File | `/E-Insurance/` | High
+78 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+79 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+80 | File | `/endpoint/add-folder.php` | High
+81 | File | `/endpoint/delete-account.php` | High
+82 | File | `/etc/shadow.sample` | High
+83 | File | `/expedit.php` | Medium
+84 | File | `/export` | Low
+85 | File | `/filter.php` | Medium
+86 | File | `/fladmin/sysconfig_doedit.php` | High
+87 | File | `/forget.php` | Medium
 88 | ... | ... | ...
 
-There are 778 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 779 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

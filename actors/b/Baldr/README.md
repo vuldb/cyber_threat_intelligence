@@ -56,8 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -72,14 +71,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
 4 | File | `/application/index/controller/Screen.php` | High
 5 | File | `/apply.cgi` | Medium
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/goform/aspForm` | High
-10 | File | `/hardware` | Medium
-11 | ... | ... | ...
+6 | File | `/debug/pprof` | Medium
+7 | File | `/export` | Low
+8 | File | `/goform/aspForm` | High
+9 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

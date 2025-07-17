@@ -126,9 +126,10 @@ ID | Type | Indicator | Confidence
 75 | File | `/debuginfo.htm` | High
 76 | File | `/deletebird.php` | High
 77 | File | `/deletefile.php` | High
-78 | ... | ... | ...
+78 | File | `/devinfo` | Medium
+79 | ... | ... | ...
 
-There are 685 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 691 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

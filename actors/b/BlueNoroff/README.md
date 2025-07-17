@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlueNoroff:
 
 * [US](https://vuldb.com/?country.us)
+* [BR](https://vuldb.com/?country.br)
 * [VN](https://vuldb.com/?country.vn)
-* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,16 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `/out.php` | Medium
-4 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-5 | File | `acme_certificate_edit.php` | High
-6 | File | `admin/index.php` | High
-7 | File | `auth.php` | Medium
+1 | File | `/chaincity/user/ticket/create` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/mgmt/tm/util/bash` | High
+4 | File | `/out.php` | Medium
+5 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+6 | File | `acme_certificate_edit.php` | High
+7 | File | `admin/index.php` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

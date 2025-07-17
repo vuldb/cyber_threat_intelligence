@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Brazil Unknown:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brazil Unknown:
 
+* [BR](https://vuldb.com/?country.br)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3166,12 +3166,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3179,18 +3182,78 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%WINDIR%\temp` | High
-2 | File | `/Account/Login` | High
-3 | File | `/admin.php?mod=brand&act=del` | High
-4 | File | `/admin/edit-customer-detailed.php` | High
-5 | File | `/admin/edit-services.php` | High
-6 | File | `/admin/forgot-password.php` | High
-7 | File | `/api/wizard/setsyncpppoecfg` | High
-8 | File | `/auth.asp` | Medium
-9 | File | `/auth/soup-auth-digest.c` | High
-10 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/Account/login.php` | High
+4 | File | `/addcustcom.php` | High
+5 | File | `/admin-cp/media` | High
+6 | File | `/admin/?page=return/view_return` | High
+7 | File | `/admin/aboutPost.php` | High
+8 | File | `/admin/add-subadmin.php` | High
+9 | File | `/admin/addproduct.php` | High
+10 | File | `/admin/add_cars.php` | High
+11 | File | `/admin/AdminLogin.php` | High
+12 | File | `/admin/admin_index.php` | High
+13 | File | `/admin/admin_user.php` | High
+14 | File | `/admin/backups/work-dir` | High
+15 | File | `/admin/bwdates-report-details.php` | High
+16 | File | `/admin/category/add.do` | High
+17 | File | `/admin/category/cate-edit-run.php` | High
+18 | File | `/admin/category_update.php` | High
+19 | File | `/admin/changeimage.php` | High
+20 | File | `/admin/database/backup` | High
+21 | File | `/admin/delete-doctor.php` | High
+22 | File | `/admin/delete.php` | High
+23 | File | `/admin/del_service.php` | High
+24 | File | `/admin/doctor-specilization.php` | High
+25 | File | `/admin/edit-admin.php` | High
+26 | File | `/admin/edit-guard-detail.php` | High
+27 | File | `/admin/edit_category.php` | High
+28 | File | `/admin/edit_sidebar.php` | High
+29 | File | `/admin/edit_state.php` | High
+30 | File | `/admin/index.php` | High
+31 | File | `/admin/inventory/manage_stock.php` | High
+32 | File | `/admin/login.php` | High
+33 | File | `/Admin/login.php` | High
+34 | File | `/admin/media_folders` | High
+35 | File | `/admin/save_teacher.php` | High
+36 | File | `/admin/search-appointment.php` | High
+37 | File | `/admin/search-pass.php` | High
+38 | File | `/admin/search.php` | High
+39 | File | `/admin/store/edit/` | High
+40 | File | `/admin/sys_sql_query.php` | High
+41 | File | `/admin/template/edit` | High
+42 | File | `/adplanet/PlanetUser` | High
+43 | File | `/adv_dhcps.php` | High
+44 | File | `/ajax.php?action=delete_package` | High
+45 | File | `/ajax.php?action=save_package` | High
+46 | File | `/api/` | Low
+47 | File | `/api/authentication/login` | High
+48 | File | `/api/client/editemedia.php` | High
+49 | File | `/app/controller/Api.php` | High
+50 | File | `/app/controller/Setup.php` | High
+51 | File | `/apps/load` | Medium
+52 | File | `/backend/register.php` | High
+53 | File | `/backups/` | Medium
+54 | File | `/bidlog.php` | Medium
+55 | File | `/birthing_record.php` | High
+56 | File | `/blog` | Low
+57 | File | `/boafrm/formFilter` | High
+58 | File | `/boafrm/formParentControl` | High
+59 | File | `/boafrm/formSaveConfig` | High
+60 | File | `/boafrm/formStaticDHCP` | High
+61 | File | `/boafrm/formTmultiAP` | High
+62 | File | `/boafrm/formWlSiteSurvey` | High
+63 | File | `/BRS_top.html` | High
+64 | File | `/cancel.php` | Medium
+65 | File | `/cashconfirm.php` | High
+66 | File | `/cgi-bin/alexserv` | High
+67 | File | `/cgi-bin/Config.cgi?action=set` | High
+68 | File | `/cgi-bin/cstecgi.cgi` | High
+69 | File | `/cgi-bin/login.cgi` | High
+70 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 614 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -89,21 +89,21 @@ ID | Type | Indicator | Confidence
 24 | File | `/ptippage.cgi` | High
 25 | File | `/rom-0` | Low
 26 | File | `/session/list/allActiveSession` | High
-27 | File | `/syslog_rules` | High
-28 | File | `/tmp/out` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/update-image1.php` | High
-31 | File | `/upload` | Low
-32 | File | `/users/{id}` | Medium
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/v1/operador/` | High
-35 | File | `/var/tmp/sess_*` | High
-36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-37 | File | `/video` | Low
-38 | File | `/videotalk` | Medium
+27 | File | `/spip.php` | Medium
+28 | File | `/syslog_rules` | High
+29 | File | `/tmp/out` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/update-image1.php` | High
+32 | File | `/upload` | Low
+33 | File | `/users/{id}` | Medium
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/v1/operador/` | High
+36 | File | `/var/tmp/sess_*` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/video` | Low
 39 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

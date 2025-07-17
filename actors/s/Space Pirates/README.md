@@ -50,19 +50,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin_notify.php` | High
-2 | File | `/backend/admin/his_admin_register_patient.php` | High
-3 | File | `/controller/Index.php` | High
-4 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-5 | File | `/includes/rrdtool.inc.php` | High
-6 | File | `/login.php` | Medium
-7 | File | `/robots.txt` | Medium
-8 | File | `/rom` | Low
-9 | File | `/srv/www/htdocs` | High
-10 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-11 | File | `abook_database.php` | High
+2 | File | `/api/wizard/setsyncpppoecfg` | High
+3 | File | `/backend/admin/his_admin_register_patient.php` | High
+4 | File | `/controller/Index.php` | High
+5 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+6 | File | `/includes/rrdtool.inc.php` | High
+7 | File | `/login.php` | Medium
+8 | File | `/robots.txt` | Medium
+9 | File | `/rom` | Low
+10 | File | `/srv/www/htdocs` | High
+11 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
 12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

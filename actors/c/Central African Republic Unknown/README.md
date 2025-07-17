@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,52 +81,53 @@ ID | Type | Indicator | Confidence
 20 | File | `/boat/login.php` | High
 21 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/clinic/disease_symptoms_view.php` | High
-24 | File | `/config-manager/save` | High
-25 | File | `/csms/admin/inquiries/view_details.php` | High
-26 | File | `/dashboard/menu-list.php` | High
-27 | File | `/dashboard/table-list.php` | High
-28 | File | `/default.php?idx=17` | High
-29 | File | `/doctor/view-appointment-detail.php` | High
-30 | File | `/download` | Medium
-31 | File | `/downloadFile.php` | High
-32 | File | `/edit-client-details.php` | High
-33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-34 | File | `/env` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/grade/report/grader/index.php` | High
-37 | File | `/include/file.php` | High
-38 | File | `/index.php` | Medium
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/log/download.php` | High
-41 | File | `/login.php?do=login` | High
-42 | File | `/main/fileupload.php` | High
-43 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-44 | File | `/member.php?action=chgpwdsubmit` | High
-45 | File | `/modules/projects/vw_files.php` | High
-46 | File | `/multi-vendor-shopping-script/product-list.php` | High
-47 | File | `/opt/bin/cli` | Medium
-48 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-49 | File | `/outgoing.php` | High
-50 | File | `/p` | Low
-51 | File | `/patient/doctors.php` | High
-52 | File | `/pg_meta/default/query` | High
-53 | File | `/phpinventory/editcategory.php` | High
-54 | File | `/product-details.php` | High
-55 | File | `/product-list.php` | High
-56 | File | `/products/view_product.php` | High
-57 | File | `/s/index.php?action=statistics` | High
-58 | File | `/sdm-ws-rest/preconfiguration` | High
-59 | File | `/spip.php` | Medium
-60 | File | `/src/Illuminate/Laravel.php` | High
-61 | File | `/uncpath/` | Medium
-62 | File | `/updown/upload.cgi` | High
-63 | File | `/user/del.php` | High
-64 | File | `/usr/bin/pkexec` | High
-65 | File | `/var/log/rkhunter.log` | High
-66 | ... | ... | ...
+23 | File | `/cgi-bin/gui.cgi` | High
+24 | File | `/clinic/disease_symptoms_view.php` | High
+25 | File | `/config-manager/save` | High
+26 | File | `/csms/admin/inquiries/view_details.php` | High
+27 | File | `/dashboard/menu-list.php` | High
+28 | File | `/dashboard/table-list.php` | High
+29 | File | `/default.php?idx=17` | High
+30 | File | `/doctor/view-appointment-detail.php` | High
+31 | File | `/download` | Medium
+32 | File | `/downloadFile.php` | High
+33 | File | `/edit-client-details.php` | High
+34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+35 | File | `/env` | Low
+36 | File | `/forum/away.php` | High
+37 | File | `/grade/report/grader/index.php` | High
+38 | File | `/include/file.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/install/index.php` | High
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/log/download.php` | High
+43 | File | `/login.php?do=login` | High
+44 | File | `/main/fileupload.php` | High
+45 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+46 | File | `/member.php?action=chgpwdsubmit` | High
+47 | File | `/modules/projects/vw_files.php` | High
+48 | File | `/multi-vendor-shopping-script/product-list.php` | High
+49 | File | `/opt/bin/cli` | Medium
+50 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+51 | File | `/outgoing.php` | High
+52 | File | `/p` | Low
+53 | File | `/patient/doctors.php` | High
+54 | File | `/pg_meta/default/query` | High
+55 | File | `/phpinventory/editcategory.php` | High
+56 | File | `/product-details.php` | High
+57 | File | `/product-list.php` | High
+58 | File | `/products/view_product.php` | High
+59 | File | `/s/index.php?action=statistics` | High
+60 | File | `/sdm-ws-rest/preconfiguration` | High
+61 | File | `/spip.php` | Medium
+62 | File | `/src/Illuminate/Laravel.php` | High
+63 | File | `/uncpath/` | Medium
+64 | File | `/updown/upload.cgi` | High
+65 | File | `/user/del.php` | High
+66 | File | `/usr/bin/pkexec` | High
+67 | ... | ... | ...
 
-There are 583 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

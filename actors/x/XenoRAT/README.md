@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.66.231.63](https://vuldb.com/?ip.45.66.231.63) | - | - | High
 5 | [45.133.174.133](https://vuldb.com/?ip.45.133.174.133) | - | - | High
 6 | [49.194.29.240](https://vuldb.com/?ip.49.194.29.240) | n49-194-29-240.per2.wa.optusnet.com.au | - | High
-7 | ... | ... | ... | ...
+7 | [51.38.196.118](https://vuldb.com/?ip.51.38.196.118) | server25.mentality.cloud | - | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,61 +63,57 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/reminders/manage_reminder.php` | High
 9 | File | `/admin/user/manage_user.php` | High
 10 | File | `/adminPage/conf/reload` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/cron/settings/setJob/` | High
-13 | File | `/API/info` | Medium
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api2/html/` | Medium
-16 | File | `/app/ajax/sell_return_data.php` | High
-17 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-18 | File | `/backend/admin/his_admin_register_patient.php` | High
-19 | File | `/be/rpc.php` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/CCMAdmin/serverlist.asp` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-24 | File | `/cgi/get_param.cgi` | High
-25 | File | `/classes/Master.php?f=delete_inquiry` | High
-26 | File | `/classes/SystemSettings.php?f=update_settings` | High
-27 | File | `/conf/app.conf` | High
-28 | File | `/csms/admin/inquiries/view_details.php` | High
-29 | File | `/cstecgi.cgi` | Medium
-30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-31 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/ecommerce/support_ticket` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/RGFirewallEL` | High
-36 | File | `/h/rest` | Low
-37 | File | `/home/search` | Medium
-38 | File | `/include/chart_generator.php` | High
-39 | File | `/index.php?menu=asterisk_cli` | High
-40 | File | `/index/ajax/lang` | High
-41 | File | `/item/item_con` | High
-42 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/lists/index.php` | High
-45 | File | `/log/decodmail.php` | High
-46 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-47 | File | `/log_proxy` | Medium
-48 | File | `/mailcleaner.php/getStats` | High
-49 | File | `/manage-apartment.php` | High
-50 | File | `/messageboard/view.php` | High
-51 | File | `/mfsNotice/page` | High
-52 | File | `/mkshop/Men/profile.php` | High
-53 | File | `/mkshope/login.php` | High
-54 | File | `/new_item` | Medium
-55 | File | `/novel/bookSetting/list` | High
-56 | File | `/novel/userFeedback/list` | High
-57 | ... | ... | ...
+11 | File | `/admin_topic.php?action=delall` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/cron/settings/setJob/` | High
+14 | File | `/API/info` | Medium
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api2/html/` | Medium
+17 | File | `/app/ajax/sell_return_data.php` | High
+18 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+19 | File | `/backend/admin/his_admin_register_patient.php` | High
+20 | File | `/be/rpc.php` | Medium
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/Bloodgroop_process.php` | High
+23 | File | `/CCMAdmin/serverlist.asp` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+27 | File | `/cgi/get_param.cgi` | High
+28 | File | `/classes/Master.php?f=delete_inquiry` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/conf/app.conf` | High
+31 | File | `/csms/admin/inquiries/view_details.php` | High
+32 | File | `/cstecgi.cgi` | Medium
+33 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+34 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/RGFirewallEL` | High
+39 | File | `/goform/wirelessAdvancedHidden` | High
+40 | File | `/h/rest` | Low
+41 | File | `/home/search` | Medium
+42 | File | `/include/chart_generator.php` | High
+43 | File | `/index.php?menu=asterisk_cli` | High
+44 | File | `/index/ajax/lang` | High
+45 | File | `/item/item_con` | High
+46 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+47 | File | `/lists/index.php` | High
+48 | File | `/log/decodmail.php` | High
+49 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+50 | File | `/log_proxy` | Medium
+51 | File | `/mailcleaner.php/getStats` | High
+52 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3522571/
 * https://x.com/malwrhunterteam/status/1891402914024882374
 
 ## Literature

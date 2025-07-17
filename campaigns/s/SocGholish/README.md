@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -60,7 +60,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-35, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -88,55 +88,56 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
 12 | File | `/admin/content/editor` | High
 13 | File | `/admin/create-package.php` | High
-14 | File | `/admin/del_service.php` | High
-15 | File | `/admin/doAdminAction.php?act=addCate` | High
-16 | File | `/admin/edit-brand.php` | High
-17 | File | `/admin/edit-post.php` | High
-18 | File | `/admin/edit_category.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/overtime_add.php` | High
-21 | File | `/admin/profile.php` | High
-22 | File | `/Admin/Proses_Edit_Akun.php` | High
-23 | File | `/admin/robot.php` | High
-24 | File | `/admin/sales/manage_sale.php` | High
-25 | File | `/admin/search-invoices.php` | High
-26 | File | `/admin/SystemUsers` | High
-27 | File | `/admin/twitter.php` | High
-28 | File | `/admin/update-user.php` | High
-29 | File | `/admin_ping.htm` | High
-30 | File | `/api/asset/upload` | High
-31 | File | `/api/blade-user/submit` | High
-32 | File | `/api/pipelines/upload` | High
-33 | File | `/api/user` | Medium
-34 | File | `/api/v1/documents/` | High
-35 | File | `/api/v1/memories/{id}/update` | High
-36 | File | `/api/v1/steps` | High
-37 | File | `/api/v2/open/tablesInfo` | High
-38 | File | `/app/admin/controller/Upload.php` | High
-39 | File | `/app/controller/Api.php` | High
-40 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-41 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-42 | File | `/applications/nexus/modules/front/store/store.php` | High
-43 | File | `/apps/system/router/upload.go` | High
-44 | File | `/backend/doc/his_doc_update-account.php` | High
-45 | File | `/backend/register.php` | High
-46 | File | `/bin/httpd` | Medium
-47 | File | `/bin/webs` | Medium
-48 | File | `/book_list.php` | High
-49 | File | `/cgi` | Low
-50 | File | `/cgi-bin/apkg_mgr.cgi` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | File | `/cgi-bin/nas_sharing.cgi` | High
-53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-54 | File | `/cgi-bin/system_mgr.cgi` | High
-55 | File | `/classes/Master.php` | High
-56 | File | `/classes/Master.php?f=delete_record` | High
-57 | File | `/classes/Master.php?f=save_category` | High
-58 | File | `/classes/SystemSettings.php?f=update_settings` | High
-59 | File | `/classes/Users.php?f=register_user` | High
-60 | ... | ... | ...
+14 | File | `/admin/doAdminAction.php?act=addCate` | High
+15 | File | `/admin/edit-brand.php` | High
+16 | File | `/admin/edit-post.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/overtime_add.php` | High
+19 | File | `/admin/profile.php` | High
+20 | File | `/Admin/Proses_Edit_Akun.php` | High
+21 | File | `/admin/robot.php` | High
+22 | File | `/admin/sales/manage_sale.php` | High
+23 | File | `/admin/search-invoices.php` | High
+24 | File | `/admin/SystemUsers` | High
+25 | File | `/admin/twitter.php` | High
+26 | File | `/admin/update-user.php` | High
+27 | File | `/admin_ping.htm` | High
+28 | File | `/api/asset/upload` | High
+29 | File | `/api/blade-user/submit` | High
+30 | File | `/api/pipelines/upload` | High
+31 | File | `/api/user` | Medium
+32 | File | `/api/v1/documents/` | High
+33 | File | `/api/v1/memories/{id}/update` | High
+34 | File | `/api/v1/steps` | High
+35 | File | `/api/v2/open/tablesInfo` | High
+36 | File | `/app/admin/controller/Upload.php` | High
+37 | File | `/app/controller/Api.php` | High
+38 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+39 | File | `/applications/nexus/modules/front/store/store.php` | High
+40 | File | `/apps/system/router/upload.go` | High
+41 | File | `/backend/doc/his_doc_update-account.php` | High
+42 | File | `/backend/register.php` | High
+43 | File | `/bin/boa` | Medium
+44 | File | `/bin/webs` | Medium
+45 | File | `/book_list.php` | High
+46 | File | `/cgi` | Low
+47 | File | `/cgi-bin/apkg_mgr.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi` | High
+49 | File | `/cgi-bin/nas_sharing.cgi` | High
+50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+51 | File | `/classes/Master.php` | High
+52 | File | `/classes/Master.php?f=delete_record` | High
+53 | File | `/classes/Master.php?f=save_category` | High
+54 | File | `/classes/SystemSettings.php?f=update_settings` | High
+55 | File | `/classes/Users.php?f=register_user` | High
+56 | File | `/classes/Users.php?f=save` | High
+57 | File | `/classes/Users.php?f=save_client` | High
+58 | File | `/csms/admin/?page=user/manage_user` | High
+59 | File | `/customnode/install` | High
+60 | File | `/database.php` | High
+61 | ... | ... | ...
 
-There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

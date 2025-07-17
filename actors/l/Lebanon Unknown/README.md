@@ -177,10 +177,9 @@ ID | Type | Indicator | Confidence
 52 | File | `/classes/Master.php?f=delete_category` | High
 53 | File | `/classes/Master.php?f=log_employee` | High
 54 | File | `/classes/Master.php?f=save_medicine` | High
-55 | File | `/classes/Master.php?f=save_package` | High
-56 | ... | ... | ...
+55 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

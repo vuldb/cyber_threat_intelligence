@@ -58,7 +58,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

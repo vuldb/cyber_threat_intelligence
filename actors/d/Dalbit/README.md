@@ -53,13 +53,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/Admin/add-admin.php` | High
 2 | File | `/baseOpLog.do` | High
 3 | File | `/cgi-bin/luci/api/auth` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/getcfg.php` | Medium
-6 | File | `/pincode-verification.php` | High
-7 | File | `/uncpath/` | Medium
+4 | File | `/classes/Users.php?f=save` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/getcfg.php` | Medium
+7 | File | `/pincode-verification.php` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

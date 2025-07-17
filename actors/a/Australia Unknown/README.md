@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Australia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [IO](https://vuldb.com/?country.io)
 * [CN](https://vuldb.com/?country.cn)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3903,12 +3903,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3916,20 +3916,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/add_deductions.php` | High
-3 | File | `/admin/admin_login.php` | High
-4 | File | `/admin/bookList?page=1&limit=10` | High
-5 | File | `/admin/manage-services.php` | High
-6 | File | `/api/system/other` | High
-7 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-8 | File | `/api/upload/image` | High
-9 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-10 | File | `/change-password.php` | High
-11 | File | `/dash/update.php` | High
-12 | ... | ... | ...
+1 | File | `/admin/bwdates-request-report-details.php` | High
+2 | File | `/admin/forms/option_lists/edit.php` | High
+3 | File | `/BRS_top.html` | High
+4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+5 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+6 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

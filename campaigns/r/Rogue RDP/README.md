@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -98,26 +98,27 @@ ID | Type | Indicator | Confidence
 33 | File | `/cgi-bin/cstecgi.cgi` | High
 34 | File | `/cgi-bin/nas_sharing.cgi` | High
 35 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/classes/Master.php` | High
-38 | File | `/classes/Master.php?f=delete_record` | High
-39 | File | `/classes/Master.php?f=save_category` | High
-40 | File | `/classes/SystemSettings.php?f=update_settings` | High
-41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/College/admin/teacher.php` | High
-43 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-44 | File | `/customnode/install` | High
-45 | File | `/dcim/rack-roles/` | High
-46 | File | `/deal/{note_id}/note` | High
-47 | File | `/detailed.php` | High
-48 | File | `/dtale/chart-data/1` | High
-49 | File | `/etc/shadow.sample` | High
-50 | File | `/fftools/ffmpeg_enc.c` | High
-51 | File | `/filter.php` | Medium
-52 | File | `/fladmin/sysconfig_doedit.php` | High
-53 | ... | ... | ...
+36 | File | `/classes/Master.php` | High
+37 | File | `/classes/Master.php?f=delete_record` | High
+38 | File | `/classes/Master.php?f=save_category` | High
+39 | File | `/classes/SystemSettings.php?f=update_settings` | High
+40 | File | `/classes/Users.php?f=save` | High
+41 | File | `/College/admin/teacher.php` | High
+42 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+43 | File | `/customnode/install` | High
+44 | File | `/dcim/rack-roles/` | High
+45 | File | `/deal/{note_id}/note` | High
+46 | File | `/detailed.php` | High
+47 | File | `/dtale/chart-data/1` | High
+48 | File | `/etc/shadow.sample` | High
+49 | File | `/fftools/ffmpeg_enc.c` | High
+50 | File | `/filter.php` | Medium
+51 | File | `/fladmin/sysconfig_doedit.php` | High
+52 | File | `/forms/doLogin` | High
+53 | File | `/formSysLog` | Medium
+54 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

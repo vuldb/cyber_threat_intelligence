@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/lists/index.php` | High
 27 | File | `/mkshop/Men/profile.php` | High
 28 | File | `/param.file.tgz` | High
-29 | ... | ... | ...
+29 | File | `/php/exportrecord.php` | High
+30 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -92,11 +92,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `AscService.exe` | High
-2 | File | `ShortcutInfo.java` | High
-3 | File | `web/cgi-bin/hi3510/param.cgi` | High
+2 | File | `web/cgi-bin/hi3510/param.cgi` | High
+3 | Library | `lib/RT/REST2/Middleware/Auth.pm` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

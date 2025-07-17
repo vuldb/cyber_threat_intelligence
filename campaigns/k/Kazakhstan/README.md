@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -285,9 +285,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -302,27 +302,28 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/admin/manage-pages.php` | High
-7 | File | `/admin/twitter.php` | High
-8 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-9 | File | `/api/v1/settings` | High
-10 | File | `/api/v1/toolbox/device/update/swap` | High
-11 | File | `/app/zentao/module/repo/model.php` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/Code/loginnew.php` | High
-16 | File | `/Code/sc_login.php` | High
-17 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-18 | File | `/config` | Low
-19 | File | `/dashboard/admin/edit_member.php` | High
-20 | File | `/dashboard/admin/edit_mem_submit.php` | High
-21 | File | `/dashboard/admin/new_submit.php` | High
-22 | ... | ... | ...
+4 | File | `/admin/admin_action.php` | High
+5 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+6 | File | `/api/v1/settings` | High
+7 | File | `/app/zentao/module/repo/model.php` | High
+8 | File | `/application/index/controller/Pay.php` | High
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cmsms-2.1.6-install.php/index.php` | High
+13 | File | `/dayrui/My/Config/Install.txt` | High
+14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+15 | File | `/devinfo` | Medium
+16 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+17 | File | `/endpoint/add-user.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+20 | File | `/fees.php` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+23 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

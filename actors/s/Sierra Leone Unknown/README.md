@@ -95,9 +95,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/classes/Master.php?f=save_medicine` | High
 11 | File | `/control/add_act.php` | High
 12 | File | `/control/login.php` | High
-13 | ... | ... | ...
+13 | File | `/Employee/changepassword.php` | High
+14 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

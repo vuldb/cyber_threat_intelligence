@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -100,25 +100,25 @@ ID | Type | Indicator | Confidence
 32 | File | `/apps/system/router/upload.go` | High
 33 | File | `/apps/system/services/role_menu.go` | High
 34 | File | `/b2b-supermarket/catalog/all-products` | High
-35 | File | `/branch_viewmore.php` | High
-36 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-37 | File | `/cgi-bin/` | Medium
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/classes/Master.php` | High
-40 | File | `/classes/Master.php?f=delete_category` | High
-41 | File | `/classes/Users.php?f=delete` | High
-42 | File | `/classes/Users.php?f=register_user` | High
-43 | File | `/classes/Users.php?f=save` | High
-44 | File | `/cms/category/list` | High
-45 | File | `/coders/pdf.c` | High
-46 | File | `/control/add_act.php` | High
-47 | File | `/control/WANIPConnection` | High
-48 | File | `/crm/data/pdf.php` | High
-49 | File | `/data/config.ftp.php` | High
-50 | File | `/decoration/admin/update_image.php` | High
-51 | File | `/dede/article_string_mix.php` | High
-52 | File | `/deleteanimal.php` | High
-53 | File | `/download` | Medium
+35 | File | `/bidlog.php` | Medium
+36 | File | `/branch_viewmore.php` | High
+37 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+38 | File | `/cgi-bin/` | Medium
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/classes/Master.php` | High
+41 | File | `/classes/Master.php?f=delete_category` | High
+42 | File | `/classes/Users.php?f=delete` | High
+43 | File | `/classes/Users.php?f=register_user` | High
+44 | File | `/classes/Users.php?f=save` | High
+45 | File | `/cms/category/list` | High
+46 | File | `/coders/pdf.c` | High
+47 | File | `/control/add_act.php` | High
+48 | File | `/control/WANIPConnection` | High
+49 | File | `/crm/data/pdf.php` | High
+50 | File | `/data/config.ftp.php` | High
+51 | File | `/decoration/admin/update_image.php` | High
+52 | File | `/dede/article_string_mix.php` | High
+53 | File | `/deleteanimal.php` | High
 54 | File | `/edit.php` | Medium
 55 | File | `/editar-fornecedor.php` | High
 56 | File | `/edit_user.php` | High
@@ -127,9 +127,10 @@ ID | Type | Indicator | Confidence
 59 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
 60 | File | `/endpoint/delete-account.php` | High
 61 | File | `/etc/grafana/grafana.ini` | High
-62 | ... | ... | ...
+62 | File | `/expcatedit.php` | High
+63 | ... | ... | ...
 
-There are 541 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

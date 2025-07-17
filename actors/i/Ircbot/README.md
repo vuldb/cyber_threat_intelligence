@@ -23,11 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [35.229.93.46](https://vuldb.com/?ip.35.229.93.46) | 46.93.229.35.bc.googleusercontent.com | - | Medium
 2 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
-3 | [64.70.19.203](https://vuldb.com/?ip.64.70.19.203) | mailrelay.203.website.ws | - | High
-4 | [69.49.96.16](https://vuldb.com/?ip.69.49.96.16) | hostingc6-4.megawebservers.com | - | High
+3 | [46.8.127.45](https://vuldb.com/?ip.46.8.127.45) | - | - | High
+4 | [64.70.19.203](https://vuldb.com/?ip.64.70.19.203) | mailrelay.203.website.ws | - | High
 5 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,16 +58,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/catcompany.php` | High
 8 | File | `/changeimage.php` | High
 9 | File | `/dosen/data` | Medium
-10 | File | `/jurusan/data` | High
-11 | File | `/kelas/data` | Medium
-12 | File | `/kelasdosen/data` | High
-13 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-14 | File | `/mahasiswa/data` | High
-15 | File | `/paysystem/branch.php` | High
-16 | File | `/proc/self/cwd` | High
-17 | ... | ... | ...
+10 | File | `/fantasticblog/single.php` | High
+11 | File | `/jurusan/data` | High
+12 | File | `/kelas/data` | Medium
+13 | File | `/kelasdosen/data` | High
+14 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+15 | File | `/mahasiswa/data` | High
+16 | File | `/paysystem/branch.php` | High
+17 | File | `/proc/self/cwd` | High
+18 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +80,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/04/threat-roundup-0412-0419.html
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0531-0607.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0521-0528.html
+* https://urlhaus.abuse.ch/url/3559789/
+* https://urlhaus.abuse.ch/url/3561510/
+* https://urlhaus.abuse.ch/url/3561967/
 
 ## Literature
 

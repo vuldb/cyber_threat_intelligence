@@ -45,7 +45,8 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
 27 | [62.210.201.223](https://vuldb.com/?ip.62.210.201.223) | 62-210-201-223.rev.poneytelecom.eu | - | High
 28 | [62.210.204.81](https://vuldb.com/?ip.62.210.204.81) | 62-210-204-81.rev.poneytelecom.eu | - | High
-29 | ... | ... | ... | ...
+29 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
+30 | ... | ... | ... | ...
 
 There are 114 more IOC items available. Please use our online service to access the data.
 
@@ -94,6 +95,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://de.darktrace.com/blog/socks5systemz-how-darktraces-anomaly-detection-unraveled-a-stealthy-botnet
 * https://threatfox.abuse.ch
 * https://tria.ge/240320-bphqmsdg4s/behavioral2
+* https://tria.ge/250619-ncp1eatpx7/behavioral1
 * https://twitter.com/g0njxa/status/1701212547305607283
 * https://www.bitsight.com/blog/proxyam-powered-socks5systemz-botnet
 * https://www.bitsight.com/blog/unveiling-socks5systemz-rise-new-proxy-service-privateloader-and-amadey

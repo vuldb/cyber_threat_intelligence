@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/foms/routers/place-order.php` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-13 | ... | ... | ...
+13 | File | `/kortex_lite/control/edit_profile.php` | High
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

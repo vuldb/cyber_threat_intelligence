@@ -77,7 +77,8 @@ ID | Type | Indicator | Confidence
 17 | File | `admin/user.php?form=update_f&user_name` | High
 18 | File | `admincp.php` | Medium
 19 | File | `ajaxServerSettingsChk.php` | High
-20 | ... | ... | ...
+20 | File | `app/system/language/admin/language_general.class.php` | High
+21 | ... | ... | ...
 
 There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

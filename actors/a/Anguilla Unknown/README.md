@@ -100,18 +100,19 @@ ID | Type | Indicator | Confidence
 40 | File | `/goform/set_LimitClient_cfg` | High
 41 | File | `/HNAP1` | Low
 42 | File | `/homeaction.php` | High
-43 | File | `/index.php` | Medium
-44 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-45 | File | `/lam/tmp/` | Medium
-46 | File | `/login` | Low
-47 | File | `/modules/sys/form_personalization/json_fp.php` | High
-48 | File | `/ndmComponents.js` | High
-49 | File | `/php-opos/index.php` | High
-50 | File | `/portal/search.htm` | High
-51 | File | `/preauth` | Medium
-52 | ... | ... | ...
+43 | File | `/image-compressor/compressor.php` | High
+44 | File | `/index.php` | Medium
+45 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+46 | File | `/lam/tmp/` | Medium
+47 | File | `/login` | Low
+48 | File | `/modules/sys/form_personalization/json_fp.php` | High
+49 | File | `/ndmComponents.js` | High
+50 | File | `/password-recovery.php` | High
+51 | File | `/php-opos/index.php` | High
+52 | File | `/portal/search.htm` | High
+53 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

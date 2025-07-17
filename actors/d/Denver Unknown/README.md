@@ -102,25 +102,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/mod_room/controller.php?action=add` | High
 6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 7 | File | `/api/client/editemedia.php` | High
-8 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-9 | File | `/api/v2/maps` | Medium
-10 | File | `/attendancelist.php` | High
-11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-12 | File | `/backend/admin/his_admin_register_patient.php` | High
-13 | File | `/backend/register.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/p1_ftpserver.php` | High
-17 | File | `/cgi-bin/tosei_kikai.php` | High
-18 | File | `/classes/Master.php` | High
-19 | File | `/classes/Master.php?f=log_employee` | High
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/classes/Users.php?f=delete` | High
-22 | File | `/control/register_case.php` | High
-23 | File | `/devinfo` | Medium
+8 | File | `/api/login/auth` | High
+9 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+10 | File | `/api/v2/maps` | Medium
+11 | File | `/api/wizard/getBasicInfo` | High
+12 | File | `/api/wizard/networkSetup` | High
+13 | File | `/attendancelist.php` | High
+14 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+15 | File | `/backend/admin/his_admin_register_patient.php` | High
+16 | File | `/backend/register.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/p1_ftpserver.php` | High
+20 | File | `/cgi-bin/tosei_kikai.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=log_employee` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
 24 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

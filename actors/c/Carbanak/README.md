@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,16 +88,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/order.php` | High
-3 | File | `/adminPage/conf/saveCmd` | High
-4 | File | `/car.php` | Medium
-5 | File | `/category.php` | High
-6 | File | `/core/admin/categories.php` | High
-7 | File | `/goform/set_ntp` | High
-8 | File | `/librarian/bookdetails.php` | High
-9 | File | `/multi-vendor-shopping-script/product-list.php` | High
-10 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-11 | File | `/preview.php` | Medium
+2 | File | `/admin/add-propertytype.php` | High
+3 | File | `/admin/order.php` | High
+4 | File | `/adminPage/conf/saveCmd` | High
+5 | File | `/car.php` | Medium
+6 | File | `/category.php` | High
+7 | File | `/core/admin/categories.php` | High
+8 | File | `/goform/set_ntp` | High
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/multi-vendor-shopping-script/product-list.php` | High
+11 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
 12 | File | `/psrs/admin/fields/manage_field.php` | High
 13 | File | `/reservation.php` | High
 14 | File | `/see_more_details.php` | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 16 | File | `/subpage.php` | Medium
 17 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -68,19 +68,21 @@ ID | Type | Indicator | Confidence
 12 | File | `/file-manager/upload.php` | High
 13 | File | `/goform/formResetStatistic` | High
 14 | File | `/goform/formSetPortTr` | High
-15 | File | `/goform/SafeEmailFilter` | High
-16 | File | `/goform/SetFirewallCfg` | High
-17 | File | `/goform/WriteFacMac` | High
-18 | File | `/includes/create_share.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/InnerRepPlus.html` | High
-21 | File | `/j_security_check` | High
-22 | File | `/manage_invoice.php` | High
-23 | File | `/moddable/xs/sources/xsDebug.c` | High
-24 | File | `/Monitoring-History.php` | High
-25 | ... | ... | ...
+15 | File | `/goform/qosClassifier` | High
+16 | File | `/goform/QoSPortSetup` | High
+17 | File | `/goform/SafeEmailFilter` | High
+18 | File | `/goform/SetFirewallCfg` | High
+19 | File | `/goform/wirelessApcli_5g` | High
+20 | File | `/goform/WriteFacMac` | High
+21 | File | `/includes/create_share.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/InnerRepPlus.html` | High
+24 | File | `/j_security_check` | High
+25 | File | `/manage_invoice.php` | High
+26 | File | `/moddable/xs/sources/xsDebug.c` | High
+27 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

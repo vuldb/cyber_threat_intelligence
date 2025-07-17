@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lesotho Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
 * [GB](https://vuldb.com/?country.gb)
+* [UA](https://vuldb.com/?country.ua)
 * ...
 
 There are 42 more country items available. Please use our online service to access the data.
@@ -56,10 +56,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,41 +77,43 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/mod_reports/index.php` | High
 10 | File | `/admin/sales/manage_sale.php` | High
 11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/apilog.php` | Medium
-13 | File | `/app/admin/controller/file/File.php` | High
-14 | File | `/auth_pic.cgi` | High
-15 | File | `/backend/register.php` | High
-16 | File | `/category.php` | High
-17 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-18 | File | `/cgi-bin/api-get_line_status` | High
-19 | File | `/cgi-bin/luci` | High
-20 | File | `/cgi-bin/myMusic.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/Code/loginnew.php` | High
-23 | File | `/Code/sc_login.php` | High
-24 | File | `/config-manager/save` | High
-25 | File | `/control/register_case.php` | High
-26 | File | `/dashboard/admin/edit_member.php` | High
-27 | File | `/dashboard/admin/edit_mem_submit.php` | High
-28 | File | `/dashboard/admin/new_submit.php` | High
-29 | File | `/dashboard/menu-list.php` | High
-30 | File | `/dashboard/message` | High
-31 | File | `/dashboard/table-list.php` | High
-32 | File | `/details.php` | Medium
-33 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
-34 | File | `/directRouter.rfc` | High
-35 | File | `/doctor/view-appointment-detail.php` | High
-36 | File | `/downloadFile.php` | High
-37 | File | `/DXR.axd` | Medium
-38 | File | `/edit-client-details.php` | High
-39 | File | `/expadd.php` | Medium
-40 | File | `/forum/away.php` | High
-41 | File | `/goform/` | Medium
-42 | File | `/goform/telnet` | High
-43 | File | `/hardware` | Medium
-44 | ... | ... | ...
+12 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+13 | File | `/apilog.php` | Medium
+14 | File | `/app/admin/controller/file/File.php` | High
+15 | File | `/auth_pic.cgi` | High
+16 | File | `/backend/register.php` | High
+17 | File | `/category.php` | High
+18 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+19 | File | `/cgi-bin/api-get_line_status` | High
+20 | File | `/cgi-bin/luci` | High
+21 | File | `/cgi-bin/myMusic.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/Code/loginnew.php` | High
+24 | File | `/Code/sc_login.php` | High
+25 | File | `/config-manager/save` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/dashboard/admin/edit_member.php` | High
+28 | File | `/dashboard/admin/edit_mem_submit.php` | High
+29 | File | `/dashboard/admin/new_submit.php` | High
+30 | File | `/dashboard/menu-list.php` | High
+31 | File | `/dashboard/message` | High
+32 | File | `/dashboard/table-list.php` | High
+33 | File | `/details.php` | Medium
+34 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+35 | File | `/devinfo` | Medium
+36 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
+37 | File | `/directRouter.rfc` | High
+38 | File | `/doctor/view-appointment-detail.php` | High
+39 | File | `/downloadFile.php` | High
+40 | File | `/edit-client-details.php` | High
+41 | File | `/expadd.php` | Medium
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/` | Medium
+44 | File | `/goform/telnet` | High
+45 | File | `/hardware` | Medium
+46 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

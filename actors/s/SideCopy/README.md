@@ -51,14 +51,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/?page=inmates/view_inmate` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/api/front/search/books` | High
-7 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-8 | File | `/application/index/controller/Screen.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/boaform/device_reset.cgi` | High
+3 | File | `/admin/?page=inmates/view_inmate` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/api/front/search/books` | High
+6 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/boaform/device_reset.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
 11 | File | `/core/conditions/AbstractWrapper.java` | High
 12 | File | `/debug/pprof` | Medium
 13 | File | `/defaultui/player/modern.html` | High
@@ -78,9 +78,10 @@ ID | Type | Indicator | Confidence
 27 | File | `/plugin/LiveChat/getChat.json.php` | High
 28 | File | `/plugins/servlet/audit/resource` | High
 29 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-30 | ... | ... | ...
+30 | File | `/proc` | Low
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

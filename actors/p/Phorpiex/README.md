@@ -159,7 +159,8 @@ ID | IP address | Hostname | Campaign | Confidence
 130 | [46.224.180.246](https://vuldb.com/?ip.46.224.180.246) | - | - | High
 131 | [46.224.195.177](https://vuldb.com/?ip.46.224.195.177) | - | - | High
 132 | [46.224.250.35](https://vuldb.com/?ip.46.224.250.35) | - | - | High
-133 | ... | ... | ... | ...
+133 | [46.225.101.150](https://vuldb.com/?ip.46.225.101.150) | - | - | High
+134 | ... | ... | ... | ...
 
 There are 530 more IOC items available. Please use our online service to access the data.
 
@@ -219,6 +220,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2021/phorpiex-botnet-is-back-with-a-new-twizt-hijacking-hundreds-of-crypto-transactions/
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3533504/
+* https://urlhaus.abuse.ch/url/3561964/
 * https://urlquery.net/report/3548bad6-0880-417c-8942-46c1f649f4e7
 * https://www.proofpoint.com/us/blog/threat-insight/security-brief-millions-messages-distribute-lockbit-black-ransomware
 * https://www.secureworks.com/blog/phorpiex-continues-to-deliver-sextortion-spam

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,28 +68,28 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/ajax.php` | High
 3 | File | `/admin/blood/update/o-.php` | High
 4 | File | `/admin/bookdate.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/robot/approval/list` | High
-9 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-10 | File | `/api/files/recipepictures/` | High
-11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-12 | File | `/app/uploading/upload-mp3.php` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/change-password.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-21 | File | `/contact.php` | Medium
-22 | File | `/CPE` | Low
-23 | File | `/dataSet/resolveSql` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/forum/PostPrivateMessage` | High
+5 | File | `/admin/edit-admin.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/robot/approval/list` | High
+10 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+11 | File | `/api/files/recipepictures/` | High
+12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+13 | File | `/app/uploading/upload-mp3.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/cgi-bin/adm.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/change-password.php` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+22 | File | `/contact.php` | Medium
+23 | File | `/CPE` | Low
+24 | File | `/dataSet/resolveSql` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/forum/away.php` | High
 27 | File | `/goform/formSetPassword` | High
 28 | File | `/goform/setBlackRule` | High
 29 | File | `/index/ajax/lang` | High
@@ -104,10 +104,10 @@ ID | Type | Indicator | Confidence
 38 | File | `/Script/admin/core/update_policy` | High
 39 | File | `/scripts/unlock_tasks.php` | High
 40 | File | `/secserver` | Medium
-41 | File | `/Session` | Medium
+41 | File | `/server-status` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

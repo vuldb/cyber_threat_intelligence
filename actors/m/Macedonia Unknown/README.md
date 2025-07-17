@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/ndmComponents.js` | High
 13 | File | `/oauth/idp/.well-known/openid-configuration` | High
 14 | File | `/owa/auth/logon.aspx` | High
-15 | ... | ... | ...
+15 | File | `/Report/ParkCommon/GetParkInThroughDeivces` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

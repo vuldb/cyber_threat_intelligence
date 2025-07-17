@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TR](https://vuldb.com/?country.tr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,8 +21,8 @@ These _actors_ are associated with Iran or other actors linked to the campaign.
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-2 | [Indra](https://vuldb.com/?actor.indra) | High
+1 | [Indra](https://vuldb.com/?actor.indra) | High
+2 | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -389,110 +389,111 @@ ID | IP address | Hostname | Actor | Confidence
 357 | [62.220.96.0](https://vuldb.com/?ip.62.220.96.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
 358 | [63.220.195.178](https://vuldb.com/?ip.63.220.195.178) | 63-220-195-178.static.as3491.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
 359 | [63.243.185.0](https://vuldb.com/?ip.63.243.185.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-360 | [66.79.96.0](https://vuldb.com/?ip.66.79.96.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-361 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-362 | [67.205.78.104](https://vuldb.com/?ip.67.205.78.104) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-363 | [67.205.87.240](https://vuldb.com/?ip.67.205.87.240) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-364 | [68.169.205.192](https://vuldb.com/?ip.68.169.205.192) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-365 | [68.183.79.77](https://vuldb.com/?ip.68.183.79.77) | - | [Indra](https://vuldb.com/?actor.indra) | High
-366 | [69.194.64.0](https://vuldb.com/?ip.69.194.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-367 | [70.34.248.149](https://vuldb.com/?ip.70.34.248.149) | 70.34.248.149.vultrusercontent.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | Medium
-368 | [72.55.141.16](https://vuldb.com/?ip.72.55.141.16) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-369 | [72.55.163.236](https://vuldb.com/?ip.72.55.163.236) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-370 | [72.55.173.80](https://vuldb.com/?ip.72.55.173.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-371 | [72.55.173.248](https://vuldb.com/?ip.72.55.173.248) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-372 | [77.36.128.0](https://vuldb.com/?ip.77.36.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-373 | [77.37.116.0](https://vuldb.com/?ip.77.37.116.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-374 | [77.37.120.0](https://vuldb.com/?ip.77.37.120.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-375 | [77.42.0.0](https://vuldb.com/?ip.77.42.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-376 | [77.67.32.0](https://vuldb.com/?ip.77.67.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-377 | [77.72.80.0](https://vuldb.com/?ip.77.72.80.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-378 | [77.77.64.0](https://vuldb.com/?ip.77.77.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-379 | [77.81.32.0](https://vuldb.com/?ip.77.81.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-380 | [77.81.76.0](https://vuldb.com/?ip.77.81.76.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-381 | [77.81.78.0](https://vuldb.com/?ip.77.81.78.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-382 | [77.81.80.0](https://vuldb.com/?ip.77.81.80.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-383 | [77.81.82.0](https://vuldb.com/?ip.77.81.82.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-384 | [77.81.128.0](https://vuldb.com/?ip.77.81.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-385 | [77.81.144.0](https://vuldb.com/?ip.77.81.144.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-386 | [77.81.192.0](https://vuldb.com/?ip.77.81.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-387 | [77.95.220.0](https://vuldb.com/?ip.77.95.220.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-388 | [77.104.64.0](https://vuldb.com/?ip.77.104.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-389 | [77.237.64.0](https://vuldb.com/?ip.77.237.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-390 | [77.237.160.0](https://vuldb.com/?ip.77.237.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-391 | [77.238.104.0](https://vuldb.com/?ip.77.238.104.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-392 | [77.238.112.0](https://vuldb.com/?ip.77.238.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-393 | [77.245.224.0](https://vuldb.com/?ip.77.245.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-394 | [78.31.232.0](https://vuldb.com/?ip.78.31.232.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-395 | [78.38.0.0](https://vuldb.com/?ip.78.38.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-396 | [78.109.192.0](https://vuldb.com/?ip.78.109.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-397 | [78.110.112.0](https://vuldb.com/?ip.78.110.112.0) | 78.110.112.0.asiatech.cloud | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-398 | [78.111.0.0](https://vuldb.com/?ip.78.111.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-399 | [78.141.238.182](https://vuldb.com/?ip.78.141.238.182) | 78.141.238.182.vultrusercontent.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | Medium
-400 | [78.154.32.0](https://vuldb.com/?ip.78.154.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-401 | [78.157.32.0](https://vuldb.com/?ip.78.157.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-402 | [78.158.160.0](https://vuldb.com/?ip.78.158.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-403 | [79.127.0.0](https://vuldb.com/?ip.79.127.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-404 | [79.132.192.0](https://vuldb.com/?ip.79.132.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-405 | [79.132.200.0](https://vuldb.com/?ip.79.132.200.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-406 | [79.132.208.0](https://vuldb.com/?ip.79.132.208.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-407 | [79.137.2.125](https://vuldb.com/?ip.79.137.2.125) | 89532.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-408 | [79.143.84.0](https://vuldb.com/?ip.79.143.84.0) | hosted-by.mobinhost.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-409 | [79.143.86.0](https://vuldb.com/?ip.79.143.86.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-410 | [79.174.160.0](https://vuldb.com/?ip.79.174.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-411 | [79.175.128.0](https://vuldb.com/?ip.79.175.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-412 | [80.66.176.0](https://vuldb.com/?ip.80.66.176.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-413 | [80.71.112.0](https://vuldb.com/?ip.80.71.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-414 | [80.71.149.0](https://vuldb.com/?ip.80.71.149.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-415 | [80.75.0.0](https://vuldb.com/?ip.80.75.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-416 | [80.75.213.0](https://vuldb.com/?ip.80.75.213.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-417 | [80.75.215.0](https://vuldb.com/?ip.80.75.215.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-418 | [80.85.82.80](https://vuldb.com/?ip.80.85.82.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-419 | [80.91.208.0](https://vuldb.com/?ip.80.91.208.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-420 | [80.191.0.0](https://vuldb.com/?ip.80.191.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-421 | [80.209.253.114](https://vuldb.com/?ip.80.209.253.114) | imacapps.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-422 | [80.210.0.0](https://vuldb.com/?ip.80.210.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-423 | [80.210.128.0](https://vuldb.com/?ip.80.210.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-424 | [80.242.0.0](https://vuldb.com/?ip.80.242.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-425 | [80.244.7.0](https://vuldb.com/?ip.80.244.7.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-426 | [80.249.112.0](https://vuldb.com/?ip.80.249.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-427 | [80.250.192.0](https://vuldb.com/?ip.80.250.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-428 | [80.253.128.0](https://vuldb.com/?ip.80.253.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-429 | [80.255.3.160](https://vuldb.com/?ip.80.255.3.160) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-430 | [81.12.0.0](https://vuldb.com/?ip.81.12.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-431 | [81.16.112.0](https://vuldb.com/?ip.81.16.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-432 | [81.28.32.0](https://vuldb.com/?ip.81.28.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-433 | [81.28.252.0](https://vuldb.com/?ip.81.28.252.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-434 | [81.29.240.0](https://vuldb.com/?ip.81.29.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-435 | [81.30.98.0](https://vuldb.com/?ip.81.30.98.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-436 | [81.30.107.0](https://vuldb.com/?ip.81.30.107.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-437 | [81.30.108.0](https://vuldb.com/?ip.81.30.108.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-438 | [81.31.160.0](https://vuldb.com/?ip.81.31.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-439 | [81.31.224.0](https://vuldb.com/?ip.81.31.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-440 | [81.31.228.0](https://vuldb.com/?ip.81.31.228.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-441 | [81.31.230.0](https://vuldb.com/?ip.81.31.230.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-442 | [81.31.233.0](https://vuldb.com/?ip.81.31.233.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-443 | [81.31.236.0](https://vuldb.com/?ip.81.31.236.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-444 | [81.31.240.0](https://vuldb.com/?ip.81.31.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-445 | [81.31.248.0](https://vuldb.com/?ip.81.31.248.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-446 | [81.90.144.0](https://vuldb.com/?ip.81.90.144.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-447 | [81.91.128.0](https://vuldb.com/?ip.81.91.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-448 | [81.92.216.0](https://vuldb.com/?ip.81.92.216.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-449 | [81.163.0.0](https://vuldb.com/?ip.81.163.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-450 | [82.97.224.0](https://vuldb.com/?ip.82.97.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-451 | [82.97.228.0](https://vuldb.com/?ip.82.97.228.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-452 | [82.97.229.0](https://vuldb.com/?ip.82.97.229.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-453 | [82.97.229.80](https://vuldb.com/?ip.82.97.229.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-454 | [82.97.229.96](https://vuldb.com/?ip.82.97.229.96) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-455 | [82.97.229.128](https://vuldb.com/?ip.82.97.229.128) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-456 | [82.97.230.0](https://vuldb.com/?ip.82.97.230.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-457 | [82.97.232.0](https://vuldb.com/?ip.82.97.232.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-458 | [82.97.240.0](https://vuldb.com/?ip.82.97.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-459 | [82.99.192.0](https://vuldb.com/?ip.82.99.192.0) | 82.99.192.0.parsonline.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-460 | [82.102.9.0](https://vuldb.com/?ip.82.102.9.0) | h82-102-9-0.host.redstation.co.uk | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-461 | [82.102.14.0](https://vuldb.com/?ip.82.102.14.0) | h82-102-14-0.host.redstation.co.uk | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-462 | [82.115.5.42](https://vuldb.com/?ip.82.115.5.42) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-463 | ... | ... | ... | ...
+360 | [64.72.205.32](https://vuldb.com/?ip.64.72.205.32) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+361 | [66.79.96.0](https://vuldb.com/?ip.66.79.96.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+362 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+363 | [67.205.78.104](https://vuldb.com/?ip.67.205.78.104) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+364 | [67.205.87.240](https://vuldb.com/?ip.67.205.87.240) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+365 | [68.169.205.192](https://vuldb.com/?ip.68.169.205.192) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+366 | [68.183.79.77](https://vuldb.com/?ip.68.183.79.77) | - | [Indra](https://vuldb.com/?actor.indra) | High
+367 | [69.194.64.0](https://vuldb.com/?ip.69.194.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+368 | [70.34.248.149](https://vuldb.com/?ip.70.34.248.149) | 70.34.248.149.vultrusercontent.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | Medium
+369 | [72.55.141.16](https://vuldb.com/?ip.72.55.141.16) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+370 | [72.55.163.236](https://vuldb.com/?ip.72.55.163.236) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+371 | [72.55.173.80](https://vuldb.com/?ip.72.55.173.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+372 | [72.55.173.248](https://vuldb.com/?ip.72.55.173.248) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+373 | [77.36.128.0](https://vuldb.com/?ip.77.36.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+374 | [77.37.116.0](https://vuldb.com/?ip.77.37.116.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+375 | [77.37.120.0](https://vuldb.com/?ip.77.37.120.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+376 | [77.42.0.0](https://vuldb.com/?ip.77.42.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+377 | [77.67.32.0](https://vuldb.com/?ip.77.67.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+378 | [77.72.80.0](https://vuldb.com/?ip.77.72.80.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+379 | [77.77.64.0](https://vuldb.com/?ip.77.77.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+380 | [77.81.32.0](https://vuldb.com/?ip.77.81.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+381 | [77.81.76.0](https://vuldb.com/?ip.77.81.76.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+382 | [77.81.78.0](https://vuldb.com/?ip.77.81.78.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+383 | [77.81.80.0](https://vuldb.com/?ip.77.81.80.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+384 | [77.81.82.0](https://vuldb.com/?ip.77.81.82.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+385 | [77.81.128.0](https://vuldb.com/?ip.77.81.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+386 | [77.81.144.0](https://vuldb.com/?ip.77.81.144.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+387 | [77.81.192.0](https://vuldb.com/?ip.77.81.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+388 | [77.95.220.0](https://vuldb.com/?ip.77.95.220.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+389 | [77.104.64.0](https://vuldb.com/?ip.77.104.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+390 | [77.237.64.0](https://vuldb.com/?ip.77.237.64.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+391 | [77.237.160.0](https://vuldb.com/?ip.77.237.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+392 | [77.238.104.0](https://vuldb.com/?ip.77.238.104.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+393 | [77.238.112.0](https://vuldb.com/?ip.77.238.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+394 | [77.245.224.0](https://vuldb.com/?ip.77.245.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+395 | [78.31.232.0](https://vuldb.com/?ip.78.31.232.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+396 | [78.38.0.0](https://vuldb.com/?ip.78.38.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+397 | [78.109.192.0](https://vuldb.com/?ip.78.109.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+398 | [78.110.112.0](https://vuldb.com/?ip.78.110.112.0) | 78.110.112.0.asiatech.cloud | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+399 | [78.111.0.0](https://vuldb.com/?ip.78.111.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+400 | [78.141.238.182](https://vuldb.com/?ip.78.141.238.182) | 78.141.238.182.vultrusercontent.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | Medium
+401 | [78.154.32.0](https://vuldb.com/?ip.78.154.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+402 | [78.157.32.0](https://vuldb.com/?ip.78.157.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+403 | [78.158.160.0](https://vuldb.com/?ip.78.158.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+404 | [79.127.0.0](https://vuldb.com/?ip.79.127.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+405 | [79.132.192.0](https://vuldb.com/?ip.79.132.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+406 | [79.132.200.0](https://vuldb.com/?ip.79.132.200.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+407 | [79.132.208.0](https://vuldb.com/?ip.79.132.208.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+408 | [79.137.2.125](https://vuldb.com/?ip.79.137.2.125) | 89532.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+409 | [79.143.84.0](https://vuldb.com/?ip.79.143.84.0) | hosted-by.mobinhost.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+410 | [79.143.86.0](https://vuldb.com/?ip.79.143.86.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+411 | [79.174.160.0](https://vuldb.com/?ip.79.174.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+412 | [79.175.128.0](https://vuldb.com/?ip.79.175.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+413 | [80.66.176.0](https://vuldb.com/?ip.80.66.176.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+414 | [80.71.112.0](https://vuldb.com/?ip.80.71.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+415 | [80.71.149.0](https://vuldb.com/?ip.80.71.149.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+416 | [80.75.0.0](https://vuldb.com/?ip.80.75.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+417 | [80.75.213.0](https://vuldb.com/?ip.80.75.213.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+418 | [80.75.215.0](https://vuldb.com/?ip.80.75.215.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+419 | [80.85.82.80](https://vuldb.com/?ip.80.85.82.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+420 | [80.91.208.0](https://vuldb.com/?ip.80.91.208.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+421 | [80.191.0.0](https://vuldb.com/?ip.80.191.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+422 | [80.209.253.114](https://vuldb.com/?ip.80.209.253.114) | imacapps.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+423 | [80.210.0.0](https://vuldb.com/?ip.80.210.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+424 | [80.210.128.0](https://vuldb.com/?ip.80.210.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+425 | [80.242.0.0](https://vuldb.com/?ip.80.242.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+426 | [80.244.7.0](https://vuldb.com/?ip.80.244.7.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+427 | [80.249.112.0](https://vuldb.com/?ip.80.249.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+428 | [80.250.192.0](https://vuldb.com/?ip.80.250.192.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+429 | [80.253.128.0](https://vuldb.com/?ip.80.253.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+430 | [80.255.3.160](https://vuldb.com/?ip.80.255.3.160) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+431 | [81.12.0.0](https://vuldb.com/?ip.81.12.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+432 | [81.16.112.0](https://vuldb.com/?ip.81.16.112.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+433 | [81.28.32.0](https://vuldb.com/?ip.81.28.32.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+434 | [81.28.252.0](https://vuldb.com/?ip.81.28.252.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+435 | [81.29.240.0](https://vuldb.com/?ip.81.29.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+436 | [81.30.98.0](https://vuldb.com/?ip.81.30.98.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+437 | [81.30.107.0](https://vuldb.com/?ip.81.30.107.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+438 | [81.30.108.0](https://vuldb.com/?ip.81.30.108.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+439 | [81.31.160.0](https://vuldb.com/?ip.81.31.160.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+440 | [81.31.224.0](https://vuldb.com/?ip.81.31.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+441 | [81.31.228.0](https://vuldb.com/?ip.81.31.228.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+442 | [81.31.230.0](https://vuldb.com/?ip.81.31.230.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+443 | [81.31.233.0](https://vuldb.com/?ip.81.31.233.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+444 | [81.31.236.0](https://vuldb.com/?ip.81.31.236.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+445 | [81.31.240.0](https://vuldb.com/?ip.81.31.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+446 | [81.31.248.0](https://vuldb.com/?ip.81.31.248.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+447 | [81.90.144.0](https://vuldb.com/?ip.81.90.144.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+448 | [81.91.128.0](https://vuldb.com/?ip.81.91.128.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+449 | [81.92.216.0](https://vuldb.com/?ip.81.92.216.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+450 | [81.163.0.0](https://vuldb.com/?ip.81.163.0.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+451 | [82.97.224.0](https://vuldb.com/?ip.82.97.224.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+452 | [82.97.228.0](https://vuldb.com/?ip.82.97.228.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+453 | [82.97.229.0](https://vuldb.com/?ip.82.97.229.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+454 | [82.97.229.80](https://vuldb.com/?ip.82.97.229.80) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+455 | [82.97.229.96](https://vuldb.com/?ip.82.97.229.96) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+456 | [82.97.229.128](https://vuldb.com/?ip.82.97.229.128) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+457 | [82.97.230.0](https://vuldb.com/?ip.82.97.230.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+458 | [82.97.232.0](https://vuldb.com/?ip.82.97.232.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+459 | [82.97.240.0](https://vuldb.com/?ip.82.97.240.0) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+460 | [82.99.192.0](https://vuldb.com/?ip.82.99.192.0) | 82.99.192.0.parsonline.net | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+461 | [82.102.9.0](https://vuldb.com/?ip.82.102.9.0) | h82-102-9-0.host.redstation.co.uk | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+462 | [82.102.14.0](https://vuldb.com/?ip.82.102.14.0) | h82-102-14-0.host.redstation.co.uk | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+463 | [82.115.5.42](https://vuldb.com/?ip.82.115.5.42) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+464 | ... | ... | ... | ...
 
 There are 1850 more IOC items available. Please use our online service to access the data.
 
@@ -502,13 +503,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -516,54 +517,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_deductions.php` | High
-2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-4 | File | `/admin/bookList?page=1&limit=10` | High
-5 | File | `/admin/bwdates-report-details.php` | High
-6 | File | `/admin/change-image.php` | High
-7 | File | `/admin/chatroom.php` | High
-8 | File | `/admin/cmsVote/save` | High
+1 | File | `/add-normal-ticket.php` | High
+2 | File | `/add_deductions.php` | High
+3 | File | `/admin/all-applications.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+5 | File | `/admin/bookList?page=1&limit=10` | High
+6 | File | `/admin/bwdates-report-details.php` | High
+7 | File | `/admin/bwdates-request-report-details.php` | High
+8 | File | `/admin/chatroom.php` | High
 9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/getallarticleinfo` | High
-11 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/normal-search.php` | High
-15 | File | `/admin/operations/expense_category.php` | High
-16 | File | `/admin/orders/view_order.php` | High
-17 | File | `/admin/print.php` | High
-18 | File | `/admin/product/manage_product.php` | High
-19 | File | `/admin/profile.php` | High
-20 | File | `/admin/salary_slip.php` | High
-21 | File | `/admin/template/update` | High
-22 | File | `/admin/user-search.php` | High
-23 | File | `/adminPage/main/upload` | High
-24 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-25 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-26 | File | `/api/ping` | Medium
-27 | File | `/api/sys/set_passwd` | High
-28 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-29 | File | `/auth/register` | High
-30 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-31 | File | `/backend/admin/his_admin_add_vendor.php` | High
-32 | File | `/backend/admin/his_admin_register_patient.php` | High
-33 | File | `/catalog/compare` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/hd_config.cgi` | High
-36 | File | `/cgi-bin/mainfunction.cgi` | High
-37 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-38 | File | `/change-password.php` | High
-39 | File | `/classes/Master.php?f=save_course` | High
-40 | File | `/classes/Master.php?f=save_position` | High
-41 | File | `/cupseasylive/locationcreate.php` | High
-42 | File | `/dash/update.php` | High
-43 | File | `/dashboard/admin/submit_payments.php` | High
-44 | File | `/department.php` | High
-45 | File | `/editar-cliente.php` | High
-46 | ... | ... | ...
+10 | File | `/admin/edit-products.php` | High
+11 | File | `/admin/enrollment-details.php` | High
+12 | File | `/admin/forms/option_lists/edit.php` | High
+13 | File | `/admin/getallarticleinfo` | High
+14 | File | `/admin/get_price.php` | High
+15 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/index2.html` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/normal-search.php` | High
+20 | File | `/admin/print.php` | High
+21 | File | `/admin/profile.php` | High
+22 | File | `/admin/salary_slip.php` | High
+23 | File | `/admin/template/update` | High
+24 | File | `/admin/user-search.php` | High
+25 | File | `/adminPage/main/upload` | High
+26 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+27 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+28 | File | `/api/ping` | Medium
+29 | File | `/api/sys/set_passwd` | High
+30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+31 | File | `/api/wizard/setsyncpppoecfg` | High
+32 | File | `/app/controller/Api.php` | High
+33 | File | `/auth.asp` | Medium
+34 | File | `/auth/register` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/boafrm/formFilter` | High
+37 | File | `/boafrm/formSysCmd` | High
+38 | File | `/BRS_top.html` | High
+39 | File | `/catalog/compare` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/hd_config.cgi` | High
+42 | File | `/cgi-bin/mainfunction.cgi` | High
+43 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+44 | File | `/change-password.php` | High
+45 | File | `/classes/Master.php?f=save_course` | High
+46 | File | `/classes/Master.php?f=save_position` | High
+47 | File | `/config/config.properties` | High
+48 | File | `/coreframe/app/guestbook/myissue.php` | High
+49 | File | `/cupseasylive/locationcreate.php` | High
+50 | File | `/dash/update.php` | High
+51 | File | `/dashboard/admin/submit_payments.php` | High
+52 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -577,6 +584,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_ir.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ir.netset
 * https://research.checkpoint.com/2021/indra-hackers-behind-recent-attacks-on-iran/
+* https://unit42.paloaltonetworks.com/iranian-attackers-impersonate-model-agency/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-321a
 * https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-241a
 * https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-290a

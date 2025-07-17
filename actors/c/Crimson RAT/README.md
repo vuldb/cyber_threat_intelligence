@@ -46,9 +46,10 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | - | High
 24 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
 25 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
-26 | ... | ... | ... | ...
+26 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 101 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -104,8 +105,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/165.140.85.87
 * https://search.censys.io/hosts/172.86.80.211
 * https://search.censys.io/hosts/172.86.109.207
+* https://search.censys.io/hosts/174.138.184.252
 * https://search.censys.io/hosts/185.157.77.32
 * https://search.censys.io/hosts/192.3.95.164
+* https://search.censys.io/hosts/192.3.95.227
 * https://search.censys.io/hosts/209.145.56.66
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q

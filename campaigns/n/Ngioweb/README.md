@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ngioweb:
 
-* [LA](https://vuldb.com/?country.la)
 * [CN](https://vuldb.com/?country.cn)
+* [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
 * ...
 
@@ -99,9 +99,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/add-students.php` | High
-4 | File | `/add_new_supplier.php` | High
+2 | File | `/add-students.php` | High
+3 | File | `/add_new_supplier.php` | High
+4 | File | `/admin-api/mp/material/upload-permanent` | High
 5 | File | `/admin.php?p=/Area/index#tab=t2` | High
 6 | File | `/admin/` | Low
 7 | File | `/admin/admin-update-employee.php` | High
@@ -119,38 +119,38 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/quizquestion.php` | High
 20 | File | `/admin/search-appointment.php` | High
 21 | File | `/admin/search-vehicle.php` | High
-22 | File | `/adminPage/conf/reload` | High
-23 | File | `/admin_topic.php?action=delall` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/clusters/local/topics/{topic}/messages` | High
-26 | File | `/api/cron/settings/setJob/` | High
-27 | File | `/API/info` | Medium
-28 | File | `/api2/html/` | Medium
-29 | File | `/app/api/controller/caiji.php` | High
-30 | File | `/application/index/controller/Service.php` | High
-31 | File | `/bitrix/admin/ldap_server_edit.php` | High
-32 | File | `/boafrm/formIpQoS` | High
-33 | File | `/buscar_integrada.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-39 | File | `/cgi-bin/tosei_kikai.php` | High
-40 | File | `/cgi-bin/wlogin.cgi` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/config/php.ini` | High
-43 | File | `/cov/triggerEnvCov` | High
-44 | File | `/dashboard/admin/del_plan.php` | High
-45 | File | `/dashboard/approve-reject.php` | High
-46 | File | `/debug/pprof` | Medium
-47 | File | `/dede/file_manage_control.php` | High
-48 | File | `/detailed.php` | High
-49 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-50 | File | `/dist/index.js` | High
+22 | File | `/admin/voters_row.php` | High
+23 | File | `/adminPage/conf/reload` | High
+24 | File | `/admin_topic.php?action=delall` | High
+25 | File | `/api/authentication/login` | High
+26 | File | `/api/baskets/{name}` | High
+27 | File | `/api/clusters/local/topics/{topic}/messages` | High
+28 | File | `/api/cron/settings/setJob/` | High
+29 | File | `/API/info` | Medium
+30 | File | `/api2/html/` | Medium
+31 | File | `/app/api/controller/caiji.php` | High
+32 | File | `/application/index/controller/Service.php` | High
+33 | File | `/applyleave.php` | High
+34 | File | `/bitrix/admin/ldap_server_edit.php` | High
+35 | File | `/boafrm/formIpQoS` | High
+36 | File | `/buscar_integrada.php` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+39 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+40 | File | `/cgi-bin/myMusic.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+43 | File | `/cgi-bin/tosei_kikai.php` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/classes/Master.php` | High
+46 | File | `/config/php.ini` | High
+47 | File | `/cov/triggerEnvCov` | High
+48 | File | `/dashboard/admin/del_plan.php` | High
+49 | File | `/dashboard/approve-reject.php` | High
+50 | File | `/debug/pprof` | Medium
 51 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

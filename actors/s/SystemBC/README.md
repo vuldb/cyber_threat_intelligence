@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,7 +77,7 @@ ID | IP address | Hostname | Campaign | Confidence
 54 | [45.131.66.83](https://vuldb.com/?ip.45.131.66.83) | - | - | High
 55 | ... | ... | ... | ...
 
-There are 215 more IOC items available. Please use our online service to access the data.
+There are 217 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -132,23 +132,23 @@ ID | Type | Indicator | Confidence
 31 | File | `/applications/nexus/modules/front/store/store.php` | High
 32 | File | `/backend/doc/his_doc_update-account.php` | High
 33 | File | `/bitrix/admin/ldap_server_edit.php` | High
-34 | File | `/book-services.php` | High
-35 | File | `/cgi-bin/apkg_mgr.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/cgi-bin/wlogin.cgi` | High
-40 | File | `/classes/Master.php` | High
-41 | File | `/classes/Master.php?f=delete_record` | High
-42 | File | `/classes/Master.php?f=save_category` | High
-43 | File | `/classes/SystemSettings.php?f=update_settings` | High
-44 | File | `/classes/Users.php?f=save` | High
-45 | File | `/clientdetails/admin/regester.php` | High
-46 | File | `/customnode/install` | High
-47 | File | `/deal/{note_id}/note` | High
+34 | File | `/cgi-bin/apkg_mgr.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_record` | High
+41 | File | `/classes/Master.php?f=save_category` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/classes/Users.php?f=save` | High
+44 | File | `/clientdetails/admin/regester.php` | High
+45 | File | `/customnode/install` | High
+46 | File | `/deal/{note_id}/note` | High
+47 | File | `/detailed.php` | High
 48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -188,6 +188,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/0xrb/status/1518499002681282560
 * https://twitter.com/0xrb/status/1572547656257511424
 * https://twitter.com/benkow_/status/1430851571491954690
+* https://urlhaus.abuse.ch/url/3526527/
 * https://www.virustotal.com/gui/ip-address/88.119.165.46/relations
 
 ## Literature

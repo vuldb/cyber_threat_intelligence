@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,37 +85,38 @@ ID | Type | Indicator | Confidence
 16 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
 17 | File | `/admin/edit-card-detail.php` | High
 18 | File | `/admin/edit-class.php` | High
-19 | File | `/admin/edit_visitor.php` | High
-20 | File | `/admin/login.php` | High
-21 | File | `/admin/manage-art-medium.php` | High
-22 | File | `/admin/plugin.php` | High
-23 | File | `/admin/publishnews.php` | High
-24 | File | `/admin/subscriber-csv.php` | High
-25 | File | `/admin/tag.php` | High
-26 | File | `/admin/template.php` | High
-27 | File | `/admin/template/update` | High
-28 | File | `/admin/unreadenq.php` | High
-29 | File | `/admin/upload/upimage.html` | High
-30 | File | `/admin/user.php` | High
-31 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-32 | File | `/admin/view-enquiry.php` | High
-33 | File | `/alphaware/summary.php` | High
-34 | File | `/api` | Low
-35 | File | `/api/monitors/import` | High
-36 | File | `/api/sys/login` | High
-37 | File | `/application/index/controller/Unity.php` | High
-38 | File | `/apply.cgi` | Medium
-39 | File | `/auth/soup-auth-digest.c` | High
-40 | File | `/backup/import` | High
-41 | File | `/bid/1/admin/entry-edit/` | High
-42 | File | `/boafrm/formFilter` | High
-43 | File | `/boafrm/formReflashClientTbl` | High
-44 | File | `/boafrm/formSaveConfig` | High
-45 | File | `/book-nurse.php?bookid=1` | High
-46 | File | `/bwdates-report-result.php` | High
-47 | ... | ... | ...
+19 | File | `/admin/edit_room.php` | High
+20 | File | `/admin/edit_user.php` | High
+21 | File | `/admin/edit_visitor.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/manage-art-medium.php` | High
+24 | File | `/admin/plugin.php` | High
+25 | File | `/admin/publishnews.php` | High
+26 | File | `/admin/subscriber-csv.php` | High
+27 | File | `/admin/tag.php` | High
+28 | File | `/admin/template.php` | High
+29 | File | `/admin/template/update` | High
+30 | File | `/admin/unreadenq.php` | High
+31 | File | `/admin/upload/upimage.html` | High
+32 | File | `/admin/user.php` | High
+33 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+34 | File | `/admin/view-enquiry.php` | High
+35 | File | `/alphaware/summary.php` | High
+36 | File | `/api` | Low
+37 | File | `/api/monitors/import` | High
+38 | File | `/api/sys/login` | High
+39 | File | `/application/index/controller/Unity.php` | High
+40 | File | `/apply.cgi` | Medium
+41 | File | `/apps/meteor/app/irc/server/servers/RFC2813/parseMessage.js` | High
+42 | File | `/auth/soup-auth-digest.c` | High
+43 | File | `/backup/import` | High
+44 | File | `/bid/1/admin/entry-edit/` | High
+45 | File | `/boafrm/formFilter` | High
+46 | File | `/boafrm/formParentControl` | High
+47 | File | `/boafrm/formReflashClientTbl` | High
+48 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

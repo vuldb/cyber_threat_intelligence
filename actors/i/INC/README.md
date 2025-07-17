@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -51,10 +51,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/menu/toEdit` | High
 3 | File | `/admin/order.php` | High
 4 | File | `/API/helm/verify` | High
-5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | ... | ... | ...
+5 | File | `/boafrm/formDMZ` | High
+6 | File | `/boafrm/formWsc` | High
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

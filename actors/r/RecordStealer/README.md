@@ -85,11 +85,12 @@ ID | Type | Indicator | Confidence
 31 | File | `/mims/login.php` | High
 32 | File | `/newProject.php` | High
 33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/pages/animals.php` | High
-35 | File | `/php/ping.php` | High
-36 | ... | ... | ...
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/pages/animals.php` | High
+36 | File | `/php/ping.php` | High
+37 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

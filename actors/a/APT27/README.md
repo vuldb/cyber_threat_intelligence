@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,19 +92,19 @@ ID | Type | Indicator | Confidence
 29 | File | `/rapi/read_url` | High
 30 | File | `/rom-0` | Low
 31 | File | `/session/list/allActiveSession` | High
-32 | File | `/sys/dict/loadTreeData` | High
-33 | File | `/SysInfo.htm` | Medium
-34 | File | `/syslog_rules` | High
-35 | File | `/tmp/out` | Medium
-36 | File | `/Tool/uploadfile.php` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/update-image1.php` | High
-39 | File | `/upload` | Low
-40 | File | `/users/{id}` | Medium
-41 | File | `/usr/sbin/httpd` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/sys/dict/loadTreeData` | High
+34 | File | `/SysInfo.htm` | Medium
+35 | File | `/syslog_rules` | High
+36 | File | `/tmp/out` | Medium
+37 | File | `/Tool/uploadfile.php` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/update-image1.php` | High
+40 | File | `/upload` | Low
+41 | File | `/users/{id}` | Medium
 42 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

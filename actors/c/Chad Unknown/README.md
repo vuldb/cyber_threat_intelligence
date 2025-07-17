@@ -93,28 +93,28 @@ ID | Type | Indicator | Confidence
 28 | File | `/cgi-bin/gui.cgi` | High
 29 | File | `/cgi-bin/nas_sharing.cgi` | High
 30 | File | `/cgi-bin/s3.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/change-password.php` | High
-33 | File | `/clinic/disease_symptoms_view.php` | High
-34 | File | `/config-manager/save` | High
-35 | File | `/control/register_case.php` | High
-36 | File | `/dashboard/menu-list.php` | High
-37 | File | `/dashboard/table-list.php` | High
-38 | File | `/data/app` | Medium
-39 | File | `/debug/pprof` | Medium
-40 | File | `/devinfo` | Medium
-41 | File | `/doctor/view-appointment-detail.php` | High
-42 | File | `/downloadFile.php` | High
-43 | File | `/dtale/chart-data/1` | High
-44 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-45 | File | `/edit-client-details.php` | High
-46 | File | `/edit_account.php` | High
-47 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-48 | File | `/employeeview.php` | High
-49 | File | `/etc/hosts` | Medium
+31 | File | `/cgi-bin/sessions/get-temp-file` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/change-password.php` | High
+34 | File | `/clinic/disease_symptoms_view.php` | High
+35 | File | `/config-manager/save` | High
+36 | File | `/control/register_case.php` | High
+37 | File | `/dashboard/menu-list.php` | High
+38 | File | `/dashboard/table-list.php` | High
+39 | File | `/data/app` | Medium
+40 | File | `/debug/pprof` | Medium
+41 | File | `/devinfo` | Medium
+42 | File | `/doctor/view-appointment-detail.php` | High
+43 | File | `/downloadFile.php` | High
+44 | File | `/dtale/chart-data/1` | High
+45 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+46 | File | `/edit-client-details.php` | High
+47 | File | `/edit_account.php` | High
+48 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+49 | File | `/employeeview.php` | High
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

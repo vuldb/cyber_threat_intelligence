@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -86,10 +86,9 @@ ID | Type | Indicator | Confidence
 36 | File | `/v2/quantum/save-data-upload-big-file` | High
 37 | File | `/webui/modules/log/operate.mds` | High
 38 | File | `/wordpress/wp-admin/admin.php` | High
-39 | File | `/wuser/anyUserBoundHouse.php` | High
-40 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

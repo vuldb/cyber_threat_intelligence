@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -50,196 +50,202 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [5.83.190.86](https://vuldb.com/?ip.5.83.190.86) | - | - | High
 28 | [5.161.231.57](https://vuldb.com/?ip.5.161.231.57) | static.57.231.161.5.clients.your-server.de | - | High
 29 | [5.161.251.122](https://vuldb.com/?ip.5.161.251.122) | static.122.251.161.5.clients.your-server.de | - | High
-30 | [5.175.234.91](https://vuldb.com/?ip.5.175.234.91) | - | - | High
-31 | [5.178.3.137](https://vuldb.com/?ip.5.178.3.137) | - | - | High
-32 | [5.182.87.154](https://vuldb.com/?ip.5.182.87.154) | melodic-root.aeza.network | - | High
-33 | [5.206.224.7](https://vuldb.com/?ip.5.206.224.7) | fpstore.com | - | High
-34 | [5.206.224.154](https://vuldb.com/?ip.5.206.224.154) | admin | - | High
-35 | [5.206.224.223](https://vuldb.com/?ip.5.206.224.223) | writenovel | - | High
-36 | [5.206.227.225](https://vuldb.com/?ip.5.206.227.225) | yes | - | High
-37 | [5.255.117.112](https://vuldb.com/?ip.5.255.117.112) | - | - | High
-38 | [8.130.84.209](https://vuldb.com/?ip.8.130.84.209) | - | - | High
-39 | [8.134.82.30](https://vuldb.com/?ip.8.134.82.30) | - | - | High
-40 | [8.212.49.198](https://vuldb.com/?ip.8.212.49.198) | - | - | High
-41 | [8.217.83.74](https://vuldb.com/?ip.8.217.83.74) | - | - | High
-42 | [8.218.80.239](https://vuldb.com/?ip.8.218.80.239) | - | - | High
-43 | [13.50.4.180](https://vuldb.com/?ip.13.50.4.180) | ec2-13-50-4-180.eu-north-1.compute.amazonaws.com | - | Medium
-44 | [13.60.33.38](https://vuldb.com/?ip.13.60.33.38) | ec2-13-60-33-38.eu-north-1.compute.amazonaws.com | - | Medium
-45 | [13.77.123.222](https://vuldb.com/?ip.13.77.123.222) | - | - | High
-46 | [14.5.161.232](https://vuldb.com/?ip.14.5.161.232) | - | - | High
-47 | [14.128.54.9](https://vuldb.com/?ip.14.128.54.9) | - | - | High
-48 | [15.235.155.2](https://vuldb.com/?ip.15.235.155.2) | ip2.ip-15-235-155.net | - | High
-49 | [16.16.29.185](https://vuldb.com/?ip.16.16.29.185) | ec2-16-16-29-185.eu-north-1.compute.amazonaws.com | - | Medium
-50 | [18.156.13.209](https://vuldb.com/?ip.18.156.13.209) | ec2-18-156-13-209.eu-central-1.compute.amazonaws.com | - | Medium
-51 | [18.157.68.73](https://vuldb.com/?ip.18.157.68.73) | ec2-18-157-68-73.eu-central-1.compute.amazonaws.com | - | Medium
-52 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
-53 | [18.166.249.66](https://vuldb.com/?ip.18.166.249.66) | ec2-18-166-249-66.ap-east-1.compute.amazonaws.com | - | Medium
-54 | [18.192.93.86](https://vuldb.com/?ip.18.192.93.86) | ec2-18-192-93-86.eu-central-1.compute.amazonaws.com | - | Medium
-55 | [18.194.136.156](https://vuldb.com/?ip.18.194.136.156) | ec2-18-194-136-156.eu-central-1.compute.amazonaws.com | - | Medium
-56 | [18.197.239.5](https://vuldb.com/?ip.18.197.239.5) | ec2-18-197-239-5.eu-central-1.compute.amazonaws.com | - | Medium
-57 | [18.198.77.177](https://vuldb.com/?ip.18.198.77.177) | ec2-18-198-77-177.eu-central-1.compute.amazonaws.com | - | Medium
-58 | [20.6.33.42](https://vuldb.com/?ip.20.6.33.42) | - | - | High
-59 | [20.169.80.43](https://vuldb.com/?ip.20.169.80.43) | - | - | High
-60 | [20.188.113.132](https://vuldb.com/?ip.20.188.113.132) | - | - | High
-61 | [20.199.83.63](https://vuldb.com/?ip.20.199.83.63) | - | - | High
-62 | [20.201.112.166](https://vuldb.com/?ip.20.201.112.166) | - | - | High
-63 | [20.201.119.163](https://vuldb.com/?ip.20.201.119.163) | - | - | High
-64 | [20.206.160.43](https://vuldb.com/?ip.20.206.160.43) | - | - | High
-65 | [20.213.246.160](https://vuldb.com/?ip.20.213.246.160) | - | - | High
-66 | [23.26.76.142](https://vuldb.com/?ip.23.26.76.142) | - | - | High
-67 | [23.133.216.212](https://vuldb.com/?ip.23.133.216.212) | - | - | High
-68 | [23.227.199.46](https://vuldb.com/?ip.23.227.199.46) | 23-227-199-46.static.hvvc.us | - | High
-69 | [23.251.33.25](https://vuldb.com/?ip.23.251.33.25) | - | - | High
-70 | [24.241.229.173](https://vuldb.com/?ip.24.241.229.173) | 024-241-229-173.res.spectrum.com | - | High
-71 | [25.48.43.42](https://vuldb.com/?ip.25.48.43.42) | - | - | High
-72 | [27.3.194.101](https://vuldb.com/?ip.27.3.194.101) | - | - | High
-73 | [27.74.166.36](https://vuldb.com/?ip.27.74.166.36) | localhost | - | High
-74 | [27.74.166.158](https://vuldb.com/?ip.27.74.166.158) | localhost | - | High
-75 | [27.78.40.128](https://vuldb.com/?ip.27.78.40.128) | localhost | - | High
-76 | [27.124.2.230](https://vuldb.com/?ip.27.124.2.230) | - | - | High
-77 | [31.13.224.34](https://vuldb.com/?ip.31.13.224.34) | - | - | High
-78 | [31.13.224.229](https://vuldb.com/?ip.31.13.224.229) | - | - | High
-79 | [31.58.169.135](https://vuldb.com/?ip.31.58.169.135) | - | - | High
-80 | [31.166.229.37](https://vuldb.com/?ip.31.166.229.37) | - | - | High
-81 | [31.201.66.248](https://vuldb.com/?ip.31.201.66.248) | 248-66-201-31.ftth.glasoperator.nl | - | High
-82 | [31.214.240.67](https://vuldb.com/?ip.31.214.240.67) | - | - | High
-83 | [34.45.30.242](https://vuldb.com/?ip.34.45.30.242) | 242.30.45.34.bc.googleusercontent.com | - | Medium
-84 | [34.67.75.224](https://vuldb.com/?ip.34.67.75.224) | 224.75.67.34.bc.googleusercontent.com | - | Medium
-85 | [34.70.203.199](https://vuldb.com/?ip.34.70.203.199) | 199.203.70.34.bc.googleusercontent.com | - | Medium
-86 | [34.118.105.198](https://vuldb.com/?ip.34.118.105.198) | 198.105.118.34.bc.googleusercontent.com | - | Medium
-87 | [34.154.103.104](https://vuldb.com/?ip.34.154.103.104) | 104.103.154.34.bc.googleusercontent.com | - | Medium
-88 | [34.238.234.161](https://vuldb.com/?ip.34.238.234.161) | ec2-34-238-234-161.compute-1.amazonaws.com | - | Medium
-89 | [35.226.135.244](https://vuldb.com/?ip.35.226.135.244) | 244.135.226.35.bc.googleusercontent.com | - | Medium
-90 | [37.1.208.55](https://vuldb.com/?ip.37.1.208.55) | - | - | High
-91 | [37.1.220.7](https://vuldb.com/?ip.37.1.220.7) | - | - | High
-92 | [37.3.242.75](https://vuldb.com/?ip.37.3.242.75) | m37-3-242-75.cust.tele2.se | - | High
-93 | [37.114.37.177](https://vuldb.com/?ip.37.114.37.177) | 177.37.114.37.in-addr.arpa | - | High
-94 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
-95 | [37.120.158.245](https://vuldb.com/?ip.37.120.158.245) | - | - | High
-96 | [37.120.208.36](https://vuldb.com/?ip.37.120.208.36) | - | - | High
-97 | [37.120.208.37](https://vuldb.com/?ip.37.120.208.37) | - | - | High
-98 | [37.120.208.40](https://vuldb.com/?ip.37.120.208.40) | - | - | High
-99 | [37.221.93.29](https://vuldb.com/?ip.37.221.93.29) | 29.93.221.37.in-addr.arpa | - | High
-100 | [38.12.33.186](https://vuldb.com/?ip.38.12.33.186) | - | - | High
-101 | [38.165.8.185](https://vuldb.com/?ip.38.165.8.185) | - | - | High
-102 | [38.180.146.4](https://vuldb.com/?ip.38.180.146.4) | - | - | High
-103 | [38.181.25.40](https://vuldb.com/?ip.38.181.25.40) | - | - | High
-104 | [38.181.35.91](https://vuldb.com/?ip.38.181.35.91) | - | - | High
-105 | [38.181.35.233](https://vuldb.com/?ip.38.181.35.233) | - | - | High
-106 | [38.240.50.125](https://vuldb.com/?ip.38.240.50.125) | - | - | High
-107 | [38.255.33.227](https://vuldb.com/?ip.38.255.33.227) | - | - | High
-108 | [39.101.122.168](https://vuldb.com/?ip.39.101.122.168) | - | - | High
-109 | [40.67.150.126](https://vuldb.com/?ip.40.67.150.126) | - | - | High
-110 | [41.250.78.102](https://vuldb.com/?ip.41.250.78.102) | - | - | High
-111 | [41.251.18.204](https://vuldb.com/?ip.41.251.18.204) | - | - | High
-112 | [42.118.144.192](https://vuldb.com/?ip.42.118.144.192) | - | - | High
-113 | [42.119.107.175](https://vuldb.com/?ip.42.119.107.175) | - | - | High
-114 | [43.128.4.110](https://vuldb.com/?ip.43.128.4.110) | - | - | High
-115 | [43.138.166.76](https://vuldb.com/?ip.43.138.166.76) | - | - | High
-116 | [43.139.166.120](https://vuldb.com/?ip.43.139.166.120) | - | - | High
-117 | [43.140.194.203](https://vuldb.com/?ip.43.140.194.203) | - | - | High
-118 | [43.153.109.213](https://vuldb.com/?ip.43.153.109.213) | - | - | High
-119 | [43.156.44.109](https://vuldb.com/?ip.43.156.44.109) | - | - | High
-120 | [43.156.51.101](https://vuldb.com/?ip.43.156.51.101) | - | - | High
-121 | [43.239.251.54](https://vuldb.com/?ip.43.239.251.54) | 43-239-251-54.static.visperhost.net | - | High
-122 | [43.248.100.54](https://vuldb.com/?ip.43.248.100.54) | - | - | High
-123 | [43.248.140.96](https://vuldb.com/?ip.43.248.140.96) | - | - | High
-124 | [45.15.156.173](https://vuldb.com/?ip.45.15.156.173) | - | - | High
-125 | [45.15.157.71](https://vuldb.com/?ip.45.15.157.71) | poised-receipt.aeza.network | - | High
-126 | [45.15.157.90](https://vuldb.com/?ip.45.15.157.90) | last-stamp.aeza.network | - | High
-127 | [45.66.231.76](https://vuldb.com/?ip.45.66.231.76) | - | - | High
-128 | [45.66.231.150](https://vuldb.com/?ip.45.66.231.150) | - | - | High
-129 | [45.66.231.182](https://vuldb.com/?ip.45.66.231.182) | - | - | High
-130 | [45.66.231.202](https://vuldb.com/?ip.45.66.231.202) | - | - | High
-131 | [45.66.231.241](https://vuldb.com/?ip.45.66.231.241) | - | - | High
-132 | [45.74.34.32](https://vuldb.com/?ip.45.74.34.32) | - | - | High
-133 | [45.76.87.204](https://vuldb.com/?ip.45.76.87.204) | 45.76.87.204.vultrusercontent.com | - | Medium
-134 | [45.79.43.178](https://vuldb.com/?ip.45.79.43.178) | 45-79-43-178.ip.linodeusercontent.com | - | High
-135 | [45.84.199.148](https://vuldb.com/?ip.45.84.199.148) | - | - | High
-136 | [45.87.173.129](https://vuldb.com/?ip.45.87.173.129) | server.keyubu.com | - | High
-137 | [45.88.9.100](https://vuldb.com/?ip.45.88.9.100) | - | - | High
-138 | [45.88.180.13](https://vuldb.com/?ip.45.88.180.13) | - | - | High
-139 | [45.88.180.23](https://vuldb.com/?ip.45.88.180.23) | - | - | High
-140 | [45.92.1.116](https://vuldb.com/?ip.45.92.1.116) | - | - | High
-141 | [45.94.31.169](https://vuldb.com/?ip.45.94.31.169) | webkar.com | - | High
-142 | [45.94.170.223](https://vuldb.com/?ip.45.94.170.223) | hosted-by.verixu.com | - | High
-143 | [45.112.205.126](https://vuldb.com/?ip.45.112.205.126) | - | - | High
-144 | [45.128.12.101](https://vuldb.com/?ip.45.128.12.101) | - | - | High
-145 | [45.131.111.98](https://vuldb.com/?ip.45.131.111.98) | - | - | High
-146 | [45.136.70.29](https://vuldb.com/?ip.45.136.70.29) | - | - | High
-147 | [45.139.104.170](https://vuldb.com/?ip.45.139.104.170) | - | - | High
-148 | [45.141.215.178](https://vuldb.com/?ip.45.141.215.178) | - | - | High
-149 | [45.144.212.220](https://vuldb.com/?ip.45.144.212.220) | - | - | High
-150 | [45.145.42.103](https://vuldb.com/?ip.45.145.42.103) | - | - | High
-151 | [45.145.43.183](https://vuldb.com/?ip.45.145.43.183) | - | - | High
-152 | [45.145.230.31](https://vuldb.com/?ip.45.145.230.31) | - | - | High
-153 | [45.145.230.107](https://vuldb.com/?ip.45.145.230.107) | - | - | High
-154 | [45.145.230.129](https://vuldb.com/?ip.45.145.230.129) | - | - | High
-155 | [45.145.230.130](https://vuldb.com/?ip.45.145.230.130) | - | - | High
-156 | [45.145.230.137](https://vuldb.com/?ip.45.145.230.137) | - | - | High
-157 | [45.145.230.173](https://vuldb.com/?ip.45.145.230.173) | - | - | High
-158 | [45.145.230.209](https://vuldb.com/?ip.45.145.230.209) | - | - | High
-159 | [45.145.230.249](https://vuldb.com/?ip.45.145.230.249) | - | - | High
-160 | [45.145.231.135](https://vuldb.com/?ip.45.145.231.135) | - | - | High
-161 | [45.145.231.141](https://vuldb.com/?ip.45.145.231.141) | - | - | High
-162 | [45.145.231.152](https://vuldb.com/?ip.45.145.231.152) | - | - | High
-163 | [45.145.231.185](https://vuldb.com/?ip.45.145.231.185) | - | - | High
-164 | [45.145.231.207](https://vuldb.com/?ip.45.145.231.207) | - | - | High
-165 | [45.145.231.216](https://vuldb.com/?ip.45.145.231.216) | - | - | High
-166 | [45.146.253.140](https://vuldb.com/?ip.45.146.253.140) | white-dinosaur-47262.zap.cloud | - | High
-167 | [45.148.4.18](https://vuldb.com/?ip.45.148.4.18) | 45-148-4-18.cust.pvdatanet.com | - | High
-168 | [45.148.4.19](https://vuldb.com/?ip.45.148.4.19) | 45-148-4-19.cust.pvdatanet.com | - | High
-169 | [45.148.4.76](https://vuldb.com/?ip.45.148.4.76) | 45-148-4-76.cust.pvdatanet.com | - | High
-170 | [45.152.243.228](https://vuldb.com/?ip.45.152.243.228) | netvay.com | - | High
-171 | [45.154.98.238](https://vuldb.com/?ip.45.154.98.238) | - | - | High
-172 | [45.155.124.123](https://vuldb.com/?ip.45.155.124.123) | server.keyubu.com | - | High
-173 | [45.155.124.230](https://vuldb.com/?ip.45.155.124.230) | server.keyubu.com | - | High
-174 | [45.155.126.183](https://vuldb.com/?ip.45.155.126.183) | - | - | High
-175 | [45.155.249.230](https://vuldb.com/?ip.45.155.249.230) | - | - | High
-176 | [45.207.27.4](https://vuldb.com/?ip.45.207.27.4) | - | - | High
-177 | [45.207.39.7](https://vuldb.com/?ip.45.207.39.7) | - | - | High
-178 | [45.207.55.197](https://vuldb.com/?ip.45.207.55.197) | - | - | High
-179 | [45.235.49.52](https://vuldb.com/?ip.45.235.49.52) | 45-235-49-52.dynamic.tevnet.com.br | - | High
-180 | [46.29.235.190](https://vuldb.com/?ip.46.29.235.190) | 49917.ip-ptr.tech | - | High
-181 | [46.153.131.183](https://vuldb.com/?ip.46.153.131.183) | - | - | High
-182 | [47.76.113.146](https://vuldb.com/?ip.47.76.113.146) | - | - | High
-183 | [47.86.232.155](https://vuldb.com/?ip.47.86.232.155) | - | - | High
-184 | [47.92.123.66](https://vuldb.com/?ip.47.92.123.66) | - | - | High
-185 | [47.96.68.247](https://vuldb.com/?ip.47.96.68.247) | - | - | High
-186 | [47.98.159.180](https://vuldb.com/?ip.47.98.159.180) | - | - | High
-187 | [47.109.206.16](https://vuldb.com/?ip.47.109.206.16) | - | - | High
-188 | [51.38.57.226](https://vuldb.com/?ip.51.38.57.226) | ns3092294.ip-51-38-57.eu | - | High
-189 | [51.79.186.233](https://vuldb.com/?ip.51.79.186.233) | ip233.ip-51-79-186.net | - | High
-190 | [51.79.196.122](https://vuldb.com/?ip.51.79.196.122) | ip122.ip-51-79-196.net | - | High
-191 | [51.89.158.68](https://vuldb.com/?ip.51.89.158.68) | ip68.ip-51-89-158.eu | - | High
-192 | [51.161.12.215](https://vuldb.com/?ip.51.161.12.215) | ns570052.ip-51-161-12.net | - | High
-193 | [51.195.145.76](https://vuldb.com/?ip.51.195.145.76) | ip76.ip-51-195-145.eu | - | High
-194 | [51.195.251.9](https://vuldb.com/?ip.51.195.251.9) | ip9.ip-51-195-251.eu | - | High
-195 | [54.37.237.170](https://vuldb.com/?ip.54.37.237.170) | ip170.ip-54-37-237.eu | - | High
-196 | [54.224.170.33](https://vuldb.com/?ip.54.224.170.33) | ec2-54-224-170-33.compute-1.amazonaws.com | - | Medium
-197 | [57.129.65.114](https://vuldb.com/?ip.57.129.65.114) | vps-55f80e69.vps.ovh.net | - | High
-198 | [58.87.70.252](https://vuldb.com/?ip.58.87.70.252) | - | - | High
-199 | [58.186.236.71](https://vuldb.com/?ip.58.186.236.71) | - | - | High
-200 | [62.68.75.236](https://vuldb.com/?ip.62.68.75.236) | danielschick.dev | - | High
-201 | [62.234.35.139](https://vuldb.com/?ip.62.234.35.139) | - | - | High
-202 | [62.234.175.104](https://vuldb.com/?ip.62.234.175.104) | - | - | High
-203 | [64.40.154.127](https://vuldb.com/?ip.64.40.154.127) | - | - | High
-204 | [64.156.192.19](https://vuldb.com/?ip.64.156.192.19) | - | - | High
-205 | [64.190.113.27](https://vuldb.com/?ip.64.190.113.27) | - | - | High
-206 | [64.253.87.233](https://vuldb.com/?ip.64.253.87.233) | 64-253-87-233.fwd.dsl-sub.ticolo.net | - | High
-207 | [65.0.50.125](https://vuldb.com/?ip.65.0.50.125) | ec2-65-0-50-125.ap-south-1.compute.amazonaws.com | - | Medium
-208 | [65.2.185.165](https://vuldb.com/?ip.65.2.185.165) | ec2-65-2-185-165.ap-south-1.compute.amazonaws.com | - | Medium
-209 | [65.108.26.147](https://vuldb.com/?ip.65.108.26.147) | static.147.26.108.65.clients.your-server.de | - | High
-210 | [65.191.34.123](https://vuldb.com/?ip.65.191.34.123) | syn-065-191-034-123.res.spectrum.com | - | High
-211 | [66.63.187.46](https://vuldb.com/?ip.66.63.187.46) | - | - | High
-212 | [66.63.187.79](https://vuldb.com/?ip.66.63.187.79) | - | - | High
-213 | [67.213.221.18](https://vuldb.com/?ip.67.213.221.18) | - | - | High
-214 | [68.178.207.33](https://vuldb.com/?ip.68.178.207.33) | 33.207.178.68.host.secureserver.net | - | High
-215 | [72.5.42.203](https://vuldb.com/?ip.72.5.42.203) | - | - | High
-216 | [74.222.12.210](https://vuldb.com/?ip.74.222.12.210) | - | - | High
-217 | ... | ... | ... | ...
+30 | [5.175.234.59](https://vuldb.com/?ip.5.175.234.59) | - | - | High
+31 | [5.175.234.91](https://vuldb.com/?ip.5.175.234.91) | - | - | High
+32 | [5.178.3.137](https://vuldb.com/?ip.5.178.3.137) | - | - | High
+33 | [5.182.87.154](https://vuldb.com/?ip.5.182.87.154) | melodic-root.aeza.network | - | High
+34 | [5.206.224.7](https://vuldb.com/?ip.5.206.224.7) | fpstore.com | - | High
+35 | [5.206.224.154](https://vuldb.com/?ip.5.206.224.154) | admin | - | High
+36 | [5.206.224.223](https://vuldb.com/?ip.5.206.224.223) | writenovel | - | High
+37 | [5.206.227.225](https://vuldb.com/?ip.5.206.227.225) | yes | - | High
+38 | [5.253.59.185](https://vuldb.com/?ip.5.253.59.185) | - | - | High
+39 | [5.255.117.112](https://vuldb.com/?ip.5.255.117.112) | - | - | High
+40 | [8.130.84.209](https://vuldb.com/?ip.8.130.84.209) | - | - | High
+41 | [8.134.82.30](https://vuldb.com/?ip.8.134.82.30) | - | - | High
+42 | [8.212.49.198](https://vuldb.com/?ip.8.212.49.198) | - | - | High
+43 | [8.217.83.74](https://vuldb.com/?ip.8.217.83.74) | - | - | High
+44 | [8.218.80.239](https://vuldb.com/?ip.8.218.80.239) | - | - | High
+45 | [13.50.4.180](https://vuldb.com/?ip.13.50.4.180) | ec2-13-50-4-180.eu-north-1.compute.amazonaws.com | - | Medium
+46 | [13.60.33.38](https://vuldb.com/?ip.13.60.33.38) | ec2-13-60-33-38.eu-north-1.compute.amazonaws.com | - | Medium
+47 | [13.77.123.222](https://vuldb.com/?ip.13.77.123.222) | - | - | High
+48 | [14.5.161.232](https://vuldb.com/?ip.14.5.161.232) | - | - | High
+49 | [14.128.54.9](https://vuldb.com/?ip.14.128.54.9) | - | - | High
+50 | [15.235.155.2](https://vuldb.com/?ip.15.235.155.2) | ip2.ip-15-235-155.net | - | High
+51 | [16.16.29.185](https://vuldb.com/?ip.16.16.29.185) | ec2-16-16-29-185.eu-north-1.compute.amazonaws.com | - | Medium
+52 | [18.156.13.209](https://vuldb.com/?ip.18.156.13.209) | ec2-18-156-13-209.eu-central-1.compute.amazonaws.com | - | Medium
+53 | [18.157.68.73](https://vuldb.com/?ip.18.157.68.73) | ec2-18-157-68-73.eu-central-1.compute.amazonaws.com | - | Medium
+54 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
+55 | [18.166.249.66](https://vuldb.com/?ip.18.166.249.66) | ec2-18-166-249-66.ap-east-1.compute.amazonaws.com | - | Medium
+56 | [18.192.93.86](https://vuldb.com/?ip.18.192.93.86) | ec2-18-192-93-86.eu-central-1.compute.amazonaws.com | - | Medium
+57 | [18.194.136.156](https://vuldb.com/?ip.18.194.136.156) | ec2-18-194-136-156.eu-central-1.compute.amazonaws.com | - | Medium
+58 | [18.197.239.5](https://vuldb.com/?ip.18.197.239.5) | ec2-18-197-239-5.eu-central-1.compute.amazonaws.com | - | Medium
+59 | [18.198.77.177](https://vuldb.com/?ip.18.198.77.177) | ec2-18-198-77-177.eu-central-1.compute.amazonaws.com | - | Medium
+60 | [20.6.33.42](https://vuldb.com/?ip.20.6.33.42) | - | - | High
+61 | [20.169.80.43](https://vuldb.com/?ip.20.169.80.43) | - | - | High
+62 | [20.188.113.132](https://vuldb.com/?ip.20.188.113.132) | - | - | High
+63 | [20.199.83.63](https://vuldb.com/?ip.20.199.83.63) | - | - | High
+64 | [20.201.112.166](https://vuldb.com/?ip.20.201.112.166) | - | - | High
+65 | [20.201.119.163](https://vuldb.com/?ip.20.201.119.163) | - | - | High
+66 | [20.206.160.43](https://vuldb.com/?ip.20.206.160.43) | - | - | High
+67 | [20.213.246.160](https://vuldb.com/?ip.20.213.246.160) | - | - | High
+68 | [23.26.76.142](https://vuldb.com/?ip.23.26.76.142) | - | - | High
+69 | [23.133.216.212](https://vuldb.com/?ip.23.133.216.212) | - | - | High
+70 | [23.227.199.46](https://vuldb.com/?ip.23.227.199.46) | 23-227-199-46.static.hvvc.us | - | High
+71 | [23.251.33.25](https://vuldb.com/?ip.23.251.33.25) | - | - | High
+72 | [24.241.229.173](https://vuldb.com/?ip.24.241.229.173) | 024-241-229-173.res.spectrum.com | - | High
+73 | [25.48.43.42](https://vuldb.com/?ip.25.48.43.42) | - | - | High
+74 | [27.3.194.101](https://vuldb.com/?ip.27.3.194.101) | - | - | High
+75 | [27.74.166.36](https://vuldb.com/?ip.27.74.166.36) | localhost | - | High
+76 | [27.74.166.158](https://vuldb.com/?ip.27.74.166.158) | localhost | - | High
+77 | [27.78.40.128](https://vuldb.com/?ip.27.78.40.128) | localhost | - | High
+78 | [27.124.2.230](https://vuldb.com/?ip.27.124.2.230) | - | - | High
+79 | [31.13.224.34](https://vuldb.com/?ip.31.13.224.34) | - | - | High
+80 | [31.13.224.229](https://vuldb.com/?ip.31.13.224.229) | - | - | High
+81 | [31.58.169.135](https://vuldb.com/?ip.31.58.169.135) | - | - | High
+82 | [31.166.229.37](https://vuldb.com/?ip.31.166.229.37) | - | - | High
+83 | [31.201.66.248](https://vuldb.com/?ip.31.201.66.248) | 248-66-201-31.ftth.glasoperator.nl | - | High
+84 | [31.210.36.97](https://vuldb.com/?ip.31.210.36.97) | - | - | High
+85 | [31.214.240.67](https://vuldb.com/?ip.31.214.240.67) | - | - | High
+86 | [34.45.30.242](https://vuldb.com/?ip.34.45.30.242) | 242.30.45.34.bc.googleusercontent.com | - | Medium
+87 | [34.67.75.224](https://vuldb.com/?ip.34.67.75.224) | 224.75.67.34.bc.googleusercontent.com | - | Medium
+88 | [34.70.203.199](https://vuldb.com/?ip.34.70.203.199) | 199.203.70.34.bc.googleusercontent.com | - | Medium
+89 | [34.118.105.198](https://vuldb.com/?ip.34.118.105.198) | 198.105.118.34.bc.googleusercontent.com | - | Medium
+90 | [34.154.103.104](https://vuldb.com/?ip.34.154.103.104) | 104.103.154.34.bc.googleusercontent.com | - | Medium
+91 | [34.238.234.161](https://vuldb.com/?ip.34.238.234.161) | ec2-34-238-234-161.compute-1.amazonaws.com | - | Medium
+92 | [35.226.135.244](https://vuldb.com/?ip.35.226.135.244) | 244.135.226.35.bc.googleusercontent.com | - | Medium
+93 | [37.1.208.55](https://vuldb.com/?ip.37.1.208.55) | - | - | High
+94 | [37.1.220.7](https://vuldb.com/?ip.37.1.220.7) | - | - | High
+95 | [37.3.242.75](https://vuldb.com/?ip.37.3.242.75) | m37-3-242-75.cust.tele2.se | - | High
+96 | [37.114.37.177](https://vuldb.com/?ip.37.114.37.177) | 177.37.114.37.in-addr.arpa | - | High
+97 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
+98 | [37.120.158.245](https://vuldb.com/?ip.37.120.158.245) | - | - | High
+99 | [37.120.208.36](https://vuldb.com/?ip.37.120.208.36) | - | - | High
+100 | [37.120.208.37](https://vuldb.com/?ip.37.120.208.37) | - | - | High
+101 | [37.120.208.40](https://vuldb.com/?ip.37.120.208.40) | - | - | High
+102 | [37.221.93.29](https://vuldb.com/?ip.37.221.93.29) | 29.93.221.37.in-addr.arpa | - | High
+103 | [38.12.33.186](https://vuldb.com/?ip.38.12.33.186) | - | - | High
+104 | [38.92.47.208](https://vuldb.com/?ip.38.92.47.208) | athena.chameleonsure.com | - | High
+105 | [38.165.8.185](https://vuldb.com/?ip.38.165.8.185) | - | - | High
+106 | [38.180.146.4](https://vuldb.com/?ip.38.180.146.4) | - | - | High
+107 | [38.181.25.40](https://vuldb.com/?ip.38.181.25.40) | - | - | High
+108 | [38.181.35.91](https://vuldb.com/?ip.38.181.35.91) | - | - | High
+109 | [38.181.35.233](https://vuldb.com/?ip.38.181.35.233) | - | - | High
+110 | [38.240.50.125](https://vuldb.com/?ip.38.240.50.125) | - | - | High
+111 | [38.255.33.227](https://vuldb.com/?ip.38.255.33.227) | - | - | High
+112 | [39.101.122.168](https://vuldb.com/?ip.39.101.122.168) | - | - | High
+113 | [40.67.150.126](https://vuldb.com/?ip.40.67.150.126) | - | - | High
+114 | [41.250.78.102](https://vuldb.com/?ip.41.250.78.102) | - | - | High
+115 | [41.251.18.204](https://vuldb.com/?ip.41.251.18.204) | - | - | High
+116 | [42.118.144.192](https://vuldb.com/?ip.42.118.144.192) | - | - | High
+117 | [42.119.107.175](https://vuldb.com/?ip.42.119.107.175) | - | - | High
+118 | [43.128.4.110](https://vuldb.com/?ip.43.128.4.110) | - | - | High
+119 | [43.138.166.76](https://vuldb.com/?ip.43.138.166.76) | - | - | High
+120 | [43.139.166.120](https://vuldb.com/?ip.43.139.166.120) | - | - | High
+121 | [43.140.194.203](https://vuldb.com/?ip.43.140.194.203) | - | - | High
+122 | [43.153.109.213](https://vuldb.com/?ip.43.153.109.213) | - | - | High
+123 | [43.156.44.109](https://vuldb.com/?ip.43.156.44.109) | - | - | High
+124 | [43.156.51.101](https://vuldb.com/?ip.43.156.51.101) | - | - | High
+125 | [43.239.251.54](https://vuldb.com/?ip.43.239.251.54) | 43-239-251-54.static.visperhost.net | - | High
+126 | [43.248.100.54](https://vuldb.com/?ip.43.248.100.54) | - | - | High
+127 | [43.248.140.96](https://vuldb.com/?ip.43.248.140.96) | - | - | High
+128 | [45.15.156.173](https://vuldb.com/?ip.45.15.156.173) | - | - | High
+129 | [45.15.157.71](https://vuldb.com/?ip.45.15.157.71) | poised-receipt.aeza.network | - | High
+130 | [45.15.157.90](https://vuldb.com/?ip.45.15.157.90) | last-stamp.aeza.network | - | High
+131 | [45.66.231.76](https://vuldb.com/?ip.45.66.231.76) | - | - | High
+132 | [45.66.231.150](https://vuldb.com/?ip.45.66.231.150) | - | - | High
+133 | [45.66.231.182](https://vuldb.com/?ip.45.66.231.182) | - | - | High
+134 | [45.66.231.202](https://vuldb.com/?ip.45.66.231.202) | - | - | High
+135 | [45.66.231.241](https://vuldb.com/?ip.45.66.231.241) | - | - | High
+136 | [45.74.34.32](https://vuldb.com/?ip.45.74.34.32) | - | - | High
+137 | [45.76.87.204](https://vuldb.com/?ip.45.76.87.204) | 45.76.87.204.vultrusercontent.com | - | Medium
+138 | [45.79.43.178](https://vuldb.com/?ip.45.79.43.178) | 45-79-43-178.ip.linodeusercontent.com | - | High
+139 | [45.84.199.148](https://vuldb.com/?ip.45.84.199.148) | - | - | High
+140 | [45.87.173.129](https://vuldb.com/?ip.45.87.173.129) | server.keyubu.com | - | High
+141 | [45.88.9.100](https://vuldb.com/?ip.45.88.9.100) | - | - | High
+142 | [45.88.180.13](https://vuldb.com/?ip.45.88.180.13) | - | - | High
+143 | [45.88.180.23](https://vuldb.com/?ip.45.88.180.23) | - | - | High
+144 | [45.92.1.116](https://vuldb.com/?ip.45.92.1.116) | - | - | High
+145 | [45.94.31.169](https://vuldb.com/?ip.45.94.31.169) | webkar.com | - | High
+146 | [45.94.170.223](https://vuldb.com/?ip.45.94.170.223) | hosted-by.verixu.com | - | High
+147 | [45.112.205.126](https://vuldb.com/?ip.45.112.205.126) | - | - | High
+148 | [45.128.12.101](https://vuldb.com/?ip.45.128.12.101) | - | - | High
+149 | [45.131.111.98](https://vuldb.com/?ip.45.131.111.98) | - | - | High
+150 | [45.136.70.29](https://vuldb.com/?ip.45.136.70.29) | - | - | High
+151 | [45.139.104.170](https://vuldb.com/?ip.45.139.104.170) | - | - | High
+152 | [45.141.215.67](https://vuldb.com/?ip.45.141.215.67) | learniram.com | - | High
+153 | [45.141.215.178](https://vuldb.com/?ip.45.141.215.178) | - | - | High
+154 | [45.144.212.220](https://vuldb.com/?ip.45.144.212.220) | - | - | High
+155 | [45.145.42.103](https://vuldb.com/?ip.45.145.42.103) | - | - | High
+156 | [45.145.43.183](https://vuldb.com/?ip.45.145.43.183) | - | - | High
+157 | [45.145.230.31](https://vuldb.com/?ip.45.145.230.31) | - | - | High
+158 | [45.145.230.107](https://vuldb.com/?ip.45.145.230.107) | - | - | High
+159 | [45.145.230.129](https://vuldb.com/?ip.45.145.230.129) | - | - | High
+160 | [45.145.230.130](https://vuldb.com/?ip.45.145.230.130) | - | - | High
+161 | [45.145.230.137](https://vuldb.com/?ip.45.145.230.137) | - | - | High
+162 | [45.145.230.173](https://vuldb.com/?ip.45.145.230.173) | - | - | High
+163 | [45.145.230.209](https://vuldb.com/?ip.45.145.230.209) | - | - | High
+164 | [45.145.230.249](https://vuldb.com/?ip.45.145.230.249) | - | - | High
+165 | [45.145.231.135](https://vuldb.com/?ip.45.145.231.135) | - | - | High
+166 | [45.145.231.141](https://vuldb.com/?ip.45.145.231.141) | - | - | High
+167 | [45.145.231.152](https://vuldb.com/?ip.45.145.231.152) | - | - | High
+168 | [45.145.231.185](https://vuldb.com/?ip.45.145.231.185) | - | - | High
+169 | [45.145.231.207](https://vuldb.com/?ip.45.145.231.207) | - | - | High
+170 | [45.145.231.216](https://vuldb.com/?ip.45.145.231.216) | - | - | High
+171 | [45.146.253.140](https://vuldb.com/?ip.45.146.253.140) | white-dinosaur-47262.zap.cloud | - | High
+172 | [45.148.4.18](https://vuldb.com/?ip.45.148.4.18) | 45-148-4-18.cust.pvdatanet.com | - | High
+173 | [45.148.4.19](https://vuldb.com/?ip.45.148.4.19) | 45-148-4-19.cust.pvdatanet.com | - | High
+174 | [45.148.4.76](https://vuldb.com/?ip.45.148.4.76) | 45-148-4-76.cust.pvdatanet.com | - | High
+175 | [45.152.243.228](https://vuldb.com/?ip.45.152.243.228) | netvay.com | - | High
+176 | [45.154.98.238](https://vuldb.com/?ip.45.154.98.238) | - | - | High
+177 | [45.155.124.123](https://vuldb.com/?ip.45.155.124.123) | server.keyubu.com | - | High
+178 | [45.155.124.230](https://vuldb.com/?ip.45.155.124.230) | server.keyubu.com | - | High
+179 | [45.155.126.183](https://vuldb.com/?ip.45.155.126.183) | - | - | High
+180 | [45.155.249.230](https://vuldb.com/?ip.45.155.249.230) | - | - | High
+181 | [45.207.27.4](https://vuldb.com/?ip.45.207.27.4) | - | - | High
+182 | [45.207.39.7](https://vuldb.com/?ip.45.207.39.7) | - | - | High
+183 | [45.207.55.197](https://vuldb.com/?ip.45.207.55.197) | - | - | High
+184 | [45.235.49.52](https://vuldb.com/?ip.45.235.49.52) | 45-235-49-52.dynamic.tevnet.com.br | - | High
+185 | [46.29.235.190](https://vuldb.com/?ip.46.29.235.190) | 49917.ip-ptr.tech | - | High
+186 | [46.153.131.183](https://vuldb.com/?ip.46.153.131.183) | - | - | High
+187 | [47.76.113.146](https://vuldb.com/?ip.47.76.113.146) | - | - | High
+188 | [47.86.232.155](https://vuldb.com/?ip.47.86.232.155) | - | - | High
+189 | [47.92.123.66](https://vuldb.com/?ip.47.92.123.66) | - | - | High
+190 | [47.96.68.247](https://vuldb.com/?ip.47.96.68.247) | - | - | High
+191 | [47.98.159.180](https://vuldb.com/?ip.47.98.159.180) | - | - | High
+192 | [47.109.206.16](https://vuldb.com/?ip.47.109.206.16) | - | - | High
+193 | [51.38.57.226](https://vuldb.com/?ip.51.38.57.226) | ns3092294.ip-51-38-57.eu | - | High
+194 | [51.79.186.233](https://vuldb.com/?ip.51.79.186.233) | ip233.ip-51-79-186.net | - | High
+195 | [51.79.196.122](https://vuldb.com/?ip.51.79.196.122) | ip122.ip-51-79-196.net | - | High
+196 | [51.89.158.68](https://vuldb.com/?ip.51.89.158.68) | ip68.ip-51-89-158.eu | - | High
+197 | [51.161.12.215](https://vuldb.com/?ip.51.161.12.215) | ns570052.ip-51-161-12.net | - | High
+198 | [51.195.145.76](https://vuldb.com/?ip.51.195.145.76) | ip76.ip-51-195-145.eu | - | High
+199 | [51.195.251.9](https://vuldb.com/?ip.51.195.251.9) | ip9.ip-51-195-251.eu | - | High
+200 | [54.37.237.170](https://vuldb.com/?ip.54.37.237.170) | ip170.ip-54-37-237.eu | - | High
+201 | [54.224.170.33](https://vuldb.com/?ip.54.224.170.33) | ec2-54-224-170-33.compute-1.amazonaws.com | - | Medium
+202 | [54.235.2.186](https://vuldb.com/?ip.54.235.2.186) | ec2-54-235-2-186.compute-1.amazonaws.com | - | Medium
+203 | [57.129.65.114](https://vuldb.com/?ip.57.129.65.114) | vps-55f80e69.vps.ovh.net | - | High
+204 | [58.87.70.252](https://vuldb.com/?ip.58.87.70.252) | - | - | High
+205 | [58.186.236.71](https://vuldb.com/?ip.58.186.236.71) | - | - | High
+206 | [62.68.75.236](https://vuldb.com/?ip.62.68.75.236) | danielschick.dev | - | High
+207 | [62.234.35.139](https://vuldb.com/?ip.62.234.35.139) | - | - | High
+208 | [62.234.175.104](https://vuldb.com/?ip.62.234.175.104) | - | - | High
+209 | [64.20.59.156](https://vuldb.com/?ip.64.20.59.156) | vps3010095.trouble-free.net | - | High
+210 | [64.40.154.127](https://vuldb.com/?ip.64.40.154.127) | - | - | High
+211 | [64.156.192.19](https://vuldb.com/?ip.64.156.192.19) | - | - | High
+212 | [64.190.113.27](https://vuldb.com/?ip.64.190.113.27) | - | - | High
+213 | [64.253.87.233](https://vuldb.com/?ip.64.253.87.233) | 64-253-87-233.fwd.dsl-sub.ticolo.net | - | High
+214 | [65.0.50.125](https://vuldb.com/?ip.65.0.50.125) | ec2-65-0-50-125.ap-south-1.compute.amazonaws.com | - | Medium
+215 | [65.2.185.165](https://vuldb.com/?ip.65.2.185.165) | ec2-65-2-185-165.ap-south-1.compute.amazonaws.com | - | Medium
+216 | [65.108.26.147](https://vuldb.com/?ip.65.108.26.147) | static.147.26.108.65.clients.your-server.de | - | High
+217 | [65.191.34.123](https://vuldb.com/?ip.65.191.34.123) | syn-065-191-034-123.res.spectrum.com | - | High
+218 | [66.63.187.46](https://vuldb.com/?ip.66.63.187.46) | - | - | High
+219 | [66.63.187.79](https://vuldb.com/?ip.66.63.187.79) | - | - | High
+220 | [67.213.221.18](https://vuldb.com/?ip.67.213.221.18) | - | - | High
+221 | [68.178.207.33](https://vuldb.com/?ip.68.178.207.33) | 33.207.178.68.host.secureserver.net | - | High
+222 | [68.183.98.89](https://vuldb.com/?ip.68.183.98.89) | - | - | High
+223 | ... | ... | ... | ...
 
-There are 863 more IOC items available. Please use our online service to access the data.
+There are 888 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -247,15 +253,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-40 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-268, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 26 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -263,78 +269,112 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
-2 | File | `%PROGRAMDATA%\WrData\PKG` | High
-3 | File | `/addcompany.php` | High
-4 | File | `/admin.php/appcenter/local.html?type=addon` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/admin/add-category.php` | High
-7 | File | `/admin/add-doctor.php` | High
-8 | File | `/admin/add_exercises.php` | High
-9 | File | `/admin/all-applications.php` | High
-10 | File | `/admin/case-status` | High
-11 | File | `/admin/category.php` | High
-12 | File | `/admin/category/add.do` | High
-13 | File | `/admin/change-password.php` | High
-14 | File | `/admin/check_admin.php` | High
-15 | File | `/admin/company/index.php` | High
-16 | File | `/Admin/CustomerReport.php` | High
-17 | File | `/admin/doctors.php` | High
-18 | File | `/admin/edit-artist-detail.php?editid=1` | High
-19 | File | `/admin/edit-category.php` | High
-20 | File | `/admin/edit_role.php` | High
-21 | File | `/admin/edit_supplier.php` | High
-22 | File | `/admin/file/delete.do` | High
-23 | File | `/admin/group` | Medium
-24 | File | `/admin/index.php` | High
-25 | File | `/admin/indexConfigs/update` | High
-26 | File | `/admin/login.php` | High
-27 | File | `/admin/makehtml_freelist_action.php` | High
-28 | File | `/Admin/News.php` | High
-29 | File | `/admin/reports/index.php` | High
-30 | File | `/admin/reservation_view.php` | High
-31 | File | `/admin/search.php` | High
-32 | File | `/admin/updatestudent.php` | High
-33 | File | `/admin/user/manage_user.php` | High
-34 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-35 | File | `/admin_class.php` | High
-36 | File | `/admin_pay.php` | High
-37 | File | `/adpweb/wechat/verifyToken/` | High
-38 | File | `/ajax.php?action=save_membership` | High
-39 | File | `/ample/app/action/edit_product.php` | High
-40 | File | `/api/comment/add` | High
-41 | File | `/Api/FileUploadApi.ashx` | High
-42 | File | `/api/GylOperator/LoadData` | High
-43 | File | `/api/index.php` | High
-44 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-45 | File | `/application/index/controller/Icon.php` | High
-46 | File | `/apps/system/router/upload.go` | High
-47 | File | `/auth/userkey/logout.php` | High
-48 | File | `/bin/boa` | Medium
-49 | File | `/birthing_record.php` | High
-50 | File | `/boafrm/formFilter` | High
-51 | File | `/book_edit_do.html` | High
-52 | File | `/bsenordering/index.php` | High
-53 | File | `/bwdates-report-result.php` | High
-54 | File | `/bwdates-reports-details.php` | High
-55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-57 | File | `/cgi-bin/touchlist_sync.cgi` | High
-58 | File | `/checkout` | Medium
-59 | File | `/classes/Login.php` | High
-60 | File | `/cms/smf/Sources/ManageMembers.php` | High
-61 | File | `/company/service/increment/add/im` | High
-62 | File | `/contract` | Medium
-63 | File | `/control/login.php` | High
-64 | File | `/dashboard/admin/updateplan.php` | High
-65 | File | `/download-medical-cards.php` | High
-66 | File | `/download.php?file=author.png` | High
-67 | File | `/edit-locker.php?ltid=6` | High
-68 | File | `/edit-product.php` | High
-69 | File | `/Employee/edit-profile.php` | High
-70 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `/?page=reports` | High
+3 | File | `/add-category.php` | High
+4 | File | `/add-customer.php` | High
+5 | File | `/add-notes.php` | High
+6 | File | `/addCatController.php` | High
+7 | File | `/addmem.php` | Medium
+8 | File | `/adds.php` | Medium
+9 | File | `/addstock.php` | High
+10 | File | `/admin-profile.php` | High
+11 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+12 | File | `/admin/` | Low
+13 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+14 | File | `/admin/?page=user/manage` | High
+15 | File | `/admin/about-us.php` | High
+16 | File | `/admin/aboutus.php` | High
+17 | File | `/Admin/add-admin.php` | High
+18 | File | `/admin/add-art-medium.php` | High
+19 | File | `/admin/add-art-type.php` | High
+20 | File | `/admin/add-class.php` | High
+21 | File | `/admin/add-customer.php` | High
+22 | File | `/admin/add-scdetails.php` | High
+23 | File | `/admin/add-teacher.php` | High
+24 | File | `/admin/addgiving.php` | High
+25 | File | `/admin/add_cars.php` | High
+26 | File | `/admin/adminprofile.php` | High
+27 | File | `/admin/ajax.php` | High
+28 | File | `/admin/api/admin/v2_products` | High
+29 | File | `/admin/backup/backups.php` | High
+30 | File | `/admin/bwdates-report-details.php` | High
+31 | File | `/admin/categories/manage_category.php` | High
+32 | File | `/admin/change-password.php` | High
+33 | File | `/admin/change_pass.php` | High
+34 | File | `/admin/chart1.php` | High
+35 | File | `/admin/clients/manage.php` | High
+36 | File | `/admin/contact-us.php` | High
+37 | File | `/admin/delete-row.php` | High
+38 | File | `/admin/delete-session.php` | High
+39 | File | `/admin/deleteBooking.php` | High
+40 | File | `/admin/edit-category-detail.php` | High
+41 | File | `/admin/edit-course.php` | High
+42 | File | `/admin/edit-guard-detail.php` | High
+43 | File | `/admin/edit-pass-detail.php` | High
+44 | File | `/admin/edit-services.php` | High
+45 | File | `/admin/edit_categories.php` | High
+46 | File | `/admin/edit_category.php` | High
+47 | File | `/admin/edit_manufacturer.php` | High
+48 | File | `/admin/edit_product.php` | High
+49 | File | `/admin/index.php` | High
+50 | File | `/admin/normal-bwdates-reports-details.php` | High
+51 | File | `/admin/overtime_add.php` | High
+52 | File | `/admin/pages/update_go.php` | High
+53 | File | `/admin/plugin.php` | High
+54 | File | `/admin/post/edit/` | High
+55 | File | `/admin/process_category_edit.php` | High
+56 | File | `/admin/reservation_view.php` | High
+57 | File | `/admin/search-appointment.php` | High
+58 | File | `/admin/search-maid.php` | High
+59 | File | `/admin/search-pass.php` | High
+60 | File | `/admin/search.php` | High
+61 | File | `/admin/tag/save` | High
+62 | File | `/admin/upload` | High
+63 | File | `/admin/users_photo.php` | High
+64 | File | `/admin/view-user-queries.php` | High
+65 | File | `/admin/visitor-details.php` | High
+66 | File | `/admin?do=admin:user:editPost` | High
+67 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+68 | File | `/adminprofile.php` | High
+69 | File | `/ajax.php?action=save_package` | High
+70 | File | `/ajax/check_medicine_name.php` | High
+71 | File | `/api/blade-system/menu/list?updatexml` | High
+72 | File | `/api/database/testConnect` | High
+73 | File | `/api/v1/attack/token` | High
+74 | File | `/api/v2/schema` | High
+75 | File | `/api/wizard/setLanguage` | High
+76 | File | `/app/admin/controller/Upload.php` | High
+77 | File | `/b2b-supermarket/shopping-cart` | High
+78 | File | `/bic/ssoService/v1/applyCT` | High
+79 | File | `/billing/pms_check.php` | High
+80 | File | `/bin/httpd` | Medium
+81 | File | `/birthing_pending.php` | High
+82 | File | `/blog` | Low
+83 | File | `/boafrm/formIpQoS` | High
+84 | File | `/boafrm/formParentControl` | High
+85 | File | `/boafrm/formRoute` | High
+86 | File | `/boafrm/formSysLog` | High
+87 | File | `/boafrm/formWlSiteSurvey` | High
+88 | File | `/boafrm/formWsc` | High
+89 | File | `/book/searchByPage` | High
+90 | File | `/book_car.php` | High
+91 | File | `/cancelbookingpatient.php` | High
+92 | File | `/cart.php` | Medium
+93 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+94 | File | `/cfgFile/1/download` | High
+95 | File | `/cgAutoListController.do?datagrid` | High
+96 | File | `/cgi-bin/cstecgi.cgi` | High
+97 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+98 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+99 | File | `/cgi-bin/ipfedr.cgi` | High
+100 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+101 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+102 | File | `/classes/Login.php` | High
+103 | File | `/classes/Master.php?f=save_category` | High
+104 | ... | ... | ...
 
-There are 613 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 918 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -357,10 +397,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/5.75.234.8
 * https://search.censys.io/hosts/5.161.231.57
 * https://search.censys.io/hosts/5.161.251.122
+* https://search.censys.io/hosts/5.175.234.59
 * https://search.censys.io/hosts/5.175.234.91
 * https://search.censys.io/hosts/5.178.3.137
 * https://search.censys.io/hosts/5.206.224.7
 * https://search.censys.io/hosts/5.206.227.225
+* https://search.censys.io/hosts/5.253.59.185
 * https://search.censys.io/hosts/5.255.117.112
 * https://search.censys.io/hosts/8.134.82.30
 * https://search.censys.io/hosts/8.212.49.198
@@ -387,6 +429,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/31.13.224.229
 * https://search.censys.io/hosts/31.58.169.135
 * https://search.censys.io/hosts/31.166.229.37
+* https://search.censys.io/hosts/31.210.36.97
 * https://search.censys.io/hosts/31.214.240.67
 * https://search.censys.io/hosts/34.45.30.242
 * https://search.censys.io/hosts/34.45.30.242+242.30.45.34.bc.googleusercontent.com
@@ -400,6 +443,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/37.120.208.37
 * https://search.censys.io/hosts/37.120.208.40
 * https://search.censys.io/hosts/38.12.33.186
+* https://search.censys.io/hosts/38.92.47.208
 * https://search.censys.io/hosts/38.180.146.4
 * https://search.censys.io/hosts/38.181.35.91
 * https://search.censys.io/hosts/38.181.35.233
@@ -433,6 +477,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.131.111.98
 * https://search.censys.io/hosts/45.136.70.29
 * https://search.censys.io/hosts/45.139.104.170
+* https://search.censys.io/hosts/45.141.215.67
 * https://search.censys.io/hosts/45.141.215.178
 * https://search.censys.io/hosts/45.144.212.220
 * https://search.censys.io/hosts/45.145.42.103
@@ -469,9 +514,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/51.195.145.76
 * https://search.censys.io/hosts/51.195.251.9
 * https://search.censys.io/hosts/54.37.237.170
+* https://search.censys.io/hosts/54.235.2.186
 * https://search.censys.io/hosts/57.129.65.114
 * https://search.censys.io/hosts/62.68.75.236
 * https://search.censys.io/hosts/62.234.175.104
+* https://search.censys.io/hosts/64.20.59.156
 * https://search.censys.io/hosts/64.40.154.127
 * https://search.censys.io/hosts/64.156.192.19
 * https://search.censys.io/hosts/64.253.87.233
@@ -479,7 +526,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/66.63.187.46
 * https://search.censys.io/hosts/66.63.187.79
 * https://search.censys.io/hosts/68.178.207.33
+* https://search.censys.io/hosts/68.183.98.89
 * https://search.censys.io/hosts/72.5.42.203
+* https://search.censys.io/hosts/74.50.82.72
 * https://search.censys.io/hosts/74.222.12.210
 * https://search.censys.io/hosts/74.248.137.135
 * https://search.censys.io/hosts/74.249.113.208
@@ -489,10 +538,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/81.28.6.148
 * https://search.censys.io/hosts/81.161.238.252
 * https://search.censys.io/hosts/81.177.215.30
+* https://search.censys.io/hosts/82.21.185.125
 * https://search.censys.io/hosts/82.65.203.216
 * https://search.censys.io/hosts/82.115.223.11
 * https://search.censys.io/hosts/82.115.223.46
 * https://search.censys.io/hosts/82.153.64.23
+* https://search.censys.io/hosts/83.217.208.19
 * https://search.censys.io/hosts/84.32.5.135
 * https://search.censys.io/hosts/84.32.230.181
 * https://search.censys.io/hosts/85.31.47.75
@@ -509,6 +560,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/87.120.112.158
 * https://search.censys.io/hosts/87.120.113.214
 * https://search.censys.io/hosts/87.120.127.172
+* https://search.censys.io/hosts/87.121.79.21
 * https://search.censys.io/hosts/87.121.103.228
 * https://search.censys.io/hosts/87.237.54.174
 * https://search.censys.io/hosts/88.80.150.190
@@ -566,6 +618,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/94.156.177.172
 * https://search.censys.io/hosts/94.156.177.244
 * https://search.censys.io/hosts/94.228.169.198
+* https://search.censys.io/hosts/94.232.40.129
 * https://search.censys.io/hosts/95.164.3.243
 * https://search.censys.io/hosts/95.179.140.46
 * https://search.censys.io/hosts/95.214.25.75
@@ -580,6 +633,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/95.250.141.214
 * https://search.censys.io/hosts/96.45.174.196
 * https://search.censys.io/hosts/99.103.131.181
+* https://search.censys.io/hosts/101.43.91.234
 * https://search.censys.io/hosts/101.99.94.33
 * https://search.censys.io/hosts/101.99.94.141
 * https://search.censys.io/hosts/102.186.190.17
@@ -621,6 +675,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/105.156.15.47
 * https://search.censys.io/hosts/105.159.150.207
 * https://search.censys.io/hosts/106.52.95.146
+* https://search.censys.io/hosts/107.150.0.5
+* https://search.censys.io/hosts/107.150.0.12
 * https://search.censys.io/hosts/107.178.104.186
 * https://search.censys.io/hosts/108.61.177.169
 * https://search.censys.io/hosts/108.165.101.16
@@ -690,7 +746,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/149.88.73.111
 * https://search.censys.io/hosts/149.88.73.123
 * https://search.censys.io/hosts/149.88.85.23
+* https://search.censys.io/hosts/151.242.63.239
 * https://search.censys.io/hosts/151.243.101.223
+* https://search.censys.io/hosts/151.243.218.201
 * https://search.censys.io/hosts/154.12.16.122
 * https://search.censys.io/hosts/154.12.84.88
 * https://search.censys.io/hosts/154.19.84.98
@@ -765,6 +823,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/154.204.181.244
 * https://search.censys.io/hosts/154.204.181.246
 * https://search.censys.io/hosts/154.216.17.138
+* https://search.censys.io/hosts/154.222.20.155
 * https://search.censys.io/hosts/156.224.26.180
 * https://search.censys.io/hosts/156.224.27.20
 * https://search.censys.io/hosts/156.224.27.24
@@ -872,6 +931,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/157.20.182.193
 * https://search.censys.io/hosts/157.20.182.226
 * https://search.censys.io/hosts/157.20.182.230
+* https://search.censys.io/hosts/157.66.56.98
 * https://search.censys.io/hosts/157.245.202.88
 * https://search.censys.io/hosts/157.254.165.110
 * https://search.censys.io/hosts/157.254.223.10
@@ -895,6 +955,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/165.73.253.35
 * https://search.censys.io/hosts/167.88.165.20
 * https://search.censys.io/hosts/167.88.168.158
+* https://search.censys.io/hosts/169.197.94.12
 * https://search.censys.io/hosts/171.227.30.106
 * https://search.censys.io/hosts/171.232.0.161
 * https://search.censys.io/hosts/171.232.3.175
@@ -939,6 +1000,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/176.65.142.132
 * https://search.censys.io/hosts/176.65.142.144
 * https://search.censys.io/hosts/176.96.136.233
+* https://search.censys.io/hosts/176.96.137.222
 * https://search.censys.io/hosts/176.107.190.41
 * https://search.censys.io/hosts/176.107.190.42
 * https://search.censys.io/hosts/176.107.190.44
@@ -957,6 +1019,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/179.61.147.46
 * https://search.censys.io/hosts/179.110.68.155
 * https://search.censys.io/hosts/179.111.55.98
+* https://search.censys.io/hosts/179.113.39.3
 * https://search.censys.io/hosts/179.118.200.196
 * https://search.censys.io/hosts/179.165.59.118
 * https://search.censys.io/hosts/179.255.41.16
@@ -979,6 +1042,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/185.208.159.66
 * https://search.censys.io/hosts/185.208.159.121
 * https://search.censys.io/hosts/185.216.70.75
+* https://search.censys.io/hosts/185.216.116.234
 * https://search.censys.io/hosts/185.216.117.91
 * https://search.censys.io/hosts/185.220.204.33
 * https://search.censys.io/hosts/185.221.67.40
@@ -1001,9 +1065,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/191.8.225.92
 * https://search.censys.io/hosts/191.8.231.173
 * https://search.censys.io/hosts/191.19.55.247
+* https://search.censys.io/hosts/191.193.249.83
 * https://search.censys.io/hosts/192.71.172.113
 * https://search.censys.io/hosts/192.121.102.205
 * https://search.censys.io/hosts/192.159.99.140
+* https://search.censys.io/hosts/192.159.99.180
 * https://search.censys.io/hosts/192.227.217.227
 * https://search.censys.io/hosts/192.227.228.34
 * https://search.censys.io/hosts/193.34.212.163
@@ -1011,6 +1077,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/193.41.226.233
 * https://search.censys.io/hosts/193.42.33.190
 * https://search.censys.io/hosts/193.124.205.20
+* https://search.censys.io/hosts/193.138.195.22
 * https://search.censys.io/hosts/193.142.146.101
 * https://search.censys.io/hosts/193.142.146.158
 * https://search.censys.io/hosts/193.164.6.126
@@ -1059,12 +1126,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/196.251.73.5
 * https://search.censys.io/hosts/196.251.80.17
 * https://search.censys.io/hosts/196.251.83.219
+* https://search.censys.io/hosts/196.251.85.2
 * https://search.censys.io/hosts/196.251.85.97
 * https://search.censys.io/hosts/196.251.85.206
 * https://search.censys.io/hosts/196.251.88.53
 * https://search.censys.io/hosts/196.251.88.110
 * https://search.censys.io/hosts/196.251.88.125
 * https://search.censys.io/hosts/196.251.115.101
+* https://search.censys.io/hosts/196.251.117.187
 * https://search.censys.io/hosts/196.251.118.212
 * https://search.censys.io/hosts/197.82.164.175
 * https://search.censys.io/hosts/197.146.76.15
@@ -1114,6 +1183,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/202.95.15.107
 * https://search.censys.io/hosts/202.95.19.142
 * https://search.censys.io/hosts/202.181.148.28
+* https://search.censys.io/hosts/204.13.236.238
 * https://search.censys.io/hosts/206.166.251.107
 * https://search.censys.io/hosts/206.233.132.27
 * https://search.censys.io/hosts/206.233.132.41
@@ -1144,6 +1214,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/250203-ext1eszmg1/behavioral2
 * https://tria.ge/250228-genrsstlx6
 * https://www.shodan.io/host/194.59.30.175#1337
+* https://www.shodan.io/host/213.209.143.110#4444
 * https://x.com/K_N1kolenko/status/1880187740895211830
 
 ## Literature

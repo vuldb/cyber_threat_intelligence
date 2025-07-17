@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -170,9 +170,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -182,21 +183,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/activation.php` | High
-2 | File | `/admin/?page=reports` | High
-3 | File | `/admin/ajax.php?action=save_settings` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/order.php` | High
-6 | File | `/admin/views/freepbx_reload.php` | High
-7 | File | `/auth/session` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/bolt/editcontent/showcases` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/classes/SystemSettings.php?f=update_settings` | High
-12 | File | `/classes/Users.php?f=delete` | High
-13 | ... | ... | ...
+1 | File | `/a/sys/user/save` | High
+2 | File | `/activation.php` | High
+3 | File | `/admin/?page=reports` | High
+4 | File | `/admin/ajax.php?action=save_settings` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/massage.php` | High
+7 | File | `/admin/sys/user/list` | High
+8 | File | `/admin/views/freepbx_reload.php` | High
+9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+10 | File | `/app/fax/fax_view.php` | High
+11 | File | `/application/index/controller/Screen.php` | High
+12 | File | `/auth/session` | High
+13 | File | `/bin/sh` | Low
+14 | File | `/bolt/editcontent/showcases` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

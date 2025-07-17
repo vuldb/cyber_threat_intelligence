@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-41, CWE-44, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,17 +67,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/add_deductions.php` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin/ajax.php?action=confirm_order` | High
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/add_deductions.php` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/ajax.php?action=confirm_order` | High
+6 | File | `/admin/ajax_products_list.php` | High
 7 | File | `/admin/auth/men` | High
 8 | File | `/Admin/changepassword.php` | High
 9 | File | `/admin/chatroom.php` | High
 10 | File | `/admin/deleteroom.php` | High
 11 | File | `/admin/login.php` | High
-12 | File | `/admin/manage_academic.php` | High
+12 | File | `/admin/menu_save.php` | High
 13 | File | `/admin/update-user.php` | High
 14 | File | `/admin/user/user-move-run.php` | High
 15 | File | `/ajax_city.php` | High
@@ -96,20 +96,23 @@ ID | Type | Indicator | Confidence
 28 | File | `/cgi-bin/cstecgi.cgi` | High
 29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 30 | File | `/cgi-bin/download_config.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/classes/SystemSettings.php?f=update_settings` | High
-34 | File | `/config/config.json` | High
-35 | File | `/control/add_act.php` | High
-36 | File | `/control/WANIPConnection` | High
-37 | File | `/dede/file_manage_control.php` | High
-38 | File | `/display/map` | Medium
-39 | File | `/download.php?file=author.png` | High
-40 | File | `/download/image` | High
-41 | File | `/DXR.axd` | Medium
-42 | ... | ... | ...
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/SystemSettings.php?f=update_settings` | High
+33 | File | `/config/config.json` | High
+34 | File | `/control/add_act.php` | High
+35 | File | `/control/WANIPConnection` | High
+36 | File | `/dede/file_manage_control.php` | High
+37 | File | `/download.php?file=author.png` | High
+38 | File | `/download/image` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/Employer/EditProfile.php` | High
+41 | File | `/etc/shadow` | Medium
+42 | File | `/expense-monthwise-reports-detailed.php` | High
+43 | File | `/fastcms.html#/template/menu` | High
+44 | File | `/goform` | Low
+45 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

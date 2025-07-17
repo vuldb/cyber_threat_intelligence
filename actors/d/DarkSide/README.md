@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [176.103.62.217](https://vuldb.com/?ip.176.103.62.217) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,16 +49,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/wapopen` | High
 2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `addentry.php` | Medium
+3 | File | `/log/download.php` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/6a7b7147fea63d77368c73cef205eb75d16ef209a246b05698358a28fd16e502/
+* https://urlhaus.abuse.ch/url/3519850/
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar21-189a
 * https://us-cert.cisa.gov/sites/default/files/publications/AA21-131A.stix.xml
 

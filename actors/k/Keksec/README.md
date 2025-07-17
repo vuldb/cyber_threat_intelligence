@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with Keksec:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Keksec:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -36,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,7 +45,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `Test/WorkArea/DmsMenu/menuActions/MenuActions.aspx` | High
+1 | File | `src/amf/gmm-sm.c` | High
+2 | File | `src/amf/nsmf-handler.c` | High
+3 | File | `Test/WorkArea/DmsMenu/menuActions/MenuActions.aspx` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

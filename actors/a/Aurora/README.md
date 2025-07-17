@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aurora:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -60,43 +60,43 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/manage_academic.php` | High
 7 | File | `/admin/registration.php` | High
 8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/endpoint/update-bookmark.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/fw.login.php` | High
-16 | File | `/gfxpoly/convert.c` | High
-17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/index.php?/manage/channel/addchannel` | High
-19 | File | `/opac/Actions.php?a=login` | High
-20 | File | `/opt/tms/bin/cli` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/products/view_product.php` | High
-24 | File | `/registrar/?page=registration` | High
-25 | File | `/secserver` | Medium
-26 | File | `/settings/account` | High
-27 | File | `/show_news.php` | High
-28 | File | `/smsa/admin_dashboard.php` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/src/dede/tpl.php` | High
-31 | File | `/st_reg.php` | Medium
-32 | File | `/var/log/nginx` | High
-33 | File | `/way4acs/enroll` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `action.php` | Medium
-36 | File | `actions/beats_uploader.php` | High
-37 | File | `actions/vote_channel.php` | High
-38 | File | `ad.cgi` | Low
-39 | File | `adclick.php` | Medium
-40 | File | `add.php` | Low
-41 | File | `admin/admin.php` | High
-42 | File | `Admin/ADM_Pagina.php` | High
+9 | File | `/auth_files/photo/` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/debuginfo.htm` | High
+15 | File | `/endpoint/update-bookmark.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/fw.login.php` | High
+18 | File | `/gfxpoly/convert.c` | High
+19 | File | `/goform/wirelessAdvancedHidden` | High
+20 | File | `/GponForm/device_Form?script/` | High
+21 | File | `/index.php?/manage/channel/addchannel` | High
+22 | File | `/opac/Actions.php?a=login` | High
+23 | File | `/opt/tms/bin/cli` | High
+24 | File | `/out.php` | Medium
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/products/view_product.php` | High
+27 | File | `/registrar/?page=registration` | High
+28 | File | `/secserver` | Medium
+29 | File | `/settings/account` | High
+30 | File | `/show_news.php` | High
+31 | File | `/smsa/admin_dashboard.php` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/src/dede/tpl.php` | High
+34 | File | `/st_reg.php` | Medium
+35 | File | `/var/log/nginx` | High
+36 | File | `/way4acs/enroll` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
+38 | File | `action.php` | Medium
+39 | File | `actions/beats_uploader.php` | High
+40 | File | `actions/vote_channel.php` | High
+41 | File | `ad.cgi` | Low
+42 | File | `adclick.php` | Medium
 43 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

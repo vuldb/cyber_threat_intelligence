@@ -49,20 +49,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
 2 | File | `/app/admin/controller/Upload.php` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cms/classes/Master.php?f=delete_service` | High
-5 | File | `/download` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/out.php` | Medium
-8 | File | `/php_action/createUser.php` | High
-9 | File | `/resource/addgood.php` | High
-10 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-11 | File | `/SetTriggerLEDBlink/Blink` | High
-12 | File | `/spip.php` | Medium
-13 | File | `/Tool/querysql.php` | High
-14 | ... | ... | ...
+3 | File | `/appointment-history.php` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cms/classes/Master.php?f=delete_service` | High
+6 | File | `/download` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/out.php` | Medium
+9 | File | `/php_action/createUser.php` | High
+10 | File | `/resource/addgood.php` | High
+11 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+12 | File | `/SetTriggerLEDBlink/Blink` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/Tool/querysql.php` | High
+15 | File | `/Tool/uploadfile.php` | High
+16 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

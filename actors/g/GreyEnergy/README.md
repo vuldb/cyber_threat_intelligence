@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -84,15 +84,19 @@ ID | Type | Indicator | Confidence
 29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 30 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 31 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-32 | File | `/edit-subject.php` | High
-33 | File | `/endpoint/add-user.php` | High
-34 | File | `/etc/postfix/sender_login` | High
-35 | File | `/etc/shadow.sample` | High
-36 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-37 | File | `/foms/routers/place-order.php` | High
-38 | ... | ... | ...
+32 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+33 | File | `/edit-subject.php` | High
+34 | File | `/endpoint/add-user.php` | High
+35 | File | `/etc/postfix/sender_login` | High
+36 | File | `/etc/shadow.sample` | High
+37 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+38 | File | `/foms/routers/place-order.php` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/AdvSetMacMtuWan` | High
+41 | File | `/goform/aspForm` | High
+42 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

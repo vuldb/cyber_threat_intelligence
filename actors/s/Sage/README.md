@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -56,41 +56,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-table.php` | High
-2 | File | `/admin-api/bpm/model/deploy` | High
-3 | File | `/admin-api/infra/file/upload` | High
-4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/admin_login.php` | High
-6 | File | `/admin/all-request.php` | High
-7 | File | `/admin/app/role_crud.php` | High
-8 | File | `/admin/app/web_crud.php` | High
-9 | File | `/admin/booking-details.php` | High
-10 | File | `/admin/carousels/save` | High
-11 | File | `/admin/check_availability.php` | High
-12 | File | `/admin/DBbackup/` | High
-13 | File | `/admin/goods/update` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/print1.php` | High
-16 | File | `/admin/upload/upimage.html` | High
-17 | File | `/ajax_state.php` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/Blood/A-.php` | High
-20 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-21 | File | `/check_availability.php` | High
-22 | File | `/classes/Master.php?f=delete_schedule` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/controller/OnlinePreviewController.java` | High
-26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-27 | File | `/download-medical-cards.php` | High
-28 | File | `/etc/srapi/config/system.conf` | High
-29 | File | `/etc/sysconfig/tomcat` | High
-30 | File | `/extensions/realestate/index.php/agents/agent-register/addagent` | High
-31 | File | `/goform/exeCommand` | High
-32 | File | `/goform/GetIPTV` | High
-33 | ... | ... | ...
+1 | File | `/add-course.php` | High
+2 | File | `/add-table.php` | High
+3 | File | `/admin-api/bpm/model/deploy` | High
+4 | File | `/admin-api/infra/file/upload` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/admin_login.php` | High
+7 | File | `/admin/all-request.php` | High
+8 | File | `/admin/app/role_crud.php` | High
+9 | File | `/admin/app/web_crud.php` | High
+10 | File | `/admin/booking-details.php` | High
+11 | File | `/admin/carousels/save` | High
+12 | File | `/admin/check_availability.php` | High
+13 | File | `/admin/DBbackup/` | High
+14 | File | `/admin/delete-doctor.php` | High
+15 | File | `/admin/edit-pass-detail.php` | High
+16 | File | `/admin/goods/update` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/print1.php` | High
+19 | File | `/admin/upload/upimage.html` | High
+20 | File | `/admin/view-appointment.php?viewid=11` | High
+21 | File | `/ajax.php?action=delete_user` | High
+22 | File | `/ajax_state.php` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/Blood/A-.php` | High
+25 | File | `/Bloodgroop_process.php` | High
+26 | File | `/boafrm/formPortFw` | High
+27 | File | `/bwdates-reports-details.php?vid=2` | High
+28 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+29 | File | `/check_availability.php` | High
+30 | File | `/classes/Master.php?f=delete_schedule` | High
+31 | File | `/classes/Users.php` | High
+32 | File | `/classes/Users.php?f=save` | High
+33 | File | `/controller/OnlinePreviewController.java` | High
+34 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+35 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

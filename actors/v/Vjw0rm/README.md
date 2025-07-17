@@ -50,9 +50,11 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | - | - | High
 28 | [45.137.22.166](https://vuldb.com/?ip.45.137.22.166) | hosted-by.rootlayer.net | - | High
 29 | [45.137.116.156](https://vuldb.com/?ip.45.137.116.156) | vps-zap937104-1.zap-srv.com | - | High
-30 | ... | ... | ... | ...
+30 | [45.139.105.174](https://vuldb.com/?ip.45.139.105.174) | - | - | High
+31 | [45.141.237.3](https://vuldb.com/?ip.45.141.237.3) | - | - | High
+32 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,47 +77,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/category/cate-edit-run.php` | High
-2 | File | `/admin/dl_sendmail.php` | High
+1 | File | `/admin/booking-bwdates-reports-details.php` | High
+2 | File | `/admin/category/cate-edit-run.php` | High
 3 | File | `/admin/file_manager/export` | High
 4 | File | `/admin/index2.html` | High
 5 | File | `/admin/pages/` | High
-6 | File | `/adminPage/conf/reload` | High
-7 | File | `/admins` | Low
-8 | File | `/ajax/getBasicInfo.php` | High
-9 | File | `/api/admin/system/store/order/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-12 | File | `/api/cron/settings/setJob/` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/api/v2/open/rowsInfo` | High
-15 | File | `/api/v4/users/ids` | High
-16 | File | `/api2/html/` | Medium
-17 | File | `/apply.cgi` | Medium
-18 | File | `/bbdms/sign-up.php` | High
-19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/clientdetails/admin/regester.php` | High
-24 | File | `/csms/?page=contact_us` | High
-25 | File | `/cwms/classes/Master.php?f=save_contact` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/etc/shadow` | Medium
-30 | File | `/farm/product.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/get_getnetworkconf.cgi` | High
-33 | File | `/goform/WifiExtraSet` | High
-34 | File | `/h/rest` | Low
-35 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-36 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-37 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-38 | File | `/index/ajax/lang` | High
+6 | File | `/admin/search-appointment.php` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/admins` | Low
+9 | File | `/admin_topic.php?action=delall` | High
+10 | File | `/ajax/getBasicInfo.php` | High
+11 | File | `/api/admin/system/store/order/list` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+14 | File | `/api/cron/settings/setJob/` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/api/v2/open/rowsInfo` | High
+17 | File | `/api/v4/users/ids` | High
+18 | File | `/api2/html/` | Medium
+19 | File | `/apply.cgi` | Medium
+20 | File | `/bbdms/sign-up.php` | High
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/clientdetails/admin/regester.php` | High
+26 | File | `/csms/?page=contact_us` | High
+27 | File | `/cwms/classes/Master.php?f=save_contact` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/etc/shadow` | Medium
+32 | File | `/farm/product.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/WifiExtraSet` | High
+35 | File | `/h/rest` | Low
+36 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+37 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+38 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
 39 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220722-sb92eagbbm
 * https://tria.ge/220727-rxwv8segbr
 * https://twitter.com/petrovic082/status/1580612096152068099
+* https://urlhaus.abuse.ch/url/3549097/
 * https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape
 
 ## Literature

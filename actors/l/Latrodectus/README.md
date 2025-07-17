@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,26 +47,35 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [45.83.141.60](https://vuldb.com/?ip.45.83.141.60) | rikako.co | - | High
 19 | [45.86.230.235](https://vuldb.com/?ip.45.86.230.235) | - | - | High
 20 | [45.141.233.34](https://vuldb.com/?ip.45.141.233.34) | - | - | High
-21 | [45.143.166.23](https://vuldb.com/?ip.45.143.166.23) | - | - | High
-22 | [45.143.166.66](https://vuldb.com/?ip.45.143.166.66) | - | - | High
-23 | [45.143.166.85](https://vuldb.com/?ip.45.143.166.85) | - | - | High
-24 | [45.143.166.95](https://vuldb.com/?ip.45.143.166.95) | - | - | High
-25 | [45.143.166.161](https://vuldb.com/?ip.45.143.166.161) | - | - | High
-26 | [45.143.166.190](https://vuldb.com/?ip.45.143.166.190) | - | - | High
-27 | [45.143.167.157](https://vuldb.com/?ip.45.143.167.157) | - | - | High
-28 | [46.19.143.133](https://vuldb.com/?ip.46.19.143.133) | 447olabi.com | - | High
-29 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
-30 | [46.105.141.52](https://vuldb.com/?ip.46.105.141.52) | mail.ltdeskcontrol.com | - | High
-31 | [46.105.141.53](https://vuldb.com/?ip.46.105.141.53) | ip53.ip-46-105-141.eu | - | High
-32 | [46.249.38.89](https://vuldb.com/?ip.46.249.38.89) | - | - | High
-33 | [46.249.49.34](https://vuldb.com/?ip.46.249.49.34) | - | - | High
-34 | [46.249.49.107](https://vuldb.com/?ip.46.249.49.107) | - | - | High
-35 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
-36 | [51.91.35.153](https://vuldb.com/?ip.51.91.35.153) | ip153.ip-51-91-35.eu | - | High
-37 | [51.161.204.224](https://vuldb.com/?ip.51.161.204.224) | ip224.ip-51-161-204.net | - | High
-38 | ... | ... | ... | ...
+21 | [45.141.233.67](https://vuldb.com/?ip.45.141.233.67) | - | - | High
+22 | [45.141.233.70](https://vuldb.com/?ip.45.141.233.70) | - | - | High
+23 | [45.141.233.147](https://vuldb.com/?ip.45.141.233.147) | - | - | High
+24 | [45.141.233.208](https://vuldb.com/?ip.45.141.233.208) | - | - | High
+25 | [45.141.233.218](https://vuldb.com/?ip.45.141.233.218) | - | - | High
+26 | [45.141.233.239](https://vuldb.com/?ip.45.141.233.239) | - | - | High
+27 | [45.143.166.23](https://vuldb.com/?ip.45.143.166.23) | - | - | High
+28 | [45.143.166.66](https://vuldb.com/?ip.45.143.166.66) | - | - | High
+29 | [45.143.166.85](https://vuldb.com/?ip.45.143.166.85) | - | - | High
+30 | [45.143.166.95](https://vuldb.com/?ip.45.143.166.95) | - | - | High
+31 | [45.143.166.161](https://vuldb.com/?ip.45.143.166.161) | - | - | High
+32 | [45.143.166.190](https://vuldb.com/?ip.45.143.166.190) | - | - | High
+33 | [45.143.167.157](https://vuldb.com/?ip.45.143.167.157) | - | - | High
+34 | [46.19.143.133](https://vuldb.com/?ip.46.19.143.133) | 447olabi.com | - | High
+35 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
+36 | [46.105.141.52](https://vuldb.com/?ip.46.105.141.52) | mail.ltdeskcontrol.com | - | High
+37 | [46.105.141.53](https://vuldb.com/?ip.46.105.141.53) | ip53.ip-46-105-141.eu | - | High
+38 | [46.249.38.89](https://vuldb.com/?ip.46.249.38.89) | - | - | High
+39 | [46.249.49.34](https://vuldb.com/?ip.46.249.49.34) | - | - | High
+40 | [46.249.49.107](https://vuldb.com/?ip.46.249.49.107) | - | - | High
+41 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
+42 | [51.91.35.153](https://vuldb.com/?ip.51.91.35.153) | ip153.ip-51-91-35.eu | - | High
+43 | [51.161.204.224](https://vuldb.com/?ip.51.161.204.224) | ip224.ip-51-161-204.net | - | High
+44 | [51.161.207.168](https://vuldb.com/?ip.51.161.207.168) | ip168.ip-51-161-207.net | - | High
+45 | [51.195.27.76](https://vuldb.com/?ip.51.195.27.76) | ip76.ip-51-195-27.eu | - | High
+46 | [62.106.66.46](https://vuldb.com/?ip.62.106.66.46) | - | - | High
+47 | ... | ... | ... | ...
 
-There are 149 more IOC items available. Please use our online service to access the data.
+There are 183 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,35 +116,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/robot.php` | High
 18 | File | `/admin/search-invoices.php` | High
 19 | File | `/admin/twitter.php` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/app/controller/Api.php` | High
-22 | File | `/app/index/controller/Common.php` | High
-23 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-24 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-25 | File | `/applications/nexus/modules/front/store/store.php` | High
-26 | File | `/backend/doc/his_doc_update-account.php` | High
-27 | File | `/bitrix/admin/ldap_server_edit.php` | High
-28 | File | `/cgi-bin/apkg_mgr.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/classes/Master.php?f=delete_record` | High
-34 | File | `/classes/Master.php?f=save_category` | High
-35 | File | `/classes/SystemSettings.php?f=update_settings` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/customnode/install` | High
-38 | File | `/deal/{note_id}/note` | High
-39 | File | `/detailed.php` | High
-40 | File | `/dtale/chart-data/1` | High
-41 | File | `/etc/shadow.sample` | High
-42 | File | `/fftools/ffmpeg_enc.c` | High
-43 | File | `/filter.php` | Medium
-44 | File | `/fladmin/sysconfig_doedit.php` | High
-45 | File | `/forms/doLogin` | High
-46 | ... | ... | ...
+20 | File | `/app/controller/Api.php` | High
+21 | File | `/app/index/controller/Common.php` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+24 | File | `/applications/nexus/modules/front/store/store.php` | High
+25 | File | `/backend/doc/his_doc_update-account.php` | High
+26 | File | `/bitrix/admin/ldap_server_edit.php` | High
+27 | File | `/cgi-bin/apkg_mgr.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/Master.php?f=delete_record` | High
+33 | File | `/classes/Master.php?f=save_category` | High
+34 | File | `/classes/SystemSettings.php?f=update_settings` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/customnode/install` | High
+37 | File | `/deal/{note_id}/note` | High
+38 | File | `/detailed.php` | High
+39 | File | `/dtale/chart-data/1` | High
+40 | File | `/etc/shadow.sample` | High
+41 | File | `/fftools/ffmpeg_enc.c` | High
+42 | File | `/filter.php` | Medium
+43 | File | `/fladmin/sysconfig_doedit.php` | High
+44 | File | `/forms/doLogin` | High
+45 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 53 | File | `/goform/SafeEmailFilter` | High
 54 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

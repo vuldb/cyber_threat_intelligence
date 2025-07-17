@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TT](https://vuldb.com/?country.tt)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [2.57.19.173](https://vuldb.com/?ip.2.57.19.173) | - | - | High
 2 | [3.16.203.28](https://vuldb.com/?ip.3.16.203.28) | ec2-3-16-203-28.us-east-2.compute.amazonaws.com | - | Medium
 3 | [20.163.158.142](https://vuldb.com/?ip.20.163.158.142) | - | - | High
-4 | ... | ... | ... | ...
+4 | [34.172.89.75](https://vuldb.com/?ip.34.172.89.75) | 75.89.172.34.bc.googleusercontent.com | - | Medium
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,19 +49,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/create_product.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/goform/setDeviceSettings` | High
-5 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-6 | File | `/librarian/bookdetails.php` | High
-7 | File | `/php-opos/index.php` | High
-8 | File | `/phpwcms/setup/setup.php` | High
-9 | File | `/see_more_details.php` | High
-10 | File | `/spip.php` | Medium
-11 | File | `/usr/bin/at` | Medium
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/setDeviceSettings` | High
+6 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/php-opos/index.php` | High
+9 | File | `/phpwcms/setup/setup.php` | High
+10 | File | `/see_more_details.php` | High
+11 | File | `/spip.php` | Medium
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,7 +71,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/3.16.203.28
 * https://search.censys.io/hosts/20.163.158.142
 * https://search.censys.io/hosts/34.172.89.75
+* https://search.censys.io/hosts/47.116.171.20
 * https://search.censys.io/hosts/91.92.251.210
+* https://search.censys.io/hosts/92.62.251.76
 * https://search.censys.io/hosts/101.35.240.162
 * https://search.censys.io/hosts/103.90.161.122
 * https://search.censys.io/hosts/172.206.26.225

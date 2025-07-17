@@ -148,7 +148,7 @@ ID | Type | Indicator | Confidence
 77 | File | `/fladmin/sysconfig_doedit.php` | High
 78 | ... | ... | ...
 
-There are 690 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 689 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

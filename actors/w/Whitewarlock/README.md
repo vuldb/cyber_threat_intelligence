@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,13 +44,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-35, CWE-36, CWE-37, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-37, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -60,71 +59,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/abs.php` | Medium
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/accessdenied` | High
-5 | File | `/action/import_file/` | High
-6 | File | `/activation.php` | High
-7 | File | `/add-category.php` | High
-8 | File | `/admin` | Low
-9 | File | `/admin/about-us.php` | High
-10 | File | `/admin/add-customer.php` | High
-11 | File | `/admin/add-nurse.php` | High
-12 | File | `/admin/add-services.php` | High
-13 | File | `/admin/add_content.php` | High
-14 | File | `/admin/add_student.php` | High
-15 | File | `/admin/add_subject.php` | High
-16 | File | `/Admin/adminlogin.php` | High
-17 | File | `/admin/assign_save.php` | High
-18 | File | `/admin/attendance_action.php` | High
-19 | File | `/admin/check_admin_login.php` | High
-20 | File | `/Admin/consulting_detail.php` | High
-21 | File | `/admin/create_product.php` | High
-22 | File | `/admin/doctor-specilization.php` | High
-23 | File | `/admin/edit-brand.php` | High
-24 | File | `/admin/edit-category.php` | High
-25 | File | `/admin/edit-services.php` | High
-26 | File | `/admin/edit_student.php` | High
-27 | File | `/admin/edit_subject.php` | High
-28 | File | `/admin/file_manage_view` | High
-29 | File | `/admin/gallery.php` | High
-30 | File | `/admin/index.php` | High
-31 | File | `/admin/ind_backstage.php` | High
-32 | File | `/admin/link.php` | High
-33 | File | `/admin/login.php` | High
-34 | File | `/admin/login_process.php` | High
-35 | File | `/admin/manage-pages.php` | High
-36 | File | `/admin/member_save.php` | High
-37 | File | `/admin/menu_update.php` | High
-38 | File | `/admin/mod_reservation/controller.php` | High
-39 | File | `/admin/network/ajax_getChannelList` | High
-40 | File | `/admin/network/diag_iperf` | High
-41 | File | `/admin/network/diag_nslookup` | High
-42 | File | `/admin/network/diag_ping6` | High
-43 | File | `/admin/network/diag_pinginterface` | High
-44 | File | `/admin/network/diag_traceroute` | High
-45 | File | `/admin/network/diag_traceroute6` | High
-46 | File | `/admin/network/wifi_schedule` | High
-47 | File | `/admin/profile.php` | High
-48 | File | `/admin/reservation_view.php` | High
-49 | File | `/admin/search-appointment.php` | High
-50 | File | `/admin/services/view_service.php` | High
-51 | File | `/admin/sn_package/sn_https` | High
-52 | File | `/admin/tag/save` | High
-53 | File | `/admin/user-search.php` | High
-54 | File | `/admin/user_save.php` | High
-55 | File | `/admin/view-appointment.php` | High
-56 | File | `/admin_user.php` | High
-57 | File | `/ajax.php?action=read_msg` | High
-58 | File | `/analysisProject/pagingQueryData` | High
-59 | File | `/api/blade-log/api/list` | High
-60 | File | `/api/blade-system/menu/list?updatexml` | High
-61 | File | `/api/crontab` | Medium
-62 | File | `/api/database/testConnect` | High
-63 | ... | ... | ...
+1 | File | `/abs.php` | Medium
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/accessdenied` | High
+4 | File | `/action/import_file/` | High
+5 | File | `/add-category.php` | High
+6 | File | `/admin` | Low
+7 | File | `/admin/add-customer.php` | High
+8 | File | `/admin/add-nurse.php` | High
+9 | File | `/admin/add_student.php` | High
+10 | File | `/admin/assign_save.php` | High
+11 | File | `/admin/attendance_action.php` | High
+12 | File | `/admin/check_admin_login.php` | High
+13 | File | `/admin/create_product.php` | High
+14 | File | `/admin/doctor-specilization.php` | High
+15 | File | `/admin/edit-category.php` | High
+16 | File | `/admin/edit-services.php` | High
+17 | File | `/admin/gallery.php` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/link.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/manage-pages.php` | High
+22 | File | `/admin/member_save.php` | High
+23 | File | `/admin/menu_update.php` | High
+24 | File | `/admin/mod_reservation/controller.php` | High
+25 | File | `/admin/network/ajax_getChannelList` | High
+26 | File | `/admin/network/diag_iperf` | High
+27 | File | `/admin/network/diag_nslookup` | High
+28 | File | `/admin/network/diag_ping6` | High
+29 | File | `/admin/network/diag_pinginterface` | High
+30 | File | `/admin/network/diag_traceroute` | High
+31 | File | `/admin/network/diag_traceroute6` | High
+32 | File | `/admin/network/wifi_schedule` | High
+33 | File | `/admin/profile.php` | High
+34 | File | `/admin/reservation_view.php` | High
+35 | File | `/admin/return_add.php` | High
+36 | File | `/admin/search-appointment.php` | High
+37 | File | `/admin/sn_package/sn_https` | High
+38 | File | `/admin/tag/save` | High
+39 | File | `/admin/user-search.php` | High
+40 | File | `/admin/user_save.php` | High
+41 | File | `/admin/view-appointment.php` | High
+42 | File | `/admin_user.php` | High
+43 | File | `/ajax.php?action=read_msg` | High
+44 | File | `/api/blade-log/api/list` | High
+45 | File | `/api/blade-system/menu/list?updatexml` | High
+46 | File | `/api/blade-user/submit` | High
+47 | File | `/api/crontab` | Medium
+48 | File | `/api/database/testConnect` | High
+49 | File | `/api/mjkj-chat/cgform-api/addData/` | High
+50 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+51 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+52 | File | `/api/pipelines/upload` | High
+53 | File | `/api/school/registerSchool` | High
+54 | File | `/api/system/dept/update` | High
+55 | File | `/api/upload.php` | High
+56 | File | `/api/v1/documents/` | High
+57 | File | `/api/v1/memories/{id}/update` | High
+58 | ... | ... | ...
 
-There are 552 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,48 +81,50 @@ ID | Type | Indicator | Confidence
 24 | File | `/ckeditor/samples/old/ajax.html` | High
 25 | File | `/clinic/disease_symptoms_view.php` | High
 26 | File | `/config-manager/save` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/dashboard/table-list.php` | High
-29 | File | `/dashboard/updatelogo.php` | High
-30 | File | `/debug/` | Low
-31 | File | `/dede/file_manage_control.php` | High
-32 | File | `/default.php?idx=17` | High
-33 | File | `/directRouter.rfc` | High
-34 | File | `/doctor/view-appointment-detail.php` | High
-35 | File | `/download` | Medium
-36 | File | `/downloadFile.php` | High
-37 | File | `/edit-client-details.php` | High
-38 | File | `/env` | Low
-39 | File | `/fcgi/scrut_fcgi.fcgi` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/gasmark/assets/myimages/oneWord.php` | High
-42 | File | `/goform/SafeEmailFilter` | High
-43 | File | `/home/resume/index` | High
-44 | File | `/include/file.php` | High
-45 | File | `/index.php` | Medium
-46 | File | `/librarian/bookdetails.php` | High
-47 | File | `/member.php?action=chgpwdsubmit` | High
-48 | File | `/multi-vendor-shopping-script/product-list.php` | High
-49 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-50 | File | `/opt/bin/cli` | Medium
-51 | File | `/p` | Low
-52 | File | `/patient/doctors.php` | High
-53 | File | `/php/ping.php` | High
-54 | File | `/phpinventory/editcategory.php` | High
-55 | File | `/product-list.php` | High
-56 | File | `/products/view_product.php` | High
-57 | File | `/send_order.cgi?parameter=restart` | High
-58 | File | `/shell` | Low
-59 | File | `/spip.php` | Medium
-60 | File | `/templates/default/html/windows/right.php` | High
-61 | File | `/tmp` | Low
-62 | File | `/uncpath/` | Medium
-63 | File | `/updown/upload.cgi` | High
-64 | File | `/user/del.php` | High
-65 | File | `/WEB-INF/web.xml` | High
-66 | ... | ... | ...
+27 | File | `/course/filterRecords/` | High
+28 | File | `/dashboard/menu-list.php` | High
+29 | File | `/dashboard/table-list.php` | High
+30 | File | `/dashboard/updatelogo.php` | High
+31 | File | `/debug/` | Low
+32 | File | `/dede/file_manage_control.php` | High
+33 | File | `/default.php?idx=17` | High
+34 | File | `/directRouter.rfc` | High
+35 | File | `/doctor/view-appointment-detail.php` | High
+36 | File | `/download` | Medium
+37 | File | `/downloadFile.php` | High
+38 | File | `/edit-client-details.php` | High
+39 | File | `/env` | Low
+40 | File | `/fcgi/scrut_fcgi.fcgi` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/gasmark/assets/myimages/oneWord.php` | High
+43 | File | `/goform/SafeEmailFilter` | High
+44 | File | `/goform/wirelessAdvancedHidden` | High
+45 | File | `/home/resume/index` | High
+46 | File | `/include/file.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/librarian/bookdetails.php` | High
+49 | File | `/member.php?action=chgpwdsubmit` | High
+50 | File | `/multi-vendor-shopping-script/product-list.php` | High
+51 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+52 | File | `/opt/bin/cli` | Medium
+53 | File | `/p` | Low
+54 | File | `/patient/doctors.php` | High
+55 | File | `/php/ping.php` | High
+56 | File | `/phpinventory/editcategory.php` | High
+57 | File | `/product-list.php` | High
+58 | File | `/products/view_product.php` | High
+59 | File | `/send_order.cgi?parameter=restart` | High
+60 | File | `/shell` | Low
+61 | File | `/spip.php` | Medium
+62 | File | `/templates/default/html/windows/right.php` | High
+63 | File | `/tmp` | Low
+64 | File | `/uncpath/` | Medium
+65 | File | `/updown/upload.cgi` | High
+66 | File | `/user/chat/mynewuser` | High
+67 | File | `/user/del.php` | High
+68 | ... | ... | ...
 
-There are 580 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -54,11 +54,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-268, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,50 +66,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/action/new-father.php` | High
-2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/categories/view_category.php` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/content/index` | High
-7 | File | `/admin/edit_area.php` | High
-8 | File | `/admin/index.php?page=manage_lot` | High
-9 | File | `/admin/info_deal.php` | High
-10 | File | `/admin/pages/subjects.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/profile.php` | High
-13 | File | `/admin/reports/index.php` | High
-14 | File | `/admin/search-vehicle.php` | High
-15 | File | `/admin/search.php` | High
-16 | File | `/admin/subcategory.php` | High
-17 | File | `/admin/system.html` | High
-18 | File | `/admin/twitter.php` | High
-19 | File | `/admin/uploads/` | High
-20 | File | `/admin/userprofile.php` | High
-21 | File | `/adminPage/main/upload` | High
-22 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-23 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-24 | File | `/ajax.php?action=delete_deductions` | High
-25 | File | `/analysisProject/pagingQueryData` | High
-26 | File | `/api/api.php?mod=upload&type=1` | High
-27 | File | `/api/test/download` | High
-28 | File | `/api/wechat/app_auth` | High
-29 | File | `/app/admin/view/web_user.html` | High
-30 | File | `/app/sys1.php` | High
-31 | File | `/application/controller/Pelanggan.php` | High
-32 | File | `/author_posts.php` | High
-33 | File | `/backup.pl` | Medium
-34 | File | `/branch_viewmore.php` | High
-35 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-38 | File | `/classes/Master.php?f=delete_reminder` | High
-39 | File | `/classes/Users.php?f=save` | High
-40 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-41 | File | `/common/sysFile/list` | High
-42 | ... | ... | ...
+1 | File | `/admin.php/update/getFile.html` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/addgiving.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/assign/assign.php` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/categories/view_category.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/content/index` | High
+10 | File | `/admin/edit_area.php` | High
+11 | File | `/admin/index.php?page=manage_lot` | High
+12 | File | `/admin/index3.php` | High
+13 | File | `/admin/info_deal.php` | High
+14 | File | `/admin/pages/subjects.php` | High
+15 | File | `/admin/products/manage_product.php` | High
+16 | File | `/admin/profile.php` | High
+17 | File | `/admin/reports/index.php` | High
+18 | File | `/admin/search-vehicle.php` | High
+19 | File | `/admin/search.php` | High
+20 | File | `/admin/settings/users/edit/` | High
+21 | File | `/admin/subcategory.php` | High
+22 | File | `/admin/system.html` | High
+23 | File | `/admin/twitter.php` | High
+24 | File | `/admin/uploads/` | High
+25 | File | `/admin/userprofile.php` | High
+26 | File | `/adminPage/main/upload` | High
+27 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+28 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+29 | File | `/ajax.php?action=delete_deductions` | High
+30 | File | `/ajax.php?action=save_package` | High
+31 | File | `/analysisProject/pagingQueryData` | High
+32 | File | `/api/api.php?mod=upload&type=1` | High
+33 | File | `/api/test/download` | High
+34 | File | `/api/wechat/app_auth` | High
+35 | File | `/app/admin/view/web_user.html` | High
+36 | File | `/app/sys1.php` | High
+37 | File | `/application/controller/Pelanggan.php` | High
+38 | File | `/author_posts.php` | High
+39 | File | `/backup.pl` | Medium
+40 | File | `/branch_viewmore.php` | High
+41 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+44 | File | `/classes/Master.php?f=delete_reminder` | High
+45 | File | `/classes/Users.php?f=save` | High
+46 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+47 | File | `/common/sysFile/list` | High
+48 | File | `/contact.php` | Medium
+49 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

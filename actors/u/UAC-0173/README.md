@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,45 +50,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/add_user.php` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/Admin/akun_edit.php` | High
-7 | File | `/admin/apply.php` | High
-8 | File | `/admin/content/editor` | High
-9 | File | `/admin/create-package.php` | High
-10 | File | `/admin/doAdminAction.php?act=addCate` | High
-11 | File | `/admin/edit-brand.php` | High
-12 | File | `/admin/edit-post.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/profile.php` | High
-15 | File | `/Admin/Proses_Edit_Akun.php` | High
-16 | File | `/admin/robot.php` | High
-17 | File | `/admin/search-invoices.php` | High
-18 | File | `/admin/twitter.php` | High
-19 | File | `/api/baskets/{name}` | High
-20 | File | `/app/controller/Api.php` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/app/options.py` | High
-23 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-24 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-25 | File | `/applications/nexus/modules/front/store/store.php` | High
-26 | File | `/auth_files/photo/` | High
-27 | File | `/backend/doc/his_doc_update-account.php` | High
-28 | File | `/bitrix/admin/ldap_server_edit.php` | High
-29 | File | `/cgi-bin/apkg_mgr.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-33 | File | `/classes/Master.php` | High
-34 | File | `/classes/Master.php?f=delete_record` | High
-35 | File | `/classes/Master.php?f=save_category` | High
-36 | File | `/classes/SystemSettings.php?f=update_settings` | High
-37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/cstecgi.cgi` | Medium
-39 | File | `/customnode/install` | High
-40 | File | `/dcim/rack-roles/` | High
+2 | File | `/add-subadmin.php` | High
+3 | File | `/add_new_invoice.php` | High
+4 | File | `/add_user.php` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/Admin/akun_edit.php` | High
+8 | File | `/admin/apply.php` | High
+9 | File | `/admin/content/editor` | High
+10 | File | `/admin/create-package.php` | High
+11 | File | `/admin/doAdminAction.php?act=addCate` | High
+12 | File | `/admin/edit-brand.php` | High
+13 | File | `/admin/edit-post.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/profile.php` | High
+16 | File | `/Admin/Proses_Edit_Akun.php` | High
+17 | File | `/admin/robot.php` | High
+18 | File | `/admin/search-invoices.php` | High
+19 | File | `/admin/twitter.php` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/app/controller/Api.php` | High
+22 | File | `/app/index/controller/Common.php` | High
+23 | File | `/app/options.py` | High
+24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+25 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+26 | File | `/applications/nexus/modules/front/store/store.php` | High
+27 | File | `/auth_files/photo/` | High
+28 | File | `/backend/doc/his_doc_update-account.php` | High
+29 | File | `/bitrix/admin/ldap_server_edit.php` | High
+30 | File | `/cgi-bin/apkg_mgr.cgi` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+34 | File | `/classes/Master.php` | High
+35 | File | `/classes/Master.php?f=delete_record` | High
+36 | File | `/classes/Master.php?f=save_category` | High
+37 | File | `/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/classes/Users.php?f=save` | High
+39 | File | `/cstecgi.cgi` | Medium
+40 | File | `/customnode/install` | High
 41 | File | `/deal/{note_id}/note` | High
 42 | File | `/debuginfo.htm` | High
 43 | File | `/detailed.php` | High
@@ -98,9 +98,11 @@ ID | Type | Indicator | Confidence
 47 | File | `/fftools/ffmpeg_enc.c` | High
 48 | File | `/filter.php` | Medium
 49 | File | `/fladmin/sysconfig_doedit.php` | High
-50 | ... | ... | ...
+50 | File | `/forms/doLogin` | High
+51 | File | `/formSysLog` | Medium
+52 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

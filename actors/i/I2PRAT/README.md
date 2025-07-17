@@ -16,8 +16,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [194.26.135.9](https://vuldb.com/?ip.194.26.135.9) | - | - | High
-2 | [194.26.135.10](https://vuldb.com/?ip.194.26.135.10) | - | - | High
+1 | [154.216.20.137](https://vuldb.com/?ip.154.216.20.137) | - | - | High
+2 | [194.26.135.9](https://vuldb.com/?ip.194.26.135.9) | - | - | High
+3 | [194.26.135.10](https://vuldb.com/?ip.194.26.135.10) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,6 +28,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -34,7 +36,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `human.aspx` | Medium
+1 | File | `admin/file_manage_control.php` | High
+2 | File | `human.aspx` | Medium
+3 | Argument | `upfile1` | Low
 
 ## References
 

@@ -19,13 +19,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.95.173.124](https://vuldb.com/?ip.23.95.173.124) | 23-95-173-124-host.colocrossing.com | - | High
-2 | [62.60.226.252](https://vuldb.com/?ip.62.60.226.252) | - | - | High
-3 | [91.238.181.238](https://vuldb.com/?ip.91.238.181.238) | - | - | High
-4 | [94.26.90.5](https://vuldb.com/?ip.94.26.90.5) | - | - | High
-5 | [94.26.90.6](https://vuldb.com/?ip.94.26.90.6) | - | - | High
+2 | [31.129.22.45](https://vuldb.com/?ip.31.129.22.45) | 106558.ip-ptr.tech | - | High
+3 | [62.60.226.252](https://vuldb.com/?ip.62.60.226.252) | - | - | High
+4 | [91.238.181.238](https://vuldb.com/?ip.91.238.181.238) | - | - | High
+5 | [94.26.90.5](https://vuldb.com/?ip.94.26.90.5) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,15 +46,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/modules/profile/index.php` | High
-2 | File | `/spip.php` | Medium
-3 | File | `adclick.php` | Medium
-4 | File | `AffiliateLogin.asp` | High
-5 | File | `album_portal.php` | High
-6 | File | `awstats.pl` | Medium
-7 | ... | ... | ...
+1 | File | `/bin/httpd` | Medium
+2 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
+3 | File | `/modules/profile/index.php` | High
+4 | File | `/spip.php` | Medium
+5 | File | `/view/DBManage/Backup_Server_commit.php` | High
+6 | File | `adclick.php` | Medium
+7 | File | `AffiliateLogin.asp` | High
+8 | File | `album_portal.php` | High
+9 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +79,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3535255/
 * https://urlhaus.abuse.ch/url/3535256/
 * https://urlhaus.abuse.ch/url/3538650/
+* https://urlhaus.abuse.ch/url/3578977/
+* https://urlhaus.abuse.ch/url/3582040/
 
 ## Literature
 

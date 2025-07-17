@@ -52,23 +52,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=reports` | High
-2 | File | `/admin/template/update` | High
-3 | File | `/ajax.php?action=delete_tenant` | High
-4 | File | `/animalsadd.php` | High
-5 | File | `/api/blade-system/menu/list?updatexml` | High
-6 | File | `/Api/FileUploadApi.ashx` | High
-7 | File | `/apply/index.php` | High
-8 | File | `/catcompany.php` | High
-9 | File | `/cgi-bin/adm.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-12 | File | `/cgi-bin/hd_config.cgi` | High
-13 | File | `/eclime/manufacturers.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/gbo.aspx` | Medium
+2 | File | `/admin/add-art-type.php` | High
+3 | File | `/admin/template/update` | High
+4 | File | `/ajax.php?action=delete_tenant` | High
+5 | File | `/animalsadd.php` | High
+6 | File | `/api/blade-system/menu/list?updatexml` | High
+7 | File | `/Api/FileUploadApi.ashx` | High
+8 | File | `/apply/index.php` | High
+9 | File | `/catcompany.php` | High
+10 | File | `/cgi-bin/adm.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/hd_config.cgi` | High
+14 | File | `/eclime/manufacturers.php` | High
+15 | File | `/forum/away.php` | High
 16 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

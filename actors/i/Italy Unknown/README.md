@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2900,12 +2900,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2913,22 +2913,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/adfs/ls` | Medium
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/add-admin.php` | High
 3 | File | `/admin/all-applications.php` | High
 4 | File | `/admin/app/role_crud.php` | High
-5 | File | `/admin/apply.php` | High
-6 | File | `/admin/betweendates-detailsreports.php` | High
-7 | File | `/admin/edit-products.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-10 | File | `/api/v1/settings` | High
-11 | File | `/boafrm/formFilter` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/classes/Master.php?f=delete_product` | High
-14 | ... | ... | ...
+5 | File | `/admin/betweendates-detailsreports.php` | High
+6 | File | `/admin/bwdates-request-report-details.php` | High
+7 | File | `/admin/edit_area.php` | High
+8 | File | `/admin/forms/option_lists/edit.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/api/docs/index.php` | High
+11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+12 | File | `/api/v1/settings` | High
+13 | File | `/boafrm/formMultiAP` | High
+14 | File | `/BRS_top.html` | High
+15 | File | `/classes/Master.php?f=delete_product` | High
+16 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+17 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

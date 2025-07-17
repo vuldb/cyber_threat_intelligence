@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,40 +68,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\SSCService` | High
 2 | File | `.FBCIndex` | Medium
-3 | File | `/admin/ajax.php?action=confirm_order` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/notes/create` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/ajax` | Low
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/snapshot and /api/get_log_file` | High
-10 | File | `/api/v1` | Low
-11 | File | `/api2/html/` | Medium
-12 | File | `/app/sae/design/desktop/flat` | High
-13 | File | `/application/index/controller/Databasesource.php` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/blog` | Low
-17 | File | `/bolt/editcontent/showcases` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/download_config.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/contact/store` | High
-22 | File | `/core/redirect` | High
-23 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-24 | File | `/devinfo` | Medium
-25 | File | `/DXR.axd` | Medium
-26 | File | `/Employer/EditProfile.php` | High
-27 | File | `/endpoint/delete-bill.php` | High
-28 | File | `/formPasswordAuth` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/` | Medium
-31 | File | `/goform/apPortalPhoneAuth` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/h/autoSaveDraft` | High
-34 | ... | ... | ...
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/add_deductions.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax.php?action=confirm_order` | High
+7 | File | `/admin/ajax.php?action=save_settings` | High
+8 | File | `/admin/auto-taxi-entry-detail.php` | High
+9 | File | `/admin/bwdates-request-report-details.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/inventory/manage_stock.php` | High
+12 | File | `/admin/notes/create` | High
+13 | File | `/admin/view-card-detail.php` | High
+14 | File | `/admin_ping.htm` | High
+15 | File | `/ajax` | Low
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/snapshot and /api/get_log_file` | High
+18 | File | `/api/v1` | Low
+19 | File | `/api2/html/` | Medium
+20 | File | `/app/sae/design/desktop/flat` | High
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/application/index/controller/Screen.php` | High
+23 | File | `/bin` | Low
+24 | File | `/bin/boa` | Medium
+25 | File | `/blog` | Low
+26 | File | `/bolt/editcontent/showcases` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/download_config.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/core/redirect` | High
+31 | File | `/dede/article_string_mix.php` | High
+32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+33 | File | `/devinfo` | Medium
+34 | File | `/DXR.axd` | Medium
+35 | File | `/Employer/EditProfile.php` | High
+36 | File | `/endpoint/delete-bill.php` | High
+37 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

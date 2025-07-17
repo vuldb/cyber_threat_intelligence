@@ -93,23 +93,23 @@ ID | Type | Indicator | Confidence
 34 | File | `/debug/pprof` | Medium
 35 | File | `/dede/file_manage_control.php` | High
 36 | File | `/detailed.php` | High
-37 | File | `/dist/index.js` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/ebics-server/ebics.aspx` | High
-40 | File | `/EXCU_SHELL` | Medium
-41 | File | `/ffos/classes/Master.php?f=save_category` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/address/private/address/query/delete.php` | High
-44 | File | `/goform/ate` | Medium
-45 | File | `/goform/form2systime.cgi` | High
-46 | File | `/goform/formSetLog` | High
-47 | File | `/goform/formWlanSetup_Wizard` | High
-48 | File | `/goform/formWlanWizardSetup` | High
-49 | File | `/goform/modifyDhcpRule` | High
-50 | File | `/goform/ModifyPppAuthWhiteMac` | High
+37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+38 | File | `/dist/index.js` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ebics-server/ebics.aspx` | High
+41 | File | `/EXCU_SHELL` | Medium
+42 | File | `/ffos/classes/Master.php?f=save_category` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/general/address/private/address/query/delete.php` | High
+45 | File | `/goform/ate` | Medium
+46 | File | `/goform/form2systime.cgi` | High
+47 | File | `/goform/formSetLog` | High
+48 | File | `/goform/formWlanSetup_Wizard` | High
+49 | File | `/goform/formWlanWizardSetup` | High
+50 | File | `/goform/modifyDhcpRule` | High
 51 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

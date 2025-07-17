@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Squirrelwaffle:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Squirrelwaffle:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [BR](https://vuldb.com/?country.br)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,25 +57,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/cgi-bin/ExportALLSettings.sh` | High
-3 | File | `/cgi-bin/ExportAllSettings.sh` | High
-4 | File | `/config/getuser` | High
-5 | File | `/core/config-revisions` | High
-6 | File | `/etc/passwd` | Medium
-7 | File | `/include/chart_generator.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-10 | File | `/product_list.php` | High
-11 | File | `/qsr_server/device/reboot` | High
-12 | File | `/resource/file/api/save?auto=1` | High
-13 | File | `/snmpGet` | Medium
-14 | File | `/tmp` | Low
-15 | File | `/uncpath/` | Medium
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `administrator/components/com_media/helpers/media.php` | High
-18 | ... | ... | ...
+2 | File | `/admin/add_course.php` | High
+3 | File | `/boafrm/formMapDel` | High
+4 | File | `/cgi-bin/ExportALLSettings.sh` | High
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/classes/Master.php?f=delete_img` | High
+7 | File | `/config/getuser` | High
+8 | File | `/core/config-revisions` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+13 | File | `/ordering/admin/orders/loaddata.php` | High
+14 | File | `/pages/processlogin.php` | High
+15 | File | `/product_list.php` | High
+16 | File | `/qsr_server/device/reboot` | High
+17 | File | `/resource/file/api/save?auto=1` | High
+18 | File | `/rocket/RocketCore.scala` | High
+19 | File | `/snmpGet` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/user/index/findpass?do=4` | High
+23 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

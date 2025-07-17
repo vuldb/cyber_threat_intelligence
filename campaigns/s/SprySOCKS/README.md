@@ -49,11 +49,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index.php` | High
-2 | File | `cgi-bin/awstats.pl` | High
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `/userfs/bin/tcapi` | High
+3 | File | `cgi-bin/awstats.pl` | High
 4 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

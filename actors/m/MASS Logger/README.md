@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MASS Logger:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
@@ -22,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [81.161.229.110](https://vuldb.com/?ip.81.161.229.110) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +49,13 @@ ID | Type | Indicator | Confidence
 3 | File | `admin/file_manage_control.php` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/76b892f831777c399b0e75595ce0937a894d5dacf79b26503590e26dc44e6354/
 * https://threatfox.abuse.ch
 * https://urlscan.io/result/01af0981-d368-49f0-a39f-740f71fb0cba
 * https://urlscan.io/result/7a5377ef-4a9d-4473-bcce-ae9c298b6cc5

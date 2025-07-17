@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FakeUpdateRU:
 
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -30,8 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1222 | CWE-275 | Permission Issues | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,7 +43,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `User.java` | Medium
+1 | File | `/addmem.php` | Medium
+2 | File | `/boafrm/formMultiAP` | High
+3 | File | `/boafrm/formSysLog` | High
+4 | File | `/boafrm/formWlanRedirect` | High
+5 | ... | ... | ...
+
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

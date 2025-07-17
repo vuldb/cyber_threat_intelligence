@@ -61,36 +61,36 @@ ID | Type | Indicator | Confidence
 9 | File | `/api/v2/events` | High
 10 | File | `/api/wizard/setsyncpppoecfg` | High
 11 | File | `/bwdates-reports-details.php?vid=2` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/checkLogin.cgi` | High
-14 | File | `/common/logViewer/logViewer.jsf` | High
-15 | File | `/control/register_case.php` | High
-16 | File | `/core/vb/vurl.php` | High
-17 | File | `/CPE` | Low
-18 | File | `/dashboard/snapshot/*?orgId=0` | High
-19 | File | `/devinfo` | Medium
-20 | File | `/ecrire` | Low
-21 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/HNAP1/SetAccessPointMode` | High
-24 | File | `/index.php?menu=asterisk_cli` | High
-25 | File | `/magnoliaPublic/travel/members/login.html` | High
-26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/pg_meta/default/query` | High
-29 | File | `/proc//auxv` | Medium
-30 | File | `/proc/fs/nfsd/clients/2/states` | High
-31 | File | `/product.php` | Medium
-32 | File | `/products/view_product.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/school/model/get_teacher.php` | High
-35 | File | `/search.php` | Medium
-36 | File | `/soplanning/www/process/xajax_server.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/user/loader.php?api=1` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/checkLogin.cgi` | High
+15 | File | `/common/logViewer/logViewer.jsf` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/core/vb/vurl.php` | High
+18 | File | `/CPE` | Low
+19 | File | `/dashboard/snapshot/*?orgId=0` | High
+20 | File | `/devinfo` | Medium
+21 | File | `/ecrire` | Low
+22 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/HNAP1/SetAccessPointMode` | High
+25 | File | `/index.php?menu=asterisk_cli` | High
+26 | File | `/magnoliaPublic/travel/members/login.html` | High
+27 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/pg_meta/default/query` | High
+30 | File | `/proc//auxv` | Medium
+31 | File | `/proc/fs/nfsd/clients/2/states` | High
+32 | File | `/product.php` | Medium
+33 | File | `/products/view_product.php` | High
+34 | File | `/rom-0` | Low
+35 | File | `/school/model/get_teacher.php` | High
+36 | File | `/search.php` | Medium
+37 | File | `/soplanning/www/process/xajax_server.php` | High
+38 | File | `/spip.php` | Medium
 39 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -133,7 +133,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -182,11 +182,14 @@ ID | Type | Indicator | Confidence
 32 | File | `/com/esafenet/servlet/policy/HookService.java` | High
 33 | File | `/control/WANIPConnection` | High
 34 | File | `/dashboard/admin/submit_payments.php` | High
-35 | File | `/ecommerce/support_ticket` | High
-36 | File | `/edit-subject.php` | High
-37 | ... | ... | ...
+35 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/edit-subject.php` | High
+38 | File | `/endpoint/add-user.php` | High
+39 | File | `/etc/postfix/sender_login` | High
+40 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

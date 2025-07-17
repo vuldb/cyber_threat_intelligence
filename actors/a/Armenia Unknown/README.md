@@ -127,14 +127,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -142,39 +142,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/list_ipAddressPolicy.php` | High
-8 | File | `/admin/manage_model.php` | High
-9 | File | `/admin/manage_station.php` | High
-10 | File | `/admin/manage_user.php` | High
-11 | File | `/admin/search-vehicle.php` | High
-12 | File | `/admin/subject.php` | High
-13 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-14 | File | `/admin/twitter.php` | High
-15 | File | `/api/v1/toolbox/device/update/swap` | High
-16 | File | `/app/zentao/module/repo/model.php` | High
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/catalog/all-products` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/ExportSettings.sh` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/SystemSettings.php?f=update_settings` | High
-23 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-24 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-25 | File | `/edit-subject.php` | High
-26 | File | `/endpoint/add-user.php` | High
-27 | File | `/etc/postfix/sender_login` | High
-28 | File | `/etc/shadow.sample` | High
-29 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-30 | File | `/foms/routers/place-order.php` | High
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/category_save.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/manage_model.php` | High
+11 | File | `/admin/manage_station.php` | High
+12 | File | `/admin/manage_user.php` | High
+13 | File | `/admin/search-vehicle.php` | High
+14 | File | `/admin/subject.php` | High
+15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+16 | File | `/admin/twitter.php` | High
+17 | File | `/api/v1/settings` | High
+18 | File | `/api/v1/toolbox/device/update/swap` | High
+19 | File | `/app/zentao/module/repo/model.php` | High
+20 | File | `/bin/httpd` | Medium
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/ExportSettings.sh` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=save_product` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+27 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+28 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+29 | File | `/edit-subject.php` | High
+30 | File | `/endpoint/add-user.php` | High
 31 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

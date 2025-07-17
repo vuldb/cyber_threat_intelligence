@@ -19,6 +19,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [141.101.134.18](https://vuldb.com/?ip.141.101.134.18) | - | - | High
+2 | [199.232.210.172](https://vuldb.com/?ip.199.232.210.172) | - | - | High
+3 | [199.232.214.172](https://vuldb.com/?ip.199.232.214.172) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,6 +45,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/2436fa28a278522c298b3a398ddc553c96c4be29ae7b433a999ad49ac71d656c/
+* https://threatfox.abuse.ch
 
 ## Literature
 

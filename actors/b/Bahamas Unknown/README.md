@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -79,7 +79,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -95,40 +95,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addgiving.php` | High
 2 | File | `/admin/index.php?page=manage_lot` | High
-3 | File | `/admin/pages/edit_chicken.php` | High
-4 | File | `/admin/pages/student-print.php` | High
-5 | File | `/admin/pages/subjects.php` | High
-6 | File | `/admin_route/inc_service_credits.php` | High
-7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/api/api.php?mod=upload&type=1` | High
-9 | File | `/api/runscript` | High
-10 | File | `/app/admin/view/web_user.html` | High
-11 | File | `/app/Http/Controllers/ImageController.php` | High
-12 | File | `/app/sys1.php` | High
-13 | File | `/application/index/controller/Icon.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-16 | File | `/classes/Master.php?f=delete_reminder` | High
-17 | File | `/classes/Master.php?f=delete_service` | High
+3 | File | `/admin/index3.php` | High
+4 | File | `/admin/pages/edit_chicken.php` | High
+5 | File | `/admin/pages/student-print.php` | High
+6 | File | `/admin/pages/subjects.php` | High
+7 | File | `/admin_route/inc_service_credits.php` | High
+8 | File | `/analysisProject/pagingQueryData` | High
+9 | File | `/api/api.php?mod=upload&type=1` | High
+10 | File | `/api/runscript` | High
+11 | File | `/app/admin/view/web_user.html` | High
+12 | File | `/app/Http/Controllers/ImageController.php` | High
+13 | File | `/app/sys1.php` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+17 | File | `/classes/Master.php?f=delete_reminder` | High
 18 | File | `/controllers/add_client.php` | High
 19 | File | `/data/app` | Medium
 20 | File | `/debuginfo.htm` | High
 21 | File | `/detalheIdUra` | High
-22 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-23 | File | `/editar-cliente.php` | High
-24 | File | `/edit_user.php` | High
-25 | File | `/endpoint/update.php` | High
-26 | File | `/foms/routers/place-order.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-29 | File | `/goform/formResetStatistic` | High
-30 | File | `/goform/formSetWizardSelectMode` | High
-31 | File | `/importexport.php` | High
-32 | File | `/Interface/DevManage/VM.php` | High
-33 | File | `/load.php` | Medium
-34 | ... | ... | ...
+22 | File | `/doctor-panel.php` | High
+23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+24 | File | `/editar-cliente.php` | High
+25 | File | `/edit_user.php` | High
+26 | File | `/endpoint/update.php` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+30 | File | `/goform/formResetStatistic` | High
+31 | File | `/goform/formSetWizardSelectMode` | High
+32 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

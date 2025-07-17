@@ -11,11 +11,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+2 | [213.209.150.18](https://vuldb.com/?ip.213.209.150.18) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Loki_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Loki. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+2 | Argument | `nmconexao` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://urlhaus.abuse.ch/url/3544189/
 * https://www.cyber45.com
 
 ## Literature

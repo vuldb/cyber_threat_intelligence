@@ -76,7 +76,7 @@ ID | Type | Indicator | Confidence
 27 | File | `/endpoint/delete-mark.php` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

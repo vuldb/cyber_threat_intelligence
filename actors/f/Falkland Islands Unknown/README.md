@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,46 +76,45 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/approve.php` | High
 20 | File | `/admin/booking-search.php` | High
 21 | File | `/Admin/changepassword.php` | High
-22 | File | `/admin/contact-us.php` | High
-23 | File | `/admin/department/add` | High
-24 | File | `/admin/index.php` | High
-25 | File | `/admin/manage_academic.php` | High
-26 | File | `/admin/manage_station.php` | High
-27 | File | `/admin/manage_user.php` | High
-28 | File | `/admin/newsletter.php` | High
-29 | File | `/admin/print.php` | High
-30 | File | `/admin/search-booking-request.php` | High
-31 | File | `/admin/search-maid.php` | High
-32 | File | `/admin/search-pass.php` | High
-33 | File | `/admin/sou.php` | High
-34 | File | `/admin/upload.php` | High
-35 | File | `/admin/user/user-move-run.php` | High
-36 | File | `/ajax.php?action=signup` | High
-37 | File | `/ajax.php?action=update_account` | High
-38 | File | `/ajax/get_patient_history.php` | High
-39 | File | `/ajax_city.php` | High
-40 | File | `/animalsupdate.php` | High
-41 | File | `/anony/mjpg.cgi` | High
-42 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-43 | File | `/api/deploy/upload` | High
-44 | File | `/api/deploy/upload /api/database/upload` | High
-45 | File | `/api/ping` | Medium
-46 | File | `/application/index/controller/Databasesource.php` | High
-47 | File | `/application/index/controller/Screen.php` | High
-48 | File | `/art-enquiry.php` | High
-49 | File | `/backend/doc/his_doc_update-account.php` | High
-50 | File | `/blog` | Low
-51 | File | `/bloodrequest.php` | High
-52 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
-53 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-54 | File | `/CDGServer3/workflowE/useractivate/updateorg.jsp` | High
-55 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-56 | File | `/cgi-bin/cstecgi.cgi` | High
-57 | File | `/cgi-bin/download_config.cgi` | High
-58 | File | `/cgi-bin/hd_config.cgi` | High
-59 | ... | ... | ...
+22 | File | `/admin/confirm_reserve.php` | High
+23 | File | `/admin/contact-us.php` | High
+24 | File | `/admin/delete_room.php` | High
+25 | File | `/admin/department/add` | High
+26 | File | `/admin/execedituser.php` | High
+27 | File | `/admin/index.php` | High
+28 | File | `/admin/manage_academic.php` | High
+29 | File | `/admin/manage_station.php` | High
+30 | File | `/admin/manage_user.php` | High
+31 | File | `/admin/newsletter.php` | High
+32 | File | `/admin/print.php` | High
+33 | File | `/admin/search-booking-request.php` | High
+34 | File | `/admin/search-maid.php` | High
+35 | File | `/admin/search-pass.php` | High
+36 | File | `/admin/sou.php` | High
+37 | File | `/admin/user/user-move-run.php` | High
+38 | File | `/ajax.php?action=signup` | High
+39 | File | `/ajax.php?action=update_account` | High
+40 | File | `/ajax/get_patient_history.php` | High
+41 | File | `/ajax_city.php` | High
+42 | File | `/animalsupdate.php` | High
+43 | File | `/anony/mjpg.cgi` | High
+44 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+45 | File | `/api/deploy/upload` | High
+46 | File | `/api/deploy/upload /api/database/upload` | High
+47 | File | `/api/ping` | Medium
+48 | File | `/api/wizard/getNetworkStatus` | High
+49 | File | `/application/index/controller/Databasesource.php` | High
+50 | File | `/application/index/controller/Screen.php` | High
+51 | File | `/art-enquiry.php` | High
+52 | File | `/backend/doc/his_doc_update-account.php` | High
+53 | File | `/bidlog.php` | Medium
+54 | File | `/bloodrequest.php` | High
+55 | File | `/boafrm/formSysCmd` | High
+56 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+57 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+58 | ... | ... | ...
 
-There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

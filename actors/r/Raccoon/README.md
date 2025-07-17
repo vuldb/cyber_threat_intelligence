@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -254,19 +254,19 @@ ID | IP address | Hostname | Campaign | Confidence
 231 | [45.61.138.198](https://vuldb.com/?ip.45.61.138.198) | - | - | High
 232 | [45.61.139.2](https://vuldb.com/?ip.45.61.139.2) | - | - | High
 233 | [45.61.166.46](https://vuldb.com/?ip.45.61.166.46) | - | - | High
-234 | [45.66.230.38](https://vuldb.com/?ip.45.66.230.38) | - | - | High
-235 | [45.67.34.234](https://vuldb.com/?ip.45.67.34.234) | vm1200564.stark-industries.solutions | - | High
-236 | [45.67.35.52](https://vuldb.com/?ip.45.67.35.52) | vm1245055.stark-industries.solutions | - | High
-237 | [45.67.35.164](https://vuldb.com/?ip.45.67.35.164) | vm1323097.stark-industries.solutions | - | High
-238 | [45.67.35.241](https://vuldb.com/?ip.45.67.35.241) | vm1349287.stark-industries.solutions | - | High
-239 | [45.67.35.251](https://vuldb.com/?ip.45.67.35.251) | vm1333466.stark-industries.solutions | - | High
-240 | [45.67.228.180](https://vuldb.com/?ip.45.67.228.180) | vm1330387.stark-industries.solutions | - | High
-241 | [45.67.231.132](https://vuldb.com/?ip.45.67.231.132) | ironfish.com | - | High
-242 | [45.77.137.24](https://vuldb.com/?ip.45.77.137.24) | - | - | High
-243 | [45.82.13.17](https://vuldb.com/?ip.45.82.13.17) | MSK-H-1674545172.msk.host | - | High
+234 | [45.66.151.159](https://vuldb.com/?ip.45.66.151.159) | - | - | High
+235 | [45.66.230.38](https://vuldb.com/?ip.45.66.230.38) | - | - | High
+236 | [45.67.34.234](https://vuldb.com/?ip.45.67.34.234) | vm1200564.stark-industries.solutions | - | High
+237 | [45.67.35.52](https://vuldb.com/?ip.45.67.35.52) | vm1245055.stark-industries.solutions | - | High
+238 | [45.67.35.164](https://vuldb.com/?ip.45.67.35.164) | vm1323097.stark-industries.solutions | - | High
+239 | [45.67.35.241](https://vuldb.com/?ip.45.67.35.241) | vm1349287.stark-industries.solutions | - | High
+240 | [45.67.35.251](https://vuldb.com/?ip.45.67.35.251) | vm1333466.stark-industries.solutions | - | High
+241 | [45.67.228.180](https://vuldb.com/?ip.45.67.228.180) | vm1330387.stark-industries.solutions | - | High
+242 | [45.67.231.132](https://vuldb.com/?ip.45.67.231.132) | ironfish.com | - | High
+243 | [45.77.137.24](https://vuldb.com/?ip.45.77.137.24) | - | - | High
 244 | ... | ... | ... | ...
 
-There are 971 more IOC items available. Please use our online service to access the data.
+There are 973 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -274,14 +274,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -289,62 +289,80 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/add-subadmin.php` | High
-3 | File | `/add_deductions.php` | High
-4 | File | `/adfs/ls` | Medium
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/all-applications.php` | High
-7 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-8 | File | `/admin/bookList?page=1&limit=10` | High
-9 | File | `/admin/bwdates-report-details.php` | High
-10 | File | `/admin/chatroom.php` | High
-11 | File | `/admin/create_product.php` | High
-12 | File | `/admin/edit-products.php` | High
-13 | File | `/admin/enrollment-details.php` | High
-14 | File | `/admin/getallarticleinfo` | High
-15 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/index2.html` | High
-18 | File | `/admin/normal-search.php` | High
-19 | File | `/admin/salary_slip.php` | High
-20 | File | `/admin/template/update` | High
-21 | File | `/admin/user-search.php` | High
-22 | File | `/adminPage/main/upload` | High
-23 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-24 | File | `/admin_topic.php?action=delall` | High
-25 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-26 | File | `/api/sys/set_passwd` | High
-27 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-28 | File | `/api/v1/settings` | High
-29 | File | `/api/wizard/setsyncpppoecfg` | High
-30 | File | `/app/controller/Api.php` | High
-31 | File | `/app/zentao/module/repo/model.php` | High
-32 | File | `/auth.asp` | Medium
-33 | File | `/auth/register` | High
-34 | File | `/auth_files/photo/` | High
-35 | File | `/bin/httpd` | Medium
-36 | File | `/bitrix/admin/ldap_server_edit.php` | High
-37 | File | `/boafrm/formFilter` | High
-38 | File | `/catalog/compare` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/hd_config.cgi` | High
-41 | File | `/cgi-bin/mainfunction.cgi` | High
-42 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-43 | File | `/change-password.php` | High
-44 | File | `/classes/Master.php?f=save_course` | High
-45 | File | `/classes/Master.php?f=save_position` | High
-46 | File | `/config/config.properties` | High
-47 | File | `/coreframe/app/guestbook/myissue.php` | High
-48 | File | `/cupseasylive/locationcreate.php` | High
-49 | File | `/dash/update.php` | High
-50 | File | `/edit-category.php` | High
-51 | File | `/endpoint/add-user.php` | High
-52 | File | `/endpoint/delete-calorie.php` | High
-53 | File | `/extensions/realestate/index.php/agents/agent-register/addagent` | High
-54 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `.travis.yml` | Medium
+3 | File | `/add-subadmin.php` | High
+4 | File | `/add_deductions.php` | High
+5 | File | `/adfs/ls` | Medium
+6 | File | `/admin-cp/media` | High
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/?page=return/view_return` | High
+9 | File | `/admin/add-subadmin.php` | High
+10 | File | `/admin/add_cars.php` | High
+11 | File | `/admin/admin_action.php` | High
+12 | File | `/admin/admin_index.php` | High
+13 | File | `/admin/all-applications.php` | High
+14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+15 | File | `/admin/bookList?page=1&limit=10` | High
+16 | File | `/admin/bwdates-report-details.php` | High
+17 | File | `/admin/bwdates-request-report-details.php` | High
+18 | File | `/admin/category/add.do` | High
+19 | File | `/admin/changeimage.php` | High
+20 | File | `/admin/chatroom.php` | High
+21 | File | `/admin/create_product.php` | High
+22 | File | `/admin/delete-doctor.php` | High
+23 | File | `/admin/edit-admin.php` | High
+24 | File | `/admin/edit-guard-detail.php` | High
+25 | File | `/admin/edit-products.php` | High
+26 | File | `/admin/enrollment-details.php` | High
+27 | File | `/admin/forms/option_lists/edit.php` | High
+28 | File | `/admin/getallarticleinfo` | High
+29 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+30 | File | `/admin/index.php` | High
+31 | File | `/admin/index2.html` | High
+32 | File | `/Admin/login.php` | High
+33 | File | `/admin/normal-search.php` | High
+34 | File | `/admin/salary_slip.php` | High
+35 | File | `/admin/template/update` | High
+36 | File | `/admin/user-search.php` | High
+37 | File | `/adminPage/main/upload` | High
+38 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+39 | File | `/admin_topic.php?action=delall` | High
+40 | File | `/adpweb/a/base/barcodeDetail/` | High
+41 | File | `/ajax.php?action=save_package` | High
+42 | File | `/api/docs/index.php` | High
+43 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+44 | File | `/api/sys/set_passwd` | High
+45 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+46 | File | `/api/v1/settings` | High
+47 | File | `/api/wizard/setsyncpppoecfg` | High
+48 | File | `/app/controller/Api.php` | High
+49 | File | `/app/zentao/module/repo/model.php` | High
+50 | File | `/auth.asp` | Medium
+51 | File | `/auth/register` | High
+52 | File | `/auth_files/photo/` | High
+53 | File | `/backend/register.php` | High
+54 | File | `/bin/httpd` | Medium
+55 | File | `/bitrix/admin/ldap_server_edit.php` | High
+56 | File | `/boafrm/formFilter` | High
+57 | File | `/boafrm/formSaveConfig` | High
+58 | File | `/boafrm/formWlSiteSurvey` | High
+59 | File | `/BRS_top.html` | High
+60 | File | `/cashconfirm.php` | High
+61 | File | `/catalog/compare` | High
+62 | File | `/cgi-bin/Config.cgi?action=set` | High
+63 | File | `/cgi-bin/cstecgi.cgi` | High
+64 | File | `/cgi-bin/editBookmark` | High
+65 | File | `/cgi-bin/hd_config.cgi` | High
+66 | File | `/cgi-bin/login.cgi` | High
+67 | File | `/cgi-bin/mainfunction.cgi` | High
+68 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+69 | File | `/cgi-bin/nas_sharing.cgi` | High
+70 | File | `/change-password.php` | High
+71 | File | `/changeUsername.php` | High
+72 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 633 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -357,6 +375,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/7b0d940175c7c440f5bc5b54bf72b899fc5cef36ff62e65c2f52856e75d0b05b/
 * https://bazaar.abuse.ch/sample/9c7a967f46a139f886c96f027a26caf6bc8446dfdf9d689c84116816a6b64954/
 * https://bazaar.abuse.ch/sample/1743f4a392b6d2ad0d47a7a57e277e1a29ecf459275b604919a6131739afdaad/
+* https://bazaar.abuse.ch/sample/2249a481bc30d3a1297e62bc5c9585efc14dc66d37520044c213ebbbece1a435/
 * https://bazaar.abuse.ch/sample/2475b6b24c1117002dfdb64795080ea401a25a2a23e08f3e9f809dfaa01a05c1/
 * https://bazaar.abuse.ch/sample/ac13be532798f0d6dd37d8eed2b8d4ef0f8dc0ead80cc7c18db57d3052cdefd8/
 * https://bazaar.abuse.ch/sample/ad469dd1d1a2d39ac6a1562243ea2205b43eacbb8b62b084916d9a0974189554/

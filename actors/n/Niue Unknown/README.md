@@ -73,11 +73,11 @@ ID | Type | Indicator | Confidence
 17 | File | `/cgi-bin/cstecgi.cgi` | High
 18 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 19 | File | `/classes/SystemSettings.php?f=update_settings` | High
-20 | File | `/cm/delete` | Medium
-21 | File | `/common/logViewer/logViewer.jsf` | High
-22 | File | `/config/config.json` | High
-23 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-24 | File | `/debug/pprof` | Medium
+20 | File | `/common/logViewer/logViewer.jsf` | High
+21 | File | `/config/config.json` | High
+22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/devinfo` | Medium
 25 | File | `/download` | Medium
 26 | File | `/etc/hosts.deny` | High
 27 | File | `/forum/away.php` | High
@@ -104,16 +104,15 @@ ID | Type | Indicator | Confidence
 48 | File | `/uncpath/` | Medium
 49 | File | `/update-article.php` | High
 50 | File | `/upload/ueditorConfig?action=config` | High
-51 | File | `/user.profile.php` | High
-52 | File | `/user/chat/mynewuser` | High
-53 | File | `/user/loader.php?api=1` | High
-54 | File | `/usr/bin/at` | Medium
-55 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-56 | File | `/view/vpn/autovpn/online_check.php` | High
-57 | File | `/wordpress/wp-admin/options-general.php` | High
-58 | ... | ... | ...
+51 | File | `/user/chat/mynewuser` | High
+52 | File | `/user/loader.php?api=1` | High
+53 | File | `/usr/bin/at` | Medium
+54 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+55 | File | `/view/vpn/autovpn/online_check.php` | High
+56 | File | `/wordpress/wp-admin/options-general.php` | High
+57 | ... | ... | ...
 
-There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

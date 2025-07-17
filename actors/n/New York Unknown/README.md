@@ -194,7 +194,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -203,26 +203,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-api/bpm/model/deploy` | High
-2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/ajax.php?action=login` | High
-4 | File | `/admin/app/slider_crud.php` | High
-5 | File | `/admin/config_MT.php?action=delete` | High
-6 | File | `/admin/create_product.php` | High
-7 | File | `/admin/emp-profile-avatar.php` | High
-8 | File | `/admin/maintenance/manage_brand.php` | High
-9 | File | `/admin/manage_station.php` | High
-10 | File | `/admin/profile.php` | High
-11 | File | `/admin/school_year.php` | High
-12 | File | `/admin/search-booking-request.php` | High
-13 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-14 | File | `/atv-cli` | Medium
-15 | File | `/Basics/DownloadInpFile` | High
-16 | File | `/cgi-bin/p1_ftpserver.php` | High
-17 | File | `/cgi-bin/tosei_kikai.php` | High
-18 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
-19 | ... | ... | ...
+2 | File | `/admin/ajax.php?action=login` | High
+3 | File | `/admin/app/slider_crud.php` | High
+4 | File | `/admin/config_MT.php?action=delete` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/manage_station.php` | High
+8 | File | `/admin/profile.php` | High
+9 | File | `/admin/school_year.php` | High
+10 | File | `/admin/search-booking-request.php` | High
+11 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+12 | File | `/api/wizard/getssidname` | High
+13 | File | `/atv-cli` | Medium
+14 | File | `/Basics/DownloadInpFile` | High
+15 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

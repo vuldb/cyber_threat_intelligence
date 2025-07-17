@@ -163,7 +163,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -176,24 +176,25 @@ ID | Type | Indicator | Confidence
 3 | File | `/Admin/consulting_detail.php` | High
 4 | File | `/admin/file_manager/export` | High
 5 | File | `/admin/index.php?page=manage_lot` | High
-6 | File | `/admin/pages/subjects.php` | High
-7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/api/api.php?mod=upload&type=1` | High
-9 | File | `/app/admin/view/web_user.html` | High
-10 | File | `/app/sys1.php` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-13 | File | `/classes/Master.php?f=delete_reminder` | High
-14 | File | `/data/app` | Medium
-15 | File | `/debuginfo.htm` | High
-16 | File | `/detalheIdUra` | High
-17 | File | `/editar-cliente.php` | High
-18 | File | `/edit_user.php` | High
-19 | File | `/endpoint/update.php` | High
-20 | File | `/goform/formResetStatistic` | High
-21 | ... | ... | ...
+6 | File | `/admin/massage.php` | High
+7 | File | `/admin/pages/subjects.php` | High
+8 | File | `/analysisProject/pagingQueryData` | High
+9 | File | `/api/api.php?mod=upload&type=1` | High
+10 | File | `/app/admin/view/web_user.html` | High
+11 | File | `/app/sys1.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+14 | File | `/classes/Master.php?f=delete_reminder` | High
+15 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+16 | File | `/data/app` | Medium
+17 | File | `/debuginfo.htm` | High
+18 | File | `/detalheIdUra` | High
+19 | File | `/doctor-panel.php` | High
+20 | File | `/editar-cliente.php` | High
+21 | File | `/edit_user.php` | High
+22 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

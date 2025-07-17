@@ -103,41 +103,43 @@ ID | Type | Indicator | Confidence
 31 | File | `/admin/massage.php` | High
 32 | File | `/admin/profile.php` | High
 33 | File | `/admin/reg.php` | High
-34 | File | `/admin/search-appointment.php` | High
-35 | File | `/admin/students/update_status.php` | High
-36 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-37 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-38 | File | `/ajax-api.php` | High
-39 | File | `/api/front/search/books` | High
-40 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-41 | File | `/api/sys/login` | High
-42 | File | `/api/sys/set_passwd` | High
-43 | File | `/app/ajax/search_sales_report.php` | High
-44 | File | `/app/controller/Setup.php` | High
-45 | File | `/application/index/controller/Screen.php` | High
-46 | File | `/apply.cgi` | Medium
-47 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-48 | File | `/bin/boa` | Medium
-49 | File | `/boafrm/formMapDelDevice` | High
-50 | File | `/booking/show_bookings/` | High
-51 | File | `/brains/stu.php` | High
-52 | File | `/cancel.php` | Medium
-53 | File | `/cgi-bin/adm.cgi` | High
-54 | File | `/cgi-bin/cstecgi.cgi` | High
-55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-56 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-57 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-58 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-59 | File | `/cgi-bin/myMusic.cgi` | High
-60 | File | `/cgi-bin/nas_sharing.cgi` | High
-61 | File | `/cgi-bin/settings-firewall.cgi` | High
-62 | File | `/cgi-bin/touchlist_sync.cgi` | High
-63 | File | `/chaincity/user/ticket/create` | High
-64 | File | `/check_availability.php` | High
-65 | File | `/classes/Master.php` | High
-66 | ... | ... | ...
+34 | File | `/admin/registration.php` | High
+35 | File | `/admin/search-appointment.php` | High
+36 | File | `/admin/students/update_status.php` | High
+37 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+38 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+39 | File | `/ajax-api.php` | High
+40 | File | `/ajax.php?action=delete_allowances` | High
+41 | File | `/api/front/search/books` | High
+42 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+43 | File | `/api/sys/login` | High
+44 | File | `/api/sys/set_passwd` | High
+45 | File | `/app/ajax/search_sales_report.php` | High
+46 | File | `/app/controller/Setup.php` | High
+47 | File | `/application/index/controller/Screen.php` | High
+48 | File | `/apply.cgi` | Medium
+49 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+50 | File | `/bin/boa` | Medium
+51 | File | `/binutils/debug.c` | High
+52 | File | `/boafrm/formMapDelDevice` | High
+53 | File | `/boafrm/formWlSiteSurvey` | High
+54 | File | `/booking/show_bookings/` | High
+55 | File | `/brains/stu.php` | High
+56 | File | `/cancel.php` | Medium
+57 | File | `/cgi-bin/adm.cgi` | High
+58 | File | `/cgi-bin/cstecgi.cgi` | High
+59 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+60 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+61 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+62 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+63 | File | `/cgi-bin/myMusic.cgi` | High
+64 | File | `/cgi-bin/nas_sharing.cgi` | High
+65 | File | `/cgi-bin/settings-firewall.cgi` | High
+66 | File | `/cgi-bin/touchlist_sync.cgi` | High
+67 | File | `/chaincity/user/ticket/create` | High
+68 | ... | ... | ...
 
-There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 598 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

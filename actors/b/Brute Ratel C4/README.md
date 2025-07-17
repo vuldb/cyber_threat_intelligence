@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [LA](https://vuldb.com/?country.la)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,89 +37,90 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [3.115.218.3](https://vuldb.com/?ip.3.115.218.3) | ec2-3-115-218-3.ap-northeast-1.compute.amazonaws.com | - | Medium
 15 | [3.133.7.69](https://vuldb.com/?ip.3.133.7.69) | ec2-3-133-7-69.us-east-2.compute.amazonaws.com | - | Medium
 16 | [3.221.126.84](https://vuldb.com/?ip.3.221.126.84) | ec2-3-221-126-84.compute-1.amazonaws.com | - | Medium
-17 | [3.255.173.2](https://vuldb.com/?ip.3.255.173.2) | ec2-3-255-173-2.eu-west-1.compute.amazonaws.com | - | Medium
-18 | [5.42.65.45](https://vuldb.com/?ip.5.42.65.45) | - | - | High
-19 | [5.188.87.50](https://vuldb.com/?ip.5.188.87.50) | - | - | High
-20 | [5.253.43.96](https://vuldb.com/?ip.5.253.43.96) | eruilgvskjdhfb78.com | - | High
-21 | [8.212.128.240](https://vuldb.com/?ip.8.212.128.240) | - | - | High
-22 | [8.215.48.214](https://vuldb.com/?ip.8.215.48.214) | - | - | High
-23 | [8.217.196.192](https://vuldb.com/?ip.8.217.196.192) | - | - | High
-24 | [8.219.217.130](https://vuldb.com/?ip.8.219.217.130) | - | - | High
-25 | [8.222.133.105](https://vuldb.com/?ip.8.222.133.105) | - | - | High
-26 | [13.59.118.129](https://vuldb.com/?ip.13.59.118.129) | ec2-13-59-118-129.us-east-2.compute.amazonaws.com | - | Medium
-27 | [13.82.141.216](https://vuldb.com/?ip.13.82.141.216) | - | - | High
-28 | [13.112.11.137](https://vuldb.com/?ip.13.112.11.137) | ec2-13-112-11-137.ap-northeast-1.compute.amazonaws.com | - | Medium
-29 | [13.112.66.0](https://vuldb.com/?ip.13.112.66.0) | ec2-13-112-66-0.ap-northeast-1.compute.amazonaws.com | - | Medium
-30 | [13.112.86.223](https://vuldb.com/?ip.13.112.86.223) | ec2-13-112-86-223.ap-northeast-1.compute.amazonaws.com | - | Medium
-31 | [13.112.130.229](https://vuldb.com/?ip.13.112.130.229) | ec2-13-112-130-229.ap-northeast-1.compute.amazonaws.com | - | Medium
-32 | [13.112.226.27](https://vuldb.com/?ip.13.112.226.27) | ec2-13-112-226-27.ap-northeast-1.compute.amazonaws.com | - | Medium
-33 | [13.113.45.138](https://vuldb.com/?ip.13.113.45.138) | ec2-13-113-45-138.ap-northeast-1.compute.amazonaws.com | - | Medium
-34 | [13.113.63.238](https://vuldb.com/?ip.13.113.63.238) | ec2-13-113-63-238.ap-northeast-1.compute.amazonaws.com | - | Medium
-35 | [13.113.86.16](https://vuldb.com/?ip.13.113.86.16) | ec2-13-113-86-16.ap-northeast-1.compute.amazonaws.com | - | Medium
-36 | [13.113.189.83](https://vuldb.com/?ip.13.113.189.83) | ec2-13-113-189-83.ap-northeast-1.compute.amazonaws.com | - | Medium
-37 | [13.113.204.244](https://vuldb.com/?ip.13.113.204.244) | ec2-13-113-204-244.ap-northeast-1.compute.amazonaws.com | - | Medium
-38 | [13.114.48.174](https://vuldb.com/?ip.13.114.48.174) | ec2-13-114-48-174.ap-northeast-1.compute.amazonaws.com | - | Medium
-39 | [13.114.64.131](https://vuldb.com/?ip.13.114.64.131) | ec2-13-114-64-131.ap-northeast-1.compute.amazonaws.com | - | Medium
-40 | [13.114.78.162](https://vuldb.com/?ip.13.114.78.162) | ec2-13-114-78-162.ap-northeast-1.compute.amazonaws.com | - | Medium
-41 | [13.114.100.24](https://vuldb.com/?ip.13.114.100.24) | ec2-13-114-100-24.ap-northeast-1.compute.amazonaws.com | - | Medium
-42 | [13.114.110.144](https://vuldb.com/?ip.13.114.110.144) | ec2-13-114-110-144.ap-northeast-1.compute.amazonaws.com | - | Medium
-43 | [13.114.224.91](https://vuldb.com/?ip.13.114.224.91) | ec2-13-114-224-91.ap-northeast-1.compute.amazonaws.com | - | Medium
-44 | [13.115.99.135](https://vuldb.com/?ip.13.115.99.135) | ec2-13-115-99-135.ap-northeast-1.compute.amazonaws.com | - | Medium
-45 | [13.115.124.159](https://vuldb.com/?ip.13.115.124.159) | ec2-13-115-124-159.ap-northeast-1.compute.amazonaws.com | - | Medium
-46 | [13.115.136.78](https://vuldb.com/?ip.13.115.136.78) | ec2-13-115-136-78.ap-northeast-1.compute.amazonaws.com | - | Medium
-47 | [13.115.223.29](https://vuldb.com/?ip.13.115.223.29) | ec2-13-115-223-29.ap-northeast-1.compute.amazonaws.com | - | Medium
-48 | [13.115.238.27](https://vuldb.com/?ip.13.115.238.27) | ec2-13-115-238-27.ap-northeast-1.compute.amazonaws.com | - | Medium
-49 | [13.230.79.217](https://vuldb.com/?ip.13.230.79.217) | ec2-13-230-79-217.ap-northeast-1.compute.amazonaws.com | - | Medium
-50 | [13.230.94.200](https://vuldb.com/?ip.13.230.94.200) | ec2-13-230-94-200.ap-northeast-1.compute.amazonaws.com | - | Medium
-51 | [13.230.243.50](https://vuldb.com/?ip.13.230.243.50) | ec2-13-230-243-50.ap-northeast-1.compute.amazonaws.com | - | Medium
-52 | [13.231.24.246](https://vuldb.com/?ip.13.231.24.246) | ec2-13-231-24-246.ap-northeast-1.compute.amazonaws.com | - | Medium
-53 | [13.231.40.125](https://vuldb.com/?ip.13.231.40.125) | ec2-13-231-40-125.ap-northeast-1.compute.amazonaws.com | - | Medium
-54 | [15.164.245.79](https://vuldb.com/?ip.15.164.245.79) | ec2-15-164-245-79.ap-northeast-2.compute.amazonaws.com | - | Medium
-55 | [15.206.79.179](https://vuldb.com/?ip.15.206.79.179) | ec2-15-206-79-179.ap-south-1.compute.amazonaws.com | - | Medium
-56 | [15.206.84.52](https://vuldb.com/?ip.15.206.84.52) | ec2-15-206-84-52.ap-south-1.compute.amazonaws.com | - | Medium
-57 | [16.16.162.142](https://vuldb.com/?ip.16.16.162.142) | ec2-16-16-162-142.eu-north-1.compute.amazonaws.com | - | Medium
-58 | [18.66.112.58](https://vuldb.com/?ip.18.66.112.58) | server-18-66-112-58.fra56.r.cloudfront.net | - | High
-59 | [18.66.112.89](https://vuldb.com/?ip.18.66.112.89) | server-18-66-112-89.fra56.r.cloudfront.net | - | High
-60 | [18.66.112.114](https://vuldb.com/?ip.18.66.112.114) | server-18-66-112-114.fra56.r.cloudfront.net | - | High
-61 | [18.66.112.122](https://vuldb.com/?ip.18.66.112.122) | server-18-66-112-122.fra56.r.cloudfront.net | - | High
-62 | [18.130.233.249](https://vuldb.com/?ip.18.130.233.249) | ec2-18-130-233-249.eu-west-2.compute.amazonaws.com | - | Medium
-63 | [18.133.26.247](https://vuldb.com/?ip.18.133.26.247) | ec2-18-133-26-247.eu-west-2.compute.amazonaws.com | - | Medium
-64 | [18.134.141.72](https://vuldb.com/?ip.18.134.141.72) | ec2-18-134-141-72.eu-west-2.compute.amazonaws.com | - | Medium
-65 | [18.143.202.11](https://vuldb.com/?ip.18.143.202.11) | probe-a011.outbound.watchtowr.com | - | High
-66 | [18.154.185.36](https://vuldb.com/?ip.18.154.185.36) | server-18-154-185-36.ord58.r.cloudfront.net | - | High
-67 | [18.154.185.115](https://vuldb.com/?ip.18.154.185.115) | server-18-154-185-115.ord58.r.cloudfront.net | - | High
-68 | [18.163.6.122](https://vuldb.com/?ip.18.163.6.122) | ec2-18-163-6-122.ap-east-1.compute.amazonaws.com | - | Medium
-69 | [18.176.20.234](https://vuldb.com/?ip.18.176.20.234) | ec2-18-176-20-234.ap-northeast-1.compute.amazonaws.com | - | Medium
-70 | [18.176.27.91](https://vuldb.com/?ip.18.176.27.91) | ec2-18-176-27-91.ap-northeast-1.compute.amazonaws.com | - | Medium
-71 | [18.176.35.161](https://vuldb.com/?ip.18.176.35.161) | ec2-18-176-35-161.ap-northeast-1.compute.amazonaws.com | - | Medium
-72 | [18.176.122.97](https://vuldb.com/?ip.18.176.122.97) | ec2-18-176-122-97.ap-northeast-1.compute.amazonaws.com | - | Medium
-73 | [18.177.14.165](https://vuldb.com/?ip.18.177.14.165) | ec2-18-177-14-165.ap-northeast-1.compute.amazonaws.com | - | Medium
-74 | [18.177.128.103](https://vuldb.com/?ip.18.177.128.103) | ec2-18-177-128-103.ap-northeast-1.compute.amazonaws.com | - | Medium
-75 | [18.177.187.233](https://vuldb.com/?ip.18.177.187.233) | ec2-18-177-187-233.ap-northeast-1.compute.amazonaws.com | - | Medium
-76 | [18.177.226.4](https://vuldb.com/?ip.18.177.226.4) | ec2-18-177-226-4.ap-northeast-1.compute.amazonaws.com | - | Medium
-77 | [18.177.226.88](https://vuldb.com/?ip.18.177.226.88) | ec2-18-177-226-88.ap-northeast-1.compute.amazonaws.com | - | Medium
-78 | [18.178.2.109](https://vuldb.com/?ip.18.178.2.109) | ec2-18-178-2-109.ap-northeast-1.compute.amazonaws.com | - | Medium
-79 | [18.178.51.37](https://vuldb.com/?ip.18.178.51.37) | ec2-18-178-51-37.ap-northeast-1.compute.amazonaws.com | - | Medium
-80 | [18.178.98.166](https://vuldb.com/?ip.18.178.98.166) | ec2-18-178-98-166.ap-northeast-1.compute.amazonaws.com | - | Medium
-81 | [18.178.161.19](https://vuldb.com/?ip.18.178.161.19) | ec2-18-178-161-19.ap-northeast-1.compute.amazonaws.com | - | Medium
-82 | [18.178.244.246](https://vuldb.com/?ip.18.178.244.246) | ec2-18-178-244-246.ap-northeast-1.compute.amazonaws.com | - | Medium
-83 | [18.180.64.43](https://vuldb.com/?ip.18.180.64.43) | ec2-18-180-64-43.ap-northeast-1.compute.amazonaws.com | - | Medium
-84 | [18.180.198.238](https://vuldb.com/?ip.18.180.198.238) | ec2-18-180-198-238.ap-northeast-1.compute.amazonaws.com | - | Medium
-85 | [18.180.239.207](https://vuldb.com/?ip.18.180.239.207) | ec2-18-180-239-207.ap-northeast-1.compute.amazonaws.com | - | Medium
-86 | [18.181.61.11](https://vuldb.com/?ip.18.181.61.11) | ec2-18-181-61-11.ap-northeast-1.compute.amazonaws.com | - | Medium
-87 | [18.181.114.13](https://vuldb.com/?ip.18.181.114.13) | ec2-18-181-114-13.ap-northeast-1.compute.amazonaws.com | - | Medium
-88 | [18.181.128.244](https://vuldb.com/?ip.18.181.128.244) | ec2-18-181-128-244.ap-northeast-1.compute.amazonaws.com | - | Medium
-89 | [18.182.126.252](https://vuldb.com/?ip.18.182.126.252) | ec2-18-182-126-252.ap-northeast-1.compute.amazonaws.com | - | Medium
-90 | [18.188.54.77](https://vuldb.com/?ip.18.188.54.77) | ec2-18-188-54-77.us-east-2.compute.amazonaws.com | - | Medium
-91 | [18.193.106.166](https://vuldb.com/?ip.18.193.106.166) | ec2-18-193-106-166.eu-central-1.compute.amazonaws.com | - | Medium
-92 | [18.208.87.99](https://vuldb.com/?ip.18.208.87.99) | ec2-18-208-87-99.compute-1.amazonaws.com | - | Medium
-93 | [18.217.179.8](https://vuldb.com/?ip.18.217.179.8) | ec2-18-217-179-8.us-east-2.compute.amazonaws.com | - | Medium
-94 | [18.219.153.204](https://vuldb.com/?ip.18.219.153.204) | ec2-18-219-153-204.us-east-2.compute.amazonaws.com | - | Medium
-95 | [18.236.92.31](https://vuldb.com/?ip.18.236.92.31) | ec2-18-236-92-31.us-west-2.compute.amazonaws.com | - | Medium
-96 | [18.238.132.5](https://vuldb.com/?ip.18.238.132.5) | server-18-238-132-5.dfw57.r.cloudfront.net | - | High
-97 | ... | ... | ... | ...
+17 | [3.250.194.11](https://vuldb.com/?ip.3.250.194.11) | ec2-3-250-194-11.eu-west-1.compute.amazonaws.com | - | Medium
+18 | [3.255.173.2](https://vuldb.com/?ip.3.255.173.2) | ec2-3-255-173-2.eu-west-1.compute.amazonaws.com | - | Medium
+19 | [5.42.65.45](https://vuldb.com/?ip.5.42.65.45) | - | - | High
+20 | [5.188.87.50](https://vuldb.com/?ip.5.188.87.50) | - | - | High
+21 | [5.253.43.96](https://vuldb.com/?ip.5.253.43.96) | eruilgvskjdhfb78.com | - | High
+22 | [8.212.128.240](https://vuldb.com/?ip.8.212.128.240) | - | - | High
+23 | [8.215.48.214](https://vuldb.com/?ip.8.215.48.214) | - | - | High
+24 | [8.217.196.192](https://vuldb.com/?ip.8.217.196.192) | - | - | High
+25 | [8.219.217.130](https://vuldb.com/?ip.8.219.217.130) | - | - | High
+26 | [8.222.133.105](https://vuldb.com/?ip.8.222.133.105) | - | - | High
+27 | [13.59.118.129](https://vuldb.com/?ip.13.59.118.129) | ec2-13-59-118-129.us-east-2.compute.amazonaws.com | - | Medium
+28 | [13.82.141.216](https://vuldb.com/?ip.13.82.141.216) | - | - | High
+29 | [13.112.11.137](https://vuldb.com/?ip.13.112.11.137) | ec2-13-112-11-137.ap-northeast-1.compute.amazonaws.com | - | Medium
+30 | [13.112.66.0](https://vuldb.com/?ip.13.112.66.0) | ec2-13-112-66-0.ap-northeast-1.compute.amazonaws.com | - | Medium
+31 | [13.112.86.223](https://vuldb.com/?ip.13.112.86.223) | ec2-13-112-86-223.ap-northeast-1.compute.amazonaws.com | - | Medium
+32 | [13.112.130.229](https://vuldb.com/?ip.13.112.130.229) | ec2-13-112-130-229.ap-northeast-1.compute.amazonaws.com | - | Medium
+33 | [13.112.226.27](https://vuldb.com/?ip.13.112.226.27) | ec2-13-112-226-27.ap-northeast-1.compute.amazonaws.com | - | Medium
+34 | [13.113.45.138](https://vuldb.com/?ip.13.113.45.138) | ec2-13-113-45-138.ap-northeast-1.compute.amazonaws.com | - | Medium
+35 | [13.113.63.238](https://vuldb.com/?ip.13.113.63.238) | ec2-13-113-63-238.ap-northeast-1.compute.amazonaws.com | - | Medium
+36 | [13.113.86.16](https://vuldb.com/?ip.13.113.86.16) | ec2-13-113-86-16.ap-northeast-1.compute.amazonaws.com | - | Medium
+37 | [13.113.189.83](https://vuldb.com/?ip.13.113.189.83) | ec2-13-113-189-83.ap-northeast-1.compute.amazonaws.com | - | Medium
+38 | [13.113.204.244](https://vuldb.com/?ip.13.113.204.244) | ec2-13-113-204-244.ap-northeast-1.compute.amazonaws.com | - | Medium
+39 | [13.114.48.174](https://vuldb.com/?ip.13.114.48.174) | ec2-13-114-48-174.ap-northeast-1.compute.amazonaws.com | - | Medium
+40 | [13.114.64.131](https://vuldb.com/?ip.13.114.64.131) | ec2-13-114-64-131.ap-northeast-1.compute.amazonaws.com | - | Medium
+41 | [13.114.78.162](https://vuldb.com/?ip.13.114.78.162) | ec2-13-114-78-162.ap-northeast-1.compute.amazonaws.com | - | Medium
+42 | [13.114.100.24](https://vuldb.com/?ip.13.114.100.24) | ec2-13-114-100-24.ap-northeast-1.compute.amazonaws.com | - | Medium
+43 | [13.114.110.144](https://vuldb.com/?ip.13.114.110.144) | ec2-13-114-110-144.ap-northeast-1.compute.amazonaws.com | - | Medium
+44 | [13.114.224.91](https://vuldb.com/?ip.13.114.224.91) | ec2-13-114-224-91.ap-northeast-1.compute.amazonaws.com | - | Medium
+45 | [13.115.99.135](https://vuldb.com/?ip.13.115.99.135) | ec2-13-115-99-135.ap-northeast-1.compute.amazonaws.com | - | Medium
+46 | [13.115.124.159](https://vuldb.com/?ip.13.115.124.159) | ec2-13-115-124-159.ap-northeast-1.compute.amazonaws.com | - | Medium
+47 | [13.115.136.78](https://vuldb.com/?ip.13.115.136.78) | ec2-13-115-136-78.ap-northeast-1.compute.amazonaws.com | - | Medium
+48 | [13.115.223.29](https://vuldb.com/?ip.13.115.223.29) | ec2-13-115-223-29.ap-northeast-1.compute.amazonaws.com | - | Medium
+49 | [13.115.238.27](https://vuldb.com/?ip.13.115.238.27) | ec2-13-115-238-27.ap-northeast-1.compute.amazonaws.com | - | Medium
+50 | [13.230.79.217](https://vuldb.com/?ip.13.230.79.217) | ec2-13-230-79-217.ap-northeast-1.compute.amazonaws.com | - | Medium
+51 | [13.230.94.200](https://vuldb.com/?ip.13.230.94.200) | ec2-13-230-94-200.ap-northeast-1.compute.amazonaws.com | - | Medium
+52 | [13.230.243.50](https://vuldb.com/?ip.13.230.243.50) | ec2-13-230-243-50.ap-northeast-1.compute.amazonaws.com | - | Medium
+53 | [13.231.24.246](https://vuldb.com/?ip.13.231.24.246) | ec2-13-231-24-246.ap-northeast-1.compute.amazonaws.com | - | Medium
+54 | [13.231.40.125](https://vuldb.com/?ip.13.231.40.125) | ec2-13-231-40-125.ap-northeast-1.compute.amazonaws.com | - | Medium
+55 | [15.164.245.79](https://vuldb.com/?ip.15.164.245.79) | ec2-15-164-245-79.ap-northeast-2.compute.amazonaws.com | - | Medium
+56 | [15.206.79.179](https://vuldb.com/?ip.15.206.79.179) | ec2-15-206-79-179.ap-south-1.compute.amazonaws.com | - | Medium
+57 | [15.206.84.52](https://vuldb.com/?ip.15.206.84.52) | ec2-15-206-84-52.ap-south-1.compute.amazonaws.com | - | Medium
+58 | [16.16.162.142](https://vuldb.com/?ip.16.16.162.142) | ec2-16-16-162-142.eu-north-1.compute.amazonaws.com | - | Medium
+59 | [18.66.112.58](https://vuldb.com/?ip.18.66.112.58) | server-18-66-112-58.fra56.r.cloudfront.net | - | High
+60 | [18.66.112.89](https://vuldb.com/?ip.18.66.112.89) | server-18-66-112-89.fra56.r.cloudfront.net | - | High
+61 | [18.66.112.114](https://vuldb.com/?ip.18.66.112.114) | server-18-66-112-114.fra56.r.cloudfront.net | - | High
+62 | [18.66.112.122](https://vuldb.com/?ip.18.66.112.122) | server-18-66-112-122.fra56.r.cloudfront.net | - | High
+63 | [18.130.233.249](https://vuldb.com/?ip.18.130.233.249) | ec2-18-130-233-249.eu-west-2.compute.amazonaws.com | - | Medium
+64 | [18.133.26.247](https://vuldb.com/?ip.18.133.26.247) | ec2-18-133-26-247.eu-west-2.compute.amazonaws.com | - | Medium
+65 | [18.134.141.72](https://vuldb.com/?ip.18.134.141.72) | ec2-18-134-141-72.eu-west-2.compute.amazonaws.com | - | Medium
+66 | [18.143.202.11](https://vuldb.com/?ip.18.143.202.11) | probe-a011.outbound.watchtowr.com | - | High
+67 | [18.154.185.36](https://vuldb.com/?ip.18.154.185.36) | server-18-154-185-36.ord58.r.cloudfront.net | - | High
+68 | [18.154.185.115](https://vuldb.com/?ip.18.154.185.115) | server-18-154-185-115.ord58.r.cloudfront.net | - | High
+69 | [18.163.6.122](https://vuldb.com/?ip.18.163.6.122) | ec2-18-163-6-122.ap-east-1.compute.amazonaws.com | - | Medium
+70 | [18.176.20.234](https://vuldb.com/?ip.18.176.20.234) | ec2-18-176-20-234.ap-northeast-1.compute.amazonaws.com | - | Medium
+71 | [18.176.27.91](https://vuldb.com/?ip.18.176.27.91) | ec2-18-176-27-91.ap-northeast-1.compute.amazonaws.com | - | Medium
+72 | [18.176.35.161](https://vuldb.com/?ip.18.176.35.161) | ec2-18-176-35-161.ap-northeast-1.compute.amazonaws.com | - | Medium
+73 | [18.176.122.97](https://vuldb.com/?ip.18.176.122.97) | ec2-18-176-122-97.ap-northeast-1.compute.amazonaws.com | - | Medium
+74 | [18.177.14.165](https://vuldb.com/?ip.18.177.14.165) | ec2-18-177-14-165.ap-northeast-1.compute.amazonaws.com | - | Medium
+75 | [18.177.128.103](https://vuldb.com/?ip.18.177.128.103) | ec2-18-177-128-103.ap-northeast-1.compute.amazonaws.com | - | Medium
+76 | [18.177.187.233](https://vuldb.com/?ip.18.177.187.233) | ec2-18-177-187-233.ap-northeast-1.compute.amazonaws.com | - | Medium
+77 | [18.177.226.4](https://vuldb.com/?ip.18.177.226.4) | ec2-18-177-226-4.ap-northeast-1.compute.amazonaws.com | - | Medium
+78 | [18.177.226.88](https://vuldb.com/?ip.18.177.226.88) | ec2-18-177-226-88.ap-northeast-1.compute.amazonaws.com | - | Medium
+79 | [18.178.2.109](https://vuldb.com/?ip.18.178.2.109) | ec2-18-178-2-109.ap-northeast-1.compute.amazonaws.com | - | Medium
+80 | [18.178.51.37](https://vuldb.com/?ip.18.178.51.37) | ec2-18-178-51-37.ap-northeast-1.compute.amazonaws.com | - | Medium
+81 | [18.178.98.166](https://vuldb.com/?ip.18.178.98.166) | ec2-18-178-98-166.ap-northeast-1.compute.amazonaws.com | - | Medium
+82 | [18.178.161.19](https://vuldb.com/?ip.18.178.161.19) | ec2-18-178-161-19.ap-northeast-1.compute.amazonaws.com | - | Medium
+83 | [18.178.244.246](https://vuldb.com/?ip.18.178.244.246) | ec2-18-178-244-246.ap-northeast-1.compute.amazonaws.com | - | Medium
+84 | [18.180.64.43](https://vuldb.com/?ip.18.180.64.43) | ec2-18-180-64-43.ap-northeast-1.compute.amazonaws.com | - | Medium
+85 | [18.180.198.238](https://vuldb.com/?ip.18.180.198.238) | ec2-18-180-198-238.ap-northeast-1.compute.amazonaws.com | - | Medium
+86 | [18.180.239.207](https://vuldb.com/?ip.18.180.239.207) | ec2-18-180-239-207.ap-northeast-1.compute.amazonaws.com | - | Medium
+87 | [18.181.61.11](https://vuldb.com/?ip.18.181.61.11) | ec2-18-181-61-11.ap-northeast-1.compute.amazonaws.com | - | Medium
+88 | [18.181.114.13](https://vuldb.com/?ip.18.181.114.13) | ec2-18-181-114-13.ap-northeast-1.compute.amazonaws.com | - | Medium
+89 | [18.181.128.244](https://vuldb.com/?ip.18.181.128.244) | ec2-18-181-128-244.ap-northeast-1.compute.amazonaws.com | - | Medium
+90 | [18.182.126.252](https://vuldb.com/?ip.18.182.126.252) | ec2-18-182-126-252.ap-northeast-1.compute.amazonaws.com | - | Medium
+91 | [18.188.54.77](https://vuldb.com/?ip.18.188.54.77) | ec2-18-188-54-77.us-east-2.compute.amazonaws.com | - | Medium
+92 | [18.193.106.166](https://vuldb.com/?ip.18.193.106.166) | ec2-18-193-106-166.eu-central-1.compute.amazonaws.com | - | Medium
+93 | [18.208.87.99](https://vuldb.com/?ip.18.208.87.99) | ec2-18-208-87-99.compute-1.amazonaws.com | - | Medium
+94 | [18.217.179.8](https://vuldb.com/?ip.18.217.179.8) | ec2-18-217-179-8.us-east-2.compute.amazonaws.com | - | Medium
+95 | [18.219.153.204](https://vuldb.com/?ip.18.219.153.204) | ec2-18-219-153-204.us-east-2.compute.amazonaws.com | - | Medium
+96 | [18.236.92.31](https://vuldb.com/?ip.18.236.92.31) | ec2-18-236-92-31.us-west-2.compute.amazonaws.com | - | Medium
+97 | [18.238.132.5](https://vuldb.com/?ip.18.238.132.5) | server-18-238-132-5.dfw57.r.cloudfront.net | - | High
+98 | ... | ... | ... | ...
 
-There are 386 more IOC items available. Please use our online service to access the data.
+There are 389 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -127,13 +128,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -141,58 +142,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_deductions.php` | High
-2 | File | `/admin/all-applications.php` | High
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-4 | File | `/admin/bookList?page=1&limit=10` | High
-5 | File | `/admin/bwdates-report-details.php` | High
-6 | File | `/admin/categories/update` | High
-7 | File | `/admin/chatroom.php` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/edit-products.php` | High
-10 | File | `/admin/enrollment-details.php` | High
-11 | File | `/admin/getallarticleinfo` | High
-12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/normal-search.php` | High
-17 | File | `/admin/print.php` | High
-18 | File | `/admin/salary_slip.php` | High
-19 | File | `/admin/template/update` | High
-20 | File | `/admin/user-search.php` | High
-21 | File | `/adminPage/main/upload` | High
-22 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-23 | File | `/admin_topic.php?action=delall` | High
-24 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-25 | File | `/api/sys/set_passwd` | High
-26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-27 | File | `/api/wizard/setsyncpppoecfg` | High
-28 | File | `/app/controller/Api.php` | High
-29 | File | `/auth.asp` | Medium
-30 | File | `/auth/register` | High
-31 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-32 | File | `/backend/admin/his_admin_register_patient.php` | High
-33 | File | `/bitrix/admin/ldap_server_edit.php` | High
-34 | File | `/boafrm/formFilter` | High
-35 | File | `/catalog/compare` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/hd_config.cgi` | High
-38 | File | `/cgi-bin/mainfunction.cgi` | High
-39 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-40 | File | `/change-password.php` | High
-41 | File | `/classes/Master.php?f=save_course` | High
-42 | File | `/classes/Master.php?f=save_position` | High
-43 | File | `/config/config.properties` | High
-44 | File | `/coreframe/app/guestbook/myissue.php` | High
-45 | File | `/cupseasylive/locationcreate.php` | High
-46 | File | `/dash/update.php` | High
-47 | File | `/dashboard/admin/submit_payments.php` | High
-48 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-49 | File | `/edit-category.php` | High
-50 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/add_deductions.php` | High
+3 | File | `/admin/add_cars.php` | High
+4 | File | `/admin/all-applications.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+6 | File | `/admin/bookList?page=1&limit=10` | High
+7 | File | `/admin/bwdates-report-details.php` | High
+8 | File | `/admin/bwdates-request-report-details.php` | High
+9 | File | `/admin/categories/update` | High
+10 | File | `/admin/chatroom.php` | High
+11 | File | `/admin/create_product.php` | High
+12 | File | `/admin/edit-products.php` | High
+13 | File | `/admin/enrollment-details.php` | High
+14 | File | `/admin/forms/option_lists/edit.php` | High
+15 | File | `/admin/getallarticleinfo` | High
+16 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/normal-search.php` | High
+21 | File | `/admin/print.php` | High
+22 | File | `/admin/salary_slip.php` | High
+23 | File | `/admin/template/update` | High
+24 | File | `/admin/user-search.php` | High
+25 | File | `/adminPage/main/upload` | High
+26 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+27 | File | `/admin_topic.php?action=delall` | High
+28 | File | `/adpweb/a/base/barcodeDetail/` | High
+29 | File | `/api/docs/index.php` | High
+30 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+31 | File | `/api/sys/set_passwd` | High
+32 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+33 | File | `/api/wizard/setsyncpppoecfg` | High
+34 | File | `/app/controller/Api.php` | High
+35 | File | `/auth.asp` | Medium
+36 | File | `/auth/register` | High
+37 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+38 | File | `/bitrix/admin/ldap_server_edit.php` | High
+39 | File | `/boafrm/formFilter` | High
+40 | File | `/boafrm/formWlSiteSurvey` | High
+41 | File | `/BRS_top.html` | High
+42 | File | `/cashconfirm.php` | High
+43 | File | `/catalog/compare` | High
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/editBookmark` | High
+46 | File | `/cgi-bin/hd_config.cgi` | High
+47 | File | `/cgi-bin/mainfunction.cgi` | High
+48 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+49 | File | `/change-password.php` | High
+50 | File | `/changeUsername.php` | High
+51 | File | `/classes/Master.php?f=save_course` | High
+52 | File | `/classes/Master.php?f=save_position` | High
+53 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -359,6 +363,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/52.196.213.220
 * https://search.censys.io/hosts/52.197.43.5
 * https://search.censys.io/hosts/52.197.96.6
+* https://search.censys.io/hosts/52.197.160.186
 * https://search.censys.io/hosts/52.197.164.145
 * https://search.censys.io/hosts/52.197.222.201
 * https://search.censys.io/hosts/52.198.46.216
@@ -373,6 +378,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/54.92.24.114
 * https://search.censys.io/hosts/54.92.112.126
 * https://search.censys.io/hosts/54.95.170.58
+* https://search.censys.io/hosts/54.95.193.41
 * https://search.censys.io/hosts/54.95.221.112
 * https://search.censys.io/hosts/54.95.222.110
 * https://search.censys.io/hosts/54.150.26.198
@@ -385,6 +391,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/54.171.30.223
 * https://search.censys.io/hosts/54.178.8.63
 * https://search.censys.io/hosts/54.178.38.136
+* https://search.censys.io/hosts/54.178.93.60
 * https://search.censys.io/hosts/54.178.158.125
 * https://search.censys.io/hosts/54.178.188.94
 * https://search.censys.io/hosts/54.198.145.43

@@ -28,7 +28,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -48,43 +48,44 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/reminders/manage_reminder.php` | High
 5 | File | `/API/info` | Medium
 6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/CCMAdmin/serverlist.asp` | High
-8 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-9 | File | `/cgi/get_param.cgi` | High
-10 | File | `/csms/admin/inquiries/view_details.php` | High
-11 | File | `/cstecgi.cgi` | Medium
-12 | File | `/ecommerce/support_ticket` | High
-13 | File | `/files.md5` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/form2LocalAclEditcfg.cgi` | High
-16 | File | `/goform/formResetStatistic` | High
-17 | File | `/goform/formSetMACFilter` | High
-18 | File | `/goform/formSetMuti` | High
-19 | File | `/goform/formSetPassword` | High
-20 | File | `/goform/formSetPortTr` | High
-21 | File | `/goform/formSetQoS` | High
-22 | File | `/goform/formSetRoute` | High
-23 | File | `/goform/formSetWizardSelectMode` | High
-24 | File | `/goform/formVirtualServ` | High
-25 | File | `/home/search` | Medium
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/messageboard/view.php` | High
-30 | File | `/multi-vendor-shopping-script/product-list.php` | High
-31 | File | `/one_church/userregister.php` | High
-32 | File | `/out.php` | Medium
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-35 | File | `/SASWebReportStudio/logonAndRender.do` | High
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-40 | File | `/textpattern/index.php` | High
-41 | ... | ... | ...
+7 | File | `/Bloodgroop_process.php` | High
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+11 | File | `/cgi/get_param.cgi` | High
+12 | File | `/csms/admin/inquiries/view_details.php` | High
+13 | File | `/cstecgi.cgi` | Medium
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/files.md5` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/form2LocalAclEditcfg.cgi` | High
+18 | File | `/goform/formResetStatistic` | High
+19 | File | `/goform/formSetMACFilter` | High
+20 | File | `/goform/formSetMuti` | High
+21 | File | `/goform/formSetPassword` | High
+22 | File | `/goform/formSetPortTr` | High
+23 | File | `/goform/formSetQoS` | High
+24 | File | `/goform/formSetRoute` | High
+25 | File | `/goform/formSetWizardSelectMode` | High
+26 | File | `/goform/formVirtualServ` | High
+27 | File | `/goform/SetSysTimeCfg` | High
+28 | File | `/goform/WifiExtraSet` | High
+29 | File | `/home/search` | Medium
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/include/chart_generator.php` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/messageboard/view.php` | High
+34 | File | `/multi-vendor-shopping-script/product-list.php` | High
+35 | File | `/one_church/userregister.php` | High
+36 | File | `/out.php` | Medium
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+39 | File | `/SASWebReportStudio/logonAndRender.do` | High
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/spgpm/updateListing` | High
+42 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,13 +51,26 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [35.246.173.61](https://vuldb.com/?ip.35.246.173.61) | 61.173.246.35.bc.googleusercontent.com | - | Medium
 29 | [37.1.206.174](https://vuldb.com/?ip.37.1.206.174) | 2lv.ru | - | High
 30 | [45.61.165.177](https://vuldb.com/?ip.45.61.165.177) | 177.165.61.45.static.cloudzy.com | - | High
-31 | [45.88.104.78](https://vuldb.com/?ip.45.88.104.78) | 5285002.ds-b.had.pm | - | High
-32 | [45.92.179.244](https://vuldb.com/?ip.45.92.179.244) | - | - | High
-33 | [45.92.179.249](https://vuldb.com/?ip.45.92.179.249) | - | - | High
-34 | [45.118.248.29](https://vuldb.com/?ip.45.118.248.29) | - | - | High
-35 | ... | ... | ... | ...
+31 | [45.77.154.115](https://vuldb.com/?ip.45.77.154.115) | 45.77.154.115.vultrusercontent.com | - | Medium
+32 | [45.88.104.78](https://vuldb.com/?ip.45.88.104.78) | 5285002.ds-b.had.pm | - | High
+33 | [45.92.179.244](https://vuldb.com/?ip.45.92.179.244) | - | - | High
+34 | [45.92.179.249](https://vuldb.com/?ip.45.92.179.249) | - | - | High
+35 | [45.94.47.164](https://vuldb.com/?ip.45.94.47.164) | - | - | High
+36 | [45.118.248.29](https://vuldb.com/?ip.45.118.248.29) | - | - | High
+37 | [45.138.159.2](https://vuldb.com/?ip.45.138.159.2) | - | - | High
+38 | [45.141.84.60](https://vuldb.com/?ip.45.141.84.60) | - | - | High
+39 | [45.141.84.168](https://vuldb.com/?ip.45.141.84.168) | - | - | High
+40 | [45.141.84.208](https://vuldb.com/?ip.45.141.84.208) | - | - | High
+41 | [45.141.84.229](https://vuldb.com/?ip.45.141.84.229) | - | - | High
+42 | [45.141.86.61](https://vuldb.com/?ip.45.141.86.61) | - | - | High
+43 | [45.141.86.82](https://vuldb.com/?ip.45.141.86.82) | - | - | High
+44 | [45.141.86.149](https://vuldb.com/?ip.45.141.86.149) | - | - | High
+45 | [45.141.86.159](https://vuldb.com/?ip.45.141.86.159) | - | - | High
+46 | [45.141.87.7](https://vuldb.com/?ip.45.141.87.7) | - | - | High
+47 | [45.141.87.16](https://vuldb.com/?ip.45.141.87.16) | - | - | High
+48 | ... | ... | ... | ...
 
-There are 136 more IOC items available. Please use our online service to access the data.
+There are 186 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -134,10 +147,9 @@ ID | Type | Indicator | Confidence
 52 | File | `/classes/Master.php?f=delete_category` | High
 53 | File | `/classes/Master.php?f=log_employee` | High
 54 | File | `/classes/Master.php?f=save_medicine` | High
-55 | File | `/classes/Master.php?f=save_package` | High
-56 | ... | ... | ...
+55 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -151,11 +163,22 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.141.84.60
 * https://search.censys.io/hosts/45.141.84.168
 * https://search.censys.io/hosts/45.141.84.208
+* https://search.censys.io/hosts/45.141.84.229
 * https://search.censys.io/hosts/45.141.87.50
+* https://search.censys.io/hosts/45.141.87.212
+* https://search.censys.io/hosts/45.141.87.249
+* https://search.censys.io/hosts/66.63.187.22
+* https://search.censys.io/hosts/77.73.131.91
+* https://search.censys.io/hosts/80.64.19.63
+* https://search.censys.io/hosts/80.64.19.180
+* https://search.censys.io/hosts/80.64.19.202
 * https://search.censys.io/hosts/80.64.30.2
 * https://search.censys.io/hosts/80.64.30.203
 * https://search.censys.io/hosts/80.209.243.125
 * https://search.censys.io/hosts/82.147.88.84
+* https://search.censys.io/hosts/83.222.191.98
+* https://search.censys.io/hosts/83.222.191.195
+* https://search.censys.io/hosts/84.200.77.140
 * https://search.censys.io/hosts/88.214.25.17
 * https://search.censys.io/hosts/89.248.165.79
 * https://search.censys.io/hosts/92.255.57.31
@@ -167,48 +190,100 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/92.255.57.37
 * https://search.censys.io/hosts/92.255.85.23
 * https://search.censys.io/hosts/94.181.229.249
+* https://search.censys.io/hosts/107.189.25.109
+* https://search.censys.io/hosts/141.98.11.22
+* https://search.censys.io/hosts/141.98.11.145
 * https://search.censys.io/hosts/144.76.103.92
+* https://search.censys.io/hosts/144.172.94.120
 * https://search.censys.io/hosts/157.90.192.89
 * https://search.censys.io/hosts/172.86.107.67
+* https://search.censys.io/hosts/172.105.135.22
+* https://search.censys.io/hosts/172.232.15.18
+* https://search.censys.io/hosts/172.235.190.176
 * https://search.censys.io/hosts/176.9.66.115
+* https://search.censys.io/hosts/176.46.157.33
+* https://search.censys.io/hosts/176.46.157.57
+* https://search.censys.io/hosts/176.98.186.8
+* https://search.censys.io/hosts/178.62.240.194
 * https://search.censys.io/hosts/185.7.214.25
 * https://search.censys.io/hosts/185.7.214.30
+* https://search.censys.io/hosts/185.39.19.222
 * https://search.censys.io/hosts/185.42.12.85
 * https://search.censys.io/hosts/185.42.12.247
 * https://search.censys.io/hosts/185.42.12.250
+* https://search.censys.io/hosts/185.125.50.72
+* https://search.censys.io/hosts/185.125.50.92
 * https://search.censys.io/hosts/185.147.124.178
 * https://search.censys.io/hosts/185.147.124.179
 * https://search.censys.io/hosts/185.147.124.181
 * https://search.censys.io/hosts/185.147.124.186
+* https://search.censys.io/hosts/185.156.72.11
+* https://search.censys.io/hosts/185.156.72.28
+* https://search.censys.io/hosts/185.156.72.33
+* https://search.censys.io/hosts/185.156.72.63
 * https://search.censys.io/hosts/193.201.9.252
 * https://search.censys.io/hosts/194.26.29.44
 * https://search.censys.io/hosts/194.26.29.112
+* https://search.censys.io/hosts/194.26.29.161
+* https://search.censys.io/hosts/195.82.147.30
+* https://search.censys.io/hosts/212.34.145.235
 * https://search.censys.io/hosts/213.109.202.242
 * https://threatfox.abuse.ch
 * https://tria.ge/250315-rtpmrawsdz/behavioral2
+* https://tria.ge/250515-28tv5atkt9/behavioral2
 * https://twitter.com/AnFam17/status/1658666291308163072
 * https://urlhaus.abuse.ch/url/2859573/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/04/bing-ad-for-nordvpn-leads-to-sectoprat
 * https://www.shodan.io/host/5.230.54.243#9000
 * https://www.shodan.io/host/45.61.165.177#9000
+* https://www.shodan.io/host/45.77.154.115#9000
+* https://www.shodan.io/host/45.94.47.164#9000
 * https://www.shodan.io/host/45.118.248.29#9000
+* https://www.shodan.io/host/45.138.159.2#9000
+* https://www.shodan.io/host/45.141.86.61#9000
+* https://www.shodan.io/host/45.141.86.149#9000
+* https://www.shodan.io/host/45.141.86.159#9000
+* https://www.shodan.io/host/45.141.87.7#9000
+* https://www.shodan.io/host/45.141.87.106#9000
+* https://www.shodan.io/host/62.60.247.154#9000
+* https://www.shodan.io/host/67.220.72.124#9000
+* https://www.shodan.io/host/74.207.236.155#9000
 * https://www.shodan.io/host/77.239.99.150#9000
 * https://www.shodan.io/host/77.239.117.135#9000
+* https://www.shodan.io/host/79.124.62.10#9000
 * https://www.shodan.io/host/82.117.242.178#9000
+* https://www.shodan.io/host/84.200.17.129#9000
+* https://www.shodan.io/host/85.158.110.179#9000
 * https://www.shodan.io/host/85.209.128.31#9000
+* https://www.shodan.io/host/91.184.242.37#9000
 * https://www.shodan.io/host/91.199.163.74#9000
 * https://www.shodan.io/host/92.118.151.157#9000
+* https://www.shodan.io/host/101.202.42.228#8888
+* https://www.shodan.io/host/104.207.146.23#9000
 * https://www.shodan.io/host/104.238.162.122#9000
+* https://www.shodan.io/host/107.189.18.56#9000
 * https://www.shodan.io/host/107.189.19.196#9000
+* https://www.shodan.io/host/107.189.24.67#9000
+* https://www.shodan.io/host/119.91.61.232#7790
+* https://www.shodan.io/host/143.110.230.167#9000
 * https://www.shodan.io/host/144.172.97.2#9000
 * https://www.shodan.io/host/162.252.173.119#9000
+* https://www.shodan.io/host/172.86.72.81#9000
+* https://www.shodan.io/host/172.105.148.233#9000
+* https://www.shodan.io/host/176.126.163.56#9000
+* https://www.shodan.io/host/185.93.89.139#9000
 * https://www.shodan.io/host/185.125.50.140#9000
 * https://www.shodan.io/host/185.147.124.94#9000
 * https://www.shodan.io/host/185.147.124.103#9000
 * https://www.shodan.io/host/185.147.124.148#9000
+* https://www.shodan.io/host/185.156.72.71#9000
+* https://www.shodan.io/host/185.156.72.80#9000
 * https://www.shodan.io/host/185.157.214.192#9000
+* https://www.shodan.io/host/192.124.178.244#9000
+* https://www.shodan.io/host/193.149.176.31#9000
 * https://www.shodan.io/host/193.176.23.5#9000
 * https://www.shodan.io/host/194.26.27.10#9000
+* https://www.shodan.io/host/194.87.29.62#9000
 * https://www.shodan.io/host/194.246.83.10#9000
 * https://www.shodan.io/host/195.82.147.132#9000
 * https://www.virustotal.com/gui/file/0d5311014c66423261d1069fda108dab33673bd68d697e22adb096db05d851b7/

@@ -28,11 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.41.244.100](https://vuldb.com/?ip.31.41.244.100) | - | - | High
-2 | [91.238.181.230](https://vuldb.com/?ip.91.238.181.230) | - | - | High
-3 | [93.115.25.139](https://vuldb.com/?ip.93.115.25.139) | - | - | High
-4 | ... | ... | ... | ...
+2 | [80.64.16.87](https://vuldb.com/?ip.80.64.16.87) | - | - | High
+3 | [91.238.181.230](https://vuldb.com/?ip.91.238.181.230) | - | - | High
+4 | [93.115.25.139](https://vuldb.com/?ip.93.115.25.139) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,33 +82,33 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/media_folders` | High
 25 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
 26 | File | `/admin/menu.php` | High
-27 | File | `/admin/problem_judge.php` | High
-28 | File | `/admin/robot.php` | High
-29 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-30 | File | `/admin/users.php` | High
-31 | File | `/admin/user_update.php` | High
-32 | File | `/ajax.php` | Medium
-33 | File | `/ajax.php?action=delete_tenant` | High
-34 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-35 | File | `/api/system/other` | High
-36 | File | `/api/wizard/getBasicInfo` | High
-37 | File | `/app/platform/controllers/ResetpwdController.php` | High
-38 | File | `/AttendanceMonitoring/report/index.php` | High
-39 | File | `/authMonitCallcenter` | High
-40 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-41 | File | `/backend/admin/his_admin_register_patient.php` | High
-42 | File | `/backend/register.php` | High
-43 | File | `/bin/boa` | Medium
-44 | File | `/blog/blog.php` | High
-45 | File | `/bloodrequest.php` | High
-46 | File | `/boafrm/formFilter` | High
-47 | File | `/booklist.php` | High
-48 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/hd_config.cgi` | High
-51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-52 | File | `/cgi-bin/wapopen` | High
-53 | File | `/classes/Master.php` | High
+27 | File | `/admin/robot.php` | High
+28 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+29 | File | `/admin/users.php` | High
+30 | File | `/admin/user_update.php` | High
+31 | File | `/ajax.php` | Medium
+32 | File | `/ajax.php?action=delete_tenant` | High
+33 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+34 | File | `/api/system/other` | High
+35 | File | `/api/wizard/getBasicInfo` | High
+36 | File | `/app/platform/controllers/ResetpwdController.php` | High
+37 | File | `/AttendanceMonitoring/report/index.php` | High
+38 | File | `/authMonitCallcenter` | High
+39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+40 | File | `/backend/admin/his_admin_register_patient.php` | High
+41 | File | `/backend/register.php` | High
+42 | File | `/bin/boa` | Medium
+43 | File | `/blog/blog.php` | High
+44 | File | `/bloodrequest.php` | High
+45 | File | `/boafrm/formFilter` | High
+46 | File | `/booklist.php` | High
+47 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+48 | File | `/cgi-bin/cstecgi.cgi` | High
+49 | File | `/cgi-bin/hd_config.cgi` | High
+50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+51 | File | `/cgi-bin/wapopen` | High
+52 | File | `/classes/Master.php` | High
+53 | File | `/classes/Master.php?f=delete_category` | High
 54 | ... | ... | ...
 
 There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -119,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.bushidotoken.net/2024/06/tracking-adversaries-qilin-raas.html
 * https://darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator
 * https://op-c.net/blog/sap-cve-2025-31324-qilin-breach/
+* https://www.cybereason.com/blog/threat-alert-qilin-seizes-control
 
 ## Literature
 

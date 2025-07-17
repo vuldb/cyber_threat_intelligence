@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gamarue:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -86,7 +86,7 @@ ID | Type | Indicator | Confidence
 20 | File | `/public/login.htm` | High
 21 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2407,13 +2407,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-44 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2421,25 +2421,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/add-admin.php` | High
-3 | File | `/add_deductions.php` | High
-4 | File | `/admin/admin_login.php` | High
-5 | File | `/admin/bookList?page=1&limit=10` | High
-6 | File | `/admin/getallarticleinfo` | High
-7 | File | `/admin/manage-services.php` | High
-8 | File | `/admin/menus/view_menu.php` | High
-9 | File | `/admin/user-search.php` | High
-10 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-11 | File | `/api/system/other` | High
-12 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-13 | File | `/api/wizard/networkSetup` | High
-14 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-15 | File | `/change-password.php` | High
-16 | File | `/cupseasylive/locationcreate.php` | High
-17 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/admin/add_cars.php` | High
+3 | File | `/admin/bwdates-request-report-details.php` | High
+4 | File | `/admin/forms/option_lists/edit.php` | High
+5 | File | `/adpweb/a/base/barcodeDetail/` | High
+6 | File | `/api/docs/index.php` | High
+7 | File | `/api/v1/settings` | High
+8 | File | `/boafrm/formMultiAP` | High
+9 | File | `/boafrm/formWlSiteSurvey` | High
+10 | File | `/BRS_top.html` | High
+11 | File | `/cashconfirm.php` | High
+12 | File | `/cgi-bin/editBookmark` | High
+13 | File | `/changeUsername.php` | High
+14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+15 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+16 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

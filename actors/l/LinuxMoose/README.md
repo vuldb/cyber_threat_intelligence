@@ -90,13 +90,14 @@ ID | Type | Indicator | Confidence
 30 | File | `/cgi-bin/ExportSettings.sh` | High
 31 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 32 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-33 | File | `/download` | Medium
-34 | File | `/edit-subject.php` | High
-35 | File | `/endpoint/add-user.php` | High
-36 | File | `/etc/postfix/sender_login` | High
-37 | ... | ... | ...
+33 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+34 | File | `/download` | Medium
+35 | File | `/edit-subject.php` | High
+36 | File | `/endpoint/add-user.php` | High
+37 | File | `/etc/postfix/sender_login` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

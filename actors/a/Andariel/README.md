@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,53 +64,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/action/upload_file` | High
 3 | File | `/admin/article.php` | High
 4 | File | `/admin/comment.php` | High
 5 | File | `/admin/index.php` | High
 6 | File | `/admin/index2.html` | High
 7 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/assets/something/services/AppModule.class` | High
-11 | File | `/authenticate.php` | High
-12 | File | `/bin/boa` | Medium
-13 | File | `/blog` | Low
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/hd_config.cgi` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi-bin/system_mgr.cgi` | High
-19 | File | `/cgi-bin/wapopen` | High
-20 | File | `/cgi-bin/webfile_mgr.cgi` | High
-21 | File | `/cgi-bin/webproc` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/SystemSettings.php?f=update_settings` | High
-24 | File | `/conf/app.conf` | High
-25 | File | `/config/getuser` | High
-26 | File | `/dist/index.js` | High
-27 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-28 | File | `/endpoint/delete-account.php` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/etc/quantum/quantum.conf` | High
-31 | File | `/fax/fax_send.php` | High
-32 | File | `/files/list-file` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/getcfg.php` | Medium
-35 | File | `/goform/RGFirewallEL` | High
-36 | File | `/HNAP1` | Low
-37 | File | `/index.php?menu=asterisk_cli` | High
-38 | File | `/index/ajax/lang` | High
-39 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/lists/index.php` | High
-42 | File | `/login.html` | Medium
-43 | File | `/medical/inventories.php` | High
-44 | File | `/mgmt/tm/util/bash` | High
-45 | ... | ... | ...
+8 | File | `/admin_type.php` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/assets/something/services/AppModule.class` | High
+12 | File | `/authenticate.php` | High
+13 | File | `/bin/boa` | Medium
+14 | File | `/blog` | Low
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/hd_config.cgi` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/cgi-bin/system_mgr.cgi` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/cgi-bin/webfile_mgr.cgi` | High
+22 | File | `/cgi-bin/webproc` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/SystemSettings.php?f=update_settings` | High
+25 | File | `/conf/app.conf` | High
+26 | File | `/config/getuser` | High
+27 | File | `/dist/index.js` | High
+28 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+29 | File | `/endpoint/delete-account.php` | High
+30 | File | `/etc/postfix/sender_login` | High
+31 | File | `/etc/quantum/quantum.conf` | High
+32 | File | `/fax/fax_send.php` | High
+33 | File | `/files/list-file` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/getcfg.php` | Medium
+36 | File | `/goform/RGFirewallEL` | High
+37 | File | `/HNAP1` | Low
+38 | File | `/index.php?menu=asterisk_cli` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/lists/index.php` | High
+43 | File | `/login.html` | Medium
+44 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

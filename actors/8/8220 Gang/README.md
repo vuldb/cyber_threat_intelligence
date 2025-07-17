@@ -113,9 +113,10 @@ ID | Type | Indicator | Confidence
 51 | File | `/etc/shadow.sample` | High
 52 | File | `/fftools/ffmpeg_enc.c` | High
 53 | File | `/filter.php` | Medium
-54 | ... | ... | ...
+54 | File | `/fladmin/sysconfig_doedit.php` | High
+55 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

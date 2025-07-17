@@ -71,9 +71,15 @@ ID | IP address | Hostname | Actor | Confidence
 39 | [45.141.84.168](https://vuldb.com/?ip.45.141.84.168) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
 40 | [45.141.84.208](https://vuldb.com/?ip.45.141.84.208) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
 41 | [45.141.84.229](https://vuldb.com/?ip.45.141.84.229) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-42 | ... | ... | ... | ...
+42 | [45.141.86.61](https://vuldb.com/?ip.45.141.86.61) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+43 | [45.141.86.82](https://vuldb.com/?ip.45.141.86.82) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+44 | [45.141.86.149](https://vuldb.com/?ip.45.141.86.149) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+45 | [45.141.86.159](https://vuldb.com/?ip.45.141.86.159) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+46 | [45.141.87.7](https://vuldb.com/?ip.45.141.87.7) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+47 | [45.141.87.16](https://vuldb.com/?ip.45.141.87.16) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+48 | ... | ... | ... | ...
 
-There are 162 more IOC items available. Please use our online service to access the data.
+There are 186 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -169,10 +175,20 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/45.141.84.208
 * https://search.censys.io/hosts/45.141.84.229
 * https://search.censys.io/hosts/45.141.87.50
+* https://search.censys.io/hosts/45.141.87.212
+* https://search.censys.io/hosts/45.141.87.249
+* https://search.censys.io/hosts/66.63.187.22
+* https://search.censys.io/hosts/77.73.131.91
+* https://search.censys.io/hosts/80.64.19.63
+* https://search.censys.io/hosts/80.64.19.180
+* https://search.censys.io/hosts/80.64.19.202
 * https://search.censys.io/hosts/80.64.30.2
 * https://search.censys.io/hosts/80.64.30.203
 * https://search.censys.io/hosts/80.209.243.125
 * https://search.censys.io/hosts/82.147.88.84
+* https://search.censys.io/hosts/83.222.191.98
+* https://search.censys.io/hosts/83.222.191.195
+* https://search.censys.io/hosts/84.200.77.140
 * https://search.censys.io/hosts/88.214.25.17
 * https://search.censys.io/hosts/89.248.165.79
 * https://search.censys.io/hosts/92.255.57.31
@@ -184,25 +200,43 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/92.255.57.37
 * https://search.censys.io/hosts/92.255.85.23
 * https://search.censys.io/hosts/94.181.229.249
+* https://search.censys.io/hosts/107.189.25.109
+* https://search.censys.io/hosts/141.98.11.22
+* https://search.censys.io/hosts/141.98.11.145
 * https://search.censys.io/hosts/144.76.103.92
 * https://search.censys.io/hosts/144.172.94.120
 * https://search.censys.io/hosts/157.90.192.89
 * https://search.censys.io/hosts/172.86.107.67
+* https://search.censys.io/hosts/172.105.135.22
+* https://search.censys.io/hosts/172.232.15.18
+* https://search.censys.io/hosts/172.235.190.176
 * https://search.censys.io/hosts/176.9.66.115
+* https://search.censys.io/hosts/176.46.157.33
+* https://search.censys.io/hosts/176.46.157.57
+* https://search.censys.io/hosts/176.98.186.8
+* https://search.censys.io/hosts/178.62.240.194
 * https://search.censys.io/hosts/185.7.214.25
 * https://search.censys.io/hosts/185.7.214.30
+* https://search.censys.io/hosts/185.39.19.222
 * https://search.censys.io/hosts/185.42.12.85
 * https://search.censys.io/hosts/185.42.12.247
 * https://search.censys.io/hosts/185.42.12.250
+* https://search.censys.io/hosts/185.125.50.72
+* https://search.censys.io/hosts/185.125.50.92
 * https://search.censys.io/hosts/185.147.124.178
 * https://search.censys.io/hosts/185.147.124.179
 * https://search.censys.io/hosts/185.147.124.181
 * https://search.censys.io/hosts/185.147.124.186
+* https://search.censys.io/hosts/185.156.72.11
+* https://search.censys.io/hosts/185.156.72.28
+* https://search.censys.io/hosts/185.156.72.33
+* https://search.censys.io/hosts/185.156.72.63
 * https://search.censys.io/hosts/193.201.9.252
 * https://search.censys.io/hosts/194.26.29.44
 * https://search.censys.io/hosts/194.26.29.112
 * https://search.censys.io/hosts/194.26.29.161
 * https://search.censys.io/hosts/195.82.147.30
+* https://search.censys.io/hosts/212.34.145.235
 * https://search.censys.io/hosts/213.109.202.242
 * https://threatfox.abuse.ch
 * https://tria.ge/250315-rtpmrawsdz/behavioral2
@@ -235,6 +269,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.shodan.io/host/91.199.163.74#9000
 * https://www.shodan.io/host/92.118.151.157#9000
 * https://www.shodan.io/host/101.202.42.228#8888
+* https://www.shodan.io/host/104.207.146.23#9000
 * https://www.shodan.io/host/104.238.162.122#9000
 * https://www.shodan.io/host/107.189.18.56#9000
 * https://www.shodan.io/host/107.189.19.196#9000
@@ -246,6 +281,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.shodan.io/host/172.86.72.81#9000
 * https://www.shodan.io/host/172.105.148.233#9000
 * https://www.shodan.io/host/176.126.163.56#9000
+* https://www.shodan.io/host/185.93.89.139#9000
 * https://www.shodan.io/host/185.125.50.140#9000
 * https://www.shodan.io/host/185.147.124.94#9000
 * https://www.shodan.io/host/185.147.124.103#9000

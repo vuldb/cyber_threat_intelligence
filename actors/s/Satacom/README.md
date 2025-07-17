@@ -36,7 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-23 | Path Traversal | High
 2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1574.009 | CWE-428 | Unquoted Search Path | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
-2 | File | `log_query_dae.cgi` | High
-3 | Library | `glibc` | Low
+2 | File | `adclick.php` | Medium
+3 | File | `log_query_dae.cgi` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

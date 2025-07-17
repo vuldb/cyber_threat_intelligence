@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ACR Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -17,6 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [62.133.61.104](https://vuldb.com/?ip.62.133.61.104) | black01.ip-ptr.tech | - | High
+2 | [185.76.243.208](https://vuldb.com/?ip.185.76.243.208) | 115745.ip-ptr.tech | - | High
+3 | [185.76.243.214](https://vuldb.com/?ip.185.76.243.214) | 115756.ip-ptr.tech | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,6 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 
 ## IOA - Indicator of Attack
 
@@ -39,6 +46,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/browse/tag/ACRStealer/
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 
 ## Literature

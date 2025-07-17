@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -21,7 +21,8 @@ These _actors_ are associated with Fake DeepSeek or other actors linked to the c
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Atomic Stealer](https://vuldb.com/?actor.atomic_stealer) | High
+1 | [BrowserVenom](https://vuldb.com/?actor.browservenom) | High
+2 | [Atomic Stealer](https://vuldb.com/?actor.atomic_stealer) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,6 +31,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [82.115.223.9](https://vuldb.com/?ip.82.115.223.9) | - | [Atomic Stealer](https://vuldb.com/?actor.atomic_stealer) | High
+2 | [141.105.130.106](https://vuldb.com/?ip.141.105.130.106) | - | [BrowserVenom](https://vuldb.com/?actor.browservenom) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,12 +57,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/forum/away.php` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://www.cysecurity.news/2025/06/fake-deepseek-ai-installers-deliver.html
 * https://www.esentire.com/blog/fake-deepseek-site-infects-mac-users-with-atomic-stealer
 
 ## Literature

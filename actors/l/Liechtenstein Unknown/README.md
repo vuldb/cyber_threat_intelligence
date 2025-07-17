@@ -122,27 +122,27 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/create_product.php` | High
 8 | File | `/admin/edit-products.php` | High
 9 | File | `/admin/enrollment-details.php` | High
-10 | File | `/admin/getallarticleinfo` | High
-11 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/normal-search.php` | High
-16 | File | `/admin/print.php` | High
-17 | File | `/admin/salary_slip.php` | High
-18 | File | `/admin/template/update` | High
-19 | File | `/admin/user-search.php` | High
-20 | File | `/adminPage/main/upload` | High
-21 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-22 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-23 | File | `/api/sys/set_passwd` | High
-24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-25 | File | `/api/wizard/setsyncpppoecfg` | High
-26 | File | `/app/controller/Api.php` | High
-27 | File | `/auth.asp` | Medium
-28 | File | `/auth/register` | High
-29 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-30 | File | `/backend/admin/his_admin_add_vendor.php` | High
+10 | File | `/admin/forms/option_lists/edit.php` | High
+11 | File | `/admin/getallarticleinfo` | High
+12 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/normal-search.php` | High
+17 | File | `/admin/print.php` | High
+18 | File | `/admin/salary_slip.php` | High
+19 | File | `/admin/template/update` | High
+20 | File | `/admin/user-search.php` | High
+21 | File | `/adminPage/main/upload` | High
+22 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+23 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+24 | File | `/api/sys/set_passwd` | High
+25 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+26 | File | `/api/wizard/setsyncpppoecfg` | High
+27 | File | `/app/controller/Api.php` | High
+28 | File | `/auth.asp` | Medium
+29 | File | `/auth/register` | High
+30 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 31 | File | `/backend/admin/his_admin_register_patient.php` | High
 32 | File | `/boafrm/formFilter` | High
 33 | File | `/catalog/compare` | High
@@ -164,7 +164,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/endpoint/add-user.php` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

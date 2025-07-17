@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,12 +51,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `cachemgr.cgi` | Medium
-3 | File | `inc/config.php` | High
+1 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+2 | File | `/uncpath/` | Medium
+3 | File | `cachemgr.cgi` | Medium
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

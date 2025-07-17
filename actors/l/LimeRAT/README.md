@@ -102,26 +102,25 @@ ID | Type | Indicator | Confidence
 36 | File | `/cap.js` | Low
 37 | File | `/cgi-bin/cstecgi.cgi` | High
 38 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-39 | File | `/cgi-bin/nas_sharing.cgi` | High
-40 | File | `/cgi-bin/p1_ftpserver.php` | High
-41 | File | `/cgi-bin/s3.cgi` | High
-42 | File | `/cgi-bin/vitogate.cgi` | High
-43 | File | `/classes/Master.php` | High
-44 | File | `/classes/Master.php?f=delete_category` | High
-45 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-46 | File | `/common/info.cgi` | High
-47 | File | `/control/register_case.php` | High
-48 | File | `/controllers/add_client.php` | High
-49 | File | `/customer_demo/index2.html` | High
-50 | File | `/customer_register.php` | High
-51 | File | `/dataSet/resolveSql` | High
-52 | File | `/details2.php` | High
-53 | File | `/downloadFile.php` | High
-54 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-55 | File | `/DXR.axd` | Medium
-56 | ... | ... | ...
+39 | File | `/cgi-bin/info.cgi` | High
+40 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/cgi-bin/p1_ftpserver.php` | High
+43 | File | `/cgi-bin/s3.cgi` | High
+44 | File | `/cgi-bin/vitogate.cgi` | High
+45 | File | `/classes/Master.php` | High
+46 | File | `/classes/Master.php?f=delete_category` | High
+47 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+48 | File | `/common/info.cgi` | High
+49 | File | `/control/register_case.php` | High
+50 | File | `/controllers/add_client.php` | High
+51 | File | `/customer_demo/index2.html` | High
+52 | File | `/customer_register.php` | High
+53 | File | `/dataSet/resolveSql` | High
+54 | File | `/details2.php` | High
+55 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

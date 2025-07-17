@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [23.6.70.227](https://vuldb.com/?ip.23.6.70.227) | a23-6-70-227.deploy.static.akamaitechnologies.com | - | High
 7 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,17 +57,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/alphaware/summary.php` | High
 5 | File | `/api/content/posts/comments` | High
 6 | File | `/app/sys1.php` | High
-7 | File | `/churchcrm/WhyCameEditor.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/example/editor` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/Home/GetAttachment` | High
-12 | File | `/index.php?page=search/rentals` | High
-13 | File | `/members/view_member.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | ... | ... | ...
+7 | File | `/cgi-bin/downloadFile.cgi` | High
+8 | File | `/churchcrm/WhyCameEditor.php` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/example/editor` | High
+12 | File | `/goform/aspForm` | High
+13 | File | `/Home/GetAttachment` | High
+14 | File | `/index.php?page=search/rentals` | High
+15 | File | `/members/view_member.php` | High
+16 | File | `/mgmt/tm/util/bash` | High
+17 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
+* https://urlhaus.abuse.ch/url/3560727/
 
 ## Literature
 

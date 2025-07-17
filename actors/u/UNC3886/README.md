@@ -62,33 +62,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
 2 | File | `/admin/?setting-base.htm` | High
-3 | File | `/api/` | Low
-4 | File | `/api/cron/settings/setJob/` | High
-5 | File | `/authUserAction!edit.action` | High
-6 | File | `/calendar/minimizer/index.php` | High
-7 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-8 | File | `/category.php` | High
-9 | File | `/category_view.php` | High
-10 | File | `/cgi-bin/luci;stok=/locale` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/course/modedit.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/devinfo` | Medium
-15 | File | `/forms/doLogin` | High
-16 | File | `/h/autoSaveDraft` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/importexport.php` | High
-19 | File | `/manage-courses.php?del=1` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/plain` | Low
-22 | File | `/preauth` | Medium
-23 | File | `/protocol/nsasg6.0.tgz` | High
-24 | File | `/setnetworksettings/IPAddress` | High
-25 | File | `/settings` | Medium
-26 | File | `/tmp/moses` | Medium
-27 | ... | ... | ...
+3 | File | `/admin/edit-subcategory.php` | High
+4 | File | `/ajax.php?action=delete_member` | High
+5 | File | `/api/` | Low
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/authUserAction!edit.action` | High
+8 | File | `/calendar/minimizer/index.php` | High
+9 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+10 | File | `/category.php` | High
+11 | File | `/category_view.php` | High
+12 | File | `/cgi-bin/luci;stok=/locale` | High
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/course/modedit.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/devinfo` | Medium
+17 | File | `/forms/doLogin` | High
+18 | File | `/goform/RP_UpgradeFWByBBS` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/importexport.php` | High
+22 | File | `/manage-courses.php?del=1` | High
+23 | File | `/manage_website.php` | High
+24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+25 | File | `/panel/edit_plan.php` | High
+26 | File | `/plain` | Low
+27 | File | `/preauth` | Medium
+28 | File | `/protocol/nsasg6.0.tgz` | High
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

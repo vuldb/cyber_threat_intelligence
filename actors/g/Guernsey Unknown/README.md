@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Guernsey Unknown:
 
 * [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -76,9 +76,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,22 +88,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/0/api-tokens/` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-6 | File | `/classes/Login.php` | High
-7 | File | `/classes/master.php?f=delete_order` | High
-8 | File | `/classes/Master.php?f=log_employee` | High
-9 | File | `/contact.php` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/ims/login.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-14 | File | `/main/webservices/additional_webservices.php` | High
+2 | File | `/admin/uesrs.php&action=display&value=Show` | High
+3 | File | `/api/0/api-tokens/` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+7 | File | `/classes/Login.php` | High
+8 | File | `/classes/master.php?f=delete_order` | High
+9 | File | `/classes/Master.php?f=log_employee` | High
+10 | File | `/contact.php` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/ims/login.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

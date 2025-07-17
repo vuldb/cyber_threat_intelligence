@@ -50,8 +50,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `filezillaserver.exe` | High
-2 | Network Port | `All Ports` | Medium
+1 | File | `cgi-bin/webscr?cmd=_cart` | High
+2 | File | `filezillaserver.exe` | High
+3 | Argument | `cgi-bin/webscr?cmd=_cart` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

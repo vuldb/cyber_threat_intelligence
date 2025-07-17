@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [ZA](https://vuldb.com/?country.za)
-* [UA](https://vuldb.com/?country.ua)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,7 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
-3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,8 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `traceroute.pl` | High
-2 | Argument | `host` | Low
+1 | File | `login.cgi` | Medium
+2 | File | `traceroute.pl` | High
+3 | Argument | `cli` | Low
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

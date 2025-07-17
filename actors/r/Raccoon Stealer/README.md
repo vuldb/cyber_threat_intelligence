@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,9 +119,11 @@ ID | Type | Indicator | Confidence
 50 | File | `/etc/shadow.sample` | High
 51 | File | `/fftools/ffmpeg_enc.c` | High
 52 | File | `/files/` | Low
-53 | ... | ... | ...
+53 | File | `/filter.php` | Medium
+54 | File | `/fladmin/sysconfig_doedit.php` | High
+55 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

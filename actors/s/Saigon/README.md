@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Saigon:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,14 +30,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-40 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,60 +46,76 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addcompany.php` | High
-2 | File | `/admin.php/appcenter/local.html?type=addon` | High
-3 | File | `/admin/add-property.php` | High
-4 | File | `/admin/admin_editor.php` | High
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/ad_list.php?action=pass` | High
-7 | File | `/admin/booking-bwdates-reports-details.php` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/DatabaseQuery` | High
-10 | File | `/admin/edit-admin.php` | High
-11 | File | `/admin/edit_area.php` | High
-12 | File | `/admin/edit_role.php` | High
-13 | File | `/admin/extensions/upload.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/makehtml_freelist_action.php` | High
-16 | File | `/admin/options-theme.php` | High
-17 | File | `/admin/reports/index.php` | High
-18 | File | `/admin/request-received-bydonar.php` | High
-19 | File | `/admin/salary_slip.php` | High
-20 | File | `/admin/sales/index.php` | High
-21 | File | `/admin/team_update.php` | High
-22 | File | `/admin/user_save.php` | High
-23 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-24 | File | `/adpweb/wechat/verifyToken/` | High
-25 | File | `/ajax.php?action=login` | High
-26 | File | `/api/` | Low
-27 | File | `/api/client/editemedia.php` | High
-28 | File | `/api/Common/uploadFile` | High
-29 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
-30 | File | `/api/wizard/setsyncpppoecfg` | High
-31 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-32 | File | `/boafrm/formReflashClientTbl` | High
-33 | File | `/cgi-bin/adm.cgi` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/cms/category/list` | High
-38 | File | `/company/service/increment/add/im` | High
-39 | File | `/confirmbooking.php` | High
-40 | File | `/control/login.php` | High
-41 | File | `/core/config-revisions` | High
-42 | File | `/currentsetting.htm` | High
-43 | File | `/Default/Bd` | Medium
-44 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-45 | File | `/filemanager/upload` | High
-46 | File | `/film-rating.php` | High
-47 | File | `/fladmin/user_recoverpwd.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-50 | File | `/getImage` | Medium
-51 | File | `/goform/AdvSetWrl` | High
-52 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
+2 | File | `%PROGRAMDATA%\WrData\PKG` | High
+3 | File | `/addcompany.php` | High
+4 | File | `/admin-cp/plugin/install` | High
+5 | File | `/admin.php/appcenter/local.html?type=addon` | High
+6 | File | `/admin/?/login/forgot` | High
+7 | File | `/admin/admin_user.php` | High
+8 | File | `/admin/applicants/controller.php` | High
+9 | File | `/admin/case-status` | High
+10 | File | `/admin/category.php` | High
+11 | File | `/admin/category/add.do` | High
+12 | File | `/admin/change-image.php` | High
+13 | File | `/admin/change-password.php` | High
+14 | File | `/admin/check_admin.php` | High
+15 | File | `/admin/company/index.php` | High
+16 | File | `/Admin/createClass.php` | High
+17 | File | `/Admin/CustomerReport.php` | High
+18 | File | `/admin/edit-artist-detail.php?editid=1` | High
+19 | File | `/admin/edit.php` | High
+20 | File | `/admin/edit_area.php` | High
+21 | File | `/admin/edit_role.php` | High
+22 | File | `/admin/file/delete.do` | High
+23 | File | `/admin/group` | Medium
+24 | File | `/admin/indexConfigs/update` | High
+25 | File | `/admin/makehtml_freelist_action.php` | High
+26 | File | `/admin/newsletter1.php` | High
+27 | File | `/admin/product/manage.php` | High
+28 | File | `/admin/reports/index.php` | High
+29 | File | `/admin/reservation_view.php` | High
+30 | File | `/admin/search.php` | High
+31 | File | `/admin/updatestudent.php` | High
+32 | File | `/admin/user/manage_user.php` | High
+33 | File | `/adpweb/wechat/verifyToken/` | High
+34 | File | `/ajax.php?action=save_membership` | High
+35 | File | `/api/comment/add` | High
+36 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+37 | File | `/apps/system/router/upload.go` | High
+38 | File | `/auth/userkey/logout.php` | High
+39 | File | `/bin/boa` | Medium
+40 | File | `/boafrm/formFilter` | High
+41 | File | `/boafrm/formIpQoS` | High
+42 | File | `/book_edit_do.html` | High
+43 | File | `/bsenordering/index.php` | High
+44 | File | `/bwdates-reports-details.php` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+47 | File | `/cgi-bin/sessions/get-temp-file` | High
+48 | File | `/cgi-bin/touchlist_sync.cgi` | High
+49 | File | `/chart` | Low
+50 | File | `/checkout` | Medium
+51 | File | `/classes/Login.php` | High
+52 | File | `/classes/Master.php?f=save_brand` | High
+53 | File | `/cms/smf/Sources/ManageMembers.php` | High
+54 | File | `/company/service/increment/add/im` | High
+55 | File | `/contract` | Medium
+56 | File | `/control/login.php` | High
+57 | File | `/dashboard/getData.php` | High
+58 | File | `/doorgets/app/requests/user/configurationRequest.php` | High
+59 | File | `/download-medical-cards.php` | High
+60 | File | `/Employee/edit-profile.php` | High
+61 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+62 | File | `/fhconf/umconfig.txt` | High
+63 | File | `/film-rating.php` | High
+64 | File | `/form2pingv6.cgi` | High
+65 | File | `/forum/away.php` | High
+66 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+67 | File | `/front/admin/tenancyDetail.php` | High
+68 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 597 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

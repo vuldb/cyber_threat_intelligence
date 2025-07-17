@@ -66,10 +66,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 2 | File | `avahi-core/socket.c` | High
-3 | File | `include/downmix.inc.php` | High
+3 | File | `iaxxx-btp.c` | Medium
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

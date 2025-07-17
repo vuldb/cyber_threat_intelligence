@@ -33,6 +33,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1222 | CWE-275 | Permission Issues | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,9 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `__ajax_explorer.sgi` | High
-2 | Argument | `CWD` | Low
-3 | Argument | `QUERY_STRING` | Medium
+1 | File | `/admin-page.php` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/cms/templates/templatesAssetsEditor` | High
+4 | ... | ... | ...
+
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

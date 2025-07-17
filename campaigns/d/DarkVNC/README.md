@@ -21,8 +21,8 @@ These _actors_ are associated with DarkVNC or other actors linked to the campaig
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TA551](https://vuldb.com/?actor.ta551) | High
-2 | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
+1 | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
+2 | [TA551](https://vuldb.com/?actor.ta551) | High
 
 ## IOC - Indicator of Compromise
 

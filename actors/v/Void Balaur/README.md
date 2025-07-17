@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Void Balaur:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Void Balaur:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -49,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,55 +64,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/addcustcom.php` | High
-3 | File | `/addcustind.php` | High
-4 | File | `/addstock.php` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/?page=products/view_product` | High
-8 | File | `/admin/add_ikev2.php` | High
-9 | File | `/Admin/adminlogin.php` | High
-10 | File | `/Admin/akun_edit.php` | High
-11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
-13 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
-14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-15 | File | `/admin/book-details.php` | High
-16 | File | `/admin/bwdates-report-details.php` | High
-17 | File | `/admin/category_save.php` | High
-18 | File | `/admin/cmsTagType/save` | High
-19 | File | `/admin/edit-brand.php` | High
-20 | File | `/admin/edit-subadmin.php` | High
-21 | File | `/admin/edit_customer.php` | High
-22 | File | `/admin/edit_fuel.php` | High
-23 | File | `/admin/edit_role.php` | High
-24 | File | `/admin/fetch_product_details.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/index2.html` | High
-27 | File | `/admin/list_ipAddressPolicy.php` | High
-28 | File | `/admin/manage_model.php` | High
-29 | File | `/admin/manage_user.php` | High
-30 | File | `/admin/profile.php` | High
-31 | File | `/Admin/Proses_Edit_Akun.php` | High
-32 | File | `/admin/search-vehicle.php` | High
-33 | File | `/admin/sou.php` | High
-34 | File | `/admin/subject.php` | High
-35 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-36 | File | `/admin/template/edit` | High
-37 | File | `/admin/twitter.php` | High
-38 | File | `/api/v1/toolbox/device/update/swap` | High
-39 | File | `/App/Core/Extend/Function/ydLib.php` | High
-40 | File | `/app/zentao/module/repo/model.php` | High
-41 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-42 | File | `/catalog/all-products` | High
-43 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-44 | File | `/cgi-bin/cstecgi.cgi` | High
-45 | File | `/cgi-bin/ExportSettings.sh` | High
-46 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-47 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/addcustcom.php` | High
+4 | File | `/addcustind.php` | High
+5 | File | `/addstock.php` | High
+6 | File | `/adfs/ls` | Medium
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/?page=products/view_product` | High
+10 | File | `/admin/add_ikev2.php` | High
+11 | File | `/Admin/adminlogin.php` | High
+12 | File | `/Admin/akun_edit.php` | High
+13 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+15 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
+16 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
+17 | File | `/admin/book-details.php` | High
+18 | File | `/admin/bwdates-report-details.php` | High
+19 | File | `/admin/category_save.php` | High
+20 | File | `/admin/cmsTagType/save` | High
+21 | File | `/admin/edit-brand.php` | High
+22 | File | `/admin/edit-subadmin.php` | High
+23 | File | `/admin/edit_customer.php` | High
+24 | File | `/admin/edit_fuel.php` | High
+25 | File | `/admin/edit_role.php` | High
+26 | File | `/admin/fetch_product_details.php` | High
+27 | File | `/admin/index.php` | High
+28 | File | `/admin/index2.html` | High
+29 | File | `/admin/list_ipAddressPolicy.php` | High
+30 | File | `/admin/manage_model.php` | High
+31 | File | `/admin/manage_user.php` | High
+32 | File | `/admin/profile.php` | High
+33 | File | `/Admin/Proses_Edit_Akun.php` | High
+34 | File | `/admin/search-vehicle.php` | High
+35 | File | `/admin/sou.php` | High
+36 | File | `/admin/subject.php` | High
+37 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+38 | File | `/admin/template/edit` | High
+39 | File | `/admin/twitter.php` | High
+40 | File | `/api/v1/settings` | High
+41 | File | `/api/v1/toolbox/device/update/swap` | High
+42 | File | `/App/Core/Extend/Function/ydLib.php` | High
+43 | File | `/app/zentao/module/repo/model.php` | High
+44 | File | `/bin/httpd` | Medium
+45 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+46 | File | `/catalog/all-products` | High
+47 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+48 | File | `/cgi-bin/cstecgi.cgi` | High
+49 | File | `/cgi-bin/ExportSettings.sh` | High
+50 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+51 | File | `/com/esafenet/servlet/document/ExamCDGDocService.java` | High
+52 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+53 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

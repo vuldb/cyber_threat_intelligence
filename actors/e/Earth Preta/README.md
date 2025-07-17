@@ -54,36 +54,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/app/product.php` | High
 3 | File | `/admin/uploads.php` | High
 4 | File | `/app1/admin#foo` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/config/server.xml` | High
-7 | File | `/coreframe/app/guestbook/myissue.php` | High
-8 | File | `/customer_support/index.php` | High
-9 | File | `/data/config.ftp.php` | High
-10 | File | `/de/cgi/dfs_guest/` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/shadow` | Medium
-13 | File | `/home/search` | Medium
-14 | File | `/include/config.cache.php` | High
-15 | File | `/include/helpers/upload.helper.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/info.xml` | Medium
-18 | File | `/Items/*/RemoteImages/Download` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/my_photo_gallery/image.php` | High
-21 | File | `/new` | Low
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/patient/appointment.php` | High
-25 | File | `/preview.php` | Medium
-26 | File | `/protocol/index.php` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/reps/classes/Users.php?f=delete_agent` | High
-29 | File | `/rest/api/2/user/picker` | High
-30 | File | `/search-result.php` | High
-31 | File | `/secret_coder.sql` | High
-32 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/config/server.xml` | High
+8 | File | `/coreframe/app/guestbook/myissue.php` | High
+9 | File | `/customer_support/index.php` | High
+10 | File | `/data/config.ftp.php` | High
+11 | File | `/de/cgi/dfs_guest/` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/home/search` | Medium
+16 | File | `/include/config.cache.php` | High
+17 | File | `/include/helpers/upload.helper.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/info.xml` | Medium
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/my_photo_gallery/image.php` | High
+23 | File | `/new` | Low
+24 | File | `/out.php` | Medium
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/patient/appointment.php` | High
+27 | File | `/preview.php` | Medium
+28 | File | `/protocol/index.php` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/reps/classes/Users.php?f=delete_agent` | High
+31 | File | `/rest/api/2/user/picker` | High
+32 | File | `/search-result.php` | High
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

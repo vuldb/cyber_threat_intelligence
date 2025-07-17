@@ -69,11 +69,12 @@ ID | Type | Indicator | Confidence
 11 | File | `/mobileredir/openApp.jsp` | High
 12 | File | `/onlinecourse/` | High
 13 | File | `/register.php` | High
-14 | File | `/search` | Low
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | ... | ... | ...
+14 | File | `/script/academic/announcement` | High
+15 | File | `/search` | Low
+16 | File | `/spgpm/updateListing` | High
+17 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

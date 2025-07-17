@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with FIN8:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN8:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,36 +55,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/manage_model.php` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/admin/search-vehicle.php` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-12 | File | `/admin/twitter.php` | High
-13 | File | `/api/v1/toolbox/device/update/swap` | High
-14 | File | `/app/zentao/module/repo/model.php` | High
-15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-16 | File | `/catalog/all-products` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/ExportSettings.sh` | High
-19 | File | `/changePassword` | High
-20 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-21 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-22 | File | `/edit-subject.php` | High
-23 | File | `/endpoint/add-user.php` | High
-24 | File | `/etc/postfix/sender_login` | High
-25 | File | `/etc/shadow.sample` | High
-26 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-27 | File | `/foms/routers/place-order.php` | High
-28 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/manage_model.php` | High
+11 | File | `/admin/manage_user.php` | High
+12 | File | `/admin/search-vehicle.php` | High
+13 | File | `/admin/subject.php` | High
+14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+15 | File | `/admin/twitter.php` | High
+16 | File | `/api/v1/settings` | High
+17 | File | `/api/v1/toolbox/device/update/swap` | High
+18 | File | `/app/zentao/module/repo/model.php` | High
+19 | File | `/bin/httpd` | Medium
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/catalog/all-products` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/ExportSettings.sh` | High
+24 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+25 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+26 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+27 | File | `/edit-subject.php` | High
+28 | File | `/endpoint/add-user.php` | High
+29 | File | `/etc/postfix/sender_login` | High
+30 | File | `/etc/shadow.sample` | High
+31 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+32 | File | `/foms/routers/place-order.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/AdvSetMacMtuWan` | High
+35 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

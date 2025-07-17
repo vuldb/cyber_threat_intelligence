@@ -48,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/mft/wireless_mft` | High
-2 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-3 | File | `audiohd.exe` | Medium
+2 | File | `/spip.php` | Medium
+3 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
 4 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

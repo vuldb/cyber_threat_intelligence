@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Snake:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snake:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -151,7 +151,7 @@ ID | Type | Indicator | Confidence
 98 | File | `/admin/update_users.php` | High
 99 | ... | ... | ...
 
-There are 876 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 877 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -145,16 +145,15 @@ ID | Type | Indicator | Confidence
 82 | File | `/goform/WifiWpsStart` | High
 83 | File | `/guestbook` | Medium
 84 | File | `/home/kickPlayer` | High
-85 | File | `/index.php` | Medium
-86 | File | `/index.php/setpage/admin/pageAE.html` | High
-87 | File | `/index.php/signin` | High
-88 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-89 | File | `/intern/controller.php` | High
-90 | File | `/librarian/bookdetails.php` | High
-91 | File | `/log/decodmail.php` | High
-92 | ... | ... | ...
+85 | File | `/include/dedetag.class.php` | High
+86 | File | `/index.php` | Medium
+87 | File | `/index.php/setpage/admin/pageAE.html` | High
+88 | File | `/index.php/signin` | High
+89 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+90 | File | `/intern/controller.php` | High
+91 | ... | ... | ...
 
-There are 809 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 804 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

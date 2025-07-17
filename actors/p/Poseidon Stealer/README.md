@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.93.20.174](https://vuldb.com/?ip.45.93.20.174) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,23 +49,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/curriculum/view_curriculum.php` | High
 2 | File | `/admin/template.php` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/edit-subject.php` | High
-5 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-8 | File | `/modules/files/list.php` | High
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/student/bookdetails.php` | High
-11 | File | `/SystemMng.ashx` | High
-12 | File | `/textpattern/index.php` | High
-13 | File | `/Web/SysManage/UserEdit.aspx` | High
-14 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/auth.php` | High
-17 | ... | ... | ...
+3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+4 | File | `/backend/admin/his_admin_register_patient.php` | High
+5 | File | `/cgi-bin/nas_sharing.cgi` | High
+6 | File | `/edit-subject.php` | High
+7 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+10 | File | `/modules/files/list.php` | High
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/student/bookdetails.php` | High
+13 | File | `/SystemMng.ashx` | High
+14 | File | `/textpattern/index.php` | High
+15 | File | `/Web/SysManage/UserEdit.aspx` | High
+16 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
+17 | File | `admin.php` | Medium
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/147.45.47.170
 * https://search.censys.io/hosts/185.28.119.85
 * https://search.censys.io/hosts/185.235.128.217
+* https://search.censys.io/hosts/193.143.1.236
 * https://search.censys.io/hosts/194.59.183.241
 * https://search.censys.io/hosts/209.126.1.139
 * https://tria.ge/240810-n9yc2ssgjf/behavioral1

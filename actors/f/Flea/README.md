@@ -29,6 +29,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 3 | T1552 | CWE-255 | Credentials Management | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,12 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `pages_withdraw_money.php` | High
-2 | Argument | `account_number` | High
-3 | Input Value | `287359614--><ScRiPt%20>alert(1234)</ScRiPt><!--` | High
+1 | File | `/admin/edit-subcategory.php` | High
+2 | File | `pages_withdraw_money.php` | High
+3 | Argument | `account_number` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

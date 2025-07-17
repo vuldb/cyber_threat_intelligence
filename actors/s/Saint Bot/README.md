@@ -55,23 +55,24 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/cstecgi.cgi` | High
 7 | File | `/cwc/login` | Medium
 8 | File | `/forum/away.php` | High
-9 | File | `/includes/rrdtool.inc.php` | High
-10 | File | `/intern/controller.php` | High
-11 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-12 | File | `/iwguestbook/admin/messages_edit.asp` | High
-13 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-14 | File | `/www/ping_response.cgi` | High
-15 | File | `adclick.php` | Medium
-16 | File | `admin.php` | Medium
-17 | File | `admin/dashboard.php` | High
-18 | File | `admin/gallery.php` | High
-19 | File | `admin/manage-departments.php` | High
-20 | File | `admin/sellerupd.php` | High
-21 | File | `admin/vqmods.app/vqmods.inc.php` | High
-22 | File | `administrator/logviewer/searchlog.cfm` | High
-23 | ... | ... | ...
+9 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+10 | File | `/includes/rrdtool.inc.php` | High
+11 | File | `/intern/controller.php` | High
+12 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+13 | File | `/iwguestbook/admin/messages_edit.asp` | High
+14 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+15 | File | `/www/ping_response.cgi` | High
+16 | File | `adclick.php` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin/dashboard.php` | High
+19 | File | `admin/gallery.php` | High
+20 | File | `admin/manage-departments.php` | High
+21 | File | `admin/sellerupd.php` | High
+22 | File | `admin/vqmods.app/vqmods.inc.php` | High
+23 | File | `administrator/logviewer/searchlog.cfm` | High
+24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

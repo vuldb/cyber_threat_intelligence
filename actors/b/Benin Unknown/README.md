@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 42 more country items available. Please use our online service to access the data.
+There are 41 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,11 +59,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,47 +73,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
 2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/clients/` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/Admin/edit_profile.php` | High
-7 | File | `/admin/forms/option_lists/edit.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/manage-pages.php` | High
-10 | File | `/admin/process_category_add.php` | High
-11 | File | `/admin/registration.php` | High
-12 | File | `/admin/sales/manage_sale.php` | High
-13 | File | `/admin/settings/index.php?page=accounts` | High
-14 | File | `/admin/userprofile.php` | High
-15 | File | `/advanced-tools/nova/bin/netwatch` | High
-16 | File | `/api/configs` | Medium
-17 | File | `/api/sys/set_passwd` | High
-18 | File | `/apilog.php` | Medium
-19 | File | `/app/middleware/TokenVerify.php` | High
-20 | File | `/auth_pic.cgi` | High
-21 | File | `/blog` | Low
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-24 | File | `/cgi-bin/api-get_line_status` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-26 | File | `/cgi-bin/luci` | High
-27 | File | `/cgi-bin/myMusic.cgi` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/s3.cgi` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php?f=save_medicine` | High
-32 | File | `/Code/loginnew.php` | High
-33 | File | `/Code/sc_login.php` | High
-34 | File | `/control/add_act.php` | High
-35 | File | `/control/login.php` | High
-36 | File | `/control/register_case.php` | High
-37 | File | `/dashboard/admin/edit_member.php` | High
-38 | File | `/dashboard/admin/edit_mem_submit.php` | High
-39 | File | `/dashboard/admin/new_submit.php` | High
-40 | File | `/dashboard/message` | High
-41 | ... | ... | ...
+3 | File | `/admin/auto-taxi-entry-detail.php` | High
+4 | File | `/admin/clients/` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/edit-class.php` | High
+7 | File | `/admin/edit_action.php` | High
+8 | File | `/Admin/edit_profile.php` | High
+9 | File | `/admin/forms/option_lists/edit.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/manage-pages.php` | High
+12 | File | `/admin/process_category_add.php` | High
+13 | File | `/admin/registration.php` | High
+14 | File | `/admin/sales/manage_sale.php` | High
+15 | File | `/admin/settings/index.php?page=accounts` | High
+16 | File | `/admin/userprofile.php` | High
+17 | File | `/admin/users-applications.php` | High
+18 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+19 | File | `/advanced-tools/nova/bin/netwatch` | High
+20 | File | `/api/configs` | Medium
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+23 | File | `/apilog.php` | Medium
+24 | File | `/app/middleware/TokenVerify.php` | High
+25 | File | `/auth_pic.cgi` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/blog` | Low
+28 | File | `/book-appointment.php` | High
+29 | File | `/category.php` | High
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/api-get_line_status` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+33 | File | `/cgi-bin/luci` | High
+34 | File | `/cgi-bin/myMusic.cgi` | High
+35 | File | `/cgi-bin/nas_sharing.cgi` | High
+36 | File | `/cgi-bin/s3.cgi` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/change_pass/forgot_password_sql.php` | High
+39 | File | `/classes/Master.php?f=save_medicine` | High
+40 | File | `/Code/loginnew.php` | High
+41 | File | `/Code/sc_login.php` | High
+42 | File | `/control/add_act.php` | High
+43 | File | `/control/login.php` | High
+44 | File | `/control/register_case.php` | High
+45 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

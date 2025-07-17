@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.netsupport](https://vuldb.com/?actor.netsupport)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with NetSupport:
+
+* ClickFix
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetSupport:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +30,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.181.156.60](https://vuldb.com/?ip.5.181.156.60) | no-rdns.mivocloud.com | - | High
 2 | [5.181.159.28](https://vuldb.com/?ip.5.181.159.28) | no-rdns.mivocloud.com | - | High
 3 | [5.181.159.137](https://vuldb.com/?ip.5.181.159.137) | 5-181-159-137.mivocloud.com | - | High
-4 | ... | ... | ... | ...
+4 | [23.23.49.179](https://vuldb.com/?ip.23.23.49.179) | ec2-23-23-49-179.compute-1.amazonaws.com | ClickFix | Medium
+5 | [50.87.146.66](https://vuldb.com/?ip.50.87.146.66) | 50-87-146-66.unifiedlayer.com | ClickFix | High
+6 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,31 +68,32 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/v2/cli/commands` | High
 11 | File | `/api2/html/` | Medium
 12 | File | `/apply.cgi` | Medium
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-16 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/gena.cgi` | Medium
-20 | File | `/h/rest` | Low
-21 | File | `/index.php` | Medium
-22 | File | `/index/ajax/lang` | High
-23 | File | `/log/decodmail.php` | High
-24 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-25 | File | `/log_proxy` | Medium
-26 | File | `/mailcleaner.php/getStats` | High
-27 | File | `/mfsNotice/page` | High
-28 | File | `/netflow/jspui/editProfile.jsp` | High
-29 | File | `/novel/bookSetting/list` | High
-30 | File | `/novel/userFeedback/list` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/php/ping.php` | High
-34 | File | `/rapi/read_url` | High
-35 | ... | ... | ...
+13 | File | `/backend/admin/his_admin_register_patient.php` | High
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/gena.cgi` | Medium
+21 | File | `/h/rest` | Low
+22 | File | `/index.php` | Medium
+23 | File | `/index/ajax/lang` | High
+24 | File | `/log/decodmail.php` | High
+25 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+26 | File | `/log_proxy` | Medium
+27 | File | `/mailcleaner.php/getStats` | High
+28 | File | `/members/poster.php` | High
+29 | File | `/mfsNotice/page` | High
+30 | File | `/netflow/jspui/editProfile.jsp` | High
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/novel/userFeedback/list` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/php/ping.php` | High
+36 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,7 +105,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3536229/
 * https://urlhaus.abuse.ch/url/3543173/
 * https://urlhaus.abuse.ch/url/3543176/
+* https://www.cybereason.com/blog/net-support-rat-wordpress-clickfix
 * https://www.domaintools.com/resources/blog/a-website-attacked/
+* https://www.malware-traffic-analysis.net/2025/06/18/index.html
 
 ## Literature
 

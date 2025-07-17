@@ -34,7 +34,8 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [46.4.197.237](https://vuldb.com/?ip.46.4.197.237) | server4.one3erver.com | - | High
 6 | [52.42.122.102](https://vuldb.com/?ip.52.42.122.102) | ec2-52-42-122-102.us-west-2.compute.amazonaws.com | - | Medium
 7 | [54.39.18.111](https://vuldb.com/?ip.54.39.18.111) | orion.privatedns.com.br | - | High
-8 | ... | ... | ... | ...
+8 | [54.68.171.176](https://vuldb.com/?ip.54.68.171.176) | ec2-54-68-171-176.us-west-2.compute.amazonaws.com | - | Medium
+9 | ... | ... | ... | ...
 
 There are 30 more IOC items available. Please use our online service to access the data.
 
@@ -73,36 +74,38 @@ ID | Type | Indicator | Confidence
 12 | File | `/cgi-bin/return.cgi` | High
 13 | File | `/checkLogin.cgi` | High
 14 | File | `/csms/admin/?page=user/list` | High
-15 | File | `/depotHead/list` | High
-16 | File | `/etc/postfix/sender_login` | High
-17 | File | `/forms/web_importTFTP` | High
-18 | File | `/framework/modules/users/models/user.php` | High
-19 | File | `/goform/openSchedWifi` | High
-20 | File | `/goform/VerAPIMant` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/Home/GetAttachment` | High
-23 | File | `/lesson/controller.php` | High
-24 | File | `/login?service` | High
-25 | File | `/mfsNotice/page` | High
-26 | File | `/mkshope/login.php` | High
-27 | File | `/model/viewProduct.php` | High
-28 | File | `/objects/getImageMP4.php` | High
-29 | File | `/objects/getSpiritsFromVideo.php` | High
-30 | File | `/payu/icpcheckout/` | High
-31 | File | `/php_action/createUser.php` | High
-32 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-33 | File | `/see_more_details.php` | High
-34 | File | `/show_news.php` | High
-35 | File | `/src/jfif.c` | Medium
-36 | File | `/storage` | Medium
-37 | File | `/tracking/admin/view_itprofile.php` | High
-38 | File | `/tracking/nbproject/` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/usr/local/www/pkg.php` | High
-41 | File | `/v1/continue` | Medium
-42 | ... | ... | ...
+15 | File | `/dental_form.php` | High
+16 | File | `/depotHead/list` | High
+17 | File | `/etc/postfix/sender_login` | High
+18 | File | `/forms/web_importTFTP` | High
+19 | File | `/framework/modules/users/models/user.php` | High
+20 | File | `/goform/openSchedWifi` | High
+21 | File | `/goform/VerAPIMant` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/Home/GetAttachment` | High
+24 | File | `/lesson/controller.php` | High
+25 | File | `/login?service` | High
+26 | File | `/mfsNotice/page` | High
+27 | File | `/mkshope/login.php` | High
+28 | File | `/model/viewProduct.php` | High
+29 | File | `/objects/getImageMP4.php` | High
+30 | File | `/objects/getSpiritsFromVideo.php` | High
+31 | File | `/payu/icpcheckout/` | High
+32 | File | `/php_action/createUser.php` | High
+33 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+34 | File | `/see_more_details.php` | High
+35 | File | `/show_news.php` | High
+36 | File | `/src/jfif.c` | Medium
+37 | File | `/storage` | Medium
+38 | File | `/tracking/admin/view_itprofile.php` | High
+39 | File | `/tracking/nbproject/` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/usr/local/www/pkg.php` | High
+42 | File | `/v1/continue` | Medium
+43 | File | `/v1/tokens` | Medium
+44 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

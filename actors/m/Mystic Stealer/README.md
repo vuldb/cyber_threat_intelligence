@@ -94,20 +94,21 @@ ID | Type | Indicator | Confidence
 28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 29 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 30 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-31 | File | `/edit-subject.php` | High
-32 | File | `/endpoint/add-user.php` | High
-33 | File | `/etc/postfix/sender_login` | High
-34 | File | `/etc/shadow.sample` | High
-35 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-36 | File | `/foms/routers/place-order.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/AdvSetMacMtuWan` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/frmL7ProtForm` | High
-41 | File | `/goform/SetLEDCfg` | High
-42 | ... | ... | ...
+31 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+32 | File | `/edit-subject.php` | High
+33 | File | `/endpoint/add-user.php` | High
+34 | File | `/etc/postfix/sender_login` | High
+35 | File | `/etc/shadow.sample` | High
+36 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+37 | File | `/foms/routers/place-order.php` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/AdvSetMacMtuWan` | High
+40 | File | `/goform/aspForm` | High
+41 | File | `/goform/frmL7ProtForm` | High
+42 | File | `/goform/SetLEDCfg` | High
+43 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

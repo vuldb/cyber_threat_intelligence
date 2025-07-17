@@ -51,13 +51,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/View_user.php` | High
 3 | File | `/ajax-files/followBoard.php` | High
 4 | File | `/ajax-files/postComment.php` | High
-5 | File | `/categorypage.php` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/home.php` | Medium
-8 | File | `/searchpin.php` | High
-9 | ... | ... | ...
+5 | File | `/api/wizard/setsyncpppoecfg` | High
+6 | File | `/categorypage.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/fileUpload` | Medium
+9 | File | `/goform/Diagnosis` | High
+10 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,14 +8,19 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Crazy Evil:
 
+* Cryptowallet Scam
 * GrassCall
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crazy Evil:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [NL](https://vuldb.com/?country.nl)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,12 +28,51 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.129.185.24](https://vuldb.com/?ip.45.129.185.24) | 41209.ip-ptr.tech | GrassCall | High
+1 | [45.94.47.112](https://vuldb.com/?ip.45.94.47.112) | - | Cryptowallet Scam | High
+2 | [45.94.47.167](https://vuldb.com/?ip.45.94.47.167) | - | Cryptowallet Scam | High
+3 | [45.129.185.24](https://vuldb.com/?ip.45.129.185.24) | 41209.ip-ptr.tech | GrassCall | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Crazy Evil_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Crazy Evil. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/modules/profile/index.php` | High
+4 | File | `/modules/projects/summary.inc.php` | High
+5 | File | `/multi-vendor-shopping-script/product-list.php` | High
+6 | File | `/oauth/idp/.well-known/openid-configuration` | High
+7 | File | `/php_action/createUser.php` | High
+8 | File | `adclick.php` | Medium
+9 | File | `admin.php` | Medium
+10 | File | `allopass.php` | Medium
+11 | ... | ... | ...
+
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.darktrace.com/blog/crypto-wallets-continue-to-be-drained-in-elaborate-social-media-scam
 * https://www.seqrite.com/blog/unmasking-grasscall-campaign-the-apt-behind-job-recruitment-cyber-scams/
 
 ## Literature

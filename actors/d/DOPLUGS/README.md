@@ -24,10 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [23.27.24.238](https://vuldb.com/?ip.23.27.24.238) | - | - | High
 2 | [38.54.17.43](https://vuldb.com/?ip.38.54.17.43) | - | - | High
 3 | [38.60.203.20](https://vuldb.com/?ip.38.60.203.20) | - | - | High
-4 | [45.32.144.34](https://vuldb.com/?ip.45.32.144.34) | 45.32.144.34.vultrusercontent.com | - | Medium
+4 | [38.246.73.120](https://vuldb.com/?ip.38.246.73.120) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,7 +57,7 @@ ID | Type | Indicator | Confidence
 6 | File | `/goform/RP_checkCredentialsByBBS` | High
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

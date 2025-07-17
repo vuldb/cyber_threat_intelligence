@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Lyceum:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lyceum:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -65,49 +65,53 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/change-image.php` | High
 9 | File | `/admin/index.php/web/ajax_all_lists` | High
 10 | File | `/admin/login.php` | High
-11 | File | `/admin/return_add.php` | High
-12 | File | `/admin/twitter.php` | High
-13 | File | `/admin/view-enquiry.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/clusters/local/topics/{topic}/messages` | High
-16 | File | `/api/gen/clients/{language}` | High
-17 | File | `/API/info` | Medium
-18 | File | `/app/options.py` | High
-19 | File | `/apply/index.php` | High
-20 | File | `/bin/httpd` | Medium
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-23 | File | `/cgi-bin/tosei_kikai.php` | High
-24 | File | `/cgi-bin/wapopen` | High
-25 | File | `/ci_spms/admin/category` | High
-26 | File | `/ci_spms/admin/search/searching/` | High
-27 | File | `/classes/Master.php?f=delete_appointment` | High
-28 | File | `/classes/Master.php?f=delete_record` | High
-29 | File | `/classes/Master.php?f=delete_train` | High
-30 | File | `/course/api/upload/pic` | High
-31 | File | `/cov/triggerEnvCov` | High
-32 | File | `/ctcprotocol/Protocol` | High
-33 | File | `/dashboard/admin/del_plan.php` | High
-34 | File | `/dashboard/approve-reject.php` | High
-35 | File | `/dashboard/menu-list.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/dede/file_manage_control.php` | High
-38 | File | `/detailed.php` | High
-39 | File | `/dist/index.js` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/ebics-server/ebics.aspx` | High
-42 | File | `/ecommerce/popup_Item.php` | High
-43 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-44 | File | `/EXCU_SHELL` | Medium
-45 | File | `/ffos/classes/Master.php?f=save_category` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/general/address/private/address/query/delete.php` | High
-48 | File | `/goform/ate` | Medium
-49 | File | `/goform/execCommand` | High
-50 | File | `/goform/form2systime.cgi` | High
-51 | ... | ... | ...
+11 | File | `/admin/member_save.php` | High
+12 | File | `/admin/return_add.php` | High
+13 | File | `/admin/search-vehicle.php` | High
+14 | File | `/admin/twitter.php` | High
+15 | File | `/admin/view-enquiry.php` | High
+16 | File | `/admin/voters_row.php` | High
+17 | File | `/ajax.php?action=read_msg` | High
+18 | File | `/api/authentication/login` | High
+19 | File | `/api/clusters/local/topics/{topic}/messages` | High
+20 | File | `/api/gen/clients/{language}` | High
+21 | File | `/API/info` | Medium
+22 | File | `/app/options.py` | High
+23 | File | `/apply/index.php` | High
+24 | File | `/bin/httpd` | Medium
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+27 | File | `/cgi-bin/tosei_kikai.php` | High
+28 | File | `/cgi-bin/wapopen` | High
+29 | File | `/ci_spms/admin/category` | High
+30 | File | `/ci_spms/admin/search/searching/` | High
+31 | File | `/classes/Master.php?f=delete_appointment` | High
+32 | File | `/classes/Master.php?f=delete_record` | High
+33 | File | `/classes/Master.php?f=delete_train` | High
+34 | File | `/course/api/upload/pic` | High
+35 | File | `/cov/triggerEnvCov` | High
+36 | File | `/ctcprotocol/Protocol` | High
+37 | File | `/dashboard/admin/del_plan.php` | High
+38 | File | `/dashboard/approve-reject.php` | High
+39 | File | `/dashboard/menu-list.php` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/dede/file_manage_control.php` | High
+42 | File | `/detailed.php` | High
+43 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+44 | File | `/dist/index.js` | High
+45 | File | `/doctor/search.php` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/ebics-server/ebics.aspx` | High
+48 | File | `/ecommerce/popup_Item.php` | High
+49 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+50 | File | `/empty_rooms.php` | High
+51 | File | `/EXCU_SHELL` | Medium
+52 | File | `/ffos/classes/Master.php?f=save_category` | High
+53 | File | `/forum/away.php` | High
+54 | File | `/general/address/private/address/query/delete.php` | High
+55 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

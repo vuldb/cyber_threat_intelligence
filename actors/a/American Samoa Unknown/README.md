@@ -69,14 +69,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info` | High
-2 | File | `/api/common/ping` | High
-3 | File | `/classes/Master.php` | High
-4 | File | `/ecommerce/admin/category/controller.php` | High
-5 | File | `/goform/formSetMACFilter` | High
-6 | File | `/goform/formSetMuti` | High
-7 | ... | ... | ...
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/user.php` | High
+4 | File | `/api/common/ping` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/ecommerce/admin/category/controller.php` | High
+7 | File | `/fees.php` | Medium
+8 | File | `/goform/formSetMACFilter` | High
+9 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

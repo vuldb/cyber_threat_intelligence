@@ -111,19 +111,20 @@ ID | Type | Indicator | Confidence
 26 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 27 | File | `/com/esafenet/servlet/policy/HookService.java` | High
 28 | File | `/debug/pprof` | Medium
-29 | File | `/edit-subject.php` | High
-30 | File | `/endpoint/add-user.php` | High
-31 | File | `/etc/passwd` | Medium
-32 | File | `/etc/postfix/sender_login` | High
-33 | File | `/etc/shadow.sample` | High
-34 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-35 | File | `/foms/routers/place-order.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/AdvSetMacMtuWan` | High
-38 | File | `/goform/aspForm` | High
-39 | ... | ... | ...
+29 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+30 | File | `/edit-subject.php` | High
+31 | File | `/endpoint/add-user.php` | High
+32 | File | `/etc/passwd` | Medium
+33 | File | `/etc/postfix/sender_login` | High
+34 | File | `/etc/shadow.sample` | High
+35 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+36 | File | `/foms/routers/place-order.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/AdvSetMacMtuWan` | High
+39 | File | `/goform/aspForm` | High
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

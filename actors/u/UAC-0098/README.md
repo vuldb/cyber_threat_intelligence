@@ -60,18 +60,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/wlogin.cgi` | High
 2 | File | `/etc/shadow` | Medium
-3 | File | `/goform/modifyIpMacBind` | High
-4 | File | `/goform/net\_Web\_get_value` | High
-5 | File | `/goform/net_WebCSRGen` | High
-6 | File | `/goform/WebRSAKEYGen` | High
-7 | File | `/lam/tmp/` | Medium
-8 | File | `/uncpath/` | Medium
-9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-10 | File | `add-category.php` | High
-11 | File | `admin/dashboard.php` | High
+3 | File | `/goform/aspForm` | High
+4 | File | `/goform/modifyIpMacBind` | High
+5 | File | `/goform/net\_Web\_get_value` | High
+6 | File | `/goform/net_WebCSRGen` | High
+7 | File | `/goform/WebRSAKEYGen` | High
+8 | File | `/lam/tmp/` | Medium
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+11 | File | `add-category.php` | High
 12 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

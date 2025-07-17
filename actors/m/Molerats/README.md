@@ -104,16 +104,16 @@ ID | Type | Indicator | Confidence
 40 | File | `/goform/WifiWpsStart` | High
 41 | File | `/goform/WizardHandle` | High
 42 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-43 | File | `/include/file.php` | High
-44 | File | `/install/installdb.php` | High
-45 | File | `/login` | Low
-46 | File | `/manage_block.php` | High
-47 | File | `/manage_laundry.php` | High
-48 | File | `/modules/profile/index.php` | High
-49 | File | `/plain` | Low
+43 | File | `/H5/versionupdate.data` | High
+44 | File | `/include/file.php` | High
+45 | File | `/install/installdb.php` | High
+46 | File | `/login` | Low
+47 | File | `/manage_block.php` | High
+48 | File | `/manage_laundry.php` | High
+49 | File | `/modules/profile/index.php` | High
 50 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

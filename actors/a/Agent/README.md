@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,49 +63,49 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/login.php` | High
 11 | File | `/admin/member_save.php` | High
 12 | File | `/admin/search-vehicle.php` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/api` | Low
-15 | File | `/api/authentication/login` | High
-16 | File | `/api/clusters/local/topics/{topic}/messages` | High
-17 | File | `/api/gen/clients/{language}` | High
-18 | File | `/API/info` | Medium
-19 | File | `/app/options.py` | High
-20 | File | `/bin/httpd` | Medium
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-23 | File | `/cgi-bin/tosei_kikai.php` | High
-24 | File | `/cgi-bin/wapopen` | High
-25 | File | `/ci_spms/admin/category` | High
-26 | File | `/ci_spms/admin/search/searching/` | High
-27 | File | `/classes/Master.php?f=delete_appointment` | High
-28 | File | `/classes/Master.php?f=delete_train` | High
-29 | File | `/Controller/Ajaxfileupload.ashx` | High
-30 | File | `/cov/triggerEnvCov` | High
-31 | File | `/ctcprotocol/Protocol` | High
-32 | File | `/dashboard/admin/del_plan.php` | High
-33 | File | `/dashboard/approve-reject.php` | High
-34 | File | `/dashboard/menu-list.php` | High
-35 | File | `/dashboard/updatelogo.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/dede/file_manage_control.php` | High
-38 | File | `/detailed.php` | High
-39 | File | `/dist/index.js` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/ebics-server/ebics.aspx` | High
-42 | File | `/etc/openshift/server_priv.pem` | High
-43 | File | `/EXCU_SHELL` | Medium
-44 | File | `/ffos/classes/Master.php?f=save_category` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/general/address/private/address/query/delete.php` | High
-47 | File | `/goform/ate` | Medium
-48 | File | `/goform/form2systime.cgi` | High
-49 | File | `/goform/formSetLog` | High
-50 | File | `/goform/formWlanSetup_Wizard` | High
-51 | File | `/goform/formWlanWizardSetup` | High
-52 | File | `/goform/modifyDhcpRule` | High
+13 | File | `/admin/voters_row.php` | High
+14 | File | `/ajax.php?action=read_msg` | High
+15 | File | `/api` | Low
+16 | File | `/api/authentication/login` | High
+17 | File | `/api/clusters/local/topics/{topic}/messages` | High
+18 | File | `/api/gen/clients/{language}` | High
+19 | File | `/API/info` | Medium
+20 | File | `/app/options.py` | High
+21 | File | `/bin/httpd` | Medium
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+24 | File | `/cgi-bin/tosei_kikai.php` | High
+25 | File | `/cgi-bin/wapopen` | High
+26 | File | `/ci_spms/admin/category` | High
+27 | File | `/ci_spms/admin/search/searching/` | High
+28 | File | `/classes/Master.php?f=delete_appointment` | High
+29 | File | `/classes/Master.php?f=delete_train` | High
+30 | File | `/Controller/Ajaxfileupload.ashx` | High
+31 | File | `/cov/triggerEnvCov` | High
+32 | File | `/ctcprotocol/Protocol` | High
+33 | File | `/dashboard/admin/del_plan.php` | High
+34 | File | `/dashboard/approve-reject.php` | High
+35 | File | `/dashboard/menu-list.php` | High
+36 | File | `/dashboard/updatelogo.php` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/dede/file_manage_control.php` | High
+39 | File | `/detailed.php` | High
+40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+41 | File | `/dist/index.js` | High
+42 | File | `/DXR.axd` | Medium
+43 | File | `/ebics-server/ebics.aspx` | High
+44 | File | `/empty_rooms.php` | High
+45 | File | `/etc/openshift/server_priv.pem` | High
+46 | File | `/EXCU_SHELL` | Medium
+47 | File | `/ffos/classes/Master.php?f=save_category` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/general/address/private/address/query/delete.php` | High
+50 | File | `/goform/ate` | Medium
+51 | File | `/goform/form2systime.cgi` | High
+52 | File | `/goform/formSetLog` | High
 53 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

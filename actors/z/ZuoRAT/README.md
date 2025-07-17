@@ -50,9 +50,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/portal` | High
 5 | File | `/etc/shadow` | Medium
 6 | File | `/etc/sudoers` | Medium
-7 | ... | ... | ...
+7 | File | `/param.file.tgz` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

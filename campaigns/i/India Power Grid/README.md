@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [KR](https://vuldb.com/?country.kr)
-* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,12 +56,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `APP_STORAGE_CERTIFICATES/.well-known/acme-challenge` | High
-2 | File | `channels/chan_iax2.c` | High
-3 | File | `conf/admin.password` | High
+1 | File | `/classes/Master.php?f=save_item` | High
+2 | File | `APP_STORAGE_CERTIFICATES/.well-known/acme-challenge` | High
+3 | File | `channels/chan_iax2.c` | High
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

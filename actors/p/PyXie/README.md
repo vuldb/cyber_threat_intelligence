@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,48 +62,52 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/clientview.php` | High
 12 | File | `/admin/index.php/web/ajax_all_lists` | High
 13 | File | `/admin/login.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/clusters/local/topics/{topic}/messages` | High
-16 | File | `/api/gen/clients/{language}` | High
-17 | File | `/API/info` | Medium
-18 | File | `/app/options.py` | High
-19 | File | `/application/index/controller/Icon.php` | High
-20 | File | `/apply/index.php` | High
-21 | File | `/bin/httpd` | Medium
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-24 | File | `/cgi-bin/tosei_kikai.php` | High
-25 | File | `/cgi-bin/wapopen` | High
-26 | File | `/ci_spms/admin/category` | High
-27 | File | `/ci_spms/admin/search/searching/` | High
-28 | File | `/classes/Master.php?f=delete_appointment` | High
-29 | File | `/classes/Master.php?f=delete_train` | High
-30 | File | `/classes/Master.php?f=save_category` | High
-31 | File | `/collection/all` | High
-32 | File | `/config/php.ini` | High
-33 | File | `/cov/triggerEnvCov` | High
-34 | File | `/ctcprotocol/Protocol` | High
-35 | File | `/dashboard/admin/del_plan.php` | High
-36 | File | `/dashboard/approve-reject.php` | High
-37 | File | `/dashboard/menu-list.php` | High
-38 | File | `/debug/pprof` | Medium
-39 | File | `/dede/file_manage_control.php` | High
-40 | File | `/detailed.php` | High
-41 | File | `/dist/index.js` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ebics-server/ebics.aspx` | High
-44 | File | `/EXCU_SHELL` | Medium
-45 | File | `/ffos/classes/Master.php?f=save_category` | High
-46 | File | `/file-manager/rename.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/general/address/private/address/query/delete.php` | High
-49 | File | `/goform/ate` | Medium
-50 | File | `/goform/form2systime.cgi` | High
-51 | File | `/goform/formSetLog` | High
-52 | File | `/goform/formWlanSetup_Wizard` | High
-53 | ... | ... | ...
+14 | File | `/admin/manage-tickets.php` | High
+15 | File | `/admin/member_save.php` | High
+16 | File | `/admin/search-vehicle.php` | High
+17 | File | `/admin/voters_row.php` | High
+18 | File | `/ajax.php?action=read_msg` | High
+19 | File | `/api/authentication/login` | High
+20 | File | `/api/clusters/local/topics/{topic}/messages` | High
+21 | File | `/api/gen/clients/{language}` | High
+22 | File | `/API/info` | Medium
+23 | File | `/app/options.py` | High
+24 | File | `/application/index/controller/Icon.php` | High
+25 | File | `/apply/index.php` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+29 | File | `/cgi-bin/tosei_kikai.php` | High
+30 | File | `/cgi-bin/wapopen` | High
+31 | File | `/ci_spms/admin/category` | High
+32 | File | `/ci_spms/admin/search/searching/` | High
+33 | File | `/classes/Master.php?f=delete_appointment` | High
+34 | File | `/classes/Master.php?f=delete_train` | High
+35 | File | `/classes/Master.php?f=save_category` | High
+36 | File | `/collection/all` | High
+37 | File | `/config/php.ini` | High
+38 | File | `/cov/triggerEnvCov` | High
+39 | File | `/ctcprotocol/Protocol` | High
+40 | File | `/dashboard/admin/del_plan.php` | High
+41 | File | `/dashboard/approve-reject.php` | High
+42 | File | `/dashboard/menu-list.php` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/dede/file_manage_control.php` | High
+45 | File | `/detailed.php` | High
+46 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+47 | File | `/dist/index.js` | High
+48 | File | `/doctor/search.php` | High
+49 | File | `/DXR.axd` | Medium
+50 | File | `/ebics-server/ebics.aspx` | High
+51 | File | `/empty_rooms.php` | High
+52 | File | `/EXCU_SHELL` | Medium
+53 | File | `/ffos/classes/Master.php?f=save_category` | High
+54 | File | `/file-manager/rename.php` | High
+55 | File | `/forum/away.php` | High
+56 | File | `/general/address/private/address/query/delete.php` | High
+57 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

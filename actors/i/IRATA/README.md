@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 44 | File | `/services/Card/findUser` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

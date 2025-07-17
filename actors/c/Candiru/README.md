@@ -106,7 +106,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
 46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

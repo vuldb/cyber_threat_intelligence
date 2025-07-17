@@ -101,44 +101,44 @@ ID | Type | Indicator | Confidence
 47 | File | `/ample/app/action/edit_product.php` | High
 48 | File | `/api/admin/store/product/list` | High
 49 | File | `/api/ping` | Medium
-50 | File | `/app/api/controller/caiji.php` | High
-51 | File | `/bilal final/edit_stud.php` | High
-52 | File | `/bin/ate` | Medium
-53 | File | `/blog/comment` | High
-54 | File | `/cardo/api` | Medium
-55 | File | `/category/controller.php?action=edit` | High
-56 | File | `/cgi-bin/cstecgi.cgi` | High
-57 | File | `/cgi-bin/nightled.cgi` | High
-58 | File | `/cgi-bin/p1_ftpserver.php` | High
-59 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-60 | File | `/classes/Login.php` | High
-61 | File | `/classes/Master.php?f=delete_service` | High
-62 | File | `/classes/Master.php?f=save_category` | High
-63 | File | `/classes/Master.php?f=save_position` | High
-64 | File | `/classes/Users.php` | High
-65 | File | `/classes/Users.php?f=save` | High
-66 | File | `/coreframe/app/content/admin/content.php` | High
-67 | File | `/csms/?page=contact_us` | High
-68 | File | `/dashboard/add-service.php` | High
-69 | File | `/dayrui/Fcms/View/system_log.html` | High
-70 | File | `/ecommerce/support_ticket` | High
-71 | File | `/finance/help/en/frameset.htm` | High
-72 | File | `/find-a-match` | High
-73 | File | `/forum/away.php` | High
-74 | File | `/forum/PostPrivateMessage` | High
-75 | File | `/fusion/portal/action/Link` | High
-76 | File | `/goform/aspForm` | High
-77 | File | `/goform/execCommand` | High
-78 | File | `/goform/fromRouteStatic` | High
-79 | File | `/goform/GetParentControlInfo` | High
-80 | File | `/goform/NatStaticSetting` | High
-81 | File | `/goform/QuickIndex` | High
-82 | File | `/goform/RgDhcp` | High
-83 | File | `/goform/RGFirewallEL` | High
-84 | File | `/goform/setcfm` | High
+50 | File | `/api/wizard/setsyncpppoecfg` | High
+51 | File | `/app/api/controller/caiji.php` | High
+52 | File | `/bilal final/edit_stud.php` | High
+53 | File | `/bin/ate` | Medium
+54 | File | `/blog/comment` | High
+55 | File | `/cardo/api` | Medium
+56 | File | `/category/controller.php?action=edit` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/cgi-bin/nightled.cgi` | High
+59 | File | `/cgi-bin/p1_ftpserver.php` | High
+60 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+61 | File | `/classes/Login.php` | High
+62 | File | `/classes/Master.php?f=delete_service` | High
+63 | File | `/classes/Master.php?f=save_category` | High
+64 | File | `/classes/Master.php?f=save_position` | High
+65 | File | `/classes/Users.php` | High
+66 | File | `/classes/Users.php?f=save` | High
+67 | File | `/coreframe/app/content/admin/content.php` | High
+68 | File | `/csms/?page=contact_us` | High
+69 | File | `/dashboard/add-service.php` | High
+70 | File | `/dayrui/Fcms/View/system_log.html` | High
+71 | File | `/ecommerce/support_ticket` | High
+72 | File | `/finance/help/en/frameset.htm` | High
+73 | File | `/find-a-match` | High
+74 | File | `/forum/away.php` | High
+75 | File | `/forum/PostPrivateMessage` | High
+76 | File | `/fusion/portal/action/Link` | High
+77 | File | `/goform/aspForm` | High
+78 | File | `/goform/execCommand` | High
+79 | File | `/goform/fromRouteStatic` | High
+80 | File | `/goform/GetParentControlInfo` | High
+81 | File | `/goform/NatStaticSetting` | High
+82 | File | `/goform/QuickIndex` | High
+83 | File | `/goform/RgDhcp` | High
+84 | File | `/goform/RGFirewallEL` | High
 85 | ... | ... | ...
 
-There are 753 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 754 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -68,21 +68,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/student.php` | High
-3 | File | `/api/sys/set_passwd` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/hd_config.cgi` | High
-6 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
-7 | File | `/cgi-bin/p1_ftpserver.php` | High
-8 | File | `/cgi-bin/tosei_kikai.php` | High
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/cgi-bin/webfile_mgr.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/config/getuser` | High
-14 | ... | ... | ...
+2 | File | `/action/upload_file` | High
+3 | File | `/admin/student.php` | High
+4 | File | `/api/sys/set_passwd` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/hd_config.cgi` | High
+7 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
+8 | File | `/cgi-bin/p1_ftpserver.php` | High
+9 | File | `/cgi-bin/tosei_kikai.php` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi-bin/webfile_mgr.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/config/getuser` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

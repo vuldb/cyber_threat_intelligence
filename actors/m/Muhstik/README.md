@@ -83,9 +83,9 @@ ID | Type | Indicator | Confidence
 7 | File | `/ample/app/action/edit_product.php` | High
 8 | File | `/api/v2/open/rowsInfo` | High
 9 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/classes/Master.php` | High
-12 | File | `/cms/classes/Master.php?f=delete_service` | High
+10 | File | `/boafrm/formParentControl` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/classes/Master.php` | High
 13 | File | `/conf/` | Low
 14 | File | `/config/api/v1/reboot` | High
 15 | File | `/controller/AdminController.php` | High
@@ -95,9 +95,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/friends/ajax_invite` | High
 20 | File | `/goform/fromSetDDNS` | High
 21 | File | `/goform/telnet` | High
-22 | ... | ... | ...
+22 | File | `/inc/HTTPClient.php` | High
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,16 +56,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cgiServer.exx` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `add_vhost.php` | High
-4 | File | `admin/gv_mail.php` | High
-5 | File | `adv2.php?action=modify` | High
-6 | File | `asm/float.c` | Medium
-7 | File | `asm/nasm.c` | Medium
+1 | File | `/api/v1/settings` | High
+2 | File | `/cgi-bin/cgiServer.exx` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `add_vhost.php` | High
+5 | File | `admin/gv_mail.php` | High
+6 | File | `adv2.php?action=modify` | High
+7 | File | `asm/float.c` | Medium
 8 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

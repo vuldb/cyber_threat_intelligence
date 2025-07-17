@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,47 +68,47 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/ajax/avatar.php` | High
 6 | File | `/admin/create_product.php` | High
 7 | File | `/admin/edit-services.php` | High
-8 | File | `/admin/featured.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/lab.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/show.php` | High
-14 | File | `/admin/video/list` | High
-15 | File | `/api/admin/system/store/order/list` | High
-16 | File | `/application/index/controller/Screen.php` | High
-17 | File | `/backend/register.php` | High
-18 | File | `/blog` | Low
-19 | File | `/boat/login.php` | High
-20 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/clinic/disease_symptoms_view.php` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/component_server` | High
-26 | File | `/config-manager/save` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/dashboard/table-list.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/doctor/view-appointment-detail.php` | High
-31 | File | `/downloadFile.php` | High
-32 | File | `/edit-client-details.php` | High
-33 | File | `/Employer/EditProfile.php` | High
-34 | File | `/env` | Low
-35 | File | `/EXCU_SHELL` | Medium
-36 | File | `/goform/aspForm` | High
-37 | File | `/goform/set_LimitClient_cfg` | High
-38 | File | `/hazelcast/rest/maps/submit-job` | High
-39 | File | `/hslist` | Low
+8 | File | `/admin/forgot-password.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/show.php` | High
+12 | File | `/admin/video/list` | High
+13 | File | `/api/admin/system/store/order/list` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/backend/register.php` | High
+16 | File | `/blog` | Low
+17 | File | `/boat/login.php` | High
+18 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+19 | File | `/cgi-bin/mainfunction.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/clinic/disease_symptoms_view.php` | High
+22 | File | `/common/info.cgi` | High
+23 | File | `/component_server` | High
+24 | File | `/config-manager/save` | High
+25 | File | `/dashboard/menu-list.php` | High
+26 | File | `/dashboard/table-list.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/doctor/view-appointment-detail.php` | High
+29 | File | `/downloadFile.php` | High
+30 | File | `/edit-client-details.php` | High
+31 | File | `/Employer/EditProfile.php` | High
+32 | File | `/env` | Low
+33 | File | `/EXCU_SHELL` | Medium
+34 | File | `/goform/aspForm` | High
+35 | File | `/goform/RP_checkCredentialsByBBS` | High
+36 | File | `/goform/set_LimitClient_cfg` | High
+37 | File | `/hazelcast/rest/maps/submit-job` | High
+38 | File | `/hslist` | Low
+39 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
 40 | File | `/include/file.php` | High
 41 | File | `/index.php` | Medium
-42 | File | `/librarian/bookdetails.php` | High
-43 | File | `/login/signOut` | High
-44 | File | `/Maintain/sprog_upstatus.php` | High
-45 | File | `/mcategory.php` | High
+42 | File | `/index.php/signin` | High
+43 | File | `/librarian/bookdetails.php` | High
+44 | File | `/login/signOut` | High
+45 | File | `/Maintain/sprog_upstatus.php` | High
 46 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

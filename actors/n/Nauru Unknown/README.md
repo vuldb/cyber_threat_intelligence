@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,40 +67,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 12 | File | `/api/ping` | Medium
 13 | File | `/blog` | Low
-14 | File | `/car-rental-management-system/admin/view_car.php=` | High
-15 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/hd_config.cgi` | High
-18 | File | `/cgi-bin/mft/` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/cgi-mod/lookup.cgi` | High
-21 | File | `/classes/Master.php?f=save_inquiry` | High
-22 | File | `/component_server` | High
-23 | File | `/config/config.json` | High
-24 | File | `/core/config-revisions` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/devinfo` | Medium
-27 | File | `/diagnostics_doit` | High
-28 | File | `/download` | Medium
-29 | File | `/DXR.axd` | Medium
-30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-31 | File | `/etc/hosts.deny` | High
-32 | File | `/flatpress/admin.php` | High
-33 | File | `/goform/goform_get_cmd_process` | High
-34 | File | `/ims/login.php` | High
-35 | File | `/index.php?menu=asterisk_cli` | High
-36 | File | `/index/ajax/lang` | High
-37 | File | `/login.php?do=login` | High
-38 | File | `/mee/login` | Medium
-39 | File | `/metrics` | Medium
-40 | File | `/php-opos/index.php` | High
-41 | File | `/portal/search.htm` | High
-42 | File | `/portal/user-register.php` | High
-43 | File | `/preauth` | Medium
-44 | File | `/register.php` | High
+14 | File | `/boafrm/formSysCmd` | High
+15 | File | `/car-rental-management-system/admin/view_car.php=` | High
+16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/hd_config.cgi` | High
+19 | File | `/cgi-bin/mft/` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/cgi-mod/lookup.cgi` | High
+22 | File | `/classes/Master.php?f=save_inquiry` | High
+23 | File | `/component_server` | High
+24 | File | `/config/config.json` | High
+25 | File | `/core/config-revisions` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/diagnostics_doit` | High
+29 | File | `/download` | Medium
+30 | File | `/DXR.axd` | Medium
+31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+32 | File | `/etc/hosts.deny` | High
+33 | File | `/flatpress/admin.php` | High
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/goform/RP_checkCredentialsByBBS` | High
+36 | File | `/ims/login.php` | High
+37 | File | `/index.php?menu=asterisk_cli` | High
+38 | File | `/index/ajax/lang` | High
+39 | File | `/login.php?do=login` | High
+40 | File | `/mee/login` | Medium
+41 | File | `/metrics` | Medium
+42 | File | `/php-opos/index.php` | High
+43 | File | `/portal/search.htm` | High
+44 | File | `/portal/user-register.php` | High
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

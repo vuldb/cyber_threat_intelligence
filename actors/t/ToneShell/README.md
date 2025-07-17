@@ -90,18 +90,18 @@ ID | Type | Indicator | Confidence
 41 | File | `/author/list?limit=10&offset=0&order=desc` | High
 42 | File | `/bilal final/login.php` | High
 43 | File | `/boat/login.php` | High
-44 | File | `/classes/Login.php` | High
-45 | File | `/classes/Master.php` | High
-46 | File | `/classes/Master.php?f=delete_img` | High
-47 | File | `/classes/Master.php?f=save_category` | High
-48 | File | `/classes/Master.php?f=save_sub_category` | High
-49 | File | `/classes/Master.php?f=update_order_status` | High
-50 | File | `/classes/Users.php` | High
-51 | File | `/data/config.ftp.php` | High
-52 | File | `/ecommerce/admin/category/controller.php` | High
+44 | File | `/cgi-bin/system_mgr.cgi` | High
+45 | File | `/classes/Login.php` | High
+46 | File | `/classes/Master.php` | High
+47 | File | `/classes/Master.php?f=delete_img` | High
+48 | File | `/classes/Master.php?f=save_category` | High
+49 | File | `/classes/Master.php?f=save_sub_category` | High
+50 | File | `/classes/Master.php?f=update_order_status` | High
+51 | File | `/classes/Users.php` | High
+52 | File | `/data/config.ftp.php` | High
 53 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

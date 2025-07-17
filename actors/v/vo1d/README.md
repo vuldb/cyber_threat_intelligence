@@ -17,12 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [38.46.218.36](https://vuldb.com/?ip.38.46.218.36) | - | - | High
-2 | [38.46.218.37](https://vuldb.com/?ip.38.46.218.37) | - | - | High
-3 | [38.46.218.38](https://vuldb.com/?ip.38.46.218.38) | - | - | High
+1 | [3.132.75.97](https://vuldb.com/?ip.3.132.75.97) | ec2-3-132-75-97.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.146.93.253](https://vuldb.com/?ip.3.146.93.253) | ec2-3-146-93-253.us-east-2.compute.amazonaws.com | - | Medium
+3 | [38.46.218.36](https://vuldb.com/?ip.38.46.218.36) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-80 | Basic Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,10 +45,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/emp-profile-avatar.php` | High
 2 | File | `/cgi-bin/p1_ftpserver.php` | High
-3 | File | `/forum/away.php` | High
+3 | File | `/classes/Master.php?f=load_registration` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

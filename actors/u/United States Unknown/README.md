@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [BR](https://vuldb.com/?country.br)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32565,12 +32568,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -32578,14 +32581,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/boafrm/formPortFw` | High
-2 | File | `/boafrm/formStaticDHCP` | High
-3 | File | `/boafrm/formVlan` | High
-4 | File | `/boafrm/formWdsEncrypt` | High
-5 | File | `/boafrm/formWlwds` | High
-6 | ... | ... | ...
+1 | File | `/admin/aboutPost.php` | High
+2 | File | `/admin/add_cars.php` | High
+3 | File | `/admin/database/backup` | High
+4 | File | `/admin/home.php?con=add` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/profile.php` | High
+8 | File | `/admin/view_reserved.php` | High
+9 | File | `/api/process.php` | High
+10 | File | `/appinfo/save` | High
+11 | File | `/boafrm/formWlSiteSurvey` | High
+12 | File | `/boafrm/formWsc` | High
+13 | File | `/cancel.php` | Medium
+14 | File | `/cashconfirm.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

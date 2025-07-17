@@ -9,12 +9,14 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Stargazers Ghost:
 
 * GodLoader
+* Minecraft Mod
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stargazers Ghost:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -24,11 +26,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [147.45.44.83](https://vuldb.com/?ip.147.45.44.83) | - | GodLoader | High
-2 | [185.196.9.26](https://vuldb.com/?ip.185.196.9.26) | - | GodLoader | High
-3 | [192.168.15.10](https://vuldb.com/?ip.192.168.15.10) | - | GodLoader | High
+2 | [147.45.79.104](https://vuldb.com/?ip.147.45.79.104) | - | Minecraft Mod | High
+3 | [185.95.159.125](https://vuldb.com/?ip.185.95.159.125) | - | Minecraft Mod | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,9 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1204.001 | CWE-601 | Open Redirect | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1611 | CWE-265 | Containment Errors | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,18 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/src/vmir_wasm_parser.c` | High
-2 | File | `Login.php` | Medium
-3 | File | `page.php` | Medium
+1 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+2 | File | `/src/vmir_wasm_parser.c` | High
+3 | File | `admin.php` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://research.checkpoint.com/2024/gaming-engines-an-undetected-playground-for-malware-loaders/
+* https://research.checkpoint.com/2025/minecraft-mod-malware-stargazers/
 
 ## Literature
 

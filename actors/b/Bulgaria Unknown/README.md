@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -836,15 +836,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-267, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -853,69 +852,72 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%WINDIR%\temp` | High
-2 | File | `/ad-list` | Medium
-3 | File | `/add-admin.php` | High
-4 | File | `/add-table.php` | High
-5 | File | `/add_deductions.php` | High
-6 | File | `/admin.php?mod=brand&act=del` | High
-7 | File | `/admin/admin_addnew_product.php` | High
-8 | File | `/admin/admin_login.php` | High
-9 | File | `/admin/article.php` | High
-10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-11 | File | `/admin/bookList?page=1&limit=10` | High
-12 | File | `/admin/bwdates-report-details.php` | High
-13 | File | `/admin/campsdetails.php` | High
-14 | File | `/admin/case-type` | High
-15 | File | `/admin/chatroom.php` | High
-16 | File | `/admin/contact-us.php` | High
-17 | File | `/admin/create_product.php` | High
-18 | File | `/admin/edit-customer-detailed.php` | High
-19 | File | `/admin/edit-services.php` | High
-20 | File | `/admin/enrollment-details.php` | High
-21 | File | `/admin/file/delete.do` | High
-22 | File | `/admin/forgot-password.php` | High
-23 | File | `/admin/getallarticleinfo` | High
-24 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/manage-services.php` | High
-27 | File | `/admin/menu.php` | High
-28 | File | `/admin/template/update` | High
-29 | File | `/admin/user-search.php` | High
-30 | File | `/adminPage/main/upload` | High
-31 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
-32 | File | `/api/esps` | Medium
-33 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-34 | File | `/api/sys/set_passwd` | High
-35 | File | `/api/system/other` | High
-36 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-37 | File | `/api/wizard/getDualbandSync` | High
-38 | File | `/api/wizard/getNetworkConf` | High
-39 | File | `/api/wizard/networkSetup` | High
-40 | File | `/api/wizard/setsyncpppoecfg` | High
-41 | File | `/app/controller/Api.php` | High
-42 | File | `/auth.asp` | Medium
-43 | File | `/auth/setup` | Medium
-44 | File | `/auth/soup-auth-digest.c` | High
-45 | File | `/bin/boa` | Medium
-46 | File | `/bin/goahead` | Medium
-47 | File | `/bin/httpd` | Medium
+2 | File | `.travis.yml` | Medium
+3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+4 | File | `/add-admin.php` | High
+5 | File | `/adfs/ls` | Medium
+6 | File | `/adm/index.php` | High
+7 | File | `/admin.php?mod=brand&act=del` | High
+8 | File | `/admin/add-admin.php` | High
+9 | File | `/admin/admin_addnew_product.php` | High
+10 | File | `/admin/ajax.php?action=login` | High
+11 | File | `/admin/all-applications.php` | High
+12 | File | `/admin/app/role_crud.php` | High
+13 | File | `/admin/betweendates-detailsreports.php` | High
+14 | File | `/admin/bookList?page=1&limit=10` | High
+15 | File | `/admin/campsdetails.php` | High
+16 | File | `/admin/contactus.php` | High
+17 | File | `/admin/course.php` | High
+18 | File | `/admin/department.php` | High
+19 | File | `/admin/edit-customer-detailed.php` | High
+20 | File | `/admin/edit-products.php` | High
+21 | File | `/admin/edit-services.php` | High
+22 | File | `/admin/enrollment-details.php` | High
+23 | File | `/admin/forgot-password.php` | High
+24 | File | `/admin/forms/option_lists/edit.php` | High
+25 | File | `/admin/getallarticleinfo` | High
+26 | File | `/admin/index2.html` | High
+27 | File | `/admin/level.php` | High
+28 | File | `/admin/registration.php` | High
+29 | File | `/admin/setup.cgi` | High
+30 | File | `/admin/user-search.php` | High
+31 | File | `/admin/view-pass-detail.php` | High
+32 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+33 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+34 | File | `/api/v1/settings` | High
+35 | File | `/api/wizard/setsyncpppoecfg` | High
+36 | File | `/app/controller/Api.php` | High
+37 | File | `/application/models/ApplicationDataObject.class.php` | High
+38 | File | `/auth.asp` | Medium
+39 | File | `/auth/soup-auth-digest.c` | High
+40 | File | `/bin/goahead` | Medium
+41 | File | `/bin/gpio` | Medium
+42 | File | `/bin/httpd` | Medium
+43 | File | `/bin/main` | Medium
+44 | File | `/binutils/debug.c` | High
+45 | File | `/biurl_grou` | Medium
+46 | File | `/boafrm/formDMZ` | High
+47 | File | `/boafrm/formDosCfg` | High
 48 | File | `/boafrm/formFilter` | High
-49 | File | `/boafrm/formPortFw` | High
-50 | File | `/boafrm/formStaticDHCP` | High
-51 | File | `/boafrm/formVlan` | High
-52 | File | `/boafrm/formWdsEncrypt` | High
-53 | File | `/boafrm/formWlwds` | High
-54 | File | `/boafrm/formWsc` | High
-55 | File | `/catalog/compare` | High
-56 | File | `/cgi-bin/cstecgi.cgi` | High
-57 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-58 | File | `/cgi-bin/hd_config.cgi` | High
-59 | File | `/cgi-bin/mainfunction.cgi` | High
-60 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-61 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-62 | ... | ... | ...
+49 | File | `/boafrm/formIpQoS` | High
+50 | File | `/boafrm/formMapDelDevice` | High
+51 | File | `/boafrm/formNtp` | High
+52 | File | `/boafrm/formPortFw` | High
+53 | File | `/boafrm/formReflashClientTbl` | High
+54 | File | `/boafrm/formSaveConfig` | High
+55 | File | `/boafrm/formSetLg` | High
+56 | File | `/boafrm/formSiteSurveyProfile` | High
+57 | File | `/boafrm/formStaticDHCP` | High
+58 | File | `/boafrm/formVlan` | High
+59 | File | `/boafrm/formWdsEncrypt` | High
+60 | File | `/boafrm/formWlanRedirect` | High
+61 | File | `/boafrm/formWlwds` | High
+62 | File | `/boafrm/formWsc` | High
+63 | File | `/book-appointment.php` | High
+64 | File | `/bwdates-reports-details.php` | High
+65 | ... | ... | ...
 
-There are 539 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 568 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,9 +81,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/CMD_ACCOUNT_ADMIN` | High
 19 | File | `/E-mobile/App/System/File/downfile.php` | High
 20 | File | `/HNAP1/` | Low
-21 | ... | ... | ...
+21 | File | `/htdocs/cgibin` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

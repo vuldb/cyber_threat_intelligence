@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -36,10 +39,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+3 | T1110.001 | CWE-307 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,11 +51,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/vpsApiData_deal.php?mudi=del` | High
-2 | File | `/goform/WifiBasicSet` | High
-3 | File | `/spip.php` | Medium
+2 | File | `/app/ConfirmSmsCode` | High
+3 | File | `/goform/WifiBasicSet` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

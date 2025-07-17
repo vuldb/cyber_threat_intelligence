@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
-2 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
-3 | [35.185.187.24](https://vuldb.com/?ip.35.185.187.24) | 24.187.185.35.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
+1 | [1.94.52.128](https://vuldb.com/?ip.1.94.52.128) | ecs-1-94-52-128.compute.hwclouds-dns.com | [Metasploit](https://vuldb.com/?actor.metasploit) | High
+2 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
+3 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,6 +77,10 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://urlhaus.abuse.ch/url/3550439/
 * https://urlhaus.abuse.ch/url/3555537/
 * https://urlhaus.abuse.ch/url/3556172/
+* https://urlhaus.abuse.ch/url/3560065/
+* https://urlhaus.abuse.ch/url/3560530/
+* https://urlhaus.abuse.ch/url/3561847/
+* https://urlhaus.abuse.ch/url/3561983/
 
 ## Literature
 

@@ -52,14 +52,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/addnews.html` | High
 3 | File | `/api/runs/search/run/` | High
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-5 | File | `/download` | Medium
-6 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-7 | File | `/sp/ListSp.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/_error` | Low
+5 | File | `/dental_form.php` | High
+6 | File | `/download` | Medium
+7 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+8 | File | `/sp/ListSp.php` | High
+9 | File | `/uncpath/` | Medium
 10 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

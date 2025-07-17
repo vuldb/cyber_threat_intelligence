@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -269,7 +269,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -283,31 +283,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/edit_action.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/manage-pages.php` | High
-6 | File | `/admin/overtime_add.php` | High
-7 | File | `/admin/overtime_row.php` | High
-8 | File | `/admin/search-vehicle.php` | High
-9 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-10 | File | `/admin/twitter.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/v1/toolbox/device/update/swap` | High
-13 | File | `/app/zentao/module/repo/model.php` | High
-14 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/Code/loginnew.php` | High
-18 | File | `/Code/sc_login.php` | High
-19 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-20 | File | `/config` | Low
-21 | File | `/dashboard/admin/edit_member.php` | High
-22 | File | `/dashboard/admin/edit_mem_submit.php` | High
-23 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/edit_action.php` | High
+6 | File | `/admin/manage-pages.php` | High
+7 | File | `/admin/twitter.php` | High
+8 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+9 | File | `/api/v1/settings` | High
+10 | File | `/api/v1/toolbox/device/update/swap` | High
+11 | File | `/app/zentao/module/repo/model.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/Code/loginnew.php` | High
+16 | File | `/Code/sc_login.php` | High
+17 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+18 | File | `/config` | Low
+19 | File | `/dashboard/admin/edit_member.php` | High
+20 | File | `/dashboard/admin/edit_mem_submit.php` | High
+21 | File | `/dashboard/admin/new_submit.php` | High
+22 | File | `/dashboard/message` | High
+23 | File | `/dayrui/My/Config/Install.txt` | High
+24 | File | `/details.php` | Medium
+25 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+26 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -111,9 +111,10 @@ ID | Type | Indicator | Confidence
 51 | File | `/php/exportrecord.php` | High
 52 | File | `/php/ping.php` | High
 53 | File | `/plesk-site-preview/` | High
-54 | ... | ... | ...
+54 | File | `/pm/v2/activites` | High
+55 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

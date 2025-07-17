@@ -21,13 +21,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [38.180.61.247](https://vuldb.com/?ip.38.180.61.247) | - | - | High
 2 | [38.180.205.164](https://vuldb.com/?ip.38.180.205.164) | - | - | High
 3 | [38.244.132.66](https://vuldb.com/?ip.38.244.132.66) | - | - | High
-4 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
-5 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
-6 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
-7 | [46.8.236.61](https://vuldb.com/?ip.46.8.236.61) | - | - | High
-8 | ... | ... | ... | ...
+4 | [43.248.117.194](https://vuldb.com/?ip.43.248.117.194) | - | - | High
+5 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
+6 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
+7 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
+8 | [46.8.236.61](https://vuldb.com/?ip.46.8.236.61) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,13 +56,15 @@ ID | Type | Indicator | Confidence
 5 | File | `admin/admin.php` | High
 6 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3544971/
+* https://urlhaus.abuse.ch/url/3558511/
 
 ## Literature
 

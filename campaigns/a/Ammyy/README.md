@@ -21,9 +21,9 @@ These _actors_ are associated with Ammyy or other actors linked to the campaign.
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [TA505](https://vuldb.com/?actor.ta505) | High
-2 | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
-3 | [Ammyy (.iqy)](https://vuldb.com/?actor.ammyy_(.iqy)) | High
+1 | [Ammyy (.iqy)](https://vuldb.com/?actor.ammyy_(.iqy)) | High
+2 | [Ammyy (SettingContent-MS)](https://vuldb.com/?actor.ammyy_(settingcontent-ms)) | High
+3 | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
 4 | ... | ...
 
 There are 1 more actor items available. Please use our online service to access the data.

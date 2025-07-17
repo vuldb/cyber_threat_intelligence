@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,20 +57,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `/activate_hook.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/update-deworm.php` | High
-5 | File | `/admin/ajax.php?action=save_settings` | High
-6 | File | `/Admin/changepassword.php` | High
-7 | File | `/admin/config_Anticrack.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/manage_academic.php` | High
-10 | File | `/admin/singlelogin.php?submit=1` | High
-11 | File | `/admin/upload.php` | High
-12 | File | `/admin/user/user-move-run.php` | High
-13 | File | `/ajax_city.php` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/application/views/themeOptions/update.php` | High
+2 | File | `/aboutus.php` | Medium
+3 | File | `/activate_hook.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/action/update-deworm.php` | High
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/config_Anticrack.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/manage_academic.php` | High
+11 | File | `/admin/singlelogin.php?submit=1` | High
+12 | File | `/admin/upload.php` | High
+13 | File | `/admin/user/user-move-run.php` | High
+14 | File | `/ajax_city.php` | High
+15 | File | `/api/baskets/{name}` | High
 16 | File | `/blog` | Low
 17 | File | `/boaform/device_reset.cgi` | High
 18 | File | `/car-rental-management-system/admin/view_car.php=` | High
@@ -83,27 +83,29 @@ ID | Type | Indicator | Confidence
 25 | File | `/etc/hosts.deny` | High
 26 | File | `/etc/shadow` | Medium
 27 | File | `/HNAP1/` | Low
-28 | File | `/itbox_pi/networksafe.php?a=set` | High
-29 | File | `/log/download.php` | High
-30 | File | `/main/fileupload.php` | High
-31 | File | `/manage_sy.php` | High
-32 | File | `/mee/login` | Medium
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/pg_meta/default/query` | High
-36 | File | `/portal/search.htm` | High
-37 | File | `/product-details.php` | High
-38 | File | `/protocol/iscuser/uploadiscuser.php` | High
-39 | File | `/REBOOTSYSTEM` | High
-40 | File | `/register.php` | High
-41 | File | `/rom-0` | Low
-42 | File | `/Scheduling/scheduling/pages/profile.php` | High
-43 | File | `/search.php` | Medium
-44 | File | `/see_more_details.php` | High
-45 | File | `/sqleditor/query_tool/download` | High
-46 | ... | ... | ...
+28 | File | `/install/index.php` | High
+29 | File | `/itbox_pi/networksafe.php?a=set` | High
+30 | File | `/log/download.php` | High
+31 | File | `/main/fileupload.php` | High
+32 | File | `/manage_sy.php` | High
+33 | File | `/mee/login` | Medium
+34 | File | `/mtd` | Low
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/oa/setup/setup.jsp` | High
+37 | File | `/oauth/idp/.well-known/openid-configuration` | High
+38 | File | `/pg_meta/default/query` | High
+39 | File | `/portal/search.htm` | High
+40 | File | `/product-details.php` | High
+41 | File | `/product/savenewproduct.php?flag=1` | High
+42 | File | `/protocol/iscuser/uploadiscuser.php` | High
+43 | File | `/REBOOTSYSTEM` | High
+44 | File | `/register.php` | High
+45 | File | `/rom-0` | Low
+46 | File | `/salesreport.php` | High
+47 | File | `/Scheduling/scheduling/pages/profile.php` | High
+48 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -72,18 +72,18 @@ ID | Type | Indicator | Confidence
 25 | File | `/rest/api/2/user/picker` | High
 26 | File | `/sbin/acos_service` | High
 27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/sys/kernel/notes` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/user_dashboard/donor.php` | High
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/ViewUserHover.jspa` | High
-35 | File | `/WEB-INF/web.xml` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+31 | File | `/sys/kernel/notes` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user_dashboard/donor.php` | High
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/ViewUserHover.jspa` | High
+36 | File | `/WEB-INF/web.xml` | High
 37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

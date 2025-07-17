@@ -8,7 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with APT-C-60:
 
-* CVE⁠-⁠2024⁠-⁠7262 / CVE-2924-7263
+* CVE-2024-7262 / CVE-2924-7263
 
 ## Countries
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [82.221.129.104](https://vuldb.com/?ip.82.221.129.104) | - | - | High
 2 | [82.221.136.60](https://vuldb.com/?ip.82.221.136.60) | - | - | High
-3 | [131.153.206.231](https://vuldb.com/?ip.131.153.206.231) | - | CVE⁠-⁠2024⁠-⁠7262 / CVE-2924-7263 | High
+3 | [131.153.206.231](https://vuldb.com/?ip.131.153.206.231) | - | CVE-2024-7262 / CVE-2924-7263 | High
 4 | ... | ... | ... | ...
 
 There are 6 more IOC items available. Please use our online service to access the data.

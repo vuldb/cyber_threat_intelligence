@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,23 +94,24 @@ ID | Type | Indicator | Confidence
 30 | File | `/index.php` | Medium
 31 | File | `/index.php/admin/web/useradmin.html` | High
 32 | File | `/index/ajax/lang` | High
-33 | File | `/log/decodmail.php` | High
-34 | File | `/login` | Low
-35 | File | `/login.jsp` | Medium
-36 | File | `/mims/login.php` | High
-37 | File | `/ordering/admin/stockin/loaddata.php` | High
-38 | File | `/page.php` | Medium
-39 | File | `/patient/appointment.php` | High
-40 | File | `/photo-gallery` | High
-41 | File | `/php-opos/index.php` | High
-42 | File | `/portal/reports/account_statement` | High
-43 | File | `/Script/admin/core/update_policy` | High
-44 | File | `/search` | Low
-45 | File | `/secure/QueryComponent!Default.jspa` | High
-46 | File | `/security/addUser.jsp` | High
-47 | ... | ... | ...
+33 | File | `/locales/locale.json` | High
+34 | File | `/log/decodmail.php` | High
+35 | File | `/login` | Low
+36 | File | `/login.jsp` | Medium
+37 | File | `/mims/login.php` | High
+38 | File | `/ordering/admin/stockin/loaddata.php` | High
+39 | File | `/page.php` | Medium
+40 | File | `/patient/appointment.php` | High
+41 | File | `/photo-gallery` | High
+42 | File | `/php-opos/index.php` | High
+43 | File | `/portal/reports/account_statement` | High
+44 | File | `/Script/admin/core/update_policy` | High
+45 | File | `/search` | Low
+46 | File | `/secure/QueryComponent!Default.jspa` | High
+47 | File | `/security/addUser.jsp` | High
+48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

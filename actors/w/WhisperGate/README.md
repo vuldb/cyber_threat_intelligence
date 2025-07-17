@@ -105,24 +105,23 @@ ID | Type | Indicator | Confidence
 52 | File | `/backend/doc/his_doc_update-account.php` | High
 53 | File | `/bin/boa` | Medium
 54 | File | `/boafrm/formMapDelDevice` | High
-55 | File | `/cgi-bin/apkg_mgr.cgi` | High
-56 | File | `/cgi-bin/cstecgi.cgi` | High
-57 | File | `/cgi-bin/myMusic.cgi` | High
-58 | File | `/cgi-bin/nas_sharing.cgi` | High
-59 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-60 | File | `/cgi-bin/system_mgr.cgi` | High
-61 | File | `/classes/Master.php` | High
-62 | File | `/classes/Master.php?f=delete_record` | High
-63 | File | `/classes/Master.php?f=save_category` | High
-64 | File | `/classes/Master.php?f=save_medicine` | High
-65 | File | `/classes/SystemSettings.php?f=update_settings` | High
-66 | File | `/classes/Users.php?f=save` | High
-67 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-68 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-69 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-70 | ... | ... | ...
+55 | File | `/boafrm/formMultiAP` | High
+56 | File | `/cgi-bin/apkg_mgr.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/cgi-bin/myMusic.cgi` | High
+59 | File | `/cgi-bin/nas_sharing.cgi` | High
+60 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+61 | File | `/cgi-bin/system_mgr.cgi` | High
+62 | File | `/classes/Master.php` | High
+63 | File | `/classes/Master.php?f=delete_record` | High
+64 | File | `/classes/Master.php?f=save_category` | High
+65 | File | `/classes/Master.php?f=save_medicine` | High
+66 | File | `/classes/SystemSettings.php?f=update_settings` | High
+67 | File | `/classes/Users.php?f=save` | High
+68 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+69 | ... | ... | ...
 
-There are 619 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

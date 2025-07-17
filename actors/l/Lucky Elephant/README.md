@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,23 +89,22 @@ ID | Type | Indicator | Confidence
 38 | File | `/classes/Master.php?f=save_category` | High
 39 | File | `/classes/SystemSettings.php?f=update_settings` | High
 40 | File | `/classes/Users.php?f=save` | High
-41 | File | `/College/admin/teacher.php` | High
-42 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-43 | File | `/customnode/install` | High
-44 | File | `/dcim/rack-roles/` | High
-45 | File | `/deal/{note_id}/note` | High
-46 | File | `/detailed.php` | High
-47 | File | `/dtale/chart-data/1` | High
-48 | File | `/etc/shadow.sample` | High
-49 | File | `/fftools/ffmpeg_enc.c` | High
-50 | File | `/filter.php` | Medium
-51 | File | `/fladmin/sysconfig_doedit.php` | High
-52 | File | `/forms/doLogin` | High
-53 | File | `/formSysLog` | Medium
-54 | File | `/forum/away.php` | High
-55 | ... | ... | ...
+41 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+42 | File | `/customnode/install` | High
+43 | File | `/dcim/rack-roles/` | High
+44 | File | `/deal/{note_id}/note` | High
+45 | File | `/detailed.php` | High
+46 | File | `/dtale/chart-data/1` | High
+47 | File | `/etc/shadow.sample` | High
+48 | File | `/fftools/ffmpeg_enc.c` | High
+49 | File | `/filter.php` | Medium
+50 | File | `/fladmin/sysconfig_doedit.php` | High
+51 | File | `/forms/doLogin` | High
+52 | File | `/formSysLog` | Medium
+53 | File | `/forum/away.php` | High
+54 | ... | ... | ...
 
-There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

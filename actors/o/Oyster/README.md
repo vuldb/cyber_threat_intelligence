@@ -50,9 +50,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/Employee/edit-photo.php` | High
 2 | File | `/fax/fax_send.php` | High
 3 | File | `/index.php` | Medium
-4 | ... | ... | ...
+4 | File | `/spip.php` | Medium
+5 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

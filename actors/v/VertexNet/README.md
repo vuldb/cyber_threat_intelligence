@@ -87,7 +87,7 @@ ID | Type | Indicator | Confidence
 39 | File | `core/includes/gfw_smarty.php` | High
 40 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

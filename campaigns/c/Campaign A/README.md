@@ -73,25 +73,25 @@ ID | Type | Indicator | Confidence
 13 | File | `/oauth/idp/.well-known/openid-configuration` | High
 14 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
 15 | File | `/resourceNode/resources.jsf` | High
-16 | File | `/Script/admin/core/update_policy` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/view/student_exam_mark_insert_form1.php` | High
-19 | File | `3.6.cpj` | Low
-20 | File | `404.php` | Low
-21 | File | `adclick.php` | Medium
-22 | File | `add-testimonial.php` | High
-23 | File | `admin.asp` | Medium
-24 | File | `admin.aspx` | Medium
-25 | File | `admin.php` | Medium
-26 | File | `admin/conf_users_edit.php` | High
-27 | File | `admin/member_details.php` | High
-28 | File | `admin_chatconfig.php` | High
-29 | File | `admin_iplog.php` | High
-30 | File | `ajaxp.php` | Medium
-31 | File | `alphabet.php` | Medium
+16 | File | `/script/academic/announcement` | High
+17 | File | `/Script/admin/core/update_policy` | High
+18 | File | `/spgpm/updateListing` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/view/student_exam_mark_insert_form1.php` | High
+21 | File | `3.6.cpj` | Low
+22 | File | `404.php` | Low
+23 | File | `adclick.php` | Medium
+24 | File | `add-testimonial.php` | High
+25 | File | `admin.asp` | Medium
+26 | File | `admin.aspx` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/member_details.php` | High
+30 | File | `admin_chatconfig.php` | High
+31 | File | `admin_iplog.php` | High
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

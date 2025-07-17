@@ -67,32 +67,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/about.php` | Medium
-3 | File | `/admin/blood/update/o-.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/Api/ASF` | Medium
-6 | File | `/etc/shadow` | Medium
-7 | File | `/etc/target/saveconfig.json` | High
-8 | File | `/exec` | Low
-9 | File | `/form/index.php?module=getjson` | High
-10 | File | `/hcms/admin/index.php/language/ajax` | High
-11 | File | `/jsonrpc` | Medium
-12 | File | `/pms/admin/crimes/manage_crime.php` | High
-13 | File | `/product.php` | Medium
-14 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-15 | File | `/redpass.cgi` | Medium
-16 | File | `/registerCpe` | Medium
-17 | File | `/rest/collectors/1.0/template/custom` | High
-18 | File | `/sitecore/shell/Invoke.aspx` | High
-19 | File | `/system?action=ServiceAdmin` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/Uploads` | Medium
-22 | File | `/User/saveUser` | High
-23 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-24 | File | `/wp-admin/customization.php` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/about.php` | Medium
+4 | File | `/admin/blood/update/o-.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/Api/ASF` | Medium
+7 | File | `/etc/shadow` | Medium
+8 | File | `/etc/target/saveconfig.json` | High
+9 | File | `/exec` | Low
+10 | File | `/form/index.php?module=getjson` | High
+11 | File | `/hcms/admin/index.php/language/ajax` | High
+12 | File | `/jsonrpc` | Medium
+13 | File | `/pms/admin/crimes/manage_crime.php` | High
+14 | File | `/product.php` | Medium
+15 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+16 | File | `/redpass.cgi` | Medium
+17 | File | `/registerCpe` | Medium
+18 | File | `/rest/collectors/1.0/template/custom` | High
+19 | File | `/sitecore/shell/Invoke.aspx` | High
+20 | File | `/system?action=ServiceAdmin` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/Uploads` | Medium
+23 | File | `/User/saveUser` | High
+24 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
 25 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

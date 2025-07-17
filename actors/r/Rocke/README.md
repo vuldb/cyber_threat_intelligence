@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rocke:
 
 * [CN](https://vuldb.com/?country.cn)
-* [CH](https://vuldb.com/?country.ch)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,53 +61,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.cpr/` | Low
-2 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-3 | File | `/aboutadd.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/Admin/add-admin.php` | High
-7 | File | `/admin/budget/manage_budget.php` | High
-8 | File | `/admin/bwdates-reports-ds.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/sql` | Medium
-12 | File | `/admin/students.php` | High
-13 | File | `/admin/students/manage.php` | High
-14 | File | `/admin/system.html` | High
-15 | File | `/admin/system.php` | High
-16 | File | `/admin/twitter.php` | High
-17 | File | `/admin/update_users.php` | High
-18 | File | `/adminapi/system/crud` | High
-19 | File | `/adminPage/conf/reload` | High
-20 | File | `/amssplus/index.php` | High
-21 | File | `/api/admin/store/product/save` | High
-22 | File | `/api/admin/system/store/order/list` | High
-23 | File | `/api/snapshots/` | High
-24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-25 | File | `/api /v3/auth` | High
-26 | File | `/api/wechat/app_auth` | High
-27 | File | `/api/wizard/getDualbandSync` | High
-28 | File | `/api/wizard/getWifiNeighbour` | High
-29 | File | `/app-api/infra/file/upload` | High
-30 | File | `/app/api/controller/Store.php` | High
-31 | File | `/application/index/controller/Icon.php` | High
-32 | File | `/application/index/controller/Screen.php` | High
-33 | File | `/apps/api/views/deploy_api.py` | High
-34 | File | `/backend/admin/his_admin_register_patient.php` | High
-35 | File | `/backend/register.php` | High
-36 | File | `/bin/ate` | Medium
-37 | File | `/boaform/device_reset.cgi` | High
-38 | File | `/book_list.php` | High
+2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+4 | File | `/aboutadd.php` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/budget/manage_budget.php` | High
+7 | File | `/admin/bwdates-reports-ds.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index.php/news/edit` | High
+10 | File | `/admin/system.php` | High
+11 | File | `/admin/twitter.php` | High
+12 | File | `/admin/update_users.php` | High
+13 | File | `/adminapi/system/crud` | High
+14 | File | `/ajax.php?action=delete_package` | High
+15 | File | `/ajax/loadShopInfo.php` | High
+16 | File | `/amssplus/index.php` | High
+17 | File | `/api/admin/store/product/save` | High
+18 | File | `/api/admin/system/store/order/list` | High
+19 | File | `/api/file/getRemoteContent` | High
+20 | File | `/api/snapshots/` | High
+21 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+22 | File | `/api/wechat/app_auth` | High
+23 | File | `/api/wizard/getDualbandSync` | High
+24 | File | `/api/wizard/getWifiNeighbour` | High
+25 | File | `/app-api/infra/file/upload` | High
+26 | File | `/app/api/controller/Store.php` | High
+27 | File | `/apps/api/views/deploy_api.py` | High
+28 | File | `/backend/admin/his_admin_register_patient.php` | High
+29 | File | `/backend/register.php` | High
+30 | File | `/bin/boa` | Medium
+31 | File | `/boafrm/formDMZ` | High
+32 | File | `/boafrm/formFilter` | High
+33 | File | `/boafrm/formMapDel` | High
+34 | File | `/boafrm/formMapDelDevice` | High
+35 | File | `/boafrm/formPortFw` | High
+36 | File | `/boafrm/formSetLg` | High
+37 | File | `/book_list.php` | High
+38 | File | `/BRS_top.html` | High
 39 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-40 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | File | `/cgi-bin/nas_sharing.cgi` | High
-43 | File | `/classes/Users.php?f=save` | High
-44 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
-45 | File | `/control/edit_client.php` | High
-46 | ... | ... | ...
+40 | File | `/bwdates-reports-details.php` | High
+41 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+42 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

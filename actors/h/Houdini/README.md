@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [41.216.188.103](https://vuldb.com/?ip.41.216.188.103) | - | - | High
 5 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
 6 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
-7 | ... | ... | ... | ...
+7 | [45.133.174.75](https://vuldb.com/?ip.45.133.174.75) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,41 +88,48 @@ ID | Type | Indicator | Confidence
 33 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
 34 | File | `/category.php` | High
 35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/cgi-bin/system_mgr.cgi` | High
-40 | File | `/cgi-bin/vitogate.cgi` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/control/register_case.php` | High
-43 | File | `/coreframe/app/order/admin/index.php` | High
-44 | File | `/course/filterRecords/` | High
-45 | File | `/debug/pprof` | Medium
-46 | File | `/dev/snd/seq` | Medium
-47 | File | `/en/blog-comment-4` | High
-48 | File | `/etc/config/rpcd` | High
-49 | File | `/etc/sudoers` | Medium
-50 | File | `/film-rating.php` | High
-51 | File | `/forgot-password` | High
-52 | File | `/forum/away.php` | High
-53 | File | `/fos/admin/ajax.php?action=login` | High
-54 | File | `/goForm/aspForm` | High
-55 | File | `/guestbook` | Medium
-56 | File | `/home/kickPlayer` | High
-57 | File | `/index.jsp#settings` | High
-58 | File | `/index.php/signin` | High
-59 | File | `/index.php?action=editManager` | High
-60 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-61 | File | `/login` | Low
-62 | File | `/login.php` | Medium
-63 | File | `/modules/profile/index.php` | High
-64 | File | `/net-banking/beneficiary.php` | High
-65 | File | `/net-banking/delete_customer.php` | High
-66 | File | `/net-banking/edit_customer_action.php` | High
-67 | File | `/net-banking/transactions.php` | High
-68 | ... | ... | ...
+36 | File | `/cgi-bin/ExportALLSettings.sh` | High
+37 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+38 | File | `/cgi-bin/nas_sharing.cgi` | High
+39 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+40 | File | `/cgi-bin/system_mgr.cgi` | High
+41 | File | `/cgi-bin/vitogate.cgi` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/control/register_case.php` | High
+44 | File | `/coreframe/app/order/admin/index.php` | High
+45 | File | `/course/filterRecords/` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/dev/snd/seq` | Medium
+48 | File | `/en/blog-comment-4` | High
+49 | File | `/etc/config/rpcd` | High
+50 | File | `/etc/sudoers` | Medium
+51 | File | `/film-rating.php` | High
+52 | File | `/forgot-password` | High
+53 | File | `/forum/away.php` | High
+54 | File | `/fos/admin/ajax.php?action=login` | High
+55 | File | `/goForm/aspForm` | High
+56 | File | `/guestbook` | Medium
+57 | File | `/home/kickPlayer` | High
+58 | File | `/horde/util/go.php` | High
+59 | File | `/index.jsp#settings` | High
+60 | File | `/index.php/signin` | High
+61 | File | `/index.php?action=editManager` | High
+62 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+63 | File | `/login` | Low
+64 | File | `/login.php` | Medium
+65 | File | `/modules/profile/index.php` | High
+66 | File | `/net-banking/beneficiary.php` | High
+67 | File | `/net-banking/delete_customer.php` | High
+68 | File | `/net-banking/edit_customer_action.php` | High
+69 | File | `/net-banking/transactions.php` | High
+70 | File | `/philosophy/admin/login.php` | High
+71 | File | `/pms/update_user.php?user_id=1` | High
+72 | File | `/portal/reports/account_statement` | High
+73 | File | `/products/details.asp` | High
+74 | File | `/products/view_product.php` | High
+75 | ... | ... | ...
 
-There are 599 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 663 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,7 +137,11 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/568aac24-7631-4f8f-a89b-ff10adf6b875
 * https://app.any.run/tasks/8070f7cb-b7e2-4394-8898-cfcf9b52c332/
+* https://bazaar.abuse.ch/sample/51a0ca305b43bbcf6e738bef66220bf8fb30d11c2b63f501f756e91e98a309d9/
+* https://bazaar.abuse.ch/sample/aba8289d1eacae0e2eac939d757b19a576667e4eb47c1d86cbee0ad73f0b3e1a/
 * https://bazaar.abuse.ch/sample/aed8a6b3191c2097fcbadb520f5d0f7e30b578c23f9abc0ab52b63bbb7abc141/
+* https://bazaar.abuse.ch/sample/d6fc2e70bf11cb4b1b12c63864458a3e9c9bb8ae8f5e37a50da90d4b88f8ece6/
+* https://bazaar.abuse.ch/sample/e3475c0940a2bec26761cc502ddddf8869c3461c590e5cb886538ca9fe8644a2/
 * https://bazaar.abuse.ch/sample/f0962774a22adb03e29c34fda016085f1fc99598f23562e5165474469f653bd0/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Vjw0rm%20and%20Houdini%20IOCs
 * https://isc.sans.edu/forums/diary/Houdini+is+Back+Delivered+Through+a+JavaScript+Dropper/28746/

@@ -55,28 +55,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/chatroom.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/publishnews.php` | High
-5 | File | `/admin/template` | High
-6 | File | `/auth/register` | High
-7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-8 | File | `/backend/admin/his_admin_register_patient.php` | High
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-11 | File | `/etc/quagga` | Medium
-12 | File | `/filemanager/upload` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/index.php/dashboard/save` | High
-15 | File | `/main?cmd=invalid_browser` | High
-16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-17 | File | `/pda/workflow/check_seal.php` | High
-18 | File | `/pdf/InfoOutputDev.cc` | High
-19 | File | `/plugins/Dashboard/Controller.php` | High
-20 | ... | ... | ...
+1 | File | `/admin/?page=purchase_order/view_po` | High
+2 | File | `/admin/chatroom.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/publishnews.php` | High
+6 | File | `/admin/template` | High
+7 | File | `/api/wizard/setsyncpppoecfg` | High
+8 | File | `/auth/register` | High
+9 | File | `/auth/userkey/logout.php` | High
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/backend/admin/his_admin_register_patient.php` | High
+12 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+14 | File | `/etc/quagga` | Medium
+15 | File | `/filemanager/upload` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+18 | File | `/index.php/dashboard/save` | High
+19 | File | `/main?cmd=invalid_browser` | High
+20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

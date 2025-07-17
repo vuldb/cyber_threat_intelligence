@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Trox:
 
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -24,7 +25,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -33,6 +35,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/oauth2/token` | High
+2 | File | `smb.conf` | Medium
 
 ## References
 

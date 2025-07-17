@@ -73,16 +73,17 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/ExportSettings.sh` | High
 23 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 24 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-25 | File | `/edit-subject.php` | High
-26 | File | `/endpoint/add-user.php` | High
-27 | File | `/etc/postfix/sender_login` | High
-28 | File | `/etc/shadow.sample` | High
-29 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-30 | File | `/foms/routers/place-order.php` | High
-31 | File | `/forum/away.php` | High
-32 | ... | ... | ...
+25 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+26 | File | `/edit-subject.php` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/etc/postfix/sender_login` | High
+29 | File | `/etc/shadow.sample` | High
+30 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+31 | File | `/foms/routers/place-order.php` | High
+32 | File | `/forum/away.php` | High
+33 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

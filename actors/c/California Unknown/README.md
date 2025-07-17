@@ -167,17 +167,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 8 | File | `/backend/admin/his_admin_register_patient.php` | High
 9 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-10 | File | `/cgi-bin/p1_ftpserver.php` | High
-11 | File | `/cgi-bin/tosei_kikai.php` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/classes/Master.php?f=delete_category` | High
-14 | File | `/classes/SystemSettings.php?f=update_settings` | High
-15 | File | `/classes/Users.php?f=delete` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/foms/routers/place-order.php` | High
-18 | ... | ... | ...
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | File | `/cgi-bin/tosei_kikai.php` | High
+13 | File | `/classes/Master.php` | High
+14 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

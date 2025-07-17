@@ -54,14 +54,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/addusers` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/status.js` | Medium
-4 | File | `Auth/Manager.php` | High
-5 | File | `awstats.pl` | Medium
-6 | File | `board.php` | Medium
-7 | File | `conf.c` | Low
-8 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/api/addusers` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/status.js` | Medium
+5 | File | `Auth/Manager.php` | High
+6 | File | `awstats.pl` | Medium
+7 | File | `board.php` | Medium
+8 | File | `conf.c` | Low
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

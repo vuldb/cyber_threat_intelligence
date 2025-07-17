@@ -64,9 +64,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/cgi-bin/discovery.cgi` | High
 16 | File | `/cgi-bin/login_action.cgi` | High
 17 | File | `/event/admin/?page=user/list` | High
-18 | ... | ... | ...
+18 | File | `/include/file.php` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

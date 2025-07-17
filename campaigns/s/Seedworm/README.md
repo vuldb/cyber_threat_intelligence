@@ -57,38 +57,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_reference_to_local_model` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/maintenance/manage_brand.php` | High
-4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-5 | File | `/api/admin` | Medium
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/check` | Low
-11 | File | `/check_availability.php` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/control/register_case.php` | High
-16 | File | `/DesignTools/CssEditor.aspx` | High
-17 | File | `/dev/tty` | Medium
-18 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-19 | File | `/etc/keystone/user-project-map.json` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/foms/routers/place-order.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/formSetWanPPPoE` | High
-24 | File | `/manage/IPSetup.php` | High
-25 | File | `/manage_sy.php` | High
-26 | File | `/movie.php` | Medium
-27 | File | `/ndmComponents.js` | High
-28 | File | `/newdriver.php` | High
-29 | File | `/out.php` | Medium
-30 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-31 | ... | ... | ...
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/maintenance/manage_brand.php` | High
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/api/admin` | Medium
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/check` | Low
+12 | File | `/check_availability.php` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/SystemSettings.php?f=update_settings` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/DesignTools/CssEditor.aspx` | High
+18 | File | `/dev/tty` | Medium
+19 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+20 | File | `/etc/keystone/user-project-map.json` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/foms/routers/place-order.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/formSetWanPPPoE` | High
+25 | File | `/manage/IPSetup.php` | High
+26 | File | `/manage_sy.php` | High
+27 | File | `/movie.php` | Medium
+28 | File | `/ndmComponents.js` | High
+29 | File | `/newdriver.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+32 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

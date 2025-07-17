@@ -96,7 +96,8 @@ ID | IP address | Hostname | Actor | Confidence
 64 | [66.117.77.134](https://vuldb.com/?ip.66.117.77.134) | 66-117-77-134.gohighspeed.com | [Zeus](https://vuldb.com/?actor.zeus) | High
 65 | [66.180.118.226](https://vuldb.com/?ip.66.180.118.226) | 66-180-118-226.customerip.birch.net | [Zeus](https://vuldb.com/?actor.zeus) | High
 66 | [66.221.13.60](https://vuldb.com/?ip.66.221.13.60) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-67 | ... | ... | ... | ...
+67 | [66.221.17.61](https://vuldb.com/?ip.66.221.17.61) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+68 | ... | ... | ... | ...
 
 There are 266 more IOC items available. Please use our online service to access the data.
 
@@ -106,7 +107,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -140,20 +141,23 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/subject.php` | High
 18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
 19 | File | `/admin/twitter.php` | High
-20 | File | `/api/v1/toolbox/device/update/swap` | High
-21 | File | `/app/api/controller/caiji.php` | High
-22 | File | `/app/zentao/module/repo/model.php` | High
-23 | File | `/bin/httpd` | Medium
-24 | File | `/buscar_integrada.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/ExportSettings.sh` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-30 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-31 | ... | ... | ...
+20 | File | `/api/v1/settings` | High
+21 | File | `/api/v1/toolbox/device/update/swap` | High
+22 | File | `/app/api/controller/caiji.php` | High
+23 | File | `/app/zentao/module/repo/model.php` | High
+24 | File | `/bin/httpd` | Medium
+25 | File | `/buscar_integrada.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/ExportSettings.sh` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+31 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+32 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+33 | File | `/edit-subject.php` | High
+34 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -173,6 +177,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://ddanchev.blogspot.com/2022/11/profiling-zeusesta-managed-zeus.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_zeus.netset
 * https://isc.sans.edu/forums/diary/Recent+Emotet+activity/23908/
+* https://threatfox.abuse.ch
 * https://twitter.com/RakeshKrish12/status/1204571340096724993
 
 ## Literature

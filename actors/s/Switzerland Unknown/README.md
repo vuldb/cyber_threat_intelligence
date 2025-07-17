@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2586,23 +2586,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/all-applications.php` | High
-4 | File | `/admin/betweendates-detailsreports.php` | High
-5 | File | `/admin/edit-person-detail.php?editid=2` | High
-6 | File | `/admin/edit-products.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-10 | File | `/api/v1/settings` | High
-11 | File | `/boafrm/formFilter` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/coreframe/app/guestbook/myissue.php` | High
-14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/all-applications.php` | High
+3 | File | `/admin/betweendates-detailsreports.php` | High
+4 | File | `/admin/bwdates-request-report-details.php` | High
+5 | File | `/admin/company/index.php` | High
+6 | File | `/admin/contactus.php` | High
+7 | File | `/admin/edit-person-detail.php?editid=2` | High
+8 | File | `/admin/forms/option_lists/edit.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+12 | File | `/api/v1/settings` | High
+13 | File | `/boafrm/formFilter` | High
+14 | File | `/boafrm/formMultiAP` | High
 15 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
