@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [38.242.219.13](https://vuldb.com/?ip.38.242.219.13) | vmi1478608.contaboserver.net | - | High
 7 | [45.14.194.253](https://vuldb.com/?ip.45.14.194.253) | vmi2280453.contaboserver.net | - | High
 8 | [46.249.58.201](https://vuldb.com/?ip.46.249.58.201) | alrs.foxtailorchidy.net | - | High
-9 | ... | ... | ... | ...
+9 | [62.171.153.221](https://vuldb.com/?ip.62.171.153.221) | ip-221-153-171-62.static.contabo.net | - | High
+10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,36 +74,38 @@ ID | Type | Indicator | Confidence
 17 | File | `/aqpg/users/login.php` | High
 18 | File | `/backups/` | Medium
 19 | File | `/bcms/admin/?page=user/list` | High
-20 | File | `/cgi-bin/editBookmark` | High
-21 | File | `/cgi-bin/touchlist_sync.cgi` | High
-22 | File | `/ci_spms/admin/category` | High
-23 | File | `/classes/Users.php?f=save` | High
-24 | File | `/csms/admin/?page=user/list` | High
-25 | File | `/cwms/admin/?page=articles/view_article/` | High
-26 | File | `/cwms/classes/Master.php?f=save_contact` | High
-27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/dashboard/add-portfolio.php` | High
-29 | File | `/dashboard/settings` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/devinfo` | Medium
-32 | File | `/download` | Medium
-33 | File | `/ebics-server/ebics.aspx` | High
-34 | File | `/filemanager/upload.php` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/RgDdns` | High
-37 | File | `/goform/RgDhcp` | High
-38 | File | `/goform/RGFirewallEL` | High
-39 | File | `/goform/RgTime` | High
-40 | File | `/goform/RgUrlBlock.asp` | High
-41 | ... | ... | ...
+20 | File | `/card/in-card.php` | High
+21 | File | `/cgi-bin/editBookmark` | High
+22 | File | `/cgi-bin/touchlist_sync.cgi` | High
+23 | File | `/ci_spms/admin/category` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/csms/admin/?page=user/list` | High
+26 | File | `/cwms/admin/?page=articles/view_article/` | High
+27 | File | `/cwms/classes/Master.php?f=save_contact` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/dashboard/add-portfolio.php` | High
+30 | File | `/dashboard/settings` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/devinfo` | Medium
+33 | File | `/download` | Medium
+34 | File | `/ebics-server/ebics.aspx` | High
+35 | File | `/etc/quagga` | Medium
+36 | File | `/filemanager/upload.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/RgDdns` | High
+39 | File | `/goform/RgDhcp` | High
+40 | File | `/goform/RGFirewallEL` | High
+41 | File | `/goform/RgTime` | High
+42 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.lumen.com/snowblind-the-invisible-hand-of-secret-blizzard/
+* https://www.botvrij.eu/data/ioclist.ip-dst
 * https://www.microsoft.com/en-us/security/blog/2024/12/04/frequent-freeloader-part-i-secret-blizzard-compromising-storm-0156-infrastructure-for-espionage/
 
 ## Literature

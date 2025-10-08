@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [UA](https://vuldb.com/?country.ua)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 45 more country items available. Please use our online service to access the data.
+There are 46 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -60,53 +60,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/addbill.php` | Medium
-3 | File | `/admin/aboutus.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/edit_action.php` | High
-7 | File | `/Admin/edit_profile.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/manage-pages.php` | High
-11 | File | `/admin/sales/manage_sale.php` | High
-12 | File | `/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/api/Cdn/GetFile` | High
-14 | File | `/api/DocumentTemplate/{GUID}` | High
-15 | File | `/api/role` | Medium
-16 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-17 | File | `/apilog.php` | Medium
-18 | File | `/auth_pic.cgi` | High
-19 | File | `/backend/register.php` | High
-20 | File | `/bin/sh` | Low
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-23 | File | `/cgi-bin/api-get_line_status` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/luci` | High
-26 | File | `/cgi-bin/myMusic.cgi` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/changeimage1.php` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/Code/loginnew.php` | High
-31 | File | `/Code/sc_login.php` | High
-32 | File | `/config-manager/save` | High
-33 | File | `/control/register_case.php` | High
-34 | File | `/dashboard/admin/edit_member.php` | High
-35 | File | `/dashboard/admin/edit_mem_submit.php` | High
-36 | File | `/dashboard/admin/new_submit.php` | High
-37 | File | `/dashboard/menu-list.php` | High
-38 | File | `/dashboard/message` | High
-39 | File | `/dashboard/table-list.php` | High
-40 | File | `/details.php` | Medium
-41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-42 | File | `/devinfo` | Medium
-43 | File | `/directRouter.rfc` | High
-44 | File | `/doctor/view-appointment-detail.php` | High
-45 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/account/forgotpassword` | High
+4 | File | `/addbill.php` | Medium
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/add_trainers.php` | High
+7 | File | `/Admin/akun_edit.php` | High
+8 | File | `/admin/class.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/edit_action.php` | High
+11 | File | `/Admin/edit_profile.php` | High
+12 | File | `/admin/edit_user.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/manage-pages.php` | High
+16 | File | `/admin/sales/manage_sale.php` | High
+17 | File | `/Admin/sports.php` | High
+18 | File | `/admin/theme-edit.php` | High
+19 | File | `/advanced-tools/nova/bin/netwatch` | High
+20 | File | `/api/Cdn/GetFile` | High
+21 | File | `/api/DocumentTemplate/{GUID}` | High
+22 | File | `/api/role` | Medium
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/apilog.php` | Medium
+25 | File | `/auth_pic.cgi` | High
+26 | File | `/bill/add_bill.php` | High
+27 | File | `/bin/sh` | Low
+28 | File | `/cancelbookingpatient.php` | High
+29 | File | `/category.php` | High
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/api-get_line_status` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/myMusic.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/changeimage1.php` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+38 | File | `/Code/loginnew.php` | High
+39 | File | `/Code/sc_login.php` | High
+40 | File | `/complete_task.php` | High
+41 | File | `/conf/app.conf` | High
+42 | File | `/config-manager/save` | High
+43 | File | `/dashboard/admin/edit_member.php` | High
+44 | File | `/dashboard/admin/edit_mem_submit.php` | High
+45 | File | `/dashboard/admin/new_submit.php` | High
+46 | File | `/dashboard/menu-list.php` | High
+47 | File | `/dashboard/message` | High
+48 | File | `/dashboard/table-list.php` | High
+49 | File | `/details.php` | Medium
+50 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+51 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

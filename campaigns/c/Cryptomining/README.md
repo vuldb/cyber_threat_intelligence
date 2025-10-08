@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,34 +60,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/ad-list` | Medium
-3 | File | `/admin/publishnews.php` | High
-4 | File | `/admin/run_ajax.php` | High
-5 | File | `/admin/suppliers/view_details.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/authentication/login` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/v2/open/rowsInfo` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/app/sys1.php` | High
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/cas/logout` | Medium
-15 | File | `/catalog/all-products` | High
-16 | File | `/cgi-bin/adm.cgi` | High
-17 | File | `/cgi-bin/editBookmark` | High
-18 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/nightled.cgi` | High
-21 | File | `/cgi-bin/touchlist_sync.cgi` | High
-22 | File | `/cgi-bin/vitogate.cgi` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-25 | File | `/downloadFile.php` | High
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | File | `/env` | Low
-28 | ... | ... | ...
+3 | File | `/add_deductions.php` | High
+4 | File | `/admin/booking-search.php` | High
+5 | File | `/admin/publishnews.php` | High
+6 | File | `/admin/run_ajax.php` | High
+7 | File | `/admin/suppliers/view_details.php` | High
+8 | File | `/admin/voters_row.php` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/authentication/login` | High
+11 | File | `/api/discoveries/` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v2/open/rowsInfo` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/boafrm/formWdsEncrypt` | High
+18 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+19 | File | `/cas/logout` | Medium
+20 | File | `/catalog/all-products` | High
+21 | File | `/cgi-bin/adm.cgi` | High
+22 | File | `/cgi-bin/editBookmark` | High
+23 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/nightled.cgi` | High
+26 | File | `/cgi-bin/touchlist_sync.cgi` | High
+27 | File | `/cgi-bin/vitogate.cgi` | High
+28 | File | `/collect/PortV4/downLoad.html` | High
+29 | File | `/data/edit_type.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+32 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

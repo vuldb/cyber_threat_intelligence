@@ -49,18 +49,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
 2 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
-3 | File | `/fos/admin/ajax.php` | High
-4 | File | `/include/chart_generator.php` | High
-5 | File | `/index.php` | Medium
-6 | File | `/modules/projects/vw_files.php` | High
-7 | File | `/SystemMng.ashx` | High
-8 | File | `AdClass.php` | Medium
-9 | File | `admin.php` | Medium
-10 | File | `admin_add.php` | High
-11 | File | `affich.php` | Medium
+3 | File | `/forum/away.php` | High
+4 | File | `/fos/admin/ajax.php` | High
+5 | File | `/include/chart_generator.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/modules/projects/vw_files.php` | High
+8 | File | `/SystemMng.ashx` | High
+9 | File | `AdClass.php` | Medium
+10 | File | `admin.php` | Medium
+11 | File | `admin_add.php` | High
 12 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

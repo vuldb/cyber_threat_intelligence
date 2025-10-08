@@ -41,14 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,32 +58,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addQuestion.php` | High
 2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/conferences/get-all-status/` | High
-4 | File | `/admin/conferences/list/` | High
-5 | File | `/admin/group` | Medium
-6 | File | `/admin/group/list/` | High
-7 | File | `/admin/lab.php` | High
-8 | File | `/api/wizard/getNetworkStatus` | High
-9 | File | `/app/admin/controller/api/Plugs.php` | High
-10 | File | `/appLms/ajax.server.php` | High
-11 | File | `/as/authorization.oauth2` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/classes/Users.php?f=save` | High
-14 | File | `/dental_form.php` | High
-15 | File | `/detailed.php` | High
-16 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-17 | File | `/getImage` | Medium
-18 | File | `/goform/AddDnsForward` | High
-19 | File | `/guestmanagement/front.php` | High
-20 | File | `/horde/imp/search.php` | High
-21 | File | `/ipms/imageConvert/image` | High
-22 | File | `/login` | Low
-23 | File | `/login.php` | Medium
-24 | File | `/LogoStore/search.php` | High
-25 | File | `/manage-apartment.php` | High
-26 | ... | ... | ...
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/application-bwdates-reports-details.php` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/admin/conferences/get-all-status/` | High
+7 | File | `/admin/conferences/list/` | High
+8 | File | `/admin/group` | Medium
+9 | File | `/admin/group/list/` | High
+10 | File | `/admin/lab.php` | High
+11 | File | `/admin/positions_add.php` | High
+12 | File | `/admin/sou.php` | High
+13 | File | `/analysisProject/pagingQueryData` | High
+14 | File | `/api/wizard/getNetworkStatus` | High
+15 | File | `/api/wizard/getsyncpppoecfg` | High
+16 | File | `/app/admin/controller/api/Plugs.php` | High
+17 | File | `/appLms/ajax.server.php` | High
+18 | File | `/as/authorization.oauth2` | High
+19 | File | `/cancelbookingpatient.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/editBookmark` | High
+22 | File | `/classes/Users.php?f=save` | High
+23 | File | `/cluster-connections` | High
+24 | File | `/console/api/workspaces/current/tool-provider/api/test/pre` | High
+25 | File | `/dental_form.php` | High
+26 | File | `/detailed.php` | High
+27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+28 | File | `/etc/passwd` | Medium
+29 | File | `/getImage` | Medium
+30 | File | `/goform/AddDnsForward` | High
+31 | File | `/guestmanagement/front.php` | High
+32 | File | `/Home/Index` | Medium
+33 | File | `/horde/imp/search.php` | High
+34 | File | `/ipms/imageConvert/image` | High
+35 | File | `/javascript.php` | High
+36 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

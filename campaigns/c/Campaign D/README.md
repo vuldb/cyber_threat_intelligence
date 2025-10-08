@@ -82,30 +82,31 @@ ID | Type | Indicator | Confidence
 16 | File | `/CFIDE/probe.cfm` | High
 17 | File | `/cgi-bin/login_action.cgi` | High
 18 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
-19 | File | `/data/vendor/tcl` | High
-20 | File | `/download` | Medium
-21 | File | `/etc/tomcat8/Catalina/attack` | High
-22 | File | `/file/delete.php` | High
-23 | File | `/files.md5` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/getcfg.php` | Medium
-26 | File | `/goform/` | Medium
-27 | File | `/goform/SetStaticRouteCfg` | High
-28 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-29 | File | `/install_extension` | High
-30 | File | `/load.php` | Medium
-31 | File | `/login.php` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/modules/registration_admission/patient_register.php` | High
-34 | File | `/public/plugins/` | High
-35 | File | `/rapi/read_url` | High
-36 | File | `/rest/api/2/user/picker` | High
-37 | File | `/sbin/acos_service` | High
-38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-39 | File | `/spip.php` | Medium
-40 | ... | ... | ...
+19 | File | `/contactus1.php` | High
+20 | File | `/data/vendor/tcl` | High
+21 | File | `/download` | Medium
+22 | File | `/etc/tomcat8/Catalina/attack` | High
+23 | File | `/file/delete.php` | High
+24 | File | `/files.md5` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+27 | File | `/getcfg.php` | Medium
+28 | File | `/goform/` | Medium
+29 | File | `/goform/SetStaticRouteCfg` | High
+30 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+31 | File | `/install_extension` | High
+32 | File | `/load.php` | Medium
+33 | File | `/login.php` | Medium
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/modules/registration_admission/patient_register.php` | High
+36 | File | `/public/plugins/` | High
+37 | File | `/rapi/read_url` | High
+38 | File | `/rest/api/2/user/picker` | High
+39 | File | `/sbin/acos_service` | High
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

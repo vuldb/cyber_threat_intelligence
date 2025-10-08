@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [CO](https://vuldb.com/?country.co)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,15 +22,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-2 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
-3 | [31.13.65.174](https://vuldb.com/?ip.31.13.65.174) | instagram-p42-shv-01-atl3.fbcdn.net | - | High
-4 | [45.141.151.174](https://vuldb.com/?ip.45.141.151.174) | host-45.141.151.174.meric.net.tr | - | High
-5 | [54.153.99.197](https://vuldb.com/?ip.54.153.99.197) | ec2-54-153-99-197.us-west-1.compute.amazonaws.com | - | Medium
-6 | [62.60.226.165](https://vuldb.com/?ip.62.60.226.165) | - | - | High
-7 | [80.64.18.219](https://vuldb.com/?ip.80.64.18.219) | - | - | High
-8 | ... | ... | ... | ...
+2 | [15.235.173.226](https://vuldb.com/?ip.15.235.173.226) | ip226.ip-15-235-173.net | - | High
+3 | [15.235.176.226](https://vuldb.com/?ip.15.235.176.226) | ip226.ip-15-235-176.net | - | High
+4 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
+5 | [31.13.65.174](https://vuldb.com/?ip.31.13.65.174) | instagram-p42-shv-01-atl3.fbcdn.net | - | High
+6 | [45.141.151.174](https://vuldb.com/?ip.45.141.151.174) | host-45.141.151.174.meric.net.tr | - | High
+7 | [46.105.34.222](https://vuldb.com/?ip.46.105.34.222) | ip222.ip-46-105-34.eu | - | High
+8 | [54.153.99.197](https://vuldb.com/?ip.54.153.99.197) | ec2-54-153-99-197.us-west-1.compute.amazonaws.com | - | Medium
+9 | [62.60.226.165](https://vuldb.com/?ip.62.60.226.165) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
@@ -51,16 +53,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/out.php` | Medium
-3 | File | `/patient/booking.php` | High
-4 | File | `adclick.php` | Medium
-5 | File | `admin_boxes.ajax.php` | High
-6 | File | `api/views/user.py` | High
-7 | File | `attendance.php` | High
-8 | ... | ... | ...
+1 | File | `/Admin/login.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/out.php` | Medium
+4 | File | `/patient/booking.php` | High
+5 | File | `AbstractScheduleJob.java` | High
+6 | File | `adclick.php` | Medium
+7 | File | `admin_boxes.ajax.php` | High
+8 | File | `api/views/user.py` | High
+9 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -81,6 +84,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3558952/
 * https://urlhaus.abuse.ch/url/3569931/
 * https://urlhaus.abuse.ch/url/3571221/
+* https://urlhaus.abuse.ch/url/3578227/
+* https://urlhaus.abuse.ch/url/3581115/
+* https://urlhaus.abuse.ch/url/3583503/
+* https://urlhaus.abuse.ch/url/3584397/
+* https://urlhaus.abuse.ch/url/3585282/
+* https://urlhaus.abuse.ch/url/3589860/
+* https://urlhaus.abuse.ch/url/3590310/
+* https://urlhaus.abuse.ch/url/3590316/
 * https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
 
 ## Literature

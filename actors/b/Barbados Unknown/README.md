@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HT](https://vuldb.com/?country.ht)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,7 +90,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,32 +100,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/update/getFile.html` | High
 2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/edit-class.php` | High
-4 | File | `/admin/index.php?page=manage_lot` | High
-5 | File | `/admin/index3.php` | High
-6 | File | `/admin/pages/subjects.php` | High
-7 | File | `/admin/process_category_add.php` | High
-8 | File | `/admin/registration.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/admin/users-applications.php` | High
-11 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-12 | File | `/analysisProject/pagingQueryData` | High
-13 | File | `/api/api.php?mod=upload&type=1` | High
-14 | File | `/app/admin/view/web_user.html` | High
-15 | File | `/app/middleware/TokenVerify.php` | High
-16 | File | `/app/sys1.php` | High
-17 | File | `/blog` | Low
-18 | File | `/book-appointment.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/s3.cgi` | High
-23 | File | `/classes/Master.php?f=delete_reminder` | High
-24 | File | `/data/app` | Medium
-25 | File | `/debuginfo.htm` | High
-26 | ... | ... | ...
+3 | File | `/admin/booking-search.php` | High
+4 | File | `/admin/edit-class.php` | High
+5 | File | `/admin/index.php?page=manage_lot` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/msg.php` | High
+8 | File | `/admin/pages/subjects.php` | High
+9 | File | `/admin/patient-search.php` | High
+10 | File | `/admin/process_category_add.php` | High
+11 | File | `/admin/registration.php` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/admin/users-applications.php` | High
+14 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+15 | File | `/analysisProject/pagingQueryData` | High
+16 | File | `/api/api.php?mod=upload&type=1` | High
+17 | File | `/api/system/other` | High
+18 | File | `/app/admin/view/web_user.html` | High
+19 | File | `/app/middleware/TokenVerify.php` | High
+20 | File | `/app/sys1.php` | High
+21 | File | `/attendancelist.php` | High
+22 | File | `/blog` | Low
+23 | File | `/book-appointment.php` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cgi-bin/s3.cgi` | High
+28 | File | `/changepassemp.php` | High
+29 | File | `/classes/Master.php?f=delete_reminder` | High
+30 | File | `/data/app` | Medium
+31 | File | `/debuginfo.htm` | High
+32 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

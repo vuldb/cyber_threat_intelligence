@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,53 +69,56 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/ajax.php?action=login` | High
 11 | File | `/admin/ajax.php?action=save_settings` | High
 12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-13 | File | `/admin/create_product.php` | High
-14 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-15 | File | `/admin/home.php?con=add` | High
-16 | File | `/admin/invoice.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/admin/pages/edit_chicken.php` | High
-19 | File | `/admin/robot.php` | High
-20 | File | `/admin/system.html` | High
-21 | File | `/admin/update-clients.php` | High
-22 | File | `/ajax.php` | Medium
-23 | File | `/api/baskets/{name}` | High
-24 | File | `/api/plugin/uninstall` | High
-25 | File | `/api2/html/` | Medium
-26 | File | `/app/Http/Controllers/ImageController.php` | High
-27 | File | `/application/index/controller/File.php` | High
-28 | File | `/application/index/controller/Icon.php` | High
-29 | File | `/application/index/controller/Screen.php` | High
-30 | File | `/application/websocket/controller/Setting.php` | High
-31 | File | `/Attachment/fromImageUrl` | High
-32 | File | `/b2b-supermarket/shopping-cart` | High
-33 | File | `/bin/boa` | Medium
-34 | File | `/boafrm/formIpQoS` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/classes/Master.php?f=delete_category` | High
-40 | File | `/classes/SystemSettings.php?f=update_settings` | High
-41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/classes/Users.php?f=save_client` | High
-43 | File | `/cms/category/list` | High
-44 | File | `/dev/shm` | Medium
-45 | File | `/downloadFile.php` | High
-46 | File | `/edit.php` | Medium
-47 | File | `/edit_book.php` | High
-48 | File | `/edoc/doctor/patient.php` | High
-49 | File | `/Employer/EditProfile.php` | High
-50 | File | `/endpoint/update-tracker.php` | High
-51 | File | `/etc/shadow` | Medium
-52 | File | `/Forms/tools_test_1` | High
-53 | File | `/forum/away.php` | High
-54 | File | `/forum/PostPrivateMessage` | High
-55 | File | `/general/search.php?searchtype=simple` | High
-56 | File | `/goform/formSetMACFilter` | High
-57 | ... | ... | ...
+13 | File | `/admin/category/add.do` | High
+14 | File | `/admin/contact-us.php` | High
+15 | File | `/admin/create_product.php` | High
+16 | File | `/admin/delete_s1.php` | High
+17 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+18 | File | `/admin/home.php?con=add` | High
+19 | File | `/admin/invoice.php` | High
+20 | File | `/admin/kami_list` | High
+21 | File | `/admin/maintenance/view_designation.php` | High
+22 | File | `/admin/pages/edit_chicken.php` | High
+23 | File | `/admin/robot.php` | High
+24 | File | `/admin/system.html` | High
+25 | File | `/admin/update-clients.php` | High
+26 | File | `/ajax.php` | Medium
+27 | File | `/api/baskets/{name}` | High
+28 | File | `/api/plugin/uninstall` | High
+29 | File | `/api/wizard/getNetworkConf` | High
+30 | File | `/api/wizard/getssidname` | High
+31 | File | `/api/wizard/networkSetup` | High
+32 | File | `/api2/html/` | Medium
+33 | File | `/app/Http/Controllers/ImageController.php` | High
+34 | File | `/application/index/controller/File.php` | High
+35 | File | `/application/index/controller/Icon.php` | High
+36 | File | `/application/index/controller/Screen.php` | High
+37 | File | `/application/websocket/controller/Setting.php` | High
+38 | File | `/Attachment/fromImageUrl` | High
+39 | File | `/b2b-supermarket/shopping-cart` | High
+40 | File | `/bin/boa` | Medium
+41 | File | `/boafrm/formIpQoS` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+44 | File | `/cgi-bin/nas_sharing.cgi` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/classes/Master.php?f=delete_category` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=save` | High
+49 | File | `/classes/Users.php?f=save_client` | High
+50 | File | `/cms/category/list` | High
+51 | File | `/data/edit_laundry.php` | High
+52 | File | `/dev/shm` | Medium
+53 | File | `/downloadFile.php` | High
+54 | File | `/edit.php` | Medium
+55 | File | `/editprofile.php` | High
+56 | File | `/edit_book.php` | High
+57 | File | `/edoc/doctor/patient.php` | High
+58 | File | `/Employer/EditProfile.php` | High
+59 | File | `/endpoint/update-tracker.php` | High
+60 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

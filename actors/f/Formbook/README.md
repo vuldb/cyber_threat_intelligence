@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Formbook:
 
+* CVE-2017-0199
 * Ukraine
 
 ## Countries
@@ -86,9 +87,10 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [44.230.85.241](https://vuldb.com/?ip.44.230.85.241) | ec2-44-230-85-241.us-west-2.compute.amazonaws.com | - | Medium
 61 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
 62 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | Medium
-63 | ... | ... | ... | ...
+63 | [45.135.229.212](https://vuldb.com/?ip.45.135.229.212) | iad.scarletshark.net | - | High
+64 | ... | ... | ... | ...
 
-There are 250 more IOC items available. Please use our online service to access the data.
+There are 254 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -110,12 +112,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/api/sys/set_passwd` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/hd_config.cgi` | High
+2 | File | `/action/upload_file` | High
+3 | File | `/api/sys/set_passwd` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -165,6 +167,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3556639/
 * https://urlhaus.abuse.ch/url/3556692/
 * https://urlhaus.abuse.ch/url/3557905/
+* https://urlhaus.abuse.ch/url/3561757/
+* https://urlhaus.abuse.ch/url/3569851/
+* https://urlhaus.abuse.ch/url/3571059/
+* https://urlhaus.abuse.ch/url/3571715/
+* https://www.fortinet.com/blog/threat-research/how-a-malicious-excel-file-cve-2017-0199-delivers-the-formbook-payload
 * https://www.malware-traffic-analysis.net/2019/05/20/index.html
 
 ## Literature

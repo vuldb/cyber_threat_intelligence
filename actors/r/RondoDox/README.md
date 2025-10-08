@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.135.194.34](https://vuldb.com/?ip.45.135.194.34) | - | CVE-2024-3721 / CVE-2024-12856 | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,12 +53,13 @@ ID | Type | Indicator | Confidence
 3 | File | `data/gbconfiguration.dat` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://urlhaus.abuse.ch/url/3610576/
 * https://www.fortinet.com/blog/threat-research/rondobox-unveiled-breaking-down-a-botnet-threat
 
 ## Literature

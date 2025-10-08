@@ -104,7 +104,7 @@ ID | Type | Indicator | Confidence
 54 | File | `123flashchat.php` | High
 55 | ... | ... | ...
 
-There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

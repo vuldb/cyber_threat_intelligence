@@ -273,7 +273,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -281,12 +281,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/home/sendBroadcast` | High
-2 | File | `/index/user/upload_img.html` | High
-3 | File | `/user_dashboard/donor.php` | High
+1 | File | `/admin/rooms.php` | High
+2 | File | `/forgot-password` | High
+3 | File | `/home/sendBroadcast` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

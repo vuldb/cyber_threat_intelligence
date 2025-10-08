@@ -89,38 +89,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/category_save.php` | High
 8 | File | `/admin/create_product.php` | High
 9 | File | `/admin/emp-profile-avatar.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/admin/manage_user.php` | High
-14 | File | `/admin/mod_room/controller.php?action=add` | High
-15 | File | `/admin/search-vehicle.php` | High
-16 | File | `/admin/subject.php` | High
-17 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-19 | File | `/admin/twitter.php` | High
-20 | File | `/api/v1/settings` | High
-21 | File | `/api/v1/toolbox/device/update/swap` | High
-22 | File | `/app/zentao/module/repo/model.php` | High
-23 | File | `/backend/admin/his_admin_register_patient.php` | High
-24 | File | `/bin/httpd` | Medium
-25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-26 | File | `/catalog/all-products` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/ExportSettings.sh` | High
-29 | File | `/cgi-bin/p1_ftpserver.php` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/SystemSettings.php?f=update_settings` | High
-32 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-33 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-34 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-35 | File | `/edit-subject.php` | High
-36 | File | `/endpoint/add-user.php` | High
-37 | File | `/etc/postfix/sender_login` | High
-38 | File | `/etc/shadow.sample` | High
-39 | ... | ... | ...
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/mod_room/controller.php?action=add` | High
+17 | File | `/admin/new-content` | High
+18 | File | `/admin/search-vehicle.php` | High
+19 | File | `/admin/subject.php` | High
+20 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+21 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+22 | File | `/admin/twitter.php` | High
+23 | File | `/admin/voters_add.php` | High
+24 | File | `/admin/voters_delete.php` | High
+25 | File | `/ajax.php?action=save_package` | High
+26 | File | `/api/v1/settings` | High
+27 | File | `/api/v1/toolbox/device/update/swap` | High
+28 | File | `/app/zentao/module/repo/model.php` | High
+29 | File | `/application/controller/Pengeluaran.php` | High
+30 | File | `/authentication/logout.php` | High
+31 | File | `/backend/admin/his_admin_register_patient.php` | High
+32 | File | `/bin/httpd` | Medium
+33 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+34 | File | `/catalog/all-products` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/ExportSettings.sh` | High
+37 | File | `/cgi-bin/p1_ftpserver.php` | High
+38 | File | `/classes/Master.php` | High
+39 | File | `/classes/SystemSettings.php?f=update_settings` | High
+40 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+41 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+42 | File | `/dashboard/admin/submit_plan_new.php` | High
+43 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+44 | File | `/edit-subject.php` | High
+45 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

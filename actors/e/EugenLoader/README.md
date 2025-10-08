@@ -13,6 +13,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [80.66.81.199](https://vuldb.com/?ip.80.66.81.199) | kabirkwna.serv.host | - | High
 2 | [147.45.113.135](https://vuldb.com/?ip.147.45.113.135) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _EugenLoader_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1574 | CWE-426 | Untrusted Search Path | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

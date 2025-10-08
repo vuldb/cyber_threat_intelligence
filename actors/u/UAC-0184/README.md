@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/devinfo` | Medium
 5 | File | `/film-rating.php` | High
 6 | File | `/goform/WriteFacMac` | High
-7 | ... | ... | ...
+7 | File | `/librarian/bookdetails.php` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

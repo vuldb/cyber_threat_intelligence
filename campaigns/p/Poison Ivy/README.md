@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Poison Ivy:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [UA](https://vuldb.com/?country.ua)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,17 +35,18 @@ ID | IP address | Hostname | Actor | Confidence
 2 | [23.27.112.216](https://vuldb.com/?ip.23.27.112.216) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
 3 | [37.106.35.42](https://vuldb.com/?ip.37.106.35.42) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
 4 | [37.106.35.252](https://vuldb.com/?ip.37.106.35.252) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
-5 | [37.107.171.53](https://vuldb.com/?ip.37.107.171.53) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
-6 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-7 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-8 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-9 | [49.254.211.75](https://vuldb.com/?ip.49.254.211.75) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
-10 | [50.117.38.164](https://vuldb.com/?ip.50.117.38.164) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
-11 | [60.2.148.167](https://vuldb.com/?ip.60.2.148.167) | - | [menuPass](https://vuldb.com/?actor.menupass) | High
-12 | [60.10.1.114](https://vuldb.com/?ip.60.10.1.114) | hebei.10.60.in-addr.arpa | [menuPass](https://vuldb.com/?actor.menupass) | High
-13 | ... | ... | ... | ...
+5 | [37.106.36.106](https://vuldb.com/?ip.37.106.36.106) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
+6 | [37.107.171.53](https://vuldb.com/?ip.37.107.171.53) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
+7 | [37.107.173.213](https://vuldb.com/?ip.37.107.173.213) | - | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
+8 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
+9 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
+10 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
+11 | [49.254.211.75](https://vuldb.com/?ip.49.254.211.75) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
+12 | [50.117.38.164](https://vuldb.com/?ip.50.117.38.164) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
+13 | [60.2.148.167](https://vuldb.com/?ip.60.2.148.167) | - | [menuPass](https://vuldb.com/?actor.menupass) | High
+14 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -137,9 +138,11 @@ ID | Type | Indicator | Confidence
 68 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
 69 | File | `/classes/Users.php?f=save` | High
 70 | File | `/core/config-revisions` | High
-71 | ... | ... | ...
+71 | File | `/devinfo` | Medium
+72 | File | `/download.php?file=author.png` | High
+73 | ... | ... | ...
 
-There are 624 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 638 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -150,12 +153,18 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf
 * https://www.shodan.io/host/37.106.35.42#3460
 * https://www.shodan.io/host/37.106.35.252#3460
+* https://www.shodan.io/host/37.106.36.106#3460
 * https://www.shodan.io/host/37.107.171.53#3460
+* https://www.shodan.io/host/37.107.173.213#3460
+* https://www.shodan.io/host/94.98.188.251#3460
 * https://www.shodan.io/host/94.98.194.15#3460
 * https://www.shodan.io/host/94.98.211.222#3460
 * https://www.shodan.io/host/94.98.218.137#3460
+* https://www.shodan.io/host/94.98.222.175#3460
 * https://www.shodan.io/host/94.98.225.30#3460
 * https://www.shodan.io/host/94.98.226.122#3460
+* https://www.shodan.io/host/94.99.102.103#3460
+* https://www.shodan.io/host/145.82.183.176#3460
 * https://www.threatminer.org/report.php?q=PoisonIvyGroupandtheCyberespionageCampaignAgainstChineseMilitaryandGoverment-360CoreSecurity.pdf&y=2018
 
 ## Literature

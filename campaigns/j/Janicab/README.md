@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -55,16 +55,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-profile.php` | High
 2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-3 | File | `/etc/postfix/sender_login` | High
-4 | File | `/goform/openSchedWifi` | High
-5 | File | `/model/viewProduct.php` | High
-6 | File | `/services/details.asp` | High
-7 | File | `/tracking/nbproject/` | High
-8 | File | `admin/getparam.cgi` | High
-9 | File | `aepx` | Low
-10 | ... | ... | ...
+3 | File | `/admin/edit_query_account.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/profile.php` | High
+6 | File | `/admin/rooms.php` | High
+7 | File | `/Admin/sports.php` | High
+8 | File | `/all_student.php` | High
+9 | File | `/api/wizard/getCapability` | High
+10 | File | `/dashboard/admin/updateplan.php` | High
+11 | File | `/data/add_employee.php` | High
+12 | File | `/details2.php` | High
+13 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

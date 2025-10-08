@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -95,11 +95,11 @@ ID | Type | Indicator | Confidence
 37 | File | `/admin/edit-propertytype.php` | High
 38 | File | `/admin/edit-user.php` | High
 39 | File | `/Admin/EditCategory` | High
-40 | File | `/admin/editorder.php` | High
-41 | File | `/admin/faculty_action.php` | High
-42 | File | `/admin/index.php` | High
-43 | File | `/admin/link.php` | High
-44 | File | `/admin/login.php` | High
+40 | File | `/admin/faculty_action.php` | High
+41 | File | `/admin/index.php` | High
+42 | File | `/admin/link.php` | High
+43 | File | `/admin/login.php` | High
+44 | File | `/admin/new-content` | High
 45 | File | `/admin/newsletter.php` | High
 46 | File | `/admin/plugin.php` | High
 47 | File | `/admin/print.php` | High
@@ -121,11 +121,18 @@ ID | Type | Indicator | Confidence
 63 | File | `/admin/update_user.php` | High
 64 | File | `/admin/update_users.php` | High
 65 | File | `/admin/user.php` | High
-66 | File | `/admin?do=admin:user:editPost` | High
-67 | File | `/alphaware/summary.php` | High
-68 | ... | ... | ...
+66 | File | `/admin/voters_add.php` | High
+67 | File | `/admin/voters_delete.php` | High
+68 | File | `/ajax.php?action=delete_plan` | High
+69 | File | `/ajax.php?action=end_membership` | High
+70 | File | `/ajax.php?action=save_package` | High
+71 | File | `/alphaware/summary.php` | High
+72 | File | `/api/discoveries/` | High
+73 | File | `/api/upload` | Medium
+74 | File | `/api/v1/settings` | High
+75 | ... | ... | ...
 
-There are 593 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 663 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

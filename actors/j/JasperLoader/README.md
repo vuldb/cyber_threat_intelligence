@@ -47,9 +47,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/.vnc/sesman_${username}_passwd` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/api/v2/cli/commands` | High
-5 | ... | ... | ...
+5 | File | `/mics/j_spring_security_check` | High
+6 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

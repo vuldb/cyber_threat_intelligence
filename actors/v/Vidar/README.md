@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [FI](https://vuldb.com/?country.fi)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,311 +56,333 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [5.75.208.190](https://vuldb.com/?ip.5.75.208.190) | static.190.208.75.5.clients.your-server.de | - | High
 34 | [5.75.208.196](https://vuldb.com/?ip.5.75.208.196) | static.196.208.75.5.clients.your-server.de | - | High
 35 | [5.75.208.206](https://vuldb.com/?ip.5.75.208.206) | static.206.208.75.5.clients.your-server.de | - | High
-36 | [5.75.209.4](https://vuldb.com/?ip.5.75.209.4) | static.4.209.75.5.clients.your-server.de | - | High
-37 | [5.75.209.12](https://vuldb.com/?ip.5.75.209.12) | static.12.209.75.5.clients.your-server.de | - | High
-38 | [5.75.209.44](https://vuldb.com/?ip.5.75.209.44) | static.44.209.75.5.clients.your-server.de | - | High
-39 | [5.75.209.76](https://vuldb.com/?ip.5.75.209.76) | static.76.209.75.5.clients.your-server.de | - | High
-40 | [5.75.209.106](https://vuldb.com/?ip.5.75.209.106) | static.106.209.75.5.clients.your-server.de | - | High
-41 | [5.75.209.111](https://vuldb.com/?ip.5.75.209.111) | static.111.209.75.5.clients.your-server.de | - | High
-42 | [5.75.209.125](https://vuldb.com/?ip.5.75.209.125) | static.125.209.75.5.clients.your-server.de | - | High
-43 | [5.75.209.154](https://vuldb.com/?ip.5.75.209.154) | static.154.209.75.5.clients.your-server.de | - | High
-44 | [5.75.209.169](https://vuldb.com/?ip.5.75.209.169) | static.169.209.75.5.clients.your-server.de | - | High
-45 | [5.75.209.178](https://vuldb.com/?ip.5.75.209.178) | static.178.209.75.5.clients.your-server.de | - | High
-46 | [5.75.209.196](https://vuldb.com/?ip.5.75.209.196) | static.196.209.75.5.clients.your-server.de | - | High
-47 | [5.75.210.0](https://vuldb.com/?ip.5.75.210.0) | static.0.210.75.5.clients.your-server.de | - | High
-48 | [5.75.210.83](https://vuldb.com/?ip.5.75.210.83) | static.83.210.75.5.clients.your-server.de | - | High
-49 | [5.75.210.95](https://vuldb.com/?ip.5.75.210.95) | static.95.210.75.5.clients.your-server.de | - | High
-50 | [5.75.210.140](https://vuldb.com/?ip.5.75.210.140) | static.140.210.75.5.clients.your-server.de | - | High
-51 | [5.75.211.47](https://vuldb.com/?ip.5.75.211.47) | static.47.211.75.5.clients.your-server.de | - | High
-52 | [5.75.211.54](https://vuldb.com/?ip.5.75.211.54) | static.54.211.75.5.clients.your-server.de | - | High
-53 | [5.75.211.82](https://vuldb.com/?ip.5.75.211.82) | static.82.211.75.5.clients.your-server.de | - | High
-54 | [5.75.211.95](https://vuldb.com/?ip.5.75.211.95) | static.95.211.75.5.clients.your-server.de | - | High
-55 | [5.75.211.100](https://vuldb.com/?ip.5.75.211.100) | static.100.211.75.5.clients.your-server.de | - | High
-56 | [5.75.211.124](https://vuldb.com/?ip.5.75.211.124) | static.124.211.75.5.clients.your-server.de | - | High
-57 | [5.75.211.127](https://vuldb.com/?ip.5.75.211.127) | static.127.211.75.5.clients.your-server.de | - | High
-58 | [5.75.211.130](https://vuldb.com/?ip.5.75.211.130) | static.130.211.75.5.clients.your-server.de | - | High
-59 | [5.75.211.135](https://vuldb.com/?ip.5.75.211.135) | static.135.211.75.5.clients.your-server.de | - | High
-60 | [5.75.211.155](https://vuldb.com/?ip.5.75.211.155) | static.155.211.75.5.clients.your-server.de | - | High
-61 | [5.75.211.162](https://vuldb.com/?ip.5.75.211.162) | static.162.211.75.5.clients.your-server.de | - | High
-62 | [5.75.211.167](https://vuldb.com/?ip.5.75.211.167) | static.167.211.75.5.clients.your-server.de | - | High
-63 | [5.75.211.218](https://vuldb.com/?ip.5.75.211.218) | static.218.211.75.5.clients.your-server.de | - | High
-64 | [5.75.211.220](https://vuldb.com/?ip.5.75.211.220) | static.220.211.75.5.clients.your-server.de | - | High
-65 | [5.75.212.9](https://vuldb.com/?ip.5.75.212.9) | static.9.212.75.5.clients.your-server.de | - | High
-66 | [5.75.212.60](https://vuldb.com/?ip.5.75.212.60) | static.60.212.75.5.clients.your-server.de | - | High
-67 | [5.75.212.77](https://vuldb.com/?ip.5.75.212.77) | static.77.212.75.5.clients.your-server.de | - | High
-68 | [5.75.212.86](https://vuldb.com/?ip.5.75.212.86) | static.86.212.75.5.clients.your-server.de | - | High
-69 | [5.75.212.96](https://vuldb.com/?ip.5.75.212.96) | static.96.212.75.5.clients.your-server.de | - | High
-70 | [5.75.212.114](https://vuldb.com/?ip.5.75.212.114) | static.114.212.75.5.clients.your-server.de | - | High
-71 | [5.75.212.196](https://vuldb.com/?ip.5.75.212.196) | static.196.212.75.5.clients.your-server.de | - | High
-72 | [5.75.212.200](https://vuldb.com/?ip.5.75.212.200) | static.200.212.75.5.clients.your-server.de | - | High
-73 | [5.75.212.216](https://vuldb.com/?ip.5.75.212.216) | static.216.212.75.5.clients.your-server.de | - | High
-74 | [5.75.212.236](https://vuldb.com/?ip.5.75.212.236) | static.236.212.75.5.clients.your-server.de | - | High
-75 | [5.75.212.247](https://vuldb.com/?ip.5.75.212.247) | static.247.212.75.5.clients.your-server.de | - | High
-76 | [5.75.213.10](https://vuldb.com/?ip.5.75.213.10) | static.10.213.75.5.clients.your-server.de | - | High
-77 | [5.75.213.23](https://vuldb.com/?ip.5.75.213.23) | static.23.213.75.5.clients.your-server.de | - | High
-78 | [5.75.213.68](https://vuldb.com/?ip.5.75.213.68) | static.68.213.75.5.clients.your-server.de | - | High
-79 | [5.75.213.100](https://vuldb.com/?ip.5.75.213.100) | static.100.213.75.5.clients.your-server.de | - | High
-80 | [5.75.213.102](https://vuldb.com/?ip.5.75.213.102) | static.102.213.75.5.clients.your-server.de | - | High
-81 | [5.75.213.121](https://vuldb.com/?ip.5.75.213.121) | static.121.213.75.5.clients.your-server.de | - | High
-82 | [5.75.213.128](https://vuldb.com/?ip.5.75.213.128) | static.128.213.75.5.clients.your-server.de | - | High
-83 | [5.75.213.155](https://vuldb.com/?ip.5.75.213.155) | static.155.213.75.5.clients.your-server.de | - | High
-84 | [5.75.213.157](https://vuldb.com/?ip.5.75.213.157) | static.157.213.75.5.clients.your-server.de | - | High
-85 | [5.75.213.159](https://vuldb.com/?ip.5.75.213.159) | static.159.213.75.5.clients.your-server.de | - | High
-86 | [5.75.213.183](https://vuldb.com/?ip.5.75.213.183) | static.183.213.75.5.clients.your-server.de | - | High
-87 | [5.75.214.7](https://vuldb.com/?ip.5.75.214.7) | static.7.214.75.5.clients.your-server.de | - | High
-88 | [5.75.214.16](https://vuldb.com/?ip.5.75.214.16) | static.16.214.75.5.clients.your-server.de | - | High
-89 | [5.75.214.74](https://vuldb.com/?ip.5.75.214.74) | static.74.214.75.5.clients.your-server.de | - | High
-90 | [5.75.214.104](https://vuldb.com/?ip.5.75.214.104) | static.104.214.75.5.clients.your-server.de | - | High
-91 | [5.75.214.119](https://vuldb.com/?ip.5.75.214.119) | static.119.214.75.5.clients.your-server.de | - | High
-92 | [5.75.214.132](https://vuldb.com/?ip.5.75.214.132) | static.132.214.75.5.clients.your-server.de | - | High
-93 | [5.75.214.144](https://vuldb.com/?ip.5.75.214.144) | static.144.214.75.5.clients.your-server.de | - | High
-94 | [5.75.214.171](https://vuldb.com/?ip.5.75.214.171) | static.171.214.75.5.clients.your-server.de | - | High
-95 | [5.75.214.183](https://vuldb.com/?ip.5.75.214.183) | static.183.214.75.5.clients.your-server.de | - | High
-96 | [5.75.214.250](https://vuldb.com/?ip.5.75.214.250) | static.250.214.75.5.clients.your-server.de | - | High
-97 | [5.75.215.43](https://vuldb.com/?ip.5.75.215.43) | static.43.215.75.5.clients.your-server.de | - | High
-98 | [5.75.215.51](https://vuldb.com/?ip.5.75.215.51) | static.51.215.75.5.clients.your-server.de | - | High
-99 | [5.75.215.64](https://vuldb.com/?ip.5.75.215.64) | static.64.215.75.5.clients.your-server.de | - | High
-100 | [5.75.215.90](https://vuldb.com/?ip.5.75.215.90) | static.90.215.75.5.clients.your-server.de | - | High
-101 | [5.75.215.113](https://vuldb.com/?ip.5.75.215.113) | static.113.215.75.5.clients.your-server.de | - | High
-102 | [5.75.215.128](https://vuldb.com/?ip.5.75.215.128) | static.128.215.75.5.clients.your-server.de | - | High
-103 | [5.75.215.131](https://vuldb.com/?ip.5.75.215.131) | static.131.215.75.5.clients.your-server.de | - | High
-104 | [5.75.215.154](https://vuldb.com/?ip.5.75.215.154) | static.154.215.75.5.clients.your-server.de | - | High
-105 | [5.75.215.159](https://vuldb.com/?ip.5.75.215.159) | static.159.215.75.5.clients.your-server.de | - | High
-106 | [5.75.215.163](https://vuldb.com/?ip.5.75.215.163) | static.163.215.75.5.clients.your-server.de | - | High
-107 | [5.75.215.216](https://vuldb.com/?ip.5.75.215.216) | static.216.215.75.5.clients.your-server.de | - | High
-108 | [5.75.216.44](https://vuldb.com/?ip.5.75.216.44) | static.44.216.75.5.clients.your-server.de | - | High
-109 | [5.75.216.188](https://vuldb.com/?ip.5.75.216.188) | static.188.216.75.5.clients.your-server.de | - | High
-110 | [5.75.220.8](https://vuldb.com/?ip.5.75.220.8) | static.8.220.75.5.clients.your-server.de | - | High
-111 | [5.75.220.172](https://vuldb.com/?ip.5.75.220.172) | static.172.220.75.5.clients.your-server.de | - | High
-112 | [5.75.220.180](https://vuldb.com/?ip.5.75.220.180) | static.180.220.75.5.clients.your-server.de | - | High
-113 | [5.75.220.208](https://vuldb.com/?ip.5.75.220.208) | static.208.220.75.5.clients.your-server.de | - | High
-114 | [5.75.221.27](https://vuldb.com/?ip.5.75.221.27) | static.27.221.75.5.clients.your-server.de | - | High
-115 | [5.75.221.28](https://vuldb.com/?ip.5.75.221.28) | static.28.221.75.5.clients.your-server.de | - | High
-116 | [5.75.221.51](https://vuldb.com/?ip.5.75.221.51) | static.51.221.75.5.clients.your-server.de | - | High
-117 | [5.75.232.183](https://vuldb.com/?ip.5.75.232.183) | static.183.232.75.5.clients.your-server.de | - | High
-118 | [5.75.234.140](https://vuldb.com/?ip.5.75.234.140) | static.140.234.75.5.clients.your-server.de | - | High
-119 | [5.75.240.14](https://vuldb.com/?ip.5.75.240.14) | static.14.240.75.5.clients.your-server.de | - | High
-120 | [5.75.246.163](https://vuldb.com/?ip.5.75.246.163) | static.163.246.75.5.clients.your-server.de | - | High
-121 | [5.75.250.52](https://vuldb.com/?ip.5.75.250.52) | static.52.250.75.5.clients.your-server.de | - | High
-122 | [5.75.253.16](https://vuldb.com/?ip.5.75.253.16) | static.16.253.75.5.clients.your-server.de | - | High
-123 | [5.75.253.161](https://vuldb.com/?ip.5.75.253.161) | static.161.253.75.5.clients.your-server.de | - | High
-124 | [5.161.21.185](https://vuldb.com/?ip.5.161.21.185) | static.185.21.161.5.clients.your-server.de | - | High
-125 | [5.161.120.43](https://vuldb.com/?ip.5.161.120.43) | static.43.120.161.5.clients.your-server.de | - | High
-126 | [5.161.221.13](https://vuldb.com/?ip.5.161.221.13) | static.13.221.161.5.clients.your-server.de | - | High
-127 | [5.182.36.79](https://vuldb.com/?ip.5.182.36.79) | vm1292775.stark-industries.solutions | - | High
-128 | [5.182.37.147](https://vuldb.com/?ip.5.182.37.147) | vm1157310.stark-industries.solutions | - | High
-129 | [5.182.39.134](https://vuldb.com/?ip.5.182.39.134) | vm784970.stark-industries.solutions | - | High
-130 | [5.182.39.216](https://vuldb.com/?ip.5.182.39.216) | vm1160368.stark-industries.solutions | - | High
-131 | [5.182.39.218](https://vuldb.com/?ip.5.182.39.218) | vm867288.stark-industries.solutions | - | High
-132 | [5.182.39.224](https://vuldb.com/?ip.5.182.39.224) | vm1069181.stark-industries.solutions | - | High
-133 | [5.182.86.94](https://vuldb.com/?ip.5.182.86.94) | hungry-spot.aeza.network | - | High
-134 | [5.189.204.39](https://vuldb.com/?ip.5.189.204.39) | vpn684nl.com | - | High
-135 | [5.223.42.55](https://vuldb.com/?ip.5.223.42.55) | static.55.42.223.5.clients.your-server.de | - | High
-136 | [5.252.21.207](https://vuldb.com/?ip.5.252.21.207) | vm1107639.stark-industries.solutions | - | High
-137 | [5.252.21.245](https://vuldb.com/?ip.5.252.21.245) | vm1305217.stark-industries.solutions | - | High
-138 | [5.252.22.20](https://vuldb.com/?ip.5.252.22.20) | vm668354.stark-industries.solutions | - | High
-139 | [5.252.22.61](https://vuldb.com/?ip.5.252.22.61) | vm1321945.stark-industries.solutions | - | High
-140 | [5.252.22.196](https://vuldb.com/?ip.5.252.22.196) | vm1288108.stark-industries.solutions | - | High
-141 | [5.252.22.202](https://vuldb.com/?ip.5.252.22.202) | vm1308405.stark-industries.solutions | - | High
-142 | [5.252.22.203](https://vuldb.com/?ip.5.252.22.203) | vm622750.stark-industries.solutions | - | High
-143 | [5.252.23.24](https://vuldb.com/?ip.5.252.23.24) | vm1305376.stark-industries.solutions | - | High
-144 | [5.252.23.34](https://vuldb.com/?ip.5.252.23.34) | slovakkia.thepelic.com | - | High
-145 | [5.252.23.43](https://vuldb.com/?ip.5.252.23.43) | vm1301819.stark-industries.solutions | - | High
-146 | [5.252.23.65](https://vuldb.com/?ip.5.252.23.65) | mail.amazing-accident.info | - | High
-147 | [5.252.23.88](https://vuldb.com/?ip.5.252.23.88) | vm461927.stark-industries.solutions | - | High
-148 | [5.252.23.169](https://vuldb.com/?ip.5.252.23.169) | vm1278098.stark-industries.solutions | - | High
-149 | [5.252.118.12](https://vuldb.com/?ip.5.252.118.12) | workable-jam.aeza.network | - | High
-150 | [5.252.155.72](https://vuldb.com/?ip.5.252.155.72) | - | - | High
-151 | [5.252.176.49](https://vuldb.com/?ip.5.252.176.49) | no-rdns.mivocloud.com | - | High
-152 | [5.252.177.9](https://vuldb.com/?ip.5.252.177.9) | no-rdns.mivocloud.com | - | High
-153 | [5.252.177.45](https://vuldb.com/?ip.5.252.177.45) | no-rdns.mivocloud.com | - | High
-154 | [5.252.179.201](https://vuldb.com/?ip.5.252.179.201) | no-rdns.mivocloud.com | - | High
-155 | [5.253.18.70](https://vuldb.com/?ip.5.253.18.70) | - | - | High
-156 | [5.253.18.96](https://vuldb.com/?ip.5.253.18.96) | - | - | High
-157 | [5.253.18.97](https://vuldb.com/?ip.5.253.18.97) | - | - | High
-158 | [5.253.18.213](https://vuldb.com/?ip.5.253.18.213) | - | - | High
-159 | [5.254.118.147](https://vuldb.com/?ip.5.254.118.147) | - | - | High
-160 | [5.255.112.241](https://vuldb.com/?ip.5.255.112.241) | - | - | High
-161 | [23.88.36.149](https://vuldb.com/?ip.23.88.36.149) | static.149.36.88.23.clients.your-server.de | - | High
-162 | [23.88.45.254](https://vuldb.com/?ip.23.88.45.254) | static.254.45.88.23.clients.your-server.de | - | High
-163 | [23.88.46.51](https://vuldb.com/?ip.23.88.46.51) | static.51.46.88.23.clients.your-server.de | - | High
-164 | [23.88.46.113](https://vuldb.com/?ip.23.88.46.113) | static.113.46.88.23.clients.your-server.de | - | High
-165 | [23.88.47.9](https://vuldb.com/?ip.23.88.47.9) | static.9.47.88.23.clients.your-server.de | - | High
-166 | [23.88.115.141](https://vuldb.com/?ip.23.88.115.141) | static.141.115.88.23.clients.your-server.de | - | High
-167 | [23.88.117.132](https://vuldb.com/?ip.23.88.117.132) | static.132.117.88.23.clients.your-server.de | - | High
-168 | [23.88.121.200](https://vuldb.com/?ip.23.88.121.200) | static.200.121.88.23.clients.your-server.de | - | High
-169 | [23.106.122.140](https://vuldb.com/?ip.23.106.122.140) | - | - | High
-170 | [23.145.40.109](https://vuldb.com/?ip.23.145.40.109) | - | - | High
-171 | [37.27.0.69](https://vuldb.com/?ip.37.27.0.69) | static.69.0.27.37.clients.your-server.de | - | High
-172 | [37.27.6.23](https://vuldb.com/?ip.37.27.6.23) | static.23.6.27.37.clients.your-server.de | - | High
-173 | [37.27.11.1](https://vuldb.com/?ip.37.27.11.1) | static.1.11.27.37.clients.your-server.de | - | High
-174 | [37.27.11.177](https://vuldb.com/?ip.37.27.11.177) | static.177.11.27.37.clients.your-server.de | - | High
-175 | [37.27.17.95](https://vuldb.com/?ip.37.27.17.95) | static.95.17.27.37.clients.your-server.de | - | High
-176 | [37.27.20.125](https://vuldb.com/?ip.37.27.20.125) | static.125.20.27.37.clients.your-server.de | - | High
-177 | [37.27.26.28](https://vuldb.com/?ip.37.27.26.28) | static.28.26.27.37.clients.your-server.de | - | High
-178 | [37.27.31.150](https://vuldb.com/?ip.37.27.31.150) | static.150.31.27.37.clients.your-server.de | - | High
-179 | [37.27.34.12](https://vuldb.com/?ip.37.27.34.12) | static.12.34.27.37.clients.your-server.de | - | High
-180 | [37.27.36.6](https://vuldb.com/?ip.37.27.36.6) | static.6.36.27.37.clients.your-server.de | - | High
-181 | [37.27.43.98](https://vuldb.com/?ip.37.27.43.98) | static.98.43.27.37.clients.your-server.de | - | High
-182 | [37.27.87.155](https://vuldb.com/?ip.37.27.87.155) | static.155.87.27.37.clients.your-server.de | - | High
-183 | [37.27.179.0](https://vuldb.com/?ip.37.27.179.0) | static.0.179.27.37.clients.your-server.de | - | High
-184 | [37.27.182.109](https://vuldb.com/?ip.37.27.182.109) | static.109.182.27.37.clients.your-server.de | - | High
-185 | [37.27.186.135](https://vuldb.com/?ip.37.27.186.135) | static.135.186.27.37.clients.your-server.de | - | High
-186 | [37.27.192.221](https://vuldb.com/?ip.37.27.192.221) | static.221.192.27.37.clients.your-server.de | - | High
-187 | [37.27.214.36](https://vuldb.com/?ip.37.27.214.36) | static.36.214.27.37.clients.your-server.de | - | High
-188 | [37.123.196.7](https://vuldb.com/?ip.37.123.196.7) | - | - | High
-189 | [37.140.192.11](https://vuldb.com/?ip.37.140.192.11) | server107.hosting.reg.ru | - | High
-190 | [37.220.87.3](https://vuldb.com/?ip.37.220.87.3) | ipn-37-220-87-3.artem-catv.ru | - | High
-191 | [37.220.87.9](https://vuldb.com/?ip.37.220.87.9) | ipn-37-220-87-9.artem-catv.ru | - | High
-192 | [37.220.87.21](https://vuldb.com/?ip.37.220.87.21) | ipn-37-220-87-21.artem-catv.ru | - | High
-193 | [37.220.87.26](https://vuldb.com/?ip.37.220.87.26) | ipn-37-220-87-26.artem-catv.ru | - | High
-194 | [37.220.87.33](https://vuldb.com/?ip.37.220.87.33) | ipn-37-220-87-33.artem-catv.ru | - | High
-195 | [37.220.87.41](https://vuldb.com/?ip.37.220.87.41) | ipn-37-220-87-41.artem-catv.ru | - | High
-196 | [41.189.202.116](https://vuldb.com/?ip.41.189.202.116) | - | - | High
-197 | [42.186.202.116](https://vuldb.com/?ip.42.186.202.116) | - | - | High
-198 | [44.244.217.95](https://vuldb.com/?ip.44.244.217.95) | ec2-44-244-217-95.us-west-2.compute.amazonaws.com | - | Medium
-199 | [45.8.144.14](https://vuldb.com/?ip.45.8.144.14) | vm1326141.stark-industries.solutions | - | High
-200 | [45.8.144.62](https://vuldb.com/?ip.45.8.144.62) | italy3.forge-s.ru | - | High
-201 | [45.8.144.188](https://vuldb.com/?ip.45.8.144.188) | vm1268594.stark-industries.solutions | - | High
-202 | [45.8.144.232](https://vuldb.com/?ip.45.8.144.232) | - | - | High
-203 | [45.8.145.14](https://vuldb.com/?ip.45.8.145.14) | shardeum.syrup.com | - | High
-204 | [45.8.145.83](https://vuldb.com/?ip.45.8.145.83) | vm1268783.stark-industries.solutions | - | High
-205 | [45.8.145.85](https://vuldb.com/?ip.45.8.145.85) | vm1263292.stark-industries.solutions | - | High
-206 | [45.8.145.164](https://vuldb.com/?ip.45.8.145.164) | xenonserv6969.nutsack | - | High
-207 | [45.8.145.230](https://vuldb.com/?ip.45.8.145.230) | vm1078252.stark-industries.solutions | - | High
-208 | [45.8.146.18](https://vuldb.com/?ip.45.8.146.18) | vm1065889.stark-industries.solutions | - | High
-209 | [45.8.147.23](https://vuldb.com/?ip.45.8.147.23) | vm1215388.stark-industries.solutions | - | High
-210 | [45.8.147.51](https://vuldb.com/?ip.45.8.147.51) | mail.talent-flex.live | - | High
-211 | [45.8.147.74](https://vuldb.com/?ip.45.8.147.74) | vm689012.stark-industries.solutions | - | High
-212 | [45.8.147.145](https://vuldb.com/?ip.45.8.147.145) | vm1220510.stark-industries.solutions | - | High
-213 | [45.8.147.151](https://vuldb.com/?ip.45.8.147.151) | vm1044552.stark-industries.solutions | - | High
-214 | [45.8.147.191](https://vuldb.com/?ip.45.8.147.191) | vps.hostry.com | - | High
-215 | [45.8.147.221](https://vuldb.com/?ip.45.8.147.221) | vm713224.stark-industries.solutions | - | High
-216 | [45.8.147.224](https://vuldb.com/?ip.45.8.147.224) | vm1291410.stark-industries.solutions | - | High
-217 | [45.9.190.250](https://vuldb.com/?ip.45.9.190.250) | - | - | High
-218 | [45.9.191.215](https://vuldb.com/?ip.45.9.191.215) | - | - | High
-219 | [45.11.19.78](https://vuldb.com/?ip.45.11.19.78) | - | - | High
-220 | [45.15.156.121](https://vuldb.com/?ip.45.15.156.121) | - | - | High
-221 | [45.15.157.247](https://vuldb.com/?ip.45.15.157.247) | plain-food.aeza.network | - | High
-222 | [45.61.139.169](https://vuldb.com/?ip.45.61.139.169) | - | - | High
-223 | [45.67.35.153](https://vuldb.com/?ip.45.67.35.153) | destinystats.ru | - | High
-224 | [45.67.229.135](https://vuldb.com/?ip.45.67.229.135) | vm1328071.stark-industries.solutions | - | High
-225 | [45.83.122.248](https://vuldb.com/?ip.45.83.122.248) | xotkdxo.ptr1.ru | - | High
-226 | [45.86.86.144](https://vuldb.com/?ip.45.86.86.144) | jarention.info | - | High
-227 | [45.86.229.188](https://vuldb.com/?ip.45.86.229.188) | - | - | High
-228 | [45.87.154.35](https://vuldb.com/?ip.45.87.154.35) | vm1318841.stark-industries.solutions | - | High
-229 | [45.89.54.52](https://vuldb.com/?ip.45.89.54.52) | sk-gnome-1.gummicube.com | - | High
-230 | [45.89.54.144](https://vuldb.com/?ip.45.89.54.144) | vm609670.stark-industries.solutions | - | High
-231 | [45.89.55.70](https://vuldb.com/?ip.45.89.55.70) | vm1531142.stark-industries.solutions | - | High
-232 | [45.89.55.82](https://vuldb.com/?ip.45.89.55.82) | vm720207.stark-industries.solutions | - | High
-233 | [45.89.55.118](https://vuldb.com/?ip.45.89.55.118) | vm1230867.stark-industries.solutions | - | High
-234 | [45.89.55.154](https://vuldb.com/?ip.45.89.55.154) | vm1135907.stark-industries.solutions | - | High
-235 | [45.89.55.158](https://vuldb.com/?ip.45.89.55.158) | mail.elastic-mounds.live | - | High
-236 | [45.89.55.159](https://vuldb.com/?ip.45.89.55.159) | vm1138080.stark-industries.solutions | - | High
-237 | [45.89.55.174](https://vuldb.com/?ip.45.89.55.174) | vm1042352.stark-industries.solutions | - | High
-238 | [45.89.55.176](https://vuldb.com/?ip.45.89.55.176) | vps.hostry.com | - | High
-239 | [45.89.55.177](https://vuldb.com/?ip.45.89.55.177) | vps.hostry.com | - | High
-240 | [45.92.156.110](https://vuldb.com/?ip.45.92.156.110) | - | - | High
-241 | [45.92.156.133](https://vuldb.com/?ip.45.92.156.133) | - | - | High
-242 | [45.95.11.13](https://vuldb.com/?ip.45.95.11.13) | - | - | High
-243 | [45.132.106.60](https://vuldb.com/?ip.45.132.106.60) | vm4387358.34ssd.had.wf | - | High
-244 | [45.136.49.229](https://vuldb.com/?ip.45.136.49.229) | - | - | High
-245 | [45.136.50.120](https://vuldb.com/?ip.45.136.50.120) | mtfhotkzody0.clientesboletos.de | - | High
-246 | [45.138.74.1](https://vuldb.com/?ip.45.138.74.1) | dearstep.aeza.network | - | High
-247 | [45.138.74.85](https://vuldb.com/?ip.45.138.74.85) | spiritual-notebook.aeza.network | - | High
-248 | [45.138.74.114](https://vuldb.com/?ip.45.138.74.114) | swell-pie.aeza.network | - | High
-249 | [45.142.212.155](https://vuldb.com/?ip.45.142.212.155) | hamed.co | - | High
-250 | [45.142.213.7](https://vuldb.com/?ip.45.142.213.7) | vm1280158.stark-industries.solutions | - | High
-251 | [45.142.213.52](https://vuldb.com/?ip.45.142.213.52) | vm1061668.stark-industries.solutions | - | High
-252 | [45.144.28.165](https://vuldb.com/?ip.45.144.28.165) | vm2141511.stark-industries.solutions | - | High
-253 | [45.150.64.207](https://vuldb.com/?ip.45.150.64.207) | server.local | - | High
-254 | [45.153.230.169](https://vuldb.com/?ip.45.153.230.169) | vm1311101.stark-industries.solutions | - | High
-255 | [45.153.230.241](https://vuldb.com/?ip.45.153.230.241) | vm1282051.stark-industries.solutions | - | High
-256 | [45.159.48.224](https://vuldb.com/?ip.45.159.48.224) | - | - | High
-257 | [45.159.248.53](https://vuldb.com/?ip.45.159.248.53) | deserunthvjqu.projectonline.online | - | High
-258 | [45.159.248.173](https://vuldb.com/?ip.45.159.248.173) | vm1273998.stark-industries.solutions | - | High
-259 | [45.159.249.2](https://vuldb.com/?ip.45.159.249.2) | wg-358-9-1.wgnet.work | - | High
-260 | [45.159.249.3](https://vuldb.com/?ip.45.159.249.3) | vm633410.stark-industries.solutions | - | High
-261 | [45.159.249.4](https://vuldb.com/?ip.45.159.249.4) | vm1323066.stark-industries.solutions | - | High
-262 | [45.159.249.5](https://vuldb.com/?ip.45.159.249.5) | vm581344.stark-industries.solutions | - | High
-263 | [45.159.249.133](https://vuldb.com/?ip.45.159.249.133) | vm1323066.stark-industries.solutions | - | High
-264 | [45.159.249.160](https://vuldb.com/?ip.45.159.249.160) | mail.datingmoms.info | - | High
-265 | [45.159.249.181](https://vuldb.com/?ip.45.159.249.181) | vm1266190.stark-industries.solutions | - | High
-266 | [45.159.251.224](https://vuldb.com/?ip.45.159.251.224) | vm1336366.stark-industries.solutions | - | High
-267 | [46.4.4.76](https://vuldb.com/?ip.46.4.4.76) | k92z70.meinserver.io | - | High
-268 | [46.226.160.169](https://vuldb.com/?ip.46.226.160.169) | laughable-north.aeza.network | - | High
-269 | [46.246.98.9](https://vuldb.com/?ip.46.246.98.9) | 46-246-98-9.static.glesys.net | - | High
-270 | [49.12.8.228](https://vuldb.com/?ip.49.12.8.228) | static.228.8.12.49.clients.your-server.de | - | High
-271 | [49.12.9.140](https://vuldb.com/?ip.49.12.9.140) | static.140.9.12.49.clients.your-server.de | - | High
-272 | [49.12.15.204](https://vuldb.com/?ip.49.12.15.204) | static.204.15.12.49.clients.your-server.de | - | High
-273 | [49.12.34.6](https://vuldb.com/?ip.49.12.34.6) | static.6.34.12.49.clients.your-server.de | - | High
-274 | [49.12.72.35](https://vuldb.com/?ip.49.12.72.35) | static.35.72.12.49.clients.your-server.de | - | High
-275 | [49.12.79.235](https://vuldb.com/?ip.49.12.79.235) | static.235.79.12.49.clients.your-server.de | - | High
-276 | [49.12.101.249](https://vuldb.com/?ip.49.12.101.249) | static.249.101.12.49.clients.your-server.de | - | High
-277 | [49.12.103.42](https://vuldb.com/?ip.49.12.103.42) | static.42.103.12.49.clients.your-server.de | - | High
-278 | [49.12.106.214](https://vuldb.com/?ip.49.12.106.214) | static.214.106.12.49.clients.your-server.de | - | High
-279 | [49.12.106.231](https://vuldb.com/?ip.49.12.106.231) | static.231.106.12.49.clients.your-server.de | - | High
-280 | [49.12.112.48](https://vuldb.com/?ip.49.12.112.48) | static.48.112.12.49.clients.your-server.de | - | High
-281 | [49.12.113.110](https://vuldb.com/?ip.49.12.113.110) | static.110.113.12.49.clients.your-server.de | - | High
-282 | [49.12.113.195](https://vuldb.com/?ip.49.12.113.195) | static.195.113.12.49.clients.your-server.de | - | High
-283 | [49.12.113.201](https://vuldb.com/?ip.49.12.113.201) | static.201.113.12.49.clients.your-server.de | - | High
-284 | [49.12.113.223](https://vuldb.com/?ip.49.12.113.223) | static.223.113.12.49.clients.your-server.de | - | High
-285 | [49.12.113.229](https://vuldb.com/?ip.49.12.113.229) | static.229.113.12.49.clients.your-server.de | - | High
-286 | [49.12.114.15](https://vuldb.com/?ip.49.12.114.15) | static.15.114.12.49.clients.your-server.de | - | High
-287 | [49.12.115.0](https://vuldb.com/?ip.49.12.115.0) | static.0.115.12.49.clients.your-server.de | - | High
-288 | [49.12.115.57](https://vuldb.com/?ip.49.12.115.57) | static.57.115.12.49.clients.your-server.de | - | High
-289 | [49.12.115.59](https://vuldb.com/?ip.49.12.115.59) | static.59.115.12.49.clients.your-server.de | - | High
-290 | [49.12.115.112](https://vuldb.com/?ip.49.12.115.112) | static.112.115.12.49.clients.your-server.de | - | High
-291 | [49.12.115.154](https://vuldb.com/?ip.49.12.115.154) | static.154.115.12.49.clients.your-server.de | - | High
-292 | [49.12.115.229](https://vuldb.com/?ip.49.12.115.229) | static.229.115.12.49.clients.your-server.de | - | High
-293 | [49.12.116.5](https://vuldb.com/?ip.49.12.116.5) | static.5.116.12.49.clients.your-server.de | - | High
-294 | [49.12.116.63](https://vuldb.com/?ip.49.12.116.63) | static.63.116.12.49.clients.your-server.de | - | High
-295 | [49.12.116.189](https://vuldb.com/?ip.49.12.116.189) | static.189.116.12.49.clients.your-server.de | - | High
-296 | [49.12.116.191](https://vuldb.com/?ip.49.12.116.191) | static.191.116.12.49.clients.your-server.de | - | High
-297 | [49.12.117.107](https://vuldb.com/?ip.49.12.117.107) | static.107.117.12.49.clients.your-server.de | - | High
-298 | [49.12.117.118](https://vuldb.com/?ip.49.12.117.118) | static.118.117.12.49.clients.your-server.de | - | High
-299 | [49.12.118.45](https://vuldb.com/?ip.49.12.118.45) | static.45.118.12.49.clients.your-server.de | - | High
-300 | [49.12.118.149](https://vuldb.com/?ip.49.12.118.149) | static.149.118.12.49.clients.your-server.de | - | High
-301 | [49.12.118.151](https://vuldb.com/?ip.49.12.118.151) | static.151.118.12.49.clients.your-server.de | - | High
-302 | [49.12.118.167](https://vuldb.com/?ip.49.12.118.167) | static.167.118.12.49.clients.your-server.de | - | High
-303 | [49.12.118.185](https://vuldb.com/?ip.49.12.118.185) | static.185.118.12.49.clients.your-server.de | - | High
-304 | [49.12.118.209](https://vuldb.com/?ip.49.12.118.209) | static.209.118.12.49.clients.your-server.de | - | High
-305 | [49.12.119.56](https://vuldb.com/?ip.49.12.119.56) | static.56.119.12.49.clients.your-server.de | - | High
-306 | [49.12.119.95](https://vuldb.com/?ip.49.12.119.95) | static.95.119.12.49.clients.your-server.de | - | High
-307 | [49.12.119.148](https://vuldb.com/?ip.49.12.119.148) | static.148.119.12.49.clients.your-server.de | - | High
-308 | [49.12.119.193](https://vuldb.com/?ip.49.12.119.193) | static.193.119.12.49.clients.your-server.de | - | High
-309 | [49.12.196.69](https://vuldb.com/?ip.49.12.196.69) | static.69.196.12.49.clients.your-server.de | - | High
-310 | [49.12.197.9](https://vuldb.com/?ip.49.12.197.9) | static.9.197.12.49.clients.your-server.de | - | High
-311 | [49.12.200.224](https://vuldb.com/?ip.49.12.200.224) | static.224.200.12.49.clients.your-server.de | - | High
-312 | [49.12.211.132](https://vuldb.com/?ip.49.12.211.132) | static.132.211.12.49.clients.your-server.de | - | High
-313 | [49.12.237.50](https://vuldb.com/?ip.49.12.237.50) | static.50.237.12.49.clients.your-server.de | - | High
-314 | [49.13.1.124](https://vuldb.com/?ip.49.13.1.124) | static.124.1.13.49.clients.your-server.de | - | High
-315 | [49.13.6.118](https://vuldb.com/?ip.49.13.6.118) | static.118.6.13.49.clients.your-server.de | - | High
-316 | [49.13.9.29](https://vuldb.com/?ip.49.13.9.29) | static.29.9.13.49.clients.your-server.de | - | High
-317 | [49.13.27.53](https://vuldb.com/?ip.49.13.27.53) | static.53.27.13.49.clients.your-server.de | - | High
-318 | [49.13.32.37](https://vuldb.com/?ip.49.13.32.37) | static.37.32.13.49.clients.your-server.de | - | High
-319 | [49.13.32.53](https://vuldb.com/?ip.49.13.32.53) | static.53.32.13.49.clients.your-server.de | - | High
-320 | [49.13.32.95](https://vuldb.com/?ip.49.13.32.95) | static.95.32.13.49.clients.your-server.de | - | High
-321 | [49.13.32.109](https://vuldb.com/?ip.49.13.32.109) | static.109.32.13.49.clients.your-server.de | - | High
-322 | [49.13.32.146](https://vuldb.com/?ip.49.13.32.146) | static.146.32.13.49.clients.your-server.de | - | High
-323 | [49.13.32.185](https://vuldb.com/?ip.49.13.32.185) | static.185.32.13.49.clients.your-server.de | - | High
-324 | [49.13.32.193](https://vuldb.com/?ip.49.13.32.193) | static.193.32.13.49.clients.your-server.de | - | High
-325 | [49.13.32.231](https://vuldb.com/?ip.49.13.32.231) | static.231.32.13.49.clients.your-server.de | - | High
-326 | [49.13.33.8](https://vuldb.com/?ip.49.13.33.8) | static.8.33.13.49.clients.your-server.de | - | High
-327 | [49.13.33.99](https://vuldb.com/?ip.49.13.33.99) | static.99.33.13.49.clients.your-server.de | - | High
-328 | [49.13.33.235](https://vuldb.com/?ip.49.13.33.235) | static.235.33.13.49.clients.your-server.de | - | High
-329 | [49.13.33.252](https://vuldb.com/?ip.49.13.33.252) | static.252.33.13.49.clients.your-server.de | - | High
-330 | [49.13.49.198](https://vuldb.com/?ip.49.13.49.198) | static.198.49.13.49.clients.your-server.de | - | High
-331 | [49.13.50.61](https://vuldb.com/?ip.49.13.50.61) | static.61.50.13.49.clients.your-server.de | - | High
-332 | [49.13.59.137](https://vuldb.com/?ip.49.13.59.137) | static.137.59.13.49.clients.your-server.de | - | High
-333 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
-334 | [49.13.80.90](https://vuldb.com/?ip.49.13.80.90) | static.90.80.13.49.clients.your-server.de | - | High
-335 | [49.13.86.44](https://vuldb.com/?ip.49.13.86.44) | static.44.86.13.49.clients.your-server.de | - | High
-336 | [49.13.87.142](https://vuldb.com/?ip.49.13.87.142) | static.142.87.13.49.clients.your-server.de | - | High
-337 | [49.13.89.149](https://vuldb.com/?ip.49.13.89.149) | static.149.89.13.49.clients.your-server.de | - | High
-338 | ... | ... | ... | ...
+36 | [5.75.208.251](https://vuldb.com/?ip.5.75.208.251) | static.251.208.75.5.clients.your-server.de | - | High
+37 | [5.75.209.4](https://vuldb.com/?ip.5.75.209.4) | static.4.209.75.5.clients.your-server.de | - | High
+38 | [5.75.209.12](https://vuldb.com/?ip.5.75.209.12) | static.12.209.75.5.clients.your-server.de | - | High
+39 | [5.75.209.44](https://vuldb.com/?ip.5.75.209.44) | static.44.209.75.5.clients.your-server.de | - | High
+40 | [5.75.209.76](https://vuldb.com/?ip.5.75.209.76) | static.76.209.75.5.clients.your-server.de | - | High
+41 | [5.75.209.106](https://vuldb.com/?ip.5.75.209.106) | static.106.209.75.5.clients.your-server.de | - | High
+42 | [5.75.209.111](https://vuldb.com/?ip.5.75.209.111) | static.111.209.75.5.clients.your-server.de | - | High
+43 | [5.75.209.125](https://vuldb.com/?ip.5.75.209.125) | static.125.209.75.5.clients.your-server.de | - | High
+44 | [5.75.209.154](https://vuldb.com/?ip.5.75.209.154) | static.154.209.75.5.clients.your-server.de | - | High
+45 | [5.75.209.169](https://vuldb.com/?ip.5.75.209.169) | static.169.209.75.5.clients.your-server.de | - | High
+46 | [5.75.209.178](https://vuldb.com/?ip.5.75.209.178) | static.178.209.75.5.clients.your-server.de | - | High
+47 | [5.75.209.196](https://vuldb.com/?ip.5.75.209.196) | static.196.209.75.5.clients.your-server.de | - | High
+48 | [5.75.210.0](https://vuldb.com/?ip.5.75.210.0) | static.0.210.75.5.clients.your-server.de | - | High
+49 | [5.75.210.83](https://vuldb.com/?ip.5.75.210.83) | static.83.210.75.5.clients.your-server.de | - | High
+50 | [5.75.210.95](https://vuldb.com/?ip.5.75.210.95) | static.95.210.75.5.clients.your-server.de | - | High
+51 | [5.75.210.140](https://vuldb.com/?ip.5.75.210.140) | static.140.210.75.5.clients.your-server.de | - | High
+52 | [5.75.210.161](https://vuldb.com/?ip.5.75.210.161) | static.161.210.75.5.clients.your-server.de | - | High
+53 | [5.75.210.165](https://vuldb.com/?ip.5.75.210.165) | static.165.210.75.5.clients.your-server.de | - | High
+54 | [5.75.211.47](https://vuldb.com/?ip.5.75.211.47) | static.47.211.75.5.clients.your-server.de | - | High
+55 | [5.75.211.54](https://vuldb.com/?ip.5.75.211.54) | static.54.211.75.5.clients.your-server.de | - | High
+56 | [5.75.211.82](https://vuldb.com/?ip.5.75.211.82) | static.82.211.75.5.clients.your-server.de | - | High
+57 | [5.75.211.95](https://vuldb.com/?ip.5.75.211.95) | static.95.211.75.5.clients.your-server.de | - | High
+58 | [5.75.211.100](https://vuldb.com/?ip.5.75.211.100) | static.100.211.75.5.clients.your-server.de | - | High
+59 | [5.75.211.124](https://vuldb.com/?ip.5.75.211.124) | static.124.211.75.5.clients.your-server.de | - | High
+60 | [5.75.211.127](https://vuldb.com/?ip.5.75.211.127) | static.127.211.75.5.clients.your-server.de | - | High
+61 | [5.75.211.130](https://vuldb.com/?ip.5.75.211.130) | static.130.211.75.5.clients.your-server.de | - | High
+62 | [5.75.211.135](https://vuldb.com/?ip.5.75.211.135) | static.135.211.75.5.clients.your-server.de | - | High
+63 | [5.75.211.155](https://vuldb.com/?ip.5.75.211.155) | static.155.211.75.5.clients.your-server.de | - | High
+64 | [5.75.211.162](https://vuldb.com/?ip.5.75.211.162) | static.162.211.75.5.clients.your-server.de | - | High
+65 | [5.75.211.167](https://vuldb.com/?ip.5.75.211.167) | static.167.211.75.5.clients.your-server.de | - | High
+66 | [5.75.211.194](https://vuldb.com/?ip.5.75.211.194) | static.194.211.75.5.clients.your-server.de | - | High
+67 | [5.75.211.213](https://vuldb.com/?ip.5.75.211.213) | static.213.211.75.5.clients.your-server.de | - | High
+68 | [5.75.211.218](https://vuldb.com/?ip.5.75.211.218) | static.218.211.75.5.clients.your-server.de | - | High
+69 | [5.75.211.220](https://vuldb.com/?ip.5.75.211.220) | static.220.211.75.5.clients.your-server.de | - | High
+70 | [5.75.211.226](https://vuldb.com/?ip.5.75.211.226) | static.226.211.75.5.clients.your-server.de | - | High
+71 | [5.75.212.9](https://vuldb.com/?ip.5.75.212.9) | static.9.212.75.5.clients.your-server.de | - | High
+72 | [5.75.212.60](https://vuldb.com/?ip.5.75.212.60) | static.60.212.75.5.clients.your-server.de | - | High
+73 | [5.75.212.77](https://vuldb.com/?ip.5.75.212.77) | static.77.212.75.5.clients.your-server.de | - | High
+74 | [5.75.212.86](https://vuldb.com/?ip.5.75.212.86) | static.86.212.75.5.clients.your-server.de | - | High
+75 | [5.75.212.96](https://vuldb.com/?ip.5.75.212.96) | static.96.212.75.5.clients.your-server.de | - | High
+76 | [5.75.212.114](https://vuldb.com/?ip.5.75.212.114) | static.114.212.75.5.clients.your-server.de | - | High
+77 | [5.75.212.196](https://vuldb.com/?ip.5.75.212.196) | static.196.212.75.5.clients.your-server.de | - | High
+78 | [5.75.212.200](https://vuldb.com/?ip.5.75.212.200) | static.200.212.75.5.clients.your-server.de | - | High
+79 | [5.75.212.216](https://vuldb.com/?ip.5.75.212.216) | static.216.212.75.5.clients.your-server.de | - | High
+80 | [5.75.212.236](https://vuldb.com/?ip.5.75.212.236) | static.236.212.75.5.clients.your-server.de | - | High
+81 | [5.75.212.247](https://vuldb.com/?ip.5.75.212.247) | static.247.212.75.5.clients.your-server.de | - | High
+82 | [5.75.213.10](https://vuldb.com/?ip.5.75.213.10) | static.10.213.75.5.clients.your-server.de | - | High
+83 | [5.75.213.23](https://vuldb.com/?ip.5.75.213.23) | static.23.213.75.5.clients.your-server.de | - | High
+84 | [5.75.213.65](https://vuldb.com/?ip.5.75.213.65) | static.65.213.75.5.clients.your-server.de | - | High
+85 | [5.75.213.68](https://vuldb.com/?ip.5.75.213.68) | static.68.213.75.5.clients.your-server.de | - | High
+86 | [5.75.213.100](https://vuldb.com/?ip.5.75.213.100) | static.100.213.75.5.clients.your-server.de | - | High
+87 | [5.75.213.102](https://vuldb.com/?ip.5.75.213.102) | static.102.213.75.5.clients.your-server.de | - | High
+88 | [5.75.213.121](https://vuldb.com/?ip.5.75.213.121) | static.121.213.75.5.clients.your-server.de | - | High
+89 | [5.75.213.128](https://vuldb.com/?ip.5.75.213.128) | static.128.213.75.5.clients.your-server.de | - | High
+90 | [5.75.213.155](https://vuldb.com/?ip.5.75.213.155) | static.155.213.75.5.clients.your-server.de | - | High
+91 | [5.75.213.157](https://vuldb.com/?ip.5.75.213.157) | static.157.213.75.5.clients.your-server.de | - | High
+92 | [5.75.213.159](https://vuldb.com/?ip.5.75.213.159) | static.159.213.75.5.clients.your-server.de | - | High
+93 | [5.75.213.183](https://vuldb.com/?ip.5.75.213.183) | static.183.213.75.5.clients.your-server.de | - | High
+94 | [5.75.214.7](https://vuldb.com/?ip.5.75.214.7) | static.7.214.75.5.clients.your-server.de | - | High
+95 | [5.75.214.16](https://vuldb.com/?ip.5.75.214.16) | static.16.214.75.5.clients.your-server.de | - | High
+96 | [5.75.214.74](https://vuldb.com/?ip.5.75.214.74) | static.74.214.75.5.clients.your-server.de | - | High
+97 | [5.75.214.104](https://vuldb.com/?ip.5.75.214.104) | static.104.214.75.5.clients.your-server.de | - | High
+98 | [5.75.214.119](https://vuldb.com/?ip.5.75.214.119) | static.119.214.75.5.clients.your-server.de | - | High
+99 | [5.75.214.132](https://vuldb.com/?ip.5.75.214.132) | static.132.214.75.5.clients.your-server.de | - | High
+100 | [5.75.214.144](https://vuldb.com/?ip.5.75.214.144) | static.144.214.75.5.clients.your-server.de | - | High
+101 | [5.75.214.171](https://vuldb.com/?ip.5.75.214.171) | static.171.214.75.5.clients.your-server.de | - | High
+102 | [5.75.214.183](https://vuldb.com/?ip.5.75.214.183) | static.183.214.75.5.clients.your-server.de | - | High
+103 | [5.75.214.250](https://vuldb.com/?ip.5.75.214.250) | static.250.214.75.5.clients.your-server.de | - | High
+104 | [5.75.215.43](https://vuldb.com/?ip.5.75.215.43) | static.43.215.75.5.clients.your-server.de | - | High
+105 | [5.75.215.51](https://vuldb.com/?ip.5.75.215.51) | static.51.215.75.5.clients.your-server.de | - | High
+106 | [5.75.215.64](https://vuldb.com/?ip.5.75.215.64) | static.64.215.75.5.clients.your-server.de | - | High
+107 | [5.75.215.90](https://vuldb.com/?ip.5.75.215.90) | static.90.215.75.5.clients.your-server.de | - | High
+108 | [5.75.215.113](https://vuldb.com/?ip.5.75.215.113) | static.113.215.75.5.clients.your-server.de | - | High
+109 | [5.75.215.128](https://vuldb.com/?ip.5.75.215.128) | static.128.215.75.5.clients.your-server.de | - | High
+110 | [5.75.215.131](https://vuldb.com/?ip.5.75.215.131) | static.131.215.75.5.clients.your-server.de | - | High
+111 | [5.75.215.154](https://vuldb.com/?ip.5.75.215.154) | static.154.215.75.5.clients.your-server.de | - | High
+112 | [5.75.215.159](https://vuldb.com/?ip.5.75.215.159) | static.159.215.75.5.clients.your-server.de | - | High
+113 | [5.75.215.163](https://vuldb.com/?ip.5.75.215.163) | static.163.215.75.5.clients.your-server.de | - | High
+114 | [5.75.215.216](https://vuldb.com/?ip.5.75.215.216) | static.216.215.75.5.clients.your-server.de | - | High
+115 | [5.75.216.31](https://vuldb.com/?ip.5.75.216.31) | static.31.216.75.5.clients.your-server.de | - | High
+116 | [5.75.216.44](https://vuldb.com/?ip.5.75.216.44) | static.44.216.75.5.clients.your-server.de | - | High
+117 | [5.75.216.188](https://vuldb.com/?ip.5.75.216.188) | static.188.216.75.5.clients.your-server.de | - | High
+118 | [5.75.216.229](https://vuldb.com/?ip.5.75.216.229) | static.229.216.75.5.clients.your-server.de | - | High
+119 | [5.75.217.163](https://vuldb.com/?ip.5.75.217.163) | static.163.217.75.5.clients.your-server.de | - | High
+120 | [5.75.217.179](https://vuldb.com/?ip.5.75.217.179) | static.179.217.75.5.clients.your-server.de | - | High
+121 | [5.75.220.8](https://vuldb.com/?ip.5.75.220.8) | static.8.220.75.5.clients.your-server.de | - | High
+122 | [5.75.220.172](https://vuldb.com/?ip.5.75.220.172) | static.172.220.75.5.clients.your-server.de | - | High
+123 | [5.75.220.180](https://vuldb.com/?ip.5.75.220.180) | static.180.220.75.5.clients.your-server.de | - | High
+124 | [5.75.220.208](https://vuldb.com/?ip.5.75.220.208) | static.208.220.75.5.clients.your-server.de | - | High
+125 | [5.75.221.27](https://vuldb.com/?ip.5.75.221.27) | static.27.221.75.5.clients.your-server.de | - | High
+126 | [5.75.221.28](https://vuldb.com/?ip.5.75.221.28) | static.28.221.75.5.clients.your-server.de | - | High
+127 | [5.75.221.51](https://vuldb.com/?ip.5.75.221.51) | static.51.221.75.5.clients.your-server.de | - | High
+128 | [5.75.222.4](https://vuldb.com/?ip.5.75.222.4) | static.4.222.75.5.clients.your-server.de | - | High
+129 | [5.75.222.189](https://vuldb.com/?ip.5.75.222.189) | static.189.222.75.5.clients.your-server.de | - | High
+130 | [5.75.222.190](https://vuldb.com/?ip.5.75.222.190) | static.190.222.75.5.clients.your-server.de | - | High
+131 | [5.75.222.210](https://vuldb.com/?ip.5.75.222.210) | static.210.222.75.5.clients.your-server.de | - | High
+132 | [5.75.232.183](https://vuldb.com/?ip.5.75.232.183) | static.183.232.75.5.clients.your-server.de | - | High
+133 | [5.75.234.140](https://vuldb.com/?ip.5.75.234.140) | static.140.234.75.5.clients.your-server.de | - | High
+134 | [5.75.240.14](https://vuldb.com/?ip.5.75.240.14) | static.14.240.75.5.clients.your-server.de | - | High
+135 | [5.75.246.163](https://vuldb.com/?ip.5.75.246.163) | static.163.246.75.5.clients.your-server.de | - | High
+136 | [5.75.250.52](https://vuldb.com/?ip.5.75.250.52) | static.52.250.75.5.clients.your-server.de | - | High
+137 | [5.75.253.16](https://vuldb.com/?ip.5.75.253.16) | static.16.253.75.5.clients.your-server.de | - | High
+138 | [5.75.253.161](https://vuldb.com/?ip.5.75.253.161) | static.161.253.75.5.clients.your-server.de | - | High
+139 | [5.161.21.185](https://vuldb.com/?ip.5.161.21.185) | static.185.21.161.5.clients.your-server.de | - | High
+140 | [5.161.120.43](https://vuldb.com/?ip.5.161.120.43) | static.43.120.161.5.clients.your-server.de | - | High
+141 | [5.161.221.13](https://vuldb.com/?ip.5.161.221.13) | static.13.221.161.5.clients.your-server.de | - | High
+142 | [5.182.36.79](https://vuldb.com/?ip.5.182.36.79) | vm1292775.stark-industries.solutions | - | High
+143 | [5.182.37.147](https://vuldb.com/?ip.5.182.37.147) | vm1157310.stark-industries.solutions | - | High
+144 | [5.182.39.134](https://vuldb.com/?ip.5.182.39.134) | vm784970.stark-industries.solutions | - | High
+145 | [5.182.39.216](https://vuldb.com/?ip.5.182.39.216) | vm1160368.stark-industries.solutions | - | High
+146 | [5.182.39.218](https://vuldb.com/?ip.5.182.39.218) | vm867288.stark-industries.solutions | - | High
+147 | [5.182.39.224](https://vuldb.com/?ip.5.182.39.224) | vm1069181.stark-industries.solutions | - | High
+148 | [5.182.86.94](https://vuldb.com/?ip.5.182.86.94) | hungry-spot.aeza.network | - | High
+149 | [5.189.204.39](https://vuldb.com/?ip.5.189.204.39) | vpn684nl.com | - | High
+150 | [5.223.42.55](https://vuldb.com/?ip.5.223.42.55) | static.55.42.223.5.clients.your-server.de | - | High
+151 | [5.252.21.207](https://vuldb.com/?ip.5.252.21.207) | vm1107639.stark-industries.solutions | - | High
+152 | [5.252.21.245](https://vuldb.com/?ip.5.252.21.245) | vm1305217.stark-industries.solutions | - | High
+153 | [5.252.22.20](https://vuldb.com/?ip.5.252.22.20) | vm668354.stark-industries.solutions | - | High
+154 | [5.252.22.61](https://vuldb.com/?ip.5.252.22.61) | vm1321945.stark-industries.solutions | - | High
+155 | [5.252.22.196](https://vuldb.com/?ip.5.252.22.196) | vm1288108.stark-industries.solutions | - | High
+156 | [5.252.22.202](https://vuldb.com/?ip.5.252.22.202) | vm1308405.stark-industries.solutions | - | High
+157 | [5.252.22.203](https://vuldb.com/?ip.5.252.22.203) | vm622750.stark-industries.solutions | - | High
+158 | [5.252.23.24](https://vuldb.com/?ip.5.252.23.24) | vm1305376.stark-industries.solutions | - | High
+159 | [5.252.23.34](https://vuldb.com/?ip.5.252.23.34) | slovakkia.thepelic.com | - | High
+160 | [5.252.23.43](https://vuldb.com/?ip.5.252.23.43) | vm1301819.stark-industries.solutions | - | High
+161 | [5.252.23.65](https://vuldb.com/?ip.5.252.23.65) | mail.amazing-accident.info | - | High
+162 | [5.252.23.88](https://vuldb.com/?ip.5.252.23.88) | vm461927.stark-industries.solutions | - | High
+163 | [5.252.23.169](https://vuldb.com/?ip.5.252.23.169) | vm1278098.stark-industries.solutions | - | High
+164 | [5.252.118.12](https://vuldb.com/?ip.5.252.118.12) | workable-jam.aeza.network | - | High
+165 | [5.252.155.72](https://vuldb.com/?ip.5.252.155.72) | - | - | High
+166 | [5.252.176.49](https://vuldb.com/?ip.5.252.176.49) | no-rdns.mivocloud.com | - | High
+167 | [5.252.177.9](https://vuldb.com/?ip.5.252.177.9) | no-rdns.mivocloud.com | - | High
+168 | [5.252.177.45](https://vuldb.com/?ip.5.252.177.45) | no-rdns.mivocloud.com | - | High
+169 | [5.252.179.201](https://vuldb.com/?ip.5.252.179.201) | no-rdns.mivocloud.com | - | High
+170 | [5.253.18.70](https://vuldb.com/?ip.5.253.18.70) | - | - | High
+171 | [5.253.18.96](https://vuldb.com/?ip.5.253.18.96) | - | - | High
+172 | [5.253.18.97](https://vuldb.com/?ip.5.253.18.97) | - | - | High
+173 | [5.253.18.213](https://vuldb.com/?ip.5.253.18.213) | - | - | High
+174 | [5.254.118.147](https://vuldb.com/?ip.5.254.118.147) | - | - | High
+175 | [5.255.112.241](https://vuldb.com/?ip.5.255.112.241) | - | - | High
+176 | [23.88.36.149](https://vuldb.com/?ip.23.88.36.149) | static.149.36.88.23.clients.your-server.de | - | High
+177 | [23.88.45.254](https://vuldb.com/?ip.23.88.45.254) | static.254.45.88.23.clients.your-server.de | - | High
+178 | [23.88.46.51](https://vuldb.com/?ip.23.88.46.51) | static.51.46.88.23.clients.your-server.de | - | High
+179 | [23.88.46.113](https://vuldb.com/?ip.23.88.46.113) | static.113.46.88.23.clients.your-server.de | - | High
+180 | [23.88.47.9](https://vuldb.com/?ip.23.88.47.9) | static.9.47.88.23.clients.your-server.de | - | High
+181 | [23.88.115.141](https://vuldb.com/?ip.23.88.115.141) | static.141.115.88.23.clients.your-server.de | - | High
+182 | [23.88.117.132](https://vuldb.com/?ip.23.88.117.132) | static.132.117.88.23.clients.your-server.de | - | High
+183 | [23.88.121.200](https://vuldb.com/?ip.23.88.121.200) | static.200.121.88.23.clients.your-server.de | - | High
+184 | [23.106.122.140](https://vuldb.com/?ip.23.106.122.140) | - | - | High
+185 | [23.145.40.109](https://vuldb.com/?ip.23.145.40.109) | - | - | High
+186 | [37.27.0.69](https://vuldb.com/?ip.37.27.0.69) | static.69.0.27.37.clients.your-server.de | - | High
+187 | [37.27.6.23](https://vuldb.com/?ip.37.27.6.23) | static.23.6.27.37.clients.your-server.de | - | High
+188 | [37.27.11.1](https://vuldb.com/?ip.37.27.11.1) | static.1.11.27.37.clients.your-server.de | - | High
+189 | [37.27.11.177](https://vuldb.com/?ip.37.27.11.177) | static.177.11.27.37.clients.your-server.de | - | High
+190 | [37.27.17.95](https://vuldb.com/?ip.37.27.17.95) | static.95.17.27.37.clients.your-server.de | - | High
+191 | [37.27.20.125](https://vuldb.com/?ip.37.27.20.125) | static.125.20.27.37.clients.your-server.de | - | High
+192 | [37.27.26.28](https://vuldb.com/?ip.37.27.26.28) | static.28.26.27.37.clients.your-server.de | - | High
+193 | [37.27.31.150](https://vuldb.com/?ip.37.27.31.150) | static.150.31.27.37.clients.your-server.de | - | High
+194 | [37.27.34.12](https://vuldb.com/?ip.37.27.34.12) | static.12.34.27.37.clients.your-server.de | - | High
+195 | [37.27.36.6](https://vuldb.com/?ip.37.27.36.6) | static.6.36.27.37.clients.your-server.de | - | High
+196 | [37.27.43.98](https://vuldb.com/?ip.37.27.43.98) | static.98.43.27.37.clients.your-server.de | - | High
+197 | [37.27.87.155](https://vuldb.com/?ip.37.27.87.155) | static.155.87.27.37.clients.your-server.de | - | High
+198 | [37.27.92.232](https://vuldb.com/?ip.37.27.92.232) | static.232.92.27.37.clients.your-server.de | - | High
+199 | [37.27.179.0](https://vuldb.com/?ip.37.27.179.0) | static.0.179.27.37.clients.your-server.de | - | High
+200 | [37.27.182.109](https://vuldb.com/?ip.37.27.182.109) | static.109.182.27.37.clients.your-server.de | - | High
+201 | [37.27.186.135](https://vuldb.com/?ip.37.27.186.135) | static.135.186.27.37.clients.your-server.de | - | High
+202 | [37.27.192.221](https://vuldb.com/?ip.37.27.192.221) | static.221.192.27.37.clients.your-server.de | - | High
+203 | [37.27.214.36](https://vuldb.com/?ip.37.27.214.36) | static.36.214.27.37.clients.your-server.de | - | High
+204 | [37.123.196.7](https://vuldb.com/?ip.37.123.196.7) | - | - | High
+205 | [37.140.192.11](https://vuldb.com/?ip.37.140.192.11) | server107.hosting.reg.ru | - | High
+206 | [37.220.87.3](https://vuldb.com/?ip.37.220.87.3) | ipn-37-220-87-3.artem-catv.ru | - | High
+207 | [37.220.87.9](https://vuldb.com/?ip.37.220.87.9) | ipn-37-220-87-9.artem-catv.ru | - | High
+208 | [37.220.87.21](https://vuldb.com/?ip.37.220.87.21) | ipn-37-220-87-21.artem-catv.ru | - | High
+209 | [37.220.87.26](https://vuldb.com/?ip.37.220.87.26) | ipn-37-220-87-26.artem-catv.ru | - | High
+210 | [37.220.87.33](https://vuldb.com/?ip.37.220.87.33) | ipn-37-220-87-33.artem-catv.ru | - | High
+211 | [37.220.87.41](https://vuldb.com/?ip.37.220.87.41) | ipn-37-220-87-41.artem-catv.ru | - | High
+212 | [41.189.202.116](https://vuldb.com/?ip.41.189.202.116) | - | - | High
+213 | [42.186.202.116](https://vuldb.com/?ip.42.186.202.116) | - | - | High
+214 | [44.244.217.95](https://vuldb.com/?ip.44.244.217.95) | ec2-44-244-217-95.us-west-2.compute.amazonaws.com | - | Medium
+215 | [45.8.144.14](https://vuldb.com/?ip.45.8.144.14) | vm1326141.stark-industries.solutions | - | High
+216 | [45.8.144.62](https://vuldb.com/?ip.45.8.144.62) | italy3.forge-s.ru | - | High
+217 | [45.8.144.188](https://vuldb.com/?ip.45.8.144.188) | vm1268594.stark-industries.solutions | - | High
+218 | [45.8.144.232](https://vuldb.com/?ip.45.8.144.232) | - | - | High
+219 | [45.8.145.14](https://vuldb.com/?ip.45.8.145.14) | shardeum.syrup.com | - | High
+220 | [45.8.145.83](https://vuldb.com/?ip.45.8.145.83) | vm1268783.stark-industries.solutions | - | High
+221 | [45.8.145.85](https://vuldb.com/?ip.45.8.145.85) | vm1263292.stark-industries.solutions | - | High
+222 | [45.8.145.164](https://vuldb.com/?ip.45.8.145.164) | xenonserv6969.nutsack | - | High
+223 | [45.8.145.230](https://vuldb.com/?ip.45.8.145.230) | vm1078252.stark-industries.solutions | - | High
+224 | [45.8.146.18](https://vuldb.com/?ip.45.8.146.18) | vm1065889.stark-industries.solutions | - | High
+225 | [45.8.147.23](https://vuldb.com/?ip.45.8.147.23) | vm1215388.stark-industries.solutions | - | High
+226 | [45.8.147.51](https://vuldb.com/?ip.45.8.147.51) | mail.talent-flex.live | - | High
+227 | [45.8.147.74](https://vuldb.com/?ip.45.8.147.74) | vm689012.stark-industries.solutions | - | High
+228 | [45.8.147.145](https://vuldb.com/?ip.45.8.147.145) | vm1220510.stark-industries.solutions | - | High
+229 | [45.8.147.151](https://vuldb.com/?ip.45.8.147.151) | vm1044552.stark-industries.solutions | - | High
+230 | [45.8.147.191](https://vuldb.com/?ip.45.8.147.191) | vps.hostry.com | - | High
+231 | [45.8.147.221](https://vuldb.com/?ip.45.8.147.221) | vm713224.stark-industries.solutions | - | High
+232 | [45.8.147.224](https://vuldb.com/?ip.45.8.147.224) | vm1291410.stark-industries.solutions | - | High
+233 | [45.9.190.250](https://vuldb.com/?ip.45.9.190.250) | - | - | High
+234 | [45.9.191.215](https://vuldb.com/?ip.45.9.191.215) | - | - | High
+235 | [45.11.19.78](https://vuldb.com/?ip.45.11.19.78) | - | - | High
+236 | [45.15.156.121](https://vuldb.com/?ip.45.15.156.121) | - | - | High
+237 | [45.15.157.247](https://vuldb.com/?ip.45.15.157.247) | plain-food.aeza.network | - | High
+238 | [45.61.139.169](https://vuldb.com/?ip.45.61.139.169) | - | - | High
+239 | [45.67.35.153](https://vuldb.com/?ip.45.67.35.153) | destinystats.ru | - | High
+240 | [45.67.229.135](https://vuldb.com/?ip.45.67.229.135) | vm1328071.stark-industries.solutions | - | High
+241 | [45.83.122.248](https://vuldb.com/?ip.45.83.122.248) | xotkdxo.ptr1.ru | - | High
+242 | [45.86.86.144](https://vuldb.com/?ip.45.86.86.144) | jarention.info | - | High
+243 | [45.86.229.188](https://vuldb.com/?ip.45.86.229.188) | - | - | High
+244 | [45.87.154.35](https://vuldb.com/?ip.45.87.154.35) | vm1318841.stark-industries.solutions | - | High
+245 | [45.89.54.52](https://vuldb.com/?ip.45.89.54.52) | sk-gnome-1.gummicube.com | - | High
+246 | [45.89.54.144](https://vuldb.com/?ip.45.89.54.144) | vm609670.stark-industries.solutions | - | High
+247 | [45.89.55.70](https://vuldb.com/?ip.45.89.55.70) | vm1531142.stark-industries.solutions | - | High
+248 | [45.89.55.82](https://vuldb.com/?ip.45.89.55.82) | vm720207.stark-industries.solutions | - | High
+249 | [45.89.55.118](https://vuldb.com/?ip.45.89.55.118) | vm1230867.stark-industries.solutions | - | High
+250 | [45.89.55.154](https://vuldb.com/?ip.45.89.55.154) | vm1135907.stark-industries.solutions | - | High
+251 | [45.89.55.158](https://vuldb.com/?ip.45.89.55.158) | mail.elastic-mounds.live | - | High
+252 | [45.89.55.159](https://vuldb.com/?ip.45.89.55.159) | vm1138080.stark-industries.solutions | - | High
+253 | [45.89.55.174](https://vuldb.com/?ip.45.89.55.174) | vm1042352.stark-industries.solutions | - | High
+254 | [45.89.55.176](https://vuldb.com/?ip.45.89.55.176) | vps.hostry.com | - | High
+255 | [45.89.55.177](https://vuldb.com/?ip.45.89.55.177) | vps.hostry.com | - | High
+256 | [45.92.156.110](https://vuldb.com/?ip.45.92.156.110) | - | - | High
+257 | [45.92.156.133](https://vuldb.com/?ip.45.92.156.133) | - | - | High
+258 | [45.95.11.13](https://vuldb.com/?ip.45.95.11.13) | - | - | High
+259 | [45.132.106.60](https://vuldb.com/?ip.45.132.106.60) | vm4387358.34ssd.had.wf | - | High
+260 | [45.136.49.229](https://vuldb.com/?ip.45.136.49.229) | - | - | High
+261 | [45.136.50.120](https://vuldb.com/?ip.45.136.50.120) | mtfhotkzody0.clientesboletos.de | - | High
+262 | [45.138.74.1](https://vuldb.com/?ip.45.138.74.1) | dearstep.aeza.network | - | High
+263 | [45.138.74.85](https://vuldb.com/?ip.45.138.74.85) | spiritual-notebook.aeza.network | - | High
+264 | [45.138.74.114](https://vuldb.com/?ip.45.138.74.114) | swell-pie.aeza.network | - | High
+265 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
+266 | [45.142.212.155](https://vuldb.com/?ip.45.142.212.155) | hamed.co | - | High
+267 | [45.142.213.7](https://vuldb.com/?ip.45.142.213.7) | vm1280158.stark-industries.solutions | - | High
+268 | [45.142.213.52](https://vuldb.com/?ip.45.142.213.52) | vm1061668.stark-industries.solutions | - | High
+269 | [45.144.28.165](https://vuldb.com/?ip.45.144.28.165) | vm2141511.stark-industries.solutions | - | High
+270 | [45.150.64.207](https://vuldb.com/?ip.45.150.64.207) | server.local | - | High
+271 | [45.153.230.169](https://vuldb.com/?ip.45.153.230.169) | vm1311101.stark-industries.solutions | - | High
+272 | [45.153.230.241](https://vuldb.com/?ip.45.153.230.241) | vm1282051.stark-industries.solutions | - | High
+273 | [45.159.48.224](https://vuldb.com/?ip.45.159.48.224) | - | - | High
+274 | [45.159.248.53](https://vuldb.com/?ip.45.159.248.53) | deserunthvjqu.projectonline.online | - | High
+275 | [45.159.248.173](https://vuldb.com/?ip.45.159.248.173) | vm1273998.stark-industries.solutions | - | High
+276 | [45.159.249.2](https://vuldb.com/?ip.45.159.249.2) | wg-358-9-1.wgnet.work | - | High
+277 | [45.159.249.3](https://vuldb.com/?ip.45.159.249.3) | vm633410.stark-industries.solutions | - | High
+278 | [45.159.249.4](https://vuldb.com/?ip.45.159.249.4) | vm1323066.stark-industries.solutions | - | High
+279 | [45.159.249.5](https://vuldb.com/?ip.45.159.249.5) | vm581344.stark-industries.solutions | - | High
+280 | [45.159.249.133](https://vuldb.com/?ip.45.159.249.133) | vm1323066.stark-industries.solutions | - | High
+281 | [45.159.249.160](https://vuldb.com/?ip.45.159.249.160) | mail.datingmoms.info | - | High
+282 | [45.159.249.181](https://vuldb.com/?ip.45.159.249.181) | vm1266190.stark-industries.solutions | - | High
+283 | [45.159.251.224](https://vuldb.com/?ip.45.159.251.224) | vm1336366.stark-industries.solutions | - | High
+284 | [46.4.4.76](https://vuldb.com/?ip.46.4.4.76) | k92z70.meinserver.io | - | High
+285 | [46.226.160.169](https://vuldb.com/?ip.46.226.160.169) | laughable-north.aeza.network | - | High
+286 | [46.246.98.9](https://vuldb.com/?ip.46.246.98.9) | 46-246-98-9.static.glesys.net | - | High
+287 | [49.12.8.228](https://vuldb.com/?ip.49.12.8.228) | static.228.8.12.49.clients.your-server.de | - | High
+288 | [49.12.9.140](https://vuldb.com/?ip.49.12.9.140) | static.140.9.12.49.clients.your-server.de | - | High
+289 | [49.12.15.204](https://vuldb.com/?ip.49.12.15.204) | static.204.15.12.49.clients.your-server.de | - | High
+290 | [49.12.34.6](https://vuldb.com/?ip.49.12.34.6) | static.6.34.12.49.clients.your-server.de | - | High
+291 | [49.12.72.35](https://vuldb.com/?ip.49.12.72.35) | static.35.72.12.49.clients.your-server.de | - | High
+292 | [49.12.79.235](https://vuldb.com/?ip.49.12.79.235) | static.235.79.12.49.clients.your-server.de | - | High
+293 | [49.12.96.217](https://vuldb.com/?ip.49.12.96.217) | static.217.96.12.49.clients.your-server.de | - | High
+294 | [49.12.101.249](https://vuldb.com/?ip.49.12.101.249) | static.249.101.12.49.clients.your-server.de | - | High
+295 | [49.12.103.42](https://vuldb.com/?ip.49.12.103.42) | static.42.103.12.49.clients.your-server.de | - | High
+296 | [49.12.106.214](https://vuldb.com/?ip.49.12.106.214) | static.214.106.12.49.clients.your-server.de | - | High
+297 | [49.12.106.231](https://vuldb.com/?ip.49.12.106.231) | static.231.106.12.49.clients.your-server.de | - | High
+298 | [49.12.112.48](https://vuldb.com/?ip.49.12.112.48) | static.48.112.12.49.clients.your-server.de | - | High
+299 | [49.12.113.110](https://vuldb.com/?ip.49.12.113.110) | static.110.113.12.49.clients.your-server.de | - | High
+300 | [49.12.113.195](https://vuldb.com/?ip.49.12.113.195) | static.195.113.12.49.clients.your-server.de | - | High
+301 | [49.12.113.201](https://vuldb.com/?ip.49.12.113.201) | static.201.113.12.49.clients.your-server.de | - | High
+302 | [49.12.113.223](https://vuldb.com/?ip.49.12.113.223) | static.223.113.12.49.clients.your-server.de | - | High
+303 | [49.12.113.229](https://vuldb.com/?ip.49.12.113.229) | static.229.113.12.49.clients.your-server.de | - | High
+304 | [49.12.114.15](https://vuldb.com/?ip.49.12.114.15) | static.15.114.12.49.clients.your-server.de | - | High
+305 | [49.12.114.200](https://vuldb.com/?ip.49.12.114.200) | static.200.114.12.49.clients.your-server.de | - | High
+306 | [49.12.115.0](https://vuldb.com/?ip.49.12.115.0) | static.0.115.12.49.clients.your-server.de | - | High
+307 | [49.12.115.57](https://vuldb.com/?ip.49.12.115.57) | static.57.115.12.49.clients.your-server.de | - | High
+308 | [49.12.115.59](https://vuldb.com/?ip.49.12.115.59) | static.59.115.12.49.clients.your-server.de | - | High
+309 | [49.12.115.112](https://vuldb.com/?ip.49.12.115.112) | static.112.115.12.49.clients.your-server.de | - | High
+310 | [49.12.115.154](https://vuldb.com/?ip.49.12.115.154) | static.154.115.12.49.clients.your-server.de | - | High
+311 | [49.12.115.229](https://vuldb.com/?ip.49.12.115.229) | static.229.115.12.49.clients.your-server.de | - | High
+312 | [49.12.116.5](https://vuldb.com/?ip.49.12.116.5) | static.5.116.12.49.clients.your-server.de | - | High
+313 | [49.12.116.63](https://vuldb.com/?ip.49.12.116.63) | static.63.116.12.49.clients.your-server.de | - | High
+314 | [49.12.116.189](https://vuldb.com/?ip.49.12.116.189) | static.189.116.12.49.clients.your-server.de | - | High
+315 | [49.12.116.191](https://vuldb.com/?ip.49.12.116.191) | static.191.116.12.49.clients.your-server.de | - | High
+316 | [49.12.117.107](https://vuldb.com/?ip.49.12.117.107) | static.107.117.12.49.clients.your-server.de | - | High
+317 | [49.12.117.118](https://vuldb.com/?ip.49.12.117.118) | static.118.117.12.49.clients.your-server.de | - | High
+318 | [49.12.118.45](https://vuldb.com/?ip.49.12.118.45) | static.45.118.12.49.clients.your-server.de | - | High
+319 | [49.12.118.149](https://vuldb.com/?ip.49.12.118.149) | static.149.118.12.49.clients.your-server.de | - | High
+320 | [49.12.118.151](https://vuldb.com/?ip.49.12.118.151) | static.151.118.12.49.clients.your-server.de | - | High
+321 | [49.12.118.167](https://vuldb.com/?ip.49.12.118.167) | static.167.118.12.49.clients.your-server.de | - | High
+322 | [49.12.118.185](https://vuldb.com/?ip.49.12.118.185) | static.185.118.12.49.clients.your-server.de | - | High
+323 | [49.12.118.209](https://vuldb.com/?ip.49.12.118.209) | static.209.118.12.49.clients.your-server.de | - | High
+324 | [49.12.119.16](https://vuldb.com/?ip.49.12.119.16) | static.16.119.12.49.clients.your-server.de | - | High
+325 | [49.12.119.56](https://vuldb.com/?ip.49.12.119.56) | static.56.119.12.49.clients.your-server.de | - | High
+326 | [49.12.119.95](https://vuldb.com/?ip.49.12.119.95) | static.95.119.12.49.clients.your-server.de | - | High
+327 | [49.12.119.148](https://vuldb.com/?ip.49.12.119.148) | static.148.119.12.49.clients.your-server.de | - | High
+328 | [49.12.119.193](https://vuldb.com/?ip.49.12.119.193) | static.193.119.12.49.clients.your-server.de | - | High
+329 | [49.12.196.69](https://vuldb.com/?ip.49.12.196.69) | static.69.196.12.49.clients.your-server.de | - | High
+330 | [49.12.197.9](https://vuldb.com/?ip.49.12.197.9) | static.9.197.12.49.clients.your-server.de | - | High
+331 | [49.12.200.224](https://vuldb.com/?ip.49.12.200.224) | static.224.200.12.49.clients.your-server.de | - | High
+332 | [49.12.211.132](https://vuldb.com/?ip.49.12.211.132) | static.132.211.12.49.clients.your-server.de | - | High
+333 | [49.12.237.50](https://vuldb.com/?ip.49.12.237.50) | static.50.237.12.49.clients.your-server.de | - | High
+334 | [49.12.240.21](https://vuldb.com/?ip.49.12.240.21) | static.21.240.12.49.clients.your-server.de | - | High
+335 | [49.13.1.124](https://vuldb.com/?ip.49.13.1.124) | static.124.1.13.49.clients.your-server.de | - | High
+336 | [49.13.6.118](https://vuldb.com/?ip.49.13.6.118) | static.118.6.13.49.clients.your-server.de | - | High
+337 | [49.13.9.29](https://vuldb.com/?ip.49.13.9.29) | static.29.9.13.49.clients.your-server.de | - | High
+338 | [49.13.27.53](https://vuldb.com/?ip.49.13.27.53) | static.53.27.13.49.clients.your-server.de | - | High
+339 | [49.13.32.37](https://vuldb.com/?ip.49.13.32.37) | static.37.32.13.49.clients.your-server.de | - | High
+340 | [49.13.32.53](https://vuldb.com/?ip.49.13.32.53) | static.53.32.13.49.clients.your-server.de | - | High
+341 | [49.13.32.95](https://vuldb.com/?ip.49.13.32.95) | static.95.32.13.49.clients.your-server.de | - | High
+342 | [49.13.32.109](https://vuldb.com/?ip.49.13.32.109) | static.109.32.13.49.clients.your-server.de | - | High
+343 | [49.13.32.146](https://vuldb.com/?ip.49.13.32.146) | static.146.32.13.49.clients.your-server.de | - | High
+344 | [49.13.32.185](https://vuldb.com/?ip.49.13.32.185) | static.185.32.13.49.clients.your-server.de | - | High
+345 | [49.13.32.193](https://vuldb.com/?ip.49.13.32.193) | static.193.32.13.49.clients.your-server.de | - | High
+346 | [49.13.32.231](https://vuldb.com/?ip.49.13.32.231) | static.231.32.13.49.clients.your-server.de | - | High
+347 | [49.13.33.8](https://vuldb.com/?ip.49.13.33.8) | static.8.33.13.49.clients.your-server.de | - | High
+348 | [49.13.33.99](https://vuldb.com/?ip.49.13.33.99) | static.99.33.13.49.clients.your-server.de | - | High
+349 | [49.13.33.235](https://vuldb.com/?ip.49.13.33.235) | static.235.33.13.49.clients.your-server.de | - | High
+350 | [49.13.33.252](https://vuldb.com/?ip.49.13.33.252) | static.252.33.13.49.clients.your-server.de | - | High
+351 | [49.13.35.129](https://vuldb.com/?ip.49.13.35.129) | static.129.35.13.49.clients.your-server.de | - | High
+352 | [49.13.37.70](https://vuldb.com/?ip.49.13.37.70) | static.70.37.13.49.clients.your-server.de | - | High
+353 | [49.13.38.231](https://vuldb.com/?ip.49.13.38.231) | static.231.38.13.49.clients.your-server.de | - | High
+354 | [49.13.49.198](https://vuldb.com/?ip.49.13.49.198) | static.198.49.13.49.clients.your-server.de | - | High
+355 | [49.13.50.61](https://vuldb.com/?ip.49.13.50.61) | static.61.50.13.49.clients.your-server.de | - | High
+356 | [49.13.59.137](https://vuldb.com/?ip.49.13.59.137) | static.137.59.13.49.clients.your-server.de | - | High
+357 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
+358 | [49.13.80.90](https://vuldb.com/?ip.49.13.80.90) | static.90.80.13.49.clients.your-server.de | - | High
+359 | [49.13.86.44](https://vuldb.com/?ip.49.13.86.44) | static.44.86.13.49.clients.your-server.de | - | High
+360 | ... | ... | ... | ...
 
-There are 1350 more IOC items available. Please use our online service to access the data.
+There are 1434 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -368,7 +390,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
@@ -382,15 +404,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add-subadmin.php` | High
-2 | File | `/app/controller/Api.php` | High
-3 | File | `/auth_files/photo/` | High
-4 | File | `/cgi-bin/nas_sharing.cgi` | High
-5 | File | `/pages/payment.php` | High
-6 | File | `/pdf2swf` | Medium
-7 | File | `/preview.php` | Medium
-8 | ... | ... | ...
+2 | File | `/admin/add-table.php` | High
+3 | File | `/admin/admin_running.php` | High
+4 | File | `/admin/changeimage.php` | High
+5 | File | `/admin/delete_s6.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/modules/room/index.php` | High
+8 | File | `/admin/tags/save` | High
+9 | File | `/admin/yesterday-reg-users.php` | High
+10 | File | `/api/settings` | High
+11 | File | `/api/wizard/getCapability` | High
+12 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -444,6 +470,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/883194ca-c75f-473d-8fb0-7c9bbbce636b
 * https://app.any.run/tasks/8915261f-669c-402d-b023-2d62702a100b
 * https://app.any.run/tasks/a4b98e2a-4e47-436f-a50d-a5d1a0c520d1
+* https://app.any.run/tasks/a19d5243-c659-448b-9a78-fc6a67c32dd7
 * https://app.any.run/tasks/a84c7bad-9364-435a-bad9-76ee97c08de2
 * https://app.any.run/tasks/a536276d-8b87-4b02-bed5-ca8135a0dbce/
 * https://app.any.run/tasks/aa2c3a0e-dded-4aa8-8fb2-76f7ea2a8696
@@ -475,7 +502,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/39370/
 * https://asec.ahnlab.com/en/39627/
 * https://bazaar.abuse.ch/sample/0c54843666a464f185c97a7693a91eb328827a900717e414357b897bd2630fea/
+* https://bazaar.abuse.ch/sample/0cfbc63f8455bd9769128f4e80a45a3c2ff3fee87b7d789edf6d1abf5b37be40/
 * https://bazaar.abuse.ch/sample/7e18ae103ce6fd596459cf0d5fc49832cdbd19a5780b0f2db934c2b649bc2080/
+* https://bazaar.abuse.ch/sample/57cfcfba691c1a71a6de3dc65e0d5bef29d7df2435803a9a4c48279782254136/
 * https://bazaar.abuse.ch/sample/a201aadbdc9598fa87dead52c0f5ab406e3bc391b10e56d328cf6841a3036aeb/
 * https://bazaar.abuse.ch/sample/b30e7cf92bdb26c05c226e0d5c82ce839a90cbef61a7a5305bd3fae87905090f/
 * https://blog.sekoia.io/unveiling-of-a-large-resilient-infrastructure-distributing-information-stealers/
@@ -559,6 +588,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3558421/
 * https://urlhaus.abuse.ch/url/3560459/
 * https://urlhaus.abuse.ch/url/3572442/
+* https://urlhaus.abuse.ch/url/3575553/
+* https://urlhaus.abuse.ch/url/3590302/
+* https://urlhaus.abuse.ch/url/3594029/
+* https://urlhaus.abuse.ch/url/3599470/
+* https://urlhaus.abuse.ch/url/3603913/
+* https://urlhaus.abuse.ch/url/3611899/
+* https://urlhaus.abuse.ch/url/3615435/
+* https://urlhaus.abuse.ch/url/3616706/
+* https://urlhaus.abuse.ch/url/3616708/
+* https://urlhaus.abuse.ch/url/3617795/
+* https://urlhaus.abuse.ch/url/3627876/
+* https://urlhaus.abuse.ch/url/3630420/
 * https://www.joesandbox.com/analysis/855604/1/html
 * https://www.team-cymru.com/post/darth-vidar-the-aesir-strike-back
 * https://www.virustotal.com/gui/file/201bd5eab33a1a80befba08dbac2b23b46d8d2fad90dd567e78fb35bbab76559/behavior/C2AE

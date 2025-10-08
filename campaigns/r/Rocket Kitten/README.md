@@ -84,28 +84,28 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/user/manage_user.php` | High
 10 | File | `/auditLogAction.do` | High
 11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/devices/acurite.c` | High
-13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-14 | File | `/etc/ajenti/config.yml` | High
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/event/admin/?page=user/list` | High
-17 | File | `/example/editor` | High
-18 | File | `/foms/place-order.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-21 | File | `/goform/login_process` | High
-22 | File | `/goform/rlmswitchr_process` | High
-23 | File | `/goforms/rlminfo` | High
-24 | File | `/newsDia.php` | Medium
-25 | File | `/plugin` | Low
-26 | File | `/pms/index.php` | High
-27 | File | `/rating.php` | Medium
-28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-29 | File | `/scas/admin/` | Medium
-30 | File | `/scas/classes/Users.php?f=save_user` | High
+12 | File | `/com/esafenet/servlet/service/processsign/AutoSignService.java` | High
+13 | File | `/devices/acurite.c` | High
+14 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+15 | File | `/etc/ajenti/config.yml` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/example/editor` | High
+19 | File | `/foms/place-order.php` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+22 | File | `/goform/login_process` | High
+23 | File | `/goform/rlmswitchr_process` | High
+24 | File | `/goform/setcfm` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/home/cavesConsole` | High
+27 | File | `/newsDia.php` | Medium
+28 | File | `/plugin` | Low
+29 | File | `/pms/index.php` | High
+30 | File | `/rating.php` | Medium
 31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

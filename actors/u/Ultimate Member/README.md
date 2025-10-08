@@ -98,9 +98,11 @@ ID | Type | Indicator | Confidence
 47 | File | `/debug/pprof` | Medium
 48 | File | `/designer/add/layout` | High
 49 | File | `/dialog/select_media.php` | High
-50 | ... | ... | ...
+50 | File | `/DXR.axd` | Medium
+51 | File | `/e3api/api/main/ToJsonByControlName` | High
+52 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

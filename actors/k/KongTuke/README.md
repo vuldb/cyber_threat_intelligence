@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KongTuke:
 
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * [FR](https://vuldb.com/?country.fr)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -22,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.153.94](https://vuldb.com/?ip.5.252.153.94) | hosted-by.csrdp.host | - | High
-2 | [147.45.45.177](https://vuldb.com/?ip.147.45.45.177) | - | - | High
-3 | [181.174.164.117](https://vuldb.com/?ip.181.174.164.117) | mail.fourdollarclick.com | - | High
+2 | [64.95.12.71](https://vuldb.com/?ip.64.95.12.71) | - | - | High
+3 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,13 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/mainfunction.cgi` | High
-2 | File | `drivers/char/random.c` | High
-3 | File | `drivers/gpu/drm/i915/i915_gem_execbuffer.c` | High
-4 | File | `drivers/hid/hid-debug.c` | High
-5 | ... | ... | ...
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/cgi-bin/mainfunction.cgi` | High
+3 | File | `/modules/profile/index.php` | High
+4 | File | `/modules/registration_admission/patient_register.php` | High
+5 | File | `/oauth/idp/.well-known/openid-configuration` | High
+6 | File | `a2billing/customer/iridium_threed.php` | High
+7 | File | `adclick.php` | Medium
+8 | File | `admin/conf_users_edit.php` | High
+9 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -59,6 +66,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/114547363876334806
 * https://infosec.exchange/@monitorsg/114551255364288683
 * https://infosec.exchange/@monitorsg/114584997100955044
+* https://infosec.exchange/@monitorsg/115056530594664027
+* https://infosec.exchange/@monitorsg/115129442152451561
+* https://infosec.exchange/@monitorsg/115168834250011320
+* https://infosec.exchange/@monitorsg/115179951534869477
+* https://infosec.exchange/@monitorsg/115185610160311184
+* https://infosec.exchange/@monitorsg/115191289592881425
+* https://infosec.exchange/@monitorsg/115208504275211727
+* https://infosec.exchange/@monitorsg/115219827175849347
+* https://infosec.exchange/@monitorsg/115220302118019830
+* https://infosec.exchange/@monitorsg/115231406562171659
+* https://rewterz.com/threat-advisory/kongtuke-targets-windows-with-interlock-rat-active-iocs
+* https://threatfox.abuse.ch
 
 ## Literature
 

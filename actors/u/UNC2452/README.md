@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with UNC2452:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC2452:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -320,14 +320,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-41 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -336,70 +336,86 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%WINDIR%\temp` | High
-2 | File | `/;/admin/role/edit` | High
-3 | File | `/Account/EditProfile` | High
-4 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-5 | File | `/add-pig.php` | Medium
-6 | File | `/adm/index.php` | High
-7 | File | `/admin.php?mod=brand&act=del` | High
-8 | File | `/admin/AdminLogin.php` | High
-9 | File | `/admin/admin_addnew_product.php` | High
-10 | File | `/admin/ajax.php?action=login` | High
-11 | File | `/admin/all-request.php` | High
-12 | File | `/admin/article.php` | High
-13 | File | `/admin/betweendates-detailsreports.php` | High
-14 | File | `/admin/campsdetails.php` | High
-15 | File | `/admin/contactus.php` | High
-16 | File | `/admin/course.php` | High
-17 | File | `/admin/create_product.php` | High
+2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+3 | File | `/adaddmed.php` | High
+4 | File | `/adm/index.php` | High
+5 | File | `/admin.php?mod=brand&act=del` | High
+6 | File | `/admin/aboutPost.php` | High
+7 | File | `/admin/admin_addnew_product.php` | High
+8 | File | `/admin/admin_forum/add_views.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+11 | File | `/admin/betweendates-detailsreports.php` | High
+12 | File | `/admin/campsdetails.php` | High
+13 | File | `/admin/candidates.php` | High
+14 | File | `/admin/contactus.php` | High
+15 | File | `/admin/course.php` | High
+16 | File | `/admin/delete_s2.php` | High
+17 | File | `/admin/delete_s3.php` | High
 18 | File | `/admin/department.php` | High
 19 | File | `/admin/edit-customer-detailed.php` | High
-20 | File | `/admin/edit-services.php` | High
-21 | File | `/admin/edit_action.php` | High
+20 | File | `/admin/edit-doctor.php` | High
+21 | File | `/admin/edit-services.php` | High
 22 | File | `/admin/forgot-password.php` | High
-23 | File | `/admin/gallery.php` | High
-24 | File | `/admin/level.php` | High
-25 | File | `/admin/login.php` | High
-26 | File | `/admin/manage-pages.php` | High
+23 | File | `/admin/level.php` | High
+24 | File | `/admin/login.php` | High
+25 | File | `/admin/modules/instructor/index.php` | High
+26 | File | `/admin/profile.php` | High
 27 | File | `/admin/registration.php` | High
-28 | File | `/admin/search-report-details.php` | High
+28 | File | `/admin/save_airlines.php` | High
 29 | File | `/admin/setup.cgi` | High
-30 | File | `/admin/view-pass-detail.php` | High
-31 | File | `/admin/View_user.php` | High
-32 | File | `/ajax_state.php` | High
-33 | File | `/api/browserextension/UpdatePassword/` | High
-34 | File | `/api/core/mod.rs` | High
+30 | File | `/admin/update_s8.php` | High
+31 | File | `/admin/view-pass-detail.php` | High
+32 | File | `/admin_class.php?action=login` | High
+33 | File | `/ajax.php?action=delete_payment` | High
+34 | File | `/api/browserextension/UpdatePassword/` | High
 35 | File | `/api/discoveries/` | High
-36 | File | `/api/esps` | Medium
-37 | File | `/api/wizard/getDualbandSync` | High
-38 | File | `/api/wizard/getNetworkConf` | High
-39 | File | `/api/wizard/networkSetup` | High
-40 | File | `/app/platform/controllers/ResetpwdController.php` | High
-41 | File | `/app/search/table` | High
-42 | File | `/application/models/ApplicationDataObject.class.php` | High
-43 | File | `/auth.asp` | Medium
-44 | File | `/auth/setup` | Medium
-45 | File | `/auth/soup-auth-digest.c` | High
-46 | File | `/authenticate.php` | High
-47 | File | `/bin/goahead` | Medium
-48 | File | `/bin/gpio` | Medium
-49 | File | `/bin/httpd` | Medium
-50 | File | `/bin/main` | Medium
-51 | File | `/binutils/debug.c` | High
-52 | File | `/biurl_grou` | Medium
-53 | File | `/blog-details.php` | High
-54 | File | `/boa/formWSC` | Medium
-55 | File | `/boafrm/formDMZ` | High
-56 | File | `/boafrm/formDosCfg` | High
-57 | File | `/boafrm/formFilter` | High
-58 | File | `/boafrm/formIpQoS` | High
-59 | File | `/boafrm/formMapDelDevice` | High
-60 | File | `/boafrm/formNtp` | High
-61 | File | `/boafrm/formPortFw` | High
-62 | File | `/boafrm/formReflashClientTbl` | High
-63 | ... | ... | ...
+36 | File | `/app/api/controller/caiji.php` | High
+37 | File | `/app/api/controller/collect.php` | High
+38 | File | `/app/controller/Setup.php` | High
+39 | File | `/application/models/ApplicationDataObject.class.php` | High
+40 | File | `/auth.asp` | Medium
+41 | File | `/auth/soup-auth-digest.c` | High
+42 | File | `/avtools/avconv.c` | High
+43 | File | `/bin/goahead` | Medium
+44 | File | `/bin/gpio` | Medium
+45 | File | `/bin/httpd` | Medium
+46 | File | `/bin/main` | Medium
+47 | File | `/binutils/debug.c` | High
+48 | File | `/biurl_grou` | Medium
+49 | File | `/boa/formWSC` | Medium
+50 | File | `/boafrm/formDMZ` | High
+51 | File | `/boafrm/formDosCfg` | High
+52 | File | `/boafrm/formFilter` | High
+53 | File | `/boafrm/formIpQoS` | High
+54 | File | `/boafrm/formIPv6Addr` | High
+55 | File | `/boafrm/formMapDelDevice` | High
+56 | File | `/boafrm/formMultiAP` | High
+57 | File | `/boafrm/formNtp` | High
+58 | File | `/boafrm/formParentControl` | High
+59 | File | `/boafrm/formPortFw` | High
+60 | File | `/boafrm/formReflashClientTbl` | High
+61 | File | `/boafrm/formSaveConfig` | High
+62 | File | `/boafrm/formSetLg` | High
+63 | File | `/boafrm/formSiteSurveyProfile` | High
+64 | File | `/boafrm/formStaticDHCP` | High
+65 | File | `/boafrm/formStats` | High
+66 | File | `/boafrm/formSysCmd` | High
+67 | File | `/boafrm/formSysLog` | High
+68 | File | `/boafrm/formTmultiAP` | High
+69 | File | `/boafrm/formVlan` | High
+70 | File | `/boafrm/formWdsEncrypt` | High
+71 | File | `/boafrm/formWirelessTbl` | High
+72 | File | `/boafrm/formWlanRedirect` | High
+73 | File | `/boafrm/formWlSiteSurvey` | High
+74 | File | `/boafrm/formWlwds` | High
+75 | File | `/boafrm/formWsc` | High
+76 | File | `/book-appointment.php` | High
+77 | File | `/bwdates-reports-details.php` | High
+78 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
+79 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 696 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

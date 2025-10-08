@@ -22,7 +22,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.13.93.35](https://vuldb.com/?ip.31.13.93.35) | edge-star-mini-shv-02-dfw5.facebook.com | - | High
-2 | [31.13.93.35 ](https://vuldb.com/?ip.31.13.93.35 ) | - | - | High
+2 | [31.13.93.35?](https://vuldb.com/?ip.31.13.93.35?) | - | - | High
 3 | [31.13.93.174](https://vuldb.com/?ip.31.13.93.174) | instagram-p42-shv-02-dfw5.fbcdn.net | - | High
 4 | ... | ... | ... | ...
 

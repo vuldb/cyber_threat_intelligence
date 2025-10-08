@@ -44,9 +44,11 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [18.202.19.27](https://vuldb.com/?ip.18.202.19.27) | ec2-18-202-19-27.eu-west-1.compute.amazonaws.com | - | Medium
 22 | [18.203.84.218](https://vuldb.com/?ip.18.203.84.218) | ec2-18-203-84-218.eu-west-1.compute.amazonaws.com | - | Medium
 23 | [18.205.246.227](https://vuldb.com/?ip.18.205.246.227) | ec2-18-205-246-227.compute-1.amazonaws.com | - | Medium
-24 | ... | ... | ... | ...
+24 | [18.206.174.64](https://vuldb.com/?ip.18.206.174.64) | ec2-18-206-174-64.compute-1.amazonaws.com | - | Medium
+25 | [18.212.69.128](https://vuldb.com/?ip.18.212.69.128) | ec2-18-212-69-128.compute-1.amazonaws.com | - | Medium
+26 | ... | ... | ... | ...
 
-There are 91 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,10 +56,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -75,46 +77,54 @@ ID | Type | Indicator | Confidence
 4 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
 5 | File | `/adfs/ls` | Medium
 6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index.php/news/edit` | High
-9 | File | `/admin/search-vehicle.php` | High
-10 | File | `/admin/system.php` | High
-11 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+7 | File | `/admin/admin_action.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index.php/news/edit` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/new-content` | High
 12 | File | `/admin/twitter.php` | High
-13 | File | `/admin/update_users.php` | High
-14 | File | `/adminapi/system/crud` | High
+13 | File | `/admin/voters_add.php` | High
+14 | File | `/admin/voters_delete.php` | High
 15 | File | `/ajax.php?action=delete_package` | High
-16 | File | `/ajax/loadShopInfo.php` | High
-17 | File | `/amssplus/index.php` | High
-18 | File | `/api/admin/store/product/save` | High
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/api/esps` | Medium
-21 | File | `/api/file/getRemoteContent` | High
-22 | File | `/api/login/auth` | High
-23 | File | `/api/snapshots/` | High
-24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-25 | File | `/api/v1/settings` | High
-26 | File | `/api/v1/toolbox/device/update/swap` | High
-27 | File | `/api/wechat/app_auth` | High
-28 | File | `/api/wizard/getDualbandSync` | High
-29 | File | `/api/wizard/getWifiNeighbour` | High
-30 | File | `/app-api/infra/file/upload` | High
-31 | File | `/app/api/controller/Store.php` | High
-32 | File | `/app/zentao/module/repo/model.php` | High
-33 | File | `/apps/api/views/deploy_api.py` | High
-34 | File | `/backend/register.php` | High
-35 | File | `/bin/boa` | Medium
-36 | File | `/bin/httpd` | Medium
-37 | File | `/boafrm/formDMZ` | High
-38 | File | `/boafrm/formFilter` | High
-39 | File | `/boafrm/formMapDel` | High
-40 | File | `/boafrm/formMapDelDevice` | High
-41 | File | `/boafrm/formPortFw` | High
-42 | File | `/boafrm/formSetLg` | High
-43 | File | `/BRS_top.html` | High
-44 | ... | ... | ...
+16 | File | `/ajax.php?action=save_package` | High
+17 | File | `/ajax/loadShopInfo.php` | High
+18 | File | `/api/admin/settings` | High
+19 | File | `/api/admin/store/product/save` | High
+20 | File | `/api/admin/system/store/order/list` | High
+21 | File | `/api/esps` | Medium
+22 | File | `/api/file/getRemoteContent` | High
+23 | File | `/api/login/auth` | High
+24 | File | `/api/snapshots/` | High
+25 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+26 | File | `/api/v1/settings` | High
+27 | File | `/api/v1/toolbox/device/update/swap` | High
+28 | File | `/api/wechat/app_auth` | High
+29 | File | `/api/wizard/getDualbandSync` | High
+30 | File | `/api/wizard/getWifiNeighbour` | High
+31 | File | `/app-api/infra/file/upload` | High
+32 | File | `/app/api/controller/Store.php` | High
+33 | File | `/app/zentao/module/repo/model.php` | High
+34 | File | `/application/controller/Pengeluaran.php` | High
+35 | File | `/apps/api/views/deploy_api.py` | High
+36 | File | `/authentication/logout.php` | High
+37 | File | `/backend/register.php` | High
+38 | File | `/bin/boa` | Medium
+39 | File | `/bin/httpd` | Medium
+40 | File | `/boafrm/formDMZ` | High
+41 | File | `/boafrm/formFilter` | High
+42 | File | `/boafrm/formMapDel` | High
+43 | File | `/boafrm/formMapDelDevice` | High
+44 | File | `/boafrm/formPortFw` | High
+45 | File | `/boafrm/formSetLg` | High
+46 | File | `/BRS_top.html` | High
+47 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+48 | File | `/bwdates-reports-details.php` | High
+49 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+50 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,18 +133,29 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/50732d94-a486-44fa-9996-c8343dbccd04
 * https://app.any.run/tasks/cd78e094-adc0-4cd8-934a-5dd079790c64
 * https://app.any.run/tasks/dbd60c96-5b0f-47ef-8d54-90a62deb029c
+* https://bazaar.abuse.ch/sample/0e2aee7b6cf50249520f0f824ea52f7770e2d2a791f0e6d94c514b11ed482fa4/
 * https://bazaar.abuse.ch/sample/63c6397f3431639ee54b68cf2837024862d699ccdc41cddf64058be91ae0b87e/
+* https://bazaar.abuse.ch/sample/ae1a3efd351d9b6efb9f8702006380df50d2ade99a1a661b2511479080b929dd/
 * https://infosec.exchange/@netresec/114346492069411473
 * https://search.censys.io/hosts/54.39.167.143
 * https://search.censys.io/hosts/57.129.71.202
+* https://search.censys.io/hosts/91.84.109.91
 * https://threatfox.abuse.ch
+* https://tria.ge/250618-y3st4ael6s
 * https://urlquery.net/report/061bc126-0702-4a0b-a60b-67f51922a1ed
 * https://urlquery.net/report/ed239e54-dfe0-4018-a13d-5b96cdee587b
 * https://urlquery.net/report/f710e9bd-a66b-47f6-952d-98fd611c1cf0
+* https://urlscan.io/result/0197ac5d-bfce-75f8-afcc-0e1b437eb97f
+* https://urlscan.io/result/01984ccb-e180-75ca-9ac5-48769ae32ce6
 * https://www.joesandbox.com/analysis/1707614/0/html
 * https://www.nextron-systems.com/2025/05/23/katz-stealer-threat-analysis/
+* https://www.shodan.io/host/87.120.93.214#443
+* https://www.shodan.io/host/138.124.60.33#80
+* https://www.shodan.io/host/207.246.115.233#80
 * https://www.shodan.io/host/217.119.129.92#80
+* https://x.com/500mk500/status/1935957346594738278
 * https://x.com/naumovax/status/1882452848740651079
+* https://x.com/ShanHolo/status/1935593986535940322
 * https://x.com/solostalking/status/1886845682830729321
 * https://x.com/solostalking/status/1912461060629561676
 

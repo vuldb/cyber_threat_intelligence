@@ -101,36 +101,40 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/add_ikev2.php` | High
 6 | File | `/admin/admin_action.php` | High
 7 | File | `/admin/category_save.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_user.php` | High
-12 | File | `/admin/search-vehicle.php` | High
-13 | File | `/admin/subject.php` | High
-14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-15 | File | `/admin/twitter.php` | High
-16 | File | `/api/v1/settings` | High
-17 | File | `/api/v1/toolbox/device/update/swap` | High
-18 | File | `/app/zentao/module/repo/model.php` | High
-19 | File | `/bin/httpd` | Medium
-20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-21 | File | `/catalog/all-products` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/ExportSettings.sh` | High
-24 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-25 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-26 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-27 | File | `/edit-subject.php` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/etc/shadow.sample` | High
-31 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-32 | File | `/foms/routers/place-order.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/AdvSetMacMtuWan` | High
-35 | ... | ... | ...
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/manage_model.php` | High
+13 | File | `/admin/manage_user.php` | High
+14 | File | `/admin/new-content` | High
+15 | File | `/admin/search-vehicle.php` | High
+16 | File | `/admin/subject.php` | High
+17 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+18 | File | `/admin/twitter.php` | High
+19 | File | `/admin/voters_add.php` | High
+20 | File | `/admin/voters_delete.php` | High
+21 | File | `/api/v1/settings` | High
+22 | File | `/api/v1/toolbox/device/update/swap` | High
+23 | File | `/app/zentao/module/repo/model.php` | High
+24 | File | `/authentication/logout.php` | High
+25 | File | `/bin/httpd` | Medium
+26 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+27 | File | `/catalog/all-products` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/ExportSettings.sh` | High
+30 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+31 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+32 | File | `/dashboard/admin/submit_plan_new.php` | High
+33 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+34 | File | `/edit-subject.php` | High
+35 | File | `/endpoint/add-user.php` | High
+36 | File | `/etc/controller-agent/agent.conf` | High
+37 | File | `/etc/postfix/sender_login` | High
+38 | File | `/etc/shadow.sample` | High
+39 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

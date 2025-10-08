@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 41 more country items available. Please use our online service to access the data.
+There are 42 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,20 +110,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addbill.php` | Medium
-2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/edit_action.php` | High
-5 | File | `/Admin/edit_profile.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/manage-pages.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-11 | File | `/api/upload.php` | High
+1 | File | `/account/forgotpassword` | High
+2 | File | `/addbill.php` | Medium
+3 | File | `/admin/add_trainers.php` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/edit_action.php` | High
+6 | File | `/Admin/edit_profile.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/manage-pages.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
 12 | File | `/apilog.php` | Medium
 13 | File | `/auth_pic.cgi` | High
-14 | File | `/base/ecma-helpers.c` | High
+14 | File | `/cancelbookingpatient.php` | High
 15 | File | `/category.php` | High
 16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 17 | File | `/cgi-bin/api-get_line_status` | High
@@ -131,21 +131,24 @@ ID | Type | Indicator | Confidence
 19 | File | `/cgi-bin/myMusic.cgi` | High
 20 | File | `/cgi-bin/wlogin.cgi` | High
 21 | File | `/changeimage1.php` | High
-22 | File | `/Code/loginnew.php` | High
-23 | File | `/Code/sc_login.php` | High
-24 | File | `/control/register_case.php` | High
-25 | File | `/dashboard/admin/edit_member.php` | High
-26 | File | `/dashboard/admin/edit_mem_submit.php` | High
-27 | File | `/dashboard/admin/new_submit.php` | High
-28 | File | `/dashboard/message` | High
-29 | File | `/details.php` | Medium
-30 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-31 | File | `/devinfo` | Medium
-32 | File | `/DXR.axd` | Medium
-33 | File | `/etc/shadow` | Medium
-34 | ... | ... | ...
+22 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+23 | File | `/Code/loginnew.php` | High
+24 | File | `/Code/sc_login.php` | High
+25 | File | `/conf/app.conf` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/dashboard/admin/edit_member.php` | High
+28 | File | `/dashboard/admin/edit_mem_submit.php` | High
+29 | File | `/dashboard/admin/new_submit.php` | High
+30 | File | `/dashboard/message` | High
+31 | File | `/details.php` | Medium
+32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+33 | File | `/devinfo` | Medium
+34 | File | `/DXR.axd` | Medium
+35 | File | `/etc/shadow` | Medium
+36 | File | `/expadd.php` | Medium
+37 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

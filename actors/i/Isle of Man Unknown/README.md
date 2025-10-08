@@ -136,12 +136,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 4 | File | `/backend/admin/his_admin_register_patient.php` | High
 5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/p1_ftpserver.php` | High
-8 | File | `/classes/Master.php` | High
-9 | ... | ... | ...
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/cgi-bin/p1_ftpserver.php` | High
+9 | File | `/classes/Master.php` | High
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

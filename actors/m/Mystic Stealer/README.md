@@ -41,7 +41,7 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [41.208.73.44](https://vuldb.com/?ip.41.208.73.44) | 41.208.73.44.static.ltt.ly | - | High
 19 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -69,46 +69,54 @@ ID | Type | Indicator | Confidence
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
 5 | File | `/admin/add_ikev2.php` | High
-6 | File | `/admin/category_save.php` | High
-7 | File | `/admin/file_manager/export` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_user.php` | High
-12 | File | `/admin/search-vehicle.php` | High
-13 | File | `/admin/subject.php` | High
-14 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-15 | File | `/admin/twitter.php` | High
-16 | File | `/admin_topic.php?action=delall` | High
-17 | File | `/api/cron/settings/setJob/` | High
-18 | File | `/api/v1/settings` | High
-19 | File | `/api/v1/toolbox/device/update/swap` | High
-20 | File | `/api2/html/` | Medium
-21 | File | `/app/zentao/module/repo/model.php` | High
-22 | File | `/bin/httpd` | Medium
-23 | File | `/bitrix/admin/ldap_server_edit.php` | High
-24 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-25 | File | `/catalog/all-products` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/ExportSettings.sh` | High
-28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-29 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-30 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-31 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-32 | File | `/edit-subject.php` | High
-33 | File | `/endpoint/add-user.php` | High
-34 | File | `/etc/postfix/sender_login` | High
-35 | File | `/etc/shadow.sample` | High
-36 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-37 | File | `/foms/routers/place-order.php` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/AdvSetMacMtuWan` | High
-40 | File | `/goform/aspForm` | High
-41 | File | `/goform/frmL7ProtForm` | High
-42 | File | `/goform/SetLEDCfg` | High
-43 | ... | ... | ...
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/admin/file_manager/export` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/new-content` | High
+16 | File | `/admin/search-vehicle.php` | High
+17 | File | `/admin/subject.php` | High
+18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+19 | File | `/admin/twitter.php` | High
+20 | File | `/admin/voters_add.php` | High
+21 | File | `/admin/voters_delete.php` | High
+22 | File | `/admin_topic.php?action=delall` | High
+23 | File | `/ajax.php?action=save_package` | High
+24 | File | `/api/cron/settings/setJob/` | High
+25 | File | `/api/v1/settings` | High
+26 | File | `/api/v1/toolbox/device/update/swap` | High
+27 | File | `/api2/html/` | Medium
+28 | File | `/app/zentao/module/repo/model.php` | High
+29 | File | `/application/controller/Pengeluaran.php` | High
+30 | File | `/authentication/logout.php` | High
+31 | File | `/bin/httpd` | Medium
+32 | File | `/bitrix/admin/ldap_server_edit.php` | High
+33 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+34 | File | `/catalog/all-products` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/ExportSettings.sh` | High
+37 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+38 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+39 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+40 | File | `/dashboard/admin/submit_plan_new.php` | High
+41 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+42 | File | `/edit-subject.php` | High
+43 | File | `/endpoint/add-user.php` | High
+44 | File | `/etc/controller-agent/agent.conf` | High
+45 | File | `/etc/postfix/sender_login` | High
+46 | File | `/etc/shadow.sample` | High
+47 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+48 | File | `/foms/routers/place-order.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/goform/AdvSetMacMtuWan` | High
+51 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +133,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://pulsedive.com/threat/Mystic%20Stealer
 * https://threatfox.abuse.ch
 * https://www.zscaler.com/blogs/security-research/mystic-stealer
+* https://x.com/Xanderuxsf5/status/1940324451046031670
 
 ## Literature
 

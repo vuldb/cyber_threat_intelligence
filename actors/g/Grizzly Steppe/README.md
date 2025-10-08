@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,7 +155,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -184,9 +184,9 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/?page=inventory/view_inventory&id=2` | High
 12 | File | `/admin/?page=products/view_product` | High
 13 | File | `/admin/?page=reports` | High
-14 | File | `/admin/add_ikev2.php` | High
-15 | File | `/admin/admin-profile.php` | High
-16 | File | `/Admin/adminlogin.php` | High
+14 | File | `/admin/admin-profile.php` | High
+15 | File | `/Admin/adminlogin.php` | High
+16 | File | `/admin/admin_action.php` | High
 17 | File | `/admin/all_users.php` | High
 18 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
 19 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
@@ -203,15 +203,15 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/emp-profile-avatar.php` | High
 31 | File | `/admin/faculty_action.php` | High
 32 | File | `/admin/File/fileUpload` | High
-33 | File | `/admin/get_balance.php` | High
-34 | File | `/admin/index.php` | High
-35 | File | `/admin/index2.html` | High
-36 | File | `/admin/list_ipAddressPolicy.php` | High
-37 | File | `/admin/manage_model.php` | High
-38 | File | `/admin/manage_user.php` | High
-39 | File | `/admin/network/diag_iperf` | High
-40 | File | `/admin/network/diag_pinginterface` | High
-41 | File | `/admin/network/wifi_schedule` | High
+33 | File | `/admin/index.php` | High
+34 | File | `/admin/index2.html` | High
+35 | File | `/admin/login.php` | High
+36 | File | `/admin/manage_model.php` | High
+37 | File | `/admin/manage_user.php` | High
+38 | File | `/admin/network/diag_iperf` | High
+39 | File | `/admin/network/diag_pinginterface` | High
+40 | File | `/admin/network/wifi_schedule` | High
+41 | File | `/admin/new-content` | High
 42 | File | `/admin/overtime_add.php` | High
 43 | File | `/admin/plugin.php` | High
 44 | File | `/admin/print.php` | High
@@ -229,35 +229,34 @@ ID | Type | Indicator | Confidence
 56 | File | `/admin/twitter.php` | High
 57 | File | `/admin/update_user.php` | High
 58 | File | `/admin/user-search.php` | High
-59 | File | `/ajax.php?action=delete_deductions` | High
-60 | File | `/ajax.php?action=login` | High
-61 | File | `/ajax.php?action=save_category` | High
-62 | File | `/ajax.php?action=update_account` | High
-63 | File | `/ajax/getBasicInfo.php` | High
-64 | File | `/api/deploy/upload` | High
-65 | File | `/api/deploy/upload /api/database/upload` | High
-66 | File | `/api/front/search/books` | High
-67 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-68 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-69 | File | `/api/v1/settings` | High
-70 | File | `/api/v1/toolbox/device/update/swap` | High
-71 | File | `/app/api/controller/caiji.php` | High
-72 | File | `/app/controller/Books.php` | High
-73 | File | `/app/zentao/module/repo/model.php` | High
-74 | File | `/application/index/controller/Screen.php` | High
-75 | File | `/AttendanceMonitoring/student/controller.php` | High
-76 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-77 | File | `/backend/doc/his_doc_update-account.php` | High
-78 | File | `/bin/httpd` | Medium
-79 | File | `/buscar_integrada.php` | High
-80 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-81 | File | `/cgi-bin/cstecgi.cgi` | High
-82 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-83 | File | `/cgi-bin/ExportSettings.sh` | High
-84 | File | `/cgi-bin/hd_config.cgi` | High
-85 | ... | ... | ...
+59 | File | `/admin/voters_add.php` | High
+60 | File | `/admin/voters_delete.php` | High
+61 | File | `/ajax.php?action=delete_deductions` | High
+62 | File | `/ajax.php?action=login` | High
+63 | File | `/ajax.php?action=save_category` | High
+64 | File | `/ajax.php?action=update_account` | High
+65 | File | `/ajax/getBasicInfo.php` | High
+66 | File | `/api/deploy/upload` | High
+67 | File | `/api/deploy/upload /api/database/upload` | High
+68 | File | `/api/front/search/books` | High
+69 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+70 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+71 | File | `/api/v1/settings` | High
+72 | File | `/api/v1/toolbox/device/update/swap` | High
+73 | File | `/app/api/controller/caiji.php` | High
+74 | File | `/app/controller/Books.php` | High
+75 | File | `/app/zentao/module/repo/model.php` | High
+76 | File | `/application/index/controller/Screen.php` | High
+77 | File | `/AttendanceMonitoring/student/controller.php` | High
+78 | File | `/authentication/logout.php` | High
+79 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+80 | File | `/backend/doc/his_doc_update-account.php` | High
+81 | File | `/bin/httpd` | Medium
+82 | File | `/boafrm/formMapReboot` | High
+83 | File | `/buscar_integrada.php` | High
+84 | ... | ... | ...
 
-There are 751 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 744 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -149,7 +149,7 @@ ID | Type | Indicator | Confidence
 91 | File | `/cgi-bin/tosei_kikai.php` | High
 92 | ... | ... | ...
 
-There are 813 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 811 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

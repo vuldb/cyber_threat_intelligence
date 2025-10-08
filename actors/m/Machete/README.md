@@ -49,21 +49,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config.php?display=backup` | High
 2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-4 | File | `/proc/self/cwd` | High
-5 | File | `/Side.php` | Medium
-6 | File | `/textpattern/index.php` | High
-7 | File | `account.asp` | Medium
-8 | File | `admin.php` | Medium
-9 | File | `adminAttachments.php` | High
-10 | File | `adminBoards.php` | High
-11 | File | `adminPolls.php` | High
-12 | File | `al_initialize.php` | High
-13 | File | `ase.php` | Low
-14 | File | `bb_usage_stats.php` | High
+3 | File | `/export` | Low
+4 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+5 | File | `/proc/self/cwd` | High
+6 | File | `/Side.php` | Medium
+7 | File | `/textpattern/index.php` | High
+8 | File | `account.asp` | Medium
+9 | File | `admin.php` | Medium
+10 | File | `adminAttachments.php` | High
+11 | File | `adminBoards.php` | High
+12 | File | `adminPolls.php` | High
+13 | File | `al_initialize.php` | High
+14 | File | `ase.php` | Low
 15 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

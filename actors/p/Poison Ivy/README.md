@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Poison Ivy:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [UA](https://vuldb.com/?country.ua)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,15 +24,16 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.153.123.11](https://vuldb.com/?ip.5.153.123.11) | 11-123-153-5.dyn.cable.fcom.ch | - | High
 2 | [37.106.35.42](https://vuldb.com/?ip.37.106.35.42) | - | - | High
 3 | [37.106.35.252](https://vuldb.com/?ip.37.106.35.252) | - | - | High
-4 | [37.107.171.53](https://vuldb.com/?ip.37.107.171.53) | - | - | High
-5 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | - | Medium
-6 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | - | Medium
-7 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | - | Medium
-8 | [94.49.168.110](https://vuldb.com/?ip.94.49.168.110) | - | - | High
-9 | [94.49.176.147](https://vuldb.com/?ip.94.49.176.147) | - | - | High
-10 | ... | ... | ... | ...
+4 | [37.106.36.106](https://vuldb.com/?ip.37.106.36.106) | - | - | High
+5 | [37.107.171.53](https://vuldb.com/?ip.37.107.171.53) | - | - | High
+6 | [37.107.173.213](https://vuldb.com/?ip.37.107.173.213) | - | - | High
+7 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | - | Medium
+8 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | - | Medium
+9 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | - | Medium
+10 | [94.49.168.110](https://vuldb.com/?ip.94.49.168.110) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,9 +125,11 @@ ID | Type | Indicator | Confidence
 68 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
 69 | File | `/classes/Users.php?f=save` | High
 70 | File | `/core/config-revisions` | High
-71 | ... | ... | ...
+71 | File | `/devinfo` | Medium
+72 | File | `/download.php?file=author.png` | High
+73 | ... | ... | ...
 
-There are 624 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 638 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,12 +138,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://www.shodan.io/host/37.106.35.42#3460
 * https://www.shodan.io/host/37.106.35.252#3460
+* https://www.shodan.io/host/37.106.36.106#3460
 * https://www.shodan.io/host/37.107.171.53#3460
+* https://www.shodan.io/host/37.107.173.213#3460
+* https://www.shodan.io/host/94.98.188.251#3460
 * https://www.shodan.io/host/94.98.194.15#3460
 * https://www.shodan.io/host/94.98.211.222#3460
 * https://www.shodan.io/host/94.98.218.137#3460
+* https://www.shodan.io/host/94.98.222.175#3460
 * https://www.shodan.io/host/94.98.225.30#3460
 * https://www.shodan.io/host/94.98.226.122#3460
+* https://www.shodan.io/host/94.99.102.103#3460
+* https://www.shodan.io/host/145.82.183.176#3460
 * https://www.threatminer.org/report.php?q=PoisonIvyGroupandtheCyberespionageCampaignAgainstChineseMilitaryandGoverment-360CoreSecurity.pdf&y=2018
 
 ## Literature

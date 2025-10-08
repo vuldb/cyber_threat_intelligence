@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -92,7 +92,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,32 +105,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/general.cgi` | High
 4 | File | `/admin/manage-users.php` | High
 5 | File | `/admin/pages/` | High
-6 | File | `/admin/reminders/manage_reminder.php` | High
-7 | File | `/admins` | Low
-8 | File | `/ajax/getBasicInfo.php` | High
-9 | File | `/api/admin/system/store/order/list` | High
-10 | File | `/API/info` | Medium
-11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-12 | File | `/Bloodgroop_process.php` | High
-13 | File | `/CCMAdmin/serverlist.asp` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+6 | File | `/admins` | Low
+7 | File | `/ajax/getBasicInfo.php` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/API/info` | Medium
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/Bloodgroop_process.php` | High
+12 | File | `/cancelbookingpatient.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
 16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/get_param.cgi` | High
-18 | File | `/clientdetails/admin/regester.php` | High
-19 | File | `/csms/?page=contact_us` | High
-20 | File | `/csms/admin/inquiries/view_details.php` | High
-21 | File | `/cstecgi.cgi` | Medium
-22 | File | `/ecommerce/support_ticket` | High
-23 | File | `/farm/product.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/home/search` | Medium
-26 | File | `/importexport.php` | High
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/manage_block.php` | High
-29 | ... | ... | ...
+17 | File | `/clientdetails/admin/regester.php` | High
+18 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+19 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

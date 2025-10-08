@@ -62,9 +62,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/scripts/unlock_tasks.php` | High
 16 | File | `/sys/user/queryUserComponentData` | High
 17 | File | `/SysInfo1.htm` | High
-18 | ... | ... | ...
+18 | File | `/sysinfo_json.cgi` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

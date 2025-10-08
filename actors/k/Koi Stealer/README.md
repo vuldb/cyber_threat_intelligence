@@ -23,7 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [79.124.78.173](https://vuldb.com/?ip.79.124.78.173) | - | - | High
 2 | [89.36.231.26](https://vuldb.com/?ip.89.36.231.26) | home272.emilyshomecare.net | - | High
-3 | [185.82.218.145](https://vuldb.com/?ip.185.82.218.145) | a511scarlet.wolfisptech.net | - | High
+3 | [94.156.152.5](https://vuldb.com/?ip.94.156.152.5) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,7 +127,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/94a3f02f1a22dad90488190c429e7d6d2d6bcd3a4bcc57b7d07cc6026e5dcb0c/
 * https://bazaar.abuse.ch/sample/84577db0b164c06ef9628a94eb693150dc2101332ed526f4d431ddb56b3a7c4c/
+* https://bazaar.abuse.ch/sample/e7355ef74b876ed4626a3929704248d36fc4b59a2c75f24f98f7ad64ec171c34/
 * https://bazaar.abuse.ch/sample/f87cf2f67dbbbe69e14dc40cca510ec19034f1787b6c4167c1fae078f3fe5aed/
+* https://x.com/skocherhan/status/1955037646327288261
 
 ## Literature
 

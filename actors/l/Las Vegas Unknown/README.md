@@ -150,10 +150,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
 2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,10 +170,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/backend/admin/his_admin_register_patient.php` | High
 8 | File | `/cgi-bin/p1_ftpserver.php` | High
 9 | File | `/cgi-bin/tosei_kikai.php` | High
-10 | File | `/classes/Master.php` | High
+10 | File | `/classes/SystemSettings.php?f=update_settings` | High
 11 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

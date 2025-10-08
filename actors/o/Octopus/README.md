@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [34.173.57.207](https://vuldb.com/?ip.34.173.57.207) | 207.57.173.34.bc.googleusercontent.com | - | Medium
 8 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,27 +52,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/admin/conferences/get-all-status/` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/general/change-lang` | High
-6 | File | `/admin/group/list/` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/artist-display.php` | High
-11 | File | `/catcompany.php` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/film-rating.php` | High
-14 | File | `/forgetpassword.php` | High
-15 | File | `/front/roomtype-details.php` | High
-16 | File | `/inc/lists/edit-list.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/mcategory.php` | High
-19 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin` | Low
+3 | File | `/admin/conferences/get-all-status/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/general/change-lang` | High
+7 | File | `/admin/group/list/` | High
+8 | File | `/admin/renewaldue.php` | High
+9 | File | `/admin/usermanagement.php` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/catcompany.php` | High
+13 | File | `/cgi-bin/editBookmark` | High
+14 | File | `/film-rating.php` | High
+15 | File | `/forgetpassword.php` | High
+16 | File | `/front/roomtype-details.php` | High
+17 | File | `/inc/lists/edit-list.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/mcategory.php` | High
+20 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +96,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/164.92.250.55
 * https://search.censys.io/hosts/167.99.117.245
 * https://search.censys.io/hosts/174.138.56.147
+* https://search.censys.io/hosts/195.20.17.189
 * https://www.cyber45.com
 
 ## Literature

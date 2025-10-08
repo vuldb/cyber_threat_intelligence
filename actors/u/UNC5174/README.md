@@ -51,20 +51,20 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_product.php` | High
 2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/portal/user-register.php` | High
-5 | File | `adclick.php` | Medium
-6 | File | `add.php/del.php` | High
-7 | File | `addentry.php` | Medium
-8 | File | `admin/conf_users_edit.php` | High
-9 | File | `admin/page-login.php` | High
-10 | File | `app/modules/ut-cac/admin/cli.php` | High
-11 | File | `awstats.pl` | Medium
-12 | File | `base_maintenance.php` | High
-13 | File | `cgi-bin/awstats.pl` | High
+3 | File | `/dicionario-de-termos-bncc` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/planos-de-ensino-por-areas-de-conhecimento/` | High
+6 | File | `/portal/user-register.php` | High
+7 | File | `adclick.php` | Medium
+8 | File | `add.php/del.php` | High
+9 | File | `addentry.php` | Medium
+10 | File | `admin/conf_users_edit.php` | High
+11 | File | `admin/page-login.php` | High
+12 | File | `AndroidManifest.xml` | High
+13 | File | `app/modules/ut-cac/admin/cli.php` | High
 14 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -86,35 +86,35 @@ ID | Type | Indicator | Confidence
 17 | File | `/api/Common/uploadFile` | High
 18 | File | `/api/snapshot and /api/get_log_file` | High
 19 | File | `/api/swaggerui/static` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-23 | File | `/backend/admin/his_admin_register_patient.php` | High
+20 | File | `/app/index/controller/Common.php` | High
+21 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+22 | File | `/backend/admin/his_admin_register_patient.php` | High
+23 | File | `/bin/httpd` | Medium
 24 | File | `/bitrix/admin/ldap_server_edit.php` | High
 25 | File | `/blog` | Low
-26 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-27 | File | `/cgi-bin/ExportLogs.sh` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/config/config.json` | High
-30 | File | `/control/add_act.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/dede/file_manage_control.php` | High
-33 | File | `/department.php` | High
-34 | File | `/download.php?file=author.png` | High
-35 | File | `/download/image` | High
-36 | File | `/ecommerce/support_ticket` | High
-37 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-38 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-39 | File | `/filemanager/php/connector.php` | High
-40 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-41 | File | `/goform` | Low
-42 | File | `/goform/RP_checkCredentialsByBBS` | High
-43 | File | `/healthcare/Admin/consulting_detail.php` | High
-44 | File | `/home/index.html#hashHome` | High
-45 | File | `/I/list.php` | Medium
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+28 | File | `/cgi-bin/ExportLogs.sh` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/config/config.json` | High
+31 | File | `/control/add_act.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/dede/file_manage_control.php` | High
+34 | File | `/department.php` | High
+35 | File | `/download.php?file=author.png` | High
+36 | File | `/download/image` | High
+37 | File | `/ecommerce/support_ticket` | High
+38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+39 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+40 | File | `/filemanager/php/connector.php` | High
+41 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+42 | File | `/goform` | Low
+43 | File | `/goform/RP_checkCredentialsByBBS` | High
+44 | File | `/healthcare/Admin/consulting_detail.php` | High
+45 | File | `/home/index.html#hashHome` | High
 46 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

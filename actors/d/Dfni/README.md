@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-88 | Argument Injection | High
+1 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
@@ -45,10 +45,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
 2 | File | `FlexCell.ocx` | Medium
-3 | File | `libmosix.c` | Medium
+3 | File | `inc/config.php` | High
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

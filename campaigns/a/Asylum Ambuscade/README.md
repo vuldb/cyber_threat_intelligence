@@ -82,11 +82,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/login.php` | High
 8 | File | `/admin/maintenance/view_designation.php` | High
 9 | File | `/admin/robot/approval/list` | High
-10 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-11 | File | `/api/files/recipepictures/` | High
-12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-13 | File | `/app/uploading/upload-mp3.php` | High
-14 | File | `/apply.cgi` | Medium
+10 | File | `/admin/settings/users/edit/` | High
+11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+12 | File | `/api/files/recipepictures/` | High
+13 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+14 | File | `/app/uploading/upload-mp3.php` | High
 15 | File | `/bitrix/admin/ldap_server_edit.php` | High
 16 | File | `/cgi-bin/adm.cgi` | High
 17 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -110,13 +110,12 @@ ID | Type | Indicator | Confidence
 35 | File | `/owa/auth/logon.aspx` | High
 36 | File | `/pda/workflow/check_seal.php` | High
 37 | File | `/php/ping.php` | High
-38 | File | `/Script/admin/core/update_policy` | High
-39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/secserver` | Medium
-41 | File | `/server-status` | High
-42 | ... | ... | ...
+38 | File | `/pointHierarchySLTS` | High
+39 | File | `/register/abort` | High
+40 | File | `/Script/admin/core/update_policy` | High
+41 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

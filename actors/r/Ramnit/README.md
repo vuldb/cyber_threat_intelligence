@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,7 +111,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -122,16 +122,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/consulting_detail.php` | High
-2 | File | `/boafrm/formIpQoS` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/conf/` | Low
-5 | File | `/emloyee_akpoly/Account/login.php` | High
-6 | File | `/etc/shadow.sample` | High
-7 | File | `/lms/classes/Master.php?f=save_record` | High
+1 | File | `/admin/add-category.php` | High
+2 | File | `/Admin/consulting_detail.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/adpweb/a/sys/office/treeData` | High
+5 | File | `/api/GylOperator/LoadData` | High
+6 | File | `/boafrm/formIpQoS` | High
+7 | File | `/boafrm/formPortFw` | High
 8 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

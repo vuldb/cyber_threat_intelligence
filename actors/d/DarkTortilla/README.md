@@ -18,8 +18,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [161.35.226.71](https://vuldb.com/?ip.161.35.226.71) | - | - | High
-2 | [178.73.192.18](https://vuldb.com/?ip.178.73.192.18) | c-178-73-192-18.ip4.frootvpn.com | - | High
+1 | [87.120.222.208](https://vuldb.com/?ip.87.120.222.208) | - | - | High
+2 | [161.35.226.71](https://vuldb.com/?ip.161.35.226.71) | - | - | High
+3 | [178.73.192.18](https://vuldb.com/?ip.178.73.192.18) | c-178-73-192-18.ip4.frootvpn.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,6 +51,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/fb1da262a06ff9c8e4b1ef5687e2b5556e4d422356053b7d6922238ecb578e19/
 * https://urlhaus.abuse.ch/url/3562903/
+* https://urlhaus.abuse.ch/url/3597922/
 
 ## Literature
 

@@ -76,10 +76,9 @@ ID | Type | Indicator | Confidence
 11 | File | `AccountManager.java` | High
 12 | File | `adclick.php` | Medium
 13 | File | `addentry.php` | Medium
-14 | File | `admin/index.php` | High
-15 | ... | ... | ...
+14 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

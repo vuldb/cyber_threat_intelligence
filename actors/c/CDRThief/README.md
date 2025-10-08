@@ -43,11 +43,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/goform/wlanPrimaryNetwork` | High
-2 | File | `/WEB-INF/web.xml` | High
-3 | File | `admin/ab.php` | Medium
+2 | File | `/storage` | Medium
+3 | File | `/WEB-INF/web.xml` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

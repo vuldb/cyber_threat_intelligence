@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,30 +82,30 @@ ID | Type | Indicator | Confidence
 24 | File | `/download` | Medium
 25 | File | `/etc/hosts.deny` | High
 26 | File | `/etc/shadow` | Medium
-27 | File | `/HNAP1/` | Low
-28 | File | `/install/index.php` | High
-29 | File | `/itbox_pi/networksafe.php?a=set` | High
-30 | File | `/log/download.php` | High
-31 | File | `/main/fileupload.php` | High
-32 | File | `/manage_sy.php` | High
-33 | File | `/mee/login` | Medium
-34 | File | `/mtd` | Low
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/oa/setup/setup.jsp` | High
-37 | File | `/oauth/idp/.well-known/openid-configuration` | High
-38 | File | `/pg_meta/default/query` | High
-39 | File | `/portal/search.htm` | High
-40 | File | `/product-details.php` | High
-41 | File | `/product/savenewproduct.php?flag=1` | High
-42 | File | `/protocol/iscuser/uploadiscuser.php` | High
-43 | File | `/REBOOTSYSTEM` | High
-44 | File | `/register.php` | High
-45 | File | `/rom-0` | Low
-46 | File | `/salesreport.php` | High
-47 | File | `/Scheduling/scheduling/pages/profile.php` | High
+27 | File | `/goform/addressNat` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/HNAP1/` | Low
+30 | File | `/install/index.php` | High
+31 | File | `/itbox_pi/networksafe.php?a=set` | High
+32 | File | `/log/download.php` | High
+33 | File | `/main/fileupload.php` | High
+34 | File | `/manage_sy.php` | High
+35 | File | `/mee/login` | Medium
+36 | File | `/mtd` | Low
+37 | File | `/mygym/admin/index.php?view_exercises` | High
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/oa/setup/setup.jsp` | High
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/pg_meta/default/query` | High
+42 | File | `/portal/search.htm` | High
+43 | File | `/product-details.php` | High
+44 | File | `/product/savenewproduct.php?flag=1` | High
+45 | File | `/protocol/iscuser/uploadiscuser.php` | High
+46 | File | `/REBOOTSYSTEM` | High
+47 | File | `/register.php` | High
 48 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -63,16 +63,17 @@ ID | Type | Indicator | Confidence
 14 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
 15 | File | `/www/ping_response.cgi` | High
 16 | File | `adclick.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/dashboard.php` | High
-19 | File | `admin/gallery.php` | High
-20 | File | `admin/manage-departments.php` | High
-21 | File | `admin/sellerupd.php` | High
-22 | File | `admin/vqmods.app/vqmods.inc.php` | High
-23 | File | `administrator/logviewer/searchlog.cfm` | High
-24 | ... | ... | ...
+17 | File | `admin.jcomments.php` | High
+18 | File | `admin.php` | Medium
+19 | File | `admin/dashboard.php` | High
+20 | File | `admin/gallery.php` | High
+21 | File | `admin/manage-departments.php` | High
+22 | File | `admin/sellerupd.php` | High
+23 | File | `admin/vqmods.app/vqmods.inc.php` | High
+24 | File | `administrator/logviewer/searchlog.cfm` | High
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

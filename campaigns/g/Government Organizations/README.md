@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -21,7 +21,8 @@ These _actors_ are associated with Government Organizations or other actors link
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [Eking](https://vuldb.com/?actor.eking) | High
+1 | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [Eking](https://vuldb.com/?actor.eking) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.62.170.237](https://vuldb.com/?ip.45.62.170.237) | - | [Eking](https://vuldb.com/?actor.eking) | High
-2 | [107.179.20.214](https://vuldb.com/?ip.107.179.20.214) | happya.eordergo.com | [Eking](https://vuldb.com/?actor.eking) | High
-3 | [129.56.36.26](https://vuldb.com/?ip.129.56.36.26) | - | [Eking](https://vuldb.com/?actor.eking) | High
+1 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [45.62.170.237](https://vuldb.com/?ip.45.62.170.237) | - | [Eking](https://vuldb.com/?actor.eking) | High
+3 | [99.83.175.80](https://vuldb.com/?ip.99.83.175.80) | a2e6b661ca0e4c4c4.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,15 +66,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
 8 | File | `/confirm` | Medium
 9 | File | `/DesignTools/CssEditor.aspx` | High
-10 | ... | ... | ...
+10 | File | `/etc/config/luci` | High
+11 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://darktrace.com/blog/ransomware-as-a-service-eking-targets-government-organization
+* https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
 
 ## Literature
 

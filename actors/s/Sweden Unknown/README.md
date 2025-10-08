@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3957,11 +3957,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3969,14 +3969,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/bwdates-request-report-details.php` | High
-3 | File | `/admin/forms/option_lists/edit.php` | High
-4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-5 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-6 | ... | ... | ...
+1 | File | `/admin/faculty_action.php` | High
+2 | File | `/admin/manage-pages.php` | High
+3 | File | `/admin/manage_user.php` | High
+4 | File | `/admin/view-patient.php` | High
+5 | File | `/ajax.php?action=save_package` | High
+6 | File | `/application/controller/Pengeluaran.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/client/UnChkMailApplication.jsp` | High
+9 | File | `/dashboard/admin/submit_plan_new.php` | High
+10 | File | `/edit-student.php` | High
+11 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

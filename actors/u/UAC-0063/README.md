@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,27 +56,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/edit_supplier.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/process_category_edit.php` | High
-5 | File | `/cgi-bin/hd_config.cgi` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/cimom` | Low
-9 | File | `/dashboard/Cinvoice/manage_invoice` | High
-10 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-11 | File | `/dental_form.php` | High
-12 | File | `/edit-computer-detail.php` | High
-13 | File | `/expedit.php` | Medium
-14 | File | `/export` | Low
-15 | File | `/fax/fax_send.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/SetSpeedWan` | High
-18 | File | `/iftype/` | Medium
-19 | File | `/index.php` | Medium
-20 | ... | ... | ...
+2 | File | `/admin/aboutus.php` | High
+3 | File | `/admin/category/add.do` | High
+4 | File | `/admin/changeimage2.php` | High
+5 | File | `/admin/delete-appointment.php` | High
+6 | File | `/admin/edit-category.php` | High
+7 | File | `/admin/edit_supplier.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/process_category_edit.php` | High
+10 | File | `/admin/user-search.php` | High
+11 | File | `/ajax.php?action=save_deductions` | High
+12 | File | `/api/wizard/getDualbandSync` | High
+13 | File | `/app/api/controller/caiji.php` | High
+14 | File | `/billing/pms_check.php` | High
+15 | File | `/billing/test_accesscodelogin.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/hd_config.cgi` | High
+18 | File | `/cgi-bin/luci/api/auth` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cimom` | Low
+21 | File | `/dashboard/Cinvoice/manage_invoice` | High
+22 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+23 | File | `/dental_form.php` | High
+24 | File | `/edit-computer-detail.php` | High
+25 | File | `/expedit.php` | Medium
+26 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

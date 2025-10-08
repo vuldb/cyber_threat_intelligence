@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,10 +63,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,61 +74,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/add-students.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/admin-update-employee.php` | High
-7 | File | `/admin/booktime.php` | High
-8 | File | `/admin/change-image.php` | High
-9 | File | `/admin/index.php/web/ajax_all_lists` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/member_save.php` | High
-12 | File | `/admin/pages/` | High
-13 | File | `/admin/search-vehicle.php` | High
-14 | File | `/admin/voters_row.php` | High
-15 | File | `/admins` | Low
-16 | File | `/ajax.php?action=read_msg` | High
-17 | File | `/ajax/getBasicInfo.php` | High
-18 | File | `/api/` | Low
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/api/authentication/login` | High
-21 | File | `/api/clusters/local/topics/{topic}/messages` | High
-22 | File | `/api/gen/clients/{language}` | High
-23 | File | `/API/info` | Medium
-24 | File | `/app/options.py` | High
-25 | File | `/bin/httpd` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-28 | File | `/cgi-bin/tosei_kikai.php` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/ci_spms/admin/category` | High
-32 | File | `/ci_spms/admin/search/searching/` | High
-33 | File | `/classes/Master.php?f=delete_appointment` | High
-34 | File | `/classes/Master.php?f=delete_train` | High
-35 | File | `/clientdetails/admin/regester.php` | High
-36 | File | `/cov/triggerEnvCov` | High
-37 | File | `/csms/?page=contact_us` | High
-38 | File | `/ctcprotocol/Protocol` | High
-39 | File | `/dashboard/admin/del_plan.php` | High
-40 | File | `/dashboard/approve-reject.php` | High
-41 | File | `/dashboard/menu-list.php` | High
-42 | File | `/debug/pprof` | Medium
-43 | File | `/dede/file_manage_control.php` | High
-44 | File | `/detailed.php` | High
-45 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-46 | File | `/dist/index.js` | High
-47 | File | `/DXR.axd` | Medium
-48 | File | `/ebics-server/ebics.aspx` | High
-49 | File | `/empty_rooms.php` | High
-50 | File | `/EXCU_SHELL` | Medium
-51 | File | `/farm/product.php` | High
-52 | File | `/ffos/classes/Master.php?f=save_category` | High
-53 | ... | ... | ...
+1 | File | `//etc/RT2870STA.dat` | High
+2 | File | `/99/ImportSQLTable` | High
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/add-students.php` | High
+5 | File | `/admin-api/mp/material/upload-permanent` | High
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/admin-update-employee.php` | High
+9 | File | `/admin/booktime.php` | High
+10 | File | `/admin/change-image.php` | High
+11 | File | `/admin/complaint-details.php` | High
+12 | File | `/admin/controller/delete_group_student.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index.php/web/ajax_all_lists` | High
+15 | File | `/admin/loadUsers` | High
+16 | File | `/Admin/login.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/manage-users.php` | High
+19 | File | `/admin/member_save.php` | High
+20 | File | `/admin/pages/` | High
+21 | File | `/admin/search-vehicle.php` | High
+22 | File | `/admin/student_edit_photo.php` | High
+23 | File | `/admin/suppliercontroller.php` | High
+24 | File | `/admin/user-profile.php` | High
+25 | File | `/admin/user/list` | High
+26 | File | `/admin/voters_row.php` | High
+27 | File | `/adminac.php` | Medium
+28 | File | `/admins` | Low
+29 | File | `/ajax.php?action=read_msg` | High
+30 | File | `/ajax/getBasicInfo.php` | High
+31 | File | `/api/admin/system/store/order/list` | High
+32 | File | `/api/authentication/login` | High
+33 | File | `/api/clusters/local/topics/{topic}/messages` | High
+34 | File | `/api/gen/clients/{language}` | High
+35 | File | `/API/info` | Medium
+36 | File | `/api/ServiceAgent/start_service` | High
+37 | File | `/api/v3/search/categories` | High
+38 | File | `/api/videos/public` | High
+39 | File | `/app/sys1.php` | High
+40 | File | `/application/common.php` | High
+41 | File | `/applyleave.php` | High
+42 | File | `/bi/service/model/DatasetService` | High
+43 | File | `/browse.php` | Medium
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/myMusic.cgi` | High
+46 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+47 | File | `/cgi-bin/tosei_kikai.php` | High
+48 | File | `/cgi-bin/wlogin.cgi` | High
+49 | File | `/charms` | Low
+50 | File | `/clientdetails/admin/regester.php` | High
+51 | File | `/cms/collect/getPages` | High
+52 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+53 | File | `/cov/triggerEnvCov` | High
+54 | File | `/csms/?page=contact_us` | High
+55 | File | `/ctcprotocol/Protocol` | High
+56 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

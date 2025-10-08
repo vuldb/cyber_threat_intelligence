@@ -149,21 +149,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/robot.php` | High
 14 | File | `/admin/search-invoices.php` | High
 15 | File | `/admin/twitter.php` | High
-16 | File | `/ajax.php` | Medium
-17 | File | `/app/controller/Api.php` | High
-18 | File | `/backend/doc/his_doc_update-account.php` | High
-19 | File | `/cgi-bin/apkg_mgr.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_record` | High
-25 | File | `/classes/SystemSettings.php?f=update_settings` | High
-26 | File | `/customnode/install` | High
-27 | File | `/deal/{note_id}/note` | High
-28 | ... | ... | ...
+16 | File | `/app/controller/Api.php` | High
+17 | File | `/backend/doc/his_doc_update-account.php` | High
+18 | File | `/cgi-bin/apkg_mgr.cgi` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+22 | File | `/classes/Master.php?f=delete_record` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/customnode/install` | High
+25 | File | `/deal/{note_id}/note` | High
+26 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

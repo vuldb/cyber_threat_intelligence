@@ -131,9 +131,10 @@ ID | Type | Indicator | Confidence
 72 | File | `/collection/all` | High
 73 | File | `/control/deactivate_case.php` | High
 74 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-75 | ... | ... | ...
+75 | File | `/detailed.php` | High
+76 | ... | ... | ...
 
-There are 662 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 664 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

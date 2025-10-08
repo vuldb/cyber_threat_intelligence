@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeppelin:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [LV](https://vuldb.com/?country.lv)
 * ...
 
@@ -43,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/pki/pesign` | High
-2 | File | `acropora/app/identity/identity_support.c` | High
-3 | File | `frontend/models/model.php` | High
+1 | File | `/dev/nvme0n1` | Medium
+2 | File | `/etc/pki/pesign` | High
+3 | File | `acropora/app/identity/identity_support.c` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

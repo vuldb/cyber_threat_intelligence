@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [38.246.73.120](https://vuldb.com/?ip.38.246.73.120) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,14 +50,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/baskets/{name}` | High
-2 | File | `/dashboard/Cinvoice/manage_invoice` | High
-3 | File | `/display/map` | Medium
-4 | File | `/ecrire` | Low
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/RP_checkCredentialsByBBS` | High
-7 | ... | ... | ...
+2 | File | `/bin/httpd` | Medium
+3 | File | `/dashboard/Cinvoice/manage_invoice` | High
+4 | File | `/display/map` | Medium
+5 | File | `/ecrire` | Low
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/RP_checkCredentialsByBBS` | High
+8 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

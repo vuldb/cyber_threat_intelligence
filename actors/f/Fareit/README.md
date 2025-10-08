@@ -86,19 +86,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index2.html` | High
 3 | File | `/adminPage/conf/reload` | High
 4 | File | `/admin_topic.php?action=delall` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api2/html/` | Medium
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-11 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/h/rest` | Low
-14 | File | `/index/ajax/lang` | High
-15 | ... | ... | ...
+5 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api2/html/` | Medium
+7 | File | `/bitrix/admin/ldap_server_edit.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/h/rest` | Low
+13 | File | `/index/ajax/lang` | High
+14 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

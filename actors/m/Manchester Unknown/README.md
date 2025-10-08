@@ -113,10 +113,9 @@ ID | Type | Indicator | Confidence
 22 | File | `/forum/PostPrivateMessage` | High
 23 | File | `/fos/admin/ajax.php?action=login` | High
 24 | File | `/home/kickPlayer` | High
-25 | File | `/index.php` | Medium
-26 | ... | ... | ...
+25 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

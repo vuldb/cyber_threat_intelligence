@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Haiti Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
 * [ES](https://vuldb.com/?country.es)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,47 +76,51 @@ ID | Type | Indicator | Confidence
 8 | File | `/Admin/changepassword.php` | High
 9 | File | `/admin/content/index` | High
 10 | File | `/admin/edit_area.php` | High
-11 | File | `/admin/index.php?page=manage_lot` | High
-12 | File | `/admin/index3.php` | High
-13 | File | `/admin/info_deal.php` | High
-14 | File | `/admin/pages/subjects.php` | High
-15 | File | `/admin/products/manage_product.php` | High
-16 | File | `/admin/profile.php` | High
-17 | File | `/admin/reports/index.php` | High
-18 | File | `/admin/search-vehicle.php` | High
-19 | File | `/admin/search.php` | High
-20 | File | `/admin/settings/users/edit/` | High
-21 | File | `/admin/subcategory.php` | High
-22 | File | `/admin/system.html` | High
-23 | File | `/admin/twitter.php` | High
-24 | File | `/admin/uploads/` | High
-25 | File | `/admin/userprofile.php` | High
-26 | File | `/adminPage/main/upload` | High
-27 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-28 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-29 | File | `/ajax.php?action=delete_deductions` | High
-30 | File | `/ajax.php?action=save_package` | High
-31 | File | `/analysisProject/pagingQueryData` | High
-32 | File | `/api/api.php?mod=upload&type=1` | High
-33 | File | `/api/test/download` | High
-34 | File | `/api/wechat/app_auth` | High
-35 | File | `/app/admin/view/web_user.html` | High
-36 | File | `/app/sys1.php` | High
-37 | File | `/application/controller/Pelanggan.php` | High
-38 | File | `/author_posts.php` | High
-39 | File | `/backup.pl` | Medium
-40 | File | `/branch_viewmore.php` | High
-41 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-44 | File | `/classes/Master.php?f=delete_reminder` | High
-45 | File | `/classes/Users.php?f=save` | High
-46 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-47 | File | `/common/sysFile/list` | High
-48 | File | `/contact.php` | Medium
-49 | ... | ... | ...
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php?page=manage_lot` | High
+13 | File | `/admin/index3.php` | High
+14 | File | `/admin/info_deal.php` | High
+15 | File | `/admin/msg.php` | High
+16 | File | `/admin/pages/subjects.php` | High
+17 | File | `/admin/patient-search.php` | High
+18 | File | `/admin/products/manage_product.php` | High
+19 | File | `/admin/profile.php` | High
+20 | File | `/admin/reports/index.php` | High
+21 | File | `/admin/save_airlines.php` | High
+22 | File | `/admin/search-vehicle.php` | High
+23 | File | `/admin/search.php` | High
+24 | File | `/admin/settings/users/edit/` | High
+25 | File | `/admin/subcategory.php` | High
+26 | File | `/admin/system.html` | High
+27 | File | `/admin/twitter.php` | High
+28 | File | `/admin/uploads/` | High
+29 | File | `/admin/userprofile.php` | High
+30 | File | `/adminPage/main/upload` | High
+31 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+32 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+33 | File | `/ajax.php?action=delete_deductions` | High
+34 | File | `/ajax.php?action=save_package` | High
+35 | File | `/analysisProject/pagingQueryData` | High
+36 | File | `/api/api.php?mod=upload&type=1` | High
+37 | File | `/api/system/other` | High
+38 | File | `/api/test/download` | High
+39 | File | `/api/wechat/app_auth` | High
+40 | File | `/app/admin/view/web_user.html` | High
+41 | File | `/app/sys1.php` | High
+42 | File | `/application/controller/Pelanggan.php` | High
+43 | File | `/author_posts.php` | High
+44 | File | `/backup.pl` | Medium
+45 | File | `/branch_viewmore.php` | High
+46 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+49 | File | `/changepassemp.php` | High
+50 | File | `/classes/Master.php?f=delete_reminder` | High
+51 | File | `/classes/Users.php?f=save` | High
+52 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+53 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

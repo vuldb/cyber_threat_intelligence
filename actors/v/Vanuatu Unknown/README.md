@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -93,32 +93,33 @@ ID | Type | Indicator | Confidence
 28 | File | `/Employee/edit-profile.php` | High
 29 | File | `/etc/hosts.deny` | High
 30 | File | `/forum/away.php` | High
-31 | File | `/goform/execCommand` | High
-32 | File | `/hrm/employeeadd.php` | High
-33 | File | `/include/file.php` | High
-34 | File | `/install/index.php` | High
-35 | File | `/items/search` | High
-36 | File | `/log/download.php` | High
-37 | File | `/main/fileupload.php` | High
-38 | File | `/mee/login` | Medium
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/obs/bookPerPub.php` | High
-42 | File | `/oews/classes/Master.php?f=update_cart` | High
-43 | File | `/pages/apply_vacancy.php` | High
-44 | File | `/pg_meta/default/query` | High
-45 | File | `/pme` | Low
-46 | File | `/product-details.php` | High
-47 | File | `/products/view_product.php` | High
-48 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-49 | File | `/see_more_details.php` | High
-50 | File | `/sqleditor/query_tool/download` | High
-51 | File | `/src/dede/makehtml_spec.php` | High
-52 | File | `/src/Illuminate/Laravel.php` | High
-53 | File | `/uncpath/` | Medium
-54 | ... | ... | ...
+31 | File | `/goform/addressNat` | High
+32 | File | `/goform/execCommand` | High
+33 | File | `/goform/wifiSSIDset` | High
+34 | File | `/hrm/employeeadd.php` | High
+35 | File | `/include/file.php` | High
+36 | File | `/install/index.php` | High
+37 | File | `/items/search` | High
+38 | File | `/log/download.php` | High
+39 | File | `/main/fileupload.php` | High
+40 | File | `/mee/login` | Medium
+41 | File | `/modules/projects/vw_files.php` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/obs/bookPerPub.php` | High
+44 | File | `/oews/classes/Master.php?f=update_cart` | High
+45 | File | `/pages/apply_vacancy.php` | High
+46 | File | `/pg_meta/default/query` | High
+47 | File | `/pme` | Low
+48 | File | `/product-details.php` | High
+49 | File | `/products/view_product.php` | High
+50 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+51 | File | `/see_more_details.php` | High
+52 | File | `/sqleditor/query_tool/download` | High
+53 | File | `/src/dede/makehtml_spec.php` | High
+54 | File | `/src/Illuminate/Laravel.php` | High
+55 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

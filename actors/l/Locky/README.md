@@ -159,12 +159,13 @@ ID | Type | Indicator | Confidence
 32 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 33 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 34 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-35 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-36 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-37 | File | `/ecommerce/support_ticket` | High
-38 | ... | ... | ...
+35 | File | `/dashboard/admin/submit_plan_new.php` | High
+36 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+37 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+38 | File | `/ecommerce/support_ticket` | High
+39 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

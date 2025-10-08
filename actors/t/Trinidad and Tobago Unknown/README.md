@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HT](https://vuldb.com/?country.ht)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,12 +61,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,24 +75,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addgiving.php` | High
-2 | File | `/admin/index.php?page=manage_lot` | High
-3 | File | `/admin/pages/subjects.php` | High
-4 | File | `/analysisProject/pagingQueryData` | High
-5 | File | `/api/api.php?mod=upload&type=1` | High
-6 | File | `/app/admin/view/web_user.html` | High
-7 | File | `/app/sys1.php` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-10 | File | `/classes/Master.php?f=delete_reminder` | High
-11 | File | `/data/app` | Medium
-12 | File | `/debuginfo.htm` | High
-13 | File | `/detalheIdUra` | High
-14 | File | `/doctor-panel.php` | High
-15 | File | `/editar-cliente.php` | High
-16 | ... | ... | ...
+1 | File | `/admin.php/update/getFile.html` | High
+2 | File | `/admin/addgiving.php` | High
+3 | File | `/admin/booking-search.php` | High
+4 | File | `/admin/index.php?page=manage_lot` | High
+5 | File | `/admin/index3.php` | High
+6 | File | `/admin/msg.php` | High
+7 | File | `/admin/pages/subjects.php` | High
+8 | File | `/analysisProject/pagingQueryData` | High
+9 | File | `/api/api.php?mod=upload&type=1` | High
+10 | File | `/api/system/other` | High
+11 | File | `/app/admin/view/web_user.html` | High
+12 | File | `/app/sys1.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+15 | File | `/changepassemp.php` | High
+16 | File | `/classes/Master.php?f=delete_reminder` | High
+17 | File | `/data/app` | Medium
+18 | File | `/debuginfo.htm` | High
+19 | File | `/deletefile.php` | High
+20 | File | `/detalheIdUra` | High
+21 | File | `/doctor-panel.php` | High
+22 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

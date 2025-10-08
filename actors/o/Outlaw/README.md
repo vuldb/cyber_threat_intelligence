@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,66 +68,66 @@ ID | Type | Indicator | Confidence
 3 | File | `/academy/tutor/filter` | High
 4 | File | `/ad-list` | Medium
 5 | File | `/add-subadmin.php` | High
-6 | File | `/add_new_invoice.php` | High
-7 | File | `/add_user.php` | High
-8 | File | `/adicionar-cliente.php` | High
-9 | File | `/admin/` | Low
-10 | File | `/admin/?page=products/view_product` | High
-11 | File | `/admin/about-us.php` | High
-12 | File | `/admin/add-category.php` | High
-13 | File | `/admin/add-doctor.php` | High
-14 | File | `/admin/add-services.php` | High
-15 | File | `/admin/admin.php` | High
+6 | File | `/add_user.php` | High
+7 | File | `/adicionar-cliente.php` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/?page=products/view_product` | High
+10 | File | `/admin/about-us.php` | High
+11 | File | `/admin/add-category.php` | High
+12 | File | `/admin/add-doctor.php` | High
+13 | File | `/admin/add-services.php` | High
+14 | File | `/admin/admin.php` | High
+15 | File | `/admin/admin_action.php` | High
 16 | File | `/admin/ajax.php?action=login` | High
 17 | File | `/Admin/akun_edit.php` | High
 18 | File | `/admin/api/theme-edit/` | High
-19 | File | `/admin/apply.php` | High
-20 | File | `/admin/article.php?action=upload_cover` | High
-21 | File | `/admin/change-image.php` | High
-22 | File | `/admin/cmsVote/save` | High
-23 | File | `/admin/cms_admin.php` | High
-24 | File | `/admin/content/editor` | High
-25 | File | `/admin/create-package.php` | High
-26 | File | `/admin/dialog/select_images_post.php` | High
-27 | File | `/admin/edit-brand.php` | High
-28 | File | `/admin/edit_area.php` | High
-29 | File | `/admin/edit_customer.php` | High
-30 | File | `/admin/edit_teacher.php` | High
-31 | File | `/admin/File/pictureUpload` | High
-32 | File | `/admin/forgot-password.php` | High
-33 | File | `/admin/index.php` | High
-34 | File | `/admin/index.php?page=categories` | High
-35 | File | `/admin/index.php?page=manage_product` | High
-36 | File | `/admin/link.php` | High
-37 | File | `/admin/maintenance/manage_department.php` | High
-38 | File | `/admin/manage-users.php` | High
-39 | File | `/admin/msg.php` | High
-40 | File | `/admin/network/diag_ping6` | High
-41 | File | `/admin/network/diag_traceroute` | High
-42 | File | `/admin/network/wifi_schedule` | High
-43 | File | `/admin/orders/view_order.php` | High
-44 | File | `/admin/pages/update_go.php` | High
-45 | File | `/admin/plugin.php` | High
-46 | File | `/admin/print.php` | High
-47 | File | `/admin/product/manage_product.php` | High
-48 | File | `/admin/profile.php` | High
-49 | File | `/Admin/Proses_Edit_Akun.php` | High
-50 | File | `/admin/report.php` | High
-51 | File | `/admin/robot.php` | High
-52 | File | `/admin/search-appointment.php` | High
-53 | File | `/admin/search-invoices.php` | High
-54 | File | `/admin/services/view_service.php` | High
-55 | File | `/admin/sn_package/sn_https` | High
-56 | File | `/admin/students.php` | High
-57 | File | `/admin/students/manage.php` | High
-58 | File | `/admin/suppliers/view_details.php` | High
-59 | File | `/admin/tag/save` | High
-60 | File | `/admin/twitter.php` | High
-61 | File | `/admin/view-appointment.php` | High
-62 | File | `/ajax.php?action=delete_tenant` | High
-63 | File | `/api/authentication/login` | High
-64 | File | `/api/browserextension/UpdatePassword/` | High
-65 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+19 | File | `/admin/article.php?action=upload_cover` | High
+20 | File | `/admin/change-image.php` | High
+21 | File | `/admin/cmsVote/save` | High
+22 | File | `/admin/cms_admin.php` | High
+23 | File | `/admin/content/editor` | High
+24 | File | `/admin/create-package.php` | High
+25 | File | `/admin/dialog/select_images_post.php` | High
+26 | File | `/admin/edit-brand.php` | High
+27 | File | `/admin/edit_area.php` | High
+28 | File | `/admin/edit_customer.php` | High
+29 | File | `/admin/edit_teacher.php` | High
+30 | File | `/admin/File/pictureUpload` | High
+31 | File | `/admin/forgot-password.php` | High
+32 | File | `/admin/index.php` | High
+33 | File | `/admin/index.php?page=categories` | High
+34 | File | `/admin/index.php?page=manage_product` | High
+35 | File | `/admin/link.php` | High
+36 | File | `/admin/maintenance/manage_department.php` | High
+37 | File | `/admin/manage-users.php` | High
+38 | File | `/admin/msg.php` | High
+39 | File | `/admin/network/diag_ping6` | High
+40 | File | `/admin/network/diag_traceroute` | High
+41 | File | `/admin/network/wifi_schedule` | High
+42 | File | `/admin/orders/view_order.php` | High
+43 | File | `/admin/pages/update_go.php` | High
+44 | File | `/admin/plugin.php` | High
+45 | File | `/admin/print.php` | High
+46 | File | `/admin/product/manage_product.php` | High
+47 | File | `/admin/profile.php` | High
+48 | File | `/Admin/Proses_Edit_Akun.php` | High
+49 | File | `/admin/report.php` | High
+50 | File | `/admin/robot.php` | High
+51 | File | `/admin/search-appointment.php` | High
+52 | File | `/admin/search-invoices.php` | High
+53 | File | `/admin/services/view_service.php` | High
+54 | File | `/admin/sn_package/sn_https` | High
+55 | File | `/admin/students.php` | High
+56 | File | `/admin/students/manage.php` | High
+57 | File | `/admin/suppliers/view_details.php` | High
+58 | File | `/admin/tag/save` | High
+59 | File | `/admin/twitter.php` | High
+60 | File | `/admin/view-appointment.php` | High
+61 | File | `/ajax.php?action=delete_tenant` | High
+62 | File | `/api/authentication/login` | High
+63 | File | `/api/browserextension/UpdatePassword/` | High
+64 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+65 | File | `/api/discoveries/` | High
 66 | File | `/api/sys/login` | High
 67 | File | `/api/sys/set_passwd` | High
 68 | File | `/api/upload` | Medium
@@ -158,7 +158,7 @@ ID | Type | Indicator | Confidence
 93 | File | `/cgi-bin/nightled.cgi` | High
 94 | ... | ... | ...
 
-There are 827 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 826 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

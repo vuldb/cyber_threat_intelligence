@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dropping Elephant:
+
+* [US](https://vuldb.com/?country.us)
+
 ## Actors
 
 These _actors_ are associated with Dropping Elephant or other actors linked to the campaign.
@@ -11,6 +17,7 @@ These _actors_ are associated with Dropping Elephant or other actors linked to t
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Patchwork](https://vuldb.com/?actor.patchwork) | High
+2 | [Dropping Elephant](https://vuldb.com/?actor.dropping_elephant) | High
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +25,31 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [10.30.4.112](https://vuldb.com/?ip.10.30.4.112) | - | [Patchwork](https://vuldb.com/?actor.patchwork) | High
+1 | [2.56.127.187](https://vuldb.com/?ip.2.56.127.187) | tk99671283030.avanetco.com | [Dropping Elephant](https://vuldb.com/?actor.dropping_elephant) | High
+2 | [10.30.4.112](https://vuldb.com/?ip.10.30.4.112) | - | [Patchwork](https://vuldb.com/?actor.patchwork) | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Dropping Elephant. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Dropping Elephant. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/shell` | Low
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://arcticwolf.com/resources/blog/dropping-elephant-apt-group-targets-turkish-defense-industry/
 * https://securelist.com/the-dropping-elephant-actor/75328/
 
 ## Literature

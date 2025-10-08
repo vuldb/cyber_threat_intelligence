@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.53.253](https://vuldb.com/?ip.45.76.53.253) | 45.76.53.253.vultrusercontent.com | - | Medium
-2 | [92.63.197.48](https://vuldb.com/?ip.92.63.197.48) | - | - | High
-3 | [172.245.123.11](https://vuldb.com/?ip.172.245.123.11) | 172-245-123-11-host.colocrossing.com | - | High
-4 | ... | ... | ... | ...
+1 | [5.8.18.46](https://vuldb.com/?ip.5.8.18.46) | vm19313.hyper.hosting | - | High
+2 | [5.8.19.43](https://vuldb.com/?ip.5.8.19.43) | vm19315.hyper.hosting | - | High
+3 | [43.153.201.105](https://vuldb.com/?ip.43.153.201.105) | - | - | High
+4 | [45.74.10.38](https://vuldb.com/?ip.45.74.10.38) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,13 +49,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/HNAP1` | Low
-3 | File | `/index.php` | Medium
-4 | File | `/patient/booking.php` | High
-5 | File | `admin_boxes.ajax.php` | High
-6 | ... | ... | ...
+2 | File | `/admin/login-back.php` | High
+3 | File | `/function/login.php` | High
+4 | File | `/goform/AdvSetWrlsafeset` | High
+5 | File | `/HNAP1` | Low
+6 | File | `/index.php` | Medium
+7 | File | `/patient/booking.php` | High
+8 | File | `/shw_war/fileupload` | High
+9 | File | `admin.php` | Medium
+10 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +71,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3524502/
 * https://urlhaus.abuse.ch/url/3567832/
 * https://urlhaus.abuse.ch/url/3569952/
+* https://urlhaus.abuse.ch/url/3599447/
+* https://urlhaus.abuse.ch/url/3599644/
+* https://urlhaus.abuse.ch/url/3609961/
+* https://urlhaus.abuse.ch/url/3610665/
+* https://urlhaus.abuse.ch/url/3611366/
+* https://urlhaus.abuse.ch/url/3611800/
+* https://urlhaus.abuse.ch/url/3615937/
+* https://urlhaus.abuse.ch/url/3616524/
+* https://urlhaus.abuse.ch/url/3616526/
+* https://urlhaus.abuse.ch/url/3626882/
+* https://urlhaus.abuse.ch/url/3631737/
+* https://urlhaus.abuse.ch/url/3634931/
 
 ## Literature
 

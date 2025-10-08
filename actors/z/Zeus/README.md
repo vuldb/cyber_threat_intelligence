@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -119,40 +119,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
 2 | File | `.travis.yml` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/add_new_supplier.php` | High
-5 | File | `/adfs/ls` | Medium
-6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/add_ikev2.php` | High
+3 | File | `/add_new_supplier.php` | High
+4 | File | `/adfs/ls` | Medium
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/ajax.php?action=save_user` | High
 8 | File | `/admin/categories/update` | High
-9 | File | `/admin/category_save.php` | High
+9 | File | `/admin/index.php` | High
 10 | File | `/admin/index2.html` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/admin/manage_user.php` | High
-14 | File | `/admin/process_category_add.php` | High
-15 | File | `/admin/quizquestion.php` | High
-16 | File | `/admin/search-vehicle.php` | High
-17 | File | `/admin/subject.php` | High
-18 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-19 | File | `/admin/twitter.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/new-content` | High
+13 | File | `/admin/process_category_add.php` | High
+14 | File | `/admin/search-vehicle.php` | High
+15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+16 | File | `/admin/twitter.php` | High
+17 | File | `/admin/voters_add.php` | High
+18 | File | `/admin/voters_delete.php` | High
+19 | File | `/ajax.php?action=save_package` | High
 20 | File | `/api/v1/settings` | High
 21 | File | `/api/v1/toolbox/device/update/swap` | High
 22 | File | `/app/api/controller/caiji.php` | High
 23 | File | `/app/zentao/module/repo/model.php` | High
-24 | File | `/bin/httpd` | Medium
-25 | File | `/buscar_integrada.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/ExportSettings.sh` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-31 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-32 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-33 | File | `/edit-subject.php` | High
-34 | ... | ... | ...
+24 | File | `/application/controller/Pengeluaran.php` | High
+25 | File | `/authentication/logout.php` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/buscar_integrada.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

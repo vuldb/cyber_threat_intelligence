@@ -76,25 +76,25 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/users_photo.php` | High
 31 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
 32 | File | `/ajax/ajax_login.ashx` | High
-33 | File | `/animalsupdate.php` | High
-34 | File | `/api/admin` | Medium
-35 | File | `/api/admin/user?id` | High
-36 | File | `/api/blade-user/export-user` | High
-37 | File | `/api/upload` | Medium
-38 | File | `/app/options.py` | High
-39 | File | `/backend/admin/his_admin_register_patient.php` | High
-40 | File | `/catalog/compare` | High
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-44 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-45 | File | `/class/edit/edit` | High
-46 | File | `/classes/Master.php? f=save_medicine` | High
-47 | File | `/classes/SystemSettings.php?f=update_settings` | High
-48 | File | `/clinic/disease_symptoms_view.php` | High
+33 | File | `/Android/data/com.myairtelapp/files/` | High
+34 | File | `/animalsupdate.php` | High
+35 | File | `/api/admin` | Medium
+36 | File | `/api/admin/user?id` | High
+37 | File | `/api/blade-user/export-user` | High
+38 | File | `/api/upload` | Medium
+39 | File | `/app/options.py` | High
+40 | File | `/backend/admin/his_admin_register_patient.php` | High
+41 | File | `/catalog/compare` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/class/edit/edit` | High
+47 | File | `/classes/Master.php? f=save_medicine` | High
+48 | File | `/classes/SystemSettings.php?f=update_settings` | High
 49 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [62.60.226.233](https://vuldb.com/?ip.62.60.226.233) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,6 +67,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/62.60.226.233#3000
 * https://www.shodan.io/host/167.82.5.133#80
 * https://x.com/500mk500/status/1912556177860231351
+* https://x.com/naumovax/status/1939722076262203490
 
 ## Literature
 

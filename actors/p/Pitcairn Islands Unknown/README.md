@@ -100,31 +100,30 @@ ID | Type | Indicator | Confidence
 50 | File | `/update-article.php` | High
 51 | File | `/updownload/t.report` | High
 52 | File | `/user.profile.php` | High
-53 | File | `/userRpm/WlanNetworkRpm` | High
-54 | File | `/user_proposal_update_order.php` | High
-55 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-56 | File | `/view/student_exam_mark_update_form.php` | High
-57 | File | `/wordpress/wp-admin/options-general.php` | High
-58 | File | `/wp-admin` | Medium
-59 | File | `/wp-admin/admin-ajax.php` | High
-60 | File | `/_parse/_call_main_search_ajax.php` | High
-61 | File | `4.2.0.CP09` | Medium
-62 | File | `account.asp` | Medium
-63 | File | `adclick.php` | Medium
-64 | File | `addsuppliers.php` | High
-65 | File | `adm/systools.asp` | High
-66 | File | `admin.jcomments.php` | High
-67 | File | `admin.php` | Medium
-68 | File | `admin/admin.php` | High
-69 | File | `admin/admin.shtml` | High
-70 | File | `Admin/ADM_Pagina.php` | High
-71 | File | `admin/category.inc.php` | High
-72 | File | `admin/expense_report.php` | High
-73 | File | `admin/main.asp` | High
-74 | File | `admin/param/param_func.inc.php` | High
-75 | ... | ... | ...
+53 | File | `/user/namespace/{namespace}/details` | High
+54 | File | `/userRpm/WlanNetworkRpm` | High
+55 | File | `/user_proposal_update_order.php` | High
+56 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+57 | File | `/view/student_exam_mark_update_form.php` | High
+58 | File | `/wordpress/wp-admin/options-general.php` | High
+59 | File | `/wp-admin` | Medium
+60 | File | `/wp-admin/admin-ajax.php` | High
+61 | File | `/_parse/_call_main_search_ajax.php` | High
+62 | File | `4.2.0.CP09` | Medium
+63 | File | `account.asp` | Medium
+64 | File | `adclick.php` | Medium
+65 | File | `addsuppliers.php` | High
+66 | File | `adm/systools.asp` | High
+67 | File | `admin.jcomments.php` | High
+68 | File | `admin.php` | Medium
+69 | File | `admin/admin.php` | High
+70 | File | `admin/admin.shtml` | High
+71 | File | `Admin/ADM_Pagina.php` | High
+72 | File | `admin/category.inc.php` | High
+73 | File | `admin/expense_report.php` | High
+74 | ... | ... | ...
 
-There are 656 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 655 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,50 +108,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addbill.php` | Medium
-2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/edit-class.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/Admin/edit_profile.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/manage-pages.php` | High
-9 | File | `/admin/process_category_add.php` | High
-10 | File | `/admin/registration.php` | High
-11 | File | `/admin/sales/manage_sale.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/admin/users-applications.php` | High
-14 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-15 | File | `/advanced-tools/nova/bin/netwatch` | High
-16 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-17 | File | `/apilog.php` | Medium
-18 | File | `/app/middleware/TokenVerify.php` | High
-19 | File | `/auth_pic.cgi` | High
-20 | File | `/blog` | Low
-21 | File | `/book-appointment.php` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-24 | File | `/cgi-bin/api-get_line_status` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-26 | File | `/cgi-bin/luci` | High
-27 | File | `/cgi-bin/myMusic.cgi` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/s3.cgi` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/changeimage1.php` | High
-32 | File | `/Code/loginnew.php` | High
-33 | File | `/Code/sc_login.php` | High
-34 | File | `/control/register_case.php` | High
-35 | File | `/dashboard/admin/edit_member.php` | High
-36 | File | `/dashboard/admin/edit_mem_submit.php` | High
-37 | File | `/dashboard/admin/new_submit.php` | High
-38 | File | `/dashboard/message` | High
-39 | File | `/details.php` | Medium
-40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-41 | File | `/devinfo` | Medium
-42 | ... | ... | ...
+1 | File | `/account/forgotpassword` | High
+2 | File | `/addbill.php` | Medium
+3 | File | `/admin/add_trainers.php` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/edit-class.php` | High
+6 | File | `/admin/edit_action.php` | High
+7 | File | `/Admin/edit_profile.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/manage-pages.php` | High
+10 | File | `/admin/process_category_add.php` | High
+11 | File | `/admin/registration.php` | High
+12 | File | `/admin/sales/manage_sale.php` | High
+13 | File | `/admin/userprofile.php` | High
+14 | File | `/admin/users-applications.php` | High
+15 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+16 | File | `/advanced-tools/nova/bin/netwatch` | High
+17 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+18 | File | `/apilog.php` | Medium
+19 | File | `/app/middleware/TokenVerify.php` | High
+20 | File | `/attendancelist.php` | High
+21 | File | `/auth_pic.cgi` | High
+22 | File | `/blog` | Low
+23 | File | `/book-appointment.php` | High
+24 | File | `/cancelbookingpatient.php` | High
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+27 | File | `/cgi-bin/api-get_line_status` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+30 | File | `/cgi-bin/luci` | High
+31 | File | `/cgi-bin/myMusic.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/s3.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/changeimage1.php` | High
+36 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+37 | File | `/Code/loginnew.php` | High
+38 | File | `/Code/sc_login.php` | High
+39 | File | `/conf/app.conf` | High
+40 | File | `/control/register_case.php` | High
+41 | File | `/dashboard/admin/edit_member.php` | High
+42 | File | `/dashboard/admin/edit_mem_submit.php` | High
+43 | File | `/dashboard/admin/new_submit.php` | High
+44 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -105,33 +105,33 @@ ID | Type | Indicator | Confidence
 26 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 27 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 28 | File | `/applications/nexus/modules/front/store/store.php` | High
-29 | File | `/apply.cgi` | Medium
-30 | File | `/backend/doc/his_doc_update-account.php` | High
-31 | File | `/bitrix/admin/ldap_server_edit.php` | High
-32 | File | `/cgi-bin/` | Medium
-33 | File | `/cgi-bin/apkg_mgr.cgi` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/classes/Master.php` | High
-39 | File | `/classes/Master.php?f=delete_record` | High
-40 | File | `/classes/Master.php?f=save_category` | High
-41 | File | `/classes/SystemSettings.php?f=update_settings` | High
-42 | File | `/classes/Users.php?f=save` | High
-43 | File | `/College/admin/teacher.php` | High
-44 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-45 | File | `/customnode/install` | High
-46 | File | `/dcim/rack-roles/` | High
-47 | File | `/deal/{note_id}/note` | High
-48 | File | `/detailed.php` | High
-49 | File | `/dtale/chart-data/1` | High
-50 | File | `/etc/shadow.sample` | High
-51 | File | `/fftools/ffmpeg_enc.c` | High
-52 | File | `/filter.php` | Medium
+29 | File | `/backend/doc/his_doc_update-account.php` | High
+30 | File | `/bitrix/admin/ldap_server_edit.php` | High
+31 | File | `/cgi-bin/` | Medium
+32 | File | `/cgi-bin/apkg_mgr.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/classes/Master.php` | High
+38 | File | `/classes/Master.php?f=delete_record` | High
+39 | File | `/classes/Master.php?f=save_category` | High
+40 | File | `/classes/SystemSettings.php?f=update_settings` | High
+41 | File | `/classes/Users.php?f=save` | High
+42 | File | `/College/admin/teacher.php` | High
+43 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+44 | File | `/customnode/install` | High
+45 | File | `/dcim/rack-roles/` | High
+46 | File | `/deal/{note_id}/note` | High
+47 | File | `/detailed.php` | High
+48 | File | `/dtale/chart-data/1` | High
+49 | File | `/etc/shadow.sample` | High
+50 | File | `/fftools/ffmpeg_enc.c` | High
+51 | File | `/filter.php` | Medium
+52 | File | `/fladmin/sysconfig_doedit.php` | High
 53 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -212,7 +212,7 @@ ID | Type | Indicator | Confidence
 153 | File | `/bsms_ci/index.php` | High
 154 | ... | ... | ...
 
-There are 1374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

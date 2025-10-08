@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -202,12 +202,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -215,12 +216,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/auth/roles` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-4 | ... | ... | ...
+1 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+2 | File | `/admin/?/snippet/delete/3` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/admintools/tool.php` | High
+5 | File | `/admin/ajax.php?action=save_settings` | High
+6 | File | `/admin/article/add/do` | High
+7 | File | `/admin/auth/roles` | High
+8 | File | `/admin/categories/view_category.php` | High
+9 | File | `/admin/contactus.php` | High
+10 | File | `/admin/edit-animal-details.php` | High
+11 | File | `/admin/execedituser.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/search-maid.php` | High
+15 | File | `/admin/user_save.php` | High
+16 | File | `/admin_route/dec_service_credits.php` | High
+17 | File | `/adphar.php` | Medium
+18 | File | `/ajax.php?action=delete_plan` | High
+19 | File | `/ajax.php?action=save_package` | High
+20 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+21 | File | `/api/database/testConnect` | High
+22 | File | `/api/fetch` | Medium
+23 | File | `/api/v2/open/rowsInfo` | High
+24 | File | `/app/sys1.php` | High
+25 | File | `/boafrm/formFilter` | High
+26 | File | `/boafrm/formIpQoS` | High
+27 | File | `/boafrm/formPortFw` | High
+28 | File | `/boafrm/formVlan` | High
+29 | File | `/boafrm/formWlSiteSurvey` | High
+30 | File | `/cancel.php` | Medium
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+33 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
+34 | File | `/classes/Master.php?f=save_category` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

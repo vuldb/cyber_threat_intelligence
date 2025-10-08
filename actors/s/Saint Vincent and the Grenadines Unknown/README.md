@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,46 +79,46 @@ ID | Type | Indicator | Confidence
 13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 14 | File | `/applications/nexus/modules/front/store/store.php` | High
 15 | File | `/blog` | Low
-16 | File | `/cas/logout` | Medium
-17 | File | `/CCMAdmin/serverlist.asp` | High
-18 | File | `/cgi-bin/download_config.cgi` | High
-19 | File | `/cgi-bin/settings-firewall.cgi` | High
-20 | File | `/common/logViewer/logViewer.jsf` | High
-21 | File | `/config/config.json` | High
-22 | File | `/controller/Index.php` | High
-23 | File | `/course/filterRecords/` | High
-24 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-25 | File | `/cwms/classes/Master.php?f=save_contact` | High
-26 | File | `/dashboard/updatelogo.php` | High
-27 | File | `/debug/` | Low
-28 | File | `/dede/file_manage_control.php` | High
-29 | File | `/download` | Medium
-30 | File | `/fcgi/scrut_fcgi.fcgi` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/gasmark/assets/myimages/oneWord.php` | High
-33 | File | `/gena.cgi` | Medium
-34 | File | `/goform/apPortalPhoneAuth` | High
-35 | File | `/goform/SafeEmailFilter` | High
-36 | File | `/goform/wirelessAdvancedHidden` | High
-37 | File | `/homeaction.php` | High
-38 | File | `/index.php` | Medium
-39 | File | `/index.php/sysmanage/Login/login_auth/` | High
-40 | File | `/lms/classes/Master.php?f=save_record` | High
-41 | File | `/modules/profile/index.php` | High
-42 | File | `/multi-vendor-shopping-script/product-list.php` | High
-43 | File | `/mygym/admin/index.php` | High
-44 | File | `/p` | Low
-45 | File | `/php/ping.php` | High
-46 | File | `/portal/search.htm` | High
-47 | File | `/preauth` | Medium
-48 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-49 | File | `/send_order.cgi?parameter=restart` | High
-50 | File | `/shell` | Low
-51 | File | `/shopping/admin/index.php` | High
-52 | File | `/show_news.php` | High
-53 | File | `/student/bookdetails.php` | High
-54 | File | `/swms/ms.cgi` | Medium
-55 | File | `/tmp` | Low
+16 | File | `/browse.php` | Medium
+17 | File | `/cas/logout` | Medium
+18 | File | `/CCMAdmin/serverlist.asp` | High
+19 | File | `/cgi-bin/download_config.cgi` | High
+20 | File | `/cgi-bin/settings-firewall.cgi` | High
+21 | File | `/common/logViewer/logViewer.jsf` | High
+22 | File | `/config/config.json` | High
+23 | File | `/controller/Index.php` | High
+24 | File | `/course/filterRecords/` | High
+25 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+26 | File | `/cwms/classes/Master.php?f=save_contact` | High
+27 | File | `/dashboard/updatelogo.php` | High
+28 | File | `/debug/` | Low
+29 | File | `/dede/file_manage_control.php` | High
+30 | File | `/download` | Medium
+31 | File | `/fcgi/scrut_fcgi.fcgi` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/gasmark/assets/myimages/oneWord.php` | High
+34 | File | `/gena.cgi` | Medium
+35 | File | `/goform/apPortalPhoneAuth` | High
+36 | File | `/goform/SafeEmailFilter` | High
+37 | File | `/goform/wirelessAdvancedHidden` | High
+38 | File | `/homeaction.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php/sysmanage/Login/login_auth/` | High
+41 | File | `/lms/classes/Master.php?f=save_record` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/multi-vendor-shopping-script/product-list.php` | High
+44 | File | `/mygym/admin/index.php` | High
+45 | File | `/p` | Low
+46 | File | `/php/ping.php` | High
+47 | File | `/portal/search.htm` | High
+48 | File | `/preauth` | Medium
+49 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+50 | File | `/rom-0` | Low
+51 | File | `/send_order.cgi?parameter=restart` | High
+52 | File | `/shell` | Low
+53 | File | `/shopping/admin/index.php` | High
+54 | File | `/show_news.php` | High
+55 | File | `/student/bookdetails.php` | High
 56 | ... | ... | ...
 
 There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

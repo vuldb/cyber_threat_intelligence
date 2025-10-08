@@ -51,12 +51,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,43 +102,41 @@ ID | Type | Indicator | Confidence
 36 | File | `/bsms_ci/index.php` | High
 37 | File | `/cgi-bin/cstecgi.cgi` | High
 38 | File | `/cgi-bin/hd_config.cgi` | High
-39 | File | `/claire_blake` | High
-40 | File | `/conf/app.conf` | High
-41 | File | `/control/register_case.php` | High
-42 | File | `/csms/admin/?page=system_info` | High
-43 | File | `/csms/admin/?page=user/list` | High
-44 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-45 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-46 | File | `/downloadReport.php` | High
-47 | File | `/editar-produto.php` | High
-48 | File | `/edit_user.php` | High
-49 | File | `/employeeview.php` | High
-50 | File | `/endpoint/delete-bookmark.php?bookmark=1` | High
-51 | File | `/endpoint/delete-mark.php` | High
-52 | File | `/face-recognition-php/facepay-master/camera.php` | High
-53 | File | `/foms/routers/cancel-order.php` | High
-54 | File | `/forum/away.php` | High
-55 | File | `/goform/execCommand` | High
-56 | File | `/goform/fromRouteStatic` | High
-57 | File | `/goform/qossetting` | High
-58 | File | `/goform/SetOnlineDevName` | High
-59 | File | `/goform/SetSysAutoRebbotCfg` | High
-60 | File | `/goform/webExcptypemanFilter` | High
-61 | File | `/goform/wifiSSIDget` | High
-62 | File | `/index.php` | Medium
-63 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-64 | File | `/login` | Low
-65 | File | `/login.php` | Medium
-66 | File | `/manage_laundry.php` | High
-67 | File | `/manage_person.php` | High
-68 | File | `/manage_supplier.php` | High
-69 | File | `/mims/app/addcustomerHandler.php` | High
-70 | File | `/mkshop/Men/profile.php` | High
-71 | File | `/model/approve_petty_cash.php` | High
-72 | File | `/modules/ajaxBloqueaCita.php` | High
-73 | ... | ... | ...
+39 | File | `/change-language/de_DE` | High
+40 | File | `/claire_blake` | High
+41 | File | `/conf/app.conf` | High
+42 | File | `/control/register_case.php` | High
+43 | File | `/csms/admin/?page=system_info` | High
+44 | File | `/csms/admin/?page=user/list` | High
+45 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+46 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+47 | File | `/downloadReport.php` | High
+48 | File | `/editar-produto.php` | High
+49 | File | `/edit_user.php` | High
+50 | File | `/employeeview.php` | High
+51 | File | `/endpoint/delete-bookmark.php?bookmark=1` | High
+52 | File | `/endpoint/delete-mark.php` | High
+53 | File | `/face-recognition-php/facepay-master/camera.php` | High
+54 | File | `/foms/routers/cancel-order.php` | High
+55 | File | `/forum/away.php` | High
+56 | File | `/goform/execCommand` | High
+57 | File | `/goform/fromRouteStatic` | High
+58 | File | `/goform/GetParentControlInfo` | High
+59 | File | `/goform/qossetting` | High
+60 | File | `/goform/SetOnlineDevName` | High
+61 | File | `/goform/SetSysAutoRebbotCfg` | High
+62 | File | `/goform/webExcptypemanFilter` | High
+63 | File | `/goform/wifiSSIDget` | High
+64 | File | `/index.php` | Medium
+65 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+66 | File | `/login` | Low
+67 | File | `/login.php` | Medium
+68 | File | `/manage_laundry.php` | High
+69 | File | `/manage_person.php` | High
+70 | File | `/manage_supplier.php` | High
+71 | ... | ... | ...
 
-There are 642 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 628 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,8 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [107.173.231.114](https://vuldb.com/?ip.107.173.231.114) | 107-173-231-114-host.colocrossing.com | - | High
-2 | [148.251.71.182](https://vuldb.com/?ip.148.251.71.182) | static.182.71.251.148.clients.your-server.de | - | High
+1 | [79.132.131.184](https://vuldb.com/?ip.79.132.131.184) | - | - | High
+2 | [84.200.193.20](https://vuldb.com/?ip.84.200.193.20) | - | - | High
+3 | [107.173.231.114](https://vuldb.com/?ip.107.173.231.114) | 107-173-231-114-host.colocrossing.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,6 +55,7 @@ There are 1 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell/
+* https://www.stormshield.com/news/apt35-plays-same-music-again/
 
 ## Literature
 

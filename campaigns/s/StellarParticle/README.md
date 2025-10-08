@@ -61,10 +61,11 @@ ID | Type | Indicator | Confidence
 4 | File | `/php/exportrecord.php` | High
 5 | File | `adclick.php` | Medium
 6 | File | `add_vhost.php` | High
-7 | File | `admin/index.php` | High
-8 | ... | ... | ...
+7 | File | `admin.php` | Medium
+8 | File | `admin/index.php` | High
+9 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

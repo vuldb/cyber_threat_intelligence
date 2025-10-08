@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
-* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -71,11 +71,12 @@ ID | IP address | Hostname | Actor | Confidence
 39 | [66.29.129.53](https://vuldb.com/?ip.66.29.129.53) | - | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
 40 | [66.29.129.54](https://vuldb.com/?ip.66.29.129.54) | - | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
 41 | [66.29.129.56](https://vuldb.com/?ip.66.29.129.56) | - | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
-42 | [67.211.211.114](https://vuldb.com/?ip.67.211.211.114) | server.as128promotion.tk | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
-43 | [67.211.211.115](https://vuldb.com/?ip.67.211.211.115) | server.luni15.com | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
-44 | ... | ... | ... | ...
+42 | [67.21.32.81](https://vuldb.com/?ip.67.21.32.81) | - | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
+43 | [67.211.211.114](https://vuldb.com/?ip.67.211.211.114) | server.as128promotion.tk | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
+44 | [67.211.211.115](https://vuldb.com/?ip.67.211.211.115) | server.luni15.com | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
+45 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 174 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,13 +85,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -98,59 +99,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/add-students.php` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/admin-api/mp/material/upload-permanent` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/admin-update-employee.php` | High
-8 | File | `/admin/booktime.php` | High
-9 | File | `/admin/categories/update` | High
-10 | File | `/admin/change-image.php` | High
-11 | File | `/Admin/consulting_detail.php` | High
-12 | File | `/admin/file_manager/export` | High
-13 | File | `/admin/index.php/web/ajax_all_lists` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/member_save.php` | High
-18 | File | `/admin/process_category_add.php` | High
-19 | File | `/admin/quizquestion.php` | High
-20 | File | `/admin/search-appointment.php` | High
-21 | File | `/admin/search-vehicle.php` | High
-22 | File | `/admin/voters_row.php` | High
-23 | File | `/adminPage/conf/reload` | High
-24 | File | `/admin_topic.php?action=delall` | High
-25 | File | `/api/authentication/login` | High
-26 | File | `/api/baskets/{name}` | High
-27 | File | `/api/clusters/local/topics/{topic}/messages` | High
-28 | File | `/api/cron/settings/setJob/` | High
-29 | File | `/API/info` | Medium
-30 | File | `/api2/html/` | Medium
-31 | File | `/app/api/controller/caiji.php` | High
-32 | File | `/application/index/controller/Service.php` | High
-33 | File | `/applyleave.php` | High
-34 | File | `/bitrix/admin/ldap_server_edit.php` | High
-35 | File | `/boafrm/formIpQoS` | High
-36 | File | `/buscar_integrada.php` | High
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-39 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-40 | File | `/cgi-bin/myMusic.cgi` | High
-41 | File | `/cgi-bin/nas_sharing.cgi` | High
-42 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-43 | File | `/cgi-bin/tosei_kikai.php` | High
-44 | File | `/cgi-bin/wlogin.cgi` | High
-45 | File | `/classes/Master.php` | High
-46 | File | `/config/php.ini` | High
-47 | File | `/cov/triggerEnvCov` | High
-48 | File | `/dashboard/admin/del_plan.php` | High
-49 | File | `/dashboard/approve-reject.php` | High
-50 | File | `/debug/pprof` | Medium
-51 | ... | ... | ...
+1 | File | `//etc/RT2870STA.dat` | High
+2 | File | `/99/ImportSQLTable` | High
+3 | File | `/add-students.php` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/admin-api/mp/material/upload-permanent` | High
+6 | File | `/admin.php/addon/index` | High
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/add-category.php` | High
+10 | File | `/admin/add_title.php` | High
+11 | File | `/admin/admin-update-employee.php` | High
+12 | File | `/admin/booktime.php` | High
+13 | File | `/admin/categories/update` | High
+14 | File | `/admin/change-image.php` | High
+15 | File | `/admin/complaint-details.php` | High
+16 | File | `/Admin/consulting_detail.php` | High
+17 | File | `/admin/controller/delete_group_student.php` | High
+18 | File | `/admin/file_manager/export` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/index.php/web/ajax_all_lists` | High
+21 | File | `/admin/index2.html` | High
+22 | File | `/admin/loadUsers` | High
+23 | File | `/Admin/login.php` | High
+24 | File | `/admin/login.php` | High
+25 | File | `/admin/manage-users.php` | High
+26 | File | `/admin/member_save.php` | High
+27 | File | `/admin/process_category_add.php` | High
+28 | File | `/admin/quizquestion.php` | High
+29 | File | `/admin/search-vehicle.php` | High
+30 | File | `/admin/student_edit_photo.php` | High
+31 | File | `/admin/suppliercontroller.php` | High
+32 | File | `/admin/user-profile.php` | High
+33 | File | `/admin/user/list` | High
+34 | File | `/admin/voters_row.php` | High
+35 | File | `/adminac.php` | Medium
+36 | File | `/adminPage/conf/reload` | High
+37 | File | `/admin_topic.php?action=delall` | High
+38 | File | `/api/authentication/login` | High
+39 | File | `/api/cron/settings/setJob/` | High
+40 | File | `/api/GylOperator/LoadData` | High
+41 | File | `/API/info` | Medium
+42 | File | `/api/ServiceAgent/start_service` | High
+43 | File | `/api/v3/search/categories` | High
+44 | File | `/api/videos/public` | High
+45 | File | `/api2/html/` | Medium
+46 | File | `/app/api/controller/caiji.php` | High
+47 | File | `/application/common.php` | High
+48 | File | `/applyleave.php` | High
+49 | File | `/bi/service/model/DatasetService` | High
+50 | File | `/bitrix/admin/ldap_server_edit.php` | High
+51 | File | `/boafrm/formIpQoS` | High
+52 | File | `/boafrm/formPortFw` | High
+53 | File | `/browse.php` | Medium
+54 | File | `/buscar_integrada.php` | High
+55 | File | `/cancelar-enturmacao-em-lote/` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -159,6 +166,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.blueliv.com/#!/s/5fb238a882df413ea934a341
 * https://levelblue.com/blogs/labs-research/ngioweb-remains-active-7-years-later
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3611134/
+* https://urlhaus.abuse.ch/url/3611656/
 
 ## Literature
 

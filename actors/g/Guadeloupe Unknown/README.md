@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [TR](https://vuldb.com/?country.tr)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -485,13 +485,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -499,40 +499,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/action/new-father.php` | High
-2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/categories/view_category.php` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/content/index` | High
-7 | File | `/admin/edit_area.php` | High
-8 | File | `/admin/index.php?page=manage_lot` | High
-9 | File | `/admin/info_deal.php` | High
-10 | File | `/admin/pages/subjects.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/profile.php` | High
-13 | File | `/admin/reports/index.php` | High
-14 | File | `/admin/search-vehicle.php` | High
-15 | File | `/admin/search.php` | High
-16 | File | `/admin/subcategory.php` | High
-17 | File | `/admin/system.html` | High
-18 | File | `/admin/userprofile.php` | High
-19 | File | `/ajax.php?action=delete_deductions` | High
-20 | File | `/analysisProject/pagingQueryData` | High
-21 | File | `/api/api.php?mod=upload&type=1` | High
-22 | File | `/api/test/download` | High
-23 | File | `/api/wechat/app_auth` | High
-24 | File | `/app/admin/view/web_user.html` | High
-25 | File | `/app/sys1.php` | High
-26 | File | `/author_posts.php` | High
-27 | File | `/backup.pl` | Medium
-28 | File | `/branch_viewmore.php` | High
-29 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/classes/Master.php?f=delete_reminder` | High
-32 | ... | ... | ...
+1 | File | `/admin.php/update/getFile.html` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/addgiving.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/assign/assign.php` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/categories/view_category.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/content/index` | High
+10 | File | `/admin/edit_area.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php?page=manage_lot` | High
+13 | File | `/admin/index3.php` | High
+14 | File | `/admin/info_deal.php` | High
+15 | File | `/admin/msg.php` | High
+16 | File | `/admin/pages/subjects.php` | High
+17 | File | `/admin/products/manage_product.php` | High
+18 | File | `/admin/reports/index.php` | High
+19 | File | `/admin/search-vehicle.php` | High
+20 | File | `/admin/search.php` | High
+21 | File | `/admin/settings/users/edit/` | High
+22 | File | `/admin/subcategory.php` | High
+23 | File | `/admin/system.html` | High
+24 | File | `/admin/userprofile.php` | High
+25 | File | `/ajax.php?action=delete_deductions` | High
+26 | File | `/ajax.php?action=save_package` | High
+27 | File | `/analysisProject/pagingQueryData` | High
+28 | File | `/api/api.php?mod=upload&type=1` | High
+29 | File | `/api/system/other` | High
+30 | File | `/api/test/download` | High
+31 | File | `/app/admin/view/web_user.html` | High
+32 | File | `/app/sys1.php` | High
+33 | File | `/backup.pl` | Medium
+34 | File | `/branch_viewmore.php` | High
+35 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

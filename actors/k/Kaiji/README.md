@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,9 +48,11 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [45.131.65.11](https://vuldb.com/?ip.45.131.65.11) | 11.65.131.45.in-addr.arpa | - | High
 26 | [45.142.115.211](https://vuldb.com/?ip.45.142.115.211) | 211.115.142.45.in-addr.arpa | - | High
 27 | [45.192.102.5](https://vuldb.com/?ip.45.192.102.5) | - | - | High
-28 | ... | ... | ... | ...
+28 | [45.192.209.47](https://vuldb.com/?ip.45.192.209.47) | - | - | High
+29 | [45.192.209.54](https://vuldb.com/?ip.45.192.209.54) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 106 more IOC items available. Please use our online service to access the data.
+There are 117 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,11 +60,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -93,46 +96,54 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/edit-guard-detail.php` | High
 20 | File | `/admin/edit-products.php` | High
 21 | File | `/admin/enrollment-details.php` | High
-22 | File | `/admin/forms/option_lists/edit.php` | High
-23 | File | `/admin/getallarticleinfo` | High
-24 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/index2.html` | High
-27 | File | `/Admin/login.php` | High
-28 | File | `/admin/normal-search.php` | High
-29 | File | `/admin/salary_slip.php` | High
-30 | File | `/admin/template/update` | High
-31 | File | `/admin/user-search.php` | High
-32 | File | `/adminPage/main/upload` | High
-33 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-34 | File | `/adpweb/a/base/barcodeDetail/` | High
-35 | File | `/ajax.php?action=save_package` | High
-36 | File | `/api/docs/index.php` | High
-37 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-38 | File | `/api/sys/set_passwd` | High
-39 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-40 | File | `/api/wizard/setsyncpppoecfg` | High
-41 | File | `/app/controller/Api.php` | High
-42 | File | `/auth.asp` | Medium
-43 | File | `/auth/register` | High
-44 | File | `/backend/register.php` | High
-45 | File | `/boafrm/formFilter` | High
-46 | File | `/boafrm/formSaveConfig` | High
-47 | File | `/boafrm/formWlSiteSurvey` | High
-48 | File | `/BRS_top.html` | High
-49 | File | `/cashconfirm.php` | High
-50 | File | `/catalog/compare` | High
-51 | File | `/cgi-bin/Config.cgi?action=set` | High
-52 | File | `/cgi-bin/cstecgi.cgi` | High
-53 | File | `/cgi-bin/editBookmark` | High
-54 | File | `/cgi-bin/hd_config.cgi` | High
-55 | File | `/cgi-bin/login.cgi` | High
-56 | File | `/cgi-bin/mainfunction.cgi` | High
-57 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-58 | File | `/change-password.php` | High
-59 | ... | ... | ...
+22 | File | `/admin/faculty_action.php` | High
+23 | File | `/admin/forms/option_lists/edit.php` | High
+24 | File | `/admin/getallarticleinfo` | High
+25 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/index2.html` | High
+28 | File | `/Admin/login.php` | High
+29 | File | `/admin/manage-pages.php` | High
+30 | File | `/admin/manage_user.php` | High
+31 | File | `/admin/normal-search.php` | High
+32 | File | `/admin/salary_slip.php` | High
+33 | File | `/admin/template/update` | High
+34 | File | `/admin/user-search.php` | High
+35 | File | `/admin/view-patient.php` | High
+36 | File | `/adminPage/main/upload` | High
+37 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+38 | File | `/adpweb/a/base/barcodeDetail/` | High
+39 | File | `/ajax.php?action=save_package` | High
+40 | File | `/api/docs/index.php` | High
+41 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+42 | File | `/api/sys/set_passwd` | High
+43 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+44 | File | `/api/wizard/setsyncpppoecfg` | High
+45 | File | `/app/controller/Api.php` | High
+46 | File | `/auth.asp` | Medium
+47 | File | `/auth/register` | High
+48 | File | `/backend/register.php` | High
+49 | File | `/bic/ssoService/v1/applyCT` | High
+50 | File | `/bin/httpd` | Medium
+51 | File | `/boafrm/formFilter` | High
+52 | File | `/boafrm/formSaveConfig` | High
+53 | File | `/boafrm/formWlSiteSurvey` | High
+54 | File | `/BRS_top.html` | High
+55 | File | `/cashconfirm.php` | High
+56 | File | `/catalog/compare` | High
+57 | File | `/cgi-bin/Config.cgi?action=set` | High
+58 | File | `/cgi-bin/cstecgi.cgi` | High
+59 | File | `/cgi-bin/editBookmark` | High
+60 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+61 | File | `/cgi-bin/hd_config.cgi` | High
+62 | File | `/cgi-bin/login.cgi` | High
+63 | File | `/cgi-bin/mainfunction.cgi` | High
+64 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+65 | File | `/change-password.php` | High
+66 | File | `/changeUsername.php` | High
+67 | ... | ... | ...
 
-There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 588 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -158,13 +169,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.131.65.11
 * https://search.censys.io/hosts/45.142.115.211
 * https://search.censys.io/hosts/45.192.102.5
+* https://search.censys.io/hosts/45.192.209.47
+* https://search.censys.io/hosts/45.192.209.54
 * https://search.censys.io/hosts/45.192.215.195
 * https://search.censys.io/hosts/45.196.239.74
+* https://search.censys.io/hosts/45.207.199.11
 * https://search.censys.io/hosts/45.207.207.97
 * https://search.censys.io/hosts/45.207.207.195
 * https://search.censys.io/hosts/45.207.207.222
 * https://search.censys.io/hosts/51.79.160.146
 * https://search.censys.io/hosts/51.79.160.209
+* https://search.censys.io/hosts/61.184.139.17
 * https://search.censys.io/hosts/62.216.93.113
 * https://search.censys.io/hosts/65.75.211.232
 * https://search.censys.io/hosts/65.75.211.237
@@ -172,6 +187,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/76.223.125.223
 * https://search.censys.io/hosts/77.90.7.86
 * https://search.censys.io/hosts/83.229.120.164
+* https://search.censys.io/hosts/87.121.84.125
 * https://search.censys.io/hosts/89.117.94.224
 * https://search.censys.io/hosts/98.159.100.118
 * https://search.censys.io/hosts/103.45.68.160
@@ -180,6 +196,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/103.135.101.188
 * https://search.censys.io/hosts/103.178.57.159
 * https://search.censys.io/hosts/108.181.228.101
+* https://search.censys.io/hosts/110.40.80.89
 * https://search.censys.io/hosts/111.67.206.166
 * https://search.censys.io/hosts/111.180.147.145
 * https://search.censys.io/hosts/114.80.124.67
@@ -228,12 +245,16 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/172.247.194.230
 * https://search.censys.io/hosts/173.249.198.97
 * https://search.censys.io/hosts/175.24.197.196
+* https://search.censys.io/hosts/176.100.37.158
 * https://search.censys.io/hosts/182.106.149.83
 * https://search.censys.io/hosts/182.106.149.84
 * https://search.censys.io/hosts/183.249.20.106
 * https://search.censys.io/hosts/192.140.163.10
 * https://search.censys.io/hosts/192.140.166.53
+* https://search.censys.io/hosts/192.140.188.34
 * https://search.censys.io/hosts/192.227.146.253
+* https://search.censys.io/hosts/192.238.128.194
+* https://search.censys.io/hosts/192.238.128.209
 * https://search.censys.io/hosts/192.238.206.9
 * https://search.censys.io/hosts/194.147.98.238
 * https://search.censys.io/hosts/198.98.53.199
@@ -253,6 +274,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3518417/
 * https://urlhaus.abuse.ch/url/3518419/
 * https://urlhaus.abuse.ch/url/3518421/
+* https://urlhaus.abuse.ch/url/3580991/
+* https://urlhaus.abuse.ch/url/3582817/
+* https://urlhaus.abuse.ch/url/3583745/
 * https://www.shodan.io/host/45.60.28.19
 * https://www.virustotal.com/gui/file/9645299e58c7521d811fbdcdbd57db45160191db7c7b73eae5d97e4530136da8/detection
 

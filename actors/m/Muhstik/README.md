@@ -61,12 +61,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,26 +79,27 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/edit_product.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
 5 | File | `/admin/mod_reports/printreport.php` | High
-6 | File | `/admin/update-clients.php` | High
-7 | File | `/ample/app/action/edit_product.php` | High
-8 | File | `/api/v2/open/rowsInfo` | High
-9 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
-10 | File | `/boafrm/formParentControl` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/conf/` | Low
-14 | File | `/config/api/v1/reboot` | High
-15 | File | `/controller/AdminController.php` | High
-16 | File | `/cwc/login` | Medium
-17 | File | `/ecommerce/support_ticket` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/friends/ajax_invite` | High
-20 | File | `/goform/fromSetDDNS` | High
-21 | File | `/goform/telnet` | High
-22 | File | `/inc/HTTPClient.php` | High
-23 | ... | ... | ...
+6 | File | `/admin/offenses/view_details.php` | High
+7 | File | `/admin/tag.php` | High
+8 | File | `/admin/update-clients.php` | High
+9 | File | `/ample/app/action/edit_product.php` | High
+10 | File | `/api/v2/open/rowsInfo` | High
+11 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
+12 | File | `/boafrm/formParentControl` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/conf/` | Low
+16 | File | `/config/api/v1/reboot` | High
+17 | File | `/controller/AdminController.php` | High
+18 | File | `/cwc/login` | Medium
+19 | File | `/ecommerce/support_ticket` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/friends/ajax_invite` | High
+22 | File | `/goform/fromSetDDNS` | High
+23 | File | `/goform/telnet` | High
+24 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

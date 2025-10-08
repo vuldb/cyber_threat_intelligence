@@ -71,47 +71,48 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/suppliers/view_details.php` | High
 8 | File | `/ajax.php?action=read_msg` | High
 9 | File | `/api/authentication/login` | High
-10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v2/open/rowsInfo` | High
-15 | File | `/app/sys1.php` | High
-16 | File | `/assets/something/services/AppModule.class` | High
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/cas/logout` | Medium
-19 | File | `/catalog/all-products` | High
-20 | File | `/category_view.php` | High
-21 | File | `/cgi-bin/adm.cgi` | High
-22 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-23 | File | `/cgi-bin/nasset.cgi` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/nightled.cgi` | High
-26 | File | `/cgi-bin/touchlist_sync.cgi` | High
-27 | File | `/cgi-bin/vitogate.cgi` | High
-28 | File | `/cgi-bin/webadminget.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Users.php?f=save` | High
-31 | File | `/cms/process.php` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-34 | File | `/downloadFile.php` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | File | `/env` | Low
-38 | File | `/etc/shadow` | Medium
-39 | File | `/find-a-match` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/friends` | Medium
-42 | File | `/friends/ajax_invite` | High
-43 | File | `/goform/SetNetControlList` | High
-44 | File | `/goform/SetStaticRouteCfg` | High
-45 | File | `/HNAP1` | Low
-46 | File | `/HNAP1/` | Low
-47 | File | `/hrm/controller/employee.php` | High
-48 | ... | ... | ...
+10 | File | `/api/discoveries/` | High
+11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/v2/open/rowsInfo` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/assets/something/services/AppModule.class` | High
+18 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+19 | File | `/cas/logout` | Medium
+20 | File | `/catalog/all-products` | High
+21 | File | `/category_view.php` | High
+22 | File | `/cgi-bin/adm.cgi` | High
+23 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+24 | File | `/cgi-bin/nasset.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/nightled.cgi` | High
+27 | File | `/cgi-bin/touchlist_sync.cgi` | High
+28 | File | `/cgi-bin/vitogate.cgi` | High
+29 | File | `/cgi-bin/webadminget.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/cms/process.php` | High
+33 | File | `/data/edit_type.php` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+36 | File | `/downloadFile.php` | High
+37 | File | `/DXR.axd` | Medium
+38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+39 | File | `/env` | Low
+40 | File | `/etc/shadow` | Medium
+41 | File | `/find-a-match` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/friends` | Medium
+44 | File | `/friends/ajax_invite` | High
+45 | File | `/goform/SetNetControlList` | High
+46 | File | `/goform/SetStaticRouteCfg` | High
+47 | File | `/HNAP1` | Low
+48 | File | `/HNAP1/` | Low
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,14 +47,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,49 +68,53 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/addemployee.php` | High
 4 | File | `/Admin/changepassword.php` | High
 5 | File | `/Admin/consulting_detail.php` | High
-6 | File | `/admin/file_manager/export` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/massage.php` | High
-9 | File | `/admin/offenses/view_details.php` | High
-10 | File | `/admin/sales/view_details.php` | High
-11 | File | `/admin/update-users.php` | High
-12 | File | `/admin/upload.php` | High
-13 | File | `/admin/user/user-move-run.php` | High
-14 | File | `/ajax_city.php` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/application/index/controller/Databasesource.php` | High
-17 | File | `/blog` | Low
-18 | File | `/boaform/device_reset.cgi` | High
-19 | File | `/boaform/getASPdata/formFirewall` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/download_config.cgi` | High
-22 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-23 | File | `/config/config.json` | High
-24 | File | `/Forms/oadmin_1` | High
-25 | File | `/get.php` | Medium
-26 | File | `/goform/apPortalPhoneAuth` | High
-27 | File | `/goform/operateMacFilter` | High
-28 | File | `/home/search` | Medium
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php/sysmanage/Login/login_auth/` | High
-31 | File | `/index.php/user/login` | High
-32 | File | `/install/index.php` | High
-33 | File | `/log/download.php` | High
-34 | File | `/main/doctype.php` | High
-35 | File | `/main/fileupload.php` | High
-36 | File | `/mims/app/addcustomerHandler.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/pg_meta/default/query` | High
-40 | File | `/portal/search.htm` | High
-41 | File | `/product-details.php` | High
-42 | File | `/register.php` | High
-43 | File | `/shell` | Low
-44 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
-45 | File | `/spip.php` | Medium
-46 | ... | ... | ...
+6 | File | `/admin/delete-appointment.php` | High
+7 | File | `/admin/file_manager/export` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/link/edit.do` | High
+10 | File | `/admin/manage_academic.php` | High
+11 | File | `/admin/massage.php` | High
+12 | File | `/admin/rooms.php` | High
+13 | File | `/admin/students/manage.php` | High
+14 | File | `/admin/update-users.php` | High
+15 | File | `/admin/upload.php` | High
+16 | File | `/admin/user/user-move-run.php` | High
+17 | File | `/ajax_city.php` | High
+18 | File | `/api/baskets/{name}` | High
+19 | File | `/api/process.php` | High
+20 | File | `/app/admin/controller/file/File.php` | High
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/blog` | Low
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/boaform/getASPdata/formFirewall` | High
+25 | File | `/boafrm/formMultiAP` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/download_config.cgi` | High
+28 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+29 | File | `/config/config.json` | High
+30 | File | `/download` | Medium
+31 | File | `/file-upload` | Medium
+32 | File | `/forgot-password` | High
+33 | File | `/Forms/oadmin_1` | High
+34 | File | `/friends/ajax_invite` | High
+35 | File | `/function/edit_customer.php` | High
+36 | File | `/get.php` | Medium
+37 | File | `/goform/addressNat` | High
+38 | File | `/goform/apPortalPhoneAuth` | High
+39 | File | `/goform/Fast_wireless_conf` | High
+40 | File | `/goform/getTraceroute` | High
+41 | File | `/goform/operateMacFilter` | High
+42 | File | `/goform/setcfm` | High
+43 | File | `/goform/setPptpUserList` | High
+44 | File | `/goform/wifiSSIDset` | High
+45 | File | `/home/search` | Medium
+46 | File | `/home/sendBroadcast` | High
+47 | File | `/inc/jquery/uploadify/uploadify.php` | High
+48 | File | `/index.php/sysmanage/Login/login_auth/` | High
+49 | File | `/index.php/user/login` | High
+50 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,23 +67,24 @@ ID | Type | Indicator | Confidence
 10 | File | `/data/app` | Medium
 11 | File | `/druid/index.html` | High
 12 | File | `/etc/passwd` | Medium
-13 | File | `/inc/lists/csvexport.php` | High
-14 | File | `/js` | Low
-15 | File | `/LoadFrame` | Medium
-16 | File | `/login.php` | Medium
-17 | File | `/MicroStrategyWS/` | High
-18 | File | `/plain` | Low
-19 | File | `/replication` | Medium
-20 | File | `/rest/collectors/1.0/template/custom` | High
-21 | File | `/server-info` | Medium
-22 | File | `/server-status` | High
-23 | File | `/Service/ImageStationDataService.asmx` | High
-24 | File | `/servlet/file` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/storage.html` | High
-27 | ... | ... | ...
+13 | File | `/goform/SetRebootTimer` | High
+14 | File | `/grid/vgrid_server.php` | High
+15 | File | `/inc/lists/csvexport.php` | High
+16 | File | `/js` | Low
+17 | File | `/LoadFrame` | Medium
+18 | File | `/login.php` | Medium
+19 | File | `/MicroStrategyWS/` | High
+20 | File | `/plain` | Low
+21 | File | `/replication` | Medium
+22 | File | `/rest/collectors/1.0/template/custom` | High
+23 | File | `/server-info` | Medium
+24 | File | `/server-status` | High
+25 | File | `/Service/ImageStationDataService.asmx` | High
+26 | File | `/servlet/file` | High
+27 | File | `/spip.php` | Medium
+28 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

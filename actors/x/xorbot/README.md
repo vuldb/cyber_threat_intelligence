@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with xorbot:
 
 * [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -21,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [66.63.187.192](https://vuldb.com/?ip.66.63.187.192) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,9 +49,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/blog` | Low
 4 | File | `/cgi-bin/cstecgi.cgi` | High
 5 | File | `/expedit.php` | Medium
-6 | ... | ... | ...
+6 | File | `/goform/setsambacfg` | High
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -62,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3555216/
 * https://urlhaus.abuse.ch/url/3562946/
 * https://urlhaus.abuse.ch/url/3562990/
+* https://urlhaus.abuse.ch/url/3611259/
 
 ## Literature
 

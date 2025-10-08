@@ -46,36 +46,41 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [45.66.249.59](https://vuldb.com/?ip.45.66.249.59) | host.webhelm.co | - | High
 18 | [45.83.141.60](https://vuldb.com/?ip.45.83.141.60) | rikako.co | - | High
 19 | [45.86.230.235](https://vuldb.com/?ip.45.86.230.235) | - | - | High
-20 | [45.141.233.34](https://vuldb.com/?ip.45.141.233.34) | - | - | High
-21 | [45.141.233.67](https://vuldb.com/?ip.45.141.233.67) | - | - | High
-22 | [45.141.233.70](https://vuldb.com/?ip.45.141.233.70) | - | - | High
-23 | [45.141.233.147](https://vuldb.com/?ip.45.141.233.147) | - | - | High
-24 | [45.141.233.208](https://vuldb.com/?ip.45.141.233.208) | - | - | High
-25 | [45.141.233.218](https://vuldb.com/?ip.45.141.233.218) | - | - | High
-26 | [45.141.233.239](https://vuldb.com/?ip.45.141.233.239) | - | - | High
-27 | [45.143.166.23](https://vuldb.com/?ip.45.143.166.23) | - | - | High
-28 | [45.143.166.66](https://vuldb.com/?ip.45.143.166.66) | - | - | High
-29 | [45.143.166.85](https://vuldb.com/?ip.45.143.166.85) | - | - | High
-30 | [45.143.166.95](https://vuldb.com/?ip.45.143.166.95) | - | - | High
-31 | [45.143.166.161](https://vuldb.com/?ip.45.143.166.161) | - | - | High
-32 | [45.143.166.190](https://vuldb.com/?ip.45.143.166.190) | - | - | High
-33 | [45.143.167.157](https://vuldb.com/?ip.45.143.167.157) | - | - | High
-34 | [46.19.143.133](https://vuldb.com/?ip.46.19.143.133) | 447olabi.com | - | High
-35 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
-36 | [46.105.141.52](https://vuldb.com/?ip.46.105.141.52) | mail.ltdeskcontrol.com | - | High
-37 | [46.105.141.53](https://vuldb.com/?ip.46.105.141.53) | ip53.ip-46-105-141.eu | - | High
-38 | [46.249.38.89](https://vuldb.com/?ip.46.249.38.89) | - | - | High
-39 | [46.249.49.34](https://vuldb.com/?ip.46.249.49.34) | - | - | High
-40 | [46.249.49.107](https://vuldb.com/?ip.46.249.49.107) | - | - | High
-41 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
-42 | [51.91.35.153](https://vuldb.com/?ip.51.91.35.153) | ip153.ip-51-91-35.eu | - | High
-43 | [51.161.204.224](https://vuldb.com/?ip.51.161.204.224) | ip224.ip-51-161-204.net | - | High
-44 | [51.161.207.168](https://vuldb.com/?ip.51.161.207.168) | ip168.ip-51-161-207.net | - | High
-45 | [51.195.27.76](https://vuldb.com/?ip.51.195.27.76) | ip76.ip-51-195-27.eu | - | High
-46 | [62.106.66.46](https://vuldb.com/?ip.62.106.66.46) | - | - | High
-47 | ... | ... | ... | ...
+20 | [45.141.233.28](https://vuldb.com/?ip.45.141.233.28) | - | - | High
+21 | [45.141.233.34](https://vuldb.com/?ip.45.141.233.34) | - | - | High
+22 | [45.141.233.43](https://vuldb.com/?ip.45.141.233.43) | - | - | High
+23 | [45.141.233.67](https://vuldb.com/?ip.45.141.233.67) | - | - | High
+24 | [45.141.233.70](https://vuldb.com/?ip.45.141.233.70) | - | - | High
+25 | [45.141.233.147](https://vuldb.com/?ip.45.141.233.147) | - | - | High
+26 | [45.141.233.208](https://vuldb.com/?ip.45.141.233.208) | - | - | High
+27 | [45.141.233.215](https://vuldb.com/?ip.45.141.233.215) | - | - | High
+28 | [45.141.233.216](https://vuldb.com/?ip.45.141.233.216) | - | - | High
+29 | [45.141.233.218](https://vuldb.com/?ip.45.141.233.218) | - | - | High
+30 | [45.141.233.239](https://vuldb.com/?ip.45.141.233.239) | - | - | High
+31 | [45.143.166.23](https://vuldb.com/?ip.45.143.166.23) | - | - | High
+32 | [45.143.166.66](https://vuldb.com/?ip.45.143.166.66) | - | - | High
+33 | [45.143.166.85](https://vuldb.com/?ip.45.143.166.85) | - | - | High
+34 | [45.143.166.95](https://vuldb.com/?ip.45.143.166.95) | - | - | High
+35 | [45.143.166.161](https://vuldb.com/?ip.45.143.166.161) | - | - | High
+36 | [45.143.166.190](https://vuldb.com/?ip.45.143.166.190) | - | - | High
+37 | [45.143.167.157](https://vuldb.com/?ip.45.143.167.157) | - | - | High
+38 | [46.19.143.133](https://vuldb.com/?ip.46.19.143.133) | 447olabi.com | - | High
+39 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
+40 | [46.105.141.52](https://vuldb.com/?ip.46.105.141.52) | mail.ltdeskcontrol.com | - | High
+41 | [46.105.141.53](https://vuldb.com/?ip.46.105.141.53) | ip53.ip-46-105-141.eu | - | High
+42 | [46.249.38.89](https://vuldb.com/?ip.46.249.38.89) | - | - | High
+43 | [46.249.49.34](https://vuldb.com/?ip.46.249.49.34) | - | - | High
+44 | [46.249.49.107](https://vuldb.com/?ip.46.249.49.107) | - | - | High
+45 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
+46 | [51.91.35.153](https://vuldb.com/?ip.51.91.35.153) | ip153.ip-51-91-35.eu | - | High
+47 | [51.161.204.224](https://vuldb.com/?ip.51.161.204.224) | ip224.ip-51-161-204.net | - | High
+48 | [51.161.207.168](https://vuldb.com/?ip.51.161.207.168) | ip168.ip-51-161-207.net | - | High
+49 | [51.195.27.76](https://vuldb.com/?ip.51.195.27.76) | ip76.ip-51-195-27.eu | - | High
+50 | [62.106.66.46](https://vuldb.com/?ip.62.106.66.46) | - | - | High
+51 | [62.106.66.148](https://vuldb.com/?ip.62.106.66.148) | - | - | High
+52 | ... | ... | ... | ...
 
-There are 183 more IOC items available. Please use our online service to access the data.
+There are 202 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -141,9 +146,10 @@ ID | Type | Indicator | Confidence
 42 | File | `/filter.php` | Medium
 43 | File | `/fladmin/sysconfig_doedit.php` | High
 44 | File | `/forms/doLogin` | High
-45 | ... | ... | ...
+45 | File | `/formSysLog` | Medium
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

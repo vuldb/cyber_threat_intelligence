@@ -69,9 +69,9 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/singlelogin.php` | High
 10 | File | `/admin/update_s6.php` | High
 11 | File | `/admin/view-patient.php` | High
-12 | File | `/ajax/check_medicine_name.php` | High
-13 | File | `/api/blade-user/export-user` | High
-14 | File | `/api/geojson` | Medium
+12 | File | `/admin/voters_delete.php` | High
+13 | File | `/ajax/check_medicine_name.php` | High
+14 | File | `/api/blade-user/export-user` | High
 15 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
 16 | File | `/api/sys/login` | High
 17 | File | `/bcms/admin/?page=user/manage_user` | High
@@ -82,26 +82,27 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/webviewer_login_page` | High
 23 | File | `/cgi/networkDiag.cgi` | High
 24 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-25 | File | `/cms/category/list` | High
-26 | File | `/cms/classes/Users.php?f=delete_client` | High
-27 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-28 | File | `/controller/OnlinePreviewController.java` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/designer/add/layout` | High
-31 | File | `/em/console/logon/logon` | High
-32 | File | `/env` | Low
-33 | File | `/file` | Low
-34 | File | `/forum/away.php` | High
-35 | File | `/general/email/inbox/delete_webmail.php` | High
-36 | File | `/goform/SetNetControlList` | High
-37 | File | `/inc/jquery/uploadify/uploadify.php` | High
-38 | File | `/list` | Low
+25 | File | `/cms/classes/Users.php?f=delete_client` | High
+26 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+27 | File | `/controller/OnlinePreviewController.java` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/designer/add/layout` | High
+30 | File | `/em/console/logon/logon` | High
+31 | File | `/env` | Low
+32 | File | `/file` | Low
+33 | File | `/forum/away.php` | High
+34 | File | `/general/email/inbox/delete_webmail.php` | High
+35 | File | `/goform/SetNetControlList` | High
+36 | File | `/inc/jquery/uploadify/uploadify.php` | High
+37 | File | `/list` | Low
+38 | File | `/login.php` | Medium
 39 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 40 | File | `/net/sched/cls_fw.c` | High
 41 | File | `/nidp/idff/sso` | High
-42 | ... | ... | ...
+42 | File | `/oews/admin/` | Medium
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

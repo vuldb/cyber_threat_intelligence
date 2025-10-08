@@ -112,18 +112,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.cpr/` | Low
-2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
-3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-4 | File | `/academic-calendar` | High
-5 | File | `/add-company.php` | High
-6 | File | `/add-notes.php` | High
-7 | File | `/admin/` | Low
-8 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-9 | File | `/admin/add-category.php` | High
-10 | File | `/admin/add_course.php` | High
-11 | File | `/admin/ajax.php?action=login` | High
-12 | File | `/admin/ajax.php?action=save_settings` | High
+1 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+2 | File | `/add-company.php` | High
+3 | File | `/add-customer.php` | High
+4 | File | `/add-notes.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/add_course.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/ajax.php?action=save_settings` | High
+11 | File | `/admin/contactus.php` | High
+12 | File | `/admin/delete_account.php` | High
 13 | File | `/admin/edit-artist-detail.php?editid=1` | High
 14 | File | `/admin/edit-category.php` | High
 15 | File | `/admin/edit-subadmin.php` | High
@@ -131,18 +131,18 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/goods/update` | High
 18 | File | `/admin/index.php` | High
 19 | File | `/admin/index.php/news/edit` | High
-20 | File | `/admin/index2.html` | High
-21 | File | `/admin/manage_user.php` | High
-22 | File | `/admin/menu_update.php` | High
-23 | File | `/admin/modal_add_product.php` | High
-24 | File | `/ajax.php?action=delete_package` | High
-25 | File | `/ajax/loadShopInfo.php` | High
+20 | File | `/admin/manage_user.php` | High
+21 | File | `/admin/menu_update.php` | High
+22 | File | `/admin/modal_add_product.php` | High
+23 | File | `/ajax.php?action=delete_package` | High
+24 | File | `/ajax/loadShopInfo.php` | High
+25 | File | `/api/admin/settings` | High
 26 | File | `/api/file/getRemoteContent` | High
-27 | File | `/api/snapshots/` | High
-28 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-29 | File | `/api/upload` | Medium
-30 | File | `/api/v2/categories` | High
-31 | File | `/api/wechat/app_auth` | High
+27 | File | `/api/files/recipepictures/` | High
+28 | File | `/api/snapshots/` | High
+29 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+30 | File | `/api/upload` | Medium
+31 | File | `/api/v2/categories` | High
 32 | File | `/api/wizard/getBasicInfo` | High
 33 | File | `/api/wizard/getCapability` | High
 34 | File | `/api/wizard/getDualbandSync` | High
@@ -163,9 +163,13 @@ ID | Type | Indicator | Confidence
 49 | File | `/boafrm/formMapDelDevice` | High
 50 | File | `/boafrm/formMultiAP` | High
 51 | File | `/boafrm/formPortFw` | High
-52 | ... | ... | ...
+52 | File | `/boafrm/formSetLg` | High
+53 | File | `/boafrm/formStats` | High
+54 | File | `/boafrm/formWlanRedirect` | High
+55 | File | `/BRS_top.html` | High
+56 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

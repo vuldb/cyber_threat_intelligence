@@ -27,7 +27,8 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [20.81.111.85](https://vuldb.com/?ip.20.81.111.85) | - | - | High
 5 | [20.84.181.62](https://vuldb.com/?ip.20.84.181.62) | - | - | High
 6 | [20.103.85.33](https://vuldb.com/?ip.20.103.85.33) | - | - | High
-7 | ... | ... | ... | ...
+7 | [20.109.209.108](https://vuldb.com/?ip.20.109.209.108) | - | - | High
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -68,6 +69,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-for-july-22-29.html
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3561968/
+* https://urlhaus.abuse.ch/url/3627133/
 
 ## Literature
 

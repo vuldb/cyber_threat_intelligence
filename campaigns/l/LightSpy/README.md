@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,13 +66,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/addcompany.php` | High
 3 | File | `/api/v1/settings` | High
 4 | File | `/api /v3/auth` | High
-5 | File | `/example/editor` | High
-6 | File | `/fcgi/scrut_fcgi.fcgi` | High
-7 | File | `/filemanager/php/connector.php` | High
-8 | File | `/index/ajax/lang` | High
+5 | File | `/calendar/minimizer/index.php` | High
+6 | File | `/example/editor` | High
+7 | File | `/fcgi/scrut_fcgi.fcgi` | High
+8 | File | `/filemanager/php/connector.php` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

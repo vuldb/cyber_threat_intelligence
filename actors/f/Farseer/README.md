@@ -52,15 +52,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/api2/html/` | Medium
 4 | File | `/forum/away.php` | High
 5 | File | `/icingaweb2/navigation/add` | High
-6 | File | `/phppath/php` | Medium
-7 | File | `/rest/collectors/1.0/template/custom` | High
-8 | File | `/start_apply.htm` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/WEB-INF/web.xml` | High
-11 | File | `/wp-admin/options.php` | High
+6 | File | `/inventory/doCptimpoptInventory` | High
+7 | File | `/phppath/php` | Medium
+8 | File | `/rest/collectors/1.0/template/custom` | High
+9 | File | `/start_apply.htm` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/WEB-INF/web.xml` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

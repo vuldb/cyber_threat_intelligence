@@ -72,24 +72,25 @@ ID | Type | Indicator | Confidence
 14 | File | `/classes/SystemSettings.php?f=update_settings` | High
 15 | File | `/classes/Users.php?f=delete` | High
 16 | File | `/control/register_case.php` | High
-17 | File | `/DesignTools/CssEditor.aspx` | High
-18 | File | `/dev/tty` | Medium
-19 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-20 | File | `/etc/keystone/user-project-map.json` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/foms/routers/place-order.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/formSetWanPPPoE` | High
-25 | File | `/manage/IPSetup.php` | High
-26 | File | `/manage_sy.php` | High
-27 | File | `/movie.php` | Medium
-28 | File | `/ndmComponents.js` | High
-29 | File | `/newdriver.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-32 | ... | ... | ...
+17 | File | `/csms/admin/?page=user/manage_user` | High
+18 | File | `/DesignTools/CssEditor.aspx` | High
+19 | File | `/dev/tty` | Medium
+20 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+21 | File | `/etc/keystone/user-project-map.json` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/foms/routers/place-order.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/formSetWanPPPoE` | High
+26 | File | `/goform/setMacFilterCfg` | High
+27 | File | `/goform/webtypelibrary` | High
+28 | File | `/manage/IPSetup.php` | High
+29 | File | `/manage_sy.php` | High
+30 | File | `/module/ComponenteCurricular/edit` | High
+31 | File | `/movie.php` | Medium
+32 | File | `/ndmComponents.js` | High
+33 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

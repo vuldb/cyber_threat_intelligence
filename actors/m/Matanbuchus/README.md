@@ -35,22 +35,23 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.141.86.98](https://vuldb.com/?ip.45.141.86.98) | - | - | High
 7 | [45.141.86.132](https://vuldb.com/?ip.45.141.86.132) | - | - | High
 8 | [45.141.86.133](https://vuldb.com/?ip.45.141.86.133) | - | - | High
-9 | [46.8.210.98](https://vuldb.com/?ip.46.8.210.98) | 622857.cloud4box.ru | - | High
-10 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | - | High
-11 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | - | High
-12 | [62.113.117.216](https://vuldb.com/?ip.62.113.117.216) | v2751855.hosted-by-vdsina.ru | - | High
-13 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | - | High
-14 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | - | High
-15 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | - | High
-16 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | - | High
-17 | [91.202.233.239](https://vuldb.com/?ip.91.202.233.239) | - | - | High
-18 | [91.202.233.240](https://vuldb.com/?ip.91.202.233.240) | - | - | High
-19 | [91.202.233.245](https://vuldb.com/?ip.91.202.233.245) | - | - | High
-20 | [92.255.85.128](https://vuldb.com/?ip.92.255.85.128) | - | - | High
-21 | [94.158.244.124](https://vuldb.com/?ip.94.158.244.124) | no-rdns.mivocloud.com | - | High
-22 | ... | ... | ... | ...
+9 | [45.142.195.242](https://vuldb.com/?ip.45.142.195.242) | - | - | High
+10 | [46.8.210.98](https://vuldb.com/?ip.46.8.210.98) | 622857.cloud4box.ru | - | High
+11 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | - | High
+12 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | - | High
+13 | [62.113.117.216](https://vuldb.com/?ip.62.113.117.216) | v2751855.hosted-by-vdsina.ru | - | High
+14 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | - | High
+15 | [85.175.70.222](https://vuldb.com/?ip.85.175.70.222) | - | - | High
+16 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | - | High
+17 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | - | High
+18 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | - | High
+19 | [91.202.233.239](https://vuldb.com/?ip.91.202.233.239) | - | - | High
+20 | [91.202.233.240](https://vuldb.com/?ip.91.202.233.240) | - | - | High
+21 | [91.202.233.245](https://vuldb.com/?ip.91.202.233.245) | - | - | High
+22 | [91.236.116.22](https://vuldb.com/?ip.91.236.116.22) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,11 +92,19 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.141.86.98
 * https://search.censys.io/hosts/45.141.86.132
 * https://search.censys.io/hosts/45.141.86.133
+* https://search.censys.io/hosts/45.142.195.242
+* https://search.censys.io/hosts/85.175.70.222
 * https://search.censys.io/hosts/91.202.233.168
+* https://search.censys.io/hosts/91.236.116.22
+* https://search.censys.io/hosts/91.236.116.139
+* https://search.censys.io/hosts/91.236.116.151
+* https://search.censys.io/hosts/91.236.116.242
 * https://search.censys.io/hosts/92.255.85.128
+* https://search.censys.io/hosts/93.152.230.51
 * https://search.censys.io/hosts/94.159.113.43
 * https://search.censys.io/hosts/94.159.113.222
 * https://search.censys.io/hosts/193.24.197.34
+* https://search.censys.io/hosts/193.105.134.151
 * https://search.censys.io/hosts/193.109.85.27
 * https://search.censys.io/hosts/193.109.85.31
 * https://search.censys.io/hosts/193.242.149.17

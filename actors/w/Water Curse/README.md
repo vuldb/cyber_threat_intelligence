@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with Water Curse:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Water Curse:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +24,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.112.123.224](https://vuldb.com/?ip.45.112.123.224) | - | GitHub | High
-2 | [149.154.167.220](https://vuldb.com/?ip.149.154.167.220) | - | GitHub | High
+2 | [46.101.236.176](https://vuldb.com/?ip.46.101.236.176) | - | - | High
+3 | [149.154.167.220](https://vuldb.com/?ip.149.154.167.220) | - | GitHub | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +33,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -51,20 +53,22 @@ ID | Type | Indicator | Confidence
 5 | File | `/index.php/weblinks-categories` | High
 6 | File | `/plain` | Low
 7 | File | `/show_group_members.php` | High
-8 | File | `/web/google_analytics.php` | High
-9 | File | `archive_endian.h` | High
-10 | File | `bmp.c` | Low
-11 | File | `cgi-bin/jc.cgi` | High
-12 | File | `checklogin.php` | High
-13 | File | `cmd.exe` | Low
-14 | ... | ... | ...
+8 | File | `/uncpath/` | Medium
+9 | File | `/web/google_analytics.php` | High
+10 | File | `afr.php` | Low
+11 | File | `archive_endian.h` | High
+12 | File | `bmp.c` | Low
+13 | File | `cgi-bin/awstats.pl` | High
+14 | File | `cgi-bin/jc.cgi` | High
+15 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.trendmicro.com/content/dam/trendmicro/global/en/research/25/f/clone-compile-compromise-water-curses-open-source-malware-trap-on-github/Water-Curse-IOCs.txt
 * https://www.trendmicro.com/en_us/research/25/f/water-curse.html
 
 ## Literature

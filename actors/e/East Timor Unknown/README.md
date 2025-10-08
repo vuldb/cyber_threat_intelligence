@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,29 +66,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/activate_hook.php` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/ajax.php?action=save_settings` | High
-4 | File | `/admin/config_Anticrack.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/singlelogin.php?submit=1` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/application/views/themeOptions/update.php` | High
-9 | File | `/boaform/device_reset.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/HNAP1/` | Low
-14 | File | `/itbox_pi/networksafe.php?a=set` | High
-15 | File | `/manage_sy.php` | High
-16 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-17 | File | `/oa/setup/setup.jsp` | High
-18 | File | `/oauth/idp/.well-known/openid-configuration` | High
-19 | File | `/product/savenewproduct.php?flag=1` | High
-20 | File | `/protocol/iscuser/uploadiscuser.php` | High
-21 | ... | ... | ...
+1 | File | `/aboutus.php` | Medium
+2 | File | `/activate_hook.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/ajax.php?action=save_settings` | High
+5 | File | `/admin/config_Anticrack.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/singlelogin.php?submit=1` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/application/views/themeOptions/update.php` | High
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/HNAP1/` | Low
+15 | File | `/itbox_pi/networksafe.php?a=set` | High
+16 | File | `/manage_sy.php` | High
+17 | File | `/mtd` | Low
+18 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+19 | File | `/oa/setup/setup.jsp` | High
+20 | File | `/oauth/idp/.well-known/openid-configuration` | High
+21 | File | `/product/savenewproduct.php?flag=1` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

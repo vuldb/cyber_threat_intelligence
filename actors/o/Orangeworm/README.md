@@ -61,29 +61,29 @@ ID | Type | Indicator | Confidence
 14 | File | `/etc/tomcat8/Catalina/attack` | High
 15 | File | `/files.md5` | Medium
 16 | File | `/forum/away.php` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/goform/` | Medium
-19 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-20 | File | `/install_extension` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/modules/registration_admission/patient_register.php` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/rest/api/2/user/picker` | High
-26 | File | `/sbin/acos_service` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-31 | File | `/sys/kernel/notes` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/user_dashboard/donor.php` | High
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/ViewUserHover.jspa` | High
-36 | File | `/WEB-INF/web.xml` | High
+17 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+18 | File | `/getcfg.php` | Medium
+19 | File | `/goform/` | Medium
+20 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+21 | File | `/install_extension` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/modules/registration_admission/patient_register.php` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/rest/api/2/user/picker` | High
+27 | File | `/sbin/acos_service` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+32 | File | `/sys/kernel/notes` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/userRpm/WanSlaacCfgRpm.htm` | High
+35 | File | `/user_dashboard/donor.php` | High
+36 | File | `/usr/bin/pkexec` | High
 37 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

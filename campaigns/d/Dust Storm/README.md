@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [MS](https://vuldb.com/?country.ms)
+* [AR](https://vuldb.com/?country.ar)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -64,16 +67,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/aboutadd.php` | High
 5 | File | `/admin.php?p=/Area/index#tab=t2` | High
 6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/bwdates-reports-ds.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/index.php/news/edit` | High
-10 | File | `/admin/system.php` | High
-11 | File | `/admin/twitter.php` | High
-12 | File | `/admin/update_users.php` | High
-13 | File | `/adminapi/system/crud` | High
-14 | File | `/ajax.php?action=delete_package` | High
-15 | File | `/ajax/loadShopInfo.php` | High
-16 | File | `/amssplus/index.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/index.php/news/edit` | High
+9 | File | `/admin/system.php` | High
+10 | File | `/admin/twitter.php` | High
+11 | File | `/admin/update_users.php` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/ajax.php?action=delete_package` | High
+14 | File | `/ajax/loadShopInfo.php` | High
+15 | File | `/amssplus/index.php` | High
+16 | File | `/api/admin/settings` | High
 17 | File | `/api/admin/store/product/save` | High
 18 | File | `/api/admin/system/store/order/list` | High
 19 | File | `/api/file/getRemoteContent` | High
@@ -98,10 +101,13 @@ ID | Type | Indicator | Confidence
 38 | File | `/BRS_top.html` | High
 39 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 40 | File | `/bwdates-reports-details.php` | High
-41 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-42 | ... | ... | ...
+41 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+42 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/lighttpd.cgi` | High
+45 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

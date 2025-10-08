@@ -4,12 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.meshagent](https://vuldb.com/?actor.meshagent)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with MeshAgent:
+
+* South Korea
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MeshAgent:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
-2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
-3 | [78.141.238.182](https://vuldb.com/?ip.78.141.238.182) | 78.141.238.182.vultrusercontent.com | - | Medium
+1 | [45.76.219.39](https://vuldb.com/?ip.45.76.219.39) | 45.76.219.39.vultrusercontent.com | South Korea | Medium
+2 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
+3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,7 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,15 +53,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `shop.php` | Medium
-2 | File | `tiki-register.php` | High
-3 | Argument | `id` | Low
+1 | File | `/forum/away.php` | High
+2 | File | `/goform/SystemCommand` | High
+3 | File | `/scripts/cpan_config` | High
+4 | File | `/var/gapm7100_${today's_date}.log` | High
+5 | File | `/_next` | Low
+6 | ... | ... | ...
+
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/53267/
+* https://asec.ahnlab.com/en/88627/
 * https://hackerseye.net/all-blog-items/checkmesh/
 * https://urlhaus.abuse.ch/url/3526277/
 

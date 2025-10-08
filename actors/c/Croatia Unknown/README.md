@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Croatia Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -213,13 +213,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -230,26 +230,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/app/role_crud.php` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/edit_action.php` | High
-7 | File | `/admin/file/delete.do` | High
-8 | File | `/admin/manage-pages.php` | High
-9 | File | `/admin/twitter.php` | High
-10 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
-11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-12 | File | `/api/v1/toolbox/device/update/swap` | High
-13 | File | `/app/zentao/module/repo/model.php` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/classes/Master.php?f=delete_product` | High
-17 | File | `/Code/loginnew.php` | High
-18 | File | `/Code/sc_login.php` | High
-19 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-20 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-21 | ... | ... | ...
+4 | File | `/admin/add-admin.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/ajax.php?action=save_uploads` | High
+8 | File | `/admin/app/role_crud.php` | High
+9 | File | `/admin/check_availability.php` | High
+10 | File | `/admin/class.php` | High
+11 | File | `/admin/clients/` | High
+12 | File | `/admin/edit-art-product-detail.php?editid=2` | High
+13 | File | `/admin/edit_area.php` | High
+14 | File | `/admin/file/delete.do` | High
+15 | File | `/admin/file_manager/export` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/manage_model.php` | High
+19 | File | `/admin/new-content` | High
+20 | File | `/admin/voters_add.php` | High
+21 | File | `/admin/voters_delete.php` | High
+22 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/api/v1/settings` | High
+25 | File | `/app/zentao/module/repo/model.php` | High
+26 | File | `/authentication/logout.php` | High
+27 | File | `/bin/httpd` | Medium
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+30 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -81,30 +81,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/changeimage.php` | High
 18 | File | `/classes/master.php?f=delete_order` | High
 19 | File | `/classes/Master.php?f=update_order_status` | High
-20 | File | `/config/getuser` | High
-21 | File | `/controllers/add_client.php` | High
-22 | File | `/defaultui/player/modern.html` | High
-23 | File | `/dotproject/index.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/ghost/preview` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/importexport.php` | High
-29 | File | `/include/chart_generator.php` | High
-30 | File | `/items/search` | High
-31 | File | `/LoginAdmin` | Medium
-32 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-33 | File | `/model/all_events1.php` | High
-34 | File | `/modules/registration_admission/patient_register.php` | High
-35 | File | `/nova/bin/detnet` | High
-36 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
-37 | File | `/property` | Medium
-38 | File | `/publisher` | Medium
-39 | File | `/rest/api/2/user/picker` | High
-40 | File | `/search.php` | Medium
-41 | ... | ... | ...
+20 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+21 | File | `/config/getuser` | High
+22 | File | `/controllers/add_client.php` | High
+23 | File | `/dashboard.php` | High
+24 | File | `/defaultui/player/modern.html` | High
+25 | File | `/dotproject/index.php` | High
+26 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/ghost/preview` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/importexport.php` | High
+32 | File | `/include/chart_generator.php` | High
+33 | File | `/items/search` | High
+34 | File | `/LoginAdmin` | Medium
+35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+36 | File | `/model/all_events1.php` | High
+37 | File | `/modules/registration_admission/patient_register.php` | High
+38 | File | `/nova/bin/detnet` | High
+39 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+40 | File | `/property` | Medium
+41 | File | `/publisher` | Medium
+42 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

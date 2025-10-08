@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [51.254.27.118](https://vuldb.com/?ip.51.254.27.118) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-35 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-35, CWE-36 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,13 +47,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dev/block/mmcblk0rpmb` | High
-2 | File | `add_comment.php` | High
-3 | File | `advertise.php` | High
-4 | File | `category.cfm` | Medium
-5 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/add-category.php` | High
+3 | File | `/admin/add-customer.php` | High
+4 | File | `/admin/apply.php` | High
+5 | File | `/Admin/detail.php` | High
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/forms/add/step2.php?submission_type=direct` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/member_update.php` | High
+11 | File | `/admin/users.php` | High
+12 | File | `/adminPage/conf/saveCmd` | High
+13 | File | `/api/v1/toolbox/device/update/swap` | High
+14 | File | `/art-enquiry.php` | High
+15 | File | `/birthing_record.php` | High
+16 | File | `/blog-details.php` | High
+17 | File | `/boat-details.php` | High
+18 | File | `/cancel.php` | Medium
+19 | File | `/dental_pending.php` | High
+20 | File | `/detail.php` | Medium
+21 | File | `/dev/block/mmcblk0rpmb` | High
+22 | File | `/E-mobile/App/System/File/downfile.php` | High
+23 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT-C-01:
 
+* [IO](https://vuldb.com/?country.io)
 * [UA](https://vuldb.com/?country.ua)
 * [FR](https://vuldb.com/?country.fr)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 73 | File | `/classes/Users.php?f=save` | High
 74 | ... | ... | ...
 
-There are 654 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 652 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,17 +67,18 @@ ID | Type | Indicator | Confidence
 16 | File | `/proc/kcore/` | Medium
 17 | File | `/rapi/read_url` | High
 18 | File | `/scripts/unlock_tasks.php` | High
-19 | File | `/SysInfo1.htm` | High
-20 | File | `/sysinfo_json.cgi` | High
-21 | File | `/system/dictData/loadDictItem` | High
-22 | File | `/system/user/modules/mod_users/controller.php` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-25 | File | `/usr/sbin/httpd` | High
-26 | File | `/util/print.c` | High
-27 | ... | ... | ...
+19 | File | `/search.php` | Medium
+20 | File | `/SysInfo1.htm` | High
+21 | File | `/sysinfo_json.cgi` | High
+22 | File | `/system/dictData/loadDictItem` | High
+23 | File | `/system/user/modules/mod_users/controller.php` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+26 | File | `/usr/sbin/httpd` | High
+27 | File | `/util/print.c` | High
+28 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

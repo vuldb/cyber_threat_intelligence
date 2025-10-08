@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,7 +72,7 @@ ID | IP address | Hostname | Campaign | Confidence
 49 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
 50 | ... | ... | ... | ...
 
-There are 196 more IOC items available. Please use our online service to access the data.
+There are 197 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,8 +85,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -96,33 +95,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-students.php` | High
-2 | File | `/addstock.php` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/admin/?page=reports` | High
-5 | File | `/admin/?page=system_info/contact_info` | High
-6 | File | `/admin/action/new-father.php` | High
-7 | File | `/admin/app/service_crud.php` | High
-8 | File | `/admin/betweendates-detailsreports.php` | High
-9 | File | `/admin/book-details.php` | High
-10 | File | `/admin/booking-bwdates-reports-details.php` | High
-11 | File | `/admin/category/controller.php` | High
-12 | File | `/admin/create_product.php` | High
-13 | File | `/admin/edit-admin.php` | High
+1 | File | `/action.php` | Medium
+2 | File | `/add-students.php` | High
+3 | File | `/addstock.php` | High
+4 | File | `/add_new_supplier.php` | High
+5 | File | `/admin/?page=reports` | High
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/add-boat.php` | High
+8 | File | `/admin/adddoctorclinic.php` | High
+9 | File | `/admin/betweendates-detailsreports.php` | High
+10 | File | `/admin/book-details.php` | High
+11 | File | `/admin/booking-bwdates-reports-details.php` | High
+12 | File | `/admin/category/controller.php` | High
+13 | File | `/admin/create_product.php` | High
 14 | File | `/admin/edit-brand.php` | High
 15 | File | `/admin/file_manager/export` | High
 16 | File | `/admin/index2.html` | High
 17 | File | `/admin/list_crl_conf` | High
-18 | File | `/Admin/login.php` | High
-19 | File | `/admin/manage_user.php` | High
-20 | File | `/admin/massage.php` | High
-21 | File | `/admin/network/ajax_getChannelList` | High
-22 | File | `/admin/pages/list` | High
-23 | File | `/admin/password-recovery.php` | High
-24 | File | `/admin/profile.php` | High
-25 | File | `/admin/search-appointment.php` | High
-26 | File | `/admin/search.php` | High
-27 | File | `/admin/system.html` | High
+18 | File | `/admin/manage_user.php` | High
+19 | File | `/admin/massage.php` | High
+20 | File | `/admin/network/ajax_getChannelList` | High
+21 | File | `/admin/pages/list` | High
+22 | File | `/admin/password-recovery.php` | High
+23 | File | `/admin/profile.php` | High
+24 | File | `/admin/search-appointment.php` | High
+25 | File | `/admin/search.php` | High
+26 | File | `/admin/system.html` | High
+27 | File | `/admin/voters_row.php` | High
 28 | File | `/adminPage/conf/reload` | High
 29 | File | `/admin_topic.php?action=delall` | High
 30 | File | `/animalsupdate.php` | High
@@ -135,41 +134,32 @@ ID | Type | Indicator | Confidence
 37 | File | `/api2/html/` | Medium
 38 | File | `/app/admin/controller/api/Plugs.php` | High
 39 | File | `/app/admin/controller/Upload.php` | High
-40 | File | `/app/ajax/search_sales_report.php` | High
-41 | File | `/app/controller/Setup.php` | High
-42 | File | `/app/middleware/TokenVerify.php` | High
-43 | File | `/application/index/controller/Screen.php` | High
-44 | File | `/application/websocket/controller/Setting.php` | High
-45 | File | `/apply.cgi` | Medium
-46 | File | `/apply/index.php` | High
-47 | File | `/b2b-supermarket/catalog/all-products` | High
-48 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-49 | File | `/bbdms/sign-up.php` | High
-50 | File | `/bin/boa` | Medium
-51 | File | `/bitrix/admin/ldap_server_edit.php` | High
-52 | File | `/Bloodgroop_process.php` | High
-53 | File | `/boafrm/formMapDelDevice` | High
-54 | File | `/boafrm/formMultiAP` | High
-55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/hd_config.cgi` | High
-57 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-58 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-59 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-60 | File | `/cgi-bin/myMusic.cgi` | High
-61 | File | `/cgi-bin/nas_sharing.cgi` | High
-62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-63 | File | `/cgi-bin/system_mgr.cgi` | High
-64 | File | `/cgi-bin/touchlist_sync.cgi` | High
-65 | File | `/classes/Master.php?f=save_medicine` | High
-66 | File | `/classes/Users.php?f=save` | High
-67 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-68 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-69 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-70 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-71 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-72 | ... | ... | ...
+40 | File | `/app/controller/Setup.php` | High
+41 | File | `/apply.cgi` | Medium
+42 | File | `/apply/index.php` | High
+43 | File | `/b2b-supermarket/catalog/all-products` | High
+44 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+45 | File | `/bbdms/sign-up.php` | High
+46 | File | `/bitrix/admin/ldap_server_edit.php` | High
+47 | File | `/Bloodgroop_process.php` | High
+48 | File | `/boafrm/formMultiAP` | High
+49 | File | `/cancelbookingpatient.php` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/hd_config.cgi` | High
+52 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+53 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+54 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+55 | File | `/cgi-bin/myMusic.cgi` | High
+56 | File | `/cgi-bin/nas_sharing.cgi` | High
+57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+58 | File | `/cgi-bin/system_mgr.cgi` | High
+59 | File | `/cgi-bin/touchlist_sync.cgi` | High
+60 | File | `/classes/Master.php?f=save_medicine` | High
+61 | File | `/classes/Users.php?f=save` | High
+62 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+63 | ... | ... | ...
 
-There are 632 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

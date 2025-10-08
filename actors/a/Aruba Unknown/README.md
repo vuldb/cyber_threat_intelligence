@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,27 +92,28 @@ ID | Type | Indicator | Confidence
 26 | File | `/booknow.php?roomname=Duplex` | High
 27 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
 28 | File | `/cas/logout` | Medium
-29 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-30 | File | `/cgi-bin/download_config.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/conf/app.conf` | High
-33 | File | `/config/config.json` | High
-34 | File | `/contact.php` | Medium
-35 | File | `/controllers/Blocks.php` | High
-36 | File | `/CPE` | Low
-37 | File | `/details.php` | Medium
-38 | File | `/download` | Medium
-39 | File | `/Employer/EditProfile.php` | High
-40 | File | `/etc/passwd` | Medium
-41 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-42 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
-43 | File | `/gena.cgi` | Medium
-44 | File | `/goform/apPortalPhoneAuth` | High
-45 | File | `/goform/GetParentControlInfo` | High
-46 | File | `/goform/SetSambaCfg` | High
-47 | ... | ... | ...
+29 | File | `/cfgFile/fileContent` | High
+30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/download_config.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/conf/app.conf` | High
+35 | File | `/config/config.json` | High
+36 | File | `/contact.php` | Medium
+37 | File | `/controllers/Blocks.php` | High
+38 | File | `/CPE` | Low
+39 | File | `/details.php` | Medium
+40 | File | `/download` | Medium
+41 | File | `/Employer/EditProfile.php` | High
+42 | File | `/etc/passwd` | Medium
+43 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+44 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
+45 | File | `/gena.cgi` | Medium
+46 | File | `/goform/apPortalPhoneAuth` | High
+47 | File | `/goform/GetParentControlInfo` | High
+48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

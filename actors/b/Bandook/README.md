@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,46 +57,47 @@ ID | Type | Indicator | Confidence
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin-api/mp/material/upload-temporary` | High
-4 | File | `/admin/settings/index.php?page=accounts` | High
-5 | File | `/admin/sysmon.php` | High
-6 | File | `/api/content/posts/comments` | High
-7 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-8 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cimom` | Low
-16 | File | `/classes/SystemSettings.php?f=update_settings` | High
-17 | File | `/controllers/updatesettings.php` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/domain/add` | Medium
-20 | File | `/editBranchResult.php` | High
-21 | File | `/etc/pki/pesign` | High
-22 | File | `/etc/sudoers` | Medium
-23 | File | `/get_work_dir_files` | High
-24 | File | `/goform/addressNat` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/GetParentControlInfo` | High
-27 | File | `/group1/uploa` | High
-28 | File | `/Home/GetAttachment` | High
-29 | File | `/include/menu_v.inc.php` | High
-30 | File | `/index.php/weblinks-categories` | High
-31 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
-32 | File | `/librarian/lab.php` | High
-33 | File | `/login/` | Low
-34 | File | `/main?cmd=invalid_browser` | High
-35 | File | `/me` | Low
-36 | File | `/modules/projects/vw_files.php` | High
-37 | File | `/omos/admin/?page=user/list` | High
-38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-39 | File | `/out.php` | Medium
-40 | File | `/package.php` | Medium
-41 | ... | ... | ...
+4 | File | `/admin/attendance_action.php` | High
+5 | File | `/admin/eligibility.php` | High
+6 | File | `/admin/payment_save.php` | High
+7 | File | `/admin/profile.php` | High
+8 | File | `/admin/settings/index.php?page=accounts` | High
+9 | File | `/admin/sysmon.php` | High
+10 | File | `/AGE0000700/GetImageMedico?fooId=1` | High
+11 | File | `/api/content/posts/comments` | High
+12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+13 | File | `/bin/httpd` | Medium
+14 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/editBookmark` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/cimom` | Low
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/controllers/updatesettings.php` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/domain/add` | Medium
+24 | File | `/editBranchResult.php` | High
+25 | File | `/etc/pki/pesign` | High
+26 | File | `/get_work_dir_files` | High
+27 | File | `/goform/addressNat` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/goform/GetParentControlInfo` | High
+30 | File | `/group1/uploa` | High
+31 | File | `/Home/GetAttachment` | High
+32 | File | `/include/menu_v.inc.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+35 | File | `/librarian/lab.php` | High
+36 | File | `/login/` | Low
+37 | File | `/main?cmd=invalid_browser` | High
+38 | File | `/me` | Low
+39 | File | `/modules/projects/vw_files.php` | High
+40 | File | `/Moosikay/order.php` | High
+41 | File | `/omos/admin/?page=user/list` | High
+42 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

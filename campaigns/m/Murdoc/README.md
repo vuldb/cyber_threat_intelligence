@@ -90,13 +90,13 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin/cstecgi.cgi` | High
 22 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php?f=log_employee` | High
-25 | File | `/config/getuser` | High
-26 | File | `/cupseasylive/companymodify.php` | High
-27 | File | `/cupseasylive/grnprint.php` | High
+24 | File | `/checkout` | Medium
+25 | File | `/classes/Master.php?f=log_employee` | High
+26 | File | `/config/getuser` | High
+27 | File | `/cupseasylive/companymodify.php` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with SmokeLoader:
 
+* Emmenhtal
 * Tsunami
 * Whiffy Recon
 
@@ -53,7 +54,7 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [31.44.185.182](https://vuldb.com/?ip.31.44.185.182) | - | - | High
 27 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,9 +65,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,7 +98,7 @@ ID | Type | Indicator | Confidence
 20 | File | `admin/inquiries/view_details.php` | High
 21 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +117,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ea8ecda6aaf0a6560b614a46a33112caf8ab6404be64ced23fa202737ddbacbf/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
+* https://blog.talosintelligence.com/maas-operation-using-emmenhtal-and-amadey-linked-to-threats-against-ukrainian-entities/
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d
 * https://ddanchev.blogspot.com/2022/11/smokeloader-themed-malware-serving.html
 * https://de.darktrace.com/blog/how-darktrace-extinguished-the-threat-of-smokeloader-malware

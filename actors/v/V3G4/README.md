@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,10 +47,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/action/iperf` | High
-4 | File | `/admin-profile.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/action/iperf` | High
+3 | File | `/admin-profile.php` | High
+4 | File | `/admin.php/addon/index` | High
 5 | File | `/admin.php/admin/plog/index.html` | High
 6 | File | `/admin.php/singer/admin/singer/del` | High
 7 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
@@ -59,43 +59,48 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/about_edit.php?action=modify` | High
 11 | File | `/admin/add_course.php` | High
 12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
-13 | File | `/admin/class.php?dowhat=modifyclass` | High
-14 | File | `/admin/comn/service/update.json` | High
-15 | File | `/admin/create-package.php` | High
-16 | File | `/admin/edit-boat.php` | High
-17 | File | `/admin/edit-subadmin.php` | High
-18 | File | `/admin/index.php` | High
-19 | File | `/admin/mod_room/controller.php?action=add` | High
-20 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-21 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-22 | File | `/admin/template/edit` | High
-23 | File | `/admin/transactions/update_status.php` | High
-24 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-25 | File | `/administrator/components/menu/` | High
-26 | File | `/api/deploy/upload` | High
-27 | File | `/api/deploy/upload /api/database/upload` | High
-28 | File | `/assets/php/upload.php` | High
-29 | File | `/auparse/auparse.c` | High
-30 | File | `/back/index.php/user/User/?1` | High
-31 | File | `/backups/` | Medium
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-34 | File | `/cgi-bin/logs.ha` | High
-35 | File | `/cgi-bin/s3.cgi` | High
-36 | File | `/claire_blake` | High
-37 | File | `/classes/Master.php?f=delete_service` | High
-38 | File | `/classes/SystemSettings.php?f=update_settings` | High
-39 | File | `/CMSInstall/install.aspx` | High
-40 | File | `/common/info.cgi` | High
-41 | File | `/core/table/query` | High
-42 | File | `/crm/inicio.php` | High
-43 | File | `/cupseasylive/costcentercreate.php` | High
-44 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-45 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-46 | File | `/doctor/view-appointment-detail.php` | High
-47 | ... | ... | ...
+13 | File | `/admin/assign_save.php` | High
+14 | File | `/admin/between-date-complaintreport.php` | High
+15 | File | `/admin/class.php?dowhat=modifyclass` | High
+16 | File | `/admin/comn/service/update.json` | High
+17 | File | `/admin/create-package.php` | High
+18 | File | `/admin/delete_pending.php` | High
+19 | File | `/admin/doctor-specilization.php` | High
+20 | File | `/admin/edit-boat.php` | High
+21 | File | `/admin/edit-category.php` | High
+22 | File | `/admin/edit-subadmin.php` | High
+23 | File | `/admin/edit_product.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/login.php` | High
+26 | File | `/admin/mod_room/controller.php?action=add` | High
+27 | File | `/admin/page-login.php` | High
+28 | File | `/admin/registration.php` | High
+29 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+30 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+31 | File | `/admin/template/edit` | High
+32 | File | `/admin/transactions/update_status.php` | High
+33 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+34 | File | `/administrator/components/menu/` | High
+35 | File | `/api/deploy/upload` | High
+36 | File | `/api/deploy/upload /api/database/upload` | High
+37 | File | `/assets/php/upload.php` | High
+38 | File | `/auparse/auparse.c` | High
+39 | File | `/auth/delete_project/` | High
+40 | File | `/back/index.php/user/User/?1` | High
+41 | File | `/backups/` | Medium
+42 | File | `/boafrm/formWlwds` | High
+43 | File | `/cancelbookingpatient.php` | High
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+46 | File | `/cgi-bin/logs.ha` | High
+47 | File | `/cgi-bin/s3.cgi` | High
+48 | File | `/claire_blake` | High
+49 | File | `/classes/Master.php?f=delete_service` | High
+50 | File | `/classes/SystemSettings.php?f=update_settings` | High
+51 | File | `/CMSInstall/install.aspx` | High
+52 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -266,9 +266,10 @@ ID | IP address | Hostname | Campaign | Confidence
 243 | [46.183.220.120](https://vuldb.com/?ip.46.183.220.120) | ip-220-120.dataclub.info | - | High
 244 | [46.183.221.21](https://vuldb.com/?ip.46.183.221.21) | ip-221-21.dataclub.info | - | High
 245 | [46.183.221.107](https://vuldb.com/?ip.46.183.221.107) | ip-221-107.dataclub.info | - | High
-246 | ... | ... | ... | ...
+246 | [46.183.222.7](https://vuldb.com/?ip.46.183.222.7) | ip-222-7.dataclub.info | - | High
+247 | ... | ... | ... | ...
 
-There are 980 more IOC items available. Please use our online service to access the data.
+There are 983 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -276,13 +277,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -290,61 +292,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-subadmin.php` | High
-2 | File | `/add_deductions.php` | High
-3 | File | `/admin/all-applications.php` | High
-4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-5 | File | `/admin/betweendates-detailsreports.php` | High
-6 | File | `/admin/booking-bwdates-reports-details.php` | High
-7 | File | `/admin/bookList?page=1&limit=10` | High
-8 | File | `/admin/bwdates-report-details.php` | High
-9 | File | `/admin/bwdates-request-report-details.php` | High
-10 | File | `/admin/category/controller.php` | High
-11 | File | `/admin/chatroom.php` | High
-12 | File | `/admin/create_product.php` | High
-13 | File | `/admin/edit-products.php` | High
-14 | File | `/admin/enrollment-details.php` | High
-15 | File | `/admin/forms/option_lists/edit.php` | High
-16 | File | `/admin/getallarticleinfo` | High
-17 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-18 | File | `/admin/index.php` | High
-19 | File | `/admin/index2.html` | High
-20 | File | `/admin/normal-search.php` | High
-21 | File | `/admin/salary_slip.php` | High
-22 | File | `/admin/search-appointment.php` | High
-23 | File | `/admin/template/update` | High
-24 | File | `/admin/user-search.php` | High
-25 | File | `/adminPage/main/upload` | High
-26 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-27 | File | `/admin_topic.php?action=delall` | High
-28 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-29 | File | `/api/sys/set_passwd` | High
-30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-31 | File | `/api/wizard/networkSetup` | High
-32 | File | `/api/wizard/setsyncpppoecfg` | High
-33 | File | `/app/controller/Api.php` | High
-34 | File | `/auth.asp` | Medium
-35 | File | `/auth/register` | High
-36 | File | `/bitrix/admin/ldap_server_edit.php` | High
-37 | File | `/Bloodgroop_process.php` | High
-38 | File | `/boafrm/formFilter` | High
-39 | File | `/boafrm/formIpQoS` | High
-40 | File | `/boafrm/formMultiAP` | High
-41 | File | `/BRS_top.html` | High
-42 | File | `/catalog/compare` | High
-43 | File | `/cgi-bin/cstecgi.cgi` | High
-44 | File | `/cgi-bin/hd_config.cgi` | High
-45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-46 | File | `/cgi-bin/mainfunction.cgi` | High
-47 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-48 | File | `/change-password.php` | High
-49 | File | `/classes/Master.php?f=save_course` | High
-50 | File | `/classes/Master.php?f=save_position` | High
-51 | File | `/config/config.properties` | High
-52 | File | `/coreframe/app/guestbook/myissue.php` | High
-53 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/action.php` | Medium
+3 | File | `/add-subadmin.php` | High
+4 | File | `/admin-cp/media` | High
+5 | File | `/admin/?page=return/view_return` | High
+6 | File | `/admin/add-boat.php` | High
+7 | File | `/admin/add-subadmin.php` | High
+8 | File | `/admin/adddoctorclinic.php` | High
+9 | File | `/admin/add_cars.php` | High
+10 | File | `/admin/admin_index.php` | High
+11 | File | `/admin/all-applications.php` | High
+12 | File | `/admin/betweendates-detailsreports.php` | High
+13 | File | `/admin/booking-bwdates-reports-details.php` | High
+14 | File | `/admin/bwdates-request-report-details.php` | High
+15 | File | `/admin/category/add.do` | High
+16 | File | `/admin/changeimage.php` | High
+17 | File | `/admin/delete-doctor.php` | High
+18 | File | `/admin/delete_log.php` | High
+19 | File | `/admin/edit-admin.php` | High
+20 | File | `/admin/edit-guard-detail.php` | High
+21 | File | `/admin/edit-products.php` | High
+22 | File | `/admin/enrollment-details.php` | High
+23 | File | `/admin/faculty_action.php` | High
+24 | File | `/admin/forms/option_lists/edit.php` | High
+25 | File | `/admin/getallarticleinfo` | High
+26 | File | `/admin/index2.html` | High
+27 | File | `/Admin/login.php` | High
+28 | File | `/admin/manage-pages.php` | High
+29 | File | `/admin/manage_user.php` | High
+30 | File | `/admin/search-appointment.php` | High
+31 | File | `/admin/user-search.php` | High
+32 | File | `/admin/view-patient.php` | High
+33 | File | `/admin/voters_row.php` | High
+34 | File | `/admin_topic.php?action=delall` | High
+35 | File | `/adpweb/a/base/barcodeDetail/` | High
+36 | File | `/ajax.php?action=save_package` | High
+37 | File | `/api/docs/index.php` | High
+38 | File | `/api/wizard/networkSetup` | High
+39 | File | `/api/wizard/setsyncpppoecfg` | High
+40 | File | `/app/controller/Api.php` | High
+41 | File | `/auth.asp` | Medium
+42 | File | `/backend/register.php` | High
+43 | File | `/bic/ssoService/v1/applyCT` | High
+44 | File | `/bin/httpd` | Medium
+45 | File | `/Bloodgroop_process.php` | High
+46 | File | `/boafrm/formFilter` | High
+47 | File | `/boafrm/formIpQoS` | High
+48 | File | `/boafrm/formMultiAP` | High
+49 | File | `/boafrm/formSaveConfig` | High
+50 | File | `/boafrm/formWlSiteSurvey` | High
+51 | File | `/BRS_top.html` | High
+52 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+53 | File | `/cancelbookingpatient.php` | High
+54 | File | `/cashconfirm.php` | High
+55 | File | `/cgi-bin/Config.cgi?action=set` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/editBookmark` | High
+58 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+59 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+60 | File | `/cgi-bin/login.cgi` | High
+61 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -362,6 +372,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/49cb5b15b21ecd89b7462da8008c6c49d32310858912344f11fa04dab67f1f3a/
 * https://bazaar.abuse.ch/sample/80fa88690cc6490e1eb7f735ff4421fc5f813505d41987747ac4c5a9e268272d/
 * https://bazaar.abuse.ch/sample/160ea3850bd5f084c27aeeebae4ae027419d9e16c0cfdfdd951ca4c7d4f64dd6/
+* https://bazaar.abuse.ch/sample/261e9b8f64e34e490fa679a3b481e1ac4a7043df1a7e2fcb098dba99e90f9f7a/
 * https://bazaar.abuse.ch/sample/3186f04f5598615272f7dcb18de5c852ba5629e8c7a381cd1630b8246ea6aab9/
 * https://bazaar.abuse.ch/sample/9092a8499f245641da71311b2f4dcafac1b61c30f1f5d5808fed38f5125cbc57/
 * https://bazaar.abuse.ch/sample/c052348a58892d3afd5c384690d2da3878dfbdd8fd09645461bee408dfa56d6e/

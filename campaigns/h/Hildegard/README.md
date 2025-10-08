@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,27 +58,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/ad-list` | Medium
-3 | File | `/admin/suppliers/view_details.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/authentication/login` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/v2/open/rowsInfo` | High
-9 | File | `/app/sys1.php` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/cas/logout` | Medium
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/adm.cgi` | High
-14 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/nightled.cgi` | High
-17 | File | `/cgi-bin/touchlist_sync.cgi` | High
-18 | File | `/cgi-bin/vitogate.cgi` | High
-19 | File | `/change_password_process` | High
-20 | File | `/debug/pprof` | Medium
-21 | ... | ... | ...
+3 | File | `/admin/booking-search.php` | High
+4 | File | `/admin/suppliers/view_details.php` | High
+5 | File | `/admin/voters_row.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/api/authentication/login` | High
+8 | File | `/api/discoveries/` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v2/open/rowsInfo` | High
+12 | File | `/app/sys1.php` | High
+13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+14 | File | `/cas/logout` | Medium
+15 | File | `/catalog/all-products` | High
+16 | File | `/cgi-bin/adm.cgi` | High
+17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/nightled.cgi` | High
+20 | File | `/cgi-bin/touchlist_sync.cgi` | High
+21 | File | `/cgi-bin/vitogate.cgi` | High
+22 | File | `/change_password_process` | High
+23 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

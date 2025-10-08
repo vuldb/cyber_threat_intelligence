@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,55 +68,56 @@ ID | Type | Indicator | Confidence
 6 | File | `/add_user.php` | High
 7 | File | `/admin/about-us.php` | High
 8 | File | `/admin/action/delete-vaccine.php` | High
-9 | File | `/Admin/akun_edit.php` | High
-10 | File | `/admin/apply.php` | High
-11 | File | `/admin/content/editor` | High
-12 | File | `/admin/create-package.php` | High
-13 | File | `/admin/create_product.php` | High
-14 | File | `/admin/doAdminAction.php?act=addCate` | High
-15 | File | `/admin/edit-brand.php` | High
-16 | File | `/admin/edit-post.php` | High
-17 | File | `/admin/index2.html` | High
-18 | File | `/admin/notes/create` | High
-19 | File | `/admin/pages/list` | High
-20 | File | `/admin/profile.php` | High
-21 | File | `/Admin/Proses_Edit_Akun.php` | High
-22 | File | `/admin/robot.php` | High
-23 | File | `/admin/search-invoices.php` | High
-24 | File | `/admin/twitter.php` | High
-25 | File | `/admin_class.php` | High
-26 | File | `/alphaware/summary.php` | High
-27 | File | `/api/swaggerui/static` | High
-28 | File | `/app/controller/Api.php` | High
-29 | File | `/app/index/controller/Common.php` | High
-30 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-31 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-32 | File | `/applications/nexus/modules/front/store/store.php` | High
-33 | File | `/backend/doc/his_doc_update-account.php` | High
-34 | File | `/bitrix/admin/ldap_server_edit.php` | High
-35 | File | `/cgi-bin/apkg_mgr.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/classes/Master.php` | High
-40 | File | `/classes/Master.php?f=delete_record` | High
-41 | File | `/classes/Master.php?f=save_category` | High
-42 | File | `/classes/SystemSettings.php?f=update_settings` | High
-43 | File | `/classes/Users.php?f=save` | High
-44 | File | `/command_port.ini` | High
-45 | File | `/cupseasylive/countrymodify.php` | High
-46 | File | `/customnode/install` | High
-47 | File | `/deal/{note_id}/note` | High
-48 | File | `/detailed.php` | High
-49 | File | `/domains/list` | High
-50 | File | `/dtale/chart-data/1` | High
-51 | File | `/etc/shadow.sample` | High
-52 | File | `/fftools/ffmpeg_enc.c` | High
-53 | File | `/filter.php` | Medium
-54 | File | `/fladmin/sysconfig_doedit.php` | High
-55 | ... | ... | ...
+9 | File | `/admin/admin_running.php` | High
+10 | File | `/Admin/akun_edit.php` | High
+11 | File | `/admin/apply.php` | High
+12 | File | `/admin/content/editor` | High
+13 | File | `/admin/create-package.php` | High
+14 | File | `/admin/create_product.php` | High
+15 | File | `/admin/delete_s6.php` | High
+16 | File | `/admin/doAdminAction.php?act=addCate` | High
+17 | File | `/admin/edit-brand.php` | High
+18 | File | `/admin/edit-post.php` | High
+19 | File | `/admin/index2.html` | High
+20 | File | `/admin/notes/create` | High
+21 | File | `/admin/pages/list` | High
+22 | File | `/admin/profile.php` | High
+23 | File | `/Admin/Proses_Edit_Akun.php` | High
+24 | File | `/admin/robot.php` | High
+25 | File | `/admin/search-invoices.php` | High
+26 | File | `/admin/tags/save` | High
+27 | File | `/admin/twitter.php` | High
+28 | File | `/admin/yesterday-reg-users.php` | High
+29 | File | `/admin_class.php` | High
+30 | File | `/ajax.php?action=delete_member` | High
+31 | File | `/api/settings` | High
+32 | File | `/api/swaggerui/static` | High
+33 | File | `/app/controller/Api.php` | High
+34 | File | `/app/index/controller/Common.php` | High
+35 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+36 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+37 | File | `/applications/nexus/modules/front/store/store.php` | High
+38 | File | `/backend/doc/his_doc_update-account.php` | High
+39 | File | `/bitrix/admin/ldap_server_edit.php` | High
+40 | File | `/cgi-bin/apkg_mgr.cgi` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_record` | High
+46 | File | `/classes/Master.php?f=save_category` | High
+47 | File | `/classes/SystemSettings.php?f=update_settings` | High
+48 | File | `/classes/Users.php?f=save` | High
+49 | File | `/command_port.ini` | High
+50 | File | `/cupseasylive/countrymodify.php` | High
+51 | File | `/customnode/install` | High
+52 | File | `/deal/{note_id}/note` | High
+53 | File | `/detailed.php` | High
+54 | File | `/domains/list` | High
+55 | File | `/dtale/chart-data/1` | High
+56 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Powload:
 
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [CL](https://vuldb.com/?country.cl)
+* [GB](https://vuldb.com/?country.gb)
+* [VN](https://vuldb.com/?country.vn)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,10 +40,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,66 +114,65 @@ ID | Type | Indicator | Confidence
 60 | File | `/admin/twitter.php` | High
 61 | File | `/Admin/user-record.php` | High
 62 | File | `/admin/vendor` | High
-63 | File | `/adminPage/conf/reload` | High
-64 | File | `/adminPage/conf/saveCmd` | High
-65 | File | `/adminPage/main/upload` | High
-66 | File | `/adminPage/www/addOver` | High
-67 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-68 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-69 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-70 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-71 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-72 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-73 | File | `/adminpanel/admin/query/loginExe.php` | High
-74 | File | `/admin_class.php` | High
-75 | File | `/ajax.php` | Medium
-76 | File | `/api/blade-user/export-user` | High
-77 | File | `/api/process.php` | High
-78 | File | `/api/v2/maps` | Medium
-79 | File | `/app/uploading/upload-mp3.php` | High
-80 | File | `/application/controller/Pelanggan.php` | High
-81 | File | `/application/controller/Pengeluaran.php` | High
-82 | File | `/application/controller/Transaki.php` | High
-83 | File | `/assoc_table.php` | High
-84 | File | `/attendancelist.php` | High
-85 | File | `/backend/register.php` | High
-86 | File | `/cart.php` | Medium
-87 | File | `/catalog/all-products` | High
-88 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-89 | File | `/checkout` | Medium
-90 | File | `/classes/Master.php?f=load_registration` | High
-91 | File | `/classes/Master.php?f=log_employee` | High
-92 | File | `/classes/Master.php?f=log_visitor` | High
-93 | File | `/classes/Master.php?f=save_category` | High
-94 | File | `/classes/SystemSettings.php?f=update_settings` | High
-95 | File | `/classes/Users.php` | High
-96 | File | `/classes/Users.php?f=delete` | High
-97 | File | `/classes/Users.php?f=save` | High
-98 | File | `/cms/classes/Users.php?f=delete_client` | High
-99 | File | `/command_port.ini` | High
-100 | File | `/control/activate_case.php` | High
-101 | File | `/control/addcase_stage.php` | High
-102 | File | `/control/adds.php` | High
-103 | File | `/control/deactivate_case.php` | High
-104 | File | `/control/register_case.php` | High
-105 | File | `/deletefile.php` | High
-106 | File | `/description.php` | High
-107 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-108 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-109 | File | `/diag_s.php` | Medium
-110 | File | `/doctor/view-appointment-detail.php` | High
-111 | File | `/edit-subject.php` | High
-112 | File | `/edit_book.php` | High
-113 | File | `/emgui/rest/ums/messages` | High
-114 | File | `/Employee/apply_leave.php` | High
-115 | File | `/Employee/changepassword.php` | High
-116 | File | `/Employee/delete_leave.php` | High
-117 | File | `/Employee/edit-profile.php` | High
-118 | File | `/employee_gatepass/classes/Users.php?f=ssave` | High
-119 | File | `/endpoint/add-image.php` | High
-120 | ... | ... | ...
+63 | File | `/admin/visitors-form.php` | High
+64 | File | `/adminPage/conf/reload` | High
+65 | File | `/adminPage/conf/saveCmd` | High
+66 | File | `/adminPage/main/upload` | High
+67 | File | `/adminPage/www/addOver` | High
+68 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+69 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+70 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+71 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+72 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+73 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+74 | File | `/adminpanel/admin/query/loginExe.php` | High
+75 | File | `/admin_class.php` | High
+76 | File | `/ajax.php` | Medium
+77 | File | `/api/blade-user/export-user` | High
+78 | File | `/api/process.php` | High
+79 | File | `/api/v2/maps` | Medium
+80 | File | `/app/uploading/upload-mp3.php` | High
+81 | File | `/application/controller/Pelanggan.php` | High
+82 | File | `/application/controller/Pengeluaran.php` | High
+83 | File | `/application/controller/Transaki.php` | High
+84 | File | `/assoc_table.php` | High
+85 | File | `/attendancelist.php` | High
+86 | File | `/backend/register.php` | High
+87 | File | `/cart.php` | Medium
+88 | File | `/catalog/all-products` | High
+89 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+90 | File | `/checkout` | Medium
+91 | File | `/classes/Master.php?f=load_registration` | High
+92 | File | `/classes/Master.php?f=log_employee` | High
+93 | File | `/classes/Master.php?f=log_visitor` | High
+94 | File | `/classes/Master.php?f=save_category` | High
+95 | File | `/classes/SystemSettings.php?f=update_settings` | High
+96 | File | `/classes/Users.php` | High
+97 | File | `/classes/Users.php?f=delete` | High
+98 | File | `/classes/Users.php?f=save` | High
+99 | File | `/cms/classes/Users.php?f=delete_client` | High
+100 | File | `/command_port.ini` | High
+101 | File | `/control/activate_case.php` | High
+102 | File | `/control/addcase_stage.php` | High
+103 | File | `/control/adds.php` | High
+104 | File | `/control/deactivate_case.php` | High
+105 | File | `/control/register_case.php` | High
+106 | File | `/deletefile.php` | High
+107 | File | `/description.php` | High
+108 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+109 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+110 | File | `/diag_s.php` | Medium
+111 | File | `/doctor/view-appointment-detail.php` | High
+112 | File | `/edit-subject.php` | High
+113 | File | `/edit_book.php` | High
+114 | File | `/emgui/rest/ums/messages` | High
+115 | File | `/Employee/apply_leave.php` | High
+116 | File | `/Employee/changepassword.php` | High
+117 | File | `/Employee/delete_leave.php` | High
+118 | File | `/Employee/edit-profile.php` | High
+119 | ... | ... | ...
 
-There are 1061 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1058 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

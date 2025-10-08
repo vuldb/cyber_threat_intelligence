@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -194,7 +194,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -203,22 +203,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-api/bpm/model/deploy` | High
-2 | File | `/admin/ajax.php?action=login` | High
-3 | File | `/admin/app/slider_crud.php` | High
-4 | File | `/admin/config_MT.php?action=delete` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/manage_station.php` | High
-8 | File | `/admin/profile.php` | High
-9 | File | `/admin/school_year.php` | High
-10 | File | `/admin/search-booking-request.php` | High
-11 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-12 | File | `/api/wizard/getssidname` | High
-13 | File | `/atv-cli` | Medium
-14 | File | `/Basics/DownloadInpFile` | High
+2 | File | `/admin/app/slider_crud.php` | High
+3 | File | `/admin/config_MT.php?action=delete` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/profile.php` | High
+7 | File | `/admin/school_year.php` | High
+8 | File | `/admin/search-booking-request.php` | High
+9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+10 | File | `/api/wizard/getssidname` | High
+11 | File | `/api/wizard/networkSetup` | High
+12 | File | `/atv-cli` | Medium
+13 | File | `/Basics/DownloadInpFile` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
 15 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,16 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/chaincity/user/ticket/create` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/mgmt/tm/util/bash` | High
-4 | File | `/out.php` | Medium
-5 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-6 | File | `acme_certificate_edit.php` | High
-7 | File | `admin/index.php` | High
-8 | ... | ... | ...
+1 | File | `/admin/slideupdate.php` | High
+2 | File | `/ajax.php` | Medium
+3 | File | `/chaincity/user/ticket/create` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/setipsec_config` | High
+6 | File | `/mgmt/tm/util/bash` | High
+7 | File | `/out.php` | Medium
+8 | File | `/royal_event/userregister.php` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

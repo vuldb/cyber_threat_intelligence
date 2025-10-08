@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [77.110.107.38](https://vuldb.com/?ip.77.110.107.38) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/4641c993478534eeca8f5c777f352e0f3592d1dc67f52fabc3ff3957f195e8ab/
 * https://bazaar.abuse.ch/sample/b1b4ffcd21342c7de7f0bc286eb3f4ec6a5b919df5f20d383b4df0bd462cbe48/
 * https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
+* https://bazaar.abuse.ch/sample/e916c8e22f9cbe3fd58afc2b228db2a07790808681bc3362061e615d14ef402c/
 * https://bazaar.abuse.ch/sample/e8185b17156f56d07e51573d63ae3060e1e8341555fe083ab1328609decdcc60/
 * https://bazaar.abuse.ch/sample/ec202b2050cc7a4030c74c6fa04ef98e67c11fa64a1a1dd0ff592141ff7771de/
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
@@ -115,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3548743/
 * https://urlhaus.abuse.ch/url/3552798/
 * https://urlhaus.abuse.ch/url/3568063/
+* https://urlhaus.abuse.ch/url/3592796/
 * https://www.sentinelone.com/blog/macos-metastealer-new-family-of-obfuscated-go-infostealers-spread-in-targeted-attacks/
 
 ## Literature

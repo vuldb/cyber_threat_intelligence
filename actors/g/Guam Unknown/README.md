@@ -127,7 +127,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -137,10 +137,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `AscService.exe` | High
 2 | Library | `lib/RT/REST2/Middleware/Auth.pm` | High
-3 | Argument | `loginracetime/maxstartup` | High
-4 | ... | ... | ...
-
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+3 | Argument | `name` | Low
 
 ## References
 

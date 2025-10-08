@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -120,9 +120,10 @@ ID | Type | Indicator | Confidence
 60 | File | `/dipam/athlete-profile.php` | High
 61 | File | `/dosen/data` | Medium
 62 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-63 | ... | ... | ...
+63 | File | `/Employee/apply_leave.php` | High
+64 | ... | ... | ...
 
-There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 560 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

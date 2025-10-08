@@ -95,9 +95,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,25 +110,28 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/addemployee.php` | High
 3 | File | `/Admin/consulting_detail.php` | High
 4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/massage.php` | High
-6 | File | `/admin/update-users.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/cms/category/list` | High
-10 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-11 | File | `/Forms/oadmin_1` | High
-12 | File | `/get.php` | Medium
-13 | File | `/goform/operateMacFilter` | High
-14 | File | `/home/search` | Medium
-15 | File | `/inc/jquery/uploadify/uploadify.php` | High
-16 | File | `/main/doctype.php` | High
-17 | File | `/mims/app/addcustomerHandler.php` | High
-18 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/shell` | Low
-21 | ... | ... | ...
+5 | File | `/admin/link/edit.do` | High
+6 | File | `/admin/massage.php` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/admin/update-users.php` | High
+9 | File | `/api/process.php` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/app/admin/controller/file/File.php` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+14 | File | `/Forms/oadmin_1` | High
+15 | File | `/get.php` | Medium
+16 | File | `/goform/getTraceroute` | High
+17 | File | `/goform/operateMacFilter` | High
+18 | File | `/goform/setcfm` | High
+19 | File | `/goform/setPptpUserList` | High
+20 | File | `/home/search` | Medium
+21 | File | `/inc/jquery/uploadify/uploadify.php` | High
+22 | File | `/loginLess/../../etc/passwd` | High
+23 | File | `/main/doctype.php` | High
+24 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

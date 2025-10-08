@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -65,55 +65,56 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
 2 | File | `/add-students.php` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/add-category.php` | High
-7 | File | `/admin/admin-update-employee.php` | High
-8 | File | `/admin/booktime.php` | High
-9 | File | `/admin/change-image.php` | High
-10 | File | `/admin/edit-admin.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index.php/web/ajax_all_lists` | High
-13 | File | `/admin/list_resource_icon.php?action=delete` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/member_save.php` | High
-16 | File | `/admin/search-vehicle.php` | High
-17 | File | `/admin/singlelogin.php` | High
-18 | File | `/admin/view-patient.php` | High
-19 | File | `/ajax/check_medicine_name.php` | High
-20 | File | `/api/authentication/login` | High
-21 | File | `/api/blade-user/export-user` | High
-22 | File | `/api/clusters/local/topics/{topic}/messages` | High
-23 | File | `/API/info` | Medium
-24 | File | `/api/sys/login` | High
-25 | File | `/bcms/admin/?page=user/manage_user` | High
-26 | File | `/book_list.php` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/ExportAllSettings.sh` | High
-29 | File | `/cgi-bin/kerbynet` | High
-30 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-31 | File | `/cgi-bin/tosei_kikai.php` | High
-32 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-33 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-34 | File | `/controller/OnlinePreviewController.java` | High
-35 | File | `/cov/triggerEnvCov` | High
-36 | File | `/dashboard/admin/del_plan.php` | High
-37 | File | `/dashboard/approve-reject.php` | High
-38 | File | `/debug/pprof` | Medium
-39 | File | `/dede/file_manage_control.php` | High
-40 | File | `/detailed.php` | High
-41 | File | `/dist/index.js` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/EXCU_SHELL` | Medium
-44 | File | `/file` | Low
-45 | File | `/forum/away.php` | High
-46 | File | `/general/address/private/address/query/delete.php` | High
-47 | File | `/general/email/inbox/delete_webmail.php` | High
-48 | File | `/goform/ate` | Medium
-49 | ... | ... | ...
+3 | File | `/admin-api/mp/material/upload-permanent` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?setting-base.htm` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/admin-update-employee.php` | High
+9 | File | `/admin/booktime.php` | High
+10 | File | `/admin/change-image.php` | High
+11 | File | `/admin/complaint-details.php` | High
+12 | File | `/admin/edit-admin.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index.php/web/ajax_all_lists` | High
+15 | File | `/Admin/login.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/manage-users.php` | High
+18 | File | `/admin/member_save.php` | High
+19 | File | `/admin/search-vehicle.php` | High
+20 | File | `/admin/serverinfo` | High
+21 | File | `/admin/student_edit_photo.php` | High
+22 | File | `/admin/suppliercontroller.php` | High
+23 | File | `/admin/user-profile.php` | High
+24 | File | `/admin/view-patient.php` | High
+25 | File | `/admin/voters_delete.php` | High
+26 | File | `/admin/voters_row.php` | High
+27 | File | `/adminac.php` | Medium
+28 | File | `/ajax/check_medicine_name.php` | High
+29 | File | `/api/authentication/login` | High
+30 | File | `/api/blade-user/export-user` | High
+31 | File | `/API/info` | Medium
+32 | File | `/api/sys/login` | High
+33 | File | `/application/common.php` | High
+34 | File | `/applyleave.php` | High
+35 | File | `/bcms/admin/?page=user/manage_user` | High
+36 | File | `/book_list.php` | High
+37 | File | `/browse.php` | Medium
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/ExportAllSettings.sh` | High
+40 | File | `/cgi-bin/kerbynet` | High
+41 | File | `/cgi-bin/myMusic.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+44 | File | `/cgi-bin/tosei_kikai.php` | High
+45 | File | `/charms` | Low
+46 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+47 | File | `/cms/collect/getPages` | High
+48 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+49 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+50 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

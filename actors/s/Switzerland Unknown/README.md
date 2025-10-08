@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2573,12 +2573,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2586,23 +2587,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/all-applications.php` | High
-3 | File | `/admin/betweendates-detailsreports.php` | High
-4 | File | `/admin/bwdates-request-report-details.php` | High
-5 | File | `/admin/company/index.php` | High
-6 | File | `/admin/contactus.php` | High
-7 | File | `/admin/edit-person-detail.php?editid=2` | High
-8 | File | `/admin/forms/option_lists/edit.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-12 | File | `/api/v1/settings` | High
-13 | File | `/boafrm/formFilter` | High
-14 | File | `/boafrm/formMultiAP` | High
-15 | ... | ... | ...
+1 | File | `/action.php` | Medium
+2 | File | `/admin/adddoctorclinic.php` | High
+3 | File | `/admin/add_query_account.php` | High
+4 | File | `/admin/content/index` | High
+5 | File | `/admin/faculty_action.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage-animals.php` | High
+9 | File | `/admin/manage-pages.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/new-content` | High
+12 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+13 | File | `/admin/user/manage_user.php` | High
+14 | File | `/admin/view-patient.php` | High
+15 | File | `/admin/voters_add.php` | High
+16 | File | `/admin/voters_delete.php` | High
+17 | File | `/admin/voters_row.php` | High
+18 | File | `/ajax.php?action=save_package` | High
+19 | File | `/application/controller/Pengeluaran.php` | High
+20 | File | `/authentication/logout.php` | High
+21 | File | `/bic/ssoService/v1/applyCT` | High
+22 | File | `/boafrm/formFilter` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/client/UnChkMailApplication.jsp` | High
+25 | File | `/controle/control.php` | High
+26 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

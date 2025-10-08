@@ -52,13 +52,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/htdocs/admin/dict.php?id=3` | High
-3 | File | `/resources//../` | High
-4 | File | `/wbg/core/_includes/authorization.inc.php` | High
-5 | File | `admin/app/mediamanager` | High
-6 | ... | ... | ...
+2 | File | `/common/jsp/upload2.jsp` | High
+3 | File | `/goform/fast_setting_wifi_set` | High
+4 | File | `/htdocs/admin/dict.php?id=3` | High
+5 | File | `/resources//../` | High
+6 | File | `/wbg/core/_includes/authorization.inc.php` | High
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

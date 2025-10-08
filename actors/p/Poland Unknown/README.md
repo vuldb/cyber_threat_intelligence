@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2407,13 +2407,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-44 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2421,24 +2420,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `/admin/add_cars.php` | High
-3 | File | `/admin/bwdates-request-report-details.php` | High
-4 | File | `/admin/forms/option_lists/edit.php` | High
-5 | File | `/adpweb/a/base/barcodeDetail/` | High
-6 | File | `/api/docs/index.php` | High
-7 | File | `/api/v1/settings` | High
-8 | File | `/boafrm/formMultiAP` | High
-9 | File | `/boafrm/formWlSiteSurvey` | High
-10 | File | `/BRS_top.html` | High
-11 | File | `/cashconfirm.php` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/changeUsername.php` | High
-14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-15 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-16 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/add-boat.php` | High
+3 | File | `/admin/adddoctorclinic.php` | High
+4 | File | `/admin/ajax.php?action=save_user` | High
+5 | File | `/admin/delete_log.php` | High
+6 | File | `/admin/faculty_action.php` | High
+7 | File | `/admin/manage-pages.php` | High
+8 | File | `/admin/manage_user.php` | High
+9 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
+10 | File | `/admin/view-patient.php` | High
+11 | File | `/admin/voters_row.php` | High
+12 | File | `/ajax.php?action=save_package` | High
+13 | File | `/api/` | Low
+14 | File | `/application/controller/Pengeluaran.php` | High
+15 | File | `/auth.asp` | Medium
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

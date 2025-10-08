@@ -42,12 +42,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-36, CWE-425 | Path Traversal | High
-2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,30 +58,30 @@ ID | Type | Indicator | Confidence
 1 | File | `/accounts_con/register_account` | High
 2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
 3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/change-image.php` | High
-5 | File | `/admin/File/pictureUpload` | High
-6 | File | `/admin/modules/product/controller.php?action=add` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/update.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/admin_class.php` | High
-11 | File | `/ajax.php?action=save_establishment` | High
-12 | File | `/api/admin/user` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/app/action/add_staff.php` | High
-15 | File | `/app/ajax/sell_return_data.php` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/classes/Master.php?f=delete_inquiry` | High
-18 | File | `/collect/PortV4/downLoad.html` | High
-19 | File | `/conf/app.conf` | High
-20 | File | `/dipam/athlete-profile.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetVirtualServerCfg` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/item/item_con` | High
+4 | File | `/admin/assigned-requests.php` | High
+5 | File | `/admin/change-image.php` | High
+6 | File | `/admin/File/pictureUpload` | High
+7 | File | `/admin/modules/product/controller.php?action=add` | High
+8 | File | `/Admin/News.php` | High
+9 | File | `/admin/update.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/ajax.php?action=save_establishment` | High
+13 | File | `/api/admin/user` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/app/action/add_staff.php` | High
+16 | File | `/app/ajax/sell_return_data.php` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/classes/Master.php?f=delete_inquiry` | High
+19 | File | `/collect/PortV4/downLoad.html` | High
+20 | File | `/conf/app.conf` | High
+21 | File | `/dipam/athlete-profile.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/SetVirtualServerCfg` | High
+24 | File | `/hrm/controller/employee.php` | High
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

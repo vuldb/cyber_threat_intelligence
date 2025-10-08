@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -452,7 +452,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -484,28 +485,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/admin/edit-guard-detail.php` | High
 21 | File | `/admin/edit-products.php` | High
 22 | File | `/admin/enrollment-details.php` | High
-23 | File | `/admin/forms/option_lists/edit.php` | High
-24 | File | `/admin/getallarticleinfo` | High
-25 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-26 | File | `/admin/index.php` | High
-27 | File | `/admin/index2.html` | High
-28 | File | `/Admin/login.php` | High
-29 | File | `/admin/normal-search.php` | High
-30 | File | `/admin/salary_slip.php` | High
-31 | File | `/admin/template/update` | High
-32 | File | `/admin/user-search.php` | High
-33 | File | `/adminPage/main/upload` | High
-34 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-35 | File | `/adpweb/a/base/barcodeDetail/` | High
-36 | File | `/ajax.php?action=save_package` | High
-37 | File | `/api/docs/index.php` | High
-38 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-39 | File | `/api/sys/set_passwd` | High
-40 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-41 | File | `/api/wizard/setsyncpppoecfg` | High
-42 | File | `/app/controller/Api.php` | High
-43 | File | `/auth.asp` | Medium
-44 | File | `/auth/register` | High
+23 | File | `/admin/faculty_action.php` | High
+24 | File | `/admin/forms/option_lists/edit.php` | High
+25 | File | `/admin/getallarticleinfo` | High
+26 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+27 | File | `/admin/index.php` | High
+28 | File | `/admin/index2.html` | High
+29 | File | `/Admin/login.php` | High
+30 | File | `/admin/manage-pages.php` | High
+31 | File | `/admin/manage_user.php` | High
+32 | File | `/admin/template/update` | High
+33 | File | `/admin/user-search.php` | High
+34 | File | `/admin/view-patient.php` | High
+35 | File | `/adminPage/main/upload` | High
+36 | File | `/adpweb/a/base/barcodeDetail/` | High
+37 | File | `/ajax.php?action=save_package` | High
+38 | File | `/api/docs/index.php` | High
+39 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+40 | File | `/api/sys/set_passwd` | High
+41 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+42 | File | `/api/wizard/setsyncpppoecfg` | High
+43 | File | `/app/controller/Api.php` | High
+44 | File | `/auth.asp` | Medium
 45 | File | `/auth_files/photo/` | High
 46 | File | `/backend/register.php` | High
 47 | File | `/bic/ssoService/v1/applyCT` | High
@@ -526,9 +527,12 @@ ID | Type | Indicator | Confidence
 62 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
 63 | File | `/cgi-bin/nas_sharing.cgi` | High
 64 | File | `/change-password.php` | High
-65 | ... | ... | ...
+65 | File | `/changeUsername.php` | High
+66 | File | `/classes/Master.php?f=save_course` | High
+67 | File | `/classes/Master.php?f=save_position` | High
+68 | ... | ... | ...
 
-There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

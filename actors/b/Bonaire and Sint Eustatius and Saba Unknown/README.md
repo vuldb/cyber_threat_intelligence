@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -69,14 +69,15 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/download_config.cgi` | High
 9 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
 10 | File | `/cgi-bin/mainfunction.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-13 | File | `/common/info.cgi` | High
-14 | File | `/dayrui/My/View/main.html` | High
-15 | File | `/Employer/EditProfile.php` | High
-16 | ... | ... | ...
+11 | File | `/cgi-bin/qcmap_auth` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+14 | File | `/common/info.cgi` | High
+15 | File | `/dayrui/My/View/main.html` | High
+16 | File | `/dev api/app/album/photos/` | High
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

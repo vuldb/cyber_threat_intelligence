@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,29 +55,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
-2 | File | `.FBCIndex` | Medium
-3 | File | `.git/` | Low
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/fields/manage_field.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/manage_academic.php` | High
-9 | File | `/admin/upload.php` | High
-10 | File | `/admin/user/user-move-run.php` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/ajax_city.php` | High
-13 | File | `/analysisProject/pagingQueryData` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/snapshots/` | High
-16 | File | `/api/sys/login` | High
-17 | File | `/api/upload.php` | High
-18 | File | `/api/wizard/getWifiNeighbour` | High
-19 | File | `/application/index/controller/Databasesource.php` | High
-20 | File | `/ari/asterisk/variable` | High
-21 | File | `/backend/register.php` | High
-22 | File | `/blog` | Low
-23 | File | `/boaform/getASPdata/formFirewall` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `.git/` | Low
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/manage_academic.php` | High
+8 | File | `/admin/upload.php` | High
+9 | File | `/admin/user/user-move-run.php` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/ajax_city.php` | High
+12 | File | `/analysisProject/pagingQueryData` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/snapshots/` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/upload.php` | High
+17 | File | `/api/wizard/getWifiNeighbour` | High
+18 | File | `/application/index/controller/Databasesource.php` | High
+19 | File | `/ari/asterisk/variable` | High
+20 | File | `/backend/register.php` | High
+21 | File | `/blog` | Low
+22 | File | `/boaform/getASPdata/formFirewall` | High
+23 | File | `/boafrm/formParentControl` | High
 24 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
 25 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
 26 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -85,27 +85,29 @@ ID | Type | Indicator | Confidence
 28 | File | `/cgi-bin/sessions/get-temp-file` | High
 29 | File | `/cgi-bin/wlogin.cgi` | High
 30 | File | `/change-password.php` | High
-31 | File | `/config/config.json` | High
-32 | File | `/control/register_case.php` | High
-33 | File | `/control/WANIPConnection` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/display/map` | Medium
-36 | File | `/dottie.js` | Medium
-37 | File | `/dtale/chart-data/1` | High
-38 | File | `/Employer/EditProfile.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/apPortalPhoneAuth` | High
-41 | File | `/goform/setcfm` | High
-42 | File | `/HNAP1` | Low
-43 | File | `/index.php?menu=asterisk_cli` | High
-44 | File | `/index/ajax/lang` | High
-45 | File | `/jeecg-boot/jmreport/show` | High
-46 | File | `/kortex_lite/control/edit_profile.php` | High
-47 | File | `/listplace/user/ticket/create` | High
-48 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-49 | ... | ... | ...
+31 | File | `/client/manage/ourphp_out.php` | High
+32 | File | `/config/config.json` | High
+33 | File | `/control/register_case.php` | High
+34 | File | `/control/WANIPConnection` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/display/map` | Medium
+37 | File | `/dottie.js` | Medium
+38 | File | `/dtale/chart-data/1` | High
+39 | File | `/Employer/EditProfile.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/goform/apPortalPhoneAuth` | High
+42 | File | `/goform/setcfm` | High
+43 | File | `/HNAP1` | Low
+44 | File | `/index.php?menu=asterisk_cli` | High
+45 | File | `/index/ajax/lang` | High
+46 | File | `/jeecg-boot/jmreport/show` | High
+47 | File | `/kortex_lite/control/edit_profile.php` | High
+48 | File | `/listplace/user/ticket/create` | High
+49 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+50 | File | `/manage_sy.php` | High
+51 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

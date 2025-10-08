@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,12 +39,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,34 +53,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add-customer.php` | High
-2 | File | `/admin/attendance_action.php` | High
-3 | File | `/admin/changeimage.php` | High
-4 | File | `/admin/delete_pending.php` | High
-5 | File | `/admin/edit-teacher-detail.php` | High
-6 | File | `/admin/edit_state.php` | High
-7 | File | `/ajax` | Low
-8 | File | `/api/blade-user/submit` | High
-9 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-10 | File | `/asms/admin/services/manage_service.php` | High
-11 | File | `/boafrm/formParentControl` | High
-12 | File | `/campaign.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/dede/article_string_mix.php` | High
-17 | File | `/download` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/formWlSiteSurvey` | High
-20 | File | `/include/helpers/upload.helper.php` | High
-21 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
-22 | File | `/lotos/src/response.c` | High
-23 | File | `/luna/servlet/view/search` | High
-24 | File | `/member/index/login` | High
-25 | File | `/members/fundDetails.php` | High
-26 | File | `/oauth/idp/.well-known/openid-configuration` | High
-27 | ... | ... | ...
+2 | File | `/addelidetails.php` | High
+3 | File | `/admin/attendance_action.php` | High
+4 | File | `/admin/changeimage.php` | High
+5 | File | `/admin/delete_pending.php` | High
+6 | File | `/admin/edit-teacher-detail.php` | High
+7 | File | `/admin/edituser.php` | High
+8 | File | `/admin/edit_state.php` | High
+9 | File | `/admin/operations/expense.php` | High
+10 | File | `/admin/operations/expense_category.php` | High
+11 | File | `/admin/operations/travellers.php` | High
+12 | File | `/admin/page-login.php` | High
+13 | File | `/admin/save_airlines.php` | High
+14 | File | `/admin/session.php` | High
+15 | File | `/ajax` | Low
+16 | File | `/api/blade-user/submit` | High
+17 | File | `/api/v2/events` | High
+18 | File | `/app/controllers/EntityController.php` | High
+19 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+20 | File | `/asms/admin/services/manage_service.php` | High
+21 | File | `/boafrm/formParentControl` | High
+22 | File | `/campaign.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+25 | File | `/cgi-bin/system_mgr.cgi` | High
+26 | File | `/clients` | Medium
+27 | File | `/dede/article_string_mix.php` | High
+28 | File | `/delete_account.php` | High
+29 | File | `/download` | Medium
+30 | File | `/edit.php` | Medium
+31 | File | `/etc/shadow.sample` | High
+32 | File | `/exportacao-para-o-seb` | High
+33 | File | `/flights.php` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/ftp.html` | Medium
+36 | File | `/goform/accessControlAdd` | High
+37 | File | `/goform/addStaticRoute` | High
+38 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

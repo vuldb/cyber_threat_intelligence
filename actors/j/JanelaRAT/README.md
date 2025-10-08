@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with JanelaRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [BR](https://vuldb.com/?country.br)
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
@@ -35,12 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,40 +54,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/general.cgi` | High
 6 | File | `/Admin/login.php` | High
 7 | File | `/admin/reminders/manage_reminder.php` | High
-8 | File | `/adpweb/a/ica/api/service/rfa/testService` | High
-9 | File | `/API/info` | Medium
-10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-11 | File | `/Bloodgroop_process.php` | High
-12 | File | `/CCMAdmin/serverlist.asp` | High
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/cgi/get_param.cgi` | High
-15 | File | `/csms/admin/inquiries/view_details.php` | High
-16 | File | `/cstecgi.cgi` | Medium
-17 | File | `/ecommerce/support_ticket` | High
-18 | File | `/files.md5` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/home/search` | Medium
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/index.php?menu=asterisk_cli` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/manage_website.php` | High
-26 | File | `/messageboard/view.php` | High
-27 | File | `/oauth/idp/.well-known/openid-configuration` | High
-28 | File | `/out.php` | Medium
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-33 | File | `/SystemMng.ashx` | High
-34 | File | `/textpattern/index.php` | High
-35 | File | `/upfile.cgi` | Medium
-36 | File | `/v2/quantum/save-data-upload-big-file` | High
-37 | File | `/webui/modules/log/operate.mds` | High
-38 | File | `/wordpress/wp-admin/admin.php` | High
-39 | ... | ... | ...
+8 | File | `/admin/weixin.php` | High
+9 | File | `/adpweb/a/ica/api/service/rfa/testService` | High
+10 | File | `/API/info` | Medium
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/Bloodgroop_process.php` | High
+13 | File | `/cancelbookingpatient.php` | High
+14 | File | `/CCMAdmin/serverlist.asp` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+17 | File | `/cgi/get_param.cgi` | High
+18 | File | `/csms/admin/inquiries/view_details.php` | High
+19 | File | `/cstecgi.cgi` | Medium
+20 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/verifyFacebookLike` | High
+24 | File | `/home/search` | Medium
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/index.php?menu=asterisk_cli` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/manage_website.php` | High
+30 | File | `/messageboard/view.php` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/out.php` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/spgpm/updateListing` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+37 | File | `/SystemMng.ashx` | High
+38 | File | `/textpattern/index.php` | High
+39 | File | `/upfile.cgi` | Medium
+40 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

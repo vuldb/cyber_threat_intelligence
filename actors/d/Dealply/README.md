@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -66,29 +66,29 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/user` | Medium
 16 | File | `/api/wizard/getLanguage` | High
 17 | File | `/api/wizard/getWifiNeighbour` | High
-18 | File | `/auth.asp` | Medium
-19 | File | `/auth/register` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/bin/httpd` | Medium
-22 | File | `/bin/main` | Medium
-23 | File | `/biurl_grou` | Medium
-24 | File | `/boafrm/formDMZ` | High
-25 | File | `/boafrm/formMultiAP` | High
-26 | File | `/boafrm/formSaveConfig` | High
-27 | File | `/boafrm/formStaticDHCP` | High
-28 | File | `/boafrm/formTmultiAP` | High
-29 | File | `/boafrm/formWsc` | High
-30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-34 | File | `/classes/Master.php` | High
-35 | File | `/classes/Master.php?f=save_medicine` | High
-36 | File | `/classes/Master.php?f=save_package` | High
-37 | File | `/classes/SystemSettings.php?f=update_settings` | High
-38 | File | `/classes/Users.php?f=register_user` | High
-39 | File | `/contact.php` | Medium
-40 | File | `/control/register_case.php` | High
+18 | File | `/appy.cgi` | Medium
+19 | File | `/auth.asp` | Medium
+20 | File | `/auth/register` | High
+21 | File | `/bin/boa` | Medium
+22 | File | `/bin/httpd` | Medium
+23 | File | `/bin/main` | Medium
+24 | File | `/biurl_grou` | Medium
+25 | File | `/boafrm/formDMZ` | High
+26 | File | `/boafrm/formMultiAP` | High
+27 | File | `/boafrm/formSaveConfig` | High
+28 | File | `/boafrm/formStaticDHCP` | High
+29 | File | `/boafrm/formTmultiAP` | High
+30 | File | `/boafrm/formWsc` | High
+31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/classes/Master.php` | High
+36 | File | `/classes/Master.php?f=save_medicine` | High
+37 | File | `/classes/Master.php?f=save_package` | High
+38 | File | `/classes/SystemSettings.php?f=update_settings` | High
+39 | File | `/classes/Users.php?f=register_user` | High
+40 | File | `/contact.php` | Medium
 41 | File | `/dbsrv.asp` | Medium
 42 | File | `/dev/ttyACM*` | Medium
 43 | File | `/discuss/uploadMdPic` | High
@@ -96,7 +96,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
 46 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

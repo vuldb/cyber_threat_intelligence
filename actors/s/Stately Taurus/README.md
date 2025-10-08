@@ -4,12 +4,18 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.stately_taurus](https://vuldb.com/?actor.stately_taurus)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Stately Taurus:
+
+* Bookworm
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stately Taurus:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -22,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.120.222.19](https://vuldb.com/?ip.37.120.222.19) | - | - | High
-2 | [103.159.132.80](https://vuldb.com/?ip.103.159.132.80) | - | - | High
-3 | [123.253.32.15](https://vuldb.com/?ip.123.253.32.15) | vpm21.salarytransparentpay.com | - | High
+2 | [103.27.202.68](https://vuldb.com/?ip.103.27.202.68) | 103-27-202-68.static.bangmod-idc.com | Bookworm | High
+3 | [103.27.202.87](https://vuldb.com/?ip.103.27.202.87) | 103-27-202-87.static.bangmod-idc.com | Bookworm | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,15 +57,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/programs/orgUnits?programs` | High
 3 | File | `/data/config.ftp.php` | High
 4 | File | `/mgmt/tm/util/bash` | High
-5 | ... | ... | ...
+5 | File | `/trackedEntityInstances` | High
+6 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://csirt-cti.net/2024/01/23/stately-taurus-targets-myanmar/
+* https://unit42.paloaltonetworks.com/bookworm-to-stately-taurus/
 * https://unit42.paloaltonetworks.com/chinese-apts-target-asean-entities/
 
 ## Literature

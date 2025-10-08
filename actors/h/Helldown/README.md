@@ -79,32 +79,32 @@ ID | Type | Indicator | Confidence
 22 | File | `/api/stl/actions/search` | High
 23 | File | `/api/upload.php` | High
 24 | File | `/api/wechat/app_auth` | High
-25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-26 | File | `/calendar/minimizer/index.php` | High
-27 | File | `/cgi-bin/adm.cgi` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/ping.cgi` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php?f=delete_category` | High
-32 | File | `/classes/Master.php?f=delete_service` | High
-33 | File | `/classes/Users.php?f=save` | High
-34 | File | `/config/myfield/test.php` | High
-35 | File | `/debug/pprof` | Medium
-36 | File | `/dipam/athlete-profile.php` | High
-37 | File | `/dipam/save-delegates.php` | High
-38 | File | `/doping.asp` | Medium
-39 | File | `/DXR.axd` | Medium
-40 | File | `/export` | Low
-41 | File | `/fhconf/umconfig.txt` | High
-42 | File | `/file_manager/admin/save_user.php` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/goForm/aspForm` | High
-45 | File | `/goform/execCommand` | High
-46 | File | `/goform/SetDDNSCfg` | High
-47 | File | `/goform/SetOnlineDevName` | High
+25 | File | `/application/common.php#action_log` | High
+26 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+27 | File | `/calendar/minimizer/index.php` | High
+28 | File | `/cgi-bin/adm.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/ping.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Master.php?f=delete_category` | High
+33 | File | `/classes/Master.php?f=delete_service` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/config/myfield/test.php` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/dipam/athlete-profile.php` | High
+38 | File | `/dipam/save-delegates.php` | High
+39 | File | `/doping.asp` | Medium
+40 | File | `/DXR.axd` | Medium
+41 | File | `/export` | Low
+42 | File | `/fhconf/umconfig.txt` | High
+43 | File | `/file_manager/admin/save_user.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/goForm/aspForm` | High
+46 | File | `/goform/execCommand` | High
+47 | File | `/goform/SetDDNSCfg` | High
 48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

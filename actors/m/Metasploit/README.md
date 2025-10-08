@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | - | Medium
-2 | [35.185.187.24](https://vuldb.com/?ip.35.185.187.24) | 24.187.185.35.bc.googleusercontent.com | - | Medium
-3 | [78.40.219.126](https://vuldb.com/?ip.78.40.219.126) | - | - | High
+1 | [1.94.52.128](https://vuldb.com/?ip.1.94.52.128) | ecs-1-94-52-128.compute.hwclouds-dns.com | - | High
+2 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | - | High
+3 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,6 +66,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2023/12/18/lets-opendir-some-presents-an-analysis-of-a-persistent-actors-activity/
 * https://urlhaus.abuse.ch/url/3550439/
 * https://urlhaus.abuse.ch/url/3555537/
+* https://urlhaus.abuse.ch/url/3556172/
+* https://urlhaus.abuse.ch/url/3560065/
+* https://urlhaus.abuse.ch/url/3560530/
+* https://urlhaus.abuse.ch/url/3561847/
+* https://urlhaus.abuse.ch/url/3561983/
+* https://urlhaus.abuse.ch/url/3577026/
 
 ## Literature
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Philippines Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1136,12 +1136,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1149,32 +1150,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-admin.php` | High
-2 | File | `/admin/all-applications.php` | High
-3 | File | `/admin/edit-products.php` | High
-4 | File | `/admin/enrollment-details.php` | High
-5 | File | `/admin/forms/option_lists/edit.php` | High
-6 | File | `/admin/getallarticleinfo` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/user-search.php` | High
-9 | File | `/api/wizard/setsyncpppoecfg` | High
-10 | File | `/app/controller/Api.php` | High
-11 | File | `/auth.asp` | Medium
-12 | File | `/boafrm/formFilter` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/config/config.properties` | High
-15 | File | `/coreframe/app/guestbook/myissue.php` | High
-16 | File | `/cupseasylive/locationcreate.php` | High
-17 | File | `/dental_not.php` | High
-18 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-19 | File | `/edit-category.php` | High
-20 | File | `/editNominee.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/RgTime` | High
-23 | File | `/goform/SetOnlineDevName` | High
-24 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/admin-cp/media` | High
+3 | File | `/admin/?page=categories/view_category` | High
+4 | File | `/admin/?page=return/view_return` | High
+5 | File | `/admin/add-subadmin.php` | High
+6 | File | `/admin/add_cars.php` | High
+7 | File | `/admin/admin_index.php` | High
+8 | File | `/admin/all-applications.php` | High
+9 | File | `/admin/bwdates-request-report-details.php` | High
+10 | File | `/admin/category/add.do` | High
+11 | File | `/admin/changeimage.php` | High
+12 | File | `/admin/delete-doctor.php` | High
+13 | File | `/admin/edit-admin.php` | High
+14 | File | `/admin/edit-guard-detail.php` | High
+15 | File | `/admin/edit-products.php` | High
+16 | File | `/admin/enrollment-details.php` | High
+17 | File | `/admin/file_manager/export` | High
+18 | File | `/admin/forms/option_lists/edit.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/index2.html` | High
+21 | File | `/Admin/login.php` | High
+22 | File | `/adpweb/a/base/barcodeDetail/` | High
+23 | File | `/ajax.php?action=save_package` | High
+24 | File | `/api/docs/index.php` | High
+25 | File | `/backend/register.php` | High
+26 | File | `/bic/ssoService/v1/applyCT` | High
+27 | File | `/bin/httpd` | Medium
+28 | File | `/boafrm/formFilter` | High
+29 | File | `/boafrm/formSaveConfig` | High
+30 | File | `/boafrm/formWlSiteSurvey` | High
+31 | File | `/BRS_top.html` | High
+32 | File | `/cashconfirm.php` | High
+33 | File | `/cgi-bin/Config.cgi?action=set` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/editBookmark` | High
+36 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+37 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

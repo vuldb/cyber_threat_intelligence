@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,8 +71,8 @@ ID | Type | Indicator | Confidence
 3 | File | `/act/ActDao.xml` | High
 4 | File | `/add_deductions.php` | High
 5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/ajax.php?action=confirm_order` | High
-7 | File | `/admin/ajax.php?action=save_settings` | High
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/admin/all-request.php` | High
 8 | File | `/admin/auto-taxi-entry-detail.php` | High
 9 | File | `/admin/bwdates-request-report-details.php` | High
 10 | File | `/admin/index2.html` | High
@@ -82,29 +82,31 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin_ping.htm` | High
 15 | File | `/ajax` | Low
 16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/snapshot and /api/get_log_file` | High
-18 | File | `/api/v1` | Low
-19 | File | `/api2/html/` | Medium
-20 | File | `/app/sae/design/desktop/flat` | High
-21 | File | `/application/index/controller/Databasesource.php` | High
-22 | File | `/application/index/controller/Screen.php` | High
-23 | File | `/bin` | Low
-24 | File | `/bin/boa` | Medium
-25 | File | `/blog` | Low
-26 | File | `/bolt/editcontent/showcases` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/download_config.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/core/redirect` | High
-31 | File | `/dede/article_string_mix.php` | High
-32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/DXR.axd` | Medium
-35 | File | `/Employer/EditProfile.php` | High
-36 | File | `/endpoint/delete-bill.php` | High
-37 | ... | ... | ...
+17 | File | `/api/blade-user/submit` | High
+18 | File | `/api/snapshot and /api/get_log_file` | High
+19 | File | `/api/v1` | Low
+20 | File | `/api2/html/` | Medium
+21 | File | `/app/sae/design/desktop/flat` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/application/models/ApplicationDataObject.class.php` | High
+25 | File | `/att_add.php` | Medium
+26 | File | `/bin` | Low
+27 | File | `/bin/boa` | Medium
+28 | File | `/bin/httpd` | Medium
+29 | File | `/birthing_record.php` | High
+30 | File | `/blog` | Low
+31 | File | `/bolt/editcontent/showcases` | High
+32 | File | `/cancelbookingpatient.php` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/download_config.cgi` | High
+35 | File | `/cgi-bin/nas_sharing.cgi` | High
+36 | File | `/dede/article_string_mix.php` | High
+37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+38 | File | `/devinfo` | Medium
+39 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

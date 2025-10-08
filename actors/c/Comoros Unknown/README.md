@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,57 +74,57 @@ ID | Type | Indicator | Confidence
 17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 18 | File | `/applications/nexus/modules/front/store/store.php` | High
 19 | File | `/backend/register.php` | High
-20 | File | `/boat/login.php` | High
-21 | File | `/CCMAdmin/serverlist.asp` | High
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/cgi-bin/settings-firewall.cgi` | High
-24 | File | `/ckeditor/samples/old/ajax.html` | High
-25 | File | `/clinic/disease_symptoms_view.php` | High
-26 | File | `/config-manager/save` | High
-27 | File | `/course/filterRecords/` | High
-28 | File | `/dashboard/menu-list.php` | High
-29 | File | `/dashboard/table-list.php` | High
-30 | File | `/dashboard/updatelogo.php` | High
-31 | File | `/debug/` | Low
-32 | File | `/dede/file_manage_control.php` | High
-33 | File | `/default.php?idx=17` | High
-34 | File | `/directRouter.rfc` | High
-35 | File | `/doctor/view-appointment-detail.php` | High
-36 | File | `/download` | Medium
-37 | File | `/downloadFile.php` | High
-38 | File | `/edit-client-details.php` | High
-39 | File | `/env` | Low
-40 | File | `/fcgi/scrut_fcgi.fcgi` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/gasmark/assets/myimages/oneWord.php` | High
-43 | File | `/goform/SafeEmailFilter` | High
-44 | File | `/goform/wirelessAdvancedHidden` | High
-45 | File | `/home/resume/index` | High
-46 | File | `/include/file.php` | High
-47 | File | `/index.php` | Medium
-48 | File | `/librarian/bookdetails.php` | High
-49 | File | `/member.php?action=chgpwdsubmit` | High
-50 | File | `/multi-vendor-shopping-script/product-list.php` | High
-51 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-52 | File | `/opt/bin/cli` | Medium
-53 | File | `/p` | Low
-54 | File | `/patient/doctors.php` | High
-55 | File | `/php/ping.php` | High
-56 | File | `/phpinventory/editcategory.php` | High
-57 | File | `/product-list.php` | High
-58 | File | `/products/view_product.php` | High
-59 | File | `/send_order.cgi?parameter=restart` | High
-60 | File | `/shell` | Low
-61 | File | `/spip.php` | Medium
-62 | File | `/templates/default/html/windows/right.php` | High
-63 | File | `/tmp` | Low
-64 | File | `/uncpath/` | Medium
-65 | File | `/updown/upload.cgi` | High
-66 | File | `/user/chat/mynewuser` | High
-67 | File | `/user/del.php` | High
+20 | File | `/boafrm/formParentControl` | High
+21 | File | `/boat/login.php` | High
+22 | File | `/browse.php` | Medium
+23 | File | `/CCMAdmin/serverlist.asp` | High
+24 | File | `/cgi-bin/kerbynet` | High
+25 | File | `/cgi-bin/settings-firewall.cgi` | High
+26 | File | `/ckeditor/samples/old/ajax.html` | High
+27 | File | `/clinic/disease_symptoms_view.php` | High
+28 | File | `/config-manager/save` | High
+29 | File | `/course/filterRecords/` | High
+30 | File | `/dashboard/menu-list.php` | High
+31 | File | `/dashboard/table-list.php` | High
+32 | File | `/dashboard/updatelogo.php` | High
+33 | File | `/debug/` | Low
+34 | File | `/dede/file_manage_control.php` | High
+35 | File | `/default.php?idx=17` | High
+36 | File | `/directRouter.rfc` | High
+37 | File | `/doctor/view-appointment-detail.php` | High
+38 | File | `/download` | Medium
+39 | File | `/downloadFile.php` | High
+40 | File | `/edit-client-details.php` | High
+41 | File | `/env` | Low
+42 | File | `/fcgi/scrut_fcgi.fcgi` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/gasmark/assets/myimages/oneWord.php` | High
+45 | File | `/goform/SafeEmailFilter` | High
+46 | File | `/goform/wirelessAdvancedHidden` | High
+47 | File | `/home/resume/index` | High
+48 | File | `/include/file.php` | High
+49 | File | `/index.php` | Medium
+50 | File | `/librarian/bookdetails.php` | High
+51 | File | `/member.php?action=chgpwdsubmit` | High
+52 | File | `/multi-vendor-shopping-script/product-list.php` | High
+53 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+54 | File | `/opt/bin/cli` | Medium
+55 | File | `/p` | Low
+56 | File | `/patient/doctors.php` | High
+57 | File | `/php/ping.php` | High
+58 | File | `/phpinventory/editcategory.php` | High
+59 | File | `/product-list.php` | High
+60 | File | `/products/view_product.php` | High
+61 | File | `/send_order.cgi?parameter=restart` | High
+62 | File | `/shell` | Low
+63 | File | `/spip.php` | Medium
+64 | File | `/storagein.pd-XXXXXX` | High
+65 | File | `/templates/default/html/windows/right.php` | High
+66 | File | `/tmp` | Low
+67 | File | `/uncpath/` | Medium
 68 | ... | ... | ...
 
-There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

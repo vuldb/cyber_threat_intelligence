@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [52.162.121.170](https://vuldb.com/?ip.52.162.121.170) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,6 +69,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://any.run/cybersecurity-blog/fake-google-authenticator-campaign/
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://urlhaus.abuse.ch/url/3558736/
+* https://urlhaus.abuse.ch/url/3583525/
 
 ## Literature
 

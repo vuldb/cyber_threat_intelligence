@@ -35,9 +35,12 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [45.137.117.184](https://vuldb.com/?ip.45.137.117.184) | - | - | High
 13 | [46.183.222.51](https://vuldb.com/?ip.46.183.222.51) | ip-222-51.dataclub.info | - | High
 14 | [46.183.223.21](https://vuldb.com/?ip.46.183.223.21) | nat1.gratezer.com | - | High
-15 | ... | ... | ... | ...
+15 | [46.183.223.88](https://vuldb.com/?ip.46.183.223.88) | ip-223-88.dataclub.info | - | High
+16 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | - | High
+17 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,13 +65,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.jsp` | Low
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/ajax.php` | High
-4 | File | `/admin/article.php` | High
-5 | File | `/admin/categories/view_category.php` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/admin/file_manager/export` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/inventory/manage_stock.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/new-feed.php` | High
+5 | File | `/admin/ajax.php` | High
+6 | File | `/admin/article.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/file_manager/export` | High
+9 | File | `/admin/index2.html` | High
 10 | File | `/admin/Operations/Role.php` | High
 11 | File | `/admin/pages/` | High
 12 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
@@ -82,55 +85,51 @@ ID | Type | Indicator | Confidence
 20 | File | `/api/baskets/{name}` | High
 21 | File | `/api/cron/settings/setJob/` | High
 22 | File | `/api2/html/` | Medium
-23 | File | `/app/controller/Books.php` | High
-24 | File | `/backend/admin/his_admin_register_patient.php` | High
-25 | File | `/bitrix/admin/ldap_server_edit.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/check` | Low
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=save_sub_category` | High
-32 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-33 | File | `/client.php` | Medium
-34 | File | `/clientdetails/admin/regester.php` | High
-35 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-36 | File | `/config/myfield/test.php` | High
-37 | File | `/controllers/add_user.php` | High
-38 | File | `/csms/?page=contact_us` | High
-39 | File | `/dayrui/Fcms/View/system_log.html` | High
+23 | File | `/backend/admin/his_admin_register_patient.php` | High
+24 | File | `/bitrix/admin/ldap_server_edit.php` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/check` | Low
+29 | File | `/city.php` | Medium
+30 | File | `/classes/Master.php?f=save_sub_category` | High
+31 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+32 | File | `/client.php` | Medium
+33 | File | `/clientdetails/admin/regester.php` | High
+34 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
+35 | File | `/config/myfield/test.php` | High
+36 | File | `/controllers/add_user.php` | High
+37 | File | `/csms/?page=contact_us` | High
+38 | File | `/dayrui/Fcms/View/system_log.html` | High
+39 | File | `/designation_viewmore.php` | High
 40 | File | `/details.php` | Medium
 41 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
 42 | File | `/DXR.axd` | Medium
 43 | File | `/ecshop/admin/template.php` | High
 44 | File | `/farm/product.php` | High
 45 | File | `/forgot-password` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/goform/setDeviceSettings` | High
-48 | File | `/goform/SetNetControlList` | High
-49 | File | `/h/rest` | Low
-50 | File | `/importexport.php` | High
-51 | File | `/includes/session.php` | High
-52 | File | `/index.php/newsletter/subscriber/new/` | High
-53 | File | `/index/ajax/lang` | High
-54 | File | `/kajona/image.php` | High
-55 | File | `/log/decodmail.php` | High
-56 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-57 | File | `/log_proxy` | Medium
-58 | File | `/mailcleaner.php/getStats` | High
-59 | File | `/manage_block.php` | High
-60 | File | `/mfsNotice/page` | High
-61 | File | `/mobile/downloadfile.aspx` | High
-62 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-63 | File | `/ndmComponents.js` | High
-64 | File | `/net-banking/delete_customer.php` | High
-65 | File | `/novel/bookSetting/list` | High
-66 | File | `/novel/userFeedback/list` | High
-67 | File | `/nssys/common/filehandle` | High
-68 | File | `/oauth/idp/.well-known/openid-configuration` | High
-69 | ... | ... | ...
+46 | File | `/formLoginAuth.htm` | High
+47 | File | `/forum/away.php` | High
+48 | File | `/goform/ate` | Medium
+49 | File | `/goform/setDeviceSettings` | High
+50 | File | `/goform/setMacFilterCfg` | High
+51 | File | `/goform/SetNetControlList` | High
+52 | File | `/goform/setWtpData` | High
+53 | File | `/goform/WifiExtraSet` | High
+54 | File | `/h/rest` | Low
+55 | File | `/importexport.php` | High
+56 | File | `/inc/topBarNav.php` | High
+57 | File | `/includes/create_share.php` | High
+58 | File | `/index.php` | Medium
+59 | File | `/index/ajax/lang` | High
+60 | File | `/log/decodmail.php` | High
+61 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+62 | File | `/log_proxy` | Medium
+63 | File | `/mailcleaner.php/getStats` | High
+64 | File | `/manage_block.php` | High
+65 | ... | ... | ...
 
-There are 609 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 571 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -187,6 +186,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3569848/
 * https://urlhaus.abuse.ch/url/3570077/
 * https://urlhaus.abuse.ch/url/3570785/
+* https://urlhaus.abuse.ch/url/3572468/
+* https://urlhaus.abuse.ch/url/3578236/
+* https://urlhaus.abuse.ch/url/3578900/
+* https://urlhaus.abuse.ch/url/3581757/
+* https://urlhaus.abuse.ch/url/3581761/
+* https://urlhaus.abuse.ch/url/3583765/
+* https://urlhaus.abuse.ch/url/3583766/
+* https://urlhaus.abuse.ch/url/3584976/
+* https://urlhaus.abuse.ch/url/3586405/
+* https://urlhaus.abuse.ch/url/3587478/
+* https://urlhaus.abuse.ch/url/3593047/
+* https://urlhaus.abuse.ch/url/3593048/
 * https://www.elastic.co/security-labs/getting-gooey-with-guloader-downloader
 * https://www.malware-traffic-analysis.net/2024/08/26/index.html
 

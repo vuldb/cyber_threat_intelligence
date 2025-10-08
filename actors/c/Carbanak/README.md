@@ -94,18 +94,19 @@ ID | Type | Indicator | Confidence
 5 | File | `/car.php` | Medium
 6 | File | `/category.php` | High
 7 | File | `/core/admin/categories.php` | High
-8 | File | `/goform/set_ntp` | High
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/multi-vendor-shopping-script/product-list.php` | High
-11 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-12 | File | `/psrs/admin/fields/manage_field.php` | High
-13 | File | `/reservation.php` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/spring-boot-quick-master/quick-img2txt/src/main/java/com/quick/controller/Img2TxtController.java` | High
-16 | File | `/subpage.php` | Medium
-17 | ... | ... | ...
+8 | File | `/dashboard/admin/edit_member.php` | High
+9 | File | `/expedit.php` | Medium
+10 | File | `/goform/set_ntp` | High
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/multi-vendor-shopping-script/product-list.php` | High
+13 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+14 | File | `/psrs/admin/fields/manage_field.php` | High
+15 | File | `/reservation.php` | High
+16 | File | `/see_more_details.php` | High
+17 | File | `/spring-boot-quick-master/quick-img2txt/src/main/java/com/quick/controller/Img2TxtController.java` | High
+18 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

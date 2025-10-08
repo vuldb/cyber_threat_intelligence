@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,52 +67,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/add_deductions.php` | High
-4 | File | `/admin.php` | Medium
-5 | File | `/admin/ajax.php?action=confirm_order` | High
-6 | File | `/admin/ajax_products_list.php` | High
-7 | File | `/admin/auth/men` | High
-8 | File | `/Admin/changepassword.php` | High
-9 | File | `/admin/chatroom.php` | High
-10 | File | `/admin/deleteroom.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/menu_save.php` | High
-13 | File | `/admin/update-user.php` | High
-14 | File | `/admin/user/user-move-run.php` | High
-15 | File | `/ajax_city.php` | High
-16 | File | `/api/Common/uploadFile` | High
-17 | File | `/api/swaggerui/static` | High
-18 | File | `/api/v1` | Low
-19 | File | `/api/v1/vhosts/vid-` | High
-20 | File | `/api/v2/open/rowsInfo` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/application/index/controller/Databasesource.php` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/backend/register.php` | High
-25 | File | `/boaform/getASPdata/formFirewall` | High
-26 | File | `/cas/logout` | Medium
-27 | File | `/cgi-bin/` | Medium
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/download_config.cgi` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/classes/SystemSettings.php?f=update_settings` | High
-33 | File | `/config/config.json` | High
-34 | File | `/control/add_act.php` | High
-35 | File | `/control/WANIPConnection` | High
-36 | File | `/dede/file_manage_control.php` | High
-37 | File | `/download.php?file=author.png` | High
-38 | File | `/download/image` | High
-39 | File | `/DXR.axd` | Medium
-40 | File | `/Employer/EditProfile.php` | High
-41 | File | `/etc/shadow` | Medium
-42 | File | `/expense-monthwise-reports-detailed.php` | High
-43 | File | `/fastcms.html#/template/menu` | High
-44 | File | `/goform` | Low
-45 | ... | ... | ...
+2 | File | `/?explorer/upload/serverDownload` | High
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/add_deductions.php` | High
+5 | File | `/admin-cp/menus` | High
+6 | File | `/admin.php` | Medium
+7 | File | `/admin/` | Low
+8 | File | `/admin/ajax_products_list.php` | High
+9 | File | `/admin/auth/men` | High
+10 | File | `/admin/barcode.php` | High
+11 | File | `/Admin/changepassword.php` | High
+12 | File | `/admin/chatroom.php` | High
+13 | File | `/admin/deleteroom.php` | High
+14 | File | `/admin/edit_member.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/menu_save.php` | High
+17 | File | `/admin/modules/class/index.php` | High
+18 | File | `/admin/update-user.php` | High
+19 | File | `/admin/user.php` | High
+20 | File | `/admin/user/user-move-run.php` | High
+21 | File | `/admin/yesterday-reg-users.php` | High
+22 | File | `/ajax_city.php` | High
+23 | File | `/api/Common/uploadFile` | High
+24 | File | `/api/swaggerui/static` | High
+25 | File | `/api/v1` | Low
+26 | File | `/api/v1/challenges//solves` | High
+27 | File | `/api/v1/vhosts/vid-` | High
+28 | File | `/api/v2/open/rowsInfo` | High
+29 | File | `/app/index/controller/Common.php` | High
+30 | File | `/application/index/controller/Databasesource.php` | High
+31 | File | `/apply.cgi` | Medium
+32 | File | `/backend/register.php` | High
+33 | File | `/boaform/getASPdata/formFirewall` | High
+34 | File | `/boafrm/formMapDelDevice` | High
+35 | File | `/cas/logout` | Medium
+36 | File | `/cgi-bin/` | Medium
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+39 | File | `/cgi-bin/download_config.cgi` | High
+40 | File | `/cgi-bin/ocap/` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/config/config.json` | High
+44 | File | `/control/add_act.php` | High
+45 | File | `/control/WANIPConnection` | High
+46 | File | `/dede/file_manage_control.php` | High
+47 | File | `/download.php?file=author.png` | High
+48 | File | `/download/image` | High
+49 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

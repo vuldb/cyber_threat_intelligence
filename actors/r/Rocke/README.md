@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [AR](https://vuldb.com/?country.ar)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,10 +48,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -63,47 +66,52 @@ ID | Type | Indicator | Confidence
 1 | File | `.cpr/` | Low
 2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
 3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-4 | File | `/aboutadd.php` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/bwdates-reports-ds.php` | High
+4 | File | `/admin#themes` | High
+5 | File | `/admin.php` | Medium
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/add-foreigner-ticket.php` | High
 8 | File | `/admin/index.php` | High
 9 | File | `/admin/index.php/news/edit` | High
-10 | File | `/admin/system.php` | High
-11 | File | `/admin/twitter.php` | High
-12 | File | `/admin/update_users.php` | High
-13 | File | `/adminapi/system/crud` | High
-14 | File | `/ajax.php?action=delete_package` | High
-15 | File | `/ajax/loadShopInfo.php` | High
-16 | File | `/amssplus/index.php` | High
-17 | File | `/api/admin/store/product/save` | High
-18 | File | `/api/admin/system/store/order/list` | High
-19 | File | `/api/file/getRemoteContent` | High
-20 | File | `/api/snapshots/` | High
-21 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-22 | File | `/api/wechat/app_auth` | High
-23 | File | `/api/wizard/getDualbandSync` | High
-24 | File | `/api/wizard/getWifiNeighbour` | High
-25 | File | `/app-api/infra/file/upload` | High
-26 | File | `/app/api/controller/Store.php` | High
-27 | File | `/apps/api/views/deploy_api.py` | High
-28 | File | `/backend/admin/his_admin_register_patient.php` | High
-29 | File | `/backend/register.php` | High
-30 | File | `/bin/boa` | Medium
-31 | File | `/boafrm/formDMZ` | High
-32 | File | `/boafrm/formFilter` | High
-33 | File | `/boafrm/formMapDel` | High
-34 | File | `/boafrm/formMapDelDevice` | High
-35 | File | `/boafrm/formPortFw` | High
-36 | File | `/boafrm/formSetLg` | High
-37 | File | `/book_list.php` | High
-38 | File | `/BRS_top.html` | High
-39 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-40 | File | `/bwdates-reports-details.php` | High
-41 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-42 | ... | ... | ...
+10 | File | `/admin/save_airlines.php` | High
+11 | File | `/admin/system.php` | High
+12 | File | `/admin/twitter.php` | High
+13 | File | `/admin/update_users.php` | High
+14 | File | `/adminapi/system/crud` | High
+15 | File | `/ajax.php?action=delete_package` | High
+16 | File | `/ajax/loadShopInfo.php` | High
+17 | File | `/amssplus/index.php` | High
+18 | File | `/api/admin/settings` | High
+19 | File | `/api/admin/store/product/save` | High
+20 | File | `/api/admin/system/store/order/list` | High
+21 | File | `/api/file/getRemoteContent` | High
+22 | File | `/api/snapshots/` | High
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/api/wechat/app_auth` | High
+25 | File | `/api/wizard/getDualbandSync` | High
+26 | File | `/api/wizard/getWifiNeighbour` | High
+27 | File | `/app-api/infra/file/upload` | High
+28 | File | `/app/api/controller/Store.php` | High
+29 | File | `/apps/api/views/deploy_api.py` | High
+30 | File | `/backend/register.php` | High
+31 | File | `/bin/boa` | Medium
+32 | File | `/bin/main` | Medium
+33 | File | `/boafrm/formDMZ` | High
+34 | File | `/boafrm/formFilter` | High
+35 | File | `/boafrm/formMapDel` | High
+36 | File | `/boafrm/formMapDelDevice` | High
+37 | File | `/boafrm/formPortFw` | High
+38 | File | `/boafrm/formSetLg` | High
+39 | File | `/BRS_top.html` | High
+40 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+41 | File | `/bwdates-reports-details.php` | High
+42 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+43 | File | `/cgi-bin/` | Medium
+44 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/lighttpd.cgi` | High
+47 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

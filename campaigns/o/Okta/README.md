@@ -96,10 +96,9 @@ ID | Type | Indicator | Confidence
 36 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
 37 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
 38 | File | `/dbsrv.asp` | Medium
-39 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-40 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

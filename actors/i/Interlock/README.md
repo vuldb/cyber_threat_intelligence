@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.interlock](https://vuldb.com/?actor.interlock)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Interlock:
+
+* ClickFix
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Interlock:
@@ -21,14 +27,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.252.177.228](https://vuldb.com/?ip.5.252.177.228) | no-rdns.mivocloud.com | - | High
-2 | [23.95.182.59](https://vuldb.com/?ip.23.95.182.59) | 23-95-182-59-host.colocrossing.com | - | High
-3 | [23.227.203.162](https://vuldb.com/?ip.23.227.203.162) | 23-227-203-162.static.hvvc.us | - | High
-4 | [45.61.136.202](https://vuldb.com/?ip.45.61.136.202) | - | - | High
-5 | [49.12.69.80](https://vuldb.com/?ip.49.12.69.80) | static.80.69.12.49.clients.your-server.de | - | High
-6 | ... | ... | ... | ...
+1 | [5.161.225.197](https://vuldb.com/?ip.5.161.225.197) | static.197.225.161.5.clients.your-server.de | - | High
+2 | [5.252.177.228](https://vuldb.com/?ip.5.252.177.228) | no-rdns.mivocloud.com | - | High
+3 | [23.95.182.59](https://vuldb.com/?ip.23.95.182.59) | 23-95-182-59-host.colocrossing.com | - | High
+4 | [23.227.203.162](https://vuldb.com/?ip.23.227.203.162) | 23-227-203-162.static.hvvc.us | - | High
+5 | [45.61.136.202](https://vuldb.com/?ip.45.61.136.202) | - | - | High
+6 | [49.12.69.80](https://vuldb.com/?ip.49.12.69.80) | static.80.69.12.49.clients.your-server.de | - | High
+7 | [49.12.102.206](https://vuldb.com/?ip.49.12.102.206) | static.206.102.12.49.clients.your-server.de | - | High
+8 | [64.94.84.85](https://vuldb.com/?ip.64.94.84.85) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,34 +74,39 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/cstecgi.cgi` | High
 14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/include/file.php` | High
-19 | File | `/jeecg-boot/sys/common/upload` | High
-20 | File | `/libxml2/SAX2.c` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-23 | File | `/php/ping.php` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/scripts/unlock_tasks.php` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/SysInfo1.htm` | High
-29 | File | `/sysinfo_json.cgi` | High
-30 | File | `/system/dictData/loadDictItem` | High
-31 | File | `/system/user/modules/mod_users/controller.php` | High
-32 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-33 | File | `/v1/pushConfig/detail/` | High
-34 | ... | ... | ...
+16 | File | `/config-manager/save` | High
+17 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/include/file.php` | High
+20 | File | `/jeecg-boot/sys/common/upload` | High
+21 | File | `/libxml2/SAX2.c` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+24 | File | `/php/ping.php` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/scripts/unlock_tasks.php` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/SysInfo1.htm` | High
+30 | File | `/sysinfo_json.cgi` | High
+31 | File | `/system/dictData/loadDictItem` | High
+32 | File | `/system/user/modules/mod_users/controller.php` | High
+33 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+34 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+35 | File | `/v1/pushConfig/detail/` | High
+36 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://arcticwolf.com/resources/blog/threat-actor-profile-interlock-ransomware/
 * https://blog.sekoia.io/interlock-ransomware-evolving-under-the-radar/
 * https://github.com/Cisco-Talos/IOCs/blob/main/2024/11/emerging-interlock-ransomware.txt
+* https://rewterz.com/threat-advisory/interlock-ransomware-exploits-clickfix-active-iocs
+* https://thedfirreport.com/2025/07/14/kongtuke-filefix-leads-to-new-interlock-rat-variant/
 
 ## Literature
 

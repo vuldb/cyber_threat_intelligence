@@ -4,16 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.medusa](https://vuldb.com/?actor.medusa)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Medusa:
+
+* SimpleHelp
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Medusa:
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +37,10 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.145.167.117](https://vuldb.com/?ip.45.145.167.117) | hms16304.hostmyservers.me | - | High
 9 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
 10 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
-11 | ... | ... | ... | ...
+11 | [77.105.146.254](https://vuldb.com/?ip.77.105.146.254) | doubtful-reason.aeza.network | - | High
+12 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 43 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +49,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,33 +63,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addnews.html` | High
-2 | File | `/admin` | Low
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/app/product.php` | High
-5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
-7 | File | `/admin/bookings/view_details.php` | High
-8 | File | `/admin/delete_user.php` | High
-9 | File | `/admin/doctor-specilization.php` | High
-10 | File | `/Admin/EditCategory` | High
-11 | File | `/admin/edit_area.php` | High
-12 | File | `/admin/home.php?con=add` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/inquiries/view_inquiry.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/normal-bwdates-reports-details.php` | High
-18 | File | `/admin/notes/create` | High
-19 | File | `/admin/pages/list` | High
-20 | File | `/admin/reports.php` | High
-21 | File | `/admin/sales/view_details.php` | High
-22 | File | `/admin/update_room.php` | High
-23 | File | `/admin_class.php` | High
-24 | File | `/alphaware/summary.php` | High
-25 | File | `/api/baskets/{name}` | High
-26 | File | `/api/dept` | Medium
-27 | File | `/api/swaggerui/static` | High
+1 | File | `/admin` | Low
+2 | File | `/admin/action/delete-vaccine.php` | High
+3 | File | `/admin/app/product.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+6 | File | `/admin/bookings/view_details.php` | High
+7 | File | `/admin/doctor-specilization.php` | High
+8 | File | `/admin/edit-card-detail.php` | High
+9 | File | `/Admin/EditCategory` | High
+10 | File | `/admin/edit_area.php` | High
+11 | File | `/admin/home.php?con=add` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/admin/inquiries/view_inquiry.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/normal-bwdates-reports-details.php` | High
+17 | File | `/admin/notes/create` | High
+18 | File | `/admin/pages/list` | High
+19 | File | `/admin/reg.php` | High
+20 | File | `/admin/sales/view_details.php` | High
+21 | File | `/admin/update_room.php` | High
+22 | File | `/admin_class.php` | High
+23 | File | `/alphaware/summary.php` | High
+24 | File | `/api/baskets/{name}` | High
+25 | File | `/api/dept` | Medium
+26 | File | `/api/swaggerui/static` | High
+27 | File | `/api /v3/auth` | High
 28 | File | `/apply.cgi` | Medium
 29 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 30 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
@@ -94,40 +101,37 @@ ID | Type | Indicator | Confidence
 36 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
 37 | File | `/cgi-bin/login_action.cgi` | High
 38 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-39 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-40 | File | `/cgi-bin/tosei_kikai.php` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
+39 | File | `/cgi-bin/tosei_kikai.php` | High
+40 | File | `/classes/Master.php` | High
+41 | File | `/classes/Master.php?f=delete_category` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
 43 | File | `/collection/all` | High
 44 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
 45 | File | `/command_port.ini` | High
-46 | File | `/common/info.cgi` | High
-47 | File | `/cupseasylive/countrymodify.php` | High
-48 | File | `/cupseasylive/taxstructurelist.php` | High
-49 | File | `/dcim/rack/` | Medium
-50 | File | `/deal/{note_id}/note` | High
-51 | File | `/decoration/admin/update_image.php` | High
-52 | File | `/EditEventTypes.php` | High
-53 | File | `/endpoint/add-user.php` | High
-54 | File | `/endpoint/delete-expense.php` | High
-55 | File | `/endpoint/update-bookmark.php` | High
-56 | File | `/etc/passwd` | Medium
-57 | File | `/file/delete.php` | High
-58 | File | `/file/upload/1` | High
-59 | File | `/filex/read-raw` | High
-60 | File | `/forgot.php` | Medium
-61 | File | `/forum/away.php` | High
-62 | File | `/general/system/interface/theme_set/save_image.php` | High
-63 | File | `/goform/goform_get_cmd_process` | High
-64 | File | `/goform/saveParentControlInfo` | High
-65 | ... | ... | ...
+46 | File | `/cupseasylive/countrymodify.php` | High
+47 | File | `/cupseasylive/taxstructurelist.php` | High
+48 | File | `/dcim/rack/` | Medium
+49 | File | `/deal/{note_id}/note` | High
+50 | File | `/decoration/admin/update_image.php` | High
+51 | File | `/EditEventTypes.php` | High
+52 | File | `/endpoint/add-user.php` | High
+53 | File | `/endpoint/delete-expense.php` | High
+54 | File | `/endpoint/update-bookmark.php` | High
+55 | File | `/file/delete.php` | High
+56 | File | `/file/upload/1` | High
+57 | File | `/filemanager/upload` | High
+58 | File | `/filex/read-raw` | High
+59 | File | `/forgot.php` | Medium
+60 | File | `/forum/away.php` | High
+61 | ... | ... | ...
 
-There are 567 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/talos-ir-ransomware-engagements-and-the-significance-of-timeliness-in-incident-response/
 * https://cyble.com/blog/new-medusa-botnet-emerging-via-mirai-botnet-targeting-linux-users/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=5.42.78.61

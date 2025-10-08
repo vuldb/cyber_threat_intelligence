@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Beast:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Beast:
 
-* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -78,9 +78,10 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/setcfm` | High
 23 | File | `/goform/setsambacfg` | High
 24 | File | `/goform/SetSysTimeCfg` | High
-25 | ... | ... | ...
+25 | File | `/goform/WifiWpsStart` | High
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

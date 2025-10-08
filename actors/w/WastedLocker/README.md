@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,33 +57,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/ajax.php?action=update_account` | High
 7 | File | `/bdswebui/assignusers/` | High
 8 | File | `/cgi-bin-sdb/` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/course.php` | Medium
-11 | File | `/dev/snd/seq` | Medium
-12 | File | `/dl/dl_sendmail.php` | High
-13 | File | `/ecommerce/admin/products/controller.php` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/etc/qci/answers` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/function/booksave.php` | High
-18 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-19 | File | `/goform/SysToolChangePwd` | High
-20 | File | `/H5/versionupdate.data` | High
-21 | File | `/horde/util/go.php` | High
-22 | File | `/login.html` | Medium
-23 | File | `/manage_laundry.php` | High
-24 | File | `/pictory/php/getFileList.php` | High
-25 | File | `/proxy` | Low
-26 | File | `/rental/ajax.php?action=delete_tenant` | High
-27 | File | `/romfile.cfg` | Medium
-28 | File | `/see_more_details.php` | High
-29 | File | `/so.php` | Low
-30 | File | `/SysInfo.htm` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/course.php` | Medium
+12 | File | `/dev/snd/seq` | Medium
+13 | File | `/dl/dl_sendmail.php` | High
+14 | File | `/ecommerce/admin/products/controller.php` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/etc/qci/answers` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/function/booksave.php` | High
+19 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+20 | File | `/goform/SysToolChangePwd` | High
+21 | File | `/H5/versionupdate.data` | High
+22 | File | `/horde/util/go.php` | High
+23 | File | `/login.html` | Medium
+24 | File | `/manage_laundry.php` | High
+25 | File | `/pictory/php/getFileList.php` | High
+26 | File | `/proxy` | Low
+27 | File | `/rental/ajax.php?action=delete_tenant` | High
+28 | File | `/romfile.cfg` | Medium
+29 | File | `/see_more_details.php` | High
+30 | File | `/so.php` | Low
+31 | File | `/SysInfo.htm` | Medium
+32 | File | `/tmp` | Low
 33 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

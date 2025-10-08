@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [IL](https://vuldb.com/?country.il)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -166,21 +166,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/aboutus.php` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/manage_complaint.php` | High
-7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-8 | File | `/admin/system.html` | High
-9 | File | `/admin_topic.php?action=delall` | High
-10 | File | `/attendancelist.php` | High
-11 | File | `/category.php` | High
-12 | File | `/cgi-bin/p1_ftpserver.php` | High
-13 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+6 | File | `/admin/system.html` | High
+7 | File | `/admin_topic.php?action=delall` | High
+8 | File | `/birthing_record.php` | High
+9 | File | `/category.php` | High
+10 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

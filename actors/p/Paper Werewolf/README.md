@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.paper_werewolf](https://vuldb.com/?actor.paper_werewolf)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Paper Werewolf:
+
+* CVE-2025-6218
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Paper Werewolf:
@@ -22,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.176.55](https://vuldb.com/?ip.5.252.176.55) | no-rdns.mivocloud.com | - | High
-2 | [85.198.110.216](https://vuldb.com/?ip.85.198.110.216) | v2679901.hosted-by-vdsina.ru | - | High
-3 | [94.103.85.47](https://vuldb.com/?ip.94.103.85.47) | v2696590.hosted-by-vdsina.ru | - | High
+2 | [81.30.105.148](https://vuldb.com/?ip.81.30.105.148) | ip81-30-105-148.ptr.my-vm.work | CVE-2025-6218 | High
+3 | [85.198.110.216](https://vuldb.com/?ip.85.198.110.216) | v2679901.hosted-by-vdsina.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,13 +68,14 @@ ID | Type | Indicator | Confidence
 12 | File | `/system/user/modules/mod_users/controller.php` | High
 13 | ... | ... | ...
 
-There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bi.zone/eng/expertise/blog/paper-werewolf-sovmeshchaet-kibershpionazh-s-destruktivnymi-deystviyami/
+* https://www.secpod.com/blog/paper-werewolf-group-exploits-winrar-zero-day-to-spread-malware/
 
 ## Literature
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -56,9 +56,10 @@ ID | IP address | Hostname | Actor | Confidence
 24 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
 25 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
 26 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-27 | ... | ... | ... | ...
+27 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+28 | ... | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 107 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,11 +69,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,16 +81,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/pages/` | High
-2 | File | `/admins` | Low
-3 | File | `/ajax/getBasicInfo.php` | High
-4 | File | `/api/admin/system/store/order/list` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/clientdetails/admin/regester.php` | High
-8 | ... | ... | ...
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin/pages/` | High
+3 | File | `/admin/positions.php` | High
+4 | File | `/admins` | Low
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,15 +113,19 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/107.189.26.70
 * https://search.censys.io/hosts/109.199.108.1
 * https://search.censys.io/hosts/138.201.245.101
+* https://search.censys.io/hosts/144.172.103.208
+* https://search.censys.io/hosts/145.223.69.212
 * https://search.censys.io/hosts/161.97.180.199
 * https://search.censys.io/hosts/165.140.85.87
 * https://search.censys.io/hosts/172.86.80.211
+* https://search.censys.io/hosts/172.86.96.67
 * https://search.censys.io/hosts/172.86.109.207
 * https://search.censys.io/hosts/174.138.184.252
 * https://search.censys.io/hosts/185.157.77.32
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227
 * https://search.censys.io/hosts/209.145.56.66
+* https://search.censys.io/hosts/209.200.246.188
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
 * https://twitter.com/0xrb/status/1704827410695528554
@@ -128,6 +134,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/StopMalvertisin/status/1670660520540770305
 * https://twitter.com/StopMalvertisin/status/1676869449394327553
 * https://twitter.com/StopMalvertisin/status/1689669636940570624
+* https://www.shodan.io/host/144.172.98.81#49
 * https://x.com/0xrb/status/1702542474911371578?s=20
 
 ## Literature

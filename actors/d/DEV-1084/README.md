@@ -48,19 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
-4 | File | `/oauth/idp/.well-known/openid-configuration` | High
-5 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
-6 | File | `/search` | Low
-7 | File | `/sys/replicate/check` | High
-8 | File | `/wordpress/wp-admin/options-general.php` | High
-9 | File | `adclick.php` | Medium
-10 | File | `arch/powerpc/kernel/entry_64.S` | High
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+3 | File | `/cgi-bin/downloadFile.cgi` | High
+4 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
+7 | File | `/oauth/idp/.well-known/openid-configuration` | High
+8 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
+9 | File | `/search` | Low
+10 | File | `/spip.php` | Medium
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

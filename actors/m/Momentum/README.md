@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,35 +48,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/singer/admin/singer/del` | High
 3 | File | `/admin/?page=product/manage_product&id=2` | High
 4 | File | `/Admin/add-admin.php` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/manage_complaint.php` | High
-8 | File | `/Admin/News.php` | High
-9 | File | `/admin/plugin.php` | High
-10 | File | `/admin/store.php` | High
-11 | File | `/admin/update_user.php` | High
-12 | File | `/admin/view_sendlist.php` | High
-13 | File | `/adminPage/main/upload` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/system/user?deptId=1&page=1&size=10` | High
-16 | File | `/baseOpLog.do` | High
-17 | File | `/catalog_add.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/hd_config.cgi` | High
-20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-21 | File | `/classes/Users.php` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-24 | File | `/common/logViewer/logViewer.jsf` | High
-25 | File | `/commons/attachment/upload` | High
-26 | File | `/confirm` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/dede/archives_do.php` | High
-29 | File | `/dede/group_store.php` | High
-30 | File | `/dialog/select_media.php` | High
-31 | ... | ... | ...
+5 | File | `/admin/finished.php` | High
+6 | File | `/admin/index.PHP` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/manage_complaint.php` | High
+9 | File | `/admin/model/addOrUpdate` | High
+10 | File | `/Admin/News.php` | High
+11 | File | `/admin/plugin.php` | High
+12 | File | `/admin/store.php` | High
+13 | File | `/admin/update_user.php` | High
+14 | File | `/admin/view_sendlist.php` | High
+15 | File | `/adminPage/main/upload` | High
+16 | File | `/api/data.php` | High
+17 | File | `/api/sys/login` | High
+18 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+19 | File | `/article/app/post` | High
+20 | File | `/baseOpLog.do` | High
+21 | File | `/catalog_add.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/hd_config.cgi` | High
+24 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+28 | File | `/common/logViewer/logViewer.jsf` | High
+29 | File | `/commons/attachment/upload` | High
+30 | File | `/confirm` | Medium
+31 | File | `/dashboard/admin/updateplan.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/dede/archives_do.php` | High
+34 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

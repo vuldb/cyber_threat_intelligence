@@ -87,28 +87,28 @@ ID | Type | Indicator | Confidence
 24 | File | `/goform/setMacFilterList` | High
 25 | File | `/goform/SysToolChangePwd` | High
 26 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
-27 | File | `/movie.php` | Medium
-28 | File | `/nidp/app/login` | High
-29 | File | `/php/ping.php` | High
-30 | File | `/pictory/php/getFileList.php` | High
-31 | File | `/pms/admin/crimes/manage_crime.php` | High
-32 | File | `/proc` | Low
-33 | File | `/release-x64/otfccdump` | High
-34 | File | `/roomtype-details.php` | High
-35 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-36 | File | `/scripts/unlock_tasks.php` | High
-37 | File | `/see_more_details.php` | High
-38 | File | `/show_news.php` | High
-39 | File | `/sitecore/shell/Invoke.aspx` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/src/dede/member_type.php` | High
-42 | File | `/subpage.php` | Medium
-43 | File | `/SysInfo1.htm` | High
-44 | File | `/sysinfo_json.cgi` | High
-45 | File | `/system/dictData/loadDictItem` | High
+27 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+28 | File | `/movie.php` | Medium
+29 | File | `/nidp/app/login` | High
+30 | File | `/php/ping.php` | High
+31 | File | `/pictory/php/getFileList.php` | High
+32 | File | `/pms/admin/crimes/manage_crime.php` | High
+33 | File | `/proc` | Low
+34 | File | `/release-x64/otfccdump` | High
+35 | File | `/roomtype-details.php` | High
+36 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+37 | File | `/scripts/unlock_tasks.php` | High
+38 | File | `/see_more_details.php` | High
+39 | File | `/show_news.php` | High
+40 | File | `/sitecore/shell/Invoke.aspx` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/src/dede/member_type.php` | High
+43 | File | `/subpage.php` | Medium
+44 | File | `/SysInfo1.htm` | High
+45 | File | `/sysinfo_json.cgi` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

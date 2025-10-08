@@ -70,14 +70,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 9 | File | `/cgi-bin/wapopen` | High
 10 | File | `/forum/away.php` | High
-11 | File | `/maint/index.php` | High
-12 | File | `/oauth/idp/.well-known/openid-configuration` | High
-13 | File | `/planet` | Low
-14 | File | `/see_more_details.php` | High
-15 | File | `/shopping/product.php` | High
+11 | File | `/headlogin.php` | High
+12 | File | `/maint/index.php` | High
+13 | File | `/oauth/idp/.well-known/openid-configuration` | High
+14 | File | `/planet` | Low
+15 | File | `/see_more_details.php` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -31,14 +31,14 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [18.228.173.171](https://vuldb.com/?ip.18.228.173.171) | ec2-18-228-173-171.sa-east-1.compute.amazonaws.com | - | Medium
 9 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
 10 | [18.231.106.232](https://vuldb.com/?ip.18.231.106.232) | ec2-18-231-106-232.sa-east-1.compute.amazonaws.com | - | Medium
-11 | [18.231.150.177](https://vuldb.com/?ip.18.231.150.177) | ec2-18-231-150-177.sa-east-1.compute.amazonaws.com | - | Medium
-12 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
-13 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
-14 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
-15 | [38.51.135.44](https://vuldb.com/?ip.38.51.135.44) | - | - | High
+11 | [18.231.121.65](https://vuldb.com/?ip.18.231.121.65) | ec2-18-231-121-65.sa-east-1.compute.amazonaws.com | - | Medium
+12 | [18.231.150.177](https://vuldb.com/?ip.18.231.150.177) | ec2-18-231-150-177.sa-east-1.compute.amazonaws.com | - | Medium
+13 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
+14 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
+15 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
 16 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,9 +50,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,41 +61,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?/layout/add` | High
-2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
-3 | File | `/admin/dialog/select_images_post.php` | High
-4 | File | `/admin/edit-vehicle.php` | High
-5 | File | `/admin/overtime_add.php` | High
-6 | File | `/admin/pass-bwdates-reports-details.php` | High
-7 | File | `/admin/property-details.php` | High
-8 | File | `/Admin/Proses_Edit_Akun.php` | High
-9 | File | `/admin/search-medicalcard.php` | High
-10 | File | `/admin/tag/save` | High
-11 | File | `/ajax.php` | Medium
-12 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-13 | File | `/boafrm/formMapReboot` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/hd_config.cgi` | High
-16 | File | `/cgi-bin/mainfunction.cgi` | High
-17 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-18 | File | `/cgi-bin/tosei_kikai.php` | High
-19 | File | `/cgi-bin/webfile_mgr.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/classes/Master.php?f=delete_category` | High
-22 | File | `/control/forgot_pass.php` | High
-23 | File | `/course/filterRecords/` | High
-24 | File | `/dataSet/resolveSql` | High
-25 | File | `/details.php` | Medium
-26 | File | `/download/image` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/endpoint/delete.php` | High
-29 | File | `/etc/shadow` | Medium
-30 | File | `/file/accept.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/fos/admin/ajax.php?action=save_settings` | High
-33 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/?/layout/add` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+5 | File | `/admin/assign_save.php` | High
+6 | File | `/admin/CopyadminPost.php` | High
+7 | File | `/admin/dialog/select_images_post.php` | High
+8 | File | `/admin/edit-vehicle.php` | High
+9 | File | `/admin/overtime_add.php` | High
+10 | File | `/admin/pass-bwdates-reports-details.php` | High
+11 | File | `/admin/property-details.php` | High
+12 | File | `/Admin/Proses_Edit_Akun.php` | High
+13 | File | `/admin/readDeal.php?mudi=updateWebCache` | High
+14 | File | `/admin/search-medicalcard.php` | High
+15 | File | `/admin/tag/save` | High
+16 | File | `/ajax.php` | Medium
+17 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+18 | File | `/bin/httpd` | Medium
+19 | File | `/boafrm/formMapReboot` | High
+20 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/hd_config.cgi` | High
+23 | File | `/cgi-bin/mainfunction.cgi` | High
+24 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+25 | File | `/cgi-bin/tosei_kikai.php` | High
+26 | File | `/cgi-bin/webfile_mgr.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=delete_category` | High
+29 | File | `/control/forgot_pass.php` | High
+30 | File | `/course.php` | Medium
+31 | File | `/course/filterRecords/` | High
+32 | File | `/create-pass.php` | High
+33 | File | `/dataSet/resolveSql` | High
+34 | File | `/details.php` | Medium
+35 | File | `/download/image` | High
+36 | File | `/DXR.axd` | Medium
+37 | File | `/endpoint/delete.php` | High
+38 | File | `/etc/shadow` | Medium
+39 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

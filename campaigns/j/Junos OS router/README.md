@@ -63,11 +63,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/authUserAction!edit.action` | High
 6 | File | `/cgi-bin/luci;stok=/locale` | High
 7 | File | `/course/modedit.php` | High
-8 | File | `/HNAP1` | Low
-9 | File | `/importexport.php` | High
-10 | ... | ... | ...
+8 | File | `/goform/formSetWizardSelectMode` | High
+9 | File | `/HNAP1` | Low
+10 | File | `/importexport.php` | High
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

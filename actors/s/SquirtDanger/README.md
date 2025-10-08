@@ -55,7 +55,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -75,46 +75,55 @@ ID | Type | Indicator | Confidence
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/adfs/ls` | Medium
 5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/add_ikev2.php` | High
-7 | File | `/admin/category_save.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_user.php` | High
-12 | File | `/admin/order.php` | High
-13 | File | `/admin/search-vehicle.php` | High
-14 | File | `/admin/subject.php` | High
-15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-16 | File | `/admin/twitter.php` | High
-17 | File | `/api/v1/settings` | High
-18 | File | `/api/v1/toolbox/device/update/swap` | High
-19 | File | `/api/wizard/setsyncpppoecfg` | High
-20 | File | `/app/zentao/module/repo/model.php` | High
-21 | File | `/bin/httpd` | Medium
-22 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-23 | File | `/catalog/all-products` | High
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/ExportSettings.sh` | High
-27 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-28 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-30 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-31 | File | `/donor-wall` | Medium
-32 | File | `/edit-subject.php` | High
-33 | File | `/endpoint/add-user.php` | High
-34 | File | `/etc/postfix/sender_login` | High
-35 | File | `/etc/shadow` | Medium
-36 | File | `/etc/shadow.sample` | High
-37 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-38 | File | `/foms/routers/place-order.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/AdvSetMacMtuWan` | High
-41 | File | `/goform/aspForm` | High
-42 | File | `/goform/frmL7ProtForm` | High
-43 | ... | ... | ...
+6 | File | `/admin/add-propertytype.php` | High
+7 | File | `/admin/add_ikev2.php` | High
+8 | File | `/admin/admin_action.php` | High
+9 | File | `/admin/category_save.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/new-content` | High
+17 | File | `/admin/order.php` | High
+18 | File | `/admin/search-vehicle.php` | High
+19 | File | `/admin/subject.php` | High
+20 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+21 | File | `/admin/twitter.php` | High
+22 | File | `/admin/voters_add.php` | High
+23 | File | `/admin/voters_delete.php` | High
+24 | File | `/ajax.php?action=save_package` | High
+25 | File | `/api/v1/settings` | High
+26 | File | `/api/v1/toolbox/device/update/swap` | High
+27 | File | `/api/wizard/setsyncpppoecfg` | High
+28 | File | `/app/zentao/module/repo/model.php` | High
+29 | File | `/application/controller/Pengeluaran.php` | High
+30 | File | `/authentication/logout.php` | High
+31 | File | `/bin/httpd` | Medium
+32 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+33 | File | `/catalog/all-products` | High
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/ExportSettings.sh` | High
+37 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+38 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+39 | File | `/dashboard/admin/edit_member.php` | High
+40 | File | `/dashboard/admin/submit_plan_new.php` | High
+41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+42 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+43 | File | `/donor-wall` | Medium
+44 | File | `/edit-subject.php` | High
+45 | File | `/endpoint/add-user.php` | High
+46 | File | `/etc/controller-agent/agent.conf` | High
+47 | File | `/etc/postfix/sender_login` | High
+48 | File | `/etc/shadow` | Medium
+49 | File | `/etc/shadow.sample` | High
+50 | File | `/expedit.php` | Medium
+51 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+52 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

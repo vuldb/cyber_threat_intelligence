@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ghana Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -159,12 +159,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,18 +173,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
-2 | File | `/admin/clients/` | High
-3 | File | `/Admin/edit_profile.php` | High
-4 | File | `/admin/forms/option_lists/edit.php` | High
-5 | File | `/admin/settings/index.php?page=accounts` | High
-6 | File | `/api/configs` | Medium
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/change_pass/forgot_password_sql.php` | High
-10 | File | `/classes/Master.php?f=save_medicine` | High
-11 | ... | ... | ...
+2 | File | `/admin/?page=products/view_product` | High
+3 | File | `/admin/auto-taxi-entry-detail.php` | High
+4 | File | `/admin/candidates_add.php` | High
+5 | File | `/admin/clients/` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/Admin/edit_profile.php` | High
+8 | File | `/admin/forms/option_lists/edit.php` | High
+9 | File | `/admin/settings/index.php?page=accounts` | High
+10 | File | `/api/configs` | Medium
+11 | File | `/api/sys/set_passwd` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/boafrm/formPortFw` | High
+14 | File | `/cancelbookingpatient.php` | High
+15 | File | `/change_pass/forgot_password_sql.php` | High
+16 | File | `/control/add_act.php` | High
+17 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

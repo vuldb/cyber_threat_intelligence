@@ -67,12 +67,12 @@ ID | Type | Indicator | Confidence
 18 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
 19 | File | `/goform/WifiBasicSet` | High
 20 | File | `/guestmanagement/front.php` | High
-21 | File | `/login/index.php` | High
-22 | File | `/mail.php` | Medium
-23 | File | `/manage/delete_query.php` | High
+21 | File | `/invoice.php` | Medium
+22 | File | `/login/index.php` | High
+23 | File | `/mail.php` | Medium
 24 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

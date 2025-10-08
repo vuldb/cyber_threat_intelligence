@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [104.129.12.141](https://vuldb.com/?ip.104.129.12.141) | 104.129.12.141.static.quadranet.com | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 38 | File | `admin_gallery.php3` | High
 39 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/aa7807e6f0b7a0a5bb859b302b9eb2604040f5f4a84414ea1baa93b377b42ca8/
 * https://blog.netlab.360.com/ten-families-of-malicious-samples-are-spreading-using-the-log4j2-vulnerability-now/
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3583744/
 
 ## Literature
 

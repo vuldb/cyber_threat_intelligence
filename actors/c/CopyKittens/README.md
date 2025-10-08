@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
 * [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -112,31 +112,31 @@ ID | Type | Indicator | Confidence
 42 | File | `/classes/Master.php` | High
 43 | File | `/classes/Master.php?f=delete_reminder` | High
 44 | File | `/contacts/listcontacts.php` | High
-45 | File | `/Core/Ap4File.cpp` | High
-46 | File | `/data/app` | Medium
-47 | File | `/depotHead/list` | High
-48 | File | `/download.php?file=author.png` | High
-49 | File | `/Employer/EditProfile.php` | High
-50 | File | `/Employer/ManageWalkin.php` | High
-51 | File | `/endpoint/update-tracker.php` | High
-52 | File | `/etc/os-release` | High
-53 | File | `/etc/pki/pulp/nodes/` | High
-54 | File | `/foms/routers/place-order.php` | High
-55 | File | `/forms/web_runScript` | High
-56 | File | `/forum/away.php` | High
-57 | File | `/fs/nfsd/nfs4proc.c` | High
-58 | File | `/garage/php_action/createBrand.php` | High
-59 | File | `/general/email/outbox/delete.php` | High
-60 | File | `/general/search.php?searchtype=simple` | High
-61 | File | `/ghost/preview` | High
-62 | File | `/goform/AddSysLogRule` | High
-63 | File | `/goform/AdvSetWrlsafeset` | High
-64 | File | `/goform/qossetting` | High
-65 | File | `/goform/setAutoPing` | High
-66 | File | `/hrm/employeeview.php` | High
+45 | File | `/data/app` | Medium
+46 | File | `/depotHead/list` | High
+47 | File | `/download.php?file=author.png` | High
+48 | File | `/Employer/EditProfile.php` | High
+49 | File | `/Employer/ManageWalkin.php` | High
+50 | File | `/endpoint/update-tracker.php` | High
+51 | File | `/etc/os-release` | High
+52 | File | `/etc/pki/pulp/nodes/` | High
+53 | File | `/foms/routers/place-order.php` | High
+54 | File | `/forms/web_runScript` | High
+55 | File | `/forum/away.php` | High
+56 | File | `/fs/nfsd/nfs4proc.c` | High
+57 | File | `/garage/php_action/createBrand.php` | High
+58 | File | `/general/email/outbox/delete.php` | High
+59 | File | `/general/search.php?searchtype=simple` | High
+60 | File | `/ghost/preview` | High
+61 | File | `/goform/AddSysLogRule` | High
+62 | File | `/goform/AdvSetWrlsafeset` | High
+63 | File | `/goform/qossetting` | High
+64 | File | `/goform/setAutoPing` | High
+65 | File | `/hrm/employeeview.php` | High
+66 | File | `/hss/?page=product_per_brand` | High
 67 | ... | ... | ...
 
-There are 591 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 590 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

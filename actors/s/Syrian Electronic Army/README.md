@@ -62,14 +62,14 @@ ID | Type | Indicator | Confidence
 7 | File | `/forms/doLogin` | High
 8 | File | `/html/device-id` | High
 9 | File | `/uncpath/` | Medium
-10 | File | `a2dp_aac_decoder.cc` | High
-11 | File | `actbar3.ocx` | Medium
-12 | File | `adclick.php` | Medium
-13 | File | `admin.jcomments.php` | High
-14 | File | `admin.php` | Medium
+10 | File | `/usr/sbin/goahead` | High
+11 | File | `a2dp_aac_decoder.cc` | High
+12 | File | `actbar3.ocx` | Medium
+13 | File | `adclick.php` | Medium
+14 | File | `admin.jcomments.php` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

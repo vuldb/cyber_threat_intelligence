@@ -55,12 +55,13 @@ ID | Type | Indicator | Confidence
 10 | File | `/out.php` | Medium
 11 | File | `/sbin/gs_config` | High
 12 | File | `/spip.php` | Medium
-13 | File | `/user_proposal_update_order.php` | High
-14 | File | `adclick.php` | Medium
-15 | File | `add_comment.php` | High
-16 | ... | ... | ...
+13 | File | `/test-details.php` | High
+14 | File | `/user_proposal_update_order.php` | High
+15 | File | `adclick.php` | Medium
+16 | File | `add_comment.php` | High
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

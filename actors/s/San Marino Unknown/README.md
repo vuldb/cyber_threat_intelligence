@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,12 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -72,48 +73,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 6 | File | `/adminapi/system/crud` | High
 7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/files/recipepictures/` | High
-10 | File | `/api/snapshots/` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/upload.php` | High
-13 | File | `/api/wizard/getWifiNeighbour` | High
-14 | File | `/backend/register.php` | High
-15 | File | `/backup.pl` | Medium
+8 | File | `/api/files/recipepictures/` | High
+9 | File | `/api/snapshots/` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/api/upload.php` | High
+12 | File | `/api/wizard/getWifiNeighbour` | High
+13 | File | `/backend/register.php` | High
+14 | File | `/backup.pl` | Medium
+15 | File | `/boafrm/formReflashClientTbl` | High
 16 | File | `/calendar/minimizer/index.php` | High
 17 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
 18 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
 19 | File | `/cgi-bin/` | Medium
 20 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/change-password.php` | High
-24 | File | `/churchcrm/EventAttendance.php` | High
-25 | File | `/classes/Master.php?f=save_product` | High
-26 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
-27 | File | `/control/register_case.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/devinfo` | Medium
-30 | File | `/dottie.js` | Medium
-31 | File | `/dtale/chart-data/1` | High
-32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-33 | File | `/filex/read-raw` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/formSetRoute` | High
-36 | File | `/goform/setcfm` | High
-37 | File | `/goform/SetStaticRouteCfg` | High
-38 | File | `/goform/WifiGuestSet` | High
-39 | File | `/grade/report/grader/index.php` | High
-40 | File | `/healthcare/Admin/consulting_detail.php` | High
-41 | File | `/I/list.php` | Medium
-42 | File | `/index.php?menu=asterisk_cli` | High
-43 | File | `/index/ajax/lang` | High
-44 | File | `/jeecg-boot/jmreport/show` | High
-45 | File | `/kortex_lite/control/edit_profile.php` | High
-46 | File | `/listplace/user/ticket/create` | High
+22 | File | `/cgi-bin/sessions/get-temp-file` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/change-password.php` | High
+25 | File | `/churchcrm/EventAttendance.php` | High
+26 | File | `/classes/Master.php?f=save_product` | High
+27 | File | `/client/manage/ourphp_out.php` | High
+28 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
+29 | File | `/control/register_case.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/devinfo` | Medium
+32 | File | `/dtale/chart-data/1` | High
+33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/filex/read-raw` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/formSetRoute` | High
+38 | File | `/goform/RP_checkCredentialsByBBS` | High
+39 | File | `/goform/setcfm` | High
+40 | File | `/goform/SetStaticRouteCfg` | High
+41 | File | `/goform/WifiGuestSet` | High
+42 | File | `/grade/report/grader/index.php` | High
+43 | File | `/healthcare/Admin/consulting_detail.php` | High
+44 | File | `/I/list.php` | Medium
+45 | File | `/index.php?menu=asterisk_cli` | High
+46 | File | `/index/ajax/lang` | High
 47 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

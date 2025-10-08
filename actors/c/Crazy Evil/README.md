@@ -16,8 +16,8 @@ The following _campaigns_ are known and can be associated with Crazy Evil:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crazy Evil:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.

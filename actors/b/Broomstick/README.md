@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +25,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [23.227.196.123](https://vuldb.com/?ip.23.227.196.123) | 23-227-196-123.static.hvvc.us | - | High
 3 | [45.61.136.160](https://vuldb.com/?ip.45.61.136.160) | - | - | High
 4 | [46.183.25.224](https://vuldb.com/?ip.46.183.25.224) | - | - | High
-5 | ... | ... | ... | ...
+5 | [64.52.80.96](https://vuldb.com/?ip.64.52.80.96) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -50,17 +52,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
 2 | File | `/api/programs/orgUnits?programs` | High
-3 | File | `/cgi-bin/downloadFile.cgi` | High
-4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/jeecg-boot/sys/common/upload` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-10 | File | `/trackedEntityInstances` | High
-11 | ... | ... | ...
+3 | File | `/api/v1/settings` | High
+4 | File | `/cgi-bin/downloadFile.cgi` | High
+5 | File | `/cgi-bin/vitogate.cgi` | High
+6 | File | `/classes/Master.php` | High
+7 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/WriteFacMac` | High
+10 | File | `/jeecg-boot/sys/common/upload` | High
+11 | File | `/oauth/idp/.well-known/openid-configuration` | High
+12 | File | `/php-opos/index.php` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/spip.php` | Medium
+15 | File | `/student/bookdetails.php` | High
+16 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

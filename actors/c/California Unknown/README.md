@@ -146,11 +146,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,20 +160,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/create_product.php` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/manage_station.php` | High
-4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/attendancelist.php` | High
-7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-8 | File | `/backend/admin/his_admin_register_patient.php` | High
-9 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/p1_ftpserver.php` | High
-12 | File | `/cgi-bin/tosei_kikai.php` | High
-13 | File | `/classes/Master.php` | High
-14 | ... | ... | ...
+3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/p1_ftpserver.php` | High
+10 | File | `/cgi-bin/tosei_kikai.php` | High
+11 | File | `/classes/SystemSettings.php?f=update_settings` | High
+12 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

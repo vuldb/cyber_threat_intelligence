@@ -67,30 +67,30 @@ ID | Type | Indicator | Confidence
 15 | File | `/forum/away.php` | High
 16 | File | `/fuel/index.php/fuel/logs/items` | High
 17 | File | `/hedwig.cgi` | Medium
-18 | File | `/monitoring` | Medium
-19 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-20 | File | `/one/getpassword.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/phppath/php` | Medium
-23 | File | `/pms/admin/crimes/manage_crime.php` | High
-24 | File | `/preview.php` | Medium
-25 | File | `/products/details.asp` | High
-26 | File | `/products/view_product.php` | High
-27 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-28 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/servlet/webacc` | High
-31 | File | `/setNTP.cgi` | Medium
-32 | File | `/Side.php` | Medium
-33 | File | `/spip/ecrire/` | High
-34 | File | `/storage` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/uploads/tags.php` | High
-37 | File | `/userfs/bin/tcapi` | High
-38 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
+18 | File | `/index.php` | Medium
+19 | File | `/monitoring` | Medium
+20 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+21 | File | `/one/getpassword.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/phppath/php` | Medium
+24 | File | `/pms/admin/crimes/manage_crime.php` | High
+25 | File | `/preview.php` | Medium
+26 | File | `/products/details.asp` | High
+27 | File | `/products/view_product.php` | High
+28 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+29 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/servlet/webacc` | High
+32 | File | `/setNTP.cgi` | Medium
+33 | File | `/Side.php` | Medium
+34 | File | `/spip/ecrire/` | High
+35 | File | `/storage` | Medium
+36 | File | `/uncpath/` | Medium
+37 | File | `/uploads/tags.php` | High
+38 | File | `/userfs/bin/tcapi` | High
 39 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

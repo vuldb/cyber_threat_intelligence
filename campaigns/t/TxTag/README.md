@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TxTag:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+
 ## Actors
 
 These _actors_ are associated with TxTag or other actors linked to the campaign.
@@ -19,6 +26,24 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [43.166.239.78](https://vuldb.com/?ip.43.166.239.78) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within TxTag. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during TxTag. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `components/drivers/core/device.c` | High
+2 | File | `drivers/bluetooth/hci_ldisc.c` | High
+3 | Argument | `roomid` | Low
 
 ## References
 

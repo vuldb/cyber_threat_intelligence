@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rwanda Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [EG](https://vuldb.com/?country.eg)
+* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,10 +64,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -80,65 +80,104 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/action/wirelessConnect` | High
-3 | File | `/addbill.php` | Medium
-4 | File | `/addNotifyServlet` | High
-5 | File | `/admin.php/appcenter/local.html?type=addon` | High
-6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-7 | File | `/admin/addproduct.php` | High
-8 | File | `/admin/budget.php` | High
-9 | File | `/admin/changestock.php` | High
-10 | File | `/admin/configurations/userInfo` | High
-11 | File | `/admin/create_product.php` | High
-12 | File | `/admin/edit-admin.php` | High
-13 | File | `/admin/edit-category.php` | High
-14 | File | `/admin/edit_action.php` | High
-15 | File | `/admin/edit_category.php` | High
-16 | File | `/Admin/edit_profile.php` | High
-17 | File | `/admin/edit_state.php` | High
-18 | File | `/admin/get_price.php` | High
-19 | File | `/admin/manage-pages.php` | High
-20 | File | `/admin/sys_sql_query.php` | High
-21 | File | `/admin/transactions/track_shipment.php` | High
-22 | File | `/admin/user/manage_user.php` | High
-23 | File | `/api/front/search/books` | High
-24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-25 | File | `/app/api/controller/caiji.php` | High
-26 | File | `/app/controller/Api.php` | High
-27 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-28 | File | `/apply/index.php` | High
-29 | File | `/backups/` | Medium
-30 | File | `/boafrm/formFilter` | High
-31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/changeimage1.php` | High
-35 | File | `/cms/notify` | Medium
-36 | File | `/Code/loginnew.php` | High
-37 | File | `/Code/sc_login.php` | High
-38 | File | `/collection/all` | High
-39 | File | `/content_top.jsp` | High
-40 | File | `/customeredit.php` | High
-41 | File | `/cwms/admin/?page=articles/view_article/` | High
-42 | File | `/dashboard/admin/edit_member.php` | High
-43 | File | `/dashboard/admin/edit_mem_submit.php` | High
-44 | File | `/dashboard/admin/new_submit.php` | High
-45 | File | `/dashboard/message` | High
-46 | File | `/details.php` | Medium
-47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-48 | File | `/devinfo` | Medium
-49 | File | `/etc/group` | Medium
-50 | File | `/expadd.php` | Medium
-51 | File | `/file/accept.php` | High
-52 | File | `/firewall/urlblist.php` | High
-53 | File | `/forum/away.php` | High
-54 | File | `/freelance/resume_list` | High
-55 | File | `/function/audit/newstatistics/mon_stat_hist.php` | High
-56 | File | `/goform/` | Medium
-57 | File | `/goform/formSetMACFilter` | High
-58 | ... | ... | ...
+2 | File | `/account/forgotpassword` | High
+3 | File | `/action.php` | Medium
+4 | File | `/activation.php` | High
+5 | File | `/admin.php/singer/admin/lists/zhuan` | High
+6 | File | `/admin/?page=back_order/view_bo` | High
+7 | File | `/admin/?page=inmates/view_inmate` | High
+8 | File | `/admin/?page=user` | High
+9 | File | `/admin/action/delete-vaccine.php` | High
+10 | File | `/admin/add-art-type.php` | High
+11 | File | `/admin/add-artist.php` | High
+12 | File | `/admin/add-customer.php` | High
+13 | File | `/admin/adddoctor.php` | High
+14 | File | `/admin/admin-profile.php` | High
+15 | File | `/admin/adminStudentUrl` | High
+16 | File | `/admin/admin_addnew_product.php` | High
+17 | File | `/admin/ajax.php` | High
+18 | File | `/admin/ajax.php?action=add_to_cart` | High
+19 | File | `/admin/ajax.php?action=login` | High
+20 | File | `/admin/api/theme-edit/` | High
+21 | File | `/admin/app/profile_crud.php` | High
+22 | File | `/admin/article/add/do` | High
+23 | File | `/admin/case-type` | High
+24 | File | `/admin/changeimage3.php` | High
+25 | File | `/admin/class.php` | High
+26 | File | `/admin/course.php` | High
+27 | File | `/admin/create_product.php` | High
+28 | File | `/admin/curriculum/view_curriculum.php` | High
+29 | File | `/admin/delete_member.php` | High
+30 | File | `/admin/edit-admin.php` | High
+31 | File | `/admin/edit-category.php` | High
+32 | File | `/admin/edit-team.php` | High
+33 | File | `/admin/edit_category.php` | High
+34 | File | `/admin/edit_user.php` | High
+35 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+36 | File | `/admin/forgot-password.php` | High
+37 | File | `/admin/forms/option_lists/edit.php` | High
+38 | File | `/admin/home.php` | High
+39 | File | `/admin/index.php` | High
+40 | File | `/admin/indexConfigs/save` | High
+41 | File | `/admin/ind_backstage.php` | High
+42 | File | `/admin/info_deal.php` | High
+43 | File | `/admin/manage-pages.php` | High
+44 | File | `/Admin/mode.php` | High
+45 | File | `/admin/offenses/view_details.php` | High
+46 | File | `/admin/password-recovery.php` | High
+47 | File | `/admin/patient-search.php` | High
+48 | File | `/admin/positions_add.php` | High
+49 | File | `/admin/settings.php` | High
+50 | File | `/admin/slideupdate.php` | High
+51 | File | `/admin/sms_setting.php` | High
+52 | File | `/Admin/sports.php` | High
+53 | File | `/admin/students/manage_academic.php` | High
+54 | File | `/admin/subcategory.php` | High
+55 | File | `/admin/suppliercontroller.php` | High
+56 | File | `/admin/sys/log/list` | High
+57 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+58 | File | `/admin/sys_sql_query.php` | High
+59 | File | `/admin/tag.php` | High
+60 | File | `/admin/update-users.php` | High
+61 | File | `/admin/updatecomplaint.php` | High
+62 | File | `/admin/user/edit.do` | High
+63 | File | `/admin/vendor` | High
+64 | File | `/admin/view_vacancy.php` | High
+65 | File | `/adminPage/main/upload` | High
+66 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+67 | File | `/admin_route/dec_service_credits.php` | High
+68 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+69 | File | `/ajax.php` | Medium
+70 | File | `/ajax.php?action=delete_plan` | High
+71 | File | `/alunos/search_autocomplete` | High
+72 | File | `/api.php` | Medium
+73 | File | `/api/dept/build` | High
+74 | File | `/api/v1/bait/set` | High
+75 | File | `/api/v1/toolbox/device/update/swap` | High
+76 | File | `/application/pay/controller/Index.php` | High
+77 | File | `/assets` | Low
+78 | File | `/bin/boa` | Medium
+79 | File | `/bin/sh` | Low
+80 | File | `/blog-details.php` | High
+81 | File | `/boafrm/formFilter` | High
+82 | File | `/boafrm/formIPv6Addr` | High
+83 | File | `/boafrm/formMapDel` | High
+84 | File | `/boafrm/formParentControl` | High
+85 | File | `/boafrm/formStats` | High
+86 | File | `/bwdates-report-result.php` | High
+87 | File | `/bwdates-reports-details.php` | High
+88 | File | `/cancelbookingpatient.php` | High
+89 | File | `/cart_add.php` | High
+90 | File | `/catalog/compare` | High
+91 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+92 | File | `/cfgFile/fileContent` | High
+93 | File | `/cgi-bin/cstecgi.cgi` | High
+94 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+95 | File | `/cgi-bin/nas_sharing.cgi` | High
+96 | File | `/cgi/trustclustermaster.cgi` | High
+97 | ... | ... | ...
 
-There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 858 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -28,7 +28,7 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [185.26.112.217](https://vuldb.com/?ip.185.26.112.217) | - | [MyKings](https://vuldb.com/?actor.mykings) | High
 2 | [192.187.111.66](https://vuldb.com/?ip.192.187.111.66) | bee12.bumblebeeservers.com | [MyKings](https://vuldb.com/?actor.mykings) | High
-3 | [﻿5.39.222.134](https://vuldb.com/?ip.﻿5.39.222.134) | - | [MyKings](https://vuldb.com/?actor.mykings) | High
+3 | [?5.39.222.134](https://vuldb.com/?ip.?5.39.222.134) | - | [MyKings](https://vuldb.com/?actor.mykings) | High
 
 ## TTP - Tactics, Techniques, Procedures
 

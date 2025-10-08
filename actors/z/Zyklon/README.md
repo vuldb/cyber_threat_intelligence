@@ -50,24 +50,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `/admin/order.php` | High
-3 | File | `/ajaxGetFileByPath.php` | High
-4 | File | `/app/sys1.php` | High
-5 | File | `/category.php` | High
-6 | File | `/config/list` | Medium
-7 | File | `/etc/passwd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-10 | File | `/reservation.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/web/` | Low
-13 | File | `/wp-content/attachment` | High
-14 | File | `active.log` | Medium
-15 | File | `adclick.php` | Medium
-16 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
-17 | ... | ... | ...
+2 | File | `/admin/add-propertytype.php` | High
+3 | File | `/admin/order.php` | High
+4 | File | `/ajaxGetFileByPath.php` | High
+5 | File | `/app/sys1.php` | High
+6 | File | `/category.php` | High
+7 | File | `/config/list` | Medium
+8 | File | `/dashboard/admin/edit_member.php` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/expedit.php` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+13 | File | `/reservation.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/web/` | Low
+16 | File | `/wp-content/attachment` | High
+17 | File | `active.log` | Medium
+18 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

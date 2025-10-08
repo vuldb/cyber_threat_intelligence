@@ -77,14 +77,14 @@ ID | Type | Indicator | Confidence
 19 | File | `/cgi-bin/hd_config.cgi` | High
 20 | File | `/cgi-bin/mft/` | High
 21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/cgi-mod/lookup.cgi` | High
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/clinic/disease_symptoms_view.php` | High
-25 | File | `/component_server` | High
-26 | File | `/config-manager/save` | High
-27 | File | `/core/config-revisions` | High
-28 | File | `/dashboard/menu-list.php` | High
-29 | File | `/dashboard/table-list.php` | High
+22 | File | `/classes/Master.php?f=save_inquiry` | High
+23 | File | `/clinic/disease_symptoms_view.php` | High
+24 | File | `/component_server` | High
+25 | File | `/config-manager/save` | High
+26 | File | `/core/config-revisions` | High
+27 | File | `/dashboard/menu-list.php` | High
+28 | File | `/dashboard/table-list.php` | High
+29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 30 | File | `/devinfo` | Medium
 31 | File | `/diagnostics_doit` | High
 32 | File | `/doctor/view-appointment-detail.php` | High
@@ -92,15 +92,15 @@ ID | Type | Indicator | Confidence
 34 | File | `/DXR.axd` | Medium
 35 | File | `/edit-client-details.php` | High
 36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | File | `/flatpress/admin.php` | High
-38 | File | `/goform/goform_get_cmd_process` | High
-39 | File | `/goform/saveParentControlInfo` | High
-40 | File | `/ims/login.php` | High
-41 | File | `/include/file.php` | High
-42 | File | `/index.php` | Medium
+37 | File | `/goform/goform_get_cmd_process` | High
+38 | File | `/goform/saveParentControlInfo` | High
+39 | File | `/ims/login.php` | High
+40 | File | `/include/file.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?menu=asterisk_cli` | High
 43 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

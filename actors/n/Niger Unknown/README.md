@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,31 +85,31 @@ ID | Type | Indicator | Confidence
 23 | File | `/conversation/upload` | High
 24 | File | `/core/config-revisions` | High
 25 | File | `/detailed.php` | High
-26 | File | `/devinfo` | Medium
-27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-28 | File | `/endpoint/Add.php` | High
-29 | File | `/endpoint/delete.php` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/formSetQoS` | High
-32 | File | `/goform/formSetRoute` | High
-33 | File | `/goform/formSetWizardSelectMode` | High
-34 | File | `/goform/saveParentControlInfo` | High
-35 | File | `/goform/setBlackRule` | High
-36 | File | `/goform/setMacFilter` | High
-37 | File | `/grade/report/grader/index.php` | High
-38 | File | `/healthcare/Admin/consulting_detail.php` | High
-39 | File | `/HNAP1/` | Low
-40 | File | `/hospital_activities/birth/form` | High
-41 | File | `/I/list.php` | Medium
-42 | File | `/index.php` | Medium
-43 | File | `/index.php?page=tenants` | High
-44 | File | `/login.php` | Medium
-45 | File | `/login.php?do=login` | High
-46 | File | `/model/delete_student_grade_subject.php` | High
-47 | File | `/model/update_classroom.php` | High
+26 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+27 | File | `/devinfo` | Medium
+28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+29 | File | `/endpoint/Add.php` | High
+30 | File | `/endpoint/delete.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/formSetQoS` | High
+33 | File | `/goform/formSetRoute` | High
+34 | File | `/goform/formSetWizardSelectMode` | High
+35 | File | `/goform/saveParentControlInfo` | High
+36 | File | `/goform/setBlackRule` | High
+37 | File | `/goform/setMacFilter` | High
+38 | File | `/grade/report/grader/index.php` | High
+39 | File | `/healthcare/Admin/consulting_detail.php` | High
+40 | File | `/HNAP1/` | Low
+41 | File | `/hospital_activities/birth/form` | High
+42 | File | `/I/list.php` | Medium
+43 | File | `/index.php` | Medium
+44 | File | `/index.php?page=tenants` | High
+45 | File | `/login.php` | Medium
+46 | File | `/login.php?do=login` | High
+47 | File | `/model/delete_student_grade_subject.php` | High
 48 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

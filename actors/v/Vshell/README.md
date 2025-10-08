@@ -25,9 +25,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [47.74.4.13](https://vuldb.com/?ip.47.74.4.13) | - | - | High
 3 | [47.109.178.63](https://vuldb.com/?ip.47.109.178.63) | - | - | High
 4 | [47.116.123.8](https://vuldb.com/?ip.47.116.123.8) | - | - | High
-5 | ... | ... | ... | ...
+5 | [47.121.30.118](https://vuldb.com/?ip.47.121.30.118) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,9 +40,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,23 +57,26 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/company/index.php` | High
 5 | File | `/admin/contactus.php` | High
 6 | File | `/admin/index2.html` | High
-7 | File | `/admin/settings.php` | High
-8 | File | `/Ant_Suxin.php` | High
-9 | File | `/api/Common/uploadFile` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/api/sys/set_passwd` | High
-12 | File | `/api/v1/attack/falco` | High
-13 | File | `/app/ajax/search_sales_report.php` | High
-14 | File | `/bin/boa` | Medium
-15 | File | `/boaform/wlan_basic_set.cgi` | High
-16 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-17 | File | `/classes/Users.php` | High
-18 | File | `/CMD_ACCOUNT_ADMIN` | High
-19 | File | `/E-mobile/App/System/File/downfile.php` | High
-20 | File | `/HNAP1/` | Low
-21 | ... | ... | ...
+7 | File | `/admin/search-autoortaxi.php` | High
+8 | File | `/admin/settings.php` | High
+9 | File | `/Ant_Suxin.php` | High
+10 | File | `/api/Common/uploadFile` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/v1/attack/falco` | High
+14 | File | `/app/ajax/search_sales_report.php` | High
+15 | File | `/bin/boa` | Medium
+16 | File | `/boaform/wlan_basic_set.cgi` | High
+17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/CMD_ACCOUNT_ADMIN` | High
+20 | File | `/cwc/login` | Medium
+21 | File | `/E-mobile/App/System/File/downfile.php` | High
+22 | File | `/HNAP1/` | Low
+23 | File | `/htdocs/cgibin` | High
+24 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,10 +93,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/123.60.135.200
 * https://search.censys.io/hosts/124.223.71.152
 * https://search.censys.io/hosts/125.65.28.180
+* https://search.censys.io/hosts/140.143.242.109
 * https://search.censys.io/hosts/156.245.12.209
 * https://search.censys.io/hosts/156.245.12.210
 * https://search.censys.io/hosts/156.245.12.216
 * https://search.censys.io/hosts/166.108.226.235
+* https://search.censys.io/hosts/175.178.100.95
 * https://threatfox.abuse.ch
 
 ## Literature

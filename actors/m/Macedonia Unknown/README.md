@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,23 +48,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin-update-employee.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/mod_room/controller.php?action=add` | High
-4 | File | `/anony/mjpg.cgi` | High
-5 | File | `/assets/something/services/AppModule.class` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/classes/Master.php` | High
-8 | File | `/classes/SystemSettings.php?f=update_settings` | High
-9 | File | `/classes/Users.php?f=delete` | High
-10 | File | `/control/register_case.php` | High
-11 | File | `/manage_sy.php` | High
-12 | File | `/ndmComponents.js` | High
-13 | File | `/oauth/idp/.well-known/openid-configuration` | High
-14 | File | `/owa/auth/logon.aspx` | High
-15 | File | `/Report/ParkCommon/GetParkInThroughDeivces` | High
-16 | ... | ... | ...
+2 | File | `/admin/booking-bwdates-reports-details.php` | High
+3 | File | `/admin/booking-search.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/mod_room/controller.php?action=add` | High
+6 | File | `/admin/vacancy/index.php` | High
+7 | File | `/anony/mjpg.cgi` | High
+8 | File | `/assets/something/services/AppModule.class` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Master.php?f=save_medicine` | High
+13 | File | `/classes/SystemSettings.php?f=update_settings` | High
+14 | File | `/classes/Users.php?f=delete` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/edit-task.php` | High
+18 | File | `/goform/QuickIndex` | High
+19 | File | `/index.php` | Medium
+20 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [64.95.13.166](https://vuldb.com/?ip.64.95.13.166) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,6 +60,7 @@ There are 42 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://gbhackers.com/encrypthub-turns-brave-support-into-a-dropper/
 * https://outpost24.com/blog/unveiling-encrypthub-multi-stage-malware/
 
 ## Literature

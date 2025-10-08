@@ -10,17 +10,6 @@ The following _campaigns_ are known and can be associated with Lumma:
 
 * Genesis Market Browser Extension
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lumma:
-
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 9 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Lumma.
@@ -31,55 +20,25 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
 3 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | vds1223468.hosted-by-itldc.com | - | High
 4 | [82.117.255.127](https://vuldb.com/?ip.82.117.255.127) | vds1221946.hosted-by-itldc.com | - | High
-5 | ... | ... | ... | ...
+5 | [82.118.23.50](https://vuldb.com/?ip.82.118.23.50) | www.oootaiog.com | - | High
+6 | [89.185.84.37](https://vuldb.com/?ip.89.185.84.37) | pkalan21.ip-ptr.tech | - | High
+7 | [91.92.243.198](https://vuldb.com/?ip.91.92.243.198) | - | - | High
+8 | [94.140.14.33](https://vuldb.com/?ip.94.140.14.33) | 94-140-14-33.adguard-dns.com | - | High
+9 | [104.16.248.249](https://vuldb.com/?ip.104.16.248.249) | - | - | High
+10 | [104.21.5.146](https://vuldb.com/?ip.104.21.5.146) | - | - | High
+11 | [104.21.13.217](https://vuldb.com/?ip.104.21.13.217) | - | Genesis Market Browser Extension | High
+12 | [104.21.14.17](https://vuldb.com/?ip.104.21.14.17) | - | - | High
+13 | [104.21.16.1](https://vuldb.com/?ip.104.21.16.1) | - | - | High
+14 | [104.21.16.110](https://vuldb.com/?ip.104.21.16.110) | - | Genesis Market Browser Extension | High
+15 | [104.21.16.180](https://vuldb.com/?ip.104.21.16.180) | - | - | High
+16 | [104.21.19.91](https://vuldb.com/?ip.104.21.19.91) | - | - | High
+17 | [104.21.19.156](https://vuldb.com/?ip.104.21.19.156) | - | - | High
+18 | [104.21.20.106](https://vuldb.com/?ip.104.21.20.106) | - | - | High
+19 | [104.21.21.50](https://vuldb.com/?ip.104.21.21.50) | - | - | High
+20 | [104.21.26.124](https://vuldb.com/?ip.104.21.26.124) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lumma_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
-
-There are 13 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lumma. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/admin/comn/service/update.json` | High
-3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-4 | File | `/admin/search-pass.php` | High
-5 | File | `/admin/view-request.php` | High
-6 | File | `/api/0/api-tokens/` | High
-7 | File | `/api/profile` | Medium
-8 | File | `/api/v1/admin/` | High
-9 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-10 | File | `/edit_xpatient.php` | High
-11 | File | `/filemanager/php/connector.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
-14 | File | `/goform/MtuSetMacWan` | High
-15 | File | `/historyList` | Medium
-16 | File | `/htdocs/soap.cgi` | High
-17 | File | `/index.php` | Medium
-18 | File | `/manage-notes.php` | High
-19 | File | `/pages.php` | Medium
-20 | File | `/pages/processlogin.php` | High
-21 | File | `/pages/product_update.php` | High
-22 | File | `/paicoding-core/src/main/java/com/github/paicoding/forum/core/util/CrossUtil.java` | High
-23 | File | `/queryTotal` | Medium
-24 | ... | ... | ...
-
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -89,9 +48,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://de.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 * https://perception-point.io/blog/behind-the-attack-lumma-malware/
+* https://urlhaus.abuse.ch/url/3550428/
 * https://www.cybereason.com/blog/threat-alert-genesis-market
+* https://www.forescout.com/blog/infostealer-watch-will-lummas-takedown-help-rhadamanthys-rise/
 * https://www.microsoft.com/en-us/security/blog/2025/05/21/lumma-stealer-breaking-down-the-delivery-techniques-and-capabilities-of-a-prolific-infostealer/
 * https://www.silentpush.com/blog/lummac2
+* https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-lumma-stealer/
 
 ## Literature
 

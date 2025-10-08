@@ -118,9 +118,10 @@ ID | Type | Indicator | Confidence
 52 | File | `/customer_register.php` | High
 53 | File | `/dataSet/resolveSql` | High
 54 | File | `/details2.php` | High
-55 | ... | ... | ...
+55 | File | `/downloadFile.php` | High
+56 | ... | ... | ...
 
-There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

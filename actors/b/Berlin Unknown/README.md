@@ -117,8 +117,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/tosei_kikai.php` | High
 11 | File | `/check_availability.php` | High
 12 | File | `/classes/Master.php` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | ... | ... | ...
+13 | ... | ... | ...
 
 There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -83,35 +83,34 @@ ID | Type | Indicator | Confidence
 27 | File | `/bin/boa` | Medium
 28 | File | `/bin/httpd` | Medium
 29 | File | `/boafrm/formMapDelDevice` | High
-30 | File | `/boat/login.php` | High
-31 | File | `/booking/show_bookings/` | High
-32 | File | `/bsms_ci/index.php/user/edit_user/` | High
-33 | File | `/calendar/minimizer/index.php` | High
-34 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/wapopen` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/check` | Low
-39 | File | `/classes/Master.php?f=save_product` | High
-40 | File | `/clinic/disease_symptoms_view.php` | High
-41 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
-42 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
-43 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-44 | File | `/config-manager/save` | High
-45 | File | `/ConfigFile.ini` | High
-46 | File | `/control/activate_case.php` | High
-47 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
-48 | File | `/cov/triggerUnitCover` | High
-49 | File | `/dashboard/menu-list.php` | High
-50 | File | `/dashboard/table-list.php` | High
-51 | File | `/data/config.ftp.php` | High
-52 | File | `/data/system/users/0/settings_secure.xml` | High
-53 | File | `/devinfo` | Medium
-54 | File | `/directRouter.rfc` | High
-55 | File | `/doctor/view-appointment-detail.php` | High
-56 | ... | ... | ...
+30 | File | `/booking/show_bookings/` | High
+31 | File | `/bsms_ci/index.php/user/edit_user/` | High
+32 | File | `/calendar/minimizer/index.php` | High
+33 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/wapopen` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/check` | Low
+38 | File | `/classes/Master.php?f=save_product` | High
+39 | File | `/clinic/disease_symptoms_view.php` | High
+40 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
+41 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
+42 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+43 | File | `/config-manager/save` | High
+44 | File | `/ConfigFile.ini` | High
+45 | File | `/control/activate_case.php` | High
+46 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
+47 | File | `/cov/triggerUnitCover` | High
+48 | File | `/dashboard/menu-list.php` | High
+49 | File | `/dashboard/table-list.php` | High
+50 | File | `/data/config.ftp.php` | High
+51 | File | `/data/system/users/0/settings_secure.xml` | High
+52 | File | `/devinfo` | Medium
+53 | File | `/directRouter.rfc` | High
+54 | File | `/doctor/view-appointment-detail.php` | High
+55 | ... | ... | ...
 
-There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Microsoft Exchange:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 32 more country items available. Please use our online service to access the data.
@@ -49,8 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -73,58 +72,60 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
 12 | File | `/admin/blood/update/o-.php` | High
 13 | File | `/admin/category/cate-edit-run.php` | High
-14 | File | `/admin/employee/index.php` | High
-15 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-16 | File | `/admin/inquiries/view_inquiry.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/modal_add_product.php` | High
-19 | File | `/admin/new-content` | High
-20 | File | `/admin/read.php?mudi=announContent` | High
-21 | File | `/admin/services/manage_service.php` | High
-22 | File | `/admin/suppliers/view_details.php` | High
-23 | File | `/admin/transactions/track_shipment.php` | High
-24 | File | `/admin/upload.php` | High
-25 | File | `/admin/user/manage_user.php` | High
-26 | File | `/alarm_pi/alarmService.php` | High
-27 | File | `/anony/mjpg.cgi` | High
-28 | File | `/api/blade-system/menu/list?updatexml` | High
-29 | File | `/api/crontab` | Medium
-30 | File | `/api/es/admin/v3/security/user/1` | High
-31 | File | `/api/ping` | Medium
-32 | File | `/api/runscript` | High
-33 | File | `/api/sys/login` | High
-34 | File | `/api/sys/set_passwd` | High
-35 | File | `/app/admin/controller/api/Plugs.php` | High
-36 | File | `/asms/admin/products/manage_product.php` | High
-37 | File | `/asms/products/view_product.php` | High
-38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-39 | File | `/category.php` | High
-40 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-41 | File | `/cgi-bin/sysconf.cgi` | High
-42 | File | `/changeimage.php` | High
-43 | File | `/classes/Master.php?f=delete_service` | High
-44 | File | `/clearance/clearance.php` | High
-45 | File | `/config/getuser` | High
-46 | File | `/config/list` | Medium
-47 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-48 | File | `/core/config-revisions` | High
-49 | File | `/core/config-revisions/` | High
-50 | File | `/dashboard/snapshot/*?orgId=0` | High
-51 | File | `/dosen/data` | Medium
-52 | File | `/E-mobile/App/System/File/downfile.php` | High
-53 | File | `/edit-category.php` | High
-54 | File | `/export` | Low
-55 | File | `/forum/away.php` | High
-56 | File | `/gena.cgi` | Medium
-57 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-58 | File | `/goform/ate` | Medium
-59 | File | `/goform/formLogDnsquery` | High
-60 | File | `/goform/GetIPTV?fgHPOST/goform/SysToo` | High
-61 | File | `/goform/setcfm` | High
-62 | File | `/goform/SetOnlineDevName` | High
-63 | ... | ... | ...
+14 | File | `/admin/conferences/list/` | High
+15 | File | `/admin/employee/index.php` | High
+16 | File | `/admin/index.php?language=en&nv=upload` | High
+17 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/modal_add_product.php` | High
+21 | File | `/admin/new-content` | High
+22 | File | `/admin/pages_account.php` | High
+23 | File | `/admin/read.php?mudi=announContent` | High
+24 | File | `/admin/services/manage_service.php` | High
+25 | File | `/admin/suppliers/view_details.php` | High
+26 | File | `/admin/system.php` | High
+27 | File | `/admin/transactions/track_shipment.php` | High
+28 | File | `/admin/upload.php` | High
+29 | File | `/admin/user/manage_user.php` | High
+30 | File | `/adminlogin.php` | High
+31 | File | `/alarm_pi/alarmService.php` | High
+32 | File | `/anony/mjpg.cgi` | High
+33 | File | `/api/blade-system/menu/list?updatexml` | High
+34 | File | `/api/crontab` | Medium
+35 | File | `/api/es/admin/v3/security/user/1` | High
+36 | File | `/api/ping` | Medium
+37 | File | `/api/runscript` | High
+38 | File | `/api/sys/login` | High
+39 | File | `/api/sys/set_passwd` | High
+40 | File | `/app/admin/controller/api/Plugs.php` | High
+41 | File | `/asms/admin/products/manage_product.php` | High
+42 | File | `/asms/products/view_product.php` | High
+43 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+44 | File | `/category.php` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/cgi-bin/sysconf.cgi` | High
+47 | File | `/cgi-bin/wlogin.cgi` | High
+48 | File | `/changeimage.php` | High
+49 | File | `/classes/Master.php?f=delete_category` | High
+50 | File | `/classes/Master.php?f=delete_service` | High
+51 | File | `/clearance/clearance.php` | High
+52 | File | `/cms/templates/templatesAssetsEditor` | High
+53 | File | `/config/getuser` | High
+54 | File | `/config/list` | Medium
+55 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+56 | File | `/core/config-revisions` | High
+57 | File | `/core/config-revisions/` | High
+58 | File | `/dashboard/snapshot/*?orgId=0` | High
+59 | File | `/dosen/data` | Medium
+60 | File | `/E-mobile/App/System/File/downfile.php` | High
+61 | File | `/edit-category.php` | High
+62 | File | `/export` | Low
+63 | File | `/forum/away.php` | High
+64 | File | `/gena.cgi` | Medium
+65 | ... | ... | ...
 
-There are 556 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 571 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

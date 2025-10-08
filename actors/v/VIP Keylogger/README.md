@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VIP Keylogger:
 
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +21,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.244.151.84](https://vuldb.com/?ip.185.244.151.84) | hosting2.ro.hostsailor.com | - | High
+1 | [51.38.247.67](https://vuldb.com/?ip.51.38.247.67) | - | - | High
+2 | [185.244.151.84](https://vuldb.com/?ip.185.244.151.84) | hosting2.ro.hostsailor.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,9 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1204.001 | CWE-601 | Open Redirect | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,14 +43,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/wlogin.cgi` | High
-2 | Argument | `aa/ab` | Low
+1 | File | `/?page=reports` | High
+2 | File | `/addcompany.php` | High
+3 | File | `/addcustcom.php` | High
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/home.php` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/admin/reportupload.aspx` | High
+8 | File | `/admin/view-enquiry.php` | High
+9 | File | `/application/index/controller/Databasesource.php` | High
+10 | File | `/application/index/controller/Icon.php` | High
+11 | File | `/application/index/controller/Unity.php` | High
+12 | File | `/apply/index.php` | High
+13 | File | `/category.php` | High
+14 | ... | ... | ...
+
+There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/b29b1d2de4ad836a8551b757c2e134cbcb1248f50e1e5eeb75c6efcd49d73380/
+* https://www.seqrite.com/blog/spear-phishing-campaign-delivers-vip-keylogger-via-email-attachment/
 
 ## Literature
 

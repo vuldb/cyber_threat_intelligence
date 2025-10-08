@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Koobface:
 
-* [IL](https://vuldb.com/?country.il)
 * [US](https://vuldb.com/?country.us)
+* [IL](https://vuldb.com/?country.il)
 * [CF](https://vuldb.com/?country.cf)
 * ...
 
@@ -64,9 +64,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/baskets/{name}` | High
 2 | File | `/my-calendar/v1/events` | High
 3 | File | `/spip.php` | Medium
-4 | ... | ... | ...
+4 | File | `/view/networkConfig/RouteConfig/StaticRoute/static_route_edit_commit.php` | High
+5 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

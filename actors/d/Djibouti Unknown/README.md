@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Djibouti Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -330,11 +330,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -388,25 +389,32 @@ ID | Type | Indicator | Confidence
 42 | File | `/auth.asp` | Medium
 43 | File | `/auth/register` | High
 44 | File | `/backend/register.php` | High
-45 | File | `/boafrm/formFilter` | High
-46 | File | `/boafrm/formSaveConfig` | High
-47 | File | `/boafrm/formWlSiteSurvey` | High
-48 | File | `/BRS_top.html` | High
-49 | File | `/cashconfirm.php` | High
-50 | File | `/catalog/compare` | High
-51 | File | `/cgi-bin/Config.cgi?action=set` | High
-52 | File | `/cgi-bin/cstecgi.cgi` | High
-53 | File | `/cgi-bin/editBookmark` | High
-54 | File | `/cgi-bin/hd_config.cgi` | High
-55 | File | `/cgi-bin/login.cgi` | High
-56 | File | `/cgi-bin/mainfunction.cgi` | High
-57 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-58 | File | `/change-password.php` | High
-59 | File | `/changeUsername.php` | High
-60 | File | `/classes/Master.php?f=save_course` | High
-61 | ... | ... | ...
+45 | File | `/bic/ssoService/v1/applyCT` | High
+46 | File | `/bin/httpd` | Medium
+47 | File | `/boafrm/formFilter` | High
+48 | File | `/boafrm/formSaveConfig` | High
+49 | File | `/boafrm/formWlSiteSurvey` | High
+50 | File | `/BRS_top.html` | High
+51 | File | `/cashconfirm.php` | High
+52 | File | `/catalog/compare` | High
+53 | File | `/cgi-bin/Config.cgi?action=set` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/editBookmark` | High
+56 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+57 | File | `/cgi-bin/hd_config.cgi` | High
+58 | File | `/cgi-bin/login.cgi` | High
+59 | File | `/cgi-bin/mainfunction.cgi` | High
+60 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+61 | File | `/change-password.php` | High
+62 | File | `/changeUsername.php` | High
+63 | File | `/classes/Master.php?f=save_course` | High
+64 | File | `/classes/Master.php?f=save_position` | High
+65 | File | `/config/config.properties` | High
+66 | File | `/config/php.ini` | High
+67 | File | `/coreframe/app/guestbook/myissue.php` | High
+68 | ... | ... | ...
 
-There are 534 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 597 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

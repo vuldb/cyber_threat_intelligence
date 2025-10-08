@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,13 +81,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
 6 | File | `/application/index/controller/Screen.php` | High
 7 | File | `/apply.cgi` | Medium
-8 | File | `/core/conditions/AbstractWrapper.java` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/export` | Low
-11 | File | `/goform/aspForm` | High
-12 | ... | ... | ...
+8 | File | `/debug/pprof` | Medium
+9 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

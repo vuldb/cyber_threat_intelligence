@@ -133,7 +133,7 @@ ID | Type | Indicator | Confidence
 78 | File | `/goform/aspForm` | High
 79 | ... | ... | ...
 
-There are 696 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 695 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

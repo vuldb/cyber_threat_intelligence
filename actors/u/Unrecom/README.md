@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 53 | File | `/classes/Master.php?f=save_category` | High
 54 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

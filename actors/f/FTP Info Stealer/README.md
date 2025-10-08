@@ -98,8 +98,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/newProject.php` | High
 42 | File | `/nova/bin/detnet` | High
 43 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-44 | File | `/out.php` | Medium
-45 | ... | ... | ...
+44 | ... | ... | ...
 
 There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

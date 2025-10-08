@@ -110,7 +110,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -118,36 +118,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/add-students.php` | High
+1 | File | `/add-students.php` | High
+2 | File | `/admin-api/mp/material/upload-permanent` | High
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
 4 | File | `/admin/` | Low
 5 | File | `/admin/admin-update-employee.php` | High
 6 | File | `/admin/booktime.php` | High
 7 | File | `/admin/change-image.php` | High
-8 | File | `/admin/index.php/web/ajax_all_lists` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/member_save.php` | High
-11 | File | `/admin/search-vehicle.php` | High
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/clusters/local/topics/{topic}/messages` | High
-14 | File | `/API/info` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-17 | File | `/cgi-bin/tosei_kikai.php` | High
-18 | File | `/cov/triggerEnvCov` | High
-19 | File | `/dashboard/admin/del_plan.php` | High
-20 | File | `/dashboard/approve-reject.php` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/dede/file_manage_control.php` | High
-23 | File | `/detailed.php` | High
-24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-25 | File | `/dist/index.js` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/EXCU_SHELL` | Medium
-28 | ... | ... | ...
+8 | File | `/admin/complaint-details.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/index.php/web/ajax_all_lists` | High
+11 | File | `/Admin/login.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/manage-users.php` | High
+14 | File | `/admin/member_save.php` | High
+15 | File | `/admin/search-vehicle.php` | High
+16 | File | `/admin/student_edit_photo.php` | High
+17 | File | `/admin/suppliercontroller.php` | High
+18 | File | `/admin/user-profile.php` | High
+19 | File | `/admin/voters_row.php` | High
+20 | File | `/adminac.php` | Medium
+21 | File | `/api/authentication/login` | High
+22 | File | `/api/clusters/local/topics/{topic}/messages` | High
+23 | File | `/API/info` | Medium
+24 | File | `/application/common.php` | High
+25 | File | `/applyleave.php` | High
+26 | File | `/browse.php` | Medium
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/myMusic.cgi` | High
+29 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+30 | File | `/cgi-bin/tosei_kikai.php` | High
+31 | File | `/charms` | Low
+32 | File | `/cms/collect/getPages` | High
+33 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+34 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

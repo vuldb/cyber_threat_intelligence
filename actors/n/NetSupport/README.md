@@ -32,7 +32,8 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.181.159.137](https://vuldb.com/?ip.5.181.159.137) | 5-181-159-137.mivocloud.com | - | High
 4 | [23.23.49.179](https://vuldb.com/?ip.23.23.49.179) | ec2-23-23-49-179.compute-1.amazonaws.com | ClickFix | Medium
 5 | [50.87.146.66](https://vuldb.com/?ip.50.87.146.66) | 50-87-146-66.unifiedlayer.com | ClickFix | High
-6 | ... | ... | ... | ...
+6 | [67.217.228.168](https://vuldb.com/?ip.67.217.228.168) | - | - | High
+7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -100,6 +101,7 @@ There are 310 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://pastebin.com/iqcg0Ys7
+* https://unit42.paloaltonetworks.com/preventing-clickfix-attack-vector/
 * https://urlhaus.abuse.ch/url/3519140/
 * https://urlhaus.abuse.ch/url/3519203/
 * https://urlhaus.abuse.ch/url/3536229/

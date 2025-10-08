@@ -120,10 +120,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/edit-db.php` | Medium
 2 | File | `ogp_show.php` | Medium
-3 | Argument | `entry` | Low
+3 | File | `user.php` | Medium
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

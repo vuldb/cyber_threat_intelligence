@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Squirrelwaffle:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Squirrelwaffle:
 
-* [US](https://vuldb.com/?country.us)
 * [BR](https://vuldb.com/?country.br)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,13 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,30 +58,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/admin/add_course.php` | High
-3 | File | `/boafrm/formMapDel` | High
-4 | File | `/cgi-bin/ExportALLSettings.sh` | High
-5 | File | `/cgi-bin/ExportAllSettings.sh` | High
-6 | File | `/classes/Master.php?f=delete_img` | High
-7 | File | `/config/getuser` | High
-8 | File | `/core/config-revisions` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-13 | File | `/ordering/admin/orders/loaddata.php` | High
-14 | File | `/pages/processlogin.php` | High
-15 | File | `/product_list.php` | High
-16 | File | `/qsr_server/device/reboot` | High
-17 | File | `/resource/file/api/save?auto=1` | High
-18 | File | `/rocket/RocketCore.scala` | High
-19 | File | `/snmpGet` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
-22 | File | `/user/index/findpass?do=4` | High
-23 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/add_course.php` | High
+4 | File | `/admin/category_row.php` | High
+5 | File | `/admin/changeimage2.php` | High
+6 | File | `/admin/gallery.php` | High
+7 | File | `/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/admin/sign/out` | High
+9 | File | `/admin/students/manage_academic.php` | High
+10 | File | `/admin/suppliercontroller.php` | High
+11 | File | `/admin/update_s6.php` | High
+12 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+13 | File | `/api/GylOperator/LoadData` | High
+14 | File | `/api/public/signup` | High
+15 | File | `/boafrm/formFilter` | High
+16 | File | `/boafrm/formMapDel` | High
+17 | File | `/boafrm/formNtp` | High
+18 | File | `/bsenordering/index.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/ExportALLSettings.sh` | High
+21 | File | `/cgi-bin/ExportAllSettings.sh` | High
+22 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+23 | File | `/cgi-bin/sessions/get-temp-file` | High
+24 | File | `/classes/Master.php?f=delete_img` | High
+25 | File | `/config/getuser` | High
+26 | File | `/contrib/cssgen.php` | High
+27 | File | `/core/config-revisions` | High
+28 | File | `/detail.php` | Medium
+29 | File | `/Doctor/chat.php` | High
+30 | File | `/ebics-server/ebics.aspx` | High
+31 | File | `/employeeview.php` | High
+32 | File | `/endpoint/add-computer.php` | High
+33 | File | `/etc/passwd` | Medium
+34 | File | `/file/cancel.php` | High
+35 | File | `/generateController.do?dogenerate` | High
+36 | File | `/goform/formSetMuti` | High
+37 | File | `/goform/form_portforwarding` | High
+38 | File | `/goform/telnet` | High
+39 | File | `/goform/WifiWpsStart` | High
+40 | File | `/home/kickPlayer` | High
+41 | File | `/include/chart_generator.php` | High
+42 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -64,42 +64,42 @@ ID | Type | Indicator | Confidence
 8 | File | `/bin/boa` | Medium
 9 | File | `/cgi-bin/cstecgi.cgi` | High
 10 | File | `/cgi-bin/hd_config.cgi` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-bin/webfile_mgr.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/config/getuser` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/dev/urandom` | Medium
-17 | File | `/endpoint/delete-account.php` | High
-18 | File | `/etc/ajenti/config.yml` | High
-19 | File | `/etc/quantum/quantum.conf` | High
-20 | File | `/etc/shadow` | Medium
-21 | File | `/exec/` | Low
-22 | File | `/forum/away.php` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/dir_setWanWifi` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/index/ajax/lang` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/MIME/INBOX-MM-1/` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/opt/tms/bin/cli` | High
-31 | File | `/out.php` | Medium
-32 | File | `/plain` | Low
-33 | File | `/server-status` | High
-34 | File | `/setSystemAdmin` | High
-35 | File | `/staff/tools/custom-fields` | High
-36 | File | `/tmp/phpglibccheck` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/WebMstr7/servlet/mstrWeb` | High
-39 | File | `/webpages/data` | High
-40 | File | `/wp-admin/options.php` | High
-41 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/wp-json/oembed/1.0/embed?url` | High
+11 | File | `/cgi-bin/sysconf.cgi` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/webfile_mgr.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/config/getuser` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/dev/urandom` | Medium
+18 | File | `/endpoint/delete-account.php` | High
+19 | File | `/etc/ajenti/config.yml` | High
+20 | File | `/etc/quantum/quantum.conf` | High
+21 | File | `/etc/shadow` | Medium
+22 | File | `/exec/` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/goform/dir_setWanWifi` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/index/ajax/lang` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/MIME/INBOX-MM-1/` | High
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/opt/tms/bin/cli` | High
+32 | File | `/out.php` | Medium
+33 | File | `/plain` | Low
+34 | File | `/server-status` | High
+35 | File | `/setSystemAdmin` | High
+36 | File | `/staff/tools/custom-fields` | High
+37 | File | `/tmp/phpglibccheck` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/WebMstr7/servlet/mstrWeb` | High
+40 | File | `/webpages/data` | High
+41 | File | `/wp-admin/options.php` | High
+42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

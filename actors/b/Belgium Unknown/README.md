@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2728,13 +2728,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2742,51 +2742,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/ajax.php?action=login` | High
-4 | File | `/admin/all-applications.php` | High
-5 | File | `/admin/betweendates-detailsreports.php` | High
-6 | File | `/admin/bwdates-request-report-details.php` | High
-7 | File | `/admin/forms/option_lists/edit.php` | High
-8 | File | `/admin/registration.php` | High
-9 | File | `/admin/setup.cgi` | High
-10 | File | `/admin/view-pass-detail.php` | High
-11 | File | `/adpweb/a/base/barcodeDetail/` | High
-12 | File | `/api/browserextension/UpdatePassword/` | High
-13 | File | `/api/discoveries/` | High
-14 | File | `/api/docs/index.php` | High
-15 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-16 | File | `/api/v1/settings` | High
-17 | File | `/app/api/controller/caiji.php` | High
-18 | File | `/app/api/controller/collect.php` | High
-19 | File | `/app/controller/Setup.php` | High
-20 | File | `/application/models/ApplicationDataObject.class.php` | High
-21 | File | `/bin/main` | Medium
-22 | File | `/binutils/debug.c` | High
-23 | File | `/biurl_grou` | Medium
-24 | File | `/boa/formWSC` | Medium
-25 | File | `/boafrm/formDMZ` | High
-26 | File | `/boafrm/formDosCfg` | High
-27 | File | `/boafrm/formFilter` | High
-28 | File | `/boafrm/formIpQoS` | High
-29 | File | `/boafrm/formIPv6Addr` | High
-30 | File | `/boafrm/formMultiAP` | High
-31 | File | `/boafrm/formNtp` | High
-32 | File | `/boafrm/formPortFw` | High
-33 | File | `/boafrm/formReflashClientTbl` | High
-34 | File | `/boafrm/formSaveConfig` | High
-35 | File | `/boafrm/formStats` | High
-36 | File | `/boafrm/formSysCmd` | High
-37 | File | `/boafrm/formSysLog` | High
-38 | File | `/boafrm/formTmultiAP` | High
-39 | File | `/boafrm/formWirelessTbl` | High
-40 | File | `/boafrm/formWsc` | High
-41 | File | `/book-appointment.php` | High
-42 | File | `/BRS_top.html` | High
-43 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `/action.php` | Medium
+3 | File | `/admin-cp/media` | High
+4 | File | `/admin/?page=return/view_return` | High
+5 | File | `/admin/aboutPost.php` | High
+6 | File | `/admin/add-subadmin.php` | High
+7 | File | `/admin/add_cars.php` | High
+8 | File | `/admin/admin_action.php` | High
+9 | File | `/admin/admin_index.php` | High
+10 | File | `/admin/category/add.do` | High
+11 | File | `/admin/changeimage.php` | High
+12 | File | `/admin/delete-doctor.php` | High
+13 | File | `/admin/edit-admin.php` | High
+14 | File | `/admin/edit-guard-detail.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/new-content` | High
+19 | File | `/admin/voters_add.php` | High
+20 | File | `/admin/voters_delete.php` | High
+21 | File | `/admin/voters_row.php` | High
+22 | File | `/adpweb/a/base/barcodeDetail/` | High
+23 | File | `/ajax.php?action=save_package` | High
+24 | File | `/allocated_rooms.php` | High
+25 | File | `/api/docs/index.php` | High
+26 | File | `/authentication/logout.php` | High
+27 | File | `/backend/register.php` | High
+28 | File | `/bic/ssoService/v1/applyCT` | High
+29 | File | `/bin/httpd` | Medium
+30 | File | `/binutils/debug.c` | High
+31 | File | `/boafrm/formFilter` | High
+32 | File | `/boafrm/formMultiAP` | High
+33 | File | `/boafrm/formNtp` | High
+34 | File | `/boafrm/formParentControl` | High
+35 | File | `/boafrm/formSaveConfig` | High
+36 | File | `/boafrm/formStats` | High
+37 | File | `/boafrm/formSysCmd` | High
+38 | File | `/boafrm/formSysLog` | High
+39 | File | `/boafrm/formTmultiAP` | High
+40 | File | `/boafrm/formWirelessTbl` | High
+41 | File | `/boafrm/formWlSiteSurvey` | High
+42 | File | `/cancelbookingpatient.php` | High
+43 | File | `/cashconfirm.php` | High
+44 | File | `/cgi-bin/Config.cgi?action=set` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/editBookmark` | High
+47 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+48 | File | `/cgi-bin/login.cgi` | High
+49 | File | `/changeUsername.php` | High
+50 | File | `/config/php.ini` | High
+51 | File | `/dashboard/admin/submit_plan_new.php` | High
+52 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+53 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

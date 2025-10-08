@@ -46,13 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,59 +65,62 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/docker/open_subshell` | High
 3 | File | `/add_classes.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/ajax.php?action=save_settings` | High
-6 | File | `/admin/clients/` | High
-7 | File | `/admin/edit_customer.php` | High
-8 | File | `/admin/edit_fuel.php` | High
-9 | File | `/Admin/edit_profile.php` | High
-10 | File | `/admin/forgot-password.php` | High
-11 | File | `/admin/forms/option_lists/edit.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/mod_room/controller.php?action=add` | High
-14 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-15 | File | `/admin/services/manage_service.php` | High
-16 | File | `/admin/settings/index.php?page=accounts` | High
-17 | File | `/api/configs` | Medium
-18 | File | `/api/discoveries/` | High
-19 | File | `/api/snapshots/` | High
-20 | File | `/api/sys/set_passwd` | High
-21 | File | `/api/v2/maps` | Medium
-22 | File | `/api/v2/open/tablesInfo` | High
-23 | File | `/app/zentao/module/repo/model.php` | High
-24 | File | `/apps/system/api/user.go` | High
-25 | File | `/apps/system/router/upload.go` | High
-26 | File | `/blog` | Low
-27 | File | `/cap.js` | Low
-28 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/gui.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/settings-firewall.cgi` | High
-33 | File | `/change_pass/forgot_password_sql.php` | High
-34 | File | `/classes/Master.php?f=save_medicine` | High
-35 | File | `/conf/app.conf` | High
-36 | File | `/control/add_act.php` | High
-37 | File | `/control/login.php` | High
-38 | File | `/devinfo` | Medium
-39 | File | `/DXR.axd` | Medium
-40 | File | `/edit-computer-detail.php` | High
-41 | File | `/edit_book.php` | High
-42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-43 | File | `/Employee/changepassword.php` | High
-44 | File | `/Employer/EditProfile.php` | High
-45 | File | `/endpoint/add-account.php` | High
-46 | File | `/endpoint/delete-account.php` | High
-47 | File | `/fastcms.html#/template/menu` | High
-48 | File | `/file/accept.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-51 | File | `/goform/aspForm` | High
-52 | File | `/goform/saveParentControlInfo` | High
-53 | File | `/goform/SetFirewallCfg` | High
-54 | File | `/goform/SetRemoteWebManage` | High
-55 | ... | ... | ...
+5 | File | `/admin/?page=products/view_product` | High
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/admin/auto-taxi-entry-detail.php` | High
+8 | File | `/admin/candidates_add.php` | High
+9 | File | `/admin/clients/` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/edit_customer.php` | High
+12 | File | `/admin/edit_fuel.php` | High
+13 | File | `/Admin/edit_profile.php` | High
+14 | File | `/admin/forgot-password.php` | High
+15 | File | `/admin/forms/option_lists/edit.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/mod_room/controller.php?action=add` | High
+18 | File | `/admin/products/view_product.php` | High
+19 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+20 | File | `/admin/services/manage_service.php` | High
+21 | File | `/admin/settings/index.php?page=accounts` | High
+22 | File | `/ajax/screenshot.php` | High
+23 | File | `/api/configs` | Medium
+24 | File | `/api/discoveries/` | High
+25 | File | `/api/snapshots/` | High
+26 | File | `/api/sys/set_passwd` | High
+27 | File | `/api/v2/maps` | Medium
+28 | File | `/api/v2/open/tablesInfo` | High
+29 | File | `/app/zentao/module/repo/model.php` | High
+30 | File | `/apps/system/api/user.go` | High
+31 | File | `/apps/system/router/upload.go` | High
+32 | File | `/bin/httpd` | Medium
+33 | File | `/blog` | Low
+34 | File | `/boafrm/formPortFw` | High
+35 | File | `/cancelbookingpatient.php` | High
+36 | File | `/cap.js` | Low
+37 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/gui.cgi` | High
+40 | File | `/cgi-bin/nas_sharing.cgi` | High
+41 | File | `/cgi-bin/settings-firewall.cgi` | High
+42 | File | `/change_pass/forgot_password_sql.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=save_medicine` | High
+45 | File | `/conf/app.conf` | High
+46 | File | `/control/add_act.php` | High
+47 | File | `/control/login.php` | High
+48 | File | `/cusfindambulence2.php` | High
+49 | File | `/ddns.asp?opt=add` | High
+50 | File | `/devinfo` | Medium
+51 | File | `/DXR.axd` | Medium
+52 | File | `/edit-computer-detail.php` | High
+53 | File | `/edit_book.php` | High
+54 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+55 | File | `/Employee/changepassword.php` | High
+56 | File | `/Employer/EditProfile.php` | High
+57 | File | `/endpoint/add-account.php` | High
+58 | ... | ... | ...
 
-There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

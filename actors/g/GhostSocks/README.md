@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,17 +21,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [38.180.61.247](https://vuldb.com/?ip.38.180.61.247) | - | - | High
-2 | [38.180.205.164](https://vuldb.com/?ip.38.180.205.164) | - | - | High
-3 | [38.244.132.66](https://vuldb.com/?ip.38.244.132.66) | - | - | High
-4 | [43.248.117.194](https://vuldb.com/?ip.43.248.117.194) | - | - | High
-5 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
-6 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
-7 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
-8 | [46.8.236.61](https://vuldb.com/?ip.46.8.236.61) | - | - | High
+1 | [1.170.203.163](https://vuldb.com/?ip.1.170.203.163) | 1-170-203-163.dynamic-ip.hinet.net | - | High
+2 | [38.180.61.247](https://vuldb.com/?ip.38.180.61.247) | - | - | High
+3 | [38.180.205.164](https://vuldb.com/?ip.38.180.205.164) | - | - | High
+4 | [38.244.132.66](https://vuldb.com/?ip.38.244.132.66) | - | - | High
+5 | [43.248.117.194](https://vuldb.com/?ip.43.248.117.194) | - | - | High
+6 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
+7 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
+8 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,12 +39,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,14 +52,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/b2b-supermarket/catalog/all-products` | High
-2 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-3 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-4 | File | `addguest.cgi` | Medium
-5 | File | `admin/admin.php` | High
-6 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/group/list/` | High
+3 | File | `/admin/quizquestion.php` | High
+4 | File | `/b2b-supermarket/catalog/all-products` | High
+5 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+6 | File | `/dosen/data` | Medium
+7 | File | `/pms/update_user.php?user_id=1` | High
+8 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Microcin:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,58 +52,60 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/add-students.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/admin-update-employee.php` | High
-7 | File | `/admin/booktime.php` | High
-8 | File | `/admin/change-image.php` | High
-9 | File | `/admin/index.php/web/ajax_all_lists` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/member_save.php` | High
-12 | File | `/admin/search-vehicle.php` | High
-13 | File | `/admin/voters_row.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/authentication/login` | High
-16 | File | `/api/clusters/local/topics/{topic}/messages` | High
-17 | File | `/api/gen/clients/{language}` | High
-18 | File | `/API/info` | Medium
-19 | File | `/app/options.py` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/bin/httpd` | Medium
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-24 | File | `/cgi-bin/tosei_kikai.php` | High
-25 | File | `/cgi-bin/wapopen` | High
-26 | File | `/ci_spms/admin/category` | High
-27 | File | `/ci_spms/admin/search/searching/` | High
-28 | File | `/classes/Master.php?f=delete_appointment` | High
-29 | File | `/classes/Master.php?f=delete_train` | High
-30 | File | `/cov/triggerEnvCov` | High
-31 | File | `/ctcprotocol/Protocol` | High
-32 | File | `/dashboard/admin/del_plan.php` | High
-33 | File | `/dashboard/approve-reject.php` | High
-34 | File | `/dashboard/menu-list.php` | High
-35 | File | `/debug/pprof` | Medium
-36 | File | `/dede/file_manage_control.php` | High
-37 | File | `/detailed.php` | High
-38 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-39 | File | `/dist/index.js` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/ebics-server/ebics.aspx` | High
-42 | File | `/empty_rooms.php` | High
-43 | File | `/etc/gsissh/sshd_config` | High
-44 | File | `/EXCU_SHELL` | Medium
-45 | File | `/ffos/classes/Master.php?f=save_category` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/general/address/private/address/query/delete.php` | High
-48 | File | `/goform/ate` | Medium
-49 | File | `/goform/form2systime.cgi` | High
-50 | File | `/goform/formSetLog` | High
-51 | File | `/goform/formWlanSetup_Wizard` | High
-52 | File | `/goform/formWlanWizardSetup` | High
-53 | ... | ... | ...
+4 | File | `/admin-api/mp/material/upload-permanent` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/admin-update-employee.php` | High
+8 | File | `/admin/booktime.php` | High
+9 | File | `/admin/change-image.php` | High
+10 | File | `/admin/complaint-details.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php/web/ajax_all_lists` | High
+13 | File | `/Admin/login.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/manage-users.php` | High
+16 | File | `/admin/member_save.php` | High
+17 | File | `/admin/search-vehicle.php` | High
+18 | File | `/admin/student_edit_photo.php` | High
+19 | File | `/admin/suppliercontroller.php` | High
+20 | File | `/admin/user-profile.php` | High
+21 | File | `/admin/voters_row.php` | High
+22 | File | `/adminac.php` | Medium
+23 | File | `/ajax.php?action=read_msg` | High
+24 | File | `/api/authentication/login` | High
+25 | File | `/api/clusters/local/topics/{topic}/messages` | High
+26 | File | `/api/gen/clients/{language}` | High
+27 | File | `/API/info` | Medium
+28 | File | `/application/common.php` | High
+29 | File | `/applyleave.php` | High
+30 | File | `/bin/boa` | Medium
+31 | File | `/bin/httpd` | Medium
+32 | File | `/browse.php` | Medium
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/myMusic.cgi` | High
+35 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+36 | File | `/cgi-bin/tosei_kikai.php` | High
+37 | File | `/cgi-bin/wapopen` | High
+38 | File | `/charms` | Low
+39 | File | `/classes/Master.php?f=delete_appointment` | High
+40 | File | `/cms/collect/getPages` | High
+41 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+42 | File | `/cov/triggerEnvCov` | High
+43 | File | `/ctcprotocol/Protocol` | High
+44 | File | `/dashboard/admin/del_plan.php` | High
+45 | File | `/dashboard/approve-reject.php` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/dede/file_manage_control.php` | High
+48 | File | `/detailed.php` | High
+49 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+50 | File | `/dist/index.js` | High
+51 | File | `/doctor/search.php` | High
+52 | File | `/DXR.axd` | Medium
+53 | File | `/ebics-server/ebics.aspx` | High
+54 | File | `/empty_rooms.php` | High
+55 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,40 +66,40 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/video/list` | High
 6 | File | `/ajax.php?action=update_account` | High
 7 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-10 | File | `/controllers/updatesettings.php` | High
-11 | File | `/course.php` | Medium
-12 | File | `/dl/dl_sendmail.php` | High
-13 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-14 | File | `/ecommerce/admin/products/controller.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/qci/answers` | High
-17 | File | `/function/booksave.php` | High
-18 | File | `/goform/addressNat` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/H5/versionupdate.data` | High
-21 | File | `/inc/campaign/campaign-delete.php` | High
-22 | File | `/include/menu_v.inc.php` | High
-23 | File | `/librarian/lab.php` | High
-24 | File | `/login/` | Low
-25 | File | `/manage_laundry.php` | High
-26 | File | `/omos/admin/?page=user/list` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/panel/fields/add` | High
-29 | File | `/patient/settings.php` | High
-30 | File | `/proc/*/cmdline"` | High
-31 | File | `/proc/pid/syscall` | High
-32 | File | `/proxy` | Low
-33 | File | `/rental/ajax.php?action=delete_tenant` | High
-34 | File | `/sbin/acos_service` | High
-35 | File | `/sgmi/` | Low
-36 | File | `/so.php` | Low
-37 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
-38 | File | `/SysInfo.htm` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+11 | File | `/controllers/updatesettings.php` | High
+12 | File | `/course.php` | Medium
+13 | File | `/dl/dl_sendmail.php` | High
+14 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+15 | File | `/ecommerce/admin/products/controller.php` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/etc/qci/answers` | High
+18 | File | `/function/booksave.php` | High
+19 | File | `/goform/addressNat` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/H5/versionupdate.data` | High
+22 | File | `/inc/campaign/campaign-delete.php` | High
+23 | File | `/include/menu_v.inc.php` | High
+24 | File | `/librarian/lab.php` | High
+25 | File | `/login/` | Low
+26 | File | `/manage_laundry.php` | High
+27 | File | `/omos/admin/?page=user/list` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/panel/fields/add` | High
+30 | File | `/patient/settings.php` | High
+31 | File | `/proc/*/cmdline"` | High
+32 | File | `/proc/pid/syscall` | High
+33 | File | `/proxy` | Low
+34 | File | `/rental/ajax.php?action=delete_tenant` | High
+35 | File | `/sbin/acos_service` | High
+36 | File | `/sgmi/` | Low
+37 | File | `/so.php` | Low
+38 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
 39 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

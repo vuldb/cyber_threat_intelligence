@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vancouver Unknown:
 
-* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -213,7 +213,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1548.002 | CWE-285 | Improper Authorization | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1548.002 | CWE-285 | Improper Authorization | High
 
 ## IOA - Indicator of Attack
 

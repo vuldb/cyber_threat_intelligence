@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cloud Hopper:
 
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,26 +80,26 @@ ID | Type | Indicator | Confidence
 5 | File | `/API/info` | Medium
 6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 7 | File | `/Bloodgroop_process.php` | High
-8 | File | `/CCMAdmin/serverlist.asp` | High
-9 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-10 | File | `/cgi/get_param.cgi` | High
-11 | File | `/csms/admin/inquiries/view_details.php` | High
-12 | File | `/cstecgi.cgi` | Medium
-13 | File | `/dashboard/updatelogo.php` | High
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/etc/openshift/server_priv.pem` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/home/search` | Medium
-18 | File | `/hrm/employeeview.php` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/licenses` | Medium
-23 | File | `/members/view_member.php` | High
-24 | File | `/messageboard/view.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/Noxen-master/users.php` | High
+8 | File | `/cancelbookingpatient.php` | High
+9 | File | `/CCMAdmin/serverlist.asp` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi/get_param.cgi` | High
+14 | File | `/csms/admin/inquiries/view_details.php` | High
+15 | File | `/cstecgi.cgi` | Medium
+16 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+17 | File | `/ecommerce/support_ticket` | High
+18 | File | `/etc/openshift/server_priv.pem` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/verifyFacebookLike` | High
+21 | File | `/home/search` | Medium
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/licenses` | Medium
+26 | File | `/messageboard/view.php` | High
+27 | File | `/mhds/clinic/view_details.php` | High
 28 | File | `/out.php` | Medium
 29 | File | `/owa/auth/logon.aspx` | High
 30 | File | `/rest/api/latest/projectvalidate/key` | High
@@ -109,12 +109,13 @@ ID | Type | Indicator | Confidence
 34 | File | `/textpattern/index.php` | High
 35 | File | `/uncpath/` | Medium
 36 | File | `/upfile.cgi` | Medium
-37 | File | `/webui/modules/log/operate.mds` | High
-38 | File | `/wordpress/wp-admin/admin.php` | High
-39 | File | `/wuser/anyUserBoundHouse.php` | High
-40 | ... | ... | ...
+37 | File | `/WEAS_AlarmResult/GetAlarmResultProcessList` | High
+38 | File | `/webui/modules/log/operate.mds` | High
+39 | File | `/wordpress/wp-admin/admin.php` | High
+40 | File | `/wuser/anyUserBoundHouse.php` | High
+41 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

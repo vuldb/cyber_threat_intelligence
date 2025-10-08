@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PK](https://vuldb.com/?country.pk)
 * [OM](https://vuldb.com/?country.om)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -185,22 +185,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/a/sys/user/save` | High
 2 | File | `/activation.php` | High
-3 | File | `/admin/?page=reports` | High
-4 | File | `/admin/ajax.php?action=save_settings` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/massage.php` | High
-7 | File | `/admin/sys/user/list` | High
-8 | File | `/admin/views/freepbx_reload.php` | High
-9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-10 | File | `/app/fax/fax_view.php` | High
-11 | File | `/application/index/controller/Screen.php` | High
-12 | File | `/auth/session` | High
-13 | File | `/bin/sh` | Low
-14 | File | `/bolt/editcontent/showcases` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | ... | ... | ...
+3 | File | `/admin-profile.php` | High
+4 | File | `/admin/?page=reports` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/admin/category-list.php` | High
+8 | File | `/Admin/consulting_detail.php` | High
+9 | File | `/admin/edit_category.php` | High
+10 | File | `/admin/eligibility.php` | High
+11 | File | `/admin/index.php?page=manage_product` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/massage.php` | High
+14 | File | `/admin/member_save.php` | High
+15 | File | `/admin/products/manage_product.php` | High
+16 | File | `/admin/sys/user/list` | High
+17 | File | `/admin/views/freepbx_reload.php` | High
+18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+19 | File | `/ajax.php?action=login` | High
+20 | File | `/alphaware/summary.php` | High
+21 | File | `/animalsadd.php` | High
+22 | File | `/api/admin/question/edit` | High
+23 | File | `/api/v1/attack` | High
+24 | File | `/app/fax/fax_view.php` | High
+25 | File | `/application/index/controller/Screen.php` | High
+26 | File | `/bin/sh` | Low
+27 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

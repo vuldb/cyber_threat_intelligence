@@ -31,9 +31,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [45.9.74.13](https://vuldb.com/?ip.45.9.74.13) | - | - | High
 3 | [45.9.74.32](https://vuldb.com/?ip.45.9.74.32) | - | - | High
 4 | [45.9.74.36](https://vuldb.com/?ip.45.9.74.36) | - | - | High
-5 | ... | ... | ... | ...
+5 | [45.9.74.176](https://vuldb.com/?ip.45.9.74.176) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,9 +62,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/uncpath/` | Medium
 6 | File | `add_comment.php` | High
 7 | File | `admin\posts\view_post.php` | High
-8 | ... | ... | ...
+8 | File | `ajax/include.php` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -71,8 +73,10 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/53158/
 * https://bazaar.abuse.ch/sample/3a948982d87b89fe3c05f1b6265d6435e19d51fd970bd773ab0b01e013e1a171/
+* https://bazaar.abuse.ch/sample/3ef0230b95c4a10afe29a332bf5c2617b5feacda4284958bce2b86078d3588be/
 * https://bazaar.abuse.ch/sample/7b2f96005259d0cd6fc264585b7b5dd07aa9bf2f81dbfad3ba343e82e436398f/
 * https://bazaar.abuse.ch/sample/16d767a9d05c17140fd3f1a6c6e106015681c3b8f46b32f3a1b4f97663ce5e4a/
+* https://bazaar.abuse.ch/sample/22be8e80d23d669df95b96c25f3e709230b76a603ed17c7da507f05951d168af/
 * https://bazaar.abuse.ch/sample/956c50d8878fc708f27dd53fca71ec874c4304d2a43e4ca939c4a0b26d87d6f8/
 * https://bazaar.abuse.ch/sample/a2e7ac3901f5a974f66d12600a41239ca5040bb12c0c60969f12a36f2d3bc7e1/
 * https://bazaar.abuse.ch/sample/b9ae263904d3a5fb8471a0f8ab95fcbb224f632e6185e3a110e8d5aed9785420/

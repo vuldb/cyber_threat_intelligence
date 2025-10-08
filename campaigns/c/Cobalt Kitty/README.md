@@ -58,14 +58,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/v1/settings` | High
 2 | File | `/cgi-bin/cgiServer.exx` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `add_vhost.php` | High
-5 | File | `admin/gv_mail.php` | High
-6 | File | `adv2.php?action=modify` | High
-7 | File | `asm/float.c` | Medium
-8 | ... | ... | ...
+3 | File | `/goform/telnet` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `add_vhost.php` | High
+6 | File | `admin/gv_mail.php` | High
+7 | File | `adv2.php?action=modify` | High
+8 | File | `asm/float.c` | Medium
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

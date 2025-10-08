@@ -14,20 +14,21 @@ The following _campaigns_ are known and can be associated with Lazarus:
 * Fallchill
 * Hidden Cobra
 * Hoplight
+* Hotcroissant
 * ...
 
-There are 11 more campaign items available. Please use our online service to access the data.
+There are 13 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -300,9 +301,11 @@ ID | IP address | Hostname | Campaign | Confidence
 263 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
 264 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
 265 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
-266 | ... | ... | ... | ...
+266 | [54.38.11.132](https://vuldb.com/?ip.54.38.11.132) | ip132.ip-54-38-11.eu | - | High
+267 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
+268 | ... | ... | ... | ...
 
-There are 1061 more IOC items available. Please use our online service to access the data.
+There are 1068 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -310,13 +313,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -324,103 +327,102 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Account/login.php` | High
-2 | File | `/add-computer.php` | High
-3 | File | `/add-subadmin.php` | High
-4 | File | `/add-users.php` | High
-5 | File | `/addCatController.php` | High
-6 | File | `/addcustcom.php` | High
-7 | File | `/adds.php` | Medium
-8 | File | `/admin-api/mp/material/upload-news-image` | High
-9 | File | `/admin.php/accessory/filesdel.html` | High
-10 | File | `/admin.php/update/getFile.html` | High
-11 | File | `/admin/` | Low
-12 | File | `/admin/aboutus.php` | High
-13 | File | `/admin/action/edit_chicken.php` | High
-14 | File | `/admin/add-artist.php` | High
-15 | File | `/admin/add-customer-services.php` | High
+1 | File | `.kdbgrc` | Low
+2 | File | `/?import` | Medium
+3 | File | `/actuator` | Medium
+4 | File | `/add-table.php` | High
+5 | File | `/adduser-exec.php` | High
+6 | File | `/Add_reciver.php` | High
+7 | File | `/admin#themes` | High
+8 | File | `/admin-cp/theme/editor/default` | High
+9 | File | `/admin-cp/theme/install` | High
+10 | File | `/admin-inbox.php` | High
+11 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+12 | File | `/admin/` | Low
+13 | File | `/admin/?page=sales/view_sale` | High
+14 | File | `/admin/aboutus.php` | High
+15 | File | `/admin/add-foreigner-ticket.php` | High
 16 | File | `/admin/add-normal-ticket.php` | High
-17 | File | `/admin/admin.php` | High
-18 | File | `/admin/admin_action.php` | High
-19 | File | `/admin/admin_addnew_product.php` | High
-20 | File | `/admin/admin_feature.php` | High
-21 | File | `/admin/admin_user.php` | High
-22 | File | `/admin/ajax.php?action=delete_vacancy` | High
-23 | File | `/admin/ajax.php?action=login` | High
-24 | File | `/admin/ajax.php?action=save_vacancy` | High
-25 | File | `/admin/app/login_crud.php` | High
-26 | File | `/admin/app/role_crud.php` | High
-27 | File | `/admin/app/web_crud.php` | High
-28 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-29 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
-30 | File | `/admin/booking-bwdates-reports-details.php` | High
-31 | File | `/admin/candidates_delete.php` | High
-32 | File | `/admin/category.php` | High
-33 | File | `/admin/cms_content.php` | High
-34 | File | `/admin/confirm.php` | High
-35 | File | `/admin/confirm_reserve.php` | High
-36 | File | `/admin/contactus.php` | High
-37 | File | `/admin/content/book` | High
-38 | File | `/admin/department.php` | High
-39 | File | `/admin/edit-art-medium-detail.php` | High
-40 | File | `/admin/edit-class.php` | High
-41 | File | `/admin/edit-services.php` | High
-42 | File | `/admin/edit-subadmin.php` | High
-43 | File | `/admin/edit-subcategory.php` | High
-44 | File | `/admin/edit_category.php` | High
-45 | File | `/admin/edit_product.php` | High
-46 | File | `/admin/forgot-password.php` | High
-47 | File | `/admin/getallarticleinfo` | High
-48 | File | `/admin/home.php` | High
-49 | File | `/admin/index.php` | High
-50 | File | `/admin/lab.php` | High
-51 | File | `/admin/leancloud.php` | High
-52 | File | `/admin/login.php` | High
-53 | File | `/admin/maintenance/manage_category.php` | High
-54 | File | `/admin/manage-art-medium.php` | High
-55 | File | `/admin/manage-normal-ticket.php` | High
-56 | File | `/admin/manage-services.php` | High
-57 | File | `/admin/mechanics/manage_mechanic.php` | High
-58 | File | `/admin/mod_room/controller.php?action=add` | High
-59 | File | `/admin/network/diag_nslookup` | High
-60 | File | `/admin/network/diag_pinginterface` | High
-61 | File | `/Admin/NewsReport.php` | High
-62 | File | `/admin/normal-bwdates-reports-details.php` | High
-63 | File | `/admin/password-recovery.php` | High
-64 | File | `/admin/process_category_edit.php` | High
-65 | File | `/admin/profile.php` | High
-66 | File | `/admin/save_teacher.php` | High
-67 | File | `/admin/search-directory.php.` | High
-68 | File | `/admin/search-medicalcard.php` | High
-69 | File | `/admin/search-property.php` | High
-70 | File | `/admin/singlelogin.php?submit=1` | High
-71 | File | `/admin/sou.php` | High
-72 | File | `/admin/state.php` | High
-73 | File | `/admin/students/manage_academic.php` | High
-74 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-75 | File | `/admin/upload` | High
-76 | File | `/admin/voters_delete.php` | High
-77 | File | `/admin?do=admin:user:editPost` | High
-78 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-79 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-80 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-81 | File | `/adminprofile.php` | High
-82 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-83 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-84 | File | `/ajax.php?action=delete_allowances` | High
-85 | File | `/ajax.php?action=delete_member` | High
-86 | File | `/ajax.php?action=delete_package` | High
-87 | File | `/ajax.php?action=save_company` | High
-88 | File | `/ajax.php?action=save_member` | High
-89 | File | `/ajax.php?action=save_position` | High
-90 | File | `/ajax/get_patient_history.php` | High
-91 | File | `/ajx.php` | Medium
-92 | File | `/api.php` | Medium
-93 | File | `/api/client/article/list` | High
-94 | File | `/api/dept` | Medium
-95 | ... | ... | ...
+17 | File | `/admin/add_subject.php` | High
+18 | File | `/admin/add_teacher.php` | High
+19 | File | `/admin/add_title.php` | High
+20 | File | `/admin/admin-profile.php` | High
+21 | File | `/admin/admin_index.php` | High
+22 | File | `/admin/ajax.php?action=save_application` | High
+23 | File | `/admin/app/soulwinning_crud.php` | High
+24 | File | `/admin/article/article-edit-run.php` | High
+25 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+26 | File | `/admin/booking-details.php` | High
+27 | File | `/admin/booking_report.php` | High
+28 | File | `/admin/bwdates-reports-details.php` | High
+29 | File | `/admin/change-image.php` | High
+30 | File | `/admin/class.php` | High
+31 | File | `/admin/comment/list` | High
+32 | File | `/admin/contact-list.php` | High
+33 | File | `/admin/create-package.php` | High
+34 | File | `/admin/delete.php` | High
+35 | File | `/admin/deleteBooking.php` | High
+36 | File | `/admin/delete_s2.php` | High
+37 | File | `/admin/department.php` | High
+38 | File | `/admin/department/add` | High
+39 | File | `/admin/de_activate.php` | High
+40 | File | `/admin/disapprove_user.php` | High
+41 | File | `/admin/doctor-specilization.php` | High
+42 | File | `/admin/edit-art-medium-detail.php` | High
+43 | File | `/admin/edit-category.php` | High
+44 | File | `/admin/edit-class.php?cid=1` | High
+45 | File | `/admin/edit-customer-detailed.php` | High
+46 | File | `/admin/edit-services.php` | High
+47 | File | `/admin/edit-teacher-info.php` | High
+48 | File | `/admin/edit-teacher.php` | High
+49 | File | `/admin/edit-user.php` | High
+50 | File | `/Admin/EditCategory` | High
+51 | File | `/admin/editorder.php` | High
+52 | File | `/admin/edituser.php` | High
+53 | File | `/admin/edit_class.php` | High
+54 | File | `/admin/edit_product.php` | High
+55 | File | `/admin/edit_student.php` | High
+56 | File | `/admin/edit_tax.php` | High
+57 | File | `/admin/eligibility.php` | High
+58 | File | `/admin/email_setup.php` | High
+59 | File | `/admin/finished.php` | High
+60 | File | `/admin/index.php?language=en&nv=upload` | High
+61 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+62 | File | `/admin/kami_list` | High
+63 | File | `/admin/login` | Medium
+64 | File | `/admin/manage-teams.php` | High
+65 | File | `/admin/manage-tickets.php` | High
+66 | File | `/admin/member_save.php` | High
+67 | File | `/admin/menus/view_menu.php` | High
+68 | File | `/admin/offenses/view_details.php` | High
+69 | File | `/admin/operation/paid.php` | High
+70 | File | `/admin/operations/booking.php` | High
+71 | File | `/admin/operations/expense_category.php` | High
+72 | File | `/admin/password-recovery.php` | High
+73 | File | `/admin/patient.php` | High
+74 | File | `/admin/positions_delete.php` | High
+75 | File | `/Admin/registration.php` | High
+76 | File | `/admin/search.php` | High
+77 | File | `/admin/seo_setting.php` | High
+78 | File | `/admin/session.php` | High
+79 | File | `/admin/sms_setting.php` | High
+80 | File | `/admin/student-history.php` | High
+81 | File | `/admin/sys/log/list` | High
+82 | File | `/admin/tags/save` | High
+83 | File | `/admin/templates/animal_form_template.php` | High
+84 | File | `/admin/topic/list` | High
+85 | File | `/admin/update_s1.php` | High
+86 | File | `/admin/update_s2.php` | High
+87 | File | `/admin/update_s4.php` | High
+88 | File | `/admin/update_student.php` | High
+89 | File | `/Admin/User.php` | High
+90 | File | `/admin/user.php` | High
+91 | File | `/admin/view-normal-ticket.php` | High
+92 | File | `/admin/workin-progress-requests.php` | High
+93 | File | `/administrator/index.php` | High
+94 | ... | ... | ...
 
-There are 841 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 827 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -452,6 +454,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://labs.f-secure.com/assets/BlogFiles/f-secureLABS-tlp-white-lazarus-threat-intel-report2.pdf
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf
 * https://research.checkpoint.com/2019/north-korea-turns-against-russian-targets/
+* https://rewterz.com/threat-advisory/lazarus-tricks-users-with-device-warnings-to-install-rat-active-iocs
 * https://securelist.com/dtrack-targeting-europe-latin-america/107798/
 * https://socket.dev/blog/lazarus-strikes-npm-again-with-a-new-wave-of-malicious-packages
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lazarus-dream-job-chemical
@@ -467,8 +470,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar21-048c
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.04.27/Lazarus%20Group%20Recruitment.pdf
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-108a
+* https://www.cyfirma.com/research/lazarus-stealer-android-malware-for-russian-bank-credential-theft-through-overlay-and-sms-manipulation/
 * https://www.esentire.com/blog/bored-beavertail-invisibleferret-yacht-club-a-lazarus-lure-pt-2
 * https://www.esentire.com/blog/bored-beavertail-yacht-club-a-lazarus-lure
+* https://www.securityjoes.com/post/operation-silent-recruiter-over-50-github-accounts-tied-to-lazarus-fake-recruiter-campaign
 * https://www.sentinelone.com/blog/four-distinct-families-of-lazarus-malware-target-apples-macos-platform/
 * https://www.sentinelone.com/labs/comrades-in-arms-north-korea-compromises-sanctioned-russian-missile-engineering-company/
 * https://www.silentpush.com/blog/astrill-vpn/

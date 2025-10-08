@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -836,7 +836,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -852,33 +852,33 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/admin/manage-pages.php` | High
-7 | File | `/admin/manage-tickets.php` | High
-8 | File | `/admin/report.php` | High
-9 | File | `/admin/twitter.php` | High
-10 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-12 | File | `/api/v1/settings` | High
-13 | File | `/api/v1/toolbox/device/update/swap` | High
-14 | File | `/app/zentao/module/repo/model.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-18 | File | `/cgi-bin/info.cgi` | High
-19 | File | `/Code/loginnew.php` | High
-20 | File | `/Code/sc_login.php` | High
-21 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-22 | File | `/dashboard/admin/edit_member.php` | High
-23 | File | `/dashboard/admin/edit_mem_submit.php` | High
-24 | File | `/dashboard/admin/new_submit.php` | High
-25 | File | `/dashboard/message` | High
-26 | File | `/details.php` | Medium
-27 | File | `/details2.php` | High
+4 | File | `/admin/admin_action.php` | High
+5 | File | `/admin/booking-bwdates-reports-details.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage-tickets.php` | High
+9 | File | `/admin/new-content` | High
+10 | File | `/admin/report.php` | High
+11 | File | `/admin/voters_add.php` | High
+12 | File | `/admin/voters_delete.php` | High
+13 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+14 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+15 | File | `/api/v1/settings` | High
+16 | File | `/app/zentao/module/repo/model.php` | High
+17 | File | `/authentication/logout.php` | High
+18 | File | `/bin/httpd` | Medium
+19 | File | `/boafrm/formFilter` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+22 | File | `/cgi-bin/info.cgi` | High
+23 | File | `/dashboard/admin/submit_plan_new.php` | High
+24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+25 | File | `/devinfo` | Medium
+26 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+27 | File | `/DXR.axd` | Medium
 28 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

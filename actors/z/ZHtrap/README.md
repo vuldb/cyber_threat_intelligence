@@ -80,20 +80,21 @@ ID | Type | Indicator | Confidence
 28 | File | `/goform/DhcpSetSer` | High
 29 | File | `/goform/formAdvanceSetup` | High
 30 | File | `/goform/operateMacFilter` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/group/apply` | Medium
-33 | File | `/home/index.html#hashHome` | High
-34 | File | `/image_zoom.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index.php?action=editManager` | High
-37 | File | `/instance/detail` | High
-38 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-39 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-40 | File | `/master/core/PostHandler.php` | High
-41 | File | `/mdiy/dict/list` | High
-42 | ... | ... | ...
+31 | File | `/goform/RP_setBasicAuto` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/group/apply` | Medium
+34 | File | `/home/index.html#hashHome` | High
+35 | File | `/image_zoom.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?action=editManager` | High
+38 | File | `/instance/detail` | High
+39 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+40 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+41 | File | `/master/core/PostHandler.php` | High
+42 | File | `/mdiy/dict/list` | High
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

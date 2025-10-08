@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IE](https://vuldb.com/?country.ie)
+* [IO](https://vuldb.com/?country.io)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +48,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/zm/index.php` | High
 4 | File | `administrator/components/com_media/helpers/media.php` | High
 5 | File | `al_initialize.php` | High
-6 | File | `as_archives.php` | High
-7 | File | `bn_smrep1.php` | High
-8 | File | `CartView.php` | Medium
-9 | File | `cgi-bin/mft/wireless_mft.cgi` | High
-10 | File | `cgi-bin/write.cgi` | High
-11 | File | `ch_info.php` | Medium
-12 | File | `cl_catlisting.asp` | High
-13 | ... | ... | ...
+6 | File | `assimp/code/AssetLib/MDL/MDLLoader.cpp` | High
+7 | File | `as_archives.php` | High
+8 | File | `bn_smrep1.php` | High
+9 | File | `CartView.php` | Medium
+10 | File | `cgi-bin/mft/wireless_mft.cgi` | High
+11 | File | `cgi-bin/write.cgi` | High
+12 | File | `ch_info.php` | Medium
+13 | File | `cl_catlisting.asp` | High
+14 | ... | ... | ...
 
 There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

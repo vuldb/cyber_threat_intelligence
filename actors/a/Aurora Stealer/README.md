@@ -105,13 +105,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/backend/doc/his_doc_update-account.php` | High
-2 | File | `/classes/Master.php?f=delete_inquiry` | High
-3 | File | `/hoteldruid/interconnessioni.php` | High
-4 | File | `/index.php?page=member` | High
-5 | File | `/mobileredir/openApp.jsp` | High
-6 | ... | ... | ...
+2 | File | `/hoteldruid/interconnessioni.php` | High
+3 | File | `/index.php?page=member` | High
+4 | File | `/mobileredir/openApp.jsp` | High
+5 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

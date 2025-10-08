@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ryuk:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -60,8 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -76,63 +75,65 @@ ID | Type | Indicator | Confidence
 3 | File | `/add-subadmin.php` | High
 4 | File | `/add_new_invoice.php` | High
 5 | File | `/add_user.php` | High
-6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/` | Low
-8 | File | `/admin/action/delete-vaccine.php` | High
-9 | File | `/admin/admin-update-employee.php` | High
-10 | File | `/Admin/akun_edit.php` | High
-11 | File | `/admin/apply.php` | High
-12 | File | `/admin/booktime.php` | High
-13 | File | `/admin/change-image.php` | High
-14 | File | `/admin/content/editor` | High
-15 | File | `/admin/create-package.php` | High
-16 | File | `/admin/doAdminAction.php?act=addCate` | High
-17 | File | `/admin/edit-brand.php` | High
-18 | File | `/admin/edit-post.php` | High
-19 | File | `/admin/index.php/web/ajax_all_lists` | High
-20 | File | `/admin/index2.html` | High
-21 | File | `/admin/login.php` | High
-22 | File | `/admin/member_save.php` | High
-23 | File | `/admin/profile.php` | High
-24 | File | `/Admin/Proses_Edit_Akun.php` | High
-25 | File | `/admin/robot.php` | High
-26 | File | `/admin/search-invoices.php` | High
-27 | File | `/admin/search-vehicle.php` | High
-28 | File | `/admin/twitter.php` | High
-29 | File | `/admin/voters_row.php` | High
-30 | File | `/api/authentication/login` | High
-31 | File | `/api/clusters/local/topics/{topic}/messages` | High
-32 | File | `/API/info` | Medium
-33 | File | `/app/controller/Api.php` | High
-34 | File | `/app/index/controller/Common.php` | High
-35 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-36 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-37 | File | `/applications/nexus/modules/front/store/store.php` | High
-38 | File | `/backend/doc/his_doc_update-account.php` | High
-39 | File | `/bitrix/admin/ldap_server_edit.php` | High
-40 | File | `/cgi-bin/apkg_mgr.cgi` | High
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | File | `/cgi-bin/nas_sharing.cgi` | High
-43 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-44 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-45 | File | `/cgi-bin/tosei_kikai.php` | High
-46 | File | `/classes/Master.php` | High
-47 | File | `/classes/Master.php?f=delete_record` | High
-48 | File | `/classes/Master.php?f=save_category` | High
-49 | File | `/classes/SystemSettings.php?f=update_settings` | High
-50 | File | `/classes/Users.php?f=save` | High
-51 | File | `/cov/triggerEnvCov` | High
-52 | File | `/customnode/install` | High
-53 | File | `/dashboard/admin/del_plan.php` | High
-54 | File | `/dashboard/approve-reject.php` | High
-55 | File | `/deal/{note_id}/note` | High
-56 | File | `/debug/pprof` | Medium
-57 | File | `/dede/file_manage_control.php` | High
-58 | File | `/detailed.php` | High
-59 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-60 | ... | ... | ...
+6 | File | `/admin-api/mp/material/upload-permanent` | High
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/action/delete-vaccine.php` | High
+10 | File | `/admin/admin-update-employee.php` | High
+11 | File | `/Admin/akun_edit.php` | High
+12 | File | `/admin/apply.php` | High
+13 | File | `/admin/booktime.php` | High
+14 | File | `/admin/change-image.php` | High
+15 | File | `/admin/complaint-details.php` | High
+16 | File | `/admin/content/editor` | High
+17 | File | `/admin/create-package.php` | High
+18 | File | `/admin/doAdminAction.php?act=addCate` | High
+19 | File | `/admin/edit-brand.php` | High
+20 | File | `/admin/edit-post.php` | High
+21 | File | `/admin/index.php/web/ajax_all_lists` | High
+22 | File | `/admin/index2.html` | High
+23 | File | `/admin/login.php` | High
+24 | File | `/admin/manage-users.php` | High
+25 | File | `/admin/member_save.php` | High
+26 | File | `/admin/profile.php` | High
+27 | File | `/Admin/Proses_Edit_Akun.php` | High
+28 | File | `/admin/robot.php` | High
+29 | File | `/admin/search-invoices.php` | High
+30 | File | `/admin/search-vehicle.php` | High
+31 | File | `/admin/student_edit_photo.php` | High
+32 | File | `/admin/suppliercontroller.php` | High
+33 | File | `/admin/twitter.php` | High
+34 | File | `/admin/user-profile.php` | High
+35 | File | `/admin/voters_row.php` | High
+36 | File | `/api/authentication/login` | High
+37 | File | `/api/clusters/local/topics/{topic}/messages` | High
+38 | File | `/API/info` | Medium
+39 | File | `/app/controller/Api.php` | High
+40 | File | `/app/index/controller/Common.php` | High
+41 | File | `/application/common.php` | High
+42 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+43 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+44 | File | `/applications/nexus/modules/front/store/store.php` | High
+45 | File | `/applyleave.php` | High
+46 | File | `/backend/doc/his_doc_update-account.php` | High
+47 | File | `/bitrix/admin/ldap_server_edit.php` | High
+48 | File | `/browse.php` | Medium
+49 | File | `/cgi-bin/apkg_mgr.cgi` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/myMusic.cgi` | High
+52 | File | `/cgi-bin/nas_sharing.cgi` | High
+53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+54 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+55 | File | `/cgi-bin/tosei_kikai.php` | High
+56 | File | `/charms` | Low
+57 | File | `/classes/Master.php` | High
+58 | File | `/classes/Master.php?f=delete_record` | High
+59 | File | `/classes/Master.php?f=save_category` | High
+60 | File | `/classes/SystemSettings.php?f=update_settings` | High
+61 | File | `/classes/Users.php?f=save` | High
+62 | ... | ... | ...
 
-There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

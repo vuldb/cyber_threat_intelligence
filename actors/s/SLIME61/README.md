@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,12 +60,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/circuits/circuits/{id}/edit/` | High
 6 | File | `/dcim/console-server-ports/add/` | High
 7 | File | `/dcim/power-outlets/add` | High
-8 | File | `/login.php` | Medium
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/soap` | Low
+8 | File | `/fileUpload` | Medium
+9 | File | `/login.php` | Medium
+10 | File | `/owa/auth/logon.aspx` | High
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

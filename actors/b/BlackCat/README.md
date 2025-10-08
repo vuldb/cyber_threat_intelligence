@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackCat:
 
 * [US](https://vuldb.com/?country.us)
-* [SV](https://vuldb.com/?country.sv)
 * [RU](https://vuldb.com/?country.ru)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -68,59 +68,59 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/list_onlineuser.php` | High
 14 | File | `/admin/login.php` | High
 15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/options` | High
-17 | File | `/admin/pages/update_go.php` | High
-18 | File | `/admin/report/index.php` | High
-19 | File | `/admin/services/manage_service.php` | High
-20 | File | `/admin/settings/` | High
-21 | File | `/admin/show.php` | High
-22 | File | `/admin/students/update_status.php` | High
-23 | File | `/admin/subject.php` | High
-24 | File | `/admin/user/manage_user.php` | High
-25 | File | `/ample/app/ajax/member_data.php` | High
-26 | File | `/app/index/controller/Common.php` | High
-27 | File | `/apply.cgi` | Medium
-28 | File | `/article/DelectArticleById/` | High
-29 | File | `/auth/auth.php?user=1` | High
-30 | File | `/b2b-supermarket/shopping-cart` | High
-31 | File | `/blog` | Low
-32 | File | `/category.php` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-36 | File | `/cgi-bin/nas_sharing.cgi` | High
-37 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-38 | File | `/classes/Master.php?f=delete_category` | High
-39 | File | `/classes/Master.php?f=delete_inquiry` | High
-40 | File | `/classes/Master.php?f=save_reminder` | High
-41 | File | `/collection/all` | High
-42 | File | `/company/store` | High
-43 | File | `/config/list` | Medium
-44 | File | `/designation_viewmore.php` | High
-45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-46 | File | `/ext/phar/phar_object.c` | High
-47 | File | `/file-manager/upload.php` | High
-48 | File | `/foms/place-order.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/forum/PostPrivateMessage` | High
-51 | File | `/fos/admin/index.php?page=menu` | High
-52 | File | `/friends` | Medium
-53 | File | `/goform/WifiBasicSet` | High
-54 | File | `/graphql` | Medium
-55 | File | `/home/get_tasks_list` | High
-56 | File | `/importexport.php` | High
-57 | File | `/index.php` | Medium
-58 | File | `/items/search` | High
-59 | File | `/jurusan/data` | High
-60 | File | `/listplace/user/coverPhotoUpdate` | High
-61 | File | `/login.php` | Medium
-62 | File | `/login/index.php` | High
-63 | File | `/menu.html` | Medium
-64 | File | `/multiarch/memmove-vec-unaligned-erms.S` | High
-65 | File | `/my_photo_gallery/image.php` | High
-66 | File | `/news-portal-script/information.php` | High
-67 | File | `/patient/doctors.php` | High
-68 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+16 | File | `/admin/media_folders` | High
+17 | File | `/admin/options` | High
+18 | File | `/admin/pages/update_go.php` | High
+19 | File | `/admin/report/index.php` | High
+20 | File | `/admin/services/manage_service.php` | High
+21 | File | `/admin/settings/` | High
+22 | File | `/admin/show.php` | High
+23 | File | `/admin/students/update_status.php` | High
+24 | File | `/admin/subject.php` | High
+25 | File | `/admin/user/manage_user.php` | High
+26 | File | `/ample/app/ajax/member_data.php` | High
+27 | File | `/app/index/controller/Common.php` | High
+28 | File | `/apply.cgi` | Medium
+29 | File | `/article/DelectArticleById/` | High
+30 | File | `/auth/auth.php?user=1` | High
+31 | File | `/b2b-supermarket/shopping-cart` | High
+32 | File | `/blog` | Low
+33 | File | `/category.php` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+36 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+37 | File | `/cgi-bin/nas_sharing.cgi` | High
+38 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+39 | File | `/classes/Master.php?f=delete_category` | High
+40 | File | `/classes/Master.php?f=delete_inquiry` | High
+41 | File | `/classes/Master.php?f=save_reminder` | High
+42 | File | `/collection/all` | High
+43 | File | `/company/store` | High
+44 | File | `/config/list` | Medium
+45 | File | `/designation_viewmore.php` | High
+46 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+47 | File | `/ext/phar/phar_object.c` | High
+48 | File | `/file-manager/upload.php` | High
+49 | File | `/foms/place-order.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/forum/PostPrivateMessage` | High
+52 | File | `/fos/admin/index.php?page=menu` | High
+53 | File | `/friends` | Medium
+54 | File | `/goform/WifiBasicSet` | High
+55 | File | `/graphql` | Medium
+56 | File | `/home/get_tasks_list` | High
+57 | File | `/importexport.php` | High
+58 | File | `/index.php` | Medium
+59 | File | `/items/search` | High
+60 | File | `/jurusan/data` | High
+61 | File | `/listplace/user/coverPhotoUpdate` | High
+62 | File | `/login.php` | Medium
+63 | File | `/login/index.php` | High
+64 | File | `/menu.html` | Medium
+65 | File | `/multiarch/memmove-vec-unaligned-erms.S` | High
+66 | File | `/my_photo_gallery/image.php` | High
+67 | File | `/news-portal-script/information.php` | High
+68 | File | `/patient/doctors.php` | High
 69 | ... | ... | ...
 
 There are 602 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

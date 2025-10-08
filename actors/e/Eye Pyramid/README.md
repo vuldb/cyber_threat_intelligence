@@ -25,22 +25,25 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [3.213.234.80](https://vuldb.com/?ip.3.213.234.80) | mail.hrtii.org | - | High
 3 | [5.35.36.120](https://vuldb.com/?ip.5.35.36.120) | v256407.hosted-by-vdsina.com | - | High
 4 | [5.253.30.16](https://vuldb.com/?ip.5.253.30.16) | vm19258.geo.hosting | - | High
-5 | [5.255.114.73](https://vuldb.com/?ip.5.255.114.73) | - | - | High
-6 | [9.169.185.208](https://vuldb.com/?ip.9.169.185.208) | - | - | High
-7 | [13.61.7.218](https://vuldb.com/?ip.13.61.7.218) | ec2-13-61-7-218.eu-north-1.compute.amazonaws.com | - | Medium
-8 | [13.217.66.6](https://vuldb.com/?ip.13.217.66.6) | mail.humanresourcefoundation.com | - | High
-9 | [18.102.118.123](https://vuldb.com/?ip.18.102.118.123) | ec2-18-102-118-123.eu-south-1.compute.amazonaws.com | - | Medium
-10 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
-11 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
-12 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
-13 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
-14 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
-15 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
-16 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
-17 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
-18 | ... | ... | ... | ...
+5 | [5.255.103.206](https://vuldb.com/?ip.5.255.103.206) | - | - | High
+6 | [5.255.114.73](https://vuldb.com/?ip.5.255.114.73) | - | - | High
+7 | [9.169.185.208](https://vuldb.com/?ip.9.169.185.208) | - | - | High
+8 | [13.61.7.218](https://vuldb.com/?ip.13.61.7.218) | ec2-13-61-7-218.eu-north-1.compute.amazonaws.com | - | Medium
+9 | [13.217.66.6](https://vuldb.com/?ip.13.217.66.6) | mail.humanresourcefoundation.com | - | High
+10 | [18.102.118.123](https://vuldb.com/?ip.18.102.118.123) | ec2-18-102-118-123.eu-south-1.compute.amazonaws.com | - | Medium
+11 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
+12 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
+13 | [35.152.189.99](https://vuldb.com/?ip.35.152.189.99) | ec2-35-152-189-99.eu-south-1.compute.amazonaws.com | - | Medium
+14 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
+15 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
+16 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
+17 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
+18 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
+19 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
+20 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 79 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +52,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,32 +67,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addcompany.php` | High
-2 | File | `/admin/assign_save.php` | High
-3 | File | `/admin/edit-subcategory.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/manage-ambulance.php` | High
-7 | File | `/admin/network/diag_pinginterface` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/template` | High
-10 | File | `/admin/view-appointment.php?viewid=11` | High
-11 | File | `/admins` | Low
-12 | File | `/ajax/getBasicInfo.php` | High
-13 | File | `/api/admin/system/store/order/list` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cgi/get_param.cgi` | High
-17 | File | `/clientdetails/admin/regester.php` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/druid/index.html` | High
-20 | File | `/endpoint/delete-expense.php` | High
-21 | File | `/farm/product.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/formSetDDNS` | High
-24 | File | `/goform/formSetWizardSelectMode` | High
-25 | ... | ... | ...
+2 | File | `/add_dealerrequest.php` | High
+3 | File | `/adm/index.php` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/ajax.php?action=login` | High
+6 | File | `/admin/assign_save.php` | High
+7 | File | `/admin/between-date-userreport.php` | High
+8 | File | `/admin/bwdates-reports-details.php` | High
+9 | File | `/admin/edit-subcategory.php` | High
+10 | File | `/admin/finished.php` | High
+11 | File | `/admin/getmanagerregion.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage-ambulance.php` | High
+15 | File | `/admin/manage-incomingvehicle.php` | High
+16 | File | `/admin/network/diag_pinginterface` | High
+17 | File | `/admin/pages/` | High
+18 | File | `/admin/reset-password.php` | High
+19 | File | `/admin/search.php` | High
+20 | File | `/admin/template` | High
+21 | File | `/admin/view-appointment.php?viewid=11` | High
+22 | File | `/admin/voters_delete.php` | High
+23 | File | `/admin/voters_edit.php` | High
+24 | File | `/admins` | Low
+25 | File | `/ajax/getBasicInfo.php` | High
+26 | File | `/api/admin/system/store/order/list` | High
+27 | File | `/bill/add_bill.php` | High
+28 | File | `/boafrm/formPortFw` | High
+29 | File | `/boafrm/formSysCmd` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/upload.cgi` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Content.php?f=service` | High
+34 | File | `/clientdetails/admin/regester.php` | High
+35 | File | `/crm/crmapi/erp/tabdetail_moduleSave.php` | High
+36 | File | `/csms/?page=contact_us` | High
+37 | File | `/data/insert_laundry.php` | High
+38 | File | `/dcwr_entry.php` | High
+39 | File | `/details.php` | Medium
+40 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

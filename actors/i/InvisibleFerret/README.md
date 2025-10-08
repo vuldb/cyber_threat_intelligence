@@ -55,13 +55,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/create_product.php` | High
 5 | File | `/admin/maintenance/view_designation.php` | High
 6 | File | `/admin/store.php` | High
-7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/classes/Master.php` | High
-11 | ... | ... | ...
+7 | File | `/api/ServiceAgent/start_service` | High
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

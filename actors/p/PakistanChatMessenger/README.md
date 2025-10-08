@@ -76,9 +76,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/downloadFile.php` | High
 27 | File | `/endpoint/delete-account.php` | High
 28 | File | `/general/email/outbox/delete.php` | High
-29 | ... | ... | ...
+29 | File | `/goform/setDebugCfg` | High
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -95,39 +95,40 @@ ID | Type | Indicator | Confidence
 34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 35 | File | `/env` | Low
 36 | File | `/forum/away.php` | High
-37 | File | `/grade/report/grader/index.php` | High
-38 | File | `/include/file.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/install/index.php` | High
-41 | File | `/librarian/bookdetails.php` | High
-42 | File | `/log/download.php` | High
-43 | File | `/login.php?do=login` | High
-44 | File | `/main/fileupload.php` | High
-45 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-46 | File | `/member.php?action=chgpwdsubmit` | High
-47 | File | `/modules/projects/vw_files.php` | High
-48 | File | `/multi-vendor-shopping-script/product-list.php` | High
-49 | File | `/opt/bin/cli` | Medium
-50 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-51 | File | `/outgoing.php` | High
-52 | File | `/p` | Low
-53 | File | `/patient/doctors.php` | High
-54 | File | `/pg_meta/default/query` | High
-55 | File | `/phpinventory/editcategory.php` | High
-56 | File | `/product-details.php` | High
-57 | File | `/product-list.php` | High
-58 | File | `/products/view_product.php` | High
-59 | File | `/s/index.php?action=statistics` | High
-60 | File | `/sdm-ws-rest/preconfiguration` | High
-61 | File | `/spip.php` | Medium
-62 | File | `/src/Illuminate/Laravel.php` | High
-63 | File | `/uncpath/` | Medium
-64 | File | `/updown/upload.cgi` | High
-65 | File | `/user/del.php` | High
-66 | File | `/usr/bin/pkexec` | High
-67 | ... | ... | ...
+37 | File | `/goform/addressNat` | High
+38 | File | `/goform/wifiSSIDset` | High
+39 | File | `/grade/report/grader/index.php` | High
+40 | File | `/include/file.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/install/index.php` | High
+43 | File | `/librarian/bookdetails.php` | High
+44 | File | `/log/download.php` | High
+45 | File | `/login.php?do=login` | High
+46 | File | `/main/fileupload.php` | High
+47 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+48 | File | `/member.php?action=chgpwdsubmit` | High
+49 | File | `/modules/projects/vw_files.php` | High
+50 | File | `/multi-vendor-shopping-script/product-list.php` | High
+51 | File | `/mygym/admin/index.php?view_exercises` | High
+52 | File | `/opt/bin/cli` | Medium
+53 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+54 | File | `/outgoing.php` | High
+55 | File | `/p` | Low
+56 | File | `/patient/doctors.php` | High
+57 | File | `/pg_meta/default/query` | High
+58 | File | `/phpinventory/editcategory.php` | High
+59 | File | `/product-details.php` | High
+60 | File | `/product-list.php` | High
+61 | File | `/products/view_product.php` | High
+62 | File | `/s/index.php?action=statistics` | High
+63 | File | `/sdm-ws-rest/preconfiguration` | High
+64 | File | `/spip.php` | Medium
+65 | File | `/src/Illuminate/Laravel.php` | High
+66 | File | `/uncpath/` | Medium
+67 | File | `/updown/upload.cgi` | High
+68 | ... | ... | ...
 
-There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 594 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -206,12 +206,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `cgi-bin/awstats.pl` | High
-2 | File | `tiki-login.php` | High
-3 | Argument | `config` | Low
+1 | File | `/catalog/all-products` | High
+2 | File | `cgi-bin/awstats.pl` | High
+3 | File | `tiki-login.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

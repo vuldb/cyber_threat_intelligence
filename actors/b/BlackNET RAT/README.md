@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackNET RAT:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
-* [TT](https://vuldb.com/?country.tt)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [34.172.89.75](https://vuldb.com/?ip.34.172.89.75) | 75.89.172.34.bc.googleusercontent.com | - | Medium
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,20 +48,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/create_product.php` | High
-2 | File | `/cgi-bin/cstecgi.cgi` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/setDeviceSettings` | High
-6 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/php-opos/index.php` | High
-9 | File | `/phpwcms/setup/setup.php` | High
-10 | File | `/see_more_details.php` | High
-11 | File | `/spip.php` | Medium
-12 | ... | ... | ...
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/admin/categories/manage_category.php` | High
+3 | File | `/admin/category/controller.php` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/sou.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/classes/Users.php?f=save` | High
+9 | File | `/dashboard/admin/new_submit.php` | High
+10 | File | `/ecommerce/admin/login.php` | High
+11 | File | `/edit.php` | Medium
+12 | File | `/endpoint/delete-account.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/function/login.php` | High
+15 | File | `/goform/setDeviceSettings` | High
+16 | File | `/index.php` | Medium
+17 | File | `/index.php/signin` | High
+18 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+19 | File | `/jobportal/admin/login.php` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/medicines/profile.php` | High
+22 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +87,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/101.35.240.162
 * https://search.censys.io/hosts/103.90.161.122
 * https://search.censys.io/hosts/172.206.26.225
+* https://search.censys.io/hosts/185.49.126.146
 * https://search.censys.io/hosts/190.123.44.240
 * https://search.censys.io/hosts/203.115.83.231
 * https://threatfox.abuse.ch

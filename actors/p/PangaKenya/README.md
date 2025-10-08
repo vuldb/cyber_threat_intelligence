@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,31 +50,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add-ambulance.php` | High
-2 | File | `/admin/adminHome.php` | High
-3 | File | `/admin/application-bwdates-reports-details.php` | High
-4 | File | `/admin/deluser.php` | High
-5 | File | `/admin/list_crl_conf` | High
-6 | File | `/admin/twitter.php` | High
-7 | File | `/administration/theme.php` | High
-8 | File | `/adminPage/conf/reload` | High
-9 | File | `/adminPage/main/upload` | High
-10 | File | `/adminPage/www/addOver` | High
-11 | File | `/admin_class.php` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/system/v2/api-docs` | High
-14 | File | `/api/v2/maps` | Medium
-15 | File | `/application/controller/Pelanggan.php` | High
-16 | File | `/auparse/auparse.c` | High
-17 | File | `/backend/register.php` | High
-18 | File | `/BindAccount/SuccessTips.js` | High
-19 | File | `/classes/Master.php?f=log_employee` | High
-20 | File | `/cupseasylive/companymodify.php` | High
-21 | File | `/cupseasylive/grnprint.php` | High
-22 | File | `/dashboard?controller=UserCollection::createUser` | High
-23 | ... | ... | ...
+1 | File | `/adm/ajax.php` | High
+2 | File | `/admin/add-ambulance.php` | High
+3 | File | `/admin/adminHome.php` | High
+4 | File | `/admin/application-bwdates-reports-details.php` | High
+5 | File | `/admin/deluser.php` | High
+6 | File | `/admin/list_crl_conf` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/twitter.php` | High
+9 | File | `/administration/theme.php` | High
+10 | File | `/adminPage/conf/reload` | High
+11 | File | `/adminPage/main/upload` | High
+12 | File | `/adminPage/www/addOver` | High
+13 | File | `/admin_class.php` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/system/v2/api-docs` | High
+16 | File | `/api/v2/maps` | Medium
+17 | File | `/application/controller/Pelanggan.php` | High
+18 | File | `/auparse/auparse.c` | High
+19 | File | `/backend/register.php` | High
+20 | File | `/BindAccount/SuccessTips.js` | High
+21 | File | `/classes/Master.php?f=log_employee` | High
+22 | File | `/cms/fileTemplate/form` | High
+23 | File | `/contact.php` | Medium
+24 | File | `/cupseasylive/companymodify.php` | High
+25 | File | `/cupseasylive/grnprint.php` | High
+26 | File | `/dashboard?controller=UserCollection::createUser` | High
+27 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

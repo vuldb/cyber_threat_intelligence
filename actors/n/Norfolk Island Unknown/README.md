@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -81,32 +81,32 @@ ID | Type | Indicator | Confidence
 24 | File | `/cgi-bin/sessions/get-temp-file` | High
 25 | File | `/cgi-bin/wlogin.cgi` | High
 26 | File | `/change-password.php` | High
-27 | File | `/config/config.json` | High
-28 | File | `/control/register_case.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/dottie.js` | Medium
-31 | File | `/download` | Medium
-32 | File | `/dtale/chart-data/1` | High
-33 | File | `/etc/hosts.deny` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/setcfm` | High
-36 | File | `/HNAP1` | Low
-37 | File | `/index.php/ccm/system/file/upload` | High
-38 | File | `/index.php?menu=asterisk_cli` | High
-39 | File | `/index/ajax/lang` | High
-40 | File | `/jeecg-boot/jmreport/show` | High
-41 | File | `/kortex_lite/control/edit_profile.php` | High
-42 | File | `/listplace/user/ticket/create` | High
-43 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-44 | File | `/messageboard/view.php` | High
-45 | File | `/modules/projects/vw_files.php` | High
-46 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-47 | File | `/phppath/php` | Medium
-48 | File | `/portal/search.htm` | High
-49 | File | `/pro/common/download` | High
+27 | File | `/client/manage/ourphp_out.php` | High
+28 | File | `/config/config.json` | High
+29 | File | `/control/register_case.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/dottie.js` | Medium
+32 | File | `/download` | Medium
+33 | File | `/dtale/chart-data/1` | High
+34 | File | `/etc/hosts.deny` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/setcfm` | High
+37 | File | `/HNAP1` | Low
+38 | File | `/index.php/ccm/system/file/upload` | High
+39 | File | `/index.php?menu=asterisk_cli` | High
+40 | File | `/index/ajax/lang` | High
+41 | File | `/jeecg-boot/jmreport/show` | High
+42 | File | `/kortex_lite/control/edit_profile.php` | High
+43 | File | `/listplace/user/ticket/create` | High
+44 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+45 | File | `/messageboard/view.php` | High
+46 | File | `/modules/projects/vw_files.php` | High
+47 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+48 | File | `/phppath/php` | Medium
+49 | File | `/portal/search.htm` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

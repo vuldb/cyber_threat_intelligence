@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with APT36:
 * ElizaRAT
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,16 +41,17 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | Indian Defense Officials | High
 8 | [15.197.148.33](https://vuldb.com/?ip.15.197.148.33) | a2aa9ff50de748dbe.awsglobalaccelerator.com | Indian Defense Officials | High
 9 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
-10 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
-11 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
-12 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
-13 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
-14 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
-15 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
-16 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
-17 | ... | ... | ... | ...
+10 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | Indian Government Organizations | High
+11 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
+12 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
+13 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
+14 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
+15 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
+16 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
+17 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
+18 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 68 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,12 +60,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,37 +74,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.asp` | Low
-3 | File | `/admin` | Low
-4 | File | `/admin/conferences/get-all-status/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/countrymanagement.php` | High
-7 | File | `/admin/general/change-lang` | High
-8 | File | `/admin/group/list/` | High
-9 | File | `/admin/renewaldue.php` | High
-10 | File | `/admin/usermanagement.php` | High
-11 | File | `/artist-display.php` | High
-12 | File | `/assets/php/upload.php` | High
-13 | File | `/backend/admin/his_admin_register_patient.php` | High
-14 | File | `/backups/` | Medium
-15 | File | `/catcompany.php` | High
-16 | File | `/CCMAdmin/serverlist.asp` | High
-17 | File | `/cgi-bin/editBookmark` | High
-18 | File | `/film-rating.php` | High
-19 | File | `/front/roomtype-details.php` | High
-20 | File | `/horde/imp/search.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mcategory.php` | High
-23 | File | `/mces/?p=class/view_class` | High
-24 | File | `/movie.php` | Medium
-25 | File | `/nidp/idff/sso` | High
-26 | File | `/products/view_product.php` | High
-27 | File | `/real-estate-script/search_property.php` | High
-28 | File | `/search` | Low
-29 | File | `/sitemagic/index.php` | High
-30 | File | `/spip.php` | Medium
-31 | ... | ... | ...
+3 | File | `/assets/php/upload.php` | High
+4 | File | `/backend/admin/his_admin_register_patient.php` | High
+5 | File | `/mces/?p=class/view_class` | High
+6 | File | `/nidp/idff/sso` | High
+7 | File | `/products/view_product.php` | High
+8 | File | `/search` | Low
+9 | File | `/spip.php` | Medium
+10 | File | `/user_proposal_update_order.php` | High
+11 | File | `/var/run/.inetd.uds` | High
+12 | File | `/vm/admin/doctors.php` | High
+13 | File | `about` | Low
+14 | File | `adclick.php` | Medium
+15 | File | `addressbook.php` | High
+16 | File | `admin-ajax.php` | High
+17 | File | `admin/` | Low
+18 | File | `admin/index.php` | High
+19 | File | `afd.sys` | Low
+20 | File | `album_portal.php` | High
+21 | File | `aolfix.exe` | Medium
+22 | File | `api.php` | Low
+23 | File | `apply.cgi` | Medium
+24 | File | `AppManagementFragment.java` | High
+25 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.malwarebytes.com/threat-analysis/2020/03/apt36-jumps-on-the-coronavirus-bandwagon-delivers-crimson-rat/
 * https://research.checkpoint.com/2024/the-evolution-of-transparent-tribes-new-malware/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
+* https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
 * https://www.cyfirma.com/research/apt36-phishing-campaign-targets-indian-defense-using-credential-stealing-malware/
 * https://www.cyfirma.com/research/turning-aid-into-attack-exploitation-of-pakistans-youth-laptop-scheme-to-target-india/
 * https://www.reco.ai/blog/how-apt36-elizarat-redefines-cyber-espionage

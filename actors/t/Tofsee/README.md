@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -173,7 +173,7 @@ ID | IP address | Hostname | Campaign | Confidence
 150 | [64.233.186.26](https://vuldb.com/?ip.64.233.186.26) | cb-in-f26.1e100.net | - | High
 151 | ... | ... | ... | ...
 
-There are 598 more IOC items available. Please use our online service to access the data.
+There are 599 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -181,9 +181,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -199,23 +199,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/add-subadmin.php` | High
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/twitter.php` | High
-6 | File | `/api/v1/settings` | High
-7 | File | `/api/v1/toolbox/device/update/swap` | High
-8 | File | `/app/controller/Api.php` | High
-9 | File | `/app/zentao/module/repo/model.php` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-13 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-14 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-15 | File | `/fladmin/sysconfig_doedit.php` | High
-16 | File | `/goform/AdvSetMacMtuWan` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/SetRebootTimer` | High
-19 | ... | ... | ...
+5 | File | `/admin/admin_action.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/new-content` | High
+9 | File | `/admin/voters_add.php` | High
+10 | File | `/admin/voters_delete.php` | High
+11 | File | `/api/v1/settings` | High
+12 | File | `/app/controller/Api.php` | High
+13 | File | `/app/zentao/module/repo/model.php` | High
+14 | File | `/authentication/logout.php` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/dashboard/admin/submit_plan_new.php` | High
+19 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+20 | File | `/etc/controller-agent/agent.conf` | High
+21 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+22 | File | `/goform/AdvSetMacMtuWan` | High
+23 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

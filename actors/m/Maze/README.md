@@ -62,20 +62,20 @@ ID | Type | Indicator | Confidence
 9 | File | `/cgi-bin/cstecgi.cgi` | High
 10 | File | `/cgi-bin/login_action.cgi` | High
 11 | File | `/cgi-bin/webproc` | High
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/index.php/weblinks-categories` | High
-16 | File | `/menu.html` | Medium
-17 | File | `/mics/j_spring_security_check` | High
-18 | File | `/mybb_1806/Upload/admin/index.php` | High
-19 | File | `/scp/directory.php` | High
-20 | File | `/search.php` | Medium
-21 | File | `/smsa/add_class_submit.php` | High
-22 | File | `/spip.php` | Medium
+12 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+13 | File | `/export` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index.php/weblinks-categories` | High
+17 | File | `/menu.html` | Medium
+18 | File | `/mics/j_spring_security_check` | High
+19 | File | `/mybb_1806/Upload/admin/index.php` | High
+20 | File | `/scp/directory.php` | High
+21 | File | `/search.php` | Medium
+22 | File | `/smsa/add_class_submit.php` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

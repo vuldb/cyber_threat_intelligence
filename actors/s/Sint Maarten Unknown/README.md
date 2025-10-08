@@ -75,26 +75,28 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/index.php` | High
 7 | File | `/admin/mod_reports/index.php` | High
 8 | File | `/application/index/controller/Databasesource.php` | High
-9 | File | `/bcms/admin/?page=sales/view_details` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/boaform/getASPdata/formFirewall` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/download_config.cgi` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | File | `/control/WANIPConnection` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/display/map` | Medium
-18 | File | `/ecommerce/support_ticket` | High
-19 | File | `/Employer/EditProfile.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/apPortalPhoneAuth` | High
-22 | File | `/index.php/sysmanage/Login/login_auth/` | High
-23 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-24 | File | `/index/ajax/lang` | High
-25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-26 | ... | ... | ...
+9 | File | `/auth/userkey/logout.php` | High
+10 | File | `/bcms/admin/?page=sales/view_details` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/boaform/getASPdata/formFirewall` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/download_config.cgi` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/control/WANIPConnection` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/display/map` | Medium
+20 | File | `/ecommerce/support_ticket` | High
+21 | File | `/Employer/EditProfile.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/apPortalPhoneAuth` | High
+24 | File | `/index.php/sysmanage/Login/login_auth/` | High
+25 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+26 | File | `/index/ajax/lang` | High
+27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+28 | ... | ... | ...
 
-There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

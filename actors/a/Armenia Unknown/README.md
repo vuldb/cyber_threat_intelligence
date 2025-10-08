@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -146,35 +146,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/admin_action.php` | High
 6 | File | `/admin/category_save.php` | High
 7 | File | `/admin/emp-profile-avatar.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_station.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/manage_model.php` | High
 12 | File | `/admin/manage_user.php` | High
-13 | File | `/admin/search-vehicle.php` | High
-14 | File | `/admin/subject.php` | High
-15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-16 | File | `/admin/twitter.php` | High
-17 | File | `/api/v1/settings` | High
-18 | File | `/api/v1/toolbox/device/update/swap` | High
-19 | File | `/app/zentao/module/repo/model.php` | High
-20 | File | `/bin/httpd` | Medium
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/ExportSettings.sh` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=save_product` | High
-25 | File | `/classes/SystemSettings.php?f=update_settings` | High
-26 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-27 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-28 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-29 | File | `/edit-subject.php` | High
-30 | File | `/endpoint/add-user.php` | High
+13 | File | `/admin/new-content` | High
+14 | File | `/admin/search-vehicle.php` | High
+15 | File | `/admin/subject.php` | High
+16 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+17 | File | `/admin/twitter.php` | High
+18 | File | `/admin/voters_add.php` | High
+19 | File | `/admin/voters_delete.php` | High
+20 | File | `/api/v1/settings` | High
+21 | File | `/api/v1/toolbox/device/update/swap` | High
+22 | File | `/app/zentao/module/repo/model.php` | High
+23 | File | `/auth/auth.php?user=1` | High
+24 | File | `/authentication/logout.php` | High
+25 | File | `/bin/httpd` | Medium
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/ExportSettings.sh` | High
+28 | File | `/classes/Master.php?f=save_product` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

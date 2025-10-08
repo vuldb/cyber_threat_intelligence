@@ -131,27 +131,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_trainers.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/edit_action.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/manage-pages.php` | High
-6 | File | `/advanced-tools/nova/bin/netwatch` | High
-7 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-8 | File | `/apilog.php` | Medium
-9 | File | `/auth_pic.cgi` | High
-10 | File | `/category.php` | High
-11 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-12 | File | `/cgi-bin/api-get_line_status` | High
-13 | File | `/cgi-bin/myMusic.cgi` | High
-14 | File | `/Code/loginnew.php` | High
-15 | File | `/Code/sc_login.php` | High
-16 | File | `/dashboard/admin/edit_member.php` | High
-17 | File | `/dashboard/admin/edit_mem_submit.php` | High
-18 | File | `/dashboard/admin/new_submit.php` | High
+1 | File | `/admin/create_product.php` | High
+2 | File | `/admin/edit_action.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/manage-pages.php` | High
+5 | File | `/advanced-tools/nova/bin/netwatch` | High
+6 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+7 | File | `/apilog.php` | Medium
+8 | File | `/auth_pic.cgi` | High
+9 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+10 | File | `/cgi-bin/myMusic.cgi` | High
+11 | File | `/Code/loginnew.php` | High
+12 | File | `/Code/sc_login.php` | High
+13 | File | `/dashboard/admin/edit_member.php` | High
+14 | File | `/dashboard/admin/edit_mem_submit.php` | High
+15 | File | `/dashboard/admin/new_submit.php` | High
+16 | File | `/dashboard/message` | High
+17 | File | `/details.php` | Medium
+18 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 19 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

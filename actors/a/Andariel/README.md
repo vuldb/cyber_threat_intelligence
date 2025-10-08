@@ -68,20 +68,20 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/upload_file` | High
 3 | File | `/admin/article.php` | High
 4 | File | `/admin/comment.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-8 | File | `/admin_type.php` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/assets/something/services/AppModule.class` | High
-12 | File | `/authenticate.php` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/blog` | Low
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/cgi-bin/login.cgi` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+7 | File | `/admin_type.php` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/assets/something/services/AppModule.class` | High
+11 | File | `/authenticate.php` | High
+12 | File | `/bin/boa` | Medium
+13 | File | `/blog` | Low
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi-bin/sysconf.cgi` | High
 19 | File | `/cgi-bin/system_mgr.cgi` | High
 20 | File | `/cgi-bin/wapopen` | High
 21 | File | `/cgi-bin/webfile_mgr.cgi` | High
@@ -109,7 +109,7 @@ ID | Type | Indicator | Confidence
 43 | File | `/login.html` | Medium
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

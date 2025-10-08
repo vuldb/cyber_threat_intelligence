@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.215.85.55](https://vuldb.com/?ip.91.215.85.55) | - | - | High
-2 | [91.242.229.85](https://vuldb.com/?ip.91.242.229.85) | vm289569.pq.hosting | - | High
-3 | [178.63.27.179](https://vuldb.com/?ip.178.63.27.179) | hosted.by.majorcore.com | - | High
+1 | [37.235.54.59](https://vuldb.com/?ip.37.235.54.59) | 59.54.235.37.in-addr.arpa | - | High
+2 | [91.215.85.55](https://vuldb.com/?ip.91.215.85.55) | - | - | High
+3 | [91.242.229.85](https://vuldb.com/?ip.91.242.229.85) | vm289569.pq.hosting | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,12 +47,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mfsNotice/page` | High
-2 | File | `Calc` | Low
-3 | File | `debug/tbtools.py` | High
-4 | ... | ... | ...
+1 | File | `/cgi` | Low
+2 | File | `/mfsNotice/page` | High
+3 | File | `/rapi/read_url` | High
+4 | File | `books.php` | Medium
+5 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -60,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://threatfox.abuse.ch
 * https://www.threatfabric.com/blogs/deceive-the-heavens-to-cross-the-sea.html
+* https://www.zscaler.com/blogs/security-research/android-document-readers-and-deception-tracking-latest-updates-anatsa
 * https://www.zscaler.com/blogs/security-research/technical-analysis-anatsa-campaigns-android-banking-malware-active-google
 
 ## Literature

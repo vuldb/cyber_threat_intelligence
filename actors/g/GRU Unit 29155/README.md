@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,58 +58,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//index.php` | Medium
-2 | File | `/add-students.php` | High
-3 | File | `/add-subadmin.php` | High
-4 | File | `/addstock.php` | High
-5 | File | `/add_new_invoice.php` | High
-6 | File | `/add_new_supplier.php` | High
-7 | File | `/add_user.php` | High
-8 | File | `/admin/?page=reports` | High
-9 | File | `/admin/?page=system_info/contact_info` | High
-10 | File | `/Admin/akun_edit.php` | High
-11 | File | `/admin/app/service_crud.php` | High
-12 | File | `/admin/apply.php` | High
-13 | File | `/admin/betweendates-detailsreports.php` | High
-14 | File | `/admin/book-details.php` | High
-15 | File | `/admin/content/editor` | High
-16 | File | `/admin/create-package.php` | High
-17 | File | `/admin/create_product.php` | High
-18 | File | `/admin/doAdminAction.php?act=addCate` | High
-19 | File | `/admin/edit-admin.php` | High
-20 | File | `/admin/edit-brand.php` | High
-21 | File | `/admin/edit-post.php` | High
-22 | File | `/admin/list_crl_conf` | High
-23 | File | `/Admin/login.php` | High
-24 | File | `/admin/manage_user.php` | High
-25 | File | `/admin/massage.php` | High
-26 | File | `/admin/network/ajax_getChannelList` | High
-27 | File | `/admin/pages/list` | High
-28 | File | `/admin/password-recovery.php` | High
-29 | File | `/admin/profile.php` | High
-30 | File | `/Admin/Proses_Edit_Akun.php` | High
-31 | File | `/admin/robot.php` | High
-32 | File | `/admin/search-invoices.php` | High
-33 | File | `/admin/search.php` | High
-34 | File | `/admin/system.html` | High
-35 | File | `/admin/twitter.php` | High
-36 | File | `/animalsupdate.php` | High
-37 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-38 | File | `/api/wizard/networkSetup` | High
-39 | File | `/app/admin/controller/api/Plugs.php` | High
-40 | File | `/app/admin/controller/Upload.php` | High
-41 | File | `/app/ajax/search_sales_report.php` | High
-42 | File | `/app/controller/Api.php` | High
-43 | File | `/app/controller/Setup.php` | High
-44 | File | `/app/middleware/TokenVerify.php` | High
-45 | File | `/application/index/controller/Screen.php` | High
-46 | File | `/application/websocket/controller/Setting.php` | High
-47 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-48 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-49 | File | `/applications/nexus/modules/front/store/store.php` | High
-50 | File | `/apply/index.php` | High
-51 | File | `/b2b-supermarket/catalog/all-products` | High
-52 | File | `/backend/doc/his_doc_update-account.php` | High
-53 | File | `/boafrm/formMapDelDevice` | High
+2 | File | `/action.php` | Medium
+3 | File | `/add-students.php` | High
+4 | File | `/add-subadmin.php` | High
+5 | File | `/addstock.php` | High
+6 | File | `/add_new_invoice.php` | High
+7 | File | `/add_new_supplier.php` | High
+8 | File | `/add_user.php` | High
+9 | File | `/admin/?page=reports` | High
+10 | File | `/admin/?page=system_info/contact_info` | High
+11 | File | `/admin/adddoctorclinic.php` | High
+12 | File | `/Admin/akun_edit.php` | High
+13 | File | `/admin/app/service_crud.php` | High
+14 | File | `/admin/apply.php` | High
+15 | File | `/admin/betweendates-detailsreports.php` | High
+16 | File | `/admin/book-details.php` | High
+17 | File | `/admin/content/editor` | High
+18 | File | `/admin/create-package.php` | High
+19 | File | `/admin/create_product.php` | High
+20 | File | `/admin/doAdminAction.php?act=addCate` | High
+21 | File | `/admin/edit-admin.php` | High
+22 | File | `/admin/edit-brand.php` | High
+23 | File | `/admin/edit-post.php` | High
+24 | File | `/admin/list_crl_conf` | High
+25 | File | `/Admin/login.php` | High
+26 | File | `/admin/manage_user.php` | High
+27 | File | `/admin/massage.php` | High
+28 | File | `/admin/network/ajax_getChannelList` | High
+29 | File | `/admin/pages/list` | High
+30 | File | `/admin/password-recovery.php` | High
+31 | File | `/admin/profile.php` | High
+32 | File | `/Admin/Proses_Edit_Akun.php` | High
+33 | File | `/admin/robot.php` | High
+34 | File | `/admin/search-invoices.php` | High
+35 | File | `/admin/search.php` | High
+36 | File | `/admin/system.html` | High
+37 | File | `/admin/twitter.php` | High
+38 | File | `/admin/voters_row.php` | High
+39 | File | `/animalsupdate.php` | High
+40 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+41 | File | `/api/wizard/networkSetup` | High
+42 | File | `/app/admin/controller/api/Plugs.php` | High
+43 | File | `/app/admin/controller/Upload.php` | High
+44 | File | `/app/ajax/search_sales_report.php` | High
+45 | File | `/app/controller/Api.php` | High
+46 | File | `/app/controller/Setup.php` | High
+47 | File | `/app/middleware/TokenVerify.php` | High
+48 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+49 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+50 | File | `/applications/nexus/modules/front/store/store.php` | High
+51 | File | `/apply/index.php` | High
+52 | File | `/b2b-supermarket/catalog/all-products` | High
+53 | File | `/backend/doc/his_doc_update-account.php` | High
 54 | File | `/boafrm/formMultiAP` | High
 55 | File | `/cgi-bin/apkg_mgr.cgi` | High
 56 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -126,7 +126,7 @@ ID | Type | Indicator | Confidence
 67 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
 68 | ... | ... | ...
 
-There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

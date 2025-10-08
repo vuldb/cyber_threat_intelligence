@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,35 +53,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/ad-list` | Medium
 3 | File | `/admin.php/admin/art/data.html` | High
 4 | File | `/admin.php/pic/admin/pic/del` | High
-5 | File | `/admin/suppliers/view_details.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/authentication/login` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/v2/open/rowsInfo` | High
-11 | File | `/app/sys1.php` | High
-12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-13 | File | `/cas/logout` | Medium
-14 | File | `/catalog/all-products` | High
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/nightled.cgi` | High
-19 | File | `/cgi-bin/touchlist_sync.cgi` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-23 | File | `/downloadFile.php` | High
-24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-25 | File | `/env` | Low
-26 | File | `/find-a-match` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/friends` | Medium
-29 | File | `/friends/ajax_invite` | High
-30 | File | `/goform/SetNetControlList` | High
-31 | ... | ... | ...
+5 | File | `/admin/booking-search.php` | High
+6 | File | `/admin/suppliers/view_details.php` | High
+7 | File | `/admin/voters_row.php` | High
+8 | File | `/ajax.php?action=read_msg` | High
+9 | File | `/api/authentication/login` | High
+10 | File | `/api/discoveries/` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/v2/open/rowsInfo` | High
+14 | File | `/app/sys1.php` | High
+15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+16 | File | `/cas/logout` | Medium
+17 | File | `/catalog/all-products` | High
+18 | File | `/cgi-bin/adm.cgi` | High
+19 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/nightled.cgi` | High
+22 | File | `/cgi-bin/touchlist_sync.cgi` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/data/edit_type.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+27 | File | `/downloadFile.php` | High
+28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+29 | File | `/env` | Low
+30 | File | `/find-a-match` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/friends` | Medium
+33 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

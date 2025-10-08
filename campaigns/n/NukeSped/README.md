@@ -85,16 +85,16 @@ ID | Type | Indicator | Confidence
 20 | File | `/forms/doLogin` | High
 21 | File | `/forum/away.php` | High
 22 | File | `/fuel/index.php/fuel/logs/items` | High
-23 | File | `/fuel/index.php/fuel/pages/items` | High
+23 | File | `/goform/accessControlAdd` | High
 24 | File | `/goform/aspForm` | High
 25 | File | `/index.php` | Medium
 26 | File | `/lists/index.php` | High
 27 | File | `/mkshop/Men/profile.php` | High
 28 | File | `/param.file.tgz` | High
-29 | File | `/php/exportrecord.php` | High
+29 | File | `/parameter/getFileTypeList.jsp` | High
 30 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

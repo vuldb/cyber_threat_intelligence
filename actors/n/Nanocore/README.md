@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Nanocore:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nanocore:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
@@ -60,7 +60,8 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [39.96.26.145](https://vuldb.com/?ip.39.96.26.145) | - | - | High
 32 | [44.219.130.155](https://vuldb.com/?ip.44.219.130.155) | ec2-44-219-130-155.compute-1.amazonaws.com | - | Medium
 33 | [45.12.253.242](https://vuldb.com/?ip.45.12.253.242) | - | - | High
-34 | ... | ... | ... | ...
+34 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+35 | ... | ... | ... | ...
 
 There are 134 more IOC items available. Please use our online service to access the data.
 
@@ -94,7 +95,7 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/cstecgi.cgi` | High
 9 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +125,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
 * https://urlhaus.abuse.ch/url/3526389/
 * https://urlhaus.abuse.ch/url/3558345/
+* https://urlhaus.abuse.ch/url/3569928/
 * https://www.cyber45.com
 
 ## Literature

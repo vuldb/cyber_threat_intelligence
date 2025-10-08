@@ -41,19 +41,21 @@ ID | IP address | Hostname | Actor | Confidence
 9 | [45.141.86.98](https://vuldb.com/?ip.45.141.86.98) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
 10 | [45.141.86.132](https://vuldb.com/?ip.45.141.86.132) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
 11 | [45.141.86.133](https://vuldb.com/?ip.45.141.86.133) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-12 | [46.8.210.98](https://vuldb.com/?ip.46.8.210.98) | 622857.cloud4box.ru | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-13 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-14 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-15 | [62.113.117.216](https://vuldb.com/?ip.62.113.117.216) | v2751855.hosted-by-vdsina.ru | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-16 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-17 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-18 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-19 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-20 | [91.202.233.239](https://vuldb.com/?ip.91.202.233.239) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-21 | [91.202.233.240](https://vuldb.com/?ip.91.202.233.240) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
-22 | ... | ... | ... | ...
+12 | [45.142.195.242](https://vuldb.com/?ip.45.142.195.242) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+13 | [46.8.210.98](https://vuldb.com/?ip.46.8.210.98) | 622857.cloud4box.ru | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+14 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+15 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+16 | [62.113.117.216](https://vuldb.com/?ip.62.113.117.216) | v2751855.hosted-by-vdsina.ru | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+17 | [77.83.207.133](https://vuldb.com/?ip.77.83.207.133) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+18 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+19 | [85.175.70.222](https://vuldb.com/?ip.85.175.70.222) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+20 | [85.208.84.242](https://vuldb.com/?ip.85.208.84.242) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+21 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+22 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+23 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+24 | ... | ... | ... | ...
 
-There are 85 more IOC items available. Please use our online service to access the data.
+There are 93 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,11 +96,21 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/45.141.86.98
 * https://search.censys.io/hosts/45.141.86.132
 * https://search.censys.io/hosts/45.141.86.133
+* https://search.censys.io/hosts/45.142.195.242
+* https://search.censys.io/hosts/77.83.207.133
+* https://search.censys.io/hosts/85.175.70.222
+* https://search.censys.io/hosts/85.208.84.242
 * https://search.censys.io/hosts/91.202.233.168
+* https://search.censys.io/hosts/91.236.116.22
+* https://search.censys.io/hosts/91.236.116.139
+* https://search.censys.io/hosts/91.236.116.151
+* https://search.censys.io/hosts/91.236.116.242
 * https://search.censys.io/hosts/92.255.85.128
+* https://search.censys.io/hosts/93.152.230.51
 * https://search.censys.io/hosts/94.159.113.43
 * https://search.censys.io/hosts/94.159.113.222
 * https://search.censys.io/hosts/193.24.197.34
+* https://search.censys.io/hosts/193.105.134.151
 * https://search.censys.io/hosts/193.109.85.27
 * https://search.censys.io/hosts/193.109.85.31
 * https://search.censys.io/hosts/193.242.149.17

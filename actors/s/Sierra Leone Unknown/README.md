@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,7 +70,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
@@ -84,21 +84,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
-2 | File | `/admin/clients/` | High
-3 | File | `/Admin/edit_profile.php` | High
-4 | File | `/admin/forms/option_lists/edit.php` | High
-5 | File | `/admin/settings/index.php?page=accounts` | High
-6 | File | `/api/configs` | Medium
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/change_pass/forgot_password_sql.php` | High
-10 | File | `/classes/Master.php?f=save_medicine` | High
-11 | File | `/control/add_act.php` | High
-12 | File | `/control/login.php` | High
-13 | File | `/Employee/changepassword.php` | High
-14 | ... | ... | ...
+2 | File | `/admin/?page=products/view_product` | High
+3 | File | `/admin/auto-taxi-entry-detail.php` | High
+4 | File | `/admin/candidates_add.php` | High
+5 | File | `/admin/clients/` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/Admin/edit_profile.php` | High
+8 | File | `/admin/forms/option_lists/edit.php` | High
+9 | File | `/admin/settings/index.php?page=accounts` | High
+10 | File | `/api/configs` | Medium
+11 | File | `/api/sys/set_passwd` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/boafrm/formPortFw` | High
+14 | File | `/cancelbookingpatient.php` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/change_pass/forgot_password_sql.php` | High
+17 | File | `/classes/Master.php?f=save_medicine` | High
+18 | File | `/control/add_act.php` | High
+19 | File | `/control/login.php` | High
+20 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

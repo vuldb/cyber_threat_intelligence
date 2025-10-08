@@ -98,10 +98,9 @@ ID | Type | Indicator | Confidence
 17 | File | `/fladmin/friendlink_dodel.php` | High
 18 | File | `/forms/doLogin` | High
 19 | File | `/h/autoSaveDraft` | High
-20 | File | `/h/calendar` | Medium
-21 | ... | ... | ...
+20 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

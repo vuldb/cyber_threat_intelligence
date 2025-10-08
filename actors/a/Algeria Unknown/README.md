@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,7 +78,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -140,17 +140,25 @@ ID | Type | Indicator | Confidence
 52 | File | `/app/controller/Api.php` | High
 53 | File | `/auth.asp` | Medium
 54 | File | `/auth/register` | High
-55 | File | `/bin/boa` | Medium
-56 | File | `/boafrm/formFilter` | High
-57 | File | `/boafrm/formSaveConfig` | High
-58 | File | `/boafrm/formWlSiteSurvey` | High
-59 | File | `/BRS_top.html` | High
-60 | File | `/cashconfirm.php` | High
-61 | File | `/catalog/compare` | High
-62 | File | `/cgi-bin/Config.cgi?action=set` | High
-63 | ... | ... | ...
+55 | File | `/backend/register.php` | High
+56 | File | `/bic/ssoService/v1/applyCT` | High
+57 | File | `/bin/boa` | Medium
+58 | File | `/bin/httpd` | Medium
+59 | File | `/boafrm/formFilter` | High
+60 | File | `/boafrm/formSaveConfig` | High
+61 | File | `/boafrm/formWlSiteSurvey` | High
+62 | File | `/BRS_top.html` | High
+63 | File | `/cashconfirm.php` | High
+64 | File | `/catalog/compare` | High
+65 | File | `/cgi-bin/Config.cgi?action=set` | High
+66 | File | `/cgi-bin/cstecgi.cgi` | High
+67 | File | `/cgi-bin/editBookmark` | High
+68 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+69 | File | `/cgi-bin/hd_config.cgi` | High
+70 | File | `/cgi-bin/login.cgi` | High
+71 | ... | ... | ...
 
-There are 553 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 621 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

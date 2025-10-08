@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1238,7 +1238,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -1269,34 +1270,41 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/edit-guard-detail.php` | High
 20 | File | `/admin/edit-products.php` | High
 21 | File | `/admin/enrollment-details.php` | High
-22 | File | `/admin/forms/option_lists/edit.php` | High
-23 | File | `/admin/index.php` | High
-24 | File | `/admin/index2.html` | High
-25 | File | `/admin/login.php` | High
-26 | File | `/Admin/login.php` | High
-27 | File | `/admin/new-content` | High
-28 | File | `/admin/subject.php` | High
-29 | File | `/admin/voters_add.php` | High
-30 | File | `/admin/voters_delete.php` | High
-31 | File | `/adpweb/a/base/barcodeDetail/` | High
-32 | File | `/adpweb/wechat/verifyToken/` | High
-33 | File | `/ajax.php?action=save_package` | High
-34 | File | `/api/docs/index.php` | High
-35 | File | `/api/sys/login` | High
-36 | File | `/api/v1/settings` | High
-37 | File | `/auth/userkey/logout.php` | High
-38 | File | `/authentication/logout.php` | High
-39 | File | `/backend/register.php` | High
-40 | File | `/bic/ssoService/v1/applyCT` | High
-41 | File | `/bin/httpd` | Medium
-42 | File | `/boafrm/formFilter` | High
-43 | File | `/boafrm/formSaveConfig` | High
-44 | File | `/boafrm/formStats` | High
-45 | File | `/boafrm/formWlSiteSurvey` | High
-46 | File | `/BRS_top.html` | High
-47 | ... | ... | ...
+22 | File | `/admin/faculty_action.php` | High
+23 | File | `/admin/forms/option_lists/edit.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index2.html` | High
+26 | File | `/admin/login.php` | High
+27 | File | `/Admin/login.php` | High
+28 | File | `/admin/manage-pages.php` | High
+29 | File | `/admin/manage_user.php` | High
+30 | File | `/admin/new-content` | High
+31 | File | `/admin/subject.php` | High
+32 | File | `/admin/view-patient.php` | High
+33 | File | `/admin/voters_add.php` | High
+34 | File | `/admin/voters_delete.php` | High
+35 | File | `/adpweb/a/base/barcodeDetail/` | High
+36 | File | `/adpweb/wechat/verifyToken/` | High
+37 | File | `/ajax.php?action=save_package` | High
+38 | File | `/api/docs/index.php` | High
+39 | File | `/api/sys/login` | High
+40 | File | `/api/v1/settings` | High
+41 | File | `/application/controller/Pengeluaran.php` | High
+42 | File | `/auth/userkey/logout.php` | High
+43 | File | `/authentication/logout.php` | High
+44 | File | `/backend/register.php` | High
+45 | File | `/bic/ssoService/v1/applyCT` | High
+46 | File | `/bin/httpd` | Medium
+47 | File | `/boafrm/formFilter` | High
+48 | File | `/boafrm/formSaveConfig` | High
+49 | File | `/boafrm/formStats` | High
+50 | File | `/boafrm/formWlSiteSurvey` | High
+51 | File | `/BRS_top.html` | High
+52 | File | `/cancelbookingpatient.php` | High
+53 | File | `/cashconfirm.php` | High
+54 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

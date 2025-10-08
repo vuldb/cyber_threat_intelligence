@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [NZ](https://vuldb.com/?country.nz)
-* [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -137,7 +137,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -152,62 +152,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.cpr/` | Low
-2 | File | `/3/E_bak5.1/upload/eginfo.php` | High
-3 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-4 | File | `/add-students.php` | High
-5 | File | `/admin/addroom.php` | High
-6 | File | `/admin/booktime.php` | High
-7 | File | `/admin/change-image.php` | High
-8 | File | `/admin/contactus.php` | High
-9 | File | `/admin/edit-admin.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/index.php/news/edit` | High
-12 | File | `/admin/index.php/web/ajax_all_lists` | High
-13 | File | `/admin/manage-pages.php` | High
-14 | File | `/admin/manage-users.php` | High
-15 | File | `/admin/member_save.php` | High
-16 | File | `/admin/modules/product/controller.php?action=add` | High
-17 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-18 | File | `/admin/search-vehicle.php` | High
-19 | File | `/admin/twitter.php` | High
+1 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+2 | File | `/admin-api/mp/material/upload-permanent` | High
+3 | File | `/admin/addroom.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/complaint-details.php` | High
+6 | File | `/admin/contactus.php` | High
+7 | File | `/admin/edit-admin.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index.php/news/edit` | High
+10 | File | `/Admin/login.php` | High
+11 | File | `/admin/manage-pages.php` | High
+12 | File | `/admin/manage-users.php` | High
+13 | File | `/admin/member_save.php` | High
+14 | File | `/admin/modules/product/controller.php?action=add` | High
+15 | File | `/admin/search-vehicle.php` | High
+16 | File | `/admin/serverinfo` | High
+17 | File | `/admin/student_edit_photo.php` | High
+18 | File | `/admin/suppliercontroller.php` | High
+19 | File | `/admin/user-profile.php` | High
 20 | File | `/admin/view-patient.php` | High
-21 | File | `/ajax.php?action=delete_package` | High
-22 | File | `/ajax/loadShopInfo.php` | High
-23 | File | `/api/admin/store/product/save` | High
-24 | File | `/api/admin/system/store/order/list` | High
-25 | File | `/api/authentication/login` | High
-26 | File | `/api/controllers/merchant/app/ComboController.php` | High
-27 | File | `/api/dept/build` | High
-28 | File | `/api/file/getRemoteContent` | High
-29 | File | `/api/snapshots/` | High
-30 | File | `/api/sys/login` | High
-31 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-32 | File | `/api/wechat/app_auth` | High
-33 | File | `/api/wizard/getDualbandSync` | High
-34 | File | `/api/wizard/getWifiNeighbour` | High
-35 | File | `/api/wizard/networkSetup` | High
-36 | File | `/app-api/infra/file/upload` | High
-37 | File | `/app/api/controller/Store.php` | High
-38 | File | `/apps/api/views/deploy_api.py` | High
-39 | File | `/archibus/login.axvw` | High
-40 | File | `/backend/register.php` | High
-41 | File | `/bin/boa` | Medium
-42 | File | `/boafrm/formDMZ` | High
-43 | File | `/boafrm/formFilter` | High
-44 | File | `/boafrm/formMapDel` | High
-45 | File | `/boafrm/formMapDelDevice` | High
-46 | File | `/boafrm/formPortFw` | High
-47 | File | `/boafrm/formSetLg` | High
+21 | File | `/admin/voters_delete.php` | High
+22 | File | `/admin/voters_row.php` | High
+23 | File | `/adminac.php` | Medium
+24 | File | `/ajax.php?action=delete_package` | High
+25 | File | `/ajax/loadShopInfo.php` | High
+26 | File | `/api/admin/settings` | High
+27 | File | `/api/authentication/login` | High
+28 | File | `/api/controllers/merchant/app/ComboController.php` | High
+29 | File | `/api/dept/build` | High
+30 | File | `/api/file/getRemoteContent` | High
+31 | File | `/api/snapshots/` | High
+32 | File | `/api/wizard/networkSetup` | High
+33 | File | `/app-api/infra/file/upload` | High
+34 | File | `/app/api/controller/Store.php` | High
+35 | File | `/application/common.php` | High
+36 | File | `/applyleave.php` | High
+37 | File | `/archibus/login.axvw` | High
+38 | File | `/autheditpwd.php` | High
+39 | File | `/backend/register.php` | High
+40 | File | `/bin/boa` | Medium
+41 | File | `/boafrm/formDMZ` | High
+42 | File | `/boafrm/formFilter` | High
+43 | File | `/boafrm/formMapDel` | High
+44 | File | `/boafrm/formMapDelDevice` | High
+45 | File | `/boafrm/formPortFw` | High
+46 | File | `/boafrm/formSetLg` | High
+47 | File | `/browse.php` | Medium
 48 | File | `/BRS_top.html` | High
-49 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-50 | File | `/bwdates-reports-details.php` | High
-51 | File | `/cap.js` | Low
-52 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-53 | File | `/cgi-bin/cstecgi.cgi` | High
-54 | ... | ... | ...
+49 | File | `/bwdates-reports-details.php` | High
+50 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/index/ajax/lang` | High
 19 | File | `/log/decodmail.php` | High
 20 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-21 | ... | ... | ...
+21 | File | `/log_proxy` | Medium
+22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

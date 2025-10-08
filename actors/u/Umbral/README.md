@@ -10,12 +10,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [204.178.153.160](https://vuldb.com/?ip.204.178.153.160) | - | - | High
+1 | [160.153.178.204](https://vuldb.com/?ip.160.153.178.204) | 204.178.153.160.host.secureserver.net | - | High
+2 | [204.178.153.160](https://vuldb.com/?ip.204.178.153.160) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://malpedia.caad.fkie.fraunhofer.de/details/win.umbral
 * https://threatfox.abuse.ch
 
 ## Literature

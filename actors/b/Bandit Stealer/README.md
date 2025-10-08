@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,41 +82,43 @@ ID | Type | Indicator | Confidence
 27 | File | `/admin/deleteBooking.php` | High
 28 | File | `/admin/delete_event.php` | High
 29 | File | `/admin/edit-services.php` | High
-30 | File | `/admin/File/fileUpload` | High
-31 | File | `/admin/home.php?con=add` | High
-32 | File | `/admin/index.php` | High
-33 | File | `/admin/inventory/manage_stock.php` | High
-34 | File | `/admin/link.php` | High
-35 | File | `/admin/network/diag_iperf` | High
-36 | File | `/admin/network/diag_traceroute` | High
-37 | File | `/admin/newsletter.php` | High
-38 | File | `/admin/orders/update_status.php` | High
-39 | File | `/admin/overtime_row.php` | High
-40 | File | `/admin/password-recovery.php` | High
-41 | File | `/admin/plugin.php` | High
-42 | File | `/admin/positions_add.php` | High
-43 | File | `/admin/print.php` | High
-44 | File | `/admin/process_category_edit.php` | High
-45 | File | `/admin/profile.php` | High
-46 | File | `/admin/registration.php` | High
-47 | File | `/admin/room.php` | High
-48 | File | `/admin/sales/manage_sale.php` | High
-49 | File | `/admin/search-booking-request.php` | High
-50 | File | `/admin/search-invoices.php` | High
-51 | File | `/admin/search-maid.php` | High
-52 | File | `/admin/search-property.php` | High
-53 | File | `/admin/store.php` | High
-54 | File | `/admin/twitter.php` | High
-55 | File | `/admin/update_room.php` | High
-56 | File | `/admin/user-search.php` | High
-57 | File | `/admin/user.php` | High
-58 | File | `/animalsupdate.php` | High
-59 | File | `/api/job/add/` | High
-60 | File | `/api/upload` | Medium
-61 | File | `/app/api/controller/Site.php` | High
-62 | ... | ... | ...
+30 | File | `/admin/edit_student_query.php` | High
+31 | File | `/admin/File/fileUpload` | High
+32 | File | `/admin/home.php?con=add` | High
+33 | File | `/admin/index.php` | High
+34 | File | `/admin/inventory/manage_stock.php` | High
+35 | File | `/admin/link.php` | High
+36 | File | `/admin/network/diag_iperf` | High
+37 | File | `/admin/network/diag_traceroute` | High
+38 | File | `/admin/newsletter.php` | High
+39 | File | `/admin/orders/update_status.php` | High
+40 | File | `/admin/overtime_row.php` | High
+41 | File | `/admin/password-recovery.php` | High
+42 | File | `/admin/plugin.php` | High
+43 | File | `/admin/positions_add.php` | High
+44 | File | `/admin/print.php` | High
+45 | File | `/admin/process_category_edit.php` | High
+46 | File | `/admin/product.php` | High
+47 | File | `/admin/profile.php` | High
+48 | File | `/admin/registration.php` | High
+49 | File | `/Admin/registration.php` | High
+50 | File | `/admin/room.php` | High
+51 | File | `/admin/sales/manage_sale.php` | High
+52 | File | `/admin/search-booking-request.php` | High
+53 | File | `/admin/search-invoices.php` | High
+54 | File | `/admin/search-maid.php` | High
+55 | File | `/admin/search-property.php` | High
+56 | File | `/admin/store.php` | High
+57 | File | `/admin/twitter.php` | High
+58 | File | `/admin/update_room.php` | High
+59 | File | `/admin/user-search.php` | High
+60 | File | `/admin/user.php` | High
+61 | File | `/Android/data/com.myairtelapp/files/` | High
+62 | File | `/animalsupdate.php` | High
+63 | File | `/api/job/add/` | High
+64 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 559 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

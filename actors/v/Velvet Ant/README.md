@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [HK](https://vuldb.com/?country.hk)
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +28,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
-3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1221 | CWE-1336 | Improper Neutralization of Special Elements Used in a Template Engine | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

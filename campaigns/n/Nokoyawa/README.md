@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,17 +58,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/bookdate.php` | High
-2 | File | `/change-password.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/goform/formSetPassword` | High
-5 | File | `/goform/setBlackRule` | High
-6 | File | `/homeaction.php` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/lms/classes/Master.php?f=save_record` | High
-9 | File | `/login.php` | Medium
-10 | ... | ... | ...
+2 | File | `/admin/login-back.php` | High
+3 | File | `/change-password.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/function/login.php` | High
+6 | File | `/goform/AdvSetWrlsafeset` | High
+7 | File | `/goform/formSetPassword` | High
+8 | File | `/goform/setBlackRule` | High
+9 | File | `/homeaction.php` | High
+10 | File | `/librarian/bookdetails.php` | High
+11 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brunei Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,16 +66,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/api/v1/terminal/sessions/?limit=1` | High
-4 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/cimom` | Low
-7 | File | `/cms/category/list` | High
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/api/v1/terminal/sessions/?limit=1` | High
+3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/cimom` | Low
+6 | File | `/cms/category/list` | High
+7 | File | `/login/index.php` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

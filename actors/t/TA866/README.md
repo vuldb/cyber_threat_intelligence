@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,61 +54,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adm/index.php` | High
-2 | File | `/admin` | Low
-3 | File | `/admin-cp/plugin/install` | High
-4 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-5 | File | `/admin/aboutus.php` | High
-6 | File | `/admin/addadvertisement.php` | High
-7 | File | `/admin/addroom.php` | High
-8 | File | `/admin/admin_login.php` | High
-9 | File | `/Admin/akun_edit.php` | High
-10 | File | `/admin/bwdates-reports-details.php` | High
-11 | File | `/admin/changeimage.php` | High
-12 | File | `/Admin/changepassword.php` | High
-13 | File | `/admin/doAdminAction.php?act=delCate&id=31` | High
-14 | File | `/admin/edit-category-detail.php` | High
-15 | File | `/admin/edit_area.php` | High
-16 | File | `/admin/edit_page.php?link_id=1` | High
-17 | File | `/admin/fetch_product_details.php` | High
-18 | File | `/admin/filemanager/connector/` | High
-19 | File | `/admin/index2.html` | High
-20 | File | `/admin/level.php` | High
-21 | File | `/admin/list_onlineuser.php` | High
-22 | File | `/admin/manage-nurse.php` | High
-23 | File | `/admin/products/index.php` | High
-24 | File | `/admin/products/manage_product.php` | High
-25 | File | `/admin/sys/user/list` | High
-26 | File | `/admin/view-patient.php` | High
-27 | File | `/admin/viewpackage.php` | High
-28 | File | `/ajax.php?action=save_plan` | High
-29 | File | `/ajax/getBasicInfo.php` | High
-30 | File | `/api/dept` | Medium
-31 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-32 | File | `/api/upload` | Medium
-33 | File | `/App/Core/Extend/Function/ydLib.php` | High
-34 | File | `/appointment-history.php` | High
-35 | File | `/author/list?limit=10&offset=0&order=desc` | High
-36 | File | `/birthing_print.php` | High
-37 | File | `/boafrm/formMapDel` | High
-38 | File | `/boafrm/formMultiAP` | High
-39 | File | `/boafrm/formSetLg` | High
-40 | File | `/bwdates-reports-details.php` | High
-41 | File | `/catalog/all-products` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-44 | File | `/cgi-bin/login_action.cgi` | High
-45 | File | `/cgi-bin/main.cgi` | High
-46 | File | `/cgi-bin/sysconf.cgi` | High
-47 | File | `/change-password.php` | High
-48 | File | `/change_s_pwd.php` | High
-49 | File | `/classes/Master.php` | High
-50 | File | `/classes/Master.php?f=delete_category` | High
-51 | File | `/contact.php` | Medium
-52 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
-53 | ... | ... | ...
+1 | File | `//index.php` | Medium
+2 | File | `/adm/index.php` | High
+3 | File | `/admin` | Low
+4 | File | `/admin-cp/plugin/install` | High
+5 | File | `/admin-profile.php` | High
+6 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+7 | File | `/admin/aboutus.php` | High
+8 | File | `/admin/add-teacher.php` | High
+9 | File | `/admin/addadvertisement.php` | High
+10 | File | `/admin/addroom.php` | High
+11 | File | `/admin/admin_login.php` | High
+12 | File | `/Admin/akun_edit.php` | High
+13 | File | `/admin/bwdates-reports-details.php` | High
+14 | File | `/admin/changeimage.php` | High
+15 | File | `/Admin/changepassword.php` | High
+16 | File | `/admin/doAdminAction.php?act=delCate&id=31` | High
+17 | File | `/admin/edit-category-detail.php` | High
+18 | File | `/admin/edit-teacher-detail.php` | High
+19 | File | `/admin/edit_area.php` | High
+20 | File | `/admin/edit_page.php?link_id=1` | High
+21 | File | `/admin/fetch_product_details.php` | High
+22 | File | `/admin/filemanager/connector/` | High
+23 | File | `/admin/level.php` | High
+24 | File | `/admin/list_onlineuser.php` | High
+25 | File | `/admin/manage-nurse.php` | High
+26 | File | `/admin/password-recovery.php` | High
+27 | File | `/admin/products/index.php` | High
+28 | File | `/admin/sys/user/list` | High
+29 | File | `/admin/view-patient.php` | High
+30 | File | `/admin/viewpackage.php` | High
+31 | File | `/administrator` | High
+32 | File | `/admin_type.php` | High
+33 | File | `/adv_dhcps.php` | High
+34 | File | `/ajax.php?action=save_plan` | High
+35 | File | `/ajax/getBasicInfo.php` | High
+36 | File | `/api/dept` | Medium
+37 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+38 | File | `/App/Core/Extend/Function/ydLib.php` | High
+39 | File | `/appointment-history.php` | High
+40 | File | `/author/list?limit=10&offset=0&order=desc` | High
+41 | File | `/billing/pms_check.php` | High
+42 | File | `/birthing_print.php` | High
+43 | File | `/boafrm/formMapDel` | High
+44 | File | `/boafrm/formMapReboot` | High
+45 | File | `/boafrm/formMultiAP` | High
+46 | File | `/boafrm/formPortFw` | High
+47 | File | `/boafrm/formSetLg` | High
+48 | File | `/boat-details.php` | High
+49 | File | `/bwdates-reports-details.php` | High
+50 | File | `/catalog/all-products` | High
+51 | File | `/ccm/system/dialogs/file/delete/1/submit` | High
+52 | File | `/cgi-bin/cstecgi.cgi` | High
+53 | File | `/cgi-bin/login_action.cgi` | High
+54 | File | `/cgi-bin/main.cgi` | High
+55 | File | `/cgi-bin/sysconf.cgi` | High
+56 | File | `/change-password.php` | High
+57 | File | `/change_s_pwd.php` | High
+58 | File | `/classes/Master.php?f=delete_category` | High
+59 | File | `/contact.php` | Medium
+60 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
+61 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

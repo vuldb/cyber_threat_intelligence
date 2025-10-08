@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 13 | File | `/kortex_lite/control/edit_profile.php` | High
 14 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

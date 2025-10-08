@@ -80,27 +80,27 @@ ID | Type | Indicator | Confidence
 24 | File | `/config/config.json` | High
 25 | File | `/core/config-revisions` | High
 26 | File | `/debug/pprof` | Medium
-27 | File | `/devinfo` | Medium
-28 | File | `/diagnostics_doit` | High
-29 | File | `/download` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-32 | File | `/etc/hosts.deny` | High
-33 | File | `/flatpress/admin.php` | High
-34 | File | `/goform/goform_get_cmd_process` | High
-35 | File | `/goform/RP_checkCredentialsByBBS` | High
-36 | File | `/ims/login.php` | High
-37 | File | `/index.php?menu=asterisk_cli` | High
-38 | File | `/index/ajax/lang` | High
-39 | File | `/login.php?do=login` | High
-40 | File | `/mee/login` | Medium
-41 | File | `/metrics` | Medium
-42 | File | `/php-opos/index.php` | High
-43 | File | `/portal/search.htm` | High
-44 | File | `/portal/user-register.php` | High
+27 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+28 | File | `/devinfo` | Medium
+29 | File | `/diagnostics_doit` | High
+30 | File | `/download` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/etc/hosts.deny` | High
+34 | File | `/flatpress/admin.php` | High
+35 | File | `/goform/goform_get_cmd_process` | High
+36 | File | `/goform/RP_checkCredentialsByBBS` | High
+37 | File | `/ims/login.php` | High
+38 | File | `/index.php?menu=asterisk_cli` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/login.php?do=login` | High
+41 | File | `/mee/login` | Medium
+42 | File | `/metrics` | Medium
+43 | File | `/php-opos/index.php` | High
+44 | File | `/portal/search.htm` | High
 45 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

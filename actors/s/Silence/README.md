@@ -59,7 +59,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -79,38 +79,45 @@ ID | Type | Indicator | Confidence
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
 5 | File | `/admin/add_ikev2.php` | High
-6 | File | `/admin/category_save.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/manage_model.php` | High
-10 | File | `/admin/manage_user.php` | High
-11 | File | `/admin/search-vehicle.php` | High
-12 | File | `/admin/subject.php` | High
-13 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-14 | File | `/admin/twitter.php` | High
-15 | File | `/api/v1/settings` | High
-16 | File | `/api/v1/toolbox/device/update/swap` | High
-17 | File | `/app/zentao/module/repo/model.php` | High
-18 | File | `/auth_files/photo/` | High
-19 | File | `/bin/httpd` | Medium
-20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-21 | File | `/catalog/all-products` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/ExportSettings.sh` | High
-24 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-25 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-26 | File | `/edit-subject.php` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/etc/passwd` | Medium
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/etc/shadow.sample` | High
-31 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-32 | File | `/foms/routers/place-order.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/AdvSetMacMtuWan` | High
-35 | ... | ... | ...
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/manage_model.php` | High
+13 | File | `/admin/manage_user.php` | High
+14 | File | `/admin/new-content` | High
+15 | File | `/admin/search-vehicle.php` | High
+16 | File | `/admin/subject.php` | High
+17 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+18 | File | `/admin/twitter.php` | High
+19 | File | `/admin/voters_add.php` | High
+20 | File | `/admin/voters_delete.php` | High
+21 | File | `/api/v1/settings` | High
+22 | File | `/api/v1/toolbox/device/update/swap` | High
+23 | File | `/app/zentao/module/repo/model.php` | High
+24 | File | `/authentication/logout.php` | High
+25 | File | `/auth_files/photo/` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+28 | File | `/catalog/all-products` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/ExportSettings.sh` | High
+31 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+32 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+33 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+34 | File | `/edit-subject.php` | High
+35 | File | `/endpoint/add-user.php` | High
+36 | File | `/etc/passwd` | Medium
+37 | File | `/etc/postfix/sender_login` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+40 | File | `/foms/routers/place-order.php` | High
+41 | File | `/forum/away.php` | High
+42 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

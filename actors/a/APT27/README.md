@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,49 +62,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/pages/` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/live_api.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/config/getuser` | High
-12 | File | `/csms/?page=contact_us` | High
-13 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-14 | File | `/etc/ajenti/config.yml` | High
-15 | File | `/etc/shadow` | Medium
-16 | File | `/farm/product.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/telnet` | High
-19 | File | `/h/` | Low
-20 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-21 | File | `/lan.asp` | Medium
-22 | File | `/manage_block.php` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/oscommerce/admin/currencies.php` | High
-26 | File | `/proc/pid/syscall` | High
-27 | File | `/ptippage.cgi` | High
-28 | File | `/public/launchNewWindow.jsp` | High
-29 | File | `/rapi/read_url` | High
-30 | File | `/rom-0` | Low
-31 | File | `/session/list/allActiveSession` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/sys/dict/loadTreeData` | High
-34 | File | `/SysInfo.htm` | Medium
-35 | File | `/syslog_rules` | High
-36 | File | `/tmp/out` | Medium
-37 | File | `/Tool/uploadfile.php` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/update-image1.php` | High
-40 | File | `/upload` | Low
-41 | File | `/users/{id}` | Medium
-42 | ... | ... | ...
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/pages/` | High
+5 | File | `/admin/positions.php` | High
+6 | File | `/admins` | Low
+7 | File | `/ajax/getBasicInfo.php` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/live_api.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/clientdetails/admin/regester.php` | High
+13 | File | `/config/getuser` | High
+14 | File | `/csms/?page=contact_us` | High
+15 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+16 | File | `/etc/ajenti/config.yml` | High
+17 | File | `/etc/shadow` | Medium
+18 | File | `/farm/product.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/exeCommand` | High
+21 | File | `/goform/getOneApConfTempEntry` | High
+22 | File | `/goform/telnet` | High
+23 | File | `/h/` | Low
+24 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+25 | File | `/lan.asp` | Medium
+26 | File | `/login.php` | Medium
+27 | File | `/manage_block.php` | High
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/oscommerce/admin/currencies.php` | High
+31 | File | `/proc/pid/syscall` | High
+32 | File | `/ptippage.cgi` | High
+33 | File | `/public/launchNewWindow.jsp` | High
+34 | File | `/rapi/read_url` | High
+35 | File | `/session/list/allActiveSession` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/sys/dict/loadTreeData` | High
+38 | File | `/SysInfo.htm` | Medium
+39 | File | `/syslog_rules` | High
+40 | File | `/tmp/out` | Medium
+41 | File | `/Tool/uploadfile.php` | High
+42 | File | `/uncpath/` | Medium
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Tropic Trooper:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tropic Trooper:
 
 * [US](https://vuldb.com/?country.us)
-* [HK](https://vuldb.com/?country.hk)
 * [CN](https://vuldb.com/?country.cn)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,14 +70,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
 2 | File | `/ajax.php?action=update_account` | High
 3 | File | `/api/upload.php` | High
-4 | File | `/checklogin.php` | High
-5 | File | `/dist/index.js` | High
-6 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-7 | File | `/file-manager/delete.php` | High
-8 | File | `/index.php` | Medium
+4 | File | `/change_pass/forgot_password_sql.php` | High
+5 | File | `/checklogin.php` | High
+6 | File | `/dist/index.js` | High
+7 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+8 | File | `/file-manager/delete.php` | High
 9 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

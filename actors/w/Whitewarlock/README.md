@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Whitewarlock:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -59,7 +59,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/abs.php` | Medium
+1 | File | `../mtd/Config/Sha1Account1` | High
 2 | File | `/academy/tutor/filter` | High
 3 | File | `/accessdenied` | High
 4 | File | `/action/import_file/` | High
@@ -74,51 +74,50 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/create_product.php` | High
 14 | File | `/admin/doctor-specilization.php` | High
 15 | File | `/admin/edit-category.php` | High
-16 | File | `/admin/edit-services.php` | High
-17 | File | `/admin/gallery.php` | High
-18 | File | `/admin/index2.html` | High
-19 | File | `/admin/link.php` | High
-20 | File | `/admin/login.php` | High
-21 | File | `/admin/manage-pages.php` | High
-22 | File | `/admin/member_save.php` | High
-23 | File | `/admin/menu_update.php` | High
-24 | File | `/admin/mod_reservation/controller.php` | High
-25 | File | `/admin/network/ajax_getChannelList` | High
-26 | File | `/admin/network/diag_iperf` | High
-27 | File | `/admin/network/diag_nslookup` | High
-28 | File | `/admin/network/diag_ping6` | High
-29 | File | `/admin/network/diag_pinginterface` | High
-30 | File | `/admin/network/diag_traceroute` | High
-31 | File | `/admin/network/diag_traceroute6` | High
-32 | File | `/admin/network/wifi_schedule` | High
-33 | File | `/admin/profile.php` | High
-34 | File | `/admin/reservation_view.php` | High
-35 | File | `/admin/return_add.php` | High
-36 | File | `/admin/search-appointment.php` | High
-37 | File | `/admin/sn_package/sn_https` | High
-38 | File | `/admin/tag/save` | High
-39 | File | `/admin/user-search.php` | High
-40 | File | `/admin/user_save.php` | High
-41 | File | `/admin/view-appointment.php` | High
-42 | File | `/admin_user.php` | High
-43 | File | `/ajax.php?action=read_msg` | High
-44 | File | `/api/blade-log/api/list` | High
-45 | File | `/api/blade-system/menu/list?updatexml` | High
-46 | File | `/api/blade-user/submit` | High
-47 | File | `/api/crontab` | Medium
-48 | File | `/api/database/testConnect` | High
-49 | File | `/api/mjkj-chat/cgform-api/addData/` | High
-50 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-51 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-52 | File | `/api/pipelines/upload` | High
-53 | File | `/api/school/registerSchool` | High
-54 | File | `/api/system/dept/update` | High
-55 | File | `/api/upload.php` | High
-56 | File | `/api/v1/documents/` | High
-57 | File | `/api/v1/memories/{id}/update` | High
-58 | ... | ... | ...
+16 | File | `/admin/gallery.php` | High
+17 | File | `/admin/index2.html` | High
+18 | File | `/admin/link.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/manage-pages.php` | High
+21 | File | `/admin/member_save.php` | High
+22 | File | `/admin/menu_update.php` | High
+23 | File | `/admin/mod_reservation/controller.php` | High
+24 | File | `/admin/profile.php` | High
+25 | File | `/admin/reservation_view.php` | High
+26 | File | `/admin/return_add.php` | High
+27 | File | `/admin/search-vehicle.php` | High
+28 | File | `/admin/tag/save` | High
+29 | File | `/admin/user-search.php` | High
+30 | File | `/admin/user_save.php` | High
+31 | File | `/admin_user.php` | High
+32 | File | `/ajax.php?action=read_msg` | High
+33 | File | `/api/blade-log/api/list` | High
+34 | File | `/api/blade-system/menu/list?updatexml` | High
+35 | File | `/api/blade-user/submit` | High
+36 | File | `/api/crontab` | Medium
+37 | File | `/api/database/testConnect` | High
+38 | File | `/api/mjkj-chat/cgform-api/addData/` | High
+39 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+40 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+41 | File | `/api/pipelines/upload` | High
+42 | File | `/api/school/registerSchool` | High
+43 | File | `/api/system/dept/update` | High
+44 | File | `/api/upload.php` | High
+45 | File | `/api/v1/documents/` | High
+46 | File | `/api/v1/memories/{id}/update` | High
+47 | File | `/app/admin/controller/api/Plugs.php` | High
+48 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
+49 | File | `/App/Tpl/Admin/Default/Log/index.html` | High
+50 | File | `/approve_lawyer.php` | High
+51 | File | `/authenticate.php` | High
+52 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+53 | File | `/backend/admin/his_admin_register_patient.php` | High
+54 | File | `/bin/webs` | Medium
+55 | File | `/biurl_grou` | Medium
+56 | File | `/boafrm/formWlanMultipleAP` | High
+57 | ... | ... | ...
 
-There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

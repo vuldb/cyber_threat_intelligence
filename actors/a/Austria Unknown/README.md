@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Austria Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -1576,7 +1576,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -1591,50 +1591,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `/admin-cp/media` | High
-3 | File | `/admin/?page=return/view_return` | High
-4 | File | `/admin/add-subadmin.php` | High
-5 | File | `/admin/add_cars.php` | High
-6 | File | `/admin/admin_index.php` | High
-7 | File | `/admin/all-applications.php` | High
-8 | File | `/admin/betweendates-detailsreports.php` | High
-9 | File | `/admin/bwdates-request-report-details.php` | High
-10 | File | `/admin/category/add.do` | High
-11 | File | `/admin/changeimage.php` | High
-12 | File | `/admin/delete-doctor.php` | High
-13 | File | `/admin/edit-admin.php` | High
-14 | File | `/admin/edit-guard-detail.php` | High
-15 | File | `/admin/edit-products.php` | High
-16 | File | `/admin/enrollment-details.php` | High
-17 | File | `/admin/forms/option_lists/edit.php` | High
-18 | File | `/admin/getallarticleinfo` | High
+2 | File | `/action.php` | Medium
+3 | File | `/admin-cp/media` | High
+4 | File | `/admin/?page=return/view_return` | High
+5 | File | `/admin/add-subadmin.php` | High
+6 | File | `/admin/add_cars.php` | High
+7 | File | `/admin/admin_index.php` | High
+8 | File | `/admin/all-applications.php` | High
+9 | File | `/admin/betweendates-detailsreports.php` | High
+10 | File | `/admin/bwdates-request-report-details.php` | High
+11 | File | `/admin/category/add.do` | High
+12 | File | `/admin/changeimage.php` | High
+13 | File | `/admin/delete-doctor.php` | High
+14 | File | `/admin/edit-admin.php` | High
+15 | File | `/admin/edit-guard-detail.php` | High
+16 | File | `/admin/edit-products.php` | High
+17 | File | `/admin/enrollment-details.php` | High
+18 | File | `/admin/forms/option_lists/edit.php` | High
 19 | File | `/admin/index2.html` | High
 20 | File | `/Admin/login.php` | High
-21 | File | `/admin/user-search.php` | High
+21 | File | `/admin/voters_row.php` | High
 22 | File | `/adpweb/a/base/barcodeDetail/` | High
 23 | File | `/ajax.php?action=save_package` | High
 24 | File | `/allocated_rooms.php` | High
 25 | File | `/api/docs/index.php` | High
 26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-27 | File | `/api/wizard/networkSetup` | High
-28 | File | `/api/wizard/setsyncpppoecfg` | High
-29 | File | `/app/controller/Api.php` | High
-30 | File | `/auth.asp` | Medium
-31 | File | `/boafrm/formFilter` | High
-32 | File | `/boafrm/formMultiAP` | High
-33 | File | `/boafrm/formSaveConfig` | High
-34 | File | `/boafrm/formWlSiteSurvey` | High
-35 | File | `/BRS_top.html` | High
-36 | File | `/cashconfirm.php` | High
-37 | File | `/cgi-bin/Config.cgi?action=set` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/cgi-bin/editBookmark` | High
+27 | File | `/backend/register.php` | High
+28 | File | `/bic/ssoService/v1/applyCT` | High
+29 | File | `/bin/httpd` | Medium
+30 | File | `/boafrm/formFilter` | High
+31 | File | `/boafrm/formMultiAP` | High
+32 | File | `/boafrm/formSaveConfig` | High
+33 | File | `/boafrm/formWlSiteSurvey` | High
+34 | File | `/BRS_top.html` | High
+35 | File | `/cashconfirm.php` | High
+36 | File | `/cgi-bin/Config.cgi?action=set` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/editBookmark` | High
+39 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
 40 | File | `/cgi-bin/login.cgi` | High
 41 | File | `/changeUsername.php` | High
 42 | File | `/config/config.properties` | High
 43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

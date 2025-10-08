@@ -60,14 +60,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/wlogin.cgi` | High
 3 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
 4 | File | `/s/` | Low
-5 | File | `/upload` | Low
-6 | File | `/usr/bin/pkexec` | High
-7 | File | `/wp-admin/admin-ajax.php` | High
-8 | File | `Access/DownloadFeed_Mnt/FileUpload_Upd.cfm` | High
-9 | File | `adclick.php` | Medium
+5 | File | `/spip.php` | Medium
+6 | File | `/upload` | Low
+7 | File | `/usr/bin/pkexec` | High
+8 | File | `/wp-admin/admin-ajax.php` | High
+9 | File | `Access/DownloadFeed_Mnt/FileUpload_Upd.cfm` | High
 10 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

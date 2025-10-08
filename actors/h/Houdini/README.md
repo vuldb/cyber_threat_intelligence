@@ -127,9 +127,10 @@ ID | Type | Indicator | Confidence
 72 | File | `/portal/reports/account_statement` | High
 73 | File | `/products/details.asp` | High
 74 | File | `/products/view_product.php` | High
-75 | ... | ... | ...
+75 | File | `/property` | Medium
+76 | ... | ... | ...
 
-There are 663 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 670 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

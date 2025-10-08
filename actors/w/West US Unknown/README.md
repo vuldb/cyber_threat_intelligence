@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -148,10 +148,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -167,42 +166,29 @@ ID | Type | Indicator | Confidence
 6 | File | `/add-admin.php` | High
 7 | File | `/add-table.php` | High
 8 | File | `/admin#themes` | High
-9 | File | `/admin/?page=categories/view_category` | High
-10 | File | `/admin/add-doctor.php` | High
-11 | File | `/admin/admin_login.php` | High
-12 | File | `/admin/ajax.php?action=login` | High
-13 | File | `/admin/bookList?page=1&limit=10` | High
-14 | File | `/admin/case-type` | High
-15 | File | `/admin/contact-us.php` | High
-16 | File | `/admin/create_product.php` | High
-17 | File | `/admin/edit_manufacturer.php` | High
-18 | File | `/admin/emp-profile-avatar.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/ind_backstage.php` | High
-21 | File | `/admin/login.php` | High
-22 | File | `/admin/manage-services.php` | High
-23 | File | `/admin/menu.php` | High
-24 | File | `/admin/robot.php` | High
-25 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-26 | File | `/admin/users.php` | High
-27 | File | `/ajax.php` | Medium
-28 | File | `/ajax.php?action=delete_tenant` | High
-29 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-30 | File | `/api/system/other` | High
-31 | File | `/app/platform/controllers/ResetpwdController.php` | High
-32 | File | `/AttendanceMonitoring/report/index.php` | High
-33 | File | `/authMonitCallcenter` | High
-34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-35 | File | `/backend/admin/his_admin_register_patient.php` | High
-36 | File | `/backend/register.php` | High
-37 | File | `/bin/boa` | Medium
-38 | File | `/bloodrequest.php` | High
-39 | File | `/boafrm/formFilter` | High
-40 | File | `/booklist.php` | High
-41 | File | `/cgi-bin/cstecgi.cgi` | High
-42 | ... | ... | ...
+9 | File | `/admin/add-doctor.php` | High
+10 | File | `/admin/admin_login.php` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/bookList?page=1&limit=10` | High
+13 | File | `/admin/case-type` | High
+14 | File | `/admin/contact-us.php` | High
+15 | File | `/admin/create_product.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/ind_backstage.php` | High
+18 | File | `/admin/manage-services.php` | High
+19 | File | `/admin/menu.php` | High
+20 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+21 | File | `/ajax.php?action=delete_tenant` | High
+22 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+23 | File | `/api/system/other` | High
+24 | File | `/app/platform/controllers/ResetpwdController.php` | High
+25 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+26 | File | `/backend/admin/his_admin_register_patient.php` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/bloodrequest.php` | High
+29 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

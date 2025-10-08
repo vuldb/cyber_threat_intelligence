@@ -95,39 +95,39 @@ ID | Type | Indicator | Confidence
 35 | File | `/boafrm/formFilter` | High
 36 | File | `/bsms_ci/index.php/book` | High
 37 | File | `/cgi-bin/adm.cgi` | High
-38 | File | `/change-language/de_DE` | High
-39 | File | `/classes/Master.php` | High
-40 | File | `/classes/Master.php?f=delete_category` | High
-41 | File | `/classes/Master.php?f=delete_inquiry` | High
-42 | File | `/classes/Master.php?f=delete_item` | High
-43 | File | `/classes/Master.php?f=delete_service` | High
-44 | File | `/classes/Master.php?f=save_course` | High
-45 | File | `/classes/Master.php?f=save_inquiry` | High
-46 | File | `/classes/Master.php?f=save_item` | High
-47 | File | `/cms/category/list` | High
-48 | File | `/collection/all` | High
-49 | File | `/company/store` | High
-50 | File | `/confirm` | Medium
-51 | File | `/depotHead/list` | High
-52 | File | `/dipam/athlete-profile.php` | High
-53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-54 | File | `/etc/shadow.sample` | High
-55 | File | `/file_manager/admin/save_user.php` | High
-56 | File | `/find-a-match` | High
-57 | File | `/friends` | Medium
-58 | File | `/friends/ajax_invite` | High
-59 | File | `/front/roomtype-details.php` | High
-60 | File | `/garage/editorder.php` | High
-61 | File | `/goform/addressNat` | High
-62 | File | `/goform/AdvSetWrlsafeset` | High
-63 | File | `/goForm/aspForm` | High
-64 | File | `/goform/CertListInfo` | High
-65 | File | `/goform/delFileName` | High
-66 | File | `/goform/editFileName` | High
-67 | File | `/goform/editUserName` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+40 | File | `/cgi-bin/downloadFile.cgi` | High
+41 | File | `/change-language/de_DE` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=delete_inquiry` | High
+45 | File | `/classes/Master.php?f=delete_item` | High
+46 | File | `/classes/Master.php?f=delete_service` | High
+47 | File | `/classes/Master.php?f=save_course` | High
+48 | File | `/classes/Master.php?f=save_inquiry` | High
+49 | File | `/classes/Master.php?f=save_item` | High
+50 | File | `/cms/category/list` | High
+51 | File | `/collection/all` | High
+52 | File | `/company/store` | High
+53 | File | `/confirm` | Medium
+54 | File | `/depotHead/list` | High
+55 | File | `/dipam/athlete-profile.php` | High
+56 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+57 | File | `/etc/shadow.sample` | High
+58 | File | `/file_manager/admin/save_user.php` | High
+59 | File | `/find-a-match` | High
+60 | File | `/friends` | Medium
+61 | File | `/friends/ajax_invite` | High
+62 | File | `/front/roomtype-details.php` | High
+63 | File | `/garage/editorder.php` | High
+64 | File | `/goform/addressNat` | High
+65 | File | `/goform/AdvSetWrlsafeset` | High
+66 | File | `/goForm/aspForm` | High
+67 | File | `/goform/CertListInfo` | High
 68 | ... | ... | ...
 
-There are 595 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 598 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

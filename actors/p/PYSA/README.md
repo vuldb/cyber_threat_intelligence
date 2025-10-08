@@ -156,17 +156,17 @@ ID | Type | Indicator | Confidence
 104 | File | `/backend/admin/his_admin_register_patient.php` | High
 105 | File | `/backend/register.php` | High
 106 | File | `/billaction.php` | High
-107 | File | `/book_car.php` | High
-108 | File | `/catalog/all-products` | High
-109 | File | `/CDGServer3/document/Catelogs;logindojojs?command=DelCatelogs` | High
-110 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-111 | File | `/cgi-bin/apkg_mgr.cgi` | High
-112 | File | `/cgi-bin/cstecgi.cgi` | High
-113 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-114 | File | `/cgi-bin/discovery.cgi` | High
+107 | File | `/birthing_record.php` | High
+108 | File | `/book_car.php` | High
+109 | File | `/catalog/all-products` | High
+110 | File | `/CDGServer3/document/Catelogs;logindojojs?command=DelCatelogs` | High
+111 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+112 | File | `/cgi-bin/apkg_mgr.cgi` | High
+113 | File | `/cgi-bin/cstecgi.cgi` | High
+114 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
 115 | ... | ... | ...
 
-There are 1021 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1020 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

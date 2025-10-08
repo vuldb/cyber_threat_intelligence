@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 44 more country items available. Please use our online service to access the data.
+There are 45 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -137,12 +137,12 @@ ID | Type | Indicator | Confidence
 27 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 28 | File | `/devinfo` | Medium
 29 | File | `/DXR.axd` | Medium
-30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-31 | File | `/expadd.php` | Medium
-32 | File | `/forum/away.php` | High
+30 | File | `/expadd.php` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/` | Medium
 33 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

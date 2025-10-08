@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,23 +99,24 @@ ID | Type | Indicator | Confidence
 38 | File | `/download/image` | High
 39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 40 | File | `/Employer/EditProfile.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform` | Low
-43 | File | `/goform/apPortalPhoneAuth` | High
-44 | File | `/homeaction.php` | High
-45 | File | `/index.php` | Medium
-46 | File | `/InnerRepPlus.html` | High
-47 | File | `/mail/index.html` | High
-48 | File | `/manage_sy.php` | High
-49 | File | `/modules/ajaxServiciosCentro.php` | High
-50 | File | `/modules/profile/index.php` | High
+41 | File | `/EXCU_SHELL` | Medium
+42 | File | `/forum/away.php` | High
+43 | File | `/goform` | Low
+44 | File | `/goform/apPortalPhoneAuth` | High
+45 | File | `/homeaction.php` | High
+46 | File | `/index.php` | Medium
+47 | File | `/InnerRepPlus.html` | High
+48 | File | `/mail/index.html` | High
+49 | File | `/manage_sy.php` | High
+50 | File | `/modules/ajaxServiciosCentro.php` | High
 51 | File | `/multi-vendor-shopping-script/product-list.php` | High
-52 | File | `/OpenPublicCourse.aspx` | High
-53 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-54 | File | `/out.php` | Medium
-55 | ... | ... | ...
+52 | File | `/notice-details.php` | High
+53 | File | `/OpenPublicCourse.aspx` | High
+54 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+55 | File | `/out.php` | Medium
+56 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

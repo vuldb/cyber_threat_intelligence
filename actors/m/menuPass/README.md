@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/uncpath/` | Medium
 9 | File | `ArchivesMapper.xml` | High
 10 | File | `blind\source\high.php` | High
-11 | ... | ... | ...
+11 | File | `cart.php` | Medium
+12 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

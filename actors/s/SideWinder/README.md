@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,35 +108,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/robot.php` | High
 18 | File | `/admin/search-invoices.php` | High
 19 | File | `/admin/twitter.php` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/app/controller/Api.php` | High
-22 | File | `/app/controller/Setup.php` | High
-23 | File | `/app/index/controller/Common.php` | High
-24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-25 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-26 | File | `/applications/nexus/modules/front/store/store.php` | High
-27 | File | `/backend/doc/his_doc_update-account.php` | High
-28 | File | `/bitrix/admin/ldap_server_edit.php` | High
-29 | File | `/cgi-bin/apkg_mgr.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-33 | File | `/classes/Master.php` | High
-34 | File | `/classes/Master.php?f=delete_record` | High
-35 | File | `/classes/Master.php?f=save_category` | High
-36 | File | `/classes/SystemSettings.php?f=update_settings` | High
-37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/customnode/install` | High
-39 | File | `/deal/{note_id}/note` | High
-40 | File | `/detailed.php` | High
-41 | File | `/dipam/athlete-profile.php` | High
-42 | File | `/dtale/chart-data/1` | High
-43 | File | `/etc/shadow.sample` | High
-44 | File | `/fftools/ffmpeg_enc.c` | High
-45 | File | `/filter.php` | Medium
-46 | ... | ... | ...
+20 | File | `/app/controller/Api.php` | High
+21 | File | `/app/controller/Setup.php` | High
+22 | File | `/app/index/controller/Common.php` | High
+23 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+24 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+25 | File | `/applications/nexus/modules/front/store/store.php` | High
+26 | File | `/backend/doc/his_doc_update-account.php` | High
+27 | File | `/bitrix/admin/ldap_server_edit.php` | High
+28 | File | `/cgi-bin/apkg_mgr.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_record` | High
+34 | File | `/classes/Master.php?f=save_category` | High
+35 | File | `/classes/SystemSettings.php?f=update_settings` | High
+36 | File | `/classes/Users.php?f=save` | High
+37 | File | `/customnode/install` | High
+38 | File | `/deal/{note_id}/note` | High
+39 | File | `/detailed.php` | High
+40 | File | `/dipam/athlete-profile.php` | High
+41 | File | `/dtale/chart-data/1` | High
+42 | File | `/etc/shadow.sample` | High
+43 | File | `/fftools/ffmpeg_enc.c` | High
+44 | File | `/filter.php` | Medium
+45 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

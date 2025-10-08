@@ -9,22 +9,22 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with MuddyWater:
 
 * BlackWater
+* DCHSpy
 * Ligolo
-* Log4j
 * ...
 
-There are 4 more campaign items available. Please use our online service to access the data.
+There are 5 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MuddyWater:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,26 +51,29 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
 18 | [45.66.249.226](https://vuldb.com/?ip.45.66.249.226) | adbs.info.calculadoradecarbono.store | - | High
 19 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
-20 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
-21 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
-22 | [45.140.147.81](https://vuldb.com/?ip.45.140.147.81) | vm2128682.stark-industries.solutions | - | High
-23 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
-24 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
-25 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
-26 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
-27 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
-28 | [45.150.108.198](https://vuldb.com/?ip.45.150.108.198) | - | - | High
-29 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
-30 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
-31 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
-32 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
-33 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
-34 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
-35 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
-36 | [51.255.19.179](https://vuldb.com/?ip.51.255.19.179) | pru3.6nc110821hdb.co | - | High
-37 | ... | ... | ... | ...
+20 | [45.86.163.10](https://vuldb.com/?ip.45.86.163.10) | malescript.com | DCHSpy | High
+21 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
+22 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
+23 | [45.140.147.81](https://vuldb.com/?ip.45.140.147.81) | vm2128682.stark-industries.solutions | - | High
+24 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
+25 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
+26 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
+27 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
+28 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
+29 | [45.150.108.198](https://vuldb.com/?ip.45.150.108.198) | - | - | High
+30 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
+31 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
+32 | [46.30.188.243](https://vuldb.com/?ip.46.30.188.243) | - | DCHSpy | High
+33 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
+34 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
+35 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
+36 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
+37 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
+38 | [51.255.19.179](https://vuldb.com/?ip.51.255.19.179) | pru3.6nc110821hdb.co | - | High
+39 | [65.21.183.238](https://vuldb.com/?ip.65.21.183.238) | static.238.183.21.65.clients.your-server.de | PhonyC2 | High
+40 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 155 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,14 +81,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -93,75 +96,98 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%WINDIR%\temp` | High
-2 | File | `/Account/EditProfile` | High
-3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+1 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+2 | File | `/adaddmed.php` | High
+3 | File | `/addtime.php` | Medium
 4 | File | `/adm/index.php` | High
-5 | File | `/admin.php?mod=brand&act=del` | High
-6 | File | `/admin/aboutPost.php` | High
-7 | File | `/admin/AdminLogin.php` | High
-8 | File | `/admin/admin_addnew_product.php` | High
-9 | File | `/admin/ajax.php?action=login` | High
-10 | File | `/admin/all-request.php` | High
-11 | File | `/admin/article.php` | High
-12 | File | `/admin/betweendates-detailsreports.php` | High
-13 | File | `/admin/campsdetails.php` | High
-14 | File | `/admin/contactus.php` | High
-15 | File | `/admin/course.php` | High
-16 | File | `/admin/department.php` | High
-17 | File | `/admin/edit-customer-detailed.php` | High
-18 | File | `/admin/edit-services.php` | High
-19 | File | `/admin/forgot-password.php` | High
-20 | File | `/admin/gallery.php` | High
-21 | File | `/admin/level.php` | High
-22 | File | `/admin/registration.php` | High
-23 | File | `/admin/search-report-details.php` | High
-24 | File | `/admin/setup.cgi` | High
-25 | File | `/admin/view-pass-detail.php` | High
-26 | File | `/admin/View_user.php` | High
-27 | File | `/ajax_state.php` | High
-28 | File | `/api/browserextension/UpdatePassword/` | High
-29 | File | `/api/discoveries/` | High
-30 | File | `/api/esps` | Medium
-31 | File | `/api/wizard/getDualbandSync` | High
-32 | File | `/api/wizard/getNetworkConf` | High
-33 | File | `/api/wizard/networkSetup` | High
-34 | File | `/app/api/controller/caiji.php` | High
-35 | File | `/app/api/controller/collect.php` | High
-36 | File | `/app/controller/Setup.php` | High
-37 | File | `/application/models/ApplicationDataObject.class.php` | High
-38 | File | `/auth.asp` | Medium
-39 | File | `/auth/setup` | Medium
-40 | File | `/auth/soup-auth-digest.c` | High
-41 | File | `/auth_files/photo/` | High
-42 | File | `/bin/goahead` | Medium
-43 | File | `/bin/gpio` | Medium
-44 | File | `/bin/httpd` | Medium
-45 | File | `/bin/main` | Medium
-46 | File | `/binutils/debug.c` | High
-47 | File | `/biurl_grou` | Medium
-48 | File | `/boa/formWSC` | Medium
-49 | File | `/boafrm/formDMZ` | High
-50 | File | `/boafrm/formDosCfg` | High
-51 | File | `/boafrm/formFilter` | High
-52 | File | `/boafrm/formIpQoS` | High
-53 | File | `/boafrm/formIPv6Addr` | High
-54 | File | `/boafrm/formMapDelDevice` | High
-55 | File | `/boafrm/formMultiAP` | High
-56 | File | `/boafrm/formNtp` | High
-57 | File | `/boafrm/formParentControl` | High
-58 | File | `/boafrm/formPortFw` | High
-59 | File | `/boafrm/formReflashClientTbl` | High
-60 | File | `/boafrm/formSaveConfig` | High
-61 | File | `/boafrm/formSetLg` | High
-62 | File | `/boafrm/formSiteSurveyProfile` | High
-63 | File | `/boafrm/formStaticDHCP` | High
-64 | File | `/boafrm/formStats` | High
-65 | File | `/boafrm/formSysCmd` | High
-66 | File | `/boafrm/formSysLog` | High
-67 | ... | ... | ...
+5 | File | `/admin/aboutPost.php` | High
+6 | File | `/admin/add_teacher.php` | High
+7 | File | `/admin/admin_addnew_product.php` | High
+8 | File | `/admin/admin_forum/add_views.php` | High
+9 | File | `/admin/admin_forum/search_result.php` | High
+10 | File | `/admin/ajax.php?action=login` | High
+11 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+12 | File | `/admin/api/workspace/default/tool/debug` | High
+13 | File | `/admin/betweendates-detailsreports.php` | High
+14 | File | `/admin/candidates.php` | High
+15 | File | `/admin/contactus.php` | High
+16 | File | `/admin/course.php` | High
+17 | File | `/admin/delete_s2.php` | High
+18 | File | `/admin/delete_s3.php` | High
+19 | File | `/admin/delete_user.php` | High
+20 | File | `/admin/department.php` | High
+21 | File | `/admin/edit-doctor.php` | High
+22 | File | `/admin/edit_class.php` | High
+23 | File | `/admin/edit_role.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/level.php` | High
+26 | File | `/admin/login.php` | High
+27 | File | `/admin/modules/instructor/index.php` | High
+28 | File | `/admin/positions.php` | High
+29 | File | `/admin/products.php` | High
+30 | File | `/admin/profile.php` | High
+31 | File | `/admin/registration.php` | High
+32 | File | `/admin/save_airlines.php` | High
+33 | File | `/admin/save_user.php` | High
+34 | File | `/admin/setup.cgi` | High
+35 | File | `/admin/update_s8.php` | High
+36 | File | `/admin/view-pass-detail.php` | High
+37 | File | `/admin/view_payorder.php` | High
+38 | File | `/administrator/bidlist.php` | High
+39 | File | `/administrator/wew.php` | High
+40 | File | `/administrator/weweee.php` | High
+41 | File | `/admin_class.php?action=login` | High
+42 | File | `/admin_members.php?ac=editsave` | High
+43 | File | `/ajax.php?action=delete_payment` | High
+44 | File | `/ajax.php?action=save_category` | High
+45 | File | `/ajax.php?action=save_product` | High
+46 | File | `/api/browserextension/UpdatePassword/` | High
+47 | File | `/api/discoveries/` | High
+48 | File | `/api/v1/login` | High
+49 | File | `/app/api/controller/caiji.php` | High
+50 | File | `/app/api/controller/collect.php` | High
+51 | File | `/app/controller/Setup.php` | High
+52 | File | `/application/models/ApplicationDataObject.class.php` | High
+53 | File | `/attributecategory/queryAll` | High
+54 | File | `/avtools/avconv.c` | High
+55 | File | `/bin/gpio` | Medium
+56 | File | `/bin/httpd` | Medium
+57 | File | `/bin/main` | Medium
+58 | File | `/binutils/debug.c` | High
+59 | File | `/biurl_grou` | Medium
+60 | File | `/boa/formWSC` | Medium
+61 | File | `/boafrm/formDMZ` | High
+62 | File | `/boafrm/formDosCfg` | High
+63 | File | `/boafrm/formFilter` | High
+64 | File | `/boafrm/formIpQoS` | High
+65 | File | `/boafrm/formIPv6Addr` | High
+66 | File | `/boafrm/formMapDelDevice` | High
+67 | File | `/boafrm/formMultiAP` | High
+68 | File | `/boafrm/formNtp` | High
+69 | File | `/boafrm/formParentControl` | High
+70 | File | `/boafrm/formPortFw` | High
+71 | File | `/boafrm/formReflashClientTbl` | High
+72 | File | `/boafrm/formSaveConfig` | High
+73 | File | `/boafrm/formSetLg` | High
+74 | File | `/boafrm/formSiteSurveyProfile` | High
+75 | File | `/boafrm/formStaticDHCP` | High
+76 | File | `/boafrm/formStats` | High
+77 | File | `/boafrm/formSysCmd` | High
+78 | File | `/boafrm/formSysLog` | High
+79 | File | `/boafrm/formTmultiAP` | High
+80 | File | `/boafrm/formVlan` | High
+81 | File | `/boafrm/formWdsEncrypt` | High
+82 | File | `/boafrm/formWirelessTbl` | High
+83 | File | `/boafrm/formWlanRedirect` | High
+84 | File | `/boafrm/formWlSiteSurvey` | High
+85 | File | `/boafrm/formWsc` | High
+86 | File | `/book-appointment.php` | High
+87 | File | `/bwdates-reports-details.php` | High
+88 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
+89 | File | `/c6/Jhsoft.Web.projectmanage/ProjectManage/XmlHttp.aspx/?Type=add` | High
+90 | ... | ... | ...
 
-There are 588 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 796 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -186,6 +212,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.deepinstinct.com/blog/muddyc2go-latest-c2-framework-used-by-iranian-apt-muddywater-spotted-in-israel
 * https://www.deepinstinct.com/blog/muddywater-en-able-spear-phishing-with-new-ttps
 * https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater
+* https://www.group-ib.com/blog/muddywater-infrastructure-malware/
+* https://www.lookout.com/threat-intelligence/article/lookout-discovers-iranian-dchsy-surveillanceware
 * https://www.mandiant.com/resources/telegram-malware-iranian-espionage
 * https://www.microsoft.com/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/
 * https://www.threatminer.org/_reports/2019/TheMuddyWatersofAPTAttacks-CheckPointResearch.pdf#viewer.action=download

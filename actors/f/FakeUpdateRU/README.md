@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,9 +47,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/boafrm/formMultiAP` | High
 3 | File | `/boafrm/formSysLog` | High
 4 | File | `/boafrm/formWlanRedirect` | High
-5 | ... | ... | ...
+5 | File | `/comfy/utils.py` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

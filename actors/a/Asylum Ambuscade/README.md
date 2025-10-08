@@ -77,37 +77,37 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/files/recipepictures/` | High
 12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
 13 | File | `/app/uploading/upload-mp3.php` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/cgi-bin/adm.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/change-password.php` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-22 | File | `/contact.php` | Medium
-23 | File | `/CPE` | Low
-24 | File | `/dataSet/resolveSql` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/formSetPassword` | High
-28 | File | `/goform/setBlackRule` | High
-29 | File | `/index/ajax/lang` | High
-30 | File | `/lms/classes/Master.php?f=save_record` | High
-31 | File | `/login.php` | Medium
-32 | File | `/members/poster.php` | High
-33 | File | `/mics/j_spring_security_check` | High
-34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/pda/workflow/check_seal.php` | High
-37 | File | `/php/ping.php` | High
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/change-password.php` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+21 | File | `/contact.php` | Medium
+22 | File | `/CPE` | Low
+23 | File | `/dataSet/resolveSql` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/formSetPassword` | High
+27 | File | `/goform/setBlackRule` | High
+28 | File | `/index/ajax/lang` | High
+29 | File | `/lms/classes/Master.php?f=save_record` | High
+30 | File | `/login.php` | Medium
+31 | File | `/members/poster.php` | High
+32 | File | `/mics/j_spring_security_check` | High
+33 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/pda/workflow/check_seal.php` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/register/abort` | High
 38 | File | `/Script/admin/core/update_policy` | High
 39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/secserver` | Medium
-41 | File | `/server-status` | High
+40 | File | `/search.php` | Medium
+41 | File | `/secserver` | Medium
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

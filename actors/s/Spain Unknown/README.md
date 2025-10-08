@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3459,13 +3459,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-44 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3473,29 +3472,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `/admin-cp/media` | High
-3 | File | `/admin/?page=return/view_return` | High
-4 | File | `/admin/add-subadmin.php` | High
-5 | File | `/admin/add_cars.php` | High
-6 | File | `/admin/admin_index.php` | High
-7 | File | `/admin/bwdates-request-report-details.php` | High
-8 | File | `/admin/category/add.do` | High
-9 | File | `/admin/changeimage.php` | High
-10 | File | `/admin/delete-doctor.php` | High
-11 | File | `/admin/edit-admin.php` | High
-12 | File | `/admin/edit-guard-detail.php` | High
-13 | File | `/admin/editempeducation.php` | High
-14 | File | `/admin/forms/option_lists/edit.php` | High
-15 | File | `/Admin/login.php` | High
-16 | File | `/admin/uesrs.php&action=display&value=Show` | High
-17 | File | `/adpweb/a/base/barcodeDetail/` | High
-18 | File | `/ajax.php?action=save_package` | High
-19 | File | `/api/docs/index.php` | High
-20 | File | `/boafrm/formFilter` | High
-21 | ... | ... | ...
+1 | File | `/action.php` | Medium
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/new-content` | High
+5 | File | `/admin/voters_add.php` | High
+6 | File | `/admin/voters_delete.php` | High
+7 | File | `/admin/voters_row.php` | High
+8 | File | `/authentication/logout.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/dashboard/admin/submit_plan_new.php` | High
+11 | File | `/etc/controller-agent/agent.conf` | High
+12 | File | `/goform/formBSSetSitesurvey` | High
+13 | File | `/goform/formPPTPSetup` | High
+14 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

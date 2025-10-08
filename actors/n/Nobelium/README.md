@@ -67,21 +67,22 @@ ID | Type | Indicator | Confidence
 8 | File | `/etc/openshift/server_priv.pem` | High
 9 | File | `/etc/shadow.sample` | High
 10 | File | `/expense-yearwise-reports-detailed.php` | High
-11 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-12 | File | `/hedwig.cgi` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-15 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/notice-edit.php` | High
-18 | File | `/Noxen-master/users.php` | High
-19 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/start_apply.htm` | High
-22 | File | `/uncpath/` | Medium
-23 | ... | ... | ...
+11 | File | `/goform/qosClassifier` | High
+12 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+13 | File | `/hedwig.cgi` | Medium
+14 | File | `/index.php` | Medium
+15 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+16 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+17 | File | `/mkshop/Men/profile.php` | High
+18 | File | `/notice-edit.php` | High
+19 | File | `/Noxen-master/users.php` | High
+20 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/start_apply.htm` | High
+23 | File | `/uncpath/` | Medium
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

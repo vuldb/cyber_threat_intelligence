@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,15 +75,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/hd_config.cgi` | High
 7 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
 8 | File | `/cgi-bin/p1_ftpserver.php` | High
-9 | File | `/cgi-bin/tosei_kikai.php` | High
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/cgi-bin/webfile_mgr.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/config/getuser` | High
+9 | File | `/cgi-bin/sysconf.cgi` | High
+10 | File | `/cgi-bin/tosei_kikai.php` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-bin/webfile_mgr.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php` | High
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -111,54 +111,53 @@ ID | Type | Indicator | Confidence
 52 | File | `/admin/index.php` | High
 53 | File | `/admin/inquiries/view_details.php` | High
 54 | File | `/admin/invoice.php` | High
-55 | File | `/admin/login.php` | High
-56 | File | `/admin/maintenance/manage_department.php` | High
-57 | File | `/admin/manage_user.php` | High
-58 | File | `/admin/massage.php` | High
-59 | File | `/admin/mod_room/controller.php?action=add` | High
-60 | File | `/admin/msg.php` | High
-61 | File | `/admin/network/diag_iperf` | High
-62 | File | `/admin/overtime_add.php` | High
-63 | File | `/admin/overtime_row.php` | High
-64 | File | `/admin/plugin.php` | High
-65 | File | `/admin/print.php` | High
-66 | File | `/admin/profile.php` | High
-67 | File | `/admin/reportupload.aspx` | High
-68 | File | `/admin/reset-password.php` | High
-69 | File | `/admin/robot.php` | High
-70 | File | `/admin/search-vehicle.php` | High
-71 | File | `/admin/students/manage_academic.php` | High
-72 | File | `/admin/students/update_status.php` | High
-73 | File | `/admin/students/view_student.php` | High
-74 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-75 | File | `/admin/system.html` | High
-76 | File | `/admin/template/edit` | High
-77 | File | `/admin/template/update` | High
-78 | File | `/admin/user-search.php` | High
-79 | File | `/admin/user/user-move-run.php` | High
-80 | File | `/ajax.php?action=delete_tenant` | High
-81 | File | `/ajax.php?action=save_category` | High
-82 | File | `/ajax/chpwd.php` | High
-83 | File | `/ajax/getBasicInfo.php` | High
-84 | File | `/animalsadd.php` | High
-85 | File | `/api/config/list` | High
-86 | File | `/api/file/downloadfile` | High
-87 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
-88 | File | `/api/v4/teams//channels/deleted` | High
-89 | File | `/app/admin/controller/file/File.php` | High
-90 | File | `/app/api/controller/collect.php` | High
-91 | File | `/application/index/controller/Pay.php` | High
-92 | File | `/application/index/controller/Screen.php` | High
-93 | File | `/authMonitCallcenter` | High
-94 | File | `/booklist.php?subcatid=1` | High
-95 | File | `/buscar_integrada.php` | High
-96 | File | `/CDGServer3/document/Catelogs;logindojojs?command=DelCatelogs` | High
-97 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-98 | File | `/cgi-bin/cstecgi.cgi` | High
-99 | File | `/cgi-bin/discovery.cgi` | High
-100 | ... | ... | ...
+55 | File | `/admin/maintenance/manage_department.php` | High
+56 | File | `/admin/manage_user.php` | High
+57 | File | `/admin/massage.php` | High
+58 | File | `/admin/mod_room/controller.php?action=add` | High
+59 | File | `/admin/msg.php` | High
+60 | File | `/admin/network/diag_iperf` | High
+61 | File | `/admin/overtime_add.php` | High
+62 | File | `/admin/overtime_row.php` | High
+63 | File | `/admin/plugin.php` | High
+64 | File | `/admin/print.php` | High
+65 | File | `/admin/profile.php` | High
+66 | File | `/admin/reportupload.aspx` | High
+67 | File | `/admin/reset-password.php` | High
+68 | File | `/admin/robot.php` | High
+69 | File | `/admin/search-vehicle.php` | High
+70 | File | `/admin/students/manage_academic.php` | High
+71 | File | `/admin/students/update_status.php` | High
+72 | File | `/admin/students/view_student.php` | High
+73 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+74 | File | `/admin/template/edit` | High
+75 | File | `/admin/template/update` | High
+76 | File | `/admin/user-search.php` | High
+77 | File | `/admin/user/user-move-run.php` | High
+78 | File | `/ajax.php?action=delete_tenant` | High
+79 | File | `/ajax.php?action=save_category` | High
+80 | File | `/ajax/chpwd.php` | High
+81 | File | `/ajax/getBasicInfo.php` | High
+82 | File | `/animalsadd.php` | High
+83 | File | `/api/config/list` | High
+84 | File | `/api/file/downloadfile` | High
+85 | File | `/api/sys/ng-alain/getDictItemsByTable/` | High
+86 | File | `/api/v4/teams//channels/deleted` | High
+87 | File | `/app/admin/controller/file/File.php` | High
+88 | File | `/app/api/controller/collect.php` | High
+89 | File | `/application/index/controller/Pay.php` | High
+90 | File | `/application/index/controller/Screen.php` | High
+91 | File | `/booklist.php?subcatid=1` | High
+92 | File | `/buscar_integrada.php` | High
+93 | File | `/CDGServer3/document/Catelogs;logindojojs?command=DelCatelogs` | High
+94 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+95 | File | `/cgi-bin/cstecgi.cgi` | High
+96 | File | `/cgi-bin/discovery.cgi` | High
+97 | File | `/cgi-bin/hd_config.cgi` | High
+98 | File | `/cgi-bin/p1_ftpserver.php` | High
+99 | ... | ... | ...
 
-There are 888 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 879 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -108,7 +108,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -126,15 +127,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/auth_files/photo/` | High
 7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 8 | File | `/Bloodgroop_process.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-11 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-12 | File | `/ecommerce/support_ticket` | High
-13 | File | `/Employee/edit-profile.php` | High
-14 | File | `/forum/away.php` | High
-15 | ... | ... | ...
+9 | File | `/cancelbookingpatient.php` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+12 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+13 | File | `/ecommerce/support_ticket` | High
+14 | File | `/Employee/edit-profile.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/verifyFacebookLike` | High
+17 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

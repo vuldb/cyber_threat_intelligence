@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [UA](https://vuldb.com/?country.ua)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -62,18 +62,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/index.php` | Medium
 8 | File | `/ipms/imageConvert/image` | High
 9 | File | `/livesite/edit_designer_region.php` | High
-10 | File | `/ndmComponents.js` | High
-11 | File | `/v1/sql-runner` | High
-12 | File | `/view-pass-detail.php` | High
-13 | File | `/wp-admin/options-general.php` | High
-14 | File | `admin.color.php` | High
-15 | File | `admin.cropcanvas.php` | High
-16 | File | `admin.joomlaradiov5.php` | High
-17 | File | `admin.php` | Medium
-18 | File | `admin/addons/archive/archive.php` | High
+10 | File | `/module/Api/pessoa` | High
+11 | File | `/ndmComponents.js` | High
+12 | File | `/queryDevInfo` | High
+13 | File | `/v1/sql-runner` | High
+14 | File | `/view-pass-detail.php` | High
+15 | File | `/wp-admin/options-general.php` | High
+16 | File | `admin.color.php` | High
+17 | File | `admin.cropcanvas.php` | High
+18 | File | `admin.joomlaradiov5.php` | High
 19 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

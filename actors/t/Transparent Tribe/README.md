@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,65 +72,69 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin` | Low
 5 | File | `/admin.php/update/getFile.html` | High
 6 | File | `/admin.php?action=editpage` | High
-7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/add-services.php` | High
-9 | File | `/admin/admin.php` | High
-10 | File | `/admin/category_update.php` | High
-11 | File | `/admin/cmsVote/save` | High
-12 | File | `/admin/config_MT.php?action=delete` | High
-13 | File | `/admin/edit_customer.php` | High
-14 | File | `/admin/File/pictureUpload` | High
-15 | File | `/admin/imagealbum/list` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/index.php?page=manage_product` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/admin/network/diag_iperf` | High
-20 | File | `/admin/network/diag_traceroute` | High
-21 | File | `/admin/network/diag_traceroute6` | High
-22 | File | `/admin/network/wifi_schedule` | High
-23 | File | `/admin/sn_package/sn_https` | High
-24 | File | `/admin/students/manage.php` | High
-25 | File | `/admin/tag.php` | High
-26 | File | `/ample/app/ajax/member_data.php` | High
-27 | File | `/api/es/admin/v3/security/user/1` | High
-28 | File | `/api/process.php` | High
-29 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-30 | File | `/api/v2/maps` | Medium
-31 | File | `/api/v2/schema` | High
-32 | File | `/apps/system/router/upload.go` | High
-33 | File | `/apps/system/services/role_menu.go` | High
-34 | File | `/b2b-supermarket/catalog/all-products` | High
-35 | File | `/bidlog.php` | Medium
-36 | File | `/branch_viewmore.php` | High
-37 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-38 | File | `/cgi-bin/` | Medium
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/classes/Master.php` | High
-41 | File | `/classes/Master.php?f=delete_category` | High
-42 | File | `/classes/Users.php?f=delete` | High
-43 | File | `/classes/Users.php?f=register_user` | High
-44 | File | `/classes/Users.php?f=save` | High
-45 | File | `/cms/category/list` | High
-46 | File | `/coders/pdf.c` | High
-47 | File | `/control/add_act.php` | High
-48 | File | `/control/WANIPConnection` | High
-49 | File | `/crm/data/pdf.php` | High
-50 | File | `/data/config.ftp.php` | High
-51 | File | `/decoration/admin/update_image.php` | High
-52 | File | `/dede/article_string_mix.php` | High
-53 | File | `/deleteanimal.php` | High
-54 | File | `/edit.php` | Medium
-55 | File | `/editar-fornecedor.php` | High
-56 | File | `/edit_user.php` | High
-57 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-58 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-59 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-60 | File | `/endpoint/delete-account.php` | High
-61 | File | `/etc/grafana/grafana.ini` | High
-62 | File | `/expcatedit.php` | High
-63 | ... | ... | ...
+7 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+8 | File | `/admin/about-us.php` | High
+9 | File | `/admin/add-services.php` | High
+10 | File | `/admin/admin.php` | High
+11 | File | `/admin/category_update.php` | High
+12 | File | `/admin/cmsVote/save` | High
+13 | File | `/admin/config_MT.php?action=delete` | High
+14 | File | `/admin/edit_customer.php` | High
+15 | File | `/admin/File/pictureUpload` | High
+16 | File | `/admin/imagealbum/list` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index.php?page=manage_product` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/network/diag_iperf` | High
+21 | File | `/admin/network/diag_traceroute` | High
+22 | File | `/admin/network/diag_traceroute6` | High
+23 | File | `/admin/network/wifi_schedule` | High
+24 | File | `/admin/sn_package/sn_https` | High
+25 | File | `/admin/students/manage.php` | High
+26 | File | `/admin/tag.php` | High
+27 | File | `/ample/app/ajax/member_data.php` | High
+28 | File | `/api/es/admin/v3/security/user/1` | High
+29 | File | `/api/process.php` | High
+30 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+31 | File | `/api/v2/maps` | Medium
+32 | File | `/api/v2/schema` | High
+33 | File | `/apps/system/router/upload.go` | High
+34 | File | `/apps/system/services/role_menu.go` | High
+35 | File | `/b2b-supermarket/catalog/all-products` | High
+36 | File | `/bidlog.php` | Medium
+37 | File | `/branch_viewmore.php` | High
+38 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+39 | File | `/cgi-bin/` | Medium
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_category` | High
+43 | File | `/classes/Users.php?f=delete` | High
+44 | File | `/classes/Users.php?f=register_user` | High
+45 | File | `/classes/Users.php?f=save` | High
+46 | File | `/cms/category/list` | High
+47 | File | `/coders/pdf.c` | High
+48 | File | `/control/add_act.php` | High
+49 | File | `/control/WANIPConnection` | High
+50 | File | `/crm/data/pdf.php` | High
+51 | File | `/data/config.ftp.php` | High
+52 | File | `/decoration/admin/update_image.php` | High
+53 | File | `/dede/article_string_mix.php` | High
+54 | File | `/deleteanimal.php` | High
+55 | File | `/edit.php` | Medium
+56 | File | `/editar-fornecedor.php` | High
+57 | File | `/edit_user.php` | High
+58 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+59 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+60 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+61 | File | `/endpoint/delete-account.php` | High
+62 | File | `/etc/grafana/grafana.ini` | High
+63 | File | `/expcatedit.php` | High
+64 | File | `/exponentcms/administration/configure_site` | High
+65 | File | `/export` | Low
+66 | File | `/forgetpassword.php` | High
+67 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

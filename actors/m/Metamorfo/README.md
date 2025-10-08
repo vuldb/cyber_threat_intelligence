@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,11 +48,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/launch_message.php` | High
-2 | File | `/endpoint/delete-account.php` | High
-3 | File | `/UserSelfServiceSettings.jsp` | High
-4 | ... | ... | ...
+2 | File | `/chat_im/chat_window.php` | High
+3 | File | `/endpoint/delete-account.php` | High
+4 | File | `/etc/passwd` | Medium
+5 | File | `/UserSelfServiceSettings.jsp` | High
+6 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -63,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/951c2f341e914601140aa9ead05895f6957d5cbfda80b81be99015d2be02d44f/
 * https://bazaar.abuse.ch/sample/eb5ea730abf432d169a1560ef19f6100b96aecd4a18d41fd20f9a06e2d15077e/
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md
+* https://urlhaus.abuse.ch/url/3582016/
 * https://www.cyber45.com
 
 ## Literature

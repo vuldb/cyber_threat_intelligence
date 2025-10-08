@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ConnectBack:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
@@ -20,10 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [15.206.116.117](https://vuldb.com/?ip.15.206.116.117) | ec2-15-206-116-117.ap-south-1.compute.amazonaws.com | - | Medium
 2 | [46.41.139.162](https://vuldb.com/?ip.46.41.139.162) | cart.madrepatria.org | - | High
-3 | [107.172.16.206](https://vuldb.com/?ip.107.172.16.206) | 107-172-16-206-host.colocrossing.com | - | High
+3 | [103.165.81.230](https://vuldb.com/?ip.103.165.81.230) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,8 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+1 | T1006 | CWE-21 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,6 +47,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/hvm/hvm.c` | Medium
 2 | File | `system.cgi` | Medium
 3 | Argument | `any` | Low
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -52,6 +59,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/4cc65461ef1448c99b90bc36767f164b06e8452c50cf10401cf353fcdb68544c/
 * https://bazaar.abuse.ch/sample/690f29dd425f7415ecb50986aa26750960c39a0ca8a02ddfd37ec4196993bd9e/
 * https://bazaar.abuse.ch/sample/a46e386c540170f42b0815c151a2c6f87c53af3eb3126f1d1f6812be272e4004/
+* https://bazaar.abuse.ch/sample/f9d39bd2cb0da8e023e6a968a515dab56a6b8bc4fec90deb340a7bfbb7ea112a/
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3560076/
 

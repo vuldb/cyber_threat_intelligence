@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,20 +70,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
-2 | File | `/admin/clients/` | High
-3 | File | `/Admin/edit_profile.php` | High
-4 | File | `/admin/forms/option_lists/edit.php` | High
-5 | File | `/admin/settings/index.php?page=accounts` | High
-6 | File | `/api/configs` | Medium
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/change_pass/forgot_password_sql.php` | High
-10 | File | `/classes/Master.php?f=save_medicine` | High
-11 | File | `/control/add_act.php` | High
-12 | File | `/control/login.php` | High
-13 | ... | ... | ...
+2 | File | `/admin/auto-taxi-entry-detail.php` | High
+3 | File | `/admin/candidates_add.php` | High
+4 | File | `/admin/clients/` | High
+5 | File | `/admin/edit-services.php` | High
+6 | File | `/Admin/edit_profile.php` | High
+7 | File | `/admin/forms/option_lists/edit.php` | High
+8 | File | `/admin/settings/index.php?page=accounts` | High
+9 | File | `/api/configs` | Medium
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/boafrm/formPortFw` | High
+13 | File | `/cancelbookingpatient.php` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/change_pass/forgot_password_sql.php` | High
+16 | ... | ... | ...
 
-There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

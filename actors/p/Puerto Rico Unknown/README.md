@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -236,13 +236,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -250,38 +250,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Account/login.php` | High
-2 | File | `/ad-list` | Medium
-3 | File | `/add-admin.php` | High
-4 | File | `/add-table.php` | High
-5 | File | `/admin#themes` | High
-6 | File | `/admin.php/update/getFile.html` | High
-7 | File | `/admin/addgiving.php` | High
-8 | File | `/admin/admin_login.php` | High
-9 | File | `/admin/ajax.php?action=login` | High
-10 | File | `/admin/bookList?page=1&limit=10` | High
-11 | File | `/admin/case-type` | High
-12 | File | `/admin/categories/view_category.php` | High
-13 | File | `/admin/contact-us.php` | High
-14 | File | `/admin/create_product.php` | High
-15 | File | `/admin/index.php` | High
-16 | File | `/admin/index.php?page=manage_lot` | High
-17 | File | `/admin/index3.php` | High
-18 | File | `/admin/ind_backstage.php` | High
-19 | File | `/admin/login.php` | High
-20 | File | `/admin/manage-services.php` | High
-21 | File | `/admin/menu.php` | High
-22 | File | `/admin/pages/subjects.php` | High
-23 | File | `/admin/user_save.php` | High
-24 | File | `/analysisProject/pagingQueryData` | High
-25 | File | `/api/api.php?mod=upload&type=1` | High
-26 | File | `/api/system/other` | High
-27 | File | `/app/admin/view/web_user.html` | High
-28 | File | `/app/platform/controllers/ResetpwdController.php` | High
-29 | File | `/app/sys1.php` | High
-30 | ... | ... | ...
+1 | File | `/ad-list` | Medium
+2 | File | `/add-admin.php` | High
+3 | File | `/add-table.php` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/addgiving.php` | High
+6 | File | `/admin/admin_login.php` | High
+7 | File | `/admin/ajax.php?action=save_settings` | High
+8 | File | `/admin/booking-search.php` | High
+9 | File | `/admin/bookList?page=1&limit=10` | High
+10 | File | `/admin/case-type` | High
+11 | File | `/admin/categories/view_category.php` | High
+12 | File | `/admin/contact-us.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index.php?page=manage_lot` | High
+15 | File | `/admin/index3.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/manage-services.php` | High
+18 | File | `/admin/menu.php` | High
+19 | File | `/admin/msg.php` | High
+20 | File | `/admin/pages/subjects.php` | High
+21 | File | `/admin/user_save.php` | High
+22 | File | `/analysisProject/pagingQueryData` | High
+23 | File | `/api/api.php?mod=upload&type=1` | High
+24 | File | `/api/system/other` | High
+25 | File | `/app/admin/view/web_user.html` | High
+26 | File | `/app/sys1.php` | High
+27 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+28 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

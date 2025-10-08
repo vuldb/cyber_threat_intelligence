@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.32.100.169](https://vuldb.com/?ip.45.32.100.169) | 45.32.100.169.vultrusercontent.com | PylangGhost | Medium
-2 | [45.63.107.98](https://vuldb.com/?ip.45.63.107.98) | 45.63.107.98.vultrusercontent.com | PylangGhost | Medium
-3 | [103.172.115.165](https://vuldb.com/?ip.103.172.115.165) | - | PylangGhost | High
+1 | [13.107.246.45](https://vuldb.com/?ip.13.107.246.45) | - | PylangGhost | High
+2 | [45.32.100.169](https://vuldb.com/?ip.45.32.100.169) | 45.32.100.169.vultrusercontent.com | PylangGhost | Medium
+3 | [45.63.107.98](https://vuldb.com/?ip.45.63.107.98) | 45.63.107.98.vultrusercontent.com | PylangGhost | Medium
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,17 +53,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/goahead` | Medium
-2 | File | `/config/getuser` | High
-3 | File | `/SysInfo.htm` | Medium
-4 | ... | ... | ...
+1 | File | `/admin/deduction_row.php` | High
+2 | File | `/admin/edit_teacher.php` | High
+3 | File | `/bin/goahead` | Medium
+4 | File | `/config/getuser` | High
+5 | File | `/SysInfo.htm` | Medium
+6 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://any.run/cybersecurity-blog/pylangghost-malware-analysis/
 * https://blog.talosintelligence.com/python-version-of-golangghost-rat/
 
 ## Literature

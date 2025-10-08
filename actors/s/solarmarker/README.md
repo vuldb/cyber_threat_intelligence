@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SolarMarker:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -59,48 +59,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/AcceptZip.ashx` | High
-2 | File | `/admin/index.PHP` | High
-3 | File | `/admin/index.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/network/wifi_schedule` | High
-6 | File | `/admin/tag.php` | High
-7 | File | `/alphaware/details.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api2/html/` | Medium
-10 | File | `/apiadmin/notice/add` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-13 | File | `/backend/admin/his_admin_register_patient.php` | High
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/calendar/minimizer/index.php` | High
-16 | File | `/cgi-bin-sdb/` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-19 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-20 | File | `/cgi-bin/p1_ftpserver.php` | High
-21 | File | `/cgi-bin/touchlist_sync.cgi` | High
-22 | File | `/classes/master.php?f=delete_order` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/ecommerce/support_ticket` | High
-25 | File | `/Forms/tools_test_1` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/forum/PostPrivateMessage` | High
-28 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-29 | File | `/goform/RP_checkCredentialsByBBS` | High
-30 | File | `/goform/ShutdownSetAdd` | High
-31 | File | `/goform/wirelessAdvancedHidden` | High
-32 | File | `/h/autoSaveDraft` | High
-33 | File | `/h/calendar` | Medium
-34 | File | `/holiday.php` | Medium
-35 | File | `/home/cavesConsole` | High
-36 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-37 | File | `/lam/tmp/` | Medium
-38 | File | `/librarian/bookdetails.php` | High
-39 | File | `/login/index.php` | High
-40 | File | `/model/update_grade.php` | High
-41 | File | `/module/word_model/view/index.php` | High
-42 | File | `/monitoring` | Medium
-43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/network/wifi_schedule` | High
+5 | File | `/admin/tag.php` | High
+6 | File | `/alphaware/details.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api2/html/` | Medium
+9 | File | `/apiadmin/notice/add` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/backend/admin/his_admin_register_patient.php` | High
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/calendar/minimizer/index.php` | High
+15 | File | `/cgi-bin-sdb/` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+18 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+19 | File | `/cgi-bin/p1_ftpserver.php` | High
+20 | File | `/cgi-bin/touchlist_sync.cgi` | High
+21 | File | `/classes/master.php?f=delete_order` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/ecommerce/support_ticket` | High
+24 | File | `/Forms/tools_test_1` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/forum/PostPrivateMessage` | High
+27 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+28 | File | `/goform/RP_checkCredentialsByBBS` | High
+29 | File | `/goform/ShutdownSetAdd` | High
+30 | File | `/goform/wirelessAdvancedHidden` | High
+31 | File | `/h/autoSaveDraft` | High
+32 | File | `/h/calendar` | Medium
+33 | File | `/holiday.php` | Medium
+34 | File | `/home/cavesConsole` | High
+35 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+36 | File | `/lam/tmp/` | Medium
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/login/index.php` | High
+39 | File | `/model/update_grade.php` | High
+40 | File | `/module/word_model/view/index.php` | High
+41 | File | `/monitoring` | Medium
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/newsDia.php` | Medium
 44 | File | `/oauth/idp/.well-known/openid-configuration` | High
 45 | File | `/OpenPublicCourse.aspx` | High
 46 | File | `/out.php` | Medium
@@ -114,7 +114,7 @@ ID | Type | Indicator | Confidence
 54 | File | `/pm/v2/activites` | High
 55 | ... | ... | ...
 
-There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

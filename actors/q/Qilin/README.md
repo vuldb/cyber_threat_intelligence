@@ -33,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [93.115.25.139](https://vuldb.com/?ip.93.115.25.139) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,16 +102,16 @@ ID | Type | Indicator | Confidence
 44 | File | `/bloodrequest.php` | High
 45 | File | `/boafrm/formFilter` | High
 46 | File | `/booklist.php` | High
-47 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-48 | File | `/cgi-bin/cstecgi.cgi` | High
-49 | File | `/cgi-bin/hd_config.cgi` | High
-50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-51 | File | `/cgi-bin/wapopen` | High
-52 | File | `/classes/Master.php` | High
-53 | File | `/classes/Master.php?f=delete_category` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/hd_config.cgi` | High
+49 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+50 | File | `/cgi-bin/wapopen` | High
+51 | File | `/classes/Master.php` | High
+52 | File | `/classes/Master.php?f=delete_category` | High
+53 | File | `/classes/Master.php?f=log_employee` | High
 54 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.bushidotoken.net/2024/06/tracking-adversaries-qilin-raas.html
 * https://darktrace.com/blog/a-busy-agenda-darktraces-detection-of-qilin-ransomware-as-a-service-operator
 * https://op-c.net/blog/sap-cve-2025-31324-qilin-breach/
+* https://windowsir.blogspot.com/2025/09/ransomware-artifacts.html
 * https://www.cybereason.com/blog/threat-alert-qilin-seizes-control
 
 ## Literature

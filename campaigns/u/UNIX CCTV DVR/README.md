@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -63,64 +63,67 @@ ID | Type | Indicator | Confidence
 2 | File | `/activate_hook.php` | High
 3 | File | `/add_new_supplier.php` | High
 4 | File | `/add_post_sql.php` | High
-5 | File | `/admin/book_row.php` | High
-6 | File | `/admin/categories/update` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/edit-subadmin.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/process_category_add.php` | High
-12 | File | `/admin/quizquestion.php` | High
-13 | File | `/admin/search-appointment.php` | High
-14 | File | `/admin/tag/delete` | High
-15 | File | `/admin/user/manage_user.php` | High
-16 | File | `/ajax.php?action=login` | High
-17 | File | `/ajax.php?action=read_msg` | High
-18 | File | `/ajax.php?action=save_category` | High
-19 | File | `/api/baskets/{name}` | High
-20 | File | `/app/api/controller/caiji.php` | High
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/blog/edit` | Medium
-23 | File | `/buscar_integrada.php` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=delete_category` | High
-27 | File | `/classes/Master.php?f=save_item` | High
-28 | File | `/config/php.ini` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-32 | File | `/details.php` | Medium
-33 | File | `/editprofile.php` | High
-34 | File | `/Employer/ManageWalkin.php` | High
-35 | File | `/endpoint/add-calorie.php` | High
-36 | File | `/endpoint/delete-computer.php` | High
-37 | File | `/endpoint/update.php` | High
-38 | File | `/expedit.php` | Medium
-39 | File | `/export` | Low
-40 | File | `/formLoginAuth.htm` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/PowerSaveSet` | High
-43 | File | `/goform/wizard_end` | High
-44 | File | `/guest/update.php` | High
-45 | File | `/home/get_tasks_list` | High
-46 | File | `/importexport.php` | High
-47 | File | `/index.php` | Medium
-48 | File | `/isms/classes/Users.php` | High
-49 | File | `/jobportal/index.php` | High
-50 | File | `/lists/index.php` | High
-51 | File | `/MailAdmin_dll.htm` | High
-52 | File | `/manage_supplier.php` | High
-53 | File | `/members/view_member.php` | High
-54 | File | `/messageboard/view.php` | High
-55 | File | `/mhds/clinic/view_details.php` | High
-56 | File | `/modules/projects/vw_files.php` | High
-57 | File | `/myprofile.php` | High
-58 | File | `/net/tls/tls_sw.c` | High
-59 | File | `/newdriver.php` | High
-60 | ... | ... | ...
+5 | File | `/admin/admin_running.php` | High
+6 | File | `/admin/book_row.php` | High
+7 | File | `/admin/categories/update` | High
+8 | File | `/admin/delete_s6.php` | High
+9 | File | `/admin/del_service.php` | High
+10 | File | `/admin/edit-subadmin.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/login-back.php` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/manage-notices.php` | High
+15 | File | `/admin/process_category_add.php` | High
+16 | File | `/admin/quizquestion.php` | High
+17 | File | `/admin/search-appointment.php` | High
+18 | File | `/admin/tag/delete` | High
+19 | File | `/admin/user/manage_user.php` | High
+20 | File | `/admin/view-foreigner-ticket.php` | High
+21 | File | `/ajax.php?action=login` | High
+22 | File | `/ajax.php?action=read_msg` | High
+23 | File | `/ajax.php?action=save_category` | High
+24 | File | `/api/baskets/{name}` | High
+25 | File | `/app/api/controller/caiji.php` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/bitrix/admin/ldap_server_edit.php` | High
+28 | File | `/blog/edit` | Medium
+29 | File | `/boafrm/formIPv6Addr` | High
+30 | File | `/buscar_integrada.php` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Master.php?f=delete_category` | High
+35 | File | `/classes/Master.php?f=save_item` | High
+36 | File | `/config/php.ini` | High
+37 | File | `/data/remove` | Medium
+38 | File | `/debug/pprof` | Medium
+39 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+40 | File | `/details.php` | Medium
+41 | File | `/editprofile.php` | High
+42 | File | `/Employer/ManageWalkin.php` | High
+43 | File | `/endpoint/add-calorie.php` | High
+44 | File | `/endpoint/delete-computer.php` | High
+45 | File | `/endpoint/update.php` | High
+46 | File | `/expedit.php` | Medium
+47 | File | `/export` | Low
+48 | File | `/formLoginAuth.htm` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/getDay.php` | Medium
+51 | File | `/goform/PowerSaveSet` | High
+52 | File | `/goform/wizard_end` | High
+53 | File | `/guest/update.php` | High
+54 | File | `/home/get_tasks_list` | High
+55 | File | `/importexport.php` | High
+56 | File | `/index.php` | Medium
+57 | File | `/isms/classes/Users.php` | High
+58 | File | `/jobportal/index.php` | High
+59 | File | `/js-todo-app/index.html` | High
+60 | File | `/lists/index.php` | High
+61 | File | `/MailAdmin_dll.htm` | High
+62 | File | `/main/java/com/ujcms/cms/ext/web/backendapi/WebFileUploadController.java` | High
+63 | ... | ... | ...
 
-There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

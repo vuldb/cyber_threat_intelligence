@@ -23,24 +23,26 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.25.79.112](https://vuldb.com/?ip.3.25.79.112) | ec2-3-25-79-112.ap-southeast-2.compute.amazonaws.com | - | Medium
 2 | [3.26.57.58](https://vuldb.com/?ip.3.26.57.58) | ec2-3-26-57-58.ap-southeast-2.compute.amazonaws.com | - | Medium
-3 | [3.29.129.59](https://vuldb.com/?ip.3.29.129.59) | ec2-3-29-129-59.me-central-1.compute.amazonaws.com | - | Medium
-4 | [3.36.49.39](https://vuldb.com/?ip.3.36.49.39) | ec2-3-36-49-39.ap-northeast-2.compute.amazonaws.com | - | Medium
-5 | [3.69.51.52](https://vuldb.com/?ip.3.69.51.52) | ec2-3-69-51-52.eu-central-1.compute.amazonaws.com | - | Medium
-6 | [3.95.187.183](https://vuldb.com/?ip.3.95.187.183) | ec2-3-95-187-183.compute-1.amazonaws.com | - | Medium
-7 | [3.95.223.25](https://vuldb.com/?ip.3.95.223.25) | ec2-3-95-223-25.compute-1.amazonaws.com | - | Medium
-8 | [3.124.115.208](https://vuldb.com/?ip.3.124.115.208) | ec2-3-124-115-208.eu-central-1.compute.amazonaws.com | - | Medium
-9 | [3.124.185.25](https://vuldb.com/?ip.3.124.185.25) | ec2-3-124-185-25.eu-central-1.compute.amazonaws.com | - | Medium
-10 | [3.249.210.217](https://vuldb.com/?ip.3.249.210.217) | ec2-3-249-210-217.eu-west-1.compute.amazonaws.com | - | Medium
-11 | [13.36.240.203](https://vuldb.com/?ip.13.36.240.203) | ec2-13-36-240-203.eu-west-3.compute.amazonaws.com | - | Medium
-12 | [13.37.235.159](https://vuldb.com/?ip.13.37.235.159) | ec2-13-37-235-159.eu-west-3.compute.amazonaws.com | - | Medium
-13 | [13.39.158.86](https://vuldb.com/?ip.13.39.158.86) | ec2-13-39-158-86.eu-west-3.compute.amazonaws.com | - | Medium
-14 | [13.40.64.210](https://vuldb.com/?ip.13.40.64.210) | ec2-13-40-64-210.eu-west-2.compute.amazonaws.com | - | Medium
-15 | [13.49.46.48](https://vuldb.com/?ip.13.49.46.48) | ec2-13-49-46-48.eu-north-1.compute.amazonaws.com | - | Medium
-16 | [13.61.196.0](https://vuldb.com/?ip.13.61.196.0) | ec2-13-61-196-0.eu-north-1.compute.amazonaws.com | - | Medium
-17 | [13.203.75.50](https://vuldb.com/?ip.13.203.75.50) | ec2-13-203-75-50.ap-south-1.compute.amazonaws.com | - | Medium
-18 | ... | ... | ... | ...
+3 | [3.28.207.122](https://vuldb.com/?ip.3.28.207.122) | ec2-3-28-207-122.me-central-1.compute.amazonaws.com | - | Medium
+4 | [3.29.129.59](https://vuldb.com/?ip.3.29.129.59) | ec2-3-29-129-59.me-central-1.compute.amazonaws.com | - | Medium
+5 | [3.36.49.39](https://vuldb.com/?ip.3.36.49.39) | ec2-3-36-49-39.ap-northeast-2.compute.amazonaws.com | - | Medium
+6 | [3.69.51.52](https://vuldb.com/?ip.3.69.51.52) | ec2-3-69-51-52.eu-central-1.compute.amazonaws.com | - | Medium
+7 | [3.95.187.183](https://vuldb.com/?ip.3.95.187.183) | ec2-3-95-187-183.compute-1.amazonaws.com | - | Medium
+8 | [3.95.223.25](https://vuldb.com/?ip.3.95.223.25) | ec2-3-95-223-25.compute-1.amazonaws.com | - | Medium
+9 | [3.124.115.208](https://vuldb.com/?ip.3.124.115.208) | ec2-3-124-115-208.eu-central-1.compute.amazonaws.com | - | Medium
+10 | [3.124.185.25](https://vuldb.com/?ip.3.124.185.25) | ec2-3-124-185-25.eu-central-1.compute.amazonaws.com | - | Medium
+11 | [3.249.210.217](https://vuldb.com/?ip.3.249.210.217) | ec2-3-249-210-217.eu-west-1.compute.amazonaws.com | - | Medium
+12 | [13.36.240.203](https://vuldb.com/?ip.13.36.240.203) | ec2-13-36-240-203.eu-west-3.compute.amazonaws.com | - | Medium
+13 | [13.37.235.159](https://vuldb.com/?ip.13.37.235.159) | ec2-13-37-235-159.eu-west-3.compute.amazonaws.com | - | Medium
+14 | [13.39.158.86](https://vuldb.com/?ip.13.39.158.86) | ec2-13-39-158-86.eu-west-3.compute.amazonaws.com | - | Medium
+15 | [13.40.64.210](https://vuldb.com/?ip.13.40.64.210) | ec2-13-40-64-210.eu-west-2.compute.amazonaws.com | - | Medium
+16 | [13.49.46.48](https://vuldb.com/?ip.13.49.46.48) | ec2-13-49-46-48.eu-north-1.compute.amazonaws.com | - | Medium
+17 | [13.61.196.0](https://vuldb.com/?ip.13.61.196.0) | ec2-13-61-196-0.eu-north-1.compute.amazonaws.com | - | Medium
+18 | [13.203.75.50](https://vuldb.com/?ip.13.203.75.50) | ec2-13-203-75-50.ap-south-1.compute.amazonaws.com | - | Medium
+19 | [13.203.75.52](https://vuldb.com/?ip.13.203.75.52) | ec2-13-203-75-52.ap-south-1.compute.amazonaws.com | - | Medium
+20 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,7 +76,7 @@ ID | Type | Indicator | Confidence
 11 | File | `/goform/AdvSetWrl` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
 * https://www.shodan.io/host/3.25.79.112#8575
 * https://www.shodan.io/host/3.26.57.58#15
+* https://www.shodan.io/host/3.28.207.122#9160
 * https://www.shodan.io/host/3.29.129.59#4506
 * https://www.shodan.io/host/3.36.49.39#11211
 * https://www.shodan.io/host/3.69.51.52#7634
@@ -109,6 +112,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/13.247.61.156#37
 * https://www.shodan.io/host/13.247.183.36#8142
 * https://www.shodan.io/host/15.156.199.145#1023
+* https://www.shodan.io/host/15.161.185.195#9306
 * https://www.shodan.io/host/15.188.185.178#1604
 * https://www.shodan.io/host/15.222.3.45#12112
 * https://www.shodan.io/host/15.222.252.97#20000
@@ -117,9 +121,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/15.236.18.88#3590
 * https://www.shodan.io/host/15.236.186.87#771
 * https://www.shodan.io/host/15.237.109.92#3306
+* https://www.shodan.io/host/16.51.99.163#15
 * https://www.shodan.io/host/16.52.40.95#21025
 * https://www.shodan.io/host/16.63.221.35#20121
 * https://www.shodan.io/host/16.170.172.66#554
+* https://www.shodan.io/host/16.176.97.157#4500
 * https://www.shodan.io/host/18.61.85.131#8237
 * https://www.shodan.io/host/18.132.192.123#7218
 * https://www.shodan.io/host/18.134.95.174#3306
@@ -134,6 +140,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/34.219.52.112#7801
 * https://www.shodan.io/host/34.220.45.244#102
 * https://www.shodan.io/host/34.241.196.130#35000
+* https://www.shodan.io/host/34.242.125.168#9306
 * https://www.shodan.io/host/34.246.184.106#179
 * https://www.shodan.io/host/35.163.78.216#4949
 * https://www.shodan.io/host/35.171.7.143#2126
@@ -147,10 +154,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/47.129.184.50#37
 * https://www.shodan.io/host/51.17.159.176#11
 * https://www.shodan.io/host/51.44.185.217#636
+* https://www.shodan.io/host/51.48.73.168#1023
+* https://www.shodan.io/host/51.92.246.140#37
 * https://www.shodan.io/host/52.21.173.197#33060
 * https://www.shodan.io/host/52.40.167.227#992
 * https://www.shodan.io/host/52.47.94.91#12258
 * https://www.shodan.io/host/52.66.137.138#37
+* https://www.shodan.io/host/52.66.149.163#593
 * https://www.shodan.io/host/54.66.159.171#17000
 * https://www.shodan.io/host/54.67.4.13#10022
 * https://www.shodan.io/host/54.90.144.239#4321
@@ -164,6 +174,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/56.155.3.36#636
 * https://www.shodan.io/host/65.0.11.27#17
 * https://www.shodan.io/host/99.79.78.199#22556
+* https://www.shodan.io/host/157.175.176.40#9092
 
 ## Literature
 

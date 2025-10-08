@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [162.159.128.233](https://vuldb.com/?ip.162.159.128.233) | - | CVE-2023-38831 | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,6 +56,7 @@ There are 1 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/34b0723c579cb8b73b9c4c79878e2f234e8d099dd976a359e309a5b8a6544c58/
 * https://cyble.com/blog/threat-actor-deploys-mythics-athena-agent-to-target-russian-semiconductor-suppliers/
 
 ## Literature

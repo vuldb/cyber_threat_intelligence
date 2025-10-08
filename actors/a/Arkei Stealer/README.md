@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [93.174.93.178](https://vuldb.com/?ip.93.174.93.178) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,53 +59,54 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/ajax.php` | High
 8 | File | `/admin/ajax.php?action=delete_window` | High
 9 | File | `/admin/book-details.php` | High
-10 | File | `/admin/client_user` | High
-11 | File | `/admin/communitymanagement.php` | High
-12 | File | `/admin/generalsettings.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index.php?page=categories` | High
-15 | File | `/admin/inquiries/view_details.php` | High
-16 | File | `/admin/maintenance/manage_category.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/admin/mechanics/manage_mechanic.php` | High
-19 | File | `/admin/payment.php` | High
-20 | File | `/admin/service_requests/manage_inventory.php` | High
-21 | File | `/admin/syslog` | High
-22 | File | `/administrator/components/table_manager/` | High
-23 | File | `/Api/ASF` | Medium
-24 | File | `/api/public/signup` | High
-25 | File | `/appConfig/userDB.json` | High
-26 | File | `/aqpg/users/login.php` | High
-27 | File | `/bsms_ci/index.php/user/edit_user/` | High
-28 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-29 | File | `/cancel.php` | Medium
-30 | File | `/catcompany.php` | High
-31 | File | `/cgi-bin/` | Medium
-32 | File | `/cgi-bin/luci;stok=/locale` | High
-33 | File | `/classes/Login.php` | High
-34 | File | `/classes/Master.php` | High
-35 | File | `/classes/Master.php?f=delete_category` | High
-36 | File | `/classes/Users.php` | High
-37 | File | `/common/run_cross_report.php` | High
-38 | File | `/dashboard/contact` | High
-39 | File | `/dcim/sites/add/` | High
-40 | File | `/Default/Bd` | Medium
-41 | File | `/etc/passwd` | Medium
-42 | File | `/event/admin/?page=user/list` | High
-43 | File | `/expense-datewise-reports-detailed.php` | High
-44 | File | `/extension/gdata/authorized` | High
-45 | File | `/FB/getFbVideoSource.php` | High
-46 | File | `/file-manager/upload.php` | High
-47 | File | `/file/delete.php` | High
-48 | File | `/file/request.php` | High
-49 | File | `/filemanager/upload/drop` | High
-50 | File | `/fladmin/cat_edit.php` | High
-51 | File | `/getcfg.php` | Medium
-52 | File | `/getHistoryItems` | High
-53 | File | `/goform/SafeEmailFilter` | High
-54 | ... | ... | ...
+10 | File | `/admin/booking-search.php` | High
+11 | File | `/admin/client_user` | High
+12 | File | `/admin/communitymanagement.php` | High
+13 | File | `/admin/generalsettings.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php?page=categories` | High
+16 | File | `/admin/inquiries/view_details.php` | High
+17 | File | `/admin/maintenance/manage_category.php` | High
+18 | File | `/admin/maintenance/view_designation.php` | High
+19 | File | `/admin/mechanics/manage_mechanic.php` | High
+20 | File | `/admin/payment.php` | High
+21 | File | `/admin/service_requests/manage_inventory.php` | High
+22 | File | `/admin/syslog` | High
+23 | File | `/administrator/components/table_manager/` | High
+24 | File | `/Api/ASF` | Medium
+25 | File | `/api/public/signup` | High
+26 | File | `/appConfig/userDB.json` | High
+27 | File | `/aqpg/users/login.php` | High
+28 | File | `/bsms_ci/index.php/user/edit_user/` | High
+29 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+30 | File | `/cancel.php` | Medium
+31 | File | `/catcompany.php` | High
+32 | File | `/cgi-bin/` | Medium
+33 | File | `/cgi-bin/luci;stok=/locale` | High
+34 | File | `/classes/Login.php` | High
+35 | File | `/classes/Master.php` | High
+36 | File | `/classes/Master.php?f=delete_category` | High
+37 | File | `/classes/Users.php` | High
+38 | File | `/common/run_cross_report.php` | High
+39 | File | `/dashboard/contact` | High
+40 | File | `/dcim/sites/add/` | High
+41 | File | `/Default/Bd` | Medium
+42 | File | `/etc/passwd` | Medium
+43 | File | `/event/admin/?page=user/list` | High
+44 | File | `/expense-datewise-reports-detailed.php` | High
+45 | File | `/extension/gdata/authorized` | High
+46 | File | `/FB/getFbVideoSource.php` | High
+47 | File | `/file-manager/upload.php` | High
+48 | File | `/file/delete.php` | High
+49 | File | `/file/request.php` | High
+50 | File | `/filemanager/upload/drop` | High
+51 | File | `/fladmin/cat_edit.php` | High
+52 | File | `/getcfg.php` | Medium
+53 | File | `/getHistoryItems` | High
+54 | File | `/goform/formSetWanStatic` | High
+55 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

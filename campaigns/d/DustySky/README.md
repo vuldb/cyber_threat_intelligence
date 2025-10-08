@@ -59,14 +59,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-admin.php` | High
 3 | File | `/admin/clientview.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/adminlogin.asp` | High
-6 | File | `/application/index/controller/Icon.php` | High
-7 | File | `/apply/index.php` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/classes/Master.php?f=save_category` | High
-10 | ... | ... | ...
+5 | File | `/admin/manage-tickets.php` | High
+6 | File | `/adminlogin.asp` | High
+7 | File | `/application/index/controller/Icon.php` | High
+8 | File | `/apply/index.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/classes/Master.php?f=save_category` | High
+11 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

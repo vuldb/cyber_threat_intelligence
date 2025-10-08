@@ -67,22 +67,22 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/user/user-move-run.php` | High
 12 | File | `/ajax_city.php` | High
 13 | File | `/api/baskets/{name}` | High
-14 | File | `/bcms/admin/?page=sales/view_details` | High
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/blog` | Low
-17 | File | `/car-rental-management-system/admin/view_car.php=` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/common/logViewer/logViewer.jsf` | High
-22 | File | `/config/config.json` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/download` | Medium
-25 | File | `/ecommerce/admin/category/controller.php` | High
-26 | File | `/ecommerce/support_ticket` | High
-27 | File | `/etc/hosts.deny` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/homeaction.php` | High
+14 | File | `/auth/userkey/logout.php` | High
+15 | File | `/bcms/admin/?page=sales/view_details` | High
+16 | File | `/bin/httpd` | Medium
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/blog` | Low
+19 | File | `/car-rental-management-system/admin/view_car.php=` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Users.php?f=save` | High
+23 | File | `/config/config.json` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/download` | Medium
+26 | File | `/ecommerce/admin/category/controller.php` | High
+27 | File | `/ecommerce/support_ticket` | High
+28 | File | `/etc/hosts.deny` | High
+29 | File | `/forum/away.php` | High
 30 | File | `/hrm/employeeadd.php` | High
 31 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
 32 | File | `/index/ajax/lang` | High
@@ -104,7 +104,7 @@ ID | Type | Indicator | Confidence
 48 | File | `/test-details.php` | High
 49 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

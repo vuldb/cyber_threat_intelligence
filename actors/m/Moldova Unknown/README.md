@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,21 +49,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_login.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/alarm_pi/alarmService.php` | High
-4 | File | `/assets/components/gallery/connector.php` | High
-5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-6 | File | `/backend/admin/his_admin_register_patient.php` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/p1_ftpserver.php` | High
-9 | File | `/cgi-bin/tosei_kikai.php` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/cloud_config/router_post/modify_account_pwd` | High
-12 | File | `/control/register_case.php` | High
+1 | File | `.git/hooks/post-update` | High
+2 | File | `/admin/admin_login.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/manage-outgoingvehicle.php` | High
+5 | File | `/alarm_pi/alarmService.php` | High
+6 | File | `/assets/components/gallery/connector.php` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/backend/admin/his_admin_register_patient.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/classes/Master.php` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

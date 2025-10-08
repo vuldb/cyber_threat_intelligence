@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,48 +68,49 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/login.php` | High
 7 | File | `/admin/manage_academic.php` | High
 8 | File | `/admin/menu_save.php` | High
-9 | File | `/admin/photo.php` | High
-10 | File | `/admin/upload.php` | High
-11 | File | `/admin/user.php` | High
-12 | File | `/admin/user/user-move-run.php` | High
+9 | File | `/admin/upload.php` | High
+10 | File | `/admin/user.php` | High
+11 | File | `/admin/user/user-move-run.php` | High
+12 | File | `/admin/yesterday-reg-users.php` | High
 13 | File | `/ajax_city.php` | High
 14 | File | `/api/baskets/{name}` | High
 15 | File | `/api/process.php` | High
-16 | File | `/api/v1/vhosts/vid-` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/backend/admin/his_admin_register_patient.php` | High
-19 | File | `/blog` | Low
-20 | File | `/car-rental-management-system/admin/view_car.php=` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/cgi-bin/portal` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/config/config.json` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/download` | Medium
-29 | File | `/DXR.axd` | Medium
-30 | File | `/ecommerce/admin/category/controller.php` | High
-31 | File | `/etc/hosts.deny` | High
-32 | File | `/etc/shadow` | Medium
-33 | File | `/expense-monthwise-reports-detailed.php` | High
-34 | File | `/fastcms.html#/template/menu` | High
-35 | File | `/goform/setStaOffline` | High
-36 | File | `/hrm/employeeadd.php` | High
-37 | File | `/inc/design.inc.php` | High
-38 | File | `/index.php` | Medium
-39 | File | `/login` | Low
-40 | File | `/login.php` | Medium
-41 | File | `/mee/login` | Medium
-42 | File | `/mhds/clinic/view_details.php` | High
-43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/php/ping.php` | High
-45 | File | `/playback/` | Medium
-46 | File | `/portal/search.htm` | High
-47 | File | `/preauth` | Medium
-48 | ... | ... | ...
+16 | File | `/api/v1/challenges//solves` | High
+17 | File | `/api/v1/vhosts/vid-` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/backend/admin/his_admin_register_patient.php` | High
+20 | File | `/blog` | Low
+21 | File | `/boafrm/formMapDelDevice` | High
+22 | File | `/car-rental-management-system/admin/view_car.php=` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+25 | File | `/cgi-bin/portal` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/config/config.json` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/download` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/ecommerce/admin/category/controller.php` | High
+33 | File | `/etc/hosts.deny` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/expense-monthwise-reports-detailed.php` | High
+36 | File | `/fastcms.html#/template/menu` | High
+37 | File | `/gbo.aspx` | Medium
+38 | File | `/goform/setStaOffline` | High
+39 | File | `/hrm/employeeadd.php` | High
+40 | File | `/inc/design.inc.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/login` | Low
+43 | File | `/login.php` | Medium
+44 | File | `/login/signOut` | High
+45 | File | `/mee/login` | Medium
+46 | File | `/mgr/upload` | Medium
+47 | File | `/mhds/clinic/view_details.php` | High
+48 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+49 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

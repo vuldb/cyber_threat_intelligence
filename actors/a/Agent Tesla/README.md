@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,7 +75,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,39 +94,41 @@ ID | Type | Indicator | Confidence
 9 | File | `/API/info` | Medium
 10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 11 | File | `/Bloodgroop_process.php` | High
-12 | File | `/CCMAdmin/serverlist.asp` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cgi/get_param.cgi` | High
-17 | File | `/clientdetails/admin/regester.php` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/csms/admin/inquiries/view_details.php` | High
-20 | File | `/cstecgi.cgi` | Medium
-21 | File | `/ecommerce/support_ticket` | High
-22 | File | `/etc/gsissh/sshd_config` | High
-23 | File | `/farm/product.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/home/search` | Medium
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/manage_block.php` | High
-30 | File | `/messageboard/view.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/ptippage.cgi` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-36 | File | `/textpattern/index.php` | High
-37 | File | `/tmp/out` | Medium
-38 | File | `/update-image1.php` | High
-39 | File | `/upfile.cgi` | Medium
-40 | File | `/upload` | Low
-41 | File | `/v1/operador/` | High
-42 | ... | ... | ...
+12 | File | `/cancelbookingpatient.php` | High
+13 | File | `/CCMAdmin/serverlist.asp` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/cgi/get_param.cgi` | High
+19 | File | `/clientdetails/admin/regester.php` | High
+20 | File | `/csms/?page=contact_us` | High
+21 | File | `/csms/admin/inquiries/view_details.php` | High
+22 | File | `/cstecgi.cgi` | Medium
+23 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+24 | File | `/ecommerce/support_ticket` | High
+25 | File | `/etc/gsissh/sshd_config` | High
+26 | File | `/farm/product.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/verifyFacebookLike` | High
+29 | File | `/home/search` | Medium
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/include/chart_generator.php` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/manage_block.php` | High
+34 | File | `/messageboard/view.php` | High
+35 | File | `/out.php` | Medium
+36 | File | `/owa/auth/logon.aspx` | High
+37 | File | `/ptippage.cgi` | High
+38 | File | `/spgpm/updateListing` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+41 | File | `/textpattern/index.php` | High
+42 | File | `/tmp/out` | Medium
+43 | File | `/update-image1.php` | High
+44 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

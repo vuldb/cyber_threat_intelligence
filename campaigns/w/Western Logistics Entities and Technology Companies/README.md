@@ -92,26 +92,26 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 25 | File | `/admin/system.html` | High
 26 | File | `/admin/system.php` | High
-27 | File | `/admin/users.php` | High
-28 | File | `/adminPage/conf/saveCmd` | High
-29 | File | `/api/member/avatar` | High
-30 | File | `/api/v1/settings` | High
-31 | File | `/api/v1/toolbox/device/update/swap` | High
-32 | File | `/api/v1/vdeskintegration/user/isenableuser` | High
-33 | File | `/app/admin/controller/Upload.php` | High
-34 | File | `/app/controller/Setup.php` | High
-35 | File | `/BBfile/Blood/o+.php` | High
-36 | File | `/bin/httpd` | Medium
-37 | File | `/cancel.php` | Medium
-38 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/nas_sharing.cgi` | High
-41 | File | `/cgi-bin/p1_ftpserver.php` | High
-42 | File | `/cgi-bin/settings-firewall.cgi` | High
-43 | File | `/cgi-bin/skk_set.cgi` | High
+27 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
+28 | File | `/admin/users.php` | High
+29 | File | `/adminPage/conf/saveCmd` | High
+30 | File | `/api/member/avatar` | High
+31 | File | `/api/v1/settings` | High
+32 | File | `/api/v1/toolbox/device/update/swap` | High
+33 | File | `/api/v1/vdeskintegration/user/isenableuser` | High
+34 | File | `/app/admin/controller/Upload.php` | High
+35 | File | `/app/controller/Setup.php` | High
+36 | File | `/BBfile/Blood/o+.php` | High
+37 | File | `/bin/httpd` | Medium
+38 | File | `/cancel.php` | Medium
+39 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/cgi-bin/p1_ftpserver.php` | High
+43 | File | `/cgi-bin/settings-firewall.cgi` | High
 44 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

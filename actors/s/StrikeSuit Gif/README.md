@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cgiServer.exx` | High
-2 | File | `/event/runquery.do` | High
-3 | File | `/system/ws/v11/ss/email` | High
-4 | File | `add_vhost.php` | High
-5 | File | `adv2.php?action=modify` | High
-6 | File | `agent.cfg` | Medium
-7 | File | `arch/x86/include/asm/fpu/internal.h` | High
-8 | File | `asm/float.c` | Medium
-9 | ... | ... | ...
+1 | File | `/api/v1/settings` | High
+2 | File | `/cgi-bin/cgiServer.exx` | High
+3 | File | `/event/runquery.do` | High
+4 | File | `/system/ws/v11/ss/email` | High
+5 | File | `add_vhost.php` | High
+6 | File | `adv2.php?action=modify` | High
+7 | File | `agent.cfg` | Medium
+8 | File | `arch/x86/include/asm/fpu/internal.h` | High
+9 | File | `asm/float.c` | Medium
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

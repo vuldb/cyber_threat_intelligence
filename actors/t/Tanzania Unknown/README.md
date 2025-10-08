@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [TZ](https://vuldb.com/?country.tz)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -139,70 +139,69 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin-api/bpm/model/deploy` | High
 3 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/aboutPost.php` | High
-7 | File | `/admin/article/list` | High
-8 | File | `/admin/change-password.php` | High
-9 | File | `/admin/controller/JobLogController.java` | High
-10 | File | `/admin/group/edit.do` | High
-11 | File | `/admin/ImgUpdaPost.php` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/list_resource_icon.php?action=delete` | High
-14 | File | `/admin/member_save.php` | High
-15 | File | `/admin/read.php?mudi=announContent` | High
-16 | File | `/admin/template_admin.php` | High
-17 | File | `/admin/upload.php` | High
-18 | File | `/admin/user/edit.do` | High
-19 | File | `/adminapi/system/crud` | High
-20 | File | `/adminprofile.php` | High
-21 | File | `/admin_ping.htm` | High
-22 | File | `/adv_arpspoofing.php` | High
-23 | File | `/adv_dhcps.php` | High
-24 | File | `/adv_macbypass.php` | High
-25 | File | `/allreaders.html` | High
-26 | File | `/all_student.php` | High
-27 | File | `/animalsupdate.php` | High
-28 | File | `/api/authentication/login` | High
-29 | File | `/api/blade-user/export-user` | High
-30 | File | `/api/stl/actions/search` | High
-31 | File | `/api/system/other` | High
-32 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-33 | File | `/api/v1/admin/` | High
-34 | File | `/api/v1/getbaseconfig` | High
-35 | File | `/api/v1/terminal/sessions/?limit=1` | High
-36 | File | `/api /v3/auth` | High
-37 | File | `/api/wizard/getCapability` | High
-38 | File | `/api/wizard/getCapabilityWeb` | High
-39 | File | `/api/wizard/getLanguage` | High
-40 | File | `/api/wizard/getSpecs` | High
-41 | File | `/api/wizard/getsyncpppoecfg` | High
-42 | File | `/api/wizard/setLanguage` | High
-43 | File | `/api/wizard/setsyncpppoecfg` | High
-44 | File | `/app/controller/Api.php` | High
-45 | File | `/assets/php/upload.php` | High
-46 | File | `/auth.asp` | Medium
-47 | File | `/b2b-supermarket/shopping-cart` | High
-48 | File | `/bin/gpio` | Medium
-49 | File | `/bin/httpd` | Medium
-50 | File | `/bin/rc4_crypt` | High
-51 | File | `/boa/formWSC` | Medium
-52 | File | `/boafrm/formDMZ` | High
-53 | File | `/boafrm/formDosCfg` | High
-54 | File | `/boafrm/formFilter` | High
-55 | File | `/boafrm/formIpQoS` | High
-56 | File | `/boafrm/formMapDel` | High
-57 | File | `/boafrm/formMapDelDevice` | High
-58 | File | `/boafrm/formMultiAP` | High
-59 | File | `/boafrm/formNtp` | High
-60 | File | `/boafrm/formPortFw` | High
-61 | File | `/boafrm/formReflashClientTbl` | High
-62 | File | `/boafrm/formSaveConfig` | High
-63 | File | `/boafrm/formSetLg` | High
-64 | File | `/boafrm/formSiteSurveyProfile` | High
-65 | File | `/boafrm/formStaticDHCP` | High
-66 | ... | ... | ...
+5 | File | `/admin/aboutPost.php` | High
+6 | File | `/admin/article/list` | High
+7 | File | `/admin/change-password.php` | High
+8 | File | `/admin/group/edit.do` | High
+9 | File | `/admin/ImgUpdaPost.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/list_resource_icon.php?action=delete` | High
+12 | File | `/admin/member_save.php` | High
+13 | File | `/admin/read.php?mudi=announContent` | High
+14 | File | `/admin/settings/index.php?page=accounts` | High
+15 | File | `/admin/template_admin.php` | High
+16 | File | `/admin/upload.php` | High
+17 | File | `/admin/user/edit.do` | High
+18 | File | `/adminapi/system/crud` | High
+19 | File | `/adminprofile.php` | High
+20 | File | `/admin_ping.htm` | High
+21 | File | `/adv_arpspoofing.php` | High
+22 | File | `/adv_dhcps.php` | High
+23 | File | `/adv_macbypass.php` | High
+24 | File | `/allreaders.html` | High
+25 | File | `/all_student.php` | High
+26 | File | `/animalsupdate.php` | High
+27 | File | `/api/blade-user/export-user` | High
+28 | File | `/api/stl/actions/search` | High
+29 | File | `/api/system/other` | High
+30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+31 | File | `/api/upload.php` | High
+32 | File | `/api/v1/admin/` | High
+33 | File | `/api/v1/getbaseconfig` | High
+34 | File | `/api/v1/terminal/sessions/?limit=1` | High
+35 | File | `/api/wizard/getCapability` | High
+36 | File | `/api/wizard/getCapabilityWeb` | High
+37 | File | `/api/wizard/getLanguage` | High
+38 | File | `/api/wizard/getSpecs` | High
+39 | File | `/api/wizard/getsyncpppoecfg` | High
+40 | File | `/api/wizard/setLanguage` | High
+41 | File | `/api/wizard/setsyncpppoecfg` | High
+42 | File | `/app/controller/Api.php` | High
+43 | File | `/application/models/ApplicationDataObject.class.php` | High
+44 | File | `/assets/php/upload.php` | High
+45 | File | `/auth.asp` | Medium
+46 | File | `/b2b-supermarket/shopping-cart` | High
+47 | File | `/bin/gpio` | Medium
+48 | File | `/bin/httpd` | Medium
+49 | File | `/boa/formWSC` | Medium
+50 | File | `/boafrm/formDMZ` | High
+51 | File | `/boafrm/formDosCfg` | High
+52 | File | `/boafrm/formFilter` | High
+53 | File | `/boafrm/formIpQoS` | High
+54 | File | `/boafrm/formMapDel` | High
+55 | File | `/boafrm/formMapDelDevice` | High
+56 | File | `/boafrm/formMultiAP` | High
+57 | File | `/boafrm/formNtp` | High
+58 | File | `/boafrm/formPortFw` | High
+59 | File | `/boafrm/formReflashClientTbl` | High
+60 | File | `/boafrm/formSaveConfig` | High
+61 | File | `/boafrm/formSetLg` | High
+62 | File | `/boafrm/formSiteSurveyProfile` | High
+63 | File | `/boafrm/formStaticDHCP` | High
+64 | File | `/boafrm/formStats` | High
+65 | ... | ... | ...
 
-There are 581 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

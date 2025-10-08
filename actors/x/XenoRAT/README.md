@@ -24,13 +24,15 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [2.58.85.196](https://vuldb.com/?ip.2.58.85.196) | sunucuduragi.com | - | High
 2 | [5.14.110.90](https://vuldb.com/?ip.5.14.110.90) | 5-14-110-90.residential.rdsnet.ro | - | High
 3 | [34.229.235.165](https://vuldb.com/?ip.34.229.235.165) | ec2-34-229-235-165.compute-1.amazonaws.com | - | Medium
-4 | [45.66.231.63](https://vuldb.com/?ip.45.66.231.63) | - | - | High
-5 | [45.133.174.133](https://vuldb.com/?ip.45.133.174.133) | - | - | High
-6 | [49.194.29.240](https://vuldb.com/?ip.49.194.29.240) | n49-194-29-240.per2.wa.optusnet.com.au | - | High
-7 | [51.38.196.118](https://vuldb.com/?ip.51.38.196.118) | server25.mentality.cloud | - | High
-8 | ... | ... | ... | ...
+4 | [45.32.188.16](https://vuldb.com/?ip.45.32.188.16) | 45.32.188.16.vultrusercontent.com | - | Medium
+5 | [45.66.231.63](https://vuldb.com/?ip.45.66.231.63) | - | - | High
+6 | [45.133.174.133](https://vuldb.com/?ip.45.133.174.133) | - | - | High
+7 | [49.194.29.240](https://vuldb.com/?ip.49.194.29.240) | n49-194-29-240.per2.wa.optusnet.com.au | - | High
+8 | [51.38.196.118](https://vuldb.com/?ip.51.38.196.118) | server25.mentality.cloud | - | High
+9 | [62.133.174.224](https://vuldb.com/?ip.62.133.174.224) | mail.nvtech.ru | - | High
+10 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,45 +77,49 @@ ID | Type | Indicator | Confidence
 20 | File | `/be/rpc.php` | Medium
 21 | File | `/bitrix/admin/ldap_server_edit.php` | High
 22 | File | `/Bloodgroop_process.php` | High
-23 | File | `/CCMAdmin/serverlist.asp` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-27 | File | `/cgi/get_param.cgi` | High
-28 | File | `/classes/Master.php?f=delete_inquiry` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/conf/app.conf` | High
-31 | File | `/csms/admin/inquiries/view_details.php` | High
-32 | File | `/cstecgi.cgi` | Medium
-33 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-34 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/ecommerce/support_ticket` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/RGFirewallEL` | High
-39 | File | `/goform/wirelessAdvancedHidden` | High
-40 | File | `/h/rest` | Low
-41 | File | `/home/search` | Medium
-42 | File | `/include/chart_generator.php` | High
-43 | File | `/index.php?menu=asterisk_cli` | High
-44 | File | `/index/ajax/lang` | High
-45 | File | `/item/item_con` | High
-46 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-47 | File | `/lists/index.php` | High
-48 | File | `/log/decodmail.php` | High
-49 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-50 | File | `/log_proxy` | Medium
-51 | File | `/mailcleaner.php/getStats` | High
+23 | File | `/cancelbookingpatient.php` | High
+24 | File | `/CCMAdmin/serverlist.asp` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+28 | File | `/cgi/get_param.cgi` | High
+29 | File | `/classes/Master.php?f=delete_inquiry` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/conf/app.conf` | High
+32 | File | `/csms/admin/inquiries/view_details.php` | High
+33 | File | `/cstecgi.cgi` | Medium
+34 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+35 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+36 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+37 | File | `/ecommerce/support_ticket` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/langSwitch` | High
+40 | File | `/goform/verifyFacebookLike` | High
+41 | File | `/goform/wirelessAdvancedHidden` | High
+42 | File | `/h/rest` | Low
+43 | File | `/home/search` | Medium
+44 | File | `/include/chart_generator.php` | High
+45 | File | `/index.php?menu=asterisk_cli` | High
+46 | File | `/index/ajax/lang` | High
+47 | File | `/item/item_con` | High
+48 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+49 | File | `/lists/index.php` | High
+50 | File | `/log/decodmail.php` | High
+51 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/c8ed2f537f20c0085836325c810c2603be6b29251ece8c9f8e2e8873ba5b23e5/
+* https://netresec.com/?b=258f641
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3522571/
+* https://urlhaus.abuse.ch/url/3584881/
+* https://www.virustotal.com/gui/file/b07dd7e831fe0a30ac139bb29d9ac836f0fb1e1034f4e00ad62f427423bc5a7f
 * https://x.com/malwrhunterteam/status/1891402914024882374
 
 ## Literature

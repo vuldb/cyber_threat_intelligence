@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with United Kingdom Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -13472,11 +13472,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-88 | Argument Injection | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -13484,12 +13484,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adpweb/a/base/barcodeDetail/` | High
-2 | File | `/cgi-bin/editBookmark` | High
-3 | File | `/fees.php` | Medium
-4 | ... | ... | ...
+1 | File | `/admin-dashboard` | High
+2 | File | `/admin-inbox.php` | High
+3 | File | `/admin/ajax.php?action=login` | High
+4 | File | `/admin/index.php/web/ajax_all_lists` | High
+5 | File | `/admin/manage-directory.php` | High
+6 | File | `/admin/operations/expense_category.php` | High
+7 | File | `/admin/operations/payment.php` | High
+8 | File | `/admin/password-recovery.php` | High
+9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+10 | File | `/ajax.php?action=delete_allowances` | High
+11 | File | `/api/wizard/getCapability` | High
+12 | File | `/attribute/queryAll` | High
+13 | File | `/bank/mnotice.php` | High
+14 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

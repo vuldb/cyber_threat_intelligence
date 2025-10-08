@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -64,40 +64,46 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
 5 | File | `/admin/add_ikev2.php` | High
 6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/category_save.php` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/manage_model.php` | High
-12 | File | `/admin/manage_user.php` | High
-13 | File | `/admin/search-vehicle.php` | High
-14 | File | `/admin/subject.php` | High
-15 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-16 | File | `/admin/twitter.php` | High
-17 | File | `/api/front/search/books` | High
-18 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-19 | File | `/api/v1/settings` | High
-20 | File | `/api/v1/toolbox/device/update/swap` | High
-21 | File | `/api/wizard/setsyncpppoecfg` | High
-22 | File | `/app/zentao/module/repo/model.php` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-25 | File | `/bin/httpd` | Medium
-26 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-27 | File | `/cap.js` | Low
-28 | File | `/catalog/all-products` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/ExportSettings.sh` | High
-31 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-32 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-33 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-34 | File | `/download` | Medium
-35 | File | `/edit-subject.php` | High
-36 | File | `/endpoint/add-user.php` | High
-37 | File | `/etc/postfix/sender_login` | High
-38 | ... | ... | ...
+7 | File | `/admin/admin_action.php` | High
+8 | File | `/admin/category_save.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/new-content` | High
+17 | File | `/admin/search-vehicle.php` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+20 | File | `/admin/twitter.php` | High
+21 | File | `/admin/voters_add.php` | High
+22 | File | `/admin/voters_delete.php` | High
+23 | File | `/api/front/search/books` | High
+24 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+25 | File | `/api/v1/settings` | High
+26 | File | `/api/v1/toolbox/device/update/swap` | High
+27 | File | `/api/wizard/setsyncpppoecfg` | High
+28 | File | `/app/zentao/module/repo/model.php` | High
+29 | File | `/application/index/controller/Screen.php` | High
+30 | File | `/authentication/logout.php` | High
+31 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+32 | File | `/bin/httpd` | Medium
+33 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+34 | File | `/cap.js` | Low
+35 | File | `/catalog/all-products` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/ExportSettings.sh` | High
+38 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+39 | File | `/com/esafenet/servlet/policy/HookService.java` | High
+40 | File | `/dashboard/admin/submit_plan_new.php` | High
+41 | File | `/doctor/appointment-bwdates-reports-details.php` | High
+42 | File | `/download` | Medium
+43 | File | `/edit-subject.php` | High
+44 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

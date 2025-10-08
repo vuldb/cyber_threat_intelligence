@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,19 +54,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_supplier.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/process_category_edit.php` | High
-4 | File | `/admin/sign/out` | High
-5 | File | `/cgi-bin/hd_config.cgi` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/edit-computer-detail.php` | High
-9 | File | `/expedit.php` | Medium
-10 | File | `/export` | Low
-11 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/deleteuser.php` | High
+3 | File | `/admin/edit_supplier.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/process_category_edit.php` | High
+6 | File | `/Admin/resultdetails.php` | High
+7 | File | `/admin/sign/out` | High
+8 | File | `/ajax.php?action=save_deductions` | High
+9 | File | `/api/wizard/getDualbandSync` | High
+10 | File | `/cgi-bin/hd_config.cgi` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+13 | File | `/edit-computer-detail.php` | High
+14 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

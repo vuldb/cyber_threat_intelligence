@@ -61,11 +61,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi.cgi` | Medium
 4 | File | `/config` | Low
 5 | File | `/forum/away.php` | High
-6 | File | `/server-status` | High
-7 | File | `/services` | Medium
-8 | ... | ... | ...
+6 | File | `/index.php` | Medium
+7 | File | `/server-status` | High
+8 | File | `/services` | Medium
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

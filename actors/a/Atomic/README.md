@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.155.204.5](https://vuldb.com/?ip.45.155.204.5) | - | - | High
-2 | [77.83.36.6](https://vuldb.com/?ip.77.83.36.6) | f.77.83.36.6.outlook.fxtsport.com | - | High
-3 | [77.105.140.181](https://vuldb.com/?ip.77.105.140.181) | - | - | High
+1 | [45.94.47.145](https://vuldb.com/?ip.45.94.47.145) | - | - | High
+2 | [45.94.47.146](https://vuldb.com/?ip.45.94.47.146) | - | - | High
+3 | [45.94.47.147](https://vuldb.com/?ip.45.94.47.147) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,29 +47,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/app/admin/controller/Upload.php` | High
-3 | File | `/appointment-history.php` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cms/classes/Master.php?f=delete_service` | High
-6 | File | `/download` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/out.php` | Medium
-9 | File | `/php_action/createUser.php` | High
-10 | File | `/resource/addgood.php` | High
-11 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-12 | File | `/SetTriggerLEDBlink/Blink` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/Tool/querysql.php` | High
-15 | File | `/Tool/uploadfile.php` | High
-16 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/ajax.php?action=read_msg` | High
+3 | File | `/app/admin/controller/Upload.php` | High
+4 | File | `/appointment-history.php` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cms/classes/Master.php?f=delete_service` | High
+7 | File | `/download` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/modules/projects/summary.inc.php` | High
+11 | File | `/multi-vendor-shopping-script/product-list.php` | High
+12 | File | `/oauth/idp/.well-known/openid-configuration` | High
+13 | File | `/out.php` | Medium
+14 | File | `/php_action/createUser.php` | High
+15 | File | `/resource/addgood.php` | High
+16 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+17 | File | `/SetTriggerLEDBlink/Blink` | High
+18 | File | `/spip.php` | Medium
+19 | File | `/Tool/querysql.php` | High
+20 | File | `/Tool/uploadfile.php` | High
+21 | File | `adclick.php` | Medium
+22 | File | `addresses_export.php` | High
+23 | File | `admin.php` | Medium
+24 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://moonlock.com/amos-backdoor-persistent-access
 * https://thedfirreport.com/2024/01/29/buzzing-on-christmas-eve-trigona-ransomware-in-3-hours/
 * https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion/
 * https://thedfirreport.com/2024/06/10/icedid-brings-screenconnect-and-csharp-streamer-to-alphv-ransomware-deployment/

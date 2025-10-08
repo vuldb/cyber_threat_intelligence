@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,20 +55,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-3 | File | `/cgi-bin/editBookmark` | High
-4 | File | `/controllers/updatesettings.php` | High
-5 | File | `/goform/addressNat` | High
-6 | File | `/goform/aspForm` | High
-7 | File | `/include/menu_v.inc.php` | High
-8 | File | `/librarian/lab.php` | High
-9 | File | `/login/` | Low
-10 | File | `/omos/admin/?page=user/list` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/panel/fields/add` | High
+2 | File | `/admin/eligibility.php` | High
+3 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+4 | File | `/cgi-bin/editBookmark` | High
+5 | File | `/controllers/updatesettings.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/addressNat` | High
+8 | File | `/goform/aspForm` | High
+9 | File | `/include/menu_v.inc.php` | High
+10 | File | `/librarian/lab.php` | High
+11 | File | `/login.php` | Medium
+12 | File | `/login/` | Low
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +79,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://twitter.com/suyog41/status/1655524692164214784
 * https://twitter.com/suyog41/status/1699438327508734306
+* https://urlhaus.abuse.ch/url/3612999/
 * https://www.f5.com/labs/articles/threat-intelligence/delving-into-the-sparkrat-remote-access-tool
 * https://www.trendmicro.com/en_us/research/24/c/teamcity-vulnerability-exploits-lead-to-jasmin-ransomware.html
 

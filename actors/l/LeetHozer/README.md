@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -58,9 +58,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/scripts/unlock_tasks.php` | High
 10 | File | `/SysInfo1.htm` | High
 11 | File | `/sysinfo_json.cgi` | High
-12 | ... | ... | ...
+12 | File | `/system/dictData/loadDictItem` | High
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

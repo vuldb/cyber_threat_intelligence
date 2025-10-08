@@ -27,12 +27,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | Koi Stealer | High
-2 | [78.142.29.118](https://vuldb.com/?ip.78.142.29.118) | - | - | High
-3 | [79.124.78.148](https://vuldb.com/?ip.79.124.78.148) | xqn1.jellycat.online | - | High
-4 | ... | ... | ... | ...
+1 | [45.14.227.125](https://vuldb.com/?ip.45.14.227.125) | static.pwxs.net | - | High
+2 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | Koi Stealer | High
+3 | [78.142.29.118](https://vuldb.com/?ip.78.142.29.118) | - | - | High
+4 | [79.124.78.148](https://vuldb.com/?ip.79.124.78.148) | xqn1.jellycat.online | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,43 +63,42 @@ ID | Type | Indicator | Confidence
 5 | File | `/+CSCOE+/logon.html` | High
 6 | File | `/?p=products` | Medium
 7 | File | `/admin/settings/sites/new` | High
-8 | File | `/admin_giant/` | High
-9 | File | `/advanced/adv_dns.xgi` | High
-10 | File | `/api/system/cluster_config/` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/customer_support/ajax.php?action=save_ticket` | High
-14 | File | `/editar-cliente.php` | High
-15 | File | `/folder/list` | Medium
-16 | File | `/forms/nslookupHandler` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/GetNewDir` | High
-19 | File | `/goform/right_now_d` | High
-20 | File | `/group/comment` | High
-21 | File | `/home/home_parent.xgi` | High
-22 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-23 | File | `/index/ajax/lang` | High
-24 | File | `/lookin/info` | Medium
-25 | File | `/manage_inv.php` | High
-26 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-27 | File | `/plugins/servlet/jira-blockers/` | High
-28 | File | `/register.php` | High
-29 | File | `/request.php` | Medium
-30 | File | `/sessions/sess_<sessionid>` | High
-31 | File | `/status/status_log.sys` | High
-32 | File | `/themes/<php_file_name>` | High
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/usr/bin/shutter` | High
-37 | File | `/zm/index.php` | High
-38 | File | `adclick.php` | Medium
-39 | File | `addtocart.asp` | High
-40 | File | `admin-ajax.php` | High
-41 | File | `admin.php` | Medium
-42 | ... | ... | ...
+8 | File | `/advanced/adv_dns.xgi` | High
+9 | File | `/api/system/cluster_config/` | High
+10 | File | `/api /v3/auth` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/customer_support/ajax.php?action=save_ticket` | High
+13 | File | `/editar-cliente.php` | High
+14 | File | `/folder/list` | Medium
+15 | File | `/forms/nslookupHandler` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/GetNewDir` | High
+18 | File | `/goform/right_now_d` | High
+19 | File | `/group/comment` | High
+20 | File | `/home/home_parent.xgi` | High
+21 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+22 | File | `/index/ajax/lang` | High
+23 | File | `/lookin/info` | Medium
+24 | File | `/manage_inv.php` | High
+25 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+26 | File | `/plugins/servlet/jira-blockers/` | High
+27 | File | `/register.php` | High
+28 | File | `/request.php` | Medium
+29 | File | `/sessions/sess_<sessionid>` | High
+30 | File | `/status/status_log.sys` | High
+31 | File | `/themes/<php_file_name>` | High
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `addtocart.asp` | High
+37 | File | `admin-ajax.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/fm/` | Medium
+40 | File | `admin/pages/*/edit` | High
+41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

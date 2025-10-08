@@ -20,6 +20,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [62.149.118.67](https://vuldb.com/?ip.62.149.118.67) | mail.spa.gov.sa | - | High
 2 | [85.194.112.9](https://vuldb.com/?ip.85.194.112.9) | - | - | High
 3 | [93.184.220.29](https://vuldb.com/?ip.93.184.220.29) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,6 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -46,6 +50,7 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://www.threatminer.org/_reports/2017/NewtargetedattackagainstSaudiArabiaGovernment-MalwarebytesLabs_MalwarebytesLabs.pdf#viewer.action=download
 
 ## Literature

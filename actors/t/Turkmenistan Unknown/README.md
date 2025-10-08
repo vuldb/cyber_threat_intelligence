@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -70,46 +70,45 @@ ID | Type | Indicator | Confidence
 11 | File | `/Admin/login.php` | High
 12 | File | `/admin/mod_users/index.php` | High
 13 | File | `/Admin/Proses_Edit_Akun.php` | High
-14 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-15 | File | `/ajax-api.php` | High
-16 | File | `/analysisProject/pagingQueryData` | High
-17 | File | `/api/Cdn/GetFile` | High
-18 | File | `/api/DocumentTemplate/{GUID}` | High
-19 | File | `/api/students/me/messages/` | High
-20 | File | `/appliance/users?action=edit` | High
-21 | File | `/billing/bill/edit/` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/classes/profile.class.php` | High
-24 | File | `/config` | Low
-25 | File | `/course.php` | Medium
-26 | File | `/data/app` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/devinfo` | Medium
-29 | File | `/directRouter.rfc` | High
-30 | File | `/endpoint/update-flashcard.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/DhcpListClient` | High
-33 | File | `/goform/RP_checkCredentialsByBBS` | High
-34 | File | `/healthcare/Admin/consulting_detail.php` | High
-35 | File | `/I/list.php` | Medium
-36 | File | `/include/chart_generator.php` | High
-37 | File | `/logout.php` | Medium
-38 | File | `/man_password.htm` | High
-39 | File | `/model/update_classroom.php` | High
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/myprofile.php` | High
-42 | File | `/notice-edit.php` | High
-43 | File | `/out.php` | Medium
-44 | File | `/pages.php?edit=News` | High
-45 | File | `/path/to/uploads/` | High
-46 | File | `/pda/workflow/webSignSubmit.php` | High
-47 | File | `/php-attendance/attendance_report` | High
-48 | File | `/product.php` | Medium
-49 | File | `/Proses_Kirim.php` | High
-50 | File | `/public/login.htm` | High
-51 | File | `/register.php` | High
-52 | File | `/royal_event/userregister.php` | High
-53 | ... | ... | ...
+14 | File | `/admin/receipt.php` | High
+15 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+16 | File | `/ajax-api.php` | High
+17 | File | `/ajax.php?action=login` | High
+18 | File | `/analysisProject/pagingQueryData` | High
+19 | File | `/api/Cdn/GetFile` | High
+20 | File | `/api/DocumentTemplate/{GUID}` | High
+21 | File | `/api/students/me/messages/` | High
+22 | File | `/appliance/users?action=edit` | High
+23 | File | `/billing/bill/edit/` | High
+24 | File | `/boafrm/formParentControl` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/classes/profile.class.php` | High
+27 | File | `/config` | Low
+28 | File | `/course.php` | Medium
+29 | File | `/data/app` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/devinfo` | Medium
+32 | File | `/directRouter.rfc` | High
+33 | File | `/endpoint/update-flashcard.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/DhcpListClient` | High
+36 | File | `/goform/RP_checkCredentialsByBBS` | High
+37 | File | `/healthcare/Admin/consulting_detail.php` | High
+38 | File | `/I/list.php` | Medium
+39 | File | `/include/chart_generator.php` | High
+40 | File | `/intranet/educar_escola_lst.php` | High
+41 | File | `/lists/admin/` | High
+42 | File | `/logout.php` | Medium
+43 | File | `/man_password.htm` | High
+44 | File | `/model/update_classroom.php` | High
+45 | File | `/modules/profile/index.php` | High
+46 | File | `/myprofile.php` | High
+47 | File | `/notice-edit.php` | High
+48 | File | `/out.php` | Medium
+49 | File | `/pages.php?edit=News` | High
+50 | File | `/path/to/uploads/` | High
+51 | File | `/pda/workflow/webSignSubmit.php` | High
+52 | ... | ... | ...
 
 There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

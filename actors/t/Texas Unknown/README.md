@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Texas Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -217,18 +216,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/AcceptZip.ashx` | High
 2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-5 | File | `/ajax.php?action=delete_tenant` | High
-6 | File | `/api/wizard/setsyncpppoecfg` | High
-7 | File | `/attendancelist.php` | High
-8 | File | `/backend/admin/his_admin_register_patient.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/p1_ftpserver.php` | High
-11 | File | `/cgi-bin/tosei_kikai.php` | High
-12 | ... | ... | ...
+3 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+4 | File | `/ajax.php?action=delete_tenant` | High
+5 | File | `/api/wizard/setsyncpppoecfg` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/foms/routers/place-order.php` | High
+10 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

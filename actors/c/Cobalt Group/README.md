@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.

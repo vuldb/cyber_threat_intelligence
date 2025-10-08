@@ -70,41 +70,43 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/action/update-deworm.php` | High
 4 | File | `/admin/add-category.php` | High
 5 | File | `/admin/addroom.php` | High
-6 | File | `/admin/contactus.php` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/manage-pages.php` | High
-10 | File | `/admin/manage-users.php` | High
-11 | File | `/admin/modules/product/controller.php?action=add` | High
-12 | File | `/admin/orders/update_status.php` | High
-13 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-14 | File | `/api/1.0/rest/language_configuration` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/controllers/merchant/app/ComboController.php` | High
-17 | File | `/api/dept/build` | High
-18 | File | `/api/filemanager` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/api/wizard/networkSetup` | High
-21 | File | `/application/index/controller/Screen.php` | High
-22 | File | `/archibus/login.axvw` | High
-23 | File | `/billing/home.php` | High
-24 | File | `/cap.js` | Low
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-27 | File | `/cgi-bin/nas_sharing.cgi` | High
-28 | File | `/cgi-bin/system_mgr.cgi` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Users.php?f=delete` | High
-32 | File | `/dede/uploads/dede/friendlink_add.php` | High
-33 | File | `/DXR.axd` | Medium
-34 | File | `/edit-computer-detail.php` | High
-35 | File | `/edit_dpatient.php` | High
-36 | File | `/endpoint/update-file.php` | High
-37 | File | `/etc/tomcat8/Catalina/attack` | High
-38 | ... | ... | ...
+6 | File | `/admin/admin-profile.php` | High
+7 | File | `/admin/contactus.php` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/manage-pages.php` | High
+11 | File | `/admin/manage-users.php` | High
+12 | File | `/admin/modules/product/controller.php?action=add` | High
+13 | File | `/admin/orders/update_status.php` | High
+14 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+15 | File | `/api/1.0/rest/language_configuration` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/controllers/merchant/app/ComboController.php` | High
+18 | File | `/api/dept/build` | High
+19 | File | `/api/filemanager` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/api/wizard/networkSetup` | High
+22 | File | `/application/index/controller/Screen.php` | High
+23 | File | `/archibus/login.axvw` | High
+24 | File | `/autheditpwd.php` | High
+25 | File | `/billing/home.php` | High
+26 | File | `/cap.js` | Low
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/system_mgr.cgi` | High
+31 | File | `/cgi-bin/wapopen` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Users.php?f=delete` | High
+34 | File | `/dede/uploads/dede/friendlink_add.php` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/edit-computer-detail.php` | High
+37 | File | `/edit_dpatient.php` | High
+38 | File | `/endpoint/update-file.php` | High
+39 | File | `/etc/tomcat8/Catalina/attack` | High
+40 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

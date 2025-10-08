@@ -56,12 +56,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/HandleEvent` | Medium
-2 | File | `/sys/replicate/check` | High
-3 | File | `autologin.jsp` | High
-4 | File | `avahi-core/socket.c` | High
+2 | File | `/spip.php` | Medium
+3 | File | `/sys/replicate/check` | High
+4 | File | `autologin.jsp` | High
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

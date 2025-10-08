@@ -75,46 +75,47 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/app/asset_crud.php` | High
 19 | File | `/admin/approve.php` | High
 20 | File | `/admin/booking-search.php` | High
-21 | File | `/Admin/changepassword.php` | High
-22 | File | `/admin/confirm_reserve.php` | High
-23 | File | `/admin/contact-us.php` | High
-24 | File | `/admin/delete_room.php` | High
-25 | File | `/admin/department/add` | High
-26 | File | `/admin/execedituser.php` | High
-27 | File | `/admin/index.php` | High
-28 | File | `/admin/manage_academic.php` | High
-29 | File | `/admin/manage_station.php` | High
-30 | File | `/admin/manage_user.php` | High
-31 | File | `/admin/newsletter.php` | High
-32 | File | `/admin/print.php` | High
-33 | File | `/admin/search-booking-request.php` | High
-34 | File | `/admin/search-maid.php` | High
-35 | File | `/admin/search-pass.php` | High
-36 | File | `/admin/sou.php` | High
-37 | File | `/admin/user/user-move-run.php` | High
-38 | File | `/ajax.php?action=signup` | High
-39 | File | `/ajax.php?action=update_account` | High
-40 | File | `/ajax/get_patient_history.php` | High
-41 | File | `/ajax_city.php` | High
-42 | File | `/animalsupdate.php` | High
-43 | File | `/anony/mjpg.cgi` | High
-44 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-45 | File | `/api/deploy/upload` | High
-46 | File | `/api/deploy/upload /api/database/upload` | High
-47 | File | `/api/ping` | Medium
-48 | File | `/api/wizard/getNetworkStatus` | High
-49 | File | `/application/index/controller/Databasesource.php` | High
-50 | File | `/application/index/controller/Screen.php` | High
-51 | File | `/art-enquiry.php` | High
-52 | File | `/backend/doc/his_doc_update-account.php` | High
-53 | File | `/bidlog.php` | Medium
-54 | File | `/bloodrequest.php` | High
-55 | File | `/boafrm/formSysCmd` | High
-56 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
-57 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-58 | ... | ... | ...
+21 | File | `/admin/bwdates-reports-details.php` | High
+22 | File | `/Admin/changepassword.php` | High
+23 | File | `/admin/confirm_reserve.php` | High
+24 | File | `/admin/contact-list.php` | High
+25 | File | `/admin/contact-us.php` | High
+26 | File | `/admin/deletedoctor.php` | High
+27 | File | `/admin/delete_room.php` | High
+28 | File | `/admin/department/add` | High
+29 | File | `/admin/execedituser.php` | High
+30 | File | `/admin/index.php` | High
+31 | File | `/admin/manage_academic.php` | High
+32 | File | `/admin/manage_station.php` | High
+33 | File | `/admin/manage_user.php` | High
+34 | File | `/admin/newsletter.php` | High
+35 | File | `/admin/print.php` | High
+36 | File | `/admin/productadd_back.php` | High
+37 | File | `/admin/search-booking-request.php` | High
+38 | File | `/admin/search-maid.php` | High
+39 | File | `/admin/search-pass.php` | High
+40 | File | `/admin/sou.php` | High
+41 | File | `/admin/user/user-move-run.php` | High
+42 | File | `/ajax.php?action=signup` | High
+43 | File | `/ajax.php?action=update_account` | High
+44 | File | `/ajax/get_patient_history.php` | High
+45 | File | `/ajax_city.php` | High
+46 | File | `/animalsupdate.php` | High
+47 | File | `/anony/mjpg.cgi` | High
+48 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+49 | File | `/api/deploy/upload` | High
+50 | File | `/api/deploy/upload /api/database/upload` | High
+51 | File | `/api/ping` | Medium
+52 | File | `/api/wizard/getNetworkStatus` | High
+53 | File | `/application/index/controller/Databasesource.php` | High
+54 | File | `/application/index/controller/Screen.php` | High
+55 | File | `/art-enquiry.php` | High
+56 | File | `/backend/doc/his_doc_update-account.php` | High
+57 | File | `/bidlog.php` | Medium
+58 | File | `/bloodrequest.php` | High
+59 | ... | ... | ...
 
-There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

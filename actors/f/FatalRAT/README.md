@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FatalRAT:
 
+* [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
@@ -17,12 +18,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [47.76.184.172](https://vuldb.com/?ip.47.76.184.172) | - | - | High
-2 | [103.119.44.93](https://vuldb.com/?ip.103.119.44.93) | - | - | High
-3 | [103.119.44.100](https://vuldb.com/?ip.103.119.44.100) | - | - | High
-4 | ... | ... | ... | ...
+1 | [27.124.44.137](https://vuldb.com/?ip.27.124.44.137) | - | - | High
+2 | [43.154.91.3](https://vuldb.com/?ip.43.154.91.3) | - | - | High
+3 | [45.119.55.16](https://vuldb.com/?ip.45.119.55.16) | - | - | High
+4 | [45.204.192.216](https://vuldb.com/?ip.45.204.192.216) | - | - | High
+5 | [45.204.215.237](https://vuldb.com/?ip.45.204.215.237) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,15 +47,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/log/killJob` | High
-2 | File | `/register.php` | High
-3 | File | `/spip.php` | Medium
-4 | File | `adclick.php` | Medium
-5 | File | `awstats.pl` | Medium
-6 | File | `cgi-bin/awstats.pl` | High
-7 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/api/log/killJob` | High
+4 | File | `/api/upload.php` | High
+5 | File | `/baseOpLog.do` | High
+6 | File | `/bitrix/admin/ldap_server_edit.php` | High
+7 | File | `/cgi-bin/api-get_line_status` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/controller/OnlinePreviewController.java` | High
+10 | File | `/export` | Low
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/lab.html` | Medium
+13 | File | `/manage/IPSetup.php` | High
+14 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

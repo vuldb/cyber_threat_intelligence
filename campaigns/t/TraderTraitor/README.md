@@ -86,21 +86,21 @@ ID | Type | Indicator | Confidence
 26 | File | `/app/ajax/search_sales_report.php` | High
 27 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 28 | File | `/bin/boa` | Medium
-29 | File | `/boafrm/formWlSiteSurvey` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-32 | File | `/collection/all` | High
-33 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-34 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-35 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-36 | File | `/core/config-revisions` | High
-37 | File | `/deletefile.php` | High
-38 | File | `/doc/packages` | High
-39 | File | `/doctor/deleteappointment.php` | High
-40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+29 | File | `/binutils/debug.c` | High
+30 | File | `/boafrm/formWlSiteSurvey` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+33 | File | `/collection/all` | High
+34 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+35 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+36 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+37 | File | `/core/config-revisions` | High
+38 | File | `/deletefile.php` | High
+39 | File | `/doc/packages` | High
+40 | File | `/doctor/deleteappointment.php` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

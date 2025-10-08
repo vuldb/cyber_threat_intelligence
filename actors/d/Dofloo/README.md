@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TO](https://vuldb.com/?country.to)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,7 +22,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [49.0.248.230](https://vuldb.com/?ip.49.0.248.230) | ecs-49-0-248-230.compute.hwclouds-dns.com | - | High
-2 | [209.141.59.94](https://vuldb.com/?ip.209.141.59.94) | - | - | High
+2 | [85.192.48.47](https://vuldb.com/?ip.85.192.48.47) | 169743.love-is.nexus | - | High
+3 | [209.141.59.94](https://vuldb.com/?ip.209.141.59.94) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,14 +46,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/tag.php` | High
 2 | File | `/be/erpc.php` | Medium
-3 | File | `/general/email/inbox/delete_webmail.php` | High
-4 | File | `/goform/SetNetControlList` | High
-5 | File | `/goform/WifiBasicSet` | High
-6 | File | `/jeecg-boot/airag/knowledge/doc/import/zip` | High
-7 | File | `/logout.php` | Medium
+3 | File | `/depotHead/list` | High
+4 | File | `/general/email/inbox/delete_webmail.php` | High
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/goform/WifiBasicSet` | High
+7 | File | `/jeecg-boot/airag/knowledge/doc/import/zip` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -60,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/087b589c9fd7b934fe9c2a7711795165d8022e101983f9654de89c3125715929/
 * https://bazaar.abuse.ch/sample/cce67d42f77104aa254ef3fda1da89b796e3d606ef85cd2746c8ab99253ffa09/
+* https://urlhaus.abuse.ch/url/3622613/
 
 ## Literature
 

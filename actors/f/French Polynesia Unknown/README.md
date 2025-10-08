@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,54 +66,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\SSCService` | High
-2 | File | `%PROGRAMFILES(X86)%\TSplus\Clients\www.` | High
+2 | File | `../mtd/Config/Sha1Account1` | High
 3 | File | `/?g=log_import_save` | High
 4 | File | `/add-apartment.php` | High
 5 | File | `/adm/syscmd.asp` | High
-6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/` | Low
-8 | File | `/admin/adminproc.asp` | High
-9 | File | `/admin/chart1.php` | High
-10 | File | `/admin/create_product.php` | High
-11 | File | `/admin/email/send-test-email` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/mod_reports/index.php` | High
-14 | File | `/Admin/Proses_Edit_Akun.php` | High
-15 | File | `/adminPage/conf/reload` | High
-16 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
-17 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
-18 | File | `/api/admin/question/edit` | High
-19 | File | `/api/v1/dashboards/export` | High
-20 | File | `/api/v1/settings` | High
-21 | File | `/application/index/controller/Screen.php` | High
-22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-23 | File | `/applications/nexus/modules/front/store/store.php` | High
-24 | File | `/boaform/device_reset.cgi` | High
-25 | File | `/car-rental-management-system/admin/view_car.php=` | High
-26 | File | `/CCMAdmin/serverlist.asp` | High
-27 | File | `/cgi` | Low
-28 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/glc` | Medium
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/ping.cgi` | High
-33 | File | `/cgi-bin/settings-firewall.cgi` | High
-34 | File | `/common/info.cgi` | High
-35 | File | `/Control/Api/Api.php` | High
-36 | File | `/course/filterRecords/` | High
-37 | File | `/dashboard/admin/more-userprofile.php` | High
-38 | File | `/dashboard/admin/updateroutine.php` | High
-39 | File | `/dashboard/approve-reject.php` | High
-40 | File | `/debug/` | Low
-41 | File | `/debug/pprof` | Medium
-42 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-43 | File | `/devinfo` | Medium
-44 | File | `/DXR.axd` | Medium
-45 | File | `/ecommerce/support_ticket` | High
-46 | File | `/Employee/edit-photo.php` | High
-47 | ... | ... | ...
+6 | File | `/admin-profile.php` | High
+7 | File | `/admin.php?p=/Area/index#tab=t2` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/adminproc.asp` | High
+10 | File | `/admin/chart1.php` | High
+11 | File | `/admin/create_product.php` | High
+12 | File | `/admin/email/send-test-email` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/manage-pages.php` | High
+15 | File | `/admin/mod_reports/index.php` | High
+16 | File | `/Admin/Proses_Edit_Akun.php` | High
+17 | File | `/adminPage/conf/reload` | High
+18 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
+19 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+20 | File | `/api/admin/question/edit` | High
+21 | File | `/api/v1/dashboards/export` | High
+22 | File | `/api/v1/settings` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+25 | File | `/applications/nexus/modules/front/store/store.php` | High
+26 | File | `/auth/userkey/logout.php` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/bin/httpd` | Medium
+29 | File | `/boaform/device_reset.cgi` | High
+30 | File | `/browse.php` | Medium
+31 | File | `/car-rental-management-system/admin/view_car.php=` | High
+32 | File | `/CCMAdmin/serverlist.asp` | High
+33 | File | `/cgi` | Low
+34 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/glc` | Medium
+37 | File | `/cgi-bin/nas_sharing.cgi` | High
+38 | File | `/cgi-bin/ping.cgi` | High
+39 | File | `/cgi-bin/settings-firewall.cgi` | High
+40 | File | `/Control/Api/Api.php` | High
+41 | File | `/course/filterRecords/` | High
+42 | File | `/dashboard/admin/more-userprofile.php` | High
+43 | File | `/dashboard/admin/updateroutine.php` | High
+44 | File | `/dashboard/approve-reject.php` | High
+45 | File | `/debug/` | Low
+46 | File | `/debug/pprof` | Medium
+47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+48 | File | `/devinfo` | Medium
+49 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

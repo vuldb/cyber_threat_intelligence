@@ -71,15 +71,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,69 +86,85 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=tracks` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin/action/add_con.php` | High
-4 | File | `/admin/book_row.php` | High
-5 | File | `/admin/budget.php` | High
-6 | File | `/admin/budget/manage_budget.php` | High
-7 | File | `/admin/config_save.php` | High
-8 | File | `/admin/contactus.php` | High
-9 | File | `/admin/download_frame.php` | High
-10 | File | `/admin/edit_virtual_site_info.php` | High
-11 | File | `/admin/file/delete.do` | High
-12 | File | `/admin/forgot-password.php` | High
-13 | File | `/admin/get_price.php` | High
-14 | File | `/admin/index3.php` | High
-15 | File | `/admin/leancloud.php` | High
-16 | File | `/admin/reports/index.php` | High
-17 | File | `/admin/robot/approval/list` | High
-18 | File | `/admin/student.php` | High
-19 | File | `/admin/students.php` | High
-20 | File | `/admin/update-clients.php` | High
-21 | File | `/AJAX/ajaxget` | High
-22 | File | `/animalsupdate.php` | High
-23 | File | `/api/controllers/admin/app/ComboController.php` | High
-24 | File | `/app/form_add/of` | High
-25 | File | `/application/index/controller/Unity.php` | High
-26 | File | `/APR/login.php` | High
-27 | File | `/blog/comment` | High
-28 | File | `/boaform/device_reset.cgi` | High
-29 | File | `/boafrm/formReflashClientTbl` | High
-30 | File | `/brand.php` | Medium
-31 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-32 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-33 | File | `/catcompany.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/discovery.cgi` | High
-36 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/ci_hms/search` | High
-39 | File | `/classes/Master.php?f=save_service` | High
-40 | File | `/collection/all` | High
-41 | File | `/cwms/admin/?page=articles/view_article/` | High
-42 | File | `/data/config.ftp.php` | High
-43 | File | `/debuginfo.htm` | High
-44 | File | `/doorgets/app/requests/user/configurationRequest.php` | High
-45 | File | `/ebics-server/ebics.aspx` | High
-46 | File | `/ecommerce/support_ticket` | High
-47 | File | `/Employee/delete_leave.php` | High
-48 | File | `/etc/crash` | Medium
-49 | File | `/etc/services/INET/inet_ipv4.php` | High
-50 | File | `/file-manager/rename.php` | High
-51 | File | `/goform/aspForm` | High
-52 | File | `/goform/delIpMacBind/` | High
-53 | File | `/goform/formLogDnsquery` | High
-54 | File | `/goform/formSetPassword` | High
-55 | File | `/goform/RgDhcp` | High
-56 | File | `/goform/setcfm` | High
-57 | File | `/goform/setDeviceSettings` | High
-58 | File | `/goform/SetNetControlList/` | High
-59 | File | `/goform/setpptpservercfg` | High
-60 | File | `/goform/SetSysAutoRebbotCfg` | High
-61 | ... | ... | ...
+1 | File | `/?g=route_ispinfo_export_save` | High
+2 | File | `/?s=doudou&c=file&a=list` | High
+3 | File | `/a/sys/user/save` | High
+4 | File | `/addcustind.php` | High
+5 | File | `/admin-profile.php` | High
+6 | File | `/admin.php` | Medium
+7 | File | `/admin/?page=user/manage` | High
+8 | File | `/admin/add-animals.php` | High
+9 | File | `/admin/add_vehicles.php` | High
+10 | File | `/admin/admin-profile.php` | High
+11 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+12 | File | `/admin/ajax.php?action=login` | High
+13 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+14 | File | `/admin/assign_save.php` | High
+15 | File | `/admin/campsdetails.php` | High
+16 | File | `/admin/category/controller.php` | High
+17 | File | `/admin/category_update.php` | High
+18 | File | `/admin/changepropic.php` | High
+19 | File | `/admin/config_ISCGroupNoCache.php` | High
+20 | File | `/admin/deduction_edit.php` | High
+21 | File | `/admin/delete_s2.php` | High
+22 | File | `/admin/delete_s3.php` | High
+23 | File | `/admin/delete_s5.php` | High
+24 | File | `/admin/delete_s6.php` | High
+25 | File | `/admin/del_feedback.php` | High
+26 | File | `/admin/department/add` | High
+27 | File | `/admin/doctors.php` | High
+28 | File | `/admin/edit-admin.php` | High
+29 | File | `/admin/edit-card-detail.php` | High
+30 | File | `/admin/edit-class.php` | High
+31 | File | `/admin/edit-doc.php` | High
+32 | File | `/admin/edit_class.php` | High
+33 | File | `/admin/edit_event.php` | High
+34 | File | `/admin/edit_query_account.php` | High
+35 | File | `/admin/fields/manage_field.php` | High
+36 | File | `/admin/file/upload.do` | High
+37 | File | `/admin/index.php` | High
+38 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+39 | File | `/admin/inquiries/view_details.php` | High
+40 | File | `/admin/login.php` | High
+41 | File | `/admin/manage-card.php` | High
+42 | File | `/Admin/NewsReport.php` | High
+43 | File | `/admin/payment_save.php` | High
+44 | File | `/admin/product.php` | High
+45 | File | `/admin/team_update.php` | High
+46 | File | `/admin/updatecomplaint.php` | High
+47 | File | `/admin/update_s1.php` | High
+48 | File | `/admin/update_s3.php` | High
+49 | File | `/admin/update_s4.php` | High
+50 | File | `/admin/update_s8.php` | High
+51 | File | `/admin/users.php` | High
+52 | File | `/admin/user_save.php` | High
+53 | File | `/admin/user_update.php` | High
+54 | File | `/admin/visitors-form.php` | High
+55 | File | `/admin_paylog.php` | High
+56 | File | `/ajax.php?action=delete_member` | High
+57 | File | `/ajax.php?action=delete_user` | High
+58 | File | `/ajax.php?action=save_deductions` | High
+59 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
+60 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+61 | File | `/Android/data/com.myairtelapp/files/` | High
+62 | File | `/api/File/downloadFile` | High
+63 | File | `/api/Image/WithPath` | High
+64 | File | `/api/proxy` | Medium
+65 | File | `/attendancelist.php` | High
+66 | File | `/bin/mail` | Medium
+67 | File | `/boafrm/formDMZ` | High
+68 | File | `/boafrm/formFilter` | High
+69 | File | `/boafrm/formMapDel` | High
+70 | File | `/boafrm/formNtp` | High
+71 | File | `/boafrm/formRoute` | High
+72 | File | `/boafrm/formSaveConfig` | High
+73 | File | `/boafrm/formWirelessTbl` | High
+74 | File | `/BRS_top.html` | High
+75 | File | `/business/common/sms/sendsms.jsp` | High
+76 | File | `/categoryvalue.php` | High
+77 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 678 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

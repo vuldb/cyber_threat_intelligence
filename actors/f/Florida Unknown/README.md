@@ -146,7 +146,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -159,16 +159,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/create_product.php` | High
 4 | File | `/admin/emp-profile-avatar.php` | High
 5 | File | `/admin/fetch_product_details.php` | High
-6 | File | `/admin/manage_complaint.php` | High
-7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-8 | File | `/attendancelist.php` | High
-9 | File | `/auth/register` | High
-10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-11 | File | `/backend/admin/his_admin_register_patient.php` | High
-12 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-13 | ... | ... | ...
+6 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+7 | File | `/auth/register` | High
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/backend/admin/his_admin_register_patient.php` | High
+10 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

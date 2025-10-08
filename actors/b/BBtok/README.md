@@ -49,9 +49,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/SASWebReportStudio/logonAndRender.do` | High
 5 | File | `addentry.php` | Medium
 6 | File | `add_edit_cat.asp` | High
-7 | ... | ... | ...
+7 | File | `admin/category.inc.php` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

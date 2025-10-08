@@ -47,19 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-2 | File | `/cgi-bin/nas_sharing.cgi` | High
-3 | File | `/devinfo` | Medium
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/ext/phar/phar_object.c` | High
-6 | File | `/goform/apPortalAuth` | High
-7 | File | `/inc/campaign/count_of_send.php` | High
-8 | File | `/index.php/admin` | High
-9 | File | `/rdms/admin/?page=user/manage_user` | High
-10 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+1 | File | `/Admin/consulting_detail.php` | High
+2 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/devinfo` | Medium
+5 | File | `/etc/tomcat8/Catalina/attack` | High
+6 | File | `/ext/phar/phar_object.c` | High
+7 | File | `/goform/apPortalAuth` | High
+8 | File | `/inc/campaign/count_of_send.php` | High
+9 | File | `/index.php/admin` | High
+10 | File | `/rdms/admin/?page=user/manage_user` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

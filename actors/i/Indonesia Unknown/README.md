@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1740,14 +1740,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1755,66 +1754,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `/aboutus.php` | Medium
-3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-4 | File | `/admin-cp/media` | High
-5 | File | `/admin/?page=orders/manage_request` | High
-6 | File | `/admin/?page=return/view_return` | High
-7 | File | `/admin/aboutPost.php` | High
-8 | File | `/admin/add-subadmin.php` | High
-9 | File | `/admin/add_cars.php` | High
-10 | File | `/admin/admin_index.php` | High
-11 | File | `/admin/ajax.php?action=login` | High
-12 | File | `/admin/bwdates-request-report-details.php` | High
-13 | File | `/admin/category/add.do` | High
-14 | File | `/admin/changeimage.php` | High
-15 | File | `/admin/contacts/organizations/edit/2` | High
-16 | File | `/admin/delete-doctor.php` | High
-17 | File | `/admin/edit-admin.php` | High
-18 | File | `/admin/edit-guard-detail.php` | High
-19 | File | `/admin/forms/option_lists/edit.php` | High
-20 | File | `/admin/index.php/news/edit` | High
-21 | File | `/Admin/login.php` | High
-22 | File | `/admin/registration.php` | High
-23 | File | `/admin/search.php` | High
-24 | File | `/admin/setup.cgi` | High
-25 | File | `/admin/view-pass-detail.php` | High
-26 | File | `/adminapi/system/file/openfile` | High
-27 | File | `/adpweb/a/base/barcodeDetail/` | High
-28 | File | `/ajax.php?action=save_package` | High
-29 | File | `/api/browserextension/UpdatePassword/` | High
-30 | File | `/api/discoveries/` | High
-31 | File | `/api/docs/index.php` | High
-32 | File | `/app/api/controller/caiji.php` | High
-33 | File | `/app/api/controller/collect.php` | High
-34 | File | `/app/controller/Setup.php` | High
-35 | File | `/application/models/ApplicationDataObject.class.php` | High
-36 | File | `/backend/register.php` | High
-37 | File | `/bin/main` | Medium
-38 | File | `/biurl_grou` | Medium
-39 | File | `/boa/formWSC` | Medium
-40 | File | `/boafrm/formDMZ` | High
-41 | File | `/boafrm/formDosCfg` | High
-42 | File | `/boafrm/formFilter` | High
-43 | File | `/boafrm/formIpQoS` | High
-44 | File | `/boafrm/formIPv6Addr` | High
-45 | File | `/boafrm/formMultiAP` | High
-46 | File | `/boafrm/formNtp` | High
-47 | File | `/boafrm/formParentControl` | High
-48 | File | `/boafrm/formPortFw` | High
-49 | File | `/boafrm/formReflashClientTbl` | High
-50 | File | `/boafrm/formSaveConfig` | High
-51 | File | `/boafrm/formStaticDHCP` | High
-52 | File | `/boafrm/formStats` | High
-53 | File | `/boafrm/formSysCmd` | High
-54 | File | `/boafrm/formSysLog` | High
-55 | File | `/boafrm/formTmultiAP` | High
-56 | File | `/boafrm/formWirelessTbl` | High
-57 | File | `/boafrm/formWlSiteSurvey` | High
-58 | ... | ... | ...
+1 | File | `/adds.php` | Medium
+2 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+3 | File | `/admin/delete_s2.php` | High
+4 | File | `/admin/delete_s3.php` | High
+5 | File | `/admin/faculty_action.php` | High
+6 | File | `/admin/manage-pages.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/search-directory.php` | High
+9 | File | `/admin/update_s8.php` | High
+10 | File | `/admin/view-patient.php` | High
+11 | File | `/ajax.php?action=save_deductions` | High
+12 | File | `/api/admin/settings` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/be/rpc.php` | Medium
+15 | File | `/bic/ssoService/v1/applyCT` | High
+16 | File | `/bin/httpd` | Medium
+17 | File | `/binutils/debug.c` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/client/UnChkMailApplication.jsp` | High
+20 | File | `/config/DbFunction.php` | High
+21 | File | `/edit-student.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/fileUpload` | Medium
+24 | File | `/function/customer_signup.php` | High
+25 | File | `/goform/addressNat` | High
+26 | File | `/goform/AdvSetWrlsafeset` | High
+27 | File | `/goform/aspApBasicConfigUrcp` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/goform/aspRemoteApConfTempSend` | High
+30 | File | `/goform/formAutoDetecWAN_wizard4` | High
+31 | File | `/goform/formBSSetSitesurvey` | High
+32 | File | `/goform/formConnectionSetting` | High
+33 | File | `/goform/formDeviceReboot` | High
+34 | File | `/goform/formL2TPSetup` | High
+35 | File | `/goform/formPictureUrl` | High
+36 | File | `/goform/formPPPoESetup` | High
+37 | File | `/goform/formPPTPSetup` | High
+38 | File | `/goform/formSetWanNonLogin` | High
+39 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

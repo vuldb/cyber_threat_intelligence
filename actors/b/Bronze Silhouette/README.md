@@ -28,13 +28,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,43 +49,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/API/info` | Medium
 6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 7 | File | `/Bloodgroop_process.php` | High
-8 | File | `/CCMAdmin/serverlist.asp` | High
-9 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-11 | File | `/cgi/get_param.cgi` | High
-12 | File | `/csms/admin/inquiries/view_details.php` | High
-13 | File | `/cstecgi.cgi` | Medium
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/files.md5` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/form2LocalAclEditcfg.cgi` | High
-18 | File | `/goform/formResetStatistic` | High
-19 | File | `/goform/formSetMACFilter` | High
-20 | File | `/goform/formSetMuti` | High
-21 | File | `/goform/formSetPassword` | High
-22 | File | `/goform/formSetPortTr` | High
-23 | File | `/goform/formSetQoS` | High
-24 | File | `/goform/formSetRoute` | High
-25 | File | `/goform/formSetWizardSelectMode` | High
-26 | File | `/goform/formVirtualServ` | High
-27 | File | `/goform/SetSysTimeCfg` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/home/search` | Medium
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/include/chart_generator.php` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/messageboard/view.php` | High
-34 | File | `/multi-vendor-shopping-script/product-list.php` | High
-35 | File | `/one_church/userregister.php` | High
-36 | File | `/out.php` | Medium
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-39 | File | `/SASWebReportStudio/logonAndRender.do` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/spgpm/updateListing` | High
-42 | ... | ... | ...
+8 | File | `/cancelbookingpatient.php` | High
+9 | File | `/CCMAdmin/serverlist.asp` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+13 | File | `/cgi/get_param.cgi` | High
+14 | File | `/csms/admin/inquiries/view_details.php` | High
+15 | File | `/cstecgi.cgi` | Medium
+16 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+17 | File | `/ecommerce/support_ticket` | High
+18 | File | `/files.md5` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/form2LocalAclEditcfg.cgi` | High
+21 | File | `/goform/formResetStatistic` | High
+22 | File | `/goform/formSetMACFilter` | High
+23 | File | `/goform/formSetMuti` | High
+24 | File | `/goform/formSetPassword` | High
+25 | File | `/goform/formSetPortTr` | High
+26 | File | `/goform/formSetQoS` | High
+27 | File | `/goform/formSetRoute` | High
+28 | File | `/goform/formSetWizardSelectMode` | High
+29 | File | `/goform/formVirtualServ` | High
+30 | File | `/goform/SetSysTimeCfg` | High
+31 | File | `/goform/verifyFacebookLike` | High
+32 | File | `/goform/WifiExtraSet` | High
+33 | File | `/home/search` | Medium
+34 | File | `/hrm/employeeview.php` | High
+35 | File | `/include/chart_generator.php` | High
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/messageboard/view.php` | High
+38 | File | `/multi-vendor-shopping-script/product-list.php` | High
+39 | File | `/one_church/userregister.php` | High
+40 | File | `/out.php` | Medium
+41 | File | `/owa/auth/logon.aspx` | High
+42 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

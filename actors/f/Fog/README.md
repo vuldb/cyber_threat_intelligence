@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
@@ -50,31 +50,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/create_product.php` | High
-2 | File | `/admin/edit_supplier.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/process_category_edit.php` | High
-5 | File | `/api/authentication/login` | High
-6 | File | `/apiadmin/upload/attach` | High
-7 | File | `/artist-display.php` | High
-8 | File | `/backend/admin/his_admin_register_patient.php` | High
-9 | File | `/cgi-bin/hd_config.cgi` | High
-10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/classes/profile.class.php` | High
-13 | File | `/dataSet/testTransform;swagger-ui` | High
-14 | File | `/edit-computer-detail.php` | High
-15 | File | `/expedit.php` | Medium
-16 | File | `/export` | Low
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/SetSpeedWan` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | File | `/hoteldruid/clienti.php` | High
-21 | File | `/include/menu_v.inc.php` | High
-22 | File | `/include/Model/Upload.php` | High
-23 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/deleteuser.php` | High
+4 | File | `/admin/edit_supplier.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/process_category_edit.php` | High
+7 | File | `/Admin/resultdetails.php` | High
+8 | File | `/ajax.php?action=save_deductions` | High
+9 | File | `/api/authentication/login` | High
+10 | File | `/api/wizard/getDualbandSync` | High
+11 | File | `/apiadmin/upload/attach` | High
+12 | File | `/artist-display.php` | High
+13 | File | `/backend/admin/his_admin_register_patient.php` | High
+14 | File | `/boafrm/formReflashClientTbl` | High
+15 | File | `/cancelar-enturmacao-em-lote/` | High
+16 | File | `/cgi-bin/hd_config.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+19 | File | `/classes/profile.class.php` | High
+20 | File | `/dataSet/testTransform;swagger-ui` | High
+21 | File | `/diario-de-observacoes/` | High
+22 | File | `/edit-computer-detail.php` | High
+23 | File | `/edit_student.php` | High
+24 | File | `/expedit.php` | Medium
+25 | File | `/export` | Low
+26 | File | `/forum/away.php` | High
+27 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

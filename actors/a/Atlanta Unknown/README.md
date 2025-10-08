@@ -172,7 +172,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -181,26 +181,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/AcceptZip.ashx` | High
-2 | File | `/admin/?page=bike` | High
-3 | File | `/admin/booking-bwdates-reports-details.php` | High
-4 | File | `/admin/config/uploadicon.php` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/deleteuser.php` | High
-7 | File | `/admin/edit_department.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/manage_station.php` | High
-11 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-12 | File | `/admin/teachers.php` | High
-13 | File | `/admin/template/update` | High
-14 | File | `/admin/View_user.php` | High
-15 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
-16 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-17 | File | `/backend/admin/his_admin_register_patient.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | ... | ... | ...
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/deleteuser.php` | High
+4 | File | `/admin/edit_department.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+8 | File | `/admin/teachers.php` | High
+9 | File | `/admin/template/update` | High
+10 | File | `/admin/View_user.php` | High
+11 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+13 | File | `/backend/admin/his_admin_register_patient.php` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

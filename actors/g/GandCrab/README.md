@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,23 +82,25 @@ ID | Type | Indicator | Confidence
 4 | File | `/API/info` | Medium
 5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 6 | File | `/Bloodgroop_process.php` | High
-7 | File | `/CCMAdmin/serverlist.asp` | High
-8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-9 | File | `/cgi/get_param.cgi` | High
-10 | File | `/cstecgi.cgi` | Medium
-11 | File | `/ecommerce/support_ticket` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/home/search` | Medium
-14 | File | `/out.php` | Medium
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/spgpm/updateListing` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/upfile.cgi` | Medium
-19 | File | `/webui/modules/log/operate.mds` | High
-20 | File | `/wordpress/wp-admin/admin.php` | High
-21 | ... | ... | ...
+7 | File | `/cancelbookingpatient.php` | High
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+11 | File | `/cgi/get_param.cgi` | High
+12 | File | `/cstecgi.cgi` | Medium
+13 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/verifyFacebookLike` | High
+17 | File | `/home/search` | Medium
+18 | File | `/out.php` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/spgpm/updateListing` | High
+21 | File | `/spip.php` | Medium
+22 | File | `/upfile.cgi` | Medium
+23 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

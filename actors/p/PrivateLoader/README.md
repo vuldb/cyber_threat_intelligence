@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [85.192.56.26](https://vuldb.com/?ip.85.192.56.26) | somber-health.aeza.network | - | High
 16 | ... | ... | ... | ...
 
-There are 59 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,91 +69,92 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/` | Low
 7 | File | `/admin/?page=user/manage` | High
 8 | File | `/Admin/add-admin.php` | High
-9 | File | `/Admin/add-student.php` | High
-10 | File | `/admin/admin.php` | High
-11 | File | `/admin/admin_user.php` | High
-12 | File | `/admin/ajax/avatar.php` | High
-13 | File | `/admin/create_product.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/general/change-lang` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/lab.php` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/admin/manage_complaint.php` | High
-20 | File | `/Admin/News.php` | High
-21 | File | `/admin/notes/create` | High
-22 | File | `/admin/options` | High
-23 | File | `/admin/plugin.php` | High
-24 | File | `/admin/save.php` | High
-25 | File | `/admin/show.php` | High
-26 | File | `/admin/store.php` | High
-27 | File | `/admin/update_user.php` | High
-28 | File | `/admin/users.php` | High
-29 | File | `/admin/view_sendlist.php` | High
-30 | File | `/adminPage/main/upload` | High
-31 | File | `/admin_class.php` | High
-32 | File | `/alphaware/summary.php` | High
-33 | File | `/analysisProject/pagingQueryData` | High
-34 | File | `/api/authentication/login` | High
-35 | File | `/api/index.php` | High
-36 | File | `/api/swaggerui/static` | High
-37 | File | `/api/sys/login` | High
-38 | File | `/api/system/user?deptId=1&page=1&size=10` | High
-39 | File | `/app/api/controller/caiji.php` | High
-40 | File | `/app/uploading/upload-mp3.php` | High
-41 | File | `/application/controller/Transaki.php` | High
-42 | File | `/application/index/common.php` | High
-43 | File | `/auth_files/photo/` | High
-44 | File | `/bl-plugins/backup/plugin.php` | High
-45 | File | `/blog` | Low
-46 | File | `/catalog_add.php` | High
-47 | File | `/category.php` | High
-48 | File | `/cgi-bin/cstecgi.cgi` | High
-49 | File | `/cgi-bin/hd_config.cgi` | High
-50 | File | `/cgi-bin/nas_sharing.cgi` | High
-51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-52 | File | `/cgi-bin/vitogate.cgi` | High
-53 | File | `/cgi-bin/wlogin.cgi` | High
-54 | File | `/classes/Users.php?f=save` | High
-55 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-56 | File | `/common/info.cgi` | High
-57 | File | `/commons/attachment/upload` | High
-58 | File | `/course/filterRecords/` | High
-59 | File | `/cupseasylive/countrymodify.php` | High
-60 | File | `/deal/{note_id}/note` | High
-61 | File | `/dede/archives_do.php` | High
-62 | File | `/dede/group_store.php` | High
-63 | File | `/dialog/select_media.php` | High
-64 | File | `/edit-subject.php` | High
-65 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-66 | File | `/Employee/edit-profile.php` | High
-67 | File | `/en/blog-comment-4` | High
-68 | File | `/endpoint/update.php` | High
-69 | File | `/etc/master.passwd` | High
-70 | File | `/etc/passwd` | Medium
-71 | File | `/ext/collect/filter_text.do` | High
-72 | File | `/fax/fax_send.php` | High
-73 | File | `/film-rating.php` | High
-74 | File | `/forgot-password` | High
-75 | File | `/forum/away.php` | High
-76 | File | `/fos/admin/ajax.php?action=login` | High
-77 | File | `/goForm/aspForm` | High
-78 | File | `/goform/formSetPassword` | High
-79 | File | `/goform/SetOnlineDevName` | High
-80 | File | `/goform/SetSysTimeCfg` | High
-81 | File | `/goform/WifiBasicSet` | High
-82 | File | `/goform/WifiWpsStart` | High
-83 | File | `/guestbook` | Medium
-84 | File | `/home/kickPlayer` | High
-85 | File | `/include/dedetag.class.php` | High
-86 | File | `/index.php` | Medium
-87 | File | `/index.php/setpage/admin/pageAE.html` | High
-88 | File | `/index.php/signin` | High
-89 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-90 | File | `/intern/controller.php` | High
-91 | ... | ... | ...
+9 | File | `/admin/add-category.php` | High
+10 | File | `/Admin/add-student.php` | High
+11 | File | `/admin/admin.php` | High
+12 | File | `/admin/admin_user.php` | High
+13 | File | `/admin/ajax/avatar.php` | High
+14 | File | `/admin/create_product.php` | High
+15 | File | `/admin/delete_user.php` | High
+16 | File | `/admin/edit_product.php` | High
+17 | File | `/admin/finished.php` | High
+18 | File | `/admin/forgot-password.php` | High
+19 | File | `/admin/general/change-lang` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/lab.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/manage_complaint.php` | High
+24 | File | `/admin/model/addOrUpdate` | High
+25 | File | `/Admin/News.php` | High
+26 | File | `/admin/notes/create` | High
+27 | File | `/admin/Operations/Role.php` | High
+28 | File | `/admin/options` | High
+29 | File | `/admin/plugin.php` | High
+30 | File | `/admin/save.php` | High
+31 | File | `/admin/settings/users/edit/` | High
+32 | File | `/admin/show.php` | High
+33 | File | `/admin/store.php` | High
+34 | File | `/admin/update_user.php` | High
+35 | File | `/admin/users.php` | High
+36 | File | `/admin/view_sendlist.php` | High
+37 | File | `/adminPage/main/upload` | High
+38 | File | `/admin_class.php` | High
+39 | File | `/admin_members.php?ac=editsave` | High
+40 | File | `/alphaware/summary.php` | High
+41 | File | `/analysisProject/pagingQueryData` | High
+42 | File | `/api/authentication/login` | High
+43 | File | `/api/data.php` | High
+44 | File | `/api/index.php` | High
+45 | File | `/api/swaggerui/static` | High
+46 | File | `/api/sys/login` | High
+47 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+48 | File | `/app/api/controller/caiji.php` | High
+49 | File | `/app/uploading/upload-mp3.php` | High
+50 | File | `/application/controller/Transaki.php` | High
+51 | File | `/application/index/common.php` | High
+52 | File | `/article/app/post` | High
+53 | File | `/auth_files/photo/` | High
+54 | File | `/bl-plugins/backup/plugin.php` | High
+55 | File | `/blog` | Low
+56 | File | `/boafrm/formPortFw` | High
+57 | File | `/catalog_add.php` | High
+58 | File | `/category.php` | High
+59 | File | `/cgi-bin/cstecgi.cgi` | High
+60 | File | `/cgi-bin/hd_config.cgi` | High
+61 | File | `/cgi-bin/nas_sharing.cgi` | High
+62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+63 | File | `/cgi-bin/vitogate.cgi` | High
+64 | File | `/cgi-bin/wlogin.cgi` | High
+65 | File | `/classes/Users.php?f=save` | High
+66 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+67 | File | `/common/info.cgi` | High
+68 | File | `/commons/attachment/upload` | High
+69 | File | `/course/filterRecords/` | High
+70 | File | `/cupseasylive/countrymodify.php` | High
+71 | File | `/dashboard/admin/updateplan.php` | High
+72 | File | `/deal/{note_id}/note` | High
+73 | File | `/dede/archives_do.php` | High
+74 | File | `/dede/group_store.php` | High
+75 | File | `/dialog/select_media.php` | High
+76 | File | `/doctor/deleteschedule.php` | High
+77 | File | `/edit-subject.php` | High
+78 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+79 | File | `/Employee/edit-profile.php` | High
+80 | File | `/en/blog-comment-4` | High
+81 | File | `/endpoint/update.php` | High
+82 | File | `/etc/master.passwd` | High
+83 | File | `/etc/passwd` | Medium
+84 | File | `/ext/collect/filter_text.do` | High
+85 | File | `/fax/fax_send.php` | High
+86 | File | `/film-rating.php` | High
+87 | File | `/forgot-password` | High
+88 | File | `/forum/away.php` | High
+89 | File | `/fos/admin/ajax.php?action=login` | High
+90 | File | `/goForm/aspForm` | High
+91 | File | `/goform/formSetPassword` | High
+92 | ... | ... | ...
 
-There are 804 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 811 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -175,6 +176,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://malpedia.caad.fkie.fraunhofer.de/details/win.privateloader
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3552834/
+* https://urlhaus.abuse.ch/url/3579643/
 
 ## Literature
 

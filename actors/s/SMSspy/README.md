@@ -37,7 +37,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -49,52 +50,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
 2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/emp-profile-avatar.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/manage_complaint.php` | High
-6 | File | `/admin/normal-bwdates-reports-details.php` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/APR/signup.php` | High
-9 | File | `/classes/SystemSettings.php?f=update_settings` | High
-10 | File | `/contact.php` | Medium
-11 | File | `/editar-cliente.php` | High
-12 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-13 | File | `/emgui/rest/ums/messages` | High
-14 | File | `/foms/routers/place-order.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/FreshRSS/p/ext.php` | High
-17 | File | `/goform/setStaticRoute` | High
-18 | File | `/HNAP1` | Low
-19 | File | `/include/file.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/mims/login.php` | High
-23 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-26 | File | `/product_list.php` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/services/details.asp` | High
-30 | File | `/SystemMng.ashx` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `account/signup.php` | High
-33 | File | `action.php` | Medium
-34 | File | `action/usermanager.htm` | High
-35 | File | `adb/adb_client.c` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add-category.php` | High
-38 | File | `addentry.php` | Medium
-39 | File | `add_comment.php` | High
-40 | File | `add_edit_user.asp` | High
-41 | File | `adm-admlog.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin.php3` | Medium
-44 | File | `admin.webring.docs.php` | High
-45 | File | `admin/admin_editor.php` | High
-46 | ... | ... | ...
+3 | File | `/admin/edit-doctor-specialization.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/manage_complaint.php` | High
+7 | File | `/admin/normal-bwdates-reports-details.php` | High
+8 | File | `/anony/mjpg.cgi` | High
+9 | File | `/APR/signup.php` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/classes/SystemSettings.php?f=update_settings` | High
+12 | File | `/contact.php` | Medium
+13 | File | `/editar-cliente.php` | High
+14 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+15 | File | `/emgui/rest/ums/messages` | High
+16 | File | `/foms/routers/place-order.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/FreshRSS/p/ext.php` | High
+19 | File | `/goform/setStaticRoute` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/include/file.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/mims/login.php` | High
+25 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+28 | File | `/product_list.php` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/see_more_details.php` | High
+31 | File | `/services/details.asp` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/SystemMng.ashx` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `account/signup.php` | High
+36 | File | `action.php` | Medium
+37 | File | `action/usermanager.htm` | High
+38 | File | `adb/adb_client.c` | High
+39 | File | `adclick.php` | Medium
+40 | File | `add-category.php` | High
+41 | File | `addentry.php` | Medium
+42 | File | `add_comment.php` | High
+43 | File | `add_edit_user.asp` | High
+44 | File | `adm-admlog.php` | High
+45 | File | `admin.php` | Medium
+46 | File | `admin.php3` | Medium
+47 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -71,7 +71,7 @@ ID | Type | Indicator | Confidence
 15 | File | `/wp-json/oembed/1.0/embed?url` | High
 16 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

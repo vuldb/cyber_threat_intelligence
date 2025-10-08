@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,13 +66,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-40 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -93,43 +92,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/classes/Master.php?f=delete_appointment` | High
 12 | File | `/contact/store` | High
 13 | File | `/CPE` | Low
-14 | File | `/dashboard/settings` | High
-15 | File | `/Default/Bd` | Medium
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/FormLogin` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/friends` | Medium
-20 | File | `/gfxpoly/stroke.c` | High
-21 | File | `/goform/form2Wan.cgi` | High
-22 | File | `/goform/setMacFilter` | High
-23 | File | `/h/compose` | Medium
-24 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-25 | File | `/investigation/delete/` | High
-26 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-27 | File | `/leave_system/classes/Users.php?f=save` | High
-28 | File | `/login` | Low
-29 | File | `/messageboard/view.php` | High
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/MTFWU` | Low
-32 | File | `/openNDS/src/auth.c` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/panel/edit_plan.php` | High
-35 | File | `/panel/fields/add` | High
-36 | File | `/patient/settings.php` | High
-37 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
-38 | File | `/sbin/acos_service` | High
-39 | File | `/servlet/webacc` | High
-40 | File | `/src/dede/tpl.php` | High
-41 | File | `/sscdms/classes/Users.php?f=save` | High
-42 | File | `/textpattern/index.php` | High
-43 | File | `/uploadimage` | Medium
-44 | File | `/wp-admin/options.php` | High
-45 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-46 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-47 | File | `/youthappam/php_action/editProductImage.php` | High
-48 | ... | ... | ...
+14 | File | `/Default/Bd` | Medium
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/FormLogin` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/friends` | Medium
+19 | File | `/goform/setMacFilter` | High
+20 | File | `/h/compose` | Medium
+21 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+22 | File | `/investigation/delete/` | High
+23 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+24 | File | `/leave_system/classes/Users.php?f=save` | High
+25 | File | `/login` | Low
+26 | File | `/messageboard/view.php` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/MTFWU` | Low
+29 | File | `/openNDS/src/auth.c` | High
+30 | File | `/panel/edit_plan.php` | High
+31 | File | `/panel/fields/add` | High
+32 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
+33 | File | `/servlet/webacc` | High
+34 | File | `/src/dede/tpl.php` | High
+35 | File | `/sscdms/classes/Users.php?f=save` | High
+36 | File | `/textpattern/index.php` | High
+37 | File | `/uploadimage` | Medium
+38 | File | `/wp-admin/options.php` | High
+39 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+40 | File | `/youthappam/php_action/editProductImage.php` | High
+41 | File | `20review.asp` | Medium
+42 | File | `account.asp` | Medium
+43 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+44 | File | `adclick.php` | Medium
+45 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

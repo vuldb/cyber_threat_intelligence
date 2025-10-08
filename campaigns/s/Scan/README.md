@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TH](https://vuldb.com/?country.th)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -41,7 +41,7 @@ ID | IP address | Hostname | Actor | Confidence
 9 | [69.197.146.80](https://vuldb.com/?ip.69.197.146.80) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
 10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,12 +87,13 @@ ID | Type | Indicator | Confidence
 22 | File | `admin.x-shop.php` | High
 23 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://isc.sans.edu/diary/32180
 * https://isc.sans.edu/forums/diary/10+Most+Popular+Targeted+Ports+in+the+Past+3+Weeks/28242/
 * https://isc.sans.edu/forums/diary/Apache+is+Actively+Scan+for+CVE202141773+CVE202142013/27940/
 * https://www.proofpoint.com/us/blog/threat-insight/chasing-currents-espionage-south-china-sea

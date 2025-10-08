@@ -54,15 +54,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../../conf/template/uhttpd.json` | High
-2 | File | `/app/options.py` | High
-3 | File | `/cgi-bin/portal` | High
-4 | File | `/dev/block/mmcblk0rpmb` | High
-5 | File | `/etc/shadow` | Medium
-6 | File | `/etc/sudoers` | Medium
-7 | File | `/itbox_pi/networksafe.php?a=set` | High
-8 | ... | ... | ...
+2 | File | `/adminapi/system/crud` | High
+3 | File | `/app/options.py` | High
+4 | File | `/cgi-bin/portal` | High
+5 | File | `/dev/block/mmcblk0rpmb` | High
+6 | File | `/etc/shadow` | Medium
+7 | File | `/etc/sudoers` | Medium
+8 | File | `/itbox_pi/networksafe.php?a=set` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

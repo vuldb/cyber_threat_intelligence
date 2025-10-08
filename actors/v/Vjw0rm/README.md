@@ -54,7 +54,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [45.141.237.3](https://vuldb.com/?ip.45.141.237.3) | - | - | High
 32 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 124 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -110,14 +110,13 @@ ID | Type | Indicator | Confidence
 31 | File | `/etc/shadow` | Medium
 32 | File | `/farm/product.php` | High
 33 | File | `/forum/away.php` | High
-34 | File | `/goform/WifiExtraSet` | High
-35 | File | `/h/rest` | Low
-36 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-37 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-38 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-39 | ... | ... | ...
+34 | File | `/goform/setWrlFilterList` | High
+35 | File | `/goform/WifiExtraSet` | High
+36 | File | `/h/rest` | Low
+37 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+38 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

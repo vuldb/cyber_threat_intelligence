@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -52,14 +52,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,55 +68,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-3 | File | `/admin#themes` | High
-4 | File | `/admin-page.php` | High
-5 | File | `/admin/#maintenance_sysTask/edit` | High
-6 | File | `/admin/?/snippet/edit/3` | High
-7 | File | `/admin/action/add_con.php` | High
-8 | File | `/admin/action/new-feed.php` | High
-9 | File | `/admin/ajax.php?action=login` | High
-10 | File | `/admin/app` | Medium
-11 | File | `/admin/ballot_down.php` | High
-12 | File | `/admin/category.php` | High
-13 | File | `/admin/cmsWebFile/doUpload` | High
-14 | File | `/admin/config_save.php` | High
-15 | File | `/admin/delete-session.php` | High
-16 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
-17 | File | `/admin/edit-card-detail.php` | High
-18 | File | `/admin/edit-class.php` | High
-19 | File | `/admin/edit_room.php` | High
-20 | File | `/admin/edit_user.php` | High
-21 | File | `/admin/edit_visitor.php` | High
-22 | File | `/admin/login.php` | High
-23 | File | `/admin/manage-art-medium.php` | High
-24 | File | `/admin/plugin.php` | High
-25 | File | `/admin/publishnews.php` | High
-26 | File | `/admin/subscriber-csv.php` | High
-27 | File | `/admin/tag.php` | High
-28 | File | `/admin/template.php` | High
-29 | File | `/admin/template/update` | High
-30 | File | `/admin/unreadenq.php` | High
-31 | File | `/admin/upload/upimage.html` | High
-32 | File | `/admin/user.php` | High
-33 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-34 | File | `/admin/view-enquiry.php` | High
-35 | File | `/alphaware/summary.php` | High
-36 | File | `/api` | Low
-37 | File | `/api/monitors/import` | High
-38 | File | `/api/sys/login` | High
-39 | File | `/application/index/controller/Unity.php` | High
-40 | File | `/apply.cgi` | Medium
-41 | File | `/apps/meteor/app/irc/server/servers/RFC2813/parseMessage.js` | High
-42 | File | `/auth/soup-auth-digest.c` | High
-43 | File | `/backup/import` | High
-44 | File | `/bid/1/admin/entry-edit/` | High
-45 | File | `/boafrm/formFilter` | High
-46 | File | `/boafrm/formParentControl` | High
-47 | File | `/boafrm/formReflashClientTbl` | High
-48 | ... | ... | ...
+2 | File | `/Actions.php` | Medium
+3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+4 | File | `/admin#themes` | High
+5 | File | `/admin-page.php` | High
+6 | File | `/admin/#maintenance_sysTask/edit` | High
+7 | File | `/admin/?/snippet/edit/3` | High
+8 | File | `/admin/action/add_con.php` | High
+9 | File | `/admin/action/new-feed.php` | High
+10 | File | `/admin/add-directory.php` | High
+11 | File | `/admin/add_query_account.php` | High
+12 | File | `/admin/ajax.php?action=delete_application` | High
+13 | File | `/admin/ajax.php?action=login` | High
+14 | File | `/admin/app` | Medium
+15 | File | `/admin/ballot_down.php` | High
+16 | File | `/admin/category.php` | High
+17 | File | `/admin/cmsWebFile/doUpload` | High
+18 | File | `/admin/config_save.php` | High
+19 | File | `/admin/delete-session.php` | High
+20 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
+21 | File | `/admin/edit-card-detail.php` | High
+22 | File | `/admin/edit-class.php` | High
+23 | File | `/admin/edit_room.php` | High
+24 | File | `/admin/edit_student.php` | High
+25 | File | `/admin/edit_user.php` | High
+26 | File | `/admin/login.php` | High
+27 | File | `/admin/manage-art-medium.php` | High
+28 | File | `/admin/manage-users.php` | High
+29 | File | `/admin/plugin.php` | High
+30 | File | `/admin/post/list` | High
+31 | File | `/admin/publishnews.php` | High
+32 | File | `/admin/subscriber-csv.php` | High
+33 | File | `/admin/tag.php` | High
+34 | File | `/admin/template.php` | High
+35 | File | `/admin/template/update` | High
+36 | File | `/admin/unreadenq.php` | High
+37 | File | `/admin/upload/upimage.html` | High
+38 | File | `/admin/user.php` | High
+39 | File | `/admin/user/list` | High
+40 | File | `/admin/userlist.php` | High
+41 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+42 | File | `/admin/view-enquiry.php` | High
+43 | File | `/adminLogin.php` | High
+44 | File | `/ajax.php?action=delete_position` | High
+45 | File | `/alphaware/summary.php` | High
+46 | File | `/api` | Low
+47 | File | `/api/monitors/import` | High
+48 | File | `/api/sys/login` | High
+49 | File | `/app/api/controller/Store.php` | High
+50 | File | `/application/index/controller/Unity.php` | High
+51 | File | `/apply.cgi` | Medium
+52 | File | `/apprain/developer/addons/update/hysontable` | High
+53 | File | `/apprain/developer/addons/update/rich_text_editor` | High
+54 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

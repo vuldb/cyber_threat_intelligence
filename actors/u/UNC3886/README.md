@@ -77,20 +77,20 @@ ID | Type | Indicator | Confidence
 15 | File | `/debug/pprof` | Medium
 16 | File | `/devinfo` | Medium
 17 | File | `/forms/doLogin` | High
-18 | File | `/goform/RP_UpgradeFWByBBS` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/importexport.php` | High
-22 | File | `/manage-courses.php?del=1` | High
-23 | File | `/manage_website.php` | High
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/panel/edit_plan.php` | High
-26 | File | `/plain` | Low
-27 | File | `/preauth` | Medium
-28 | File | `/protocol/nsasg6.0.tgz` | High
+18 | File | `/goform/formSetWizardSelectMode` | High
+19 | File | `/goform/RP_UpgradeFWByBBS` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/importexport.php` | High
+23 | File | `/manage-courses.php?del=1` | High
+24 | File | `/manage_website.php` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/panel/edit_plan.php` | High
+27 | File | `/plain` | Low
+28 | File | `/preauth` | Medium
 29 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

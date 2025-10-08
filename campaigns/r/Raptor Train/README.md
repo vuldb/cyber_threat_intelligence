@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -176,13 +176,13 @@ ID | Type | Indicator | Confidence
 100 | File | `/royal_event/userregister.php` | High
 101 | File | `/services/Card/findUser` | High
 102 | File | `/spip.php` | Medium
-103 | File | `/subnet-masks/popup.php` | High
-104 | File | `/sys/dict/loadTreeData` | High
-105 | File | `/template/edit` | High
-106 | File | `/uploads/tags.php` | High
+103 | File | `/start_apply.htm` | High
+104 | File | `/subnet-masks/popup.php` | High
+105 | File | `/sys/dict/loadTreeData` | High
+106 | File | `/template/edit` | High
 107 | ... | ... | ...
 
-There are 950 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 945 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

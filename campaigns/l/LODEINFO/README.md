@@ -84,9 +84,10 @@ ID | Type | Indicator | Confidence
 20 | File | `/goform/systemlog?cmd=set` | High
 21 | File | `/include/file.php` | High
 22 | File | `/include/helpers/upload.helper.php` | High
-23 | ... | ... | ...
+23 | File | `/index/ajax/lang` | High
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

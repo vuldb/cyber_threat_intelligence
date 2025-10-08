@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -114,9 +115,10 @@ ID | Type | Indicator | Confidence
 50 | File | `/film-rating.php` | High
 51 | File | `/forum/away.php` | High
 52 | File | `/front/roomtype-details.php` | High
-53 | ... | ... | ...
+53 | File | `/goform/fast_setting_wifi_set` | High
+54 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.cyble.com/2021/07/22/donot-apt-group-delivers-a-spyware-variant-of-chat-app/
 * https://github.com/eset/malware-ioc/tree/master/donot
 * https://github.com/faisalusuf/ThreatIntelligence/blob/main/APT%20DONOT%20TEAM/Tracking-DONOT-IOCs.csv
+* https://rewterz.com/threat-advisory/donot-apt-targets-european-ministry-with-stealthy-espionage-campaign-active-iocs
 * https://twitter.com/ShadowChasing1/status/1497125743125413892
 * https://www.cyfirma.com/outofband/donot-apt-elevates-its-tactics-by-deploying-malicious-android-apps-on-google-play-store/
 * https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/

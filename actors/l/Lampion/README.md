@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [3.23.105.171](https://vuldb.com/?ip.3.23.105.171) | ec2-3-23-105-171.us-east-2.compute.amazonaws.com | ClickFix | Medium
 6 | [3.128.34.187](https://vuldb.com/?ip.3.128.34.187) | ec2-3-128-34-187.us-east-2.compute.amazonaws.com | ClickFix | Medium
 7 | [3.133.113.215](https://vuldb.com/?ip.3.133.113.215) | ec2-3-133-113-215.us-east-2.compute.amazonaws.com | ClickFix | Medium
-8 | ... | ... | ... | ...
+8 | [3.133.160.140](https://vuldb.com/?ip.3.133.160.140) | ec2-3-133-160-140.us-east-2.compute.amazonaws.com | ClickFix | Medium
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,9 +86,10 @@ ID | Type | Indicator | Confidence
 25 | File | `/employee_viewmore.php` | High
 26 | File | `/Employer/ManageWalkin.php` | High
 27 | File | `/forget.php` | Medium
-28 | ... | ... | ...
+28 | File | `/forgot-password.php` | High
+29 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +97,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://seguranca-informatica.pt/targeting-portugal-a-new-trojan-lampion-has-spread-using-template-emails-from-the-portuguese-government-finance-tax/#.XgjOH5jhVkz
 * https://unit42.paloaltonetworks.com/lampion-malware-clickfix-lures/
+* https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/
 
 ## Literature
 

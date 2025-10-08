@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,13 +43,15 @@ ID | IP address | Hostname | Actor | Confidence
 11 | [18.133.253.38](https://vuldb.com/?ip.18.133.253.38) | ec2-18-133-253-38.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 12 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 13 | [18.171.35.225](https://vuldb.com/?ip.18.171.35.225) | ec2-18-171-35-225.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-14 | [34.27.146.70](https://vuldb.com/?ip.34.27.146.70) | 70.146.27.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-15 | [34.58.151.162](https://vuldb.com/?ip.34.58.151.162) | 162.151.58.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-16 | [34.170.235.99](https://vuldb.com/?ip.34.170.235.99) | 99.235.170.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-17 | [34.172.208.55](https://vuldb.com/?ip.34.172.208.55) | 55.208.172.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-18 | ... | ... | ... | ...
+14 | [31.192.107.185](https://vuldb.com/?ip.31.192.107.185) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+15 | [34.27.146.70](https://vuldb.com/?ip.34.27.146.70) | 70.146.27.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+16 | [34.58.151.162](https://vuldb.com/?ip.34.58.151.162) | 162.151.58.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+17 | [34.170.235.99](https://vuldb.com/?ip.34.170.235.99) | 99.235.170.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+18 | [34.172.208.55](https://vuldb.com/?ip.34.172.208.55) | 55.208.172.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+19 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+20 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 75 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,134 +77,134 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\TSplus\Clients\www.` | High
 2 | File | `/%61dmin/api/logs` | High
 3 | File | `/;/admin/role/edit` | High
-4 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-5 | File | `/aboutedit.php` | High
-6 | File | `/action/upload_file` | High
-7 | File | `/add-pig.php` | Medium
-8 | File | `/add-students.php` | High
-9 | File | `/addclient1.php` | High
-10 | File | `/addpayment.php` | High
-11 | File | `/add_user.php` | High
-12 | File | `/adicionar-cliente.php` | High
-13 | File | `/admin#permissions` | High
-14 | File | `/admin#themes` | High
-15 | File | `/admin-api/bpm/model/deploy` | High
-16 | File | `/admin-api/infra/file/upload` | High
-17 | File | `/admin/` | Low
-18 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-19 | File | `/admin/?page=system_info/contact_info` | High
-20 | File | `/admin/?page=user/manage_user&id=3` | High
-21 | File | `/admin/aboutus.php` | High
-22 | File | `/Admin/add-admin.php` | High
-23 | File | `/admin/add-customer.php` | High
-24 | File | `/admin/admin-profile.php` | High
-25 | File | `/Admin/adminlogin.php` | High
-26 | File | `/admin/adminScoreUrl` | High
-27 | File | `/admin/admin_login.php` | High
-28 | File | `/admin/admin_members.php?ac=search` | High
-29 | File | `/admin/ad_list.php?action=pass` | High
-30 | File | `/admin/ajax.php?action=delete_user` | High
-31 | File | `/Admin/akun_edit.php` | High
-32 | File | `/admin/all_users.php` | High
-33 | File | `/admin/app/profile_crud.php` | High
-34 | File | `/admin/app/role_crud.php` | High
-35 | File | `/admin/app/soulwinning_crud.php` | High
-36 | File | `/admin/approve.php` | High
-37 | File | `/admin/assets/` | High
-38 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-39 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
-40 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
-41 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-42 | File | `/admin/attendance_action.php` | High
-43 | File | `/admin/blood/update/B+.php` | High
-44 | File | `/admin/booking-details.php` | High
-45 | File | `/admin/campsdetails.php` | High
-46 | File | `/admin/categories/manage_category.php` | High
-47 | File | `/admin/categories/save` | High
-48 | File | `/admin/change-image.php` | High
-49 | File | `/admin/clients/` | High
-50 | File | `/admin/cmsTagType/save` | High
-51 | File | `/admin/config/uploadicon.php` | High
-52 | File | `/Admin/consulting_detail.php` | High
-53 | File | `/admin/content/book` | High
-54 | File | `/admin/content/editor` | High
-55 | File | `/admin/delete_bloodGroup.php` | High
-56 | File | `/admin/del_feedback.php` | High
-57 | File | `/admin/dialog/select_images_post.php` | High
-58 | File | `/admin/edit-brand.php` | High
-59 | File | `/admin/edit-user.php` | High
-60 | File | `/Admin/EditCategory` | High
-61 | File | `/admin/edit_customer.php` | High
-62 | File | `/admin/edit_fuel.php` | High
-63 | File | `/admin/edit_manufacturer.php` | High
-64 | File | `/admin/edit_state.php` | High
-65 | File | `/admin/emp-profile-avatar.php` | High
-66 | File | `/admin/fetch_product_details.php` | High
-67 | File | `/admin/File/fileUpload` | High
-68 | File | `/admin/File/pictureUpload` | High
-69 | File | `/admin/file_manager/export` | High
-70 | File | `/admin/forgot-password.php` | High
-71 | File | `/admin/forms/add/step2.php?submission_type=direct` | High
-72 | File | `/admin/forms/option_lists/edit.php` | High
-73 | File | `/admin/index.php` | High
-74 | File | `/admin/index2.html` | High
-75 | File | `/admin/login.php` | High
-76 | File | `/admin/maintenance/manage_department.php` | High
-77 | File | `/admin/model/addOrUpdate` | High
-78 | File | `/admin/mod_room/controller.php?action=add` | High
-79 | File | `/admin/network/ajax_getChannelList` | High
-80 | File | `/admin/network/diag_iperf` | High
-81 | File | `/admin/network/diag_pinginterface` | High
-82 | File | `/admin/network/diag_traceroute` | High
-83 | File | `/admin/network/wifi_schedule` | High
-84 | File | `/admin/newsletter.php` | High
-85 | File | `/admin/normal-search.php` | High
-86 | File | `/admin/overtime_add.php` | High
-87 | File | `/admin/print1.php` | High
-88 | File | `/admin/search-maid.php` | High
-89 | File | `/admin/search-property.php` | High
-90 | File | `/admin/search.php` | High
-91 | File | `/admin/settings/index.php?page=accounts` | High
-92 | File | `/admin/state.php` | High
-93 | File | `/admin/sys/admin.html` | High
-94 | File | `/admin/system.html` | High
-95 | File | `/admin/tag.php` | High
-96 | File | `/admin/update_room.php` | High
-97 | File | `/admin/update_user.php` | High
-98 | File | `/admin/upload/upimage.html` | High
-99 | File | `/admin/user-search.php` | High
-100 | File | `/admin/view-user-queries.php` | High
-101 | File | `/admin/View_user.php` | High
-102 | File | `/adplanet/PlanetUser` | High
-103 | File | `/ajax.php?action=load_answered` | High
-104 | File | `/ajax.php?action=login` | High
-105 | File | `/ajax.php?action=read_msg` | High
-106 | File | `/ajax.php?action=save_category` | High
-107 | File | `/ajax.php?action=save_establishment` | High
-108 | File | `/ajax/chpwd.php` | High
-109 | File | `/ajax/get_patient_history.php` | High
-110 | File | `/animalsupdate.php` | High
-111 | File | `/api/admin/question/edit` | High
-112 | File | `/api/deploy/upload` | High
-113 | File | `/api/dept/build` | High
-114 | File | `/api/file/downloadUrl` | High
-115 | File | `/Api/FileUploadApi.ashx` | High
-116 | File | `/api/login/auth` | High
-117 | File | `/api/system/other` | High
-118 | File | `/api/test/download` | High
-119 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-120 | File | `/api/upload` | Medium
-121 | File | `/api/upload/image` | High
-122 | File | `/api/wizard/getNetworkConf` | High
-123 | File | `/api/wizard/getNetworkStatus` | High
-124 | File | `/api/wizard/getssidname` | High
-125 | File | `/api/wizard/getWifiNeighbour` | High
-126 | File | `/app/action/add_staff.php` | High
-127 | File | `/app/admin/controller/file/File.php` | High
-128 | File | `/app/admin/view/web_user.html` | High
+4 | File | `/?page=tracks` | High
+5 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+6 | File | `/aboutedit.php` | High
+7 | File | `/action/upload_file` | High
+8 | File | `/add-pig.php` | Medium
+9 | File | `/add-students.php` | High
+10 | File | `/addclient1.php` | High
+11 | File | `/addpayment.php` | High
+12 | File | `/add_user.php` | High
+13 | File | `/adicionar-cliente.php` | High
+14 | File | `/admin#permissions` | High
+15 | File | `/admin#themes` | High
+16 | File | `/admin-api/bpm/model/deploy` | High
+17 | File | `/admin-api/infra/file/upload` | High
+18 | File | `/admin/` | Low
+19 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+20 | File | `/admin/?page=system_info/contact_info` | High
+21 | File | `/admin/?page=user/manage_user&id=3` | High
+22 | File | `/admin/aboutus.php` | High
+23 | File | `/Admin/add-admin.php` | High
+24 | File | `/admin/add-customer.php` | High
+25 | File | `/admin/admin-profile.php` | High
+26 | File | `/Admin/adminlogin.php` | High
+27 | File | `/admin/adminScoreUrl` | High
+28 | File | `/admin/admin_login.php` | High
+29 | File | `/admin/admin_members.php?ac=search` | High
+30 | File | `/admin/ad_list.php?action=pass` | High
+31 | File | `/admin/ajax.php?action=delete_user` | High
+32 | File | `/Admin/akun_edit.php` | High
+33 | File | `/admin/all_users.php` | High
+34 | File | `/admin/app/profile_crud.php` | High
+35 | File | `/admin/app/role_crud.php` | High
+36 | File | `/admin/app/soulwinning_crud.php` | High
+37 | File | `/admin/approve.php` | High
+38 | File | `/admin/assets/` | High
+39 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+40 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+41 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
+42 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+43 | File | `/admin/attendance_action.php` | High
+44 | File | `/admin/blood/update/B+.php` | High
+45 | File | `/admin/booking-details.php` | High
+46 | File | `/admin/campsdetails.php` | High
+47 | File | `/admin/categories/manage_category.php` | High
+48 | File | `/admin/categories/save` | High
+49 | File | `/admin/change-image.php` | High
+50 | File | `/admin/clients/` | High
+51 | File | `/admin/cmsTagType/save` | High
+52 | File | `/admin/config/uploadicon.php` | High
+53 | File | `/Admin/consulting_detail.php` | High
+54 | File | `/admin/content/book` | High
+55 | File | `/admin/content/editor` | High
+56 | File | `/admin/delete_bloodGroup.php` | High
+57 | File | `/admin/del_feedback.php` | High
+58 | File | `/admin/dialog/select_images_post.php` | High
+59 | File | `/admin/edit-brand.php` | High
+60 | File | `/admin/edit-user.php` | High
+61 | File | `/Admin/EditCategory` | High
+62 | File | `/admin/edit_customer.php` | High
+63 | File | `/admin/edit_fuel.php` | High
+64 | File | `/admin/edit_manufacturer.php` | High
+65 | File | `/admin/edit_state.php` | High
+66 | File | `/admin/emp-profile-avatar.php` | High
+67 | File | `/admin/fetch_product_details.php` | High
+68 | File | `/admin/File/fileUpload` | High
+69 | File | `/admin/File/pictureUpload` | High
+70 | File | `/admin/file_manager/export` | High
+71 | File | `/admin/forgot-password.php` | High
+72 | File | `/admin/forms/add/step2.php?submission_type=direct` | High
+73 | File | `/admin/forms/option_lists/edit.php` | High
+74 | File | `/admin/index.php` | High
+75 | File | `/admin/index2.html` | High
+76 | File | `/admin/login.php` | High
+77 | File | `/admin/maintenance/manage_department.php` | High
+78 | File | `/admin/model/addOrUpdate` | High
+79 | File | `/admin/mod_room/controller.php?action=add` | High
+80 | File | `/admin/network/ajax_getChannelList` | High
+81 | File | `/admin/network/diag_iperf` | High
+82 | File | `/admin/network/diag_pinginterface` | High
+83 | File | `/admin/network/diag_traceroute` | High
+84 | File | `/admin/network/wifi_schedule` | High
+85 | File | `/admin/newsletter.php` | High
+86 | File | `/admin/normal-search.php` | High
+87 | File | `/admin/overtime_add.php` | High
+88 | File | `/admin/print1.php` | High
+89 | File | `/admin/search-maid.php` | High
+90 | File | `/admin/search-property.php` | High
+91 | File | `/admin/search.php` | High
+92 | File | `/admin/settings/index.php?page=accounts` | High
+93 | File | `/admin/state.php` | High
+94 | File | `/admin/sys/admin.html` | High
+95 | File | `/admin/system.html` | High
+96 | File | `/admin/tag.php` | High
+97 | File | `/admin/update_room.php` | High
+98 | File | `/admin/update_s2.php` | High
+99 | File | `/admin/update_user.php` | High
+100 | File | `/admin/upload/upimage.html` | High
+101 | File | `/admin/user-search.php` | High
+102 | File | `/admin/view-user-queries.php` | High
+103 | File | `/admin/View_user.php` | High
+104 | File | `/adplanet/PlanetUser` | High
+105 | File | `/ajax.php?action=load_answered` | High
+106 | File | `/ajax.php?action=login` | High
+107 | File | `/ajax.php?action=read_msg` | High
+108 | File | `/ajax.php?action=save_category` | High
+109 | File | `/ajax.php?action=save_establishment` | High
+110 | File | `/ajax/chpwd.php` | High
+111 | File | `/ajax/get_patient_history.php` | High
+112 | File | `/animalsupdate.php` | High
+113 | File | `/api/admin/question/edit` | High
+114 | File | `/api/deploy/upload` | High
+115 | File | `/api/dept/build` | High
+116 | File | `/api/file/downloadUrl` | High
+117 | File | `/Api/FileUploadApi.ashx` | High
+118 | File | `/api/login/auth` | High
+119 | File | `/api/system/other` | High
+120 | File | `/api/test/download` | High
+121 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+122 | File | `/api/upload` | Medium
+123 | File | `/api/upload/image` | High
+124 | File | `/api/wizard/getNetworkConf` | High
+125 | File | `/api/wizard/getNetworkStatus` | High
+126 | File | `/api/wizard/getssidname` | High
+127 | File | `/api/wizard/getWifiNeighbour` | High
+128 | File | `/app/action/add_staff.php` | High
 129 | ... | ... | ...
 
-There are 1149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,6 +221,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/18.133.253.38
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/18.171.35.225
+* https://search.censys.io/hosts/31.192.107.185
 * https://search.censys.io/hosts/34.27.146.70
 * https://search.censys.io/hosts/34.58.151.162
 * https://search.censys.io/hosts/34.170.235.99
@@ -236,6 +239,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/51.250.38.28
 * https://search.censys.io/hosts/52.230.83.254
 * https://search.censys.io/hosts/54.79.123.238
+* https://search.censys.io/hosts/64.226.72.125
 * https://search.censys.io/hosts/65.20.68.219
 * https://search.censys.io/hosts/70.77.124.96
 * https://search.censys.io/hosts/77.83.207.24
@@ -244,9 +248,11 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/88.210.9.139
 * https://search.censys.io/hosts/91.240.118.204
 * https://search.censys.io/hosts/94.23.228.43
+* https://search.censys.io/hosts/104.167.16.56
 * https://search.censys.io/hosts/104.248.161.33
 * https://search.censys.io/hosts/119.42.148.190
 * https://search.censys.io/hosts/139.84.149.193
+* https://search.censys.io/hosts/139.84.153.47
 * https://search.censys.io/hosts/139.84.172.20
 * https://search.censys.io/hosts/140.99.223.53
 * https://search.censys.io/hosts/157.245.128.27
@@ -266,9 +272,11 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/185.147.124.108
 * https://search.censys.io/hosts/185.167.63.27
 * https://search.censys.io/hosts/185.234.216.64
+* https://search.censys.io/hosts/185.235.178.14
 * https://search.censys.io/hosts/188.245.164.247
 * https://search.censys.io/hosts/192.46.215.160
 * https://search.censys.io/hosts/193.22.152.104
+* https://search.censys.io/hosts/195.66.213.157
 * https://search.censys.io/hosts/213.219.37.158
 * https://search.censys.io/hosts/217.15.167.175
 * https://search.censys.io/hosts/217.69.3.25
@@ -281,6 +289,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.lac.co.jp/lacwatch/people/20200424_002177.html
 * https://www.shodan.io/host/13.49.46.253#443
 * https://www.shodan.io/host/95.182.122.252#80
+* https://www.shodan.io/host/157.185.146.97#13333
 * https://x.com/drb_ra/status/1735296172758069289?s=20
 
 ## Literature

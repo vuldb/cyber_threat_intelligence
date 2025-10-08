@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 29 more country items available. Please use our online service to access the data.
@@ -83,36 +83,37 @@ ID | Type | Indicator | Confidence
 23 | File | `/application/websocket/controller/Setting.php` | High
 24 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
 25 | File | `/blog` | Low
-26 | File | `/cgi-bin/download_config.cgi` | High
-27 | File | `/cgi-bin/go` | Medium
-28 | File | `/cgi-bin/luci/api/auth` | High
-29 | File | `/cgi-bin/tosei_kikai.php` | High
-30 | File | `/common/logViewer/logViewer.jsf` | High
-31 | File | `/config/config.json` | High
-32 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/dist/index.js` | High
-35 | File | `/download` | Medium
-36 | File | `/Employer/EditProfile.php` | High
-37 | File | `/forum/away.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/download_config.cgi` | High
+28 | File | `/cgi-bin/go` | Medium
+29 | File | `/cgi-bin/luci/api/auth` | High
+30 | File | `/cgi-bin/tosei_kikai.php` | High
+31 | File | `/common/logViewer/logViewer.jsf` | High
+32 | File | `/config/config.json` | High
+33 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+34 | File | `/devinfo` | Medium
+35 | File | `/dist/index.js` | High
+36 | File | `/download` | Medium
+37 | File | `/Employer/EditProfile.php` | High
 38 | File | `/goform/apPortalPhoneAuth` | High
 39 | File | `/goform/aspForm` | High
-40 | File | `/goform/set_LimitClient_cfg` | High
-41 | File | `/HNAP1` | Low
-42 | File | `/homeaction.php` | High
-43 | File | `/image-compressor/compressor.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-46 | File | `/lam/tmp/` | Medium
-47 | File | `/login` | Low
-48 | File | `/modules/sys/form_personalization/json_fp.php` | High
-49 | File | `/ndmComponents.js` | High
-50 | File | `/password-recovery.php` | High
-51 | File | `/php-opos/index.php` | High
-52 | File | `/portal/search.htm` | High
-53 | ... | ... | ...
+40 | File | `/goform/SetRebootTimer` | High
+41 | File | `/goform/set_LimitClient_cfg` | High
+42 | File | `/HNAP1` | Low
+43 | File | `/homeaction.php` | High
+44 | File | `/image-compressor/compressor.php` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+47 | File | `/lam/tmp/` | Medium
+48 | File | `/login` | Low
+49 | File | `/modules/sys/form_personalization/json_fp.php` | High
+50 | File | `/ndmComponents.js` | High
+51 | File | `/password-recovery.php` | High
+52 | File | `/php-opos/index.php` | High
+53 | File | `/portal/search.htm` | High
+54 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

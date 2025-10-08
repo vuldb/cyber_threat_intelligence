@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -78,42 +78,42 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/Cdn/GetFile` | High
 19 | File | `/api/DocumentTemplate/{GUID}` | High
 20 | File | `/api/students/me/messages/` | High
-21 | File | `/backend/register.php` | High
-22 | File | `/bcms/admin/?page=sales/view_details` | High
-23 | File | `/bitrix/admin/ldap_server_edit.php` | High
-24 | File | `/boat/login.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/classes/profile.class.php` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/clinic/disease_symptoms_view.php` | High
-29 | File | `/config-manager/save` | High
-30 | File | `/dashboard/menu-list.php` | High
-31 | File | `/dashboard/table-list.php` | High
-32 | File | `/directRouter.rfc` | High
-33 | File | `/doctor/view-appointment-detail.php` | High
-34 | File | `/downloadFile.php` | High
-35 | File | `/ecommerce/support_ticket` | High
-36 | File | `/edit-client-details.php` | High
-37 | File | `/env` | Low
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/home/resume/index` | High
-41 | File | `/include/file.php` | High
-42 | File | `/index.php` | Medium
-43 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-44 | File | `/index/ajax/lang` | High
-45 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-46 | File | `/librarian/bookdetails.php` | High
-47 | File | `/load.php` | Medium
-48 | File | `/login.php` | Medium
-49 | File | `/logout.php` | Medium
-50 | File | `/member.php?action=chgpwdsubmit` | High
-51 | File | `/multi-vendor-shopping-script/product-list.php` | High
-52 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-53 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+21 | File | `/auth/userkey/logout.php` | High
+22 | File | `/backend/register.php` | High
+23 | File | `/bcms/admin/?page=sales/view_details` | High
+24 | File | `/bin/httpd` | Medium
+25 | File | `/bitrix/admin/ldap_server_edit.php` | High
+26 | File | `/boat/login.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/classes/profile.class.php` | High
+29 | File | `/classes/Users.php?f=save` | High
+30 | File | `/clinic/disease_symptoms_view.php` | High
+31 | File | `/config-manager/save` | High
+32 | File | `/dashboard/menu-list.php` | High
+33 | File | `/dashboard/table-list.php` | High
+34 | File | `/directRouter.rfc` | High
+35 | File | `/doctor/view-appointment-detail.php` | High
+36 | File | `/downloadFile.php` | High
+37 | File | `/ecommerce/support_ticket` | High
+38 | File | `/edit-client-details.php` | High
+39 | File | `/env` | Low
+40 | File | `/forum/away.php` | High
+41 | File | `/goform/aspForm` | High
+42 | File | `/home/resume/index` | High
+43 | File | `/include/file.php` | High
+44 | File | `/index.php` | Medium
+45 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+46 | File | `/index/ajax/lang` | High
+47 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+48 | File | `/librarian/bookdetails.php` | High
+49 | File | `/load.php` | Medium
+50 | File | `/login.php` | Medium
+51 | File | `/logout.php` | Medium
+52 | File | `/member.php?action=chgpwdsubmit` | High
+53 | File | `/multi-vendor-shopping-script/product-list.php` | High
 54 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

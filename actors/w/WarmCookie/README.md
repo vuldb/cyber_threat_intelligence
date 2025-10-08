@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,13 +26,15 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.11.59.230](https://vuldb.com/?ip.45.11.59.230) | mail1.yhszxddb.com | - | High
 4 | [45.11.59.231](https://vuldb.com/?ip.45.11.59.231) | mail-bin-f985.stepupmarketting.com | - | High
 5 | [45.11.59.247](https://vuldb.com/?ip.45.11.59.247) | dedicated.sollutium.com | - | High
-6 | [45.155.249.102](https://vuldb.com/?ip.45.155.249.102) | - | - | High
-7 | [62.60.238.115](https://vuldb.com/?ip.62.60.238.115) | jacketkangaroo.aeza.network | - | High
-8 | [65.38.120.80](https://vuldb.com/?ip.65.38.120.80) | - | - | High
-9 | [72.5.42.224](https://vuldb.com/?ip.72.5.42.224) | - | - | High
-10 | ... | ... | ... | ...
+6 | [45.153.126.129](https://vuldb.com/?ip.45.153.126.129) | 129.126.153.45.in-addr.arpa | - | High
+7 | [45.155.249.102](https://vuldb.com/?ip.45.155.249.102) | - | - | High
+8 | [62.60.238.115](https://vuldb.com/?ip.62.60.238.115) | jacketkangaroo.aeza.network | - | High
+9 | [65.38.120.80](https://vuldb.com/?ip.65.38.120.80) | - | - | High
+10 | [72.5.42.224](https://vuldb.com/?ip.72.5.42.224) | - | - | High
+11 | [72.5.43.29](https://vuldb.com/?ip.72.5.43.29) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,20 +72,23 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/wlogin.cgi` | High
 14 | File | `/client-data/<client_id>/collections/##/usermgmt.xml` | High
 15 | File | `/common/info.cgi` | High
-16 | File | `/dataSet/testTransform;swagger-ui` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dental_form.php` | High
-19 | File | `/edit-computer-detail.php` | High
-20 | File | `/expedit.php` | Medium
-21 | File | `/export` | Low
-22 | File | `/goform/SetSpeedWan` | High
-23 | File | `/hedwig.cgi` | Medium
-24 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-25 | File | `/interceptor/OutgoingChainInterceptor.java` | High
-26 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-27 | ... | ... | ...
+16 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
+17 | File | `/dataSet/testTransform;swagger-ui` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dental_form.php` | High
+20 | File | `/edit-computer-detail.php` | High
+21 | File | `/expedit.php` | Medium
+22 | File | `/export` | Low
+23 | File | `/goform/SetSpeedWan` | High
+24 | File | `/hedwig.cgi` | Medium
+25 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+26 | File | `/interceptor/OutgoingChainInterceptor.java` | High
+27 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+28 | File | `/jurusan/data` | High
+29 | File | `/manager/files` | High
+30 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

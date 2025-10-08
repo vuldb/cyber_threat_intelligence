@@ -132,7 +132,7 @@ ID | Type | Indicator | Confidence
 81 | File | `/cas/logout` | Medium
 82 | ... | ... | ...
 
-There are 719 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 721 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

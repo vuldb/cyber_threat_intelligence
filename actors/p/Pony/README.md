@@ -35,7 +35,7 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [69.194.196.39](https://vuldb.com/?ip.69.194.196.39) | visit.keznews.com | - | High
 13 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 58 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -95,40 +95,40 @@ ID | Type | Indicator | Confidence
 26 | File | `/data/inc/images.php` | High
 27 | File | `/data/syslog.filter.json` | High
 28 | File | `/data/wps.setup.json` | High
-29 | File | `/docs/captcha_(number).jpeg` | High
-30 | File | `/etc/config/rpcd` | High
-31 | File | `/etc/hosts` | Medium
-32 | File | `/export` | Low
-33 | File | `/forum/` | Low
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/net\_Web\_get_value` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php/weblinks-categories` | High
-38 | File | `/j_security_check` | High
-39 | File | `/login.html` | Medium
-40 | File | `/menu.html` | Medium
-41 | File | `/mics/j_spring_security_check` | High
-42 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
-43 | File | `/mnt/skyeye/mode_switch.sh` | High
-44 | File | `/mybb_1806/Upload/admin/index.php` | High
-45 | File | `/oauth/token` | Medium
-46 | File | `/plain` | Low
-47 | File | `/pms/admin/visits/view_visit.php` | High
-48 | File | `/public/login.htm` | High
-49 | File | `/romfile.cfg` | Medium
-50 | File | `/scp/directory.php` | High
-51 | File | `/search.php` | Medium
-52 | File | `/setSystemAdmin` | High
-53 | File | `/smsa/add_class_submit.php` | High
-54 | File | `/spip.php` | Medium
-55 | File | `/system/WCore/WHelper.php` | High
-56 | File | `/uncpath/` | Medium
-57 | File | `/upload` | Low
-58 | File | `/uploads/tags.php` | High
-59 | File | `/var/www/xms/application/config/config.php` | High
+29 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+30 | File | `/docs/captcha_(number).jpeg` | High
+31 | File | `/etc/config/rpcd` | High
+32 | File | `/etc/hosts` | Medium
+33 | File | `/export` | Low
+34 | File | `/forum/` | Low
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/net\_Web\_get_value` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php/weblinks-categories` | High
+39 | File | `/j_security_check` | High
+40 | File | `/login.html` | Medium
+41 | File | `/menu.html` | Medium
+42 | File | `/mics/j_spring_security_check` | High
+43 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
+44 | File | `/mnt/skyeye/mode_switch.sh` | High
+45 | File | `/mybb_1806/Upload/admin/index.php` | High
+46 | File | `/oauth/token` | Medium
+47 | File | `/plain` | Low
+48 | File | `/pms/admin/visits/view_visit.php` | High
+49 | File | `/public/login.htm` | High
+50 | File | `/romfile.cfg` | Medium
+51 | File | `/scp/directory.php` | High
+52 | File | `/search.php` | Medium
+53 | File | `/setSystemAdmin` | High
+54 | File | `/smsa/add_class_submit.php` | High
+55 | File | `/spip.php` | Medium
+56 | File | `/system/WCore/WHelper.php` | High
+57 | File | `/uncpath/` | Medium
+58 | File | `/upload` | Low
+59 | File | `/uploads/tags.php` | High
 60 | ... | ... | ...
 
-There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

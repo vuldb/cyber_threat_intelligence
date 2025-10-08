@@ -96,13 +96,13 @@ ID | Type | Indicator | Confidence
 38 | File | `/secure/QueryComponent!Default.jspa` | High
 39 | File | `/services/details.asp` | High
 40 | File | `/ServletAPI/accounts/login` | High
-41 | File | `/student/bookdetails.php` | High
-42 | File | `/sys/replicate/check` | High
-43 | File | `/templates/header.inc.php` | High
-44 | File | `/uncpath/` | Medium
+41 | File | `/spip.php` | Medium
+42 | File | `/student/bookdetails.php` | High
+43 | File | `/sys/replicate/check` | High
+44 | File | `/templates/header.inc.php` | High
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

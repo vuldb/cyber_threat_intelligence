@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CA](https://vuldb.com/?country.ca)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -522,14 +522,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -538,30 +538,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/betweendates-detailsreports.php` | High
-5 | File | `/admin/create_product.php` | High
-6 | File | `/admin/network/ajax_getChannelList` | High
-7 | File | `/admin/products/view_product.php` | High
-8 | File | `/admin/twitter.php` | High
-9 | File | `/api/front/search/books` | High
-10 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-11 | File | `/api/v1/settings` | High
-12 | File | `/api/v1/toolbox/device/update/swap` | High
-13 | File | `/api/wizard/networkSetup` | High
-14 | File | `/app/zentao/module/repo/model.php` | High
-15 | File | `/auth_files/photo/` | High
-16 | File | `/b2b-supermarket/catalog/all-products` | High
-17 | File | `/bin/httpd` | Medium
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-20 | File | `/cgi-bin/system_mgr.cgi` | High
-21 | File | `/cgi-bin/touchlist_sync.cgi` | High
-22 | File | `/com/esafenet/servlet/policy/HookService.java` | High
-23 | ... | ... | ...
+2 | File | `/action.php` | Medium
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/betweendates-detailsreports.php` | High
+8 | File | `/admin/create_product.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/new-content` | High
+12 | File | `/admin/products/view_product.php` | High
+13 | File | `/admin/voters_add.php` | High
+14 | File | `/admin/voters_delete.php` | High
+15 | File | `/admin/voters_row.php` | High
+16 | File | `/api/front/search/books` | High
+17 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+18 | File | `/api/v1/settings` | High
+19 | File | `/api/wizard/networkSetup` | High
+20 | File | `/app/zentao/module/repo/model.php` | High
+21 | File | `/authentication/logout.php` | High
+22 | File | `/auth_files/photo/` | High
+23 | File | `/bin/httpd` | Medium
+24 | File | `/boafrm/formMultiAP` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/com/esafenet/servlet/service/processsign/AutoSignService.java` | High
+27 | File | `/comm/upload` | Medium
+28 | File | `/dashboard/admin/submit_plan_new.php` | High
+29 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+30 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

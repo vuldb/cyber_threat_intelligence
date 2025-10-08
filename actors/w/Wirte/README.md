@@ -66,27 +66,28 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/view-appointment.php` | High
 7 | File | `/api/get-browser-snapshot` | High
 8 | File | `/app/zentao/module/repo/model.php` | High
-9 | File | `/churchcrm/WhyCameEditor.php` | High
-10 | File | `/cobbler-api` | Medium
-11 | File | `/common/dict/list` | High
-12 | File | `/dental_form.php` | High
-13 | File | `/edit_book.php` | High
-14 | File | `/example/editor` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/hcms/admin/index.php/language/ajax` | High
-17 | File | `/index.php?page=search/rentals` | High
-18 | File | `/list.php` | Medium
-19 | File | `/login/index.php` | High
-20 | File | `/members/view_member.php` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/oauth/idp/.well-known/openid-configuration` | High
-23 | File | `/php/ping.php` | High
-24 | File | `/protocol/iscgwtunnel/deleteiscgwrouteconf.php` | High
-25 | File | `/scripts/unlock_tasks.php` | High
-26 | File | `/sdTodoDetail.jsp` | High
-27 | ... | ... | ...
+9 | File | `/authenticate.php` | High
+10 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
+11 | File | `/churchcrm/WhyCameEditor.php` | High
+12 | File | `/cobbler-api` | Medium
+13 | File | `/common/dict/list` | High
+14 | File | `/dental_form.php` | High
+15 | File | `/edit_book.php` | High
+16 | File | `/example/editor` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/goform/PPTPDClient` | High
+19 | File | `/hcms/admin/index.php/language/ajax` | High
+20 | File | `/index.php?page=search/rentals` | High
+21 | File | `/list.php` | Medium
+22 | File | `/login/index.php` | High
+23 | File | `/members/view_member.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/oauth/idp/.well-known/openid-configuration` | High
+26 | File | `/pages/purchase_delete.php` | High
+27 | File | `/php/ping.php` | High
+28 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

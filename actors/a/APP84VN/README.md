@@ -44,12 +44,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/User/index` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/mgmt/tm/util/bash` | High
-5 | ... | ... | ...
+2 | File | `/admin/search-appointment.php` | High
+3 | File | `/anony/mjpg.cgi` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/don.php` | Medium
+6 | ... | ... | ...
 
-There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

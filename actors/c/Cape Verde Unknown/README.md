@@ -43,14 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,47 +58,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/abs.php` | Medium
-2 | File | `/admin/` | Low
-3 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-4 | File | `/admin/addroom.php` | High
-5 | File | `/admin/app/profile_crud.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/sys/role/list` | High
-9 | File | `/api/set-password` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/batchGetBlockAttrs` | High
-12 | File | `/bin/boa` | Medium
-13 | File | `/boafrm/formMapDelDevice` | High
-14 | File | `/booking/show_bookings/` | High
-15 | File | `/bsms_ci/index.php/user/edit_user/` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/gui.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/check` | Low
-20 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
-21 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
-22 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-23 | File | `/ConfigFile.ini` | High
-24 | File | `/control/activate_case.php` | High
-25 | File | `/cov/triggerUnitCover` | High
-26 | File | `/data/system/users/0/settings_secure.xml` | High
-27 | File | `/dev/shm` | Medium
-28 | File | `/devinfo` | Medium
-29 | File | `/formLoginAuth.htm` | High
-30 | File | `/fornecedores.php` | High
-31 | File | `/goform/DhcpSetSe` | High
-32 | File | `/goform/formSetDDNS` | High
-33 | File | `/goform/login_process` | High
-34 | File | `/goform/saveParentControlInfo` | High
-35 | File | `/graphReportController.do` | High
-36 | File | `/gxadmin/index.php?page=themes&view=options` | High
-37 | File | `/h/autoSaveDraft` | High
-38 | File | `/home/admin/.ash_history` | High
-39 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/abs.php` | Medium
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+5 | File | `/admin/addroom.php` | High
+6 | File | `/admin/app/profile_crud.php` | High
+7 | File | `/admin/apply.php` | High
+8 | File | `/admin/candidates_add.php` | High
+9 | File | `/admin/forgot-password.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/sys/role/list` | High
+13 | File | `/admin/user-search.php` | High
+14 | File | `/admin/visitor-details.php` | High
+15 | File | `/adms/admin/?page=user/manage_user` | High
+16 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+17 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+18 | File | `/adms/classes/Users.php` | High
+19 | File | `/api/set-password` | High
+20 | File | `/api/sys/set_passwd` | High
+21 | File | `/backup.pl` | Medium
+22 | File | `/batchGetBlockAttrs` | High
+23 | File | `/bin/httpd` | Medium
+24 | File | `/boafrm/formMapDelDevice` | High
+25 | File | `/booking/show_bookings/` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/gui.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/check` | Low
+31 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
+32 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
+33 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+34 | File | `/ConfigFile.ini` | High
+35 | File | `/control/activate_case.php` | High
+36 | File | `/cov/triggerUnitCover` | High
+37 | File | `/data/config.ftp.php` | High
+38 | File | `/data/system/users/0/settings_secure.xml` | High
+39 | File | `/devinfo` | Medium
+40 | File | `/ecshop/admin/template.php` | High
+41 | File | `/expcatedit.php` | High
+42 | File | `/formLoginAuth.htm` | High
+43 | File | `/fornecedores.php` | High
+44 | File | `/goform/DhcpSetSe` | High
+45 | File | `/goform/formSetDDNS` | High
+46 | File | `/goform/login_process` | High
+47 | File | `/goform/PPTPUserSetting` | High
+48 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `api/sms_check.php` | High
-2 | File | `avahi-core/socket.c` | High
-3 | File | `chmextract.c` | Medium
+1 | File | `/index.php` | Medium
+2 | File | `api/sms_check.php` | High
+3 | File | `avahi-core/socket.c` | High
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

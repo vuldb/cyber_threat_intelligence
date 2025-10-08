@@ -43,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin.php` | Medium
-2 | File | `api_poller.php` | High
-3 | Argument | `Business Name/Tax Code/First Name/Address/Town/Phone/Mobile/Place of Birth/Web Site/VAT Number/Last Name/Fax/Email/Skype` | High
+1 | File | `/intranet/pesquisa_pessoa_lst.php` | High
+2 | File | `admin.php` | Medium
+3 | File | `api_poller.php` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

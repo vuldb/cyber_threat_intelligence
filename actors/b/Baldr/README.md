@@ -72,11 +72,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/application/index/controller/Screen.php` | High
 5 | File | `/apply.cgi` | Medium
 6 | File | `/debug/pprof` | Medium
-7 | File | `/export` | Low
-8 | File | `/goform/aspForm` | High
-9 | ... | ... | ...
+7 | File | `/goform/aspForm` | High
+8 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

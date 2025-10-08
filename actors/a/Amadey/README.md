@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Amadey:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,62 +44,70 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [5.75.139.35](https://vuldb.com/?ip.5.75.139.35) | static.35.139.75.5.clients.your-server.de | - | High
 22 | [5.182.4.47](https://vuldb.com/?ip.5.182.4.47) | - | - | High
 23 | [5.188.118.7](https://vuldb.com/?ip.5.188.118.7) | - | - | High
-24 | [8.208.15.65](https://vuldb.com/?ip.8.208.15.65) | - | - | High
-25 | [23.106.215.95](https://vuldb.com/?ip.23.106.215.95) | - | - | High
-26 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
-27 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
-28 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
-29 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
-30 | [31.41.244.15](https://vuldb.com/?ip.31.41.244.15) | - | - | High
-31 | [31.41.244.17](https://vuldb.com/?ip.31.41.244.17) | - | - | High
-32 | [31.41.244.60](https://vuldb.com/?ip.31.41.244.60) | - | - | High
-33 | [31.41.244.146](https://vuldb.com/?ip.31.41.244.146) | - | - | High
-34 | [31.41.244.158](https://vuldb.com/?ip.31.41.244.158) | - | - | High
-35 | [31.41.244.167](https://vuldb.com/?ip.31.41.244.167) | - | - | High
-36 | [31.41.244.200](https://vuldb.com/?ip.31.41.244.200) | - | - | High
-37 | [31.41.244.237](https://vuldb.com/?ip.31.41.244.237) | - | - | High
-38 | [31.43.185.30](https://vuldb.com/?ip.31.43.185.30) | - | - | High
-39 | [37.220.87.85](https://vuldb.com/?ip.37.220.87.85) | ipn-37-220-87-85.artem-catv.ru | - | High
-40 | [45.9.74.5](https://vuldb.com/?ip.45.9.74.5) | - | - | High
-41 | [45.9.74.70](https://vuldb.com/?ip.45.9.74.70) | - | - | High
-42 | [45.9.74.80](https://vuldb.com/?ip.45.9.74.80) | - | - | High
-43 | [45.9.74.141](https://vuldb.com/?ip.45.9.74.141) | - | - | High
-44 | [45.9.74.164](https://vuldb.com/?ip.45.9.74.164) | - | - | High
-45 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
-46 | [45.9.74.182](https://vuldb.com/?ip.45.9.74.182) | - | - | High
-47 | [45.15.156.216](https://vuldb.com/?ip.45.15.156.216) | - | - | High
-48 | [45.32.200.113](https://vuldb.com/?ip.45.32.200.113) | 45.32.200.113.vultrusercontent.com | - | Medium
-49 | [45.66.230.123](https://vuldb.com/?ip.45.66.230.123) | - | - | High
-50 | [45.80.158.31](https://vuldb.com/?ip.45.80.158.31) | - | - | High
-51 | [45.93.20.135](https://vuldb.com/?ip.45.93.20.135) | - | - | High
-52 | [45.93.20.224](https://vuldb.com/?ip.45.93.20.224) | - | - | High
-53 | [45.140.19.240](https://vuldb.com/?ip.45.140.19.240) | sendboxmailer.com | - | High
-54 | [45.152.112.146](https://vuldb.com/?ip.45.152.112.146) | - | - | High
-55 | [45.152.112.174](https://vuldb.com/?ip.45.152.112.174) | - | - | High
-56 | [45.155.7.60](https://vuldb.com/?ip.45.155.7.60) | 7-60.static.ipcserver.net | - | High
-57 | [45.155.205.172](https://vuldb.com/?ip.45.155.205.172) | - | - | High
-58 | [45.156.23.149](https://vuldb.com/?ip.45.156.23.149) | - | - | High
-59 | [45.156.23.186](https://vuldb.com/?ip.45.156.23.186) | - | - | High
-60 | [45.202.35.101](https://vuldb.com/?ip.45.202.35.101) | - | - | High
-61 | [45.227.255.49](https://vuldb.com/?ip.45.227.255.49) | - | - | High
-62 | [46.8.229.59](https://vuldb.com/?ip.46.8.229.59) | - | - | High
-63 | [46.17.96.36](https://vuldb.com/?ip.46.17.96.36) | - | - | High
-64 | [46.173.214.136](https://vuldb.com/?ip.46.173.214.136) | free.example.com | - | High
-65 | [46.173.214.142](https://vuldb.com/?ip.46.173.214.142) | free.example.com | - | High
-66 | [46.173.214.183](https://vuldb.com/?ip.46.173.214.183) | tehnika-pov-it.example.com | - | High
-67 | [46.173.214.218](https://vuldb.com/?ip.46.173.214.218) | free.example.com | - | High
-68 | [49.12.117.51](https://vuldb.com/?ip.49.12.117.51) | static.51.117.12.49.clients.your-server.de | - | High
-69 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
-70 | [51.15.226.0](https://vuldb.com/?ip.51.15.226.0) | 0-226-15-51.instances.scw.cloud | - | High
-71 | [51.81.69.127](https://vuldb.com/?ip.51.81.69.127) | ip127.ip-51-81-69.us | - | High
-72 | [51.254.45.174](https://vuldb.com/?ip.51.254.45.174) | ns3022790.ip-51-254-45.eu | - | High
-73 | [62.60.226.15](https://vuldb.com/?ip.62.60.226.15) | - | - | High
-74 | [62.182.156.152](https://vuldb.com/?ip.62.182.156.152) | - | - | High
-75 | [62.204.41.4](https://vuldb.com/?ip.62.204.41.4) | - | - | High
-76 | [62.204.41.5](https://vuldb.com/?ip.62.204.41.5) | - | - | High
-77 | ... | ... | ... | ...
+24 | [5.252.153.134](https://vuldb.com/?ip.5.252.153.134) | - | - | High
+25 | [8.208.15.65](https://vuldb.com/?ip.8.208.15.65) | - | - | High
+26 | [13.124.220.164](https://vuldb.com/?ip.13.124.220.164) | ec2-13-124-220-164.ap-northeast-2.compute.amazonaws.com | - | Medium
+27 | [23.106.215.95](https://vuldb.com/?ip.23.106.215.95) | - | - | High
+28 | [31.31.197.4](https://vuldb.com/?ip.31.31.197.4) | server267.hosting.reg.ru | - | High
+29 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
+30 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
+31 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
+32 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
+33 | [31.41.244.15](https://vuldb.com/?ip.31.41.244.15) | - | - | High
+34 | [31.41.244.17](https://vuldb.com/?ip.31.41.244.17) | - | - | High
+35 | [31.41.244.60](https://vuldb.com/?ip.31.41.244.60) | - | - | High
+36 | [31.41.244.146](https://vuldb.com/?ip.31.41.244.146) | - | - | High
+37 | [31.41.244.158](https://vuldb.com/?ip.31.41.244.158) | - | - | High
+38 | [31.41.244.167](https://vuldb.com/?ip.31.41.244.167) | - | - | High
+39 | [31.41.244.200](https://vuldb.com/?ip.31.41.244.200) | - | - | High
+40 | [31.41.244.237](https://vuldb.com/?ip.31.41.244.237) | - | - | High
+41 | [31.43.185.30](https://vuldb.com/?ip.31.43.185.30) | - | - | High
+42 | [37.220.87.85](https://vuldb.com/?ip.37.220.87.85) | ipn-37-220-87-85.artem-catv.ru | - | High
+43 | [45.9.74.5](https://vuldb.com/?ip.45.9.74.5) | - | - | High
+44 | [45.9.74.70](https://vuldb.com/?ip.45.9.74.70) | - | - | High
+45 | [45.9.74.80](https://vuldb.com/?ip.45.9.74.80) | - | - | High
+46 | [45.9.74.141](https://vuldb.com/?ip.45.9.74.141) | - | - | High
+47 | [45.9.74.164](https://vuldb.com/?ip.45.9.74.164) | - | - | High
+48 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
+49 | [45.9.74.182](https://vuldb.com/?ip.45.9.74.182) | - | - | High
+50 | [45.15.156.216](https://vuldb.com/?ip.45.15.156.216) | - | - | High
+51 | [45.32.200.113](https://vuldb.com/?ip.45.32.200.113) | 45.32.200.113.vultrusercontent.com | - | Medium
+52 | [45.66.230.123](https://vuldb.com/?ip.45.66.230.123) | - | - | High
+53 | [45.80.158.31](https://vuldb.com/?ip.45.80.158.31) | - | - | High
+54 | [45.93.20.135](https://vuldb.com/?ip.45.93.20.135) | - | - | High
+55 | [45.93.20.224](https://vuldb.com/?ip.45.93.20.224) | - | - | High
+56 | [45.140.19.240](https://vuldb.com/?ip.45.140.19.240) | sendboxmailer.com | - | High
+57 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
+58 | [45.152.112.146](https://vuldb.com/?ip.45.152.112.146) | - | - | High
+59 | [45.152.112.174](https://vuldb.com/?ip.45.152.112.174) | - | - | High
+60 | [45.155.7.60](https://vuldb.com/?ip.45.155.7.60) | 7-60.static.ipcserver.net | - | High
+61 | [45.155.205.172](https://vuldb.com/?ip.45.155.205.172) | - | - | High
+62 | [45.156.23.149](https://vuldb.com/?ip.45.156.23.149) | - | - | High
+63 | [45.156.23.186](https://vuldb.com/?ip.45.156.23.186) | - | - | High
+64 | [45.202.35.101](https://vuldb.com/?ip.45.202.35.101) | - | - | High
+65 | [45.227.255.49](https://vuldb.com/?ip.45.227.255.49) | - | - | High
+66 | [46.8.229.59](https://vuldb.com/?ip.46.8.229.59) | - | - | High
+67 | [46.17.96.36](https://vuldb.com/?ip.46.17.96.36) | - | - | High
+68 | [46.173.214.136](https://vuldb.com/?ip.46.173.214.136) | free.example.com | - | High
+69 | [46.173.214.142](https://vuldb.com/?ip.46.173.214.142) | free.example.com | - | High
+70 | [46.173.214.183](https://vuldb.com/?ip.46.173.214.183) | tehnika-pov-it.example.com | - | High
+71 | [46.173.214.218](https://vuldb.com/?ip.46.173.214.218) | free.example.com | - | High
+72 | [49.12.117.51](https://vuldb.com/?ip.49.12.117.51) | static.51.117.12.49.clients.your-server.de | - | High
+73 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
+74 | [51.15.226.0](https://vuldb.com/?ip.51.15.226.0) | 0-226-15-51.instances.scw.cloud | - | High
+75 | [51.81.69.127](https://vuldb.com/?ip.51.81.69.127) | ip127.ip-51-81-69.us | - | High
+76 | [51.254.45.174](https://vuldb.com/?ip.51.254.45.174) | ns3022790.ip-51-254-45.eu | - | High
+77 | [57.128.52.136](https://vuldb.com/?ip.57.128.52.136) | gra108b.superfasthost01.cloud | - | High
+78 | [62.60.226.15](https://vuldb.com/?ip.62.60.226.15) | - | - | High
+79 | [62.60.227.98](https://vuldb.com/?ip.62.60.227.98) | - | - | High
+80 | [62.182.156.152](https://vuldb.com/?ip.62.182.156.152) | - | - | High
+81 | [62.204.41.4](https://vuldb.com/?ip.62.204.41.4) | - | - | High
+82 | [62.204.41.5](https://vuldb.com/?ip.62.204.41.5) | - | - | High
+83 | [62.204.41.6](https://vuldb.com/?ip.62.204.41.6) | - | - | High
+84 | [62.204.41.13](https://vuldb.com/?ip.62.204.41.13) | - | - | High
+85 | ... | ... | ... | ...
 
-There are 305 more IOC items available. Please use our online service to access the data.
+There are 336 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -107,14 +115,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,76 +131,104 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `.travis.yml` | Medium
-3 | File | `/add-subadmin.php` | High
-4 | File | `/add_deductions.php` | High
-5 | File | `/adfs/ls` | Medium
-6 | File | `/admin-cp/media` | High
-7 | File | `/admin.php?p=/Area/index#tab=t2` | High
-8 | File | `/admin/?page=return/view_return` | High
-9 | File | `/admin/add-subadmin.php` | High
-10 | File | `/admin/add_cars.php` | High
-11 | File | `/admin/admin_action.php` | High
-12 | File | `/admin/admin_index.php` | High
-13 | File | `/admin/all-applications.php` | High
-14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-15 | File | `/admin/bookList?page=1&limit=10` | High
-16 | File | `/admin/bwdates-report-details.php` | High
-17 | File | `/admin/bwdates-request-report-details.php` | High
-18 | File | `/admin/category/add.do` | High
-19 | File | `/admin/changeimage.php` | High
-20 | File | `/admin/chatroom.php` | High
-21 | File | `/admin/create_product.php` | High
-22 | File | `/admin/delete-doctor.php` | High
-23 | File | `/admin/edit-admin.php` | High
-24 | File | `/admin/edit-guard-detail.php` | High
-25 | File | `/admin/edit-products.php` | High
-26 | File | `/admin/enrollment-details.php` | High
-27 | File | `/admin/forms/option_lists/edit.php` | High
-28 | File | `/admin/getallarticleinfo` | High
-29 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-30 | File | `/admin/index.php` | High
-31 | File | `/admin/index2.html` | High
-32 | File | `/Admin/login.php` | High
-33 | File | `/admin/normal-search.php` | High
-34 | File | `/admin/salary_slip.php` | High
-35 | File | `/admin/template/update` | High
-36 | File | `/admin/user-search.php` | High
-37 | File | `/adminPage/main/upload` | High
-38 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-39 | File | `/adpweb/a/base/barcodeDetail/` | High
-40 | File | `/ajax.php?action=save_package` | High
-41 | File | `/api/docs/index.php` | High
-42 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-43 | File | `/api/sys/set_passwd` | High
-44 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-45 | File | `/api/v1/settings` | High
-46 | File | `/api/wizard/setsyncpppoecfg` | High
-47 | File | `/app/controller/Api.php` | High
-48 | File | `/app/zentao/module/repo/model.php` | High
-49 | File | `/auth.asp` | Medium
-50 | File | `/auth/register` | High
-51 | File | `/backend/register.php` | High
-52 | File | `/bin/httpd` | Medium
-53 | File | `/boafrm/formFilter` | High
-54 | File | `/boafrm/formSaveConfig` | High
-55 | File | `/boafrm/formWlSiteSurvey` | High
-56 | File | `/BRS_top.html` | High
-57 | File | `/cashconfirm.php` | High
-58 | File | `/catalog/compare` | High
-59 | File | `/cgi-bin/Config.cgi?action=set` | High
-60 | File | `/cgi-bin/cstecgi.cgi` | High
-61 | File | `/cgi-bin/editBookmark` | High
-62 | File | `/cgi-bin/hd_config.cgi` | High
-63 | File | `/cgi-bin/login.cgi` | High
-64 | File | `/cgi-bin/mainfunction.cgi` | High
-65 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-66 | File | `/cgi-bin/nas_sharing.cgi` | High
-67 | File | `/change-password.php` | High
-68 | ... | ... | ...
+1 | File | `/?explorer/upload/serverDownload` | High
+2 | File | `/Actions.php` | Medium
+3 | File | `/actuator` | Medium
+4 | File | `/adaddmed.php` | High
+5 | File | `/addCatController.php` | High
+6 | File | `/addcategory.php` | High
+7 | File | `/addcompany.php` | High
+8 | File | `/addelidetails.php` | High
+9 | File | `/addelivery.php` | High
+10 | File | `/add_achievement_details.php` | High
+11 | File | `/admin#article/edit?id=2` | High
+12 | File | `/admin#themes` | High
+13 | File | `/admin-inbox.php` | High
+14 | File | `/admin-page.php` | High
+15 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+16 | File | `/admin/add-boat.php` | High
+17 | File | `/admin/add-customer-services.php` | High
+18 | File | `/admin/add_query_account.php` | High
+19 | File | `/admin/admin_class.php` | High
+20 | File | `/admin/ajax.php?action=login` | High
+21 | File | `/admin/approve_user.php` | High
+22 | File | `/admin/borrow_add.php` | High
+23 | File | `/admin/comment/list` | High
+24 | File | `/admin/doctor-specilization.php` | High
+25 | File | `/admin/edituser.php` | High
+26 | File | `/admin/email_setup.php` | High
+27 | File | `/admin/index.php` | High
+28 | File | `/admin/insert-product.php` | High
+29 | File | `/admin/login` | Medium
+30 | File | `/admin/login.php` | High
+31 | File | `/admin/modules/instructor/index.php` | High
+32 | File | `/admin/modules/room/index.php` | High
+33 | File | `/admin/network/diag_iperf` | High
+34 | File | `/admin/network/diag_nslookup` | High
+35 | File | `/admin/operations/booking.php` | High
+36 | File | `/admin/operations/expense.php` | High
+37 | File | `/admin/operations/payment.php` | High
+38 | File | `/admin/operations/travellers.php` | High
+39 | File | `/admin/page-login.php` | High
+40 | File | `/admin/password-recovery.php` | High
+41 | File | `/admin/profile.php` | High
+42 | File | `/admin/regester.php` | High
+43 | File | `/Admin/registration.php` | High
+44 | File | `/admin/search-directory.php` | High
+45 | File | `/admin/search-maid.php` | High
+46 | File | `/admin/search.php` | High
+47 | File | `/admin/session.php` | High
+48 | File | `/admin/sms_setting.php` | High
+49 | File | `/admin/tag/save` | High
+50 | File | `/admin/topic/list` | High
+51 | File | `/admin/user-search.php` | High
+52 | File | `/admin/userlist.php` | High
+53 | File | `/admin/view-appointment.php` | High
+54 | File | `/ajax.php` | Medium
+55 | File | `/ajax.php?action=delete_borrower` | High
+56 | File | `/ajax.php?action=delete_plan` | High
+57 | File | `/ajax.php?action=delete_sales` | High
+58 | File | `/ajax.php?action=login` | High
+59 | File | `/ajax.php?action=save_receiving` | High
+60 | File | `/api/authentication/login` | High
+61 | File | `/api/dept` | Medium
+62 | File | `/api/plugin/uninstall` | High
+63 | File | `/api/role` | Medium
+64 | File | `/api/user` | Medium
+65 | File | `/api/wechat/app_auth` | High
+66 | File | `/app/api/v1/openvpn.py` | High
+67 | File | `/application/controllers/Marks.php` | High
+68 | File | `/auth/orderQuery` | High
+69 | File | `/backend/admin/his_admin_register_patient.php` | High
+70 | File | `/backend/register.php` | High
+71 | File | `/bank/statements.php` | High
+72 | File | `/bank/transfer.php` | High
+73 | File | `/biurl_grou` | Medium
+74 | File | `/boafrm/formParentControl` | High
+75 | File | `/book-appointment.php` | High
+76 | File | `/booklist.php` | High
+77 | File | `/book_car.php` | High
+78 | File | `/branch/addbranch.php` | High
+79 | File | `/browsemdcn.php` | High
+80 | File | `/bwdates-report-result.php` | High
+81 | File | `/cardo/api` | Medium
+82 | File | `/cart_add.php` | High
+83 | File | `/cgi-bin/cstecgi.cgi` | High
+84 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+85 | File | `/cgi-bin/nas_sharing.cgi` | High
+86 | File | `/check_availability.php` | High
+87 | File | `/clients` | Medium
+88 | File | `/controllers/postpublish.php` | High
+89 | File | `/core/config-revisions` | High
+90 | File | `/course_edit1.php` | High
+91 | File | `/crm/business/transfer` | High
+92 | File | `/crm/contract/transfer` | High
+93 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1` | High
+94 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
+95 | File | `/cusfindphar2.php` | High
+96 | ... | ... | ...
 
-There are 594 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 852 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -201,17 +238,22 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/02405064-4229-4b48-8db7-1ded39e68147
 * https://app.any.run/tasks/02899dcc-a26c-407a-b60c-3944a135f441
 * https://app.any.run/tasks/057f15c5-864c-4535-b8af-70405ead5fcd
+* https://app.any.run/tasks/1f219c99-c9f6-4e26-a9c1-7a543ba22f92
 * https://app.any.run/tasks/5ef5240d-27b8-42f9-a436-f8b3e81308e2
 * https://app.any.run/tasks/6b4a52a0-4bbe-4c57-a196-a7c0e3425220
 * https://app.any.run/tasks/7c1f277b-9d09-4a4e-ad36-2075b4a04058
 * https://app.any.run/tasks/25aa27e9-a9e9-40cc-9152-d0373b9c7ebb
 * https://app.any.run/tasks/44ace516-679d-4a45-9c23-b3641ff4a094
+* https://app.any.run/tasks/315bc97f-69e0-4346-9f68-973f46961f9c
 * https://app.any.run/tasks/4164f40f-2751-4860-9ddc-d6c2aea4f4ef
+* https://app.any.run/tasks/6217b14b-cae3-4355-bfc3-2ae4cdc5e991
 * https://app.any.run/tasks/37401db6-5584-4f21-8cc5-73240c4ea2dc?p=66906b7dce78d9d6ac022bde
 * https://app.any.run/tasks/316932fe-a768-44ec-bea1-c190d80f001a
 * https://app.any.run/tasks/320928b0-071d-4205-bef2-394de36a959a
 * https://app.any.run/tasks/a3102047-51c3-4cb9-ad73-b147835e7bce
+* https://app.any.run/tasks/c3ffd5b5-9460-4f49-a252-948394f7ae39
 * https://app.any.run/tasks/d46db0da-c4d1-466d-a294-136db798b80b
+* https://app.any.run/tasks/d659a320-b9d6-4896-81b7-9456f9e323b6
 * https://app.any.run/tasks/db77c945-c2ff-4e5f-9d37-b105606ed03b
 * https://app.any.run/tasks/dd17daee-32a4-494b-b8d9-c5e6d5b03cae
 * https://app.any.run/tasks/fb9c7292-8581-47fc-8245-71e18d6c57d2
@@ -222,6 +264,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://cofense.com/new-phishing-campaign-targets-u-s-taxpayers-dropping-amadey-botnet/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:ee0b820692aebf95a376e6deb70d0fa9
+* https://intelinsights.substack.com/p/bulletproof-hosting-hunt
 * https://intelinsights.substack.com/p/gone-phishing
 * https://intelinsights.substack.com/p/mapping-amadey-loader-infrastructure
 * https://ioc.exchange/@GustyDusty@infosec.exchange/110978626602393961
@@ -300,6 +343,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=79.137.203.59
 * https://tracker.viriback.com/index.php?q=83.217.11.7
 * https://tracker.viriback.com/index.php?q=85.31.45.199
+* https://tracker.viriback.com/index.php?q=85.208.84.41
 * https://tracker.viriback.com/index.php?q=85.209.11.199
 * https://tracker.viriback.com/index.php?q=85.209.135.11
 * https://tracker.viriback.com/index.php?q=85.209.135.109
@@ -308,6 +352,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=91.92.247.16
 * https://tracker.viriback.com/index.php?q=91.92.251.16
 * https://tracker.viriback.com/index.php?q=91.215.85.194
+* https://tracker.viriback.com/index.php?q=91.238.50.169
 * https://tracker.viriback.com/index.php?q=94.142.138.182
 * https://tracker.viriback.com/index.php?q=95.141.41.12
 * https://tracker.viriback.com/index.php?q=95.214.26.53
@@ -318,6 +363,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=176.113.115.253
 * https://tracker.viriback.com/index.php?q=179.43.154.148
 * https://tracker.viriback.com/index.php?q=185.174.137.152
+* https://tracker.viriback.com/index.php?q=185.196.11.155
 * https://tracker.viriback.com/index.php?q=185.215.113.204
 * https://tracker.viriback.com/index.php?q=185.215.113.217
 * https://tracker.viriback.com/index.php?q=185.252.179.228
@@ -361,13 +407,30 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3542117/
 * https://urlhaus.abuse.ch/url/3549581/
 * https://urlhaus.abuse.ch/url/3556719/
+* https://urlhaus.abuse.ch/url/3573994/
+* https://urlhaus.abuse.ch/url/3574976/
+* https://urlhaus.abuse.ch/url/3578231/
+* https://urlhaus.abuse.ch/url/3590301/
+* https://urlhaus.abuse.ch/url/3593645/
+* https://urlhaus.abuse.ch/url/3605838/
+* https://urlhaus.abuse.ch/url/3607415/
+* https://urlhaus.abuse.ch/url/3617800/
+* https://urlhaus.abuse.ch/url/3618510/
+* https://urlquery.net/report/07a9f8ce-0426-4145-85db-2af2d112be9f
 * https://urlquery.net/report/092c3517-2e9c-43dc-933a-0585d8f8d15b
+* https://urlquery.net/report/3531fbec-b2b5-4df4-9c1e-000db1cbdaa2
+* https://urlquery.net/report/36252f63-e363-41fd-9144-72e55e7d1c70
+* https://urlquery.net/report/fddae69d-cc62-4700-836b-ad4ada66efee
 * https://urlscan.io/result/01959e09-45f2-733e-93f6-afa88be368c9
 * https://urlscan.io/result/01960c9a-c030-740e-8ba0-5899217fc2eb
 * https://urlscan.io/result/01963318-ff4a-74d0-b14e-589ef095153a
 * https://urlscan.io/result/01966c03-85c6-73de-bb25-fac224753acc
 * https://urlscan.io/result/01966d71-3afa-77da-92ab-8525dc0af52f
+* https://urlscan.io/result/0197df11-40d4-76ed-a5c8-fef171735d13
 * https://urlscan.io/result/0197103c-4e73-74e8-b890-004cf41624e4
+* https://urlscan.io/result/0198cc12-ac24-7278-ad67-27ce8c786d48
+* https://urlscan.io/result/01982361-2921-74be-a8b2-f36e08b6d109
+* https://urlscan.io/result/01983784-3089-7788-b85c-8dd23d64bbbe
 * https://urlscan.io/result/3a6f55f8-3cda-4e7d-9b57-1396274457c0/
 * https://urlscan.io/result/eadcfe70-50ed-4301-8704-6525199ffcc3
 * https://x.com/crep1x/status/1849476769486635496

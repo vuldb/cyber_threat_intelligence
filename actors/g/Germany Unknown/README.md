@@ -8,8 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Germany Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -15052,12 +15053,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
-4 | ... | ... | ... | ...
-
-There are 2 more TTP items available. Please use our online service to access the data.
+1 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 
 ## IOA - Indicator of Attack
 
@@ -15065,12 +15061,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/goform/wirelessAdvancedHidden` | High
-2 | File | `/pubinfo/updateNotice.jsp` | High
-3 | File | `dbghelp.exe` | Medium
-4 | ... | ... | ...
-
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+1 | File | `/goform/setMacFilterCfg` | High
+2 | Argument | `deviceList` | Medium
+3 | Input Value | `12345678` | Medium
 
 ## References
 

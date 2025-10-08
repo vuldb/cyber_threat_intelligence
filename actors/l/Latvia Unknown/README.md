@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -367,8 +367,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -382,63 +382,89 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/add_deductions.php` | High
-3 | File | `/adfs/ls` | Medium
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/all-applications.php` | High
-6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
-7 | File | `/admin/bookList?page=1&limit=10` | High
-8 | File | `/admin/bwdates-report-details.php` | High
-9 | File | `/admin/bwdates-request-report-details.php` | High
-10 | File | `/admin/chatroom.php` | High
-11 | File | `/admin/create_product.php` | High
-12 | File | `/admin/edit-products.php` | High
-13 | File | `/admin/enrollment-details.php` | High
-14 | File | `/admin/forms/option_lists/edit.php` | High
-15 | File | `/admin/getallarticleinfo` | High
-16 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-17 | File | `/admin/index.php` | High
-18 | File | `/admin/index2.html` | High
-19 | File | `/admin/normal-search.php` | High
-20 | File | `/admin/salary_slip.php` | High
-21 | File | `/admin/template/update` | High
-22 | File | `/admin/user-search.php` | High
-23 | File | `/adminPage/main/upload` | High
-24 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-25 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
-26 | File | `/api/sys/set_passwd` | High
-27 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-28 | File | `/api/v1/settings` | High
-29 | File | `/api/wizard/setsyncpppoecfg` | High
-30 | File | `/app/controller/Api.php` | High
-31 | File | `/app/zentao/module/repo/model.php` | High
-32 | File | `/auth.asp` | Medium
-33 | File | `/auth/register` | High
-34 | File | `/bin/httpd` | Medium
-35 | File | `/boafrm/formFilter` | High
-36 | File | `/BRS_top.html` | High
-37 | File | `/catalog/compare` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/cgi-bin/hd_config.cgi` | High
-40 | File | `/cgi-bin/mainfunction.cgi` | High
-41 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-42 | File | `/change-password.php` | High
-43 | File | `/classes/Master.php?f=save_course` | High
-44 | File | `/classes/Master.php?f=save_position` | High
-45 | File | `/config/config.properties` | High
-46 | File | `/coreframe/app/guestbook/myissue.php` | High
-47 | File | `/cupseasylive/locationcreate.php` | High
-48 | File | `/dash/update.php` | High
-49 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-50 | File | `/devinfo` | Medium
-51 | File | `/doctor/appointment-bwdates-reports-details.php` | High
-52 | File | `/DXR.axd` | Medium
-53 | File | `/edit-category.php` | High
-54 | File | `/endpoint/add-user.php` | High
-55 | ... | ... | ...
+1 | File | `-X/path/to/wwwroot/file.php.` | High
+2 | File | `.travis.yml` | Medium
+3 | File | `/add_deductions.php` | High
+4 | File | `/adfs/ls` | Medium
+5 | File | `/admin-cp/media` | High
+6 | File | `/admin.php/update/getFile.html` | High
+7 | File | `/admin/?page=return/view_return` | High
+8 | File | `/admin/add-subadmin.php` | High
+9 | File | `/admin/add_cars.php` | High
+10 | File | `/admin/admin_action.php` | High
+11 | File | `/admin/admin_index.php` | High
+12 | File | `/admin/all-applications.php` | High
+13 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/empty_table.php` | High
+14 | File | `/admin/booking-bwdates-reports-details.php` | High
+15 | File | `/admin/bookList?page=1&limit=10` | High
+16 | File | `/admin/bwdates-request-report-details.php` | High
+17 | File | `/admin/category/add.do` | High
+18 | File | `/admin/changeimage.php` | High
+19 | File | `/admin/chatroom.php` | High
+20 | File | `/admin/delete-doctor.php` | High
+21 | File | `/admin/edit-admin.php` | High
+22 | File | `/admin/edit-guard-detail.php` | High
+23 | File | `/admin/edit-products.php` | High
+24 | File | `/admin/enrollment-details.php` | High
+25 | File | `/admin/faculty_action.php` | High
+26 | File | `/admin/forms/option_lists/edit.php` | High
+27 | File | `/admin/getallarticleinfo` | High
+28 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+29 | File | `/admin/index.php` | High
+30 | File | `/admin/index2.html` | High
+31 | File | `/admin/login.php` | High
+32 | File | `/Admin/login.php` | High
+33 | File | `/admin/manage-pages.php` | High
+34 | File | `/admin/manage_user.php` | High
+35 | File | `/admin/new-content` | High
+36 | File | `/admin/template/update` | High
+37 | File | `/admin/user-search.php` | High
+38 | File | `/admin/view-patient.php` | High
+39 | File | `/admin/voters_add.php` | High
+40 | File | `/admin/voters_delete.php` | High
+41 | File | `/adpweb/a/base/barcodeDetail/` | High
+42 | File | `/ajax.php?action=save_package` | High
+43 | File | `/api/docs/index.php` | High
+44 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+45 | File | `/api/sys/set_passwd` | High
+46 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+47 | File | `/api/v1/settings` | High
+48 | File | `/api/wizard/setsyncpppoecfg` | High
+49 | File | `/app/controller/Api.php` | High
+50 | File | `/application/controller/Pengeluaran.php` | High
+51 | File | `/auth.asp` | Medium
+52 | File | `/authentication/logout.php` | High
+53 | File | `/backend/register.php` | High
+54 | File | `/bic/ssoService/v1/applyCT` | High
+55 | File | `/bin/httpd` | Medium
+56 | File | `/boafrm/formFilter` | High
+57 | File | `/boafrm/formSaveConfig` | High
+58 | File | `/boafrm/formWlSiteSurvey` | High
+59 | File | `/BRS_top.html` | High
+60 | File | `/cashconfirm.php` | High
+61 | File | `/catalog/compare` | High
+62 | File | `/cgi-bin/Config.cgi?action=set` | High
+63 | File | `/cgi-bin/cstecgi.cgi` | High
+64 | File | `/cgi-bin/editBookmark` | High
+65 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+66 | File | `/cgi-bin/hd_config.cgi` | High
+67 | File | `/cgi-bin/login.cgi` | High
+68 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+69 | File | `/change-password.php` | High
+70 | File | `/changeUsername.php` | High
+71 | File | `/classes/Master.php?f=save_course` | High
+72 | File | `/client/UnChkMailApplication.jsp` | High
+73 | File | `/config/config.properties` | High
+74 | File | `/config/php.ini` | High
+75 | File | `/controllers/control.php` | High
+76 | File | `/coreframe/app/guestbook/myissue.php` | High
+77 | File | `/cupseasylive/locationcreate.php` | High
+78 | File | `/dash/update.php` | High
+79 | File | `/dashboard/admin/submit_plan_new.php` | High
+80 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+81 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 710 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

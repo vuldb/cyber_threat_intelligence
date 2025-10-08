@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,50 +77,53 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/process_category_add.php` | High
 19 | File | `/admin/subnets/ripe-query.php` | High
 20 | File | `/admin/system.html` | High
-21 | File | `/adplanet/PlanetUser` | High
-22 | File | `/ajax/myshop` | Medium
-23 | File | `/alphaware/summary.php` | High
-24 | File | `/api/deploy/upload` | High
-25 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
-26 | File | `/api/runscript` | High
-27 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-28 | File | `/api/v2/maps` | Medium
-29 | File | `/api/wizard/getDualbandSync` | High
-30 | File | `/api/wizard/getNetworkStatus` | High
-31 | File | `/app/platform/controllers/ResetpwdController.php` | High
-32 | File | `/assets/php/upload.php` | High
-33 | File | `/baseOpLog.do` | High
-34 | File | `/book-appointment.php` | High
-35 | File | `/buscar_integrada.php` | High
-36 | File | `/campaign.php` | High
-37 | File | `/cfgFile/fileContent` | High
-38 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-41 | File | `/cgi-bin/downloadFile.cgi` | High
-42 | File | `/cgi-bin/hd_config.cgi` | High
-43 | File | `/cgi-bin/system_mgr.cgi` | High
-44 | File | `/Cinema-Reservation/booking.php` | High
-45 | File | `/classes/Master.php?f=log_employee` | High
-46 | File | `/classes/Master.php?f=log_visitor` | High
-47 | File | `/classes/Users.php` | High
-48 | File | `/classes/Users.php?f=delete` | High
-49 | File | `/classes/Users.php?f=save` | High
-50 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-51 | File | `/cm/update_rows/page?id=2` | High
-52 | File | `/cms/classes/Users.php?f=delete_client` | High
-53 | File | `/com/esafenet/servlet/ajax/UsbKeyAjax.java` | High
-54 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
-55 | File | `/content_top.jsp` | High
-56 | File | `/debug/pprof` | Medium
-57 | File | `/deleteAgent.php` | High
-58 | File | `/dev-api/cms/file/upload` | High
-59 | File | `/Doctor/user_appointment.php` | High
-60 | File | `/E-Insurance/` | High
-61 | File | `/edit_book.php` | High
-62 | ... | ... | ...
+21 | File | `/admin/team_update.php` | High
+22 | File | `/admin/vacancy/index.php` | High
+23 | File | `/adplanet/PlanetUser` | High
+24 | File | `/ajax/myshop` | Medium
+25 | File | `/alphaware/summary.php` | High
+26 | File | `/api/deploy/upload` | High
+27 | File | `/Api/FileUpload.ashx?method=DoUpload` | High
+28 | File | `/api/runscript` | High
+29 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+30 | File | `/api/v2/maps` | Medium
+31 | File | `/api/wizard/getDualbandSync` | High
+32 | File | `/api/wizard/getNetworkStatus` | High
+33 | File | `/app/platform/controllers/ResetpwdController.php` | High
+34 | File | `/assets/php/upload.php` | High
+35 | File | `/baseOpLog.do` | High
+36 | File | `/boafrm/formParentControl` | High
+37 | File | `/boafrm/formWlanRedirect` | High
+38 | File | `/book-appointment.php` | High
+39 | File | `/buscar_integrada.php` | High
+40 | File | `/campaign.php` | High
+41 | File | `/cfgFile/fileContent` | High
+42 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+45 | File | `/cgi-bin/downloadFile.cgi` | High
+46 | File | `/cgi-bin/hd_config.cgi` | High
+47 | File | `/cgi-bin/system_mgr.cgi` | High
+48 | File | `/Cinema-Reservation/booking.php` | High
+49 | File | `/classes/Master.php?f=log_employee` | High
+50 | File | `/classes/Master.php?f=log_visitor` | High
+51 | File | `/classes/Users.php` | High
+52 | File | `/classes/Users.php?f=delete` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+55 | File | `/cm/update_rows/page?id=2` | High
+56 | File | `/cms/classes/Users.php?f=delete_client` | High
+57 | File | `/com/esafenet/servlet/ajax/UsbKeyAjax.java` | High
+58 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+59 | File | `/content_top.jsp` | High
+60 | File | `/debug/pprof` | Medium
+61 | File | `/deleteAgent.php` | High
+62 | File | `/dev-api/cms/file/upload` | High
+63 | File | `/Doctor/user_appointment.php` | High
+64 | File | `/E-Insurance/` | High
+65 | ... | ... | ...
 
-There are 544 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 569 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

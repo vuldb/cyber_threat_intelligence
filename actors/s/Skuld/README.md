@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Skuld:
 
-* [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -41,9 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-266, CWE-269, CWE-272, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,11 +52,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.git/hooks/post-update` | High
-2 | File | `/account/delivery` | High
-3 | File | `/ad-list` | Medium
-4 | File | `/admin.php` | Medium
-5 | File | `/admin/admin.php` | High
+1 | File | `/account/delivery` | High
+2 | File | `/ad-list` | Medium
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/admin_user.php` | High
 6 | File | `/admin/form/save` | High
 7 | File | `/admin/makehtml_freelist_action.php` | High
 8 | File | `/admin/modal_add_product.php` | High
@@ -68,33 +69,35 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/system/sessions` | High
 16 | File | `/appliance/users?action=edit` | High
 17 | File | `/apply.cgi` | Medium
-18 | File | `/blog` | Low
-19 | File | `/browse` | Low
-20 | File | `/bypass/config` | High
-21 | File | `/catalog/compare` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/classes/Master.php?f=delete_brand` | High
-24 | File | `/classes/Master.php?f=delete_img` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/config/api/v1/reboot` | High
-27 | File | `/cupseasylive/grnprint.php` | High
-28 | File | `/cupseasylive/stock.php` | High
-29 | File | `/cupseasylive/stockissuancedisplay.php` | High
-30 | File | `/cupseasylive/taxstructurelist.php` | High
-31 | File | `/dev/audio` | Medium
-32 | File | `/dev/kmem` | Medium
-33 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
-34 | File | `/endpoint/delete-account.php` | High
-35 | File | `/etc/hosts.deny` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/formAdvanceSetup` | High
-38 | File | `/goform/formSetWanPPTP` | High
-39 | File | `/goform/openSchedWifi` | High
-40 | File | `/goform/SetOnlineDevName` | High
-41 | File | `/goform/SetSysTimeCfg` | High
-42 | ... | ... | ...
+18 | File | `/arp_sys.asp` | Medium
+19 | File | `/blog` | Low
+20 | File | `/boafrm/formParentControl` | High
+21 | File | `/boafrm/formWlSiteSurvey` | High
+22 | File | `/browse` | Low
+23 | File | `/bypass/config` | High
+24 | File | `/catalog/compare` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/classes/Master.php?f=delete_img` | High
+27 | File | `/classes/Master.php?f=save_category` | High
+28 | File | `/config/api/v1/reboot` | High
+29 | File | `/cupseasylive/grnprint.php` | High
+30 | File | `/cupseasylive/stock.php` | High
+31 | File | `/cupseasylive/stockissuancedisplay.php` | High
+32 | File | `/cupseasylive/taxstructurelist.php` | High
+33 | File | `/ddns.asp?opt=add` | High
+34 | File | `/dev/audio` | Medium
+35 | File | `/dev/kmem` | Medium
+36 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
+37 | File | `/endpoint/delete-account.php` | High
+38 | File | `/etc/hosts.deny` | High
+39 | File | `/etc_ro/smb.conf` | High
+40 | File | `/formLoginAuth.htm` | High
+41 | File | `/goform/AdvSetWrlsafeset` | High
+42 | File | `/goform/formAdvanceSetup` | High
+43 | File | `/goform/formSetWanDhcpplus` | High
+44 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

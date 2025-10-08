@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [93.115.22.212](https://vuldb.com/?ip.93.115.22.212) | no-reverse-yet.local | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,12 +74,13 @@ ID | Type | Indicator | Confidence
 24 | File | `/see_more_details.php` | High
 25 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://circleid.com/posts/new-mitre-attck-groups-for-2025-a-dns-deep-dive
 * https://www.huntandhackett.com/blog/turkish-espionage-campaigns
 
 ## Literature
