@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pikabot:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -142,7 +142,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -150,14 +150,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/manage_block.php` | High
-4 | File | `/ptippage.cgi` | High
-5 | File | `/spip.php` | Medium
-6 | ... | ... | ...
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin/positions.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/AdvSetMacMtuWa` | High
+6 | File | `/goform/aspForm` | High
+7 | File | `/goform/exeCommand` | High
+8 | File | `/goform/formWPS` | High
+9 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

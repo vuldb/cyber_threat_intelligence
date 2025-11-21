@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.144.53.137](https://vuldb.com/?ip.45.144.53.137) | 108787.h2.nexus | - | High
-2 | [85.192.48.239](https://vuldb.com/?ip.85.192.48.239) | 120117.h2.nexus | - | High
-3 | [85.208.84.94](https://vuldb.com/?ip.85.208.84.94) | - | - | High
+2 | [64.188.91.191](https://vuldb.com/?ip.64.188.91.191) | s198057.love-is.nexus | - | High
+3 | [85.192.48.239](https://vuldb.com/?ip.85.192.48.239) | 120117.h2.nexus | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,9 +59,11 @@ There are 27 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/b99fc3e2-00b3-457d-a1b5-b00b15f4c781
 * https://threatfox.abuse.ch
 * https://threatfox.abuse.ch/ioc/1570994/
 * https://www.joesandbox.com/analysis/1654456/0/html
+* https://www.joesandbox.com/analysis/1806876/0/html
 
 ## Literature
 

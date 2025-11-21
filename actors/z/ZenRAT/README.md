@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ZenRAT:
 
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,13 +43,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `booking.php` | Medium
-2 | File | `editBooking.php` | High
-3 | File | `grab_globals.lib.php` | High
-4 | File | `include/templates/categories/default.php` | High
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin_members.php?ac=editsave` | High
+3 | File | `booking.php` | Medium
+4 | File | `editBooking.php` | High
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

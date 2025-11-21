@@ -83,13 +83,13 @@ ID | Type | Indicator | Confidence
 16 | File | `/data/remove` | Medium
 17 | File | `/debug/pprof` | Medium
 18 | File | `/etc/passwd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/accessControlAdd` | High
+19 | File | `/f.php` | Low
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

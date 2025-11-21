@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.59.45](https://vuldb.com/?ip.2.56.59.45) | - | - | High
 2 | [45.61.184.84](https://vuldb.com/?ip.45.61.184.84) | - | - | High
-3 | [104.129.12.141](https://vuldb.com/?ip.104.129.12.141) | 104.129.12.141.static.quadranet.com | - | High
+3 | [68.69.184.110](https://vuldb.com/?ip.68.69.184.110) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,46 +50,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admin/reg.php` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/company/store` | High
-12 | File | `/csms/?page=contact_us` | High
-13 | File | `/etc/ajenti/config.yml` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/farm/product.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/telnet` | High
-18 | File | `/manage_block.php` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/preview.php` | Medium
-21 | File | `/ptippage.cgi` | High
-22 | File | `/rom-0` | Low
-23 | File | `/src/chatbotapp/chatWindow.java` | High
-24 | File | `/start-apply.html` | High
-25 | File | `/tmp/out` | Medium
-26 | File | `/tmp/phpglibccheck` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/update-image1.php` | High
-29 | File | `/upload` | Low
-30 | File | `/v1/operador/` | High
-31 | File | `/var/tmp/sess_*` | High
-32 | File | `action.php` | Medium
-33 | File | `actionphp/download.File.php` | High
-34 | File | `add_comment.php` | High
-35 | File | `admin/admin.php` | High
-36 | File | `admin/content.php` | High
-37 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-38 | File | `admin_gallery.php3` | High
-39 | ... | ... | ...
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/admin/pages/` | High
+4 | File | `/admin/positions.php` | High
+5 | File | `/admin/reg.php` | High
+6 | File | `/admins` | Low
+7 | File | `/ajax/getBasicInfo.php` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/Master.php?f=delete_reminder` | High
+13 | File | `/classes/Master.php?f=save_reminder` | High
+14 | File | `/clientdetails/admin/regester.php` | High
+15 | File | `/company/store` | High
+16 | File | `/csms/?page=contact_us` | High
+17 | File | `/etc/ajenti/config.yml` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/farm/product.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/AdvSetMacMtuWa` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/exeCommand` | High
+24 | File | `/goform/formWPS` | High
+25 | File | `/goform/getOneApConfTempEntry` | High
+26 | File | `/goform/set_delshrpath_cfg` | High
+27 | File | `/goform/telnet` | High
+28 | File | `/justines/admin/mod_users/index.php?view=view` | High
+29 | File | `/login.php` | Medium
+30 | File | `/manage_block.php` | High
+31 | File | `/model/update_classroom.php` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/pages/admin_index_search.php` | High
+34 | File | `/preview.php` | Medium
+35 | File | `/ptippage.cgi` | High
+36 | File | `/rom-0` | Low
+37 | File | `/schedulingsystem/addcourse.php` | High
+38 | File | `/schedulingsystem/addroom.php` | High
+39 | File | `/src/chatbotapp/chatWindow.java` | High
+40 | File | `/start-apply.html` | High
+41 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,6 +103,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.netlab.360.com/ten-families-of-malicious-samples-are-spreading-using-the-log4j2-vulnerability-now/
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3583744/
+* https://urlhaus.abuse.ch/url/3623961/
+* https://urlhaus.abuse.ch/url/3635751/
+* https://urlhaus.abuse.ch/url/3636158/
 
 ## Literature
 

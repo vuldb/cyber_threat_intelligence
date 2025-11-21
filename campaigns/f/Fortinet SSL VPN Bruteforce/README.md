@@ -39,7 +39,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1552 | CWE-255 | Credentials Management | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1552 | CWE-255 | Credentials Management | High
 
 ## IOA - Indicator of Attack
 
@@ -47,12 +48,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/search_resualts.php` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `changepassword.php` | High
+1 | File | `/Profilers/PriProfile/eligibility.php` | High
+2 | File | `/search_resualts.php` | High
+3 | File | `/uncpath/` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

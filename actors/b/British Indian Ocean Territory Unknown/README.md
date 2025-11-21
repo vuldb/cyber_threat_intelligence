@@ -130,9 +130,10 @@ ID | Type | Indicator | Confidence
 75 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 76 | File | `/classes/Master.php?f=save_inquiry` | High
 77 | File | `/classes/Users.php` | High
-78 | ... | ... | ...
+78 | File | `/classes/Users.php?f=save` | High
+79 | ... | ... | ...
 
-There are 686 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 697 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

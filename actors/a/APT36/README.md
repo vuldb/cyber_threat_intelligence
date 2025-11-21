@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with APT36:
 * ElizaRAT
 * ...
 
-There are 2 more campaign items available. Please use our online service to access the data.
+There are 3 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,15 +43,15 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
 10 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | Indian Government Organizations | High
 11 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
-12 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
-13 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
-14 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
-15 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
-16 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
-17 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
+12 | [45.141.58.199](https://vuldb.com/?ip.45.141.58.199) | - | Indian BOSS Linux System | High
+13 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
+14 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
+15 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
+16 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
+17 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
 18 | ... | ... | ... | ...
 
-There are 68 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,31 +74,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.asp` | Low
-3 | File | `/assets/php/upload.php` | High
-4 | File | `/backend/admin/his_admin_register_patient.php` | High
-5 | File | `/mces/?p=class/view_class` | High
-6 | File | `/nidp/idff/sso` | High
-7 | File | `/products/view_product.php` | High
-8 | File | `/search` | Low
-9 | File | `/spip.php` | Medium
-10 | File | `/user_proposal_update_order.php` | High
-11 | File | `/var/run/.inetd.uds` | High
-12 | File | `/vm/admin/doctors.php` | High
-13 | File | `about` | Low
-14 | File | `adclick.php` | Medium
-15 | File | `addressbook.php` | High
-16 | File | `admin-ajax.php` | High
-17 | File | `admin/` | Low
-18 | File | `admin/index.php` | High
-19 | File | `afd.sys` | Low
-20 | File | `album_portal.php` | High
-21 | File | `aolfix.exe` | Medium
-22 | File | `api.php` | Low
-23 | File | `apply.cgi` | Medium
-24 | File | `AppManagementFragment.java` | High
-25 | ... | ... | ...
+3 | File | `/admin/all-applied-leave.php` | High
+4 | File | `/admin/edit_content.php` | High
+5 | File | `/assets/php/upload.php` | High
+6 | File | `/backend/admin/his_admin_register_patient.php` | High
+7 | File | `/goform/saveParentControlInfo` | High
+8 | File | `/goform/SetServerConfig` | High
+9 | File | `/index.php` | Medium
+10 | File | `/mces/?p=class/view_class` | High
+11 | File | `/minio/upload` | High
+12 | File | `/nidp/idff/sso` | High
+13 | File | `/pages/delete_order_details.php` | High
+14 | File | `/php/api_patient_checkin.php` | High
+15 | File | `/products/view_product.php` | High
+16 | File | `/schedulingsystem/addfaculty.php` | High
+17 | File | `/search` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/user_proposal_update_order.php` | High
+20 | File | `/var/run/.inetd.uds` | High
+21 | File | `/visitor-detail.php` | High
+22 | File | `/vm/admin/doctors.php` | High
+23 | File | `about` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `addressbook.php` | High
+26 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,6 +110,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
 * https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
 * https://www.cyfirma.com/research/apt36-phishing-campaign-targets-indian-defense-using-credential-stealing-malware/
+* https://www.cyfirma.com/research/apt36-targets-indian-boss-linux-systems-with-weaponized-autostart-files/
 * https://www.cyfirma.com/research/turning-aid-into-attack-exploitation-of-pakistans-youth-laptop-scheme-to-target-india/
 * https://www.reco.ai/blog/how-apt36-elizarat-redefines-cyber-espionage
 * https://www.threatminer.org/report.php?q=indian-military-personnel-targeted-by-information-theft-campaign-cmajor.pdf&y=2016

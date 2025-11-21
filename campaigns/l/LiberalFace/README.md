@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,19 +56,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/balance/service/list` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/index.php` | Medium
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/rest/api/latest/projectvalidate/key` | High
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | File | `/uncpath/` | Medium
-12 | ... | ... | ...
+2 | File | `/admin/add-foreigner-ticket.php` | High
+3 | File | `/admin/admin_forum/add_views.php` | High
+4 | File | `/admin/categories/save` | High
+5 | File | `/admin/contact-us.php` | High
+6 | File | `/admin/email_setup.php` | High
+7 | File | `/admin/sms_setting.php` | High
+8 | File | `/ajax.php?action=login` | High
+9 | File | `/api/course/enroll-course` | High
+10 | File | `/auth/login` | Medium
+11 | File | `/balance/service/list` | High
+12 | File | `/cancelar-enturmacao-em-lote/` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/create_account.php` | High
+15 | File | `/dashboard/product` | High
+16 | File | `/data_source_edit.shtm` | High
+17 | File | `/educacenso/consulta` | High
+18 | File | `/enturmacao-em-lote/` | High
+19 | File | `/goform/DHCPReserveAddGroup` | High
+20 | File | `/goform/editFileName` | High
+21 | File | `/goform/exeCommand` | High
+22 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

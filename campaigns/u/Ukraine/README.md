@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1314,314 +1314,316 @@ ID | IP address | Hostname | Actor | Confidence
 1273 | [62.244.0.0](https://vuldb.com/?ip.62.244.0.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
 1274 | [63.168.72.4](https://vuldb.com/?ip.63.168.72.4) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
 1275 | [63.246.139.0](https://vuldb.com/?ip.63.246.139.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1276 | [64.226.84.229](https://vuldb.com/?ip.64.226.84.229) | webmeppel.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
-1277 | [64.227.64.163](https://vuldb.com/?ip.64.227.64.163) | - | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
-1278 | [64.227.72.210](https://vuldb.com/?ip.64.227.72.210) | - | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
-1279 | [65.19.141.216](https://vuldb.com/?ip.65.19.141.216) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1280 | [65.21.245.7](https://vuldb.com/?ip.65.21.245.7) | static.7.245.21.65.clients.your-server.de | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1281 | [65.49.80.226](https://vuldb.com/?ip.65.49.80.226) | az-international-llc.100gigabitethernet11-1.core1.waw1.he.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1282 | [66.42.104.158](https://vuldb.com/?ip.66.42.104.158) | 66.42.104.158.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
-1283 | [66.42.126.121](https://vuldb.com/?ip.66.42.126.121) | 66.42.126.121.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
-1284 | [66.96.119.128](https://vuldb.com/?ip.66.96.119.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1285 | [66.220.12.184](https://vuldb.com/?ip.66.220.12.184) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1286 | [68.183.200.0](https://vuldb.com/?ip.68.183.200.0) | htb-kuvpw3yoen.htb-cloud.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
-1287 | [69.168.237.0](https://vuldb.com/?ip.69.168.237.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1288 | [69.168.238.0](https://vuldb.com/?ip.69.168.238.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1289 | [69.168.239.0](https://vuldb.com/?ip.69.168.239.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1290 | [74.125.15.0](https://vuldb.com/?ip.74.125.15.0) | kbp03s01-in-f0.1e100.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1291 | [76.9.27.0](https://vuldb.com/?ip.76.9.27.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1292 | [77.47.128.0](https://vuldb.com/?ip.77.47.128.0) | net-v319.r7.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1293 | [77.47.136.0](https://vuldb.com/?ip.77.47.136.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1294 | [77.47.140.0](https://vuldb.com/?ip.77.47.140.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1295 | [77.47.144.0](https://vuldb.com/?ip.77.47.144.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1296 | [77.47.160.0](https://vuldb.com/?ip.77.47.160.0) | 0.160.47.77.pptp.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1297 | [77.47.176.0](https://vuldb.com/?ip.77.47.176.0) | 0.176.47.77.pptp.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1298 | [77.47.179.0](https://vuldb.com/?ip.77.47.179.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1299 | [77.47.184.0](https://vuldb.com/?ip.77.47.184.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1300 | [77.47.192.0](https://vuldb.com/?ip.77.47.192.0) | ip0.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1301 | [77.47.208.0](https://vuldb.com/?ip.77.47.208.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1302 | [77.47.214.0](https://vuldb.com/?ip.77.47.214.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1303 | [77.47.216.0](https://vuldb.com/?ip.77.47.216.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1304 | [77.47.224.0](https://vuldb.com/?ip.77.47.224.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1305 | [77.47.240.0](https://vuldb.com/?ip.77.47.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1306 | [77.47.244.0](https://vuldb.com/?ip.77.47.244.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1307 | [77.47.246.0](https://vuldb.com/?ip.77.47.246.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1308 | [77.47.248.0](https://vuldb.com/?ip.77.47.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1309 | [77.48.28.204](https://vuldb.com/?ip.77.48.28.204) | 204.28.48.77.finalhosting.cz | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1310 | [77.48.28.236](https://vuldb.com/?ip.77.48.28.236) | missun.intervocalically.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1311 | [77.52.0.0](https://vuldb.com/?ip.77.52.0.0) | 77-52-0-0.staticip.vf-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1312 | [77.72.128.0](https://vuldb.com/?ip.77.72.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1313 | [77.75.144.0](https://vuldb.com/?ip.77.75.144.0) | facebook.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1314 | [77.75.146.0](https://vuldb.com/?ip.77.75.146.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1315 | [77.75.146.128](https://vuldb.com/?ip.77.75.146.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1316 | [77.75.146.136](https://vuldb.com/?ip.77.75.146.136) | vl2738-sw.lv.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1317 | [77.75.146.138](https://vuldb.com/?ip.77.75.146.138) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1318 | [77.75.146.140](https://vuldb.com/?ip.77.75.146.140) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1319 | [77.75.146.144](https://vuldb.com/?ip.77.75.146.144) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1320 | [77.75.146.160](https://vuldb.com/?ip.77.75.146.160) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1321 | [77.75.146.168](https://vuldb.com/?ip.77.75.146.168) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1322 | [77.75.146.176](https://vuldb.com/?ip.77.75.146.176) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1323 | [77.75.146.192](https://vuldb.com/?ip.77.75.146.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1324 | [77.75.147.0](https://vuldb.com/?ip.77.75.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1325 | [77.75.148.0](https://vuldb.com/?ip.77.75.148.0) | customer.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1326 | [77.75.150.0](https://vuldb.com/?ip.77.75.150.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1327 | [77.75.151.0](https://vuldb.com/?ip.77.75.151.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1328 | [77.75.151.128](https://vuldb.com/?ip.77.75.151.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1329 | [77.81.141.0](https://vuldb.com/?ip.77.81.141.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1330 | [77.83.9.0](https://vuldb.com/?ip.77.83.9.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1331 | [77.83.11.0](https://vuldb.com/?ip.77.83.11.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1332 | [77.83.18.0](https://vuldb.com/?ip.77.83.18.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1333 | [77.83.36.0](https://vuldb.com/?ip.77.83.36.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1334 | [77.83.37.0](https://vuldb.com/?ip.77.83.37.0) | undefined.hostname.localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1335 | [77.83.100.0](https://vuldb.com/?ip.77.83.100.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1336 | [77.83.102.0](https://vuldb.com/?ip.77.83.102.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1337 | [77.83.172.0](https://vuldb.com/?ip.77.83.172.0) | subnet.zomro.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1338 | [77.83.188.0](https://vuldb.com/?ip.77.83.188.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1339 | [77.83.193.0](https://vuldb.com/?ip.77.83.193.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1340 | [77.83.204.0](https://vuldb.com/?ip.77.83.204.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1341 | [77.87.32.0](https://vuldb.com/?ip.77.87.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1342 | [77.87.120.0](https://vuldb.com/?ip.77.87.120.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1343 | [77.87.123.0](https://vuldb.com/?ip.77.87.123.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1344 | [77.87.127.0](https://vuldb.com/?ip.77.87.127.0) | network16.thehost.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1345 | [77.87.144.0](https://vuldb.com/?ip.77.87.144.0) | 77.87.144.0.sta.pautina.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1346 | [77.87.192.0](https://vuldb.com/?ip.77.87.192.0) | 77.87.192.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1347 | [77.87.194.0](https://vuldb.com/?ip.77.87.194.0) | 77.87.194.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1348 | [77.87.195.0](https://vuldb.com/?ip.77.87.195.0) | 77.87.195.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1349 | [77.87.196.0](https://vuldb.com/?ip.77.87.196.0) | 77.87.196.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1350 | [77.87.197.0](https://vuldb.com/?ip.77.87.197.0) | 77.87.197.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1351 | [77.87.198.0](https://vuldb.com/?ip.77.87.198.0) | 77.87.198.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1352 | [77.88.192.0](https://vuldb.com/?ip.77.88.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1353 | [77.88.200.0](https://vuldb.com/?ip.77.88.200.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1354 | [77.88.201.2](https://vuldb.com/?ip.77.88.201.2) | te6-5.BR01.KBP.L9.topnet.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1355 | [77.88.201.8](https://vuldb.com/?ip.77.88.201.8) | 77.88.201.8.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1356 | [77.88.201.28](https://vuldb.com/?ip.77.88.201.28) | 77.88.201.28.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1357 | [77.88.201.36](https://vuldb.com/?ip.77.88.201.36) | 77.88.201.36.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1358 | [77.88.201.40](https://vuldb.com/?ip.77.88.201.40) | 77.88.201.40.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1359 | [77.88.201.44](https://vuldb.com/?ip.77.88.201.44) | 77.88.201.44.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1360 | [77.88.201.48](https://vuldb.com/?ip.77.88.201.48) | 77.88.201.48.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1361 | [77.88.201.64](https://vuldb.com/?ip.77.88.201.64) | 77.88.201.64.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1362 | [77.88.201.128](https://vuldb.com/?ip.77.88.201.128) | 77.88.201.128.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1363 | [77.88.201.130](https://vuldb.com/?ip.77.88.201.130) | 77.88.201.130.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1364 | [77.88.201.133](https://vuldb.com/?ip.77.88.201.133) | 77.88.201.133.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1365 | [77.88.201.134](https://vuldb.com/?ip.77.88.201.134) | 77.88.201.134.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1366 | [77.88.201.136](https://vuldb.com/?ip.77.88.201.136) | 77.88.201.136.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1367 | [77.88.201.144](https://vuldb.com/?ip.77.88.201.144) | 77.88.201.144.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1368 | [77.88.201.160](https://vuldb.com/?ip.77.88.201.160) | 77.88.201.160.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1369 | [77.88.201.192](https://vuldb.com/?ip.77.88.201.192) | 77.88.201.192.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1370 | [77.88.201.224](https://vuldb.com/?ip.77.88.201.224) | 77.88.201.224.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1371 | [77.88.201.240](https://vuldb.com/?ip.77.88.201.240) | 77.88.201.240.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1372 | [77.88.201.248](https://vuldb.com/?ip.77.88.201.248) | 77.88.201.248.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1373 | [77.88.202.0](https://vuldb.com/?ip.77.88.202.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1374 | [77.88.204.0](https://vuldb.com/?ip.77.88.204.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1375 | [77.88.208.0](https://vuldb.com/?ip.77.88.208.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1376 | [77.88.229.0](https://vuldb.com/?ip.77.88.229.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1377 | [77.88.230.0](https://vuldb.com/?ip.77.88.230.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1378 | [77.88.231.0](https://vuldb.com/?ip.77.88.231.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1379 | [77.88.232.0](https://vuldb.com/?ip.77.88.232.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1380 | [77.88.232.128](https://vuldb.com/?ip.77.88.232.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1381 | [77.88.232.192](https://vuldb.com/?ip.77.88.232.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1382 | [77.88.232.224](https://vuldb.com/?ip.77.88.232.224) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1383 | [77.88.232.240](https://vuldb.com/?ip.77.88.232.240) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1384 | [77.88.232.248](https://vuldb.com/?ip.77.88.232.248) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1385 | [77.88.232.252](https://vuldb.com/?ip.77.88.232.252) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1386 | [77.88.236.0](https://vuldb.com/?ip.77.88.236.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1387 | [77.88.236.128](https://vuldb.com/?ip.77.88.236.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1388 | [77.88.236.192](https://vuldb.com/?ip.77.88.236.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1389 | [77.88.236.224](https://vuldb.com/?ip.77.88.236.224) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1390 | [77.88.236.240](https://vuldb.com/?ip.77.88.236.240) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1391 | [77.88.236.243](https://vuldb.com/?ip.77.88.236.243) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1392 | [77.88.236.244](https://vuldb.com/?ip.77.88.236.244) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1393 | [77.88.236.248](https://vuldb.com/?ip.77.88.236.248) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1394 | [77.88.237.0](https://vuldb.com/?ip.77.88.237.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1395 | [77.88.238.0](https://vuldb.com/?ip.77.88.238.0) | ucloud-net.onix.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1396 | [77.88.240.0](https://vuldb.com/?ip.77.88.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1397 | [77.88.248.0](https://vuldb.com/?ip.77.88.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1398 | [77.88.248.8](https://vuldb.com/?ip.77.88.248.8) | 77.88.248.8.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1399 | [77.88.248.10](https://vuldb.com/?ip.77.88.248.10) | 77.88.248.10.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1400 | [77.88.248.12](https://vuldb.com/?ip.77.88.248.12) | 77.88.248.12.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1401 | [77.88.248.16](https://vuldb.com/?ip.77.88.248.16) | 77.88.248.16.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1402 | [77.88.248.32](https://vuldb.com/?ip.77.88.248.32) | 77.88.248.32.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1403 | [77.88.248.64](https://vuldb.com/?ip.77.88.248.64) | 77.88.248.64.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1404 | [77.88.248.128](https://vuldb.com/?ip.77.88.248.128) | v2511.lviv.as3326.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1405 | [77.88.249.0](https://vuldb.com/?ip.77.88.249.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1406 | [77.88.250.0](https://vuldb.com/?ip.77.88.250.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1407 | [77.88.252.0](https://vuldb.com/?ip.77.88.252.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1408 | [77.93.32.0](https://vuldb.com/?ip.77.93.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1409 | [77.109.0.0](https://vuldb.com/?ip.77.109.0.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1410 | [77.111.244.0](https://vuldb.com/?ip.77.111.244.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1411 | [77.120.0.0](https://vuldb.com/?ip.77.120.0.0) | unknown.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1412 | [77.120.32.0](https://vuldb.com/?ip.77.120.32.0) | 77.120.32.0.lvv.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1413 | [77.120.48.0](https://vuldb.com/?ip.77.120.48.0) | ip.77.121.13.0.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1414 | [77.120.60.0](https://vuldb.com/?ip.77.120.60.0) | metro.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1415 | [77.120.64.0](https://vuldb.com/?ip.77.120.64.0) | 77.120.64.0.kir.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1416 | [77.120.128.0](https://vuldb.com/?ip.77.120.128.0) | 77.120.128.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1417 | [77.121.0.0](https://vuldb.com/?ip.77.121.0.0) | 77.121.0.0.khe.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1418 | [77.121.8.0](https://vuldb.com/?ip.77.121.8.0) | 77.121.8.0.pol.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1419 | [77.121.12.0](https://vuldb.com/?ip.77.121.12.0) | 77.121.12.0.head.sum.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1420 | [77.121.15.0](https://vuldb.com/?ip.77.121.15.0) | 77.121.15.0.ter.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1421 | [77.121.16.0](https://vuldb.com/?ip.77.121.16.0) | 77.121.16.0.lut.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1422 | [77.121.32.0](https://vuldb.com/?ip.77.121.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1423 | [77.121.64.0](https://vuldb.com/?ip.77.121.64.0) | 77.121.64.0.lut.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1424 | [77.121.128.0](https://vuldb.com/?ip.77.121.128.0) | 77.121.128.0.zap.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1425 | [77.122.0.0](https://vuldb.com/?ip.77.122.0.0) | 77.122.0.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1426 | [77.123.0.0](https://vuldb.com/?ip.77.123.0.0) | 77.123.0.0.rov.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1427 | [77.123.14.31](https://vuldb.com/?ip.77.123.14.31) | 77-123-14-31.rov.volia.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-1428 | [77.123.128.0](https://vuldb.com/?ip.77.123.128.0) | 0.128.123.77.colo.static.dcvolia.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1429 | [77.123.192.0](https://vuldb.com/?ip.77.123.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1430 | [77.220.212.0](https://vuldb.com/?ip.77.220.212.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1431 | [77.222.128.0](https://vuldb.com/?ip.77.222.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1432 | [77.222.144.0](https://vuldb.com/?ip.77.222.144.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1433 | [77.222.145.0](https://vuldb.com/?ip.77.222.145.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1434 | [77.222.145.64](https://vuldb.com/?ip.77.222.145.64) | 77.222.145.64.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1435 | [77.222.145.72](https://vuldb.com/?ip.77.222.145.72) | 77.222.145.72.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1436 | [77.222.145.80](https://vuldb.com/?ip.77.222.145.80) | 77.222.145.80.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1437 | [77.222.145.96](https://vuldb.com/?ip.77.222.145.96) | 77.222.145.96.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1438 | [77.222.145.128](https://vuldb.com/?ip.77.222.145.128) | 77.222.145.128.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1439 | [77.222.146.0](https://vuldb.com/?ip.77.222.146.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1440 | [77.222.148.0](https://vuldb.com/?ip.77.222.148.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1441 | [77.222.152.0](https://vuldb.com/?ip.77.222.152.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1442 | [77.239.160.0](https://vuldb.com/?ip.77.239.160.0) | 77-239-160-0.static.vega-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1443 | [77.244.32.0](https://vuldb.com/?ip.77.244.32.0) | 77.244.32.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1444 | [77.246.248.0](https://vuldb.com/?ip.77.246.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1445 | [77.247.16.0](https://vuldb.com/?ip.77.247.16.0) | ppp-77-247-16-0.wildpark.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1446 | [77.247.126.247](https://vuldb.com/?ip.77.247.126.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-1447 | [77.247.216.0](https://vuldb.com/?ip.77.247.216.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1448 | [78.24.72.0](https://vuldb.com/?ip.78.24.72.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1449 | [78.24.75.0](https://vuldb.com/?ip.78.24.75.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1450 | [78.24.76.0](https://vuldb.com/?ip.78.24.76.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1451 | [78.24.77.0](https://vuldb.com/?ip.78.24.77.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1452 | [78.24.78.0](https://vuldb.com/?ip.78.24.78.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1453 | [78.25.0.0](https://vuldb.com/?ip.78.25.0.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1454 | [78.25.2.0](https://vuldb.com/?ip.78.25.2.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1455 | [78.25.4.0](https://vuldb.com/?ip.78.25.4.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1456 | [78.25.8.0](https://vuldb.com/?ip.78.25.8.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1457 | [78.25.16.0](https://vuldb.com/?ip.78.25.16.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1458 | [78.25.32.0](https://vuldb.com/?ip.78.25.32.0) | 78-25-32-0.static.vega-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1459 | [78.26.128.0](https://vuldb.com/?ip.78.26.128.0) | net-78.26.128-255.Odessa.TV | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1460 | [78.27.128.0](https://vuldb.com/?ip.78.27.128.0) | pool128-000.domashka.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1461 | [78.27.192.0](https://vuldb.com/?ip.78.27.192.0) | 78.27.192.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1462 | [78.27.224.8](https://vuldb.com/?ip.78.27.224.8) | 78.27.224.8.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1463 | [78.27.224.9](https://vuldb.com/?ip.78.27.224.9) | 78.27.224.9.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1464 | [78.27.224.10](https://vuldb.com/?ip.78.27.224.10) | 78.27.224.10.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1465 | [78.27.227.0](https://vuldb.com/?ip.78.27.227.0) | 78.27.227.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1466 | [78.27.231.0](https://vuldb.com/?ip.78.27.231.0) | 78.27.231.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1467 | [78.30.192.0](https://vuldb.com/?ip.78.30.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1468 | [78.31.176.0](https://vuldb.com/?ip.78.31.176.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1469 | [78.31.189.0](https://vuldb.com/?ip.78.31.189.0) | ip-78-31-189-0.infiumhost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1470 | [78.40.119.0](https://vuldb.com/?ip.78.40.119.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1471 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
-1472 | [78.41.107.0](https://vuldb.com/?ip.78.41.107.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1473 | [78.92.231.0](https://vuldb.com/?ip.78.92.231.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1474 | [78.109.16.0](https://vuldb.com/?ip.78.109.16.0) | 0.16.109.78.hosting.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1475 | [78.111.16.0](https://vuldb.com/?ip.78.111.16.0) | dsl-16br0.vil.com.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1476 | [78.111.176.0](https://vuldb.com/?ip.78.111.176.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1477 | [78.111.208.0](https://vuldb.com/?ip.78.111.208.0) | 208-0.pppoe.mp.farlep.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1478 | [78.136.200.0](https://vuldb.com/?ip.78.136.200.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1479 | [78.137.0.0](https://vuldb.com/?ip.78.137.0.0) | 78-137-0-0.static-ppp-pool.2mcl.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1480 | [78.138.25.0](https://vuldb.com/?ip.78.138.25.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1481 | [78.141.238.136](https://vuldb.com/?ip.78.141.238.136) | 78.141.238.136.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
-1482 | [78.141.239.24](https://vuldb.com/?ip.78.141.239.24) | 78.141.239.24.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
-1483 | [78.152.160.0](https://vuldb.com/?ip.78.152.160.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1484 | [78.153.137.0](https://vuldb.com/?ip.78.153.137.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1485 | [78.153.138.0](https://vuldb.com/?ip.78.153.138.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1486 | [78.153.139.7](https://vuldb.com/?ip.78.153.139.7) | DB-DUMP.ip-ptr.tech | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
-1487 | [78.153.147.0](https://vuldb.com/?ip.78.153.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1488 | [78.154.160.0](https://vuldb.com/?ip.78.154.160.0) | 78.154.160.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1489 | [78.154.161.32](https://vuldb.com/?ip.78.154.161.32) | 78.154.161.32.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1490 | [78.154.161.64](https://vuldb.com/?ip.78.154.161.64) | 78.154.161.64.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1491 | [78.154.161.128](https://vuldb.com/?ip.78.154.161.128) | 78.154.161.128.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1492 | [78.154.162.0](https://vuldb.com/?ip.78.154.162.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1493 | [78.154.164.0](https://vuldb.com/?ip.78.154.164.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1494 | [78.154.166.0](https://vuldb.com/?ip.78.154.166.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1495 | [78.154.166.64](https://vuldb.com/?ip.78.154.166.64) | 78.154.166.64.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1496 | [78.154.166.80](https://vuldb.com/?ip.78.154.166.80) | 78.154.166.80.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1497 | [78.154.166.84](https://vuldb.com/?ip.78.154.166.84) | 78.154.166.84.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1498 | [78.154.166.88](https://vuldb.com/?ip.78.154.166.88) | 78.154.166.88.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1499 | [78.154.166.96](https://vuldb.com/?ip.78.154.166.96) | 78.154.166.96.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1500 | [78.154.166.100](https://vuldb.com/?ip.78.154.166.100) | 78.154.166.100.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1501 | [78.154.166.104](https://vuldb.com/?ip.78.154.166.104) | 78.154.166.104.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1502 | [78.154.166.112](https://vuldb.com/?ip.78.154.166.112) | 78.154.166.112.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1503 | [78.154.166.128](https://vuldb.com/?ip.78.154.166.128) | 78.154.166.128.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1504 | [78.154.166.132](https://vuldb.com/?ip.78.154.166.132) | 78.154.166.132.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1505 | [78.154.166.136](https://vuldb.com/?ip.78.154.166.136) | 78.154.166.136.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1506 | [78.154.166.144](https://vuldb.com/?ip.78.154.166.144) | 78.154.166.144.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1507 | [78.154.166.160](https://vuldb.com/?ip.78.154.166.160) | 78.154.166.160.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1508 | [78.154.166.192](https://vuldb.com/?ip.78.154.166.192) | 78.154.166.192.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1509 | [78.154.167.0](https://vuldb.com/?ip.78.154.167.0) | 78.154.167.0.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1510 | [78.154.168.0](https://vuldb.com/?ip.78.154.168.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1511 | [78.154.169.0](https://vuldb.com/?ip.78.154.169.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1512 | [78.154.170.0](https://vuldb.com/?ip.78.154.170.0) | 78.154.170.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1513 | [78.154.172.0](https://vuldb.com/?ip.78.154.172.0) | dsl.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1514 | [78.154.176.0](https://vuldb.com/?ip.78.154.176.0) | 78.154.176.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1515 | [78.158.192.0](https://vuldb.com/?ip.78.158.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1516 | [78.159.32.0](https://vuldb.com/?ip.78.159.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1517 | [79.98.240.0](https://vuldb.com/?ip.79.98.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1518 | [79.110.16.0](https://vuldb.com/?ip.79.110.16.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1519 | [79.110.17.0](https://vuldb.com/?ip.79.110.17.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1520 | [79.110.18.0](https://vuldb.com/?ip.79.110.18.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1521 | [79.110.20.0](https://vuldb.com/?ip.79.110.20.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1522 | [79.110.21.0](https://vuldb.com/?ip.79.110.21.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1523 | [79.110.22.0](https://vuldb.com/?ip.79.110.22.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1524 | [79.110.23.0](https://vuldb.com/?ip.79.110.23.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1525 | [79.110.24.0](https://vuldb.com/?ip.79.110.24.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1526 | [79.110.25.0](https://vuldb.com/?ip.79.110.25.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1527 | [79.110.25.128](https://vuldb.com/?ip.79.110.25.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1528 | [79.110.26.0](https://vuldb.com/?ip.79.110.26.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1529 | [79.110.28.0](https://vuldb.com/?ip.79.110.28.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1530 | [79.110.29.0](https://vuldb.com/?ip.79.110.29.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1531 | [79.110.30.0](https://vuldb.com/?ip.79.110.30.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1532 | [79.110.31.0](https://vuldb.com/?ip.79.110.31.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1533 | [79.110.96.0](https://vuldb.com/?ip.79.110.96.0) | 79.110.96.0.serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1534 | [79.110.128.0](https://vuldb.com/?ip.79.110.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1535 | [79.110.188.0](https://vuldb.com/?ip.79.110.188.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1536 | [79.110.208.0](https://vuldb.com/?ip.79.110.208.0) | 79.110.208.0.serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1537 | [79.110.209.0](https://vuldb.com/?ip.79.110.209.0) | serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1538 | [79.110.210.0](https://vuldb.com/?ip.79.110.210.0) | serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1539 | [79.124.41.0](https://vuldb.com/?ip.79.124.41.0) | dns-rdns.to | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1540 | [79.124.128.0](https://vuldb.com/?ip.79.124.128.0) | 0.128.124.79.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1541 | [79.133.108.0](https://vuldb.com/?ip.79.133.108.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1542 | [79.135.192.0](https://vuldb.com/?ip.79.135.192.0) | 0.pool-79.135.192.icn.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1543 | [79.137.194.146](https://vuldb.com/?ip.79.137.194.146) | karlx1da.pwh | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1544 | [79.140.0.0](https://vuldb.com/?ip.79.140.0.0) | subnet79-0-24.Te.NeT.UA | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1545 | [79.142.192.0](https://vuldb.com/?ip.79.142.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1546 | [79.143.32.0](https://vuldb.com/?ip.79.143.32.0) | 79.143.32.0.vntp.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1547 | [79.171.113.0](https://vuldb.com/?ip.79.171.113.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1548 | [79.171.116.0](https://vuldb.com/?ip.79.171.116.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1549 | [79.171.120.0](https://vuldb.com/?ip.79.171.120.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1550 | [80.13.0.226](https://vuldb.com/?ip.80.13.0.226) | laubervilliers-656-1-1-226.w80-13.abo.wanadoo.fr | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1551 | [80.13.139.249](https://vuldb.com/?ip.80.13.139.249) | lneuilly-657-1-86-249.w80-13.abo.wanadoo.fr | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1552 | [80.17.254.230](https://vuldb.com/?ip.80.17.254.230) | host-80-17-254-230.business.telecomitalia.it | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1553 | [80.64.80.0](https://vuldb.com/?ip.80.64.80.0) | 80.64.80.0.untc.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1554 | [80.66.76.187](https://vuldb.com/?ip.80.66.76.187) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1555 | [80.66.81.0](https://vuldb.com/?ip.80.66.81.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1556 | [80.66.85.0](https://vuldb.com/?ip.80.66.85.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1557 | [80.66.196.0](https://vuldb.com/?ip.80.66.196.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1558 | [80.67.167.81](https://vuldb.com/?ip.80.67.167.81) | nosoignons.cust.milkywan.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1559 | [80.68.147.0](https://vuldb.com/?ip.80.68.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1560 | [80.70.64.0](https://vuldb.com/?ip.80.70.64.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1561 | [80.71.158.0](https://vuldb.com/?ip.80.71.158.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1562 | [80.73.0.0](https://vuldb.com/?ip.80.73.0.0) | 0.0.73.80.triolan.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1563 | [80.76.63.0](https://vuldb.com/?ip.80.76.63.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1564 | [80.77.32.0](https://vuldb.com/?ip.80.77.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1565 | [80.77.167.12](https://vuldb.com/?ip.80.77.167.12) | 80-77-167-12.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1566 | [80.77.167.26](https://vuldb.com/?ip.80.77.167.26) | uzhgorod-atr-b1-xe0-0-3-vlan2035.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1567 | [80.77.167.43](https://vuldb.com/?ip.80.77.167.43) | uarnet-gw.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1568 | [80.77.167.48](https://vuldb.com/?ip.80.77.167.48) | 167-48.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1569 | [80.77.167.63](https://vuldb.com/?ip.80.77.167.63) | kiev-nt-b1-ae2-vlan3879.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1570 | [80.77.167.112](https://vuldb.com/?ip.80.77.167.112) | 80-77-167-112.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1571 | [80.77.167.116](https://vuldb.com/?ip.80.77.167.116) | fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1572 | [80.77.167.150](https://vuldb.com/?ip.80.77.167.150) | khar-atr-b1-ae1-vlan2038.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1573 | [80.77.167.162](https://vuldb.com/?ip.80.77.167.162) | uzhgorod-atr-b1-ae5-vlan322.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1574 | [80.77.167.164](https://vuldb.com/?ip.80.77.167.164) | fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1575 | [80.77.167.210](https://vuldb.com/?ip.80.77.167.210) | 80-77-167-210.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1576 | [80.77.167.216](https://vuldb.com/?ip.80.77.167.216) | 80-77-167-216.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1577 | [80.77.167.221](https://vuldb.com/?ip.80.77.167.221) | kiev-nt-b1-ae2-vlan1184.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1578 | [80.77.167.228](https://vuldb.com/?ip.80.77.167.228) | kiev-nt-b1-ae5-vlan1396.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1579 | [80.77.167.250](https://vuldb.com/?ip.80.77.167.250) | kiev-nt-b1-ae5-vlan3103.fiord.net.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1580 | [80.78.16.0](https://vuldb.com/?ip.80.78.16.0) | - | [Russian GRU](https://vuldb.com/?actor.russian_gru) | High
-1581 | ... | ... | ... | ...
+1276 | [64.176.173.164](https://vuldb.com/?ip.64.176.173.164) | 64.176.173.164.vultrusercontent.com | [Gamaredon](https://vuldb.com/?actor.gamaredon) | Medium
+1277 | [64.226.84.229](https://vuldb.com/?ip.64.226.84.229) | webmeppel.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
+1278 | [64.227.64.163](https://vuldb.com/?ip.64.227.64.163) | - | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
+1279 | [64.227.72.210](https://vuldb.com/?ip.64.227.72.210) | - | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
+1280 | [65.19.141.216](https://vuldb.com/?ip.65.19.141.216) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1281 | [65.21.245.7](https://vuldb.com/?ip.65.21.245.7) | static.7.245.21.65.clients.your-server.de | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1282 | [65.49.80.226](https://vuldb.com/?ip.65.49.80.226) | az-international-llc.100gigabitethernet11-1.core1.waw1.he.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1283 | [66.42.104.158](https://vuldb.com/?ip.66.42.104.158) | 66.42.104.158.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
+1284 | [66.42.126.121](https://vuldb.com/?ip.66.42.126.121) | 66.42.126.121.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
+1285 | [66.96.119.128](https://vuldb.com/?ip.66.96.119.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1286 | [66.220.12.184](https://vuldb.com/?ip.66.220.12.184) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1287 | [68.183.200.0](https://vuldb.com/?ip.68.183.200.0) | htb-kuvpw3yoen.htb-cloud.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
+1288 | [69.168.237.0](https://vuldb.com/?ip.69.168.237.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1289 | [69.168.238.0](https://vuldb.com/?ip.69.168.238.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1290 | [69.168.239.0](https://vuldb.com/?ip.69.168.239.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1291 | [74.125.15.0](https://vuldb.com/?ip.74.125.15.0) | kbp03s01-in-f0.1e100.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1292 | [76.9.27.0](https://vuldb.com/?ip.76.9.27.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1293 | [77.46.148.242](https://vuldb.com/?ip.77.46.148.242) | srv.biznisoblak.rs | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+1294 | [77.47.128.0](https://vuldb.com/?ip.77.47.128.0) | net-v319.r7.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1295 | [77.47.136.0](https://vuldb.com/?ip.77.47.136.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1296 | [77.47.140.0](https://vuldb.com/?ip.77.47.140.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1297 | [77.47.144.0](https://vuldb.com/?ip.77.47.144.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1298 | [77.47.160.0](https://vuldb.com/?ip.77.47.160.0) | 0.160.47.77.pptp.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1299 | [77.47.176.0](https://vuldb.com/?ip.77.47.176.0) | 0.176.47.77.pptp.kpi.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1300 | [77.47.179.0](https://vuldb.com/?ip.77.47.179.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1301 | [77.47.184.0](https://vuldb.com/?ip.77.47.184.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1302 | [77.47.192.0](https://vuldb.com/?ip.77.47.192.0) | ip0.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1303 | [77.47.208.0](https://vuldb.com/?ip.77.47.208.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1304 | [77.47.214.0](https://vuldb.com/?ip.77.47.214.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1305 | [77.47.216.0](https://vuldb.com/?ip.77.47.216.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1306 | [77.47.224.0](https://vuldb.com/?ip.77.47.224.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1307 | [77.47.240.0](https://vuldb.com/?ip.77.47.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1308 | [77.47.244.0](https://vuldb.com/?ip.77.47.244.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1309 | [77.47.246.0](https://vuldb.com/?ip.77.47.246.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1310 | [77.47.248.0](https://vuldb.com/?ip.77.47.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1311 | [77.48.28.204](https://vuldb.com/?ip.77.48.28.204) | 204.28.48.77.finalhosting.cz | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1312 | [77.48.28.236](https://vuldb.com/?ip.77.48.28.236) | missun.intervocalically.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1313 | [77.52.0.0](https://vuldb.com/?ip.77.52.0.0) | 77-52-0-0.staticip.vf-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1314 | [77.72.128.0](https://vuldb.com/?ip.77.72.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1315 | [77.75.144.0](https://vuldb.com/?ip.77.75.144.0) | facebook.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1316 | [77.75.146.0](https://vuldb.com/?ip.77.75.146.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1317 | [77.75.146.128](https://vuldb.com/?ip.77.75.146.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1318 | [77.75.146.136](https://vuldb.com/?ip.77.75.146.136) | vl2738-sw.lv.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1319 | [77.75.146.138](https://vuldb.com/?ip.77.75.146.138) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1320 | [77.75.146.140](https://vuldb.com/?ip.77.75.146.140) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1321 | [77.75.146.144](https://vuldb.com/?ip.77.75.146.144) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1322 | [77.75.146.160](https://vuldb.com/?ip.77.75.146.160) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1323 | [77.75.146.168](https://vuldb.com/?ip.77.75.146.168) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1324 | [77.75.146.176](https://vuldb.com/?ip.77.75.146.176) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1325 | [77.75.146.192](https://vuldb.com/?ip.77.75.146.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1326 | [77.75.147.0](https://vuldb.com/?ip.77.75.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1327 | [77.75.148.0](https://vuldb.com/?ip.77.75.148.0) | customer.dataline.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1328 | [77.75.150.0](https://vuldb.com/?ip.77.75.150.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1329 | [77.75.151.0](https://vuldb.com/?ip.77.75.151.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1330 | [77.75.151.128](https://vuldb.com/?ip.77.75.151.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1331 | [77.81.141.0](https://vuldb.com/?ip.77.81.141.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1332 | [77.83.9.0](https://vuldb.com/?ip.77.83.9.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1333 | [77.83.11.0](https://vuldb.com/?ip.77.83.11.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1334 | [77.83.18.0](https://vuldb.com/?ip.77.83.18.0) | localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1335 | [77.83.36.0](https://vuldb.com/?ip.77.83.36.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1336 | [77.83.37.0](https://vuldb.com/?ip.77.83.37.0) | undefined.hostname.localhost | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1337 | [77.83.100.0](https://vuldb.com/?ip.77.83.100.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1338 | [77.83.102.0](https://vuldb.com/?ip.77.83.102.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1339 | [77.83.172.0](https://vuldb.com/?ip.77.83.172.0) | subnet.zomro.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1340 | [77.83.188.0](https://vuldb.com/?ip.77.83.188.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1341 | [77.83.193.0](https://vuldb.com/?ip.77.83.193.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1342 | [77.83.204.0](https://vuldb.com/?ip.77.83.204.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1343 | [77.87.32.0](https://vuldb.com/?ip.77.87.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1344 | [77.87.120.0](https://vuldb.com/?ip.77.87.120.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1345 | [77.87.123.0](https://vuldb.com/?ip.77.87.123.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1346 | [77.87.127.0](https://vuldb.com/?ip.77.87.127.0) | network16.thehost.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1347 | [77.87.144.0](https://vuldb.com/?ip.77.87.144.0) | 77.87.144.0.sta.pautina.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1348 | [77.87.192.0](https://vuldb.com/?ip.77.87.192.0) | 77.87.192.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1349 | [77.87.194.0](https://vuldb.com/?ip.77.87.194.0) | 77.87.194.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1350 | [77.87.195.0](https://vuldb.com/?ip.77.87.195.0) | 77.87.195.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1351 | [77.87.196.0](https://vuldb.com/?ip.77.87.196.0) | 77.87.196.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1352 | [77.87.197.0](https://vuldb.com/?ip.77.87.197.0) | 77.87.197.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1353 | [77.87.198.0](https://vuldb.com/?ip.77.87.198.0) | 77.87.198.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1354 | [77.88.192.0](https://vuldb.com/?ip.77.88.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1355 | [77.88.200.0](https://vuldb.com/?ip.77.88.200.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1356 | [77.88.201.2](https://vuldb.com/?ip.77.88.201.2) | te6-5.BR01.KBP.L9.topnet.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1357 | [77.88.201.8](https://vuldb.com/?ip.77.88.201.8) | 77.88.201.8.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1358 | [77.88.201.28](https://vuldb.com/?ip.77.88.201.28) | 77.88.201.28.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1359 | [77.88.201.36](https://vuldb.com/?ip.77.88.201.36) | 77.88.201.36.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1360 | [77.88.201.40](https://vuldb.com/?ip.77.88.201.40) | 77.88.201.40.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1361 | [77.88.201.44](https://vuldb.com/?ip.77.88.201.44) | 77.88.201.44.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1362 | [77.88.201.48](https://vuldb.com/?ip.77.88.201.48) | 77.88.201.48.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1363 | [77.88.201.64](https://vuldb.com/?ip.77.88.201.64) | 77.88.201.64.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1364 | [77.88.201.128](https://vuldb.com/?ip.77.88.201.128) | 77.88.201.128.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1365 | [77.88.201.130](https://vuldb.com/?ip.77.88.201.130) | 77.88.201.130.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1366 | [77.88.201.133](https://vuldb.com/?ip.77.88.201.133) | 77.88.201.133.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1367 | [77.88.201.134](https://vuldb.com/?ip.77.88.201.134) | 77.88.201.134.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1368 | [77.88.201.136](https://vuldb.com/?ip.77.88.201.136) | 77.88.201.136.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1369 | [77.88.201.144](https://vuldb.com/?ip.77.88.201.144) | 77.88.201.144.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1370 | [77.88.201.160](https://vuldb.com/?ip.77.88.201.160) | 77.88.201.160.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1371 | [77.88.201.192](https://vuldb.com/?ip.77.88.201.192) | 77.88.201.192.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1372 | [77.88.201.224](https://vuldb.com/?ip.77.88.201.224) | 77.88.201.224.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1373 | [77.88.201.240](https://vuldb.com/?ip.77.88.201.240) | 77.88.201.240.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1374 | [77.88.201.248](https://vuldb.com/?ip.77.88.201.248) | 77.88.201.248.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1375 | [77.88.202.0](https://vuldb.com/?ip.77.88.202.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1376 | [77.88.204.0](https://vuldb.com/?ip.77.88.204.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1377 | [77.88.208.0](https://vuldb.com/?ip.77.88.208.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1378 | [77.88.229.0](https://vuldb.com/?ip.77.88.229.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1379 | [77.88.230.0](https://vuldb.com/?ip.77.88.230.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1380 | [77.88.231.0](https://vuldb.com/?ip.77.88.231.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1381 | [77.88.232.0](https://vuldb.com/?ip.77.88.232.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1382 | [77.88.232.128](https://vuldb.com/?ip.77.88.232.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1383 | [77.88.232.192](https://vuldb.com/?ip.77.88.232.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1384 | [77.88.232.224](https://vuldb.com/?ip.77.88.232.224) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1385 | [77.88.232.240](https://vuldb.com/?ip.77.88.232.240) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1386 | [77.88.232.248](https://vuldb.com/?ip.77.88.232.248) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1387 | [77.88.232.252](https://vuldb.com/?ip.77.88.232.252) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1388 | [77.88.236.0](https://vuldb.com/?ip.77.88.236.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1389 | [77.88.236.128](https://vuldb.com/?ip.77.88.236.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1390 | [77.88.236.192](https://vuldb.com/?ip.77.88.236.192) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1391 | [77.88.236.224](https://vuldb.com/?ip.77.88.236.224) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1392 | [77.88.236.240](https://vuldb.com/?ip.77.88.236.240) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1393 | [77.88.236.243](https://vuldb.com/?ip.77.88.236.243) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1394 | [77.88.236.244](https://vuldb.com/?ip.77.88.236.244) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1395 | [77.88.236.248](https://vuldb.com/?ip.77.88.236.248) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1396 | [77.88.237.0](https://vuldb.com/?ip.77.88.237.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1397 | [77.88.238.0](https://vuldb.com/?ip.77.88.238.0) | ucloud-net.onix.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1398 | [77.88.240.0](https://vuldb.com/?ip.77.88.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1399 | [77.88.248.0](https://vuldb.com/?ip.77.88.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1400 | [77.88.248.8](https://vuldb.com/?ip.77.88.248.8) | 77.88.248.8.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1401 | [77.88.248.10](https://vuldb.com/?ip.77.88.248.10) | 77.88.248.10.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1402 | [77.88.248.12](https://vuldb.com/?ip.77.88.248.12) | 77.88.248.12.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1403 | [77.88.248.16](https://vuldb.com/?ip.77.88.248.16) | 77.88.248.16.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1404 | [77.88.248.32](https://vuldb.com/?ip.77.88.248.32) | 77.88.248.32.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1405 | [77.88.248.64](https://vuldb.com/?ip.77.88.248.64) | 77.88.248.64.p2p.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1406 | [77.88.248.128](https://vuldb.com/?ip.77.88.248.128) | v2511.lviv.as3326.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1407 | [77.88.249.0](https://vuldb.com/?ip.77.88.249.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1408 | [77.88.250.0](https://vuldb.com/?ip.77.88.250.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1409 | [77.88.252.0](https://vuldb.com/?ip.77.88.252.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1410 | [77.93.32.0](https://vuldb.com/?ip.77.93.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1411 | [77.109.0.0](https://vuldb.com/?ip.77.109.0.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1412 | [77.111.244.0](https://vuldb.com/?ip.77.111.244.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1413 | [77.120.0.0](https://vuldb.com/?ip.77.120.0.0) | unknown.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1414 | [77.120.32.0](https://vuldb.com/?ip.77.120.32.0) | 77.120.32.0.lvv.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1415 | [77.120.48.0](https://vuldb.com/?ip.77.120.48.0) | ip.77.121.13.0.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1416 | [77.120.60.0](https://vuldb.com/?ip.77.120.60.0) | metro.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1417 | [77.120.64.0](https://vuldb.com/?ip.77.120.64.0) | 77.120.64.0.kir.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1418 | [77.120.128.0](https://vuldb.com/?ip.77.120.128.0) | 77.120.128.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1419 | [77.121.0.0](https://vuldb.com/?ip.77.121.0.0) | 77.121.0.0.khe.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1420 | [77.121.8.0](https://vuldb.com/?ip.77.121.8.0) | 77.121.8.0.pol.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1421 | [77.121.12.0](https://vuldb.com/?ip.77.121.12.0) | 77.121.12.0.head.sum.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1422 | [77.121.15.0](https://vuldb.com/?ip.77.121.15.0) | 77.121.15.0.ter.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1423 | [77.121.16.0](https://vuldb.com/?ip.77.121.16.0) | 77.121.16.0.lut.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1424 | [77.121.32.0](https://vuldb.com/?ip.77.121.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1425 | [77.121.64.0](https://vuldb.com/?ip.77.121.64.0) | 77.121.64.0.lut.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1426 | [77.121.128.0](https://vuldb.com/?ip.77.121.128.0) | 77.121.128.0.zap.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1427 | [77.122.0.0](https://vuldb.com/?ip.77.122.0.0) | 77.122.0.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1428 | [77.123.0.0](https://vuldb.com/?ip.77.123.0.0) | 77.123.0.0.rov.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1429 | [77.123.14.31](https://vuldb.com/?ip.77.123.14.31) | 77-123-14-31.rov.volia.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+1430 | [77.123.128.0](https://vuldb.com/?ip.77.123.128.0) | 0.128.123.77.colo.static.dcvolia.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1431 | [77.123.192.0](https://vuldb.com/?ip.77.123.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1432 | [77.220.212.0](https://vuldb.com/?ip.77.220.212.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1433 | [77.222.128.0](https://vuldb.com/?ip.77.222.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1434 | [77.222.144.0](https://vuldb.com/?ip.77.222.144.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1435 | [77.222.145.0](https://vuldb.com/?ip.77.222.145.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1436 | [77.222.145.64](https://vuldb.com/?ip.77.222.145.64) | 77.222.145.64.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1437 | [77.222.145.72](https://vuldb.com/?ip.77.222.145.72) | 77.222.145.72.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1438 | [77.222.145.80](https://vuldb.com/?ip.77.222.145.80) | 77.222.145.80.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1439 | [77.222.145.96](https://vuldb.com/?ip.77.222.145.96) | 77.222.145.96.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1440 | [77.222.145.128](https://vuldb.com/?ip.77.222.145.128) | 77.222.145.128.ipv4.datagroup.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1441 | [77.222.146.0](https://vuldb.com/?ip.77.222.146.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1442 | [77.222.148.0](https://vuldb.com/?ip.77.222.148.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1443 | [77.222.152.0](https://vuldb.com/?ip.77.222.152.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1444 | [77.239.160.0](https://vuldb.com/?ip.77.239.160.0) | 77-239-160-0.static.vega-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1445 | [77.244.32.0](https://vuldb.com/?ip.77.244.32.0) | 77.244.32.0.kha.volia.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1446 | [77.246.248.0](https://vuldb.com/?ip.77.246.248.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1447 | [77.247.16.0](https://vuldb.com/?ip.77.247.16.0) | ppp-77-247-16-0.wildpark.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1448 | [77.247.126.247](https://vuldb.com/?ip.77.247.126.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+1449 | [77.247.216.0](https://vuldb.com/?ip.77.247.216.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1450 | [78.24.72.0](https://vuldb.com/?ip.78.24.72.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1451 | [78.24.75.0](https://vuldb.com/?ip.78.24.75.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1452 | [78.24.76.0](https://vuldb.com/?ip.78.24.76.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1453 | [78.24.77.0](https://vuldb.com/?ip.78.24.77.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1454 | [78.24.78.0](https://vuldb.com/?ip.78.24.78.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1455 | [78.25.0.0](https://vuldb.com/?ip.78.25.0.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1456 | [78.25.2.0](https://vuldb.com/?ip.78.25.2.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1457 | [78.25.4.0](https://vuldb.com/?ip.78.25.4.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1458 | [78.25.8.0](https://vuldb.com/?ip.78.25.8.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1459 | [78.25.16.0](https://vuldb.com/?ip.78.25.16.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1460 | [78.25.32.0](https://vuldb.com/?ip.78.25.32.0) | 78-25-32-0.static.vega-ua.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1461 | [78.26.128.0](https://vuldb.com/?ip.78.26.128.0) | net-78.26.128-255.Odessa.TV | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1462 | [78.27.128.0](https://vuldb.com/?ip.78.27.128.0) | pool128-000.domashka.kiev.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1463 | [78.27.192.0](https://vuldb.com/?ip.78.27.192.0) | 78.27.192.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1464 | [78.27.224.8](https://vuldb.com/?ip.78.27.224.8) | 78.27.224.8.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1465 | [78.27.224.9](https://vuldb.com/?ip.78.27.224.9) | 78.27.224.9.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1466 | [78.27.224.10](https://vuldb.com/?ip.78.27.224.10) | 78.27.224.10.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1467 | [78.27.227.0](https://vuldb.com/?ip.78.27.227.0) | 78.27.227.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1468 | [78.27.231.0](https://vuldb.com/?ip.78.27.231.0) | 78.27.231.0.mirohost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1469 | [78.30.192.0](https://vuldb.com/?ip.78.30.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1470 | [78.31.176.0](https://vuldb.com/?ip.78.31.176.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1471 | [78.31.189.0](https://vuldb.com/?ip.78.31.189.0) | ip-78-31-189-0.infiumhost.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1472 | [78.40.119.0](https://vuldb.com/?ip.78.40.119.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1473 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+1474 | [78.41.107.0](https://vuldb.com/?ip.78.41.107.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1475 | [78.92.231.0](https://vuldb.com/?ip.78.92.231.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1476 | [78.109.16.0](https://vuldb.com/?ip.78.109.16.0) | 0.16.109.78.hosting.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1477 | [78.111.16.0](https://vuldb.com/?ip.78.111.16.0) | dsl-16br0.vil.com.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1478 | [78.111.176.0](https://vuldb.com/?ip.78.111.176.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1479 | [78.111.208.0](https://vuldb.com/?ip.78.111.208.0) | 208-0.pppoe.mp.farlep.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1480 | [78.136.200.0](https://vuldb.com/?ip.78.136.200.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1481 | [78.137.0.0](https://vuldb.com/?ip.78.137.0.0) | 78-137-0-0.static-ppp-pool.2mcl.com | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1482 | [78.138.25.0](https://vuldb.com/?ip.78.138.25.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1483 | [78.141.238.136](https://vuldb.com/?ip.78.141.238.136) | 78.141.238.136.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
+1484 | [78.141.239.24](https://vuldb.com/?ip.78.141.239.24) | 78.141.239.24.vultrusercontent.com | [Shuckworm](https://vuldb.com/?actor.shuckworm) | Medium
+1485 | [78.152.160.0](https://vuldb.com/?ip.78.152.160.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1486 | [78.153.137.0](https://vuldb.com/?ip.78.153.137.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1487 | [78.153.138.0](https://vuldb.com/?ip.78.153.138.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1488 | [78.153.139.7](https://vuldb.com/?ip.78.153.139.7) | DB-DUMP.ip-ptr.tech | [Shuckworm](https://vuldb.com/?actor.shuckworm) | High
+1489 | [78.153.147.0](https://vuldb.com/?ip.78.153.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1490 | [78.154.160.0](https://vuldb.com/?ip.78.154.160.0) | 78.154.160.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1491 | [78.154.161.32](https://vuldb.com/?ip.78.154.161.32) | 78.154.161.32.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1492 | [78.154.161.64](https://vuldb.com/?ip.78.154.161.64) | 78.154.161.64.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1493 | [78.154.161.128](https://vuldb.com/?ip.78.154.161.128) | 78.154.161.128.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1494 | [78.154.162.0](https://vuldb.com/?ip.78.154.162.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1495 | [78.154.164.0](https://vuldb.com/?ip.78.154.164.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1496 | [78.154.166.0](https://vuldb.com/?ip.78.154.166.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1497 | [78.154.166.64](https://vuldb.com/?ip.78.154.166.64) | 78.154.166.64.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1498 | [78.154.166.80](https://vuldb.com/?ip.78.154.166.80) | 78.154.166.80.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1499 | [78.154.166.84](https://vuldb.com/?ip.78.154.166.84) | 78.154.166.84.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1500 | [78.154.166.88](https://vuldb.com/?ip.78.154.166.88) | 78.154.166.88.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1501 | [78.154.166.96](https://vuldb.com/?ip.78.154.166.96) | 78.154.166.96.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1502 | [78.154.166.100](https://vuldb.com/?ip.78.154.166.100) | 78.154.166.100.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1503 | [78.154.166.104](https://vuldb.com/?ip.78.154.166.104) | 78.154.166.104.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1504 | [78.154.166.112](https://vuldb.com/?ip.78.154.166.112) | 78.154.166.112.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1505 | [78.154.166.128](https://vuldb.com/?ip.78.154.166.128) | 78.154.166.128.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1506 | [78.154.166.132](https://vuldb.com/?ip.78.154.166.132) | 78.154.166.132.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1507 | [78.154.166.136](https://vuldb.com/?ip.78.154.166.136) | 78.154.166.136.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1508 | [78.154.166.144](https://vuldb.com/?ip.78.154.166.144) | 78.154.166.144.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1509 | [78.154.166.160](https://vuldb.com/?ip.78.154.166.160) | 78.154.166.160.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1510 | [78.154.166.192](https://vuldb.com/?ip.78.154.166.192) | 78.154.166.192.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1511 | [78.154.167.0](https://vuldb.com/?ip.78.154.167.0) | 78.154.167.0.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1512 | [78.154.168.0](https://vuldb.com/?ip.78.154.168.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1513 | [78.154.169.0](https://vuldb.com/?ip.78.154.169.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1514 | [78.154.170.0](https://vuldb.com/?ip.78.154.170.0) | 78.154.170.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1515 | [78.154.172.0](https://vuldb.com/?ip.78.154.172.0) | dsl.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1516 | [78.154.176.0](https://vuldb.com/?ip.78.154.176.0) | 78.154.176.0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1517 | [78.158.192.0](https://vuldb.com/?ip.78.158.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1518 | [78.159.32.0](https://vuldb.com/?ip.78.159.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1519 | [79.98.240.0](https://vuldb.com/?ip.79.98.240.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1520 | [79.110.16.0](https://vuldb.com/?ip.79.110.16.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1521 | [79.110.17.0](https://vuldb.com/?ip.79.110.17.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1522 | [79.110.18.0](https://vuldb.com/?ip.79.110.18.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1523 | [79.110.20.0](https://vuldb.com/?ip.79.110.20.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1524 | [79.110.21.0](https://vuldb.com/?ip.79.110.21.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1525 | [79.110.22.0](https://vuldb.com/?ip.79.110.22.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1526 | [79.110.23.0](https://vuldb.com/?ip.79.110.23.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1527 | [79.110.24.0](https://vuldb.com/?ip.79.110.24.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1528 | [79.110.25.0](https://vuldb.com/?ip.79.110.25.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1529 | [79.110.25.128](https://vuldb.com/?ip.79.110.25.128) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1530 | [79.110.26.0](https://vuldb.com/?ip.79.110.26.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1531 | [79.110.28.0](https://vuldb.com/?ip.79.110.28.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1532 | [79.110.29.0](https://vuldb.com/?ip.79.110.29.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1533 | [79.110.30.0](https://vuldb.com/?ip.79.110.30.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1534 | [79.110.31.0](https://vuldb.com/?ip.79.110.31.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1535 | [79.110.96.0](https://vuldb.com/?ip.79.110.96.0) | 79.110.96.0.serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1536 | [79.110.128.0](https://vuldb.com/?ip.79.110.128.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1537 | [79.110.188.0](https://vuldb.com/?ip.79.110.188.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1538 | [79.110.208.0](https://vuldb.com/?ip.79.110.208.0) | 79.110.208.0.serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1539 | [79.110.209.0](https://vuldb.com/?ip.79.110.209.0) | serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1540 | [79.110.210.0](https://vuldb.com/?ip.79.110.210.0) | serverel.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1541 | [79.124.41.0](https://vuldb.com/?ip.79.124.41.0) | dns-rdns.to | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1542 | [79.124.128.0](https://vuldb.com/?ip.79.124.128.0) | 0.128.124.79.in-addr.arpa | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1543 | [79.133.108.0](https://vuldb.com/?ip.79.133.108.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1544 | [79.135.192.0](https://vuldb.com/?ip.79.135.192.0) | 0.pool-79.135.192.icn.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1545 | [79.137.194.146](https://vuldb.com/?ip.79.137.194.146) | karlx1da.pwh | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1546 | [79.140.0.0](https://vuldb.com/?ip.79.140.0.0) | subnet79-0-24.Te.NeT.UA | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1547 | [79.142.192.0](https://vuldb.com/?ip.79.142.192.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1548 | [79.143.32.0](https://vuldb.com/?ip.79.143.32.0) | 79.143.32.0.vntp.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1549 | [79.171.113.0](https://vuldb.com/?ip.79.171.113.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1550 | [79.171.116.0](https://vuldb.com/?ip.79.171.116.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1551 | [79.171.120.0](https://vuldb.com/?ip.79.171.120.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1552 | [80.13.0.226](https://vuldb.com/?ip.80.13.0.226) | laubervilliers-656-1-1-226.w80-13.abo.wanadoo.fr | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1553 | [80.13.139.249](https://vuldb.com/?ip.80.13.139.249) | lneuilly-657-1-86-249.w80-13.abo.wanadoo.fr | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1554 | [80.17.254.230](https://vuldb.com/?ip.80.17.254.230) | host-80-17-254-230.business.telecomitalia.it | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1555 | [80.64.80.0](https://vuldb.com/?ip.80.64.80.0) | 80.64.80.0.untc.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1556 | [80.66.76.187](https://vuldb.com/?ip.80.66.76.187) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1557 | [80.66.81.0](https://vuldb.com/?ip.80.66.81.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1558 | [80.66.85.0](https://vuldb.com/?ip.80.66.85.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1559 | [80.66.196.0](https://vuldb.com/?ip.80.66.196.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1560 | [80.67.167.81](https://vuldb.com/?ip.80.67.167.81) | nosoignons.cust.milkywan.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1561 | [80.68.147.0](https://vuldb.com/?ip.80.68.147.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1562 | [80.70.64.0](https://vuldb.com/?ip.80.70.64.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1563 | [80.71.158.0](https://vuldb.com/?ip.80.71.158.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1564 | [80.73.0.0](https://vuldb.com/?ip.80.73.0.0) | 0.0.73.80.triolan.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1565 | [80.76.63.0](https://vuldb.com/?ip.80.76.63.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1566 | [80.77.32.0](https://vuldb.com/?ip.80.77.32.0) | - | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1567 | [80.77.167.12](https://vuldb.com/?ip.80.77.167.12) | 80-77-167-12.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1568 | [80.77.167.26](https://vuldb.com/?ip.80.77.167.26) | uzhgorod-atr-b1-xe0-0-3-vlan2035.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1569 | [80.77.167.43](https://vuldb.com/?ip.80.77.167.43) | uarnet-gw.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1570 | [80.77.167.48](https://vuldb.com/?ip.80.77.167.48) | 167-48.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1571 | [80.77.167.63](https://vuldb.com/?ip.80.77.167.63) | kiev-nt-b1-ae2-vlan3879.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1572 | [80.77.167.112](https://vuldb.com/?ip.80.77.167.112) | 80-77-167-112.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1573 | [80.77.167.116](https://vuldb.com/?ip.80.77.167.116) | fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1574 | [80.77.167.150](https://vuldb.com/?ip.80.77.167.150) | khar-atr-b1-ae1-vlan2038.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1575 | [80.77.167.162](https://vuldb.com/?ip.80.77.167.162) | uzhgorod-atr-b1-ae5-vlan322.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1576 | [80.77.167.164](https://vuldb.com/?ip.80.77.167.164) | fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1577 | [80.77.167.210](https://vuldb.com/?ip.80.77.167.210) | 80-77-167-210.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1578 | [80.77.167.216](https://vuldb.com/?ip.80.77.167.216) | 80-77-167-216.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1579 | [80.77.167.221](https://vuldb.com/?ip.80.77.167.221) | kiev-nt-b1-ae2-vlan1184.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1580 | [80.77.167.228](https://vuldb.com/?ip.80.77.167.228) | kiev-nt-b1-ae5-vlan1396.fiord.net | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1581 | [80.77.167.250](https://vuldb.com/?ip.80.77.167.250) | kiev-nt-b1-ae5-vlan3103.fiord.net.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1582 | [80.78.16.0](https://vuldb.com/?ip.80.78.16.0) | - | [Russian GRU](https://vuldb.com/?actor.russian_gru) | High
+1583 | ... | ... | ... | ...
 
-There are 6320 more IOC items available. Please use our online service to access the data.
+There are 6326 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1629,14 +1631,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-83, CWE-84 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1644,112 +1647,93 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?import` | Medium
-2 | File | `/actuator` | Medium
-3 | File | `/add-student.php` | High
-4 | File | `/add-table.php` | High
-5 | File | `/addpayment.php` | High
-6 | File | `/adduser-exec.php` | High
-7 | File | `/Add_reciver.php` | High
-8 | File | `/admin` | Low
-9 | File | `/admin#themes` | High
-10 | File | `/admin-cp/setting/system/general` | High
-11 | File | `/admin-cp/theme/editor/default` | High
-12 | File | `/admin-cp/theme/install` | High
-13 | File | `/admin-inbox.php` | High
-14 | File | `/admin/?page=return/view_return` | High
-15 | File | `/admin/?page=sales/view_sale` | High
-16 | File | `/admin/aboutus.php` | High
-17 | File | `/admin/add-foreigner-ticket.php` | High
-18 | File | `/admin/add-normal-ticket.php` | High
-19 | File | `/admin/add-services.php` | High
-20 | File | `/admin/add-subadmin.php` | High
-21 | File | `/admin/add_cars.php` | High
-22 | File | `/admin/add_subject.php` | High
-23 | File | `/admin/add_teacher.php` | High
-24 | File | `/admin/add_title.php` | High
-25 | File | `/admin/admin-profile.php` | High
-26 | File | `/admin/admin_index.php` | High
-27 | File | `/admin/ajax.php?action=delete_vacancy` | High
-28 | File | `/admin/ajax.php?action=save_application` | High
-29 | File | `/admin/app/soulwinning_crud.php` | High
-30 | File | `/admin/booking-details.php` | High
-31 | File | `/admin/booking_report.php` | High
-32 | File | `/admin/bwdates-reports-details.php` | High
-33 | File | `/admin/category_update.php` | High
-34 | File | `/admin/change-image.php` | High
-35 | File | `/admin/changeimage.php` | High
-36 | File | `/admin/changeimage2.php` | High
-37 | File | `/admin/chip/add.do` | High
-38 | File | `/admin/class.php` | High
-39 | File | `/admin/combo.php` | High
-40 | File | `/admin/comment/list` | High
-41 | File | `/admin/contact-list.php` | High
-42 | File | `/admin/create-package.php` | High
-43 | File | `/admin/delete.php` | High
-44 | File | `/admin/deletedoctorclinic.php` | High
-45 | File | `/admin/delete_s2.php` | High
-46 | File | `/admin/department.php` | High
-47 | File | `/admin/department/add` | High
-48 | File | `/admin/doctor-specilization.php` | High
-49 | File | `/admin/edit-art-medium-detail.php` | High
-50 | File | `/admin/edit-category.php` | High
-51 | File | `/admin/edit-class.php?cid=1` | High
-52 | File | `/admin/edit-customer-detailed.php` | High
-53 | File | `/admin/edit-doctor.php` | High
-54 | File | `/admin/edit-services.php` | High
-55 | File | `/admin/edit-subadmin.php` | High
-56 | File | `/admin/edit-teacher.php` | High
-57 | File | `/admin/edit-user.php` | High
-58 | File | `/Admin/EditCategory` | High
-59 | File | `/admin/editorder.php` | High
-60 | File | `/admin/edituser.php` | High
-61 | File | `/admin/edit_class.php` | High
-62 | File | `/admin/edit_product.php` | High
-63 | File | `/admin/edit_tax.php` | High
-64 | File | `/admin/eligibility.php` | High
-65 | File | `/admin/email_setup.php` | High
-66 | File | `/admin/finished.php` | High
-67 | File | `/admin/forgot-password.php` | High
-68 | File | `/admin/index.php` | High
-69 | File | `/admin/index.php?language=en&nv=upload` | High
-70 | File | `/admin/indexConfigs/update` | High
-71 | File | `/admin/insert-product.php` | High
-72 | File | `/admin/kami_list` | High
-73 | File | `/admin/lastsevendays-reg-users.php` | High
-74 | File | `/admin/login` | Medium
-75 | File | `/admin/login.php` | High
-76 | File | `/admin/manage-teams.php` | High
-77 | File | `/admin/manage-tickets.php` | High
-78 | File | `/admin/member_save.php` | High
-79 | File | `/admin/menus/view_menu.php` | High
-80 | File | `/admin/offenses/view_details.php` | High
-81 | File | `/admin/operation/paid.php` | High
-82 | File | `/admin/operations/booking.php` | High
-83 | File | `/admin/operations/travellers.php` | High
-84 | File | `/admin/positions_delete.php` | High
-85 | File | `/Admin/registration.php` | High
-86 | File | `/admin/sales-reports-detail.php` | High
-87 | File | `/admin/search-autoortaxi.php` | High
-88 | File | `/admin/search-vehicle.php` | High
-89 | File | `/admin/session.php` | High
-90 | File | `/admin/sms_setting.php` | High
-91 | File | `/admin/storage/delete` | High
-92 | File | `/admin/student-history.php` | High
-93 | File | `/admin/tags/save` | High
-94 | File | `/admin/templates/animal_form_template.php` | High
-95 | File | `/admin/topic/list` | High
-96 | File | `/admin/unreadenq.php` | High
-97 | File | `/admin/updateorder.php` | High
-98 | File | `/admin/update_fst.php` | High
-99 | File | `/admin/update_s1.php` | High
-100 | File | `/admin/update_s2.php` | High
-101 | File | `/admin/update_s4.php` | High
-102 | File | `/admin/update_student.php` | High
-103 | File | `/Admin/User.php` | High
-104 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/Actions.php?a=login` | High
+3 | File | `/add-notes.php` | High
+4 | File | `/add_achievement_details.php` | High
+5 | File | `/add_classes.php` | High
+6 | File | `/admin#links` | Medium
+7 | File | `/admin#themes` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/aboutus.php` | High
+10 | File | `/admin/add-foreigner-ticket.php` | High
+11 | File | `/admin/addclinic.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/ajax_products_list.php` | High
+14 | File | `/admin/app/profile_crud.php` | High
+15 | File | `/admin/archives_add.php` | High
+16 | File | `/admin/assign/assign.php` | High
+17 | File | `/admin/attendance_action.php` | High
+18 | File | `/admin/booking_report.php` | High
+19 | File | `/admin/book_row.php` | High
+20 | File | `/admin/carousels/save` | High
+21 | File | `/admin/categories/save` | High
+22 | File | `/admin/category/add.do` | High
+23 | File | `/admin/edit-subcategory.php` | High
+24 | File | `/admin/edit_product.php` | High
+25 | File | `/admin/getallarticleinfo` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/insert-product.php` | High
+28 | File | `/admin/login.php` | High
+29 | File | `/admin/login_process.php` | High
+30 | File | `/admin/manage-category.php` | High
+31 | File | `/admin/manage-incomingvehicle.php` | High
+32 | File | `/admin/manage-users.php` | High
+33 | File | `/admin/operations/expense.php` | High
+34 | File | `/admin/problem_judge.php` | High
+35 | File | `/admin/products/index.php?view=add` | High
+36 | File | `/admin/report.php` | High
+37 | File | `/admin/search-directory.php` | High
+38 | File | `/admin/sensitive_word/list` | High
+39 | File | `/admin/sn_package/sn_https` | High
+40 | File | `/admin/sys/log/list` | High
+41 | File | `/admin/update-rooms.php` | High
+42 | File | `/admin/update-users.php` | High
+43 | File | `/admin/update_s8.php` | High
+44 | File | `/admin/update_users.php` | High
+45 | File | `/admin/uploads/` | High
+46 | File | `/admin/user-bookings.php` | High
+47 | File | `/admin/view-appointment.php` | High
+48 | File | `/admin/view-incomingvehicle-detail.php` | High
+49 | File | `/admin/view-pass-detail.php` | High
+50 | File | `/admin/voters_row.php` | High
+51 | File | `/ajax.php?action=delete_block` | High
+52 | File | `/ajax.php?action=delete_payment` | High
+53 | File | `/ajax.php?action=delete_position` | High
+54 | File | `/ajax.php?action=save_deductions` | High
+55 | File | `/ajax.php?action=save_payment` | High
+56 | File | `/ajax.php?action=save_plan` | High
+57 | File | `/ajax/TInnova_v2/Formulario_Consentimiento/llamadaAjax/obtenerDatosConsentimientos` | High
+58 | File | `/alphaware/summary.php` | High
+59 | File | `/Api/FileUploadApi.ashx` | High
+60 | File | `/api/v1/initialization/embedding/test` | High
+61 | File | `/api/v1/toolbox/device/update/swap` | High
+62 | File | `/boafrm/formParentControl` | High
+63 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+64 | File | `/book-appointment.php` | High
+65 | File | `/book-nurse.php?bookid=1` | High
+66 | File | `/borrow.php` | Medium
+67 | File | `/bwdates-report-result.php` | High
+68 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
+69 | File | `/cart/index.php` | High
+70 | File | `/cart_remove.php` | High
+71 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+72 | File | `/cgi-bin/cstecgi.cgi` | High
+73 | File | `/cgi-bin/lighttpd.cgi` | High
+74 | File | `/cgi-bin/mainfunction.cgi/apmcfgupptim` | High
+75 | File | `/cgi-bin/nas_sharing.cgi` | High
+76 | File | `/cgi-bin/sysconf.cgi` | High
+77 | File | `/check_availability.php` | High
+78 | File | `/client/api/json/v2/nfareports/compareReport` | High
+79 | File | `/clientdetails/admin/index.php` | High
+80 | File | `/control/WANIPConnection` | High
+81 | File | `/cov/triggerEnvCov` | High
+82 | File | `/crm/contact/transfer` | High
+83 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
+84 | File | `/data/remove` | Medium
+85 | ... | ... | ...
 
-There are 917 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 747 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1789,6 +1773,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.rnbo.gov.ua/en/Diialnist/4823.html
 * https://www.silentpush.com/blog/russian-intelligence-phishing/
 * https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/
+* https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/
 * https://www.wordfence.com/blog/2022/03/ukraine-universities-hacked-by-brazilian-via-finland-as-russian-invasion-started/
 * https://www.zscaler.com/blogs/security-research/hermeticwiper-resurgence-targeted-attacks-ukraine
 * ttps://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv

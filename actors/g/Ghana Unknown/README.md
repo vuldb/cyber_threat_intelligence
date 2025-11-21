@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -164,7 +164,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -172,25 +172,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_classes.php` | High
-2 | File | `/admin/?page=products/view_product` | High
-3 | File | `/admin/auto-taxi-entry-detail.php` | High
-4 | File | `/admin/candidates_add.php` | High
-5 | File | `/admin/clients/` | High
-6 | File | `/admin/edit-services.php` | High
-7 | File | `/Admin/edit_profile.php` | High
-8 | File | `/admin/forms/option_lists/edit.php` | High
-9 | File | `/admin/settings/index.php?page=accounts` | High
-10 | File | `/api/configs` | Medium
-11 | File | `/api/sys/set_passwd` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/boafrm/formPortFw` | High
-14 | File | `/cancelbookingpatient.php` | High
-15 | File | `/change_pass/forgot_password_sql.php` | High
-16 | File | `/control/add_act.php` | High
-17 | ... | ... | ...
+1 | File | `/admin/?page=products/view_product` | High
+2 | File | `/admin/auto-taxi-entry-detail.php` | High
+3 | File | `/admin/candidates_add.php` | High
+4 | File | `/admin/edit-services.php` | High
+5 | File | `/admin/products/view_product.php` | High
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/boafrm/formPortFw` | High
+9 | File | `/cancelbookingpatient.php` | High
+10 | File | `/change_pass/forgot_password_sql.php` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/control/add_act.php` | High
+13 | File | `/control/login.php` | High
+14 | File | `/cusfindambulence2.php` | High
+15 | ... | ... | ...
 
-There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

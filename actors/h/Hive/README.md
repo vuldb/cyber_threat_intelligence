@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [RU](https://vuldb.com/?country.ru)
+* [IS](https://vuldb.com/?country.is)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -55,31 +55,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/cashadvance_row.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/receipt.php` | High
-6 | File | `/admin/user_update.php` | High
-7 | File | `/admin_ping.htm` | High
-8 | File | `/api/wizard/getBasicInfo` | High
-9 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
-10 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/cgi-bin/login.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/change_password_process` | High
-16 | File | `/controller/Index.php` | High
-17 | File | `/controllers/updatesettings.php` | High
-18 | File | `/CPE` | Low
-19 | File | `/Employer/EditProfile.php` | High
-20 | File | `/endpoint/add-guest.php` | High
-21 | File | `/goform/addressNat` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/SysToolRestoreSet` | High
-24 | File | `/include/chart_generator.php` | High
-25 | ... | ... | ...
+3 | File | `/admin/allemployees.php` | High
+4 | File | `/admin/cashadvance_row.php` | High
+5 | File | `/admin/eligibility.php` | High
+6 | File | `/admin/group/edit.do` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage-pages.php` | High
+9 | File | `/admin/receipt.php` | High
+10 | File | `/admin/user/edit.do` | High
+11 | File | `/admin/user_update.php` | High
+12 | File | `/admin_ping.htm` | High
+13 | File | `/api/wizard/getBasicInfo` | High
+14 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+15 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/editBookmark` | High
+18 | File | `/cgi-bin/login.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/change_password_process` | High
+21 | File | `/controller/Index.php` | High
+22 | File | `/controllers/updatesettings.php` | High
+23 | File | `/CPE` | Low
+24 | File | `/delete_student.php` | High
+25 | File | `/Employer/EditProfile.php` | High
+26 | File | `/endpoint/add-guest.php` | High
+27 | File | `/goform/addressNat` | High
+28 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

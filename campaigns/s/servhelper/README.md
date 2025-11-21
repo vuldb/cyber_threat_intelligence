@@ -80,32 +80,31 @@ ID | Type | Indicator | Confidence
 20 | File | `/system/dictData/loadDictItem` | High
 21 | File | `/system/user/modules/mod_users/controller.php` | High
 22 | File | `/tmp` | Low
-23 | File | `/type.php` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/5bin/su` | Medium
-26 | File | `/usr/bin/mail` | High
-27 | File | `/var/dt/` | Medium
-28 | File | `/view-property.php` | High
-29 | File | `/view/vpn/autovpn/sub_commit.php` | High
-30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-31 | File | `/_vti_bin/_vti_log` | High
-32 | File | `00.jsp` | Low
-33 | File | `adclick.php` | Medium
-34 | File | `admin.asp` | Medium
-35 | File | `admin.php` | Medium
-36 | File | `admin/` | Low
-37 | File | `admin/Login.php` | High
-38 | File | `admin/manage-comments.php` | High
-39 | File | `Administration/Controllers/ImportController.cs` | High
-40 | File | `administrator/mail/download.cfm` | High
-41 | File | `AdminViewError/AdminAddadmin` | High
-42 | File | `agentdisplay.php` | High
-43 | File | `appserv/main.php` | High
-44 | File | `ashnews.php/ashheadlines.php` | High
-45 | File | `auction.cgi` | Medium
-46 | ... | ... | ...
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/5bin/su` | Medium
+25 | File | `/usr/bin/mail` | High
+26 | File | `/var/dt/` | Medium
+27 | File | `/view-property.php` | High
+28 | File | `/view/vpn/autovpn/sub_commit.php` | High
+29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+30 | File | `/_vti_bin/_vti_log` | High
+31 | File | `00.jsp` | Low
+32 | File | `adclick.php` | Medium
+33 | File | `admin.asp` | Medium
+34 | File | `admin.php` | Medium
+35 | File | `admin/` | Low
+36 | File | `admin/Login.php` | High
+37 | File | `admin/manage-comments.php` | High
+38 | File | `Administration/Controllers/ImportController.cs` | High
+39 | File | `administrator/mail/download.cfm` | High
+40 | File | `AdminViewError/AdminAddadmin` | High
+41 | File | `agentdisplay.php` | High
+42 | File | `appserv/main.php` | High
+43 | File | `ashnews.php/ashheadlines.php` | High
+44 | File | `auction.cgi` | Medium
+45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

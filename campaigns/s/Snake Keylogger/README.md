@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/apply/index.php` | High
 14 | File | `/artist.php` | Medium
 15 | File | `/category.php` | High
-16 | ... | ... | ...
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

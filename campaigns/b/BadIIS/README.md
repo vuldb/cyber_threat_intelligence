@@ -28,10 +28,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [38.207.248.230](https://vuldb.com/?ip.38.207.248.230) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
 2 | [45.120.81.62](https://vuldb.com/?ip.45.120.81.62) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
-3 | [154.7.64.81](https://vuldb.com/?ip.154.7.64.81) | - | [China Unknown](https://vuldb.com/?actor.china_unknown) | High
+3 | [103.6.235.26](https://vuldb.com/?ip.103.6.235.26) | - | [BadIIS](https://vuldb.com/?actor.badiis) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,6 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/multi-vendor-shopping-script/product-list.php` | High
-2 | File | `/my_photo_gallery/image.php` | High
-3 | Argument | `imgid` | Low
+1 | File | `/fileUpload` | Medium
+2 | File | `/multi-vendor-shopping-script/product-list.php` | High
+3 | File | `/my_photo_gallery/image.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://documents.trendmicro.com/assets/txt/badiis-IOCspbJhGdi.txt
+* https://unit42.paloaltonetworks.com/operation-rewrite-seo-poisoning-campaign/
 * https://www.trendmicro.com/en_us/research/25/b/chinese-speaking-group-manipulates-seo-with-badiis.html
 
 ## Literature

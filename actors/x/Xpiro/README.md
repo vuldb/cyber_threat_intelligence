@@ -39,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -50,12 +51,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/alphaware/summary.php` | High
-2 | File | `/LoginAdmin` | Medium
-3 | File | `/vloggers_merch/classes/Master.php?f=delete_inventory` | High
-4 | File | `admin/run-movepass.php` | High
-5 | ... | ... | ...
+2 | File | `/goform/formPictureUrl` | High
+3 | File | `/LoginAdmin` | Medium
+4 | File | `/vloggers_merch/classes/Master.php?f=delete_inventory` | High
+5 | File | `admin/run-movepass.php` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

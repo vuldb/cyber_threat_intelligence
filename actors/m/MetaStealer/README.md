@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,15 +22,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [4.224.60.120](https://vuldb.com/?ip.4.224.60.120) | - | - | High
-2 | [5.181.3.9](https://vuldb.com/?ip.5.181.3.9) | 57723.ip-ptr.tech | - | High
-3 | [13.114.196.60](https://vuldb.com/?ip.13.114.196.60) | ec2-13-114-196-60.ap-northeast-1.compute.amazonaws.com | - | Medium
-4 | [13.125.88.10](https://vuldb.com/?ip.13.125.88.10) | ec2-13-125-88-10.ap-northeast-2.compute.amazonaws.com | - | Medium
-5 | [31.192.232.4](https://vuldb.com/?ip.31.192.232.4) | klipto.man00.1.pserver.space | - | High
-6 | [62.133.62.234](https://vuldb.com/?ip.62.133.62.234) | 52184.ip-ptr.tech | - | High
-7 | [77.110.107.38](https://vuldb.com/?ip.77.110.107.38) | - | - | High
-8 | ... | ... | ... | ...
+2 | [5.83.218.136](https://vuldb.com/?ip.5.83.218.136) | - | - | High
+3 | [5.181.3.9](https://vuldb.com/?ip.5.181.3.9) | 57723.ip-ptr.tech | - | High
+4 | [13.114.196.60](https://vuldb.com/?ip.13.114.196.60) | ec2-13-114-196-60.ap-northeast-1.compute.amazonaws.com | - | Medium
+5 | [13.125.88.10](https://vuldb.com/?ip.13.125.88.10) | ec2-13-125-88-10.ap-northeast-2.compute.amazonaws.com | - | Medium
+6 | [23.177.184.243](https://vuldb.com/?ip.23.177.184.243) | - | - | High
+7 | [31.192.232.4](https://vuldb.com/?ip.31.192.232.4) | klipto.man00.1.pserver.space | - | High
+8 | [46.28.71.42](https://vuldb.com/?ip.46.28.71.42) | vds1502240.hosted-by-itldc.com | - | High
+9 | [46.28.71.43](https://vuldb.com/?ip.46.28.71.43) | vds1502240.hosted-by-itldc.com | - | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,9 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,34 +59,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin-profile.php` | High
 4 | File | `/admin/create_product.php` | High
 5 | File | `/admin/edit_area.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/inquiries/view_details.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/api/esps` | Medium
-10 | File | `/app/admin/controller/Upload.php` | High
-11 | File | `/appointment-history.php` | High
-12 | File | `/APR/signup.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-15 | File | `/classes/SystemSettings.php?f=update_settings` | High
-16 | File | `/cms/classes/Master.php?f=delete_service` | High
-17 | File | `/complainer_page.php` | High
-18 | File | `/download` | Medium
-19 | File | `/endpoint/Add.php` | High
-20 | File | `/endpoint/delete-menu.php` | High
-21 | File | `/endpoint/update.php` | High
-22 | File | `/expense-datewise-reports-detailed.php` | High
-23 | File | `/feed/insert.json` | High
-24 | File | `/filemanager/php/connector.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/include/file.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/mfeedback.php` | High
-29 | File | `/news-details.php` | High
-30 | File | `/php_action/createUser.php` | High
-31 | ... | ... | ...
+6 | File | `/admin/edit_teacher.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/inquiries/view_details.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/administrator/bidlist.php` | High
+11 | File | `/api/esps` | Medium
+12 | File | `/app/admin/controller/Upload.php` | High
+13 | File | `/appointment-history.php` | High
+14 | File | `/APR/signup.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+17 | File | `/classes/SystemSettings.php?f=update_settings` | High
+18 | File | `/cms/classes/Master.php?f=delete_service` | High
+19 | File | `/complainer_page.php` | High
+20 | File | `/crm/business/transfer` | High
+21 | File | `/download` | Medium
+22 | File | `/endpoint/Add.php` | High
+23 | File | `/endpoint/delete-menu.php` | High
+24 | File | `/endpoint/update.php` | High
+25 | File | `/expense-datewise-reports-detailed.php` | High
+26 | File | `/feed/insert.json` | High
+27 | File | `/filemanager/php/connector.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/AdvSetMacMtuWa` | High
+30 | File | `/include/file.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/intranet/educar_usuario_det.php` | High
+33 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/17ad6e2c8fb12b9c3d587cf7a4814bf6e20758589e82517420f196599c75f1ec/
 * https://bazaar.abuse.ch/sample/228fcd364fef173631f410410a13560f717a84f65aa306e9a3aa2429c755dc60/
 * https://bazaar.abuse.ch/sample/4641c993478534eeca8f5c777f352e0f3592d1dc67f52fabc3ff3957f195e8ab/
+* https://bazaar.abuse.ch/sample/6839886a9b9c8532f77850338c236887c62788e988cb11c89ed9929f5e5de1b3/
 * https://bazaar.abuse.ch/sample/b1b4ffcd21342c7de7f0bc286eb3f4ec6a5b919df5f20d383b4df0bd462cbe48/
 * https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
 * https://bazaar.abuse.ch/sample/e916c8e22f9cbe3fd58afc2b228db2a07790808681bc3362061e615d14ef402c/
@@ -117,6 +123,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3552798/
 * https://urlhaus.abuse.ch/url/3568063/
 * https://urlhaus.abuse.ch/url/3592796/
+* https://urlhaus.abuse.ch/url/3593309/
+* https://urlhaus.abuse.ch/url/3608159/
+* https://urlhaus.abuse.ch/url/3626637/
+* https://urlhaus.abuse.ch/url/3633709/
+* https://urlhaus.abuse.ch/url/3634095/
+* https://urlhaus.abuse.ch/url/3687890/
 * https://www.sentinelone.com/blog/macos-metastealer-new-family-of-obfuscated-go-infostealers-spread-in-targeted-attacks/
 
 ## Literature

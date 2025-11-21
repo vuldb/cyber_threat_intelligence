@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,7 +73,7 @@ ID | IP address | Hostname | Campaign | Confidence
 39 | [65.21.183.238](https://vuldb.com/?ip.65.21.183.238) | static.238.183.21.65.clients.your-server.de | PhonyC2 | High
 40 | ... | ... | ... | ...
 
-There are 155 more IOC items available. Please use our online service to access the data.
+There are 156 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,14 +81,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-35 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,25 +102,25 @@ ID | Type | Indicator | Confidence
 4 | File | `/adm/index.php` | High
 5 | File | `/admin/aboutPost.php` | High
 6 | File | `/admin/add_teacher.php` | High
-7 | File | `/admin/admin_addnew_product.php` | High
+7 | File | `/admin/admin_football.php` | High
 8 | File | `/admin/admin_forum/add_views.php` | High
 9 | File | `/admin/admin_forum/search_result.php` | High
-10 | File | `/admin/ajax.php?action=login` | High
-11 | File | `/admin/ajax.php?action=save_recruitment_status` | High
-12 | File | `/admin/api/workspace/default/tool/debug` | High
-13 | File | `/admin/betweendates-detailsreports.php` | High
-14 | File | `/admin/candidates.php` | High
-15 | File | `/admin/contactus.php` | High
-16 | File | `/admin/course.php` | High
-17 | File | `/admin/delete_s2.php` | High
-18 | File | `/admin/delete_s3.php` | High
-19 | File | `/admin/delete_user.php` | High
-20 | File | `/admin/department.php` | High
-21 | File | `/admin/edit-doctor.php` | High
+10 | File | `/admin/admin_index.php` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+13 | File | `/admin/api/workspace/default/tool/debug` | High
+14 | File | `/admin/betweendates-detailsreports.php` | High
+15 | File | `/admin/candidates.php` | High
+16 | File | `/admin/delete_s2.php` | High
+17 | File | `/admin/delete_s3.php` | High
+18 | File | `/admin/delete_user.php` | High
+19 | File | `/admin/department.php` | High
+20 | File | `/admin/edit-doctor.php` | High
+21 | File | `/admin/edit-user.php` | High
 22 | File | `/admin/edit_class.php` | High
 23 | File | `/admin/edit_role.php` | High
-24 | File | `/admin/index.php` | High
-25 | File | `/admin/level.php` | High
+24 | File | `/admin/edit_room.php` | High
+25 | File | `/admin/index.php` | High
 26 | File | `/admin/login.php` | High
 27 | File | `/admin/modules/instructor/index.php` | High
 28 | File | `/admin/positions.php` | High
@@ -132,62 +132,63 @@ ID | Type | Indicator | Confidence
 34 | File | `/admin/setup.cgi` | High
 35 | File | `/admin/update_s8.php` | High
 36 | File | `/admin/view-pass-detail.php` | High
-37 | File | `/admin/view_payorder.php` | High
-38 | File | `/administrator/bidlist.php` | High
-39 | File | `/administrator/wew.php` | High
-40 | File | `/administrator/weweee.php` | High
-41 | File | `/admin_class.php?action=login` | High
-42 | File | `/admin_members.php?ac=editsave` | High
-43 | File | `/ajax.php?action=delete_payment` | High
-44 | File | `/ajax.php?action=save_category` | High
-45 | File | `/ajax.php?action=save_product` | High
-46 | File | `/api/browserextension/UpdatePassword/` | High
-47 | File | `/api/discoveries/` | High
-48 | File | `/api/v1/login` | High
-49 | File | `/app/api/controller/caiji.php` | High
-50 | File | `/app/api/controller/collect.php` | High
-51 | File | `/app/controller/Setup.php` | High
-52 | File | `/application/models/ApplicationDataObject.class.php` | High
-53 | File | `/attributecategory/queryAll` | High
-54 | File | `/avtools/avconv.c` | High
-55 | File | `/bin/gpio` | Medium
-56 | File | `/bin/httpd` | Medium
-57 | File | `/bin/main` | Medium
-58 | File | `/binutils/debug.c` | High
-59 | File | `/biurl_grou` | Medium
-60 | File | `/boa/formWSC` | Medium
-61 | File | `/boafrm/formDMZ` | High
-62 | File | `/boafrm/formDosCfg` | High
-63 | File | `/boafrm/formFilter` | High
-64 | File | `/boafrm/formIpQoS` | High
-65 | File | `/boafrm/formIPv6Addr` | High
-66 | File | `/boafrm/formMapDelDevice` | High
-67 | File | `/boafrm/formMultiAP` | High
-68 | File | `/boafrm/formNtp` | High
-69 | File | `/boafrm/formParentControl` | High
-70 | File | `/boafrm/formPortFw` | High
-71 | File | `/boafrm/formReflashClientTbl` | High
-72 | File | `/boafrm/formSaveConfig` | High
-73 | File | `/boafrm/formSetLg` | High
-74 | File | `/boafrm/formSiteSurveyProfile` | High
-75 | File | `/boafrm/formStaticDHCP` | High
-76 | File | `/boafrm/formStats` | High
-77 | File | `/boafrm/formSysCmd` | High
-78 | File | `/boafrm/formSysLog` | High
-79 | File | `/boafrm/formTmultiAP` | High
-80 | File | `/boafrm/formVlan` | High
-81 | File | `/boafrm/formWdsEncrypt` | High
-82 | File | `/boafrm/formWirelessTbl` | High
-83 | File | `/boafrm/formWlanRedirect` | High
-84 | File | `/boafrm/formWlSiteSurvey` | High
-85 | File | `/boafrm/formWsc` | High
-86 | File | `/book-appointment.php` | High
+37 | File | `/admin/view-progress-report.php` | High
+38 | File | `/admin/view_payorder.php` | High
+39 | File | `/administrator/bidlist.php` | High
+40 | File | `/administrator/wew.php` | High
+41 | File | `/administrator/weweee.php` | High
+42 | File | `/admin_class.php` | High
+43 | File | `/admin_class.php?action=login` | High
+44 | File | `/admin_members.php?ac=editsave` | High
+45 | File | `/ajax.php` | Medium
+46 | File | `/ajax.php?action=delete_payment` | High
+47 | File | `/ajax.php?action=save_category` | High
+48 | File | `/ajax.php?action=save_product` | High
+49 | File | `/api/browserextension/UpdatePassword/` | High
+50 | File | `/api/discoveries/` | High
+51 | File | `/api/v1/login` | High
+52 | File | `/app/api/controller/caiji.php` | High
+53 | File | `/app/api/controller/collect.php` | High
+54 | File | `/app/controller/Setup.php` | High
+55 | File | `/application/models/ApplicationDataObject.class.php` | High
+56 | File | `/attributecategory/queryAll` | High
+57 | File | `/avtools/avconv.c` | High
+58 | File | `/bin/gpio` | Medium
+59 | File | `/bin/httpd` | Medium
+60 | File | `/bin/main` | Medium
+61 | File | `/binutils/debug.c` | High
+62 | File | `/biurl_grou` | Medium
+63 | File | `/boa/formWSC` | Medium
+64 | File | `/boafrm/formDMZ` | High
+65 | File | `/boafrm/formDosCfg` | High
+66 | File | `/boafrm/formFilter` | High
+67 | File | `/boafrm/formIpQoS` | High
+68 | File | `/boafrm/formIPv6Addr` | High
+69 | File | `/boafrm/formMapDelDevice` | High
+70 | File | `/boafrm/formMultiAP` | High
+71 | File | `/boafrm/formNtp` | High
+72 | File | `/boafrm/formParentControl` | High
+73 | File | `/boafrm/formPortFw` | High
+74 | File | `/boafrm/formReflashClientTbl` | High
+75 | File | `/boafrm/formSaveConfig` | High
+76 | File | `/boafrm/formSetLg` | High
+77 | File | `/boafrm/formStats` | High
+78 | File | `/boafrm/formSysCmd` | High
+79 | File | `/boafrm/formSysLog` | High
+80 | File | `/boafrm/formTmultiAP` | High
+81 | File | `/boafrm/formWirelessTbl` | High
+82 | File | `/boafrm/formWlanRedirect` | High
+83 | File | `/boafrm/formWlSiteSurvey` | High
+84 | File | `/boafrm/formWsc` | High
+85 | File | `/book-appointment.php` | High
+86 | File | `/branch.php` | Medium
 87 | File | `/bwdates-reports-details.php` | High
 88 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
 89 | File | `/c6/Jhsoft.Web.projectmanage/ProjectManage/XmlHttp.aspx/?Type=add` | High
-90 | ... | ... | ...
+90 | File | `/carRental_war/druid/login.html` | High
+91 | ... | ... | ...
 
-There are 796 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 802 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -212,6 +213,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.deepinstinct.com/blog/muddyc2go-latest-c2-framework-used-by-iranian-apt-muddywater-spotted-in-israel
 * https://www.deepinstinct.com/blog/muddywater-en-able-spear-phishing-with-new-ttps
 * https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater
+* https://www.group-ib.com/blog/muddywater-espionage/
 * https://www.group-ib.com/blog/muddywater-infrastructure-malware/
 * https://www.lookout.com/threat-intelligence/article/lookout-discovers-iranian-dchsy-surveillanceware
 * https://www.mandiant.com/resources/telegram-malware-iranian-espionage

@@ -121,12 +121,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/#ProductSerie/view/` | High
 2 | File | `/admin/file_manager/export` | High
 3 | File | `/admin_topic.php?action=delall` | High
-4 | File | `/api/cron/settings/setJob/` | High
-5 | File | `/api/wizard/setsyncpppoecfg` | High
-6 | File | `/bitrix/admin/ldap_server_edit.php` | High
-7 | ... | ... | ...
+4 | File | `/api/wizard/setsyncpppoecfg` | High
+5 | File | `/bitrix/admin/ldap_server_edit.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

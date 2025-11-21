@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -59,118 +59,126 @@ ID | IP address | Hostname | Actor | Confidence
 26 | [8.218.221.147](https://vuldb.com/?ip.8.218.221.147) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
 27 | [8.218.231.88](https://vuldb.com/?ip.8.218.231.88) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
 28 | [8.220.182.237](https://vuldb.com/?ip.8.220.182.237) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-29 | [14.128.63.6](https://vuldb.com/?ip.14.128.63.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-30 | [15.197.64.127](https://vuldb.com/?ip.15.197.64.127) | a666405ef1e20e2cd.awsglobalaccelerator.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-31 | [16.163.24.117](https://vuldb.com/?ip.16.163.24.117) | ec2-16-163-24-117.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-32 | [18.162.151.228](https://vuldb.com/?ip.18.162.151.228) | ec2-18-162-151-228.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-33 | [18.162.240.37](https://vuldb.com/?ip.18.162.240.37) | ec2-18-162-240-37.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-34 | [18.162.247.93](https://vuldb.com/?ip.18.162.247.93) | ec2-18-162-247-93.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-35 | [18.163.37.253](https://vuldb.com/?ip.18.163.37.253) | ec2-18-163-37-253.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-36 | [18.163.92.42](https://vuldb.com/?ip.18.163.92.42) | ec2-18-163-92-42.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-37 | [18.163.212.208](https://vuldb.com/?ip.18.163.212.208) | ec2-18-163-212-208.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-38 | [18.167.52.240](https://vuldb.com/?ip.18.167.52.240) | ec2-18-167-52-240.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-39 | [18.167.116.234](https://vuldb.com/?ip.18.167.116.234) | ec2-18-167-116-234.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-40 | [18.167.247.26](https://vuldb.com/?ip.18.167.247.26) | ec2-18-167-247-26.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-41 | [23.132.132.67](https://vuldb.com/?ip.23.132.132.67) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-42 | [23.133.4.2](https://vuldb.com/?ip.23.133.4.2) | indoctum.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-43 | [23.133.4.6](https://vuldb.com/?ip.23.133.4.6) | videri.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-44 | [23.133.4.25](https://vuldb.com/?ip.23.133.4.25) | gaudemus.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-45 | [23.133.4.98](https://vuldb.com/?ip.23.133.4.98) | futura.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-46 | [23.226.57.67](https://vuldb.com/?ip.23.226.57.67) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-47 | [23.235.165.5](https://vuldb.com/?ip.23.235.165.5) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-48 | [23.235.165.54](https://vuldb.com/?ip.23.235.165.54) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-49 | [23.248.217.151](https://vuldb.com/?ip.23.248.217.151) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-50 | [23.249.20.22](https://vuldb.com/?ip.23.249.20.22) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-51 | [23.249.20.27](https://vuldb.com/?ip.23.249.20.27) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-52 | [23.249.20.36](https://vuldb.com/?ip.23.249.20.36) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-53 | [23.249.20.46](https://vuldb.com/?ip.23.249.20.46) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-54 | [23.249.20.55](https://vuldb.com/?ip.23.249.20.55) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-55 | [23.249.20.94](https://vuldb.com/?ip.23.249.20.94) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-56 | [23.249.28.80](https://vuldb.com/?ip.23.249.28.80) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-57 | [23.249.28.119](https://vuldb.com/?ip.23.249.28.119) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-58 | [23.249.28.124](https://vuldb.com/?ip.23.249.28.124) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-59 | [23.249.28.126](https://vuldb.com/?ip.23.249.28.126) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-60 | [23.249.28.153](https://vuldb.com/?ip.23.249.28.153) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-61 | [23.249.28.155](https://vuldb.com/?ip.23.249.28.155) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-62 | [23.249.28.220](https://vuldb.com/?ip.23.249.28.220) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-63 | [23.249.28.223](https://vuldb.com/?ip.23.249.28.223) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-64 | [23.249.29.68](https://vuldb.com/?ip.23.249.29.68) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-65 | [23.249.29.117](https://vuldb.com/?ip.23.249.29.117) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-66 | [23.249.29.124](https://vuldb.com/?ip.23.249.29.124) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-67 | [27.25.158.108](https://vuldb.com/?ip.27.25.158.108) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-68 | [27.50.59.176](https://vuldb.com/?ip.27.50.59.176) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-69 | [27.50.63.8](https://vuldb.com/?ip.27.50.63.8) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-70 | [27.124.2.240](https://vuldb.com/?ip.27.124.2.240) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-71 | [27.124.3.175](https://vuldb.com/?ip.27.124.3.175) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-72 | [27.124.3.234](https://vuldb.com/?ip.27.124.3.234) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-73 | [27.124.4.60](https://vuldb.com/?ip.27.124.4.60) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-74 | [27.124.4.102](https://vuldb.com/?ip.27.124.4.102) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-75 | [27.124.6.169](https://vuldb.com/?ip.27.124.6.169) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-76 | [27.124.6.233](https://vuldb.com/?ip.27.124.6.233) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-77 | [27.124.17.16](https://vuldb.com/?ip.27.124.17.16) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-78 | [27.124.17.45](https://vuldb.com/?ip.27.124.17.45) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-79 | [27.124.17.227](https://vuldb.com/?ip.27.124.17.227) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-80 | [27.124.18.107](https://vuldb.com/?ip.27.124.18.107) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-81 | [27.124.21.204](https://vuldb.com/?ip.27.124.21.204) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-82 | [27.124.21.211](https://vuldb.com/?ip.27.124.21.211) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-83 | [27.124.34.85](https://vuldb.com/?ip.27.124.34.85) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-84 | [27.124.34.140](https://vuldb.com/?ip.27.124.34.140) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-85 | [27.124.38.6](https://vuldb.com/?ip.27.124.38.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-86 | [27.124.40.23](https://vuldb.com/?ip.27.124.40.23) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-87 | [27.124.42.200](https://vuldb.com/?ip.27.124.42.200) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-88 | [27.124.43.13](https://vuldb.com/?ip.27.124.43.13) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-89 | [27.124.44.132](https://vuldb.com/?ip.27.124.44.132) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-90 | [27.124.45.87](https://vuldb.com/?ip.27.124.45.87) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-91 | [27.124.45.106](https://vuldb.com/?ip.27.124.45.106) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-92 | [27.124.46.112](https://vuldb.com/?ip.27.124.46.112) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-93 | [27.124.47.10](https://vuldb.com/?ip.27.124.47.10) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-94 | [34.1.142.70](https://vuldb.com/?ip.34.1.142.70) | 70.142.1.34.bc.googleusercontent.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-95 | [34.96.239.40](https://vuldb.com/?ip.34.96.239.40) | 40.239.96.34.bc.googleusercontent.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
-96 | [38.14.248.131](https://vuldb.com/?ip.38.14.248.131) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-97 | [38.45.122.106](https://vuldb.com/?ip.38.45.122.106) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-98 | [38.45.122.163](https://vuldb.com/?ip.38.45.122.163) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-99 | [38.45.123.74](https://vuldb.com/?ip.38.45.123.74) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-100 | [38.45.124.50](https://vuldb.com/?ip.38.45.124.50) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-101 | [38.46.13.82](https://vuldb.com/?ip.38.46.13.82) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-102 | [38.46.14.35](https://vuldb.com/?ip.38.46.14.35) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-103 | [38.46.14.36](https://vuldb.com/?ip.38.46.14.36) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-104 | [38.46.14.202](https://vuldb.com/?ip.38.46.14.202) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-105 | [38.47.240.184](https://vuldb.com/?ip.38.47.240.184) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-106 | [38.49.41.196](https://vuldb.com/?ip.38.49.41.196) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-107 | [38.49.43.40](https://vuldb.com/?ip.38.49.43.40) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-108 | [38.57.129.243](https://vuldb.com/?ip.38.57.129.243) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-109 | [38.91.114.214](https://vuldb.com/?ip.38.91.114.214) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-110 | [38.91.115.114](https://vuldb.com/?ip.38.91.115.114) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-111 | [38.162.114.253](https://vuldb.com/?ip.38.162.114.253) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-112 | [38.181.2.77](https://vuldb.com/?ip.38.181.2.77) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-113 | [38.181.20.6](https://vuldb.com/?ip.38.181.20.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-114 | [38.181.20.23](https://vuldb.com/?ip.38.181.20.23) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-115 | [38.181.22.7](https://vuldb.com/?ip.38.181.22.7) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-116 | [38.181.22.44](https://vuldb.com/?ip.38.181.22.44) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-117 | [38.181.35.83](https://vuldb.com/?ip.38.181.35.83) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-118 | [38.181.35.237](https://vuldb.com/?ip.38.181.35.237) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-119 | [38.244.14.93](https://vuldb.com/?ip.38.244.14.93) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-120 | [38.246.249.140](https://vuldb.com/?ip.38.246.249.140) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-121 | [39.108.160.153](https://vuldb.com/?ip.39.108.160.153) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-122 | [43.100.1.173](https://vuldb.com/?ip.43.100.1.173) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-123 | [43.100.18.182](https://vuldb.com/?ip.43.100.18.182) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-124 | [43.100.117.240](https://vuldb.com/?ip.43.100.117.240) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-125 | [43.100.118.243](https://vuldb.com/?ip.43.100.118.243) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-126 | [43.128.141.78](https://vuldb.com/?ip.43.128.141.78) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-127 | [43.129.233.99](https://vuldb.com/?ip.43.129.233.99) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-128 | [43.129.233.146](https://vuldb.com/?ip.43.129.233.146) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-129 | [43.132.155.154](https://vuldb.com/?ip.43.132.155.154) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-130 | [43.132.212.111](https://vuldb.com/?ip.43.132.212.111) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-131 | [43.132.214.133](https://vuldb.com/?ip.43.132.214.133) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-132 | [43.132.216.81](https://vuldb.com/?ip.43.132.216.81) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-133 | [43.132.235.4](https://vuldb.com/?ip.43.132.235.4) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-134 | [43.133.39.217](https://vuldb.com/?ip.43.133.39.217) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-135 | [43.135.78.62](https://vuldb.com/?ip.43.135.78.62) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-136 | [43.136.46.42](https://vuldb.com/?ip.43.136.46.42) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-137 | [43.139.152.50](https://vuldb.com/?ip.43.139.152.50) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
-138 | ... | ... | ... | ...
+29 | [14.128.50.89](https://vuldb.com/?ip.14.128.50.89) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+30 | [14.128.63.6](https://vuldb.com/?ip.14.128.63.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+31 | [15.197.64.127](https://vuldb.com/?ip.15.197.64.127) | a666405ef1e20e2cd.awsglobalaccelerator.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+32 | [16.163.24.117](https://vuldb.com/?ip.16.163.24.117) | ec2-16-163-24-117.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+33 | [18.162.151.228](https://vuldb.com/?ip.18.162.151.228) | ec2-18-162-151-228.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+34 | [18.162.240.37](https://vuldb.com/?ip.18.162.240.37) | ec2-18-162-240-37.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+35 | [18.162.247.93](https://vuldb.com/?ip.18.162.247.93) | ec2-18-162-247-93.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+36 | [18.163.37.253](https://vuldb.com/?ip.18.163.37.253) | ec2-18-163-37-253.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+37 | [18.163.92.42](https://vuldb.com/?ip.18.163.92.42) | ec2-18-163-92-42.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+38 | [18.163.212.208](https://vuldb.com/?ip.18.163.212.208) | ec2-18-163-212-208.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+39 | [18.167.52.240](https://vuldb.com/?ip.18.167.52.240) | ec2-18-167-52-240.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+40 | [18.167.116.234](https://vuldb.com/?ip.18.167.116.234) | ec2-18-167-116-234.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+41 | [18.167.247.26](https://vuldb.com/?ip.18.167.247.26) | ec2-18-167-247-26.ap-east-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+42 | [18.180.69.63](https://vuldb.com/?ip.18.180.69.63) | ec2-18-180-69-63.ap-northeast-1.compute.amazonaws.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+43 | [23.132.132.67](https://vuldb.com/?ip.23.132.132.67) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+44 | [23.133.4.2](https://vuldb.com/?ip.23.133.4.2) | indoctum.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+45 | [23.133.4.6](https://vuldb.com/?ip.23.133.4.6) | videri.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+46 | [23.133.4.25](https://vuldb.com/?ip.23.133.4.25) | gaudemus.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+47 | [23.133.4.98](https://vuldb.com/?ip.23.133.4.98) | futura.weadesign.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+48 | [23.140.244.250](https://vuldb.com/?ip.23.140.244.250) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+49 | [23.226.57.67](https://vuldb.com/?ip.23.226.57.67) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+50 | [23.234.37.69](https://vuldb.com/?ip.23.234.37.69) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+51 | [23.235.165.5](https://vuldb.com/?ip.23.235.165.5) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+52 | [23.235.165.54](https://vuldb.com/?ip.23.235.165.54) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+53 | [23.248.217.151](https://vuldb.com/?ip.23.248.217.151) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+54 | [23.249.20.22](https://vuldb.com/?ip.23.249.20.22) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+55 | [23.249.20.27](https://vuldb.com/?ip.23.249.20.27) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+56 | [23.249.20.36](https://vuldb.com/?ip.23.249.20.36) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+57 | [23.249.20.46](https://vuldb.com/?ip.23.249.20.46) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+58 | [23.249.20.55](https://vuldb.com/?ip.23.249.20.55) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+59 | [23.249.20.81](https://vuldb.com/?ip.23.249.20.81) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+60 | [23.249.20.94](https://vuldb.com/?ip.23.249.20.94) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+61 | [23.249.28.80](https://vuldb.com/?ip.23.249.28.80) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+62 | [23.249.28.119](https://vuldb.com/?ip.23.249.28.119) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+63 | [23.249.28.124](https://vuldb.com/?ip.23.249.28.124) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+64 | [23.249.28.126](https://vuldb.com/?ip.23.249.28.126) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+65 | [23.249.28.153](https://vuldb.com/?ip.23.249.28.153) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+66 | [23.249.28.155](https://vuldb.com/?ip.23.249.28.155) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+67 | [23.249.28.220](https://vuldb.com/?ip.23.249.28.220) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+68 | [23.249.28.223](https://vuldb.com/?ip.23.249.28.223) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+69 | [23.249.29.68](https://vuldb.com/?ip.23.249.29.68) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+70 | [23.249.29.117](https://vuldb.com/?ip.23.249.29.117) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+71 | [23.249.29.124](https://vuldb.com/?ip.23.249.29.124) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+72 | [27.25.158.108](https://vuldb.com/?ip.27.25.158.108) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+73 | [27.50.59.176](https://vuldb.com/?ip.27.50.59.176) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+74 | [27.50.63.8](https://vuldb.com/?ip.27.50.63.8) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+75 | [27.124.2.240](https://vuldb.com/?ip.27.124.2.240) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+76 | [27.124.3.175](https://vuldb.com/?ip.27.124.3.175) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+77 | [27.124.3.234](https://vuldb.com/?ip.27.124.3.234) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+78 | [27.124.4.60](https://vuldb.com/?ip.27.124.4.60) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+79 | [27.124.4.102](https://vuldb.com/?ip.27.124.4.102) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+80 | [27.124.6.139](https://vuldb.com/?ip.27.124.6.139) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+81 | [27.124.6.169](https://vuldb.com/?ip.27.124.6.169) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+82 | [27.124.6.233](https://vuldb.com/?ip.27.124.6.233) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+83 | [27.124.17.16](https://vuldb.com/?ip.27.124.17.16) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+84 | [27.124.17.45](https://vuldb.com/?ip.27.124.17.45) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+85 | [27.124.17.227](https://vuldb.com/?ip.27.124.17.227) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+86 | [27.124.18.107](https://vuldb.com/?ip.27.124.18.107) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+87 | [27.124.21.204](https://vuldb.com/?ip.27.124.21.204) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+88 | [27.124.21.211](https://vuldb.com/?ip.27.124.21.211) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+89 | [27.124.34.85](https://vuldb.com/?ip.27.124.34.85) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+90 | [27.124.34.140](https://vuldb.com/?ip.27.124.34.140) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+91 | [27.124.38.6](https://vuldb.com/?ip.27.124.38.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+92 | [27.124.40.23](https://vuldb.com/?ip.27.124.40.23) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+93 | [27.124.42.200](https://vuldb.com/?ip.27.124.42.200) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+94 | [27.124.43.13](https://vuldb.com/?ip.27.124.43.13) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+95 | [27.124.44.132](https://vuldb.com/?ip.27.124.44.132) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+96 | [27.124.45.87](https://vuldb.com/?ip.27.124.45.87) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+97 | [27.124.45.106](https://vuldb.com/?ip.27.124.45.106) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+98 | [27.124.46.112](https://vuldb.com/?ip.27.124.46.112) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+99 | [27.124.47.10](https://vuldb.com/?ip.27.124.47.10) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+100 | [34.1.142.70](https://vuldb.com/?ip.34.1.142.70) | 70.142.1.34.bc.googleusercontent.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+101 | [34.96.239.40](https://vuldb.com/?ip.34.96.239.40) | 40.239.96.34.bc.googleusercontent.com | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | Medium
+102 | [38.14.248.131](https://vuldb.com/?ip.38.14.248.131) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+103 | [38.45.122.106](https://vuldb.com/?ip.38.45.122.106) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+104 | [38.45.122.163](https://vuldb.com/?ip.38.45.122.163) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+105 | [38.45.123.74](https://vuldb.com/?ip.38.45.123.74) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+106 | [38.45.124.50](https://vuldb.com/?ip.38.45.124.50) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+107 | [38.46.13.82](https://vuldb.com/?ip.38.46.13.82) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+108 | [38.46.14.35](https://vuldb.com/?ip.38.46.14.35) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+109 | [38.46.14.36](https://vuldb.com/?ip.38.46.14.36) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+110 | [38.46.14.202](https://vuldb.com/?ip.38.46.14.202) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+111 | [38.47.240.184](https://vuldb.com/?ip.38.47.240.184) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+112 | [38.49.41.196](https://vuldb.com/?ip.38.49.41.196) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+113 | [38.49.43.40](https://vuldb.com/?ip.38.49.43.40) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+114 | [38.57.129.243](https://vuldb.com/?ip.38.57.129.243) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+115 | [38.91.114.214](https://vuldb.com/?ip.38.91.114.214) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+116 | [38.91.115.114](https://vuldb.com/?ip.38.91.115.114) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+117 | [38.162.114.253](https://vuldb.com/?ip.38.162.114.253) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+118 | [38.181.2.77](https://vuldb.com/?ip.38.181.2.77) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+119 | [38.181.20.6](https://vuldb.com/?ip.38.181.20.6) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+120 | [38.181.20.23](https://vuldb.com/?ip.38.181.20.23) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+121 | [38.181.22.7](https://vuldb.com/?ip.38.181.22.7) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+122 | [38.181.22.44](https://vuldb.com/?ip.38.181.22.44) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+123 | [38.181.35.83](https://vuldb.com/?ip.38.181.35.83) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+124 | [38.181.35.237](https://vuldb.com/?ip.38.181.35.237) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+125 | [38.244.14.93](https://vuldb.com/?ip.38.244.14.93) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+126 | [38.246.249.140](https://vuldb.com/?ip.38.246.249.140) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+127 | [39.108.160.153](https://vuldb.com/?ip.39.108.160.153) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+128 | [43.100.1.173](https://vuldb.com/?ip.43.100.1.173) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+129 | [43.100.18.182](https://vuldb.com/?ip.43.100.18.182) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+130 | [43.100.117.240](https://vuldb.com/?ip.43.100.117.240) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+131 | [43.100.118.243](https://vuldb.com/?ip.43.100.118.243) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+132 | [43.128.141.78](https://vuldb.com/?ip.43.128.141.78) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+133 | [43.129.233.99](https://vuldb.com/?ip.43.129.233.99) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+134 | [43.129.233.146](https://vuldb.com/?ip.43.129.233.146) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+135 | [43.132.155.154](https://vuldb.com/?ip.43.132.155.154) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+136 | [43.132.212.111](https://vuldb.com/?ip.43.132.212.111) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+137 | [43.132.214.133](https://vuldb.com/?ip.43.132.214.133) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+138 | [43.132.216.81](https://vuldb.com/?ip.43.132.216.81) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+139 | [43.132.235.4](https://vuldb.com/?ip.43.132.235.4) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+140 | [43.133.39.217](https://vuldb.com/?ip.43.133.39.217) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+141 | [43.135.78.62](https://vuldb.com/?ip.43.135.78.62) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+142 | [43.136.46.42](https://vuldb.com/?ip.43.136.46.42) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+143 | [43.139.152.50](https://vuldb.com/?ip.43.139.152.50) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+144 | [43.143.4.38](https://vuldb.com/?ip.43.143.4.38) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+145 | [43.154.88.185](https://vuldb.com/?ip.43.154.88.185) | - | [ValleyRAT](https://vuldb.com/?actor.valleyrat) | High
+146 | ... | ... | ... | ...
 
-There are 548 more IOC items available. Please use our online service to access the data.
+There are 580 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -183,9 +191,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-268, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -195,87 +204,91 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `-X/path/to/wwwroot/file.php.` | High
 2 | File | `/?explorer/upload/serverDownload` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/Actions.php` | Medium
+3 | File | `/Actions.php` | Medium
+4 | File | `/add.home.php` | High
 5 | File | `/admin#themes` | High
 6 | File | `/admin-cp/media` | High
 7 | File | `/admin/?page=return/view_return` | High
-8 | File | `/admin/add-subadmin.php` | High
-9 | File | `/admin/add_cars.php` | High
-10 | File | `/admin/admin_class.php` | High
-11 | File | `/admin/admin_index.php` | High
-12 | File | `/admin/all-applications.php` | High
-13 | File | `/admin/approve_user.php` | High
-14 | File | `/admin/bwdates-request-report-details.php` | High
-15 | File | `/admin/category/add.do` | High
-16 | File | `/admin/changeimage.php` | High
-17 | File | `/admin/controller/faculty_controller.php` | High
-18 | File | `/admin/delete-doctor.php` | High
-19 | File | `/admin/delete_log.php` | High
-20 | File | `/admin/disapprove_user.php` | High
-21 | File | `/admin/edit-admin.php` | High
-22 | File | `/admin/edit-guard-detail.php` | High
-23 | File | `/admin/edit-products.php` | High
-24 | File | `/admin/edituser.php` | High
-25 | File | `/admin/edit_role.php` | High
-26 | File | `/admin/enrollment-details.php` | High
-27 | File | `/admin/faculty_action.php` | High
-28 | File | `/admin/forms/option_lists/edit.php` | High
-29 | File | `/admin/index2.html` | High
-30 | File | `/admin/login` | Medium
-31 | File | `/admin/login.php` | High
-32 | File | `/Admin/login.php` | High
-33 | File | `/admin/manage-pages.php` | High
-34 | File | `/admin/manage_user.php` | High
-35 | File | `/admin/modules/instructor/index.php` | High
-36 | File | `/admin/operations/booking.php` | High
-37 | File | `/admin/operations/travellers.php` | High
-38 | File | `/admin/seo_setting.php` | High
-39 | File | `/Admin/sports.php` | High
-40 | File | `/admin/userlist.php` | High
-41 | File | `/admin/view-enquiry.php` | High
-42 | File | `/admin/view-patient.php` | High
-43 | File | `/adpweb/a/base/barcodeDetail/` | High
-44 | File | `/ajax.php` | Medium
-45 | File | `/ajax.php?action=delete_borrower` | High
-46 | File | `/ajax.php?action=delete_plan` | High
-47 | File | `/ajax.php?action=delete_sales` | High
-48 | File | `/ajax.php?action=login` | High
-49 | File | `/ajax.php?action=save_customer` | High
-50 | File | `/ajax.php?action=save_package` | High
-51 | File | `/ajax.php?action=save_receiving` | High
-52 | File | `/ajax.php?action=save_supplier` | High
-53 | File | `/api/` | Low
-54 | File | `/api/advanced-search` | High
-55 | File | `/api/blade-user/export-user` | High
-56 | File | `/api/docs/index.php` | High
-57 | File | `/api/plugin/uninstall` | High
-58 | File | `/api/wizard/setsyncpppoecfg` | High
-59 | File | `/app/controller/Api.php` | High
-60 | File | `/application/controllers/Marks.php` | High
-61 | File | `/attribute/queryAll` | High
-62 | File | `/auth.asp` | Medium
-63 | File | `/auth/orderQuery` | High
-64 | File | `/backend/admin/his_admin_register_patient.php` | High
-65 | File | `/backend/register.php` | High
-66 | File | `/bic/ssoService/v1/applyCT` | High
-67 | File | `/bin/httpd` | Medium
-68 | File | `/blog/comment` | High
-69 | File | `/boafrm/formFilter` | High
-70 | File | `/boafrm/formParentControl` | High
-71 | File | `/boafrm/formSaveConfig` | High
-72 | File | `/boafrm/formWlSiteSurvey` | High
-73 | File | `/booklist.php` | High
-74 | File | `/branch/addbranch.php` | High
-75 | File | `/browsemdcn.php` | High
-76 | File | `/BRS_top.html` | High
-77 | File | `/cashconfirm.php` | High
-78 | File | `/cgi-bin/Config.cgi?action=set` | High
-79 | File | `/cgi-bin/cstecgi.cgi` | High
-80 | File | `/cgi-bin/editBookmark` | High
-81 | ... | ... | ...
+8 | File | `/admin/add-customer.php` | High
+9 | File | `/admin/add-subadmin.php` | High
+10 | File | `/admin/add_cars.php` | High
+11 | File | `/admin/admin_class.php` | High
+12 | File | `/admin/admin_index.php` | High
+13 | File | `/admin/all-applications.php` | High
+14 | File | `/admin/all-appointment.php` | High
+15 | File | `/admin/approve_user.php` | High
+16 | File | `/admin/bwdates-request-report-details.php` | High
+17 | File | `/admin/category/add.do` | High
+18 | File | `/admin/category_update.php` | High
+19 | File | `/admin/change-image.php` | High
+20 | File | `/admin/changeimage.php` | High
+21 | File | `/admin/changepassword.php` | High
+22 | File | `/admin/controller/faculty_controller.php` | High
+23 | File | `/admin/delete-doctor.php` | High
+24 | File | `/admin/delete_log.php` | High
+25 | File | `/admin/de_activate.php` | High
+26 | File | `/admin/disapprove_user.php` | High
+27 | File | `/admin/edit-admin.php` | High
+28 | File | `/admin/edit-guard-detail.php` | High
+29 | File | `/admin/edit-products.php` | High
+30 | File | `/admin/edituser.php` | High
+31 | File | `/admin/edit_content.php` | High
+32 | File | `/admin/edit_role.php` | High
+33 | File | `/admin/edit_student.php` | High
+34 | File | `/admin/edit_tax.php` | High
+35 | File | `/admin/faculty_action.php` | High
+36 | File | `/admin/forms/option_lists/edit.php` | High
+37 | File | `/admin/index2.html` | High
+38 | File | `/admin/login` | Medium
+39 | File | `/admin/login.php` | High
+40 | File | `/Admin/login.php` | High
+41 | File | `/admin/manage-pages.php` | High
+42 | File | `/admin/manage_user.php` | High
+43 | File | `/admin/modules/instructor/index.php` | High
+44 | File | `/admin/operations/booking.php` | High
+45 | File | `/admin/operations/travellers.php` | High
+46 | File | `/admin/school_year.php` | High
+47 | File | `/admin/search-appointment.php` | High
+48 | File | `/admin/seo_setting.php` | High
+49 | File | `/Admin/sports.php` | High
+50 | File | `/admin/user/controller.php?action=photos` | High
+51 | File | `/admin/userlist.php` | High
+52 | File | `/admin/vacancy/index.php?view=edit` | High
+53 | File | `/admin/view-enquiry.php` | High
+54 | File | `/admin/view-patient.php` | High
+55 | File | `/admin/violation_add.php?id=2` | High
+56 | File | `/admin/workin-progress-requests.php` | High
+57 | File | `/adpweb/a/base/barcodeDetail/` | High
+58 | File | `/ajax.php` | Medium
+59 | File | `/ajax.php?action=delete_borrower` | High
+60 | File | `/ajax.php?action=delete_plan` | High
+61 | File | `/ajax.php?action=delete_sales` | High
+62 | File | `/ajax.php?action=login` | High
+63 | File | `/ajax.php?action=save_customer` | High
+64 | File | `/ajax.php?action=save_package` | High
+65 | File | `/ajax.php?action=save_receiving` | High
+66 | File | `/ajax.php?action=save_supplier` | High
+67 | File | `/api/` | Low
+68 | File | `/api/advanced-search` | High
+69 | File | `/api/areacliente/pessoa/validarCpf` | High
+70 | File | `/api/blade-user/export-user` | High
+71 | File | `/api/docs/index.php` | High
+72 | File | `/api/plugin/uninstall` | High
+73 | File | `/application/controllers/Marks.php` | High
+74 | File | `/attribute/queryAll` | High
+75 | File | `/auth/orderQuery` | High
+76 | File | `/backend/admin/his_admin_register_patient.php` | High
+77 | File | `/backend/register.php` | High
+78 | File | `/bic/ssoService/v1/applyCT` | High
+79 | File | `/bin/httpd` | Medium
+80 | File | `/blog/comment` | High
+81 | File | `/boafrm/formFilter` | High
+82 | File | `/boafrm/formParentControl` | High
+83 | File | `/boafrm/formSaveConfig` | High
+84 | File | `/boafrm/formWlSiteSurvey` | High
+85 | ... | ... | ...
 
-There are 709 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 749 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -287,6 +300,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/0f5aaa3d4e6b41a7cf3a2bccafbb38c399724bfa224622a5b4ab868dadb9fc76/
 * https://bazaar.abuse.ch/sample/27780a53d6d31c511e7824b89e8a436f62d11df26855f1ef6168a0bc84935898/
 * https://bazaar.abuse.ch/sample/bb1d91e8f93a1b08b098969e48a12d2f2b8203a30de0c3d85ec8cd36a3fa8049/
+* https://bazaar.abuse.ch/sample/bd637efb8b5d0d620e4dc9bcd3d596b8da685116dcd9ab122bedd369fb912a94/
 * https://threatfox.abuse.ch
 * https://tria.ge/250620-zfqlwsgr6t
 * https://tria.ge/250621-evj3fawqz8
@@ -421,6 +435,24 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://tria.ge/250922-rrs76adr5x
 * https://tria.ge/250922-s9rbysfk8w
 * https://tria.ge/250924-ldmwbsfn3w
+* https://tria.ge/250926-f79z3atyct
+* https://tria.ge/250927-gmn3jas1e1
+* https://tria.ge/250927-hb3l8afl7t
+* https://tria.ge/250928-gbepqax1ds
+* https://tria.ge/250928-gfrj3shp7x
+* https://tria.ge/250928-hg74wsyzf1
+* https://tria.ge/250928-hkexhsy1ct
+* https://tria.ge/250930-qqccksgm6s
+* https://tria.ge/251001-f7rtgsy1dw
+* https://tria.ge/251001-ra8arav1g1
+* https://tria.ge/251002-fll14sxsh1
+* https://tria.ge/251004-ejc5raxyev
+* https://tria.ge/251004-hrgdxsyzez
+* https://tria.ge/251005-e3w2zabr4s
+* https://tria.ge/251005-h5nedsdj6v
+* https://tria.ge/251006-ghz91awvat
+* https://tria.ge/251008-q2xgws1m15
+* https://tria.ge/251009-qctppsylz9
 * https://urlhaus.abuse.ch/host/43.128.141.78/
 * https://urlhaus.abuse.ch/url/3550698/
 * https://urlhaus.abuse.ch/url/3573728/

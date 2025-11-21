@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [BR](https://vuldb.com/?country.br)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -152,7 +152,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,11 +164,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/positions.php` | High
 3 | File | `/cgi-bin/cstecgi.cgi` | High
 4 | File | `/forum/away.php` | High
-5 | File | `/goform/exeCommand` | High
-6 | File | `/goform/getOneApConfTempEntry` | High
-7 | ... | ... | ...
+5 | File | `/goform/AdvSetMacMtuWa` | High
+6 | File | `/goform/aspForm` | High
+7 | File | `/goform/exeCommand` | High
+8 | File | `/goform/formWPS` | High
+9 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

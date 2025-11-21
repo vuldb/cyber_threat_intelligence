@@ -59,21 +59,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/application/index/controller/Databasesource.php` | High
 5 | File | `/cgi-bin/nas_sharing.cgi` | High
 6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-7 | File | `/index.php` | Medium
-8 | File | `/ipms/imageConvert/image` | High
-9 | File | `/livesite/edit_designer_region.php` | High
-10 | File | `/module/Api/pessoa` | High
-11 | File | `/ndmComponents.js` | High
-12 | File | `/queryDevInfo` | High
-13 | File | `/v1/sql-runner` | High
-14 | File | `/view-pass-detail.php` | High
-15 | File | `/wp-admin/options-general.php` | High
-16 | File | `admin.color.php` | High
-17 | File | `admin.cropcanvas.php` | High
-18 | File | `admin.joomlaradiov5.php` | High
-19 | ... | ... | ...
+7 | File | `/forum1.php` | Medium
+8 | File | `/index.php` | Medium
+9 | File | `/ipms/imageConvert/image` | High
+10 | File | `/livesite/edit_designer_region.php` | High
+11 | File | `/module/Api/pessoa` | High
+12 | File | `/ndmComponents.js` | High
+13 | File | `/queryDevInfo` | High
+14 | File | `/v1/sql-runner` | High
+15 | File | `/view-pass-detail.php` | High
+16 | File | `/wp-admin/options-general.php` | High
+17 | File | `admin.color.php` | High
+18 | File | `admin.cropcanvas.php` | High
+19 | File | `admin.joomlaradiov5.php` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,26 +58,28 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=purchase_order/view_po` | High
 2 | File | `/admin/chatroom.php` | High
 3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/publishnews.php` | High
-6 | File | `/admin/template` | High
-7 | File | `/api/wizard/setsyncpppoecfg` | High
-8 | File | `/auth/register` | High
-9 | File | `/auth/userkey/logout.php` | High
-10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-11 | File | `/backend/admin/his_admin_register_patient.php` | High
-12 | File | `/cgi-bin/kerbynet` | High
-13 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-14 | File | `/etc/quagga` | Medium
-15 | File | `/filemanager/upload` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-18 | File | `/index.php/dashboard/save` | High
-19 | File | `/main?cmd=invalid_browser` | High
-20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-21 | ... | ... | ...
+4 | File | `/admin/department/add` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/publishnews.php` | High
+8 | File | `/admin/template` | High
+9 | File | `/api/wizard/setsyncpppoecfg` | High
+10 | File | `/auth/register` | High
+11 | File | `/auth/userkey/logout.php` | High
+12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+13 | File | `/backend/admin/his_admin_register_patient.php` | High
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/contact.php` | Medium
+16 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+17 | File | `/edit-category.php` | High
+18 | File | `/etc/quagga` | Medium
+19 | File | `/filemanager/upload` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+22 | File | `/index.php/dashboard/save` | High
+23 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

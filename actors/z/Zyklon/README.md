@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zyklon:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,25 +50,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `/admin/add-propertytype.php` | High
-3 | File | `/admin/order.php` | High
-4 | File | `/ajaxGetFileByPath.php` | High
-5 | File | `/app/sys1.php` | High
-6 | File | `/category.php` | High
-7 | File | `/config/list` | Medium
-8 | File | `/dashboard/admin/edit_member.php` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/expedit.php` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-13 | File | `/reservation.php` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/web/` | Low
-16 | File | `/wp-content/attachment` | High
-17 | File | `active.log` | Medium
-18 | ... | ... | ...
+2 | File | `../mtd/Config/Sha1Account1` | High
+3 | File | `/;/admin/role/edit` | High
+4 | File | `/admin-cp/imports` | High
+5 | File | `/admin-cp/theme/install` | High
+6 | File | `/admin-profile.php` | High
+7 | File | `/Admin/add-fee.php` | High
+8 | File | `/admin/add-propertytype.php` | High
+9 | File | `/admin/between-date-complaintreport.php` | High
+10 | File | `/admin/between-date-userreport.php` | High
+11 | File | `/admin/changeimage.php` | High
+12 | File | `/admin/edit-category-detail.php` | High
+13 | File | `/admin/edit-category.php` | High
+14 | File | `/admin/edit-course.php` | High
+15 | File | `/admin/edit-state.php` | High
+16 | File | `/admin/edit-subcategory.php` | High
+17 | File | `/admin/edit-subjects-detail.php` | High
+18 | File | `/admin/edit-teacher-info.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/login` | Medium
+21 | File | `/admin/login.php` | High
+22 | File | `/admin/manage-teams.php` | High
+23 | File | `/admin/manage-users.php` | High
+24 | File | `/admin/modules/subject/edit.php` | High
+25 | File | `/admin/Operations/Role.php` | High
+26 | File | `/admin/order.php` | High
+27 | File | `/admin/pass-bwdates-reports-details.php` | High
+28 | File | `/admin/profile.php` | High
+29 | File | `/admin/readenq.php` | High
+30 | File | `/admin/registration.php` | High
+31 | File | `/admin/search-autoortaxi.php` | High
+32 | File | `/admin/student_edit_photo.php` | High
+33 | File | `/admin/suppliercontroller.php` | High
+34 | File | `/admin/updatecomplaint.php` | High
+35 | File | `/admin/users.php` | High
+36 | File | `/admin/view-pass-detail.php` | High
+37 | File | `/admin/View_user.php` | High
+38 | File | `/ajaxGetFileByPath.php` | High
+39 | File | `/Android/data/com.myairtelapp/files/` | High
+40 | File | `/api/esps` | Medium
+41 | File | `/api/file/upload` | High
+42 | File | `/Api/FileUploadApi.ashx` | High
+43 | File | `/api/login/auth` | High
+44 | File | `/api/sys/user/verifyPassword/` | High
+45 | File | `/api/v1.index.article/getList.html` | High
+46 | File | `/api/wizard/getBasicInfo` | High
+47 | File | `/api/wizard/getCapability` | High
+48 | File | `/api/wizard/getCapabilityWeb` | High
+49 | File | `/api/wizard/getDualbandSync` | High
+50 | File | `/api/wizard/getLanguage` | High
+51 | File | `/api/wizard/getNetworkStatus` | High
+52 | File | `/api/wizard/getSpecs` | High
+53 | File | `/api/wizard/getssidname` | High
+54 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

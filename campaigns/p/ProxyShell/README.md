@@ -114,9 +114,10 @@ ID | Type | Indicator | Confidence
 54 | File | `/dashboard/approve-reject.php` | High
 55 | File | `/debug/pprof` | Medium
 56 | File | `/dede/file_manage_control.php` | High
-57 | ... | ... | ...
+57 | File | `/detailed.php` | High
+58 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [CN](https://vuldb.com/?country.cn)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,72 +35,76 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [5.10.250.239](https://vuldb.com/?ip.5.10.250.239) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
 4 | [5.10.250.242](https://vuldb.com/?ip.5.10.250.242) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
 5 | [5.42.67.10](https://vuldb.com/?ip.5.42.67.10) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-6 | [5.75.147.135](https://vuldb.com/?ip.5.75.147.135) | static.135.147.75.5.clients.your-server.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-7 | [5.75.149.1](https://vuldb.com/?ip.5.75.149.1) | static.1.149.75.5.clients.your-server.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-8 | [5.75.153.165](https://vuldb.com/?ip.5.75.153.165) | s92.vorarlberghosting.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-9 | [5.188.86.2](https://vuldb.com/?ip.5.188.86.2) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-10 | [5.230.54.243](https://vuldb.com/?ip.5.230.54.243) | vps67fc090d800ad660630891.noezserver.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-11 | [31.214.157.247](https://vuldb.com/?ip.31.214.157.247) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-12 | [34.27.150.38](https://vuldb.com/?ip.34.27.150.38) | 38.150.27.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-13 | [34.27.176.144](https://vuldb.com/?ip.34.27.176.144) | 144.176.27.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-14 | [34.66.252.36](https://vuldb.com/?ip.34.66.252.36) | 36.252.66.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-15 | [34.89.247.212](https://vuldb.com/?ip.34.89.247.212) | 212.247.89.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-16 | [34.91.185.62](https://vuldb.com/?ip.34.91.185.62) | 62.185.91.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-17 | [34.107.35.186](https://vuldb.com/?ip.34.107.35.186) | 186.35.107.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-18 | [34.107.84.7](https://vuldb.com/?ip.34.107.84.7) | 7.84.107.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-19 | [34.141.16.89](https://vuldb.com/?ip.34.141.16.89) | 89.16.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-20 | [34.141.92.1](https://vuldb.com/?ip.34.141.92.1) | 1.92.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-21 | [34.141.167.33](https://vuldb.com/?ip.34.141.167.33) | 33.167.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-22 | [34.141.198.105](https://vuldb.com/?ip.34.141.198.105) | 105.198.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-23 | [34.142.80.219](https://vuldb.com/?ip.34.142.80.219) | 219.80.142.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-24 | [34.159.68.86](https://vuldb.com/?ip.34.159.68.86) | 86.68.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-25 | [34.159.180.55](https://vuldb.com/?ip.34.159.180.55) | 55.180.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-26 | [35.198.132.51](https://vuldb.com/?ip.35.198.132.51) | 51.132.198.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-27 | [35.204.188.251](https://vuldb.com/?ip.35.204.188.251) | 251.188.204.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-28 | [35.226.102.12](https://vuldb.com/?ip.35.226.102.12) | 12.102.226.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-29 | [35.230.153.115](https://vuldb.com/?ip.35.230.153.115) | 115.153.230.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-30 | [35.234.79.173](https://vuldb.com/?ip.35.234.79.173) | 173.79.234.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-31 | [35.234.159.213](https://vuldb.com/?ip.35.234.159.213) | 213.159.234.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-32 | [35.242.150.95](https://vuldb.com/?ip.35.242.150.95) | 95.150.242.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-33 | [35.246.173.61](https://vuldb.com/?ip.35.246.173.61) | 61.173.246.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-34 | [37.1.206.174](https://vuldb.com/?ip.37.1.206.174) | 2lv.ru | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-35 | [38.180.222.190](https://vuldb.com/?ip.38.180.222.190) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-36 | [45.32.187.145](https://vuldb.com/?ip.45.32.187.145) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-37 | [45.59.122.82](https://vuldb.com/?ip.45.59.122.82) | 82.122.59.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-38 | [45.59.124.17](https://vuldb.com/?ip.45.59.124.17) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-39 | [45.59.125.228](https://vuldb.com/?ip.45.59.125.228) | 228.125.59.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-40 | [45.61.136.195](https://vuldb.com/?ip.45.61.136.195) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-41 | [45.61.148.117](https://vuldb.com/?ip.45.61.148.117) | 117.148.61.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-42 | [45.61.165.177](https://vuldb.com/?ip.45.61.165.177) | 177.165.61.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-43 | [45.77.137.24](https://vuldb.com/?ip.45.77.137.24) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-44 | [45.77.154.115](https://vuldb.com/?ip.45.77.154.115) | 45.77.154.115.vultrusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
-45 | [45.88.104.17](https://vuldb.com/?ip.45.88.104.17) | 5952170.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-46 | [45.88.104.78](https://vuldb.com/?ip.45.88.104.78) | 5285002.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-47 | [45.88.104.115](https://vuldb.com/?ip.45.88.104.115) | 5901419.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-48 | [45.89.110.114](https://vuldb.com/?ip.45.89.110.114) | vm4378330.example.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-49 | [45.92.179.244](https://vuldb.com/?ip.45.92.179.244) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-50 | [45.92.179.249](https://vuldb.com/?ip.45.92.179.249) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-51 | [45.94.47.104](https://vuldb.com/?ip.45.94.47.104) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-52 | [45.94.47.125](https://vuldb.com/?ip.45.94.47.125) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-53 | [45.94.47.133](https://vuldb.com/?ip.45.94.47.133) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-54 | [45.94.47.164](https://vuldb.com/?ip.45.94.47.164) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-55 | [45.118.248.29](https://vuldb.com/?ip.45.118.248.29) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-56 | [45.135.71.183](https://vuldb.com/?ip.45.135.71.183) | 45-135-71-183.ip4.tkom.io | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-57 | [45.138.159.2](https://vuldb.com/?ip.45.138.159.2) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-58 | [45.141.84.60](https://vuldb.com/?ip.45.141.84.60) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-59 | [45.141.84.168](https://vuldb.com/?ip.45.141.84.168) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-60 | [45.141.84.208](https://vuldb.com/?ip.45.141.84.208) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-61 | [45.141.84.229](https://vuldb.com/?ip.45.141.84.229) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-62 | [45.141.86.61](https://vuldb.com/?ip.45.141.86.61) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-63 | [45.141.86.82](https://vuldb.com/?ip.45.141.86.82) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-64 | [45.141.86.149](https://vuldb.com/?ip.45.141.86.149) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-65 | [45.141.86.159](https://vuldb.com/?ip.45.141.86.159) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-66 | [45.141.87.7](https://vuldb.com/?ip.45.141.87.7) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-67 | [45.141.87.16](https://vuldb.com/?ip.45.141.87.16) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-68 | [45.141.87.50](https://vuldb.com/?ip.45.141.87.50) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
-69 | ... | ... | ... | ...
+6 | [5.45.95.240](https://vuldb.com/?ip.5.45.95.240) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+7 | [5.75.147.135](https://vuldb.com/?ip.5.75.147.135) | static.135.147.75.5.clients.your-server.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+8 | [5.75.149.1](https://vuldb.com/?ip.5.75.149.1) | static.1.149.75.5.clients.your-server.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+9 | [5.75.153.165](https://vuldb.com/?ip.5.75.153.165) | s92.vorarlberghosting.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+10 | [5.188.86.2](https://vuldb.com/?ip.5.188.86.2) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+11 | [5.230.54.243](https://vuldb.com/?ip.5.230.54.243) | vps67fc090d800ad660630891.noezserver.de | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+12 | [31.214.157.247](https://vuldb.com/?ip.31.214.157.247) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+13 | [34.27.150.38](https://vuldb.com/?ip.34.27.150.38) | 38.150.27.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+14 | [34.27.176.144](https://vuldb.com/?ip.34.27.176.144) | 144.176.27.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+15 | [34.66.252.36](https://vuldb.com/?ip.34.66.252.36) | 36.252.66.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+16 | [34.89.247.212](https://vuldb.com/?ip.34.89.247.212) | 212.247.89.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+17 | [34.91.185.62](https://vuldb.com/?ip.34.91.185.62) | 62.185.91.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+18 | [34.107.35.186](https://vuldb.com/?ip.34.107.35.186) | 186.35.107.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+19 | [34.107.84.7](https://vuldb.com/?ip.34.107.84.7) | 7.84.107.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+20 | [34.141.16.89](https://vuldb.com/?ip.34.141.16.89) | 89.16.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+21 | [34.141.92.1](https://vuldb.com/?ip.34.141.92.1) | 1.92.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+22 | [34.141.167.33](https://vuldb.com/?ip.34.141.167.33) | 33.167.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+23 | [34.141.198.105](https://vuldb.com/?ip.34.141.198.105) | 105.198.141.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+24 | [34.142.80.219](https://vuldb.com/?ip.34.142.80.219) | 219.80.142.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+25 | [34.159.68.86](https://vuldb.com/?ip.34.159.68.86) | 86.68.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+26 | [34.159.180.55](https://vuldb.com/?ip.34.159.180.55) | 55.180.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+27 | [35.198.132.51](https://vuldb.com/?ip.35.198.132.51) | 51.132.198.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+28 | [35.204.188.251](https://vuldb.com/?ip.35.204.188.251) | 251.188.204.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+29 | [35.226.102.12](https://vuldb.com/?ip.35.226.102.12) | 12.102.226.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+30 | [35.230.153.115](https://vuldb.com/?ip.35.230.153.115) | 115.153.230.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+31 | [35.234.79.173](https://vuldb.com/?ip.35.234.79.173) | 173.79.234.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+32 | [35.234.159.213](https://vuldb.com/?ip.35.234.159.213) | 213.159.234.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+33 | [35.242.150.95](https://vuldb.com/?ip.35.242.150.95) | 95.150.242.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+34 | [35.246.173.61](https://vuldb.com/?ip.35.246.173.61) | 61.173.246.35.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+35 | [37.1.206.174](https://vuldb.com/?ip.37.1.206.174) | 2lv.ru | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+36 | [38.180.222.190](https://vuldb.com/?ip.38.180.222.190) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+37 | [45.32.187.145](https://vuldb.com/?ip.45.32.187.145) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+38 | [45.59.122.82](https://vuldb.com/?ip.45.59.122.82) | 82.122.59.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+39 | [45.59.124.17](https://vuldb.com/?ip.45.59.124.17) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+40 | [45.59.125.228](https://vuldb.com/?ip.45.59.125.228) | 228.125.59.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+41 | [45.61.136.195](https://vuldb.com/?ip.45.61.136.195) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+42 | [45.61.148.117](https://vuldb.com/?ip.45.61.148.117) | 117.148.61.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+43 | [45.61.165.177](https://vuldb.com/?ip.45.61.165.177) | 177.165.61.45.static.cloudzy.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+44 | [45.77.137.24](https://vuldb.com/?ip.45.77.137.24) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+45 | [45.77.154.115](https://vuldb.com/?ip.45.77.154.115) | 45.77.154.115.vultrusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
+46 | [45.88.104.17](https://vuldb.com/?ip.45.88.104.17) | 5952170.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+47 | [45.88.104.78](https://vuldb.com/?ip.45.88.104.78) | 5285002.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+48 | [45.88.104.115](https://vuldb.com/?ip.45.88.104.115) | 5901419.ds-b.had.pm | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+49 | [45.89.110.114](https://vuldb.com/?ip.45.89.110.114) | vm4378330.example.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+50 | [45.92.179.244](https://vuldb.com/?ip.45.92.179.244) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+51 | [45.92.179.249](https://vuldb.com/?ip.45.92.179.249) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+52 | [45.94.47.104](https://vuldb.com/?ip.45.94.47.104) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+53 | [45.94.47.125](https://vuldb.com/?ip.45.94.47.125) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+54 | [45.94.47.133](https://vuldb.com/?ip.45.94.47.133) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+55 | [45.94.47.164](https://vuldb.com/?ip.45.94.47.164) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+56 | [45.118.248.29](https://vuldb.com/?ip.45.118.248.29) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+57 | [45.130.60.93](https://vuldb.com/?ip.45.130.60.93) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+58 | [45.135.71.183](https://vuldb.com/?ip.45.135.71.183) | 45-135-71-183.ip4.tkom.io | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+59 | [45.138.159.2](https://vuldb.com/?ip.45.138.159.2) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+60 | [45.141.84.60](https://vuldb.com/?ip.45.141.84.60) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+61 | [45.141.84.168](https://vuldb.com/?ip.45.141.84.168) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+62 | [45.141.84.208](https://vuldb.com/?ip.45.141.84.208) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+63 | [45.141.84.229](https://vuldb.com/?ip.45.141.84.229) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+64 | [45.141.86.61](https://vuldb.com/?ip.45.141.86.61) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+65 | [45.141.86.82](https://vuldb.com/?ip.45.141.86.82) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+66 | [45.141.86.149](https://vuldb.com/?ip.45.141.86.149) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+67 | [45.141.86.159](https://vuldb.com/?ip.45.141.86.159) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+68 | [45.141.87.7](https://vuldb.com/?ip.45.141.87.7) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+69 | [45.141.87.16](https://vuldb.com/?ip.45.141.87.16) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+70 | [45.141.87.50](https://vuldb.com/?ip.45.141.87.50) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+71 | [45.141.87.55](https://vuldb.com/?ip.45.141.87.55) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+72 | [45.141.87.63](https://vuldb.com/?ip.45.141.87.63) | - | [SectopRAT](https://vuldb.com/?actor.sectoprat) | High
+73 | ... | ... | ... | ...
 
-There are 270 more IOC items available. Please use our online service to access the data.
+There are 288 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -108,14 +112,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-28, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-35, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -131,64 +134,44 @@ ID | Type | Indicator | Confidence
 6 | File | `/add-admin.php` | High
 7 | File | `/add-subadmin.php` | High
 8 | File | `/add-table.php` | High
-9 | File | `/add_new_invoice.php` | High
-10 | File | `/add_user.php` | High
-11 | File | `/admin#themes` | High
-12 | File | `/admin/?page=categories/view_category` | High
-13 | File | `/admin/add-doctor.php` | High
-14 | File | `/admin/add-table.php` | High
-15 | File | `/admin/admin_login.php` | High
-16 | File | `/admin/admin_running.php` | High
-17 | File | `/admin/ajax.php?action=login` | High
-18 | File | `/Admin/akun_edit.php` | High
-19 | File | `/admin/apply.php` | High
-20 | File | `/admin/bookList?page=1&limit=10` | High
-21 | File | `/admin/case-type` | High
-22 | File | `/admin/changeimage.php` | High
-23 | File | `/admin/contact-us.php` | High
-24 | File | `/admin/content/editor` | High
-25 | File | `/admin/create-package.php` | High
-26 | File | `/admin/create_product.php` | High
-27 | File | `/admin/delete_s6.php` | High
-28 | File | `/admin/doAdminAction.php?act=addCate` | High
-29 | File | `/admin/edit-brand.php` | High
-30 | File | `/admin/edit_manufacturer.php` | High
-31 | File | `/admin/index.php` | High
-32 | File | `/admin/ind_backstage.php` | High
-33 | File | `/admin/login.php` | High
-34 | File | `/Admin/login.php` | High
-35 | File | `/admin/manage-services.php` | High
-36 | File | `/admin/mechanics/manage_mechanic.php` | High
-37 | File | `/admin/menu.php` | High
-38 | File | `/admin/modules/room/index.php` | High
-39 | File | `/admin/profile.php` | High
-40 | File | `/Admin/Proses_Edit_Akun.php` | High
-41 | File | `/admin/robot.php` | High
-42 | File | `/admin/search-invoices.php` | High
-43 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-44 | File | `/admin/tags/save` | High
-45 | File | `/admin/twitter.php` | High
-46 | File | `/admin/users.php` | High
-47 | File | `/admin/yesterday-reg-users.php` | High
-48 | File | `/ajax.php?action=delete_tenant` | High
-49 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-50 | File | `/api/settings` | High
-51 | File | `/api/system/other` | High
-52 | File | `/api/wizard/getCapability` | High
-53 | File | `/app/api/v1/openvpn.py` | High
-54 | File | `/app/controller/Api.php` | High
-55 | File | `/app/platform/controllers/ResetpwdController.php` | High
-56 | File | `/auth.asp` | Medium
-57 | File | `/authMonitCallcenter` | High
-58 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-59 | File | `/backend/admin/his_admin_register_patient.php` | High
-60 | File | `/backend/doc/his_doc_update-account.php` | High
-61 | File | `/backend/register.php` | High
-62 | File | `/bin/boa` | Medium
-63 | File | `/biurl_grou` | Medium
-64 | ... | ... | ...
+9 | File | `/add_user.php` | High
+10 | File | `/admin#themes` | High
+11 | File | `/admin/add-doctor.php` | High
+12 | File | `/admin/add-table.php` | High
+13 | File | `/admin/admin_login.php` | High
+14 | File | `/admin/admin_running.php` | High
+15 | File | `/admin/ajax.php?action=login` | High
+16 | File | `/Admin/akun_edit.php` | High
+17 | File | `/admin/bookList?page=1&limit=10` | High
+18 | File | `/admin/case-type` | High
+19 | File | `/admin/changeimage.php` | High
+20 | File | `/admin/contact-us.php` | High
+21 | File | `/admin/content/editor` | High
+22 | File | `/admin/create_product.php` | High
+23 | File | `/admin/delete_s6.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/ind_backstage.php` | High
+26 | File | `/Admin/login.php` | High
+27 | File | `/admin/manage-services.php` | High
+28 | File | `/admin/mechanics/manage_mechanic.php` | High
+29 | File | `/admin/menu.php` | High
+30 | File | `/admin/modules/room/index.php` | High
+31 | File | `/admin/profile.php` | High
+32 | File | `/Admin/Proses_Edit_Akun.php` | High
+33 | File | `/admin/search-invoices.php` | High
+34 | File | `/admin/tags/save` | High
+35 | File | `/admin/twitter.php` | High
+36 | File | `/admin/yesterday-reg-users.php` | High
+37 | File | `/api/settings` | High
+38 | File | `/api/system/other` | High
+39 | File | `/api/wizard/getCapability` | High
+40 | File | `/app/api/v1/openvpn.py` | High
+41 | File | `/app/controller/Api.php` | High
+42 | File | `/app/platform/controllers/ResetpwdController.php` | High
+43 | File | `/auth.asp` | Medium
+44 | ... | ... | ...
 
-There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -200,6 +183,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://de.darktrace.com/blog/not-your-average-rodent-darktraces-mitigation-of-the-sectop-remote-access-trojan-rat
 * https://github.com/esThreatIntelligence/iocs/blob/main/FakeBat/iocs_3-25-2024.txt
 * https://search.censys.io/hosts/5.10.250.242
+* https://search.censys.io/hosts/5.45.95.240
 * https://search.censys.io/hosts/5.188.86.2
 * https://search.censys.io/hosts/31.214.157.247
 * https://search.censys.io/hosts/34.66.252.36
@@ -218,6 +202,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/45.94.47.104
 * https://search.censys.io/hosts/45.94.47.125
 * https://search.censys.io/hosts/45.94.47.133
+* https://search.censys.io/hosts/45.130.60.93
 * https://search.censys.io/hosts/45.141.84.60
 * https://search.censys.io/hosts/45.141.84.168
 * https://search.censys.io/hosts/45.141.84.208
@@ -229,9 +214,13 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/45.146.130.136
 * https://search.censys.io/hosts/45.151.104.27
 * https://search.censys.io/hosts/45.155.69.149
+* https://search.censys.io/hosts/45.155.69.188
 * https://search.censys.io/hosts/45.155.249.133
 * https://search.censys.io/hosts/45.158.169.29
+* https://search.censys.io/hosts/45.227.252.23
 * https://search.censys.io/hosts/46.28.71.89
+* https://search.censys.io/hosts/62.60.131.7
+* https://search.censys.io/hosts/62.60.131.58
 * https://search.censys.io/hosts/62.60.131.163
 * https://search.censys.io/hosts/62.164.177.5
 * https://search.censys.io/hosts/62.164.177.21
@@ -252,6 +241,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/80.64.30.2
 * https://search.censys.io/hosts/80.64.30.203
 * https://search.censys.io/hosts/80.209.243.125
+* https://search.censys.io/hosts/81.91.177.192
 * https://search.censys.io/hosts/82.147.88.84
 * https://search.censys.io/hosts/83.222.191.90
 * https://search.censys.io/hosts/83.222.191.98
@@ -259,6 +249,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/83.222.191.195
 * https://search.censys.io/hosts/83.222.191.223
 * https://search.censys.io/hosts/84.200.77.140
+* https://search.censys.io/hosts/84.200.87.68
+* https://search.censys.io/hosts/86.54.24.30
 * https://search.censys.io/hosts/86.54.25.83
 * https://search.censys.io/hosts/86.54.25.111
 * https://search.censys.io/hosts/88.214.25.17
@@ -278,6 +270,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/92.255.85.23
 * https://search.censys.io/hosts/93.152.230.29
 * https://search.censys.io/hosts/94.26.90.133
+* https://search.censys.io/hosts/94.156.232.249
 * https://search.censys.io/hosts/94.181.229.249
 * https://search.censys.io/hosts/95.217.44.118
 * https://search.censys.io/hosts/103.249.132.235
@@ -291,18 +284,25 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/141.98.11.145
 * https://search.censys.io/hosts/141.255.162.250
 * https://search.censys.io/hosts/144.76.103.92
+* https://search.censys.io/hosts/144.124.234.94
+* https://search.censys.io/hosts/144.172.93.139
 * https://search.censys.io/hosts/144.172.94.120
 * https://search.censys.io/hosts/144.172.100.134
+* https://search.censys.io/hosts/144.172.103.204
 * https://search.censys.io/hosts/144.172.105.191
 * https://search.censys.io/hosts/144.172.108.216
 * https://search.censys.io/hosts/144.172.109.116
 * https://search.censys.io/hosts/146.103.126.197
 * https://search.censys.io/hosts/157.90.192.89
+* https://search.censys.io/hosts/162.252.199.122
 * https://search.censys.io/hosts/167.172.215.17
 * https://search.censys.io/hosts/170.187.138.168
 * https://search.censys.io/hosts/172.86.107.67
 * https://search.censys.io/hosts/172.86.113.216
+* https://search.censys.io/hosts/172.86.114.98
 * https://search.censys.io/hosts/172.86.114.185
+* https://search.censys.io/hosts/172.86.116.117
+* https://search.censys.io/hosts/172.86.116.205
 * https://search.censys.io/hosts/172.86.117.176
 * https://search.censys.io/hosts/172.105.135.22
 * https://search.censys.io/hosts/172.232.15.18
@@ -337,8 +337,13 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/185.156.72.28
 * https://search.censys.io/hosts/185.156.72.33
 * https://search.censys.io/hosts/185.156.72.63
+* https://search.censys.io/hosts/188.137.176.246
+* https://search.censys.io/hosts/188.137.177.201
+* https://search.censys.io/hosts/192.248.185.188
+* https://search.censys.io/hosts/193.27.90.51
 * https://search.censys.io/hosts/193.29.13.58
 * https://search.censys.io/hosts/193.29.13.67
+* https://search.censys.io/hosts/193.149.189.108
 * https://search.censys.io/hosts/193.201.9.252
 * https://search.censys.io/hosts/194.26.29.44
 * https://search.censys.io/hosts/194.26.29.112

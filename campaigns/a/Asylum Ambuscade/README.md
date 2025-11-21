@@ -112,10 +112,9 @@ ID | Type | Indicator | Confidence
 37 | File | `/php/ping.php` | High
 38 | File | `/pointHierarchySLTS` | High
 39 | File | `/register/abort` | High
-40 | File | `/Script/admin/core/update_policy` | High
-41 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

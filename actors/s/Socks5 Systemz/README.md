@@ -48,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
 30 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 116 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,12 +56,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,16 +69,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/api/front/search/books` | High
-3 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-4 | File | `/application/index/controller/Screen.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/debug/pprof` | Medium
-7 | File | `/export` | Low
-8 | ... | ... | ...
+1 | File | `/api/front/search/books` | High
+2 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+3 | File | `/application/index/controller/Screen.php` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/goform/aspForm` | High
+6 | File | `/hardware` | Medium
+7 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

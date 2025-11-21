@@ -80,32 +80,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/etc/shadow` | Medium
 18 | File | `/farm/product.php` | High
 19 | File | `/forum/away.php` | High
-20 | File | `/goform/exeCommand` | High
-21 | File | `/goform/getOneApConfTempEntry` | High
-22 | File | `/goform/telnet` | High
-23 | File | `/h/` | Low
-24 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-25 | File | `/lan.asp` | Medium
-26 | File | `/login.php` | Medium
-27 | File | `/manage_block.php` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/oscommerce/admin/currencies.php` | High
-31 | File | `/proc/pid/syscall` | High
-32 | File | `/ptippage.cgi` | High
-33 | File | `/public/launchNewWindow.jsp` | High
-34 | File | `/rapi/read_url` | High
-35 | File | `/session/list/allActiveSession` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sys/dict/loadTreeData` | High
-38 | File | `/SysInfo.htm` | Medium
-39 | File | `/syslog_rules` | High
-40 | File | `/tmp/out` | Medium
-41 | File | `/Tool/uploadfile.php` | High
-42 | File | `/uncpath/` | Medium
-43 | ... | ... | ...
+20 | File | `/goform/AdvSetMacMtuWa` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/exeCommand` | High
+23 | File | `/goform/formWPS` | High
+24 | File | `/goform/getOneApConfTempEntry` | High
+25 | File | `/goform/SetPptpServerCfg` | High
+26 | File | `/goform/set_delshrpath_cfg` | High
+27 | File | `/goform/telnet` | High
+28 | File | `/h/` | Low
+29 | File | `/HNAP1/` | Low
+30 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+31 | File | `/justines/admin/mod_users/index.php?view=view` | High
+32 | File | `/lan.asp` | Medium
+33 | File | `/login.php` | Medium
+34 | File | `/manage_block.php` | High
+35 | File | `/modules/profile/index.php` | High
+36 | File | `/msp_info.htm?flag=qos` | High
+37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+38 | File | `/oscommerce/admin/currencies.php` | High
+39 | File | `/pages/admin_index_search.php` | High
+40 | File | `/proc/pid/syscall` | High
+41 | File | `/ptippage.cgi` | High
+42 | File | `/public/launchNewWindow.jsp` | High
+43 | File | `/rapi/read_url` | High
+44 | File | `/schedulingsystem/addcourse.php` | High
+45 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

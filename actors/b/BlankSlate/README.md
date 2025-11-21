@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,18 +56,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/save.php` | High
 8 | File | `/admin/service/stop/` | High
 9 | File | `/admin/students/manage_academic.php` | High
-10 | File | `/api/client/article/list` | High
-11 | File | `/api/v1/attack/falco` | High
-12 | File | `/application/websocket/controller/Setting.php` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/discovery.cgi` | High
-16 | File | `/cgi-bin/login_action.cgi` | High
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/include/file.php` | High
+10 | File | `/admin/update_s3.php` | High
+11 | File | `/api/client/article/list` | High
+12 | File | `/api/v1/attack/falco` | High
+13 | File | `/application/websocket/controller/Setting.php` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/discovery.cgi` | High
+17 | File | `/cgi-bin/login_action.cgi` | High
+18 | File | `/event/admin/?page=user/list` | High
 19 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

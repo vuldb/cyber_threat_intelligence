@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -34,9 +34,10 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [38.54.94.13](https://vuldb.com/?ip.38.54.94.13) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
 2 | [43.140.252.169](https://vuldb.com/?ip.43.140.252.169) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
 3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
-4 | ... | ... | ... | ...
+4 | [59.22.167.217](https://vuldb.com/?ip.59.22.167.217) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,43 +64,44 @@ ID | Type | Indicator | Confidence
 2 | File | `.htaccess` | Medium
 3 | File | `/.vnc/sesman_${username}_passwd` | High
 4 | File | `/admin/admin_manage/delete` | High
-5 | File | `/admin/video/list` | High
-6 | File | `/ajax.php?action=update_account` | High
-7 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/editBookmark` | High
-10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-11 | File | `/controllers/updatesettings.php` | High
-12 | File | `/course.php` | Medium
-13 | File | `/dl/dl_sendmail.php` | High
-14 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-15 | File | `/ecommerce/admin/products/controller.php` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/etc/qci/answers` | High
-18 | File | `/function/booksave.php` | High
-19 | File | `/goform/addressNat` | High
-20 | File | `/goform/aspForm` | High
-21 | File | `/H5/versionupdate.data` | High
-22 | File | `/inc/campaign/campaign-delete.php` | High
-23 | File | `/include/menu_v.inc.php` | High
-24 | File | `/librarian/lab.php` | High
-25 | File | `/login/` | Low
-26 | File | `/manage_laundry.php` | High
-27 | File | `/omos/admin/?page=user/list` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/panel/fields/add` | High
-30 | File | `/patient/settings.php` | High
-31 | File | `/proc/*/cmdline"` | High
-32 | File | `/proc/pid/syscall` | High
-33 | File | `/proxy` | Low
-34 | File | `/rental/ajax.php?action=delete_tenant` | High
-35 | File | `/sbin/acos_service` | High
-36 | File | `/sgmi/` | Low
-37 | File | `/so.php` | Low
-38 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
-39 | ... | ... | ...
+5 | File | `/admin/edit-ambulance.php` | High
+6 | File | `/admin/eligibility.php` | High
+7 | File | `/admin/operations/travellers.php` | High
+8 | File | `/admin/video/list` | High
+9 | File | `/ajax.php?action=update_account` | High
+10 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+11 | File | `/cgformTemplateController.do?doAdd` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/editBookmark` | High
+14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+15 | File | `/controllers/updatesettings.php` | High
+16 | File | `/course.php` | Medium
+17 | File | `/dl/dl_sendmail.php` | High
+18 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+19 | File | `/ecommerce/admin/products/controller.php` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/etc/qci/answers` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/function/booksave.php` | High
+24 | File | `/goform/addressNat` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/H5/versionupdate.data` | High
+27 | File | `/inc/campaign/campaign-delete.php` | High
+28 | File | `/include/menu_v.inc.php` | High
+29 | File | `/librarian/lab.php` | High
+30 | File | `/login.php` | Medium
+31 | File | `/login/` | Low
+32 | File | `/manage_laundry.php` | High
+33 | File | `/omos/admin/?page=user/list` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/panel/fields/add` | High
+36 | File | `/patient/settings.php` | High
+37 | File | `/proc/*/cmdline"` | High
+38 | File | `/proc/pid/syscall` | High
+39 | File | `/proxy` | Low
+40 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,6 +114,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/suyog41/status/1655524692164214784
 * https://twitter.com/suyog41/status/1699438327508734306
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/
+* https://urlhaus.abuse.ch/url/3612999/
 * https://www.f5.com/labs/articles/threat-intelligence/delving-into-the-sparkrat-remote-access-tool
 * https://www.trendmicro.com/en_us/research/24/c/teamcity-vulnerability-exploits-lead-to-jasmin-ransomware.html
 

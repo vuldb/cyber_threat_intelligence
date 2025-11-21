@@ -166,12 +166,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-88 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-88 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -179,12 +179,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=save_settings` | High
-2 | File | `/admin/categories/view_category.php` | High
-3 | File | `/admin/login.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+2 | File | `/admin/ajax.php?action=save_settings` | High
+3 | File | `/admin/categories/view_category.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/user_save.php` | High
+6 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

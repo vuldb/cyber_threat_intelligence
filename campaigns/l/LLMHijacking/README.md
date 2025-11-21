@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-270, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -72,49 +72,51 @@ ID | Type | Indicator | Confidence
 5 | File | `/adaddmed.php` | High
 6 | File | `/add-apartment.php` | High
 7 | File | `/addproduct.php` | High
-8 | File | `/add_reference_to_local_model` | High
-9 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-10 | File | `/admin/aboutus.php` | High
-11 | File | `/admin/add-services.php` | High
-12 | File | `/admin/add_subject.php` | High
-13 | File | `/admin/ajax.php?action=login` | High
-14 | File | `/admin/ajax.php?action=save_settings` | High
-15 | File | `/admin/cmsTemplate/savePlace` | High
-16 | File | `/admin/config_ISCGroupNoCache.php` | High
-17 | File | `/Admin/detail.php` | High
-18 | File | `/admin/edit-guard-detail.php` | High
-19 | File | `/admin/edit_subject.php` | High
-20 | File | `/admin/emp-profile-avatar.php` | High
-21 | File | `/admin/forms/option_lists/edit.php` | High
-22 | File | `/admin/index.php` | High
-23 | File | `/admin/index.php?page=manage_lot` | High
-24 | File | `/admin/list_ipAddressPolicy.php` | High
-25 | File | `/admin/manage-users.php` | High
-26 | File | `/admin/network/diag_ping6` | High
-27 | File | `/admin/pages/` | High
-28 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-29 | File | `/admin/services/view_service.php` | High
-30 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-31 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
-32 | File | `/admin/user_save.php` | High
-33 | File | `/ajax.php?action=delete_plan` | High
-34 | File | `/api/admin/question/edit` | High
-35 | File | `/api/admin/settings` | High
-36 | File | `/api/admin/user` | High
-37 | File | `/api/school/registerSchool` | High
-38 | File | `/api/v1/admin/restart` | High
-39 | File | `/api/v1/steps` | High
-40 | File | `/application/index/controller/Screen.php` | High
-41 | File | `/attendancelist.php` | High
-42 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-43 | File | `/boafrm/formMapDel` | High
-44 | File | `/cgi` | Low
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/classes/Master.php` | High
-47 | File | `/classes/Master.php?f=delete_category` | High
-48 | ... | ... | ...
+8 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+9 | File | `/admin/aboutus.php` | High
+10 | File | `/admin/add-services.php` | High
+11 | File | `/admin/add_subject.php` | High
+12 | File | `/admin/ajax.php?action=login` | High
+13 | File | `/admin/ajax.php?action=save_settings` | High
+14 | File | `/admin/cmsTemplate/savePlace` | High
+15 | File | `/admin/config_ISCGroupNoCache.php` | High
+16 | File | `/Admin/detail.php` | High
+17 | File | `/admin/edit-guard-detail.php` | High
+18 | File | `/admin/edit_subject.php` | High
+19 | File | `/admin/emp-profile-avatar.php` | High
+20 | File | `/admin/forms/option_lists/edit.php` | High
+21 | File | `/admin/index.php` | High
+22 | File | `/admin/index.php?page=manage_lot` | High
+23 | File | `/admin/list_ipAddressPolicy.php` | High
+24 | File | `/admin/manage-users.php` | High
+25 | File | `/admin/network/diag_ping6` | High
+26 | File | `/admin/pages/` | High
+27 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+28 | File | `/admin/services/view_service.php` | High
+29 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+30 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
+31 | File | `/admin/user_save.php` | High
+32 | File | `/admin/vacancy/index.php?view=edit` | High
+33 | File | `/admin/view_payorder.php` | High
+34 | File | `/adminapi/product/product` | High
+35 | File | `/ajax.php?action=delete_plan` | High
+36 | File | `/api/admin/question/edit` | High
+37 | File | `/api/admin/settings` | High
+38 | File | `/api/admin/user` | High
+39 | File | `/api/school/registerSchool` | High
+40 | File | `/api/v1/admin/restart` | High
+41 | File | `/api/v1/steps` | High
+42 | File | `/application/index/controller/Screen.php` | High
+43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+44 | File | `/boafrm/formMapDel` | High
+45 | File | `/cgi` | Low
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/classes/Master.php` | High
+48 | File | `/classes/Master.php?f=delete_category` | High
+49 | File | `/classes/SystemSettings.php?f=update_settings` | High
+50 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

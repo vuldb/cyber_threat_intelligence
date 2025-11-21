@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Tropic Trooper:
 
+* Cobalt Strike
 * Poison Ivy
 * USBferry
 
@@ -34,19 +35,20 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [27.126.176.169](https://vuldb.com/?ip.27.126.176.169) | - | - | High
 5 | [27.126.186.74](https://vuldb.com/?ip.27.126.186.74) | krakow.intellectint.net | - | High
 6 | [27.126.186.222](https://vuldb.com/?ip.27.126.186.222) | grupos.slidefresh.net | - | High
-7 | [43.129.177.152](https://vuldb.com/?ip.43.129.177.152) | - | - | High
-8 | [43.134.194.237](https://vuldb.com/?ip.43.134.194.237) | - | - | High
-9 | [43.154.74.7](https://vuldb.com/?ip.43.154.74.7) | - | - | High
-10 | [43.154.85.5](https://vuldb.com/?ip.43.154.85.5) | - | - | High
-11 | [43.154.88.192](https://vuldb.com/?ip.43.154.88.192) | - | - | High
-12 | [45.32.47.148](https://vuldb.com/?ip.45.32.47.148) | 45.32.47.148.vultr.com | - | Medium
-13 | [45.76.218.247](https://vuldb.com/?ip.45.76.218.247) | 45.76.218.247.vultrusercontent.com | - | Medium
-14 | [45.77.178.47](https://vuldb.com/?ip.45.77.178.47) | 45.77.178.47.vultrusercontent.com | - | Medium
-15 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
-16 | [45.125.12.147](https://vuldb.com/?ip.45.125.12.147) | spk.cloudie.hk | - | High
-17 | ... | ... | ... | ...
+7 | [39.101.207.15](https://vuldb.com/?ip.39.101.207.15) | - | Cobalt Strike | High
+8 | [43.129.177.152](https://vuldb.com/?ip.43.129.177.152) | - | - | High
+9 | [43.134.194.237](https://vuldb.com/?ip.43.134.194.237) | - | - | High
+10 | [43.154.74.7](https://vuldb.com/?ip.43.154.74.7) | - | - | High
+11 | [43.154.85.5](https://vuldb.com/?ip.43.154.85.5) | - | - | High
+12 | [43.154.88.192](https://vuldb.com/?ip.43.154.88.192) | - | - | High
+13 | [45.32.47.148](https://vuldb.com/?ip.45.32.47.148) | 45.32.47.148.vultr.com | - | Medium
+14 | [45.32.117.177](https://vuldb.com/?ip.45.32.117.177) | 45.32.117.177.vultrusercontent.com | Cobalt Strike | Medium
+15 | [45.76.218.247](https://vuldb.com/?ip.45.76.218.247) | 45.76.218.247.vultrusercontent.com | - | Medium
+16 | [45.77.178.47](https://vuldb.com/?ip.45.77.178.47) | 45.77.178.47.vultrusercontent.com | - | Medium
+17 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,12 +56,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,16 +70,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/ajax.php?action=update_account` | High
-3 | File | `/api/upload.php` | High
-4 | File | `/change_pass/forgot_password_sql.php` | High
-5 | File | `/checklogin.php` | High
-6 | File | `/dist/index.js` | High
-7 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-8 | File | `/file-manager/delete.php` | High
-9 | ... | ... | ...
+2 | File | `/admin/add-directory.php` | High
+3 | File | `/admin/print1.php` | High
+4 | File | `/ajax.php?action=update_account` | High
+5 | File | `/api/upload.php` | High
+6 | File | `/change_pass/forgot_password_sql.php` | High
+7 | File | `/checklogin.php` | High
+8 | File | `/customers/index.php` | High
+9 | File | `/dist/index.js` | High
+10 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+11 | File | `/file-manager/delete.php` | High
+12 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +93,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://citizenlab.ca/2018/08/familiar-feeling-a-malware-campaign-targeting-the-tibetan-diaspora-resurfaces/
 * https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf
 * https://github.com/citizenlab/malware-indicators/blob/master/201808_FamiliarFeeling/indicators.csv
+* https://hitcon.org/2024/CMT/slides/Pirates_of_The_Nang_Hai_Follow_the_Artifacts_of_Tropic_Trooper,_No_One_Knows.pdf
 * https://securelist.com/new-tropic-trooper-web-shell-infection/113737/
 * https://unit42.paloaltonetworks.com/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/
 * https://www.anomali.com/blog/anomali-suspects-that-china-backed-apt-pirate-panda-may-be-seeking-access-to-vietnam-government-data-center#When:15:00:00Z

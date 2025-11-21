@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PlugX:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -160,14 +165,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-35, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -175,119 +181,98 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/99/ImportSQLTable` | High
-2 | File | `/actuator` | Medium
-3 | File | `/add-student.php` | High
-4 | File | `/add-table.php` | High
-5 | File | `/addelivery.php` | High
-6 | File | `/addpayment.php` | High
-7 | File | `/adduser-exec.php` | High
-8 | File | `/Add_reciver.php` | High
-9 | File | `/admin` | Low
-10 | File | `/admin#themes` | High
-11 | File | `/admin-cp/setting/system/general` | High
-12 | File | `/admin-cp/theme/editor/default` | High
-13 | File | `/admin-cp/theme/install` | High
-14 | File | `/admin/?page=return/view_return` | High
-15 | File | `/admin/?page=sales/view_sale` | High
-16 | File | `/admin/aboutus.php` | High
-17 | File | `/admin/add-normal-ticket.php` | High
-18 | File | `/admin/add-services.php` | High
-19 | File | `/admin/add-subadmin.php` | High
-20 | File | `/admin/add_cars.php` | High
-21 | File | `/admin/add_subject.php` | High
-22 | File | `/admin/add_title.php` | High
-23 | File | `/admin/admin-profile.php` | High
-24 | File | `/admin/admin_forum/search_result.php` | High
-25 | File | `/admin/admin_index.php` | High
-26 | File | `/admin/ajax.php?action=delete_vacancy` | High
-27 | File | `/admin/ajax.php?action=save_application` | High
-28 | File | `/admin/app/soulwinning_crud.php` | High
-29 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
-30 | File | `/admin/booking-details.php` | High
-31 | File | `/admin/booking_report.php` | High
-32 | File | `/admin/bwdates-reports-details.php` | High
-33 | File | `/admin/categories/save` | High
-34 | File | `/admin/category_update.php` | High
-35 | File | `/admin/change-image.php` | High
-36 | File | `/admin/changeimage2.php` | High
-37 | File | `/admin/chip/add.do` | High
-38 | File | `/admin/class.php` | High
-39 | File | `/admin/combo.php` | High
-40 | File | `/admin/comment/list` | High
-41 | File | `/admin/contact-list.php` | High
-42 | File | `/admin/content/editor` | High
-43 | File | `/admin/create-package.php` | High
-44 | File | `/admin/delete.php` | High
-45 | File | `/admin/deletedoctorclinic.php` | High
-46 | File | `/admin/department.php` | High
-47 | File | `/admin/department/add` | High
-48 | File | `/admin/doctor-specilization.php` | High
-49 | File | `/admin/edit-art-medium-detail.php` | High
-50 | File | `/admin/edit-category.php` | High
-51 | File | `/admin/edit-class.php?cid=1` | High
-52 | File | `/admin/edit-customer-detailed.php` | High
-53 | File | `/admin/edit-doctor-specialization.php` | High
-54 | File | `/admin/edit-doctor.php` | High
-55 | File | `/admin/edit-services.php` | High
-56 | File | `/admin/edit-subadmin.php` | High
-57 | File | `/admin/edit-teacher.php` | High
-58 | File | `/Admin/EditCategory` | High
-59 | File | `/admin/edit_class.php` | High
-60 | File | `/admin/edit_product.php` | High
-61 | File | `/admin/edit_tax.php` | High
-62 | File | `/admin/eligibility.php` | High
-63 | File | `/admin/email_setup.php` | High
-64 | File | `/admin/expense_report.php` | High
-65 | File | `/admin/fetch_product_details.php` | High
-66 | File | `/admin/finished.php` | High
-67 | File | `/admin/forgot-password.php` | High
-68 | File | `/admin/index.php` | High
-69 | File | `/admin/index.php/news/edit` | High
-70 | File | `/admin/index.php?language=en&nv=upload` | High
-71 | File | `/admin/insert-product.php` | High
-72 | File | `/admin/inv-print.php` | High
-73 | File | `/admin/kami_list` | High
-74 | File | `/admin/lastsevendays-reg-users.php` | High
-75 | File | `/admin/login.php` | High
-76 | File | `/admin/manage-teams.php` | High
-77 | File | `/admin/manage-tickets.php` | High
-78 | File | `/admin/manage_user.php` | High
-79 | File | `/admin/member_save.php` | High
-80 | File | `/admin/menus/view_menu.php` | High
-81 | File | `/admin/operation/paid.php` | High
-82 | File | `/admin/operations/booking.php` | High
-83 | File | `/admin/operations/travellers.php` | High
-84 | File | `/admin/positions_delete.php` | High
-85 | File | `/admin/print-payment.php` | High
-86 | File | `/admin/productadd_back.php` | High
-87 | File | `/Admin/registration.php` | High
-88 | File | `/admin/sales-reports-detail.php` | High
-89 | File | `/admin/save_airlines.php` | High
-90 | File | `/admin/search-autoortaxi.php` | High
-91 | File | `/admin/search-vehicle.php` | High
-92 | File | `/admin/session.php` | High
-93 | File | `/admin/sign/out` | High
-94 | File | `/admin/sms_setting.php` | High
-95 | File | `/admin/storage/delete` | High
-96 | File | `/admin/tags/save` | High
-97 | File | `/admin/templates/animal_form_template.php` | High
-98 | File | `/Admin/tournament_details.php` | High
-99 | File | `/admin/unreadenq.php` | High
-100 | File | `/admin/updateorder.php` | High
-101 | File | `/admin/update_fst.php` | High
-102 | File | `/admin/update_s1.php` | High
-103 | File | `/admin/update_s4.php` | High
-104 | File | `/admin/update_student.php` | High
-105 | File | `/admin/user-search.php` | High
-106 | File | `/Admin/User.php` | High
-107 | File | `/admin/user.php` | High
-108 | File | `/admin/user_update.php` | High
-109 | File | `/admin/view-normal-ticket.php` | High
-110 | File | `/administrator/bidupdate.php` | High
-111 | ... | ... | ...
+1 | File | `/#ProductSerie/view/` | High
+2 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+3 | File | `/about.php` | Medium
+4 | File | `/action=myprojects&logout=1` | High
+5 | File | `/Actions.php?a=login` | High
+6 | File | `/addcategory.php` | High
+7 | File | `/admin.php/addon/index` | High
+8 | File | `/admin/` | Low
+9 | File | `/admin/?page=maintenance/brand` | High
+10 | File | `/admin/aboutus.php` | High
+11 | File | `/admin/add_postlogin.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/admin-update-employee.php` | High
+14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+15 | File | `/admin/admin_index.php` | High
+16 | File | `/admin/admin_user.php` | High
+17 | File | `/admin/candidates_add.php` | High
+18 | File | `/admin/categories/save` | High
+19 | File | `/admin/change-password.php` | High
+20 | File | `/admin/changepassword.php` | High
+21 | File | `/admin/client_user` | High
+22 | File | `/admin/cmsVote/save` | High
+23 | File | `/admin/edit-brand.php` | High
+24 | File | `/admin/edit-doctor.php` | High
+25 | File | `/admin/edit-user.php` | High
+26 | File | `/admin/editempeducation.php` | High
+27 | File | `/admin/edit_fuel.php` | High
+28 | File | `/admin/email_setup.php` | High
+29 | File | `/admin/expense_report.php` | High
+30 | File | `/admin/get_balance.php` | High
+31 | File | `/admin/index.php` | High
+32 | File | `/admin/index.php?act=reset_admin_psw` | High
+33 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+34 | File | `/admin/leancloud.php` | High
+35 | File | `/admin/login` | Medium
+36 | File | `/admin/login.php` | High
+37 | File | `/admin/manage-tickets.php` | High
+38 | File | `/Admin/match.php` | High
+39 | File | `/admin/menu_save.php` | High
+40 | File | `/admin/new-content` | High
+41 | File | `/admin/operations/payment.php` | High
+42 | File | `/admin/operations/tax.php` | High
+43 | File | `/admin/plan/examExportPDF` | High
+44 | File | `/admin/productadd_back.php` | High
+45 | File | `/admin/regester.php` | High
+46 | File | `/Admin/registration.php` | High
+47 | File | `/admin/search-vehicle.php` | High
+48 | File | `/admin/session.php` | High
+49 | File | `/admin/sms_setting.php` | High
+50 | File | `/admin/subject.php` | High
+51 | File | `/admin/sys/user/list` | High
+52 | File | `/Admin/tournament_details.php` | High
+53 | File | `/admin/update-rooms.php` | High
+54 | File | `/admin/user-search.php` | High
+55 | File | `/admin/user/index.php` | High
+56 | File | `/admin/userlist.php` | High
+57 | File | `/admin/userprofile.php` | High
+58 | File | `/admin/view-normal-ticket.php` | High
+59 | File | `/admin/workin-progress-requests.php` | High
+60 | File | `/ajax/getBasicInfo.php` | High
+61 | File | `/ajax_state.php` | High
+62 | File | `/ajx.php` | Medium
+63 | File | `/analysisProject/pagingQueryData` | High
+64 | File | `/api.php` | Medium
+65 | File | `/api/client/editemedia.php` | High
+66 | File | `/api/collection/findone` | High
+67 | File | `/api/config/list` | High
+68 | File | `/api/objects/recipes` | High
+69 | File | `/api/upload` | Medium
+70 | File | `/app/ConfirmSmsCode` | High
+71 | File | `/applyleave.php` | High
+72 | File | `/APR/login.php` | High
+73 | File | `/auth/login` | Medium
+74 | File | `/b2c/package-information` | High
+75 | File | `/bank/statements.php` | High
+76 | File | `/bank/transfer.php` | High
+77 | File | `/billaction.php` | High
+78 | File | `/bin/boa` | Medium
+79 | File | `/Blood/A+.php` | High
+80 | File | `/boafrm/formDosCfg` | High
+81 | File | `/boafrm/formFilter` | High
+82 | File | `/boafrm/formIPv6Addr` | High
+83 | File | `/boafrm/formParentControl` | High
+84 | File | `/boafrm/formPortFw` | High
+85 | File | `/boafrm/formSysLog` | High
+86 | File | `/boafrm/formWsc` | High
+87 | File | `/cfgFile/downloadSoftware` | High
+88 | File | `/cgi-bin/` | Medium
+89 | File | `/cgi-bin/cstecgi.cgi` | High
+90 | ... | ... | ...
 
-There are 988 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 797 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

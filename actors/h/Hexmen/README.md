@@ -47,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-2 | File | `/webmain/public/upload/tpl_upload.html` | High
-3 | File | `/wireless/guestnetwork.asp` | High
-4 | File | `/wireless/security.asp` | High
+2 | File | `/editar-fornecedor.php` | High
+3 | File | `/user/reset-password.php` | High
+4 | File | `/webmain/public/upload/tpl_upload.html` | High
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -62,20 +62,21 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/categorypage.php` | High
 4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-6 | File | `/login` | Low
-7 | File | `/php/ajax.php` | High
-8 | File | `/php/ping.php` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/scripts/unlock_tasks.php` | High
-11 | File | `/student/project_selection/move_up_project.php` | High
-12 | File | `/sys/user/queryUserComponentData` | High
-13 | File | `/SysInfo1.htm` | High
-14 | File | `/sysinfo_json.cgi` | High
-15 | File | `/system/dictData/loadDictItem` | High
-16 | ... | ... | ...
+5 | File | `/config/pw_changeusers.html` | High
+6 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+7 | File | `/login` | Low
+8 | File | `/php/ajax.php` | High
+9 | File | `/php/ping.php` | High
+10 | File | `/rapi/read_url` | High
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/student/project_selection/move_up_project.php` | High
+13 | File | `/sys/user/queryUserComponentData` | High
+14 | File | `/SysInfo1.htm` | High
+15 | File | `/sysinfo_json.cgi` | High
+16 | File | `/system/dictData/loadDictItem` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

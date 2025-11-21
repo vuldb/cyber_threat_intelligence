@@ -60,24 +60,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/create_product.php` | High
-2 | File | `/api/wizard/setsyncpppoecfg` | High
-3 | File | `/application/index/controller/Databasesource.php` | High
-4 | File | `/application/index/controller/Screen.php` | High
-5 | File | `/backup.pl` | Medium
-6 | File | `/blog` | Low
-7 | File | `/boaform/getASPdata/formFirewall` | High
-8 | File | `/cgi-bin/download_config.cgi` | High
-9 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-10 | File | `/cgi-bin/mainfunction.cgi` | High
-11 | File | `/cgi-bin/qcmap_auth` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-14 | File | `/common/info.cgi` | High
-15 | File | `/dayrui/My/View/main.html` | High
-16 | File | `/dev api/app/album/photos/` | High
-17 | ... | ... | ...
+2 | File | `/admin/edit_role.php` | High
+3 | File | `/admin/storage/delete` | High
+4 | File | `/adposition/queryAll` | High
+5 | File | `/api/wizard/setsyncpppoecfg` | High
+6 | File | `/application/index/controller/Databasesource.php` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+9 | File | `/backup.pl` | Medium
+10 | File | `/blog` | Low
+11 | File | `/boaform/getASPdata/formFirewall` | High
+12 | File | `/c6/Jhsoft.Web.projectmanage/TaskManage/AddTask.aspx/?Type=add` | High
+13 | File | `/cgi-bin/download_config.cgi` | High
+14 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+15 | File | `/cgi-bin/mainfunction.cgi` | High
+16 | File | `/cgi-bin/qcmap_auth` | High
+17 | File | `/cgi-bin/wireless.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+20 | File | `/common/info.cgi` | High
+21 | File | `/dayrui/My/View/main.html` | High
+22 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

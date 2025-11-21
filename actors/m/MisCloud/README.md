@@ -33,7 +33,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -67,36 +68,36 @@ ID | Type | Indicator | Confidence
 22 | File | `/admin/user/manage_user.php` | High
 23 | File | `/api/baskets/{name}` | High
 24 | File | `/api/cron/settings/setJob/` | High
-25 | File | `/api/v4/channels/stats/member_count` | High
-26 | File | `/api/v4/users` | High
-27 | File | `/apply/index.php` | High
-28 | File | `/bitrix/admin/ldap_server_edit.php` | High
-29 | File | `/boaform/device_reset.cgi` | High
-30 | File | `/cap.js` | Low
-31 | File | `/Car_Rental/booking.php` | High
-32 | File | `/categorypage.php` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/sessions/get-temp-file` | High
-35 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/classes/Users.php` | High
-38 | File | `/classes/Users.php?f=save` | High
-39 | File | `/common/DownController.java` | High
-40 | File | `/common/logViewer/logViewer.jsf` | High
-41 | File | `/core/config-revisions` | High
-42 | File | `/diag/eval` | Medium
-43 | File | `/edoc/doctor/patient.php` | High
-44 | File | `/Employer/ManageJob.php` | High
-45 | File | `/forgotpw.php` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/garage/editcategory.php` | High
-48 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-49 | File | `/goform/execCommand` | High
-50 | File | `/goform/P2pListFilter` | High
-51 | File | `/goform/setcfm` | High
-52 | File | `/goform/telnet` | High
-53 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
-54 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
+25 | File | `/api/v2/logout` | High
+26 | File | `/api/v4/channels/stats/member_count` | High
+27 | File | `/api/v4/users` | High
+28 | File | `/apply/index.php` | High
+29 | File | `/bitrix/admin/ldap_server_edit.php` | High
+30 | File | `/boaform/device_reset.cgi` | High
+31 | File | `/cap.js` | Low
+32 | File | `/Car_Rental/booking.php` | High
+33 | File | `/categorypage.php` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/sessions/get-temp-file` | High
+36 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/classes/Users.php` | High
+39 | File | `/classes/Users.php?f=save` | High
+40 | File | `/common/DownController.java` | High
+41 | File | `/common/logViewer/logViewer.jsf` | High
+42 | File | `/core/config-revisions` | High
+43 | File | `/diag/eval` | Medium
+44 | File | `/edoc/doctor/patient.php` | High
+45 | File | `/Employer/ManageJob.php` | High
+46 | File | `/forgotpw.php` | High
+47 | File | `/forum/away.php` | High
+48 | File | `/garage/editcategory.php` | High
+49 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+50 | File | `/goform/execCommand` | High
+51 | File | `/goform/P2pListFilter` | High
+52 | File | `/goform/setcfm` | High
+53 | File | `/goform/telnet` | High
+54 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
 55 | File | `/includes/cart.inc.php` | High
 56 | File | `/includes/login.php` | High
 57 | File | `/index.php` | Medium
@@ -105,9 +106,10 @@ ID | Type | Indicator | Confidence
 60 | File | `/install/` | Medium
 61 | File | `/librarian/bookdetails.php` | High
 62 | File | `/login.php` | Medium
-63 | ... | ... | ...
+63 | File | `/manager/system/nlog_down.php` | High
+64 | ... | ... | ...
 
-There are 551 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 558 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

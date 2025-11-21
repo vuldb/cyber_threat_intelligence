@@ -67,17 +67,17 @@ ID | Type | Indicator | Confidence
 16 | File | `/data/remove` | Medium
 17 | File | `/debug/pprof` | Medium
 18 | File | `/etc/passwd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/fuel/index.php/fuel/logs/items` | High
-23 | File | `/fuel/index.php/fuel/pages/items` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/index.php` | Medium
-26 | File | `/lists/index.php` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/param.file.tgz` | High
-29 | File | `/php/exportrecord.php` | High
+19 | File | `/f.php` | Low
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/fuel/index.php/fuel/logs/items` | High
+24 | File | `/goform/accessControlAdd` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/formTaskEdit` | High
+27 | File | `/index.php` | Medium
+28 | File | `/lists/index.php` | High
+29 | File | `/mkshop/Men/profile.php` | High
 30 | ... | ... | ...
 
 There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

@@ -40,18 +40,19 @@ ID | IP address | Hostname | Actor | Confidence
 8 | [13.78.10.244](https://vuldb.com/?ip.13.78.10.244) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
 9 | [13.86.108.33](https://vuldb.com/?ip.13.86.108.33) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
 10 | [15.237.162.48](https://vuldb.com/?ip.15.237.162.48) | ec2-15-237-162-48.eu-west-3.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-11 | [18.133.253.38](https://vuldb.com/?ip.18.133.253.38) | ec2-18-133-253-38.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-12 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-13 | [18.171.35.225](https://vuldb.com/?ip.18.171.35.225) | ec2-18-171-35-225.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-14 | [31.192.107.185](https://vuldb.com/?ip.31.192.107.185) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
-15 | [34.27.146.70](https://vuldb.com/?ip.34.27.146.70) | 70.146.27.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-16 | [34.58.151.162](https://vuldb.com/?ip.34.58.151.162) | 162.151.58.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-17 | [34.170.235.99](https://vuldb.com/?ip.34.170.235.99) | 99.235.170.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-18 | [34.172.208.55](https://vuldb.com/?ip.34.172.208.55) | 55.208.172.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-19 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-20 | ... | ... | ... | ...
+11 | [16.171.55.6](https://vuldb.com/?ip.16.171.55.6) | ec2-16-171-55-6.eu-north-1.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+12 | [18.133.253.38](https://vuldb.com/?ip.18.133.253.38) | ec2-18-133-253-38.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+13 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+14 | [18.171.35.225](https://vuldb.com/?ip.18.171.35.225) | ec2-18-171-35-225.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+15 | [31.192.107.185](https://vuldb.com/?ip.31.192.107.185) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+16 | [34.27.146.70](https://vuldb.com/?ip.34.27.146.70) | 70.146.27.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+17 | [34.58.151.162](https://vuldb.com/?ip.34.58.151.162) | 162.151.58.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+18 | [34.170.235.99](https://vuldb.com/?ip.34.170.235.99) | 99.235.170.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+19 | [34.172.208.55](https://vuldb.com/?ip.34.172.208.55) | 55.208.172.34.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+20 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+21 | ... | ... | ... | ...
 
-There are 75 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -175,36 +176,38 @@ ID | Type | Indicator | Confidence
 99 | File | `/admin/update_user.php` | High
 100 | File | `/admin/upload/upimage.html` | High
 101 | File | `/admin/user-search.php` | High
-102 | File | `/admin/view-user-queries.php` | High
-103 | File | `/admin/View_user.php` | High
-104 | File | `/adplanet/PlanetUser` | High
-105 | File | `/ajax.php?action=load_answered` | High
-106 | File | `/ajax.php?action=login` | High
-107 | File | `/ajax.php?action=read_msg` | High
-108 | File | `/ajax.php?action=save_category` | High
-109 | File | `/ajax.php?action=save_establishment` | High
-110 | File | `/ajax/chpwd.php` | High
-111 | File | `/ajax/get_patient_history.php` | High
-112 | File | `/animalsupdate.php` | High
-113 | File | `/api/admin/question/edit` | High
-114 | File | `/api/deploy/upload` | High
-115 | File | `/api/dept/build` | High
-116 | File | `/api/file/downloadUrl` | High
-117 | File | `/Api/FileUploadApi.ashx` | High
-118 | File | `/api/login/auth` | High
-119 | File | `/api/system/other` | High
-120 | File | `/api/test/download` | High
-121 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-122 | File | `/api/upload` | Medium
-123 | File | `/api/upload/image` | High
-124 | File | `/api/wizard/getNetworkConf` | High
-125 | File | `/api/wizard/getNetworkStatus` | High
-126 | File | `/api/wizard/getssidname` | High
-127 | File | `/api/wizard/getWifiNeighbour` | High
-128 | File | `/app/action/add_staff.php` | High
-129 | ... | ... | ...
+102 | File | `/admin/view-enquiry.php` | High
+103 | File | `/admin/view-user-queries.php` | High
+104 | File | `/admin/View_user.php` | High
+105 | File | `/adplanet/PlanetUser` | High
+106 | File | `/ajax.php?action=delete_supplier` | High
+107 | File | `/ajax.php?action=load_answered` | High
+108 | File | `/ajax.php?action=login` | High
+109 | File | `/ajax.php?action=read_msg` | High
+110 | File | `/ajax.php?action=save_category` | High
+111 | File | `/ajax.php?action=save_establishment` | High
+112 | File | `/ajax/chpwd.php` | High
+113 | File | `/ajax/get_patient_history.php` | High
+114 | File | `/animalsupdate.php` | High
+115 | File | `/api/admin/question/edit` | High
+116 | File | `/api/deploy/upload` | High
+117 | File | `/api/dept/build` | High
+118 | File | `/api/file/downloadUrl` | High
+119 | File | `/Api/FileUploadApi.ashx` | High
+120 | File | `/api/login/auth` | High
+121 | File | `/api/system/other` | High
+122 | File | `/api/test/download` | High
+123 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+124 | File | `/api/upload` | Medium
+125 | File | `/api/upload/image` | High
+126 | File | `/api/wizard/getNetworkConf` | High
+127 | File | `/api/wizard/getNetworkStatus` | High
+128 | File | `/api/wizard/getssidname` | High
+129 | File | `/api/wizard/getWifiNeighbour` | High
+130 | File | `/app/action/add_staff.php` | High
+131 | ... | ... | ...
 
-There are 1150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -218,6 +221,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/13.61.7.218
 * https://search.censys.io/hosts/13.86.108.33
 * https://search.censys.io/hosts/15.237.162.48
+* https://search.censys.io/hosts/16.171.55.6
 * https://search.censys.io/hosts/18.133.253.38
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/18.171.35.225
@@ -228,9 +232,11 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/34.172.208.55
 * https://search.censys.io/hosts/44.207.92.202
 * https://search.censys.io/hosts/45.79.196.203
+* https://search.censys.io/hosts/45.89.127.45
 * https://search.censys.io/hosts/45.134.26.136
 * https://search.censys.io/hosts/45.147.176.188
 * https://search.censys.io/hosts/46.101.126.207
+* https://search.censys.io/hosts/46.250.233.154
 * https://search.censys.io/hosts/47.76.86.199
 * https://search.censys.io/hosts/51.20.69.36
 * https://search.censys.io/hosts/51.20.96.197
@@ -263,6 +269,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/165.227.246.129
 * https://search.censys.io/hosts/166.1.22.149
 * https://search.censys.io/hosts/167.99.78.69
+* https://search.censys.io/hosts/173.254.215.95
 * https://search.censys.io/hosts/176.111.174.138
 * https://search.censys.io/hosts/176.119.159.177
 * https://search.censys.io/hosts/184.72.153.18

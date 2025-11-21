@@ -115,7 +115,7 @@ ID | IP address | Hostname | Campaign | Confidence
 92 | [47.241.186.240](https://vuldb.com/?ip.47.241.186.240) | - | - | High
 93 | ... | ... | ... | ...
 
-There are 368 more IOC items available. Please use our online service to access the data.
+There are 370 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -148,23 +148,24 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/index.php/web/ajax_all_lists` | High
 11 | File | `/admin/loadUsers` | High
 12 | File | `/Admin/login.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/manage-users.php` | High
-15 | File | `/admin/member_save.php` | High
-16 | File | `/admin/search-vehicle.php` | High
-17 | File | `/admin/student_edit_photo.php` | High
-18 | File | `/admin/suppliercontroller.php` | High
-19 | File | `/admin/user-profile.php` | High
-20 | File | `/admin/user/list` | High
-21 | File | `/admin/voters_row.php` | High
-22 | File | `/adminac.php` | Medium
-23 | File | `/api/authentication/login` | High
-24 | File | `/api/ServiceAgent/start_service` | High
-25 | File | `/api/v3/search/categories` | High
-26 | File | `/api/videos/public` | High
-27 | ... | ... | ...
+13 | File | `/admin/manage-users.php` | High
+14 | File | `/admin/member_save.php` | High
+15 | File | `/admin/search-vehicle.php` | High
+16 | File | `/admin/student_edit_photo.php` | High
+17 | File | `/admin/suppliercontroller.php` | High
+18 | File | `/admin/user-profile.php` | High
+19 | File | `/admin/user/list` | High
+20 | File | `/admin/voters_row.php` | High
+21 | File | `/adminac.php` | Medium
+22 | File | `/api/authentication/login` | High
+23 | File | `/api/ServiceAgent/start_service` | High
+24 | File | `/api/v3/search/categories` | High
+25 | File | `/api/videos/public` | High
+26 | File | `/application/common.php` | High
+27 | File | `/applyleave.php` | High
+28 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -513,6 +514,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/114.67.248.66#10001
 * https://www.shodan.io/host/118.107.244.36#10001
 * https://www.shodan.io/host/119.161.100.83#10001
+* https://www.shodan.io/host/119.167.191.7#10001
 * https://www.shodan.io/host/119.167.234.93#10001
 * https://www.shodan.io/host/120.157.55.0#3001
 * https://www.shodan.io/host/121.196.37.112#10001
@@ -528,6 +530,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/162.255.116.92#10001
 * https://www.shodan.io/host/165.22.91.195#10001
 * https://www.shodan.io/host/166.255.181.65#4002
+* https://www.shodan.io/host/167.160.89.154#10001
 * https://www.shodan.io/host/170.130.200.118#10001
 * https://www.shodan.io/host/172.96.165.138#10001
 * https://www.shodan.io/host/174.76.246.246#61613

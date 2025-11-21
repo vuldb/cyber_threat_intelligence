@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,47 +77,47 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/bookList?page=1&limit=10` | High
 16 | File | `/admin/case-type` | High
 17 | File | `/admin/clients/` | High
-18 | File | `/admin/contact-us.php` | High
-19 | File | `/admin/create_product.php` | High
-20 | File | `/admin/div_data/data` | High
-21 | File | `/admin/edit_manufacturer.php` | High
-22 | File | `/admin/index.php` | High
-23 | File | `/admin/ind_backstage.php` | High
-24 | File | `/admin/login.php` | High
-25 | File | `/admin/manage-services.php` | High
-26 | File | `/admin/manage_complaint.php` | High
-27 | File | `/admin/media_folders` | High
-28 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-29 | File | `/admin/menu.php` | High
-30 | File | `/admin/robot.php` | High
-31 | File | `/admin/settings/index.php?page=accounts` | High
-32 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-33 | File | `/admin/users.php` | High
-34 | File | `/ajax.php` | Medium
-35 | File | `/ajax.php?action=delete_tenant` | High
-36 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-37 | File | `/api/swaggerui/static` | High
-38 | File | `/api/system/other` | High
-39 | File | `/app/platform/controllers/ResetpwdController.php` | High
-40 | File | `/AttendanceMonitoring/report/index.php` | High
-41 | File | `/auth/auth.php?user=1` | High
-42 | File | `/authMonitCallcenter` | High
-43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-44 | File | `/backend/admin/his_admin_register_patient.php` | High
-45 | File | `/backend/register.php` | High
-46 | File | `/bin/boa` | Medium
-47 | File | `/bitrix/admin/ldap_server_edit.php` | High
-48 | File | `/bloodrequest.php` | High
-49 | File | `/boafrm/formFilter` | High
-50 | File | `/booklist.php` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | File | `/cgi-bin/hd_config.cgi` | High
-53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-54 | File | `/cgi-bin/vitogate.cgi` | High
-55 | File | `/cgi-bin/wapopen` | High
+18 | File | `/admin/conferences/list/` | High
+19 | File | `/admin/contact-us.php` | High
+20 | File | `/admin/create_product.php` | High
+21 | File | `/admin/div_data/data` | High
+22 | File | `/admin/edit_manufacturer.php` | High
+23 | File | `/admin/index.php` | High
+24 | File | `/admin/ind_backstage.php` | High
+25 | File | `/admin/login.php` | High
+26 | File | `/admin/manage-services.php` | High
+27 | File | `/admin/manage_complaint.php` | High
+28 | File | `/admin/media_folders` | High
+29 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+30 | File | `/admin/menu.php` | High
+31 | File | `/admin/robot.php` | High
+32 | File | `/admin/settings/index.php?page=accounts` | High
+33 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+34 | File | `/admin/users.php` | High
+35 | File | `/ajax.php` | Medium
+36 | File | `/ajax.php?action=delete_tenant` | High
+37 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+38 | File | `/api/swaggerui/static` | High
+39 | File | `/api/system/other` | High
+40 | File | `/api2/html/` | Medium
+41 | File | `/app/platform/controllers/ResetpwdController.php` | High
+42 | File | `/AttendanceMonitoring/report/index.php` | High
+43 | File | `/auth/auth.php?user=1` | High
+44 | File | `/authMonitCallcenter` | High
+45 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+46 | File | `/backend/admin/his_admin_register_patient.php` | High
+47 | File | `/backend/register.php` | High
+48 | File | `/bin/boa` | Medium
+49 | File | `/bitrix/admin/ldap_server_edit.php` | High
+50 | File | `/bloodrequest.php` | High
+51 | File | `/boafrm/formFilter` | High
+52 | File | `/booklist.php` | High
+53 | File | `/cgi-bin/cstecgi.cgi` | High
+54 | File | `/cgi-bin/hd_config.cgi` | High
+55 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 56 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 488 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

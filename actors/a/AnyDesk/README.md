@@ -22,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [52.89.196.49](https://vuldb.com/?ip.52.89.196.49) | ec2-52-89-196-49.us-west-2.compute.amazonaws.com | - | Medium
-2 | [164.92.235.193](https://vuldb.com/?ip.164.92.235.193) | - | - | High
-3 | [185.29.9.162](https://vuldb.com/?ip.185.29.9.162) | se1.encryptedconnection.info | - | High
+2 | [162.240.80.146](https://vuldb.com/?ip.162.240.80.146) | 162-240-80-146.unifiedlayer.com | - | High
+3 | [164.92.235.193](https://vuldb.com/?ip.164.92.235.193) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://cyble.com/blog/mitsu-stealer-distributed-via-anydesk-phishing-site/
 * https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion/
+* https://urlhaus.abuse.ch/url/3606454/
 
 ## Literature
 

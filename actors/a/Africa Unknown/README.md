@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Africa Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -5680,12 +5680,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -5693,42 +5694,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=inmates/view_inmate` | High
-2 | File | `/admin/?page=products/view_product` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/add-customer.php` | High
-5 | File | `/admin/adddoctor.php` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/adminStudentUrl` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/curriculum/view_curriculum.php` | High
-11 | File | `/admin/delete_member.php` | High
-12 | File | `/admin/faculty_action.php` | High
-13 | File | `/admin/home.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/manage-pages.php` | High
-16 | File | `/admin/settings/index.php?page=accounts` | High
-17 | File | `/admin/sys/log/list` | High
-18 | File | `/admin/updatecomplaint.php` | High
-19 | File | `/admin_route/dec_service_credits.php` | High
-20 | File | `/ajax.php?action=delete_plan` | High
-21 | File | `/ajax.php?action=save_package` | High
-22 | File | `/api/dept/build` | High
-23 | File | `/api/v1/bait/set` | High
-24 | File | `/application/controller/Pengeluaran.php` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boafrm/formPortFw` | High
-27 | File | `/boafrm/formStats` | High
-28 | File | `/bwdates-report-result.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/change-password.php` | High
-31 | File | `/changeUsername.php` | High
-32 | File | `/control/login.php` | High
-33 | File | `/dashboard/admin/more-userprofile.php` | High
-34 | ... | ... | ...
+1 | File | `/add-notes.php` | High
+2 | File | `/add_achievement_details.php` | High
+3 | File | `/admin#themes` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/app/profile_crud.php` | High
+7 | File | `/admin/book_row.php` | High
+8 | File | `/admin/deleteuser.php` | High
+9 | File | `/admin/edit_account.php` | High
+10 | File | `/admin/edit_product.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/manage_theater.php` | High
+13 | File | `/admin/posts.php?source=add_post` | High
+14 | File | `/admin/products/index.php?view=add` | High
+15 | File | `/admin/roombook.php` | High
+16 | File | `/admin/update-users.php` | High
+17 | File | `/admin/update_s8.php` | High
+18 | File | `/admin/voters_row.php` | High
+19 | File | `/ajax.php?action=save_plan` | High
+20 | File | `/boafrm/formParentControl` | High
+21 | File | `/cart/index.php` | High
+22 | File | `/cart_remove.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/mft/` | High
+25 | File | `/cgi-bin/user/Config.cgi` | High
+26 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,36 +111,37 @@ ID | Type | Indicator | Confidence
 39 | File | `/admin/show.php` | High
 40 | File | `/admin/students/update_status.php` | High
 41 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-42 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-43 | File | `/ajax-api.php` | High
-44 | File | `/ajax.php?action=delete_allowances` | High
-45 | File | `/api/front/search/books` | High
-46 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-47 | File | `/api/sys/login` | High
-48 | File | `/api/sys/set_passwd` | High
-49 | File | `/app/ajax/search_sales_report.php` | High
-50 | File | `/app/controller/Setup.php` | High
-51 | File | `/application/index/controller/Screen.php` | High
-52 | File | `/apply.cgi` | Medium
-53 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-54 | File | `/bin/boa` | Medium
-55 | File | `/binutils/debug.c` | High
-56 | File | `/boafrm/formMapDelDevice` | High
-57 | File | `/boafrm/formWlSiteSurvey` | High
-58 | File | `/booking/show_bookings/` | High
-59 | File | `/brains/stu.php` | High
-60 | File | `/cancel.php` | Medium
-61 | File | `/cgi-bin/adm.cgi` | High
-62 | File | `/cgi-bin/cstecgi.cgi` | High
-63 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-64 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-65 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-66 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-67 | File | `/cgi-bin/myMusic.cgi` | High
-68 | File | `/cgi-bin/nas_sharing.cgi` | High
-69 | ... | ... | ...
+42 | File | `/admin/usersetting.php` | High
+43 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+44 | File | `/ajax-api.php` | High
+45 | File | `/ajax.php?action=delete_allowances` | High
+46 | File | `/api/front/search/books` | High
+47 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+48 | File | `/api/sys/login` | High
+49 | File | `/api/sys/set_passwd` | High
+50 | File | `/app/ajax/search_sales_report.php` | High
+51 | File | `/app/controller/Setup.php` | High
+52 | File | `/application/index/controller/Screen.php` | High
+53 | File | `/apply.cgi` | Medium
+54 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+55 | File | `/bin/boa` | Medium
+56 | File | `/binutils/debug.c` | High
+57 | File | `/boafrm/formMapDelDevice` | High
+58 | File | `/boafrm/formWlSiteSurvey` | High
+59 | File | `/booking/show_bookings/` | High
+60 | File | `/brains/stu.php` | High
+61 | File | `/cancel.php` | Medium
+62 | File | `/cgi-bin/adm.cgi` | High
+63 | File | `/cgi-bin/cstecgi.cgi` | High
+64 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+65 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+66 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+67 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+68 | File | `/cgi-bin/myMusic.cgi` | High
+69 | File | `/cgi-bin/nas_sharing.cgi` | High
+70 | ... | ... | ...
 
-There are 603 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

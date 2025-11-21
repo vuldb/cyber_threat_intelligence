@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.94.52.128](https://vuldb.com/?ip.1.94.52.128) | ecs-1-94-52-128.compute.hwclouds-dns.com | - | High
 2 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | - | High
-3 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | - | Medium
+3 | [31.57.35.90](https://vuldb.com/?ip.31.57.35.90) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,10 +52,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/index.php` | Medium
 4 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
 5 | File | `/oauth/idp/.well-known/openid-configuration` | High
-6 | File | `arch/powerpc/kernel/entry_64.S` | High
-7 | ... | ... | ...
+6 | File | `ActivityManagerShellCommand.java` | High
+7 | File | `arch/powerpc/kernel/entry_64.S` | High
+8 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,6 +73,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3561847/
 * https://urlhaus.abuse.ch/url/3561983/
 * https://urlhaus.abuse.ch/url/3577026/
+* https://urlhaus.abuse.ch/url/3597138/
+* https://urlhaus.abuse.ch/url/3609344/
+* https://urlhaus.abuse.ch/url/3610001/
+* https://urlhaus.abuse.ch/url/3611202/
+* https://urlhaus.abuse.ch/url/3665958/
 
 ## Literature
 

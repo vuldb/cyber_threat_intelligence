@@ -27,15 +27,15 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [46.161.1.172](https://vuldb.com/?ip.46.161.1.172) | free.gbnhost.com | - | High
 5 | [50.56.223.113](https://vuldb.com/?ip.50.56.223.113) | 50-56-223-113.static.cloud-ips.com | - | High
 6 | [50.116.13.230](https://vuldb.com/?ip.50.116.13.230) | 50-116-13-230.ip.linodeusercontent.com | - | High
-7 | [62.112.130.165](https://vuldb.com/?ip.62.112.130.165) | - | - | High
-8 | [64.85.169.189](https://vuldb.com/?ip.64.85.169.189) | - | - | High
-9 | [64.85.169.190](https://vuldb.com/?ip.64.85.169.190) | - | - | High
-10 | [66.175.212.25](https://vuldb.com/?ip.66.175.212.25) | 66-175-212-25.ip.linodeusercontent.com | - | High
-11 | [67.215.225.205](https://vuldb.com/?ip.67.215.225.205) | - | - | High
-12 | [69.194.196.39](https://vuldb.com/?ip.69.194.196.39) | visit.keznews.com | - | High
+7 | [50.116.57.82](https://vuldb.com/?ip.50.116.57.82) | 50-116-57-82.ip.linodeusercontent.com | - | High
+8 | [62.112.130.165](https://vuldb.com/?ip.62.112.130.165) | - | - | High
+9 | [64.85.169.189](https://vuldb.com/?ip.64.85.169.189) | - | - | High
+10 | [64.85.169.190](https://vuldb.com/?ip.64.85.169.190) | - | - | High
+11 | [66.175.212.25](https://vuldb.com/?ip.66.175.212.25) | 66-175-212-25.ip.linodeusercontent.com | - | High
+12 | [67.215.225.205](https://vuldb.com/?ip.67.215.225.205) | - | - | High
 13 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 49 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,24 +100,25 @@ ID | Type | Indicator | Confidence
 40 | File | `/ajax_state.php` | High
 41 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 42 | File | `/api/system/other` | High
-43 | File | `/app/platform/controllers/ResetpwdController.php` | High
-44 | File | `/AttendanceMonitoring/report/index.php` | High
-45 | File | `/authMonitCallcenter` | High
-46 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-47 | File | `/backend/admin/his_admin_register_patient.php` | High
-48 | File | `/backend/register.php` | High
-49 | File | `/bin/boa` | Medium
-50 | File | `/Blood/A-.php` | High
-51 | File | `/bloodrequest.php` | High
-52 | File | `/boafrm/formFilter` | High
-53 | File | `/book-nurse.php?bookid=1` | High
-54 | File | `/booklist.php` | High
-55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/hd_config.cgi` | High
-57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-58 | ... | ... | ...
+43 | File | `/api_vedo/video/preview` | High
+44 | File | `/app/platform/controllers/ResetpwdController.php` | High
+45 | File | `/AttendanceMonitoring/report/index.php` | High
+46 | File | `/authMonitCallcenter` | High
+47 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+48 | File | `/backend/admin/his_admin_register_patient.php` | High
+49 | File | `/backend/register.php` | High
+50 | File | `/bin/boa` | Medium
+51 | File | `/Blood/A-.php` | High
+52 | File | `/bloodrequest.php` | High
+53 | File | `/boafrm/formFilter` | High
+54 | File | `/book-nurse.php?bookid=1` | High
+55 | File | `/booklist.php` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/hd_config.cgi` | High
+58 | File | `/cgi-bin/luci/api/cmd` | High
+59 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PureLogs Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,9 +42,14 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [62.60.226.204](https://vuldb.com/?ip.62.60.226.204) | - | - | High
 20 | [62.60.235.100](https://vuldb.com/?ip.62.60.235.100) | - | - | High
 21 | [65.21.101.232](https://vuldb.com/?ip.65.21.101.232) | - | - | High
-22 | ... | ... | ... | ...
+22 | [65.21.212.76](https://vuldb.com/?ip.65.21.212.76) | static.76.212.21.65.clients.your-server.de | - | High
+23 | [65.108.24.99](https://vuldb.com/?ip.65.108.24.99) | static.99.24.108.65.clients.your-server.de | - | High
+24 | [65.108.24.103](https://vuldb.com/?ip.65.108.24.103) | static.103.24.108.65.clients.your-server.de | - | High
+25 | [65.108.26.131](https://vuldb.com/?ip.65.108.26.131) | static.131.26.108.65.clients.your-server.de | - | High
+26 | [69.61.41.78](https://vuldb.com/?ip.69.61.41.78) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 105 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,46 +70,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/category/controller.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/general.cgi` | High
-4 | File | `/admin/reminders/manage_reminder.php` | High
-5 | File | `/API/info` | Medium
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/Bloodgroop_process.php` | High
-8 | File | `/cancelbookingpatient.php` | High
-9 | File | `/CCMAdmin/serverlist.asp` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi/get_param.cgi` | High
-14 | File | `/csms/admin/inquiries/view_details.php` | High
-15 | File | `/cstecgi.cgi` | Medium
-16 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-17 | File | `/ecommerce/support_ticket` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/verifyFacebookLike` | High
-20 | File | `/home/search` | Medium
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/messageboard/view.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/spgpm/updateListing` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-30 | File | `/textpattern/index.php` | High
-31 | File | `/upfile.cgi` | Medium
-32 | File | `/users/absence?search_month=1` | High
-33 | File | `/WEAS_AlarmResult/GetAlarmResultProcessList` | High
-34 | File | `/webui/modules/log/operate.mds` | High
-35 | File | `/wordpress/wp-admin/admin.php` | High
-36 | File | `/wuser/anyUserBoundHouse.php` | High
-37 | File | `account_footer.php` | High
-38 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/admin-area.php` | High
+3 | File | `/admin/category/controller.php` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/general.cgi` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/reminders/manage_reminder.php` | High
+8 | File | `/API/info` | Medium
+9 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+10 | File | `/Bloodgroop_process.php` | High
+11 | File | `/cancelbookingpatient.php` | High
+12 | File | `/CCMAdmin/serverlist.asp` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/csms/admin/inquiries/view_details.php` | High
+18 | File | `/cstecgi.cgi` | Medium
+19 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+20 | File | `/ecommerce/admin/login.php` | High
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/verifyFacebookLike` | High
+24 | File | `/home/search` | Medium
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/login.php` | Medium
+29 | File | `/messageboard/view.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/spgpm/updateListing` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+35 | File | `/textpattern/index.php` | High
+36 | File | `/upfile.cgi` | Medium
+37 | File | `/users/absence?search_month=1` | High
+38 | File | `/WEAS_AlarmResult/GetAlarmResultProcessList` | High
+39 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/07f45ec6-c7a8-439c-9188-b4e17913590a
 * https://app.any.run/tasks/97ff2247-d17e-4f2b-b61c-c6d6e35371a4
 * https://app.any.run/tasks/db489f70-98a7-4c74-9902-2efe1dac0fa2/
+* https://bazaar.abuse.ch/sample/4ccea128160e211fecd8caea748b1a256a8db92b1fc9ca8aa9460b2bae0ad935/
 * https://bazaar.abuse.ch/sample/11e692ea356fed04b46c46d7ae06dd3a198d988fea634e7931bc5be147e43a0a/
 * https://bazaar.abuse.ch/sample/39cef24b44d98f3414f9216a019d6faa8d59e976ac13339f3f46e77429ad91b2/
 * https://bazaar.abuse.ch/sample/49c3e822918ada172b60f4cb687a5cb3e8d42bffc33338af6c3136e220c3819f/

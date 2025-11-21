@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CryWiper:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
@@ -25,8 +26,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
-2 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
+1 | T1006 | CWE-24 | Path Traversal | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -34,8 +36,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ajaxOrderTracking.php` | High
-2 | Argument | `filename` | Medium
+1 | File | `/group1/uploa` | High
+2 | File | `ajaxOrderTracking.php` | High
+3 | Argument | `filename` | Medium
 
 ## References
 

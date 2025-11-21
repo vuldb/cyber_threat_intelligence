@@ -67,38 +67,39 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/app/service_crud.php` | High
 8 | File | `/admin/blood/update/B-.php` | High
 9 | File | `/admin/edit_categories.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/Admin/login.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/massage.php` | High
-14 | File | `/admin/password-recovery.php` | High
-15 | File | `/admin/service/stop/` | High
-16 | File | `/admin/student.php` | High
-17 | File | `/admin/students/update_status.php` | High
-18 | File | `/admin/system.html` | High
-19 | File | `/advanced-tools/nova/bin/netwatch` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/app/admin/controller/api/Plugs.php` | High
-22 | File | `/app/api/controller/default/File.php` | High
-23 | File | `/app/api/controller/default/Sqlite.php` | High
-24 | File | `/app/controller/Setup.php` | High
-25 | File | `/assets/php/upload.php` | High
-26 | File | `/bin/boa` | Medium
-27 | File | `/bin/httpd` | Medium
-28 | File | `/bin/sh` | Low
-29 | File | `/bitrix/admin/ldap_server_edit.php` | High
-30 | File | `/cancel.php` | Medium
-31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/luci;stok=/locale` | High
-34 | File | `/cgi-bin/nas_sharing.cgi` | High
-35 | File | `/collection/all` | High
-36 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-37 | File | `/com/esafenet/servlet/ajax/PublicDocInfoAjax.java` | High
-38 | File | `/dbsrv.asp` | Medium
-39 | ... | ... | ...
+10 | File | `/admin/fetch_product_details.php` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/Admin/login.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/massage.php` | High
+15 | File | `/admin/password-recovery.php` | High
+16 | File | `/admin/service/stop/` | High
+17 | File | `/admin/student.php` | High
+18 | File | `/admin/students/update_status.php` | High
+19 | File | `/admin/system.html` | High
+20 | File | `/advanced-tools/nova/bin/netwatch` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/app/admin/controller/api/Plugs.php` | High
+23 | File | `/app/api/controller/default/File.php` | High
+24 | File | `/app/api/controller/default/Sqlite.php` | High
+25 | File | `/app/controller/Setup.php` | High
+26 | File | `/assets/php/upload.php` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/bin/httpd` | Medium
+29 | File | `/bin/sh` | Low
+30 | File | `/binutils/debug.c` | High
+31 | File | `/bitrix/admin/ldap_server_edit.php` | High
+32 | File | `/cancel.php` | Medium
+33 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/firewall.cgi` | High
+36 | File | `/cgi-bin/login.cgi` | High
+37 | File | `/cgi-bin/luci;stok=/locale` | High
+38 | File | `/cgi-bin/nas_sharing.cgi` | High
+39 | File | `/collection/all` | High
+40 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

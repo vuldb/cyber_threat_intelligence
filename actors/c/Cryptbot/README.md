@@ -67,10 +67,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/goform/WriteFacMac` | High
 8 | File | `/hospital/hms/admin/patient-search.php` | High
 9 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-10 | File | `/modules/announcement/index.php?view=edit` | High
-11 | ... | ... | ...
+10 | File | `/load.php` | Medium
+11 | File | `/modules/announcement/index.php?view=edit` | High
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

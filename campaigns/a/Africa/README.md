@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -5696,7 +5696,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -5709,42 +5709,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=inmates/view_inmate` | High
-2 | File | `/admin/?page=products/view_product` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/add-customer.php` | High
-5 | File | `/admin/adddoctor.php` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/adminStudentUrl` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/curriculum/view_curriculum.php` | High
-11 | File | `/admin/delete_member.php` | High
-12 | File | `/admin/faculty_action.php` | High
-13 | File | `/admin/home.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/manage-pages.php` | High
-16 | File | `/admin/settings/index.php?page=accounts` | High
-17 | File | `/admin/sys/log/list` | High
-18 | File | `/admin/updatecomplaint.php` | High
-19 | File | `/admin_route/dec_service_credits.php` | High
-20 | File | `/ajax.php?action=delete_plan` | High
-21 | File | `/ajax.php?action=save_package` | High
-22 | File | `/api/dept/build` | High
-23 | File | `/api/v1/bait/set` | High
-24 | File | `/application/controller/Pengeluaran.php` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boafrm/formPortFw` | High
-27 | File | `/boafrm/formStats` | High
-28 | File | `/bwdates-report-result.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/change-password.php` | High
-31 | File | `/changeUsername.php` | High
-32 | File | `/control/login.php` | High
-33 | File | `/dashboard/admin/more-userprofile.php` | High
-34 | ... | ... | ...
+1 | File | `/?page=tracks` | High
+2 | File | `/activation.php` | High
+3 | File | `/adaddmed.php` | High
+4 | File | `/addcompany.php` | High
+5 | File | `/admin-dashboard` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/add-admin.php` | High
+8 | File | `/admin/add-customer.php` | High
+9 | File | `/admin/add-services.php` | High
+10 | File | `/admin/ajax.php?action=login` | High
+11 | File | `/admin/ajax.php?action=save_vacancy` | High
+12 | File | `/admin/all-appointment.php` | High
+13 | File | `/admin/categories/save` | High
+14 | File | `/admin/category_update.php` | High
+15 | File | `/admin/chatroom.php` | High
+16 | File | `/admin/doctor-specilization.php` | High
+17 | File | `/admin/edit-nurse.php` | High
+18 | File | `/admin/edit-subcategory.php` | High
+19 | File | `/admin/edit_room.php` | High
+20 | File | `/admin/goods/update` | High
+21 | File | `/admin/manage_complaint.php` | High
+22 | File | `/admin/network/ajax_getChannelList` | High
+23 | File | `/admin/Operation/User.php` | High
+24 | File | `/admin/pages/update_go.php` | High
+25 | File | `/admin/print.php` | High
+26 | File | `/admin/print1.php` | High
+27 | File | `/admin/search-appointment.php` | High
+28 | File | `/admin/search-invoices.php` | High
+29 | File | `/admin/tag/save` | High
+30 | File | `/admin/update_room.php` | High
+31 | File | `/admin/update_s8.php` | High
+32 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

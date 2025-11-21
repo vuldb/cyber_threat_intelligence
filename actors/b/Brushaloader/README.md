@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brushaloader:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,11 +40,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,13 +52,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/horde/util/go.php` | High
-3 | File | `/modules/profile/index.php` | High
-4 | File | `admin/conf_users_edit.php` | High
-5 | ... | ... | ...
+1 | File | `/;/admin/role/edit` | High
+2 | File | `/add_personal_details.php` | High
+3 | File | `/admin/bookList?page=1&limit=10` | High
+4 | File | `/admin/doctor-specilization.php` | High
+5 | File | `/admin/edit-customer-detailed.php` | High
+6 | File | `/admin/employee/index.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/home/index.html` | High
+9 | File | `/admin/inv-print.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/manage-category.php` | High
+12 | File | `/admin/searchview.php` | High
+13 | File | `/admin/update_student.php` | High
+14 | File | `/admin/view-user-queries.php` | High
+15 | File | `/admin/view_vacancy.php` | High
+16 | File | `/ajax.php?action=delete_member` | High
+17 | File | `/ajax.php?action=save_establishment` | High
+18 | File | `/ajax.php?action=save_payroll` | High
+19 | File | `/ajax.php?action=save_plan` | High
+20 | File | `/api/` | Low
+21 | File | `/api/admin/system/store/order/list` | High
+22 | File | `/api/v1/attack/falco` | High
+23 | File | `/api/wizard/getssidname` | High
+24 | File | `/app/platform/controllers/ResetpwdController.php` | High
+25 | File | `/authentication/logout.php` | High
+26 | File | `/bin/gpio` | Medium
+27 | File | `/bin/httpd` | Medium
+28 | File | `/birthing_record.php` | High
+29 | File | `/bloodrequest.php` | High
+30 | File | `/boafrm/formDosCfg` | High
+31 | File | `/boafrm/formIpv6Setup` | High
+32 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

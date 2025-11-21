@@ -78,7 +78,7 @@ ID | IP address | Hostname | Actor | Confidence
 42 | [38.134.148.74](https://vuldb.com/?ip.38.134.148.74) | - | [ClickFix](https://vuldb.com/?actor.clickfix) | High
 43 | ... | ... | ... | ...
 
-There are 169 more IOC items available. Please use our online service to access the data.
+There are 170 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,7 +91,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,7 +104,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/SysInfo1.htm` | High
 4 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,6 +128,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://urlhaus.abuse.ch/url/3610821/
 * https://urlhaus.abuse.ch/url/3610822/
 * https://urlhaus.abuse.ch/url/3616698/
+* https://urlhaus.abuse.ch/url/3631737/
 * https://www.cybereason.com/blog/net-support-rat-wordpress-clickfix
 * https://www.darktrace.com/blog/unpacking-clickfix-darktraces-detection-of-a-prolific-social-engineering-tactic
 * https://www.elastic.co/security-labs/a-wretch-client

@@ -98,13 +98,13 @@ ID | Type | Indicator | Confidence
 21 | File | `/allreaders.html` | High
 22 | File | `/all_student.php` | High
 23 | File | `/animalsupdate.php` | High
-24 | File | `/api/stl/actions/search` | High
-25 | File | `/api/system/other` | High
-26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-27 | File | `/api/upload.php` | High
-28 | File | `/api/v1/admin/` | High
-29 | File | `/api/v1/getbaseconfig` | High
-30 | File | `/api/v1/terminal/sessions/?limit=1` | High
+24 | File | `/api/authentication/login` | High
+25 | File | `/api/stl/actions/search` | High
+26 | File | `/api/system/other` | High
+27 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+28 | File | `/api/upload.php` | High
+29 | File | `/api/v1/admin/` | High
+30 | File | `/api/v1/getbaseconfig` | High
 31 | File | `/api/wizard/getCapability` | High
 32 | File | `/api/wizard/getCapabilityWeb` | High
 33 | File | `/api/wizard/getLanguage` | High
@@ -140,8 +140,7 @@ ID | Type | Indicator | Confidence
 63 | File | `/boafrm/formVlan` | High
 64 | File | `/boafrm/formWdsEncrypt` | High
 65 | File | `/boafrm/formWirelessTbl` | High
-66 | File | `/boafrm/formWlanRedirect` | High
-67 | ... | ... | ...
+66 | ... | ... | ...
 
 There are 583 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

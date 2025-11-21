@@ -59,15 +59,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index.php` | High
 3 | File | `/admin/subject.php` | High
 4 | File | `/cart.php` | Medium
-5 | File | `/picturesPreview` | High
-6 | File | `/safeEvent/importFile/` | High
-7 | File | `/sysmanage/licence.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `admin.cropcanvas.php` | High
-10 | File | `admin_class.php` | High
+5 | File | `/cgi-bin/luci/api/cmd` | High
+6 | File | `/picturesPreview` | High
+7 | File | `/safeEvent/importFile/` | High
+8 | File | `/sysmanage/licence.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `admin.cropcanvas.php` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

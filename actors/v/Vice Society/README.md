@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,62 +63,65 @@ ID | Type | Indicator | Confidence
 4 | File | `/add-students.php` | High
 5 | File | `/addclient1.php` | High
 6 | File | `/add_achievement_details.php` | High
-7 | File | `/admin/action/edit_chicken.php` | High
-8 | File | `/admin/action/update-deworm.php` | High
-9 | File | `/admin/admin-profile.php` | High
-10 | File | `/admin/ajax.php?action=login` | High
-11 | File | `/admin/ajax.php?action=save_settings` | High
-12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-13 | File | `/admin/category/add.do` | High
-14 | File | `/admin/contact-us.php` | High
-15 | File | `/admin/create_product.php` | High
-16 | File | `/admin/delete_s1.php` | High
-17 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-18 | File | `/admin/home.php?con=add` | High
-19 | File | `/admin/invoice.php` | High
-20 | File | `/admin/kami_list` | High
-21 | File | `/admin/maintenance/view_designation.php` | High
-22 | File | `/admin/pages/edit_chicken.php` | High
-23 | File | `/admin/robot.php` | High
-24 | File | `/admin/system.html` | High
-25 | File | `/admin/update-clients.php` | High
-26 | File | `/ajax.php` | Medium
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/plugin/uninstall` | High
-29 | File | `/api/wizard/getNetworkConf` | High
-30 | File | `/api/wizard/getssidname` | High
-31 | File | `/api/wizard/networkSetup` | High
-32 | File | `/api2/html/` | Medium
-33 | File | `/app/Http/Controllers/ImageController.php` | High
-34 | File | `/application/index/controller/File.php` | High
-35 | File | `/application/index/controller/Icon.php` | High
-36 | File | `/application/index/controller/Screen.php` | High
-37 | File | `/application/websocket/controller/Setting.php` | High
-38 | File | `/Attachment/fromImageUrl` | High
-39 | File | `/b2b-supermarket/shopping-cart` | High
-40 | File | `/bin/boa` | Medium
-41 | File | `/boafrm/formIpQoS` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-44 | File | `/cgi-bin/nas_sharing.cgi` | High
-45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-46 | File | `/classes/Master.php?f=delete_category` | High
-47 | File | `/classes/SystemSettings.php?f=update_settings` | High
-48 | File | `/classes/Users.php?f=save` | High
-49 | File | `/classes/Users.php?f=save_client` | High
-50 | File | `/cms/category/list` | High
-51 | File | `/data/edit_laundry.php` | High
-52 | File | `/dev/shm` | Medium
-53 | File | `/downloadFile.php` | High
-54 | File | `/edit.php` | Medium
-55 | File | `/editprofile.php` | High
-56 | File | `/edit_book.php` | High
-57 | File | `/edoc/doctor/patient.php` | High
-58 | File | `/Employer/EditProfile.php` | High
-59 | File | `/endpoint/update-tracker.php` | High
-60 | ... | ... | ...
+7 | File | `/admin/aboutus.php` | High
+8 | File | `/admin/action/edit_chicken.php` | High
+9 | File | `/admin/action/update-deworm.php` | High
+10 | File | `/admin/admin-profile.php` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/ajax.php?action=save_settings` | High
+13 | File | `/admin/all-request.php` | High
+14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+15 | File | `/admin/category/add.do` | High
+16 | File | `/admin/contact-us.php` | High
+17 | File | `/admin/create_product.php` | High
+18 | File | `/admin/delete_s1.php` | High
+19 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+20 | File | `/admin/home.php?con=add` | High
+21 | File | `/admin/invoice.php` | High
+22 | File | `/admin/kami_list` | High
+23 | File | `/admin/login.php` | High
+24 | File | `/admin/maintenance/view_designation.php` | High
+25 | File | `/admin/pages/edit_chicken.php` | High
+26 | File | `/admin/robot.php` | High
+27 | File | `/admin/system.html` | High
+28 | File | `/admin/update-clients.php` | High
+29 | File | `/admin/user/list` | High
+30 | File | `/ajax.php` | Medium
+31 | File | `/api/baskets/{name}` | High
+32 | File | `/api/plugin/uninstall` | High
+33 | File | `/api/wizard/getNetworkConf` | High
+34 | File | `/api/wizard/getssidname` | High
+35 | File | `/api/wizard/networkSetup` | High
+36 | File | `/api2/html/` | Medium
+37 | File | `/app/Http/Controllers/ImageController.php` | High
+38 | File | `/application/index/controller/File.php` | High
+39 | File | `/application/index/controller/Icon.php` | High
+40 | File | `/application/index/controller/Screen.php` | High
+41 | File | `/application/websocket/controller/Setting.php` | High
+42 | File | `/Attachment/fromImageUrl` | High
+43 | File | `/b2b-supermarket/shopping-cart` | High
+44 | File | `/bin/boa` | Medium
+45 | File | `/boafrm/formIpQoS` | High
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+48 | File | `/cgi-bin/nas_sharing.cgi` | High
+49 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+50 | File | `/classes/Master.php?f=delete_category` | High
+51 | File | `/classes/SystemSettings.php?f=update_settings` | High
+52 | File | `/classes/Users.php?f=save` | High
+53 | File | `/classes/Users.php?f=save_client` | High
+54 | File | `/cms/category/list` | High
+55 | File | `/data/edit_laundry.php` | High
+56 | File | `/dbsrv.asp` | Medium
+57 | File | `/dev/shm` | Medium
+58 | File | `/downloadFile.php` | High
+59 | File | `/dws/api/` | Medium
+60 | File | `/edit-family-member.php` | High
+61 | File | `/edit.php` | Medium
+62 | File | `/editprofile.php` | High
+63 | ... | ... | ...
 
-There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

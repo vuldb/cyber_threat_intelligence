@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with France:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -14538,12 +14539,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1222 | CWE-275 | Permission Issues | High
-3 | T1505 | CWE-89 | SQL Injection | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -14551,9 +14549,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_tax.php` | High
-2 | File | `/etc/issue` | Medium
-3 | File | `/goform/SetPptpServerCfg` | High
+1 | File | `/admin/Operation/User.php` | High
+2 | File | `/binutils/debug.c` | High
+3 | File | `/storage` | Medium
 4 | ... | ... | ...
 
 There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

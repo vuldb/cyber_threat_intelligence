@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with RemcosRAT:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RemcosRAT:
 
-* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -27,28 +27,38 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.90.89.50](https://vuldb.com/?ip.45.90.89.50) | mail.xhhjxx.com | CVE-2017-0199 | High
-2 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
-3 | [62.60.208.170](https://vuldb.com/?ip.62.60.208.170) | - | - | High
-4 | [62.60.226.165](https://vuldb.com/?ip.62.60.226.165) | - | - | High
-5 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
-6 | [67.217.240.53](https://vuldb.com/?ip.67.217.240.53) | ip67-217-240-53.pbiaas.com | - | High
-7 | [74.208.45.193](https://vuldb.com/?ip.74.208.45.193) | ip74-208-45-193.pbiaas.com | - | High
-8 | [76.76.21.22](https://vuldb.com/?ip.76.76.21.22) | - | CVE-2017-0199 | High
-9 | [76.76.21.93](https://vuldb.com/?ip.76.76.21.93) | - | CVE-2017-0199 | High
-10 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | CVE-2017-0199 | High
-11 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
-12 | [87.106.188.21](https://vuldb.com/?ip.87.106.188.21) | ip87-106-188-21.pbiaas.com | - | High
-13 | [87.121.79.22](https://vuldb.com/?ip.87.121.79.22) | - | - | High
-14 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
-15 | [91.219.151.227](https://vuldb.com/?ip.91.219.151.227) | s1211027.smartape-vps.com | - | High
-16 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
-17 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
-18 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
-19 | [95.214.26.60](https://vuldb.com/?ip.95.214.26.60) | - | - | High
-20 | ... | ... | ... | ...
+1 | [20.218.135.233](https://vuldb.com/?ip.20.218.135.233) | - | - | High
+2 | [23.95.103.208](https://vuldb.com/?ip.23.95.103.208) | 23-95-103-208-host.colocrossing.com | - | High
+3 | [23.95.117.243](https://vuldb.com/?ip.23.95.117.243) | 23-95-117-243-host.colocrossing.com | - | High
+4 | [23.95.243.109](https://vuldb.com/?ip.23.95.243.109) | 23-95-243-109-host.colocrossing.com | - | High
+5 | [31.40.204.175](https://vuldb.com/?ip.31.40.204.175) | 19964-13448.dchost.com | - | High
+6 | [45.61.128.226](https://vuldb.com/?ip.45.61.128.226) | 226.128.61.45.static.cloudzy.com | - | High
+7 | [45.61.134.233](https://vuldb.com/?ip.45.61.134.233) | 233.134.61.45.static.cloudzy.com | - | High
+8 | [45.90.89.50](https://vuldb.com/?ip.45.90.89.50) | mail.xhhjxx.com | CVE-2017-0199 | High
+9 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
+10 | [46.183.220.22](https://vuldb.com/?ip.46.183.220.22) | ip-220-22.dataclub.info | - | High
+11 | [46.246.86.6](https://vuldb.com/?ip.46.246.86.6) | c-46-246-86-6.ip4.frootvpn.com | - | High
+12 | [62.60.208.170](https://vuldb.com/?ip.62.60.208.170) | - | - | High
+13 | [62.60.226.165](https://vuldb.com/?ip.62.60.226.165) | - | - | High
+14 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
+15 | [67.217.240.53](https://vuldb.com/?ip.67.217.240.53) | ip67-217-240-53.pbiaas.com | - | High
+16 | [74.208.45.193](https://vuldb.com/?ip.74.208.45.193) | ip74-208-45-193.pbiaas.com | - | High
+17 | [76.76.21.22](https://vuldb.com/?ip.76.76.21.22) | - | CVE-2017-0199 | High
+18 | [76.76.21.93](https://vuldb.com/?ip.76.76.21.93) | - | CVE-2017-0199 | High
+19 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | CVE-2017-0199 | High
+20 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
+21 | [80.79.6.185](https://vuldb.com/?ip.80.79.6.185) | 80-79-6-185.hosted-by-worldstream.net | - | High
+22 | [84.38.133.199](https://vuldb.com/?ip.84.38.133.199) | - | - | High
+23 | [84.38.134.12](https://vuldb.com/?ip.84.38.134.12) | ip-134-12.dataclub.info | - | High
+24 | [84.38.134.109](https://vuldb.com/?ip.84.38.134.109) | ip-134-109.dataclub.info | - | High
+25 | [87.106.188.21](https://vuldb.com/?ip.87.106.188.21) | ip87-106-188-21.pbiaas.com | - | High
+26 | [87.121.79.22](https://vuldb.com/?ip.87.121.79.22) | - | - | High
+27 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
+28 | [91.92.240.63](https://vuldb.com/?ip.91.92.240.63) | - | - | High
+29 | [91.219.151.227](https://vuldb.com/?ip.91.219.151.227) | s1211027.smartape-vps.com | - | High
+30 | ... | ... | ... | ...
 
-There are 77 more IOC items available. Please use our online service to access the data.
+There are 116 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,14 +66,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,58 +81,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/departments/manage_department.php` | High
-4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/manage-ambulance.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/quote-details.php` | High
-10 | File | `/admin/return_add.php` | High
-11 | File | `/adminPage/conf/reload` | High
-12 | File | `/admins` | Low
-13 | File | `/admin_topic.php?action=delall` | High
-14 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
-15 | File | `/ajax/getBasicInfo.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/api/cron/settings/setJob/` | High
-18 | File | `/api/wizard/setsyncpppoecfg` | High
-19 | File | `/api2/html/` | Medium
-20 | File | `/application/index/controller/Databasesource.php` | High
-21 | File | `/application/index/controller/File.php` | High
-22 | File | `/application/plugins/controller/Upload.php` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-25 | File | `/backend/admin/his_admin_register_patient.php` | High
-26 | File | `/be/rpc.php` | Medium
-27 | File | `/bitrix/admin/ldap_server_edit.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/login.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/sysconf.cgi` | High
-33 | File | `/cgi-bin/system_mgr.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/changeUsername.php` | High
-36 | File | `/classes/Master.php` | High
-37 | File | `/classes/master.php?f=delete_order` | High
-38 | File | `/classes/Master.php? f=save_medicine` | High
-39 | File | `/classes/SystemSettings.php?f=update_settings` | High
-40 | File | `/clientdetails/admin/regester.php` | High
-41 | File | `/control/register_case.php` | High
-42 | File | `/core/config-revisions` | High
-43 | File | `/cupseasylive/currencylist.php` | High
-44 | File | `/cupseasylive/grnlist.php` | High
-45 | File | `/cupseasylive/locationmodify.php` | High
-46 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-47 | File | `/details.php` | Medium
-48 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-49 | File | `/ext/collect/find_text.do` | High
-50 | ... | ... | ...
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin/edit-course.php` | High
+3 | File | `/admin/file_manager/export` | High
+4 | File | `/admin/forgot-password.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/pages/` | High
+7 | File | `/admin/patient-search.php` | High
+8 | File | `/admin/positions.php` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/admins` | Low
+11 | File | `/admin_topic.php?action=delall` | High
+12 | File | `/ajax/getBasicInfo.php` | High
+13 | File | `/api/admin/system/store/order/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/common/ping` | High
+16 | File | `/api/cron/settings/setJob/` | High
+17 | File | `/api2/html/` | Medium
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/clientdetails/admin/regester.php` | High
+24 | File | `/csms/?page=contact_us` | High
+25 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/farm/product.php` | High
+28 | File | `/fees.php` | Medium
+29 | File | `/forum/away.php` | High
+30 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -185,6 +175,55 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3602876/
 * https://urlhaus.abuse.ch/url/3604574/
 * https://urlhaus.abuse.ch/url/3605395/
+* https://urlhaus.abuse.ch/url/3613700/
+* https://urlhaus.abuse.ch/url/3614192/
+* https://urlhaus.abuse.ch/url/3615621/
+* https://urlhaus.abuse.ch/url/3616963/
+* https://urlhaus.abuse.ch/url/3617273/
+* https://urlhaus.abuse.ch/url/3617614/
+* https://urlhaus.abuse.ch/url/3621725/
+* https://urlhaus.abuse.ch/url/3622428/
+* https://urlhaus.abuse.ch/url/3622430/
+* https://urlhaus.abuse.ch/url/3622458/
+* https://urlhaus.abuse.ch/url/3624997/
+* https://urlhaus.abuse.ch/url/3625001/
+* https://urlhaus.abuse.ch/url/3626693/
+* https://urlhaus.abuse.ch/url/3631208/
+* https://urlhaus.abuse.ch/url/3631543/
+* https://urlhaus.abuse.ch/url/3633731/
+* https://urlhaus.abuse.ch/url/3634925/
+* https://urlhaus.abuse.ch/url/3634926/
+* https://urlhaus.abuse.ch/url/3635873/
+* https://urlhaus.abuse.ch/url/3635874/
+* https://urlhaus.abuse.ch/url/3635875/
+* https://urlhaus.abuse.ch/url/3636292/
+* https://urlhaus.abuse.ch/url/3636293/
+* https://urlhaus.abuse.ch/url/3645991/
+* https://urlhaus.abuse.ch/url/3651436/
+* https://urlhaus.abuse.ch/url/3660119/
+* https://urlhaus.abuse.ch/url/3661174/
+* https://urlhaus.abuse.ch/url/3661177/
+* https://urlhaus.abuse.ch/url/3662606/
+* https://urlhaus.abuse.ch/url/3664802/
+* https://urlhaus.abuse.ch/url/3667155/
+* https://urlhaus.abuse.ch/url/3671224/
+* https://urlhaus.abuse.ch/url/3679406/
+* https://urlhaus.abuse.ch/url/3679407/
+* https://urlhaus.abuse.ch/url/3682280/
+* https://urlhaus.abuse.ch/url/3682327/
+* https://urlhaus.abuse.ch/url/3682343/
+* https://urlhaus.abuse.ch/url/3682344/
+* https://urlhaus.abuse.ch/url/3682753/
+* https://urlhaus.abuse.ch/url/3684491/
+* https://urlhaus.abuse.ch/url/3689417/
+* https://urlhaus.abuse.ch/url/3689454/
+* https://urlhaus.abuse.ch/url/3692771/
+* https://urlhaus.abuse.ch/url/3695132/
+* https://urlhaus.abuse.ch/url/3695135/
+* https://urlhaus.abuse.ch/url/3695136/
+* https://urlhaus.abuse.ch/url/3695588/
+* https://urlhaus.abuse.ch/url/3695632/
+* https://urlhaus.abuse.ch/url/3695777/
 * https://www.esentire.com/blog/from-onlydcratfans-to-remcosrat
 * https://www.forcepoint.com/blog/x-labs/url-shortener-microsoft-word-remcos-rat-trojan
 * https://www.malware-traffic-analysis.net/2024/09/11/index.html

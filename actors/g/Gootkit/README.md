@@ -54,12 +54,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 5 | File | `/dental_form.php` | High
 6 | File | `/download` | Medium
-7 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-8 | File | `/sp/ListSp.php` | High
-9 | File | `/uncpath/` | Medium
-10 | ... | ... | ...
+7 | File | `/goform/fast_setting_pppoe_set` | High
+8 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+9 | File | `/sp/ListSp.php` | High
+10 | File | `/uncpath/` | Medium
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

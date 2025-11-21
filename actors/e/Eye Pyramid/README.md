@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +41,12 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
 19 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
 20 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
-21 | ... | ... | ... | ...
+21 | [45.141.233.243](https://vuldb.com/?ip.45.141.233.243) | - | - | High
+22 | [46.21.153.146](https://vuldb.com/?ip.46.21.153.146) | 146.153.21.46.static.swiftway.net | - | High
+23 | [54.38.94.225](https://vuldb.com/?ip.54.38.94.225) | ns3140967.ip-54-38-94.eu | - | High
+24 | ... | ... | ... | ...
 
-There are 79 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,14 +54,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,48 +68,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addcompany.php` | High
-2 | File | `/add_dealerrequest.php` | High
-3 | File | `/adm/index.php` | High
-4 | File | `/admin.php` | Medium
-5 | File | `/admin/ajax.php?action=login` | High
-6 | File | `/admin/assign_save.php` | High
-7 | File | `/admin/between-date-userreport.php` | High
-8 | File | `/admin/bwdates-reports-details.php` | High
-9 | File | `/admin/edit-subcategory.php` | High
-10 | File | `/admin/finished.php` | High
-11 | File | `/admin/getmanagerregion.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/manage-ambulance.php` | High
-15 | File | `/admin/manage-incomingvehicle.php` | High
-16 | File | `/admin/network/diag_pinginterface` | High
-17 | File | `/admin/pages/` | High
-18 | File | `/admin/reset-password.php` | High
-19 | File | `/admin/search.php` | High
-20 | File | `/admin/template` | High
-21 | File | `/admin/view-appointment.php?viewid=11` | High
-22 | File | `/admin/voters_delete.php` | High
-23 | File | `/admin/voters_edit.php` | High
-24 | File | `/admins` | Low
-25 | File | `/ajax/getBasicInfo.php` | High
-26 | File | `/api/admin/system/store/order/list` | High
-27 | File | `/bill/add_bill.php` | High
-28 | File | `/boafrm/formPortFw` | High
-29 | File | `/boafrm/formSysCmd` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/upload.cgi` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/classes/Content.php?f=service` | High
-34 | File | `/clientdetails/admin/regester.php` | High
-35 | File | `/crm/crmapi/erp/tabdetail_moduleSave.php` | High
-36 | File | `/csms/?page=contact_us` | High
-37 | File | `/data/insert_laundry.php` | High
-38 | File | `/dcwr_entry.php` | High
-39 | File | `/details.php` | Medium
-40 | ... | ... | ...
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin/pages/` | High
+3 | File | `/admin/positions.php` | High
+4 | File | `/admins` | Low
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/clientdetails/admin/regester.php` | High
+10 | File | `/csms/?page=contact_us` | High
+11 | File | `/editprofile.php` | High
+12 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

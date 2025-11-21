@@ -57,18 +57,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/bin/sh` | Low
 2 | File | `/oauth/authorize` | High
-3 | File | `/see_more_details.php` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/webmail/` | Medium
-6 | File | `/_next` | Low
-7 | File | `admin/index.php` | High
-8 | File | `anonymous/authenticated` | High
-9 | File | `assets/add/registrar.php` | High
-10 | File | `booking.php` | Medium
-11 | File | `books.php` | Medium
+3 | File | `/osm/REGISTER.cmd` | High
+4 | File | `/see_more_details.php` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/webmail/` | Medium
+7 | File | `/_next` | Low
+8 | File | `admin/index.php` | High
+9 | File | `anonymous/authenticated` | High
+10 | File | `app/Http/Controllers/Api/UsersController.php` | High
+11 | File | `assets/add/registrar.php` | High
 12 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

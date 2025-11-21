@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,7 +79,7 @@ ID | Type | Indicator | Confidence
 30 | File | `admin.joomlaradiov5.php` | High
 31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +88,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/2a222e24-d4ac-47fe-9504-c2f8a3ec642b
 * https://app.any.run/tasks/6a23e4c0-1a85-4e9f-a322-19e10dd7d346
 * https://app.any.run/tasks/6cee07ce-6197-4507-bd68-5928b8247843
+* https://app.any.run/tasks/6741cc8c-2fb4-43da-be3e-19f682f42496
 * https://bazaar.abuse.ch/sample/4acddc15352051552d4684fff6d07d18305cf7276d208adf7e2f59c5a70c909a/
 * https://bazaar.abuse.ch/sample/97175f477ed70cb8ab8e64165325586111a3946433bbae9e03b8273ac0602e3e/
 * https://bazaar.abuse.ch/sample/cfa592b0128bc126fbf3fb66c551a8d87223b196f5e0cd87e60b88bdc688c6e0/

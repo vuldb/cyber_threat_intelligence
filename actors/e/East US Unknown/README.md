@@ -118,17 +118,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/manage-ambulance.php` | High
 8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
 9 | File | `/backend/admin/his_admin_register_patient.php` | High
-10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/p1_ftpserver.php` | High
-13 | File | `/check_availability.php` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=log_employee` | High
-16 | File | `/classes/SystemSettings.php?f=update_settings` | High
-17 | File | `/common/info.cgi` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | File | `/check_availability.php` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=log_employee` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/dashboard/Cinvoice/manage_invoice` | High
+17 | File | `/dashboard/message` | High
 18 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

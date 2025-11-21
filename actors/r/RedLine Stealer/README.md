@@ -1829,3 +1829,54 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 ## License
 
 (c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+0921488674816
+* https://twitter.com/Artilllerie/status/1461358867233705985
+* https://twitter.com/Artilllerie/status/1618186600068026370
+* https://twitter.com/crep1x/status/1553840512376967171
+* https://twitter.com/crep1x/status/1588297309313699842
+* https://twitter.com/crep1x/status/1610007345785966598
+* https://twitter.com/dms1899/status/1591166931809505280
+* https://twitter.com/fr0s7_/status/1701143103975879010
+* https://twitter.com/Iamdeadlyz/status/1529754081136644096
+* https://twitter.com/Iamdeadlyz/status/1530169405048770560
+* https://twitter.com/Iamdeadlyz/status/1530392880992628738
+* https://twitter.com/Iamdeadlyz/status/1531917297556008960
+* https://twitter.com/Iamdeadlyz/status/1533077396823642113
+* https://twitter.com/Iamdeadlyz/status/1536327525143814144
+* https://twitter.com/JAMESWT_MHT/status/1607702343570624512
+* https://twitter.com/JAMESWT_MHT/status/1620338270050877441
+* https://twitter.com/K_N1kolenko/status/1658710340652154880
+* https://twitter.com/K_N1kolenko/status/1697113019740721599
+* https://twitter.com/malwrhunterteam/status/1702212339443835078
+* https://twitter.com/Unit42_Intel/status/1620090792088932352
+* https://twitter.com/_JohnHammond/status/1564246115029065728
+* https://www.humansecurity.com/learn/blog/human-satori-threat-intelligence-alert-account-takeover-attacks-use-scrubcrypt-to-deploy-redline-stealer-malware
+* https://www.virustotal.com/gui/file/0fb6cc97b9d831f57f1c090d4a17aeb4146f113ef9daf6853b0be9fb76f3b419/behavior
+* https://www.virustotal.com/gui/file/3b4325850452c160b6b685330e8749b457b99a0334d8ceb0c91b867148e89b33/detection
+* https://www.virustotal.com/gui/file/95e2eab77ca5547a0053be60cc551b4397af101d90f850a9351e9a1a64c7fae1/detection
+* https://www.virustotal.com/gui/file/1091e9727c06d27f083947e32c3fd85e0cafe28e0cde5fc22ae5820d6e4dd7cc/community
+* https://www.virustotal.com/gui/file/a99266a006631e043da5a1f6e4badcdcf04e2bf0096643951c93bf95c39ff102/behavior
+* https://x.com/K_N1kolenko/status/1831985945660330194
+* https://x.com/K_N1kolenko/status/1846153937658769739
+* https://x.com/K_N1kolenko/status/1847225392853045376
+* https://x.com/K_N1kolenko/status/1852265499003888109
+* https://x.com/K_N1kolenko/status/1880182672682852657
+* https://x.com/K_N1kolenko/status/1885296258048217545
+* https://x.com/K_N1kolenko/status/1968949283073249616
+* https://x.com/K_N1kolenko/status/1972555184162357447
+* https://x.com/K_N1kolenko/status/1975803388664439143
+* https://x.com/K_N1kolenko/status/1980203363598807311
+* https://x.com/K_N1kolenko/status/1984518841091690809
+* https://x.com/K_N1kolenko/status/1986764066270884234
+* https://x.com/s1dhy/status/1908778329303334968
+
+## Literature
+
+The following _articles_ explain our unique predictive cyber threat intelligence:
+
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
+
+## License
+
+(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

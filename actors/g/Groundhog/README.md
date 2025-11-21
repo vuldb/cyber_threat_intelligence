@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,52 +86,56 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/change-image.php` | High
 11 | File | `/admin/complaint-details.php` | High
 12 | File | `/admin/controller/delete_group_student.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index.php/web/ajax_all_lists` | High
-15 | File | `/admin/loadUsers` | High
-16 | File | `/Admin/login.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/manage-users.php` | High
-19 | File | `/admin/member_save.php` | High
-20 | File | `/admin/pages/` | High
-21 | File | `/admin/search-vehicle.php` | High
-22 | File | `/admin/student_edit_photo.php` | High
-23 | File | `/admin/suppliercontroller.php` | High
-24 | File | `/admin/user-profile.php` | High
-25 | File | `/admin/user/list` | High
-26 | File | `/admin/voters_row.php` | High
-27 | File | `/adminac.php` | Medium
-28 | File | `/admins` | Low
-29 | File | `/ajax.php?action=read_msg` | High
-30 | File | `/ajax/getBasicInfo.php` | High
-31 | File | `/api/admin/system/store/order/list` | High
-32 | File | `/api/authentication/login` | High
-33 | File | `/api/clusters/local/topics/{topic}/messages` | High
-34 | File | `/api/gen/clients/{language}` | High
-35 | File | `/API/info` | Medium
-36 | File | `/api/ServiceAgent/start_service` | High
-37 | File | `/api/v3/search/categories` | High
-38 | File | `/api/videos/public` | High
-39 | File | `/app/sys1.php` | High
-40 | File | `/application/common.php` | High
-41 | File | `/applyleave.php` | High
-42 | File | `/bi/service/model/DatasetService` | High
-43 | File | `/browse.php` | Medium
-44 | File | `/cgi-bin/cstecgi.cgi` | High
-45 | File | `/cgi-bin/myMusic.cgi` | High
-46 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-47 | File | `/cgi-bin/tosei_kikai.php` | High
-48 | File | `/cgi-bin/wlogin.cgi` | High
-49 | File | `/charms` | Low
-50 | File | `/clientdetails/admin/regester.php` | High
-51 | File | `/cms/collect/getPages` | High
-52 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-53 | File | `/cov/triggerEnvCov` | High
-54 | File | `/csms/?page=contact_us` | High
-55 | File | `/ctcprotocol/Protocol` | High
-56 | ... | ... | ...
+13 | File | `/admin/delete_user.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php/web/ajax_all_lists` | High
+16 | File | `/admin/loadUsers` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/manage-users.php` | High
+20 | File | `/admin/member_save.php` | High
+21 | File | `/admin/pages/` | High
+22 | File | `/admin/positions.php` | High
+23 | File | `/admin/search-vehicle.php` | High
+24 | File | `/admin/student_edit_photo.php` | High
+25 | File | `/admin/suppliercontroller.php` | High
+26 | File | `/admin/user-profile.php` | High
+27 | File | `/admin/user/list` | High
+28 | File | `/admin/voters_row.php` | High
+29 | File | `/adminac.php` | Medium
+30 | File | `/admins` | Low
+31 | File | `/ajax.php?action=read_msg` | High
+32 | File | `/ajax/getBasicInfo.php` | High
+33 | File | `/api/admin/system/store/order/list` | High
+34 | File | `/api/authentication/login` | High
+35 | File | `/api/clusters/local/topics/{topic}/messages` | High
+36 | File | `/api/gen/clients/{language}` | High
+37 | File | `/API/info` | Medium
+38 | File | `/api/ServiceAgent/start_service` | High
+39 | File | `/api/v3/search/categories` | High
+40 | File | `/api/videos/public` | High
+41 | File | `/app/sys1.php` | High
+42 | File | `/application/common.php` | High
+43 | File | `/applyleave.php` | High
+44 | File | `/bi/service/model/DatasetService` | High
+45 | File | `/browse.php` | Medium
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/myMusic.cgi` | High
+48 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+49 | File | `/cgi-bin/tosei_kikai.php` | High
+50 | File | `/cgi-bin/wlogin.cgi` | High
+51 | File | `/charms` | Low
+52 | File | `/clientdetails/admin/regester.php` | High
+53 | File | `/cms/collect/getArticle` | High
+54 | File | `/cms/collect/getPages` | High
+55 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+56 | File | `/cov/triggerEnvCov` | High
+57 | File | `/csms/?page=contact_us` | High
+58 | File | `/ctcprotocol/Protocol` | High
+59 | File | `/dashboard/admin/del_plan.php` | High
+60 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

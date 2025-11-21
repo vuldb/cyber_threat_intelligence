@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,47 +60,52 @@ ID | Type | Indicator | Confidence
 1 | File | `.procmailrc` | Medium
 2 | File | `/admin/` | Low
 3 | File | `/admin/add_course.php` | High
-4 | File | `/admin/category_row.php` | High
-5 | File | `/admin/changeimage2.php` | High
-6 | File | `/admin/gallery.php` | High
-7 | File | `/admin/mechanics/manage_mechanic.php` | High
-8 | File | `/admin/sign/out` | High
-9 | File | `/admin/students/manage_academic.php` | High
-10 | File | `/admin/suppliercontroller.php` | High
-11 | File | `/admin/update_s6.php` | High
-12 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
-13 | File | `/api/GylOperator/LoadData` | High
-14 | File | `/api/public/signup` | High
-15 | File | `/boafrm/formFilter` | High
-16 | File | `/boafrm/formMapDel` | High
-17 | File | `/boafrm/formNtp` | High
-18 | File | `/bsenordering/index.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/ExportALLSettings.sh` | High
-21 | File | `/cgi-bin/ExportAllSettings.sh` | High
-22 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-23 | File | `/cgi-bin/sessions/get-temp-file` | High
-24 | File | `/classes/Master.php?f=delete_img` | High
-25 | File | `/config/getuser` | High
-26 | File | `/contrib/cssgen.php` | High
-27 | File | `/core/config-revisions` | High
-28 | File | `/detail.php` | Medium
-29 | File | `/Doctor/chat.php` | High
-30 | File | `/ebics-server/ebics.aspx` | High
-31 | File | `/employeeview.php` | High
-32 | File | `/endpoint/add-computer.php` | High
-33 | File | `/etc/passwd` | Medium
-34 | File | `/file/cancel.php` | High
-35 | File | `/generateController.do?dogenerate` | High
-36 | File | `/goform/formSetMuti` | High
-37 | File | `/goform/form_portforwarding` | High
-38 | File | `/goform/telnet` | High
-39 | File | `/goform/WifiWpsStart` | High
-40 | File | `/home/kickPlayer` | High
-41 | File | `/include/chart_generator.php` | High
-42 | ... | ... | ...
+4 | File | `/admin/add_query_account.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+6 | File | `/admin/category_row.php` | High
+7 | File | `/admin/changeimage2.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/edit-ambulance.php` | High
+10 | File | `/admin/gallery.php` | High
+11 | File | `/admin/mechanics/manage_mechanic.php` | High
+12 | File | `/admin/sign/out` | High
+13 | File | `/admin/students/manage_academic.php` | High
+14 | File | `/admin/suppliercontroller.php` | High
+15 | File | `/admin/update_s6.php` | High
+16 | File | `/admin/user_save.php` | High
+17 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+18 | File | `/api/GylOperator/LoadData` | High
+19 | File | `/api/public/signup` | High
+20 | File | `/Api/TinyMce/UploadAjax.ashx` | High
+21 | File | `/boafrm/formDMZ` | High
+22 | File | `/boafrm/formFilter` | High
+23 | File | `/boafrm/formMapDel` | High
+24 | File | `/boafrm/formNtp` | High
+25 | File | `/boafrm/formStaticDHCP` | High
+26 | File | `/boafrm/formWdsEncrypt` | High
+27 | File | `/bsenordering/index.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/ExportALLSettings.sh` | High
+30 | File | `/cgi-bin/ExportAllSettings.sh` | High
+31 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+32 | File | `/cgi-bin/sessions/get-temp-file` | High
+33 | File | `/classes/Master.php?f=delete_img` | High
+34 | File | `/common/info.cgi` | High
+35 | File | `/config/getuser` | High
+36 | File | `/contrib/cssgen.php` | High
+37 | File | `/core/config-revisions` | High
+38 | File | `/detail.php` | Medium
+39 | File | `/Doctor/chat.php` | High
+40 | File | `/doctor/search.php` | High
+41 | File | `/ebics-server/ebics.aspx` | High
+42 | File | `/employeeview.php` | High
+43 | File | `/endpoint/add-computer.php` | High
+44 | File | `/etc/passwd` | Medium
+45 | File | `/file/cancel.php` | High
+46 | File | `/fund/add_fund.php` | High
+47 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

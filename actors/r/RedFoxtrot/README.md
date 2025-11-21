@@ -72,10 +72,10 @@ ID | Type | Indicator | Confidence
 21 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 22 | File | `admin/conf_users_edit.php` | High
 23 | File | `admin/plib/api-rpc/Agent.php` | High
-24 | File | `applications/core/modules/front/system/content.php` | High
+24 | File | `ApiController.class.php` | High
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

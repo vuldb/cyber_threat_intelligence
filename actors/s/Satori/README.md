@@ -53,21 +53,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/user/manage_user.php` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/plain` | Low
-7 | File | `/public/login.htm` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `/wbms/classes/Master.php?f=delete_client` | High
-11 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-12 | File | `admin_add.php` | High
+1 | File | `/admin/modules/class/index.php` | High
+2 | File | `/admin/user/manage_user.php` | High
+3 | File | `/anony/mjpg.cgi` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/plain` | Low
+8 | File | `/public/login.htm` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/uncpath/` | Medium
+11 | File | `/wbms/classes/Master.php?f=delete_client` | High
+12 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 13 | ... | ... | ...
 
-There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

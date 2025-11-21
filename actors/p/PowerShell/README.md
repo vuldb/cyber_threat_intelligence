@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,11 +23,12 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.18.46](https://vuldb.com/?ip.5.8.18.46) | vm19313.hyper.hosting | - | High
 2 | [5.8.19.43](https://vuldb.com/?ip.5.8.19.43) | vm19315.hyper.hosting | - | High
-3 | [43.153.201.105](https://vuldb.com/?ip.43.153.201.105) | - | - | High
-4 | [45.74.10.38](https://vuldb.com/?ip.45.74.10.38) | - | - | High
-5 | ... | ... | ... | ...
+3 | [5.101.85.24](https://vuldb.com/?ip.5.101.85.24) | vm19311.hyper.hosting | - | High
+4 | [43.153.201.105](https://vuldb.com/?ip.43.153.201.105) | - | - | High
+5 | [45.74.10.38](https://vuldb.com/?ip.45.74.10.38) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,16 +51,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/login-back.php` | High
-3 | File | `/function/login.php` | High
-4 | File | `/goform/AdvSetWrlsafeset` | High
-5 | File | `/HNAP1` | Low
-6 | File | `/index.php` | Medium
-7 | File | `/patient/booking.php` | High
-8 | File | `/shw_war/fileupload` | High
-9 | File | `admin.php` | Medium
-10 | ... | ... | ...
+3 | File | `/forum/away.php` | High
+4 | File | `/function/login.php` | High
+5 | File | `/goform/AdvSetWrlsafeset` | High
+6 | File | `/HNAP1` | Low
+7 | File | `/index.php` | Medium
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/out.php` | Medium
+10 | File | `/patient/booking.php` | High
+11 | File | `/shw_war/fileupload` | High
+12 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,6 +86,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3626882/
 * https://urlhaus.abuse.ch/url/3631737/
 * https://urlhaus.abuse.ch/url/3634931/
+* https://urlhaus.abuse.ch/url/3646386/
+* https://urlhaus.abuse.ch/url/3662661/
+* https://urlhaus.abuse.ch/url/3667202/
+* https://urlhaus.abuse.ch/url/3682323/
+* https://urlhaus.abuse.ch/url/3682727/
+* https://urlhaus.abuse.ch/url/3683249/
+* https://urlhaus.abuse.ch/url/3684667/
+* https://urlhaus.abuse.ch/url/3684822/
+* https://urlhaus.abuse.ch/url/3695595/
 
 ## Literature
 

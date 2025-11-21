@@ -47,14 +47,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/htmlcode/html/system_reboot.asp` | High
-4 | File | `/index/ajax/lang` | High
-5 | File | `/sauvegarde/restaure_act.php` | High
+1 | File | `/admin/conferences/list/` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/htmlcode/html/system_reboot.asp` | High
+5 | File | `/index/ajax/lang` | High
 6 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

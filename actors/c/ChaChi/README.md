@@ -85,11 +85,11 @@ ID | Type | Indicator | Confidence
 31 | File | `/services` | Medium
 32 | File | `/Setting/change_password_save` | High
 33 | File | `/smsa/add_class_submit.php` | High
-34 | File | `/stockmovment/stockmovment/delete/` | High
-35 | File | `/tmp` | Low
-36 | File | `/uncpath/` | Medium
-37 | File | `/Uploads` | Medium
-38 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/stockmovment/stockmovment/delete/` | High
+36 | File | `/tmp` | Low
+37 | File | `/uncpath/` | Medium
+38 | File | `/Uploads` | Medium
 39 | ... | ... | ...
 
 There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

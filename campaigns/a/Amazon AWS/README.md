@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -94,44 +94,45 @@ ID | Type | Indicator | Confidence
 23 | File | `/admin/login.php` | High
 24 | File | `/Admin/login.php` | High
 25 | File | `/admin/massage.php` | High
-26 | File | `/admin/modules/room/index.php` | High
-27 | File | `/admin/profile.php` | High
-28 | File | `/Admin/Proses_Edit_Akun.php` | High
-29 | File | `/admin/robot.php` | High
-30 | File | `/admin/search-invoices.php` | High
-31 | File | `/admin/tags/save` | High
-32 | File | `/admin/twitter.php` | High
-33 | File | `/admin/view-appointment.php` | High
-34 | File | `/admin/yesterday-reg-users.php` | High
-35 | File | `/admin_class.php` | High
-36 | File | `/animalsupdate.php` | High
-37 | File | `/api/cron/settings/setJob/` | High
-38 | File | `/api/settings` | High
-39 | File | `/api/wizard/getCapability` | High
-40 | File | `/app/api/v1/openvpn.py` | High
-41 | File | `/app/controller/Api.php` | High
-42 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-43 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+26 | File | `/admin/mechanics/manage_mechanic.php` | High
+27 | File | `/admin/modules/room/index.php` | High
+28 | File | `/admin/profile.php` | High
+29 | File | `/Admin/Proses_Edit_Akun.php` | High
+30 | File | `/admin/robot.php` | High
+31 | File | `/admin/search-invoices.php` | High
+32 | File | `/admin/tags/save` | High
+33 | File | `/admin/twitter.php` | High
+34 | File | `/admin/view-appointment.php` | High
+35 | File | `/admin/yesterday-reg-users.php` | High
+36 | File | `/admin_class.php` | High
+37 | File | `/animalsupdate.php` | High
+38 | File | `/api/cron/settings/setJob/` | High
+39 | File | `/api/settings` | High
+40 | File | `/api/wizard/getCapability` | High
+41 | File | `/app/api/v1/openvpn.py` | High
+42 | File | `/app/controller/Api.php` | High
+43 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 44 | File | `/applications/nexus/modules/front/store/store.php` | High
 45 | File | `/apply/index.php` | High
-46 | File | `/backend/doc/his_doc_update-account.php` | High
-47 | File | `/biurl_grou` | Medium
-48 | File | `/cgi-bin/apkg_mgr.cgi` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/myMusic.cgi` | High
-51 | File | `/cgi-bin/nas_sharing.cgi` | High
-52 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-53 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-54 | File | `/cgi-bin/wlogin.cgi` | High
+46 | File | `/auth.asp` | Medium
+47 | File | `/backend/doc/his_doc_update-account.php` | High
+48 | File | `/biurl_grou` | Medium
+49 | File | `/cgi-bin/apkg_mgr.cgi` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/myMusic.cgi` | High
+52 | File | `/cgi-bin/nas_sharing.cgi` | High
+53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+54 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 55 | File | `/classes/Master.php` | High
 56 | File | `/classes/Master.php?f=delete_record` | High
 57 | File | `/classes/Master.php?f=save_category` | High
 58 | File | `/classes/SystemSettings.php?f=update_settings` | High
 59 | File | `/classes/Users.php?f=save` | High
 60 | File | `/CommonSolution/GetVariableByOneIDNew` | High
-61 | ... | ... | ...
+61 | File | `/crm/crmapi/erp/tabdetail_moduleSave.php` | High
+62 | ... | ... | ...
 
-There are 534 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

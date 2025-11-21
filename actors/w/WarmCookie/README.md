@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [65.38.120.80](https://vuldb.com/?ip.65.38.120.80) | - | - | High
 10 | [72.5.42.224](https://vuldb.com/?ip.72.5.42.224) | - | - | High
 11 | [72.5.43.29](https://vuldb.com/?ip.72.5.43.29) | - | - | High
-12 | ... | ... | ... | ...
+12 | [78.138.9.91](https://vuldb.com/?ip.78.138.9.91) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,36 +60,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/?import` | Medium
-3 | File | `/admin/app/product.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_supplier.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/process_category_edit.php` | High
-8 | File | `/api/swaggerui/static` | High
-9 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-10 | File | `/boafrm/formMapDelDevice` | High
-11 | File | `/cgi-bin/hd_config.cgi` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/client-data/<client_id>/collections/##/usermgmt.xml` | High
-15 | File | `/common/info.cgi` | High
-16 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-17 | File | `/dataSet/testTransform;swagger-ui` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dental_form.php` | High
-20 | File | `/edit-computer-detail.php` | High
-21 | File | `/expedit.php` | Medium
-22 | File | `/export` | Low
-23 | File | `/goform/SetSpeedWan` | High
-24 | File | `/hedwig.cgi` | Medium
-25 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-26 | File | `/interceptor/OutgoingChainInterceptor.java` | High
-27 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-28 | File | `/jurusan/data` | High
-29 | File | `/manager/files` | High
-30 | ... | ... | ...
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/app/product.php` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/deleteuser.php` | High
+7 | File | `/admin/edit_supplier.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/process_category_edit.php` | High
+10 | File | `/Admin/resultdetails.php` | High
+11 | File | `/administrator/bidlist.php` | High
+12 | File | `/ajax.php?action=save_deductions` | High
+13 | File | `/api/swaggerui/static` | High
+14 | File | `/api/wizard/getDualbandSync` | High
+15 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+16 | File | `/boafrm/formMapDelDevice` | High
+17 | File | `/boafrm/formReflashClientTbl` | High
+18 | File | `/cancelar-enturmacao-em-lote/` | High
+19 | File | `/cgi-bin/hd_config.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/client-data/<client_id>/collections/##/usermgmt.xml` | High
+23 | File | `/common/info.cgi` | High
+24 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
+25 | File | `/dataSet/testTransform;swagger-ui` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dental_form.php` | High
+28 | File | `/diario-de-observacoes/` | High
+29 | File | `/edit-computer-detail.php` | High
+30 | File | `/edit_student.php` | High
+31 | File | `/expedit.php` | Medium
+32 | File | `/export` | Low
+33 | File | `/goform/RP_setBasicAuto` | High
+34 | File | `/goform/SetOnlineDevName` | High
+35 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,25 +56,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/accounts_con/register_account` | High
 2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
 3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/change-image.php` | High
-5 | File | `/admin/File/pictureUpload` | High
-6 | File | `/admin/modules/product/controller.php?action=add` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/update.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/admin_class.php` | High
-11 | File | `/api/admin/user` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/app/action/add_staff.php` | High
-14 | File | `/app/ajax/sell_return_data.php` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/classes/Master.php?f=delete_inquiry` | High
-17 | File | `/collect/PortV4/downLoad.html` | High
-18 | File | `/conf/app.conf` | High
-19 | File | `/dipam/athlete-profile.php` | High
-20 | ... | ... | ...
+4 | File | `/admin/assigned-requests.php` | High
+5 | File | `/admin/change-image.php` | High
+6 | File | `/admin/File/pictureUpload` | High
+7 | File | `/admin/modules/product/controller.php?action=add` | High
+8 | File | `/Admin/News.php` | High
+9 | File | `/admin/update.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/api/admin/user` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/app/action/add_staff.php` | High
+15 | File | `/app/ajax/sell_return_data.php` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/classes/Master.php?f=delete_inquiry` | High
+18 | File | `/collect/PortV4/downLoad.html` | High
+19 | File | `/conf/app.conf` | High
+20 | File | `/dipam/athlete-profile.php` | High
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -40,7 +40,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `of` | Low
+1 | File | `/cgi-bin/lighttpd.cgi` | High
+2 | Argument | `of` | Low
 
 ## References
 

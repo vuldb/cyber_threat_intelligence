@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -58,58 +59,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/add-students.php` | High
-3 | File | `/admin-api/mp/material/upload-permanent` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/admin-update-employee.php` | High
-7 | File | `/admin/application-bwdates-reports-details.php` | High
-8 | File | `/admin/booktime.php` | High
-9 | File | `/admin/change-image.php` | High
-10 | File | `/admin/complaint-details.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index.php/web/ajax_all_lists` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/manage-users.php` | High
-16 | File | `/admin/member_save.php` | High
-17 | File | `/admin/search-vehicle.php` | High
-18 | File | `/admin/student_edit_photo.php` | High
-19 | File | `/admin/suppliercontroller.php` | High
-20 | File | `/admin/user-profile.php` | High
-21 | File | `/admin/voters_row.php` | High
-22 | File | `/adminac.php` | Medium
-23 | File | `/ajax.php?action=read_msg` | High
-24 | File | `/api/authentication/login` | High
-25 | File | `/api/clusters/local/topics/{topic}/messages` | High
-26 | File | `/api/gen/clients/{language}` | High
-27 | File | `/API/info` | Medium
-28 | File | `/application/common.php` | High
-29 | File | `/applyleave.php` | High
-30 | File | `/browse.php` | Medium
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/myMusic.cgi` | High
-33 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-34 | File | `/cgi-bin/system_mgr.cgi` | High
-35 | File | `/cgi-bin/tosei_kikai.php` | High
-36 | File | `/charms` | Low
-37 | File | `/classes/Master.php?f=delete_appointment` | High
-38 | File | `/cms/collect/getPages` | High
-39 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-40 | File | `/cov/triggerEnvCov` | High
-41 | File | `/ctcprotocol/Protocol` | High
-42 | File | `/dashboard/admin/del_plan.php` | High
-43 | File | `/dashboard/approve-reject.php` | High
-44 | File | `/debug/pprof` | Medium
-45 | File | `/dede/file_manage_control.php` | High
-46 | File | `/detailed.php` | High
-47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-48 | File | `/dist/index.js` | High
-49 | File | `/doctor/search.php` | High
-50 | ... | ... | ...
+1 | File | `//etc/RT2870STA.dat` | High
+2 | File | `/99/ImportSQLTable` | High
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/add-students.php` | High
+5 | File | `/admin-api/mp/material/upload-permanent` | High
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/admin-update-employee.php` | High
+9 | File | `/admin/application-bwdates-reports-details.php` | High
+10 | File | `/admin/booktime.php` | High
+11 | File | `/admin/change-image.php` | High
+12 | File | `/admin/complaint-details.php` | High
+13 | File | `/admin/controller/delete_group_student.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php/web/ajax_all_lists` | High
+16 | File | `/admin/loadUsers` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/manage-users.php` | High
+20 | File | `/admin/member_save.php` | High
+21 | File | `/admin/search-vehicle.php` | High
+22 | File | `/admin/student_edit_photo.php` | High
+23 | File | `/admin/suppliercontroller.php` | High
+24 | File | `/admin/user-profile.php` | High
+25 | File | `/admin/user/list` | High
+26 | File | `/admin/voters_row.php` | High
+27 | File | `/adminac.php` | Medium
+28 | File | `/ajax.php?action=read_msg` | High
+29 | File | `/api/authentication/login` | High
+30 | File | `/api/clusters/local/topics/{topic}/messages` | High
+31 | File | `/api/gen/clients/{language}` | High
+32 | File | `/API/info` | Medium
+33 | File | `/api/ServiceAgent/start_service` | High
+34 | File | `/api/v3/search/categories` | High
+35 | File | `/api/videos/public` | High
+36 | File | `/application/common.php` | High
+37 | File | `/applyleave.php` | High
+38 | File | `/bi/service/model/DatasetService` | High
+39 | File | `/browse.php` | Medium
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/myMusic.cgi` | High
+42 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+43 | File | `/cgi-bin/system_mgr.cgi` | High
+44 | File | `/cgi-bin/tosei_kikai.php` | High
+45 | File | `/charms` | Low
+46 | File | `/cms/collect/getArticle` | High
+47 | File | `/cms/collect/getPages` | High
+48 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+49 | File | `/cov/triggerEnvCov` | High
+50 | File | `/dashboard/admin/del_plan.php` | High
+51 | File | `/dashboard/approve-reject.php` | High
+52 | File | `/debug/pprof` | Medium
+53 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

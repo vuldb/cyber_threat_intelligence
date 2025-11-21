@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,9 +47,10 @@ ID | IP address | Hostname | Actor | Confidence
 15 | [46.183.223.88](https://vuldb.com/?ip.46.183.223.88) | ip-223-88.dataclub.info | [GuLoader](https://vuldb.com/?actor.guloader) | High
 16 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | [GuLoader](https://vuldb.com/?actor.guloader) | High
 17 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | [GuLoader](https://vuldb.com/?actor.guloader) | High
-18 | ... | ... | ... | ...
+18 | [75.127.7.164](https://vuldb.com/?ip.75.127.7.164) | 75-127-7-164-host.colocrossing.com | [GuLoader](https://vuldb.com/?actor.guloader) | High
+19 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,59 +89,59 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/positions.php` | High
 15 | File | `/admin/student-history.php` | High
 16 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-17 | File | `/admin/user/manage_user.php` | High
-18 | File | `/admin/voters_add.php` | High
-19 | File | `/admin/voters_delete.php` | High
-20 | File | `/adminPage/conf/reload` | High
-21 | File | `/admins` | Low
-22 | File | `/admin_topic.php?action=delall` | High
-23 | File | `/ajax.php?action=delete_deductions` | High
-24 | File | `/ajax.php?action=save_payroll` | High
-25 | File | `/ajax/getBasicInfo.php` | High
-26 | File | `/api/admin/system/store/order/list` | High
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/cron/settings/setJob/` | High
-29 | File | `/api2/html/` | Medium
-30 | File | `/backend/admin/his_admin_register_patient.php` | High
-31 | File | `/bitrix/admin/ldap_server_edit.php` | High
-32 | File | `/boafrm/formSysTel` | High
-33 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-36 | File | `/cgi-bin/lighttpd.cgi` | High
-37 | File | `/cgi-bin/sessions/get-temp-file` | High
-38 | File | `/cgi-bin/wlogin.cgi` | High
-39 | File | `/city.php` | Medium
-40 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-41 | File | `/client.php` | Medium
-42 | File | `/clientdetails/admin/regester.php` | High
-43 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-44 | File | `/config/myfield/test.php` | High
-45 | File | `/controllers/add_user.php` | High
-46 | File | `/csms/?page=contact_us` | High
-47 | File | `/dashboard.php` | High
-48 | File | `/dashboard/admin/saveroutine.php` | High
-49 | File | `/dayrui/Fcms/View/system_log.html` | High
-50 | File | `/decoration/admin/btndates_report.php` | High
-51 | File | `/designation_viewmore.php` | High
-52 | File | `/details.php` | Medium
-53 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-54 | File | `/DXR.axd` | Medium
-55 | File | `/farm/product.php` | High
-56 | File | `/forgot-password` | High
-57 | File | `/formLoginAuth.htm` | High
-58 | File | `/forum/away.php` | High
-59 | File | `/getDay.php` | Medium
-60 | File | `/goform/ate` | Medium
-61 | File | `/goform/execCommand` | High
-62 | File | `/goform/exeCommand` | High
-63 | File | `/goform/getOneApConfTempEntry` | High
-64 | File | `/goform/setDeviceSettings` | High
-65 | File | `/goform/setMacFilterCfg` | High
-66 | File | `/goform/SetNetControlList` | High
+17 | File | `/admin/update_s3.php` | High
+18 | File | `/admin/user/manage_user.php` | High
+19 | File | `/admin/voters_add.php` | High
+20 | File | `/admin/voters_delete.php` | High
+21 | File | `/adminPage/conf/reload` | High
+22 | File | `/admins` | Low
+23 | File | `/admin_topic.php?action=delall` | High
+24 | File | `/ajax.php?action=delete_deductions` | High
+25 | File | `/ajax.php?action=save_payroll` | High
+26 | File | `/ajax.php?action=save_plan` | High
+27 | File | `/ajax/getBasicInfo.php` | High
+28 | File | `/api/admin/system/store/order/list` | High
+29 | File | `/api/baskets/{name}` | High
+30 | File | `/api/cron/settings/setJob/` | High
+31 | File | `/api2/html/` | Medium
+32 | File | `/backend/admin/his_admin_register_patient.php` | High
+33 | File | `/bitrix/admin/ldap_server_edit.php` | High
+34 | File | `/boafrm/formSysTel` | High
+35 | File | `/boafrm/formWirelessTbl` | High
+36 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+39 | File | `/cgi-bin/lighttpd.cgi` | High
+40 | File | `/cgi-bin/sessions/get-temp-file` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/city.php` | Medium
+43 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+44 | File | `/client.php` | Medium
+45 | File | `/clientdetails/admin/regester.php` | High
+46 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
+47 | File | `/config/myfield/test.php` | High
+48 | File | `/controllers/add_user.php` | High
+49 | File | `/csms/?page=contact_us` | High
+50 | File | `/dashboard.php` | High
+51 | File | `/dashboard/admin/saveroutine.php` | High
+52 | File | `/dayrui/Fcms/View/system_log.html` | High
+53 | File | `/decoration/admin/btndates_report.php` | High
+54 | File | `/designation_viewmore.php` | High
+55 | File | `/details.php` | Medium
+56 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+57 | File | `/DXR.axd` | Medium
+58 | File | `/farm/product.php` | High
+59 | File | `/forgot-password` | High
+60 | File | `/formLoginAuth.htm` | High
+61 | File | `/forum/away.php` | High
+62 | File | `/getDay.php` | Medium
+63 | File | `/goform/AdvSetMacMtuWa` | High
+64 | File | `/goform/aspForm` | High
+65 | File | `/goform/ate` | Medium
+66 | File | `/goform/execCommand` | High
 67 | ... | ... | ...
 
-There are 583 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -209,6 +210,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://urlhaus.abuse.ch/url/3587478/
 * https://urlhaus.abuse.ch/url/3593047/
 * https://urlhaus.abuse.ch/url/3593048/
+* https://urlhaus.abuse.ch/url/3635455/
+* https://urlhaus.abuse.ch/url/3646514/
 * https://www.cadosecurity.com/blog/guloader-targeting-european-industrial-companies
 * https://www.elastic.co/security-labs/getting-gooey-with-guloader-downloader
 * https://www.malware-traffic-analysis.net/2024/08/26/index.html

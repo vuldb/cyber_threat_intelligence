@@ -70,29 +70,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=reports` | High
-2 | File | `/Actions.php?a=login` | High
-3 | File | `/add-admin.php` | High
-4 | File | `/add-product.php` | High
-5 | File | `/addCatController.php` | High
-6 | File | `/admin` | Low
-7 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-8 | File | `/admin/` | Low
-9 | File | `/admin/add-normal-ticket.php` | High
-10 | File | `/admin/addgiving.php` | High
-11 | File | `/admin/add_postlogin.php` | High
-12 | File | `/admin/add_visitor.php` | High
-13 | File | `/admin/admin-profile.php` | High
-14 | File | `/admin/app/product.php` | High
-15 | File | `/admin/approve.php` | High
-16 | File | `/admin/article/add/do` | High
-17 | File | `/admin/article/article-add.php` | High
-18 | File | `/admin/booking-details.php` | High
-19 | File | `/admin/bwdates-report-result.php` | High
-20 | File | `/admin/class.php` | High
-21 | File | `/admin/content` | High
-22 | File | `/admin/controller/student_controller.php` | High
-23 | File | `/admin/deleteBooking.php` | High
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/?page=reports` | High
+3 | File | `/Actions.php?a=login` | High
+4 | File | `/add-admin.php` | High
+5 | File | `/add-product.php` | High
+6 | File | `/addtime.php` | Medium
+7 | File | `/admin` | Low
+8 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+9 | File | `/admin/` | Low
+10 | File | `/admin/add-normal-ticket.php` | High
+11 | File | `/admin/addgiving.php` | High
+12 | File | `/admin/add_postlogin.php` | High
+13 | File | `/admin/add_visitor.php` | High
+14 | File | `/admin/admin-profile.php` | High
+15 | File | `/admin/app/product.php` | High
+16 | File | `/admin/approve.php` | High
+17 | File | `/admin/article/add/do` | High
+18 | File | `/admin/article/article-add.php` | High
+19 | File | `/admin/booking-details.php` | High
+20 | File | `/admin/bwdates-report-result.php` | High
+21 | File | `/admin/class.php` | High
+22 | File | `/admin/content` | High
+23 | File | `/admin/controller/student_controller.php` | High
 24 | File | `/admin/delete_room.php` | High
 25 | File | `/admin/delete_s6.php` | High
 26 | File | `/admin/delete_student.php` | High
@@ -122,43 +122,39 @@ ID | Type | Indicator | Confidence
 50 | File | `/admin/tag/save` | High
 51 | File | `/admin/theme/Upload.html` | High
 52 | File | `/admin/view-user-queries.php` | High
-53 | File | `/admin?do=admin:user:editPost` | High
-54 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-55 | File | `/adminprofile.php` | High
-56 | File | `/agenda_preferencias.php` | High
-57 | File | `/ajax.php?action=login` | High
-58 | File | `/api.php` | Medium
-59 | File | `/api/logs/error/1` | High
-60 | File | `/api /v3/auth` | High
-61 | File | `/app/api/controller/default/Sqlite.php` | High
-62 | File | `/appliance/shiftmgn.php` | High
-63 | File | `/application/index/common.php` | High
-64 | File | `/articles/welcome-to-your-site#comments-head` | High
-65 | File | `/auth/userkey/logout.php` | High
-66 | File | `/bilal final/login.php` | High
-67 | File | `/bin/httpd` | Medium
-68 | File | `/bin/mail` | Medium
-69 | File | `/boafrm/formDMZ` | High
-70 | File | `/boafrm/formPortFw` | High
-71 | File | `/boafrm/formSysLog` | High
-72 | File | `/book_car.php` | High
-73 | File | `/bsenordering/index.php` | High
-74 | File | `/bwdates-report-result.php` | High
-75 | File | `/CDGServer3/UserAjax` | High
-76 | File | `/cgi-bin/cstecgi.cgi` | High
-77 | File | `/cgi-bin/hotspot-changepw.cgi` | High
-78 | File | `/cgi-bin/nas_sharing.cgi` | High
-79 | File | `/cgi-bin/sessions/get-temp-file` | High
-80 | File | `/cgi-bin/wireless.cgi` | High
-81 | File | `/cgi-bin/wlogin.cgi` | High
-82 | File | `/checkout/confirm/` | High
-83 | File | `/check_availability.php` | High
-84 | File | `/check_profile.php` | High
-85 | File | `/clinica/profile/updateSetting` | High
-86 | File | `/Control/Api/Api.php` | High
-87 | ... | ... | ...
+53 | File | `/agenda_preferencias.php` | High
+54 | File | `/ajax.php?action=login` | High
+55 | File | `/api.php` | Medium
+56 | File | `/api/logs/error/1` | High
+57 | File | `/api /v3/auth` | High
+58 | File | `/app/api/controller/default/Sqlite.php` | High
+59 | File | `/appliance/shiftmgn.php` | High
+60 | File | `/application/index/common.php` | High
+61 | File | `/articles/welcome-to-your-site#comments-head` | High
+62 | File | `/auth/userkey/logout.php` | High
+63 | File | `/bilal final/login.php` | High
+64 | File | `/bin/httpd` | Medium
+65 | File | `/bin/mail` | Medium
+66 | File | `/boafrm/formDMZ` | High
+67 | File | `/boafrm/formPortFw` | High
+68 | File | `/boafrm/formSysLog` | High
+69 | File | `/book_car.php` | High
+70 | File | `/bsenordering/index.php` | High
+71 | File | `/bwdates-report-result.php` | High
+72 | File | `/CDGServer3/UserAjax` | High
+73 | File | `/cgi-bin/cstecgi.cgi` | High
+74 | File | `/cgi-bin/hotspot-changepw.cgi` | High
+75 | File | `/cgi-bin/nas_sharing.cgi` | High
+76 | File | `/cgi-bin/sessions/get-temp-file` | High
+77 | File | `/cgi-bin/wireless.cgi` | High
+78 | File | `/cgi-bin/wlogin.cgi` | High
+79 | File | `/checkout/confirm/` | High
+80 | File | `/check_availability.php` | High
+81 | File | `/check_profile.php` | High
+82 | File | `/clinica/profile/updateSetting` | High
+83 | ... | ... | ...
 
-There are 769 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 731 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

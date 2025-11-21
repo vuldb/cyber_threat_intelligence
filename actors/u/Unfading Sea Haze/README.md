@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/server/ajax/user_manager.php` | High
 10 | File | `/trackedEntityInstances` | High
 11 | File | `/websocket/exec` | High
-12 | ... | ... | ...
+12 | File | `admin.php` | Medium
+13 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

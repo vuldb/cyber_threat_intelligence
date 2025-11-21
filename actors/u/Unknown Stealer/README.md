@@ -10,10 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,9 +42,15 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [18.205.246.227](https://vuldb.com/?ip.18.205.246.227) | ec2-18-205-246-227.compute-1.amazonaws.com | - | Medium
 24 | [18.206.174.64](https://vuldb.com/?ip.18.206.174.64) | ec2-18-206-174-64.compute-1.amazonaws.com | - | Medium
 25 | [18.212.69.128](https://vuldb.com/?ip.18.212.69.128) | ec2-18-212-69-128.compute-1.amazonaws.com | - | Medium
-26 | ... | ... | ... | ...
+26 | [18.214.66.76](https://vuldb.com/?ip.18.214.66.76) | ec2-18-214-66-76.compute-1.amazonaws.com | - | Medium
+27 | [18.216.49.212](https://vuldb.com/?ip.18.216.49.212) | ec2-18-216-49-212.us-east-2.compute.amazonaws.com | - | Medium
+28 | [18.216.133.250](https://vuldb.com/?ip.18.216.133.250) | ec2-18-216-133-250.us-east-2.compute.amazonaws.com | - | Medium
+29 | [18.220.84.132](https://vuldb.com/?ip.18.220.84.132) | ec2-18-220-84-132.us-east-2.compute.amazonaws.com | - | Medium
+30 | [18.220.193.242](https://vuldb.com/?ip.18.220.193.242) | ec2-18-220-193-242.us-east-2.compute.amazonaws.com | - | Medium
+31 | [18.221.33.132](https://vuldb.com/?ip.18.221.33.132) | ec2-18-221-33-132.us-east-2.compute.amazonaws.com | - | Medium
+32 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 125 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,14 +58,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-44, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,93 +73,196 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.cpr/` | Low
-2 | File | `.travis.yml` | Medium
-3 | File | `/3/E_bak5.1/upload/eginfo.php` | High
-4 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
-5 | File | `/adfs/ls` | Medium
-6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/admin_action.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/index.php/news/edit` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/new-content` | High
-12 | File | `/admin/twitter.php` | High
-13 | File | `/admin/voters_add.php` | High
-14 | File | `/admin/voters_delete.php` | High
-15 | File | `/ajax.php?action=delete_package` | High
-16 | File | `/ajax.php?action=save_package` | High
-17 | File | `/ajax/loadShopInfo.php` | High
-18 | File | `/api/admin/settings` | High
-19 | File | `/api/admin/store/product/save` | High
-20 | File | `/api/admin/system/store/order/list` | High
-21 | File | `/api/esps` | Medium
-22 | File | `/api/file/getRemoteContent` | High
-23 | File | `/api/login/auth` | High
-24 | File | `/api/snapshots/` | High
-25 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-26 | File | `/api/v1/settings` | High
-27 | File | `/api/v1/toolbox/device/update/swap` | High
-28 | File | `/api/wechat/app_auth` | High
-29 | File | `/api/wizard/getDualbandSync` | High
-30 | File | `/api/wizard/getWifiNeighbour` | High
-31 | File | `/app-api/infra/file/upload` | High
-32 | File | `/app/api/controller/Store.php` | High
-33 | File | `/app/zentao/module/repo/model.php` | High
-34 | File | `/application/controller/Pengeluaran.php` | High
-35 | File | `/apps/api/views/deploy_api.py` | High
-36 | File | `/authentication/logout.php` | High
-37 | File | `/backend/register.php` | High
-38 | File | `/bin/boa` | Medium
-39 | File | `/bin/httpd` | Medium
-40 | File | `/boafrm/formDMZ` | High
-41 | File | `/boafrm/formFilter` | High
-42 | File | `/boafrm/formMapDel` | High
-43 | File | `/boafrm/formMapDelDevice` | High
-44 | File | `/boafrm/formPortFw` | High
-45 | File | `/boafrm/formSetLg` | High
-46 | File | `/BRS_top.html` | High
-47 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-48 | File | `/bwdates-reports-details.php` | High
-49 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-50 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | ... | ... | ...
+1 | File | `/account.php` | Medium
+2 | File | `/activation.php` | High
+3 | File | `/adaddmed.php` | High
+4 | File | `/add-notes.php` | High
+5 | File | `/addCatController.php` | High
+6 | File | `/addcategory.php` | High
+7 | File | `/addcompany.php` | High
+8 | File | `/addelivery.php` | High
+9 | File | `/add_reserve.php` | High
+10 | File | `/add_user.php` | High
+11 | File | `/admin` | Low
+12 | File | `/admin#permissions` | High
+13 | File | `/admin-manage-user.php` | High
+14 | File | `/admin-page.php` | High
+15 | File | `/admin/` | Low
+16 | File | `/admin/aboutus.php` | High
+17 | File | `/admin/about_edit.php?action=modify` | High
+18 | File | `/admin/add-art-medium.php` | High
+19 | File | `/admin/add-category.php` | High
+20 | File | `/admin/add_cars.php` | High
+21 | File | `/admin/admin-area.php` | High
+22 | File | `/admin/admin_class.php` | High
+23 | File | `/admin/admin_football.php` | High
+24 | File | `/admin/admin_login.php` | High
+25 | File | `/admin/ajax.php?action=save_vacancy` | High
+26 | File | `/admin/app/web_crud.php` | High
+27 | File | `/admin/application-bwdates-reports-details.php` | High
+28 | File | `/admin/article.php?action=upload_cover` | High
+29 | File | `/admin/article/article-add.php` | High
+30 | File | `/admin/booktime.php` | High
+31 | File | `/admin/book_row.php` | High
+32 | File | `/admin/bwdates-reports-details.php` | High
+33 | File | `/admin/category.php` | High
+34 | File | `/admin/change-emailid.php` | High
+35 | File | `/admin/changeimage.php` | High
+36 | File | `/admin/chatroom.php` | High
+37 | File | `/admin/checkout_query.php` | High
+38 | File | `/admin/class.php?dowhat=modifyclass` | High
+39 | File | `/admin/clients/manage.php` | High
+40 | File | `/admin/conferences/list/` | High
+41 | File | `/admin/contactus.php` | High
+42 | File | `/admin/course.php` | High
+43 | File | `/admin/deletedoctor.php` | High
+44 | File | `/admin/delete_s2.php` | High
+45 | File | `/admin/delete_s3.php` | High
+46 | File | `/admin/departments/manage_department.php` | High
+47 | File | `/admin/doctor-specilization.php` | High
+48 | File | `/admin/edit-category.php` | High
+49 | File | `/admin/edit-customer-detailed.php` | High
+50 | File | `/admin/edit-nurse.php` | High
+51 | File | `/Admin/edit-photo.php` | High
+52 | File | `/admin/edit-services.php` | High
+53 | File | `/admin/edit-subcategory.php` | High
+54 | File | `/admin/editempeducation.php` | High
+55 | File | `/admin/edit_product.php` | High
+56 | File | `/admin/edit_room.php` | High
+57 | File | `/admin/edit_title.php?id=1` | High
+58 | File | `/admin/enrollment-details.php` | High
+59 | File | `/admin/expense_report.php` | High
+60 | File | `/Admin/facilitator.php` | High
+61 | File | `/admin/faculty_action.php` | High
+62 | File | `/admin/forgot-password.php` | High
+63 | File | `/admin/goods/update` | High
+64 | File | `/admin/index.php` | High
+65 | File | `/admin/index.php/news/edit` | High
+66 | File | `/admin/index.php?page=categories` | High
+67 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+68 | File | `/admin/link.php` | High
+69 | File | `/admin/login.php` | High
+70 | File | `/admin/manage-animals.php` | High
+71 | File | `/admin/manage-category.php` | High
+72 | File | `/admin/manage-users.php` | High
+73 | File | `/admin/manage_complaint.php` | High
+74 | File | `/admin/media.php?action=upload&sid=0` | High
+75 | File | `/admin/network/diag_traceroute` | High
+76 | File | `/admin/Operation/User.php` | High
+77 | File | `/admin/operations/currency.php` | High
+78 | File | `/admin/operations/payment.php` | High
+79 | File | `/admin/operations/travellers.php` | High
+80 | File | `/admin/positions_delete.php` | High
+81 | File | `/admin/post/list` | High
+82 | File | `/admin/profile.php` | High
+83 | File | `/admin/quote-details.php` | High
+84 | File | `/admin/receipt.php` | High
+85 | File | `/Admin/registration.php` | High
+86 | File | `/admin/registration.php` | High
+87 | File | `/admin/role/list` | High
+88 | File | `/admin/rooms.php` | High
+89 | File | `/admin/school_year.php` | High
+90 | File | `/admin/search-appointment.php` | High
+91 | File | `/admin/search-invoices.php` | High
+92 | File | `/admin/search.php` | High
+93 | File | `/admin/sign/out` | High
+94 | File | `/admin/sms_setting.php` | High
+95 | File | `/admin/sys/menu/list` | High
+96 | File | `/admin/tag/list` | High
+97 | File | `/admin/tag/save` | High
+98 | File | `/admin/twitter.php` | High
+99 | File | `/admin/updateorder.php` | High
+100 | File | `/admin/update_s1.php` | High
+101 | File | `/admin/update_s5.php` | High
+102 | File | `/admin/user/list` | High
+103 | File | `/admin/user/manage_user.php` | High
+104 | File | `/admin/users.php` | High
+105 | File | `/admin/view_all_posts.php` | High
+106 | File | `/admin/violation_add.php?id=2` | High
+107 | File | `/admin/voters_add.php` | High
+108 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+109 | File | `/adms/admin/?page=user/manage_user` | High
+110 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+111 | File | `/adposition/queryAll` | High
+112 | File | `/ajax.php?action=delete_allowances` | High
+113 | File | `/ajax.php?action=login` | High
+114 | File | `/ajax.php?action=save_establishment` | High
+115 | File | `/ajax.php?action=save_package` | High
+116 | File | `/ajax.php?action=save_position` | High
+117 | File | `/ajax/check_medicine_name.php` | High
+118 | File | `/all-orders.php` | High
+119 | File | `/alunos/search_autocomplete` | High
+120 | File | `/api/studentPWD` | High
+121 | File | `/api/sys/set_passwd` | High
+122 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+123 | File | `/api/test/download` | High
+124 | File | `/api/upload` | Medium
+125 | File | `/api/wizard/getNetworkStatus` | High
+126 | File | `/app/api/controller/Site.php` | High
+127 | File | `/app/xml_cdr/xml_cdr_details.php` | High
+128 | File | `/Applications/Steal/main.cpp` | High
+129 | File | `/apply/index.php` | High
+130 | File | `/apps/api/views/deploy_api.py` | High
+131 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/3e81c05a-d1d6-47c5-97c1-83274a78e3c7
+* https://app.any.run/tasks/5aba86b0-88e7-49eb-9efa-edbd30e60a0b
 * https://app.any.run/tasks/50732d94-a486-44fa-9996-c8343dbccd04
+* https://app.any.run/tasks/a2c5f4e9-8ad4-4265-97f6-e64ae60376c7
 * https://app.any.run/tasks/cd78e094-adc0-4cd8-934a-5dd079790c64
 * https://app.any.run/tasks/dbd60c96-5b0f-47ef-8d54-90a62deb029c
+* https://app.any.run/tasks/e4de074f-e50f-4269-aa45-8df7557e648b
+* https://app.any.run/tasks/e83a64a8-3edf-426a-b2cf-13999ccbf806
 * https://bazaar.abuse.ch/sample/0e2aee7b6cf50249520f0f824ea52f7770e2d2a791f0e6d94c514b11ed482fa4/
+* https://bazaar.abuse.ch/sample/44d8a2d4450ffbbec0c4dfba3a0bafa48ad9e2d43bf04c2ffea554ba884c6d4b/
 * https://bazaar.abuse.ch/sample/63c6397f3431639ee54b68cf2837024862d699ccdc41cddf64058be91ae0b87e/
 * https://bazaar.abuse.ch/sample/ae1a3efd351d9b6efb9f8702006380df50d2ade99a1a661b2511479080b929dd/
 * https://infosec.exchange/@netresec/114346492069411473
 * https://search.censys.io/hosts/54.39.167.143
 * https://search.censys.io/hosts/57.129.71.202
 * https://search.censys.io/hosts/91.84.109.91
+* https://search.censys.io/hosts/185.196.11.174
 * https://threatfox.abuse.ch
 * https://tria.ge/250618-y3st4ael6s
+* https://tria.ge/250825-mlzqjavqy5/
+* https://tria.ge/250829-nacmas1zfs/behavioral1
+* https://tria.ge/250903-y7dkzacq2s/behavioral2
+* https://tria.ge/250909-rd67vsbq3v/behavioral1
+* https://tria.ge/250919-nma91azths/behavioral4
 * https://urlquery.net/report/061bc126-0702-4a0b-a60b-67f51922a1ed
+* https://urlquery.net/report/9ce3a9b8-6532-47b8-b87e-36ff43aa2fc3
+* https://urlquery.net/report/38f0c3bb-0da1-4561-a6e0-87430b0d9cfe
+* https://urlquery.net/report/51dcb833-cd7b-459b-8f38-c169f7ec5e29
+* https://urlquery.net/report/cf9ae85e-324d-4265-afff-f89be5846565
 * https://urlquery.net/report/ed239e54-dfe0-4018-a13d-5b96cdee587b
 * https://urlquery.net/report/f710e9bd-a66b-47f6-952d-98fd611c1cf0
 * https://urlscan.io/result/0197ac5d-bfce-75f8-afcc-0e1b437eb97f
+* https://urlscan.io/result/0198e192-c516-749d-ab8f-06db1f851544
 * https://urlscan.io/result/01984ccb-e180-75ca-9ac5-48769ae32ce6
+* https://urlscan.io/result/0199ccce-e437-7158-99a2-e62088a4e29c
+* https://urlscan.io/result/019913b0-8825-76d8-9fc2-429e08ee1233
 * https://www.joesandbox.com/analysis/1707614/0/html
 * https://www.nextron-systems.com/2025/05/23/katz-stealer-threat-analysis/
+* https://www.shodan.io/host/45.190.13.2#5000
+* https://www.shodan.io/host/82.22.184.251#80
 * https://www.shodan.io/host/87.120.93.214#443
+* https://www.shodan.io/host/94.26.90.176#443
 * https://www.shodan.io/host/138.124.60.33#80
 * https://www.shodan.io/host/207.246.115.233#80
 * https://www.shodan.io/host/217.119.129.92#80
+* https://www.virustotal.com/gui/domain/karabuk.kedi.zip/details
 * https://x.com/500mk500/status/1935957346594738278
 * https://x.com/naumovax/status/1882452848740651079
 * https://x.com/ShanHolo/status/1935593986535940322
 * https://x.com/solostalking/status/1886845682830729321
 * https://x.com/solostalking/status/1912461060629561676
+* https://x.com/solostalking/status/1953741512136688056
 
 ## Literature
 

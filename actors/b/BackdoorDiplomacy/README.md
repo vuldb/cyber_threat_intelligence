@@ -96,15 +96,15 @@ ID | Type | Indicator | Confidence
 37 | File | `/application/common.php` | High
 38 | File | `/applyleave.php` | High
 39 | File | `/bi/service/model/DatasetService` | High
-40 | File | `/bin/httpd` | Medium
-41 | File | `/browse.php` | Medium
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/myMusic.cgi` | High
-44 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-45 | File | `/cgi-bin/tosei_kikai.php` | High
-46 | File | `/cgi-bin/wapopen` | High
-47 | File | `/charms` | Low
-48 | File | `/classes/Master.php?f=delete_appointment` | High
+40 | File | `/browse.php` | Medium
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/myMusic.cgi` | High
+43 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+44 | File | `/cgi-bin/tosei_kikai.php` | High
+45 | File | `/cgi-bin/wapopen` | High
+46 | File | `/charms` | Low
+47 | File | `/classes/Master.php?f=delete_appointment` | High
+48 | File | `/cms/collect/getArticle` | High
 49 | File | `/cms/collect/getPages` | High
 50 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
 51 | File | `/cov/triggerEnvCov` | High
@@ -115,9 +115,10 @@ ID | Type | Indicator | Confidence
 56 | File | `/dede/file_manage_control.php` | High
 57 | File | `/detailed.php` | High
 58 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-59 | ... | ... | ...
+59 | File | `/dist/index.js` | High
+60 | ... | ... | ...
 
-There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

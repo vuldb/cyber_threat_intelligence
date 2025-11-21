@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,22 +49,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_product.php` | High
-2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `/dicionario-de-termos-bncc` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/planos-de-ensino-por-areas-de-conhecimento/` | High
-6 | File | `/portal/user-register.php` | High
-7 | File | `adclick.php` | Medium
-8 | File | `add.php/del.php` | High
-9 | File | `addentry.php` | Medium
-10 | File | `admin/conf_users_edit.php` | High
-11 | File | `admin/page-login.php` | High
-12 | File | `AndroidManifest.xml` | High
-13 | File | `app/modules/ut-cac/admin/cli.php` | High
-14 | ... | ... | ...
+1 | File | `/Adm/OperatorStop` | High
+2 | File | `/admin/edit_product.php` | High
+3 | File | `/admin/user/updatePwd` | High
+4 | File | `/api.php` | Medium
+5 | File | `/api/system/sendWebSocketMsg` | High
+6 | File | `/application/controllers/Marks.php` | High
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/data` | Low
+10 | File | `/dicionario-de-termos-bncc` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/mcr_setSysAdm` | High
+13 | File | `/htdocs/api/playlist/playsinglefile.php` | High
+14 | File | `/htdocs/api/playlist/single.php` | High
+15 | File | `/htdocs/cardRegisterNew.php` | High
+16 | File | `/htdocs/manageFilesFolders.php` | High
+17 | File | `/htdocs/userScripts.php` | High
+18 | File | `/intranet/educar_turma_tipo_cad.php` | High
+19 | File | `/live_online.shtml` | High
+20 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -66,16 +66,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/add_new_invoice.php` | High
 4 | File | `/add_user.php` | High
 5 | File | `/admin/?page=user/list` | High
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/action/edit_chicken.php` | High
-8 | File | `/admin/action/new-father.php` | High
-9 | File | `/admin/action/update-deworm.php` | High
-10 | File | `/admin/add-category.php` | High
-11 | File | `/admin/add-table.php` | High
-12 | File | `/admin/admin_running.php` | High
-13 | File | `/Admin/akun_edit.php` | High
-14 | File | `/admin/apply.php` | High
-15 | File | `/admin/article/article-edit-run.php` | High
+6 | File | `/admin/aboutus.php` | High
+7 | File | `/admin/action/delete-vaccine.php` | High
+8 | File | `/admin/action/edit_chicken.php` | High
+9 | File | `/admin/action/new-father.php` | High
+10 | File | `/admin/action/update-deworm.php` | High
+11 | File | `/admin/add-category.php` | High
+12 | File | `/admin/add-table.php` | High
+13 | File | `/admin/admin_running.php` | High
+14 | File | `/Admin/akun_edit.php` | High
+15 | File | `/admin/apply.php` | High
 16 | File | `/admin/changeimage.php` | High
 17 | File | `/admin/content/editor` | High
 18 | File | `/admin/create-package.php` | High
@@ -120,13 +120,13 @@ ID | Type | Indicator | Confidence
 57 | File | `/bitrix/admin/ldap_server_edit.php` | High
 58 | File | `/biurl_grou` | Medium
 59 | File | `/boafrm/formMapDelDevice` | High
-60 | File | `/cgi-bin/apkg_mgr.cgi` | High
-61 | File | `/cgi-bin/cstecgi.cgi` | High
-62 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-63 | File | `/cgi-bin/nas_sharing.cgi` | High
+60 | File | `/browse.php` | Medium
+61 | File | `/cgi-bin/apkg_mgr.cgi` | High
+62 | File | `/cgi-bin/cstecgi.cgi` | High
+63 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 64 | ... | ... | ...
 
-There are 556 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,29 +67,29 @@ ID | Type | Indicator | Confidence
 9 | File | `/apiadmin/upload/attach` | High
 10 | File | `/artist-display.php` | High
 11 | File | `/backend/admin/his_admin_register_patient.php` | High
-12 | File | `/boafrm/formParentControl` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/cgi-bin/p1_ftpserver.php` | High
-15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-16 | File | `/cgi-bin/tosei_kikai.php` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/profile.class.php` | High
-19 | File | `/classes/SystemSettings.php?f=update_settings` | High
-20 | File | `/conf/app.conf` | High
-21 | File | `/control/register_case.php` | High
-22 | File | `/edit/server` | Medium
-23 | File | `/foms/routers/place-order.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/formSetPassword` | High
-26 | File | `/h/autoSaveDraft` | High
-27 | File | `/hoteldruid/clienti.php` | High
-28 | File | `/include/menu_v.inc.php` | High
-29 | File | `/include/Model/Upload.php` | High
-30 | File | `/include/stat/stat.php` | High
-31 | File | `/include/up.php` | High
+12 | File | `/billing/test_accesscodelogin.php` | High
+13 | File | `/boafrm/formParentControl` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/p1_ftpserver.php` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/cgi-bin/tosei_kikai.php` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/profile.class.php` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/conf/app.conf` | High
+22 | File | `/control/register_case.php` | High
+23 | File | `/edit/server` | Medium
+24 | File | `/foms/routers/place-order.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/formSetPassword` | High
+27 | File | `/h/autoSaveDraft` | High
+28 | File | `/hoteldruid/clienti.php` | High
+29 | File | `/include/menu_v.inc.php` | High
+30 | File | `/include/Model/Upload.php` | High
+31 | File | `/include/stat/stat.php` | High
 32 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

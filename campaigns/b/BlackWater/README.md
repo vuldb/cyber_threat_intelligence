@@ -97,12 +97,13 @@ ID | Type | Indicator | Confidence
 37 | File | `/application/index/controller/Databasesource.php` | High
 38 | File | `/application/index/controller/Screen.php` | High
 39 | File | `/bin/boa` | Medium
-40 | File | `/boafrm/formSysCmd` | High
-41 | File | `/booking/show_bookings/` | High
-42 | File | `/cancel.php` | Medium
-43 | ... | ... | ...
+40 | File | `/binutils/debug.c` | High
+41 | File | `/boafrm/formSysCmd` | High
+42 | File | `/booking/show_bookings/` | High
+43 | File | `/cancel.php` | Medium
+44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

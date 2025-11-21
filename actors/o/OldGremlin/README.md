@@ -60,7 +60,8 @@ ID | Type | Indicator | Confidence
 10 | File | `/system/user/modules/mod_users/controller.php` | High
 11 | File | `/uncpath/` | Medium
 12 | File | `/view/vpn/autovpn/sub_commit.php` | High
-13 | ... | ... | ...
+13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+14 | ... | ... | ...
 
 There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

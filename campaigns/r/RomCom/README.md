@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -85,11 +85,12 @@ ID | Type | Indicator | Confidence
 20 | File | `/conf/app.conf` | High
 21 | File | `/dipam/athlete-profile.php` | High
 22 | File | `/forum/away.php` | High
-23 | File | `/goform/SetVirtualServerCfg` | High
-24 | File | `/hrm/controller/employee.php` | High
-25 | ... | ... | ...
+23 | File | `/goform/DHCPReserveAddGroup` | High
+24 | File | `/goform/setPWDbyBBS` | High
+25 | File | `/goform/SetVirtualServerCfg` | High
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

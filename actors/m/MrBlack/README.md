@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,48 +57,49 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/edit.php` | High
 6 | File | `/admin/powerline` | High
 7 | File | `/admin/subnets/ripe-query.php` | High
-8 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-9 | File | `/cgi-bin/portal` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/classes/Master.php?f=delete_message` | High
-12 | File | `/controller/pay.class.php` | High
-13 | File | `/controllers/add_client.php` | High
-14 | File | `/forgetpassword.php` | High
-15 | File | `/goform/Diagnosis` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/index.php` | Medium
-18 | File | `/insurance/clientStatus.php` | High
-19 | File | `/jart/prj3/solve_direct/main.jart` | High
-20 | File | `/linkedcontent/listfiles.php` | High
-21 | File | `/module/admin_notifiers/rules.php` | High
-22 | File | `/rapi/read_url` | High
-23 | File | `/service-list` | High
-24 | File | `/supervisor/procesa_carga.php` | High
-25 | File | `/test/cookie/` | High
-26 | File | `/timeline2.php` | High
-27 | File | `/tmp/foo2zjs` | Medium
-28 | File | `/tmp/kamailio_fifo` | High
-29 | File | `/usr/bin/tddp` | High
-30 | File | `add.php` | Low
-31 | File | `addtocart.asp` | High
-32 | File | `add_edit_event.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin/graph_trend.php` | High
-35 | File | `admin/manage-comments.php` | High
-36 | File | `admin/moduleinterface.php` | High
-37 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-38 | File | `admin\db\DoSql.php` | High
-39 | File | `admin_class.php` | High
-40 | File | `aide.php3` | Medium
-41 | File | `ajax/ph_save.php` | High
-42 | File | `all-offers/` | Medium
-43 | File | `ansible.cfg` | Medium
-44 | File | `Ap4EsDescriptor.cpp` | High
-45 | File | `app/plug/controller/giftcontroller.php` | High
-46 | File | `arch/arm/kernel/process.c` | High
-47 | ... | ... | ...
+8 | File | `/astre/iodasweb/app.jsp` | High
+9 | File | `/auth.asp` | Medium
+10 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+11 | File | `/cgi-bin/portal` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/classes/Master.php?f=delete_message` | High
+14 | File | `/controller/pay.class.php` | High
+15 | File | `/controllers/add_client.php` | High
+16 | File | `/directRouter.rfc` | High
+17 | File | `/discuss/uploadMdPic` | High
+18 | File | `/forgetpassword.php` | High
+19 | File | `/goform/Diagnosis` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/index.php` | Medium
+22 | File | `/insurance/clientStatus.php` | High
+23 | File | `/jart/prj3/solve_direct/main.jart` | High
+24 | File | `/linkedcontent/listfiles.php` | High
+25 | File | `/module/admin_notifiers/rules.php` | High
+26 | File | `/rapi/read_url` | High
+27 | File | `/service-list` | High
+28 | File | `/supervisor/procesa_carga.php` | High
+29 | File | `/system/cms/content/page` | High
+30 | File | `/test/cookie/` | High
+31 | File | `/timeline2.php` | High
+32 | File | `/tmp/foo2zjs` | Medium
+33 | File | `/tmp/kamailio_fifo` | High
+34 | File | `/usr/bin/tddp` | High
+35 | File | `add.php` | Low
+36 | File | `AddNewProduct.php` | High
+37 | File | `addtocart.asp` | High
+38 | File | `add_edit_event.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/graph_trend.php` | High
+41 | File | `admin/manage-comments.php` | High
+42 | File | `admin/moduleinterface.php` | High
+43 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+44 | File | `admin\db\DoSql.php` | High
+45 | File | `admin_class.php` | High
+46 | File | `aide.php3` | Medium
+47 | File | `ajax/ph_save.php` | High
+48 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

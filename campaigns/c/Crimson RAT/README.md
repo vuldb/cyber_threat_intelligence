@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -41,25 +41,26 @@ ID | IP address | Hostname | Actor | Confidence
 9 | [45.9.191.183](https://vuldb.com/?ip.45.9.191.183) | srv515612.hstgr.cloud | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 10 | [45.14.194.253](https://vuldb.com/?ip.45.14.194.253) | vmi1497978.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 11 | [45.15.143.151](https://vuldb.com/?ip.45.15.143.151) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-12 | [45.61.151.96](https://vuldb.com/?ip.45.61.151.96) | 96.151.61.45.static.cloudzy.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-13 | [45.61.158.240](https://vuldb.com/?ip.45.61.158.240) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-14 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
-15 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-16 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-17 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-18 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-19 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-20 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
-21 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
-22 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-23 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-24 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
-25 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
-26 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-27 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-28 | ... | ... | ... | ...
+12 | [45.61.151.33](https://vuldb.com/?ip.45.61.151.33) | 33.151.61.45.static.cloudzy.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+13 | [45.61.151.96](https://vuldb.com/?ip.45.61.151.96) | 96.151.61.45.static.cloudzy.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+14 | [45.61.157.210](https://vuldb.com/?ip.45.61.157.210) | 210.157.61.45.static.cloudzy.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+15 | [45.61.158.240](https://vuldb.com/?ip.45.61.158.240) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+16 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
+17 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+18 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+19 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+20 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+21 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+22 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
+23 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
+24 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+25 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+26 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
+27 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
+28 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+29 | ... | ... | ... | ...
 
-There are 107 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,11 +88,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/admins` | Low
 5 | File | `/ajax/getBasicInfo.php` | High
 6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | ... | ... | ...
+7 | File | `/authentication.cgi` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,12 +108,17 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/sophoslabs/IoCs/blob/master/crimson_palace_stac1870_bravo.csv
 * https://search.censys.io/hosts/5.189.140.142
 * https://search.censys.io/hosts/37.60.236.186
+* https://search.censys.io/hosts/45.61.151.33
 * https://search.censys.io/hosts/45.61.151.96
+* https://search.censys.io/hosts/45.61.157.210
 * https://search.censys.io/hosts/45.61.158.240
+* https://search.censys.io/hosts/69.169.97.118
 * https://search.censys.io/hosts/81.17.102.55
+* https://search.censys.io/hosts/83.147.19.208
 * https://search.censys.io/hosts/91.107.209.50
 * https://search.censys.io/hosts/94.177.123.112
 * https://search.censys.io/hosts/107.175.113.198
+* https://search.censys.io/hosts/107.189.19.88
 * https://search.censys.io/hosts/107.189.26.70
 * https://search.censys.io/hosts/109.199.108.1
 * https://search.censys.io/hosts/138.201.245.101

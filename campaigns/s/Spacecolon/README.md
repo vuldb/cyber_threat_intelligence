@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -55,13 +55,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/index/ajax/lang` | High
-3 | File | `add-category.php` | High
-4 | File | `admin/dashboard.php` | High
+1 | File | `/admin/conferences/list/` | High
+2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+3 | File | `/index/ajax/lang` | High
+4 | File | `add-category.php` | High
 5 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

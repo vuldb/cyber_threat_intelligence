@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,42 +50,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin` | Low
-2 | File | `/admin.php/news/admin/lists/zhuan` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/bookings/view_details.php` | High
-5 | File | `/admin/doctor-specilization.php` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/Admin/EditCategory` | High
-8 | File | `/admin/home.php?con=add` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/normal-bwdates-reports-details.php` | High
-12 | File | `/admin/profile/save_profile` | High
-13 | File | `/admin/reports.php` | High
-14 | File | `/admin/update_room.php` | High
-15 | File | `/api/v1/chat.getThreadsList` | High
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/bin/sh` | Low
-18 | File | `/cgi-bin/luci/api/diagnose` | High
-19 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-20 | File | `/cgi-bin/tosei_kikai.php` | High
-21 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-22 | File | `/coders/palm.c` | High
-23 | File | `/collection/all` | High
-24 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-25 | File | `/dcim/rack/` | Medium
-26 | File | `/EditEventTypes.php` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/endpoint/delete-expense.php` | High
-29 | File | `/etc/groups` | Medium
-30 | File | `/file/upload/1` | High
-31 | File | `/formSetPortTr` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/general/system/interface/theme_set/save_image.php` | High
-34 | File | `/goform/exeCommand` | High
-35 | ... | ... | ...
+2 | File | `/admin#themes` | High
+3 | File | `/admin.php/news/admin/lists/zhuan` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/bookings/view_details.php` | High
+6 | File | `/admin/doctor-specilization.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/Admin/EditCategory` | High
+9 | File | `/admin/home.php?con=add` | High
+10 | File | `/admin/inquiries/view_inquiry.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/normal-bwdates-reports-details.php` | High
+13 | File | `/admin/product.php` | High
+14 | File | `/admin/profile/save_profile` | High
+15 | File | `/admin/reports.php` | High
+16 | File | `/admin/update_room.php` | High
+17 | File | `/admin/usersettingdel.php` | High
+18 | File | `/api/v1/chat.getThreadsList` | High
+19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+20 | File | `/bin/sh` | Low
+21 | File | `/cgi-bin/luci/api/diagnose` | High
+22 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+23 | File | `/cgi-bin/tosei_kikai.php` | High
+24 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+25 | File | `/coders/palm.c` | High
+26 | File | `/collection/all` | High
+27 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+28 | File | `/dcim/rack/` | Medium
+29 | File | `/EditEventTypes.php` | High
+30 | File | `/endpoint/add-user.php` | High
+31 | File | `/endpoint/delete-expense.php` | High
+32 | File | `/etc/groups` | Medium
+33 | File | `/file/upload/1` | High
+34 | File | `/formSetPortTr` | High
+35 | File | `/forum/away.php` | High
+36 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

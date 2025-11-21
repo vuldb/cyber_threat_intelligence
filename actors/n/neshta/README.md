@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with neshta:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [BR](https://vuldb.com/?country.br)
 
 ## IOC - Indicator of Compromise
@@ -17,8 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [201.16.194.227](https://vuldb.com/?ip.201.16.194.227) | 201-016-194-227.static.ctbctelecom.com.br | - | High
-2 | [213.238.177.108](https://vuldb.com/?ip.213.238.177.108) | - | - | High
+1 | [59.47.231.53](https://vuldb.com/?ip.59.47.231.53) | 53.231.47.59.broad.bx.ln.dynamic.163data.com.cn | - | High
+2 | [95.216.26.239](https://vuldb.com/?ip.95.216.26.239) | static.239.26.216.95.clients.your-server.de | - | High
+3 | [98.142.252.141](https://vuldb.com/?ip.98.142.252.141) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,10 +46,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/emp-profile-avatar.php` | High
 2 | File | `/core/redirect` | High
-3 | File | `/spip.php` | Medium
+3 | File | `/goform/DhcpSetSer` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -52,6 +57,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3565288/
+* https://urlhaus.abuse.ch/url/3609168/
+* https://urlhaus.abuse.ch/url/3609353/
+* https://urlhaus.abuse.ch/url/3660094/
 
 ## Literature
 

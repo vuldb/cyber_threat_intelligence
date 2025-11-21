@@ -150,7 +150,7 @@ ID | Type | Indicator | Confidence
 79 | File | `/endpoint/add-guest.php` | High
 80 | ... | ... | ...
 
-There are 705 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 707 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

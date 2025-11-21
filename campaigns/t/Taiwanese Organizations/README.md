@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
@@ -83,50 +83,52 @@ ID | Type | Indicator | Confidence
 23 | File | `/analysisProject/pagingQueryData` | High
 24 | File | `/animalsupdate.php` | High
 25 | File | `/Ant_Suxin.php` | High
-26 | File | `/api/Common/uploadFile` | High
-27 | File | `/api/stl/actions/search` | High
-28 | File | `/api/system/other` | High
-29 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-30 | File | `/api/upload.php` | High
-31 | File | `/api/v1/admin/` | High
-32 | File | `/api/v1/getbaseconfig` | High
-33 | File | `/api/v1/settings` | High
-34 | File | `/api/wizard/getCapability` | High
-35 | File | `/api/wizard/getCapabilityWeb` | High
-36 | File | `/api/wizard/getLanguage` | High
-37 | File | `/api/wizard/getSpecs` | High
-38 | File | `/api/wizard/getsyncpppoecfg` | High
-39 | File | `/api/wizard/setLanguage` | High
-40 | File | `/api/wizard/setsyncpppoecfg` | High
-41 | File | `/app/admin/controller/api/Plugs.php` | High
-42 | File | `/app/controller/Api.php` | High
-43 | File | `/application/models/ApplicationDataObject.class.php` | High
-44 | File | `/auth.asp` | Medium
-45 | File | `/bin/gpio` | Medium
-46 | File | `/bin/httpd` | Medium
-47 | File | `/boa/formWSC` | Medium
-48 | File | `/boafrm/formDMZ` | High
-49 | File | `/boafrm/formDosCfg` | High
-50 | File | `/boafrm/formFilter` | High
-51 | File | `/boafrm/formIpQoS` | High
-52 | File | `/boafrm/formMapDel` | High
-53 | File | `/boafrm/formMapDelDevice` | High
-54 | File | `/boafrm/formMultiAP` | High
-55 | File | `/boafrm/formNtp` | High
-56 | File | `/boafrm/formPortFw` | High
-57 | File | `/boafrm/formReflashClientTbl` | High
-58 | File | `/boafrm/formSaveConfig` | High
-59 | File | `/boafrm/formSetLg` | High
-60 | File | `/boafrm/formSiteSurveyProfile` | High
-61 | File | `/boafrm/formStaticDHCP` | High
-62 | File | `/boafrm/formStats` | High
-63 | File | `/boafrm/formSysCmd` | High
-64 | File | `/boafrm/formSysLog` | High
-65 | File | `/boafrm/formVlan` | High
-66 | File | `/boafrm/formWdsEncrypt` | High
-67 | ... | ... | ...
+26 | File | `/api/authentication/login` | High
+27 | File | `/api/Common/uploadFile` | High
+28 | File | `/api/stl/actions/search` | High
+29 | File | `/api/system/other` | High
+30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+31 | File | `/api/upload.php` | High
+32 | File | `/api/v1/admin/` | High
+33 | File | `/api/v1/getbaseconfig` | High
+34 | File | `/api/v1/settings` | High
+35 | File | `/api/wizard/getCapability` | High
+36 | File | `/api/wizard/getCapabilityWeb` | High
+37 | File | `/api/wizard/getLanguage` | High
+38 | File | `/api/wizard/getSpecs` | High
+39 | File | `/api/wizard/getsyncpppoecfg` | High
+40 | File | `/api/wizard/setLanguage` | High
+41 | File | `/api/wizard/setsyncpppoecfg` | High
+42 | File | `/app/admin/controller/api/Plugs.php` | High
+43 | File | `/app/controller/Api.php` | High
+44 | File | `/application/models/ApplicationDataObject.class.php` | High
+45 | File | `/auth.asp` | Medium
+46 | File | `/bin/gpio` | Medium
+47 | File | `/bin/httpd` | Medium
+48 | File | `/boa/formWSC` | Medium
+49 | File | `/boafrm/formDMZ` | High
+50 | File | `/boafrm/formDosCfg` | High
+51 | File | `/boafrm/formFilter` | High
+52 | File | `/boafrm/formIpQoS` | High
+53 | File | `/boafrm/formMapDel` | High
+54 | File | `/boafrm/formMapDelDevice` | High
+55 | File | `/boafrm/formMultiAP` | High
+56 | File | `/boafrm/formNtp` | High
+57 | File | `/boafrm/formPortFw` | High
+58 | File | `/boafrm/formReflashClientTbl` | High
+59 | File | `/boafrm/formSaveConfig` | High
+60 | File | `/boafrm/formSetLg` | High
+61 | File | `/boafrm/formSiteSurveyProfile` | High
+62 | File | `/boafrm/formStaticDHCP` | High
+63 | File | `/boafrm/formStats` | High
+64 | File | `/boafrm/formSysCmd` | High
+65 | File | `/boafrm/formSysLog` | High
+66 | File | `/boafrm/formVlan` | High
+67 | File | `/boafrm/formWdsEncrypt` | High
+68 | File | `/boafrm/formWirelessTbl` | High
+69 | ... | ... | ...
 
-There are 590 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 605 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

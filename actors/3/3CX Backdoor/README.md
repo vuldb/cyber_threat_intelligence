@@ -56,12 +56,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/WWW//app/admin/controller/admincontroller.php` | High
 5 | File | `adclick.php` | Medium
 6 | File | `add_comment.php` | High
-7 | File | `cloud.php` | Medium
-8 | File | `comment_add.asp` | High
-9 | File | `data/gbconfiguration.dat` | High
-10 | ... | ... | ...
+7 | File | `classes/class.database.php` | High
+8 | File | `cloud.php` | Medium
+9 | File | `comment_add.asp` | High
+10 | File | `data/gbconfiguration.dat` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

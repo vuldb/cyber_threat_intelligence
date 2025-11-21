@@ -33,7 +33,8 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [1.94.52.128](https://vuldb.com/?ip.1.94.52.128) | ecs-1-94-52-128.compute.hwclouds-dns.com | [Metasploit](https://vuldb.com/?actor.metasploit) | High
 2 | [4.233.216.36](https://vuldb.com/?ip.4.233.216.36) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
 3 | [31.57.35.90](https://vuldb.com/?ip.31.57.35.90) | - | [Metasploit](https://vuldb.com/?actor.metasploit) | High
-4 | ... | ... | ... | ...
+4 | [34.124.148.215](https://vuldb.com/?ip.34.124.148.215) | 215.148.124.34.bc.googleusercontent.com | [Metasploit](https://vuldb.com/?actor.metasploit) | Medium
+5 | ... | ... | ... | ...
 
 There are 14 more IOC items available. Please use our online service to access the data.
 
@@ -87,6 +88,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://urlhaus.abuse.ch/url/3609344/
 * https://urlhaus.abuse.ch/url/3610001/
 * https://urlhaus.abuse.ch/url/3611202/
+* https://urlhaus.abuse.ch/url/3665958/
 
 ## Literature
 

@@ -53,14 +53,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/config/getuser` | High
-2 | File | `/inc/jquery/uploadify/uploadify.php` | High
-3 | File | `/multi-vendor-shopping-script/product-list.php` | High
-4 | File | `/spip.php` | Medium
-5 | File | `awstats.pl` | Medium
+1 | File | `/admin/operations/travellers.php` | High
+2 | File | `/config/getuser` | High
+3 | File | `/inc/jquery/uploadify/uploadify.php` | High
+4 | File | `/multi-vendor-shopping-script/product-list.php` | High
+5 | File | `/spip.php` | Medium
 6 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

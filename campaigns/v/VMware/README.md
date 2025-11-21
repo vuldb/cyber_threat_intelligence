@@ -160,7 +160,7 @@ ID | Type | Indicator | Confidence
 100 | File | `/dashboard/add-portfolio.php` | High
 101 | ... | ... | ...
 
-There are 898 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 896 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

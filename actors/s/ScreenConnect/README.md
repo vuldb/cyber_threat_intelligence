@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,37 +84,37 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/product.php` | High
 31 | File | `/admin/products/index.php` | High
 32 | File | `/admin/registration.php` | High
-33 | File | `/admin/template` | High
-34 | File | `/admin/twitter.php` | High
-35 | File | `/admin/update_room.php` | High
-36 | File | `/admin/update_s7.php` | High
-37 | File | `/admin/users_photo.php` | High
-38 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-39 | File | `/ajax/ajax_login.ashx` | High
-40 | File | `/Android/data/com.myairtelapp/files/` | High
-41 | File | `/animalsupdate.php` | High
-42 | File | `/api/admin` | Medium
-43 | File | `/api/admin/user?id` | High
-44 | File | `/api/blade-user/export-user` | High
-45 | File | `/api/upload` | Medium
-46 | File | `/apply.cgi` | Medium
-47 | File | `/auth/list_projects` | High
-48 | File | `/backend/admin/his_admin_register_patient.php` | High
-49 | File | `/bin/httpd` | Medium
-50 | File | `/boafrm/formPortFw` | High
-51 | File | `/buscar_integrada.php` | High
-52 | File | `/catalog/compare` | High
-53 | File | `/cgi-bin/cstecgi.cgi` | High
-54 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-55 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-56 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-57 | File | `/class/edit/edit` | High
-58 | File | `/classes/Master.php? f=save_medicine` | High
-59 | File | `/classes/SystemSettings.php?f=update_settings` | High
-60 | File | `/clinic/disease_symptoms_view.php` | High
+33 | File | `/admin/search.php` | High
+34 | File | `/admin/template` | High
+35 | File | `/admin/twitter.php` | High
+36 | File | `/admin/update_room.php` | High
+37 | File | `/admin/update_s7.php` | High
+38 | File | `/admin/users_photo.php` | High
+39 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+40 | File | `/ajax/ajax_login.ashx` | High
+41 | File | `/Android/data/com.myairtelapp/files/` | High
+42 | File | `/animalsupdate.php` | High
+43 | File | `/api/admin` | Medium
+44 | File | `/api/admin/user?id` | High
+45 | File | `/api/blade-user/export-user` | High
+46 | File | `/api/upload` | Medium
+47 | File | `/apply.cgi` | Medium
+48 | File | `/auth/list_projects` | High
+49 | File | `/backend/admin/his_admin_register_patient.php` | High
+50 | File | `/bin/httpd` | Medium
+51 | File | `/boafrm/formPortFw` | High
+52 | File | `/buscar_integrada.php` | High
+53 | File | `/catalog/compare` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+56 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+58 | File | `/class/edit/edit` | High
+59 | File | `/classes/Master.php? f=save_medicine` | High
+60 | File | `/classes/SystemSettings.php?f=update_settings` | High
 61 | ... | ... | ...
 
-There are 533 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

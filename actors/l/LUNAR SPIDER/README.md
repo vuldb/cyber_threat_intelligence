@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LUNAR SPIDER:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.14.244.124](https://vuldb.com/?ip.45.14.244.124) | vm3246601.stark-industries.solutions | - | High
 2 | [95.164.17.212](https://vuldb.com/?ip.95.164.17.212) | vm3170628.stark-industries.solutions | - | High
-3 | [188.119.112.7](https://vuldb.com/?ip.188.119.112.7) | proxy.reserva | - | High
+3 | [185.93.221.12](https://vuldb.com/?ip.185.93.221.12) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,18 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/food/admin/all_users.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `ashnews.php/ashheadlines.php` | High
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/food/admin/all_users.php` | High
+3 | File | `/forum/away.php` | High
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.eclecticiq.com/inside-intelligence-center-lunar-spider-enabling-ransomware-attacks-on-financial-sector-with-brute-ratel-c4-and-latrodectus
+* https://thedfirreport.com/2025/09/29/from-a-single-click-how-lunar-spider-enabled-a-near-two-month-intrusion/
 
 ## Literature
 

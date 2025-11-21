@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.153.94](https://vuldb.com/?ip.5.252.153.94) | hosted-by.csrdp.host | - | High
-2 | [64.95.12.71](https://vuldb.com/?ip.64.95.12.71) | - | - | High
-3 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
-4 | ... | ... | ... | ...
+2 | [64.7.199.155](https://vuldb.com/?ip.64.7.199.155) | - | - | High
+3 | [64.95.12.71](https://vuldb.com/?ip.64.95.12.71) | - | - | High
+4 | [64.111.92.212](https://vuldb.com/?ip.64.111.92.212) | - | - | High
+5 | [72.5.43.147](https://vuldb.com/?ip.72.5.43.147) | - | - | High
+6 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,16 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/cgi-bin/mainfunction.cgi` | High
-3 | File | `/modules/profile/index.php` | High
-4 | File | `/modules/registration_admission/patient_register.php` | High
-5 | File | `/oauth/idp/.well-known/openid-configuration` | High
-6 | File | `a2billing/customer/iridium_threed.php` | High
-7 | File | `adclick.php` | Medium
-8 | File | `admin/conf_users_edit.php` | High
-9 | ... | ... | ...
+2 | File | `/admin/user-bookings.php` | High
+3 | File | `/cgi-bin/mainfunction.cgi` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/cimom` | Low
+6 | File | `/fax/fax_send.php` | High
+7 | File | `/modules/profile/index.php` | High
+8 | File | `/modules/registration_admission/patient_register.php` | High
+9 | File | `/oauth/idp/.well-known/openid-configuration` | High
+10 | File | `/spip.php` | Medium
+11 | File | `/tmp/csman/0` | Medium
+12 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +82,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/115219827175849347
 * https://infosec.exchange/@monitorsg/115220302118019830
 * https://infosec.exchange/@monitorsg/115231406562171659
+* https://infosec.exchange/@monitorsg/115304526179110474
+* https://infosec.exchange/@monitorsg/115328602376595764
+* https://infosec.exchange/@monitorsg/115344406615005731
+* https://infosec.exchange/@monitorsg/115446061715663915
+* https://infosec.exchange/@monitorsg/115447594291268057
+* https://infosec.exchange/@monitorsg/115485911727880909
+* https://infosec.exchange/@monitorsg/115502674751273414
+* https://infosec.exchange/@monitorsg/115508577276891826
+* https://isc.sans.edu/diary/32498
 * https://rewterz.com/threat-advisory/kongtuke-targets-windows-with-interlock-rat-active-iocs
 * https://threatfox.abuse.ch
 

@@ -80,23 +80,23 @@ ID | Type | Indicator | Confidence
 18 | File | `/export` | Low
 19 | File | `/file?action=download&file` | High
 20 | File | `/goform/aspForm` | High
-21 | File | `/goform/openSchedWifi` | High
-22 | File | `/hardware` | Medium
-23 | File | `/importexport.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/mfsNotice/page` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/monitoring` | Medium
-29 | File | `/Noxen-master/users.php` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/php/busyscreenshotpush.php` | High
-32 | File | `/plugin/LiveChat/getChat.json.php` | High
-33 | File | `/plugins/servlet/audit/resource` | High
-34 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+21 | File | `/goform/GetParentControlInfo` | High
+22 | File | `/goform/openSchedWifi` | High
+23 | File | `/hardware` | Medium
+24 | File | `/importexport.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/mfsNotice/page` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/monitoring` | Medium
+30 | File | `/Noxen-master/users.php` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/php/busyscreenshotpush.php` | High
+33 | File | `/plugin/LiveChat/getChat.json.php` | High
+34 | File | `/plugins/servlet/audit/resource` | High
 35 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

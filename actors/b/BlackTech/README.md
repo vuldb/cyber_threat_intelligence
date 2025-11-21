@@ -66,27 +66,27 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/portal` | High
 6 | File | `/cgi-mod/lookup.cgi` | High
 7 | File | `/forum/away.php` | High
-8 | File | `/mifs/c/i/reg/reg.html` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/pages/apply_vacancy.php` | High
-11 | File | `/RPC2` | Low
-12 | File | `/server-info` | Medium
-13 | File | `/service/upload` | High
-14 | File | `/services` | Medium
-15 | File | `/system/dept/edit` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `/user/updatePwd` | High
-20 | File | `/wp-json/oembed/1.0/embed?url` | High
-21 | File | `a2billing/customer/iridium_threed.php` | High
-22 | File | `additem.asp` | Medium
-23 | File | `admin.php` | Medium
-24 | File | `admin.php?s=/Channel/add.html` | High
-25 | File | `admin/class-bulk-editor-list-table.php` | High
+8 | File | `/goform/formUserStatusRemark` | High
+9 | File | `/mifs/c/i/reg/reg.html` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/pages/apply_vacancy.php` | High
+12 | File | `/RPC2` | Low
+13 | File | `/server-info` | Medium
+14 | File | `/service/upload` | High
+15 | File | `/services` | Medium
+16 | File | `/system/dept/edit` | High
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/user/updatePwd` | High
+21 | File | `/wp-json/oembed/1.0/embed?url` | High
+22 | File | `a2billing/customer/iridium_threed.php` | High
+23 | File | `additem.asp` | Medium
+24 | File | `admin.php` | Medium
+25 | File | `admin.php?s=/Channel/add.html` | High
 26 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with United States of America:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -13698,12 +13701,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -13711,30 +13714,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin-dashboard` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/ajax.php?action=save_vacancy` | High
-5 | File | `/admin/borrow_add.php` | High
-6 | File | `/admin/bwdates-reports-details.php` | High
-7 | File | `/admin/chatroom.php` | High
-8 | File | `/admin/edit-nurse.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit-subcategory.php` | High
-11 | File | `/admin/edit_room.php` | High
-12 | File | `/admin/operations/tax.php` | High
-13 | File | `/admin/registration.php` | High
-14 | File | `/admin/search-invoices.php` | High
-15 | File | `/binutils/debug.c` | High
-16 | File | `/boafrm/formWsc` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/info.cgi` | High
-19 | File | `/commons/attachment/upload` | High
-20 | File | `/cusfindphar2.php` | High
-21 | File | `/edit-profile.php` | High
-22 | ... | ... | ...
+1 | File | `/index.html` | Medium
+2 | File | `/spip.php` | Medium
+3 | File | `index.js` | Medium
+4 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

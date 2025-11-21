@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,12 +70,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/curriculum/view_curriculum.php` | High
 2 | File | `/admin/departments/view_department.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/students/manage.php` | High
-5 | File | `/admin/user/manage_user.php` | High
+3 | File | `/admin/user/manage_user.php` | High
+4 | File | `/com/esafenet/servlet/service/processsign/AutoSignService.java` | High
+5 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
 6 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

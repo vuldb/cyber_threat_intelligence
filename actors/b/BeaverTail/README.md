@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.8.146.93](https://vuldb.com/?ip.45.8.146.93) | vm2985624.stark-industries.solutions | - | High
 7 | [45.12.141.170](https://vuldb.com/?ip.45.12.141.170) | vm3700987.stark-industries.solutions | - | High
 8 | [45.43.11.201](https://vuldb.com/?ip.45.43.11.201) | - | - | High
-9 | ... | ... | ... | ...
+9 | [45.61.150.31](https://vuldb.com/?ip.45.61.150.31) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +43,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -54,31 +56,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/appcenter/local.html?type=addon` | High
 2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-4 | File | `/category_view.php` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/DXR.axd` | Medium
-7 | File | `/film-rating.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/SetSysAutoRebbotCfg` | High
-10 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/locales/locale.json` | High
-13 | File | `/login.php` | Medium
-14 | File | `/owa/auth/logon.aspx` | High
-15 | File | `/rom-0` | Low
-16 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-17 | File | `/spgpm/updateListing` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/student/bookdetails.php` | High
-20 | File | `/system/user/resetPwd` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/update-employee.php` | High
-23 | File | `/usr/sbin/pinger` | High
-24 | File | `/vm/patient/delete-account.php` | High
-25 | ... | ... | ...
+3 | File | `/admin/invoice.php` | High
+4 | File | `/auth/userkey/logout.php` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/category_view.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/film-rating.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/SetSysAutoRebbotCfg` | High
+12 | File | `/horde/util/go.php` | High
+13 | File | `/hospital/hms/admin/manage-doctors.php` | High
+14 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/locales/locale.json` | High
+17 | File | `/login.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/rom-0` | Low
+20 | File | `/search-report-result.php` | High
+21 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+22 | File | `/spgpm/updateListing` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/sscdms/classes/Users.php?f=save` | High
+25 | File | `/student/bookdetails.php` | High
+26 | File | `/system/user/resetPwd` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/update-employee.php` | High
+29 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

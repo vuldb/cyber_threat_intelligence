@@ -4,16 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bronze_butler](https://vuldb.com/?actor.bronze_butler)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Bronze Butler:
+
+* CVE-2025-61932
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bronze Butler:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.255.69.209](https://vuldb.com/?ip.27.255.69.209) | - | - | High
 2 | [27.255.91.238](https://vuldb.com/?ip.27.255.91.238) | - | - | High
-3 | [106.184.5.30](https://vuldb.com/?ip.106.184.5.30) | - | - | High
+3 | [38.54.56.10](https://vuldb.com/?ip.38.54.56.10) | - | CVE-2025-61932 | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +53,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/out.php` | Medium
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `miniserv.pl` | Medium
-4 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/article/article-edit-run.php` | High
+4 | File | `/admin/employee/index.php` | High
+5 | File | `/api/upload` | Medium
+6 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/customnode/install` | High
+10 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+11 | File | `/ecshop/admin/template.php` | High
+12 | File | `/file/delete.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/HNAP1` | Low
+15 | File | `/home/download` | High
+16 | File | `/index.php` | Medium
+17 | File | `/lan.asp` | Medium
+18 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://news.sophos.com/en-us/2025/10/30/bronze-butler-exploits-japanese-asset-management-software-vulnerability/
 * https://www.secureworks.com/research/bronze-butler-targets-japanese-businesses
 
 ## Literature

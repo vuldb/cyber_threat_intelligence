@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with France Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [BR](https://vuldb.com/?country.br)
-* [OM](https://vuldb.com/?country.om)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -14531,12 +14528,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-2 | T1204.001 | CWE-601 | Open Redirect | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-24 | Path Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+3 | T1110.001 | CWE-307 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -14544,12 +14541,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_category.php` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/goform/RGFirewallEL` | High
-4 | ... | ... | ...
+1 | File | `/admin/aboutus.php` | High
+2 | File | `/admin/cms/material/add` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/products/index.php?view=add` | High
+5 | File | `/admin/user-bookings.php` | High
+6 | ... | ... | ...
 
-There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

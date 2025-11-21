@@ -59,10 +59,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,19 +78,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/adpweb/wechat/verifyToken/` | High
 8 | File | `/app/options.py` | High
 9 | File | `/auth_files/photo/` | High
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cwc/login` | Medium
-13 | File | `/debuginfo.htm` | High
-14 | File | `/doctor/view-appointment-detail.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/quagga` | Medium
-17 | File | `/fladmin/friendlink_dodel.php` | High
-18 | File | `/forms/doLogin` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | ... | ... | ...
+10 | File | `/debuginfo.htm` | High
+11 | File | `/doctor/view-appointment-detail.php` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/etc/quagga` | Medium
+14 | File | `/fladmin/friendlink_dodel.php` | High
+15 | File | `/forms/doLogin` | High
+16 | File | `/h/autoSaveDraft` | High
+17 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+18 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

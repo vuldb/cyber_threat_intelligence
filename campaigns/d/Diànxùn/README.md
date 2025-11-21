@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,12 +45,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/shop.php` | Medium
-2 | File | `/WebApp/SettingsExclusion/GetExclusionsProfiles` | High
-3 | File | `/web_cste/cgi-bin/product.ini` | High
-4 | ... | ... | ...
+1 | File | `/admin-profile.php` | High
+2 | File | `/goform/openSchedWifi` | High
+3 | File | `/index.php` | Medium
+4 | File | `/music/ajax.php?action=signup` | High
+5 | ... | ... | ...
 
-There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

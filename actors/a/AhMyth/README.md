@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.79.135.16](https://vuldb.com/?ip.13.79.135.16) | - | - | High
 2 | [51.20.2.165](https://vuldb.com/?ip.51.20.2.165) | ec2-51-20-2-165.eu-north-1.compute.amazonaws.com | - | Medium
-3 | [87.119.220.245](https://vuldb.com/?ip.87.119.220.245) | - | - | High
+3 | [76.149.145.137](https://vuldb.com/?ip.76.149.145.137) | c-76-149-145-137.hsd1.ut.comcast.net | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,13 +67,14 @@ ID | Type | Indicator | Confidence
 18 | File | `/pms/admin/cells/view_cell.php` | High
 19 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://urlhaus.abuse.ch/url/3623057/
 
 ## Literature
 

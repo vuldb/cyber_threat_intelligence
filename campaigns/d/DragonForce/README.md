@@ -22,6 +22,7 @@ These _actors_ are associated with DragonForce or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [DragonForce](https://vuldb.com/?actor.dragonforce) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,7 +31,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [2.147.68.96](https://vuldb.com/?ip.2.147.68.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [69.4.234.20](https://vuldb.com/?ip.69.4.234.20) | agentone.co.za | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [45.135.232.229](https://vuldb.com/?ip.45.135.232.229) | - | [DragonForce](https://vuldb.com/?actor.dragonforce) | High
+3 | [69.4.234.20](https://vuldb.com/?ip.69.4.234.20) | agentone.co.za | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,14 +62,16 @@ ID | Type | Indicator | Confidence
 7 | File | `/js/player/dmplayer/dmku/index.php?ac=edit` | High
 8 | File | `/logger/logged_topics.cpp` | High
 9 | File | `/manage_user.php` | High
-10 | ... | ... | ...
+10 | File | `/php-opos/index.php` | High
+11 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://www.darktrace.com/blog/tracking-a-dragon-investigating-a-dragonforce-affiliated-ransomware-attack-with-darktrace
 * https://www.resecurity.com/blog/article/dragonforce-ransomware-reverse-engineering-report
 
 ## Literature
