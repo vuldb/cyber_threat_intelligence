@@ -41,8 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -57,45 +56,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/action/ipcamRecordPost` | High
 4 | File | `/admin/ajax.php` | High
 5 | File | `/admin/ajax.php?action=delete_window` | High
-6 | File | `/admin/create_product.php` | High
-7 | File | `/admin/inquiries/view_details.php` | High
-8 | File | `/admin/maintenance/manage_category.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/products/view_product.php` | High
-12 | File | `/admin/service_requests/manage_inventory.php` | High
-13 | File | `/admin/syslog` | High
-14 | File | `/administrator/components/table_manager/` | High
-15 | File | `/alphaware/details.php` | High
-16 | File | `/Api/ASF` | Medium
-17 | File | `/api/public/signup` | High
-18 | File | `/appConfig/userDB.json` | High
-19 | File | `/catcompany.php` | High
-20 | File | `/cgi-bin/` | Medium
-21 | File | `/classes/Login.php` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/common/run_cross_report.php` | High
-25 | File | `/dashboard/contact` | High
-26 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-27 | File | `/dcim/sites/add/` | High
-28 | File | `/dev/ptpX` | Medium
-29 | File | `/etc/passwd` | Medium
-30 | File | `/expense-datewise-reports-detailed.php` | High
-31 | File | `/file-manager/upload.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
-34 | File | `/goform/RP_checkCredentialsByBBS` | High
-35 | File | `/goform/WifiBasicSet` | High
-36 | File | `/hrm/employeeview.php` | High
-37 | File | `/inc/topBarNav.php` | High
-38 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-39 | File | `/members/view_member.php` | High
-40 | File | `/mgm_dev_reboot.asp` | High
-41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-42 | ... | ... | ...
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/create_product.php` | High
+8 | File | `/admin/inquiries/view_details.php` | High
+9 | File | `/admin/maintenance/manage_category.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/mechanics/manage_mechanic.php` | High
+12 | File | `/admin/products/view_product.php` | High
+13 | File | `/admin/service_requests/manage_inventory.php` | High
+14 | File | `/admin/syslog` | High
+15 | File | `/administrator/components/table_manager/` | High
+16 | File | `/alphaware/details.php` | High
+17 | File | `/Api/ASF` | Medium
+18 | File | `/api/public/signup` | High
+19 | File | `/appConfig/userDB.json` | High
+20 | File | `/catcompany.php` | High
+21 | File | `/cgi-bin/` | Medium
+22 | File | `/classes/Login.php` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Users.php` | High
+25 | File | `/common/run_cross_report.php` | High
+26 | File | `/dashboard/contact` | High
+27 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+28 | File | `/dcim/sites/add/` | High
+29 | File | `/dev/ptpX` | Medium
+30 | File | `/enrollment_edit1.php` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/expense-datewise-reports-detailed.php` | High
+33 | File | `/file-manager/upload.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/function/audit/newstatistics/mon_stat_top10.php` | High
+36 | File | `/goform/formSetWanStatic` | High
+37 | File | `/goform/RP_checkCredentialsByBBS` | High
+38 | File | `/goform/WifiBasicSet` | High
+39 | File | `/hrm/employeeview.php` | High
+40 | File | `/inc/topBarNav.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+43 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

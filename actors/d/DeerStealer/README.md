@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [40.83.133.199](https://vuldb.com/?ip.40.83.133.199) | - | - | High
 2 | [45.61.169.4](https://vuldb.com/?ip.45.61.169.4) | 4.169.61.45.static.cloudzy.com | - | High
-3 | [52.162.121.170](https://vuldb.com/?ip.52.162.121.170) | - | - | High
-4 | ... | ... | ... | ...
+3 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
+4 | [52.162.121.170](https://vuldb.com/?ip.52.162.121.170) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,20 +48,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/admin/controller/Upload.php` | High
-2 | File | `/cms/classes/Master.php?f=delete_service` | High
-3 | File | `/download` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/php_action/createUser.php` | High
-6 | File | `/resource/addgood.php` | High
-7 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-8 | File | `/Tool/querysql.php` | High
-9 | File | `/Tool/uploadfile.php` | High
-10 | File | `admin/index.php` | High
-11 | File | `appointment.php` | High
-12 | ... | ... | ...
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/manage-ambulance.php` | High
+4 | File | `/admin_members.php?ac=editsave` | High
+5 | File | `/app/admin/controller/Upload.php` | High
+6 | File | `/cgi-bin/JSONAPI` | High
+7 | File | `/cms/classes/Master.php?f=delete_service` | High
+8 | File | `/comfy/utils.py` | High
+9 | File | `/download` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/out.php` | Medium
+12 | File | `/php_action/createUser.php` | High
+13 | File | `/resource/addgood.php` | High
+14 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+15 | File | `/Tool/querysql.php` | High
+16 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +75,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://urlhaus.abuse.ch/url/3558736/
 * https://urlhaus.abuse.ch/url/3583525/
+* https://urlhaus.abuse.ch/url/3589403/
+* https://urlhaus.abuse.ch/url/3590309/
+* https://urlhaus.abuse.ch/url/3599461/
+* https://urlhaus.abuse.ch/url/3622235/
+* https://urlhaus.abuse.ch/url/3629287/
+* https://urlhaus.abuse.ch/url/3733381/
+* https://urlhaus.abuse.ch/url/3736067/
+* https://urlhaus.abuse.ch/url/3743411/
 
 ## Literature
 
@@ -80,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

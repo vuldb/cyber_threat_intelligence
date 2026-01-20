@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,17 +51,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
 4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/index.php/sysmanage/Login/login_auth/` | High
-6 | File | `/index.php?menu=asterisk_cli` | High
-7 | File | `/MIME/INBOX-MM-1/` | High
-8 | File | `/php/ping.php` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/scripts/unlock_tasks.php` | High
-11 | File | `/SysInfo1.htm` | High
-12 | File | `/sysinfo_json.cgi` | High
-13 | ... | ... | ...
+5 | File | `/config/pw_changeusers.html` | High
+6 | File | `/index.php/sysmanage/Login/login_auth/` | High
+7 | File | `/index.php?menu=asterisk_cli` | High
+8 | File | `/MIME/INBOX-MM-1/` | High
+9 | File | `/php/ping.php` | High
+10 | File | `/rapi/read_url` | High
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/SysInfo1.htm` | High
+13 | File | `/sysinfo_json.cgi` | High
+14 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

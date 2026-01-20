@@ -63,45 +63,47 @@ ID | Type | Indicator | Confidence
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
 3 | File | `/.vnc/sesman_${username}_passwd` | High
-4 | File | `/admin/admin_manage/delete` | High
-5 | File | `/admin/edit-ambulance.php` | High
-6 | File | `/admin/eligibility.php` | High
-7 | File | `/admin/operations/travellers.php` | High
-8 | File | `/admin/video/list` | High
-9 | File | `/ajax.php?action=update_account` | High
-10 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-11 | File | `/cgformTemplateController.do?doAdd` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/editBookmark` | High
-14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-15 | File | `/controllers/updatesettings.php` | High
-16 | File | `/course.php` | Medium
-17 | File | `/dl/dl_sendmail.php` | High
-18 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-19 | File | `/ecommerce/admin/products/controller.php` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/qci/answers` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/function/booksave.php` | High
-24 | File | `/goform/addressNat` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/H5/versionupdate.data` | High
-27 | File | `/inc/campaign/campaign-delete.php` | High
-28 | File | `/include/menu_v.inc.php` | High
-29 | File | `/librarian/lab.php` | High
-30 | File | `/login.php` | Medium
-31 | File | `/login/` | Low
-32 | File | `/manage_laundry.php` | High
-33 | File | `/omos/admin/?page=user/list` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/panel/fields/add` | High
-36 | File | `/patient/settings.php` | High
-37 | File | `/proc/*/cmdline"` | High
-38 | File | `/proc/pid/syscall` | High
-39 | File | `/proxy` | Low
-40 | ... | ... | ...
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/admin_manage/delete` | High
+6 | File | `/admin/edit-ambulance.php` | High
+7 | File | `/admin/eligibility.php` | High
+8 | File | `/admin/operations/travellers.php` | High
+9 | File | `/admin/video/list` | High
+10 | File | `/ajax.php?action=update_account` | High
+11 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+12 | File | `/auth/user/all.api` | High
+13 | File | `/cgformTemplateController.do?doAdd` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/editBookmark` | High
+16 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+17 | File | `/controllers/updatesettings.php` | High
+18 | File | `/course.php` | Medium
+19 | File | `/dl/dl_sendmail.php` | High
+20 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+21 | File | `/ecommerce/admin/products/controller.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/etc/qci/answers` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/function/booksave.php` | High
+26 | File | `/goform/addressNat` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/GetParentControlInfo` | High
+29 | File | `/H5/versionupdate.data` | High
+30 | File | `/inc/campaign/campaign-delete.php` | High
+31 | File | `/include/menu_v.inc.php` | High
+32 | File | `/librarian/lab.php` | High
+33 | File | `/login.aspx` | Medium
+34 | File | `/login.php` | Medium
+35 | File | `/login/` | Low
+36 | File | `/manage_laundry.php` | High
+37 | File | `/omos/admin/?page=user/list` | High
+38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+39 | File | `/panel/fields/add` | High
+40 | File | `/patient/settings.php` | High
+41 | File | `/proc/*/cmdline"` | High
+42 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

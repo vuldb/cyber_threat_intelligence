@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Latrodectus:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Latrodectus:
 
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 * [RU](https://vuldb.com/?country.ru)
-* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,9 +78,49 @@ ID | IP address | Hostname | Campaign | Confidence
 49 | [51.195.27.76](https://vuldb.com/?ip.51.195.27.76) | ip76.ip-51-195-27.eu | - | High
 50 | [62.106.66.46](https://vuldb.com/?ip.62.106.66.46) | - | - | High
 51 | [62.106.66.148](https://vuldb.com/?ip.62.106.66.148) | - | - | High
-52 | ... | ... | ... | ...
+52 | [62.106.66.243](https://vuldb.com/?ip.62.106.66.243) | - | - | High
+53 | [64.7.198.158](https://vuldb.com/?ip.64.7.198.158) | - | - | High
+54 | [64.188.91.184](https://vuldb.com/?ip.64.188.91.184) | s167251.luxhost.cc | - | High
+55 | [64.188.91.194](https://vuldb.com/?ip.64.188.91.194) | s167251.luxhost.cc | - | High
+56 | [64.188.91.206](https://vuldb.com/?ip.64.188.91.206) | s167265.luxhost.cc | - | High
+57 | [65.38.121.31](https://vuldb.com/?ip.65.38.121.31) | - | - | High
+58 | [66.63.187.15](https://vuldb.com/?ip.66.63.187.15) | - | - | High
+59 | [66.63.187.17](https://vuldb.com/?ip.66.63.187.17) | - | - | High
+60 | [66.63.187.163](https://vuldb.com/?ip.66.63.187.163) | - | - | High
+61 | [66.63.187.164](https://vuldb.com/?ip.66.63.187.164) | - | - | High
+62 | [66.63.187.172](https://vuldb.com/?ip.66.63.187.172) | - | - | High
+63 | [66.63.187.173](https://vuldb.com/?ip.66.63.187.173) | - | - | High
+64 | [66.63.187.194](https://vuldb.com/?ip.66.63.187.194) | - | - | High
+65 | [66.63.187.206](https://vuldb.com/?ip.66.63.187.206) | - | - | High
+66 | [74.119.193.200](https://vuldb.com/?ip.74.119.193.200) | vm2161135.stark-industries.solutions | - | High
+67 | [74.119.194.126](https://vuldb.com/?ip.74.119.194.126) | vpn.nj.us.livlost.net | - | High
+68 | [77.83.196.36](https://vuldb.com/?ip.77.83.196.36) | - | - | High
+69 | [77.90.153.28](https://vuldb.com/?ip.77.90.153.28) | - | - | High
+70 | [77.90.153.30](https://vuldb.com/?ip.77.90.153.30) | - | - | High
+71 | [77.90.153.31](https://vuldb.com/?ip.77.90.153.31) | - | - | High
+72 | [77.90.153.32](https://vuldb.com/?ip.77.90.153.32) | - | - | High
+73 | [77.90.153.46](https://vuldb.com/?ip.77.90.153.46) | - | - | High
+74 | [77.90.153.47](https://vuldb.com/?ip.77.90.153.47) | - | - | High
+75 | [77.90.153.73](https://vuldb.com/?ip.77.90.153.73) | - | - | High
+76 | [77.90.153.79](https://vuldb.com/?ip.77.90.153.79) | - | - | High
+77 | [77.90.153.86](https://vuldb.com/?ip.77.90.153.86) | - | - | High
+78 | [77.90.153.88](https://vuldb.com/?ip.77.90.153.88) | - | - | High
+79 | [77.90.153.121](https://vuldb.com/?ip.77.90.153.121) | - | - | High
+80 | [77.90.153.122](https://vuldb.com/?ip.77.90.153.122) | - | - | High
+81 | [77.90.153.139](https://vuldb.com/?ip.77.90.153.139) | - | - | High
+82 | [77.90.153.140](https://vuldb.com/?ip.77.90.153.140) | - | - | High
+83 | [77.90.153.249](https://vuldb.com/?ip.77.90.153.249) | - | - | High
+84 | [77.90.153.250](https://vuldb.com/?ip.77.90.153.250) | - | - | High
+85 | [77.91.73.187](https://vuldb.com/?ip.77.91.73.187) | vm2161390.stark-industries.solutions | - | High
+86 | [79.141.165.58](https://vuldb.com/?ip.79.141.165.58) | - | - | High
+87 | [79.141.165.238](https://vuldb.com/?ip.79.141.165.238) | - | - | High
+88 | [81.17.28.82](https://vuldb.com/?ip.81.17.28.82) | lunch-bone.adaptfuns.com | - | High
+89 | [81.17.28.123](https://vuldb.com/?ip.81.17.28.123) | hostedby.privatelayer.com | - | High
+90 | [81.99.162.48](https://vuldb.com/?ip.81.99.162.48) | lang-sspiprxy.network.virginmedia.net | - | High
+91 | [83.97.79.46](https://vuldb.com/?ip.83.97.79.46) | - | - | High
+92 | ... | ... | ... | ...
 
-There are 202 more IOC items available. Please use our online service to access the data.
+There are 365 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,13 +128,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-37, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-24, CWE-36 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,54 +141,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/add-subadmin.php` | High
-3 | File | `/add_new_invoice.php` | High
-4 | File | `/add_user.php` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/Admin/akun_edit.php` | High
-8 | File | `/admin/apply.php` | High
-9 | File | `/admin/content/editor` | High
-10 | File | `/admin/create-package.php` | High
-11 | File | `/admin/doAdminAction.php?act=addCate` | High
-12 | File | `/admin/edit-brand.php` | High
-13 | File | `/admin/edit-post.php` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/profile.php` | High
-16 | File | `/Admin/Proses_Edit_Akun.php` | High
-17 | File | `/admin/robot.php` | High
-18 | File | `/admin/search-invoices.php` | High
-19 | File | `/admin/twitter.php` | High
-20 | File | `/app/controller/Api.php` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-24 | File | `/applications/nexus/modules/front/store/store.php` | High
-25 | File | `/backend/doc/his_doc_update-account.php` | High
-26 | File | `/bitrix/admin/ldap_server_edit.php` | High
-27 | File | `/cgi-bin/apkg_mgr.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/classes/Master.php?f=delete_record` | High
-33 | File | `/classes/Master.php?f=save_category` | High
-34 | File | `/classes/SystemSettings.php?f=update_settings` | High
-35 | File | `/classes/Users.php?f=save` | High
-36 | File | `/customnode/install` | High
-37 | File | `/deal/{note_id}/note` | High
-38 | File | `/detailed.php` | High
-39 | File | `/dtale/chart-data/1` | High
-40 | File | `/etc/shadow.sample` | High
-41 | File | `/fftools/ffmpeg_enc.c` | High
-42 | File | `/filter.php` | Medium
-43 | File | `/fladmin/sysconfig_doedit.php` | High
-44 | File | `/forms/doLogin` | High
-45 | File | `/formSysLog` | Medium
-46 | ... | ... | ...
+1 | File | `/add-subadmin.php` | High
+2 | File | `/admin/?page=zone` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/actions/check-attendance.php` | High
+5 | File | `/admin/add-table.php` | High
+6 | File | `/admin/admin_running.php` | High
+7 | File | `/admin/changeimage.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/delete_s6.php` | High
+10 | File | `/admin/delete_user.php` | High
+11 | File | `/admin/edit_room.php` | High
+12 | File | `/admin/includes/edit_post.php` | High
+13 | File | `/admin/index.php?page=user-profile` | High
+14 | File | `/Admin/login.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/mechanics/manage_mechanic.php` | High
+17 | File | `/admin/modules/room/index.php` | High
+18 | File | `/admin/tags/save` | High
+19 | File | `/admin/user-bookings.php` | High
+20 | File | `/admin/user/index.php?view=edit` | High
+21 | File | `/admin/yesterday-reg-users.php` | High
+22 | File | `/adminapi/system/file/openfile` | High
+23 | File | `/administrator/addcategory.php` | High
+24 | File | `/alphaware/summary.php` | High
+25 | File | `/api/File/downloadFile` | High
+26 | File | `/api/settings` | High
+27 | File | `/api/sys/login` | High
+28 | File | `/api/wizard/getCapability` | High
+29 | File | `/app/api/v1/openvpn.py` | High
+30 | File | `/app/controller/Api.php` | High
+31 | File | `/app/sys1.php` | High
+32 | File | `/auth.asp` | Medium
+33 | File | `/biurl_grou` | Medium
+34 | File | `/boafrm/formDMZ` | High
+35 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -158,6 +186,162 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.reveng.ai/latrodectus-distribution-via-brc4/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:148d737a6c91bc5044f86b67195af527
 * https://hunt.io/blog/latrodectus-malware-masquerades-as-ahnlab-security-software-to-infect-victims
+* https://search.censys.io/hosts/91.92.240.50
+* https://search.censys.io/hosts/91.92.240.56
+* https://search.censys.io/hosts/91.92.240.57
+* https://search.censys.io/hosts/91.92.240.59
+* https://search.censys.io/hosts/91.92.240.65
+* https://search.censys.io/hosts/91.92.240.66
+* https://search.censys.io/hosts/91.92.242.8
+* https://search.censys.io/hosts/91.92.242.9
+* https://search.censys.io/hosts/91.92.242.28
+* https://search.censys.io/hosts/91.92.242.64
+* https://search.censys.io/hosts/91.92.242.66
+* https://search.censys.io/hosts/91.92.242.67
+* https://search.censys.io/hosts/91.92.242.68
+* https://search.censys.io/hosts/91.92.242.69
+* https://search.censys.io/hosts/91.92.242.70
+* https://search.censys.io/hosts/91.92.242.72
+* https://search.censys.io/hosts/91.92.242.73
+* https://search.censys.io/hosts/91.92.242.96
+* https://search.censys.io/hosts/91.92.242.97
+* https://search.censys.io/hosts/91.92.242.152
+* https://search.censys.io/hosts/91.92.242.153
+* https://search.censys.io/hosts/91.92.242.181
+* https://search.censys.io/hosts/91.92.242.182
+* https://search.censys.io/hosts/91.92.242.195
+* https://search.censys.io/hosts/91.92.242.196
+* https://search.censys.io/hosts/91.92.242.197
+* https://search.censys.io/hosts/91.92.242.198
+* https://search.censys.io/hosts/91.92.242.199
+* https://search.censys.io/hosts/91.92.242.200
+* https://search.censys.io/hosts/91.92.243.26
+* https://search.censys.io/hosts/91.92.243.27
+* https://search.censys.io/hosts/91.92.243.28
+* https://search.censys.io/hosts/91.92.243.29
+* https://search.censys.io/hosts/91.92.243.30
+* https://search.censys.io/hosts/91.92.243.31
+* https://search.censys.io/hosts/91.92.243.100
+* https://search.censys.io/hosts/91.92.243.101
+* https://search.censys.io/hosts/91.92.243.102
+* https://search.censys.io/hosts/91.92.243.103
+* https://search.censys.io/hosts/91.92.243.162
+* https://search.censys.io/hosts/91.92.243.163
+* https://search.censys.io/hosts/91.92.243.164
+* https://search.censys.io/hosts/91.92.243.165
+* https://search.censys.io/hosts/91.92.243.166
+* https://search.censys.io/hosts/91.92.243.167
+* https://search.censys.io/hosts/106.53.0.150
+* https://search.censys.io/hosts/109.120.137.201
+* https://search.censys.io/hosts/109.120.137.203
+* https://search.censys.io/hosts/158.94.208.23
+* https://search.censys.io/hosts/158.94.208.24
+* https://search.censys.io/hosts/158.94.208.25
+* https://search.censys.io/hosts/158.94.208.50
+* https://search.censys.io/hosts/158.94.208.51
+* https://search.censys.io/hosts/158.94.208.80
+* https://search.censys.io/hosts/158.94.208.81
+* https://search.censys.io/hosts/158.94.208.89
+* https://search.censys.io/hosts/158.94.208.101
+* https://search.censys.io/hosts/158.94.208.104
+* https://search.censys.io/hosts/158.94.208.134
+* https://search.censys.io/hosts/158.94.208.136
+* https://search.censys.io/hosts/158.94.208.144
+* https://search.censys.io/hosts/158.94.208.145
+* https://search.censys.io/hosts/158.94.208.153
+* https://search.censys.io/hosts/158.94.208.159
+* https://search.censys.io/hosts/158.94.208.175
+* https://search.censys.io/hosts/158.94.208.212
+* https://search.censys.io/hosts/158.94.208.224
+* https://search.censys.io/hosts/158.94.208.226
+* https://search.censys.io/hosts/158.94.208.227
+* https://search.censys.io/hosts/158.94.209.45
+* https://search.censys.io/hosts/158.94.209.46
+* https://search.censys.io/hosts/158.94.209.50
+* https://search.censys.io/hosts/158.94.209.51
+* https://search.censys.io/hosts/158.94.209.52
+* https://search.censys.io/hosts/158.94.209.58
+* https://search.censys.io/hosts/158.94.209.164
+* https://search.censys.io/hosts/158.94.209.166
+* https://search.censys.io/hosts/158.94.209.173
+* https://search.censys.io/hosts/158.94.209.183
+* https://search.censys.io/hosts/158.94.209.185
+* https://search.censys.io/hosts/158.94.209.192
+* https://search.censys.io/hosts/158.94.209.245
+* https://search.censys.io/hosts/158.94.209.246
+* https://search.censys.io/hosts/158.94.210.82
+* https://search.censys.io/hosts/158.94.210.83
+* https://search.censys.io/hosts/158.94.210.84
+* https://search.censys.io/hosts/158.94.210.85
+* https://search.censys.io/hosts/158.94.210.132
+* https://search.censys.io/hosts/158.94.210.133
+* https://search.censys.io/hosts/158.94.210.134
+* https://search.censys.io/hosts/158.94.210.135
+* https://search.censys.io/hosts/158.94.210.136
+* https://search.censys.io/hosts/158.94.210.137
+* https://search.censys.io/hosts/178.16.52.64
+* https://search.censys.io/hosts/178.16.52.70
+* https://search.censys.io/hosts/178.16.52.74
+* https://search.censys.io/hosts/178.16.52.75
+* https://search.censys.io/hosts/178.16.52.80
+* https://search.censys.io/hosts/178.16.52.81
+* https://search.censys.io/hosts/178.16.52.121
+* https://search.censys.io/hosts/178.16.52.122
+* https://search.censys.io/hosts/178.16.52.133
+* https://search.censys.io/hosts/178.16.52.138
+* https://search.censys.io/hosts/178.16.52.144
+* https://search.censys.io/hosts/178.16.52.145
+* https://search.censys.io/hosts/178.16.52.149
+* https://search.censys.io/hosts/178.16.52.150
+* https://search.censys.io/hosts/178.16.52.153
+* https://search.censys.io/hosts/178.16.52.154
+* https://search.censys.io/hosts/178.16.52.245
+* https://search.censys.io/hosts/178.16.52.247
+* https://search.censys.io/hosts/178.16.53.45
+* https://search.censys.io/hosts/178.16.53.47
+* https://search.censys.io/hosts/178.16.53.62
+* https://search.censys.io/hosts/178.16.53.63
+* https://search.censys.io/hosts/178.16.53.86
+* https://search.censys.io/hosts/178.16.53.88
+* https://search.censys.io/hosts/178.16.53.92
+* https://search.censys.io/hosts/178.16.53.93
+* https://search.censys.io/hosts/178.16.53.116
+* https://search.censys.io/hosts/178.16.53.117
+* https://search.censys.io/hosts/178.16.53.118
+* https://search.censys.io/hosts/178.16.53.119
+* https://search.censys.io/hosts/178.16.53.129
+* https://search.censys.io/hosts/178.16.53.134
+* https://search.censys.io/hosts/178.16.53.165
+* https://search.censys.io/hosts/178.16.53.175
+* https://search.censys.io/hosts/178.16.53.236
+* https://search.censys.io/hosts/178.16.54.39
+* https://search.censys.io/hosts/178.16.54.40
+* https://search.censys.io/hosts/178.16.54.46
+* https://search.censys.io/hosts/178.16.54.47
+* https://search.censys.io/hosts/178.16.54.50
+* https://search.censys.io/hosts/178.16.54.52
+* https://search.censys.io/hosts/178.16.54.107
+* https://search.censys.io/hosts/178.16.54.108
+* https://search.censys.io/hosts/178.16.54.155
+* https://search.censys.io/hosts/178.16.54.171
+* https://search.censys.io/hosts/178.16.54.182
+* https://search.censys.io/hosts/178.16.54.188
+* https://search.censys.io/hosts/178.16.54.217
+* https://search.censys.io/hosts/178.16.55.16
+* https://search.censys.io/hosts/178.16.55.18
+* https://search.censys.io/hosts/178.16.55.24
+* https://search.censys.io/hosts/178.16.55.30
+* https://search.censys.io/hosts/178.16.55.33
+* https://search.censys.io/hosts/178.16.55.39
+* https://search.censys.io/hosts/178.16.55.44
+* https://search.censys.io/hosts/178.16.55.46
+* https://search.censys.io/hosts/178.16.55.183
+* https://search.censys.io/hosts/178.16.55.195
+* https://search.censys.io/hosts/178.16.55.198
+* https://search.censys.io/hosts/178.16.55.199
+* https://search.censys.io/hosts/178.16.55.202
+* https://search.censys.io/hosts/178.16.55.206
+* https://search.censys.io/hosts/213.209.150.212
 * https://threatfox.abuse.ch
 * https://www.elastic.co/security-labs/spring-cleaning-with-latrodectus
 * https://www.malware-traffic-analysis.net/2024/03/07/index.html
@@ -175,4 +359,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

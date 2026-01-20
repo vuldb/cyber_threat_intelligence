@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,39 +60,48 @@ ID | Type | Indicator | Confidence
 2 | File | `/add-table.php` | High
 3 | File | `/admin-api/bpm/model/deploy` | High
 4 | File | `/admin-api/infra/file/upload` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/admin_login.php` | High
-7 | File | `/admin/all-request.php` | High
-8 | File | `/admin/app/role_crud.php` | High
-9 | File | `/admin/app/web_crud.php` | High
-10 | File | `/admin/booking-details.php` | High
-11 | File | `/admin/carousels/save` | High
-12 | File | `/admin/check_availability.php` | High
-13 | File | `/admin/DBbackup/` | High
-14 | File | `/admin/delete-doctor.php` | High
-15 | File | `/admin/edit-pass-detail.php` | High
-16 | File | `/admin/goods/update` | High
-17 | File | `/admin/index.php` | High
-18 | File | `/admin/print1.php` | High
-19 | File | `/admin/upload/upimage.html` | High
-20 | File | `/admin/view-appointment.php?viewid=11` | High
-21 | File | `/ajax.php?action=delete_user` | High
-22 | File | `/ajax_state.php` | High
-23 | File | `/bin/boa` | Medium
-24 | File | `/Blood/A-.php` | High
-25 | File | `/Bloodgroop_process.php` | High
-26 | File | `/boafrm/formPortFw` | High
-27 | File | `/bwdates-reports-details.php?vid=2` | High
-28 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
-29 | File | `/check_availability.php` | High
-30 | File | `/classes/Master.php?f=delete_schedule` | High
-31 | File | `/classes/Users.php` | High
-32 | File | `/classes/Users.php?f=save` | High
-33 | File | `/controller/OnlinePreviewController.java` | High
-34 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-35 | ... | ... | ...
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/addroom.php` | High
+7 | File | `/admin/add_course.php` | High
+8 | File | `/admin/admin-profile.php` | High
+9 | File | `/admin/admin_login.php` | High
+10 | File | `/admin/all-request.php` | High
+11 | File | `/admin/app/role_crud.php` | High
+12 | File | `/admin/app/web_crud.php` | High
+13 | File | `/admin/booking-details.php` | High
+14 | File | `/admin/candidates_delete.php` | High
+15 | File | `/admin/carousels/save` | High
+16 | File | `/admin/category/add.do` | High
+17 | File | `/admin/check_availability.php` | High
+18 | File | `/admin/contactus.php` | High
+19 | File | `/admin/DBbackup/` | High
+20 | File | `/admin/delete-doctor.php` | High
+21 | File | `/admin/department/add` | High
+22 | File | `/admin/edit-pass-detail.php` | High
+23 | File | `/admin/goods/update` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/Admin/match.php` | High
+26 | File | `/admin/print1.php` | High
+27 | File | `/admin/upload/upimage.html` | High
+28 | File | `/admin/view-appointment.php?viewid=11` | High
+29 | File | `/ajax.php?action=delete_user` | High
+30 | File | `/ajax_state.php` | High
+31 | File | `/api/article/del` | High
+32 | File | `/api/semantic/database/testConnect` | High
+33 | File | `/api/wizard/getSpecs` | High
+34 | File | `/authentication/logout.php` | High
+35 | File | `/billing/pms_check.php` | High
+36 | File | `/bin/boa` | Medium
+37 | File | `/Blood/A-.php` | High
+38 | File | `/Bloodgroop_process.php` | High
+39 | File | `/boafrm/formPortFw` | High
+40 | File | `/browse` | Low
+41 | File | `/bwdates-reports-details.php?vid=2` | High
+42 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
+43 | File | `/chaincity/user/ticket/create` | High
+44 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

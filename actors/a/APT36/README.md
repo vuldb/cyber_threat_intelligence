@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,26 +32,26 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.189.137.8](https://vuldb.com/?ip.5.189.137.8) | vending.softjourn.if.ua | C-Major | High
-2 | [5.189.143.225](https://vuldb.com/?ip.5.189.143.225) | - | C-Major | High
-3 | [5.189.152.147](https://vuldb.com/?ip.5.189.152.147) | ccloud.armax.de | C-Major | High
-4 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | C-Major | High
-5 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | C-Major | High
-6 | [13.107.21.237](https://vuldb.com/?ip.13.107.21.237) | - | ElizaRAT | High
-7 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | Indian Defense Officials | High
-8 | [15.197.148.33](https://vuldb.com/?ip.15.197.148.33) | a2aa9ff50de748dbe.awsglobalaccelerator.com | Indian Defense Officials | High
-9 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
-10 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | Indian Government Organizations | High
-11 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
-12 | [45.141.58.199](https://vuldb.com/?ip.45.141.58.199) | - | Indian BOSS Linux System | High
-13 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
-14 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
-15 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
-16 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
-17 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
+1 | [2.56.10.86](https://vuldb.com/?ip.2.56.10.86) | - | Indian Government Organizations | High
+2 | [5.189.137.8](https://vuldb.com/?ip.5.189.137.8) | vending.softjourn.if.ua | C-Major | High
+3 | [5.189.143.225](https://vuldb.com/?ip.5.189.143.225) | - | C-Major | High
+4 | [5.189.152.147](https://vuldb.com/?ip.5.189.152.147) | ccloud.armax.de | C-Major | High
+5 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | C-Major | High
+6 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | C-Major | High
+7 | [13.107.21.237](https://vuldb.com/?ip.13.107.21.237) | - | ElizaRAT | High
+8 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | Indian Defense Officials | High
+9 | [15.197.148.33](https://vuldb.com/?ip.15.197.148.33) | a2aa9ff50de748dbe.awsglobalaccelerator.com | Indian Defense Officials | High
+10 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
+11 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | Indian Government Organizations | High
+12 | [38.54.84.83](https://vuldb.com/?ip.38.54.84.83) | - | ElizaRAT | High
+13 | [45.141.58.199](https://vuldb.com/?ip.45.141.58.199) | - | Indian BOSS Linux System | High
+14 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
+15 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
+16 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
+17 | [64.227.134.248](https://vuldb.com/?ip.64.227.134.248) | - | ElizaRAT | High
 18 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,33 +73,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.asp` | Low
+2 | File | `/addProduct.php` | High
 3 | File | `/admin/all-applied-leave.php` | High
 4 | File | `/admin/edit_content.php` | High
-5 | File | `/assets/php/upload.php` | High
-6 | File | `/backend/admin/his_admin_register_patient.php` | High
-7 | File | `/goform/saveParentControlInfo` | High
-8 | File | `/goform/SetServerConfig` | High
-9 | File | `/index.php` | Medium
-10 | File | `/mces/?p=class/view_class` | High
-11 | File | `/minio/upload` | High
-12 | File | `/nidp/idff/sso` | High
-13 | File | `/pages/delete_order_details.php` | High
-14 | File | `/php/api_patient_checkin.php` | High
-15 | File | `/products/view_product.php` | High
-16 | File | `/schedulingsystem/addfaculty.php` | High
-17 | File | `/search` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/user_proposal_update_order.php` | High
-20 | File | `/var/run/.inetd.uds` | High
-21 | File | `/visitor-detail.php` | High
-22 | File | `/vm/admin/doctors.php` | High
-23 | File | `about` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `addressbook.php` | High
-26 | ... | ... | ...
+5 | File | `/admin/register.php` | High
+6 | File | `/admin/update_room.php` | High
+7 | File | `/assets/php/upload.php` | High
+8 | File | `/authentication.cgi` | High
+9 | File | `/backend/admin/his_admin_register_patient.php` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/goform/aspForm` | High
+12 | File | `/goform/ConfigAdvideo` | High
+13 | File | `/goform/formPptpClientConfig` | High
+14 | File | `/goform/formTaskEdit` | High
+15 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,6 +98,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2024/the-evolution-of-transparent-tribes-new-malware/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
 * https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
+* https://www.cyfirma.com/research/apt36-multi-stage-lnk-malware-campaign-targeting-indian-government-entities/
 * https://www.cyfirma.com/research/apt36-phishing-campaign-targets-indian-defense-using-credential-stealing-malware/
 * https://www.cyfirma.com/research/apt36-targets-indian-boss-linux-systems-with-weaponized-autostart-files/
 * https://www.cyfirma.com/research/turning-aid-into-attack-exploitation-of-pakistans-youth-laptop-scheme-to-target-india/
@@ -126,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

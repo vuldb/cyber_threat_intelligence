@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,28 +90,28 @@ ID | Type | Indicator | Confidence
 21 | File | `/admin/upload/img` | High
 22 | File | `/admin_route/dec_service_credits.php` | High
 23 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-24 | File | `/API/info` | Medium
-25 | File | `/app/ajax/sell_return_data.php` | High
-26 | File | `/app/api/controller/default/File.php` | High
-27 | File | `/application/index/controller/Datament.php` | High
-28 | File | `/application/index/controller/File.php` | High
-29 | File | `/apply/index.php` | High
-30 | File | `/att_add.php` | Medium
-31 | File | `/b2b-supermarket/catalog/all-products` | High
-32 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-33 | File | `/backend/admin/his_admin_register_patient.php` | High
-34 | File | `/bin/boa` | Medium
-35 | File | `/binbloom-master/src/helpers.c` | High
-36 | File | `/blog` | Low
-37 | File | `/boaform/wlan_basic_set.cgi` | High
-38 | File | `/category.php` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/nas_sharing.cgi` | High
-41 | File | `/check_availability.php` | High
-42 | File | `/classes/Master.php` | High
-43 | File | `/classes/Master.php?f=delete_reminder` | High
-44 | File | `/contacts/listcontacts.php` | High
-45 | File | `/Core/Ap4File.cpp` | High
+24 | File | `/api/GylOperator/UpdatePasswordBatch` | High
+25 | File | `/API/info` | Medium
+26 | File | `/app/ajax/sell_return_data.php` | High
+27 | File | `/app/api/controller/default/File.php` | High
+28 | File | `/application/index/controller/Datament.php` | High
+29 | File | `/application/index/controller/File.php` | High
+30 | File | `/apply/index.php` | High
+31 | File | `/att_add.php` | Medium
+32 | File | `/b2b-supermarket/catalog/all-products` | High
+33 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+34 | File | `/backend/admin/his_admin_register_patient.php` | High
+35 | File | `/bin/boa` | Medium
+36 | File | `/binbloom-master/src/helpers.c` | High
+37 | File | `/blog` | Low
+38 | File | `/boaform/wlan_basic_set.cgi` | High
+39 | File | `/category.php` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/check_availability.php` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/classes/Master.php?f=delete_reminder` | High
+45 | File | `/contacts/listcontacts.php` | High
 46 | File | `/data/app` | Medium
 47 | File | `/depotHead/list` | High
 48 | File | `/download.php?file=author.png` | High
@@ -152,4 +152,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

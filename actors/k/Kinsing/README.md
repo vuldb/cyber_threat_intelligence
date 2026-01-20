@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,9 +57,10 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [51.222.154.100](https://vuldb.com/?ip.51.222.154.100) | ns577710.ip-51-222-154.net | CVE-2023-32315 | High
 24 | [62.76.41.46](https://vuldb.com/?ip.62.76.41.46) | 392.mighost.ru | Log4Shell | High
 25 | [62.113.113.60](https://vuldb.com/?ip.62.113.113.60) | v2065801.hosted-by-vdsina.ru | CVE-2022-36804 | High
-26 | ... | ... | ... | ...
+26 | [62.113.115.166](https://vuldb.com/?ip.62.113.115.166) | v2296482.hosted-by-vdsina.ru | CVE-2022-36804 | High
+27 | ... | ... | ... | ...
 
-There are 101 more IOC items available. Please use our online service to access the data.
+There are 103 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,14 +84,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#ProductSerie/view/` | High
 2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/file_manager/export` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/adminPage/conf/reload` | High
-7 | File | `/admin_topic.php?action=delall` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/cron/settings/setJob/` | High
-10 | File | `/api/v2/cli/commands` | High
+3 | File | `/add_librarian.php` | High
+4 | File | `/admin/file_manager/export` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/admin_topic.php?action=delall` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/cron/settings/setJob/` | High
 11 | File | `/api/wizard/setsyncpppoecfg` | High
 12 | File | `/api2/html/` | Medium
 13 | File | `/application/index/controller/Databasesource.php` | High
@@ -104,19 +105,19 @@ ID | Type | Indicator | Confidence
 21 | File | `/DXR.axd` | Medium
 22 | File | `/etc/shadow` | Medium
 23 | File | `/forum/away.php` | High
-24 | File | `/h/rest` | Low
-25 | File | `/inc/jquery/uploadify/uploadify.php` | High
-26 | File | `/inc/parser/xhtml.php` | High
-27 | File | `/index/ajax/lang` | High
-28 | File | `/ipms/imageConvert/image` | High
-29 | File | `/livesite/edit_designer_region.php` | High
-30 | File | `/log/decodmail.php` | High
-31 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-32 | File | `/log_proxy` | Medium
-33 | File | `/mailcleaner.php/getStats` | High
+24 | File | `/forum1.php` | Medium
+25 | File | `/h/rest` | Low
+26 | File | `/inc/jquery/uploadify/uploadify.php` | High
+27 | File | `/inc/parser/xhtml.php` | High
+28 | File | `/index/ajax/lang` | High
+29 | File | `/ipms/imageConvert/image` | High
+30 | File | `/livesite/edit_designer_region.php` | High
+31 | File | `/log/decodmail.php` | High
+32 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+33 | File | `/log_proxy` | Medium
 34 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,6 +135,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/2532766/
 * https://urlhaus.abuse.ch/url/2532772/
 * https://urlhaus.abuse.ch/url/3539650/
+* https://urlhaus.abuse.ch/url/3709590/
+* https://urlhaus.abuse.ch/url/3709592/
+* https://urlhaus.abuse.ch/url/3715324/
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/honeypot-recon-enterprise-applications-honeypot-unveiling-findings-from-six-worldwide-locations/
 

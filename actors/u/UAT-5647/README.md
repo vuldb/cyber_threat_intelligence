@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,24 +58,25 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin_user.php` | High
 4 | File | `/admin/assigned-requests.php` | High
 5 | File | `/admin/change-image.php` | High
-6 | File | `/admin/File/pictureUpload` | High
-7 | File | `/admin/modules/product/controller.php?action=add` | High
-8 | File | `/Admin/News.php` | High
-9 | File | `/admin/update.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin_class.php` | High
-12 | File | `/api/admin/user` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/app/action/add_staff.php` | High
-15 | File | `/app/ajax/sell_return_data.php` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/classes/Master.php?f=delete_inquiry` | High
-18 | File | `/collect/PortV4/downLoad.html` | High
-19 | File | `/conf/app.conf` | High
-20 | File | `/dipam/athlete-profile.php` | High
-21 | ... | ... | ...
+6 | File | `/admin/delete_user.php` | High
+7 | File | `/admin/File/pictureUpload` | High
+8 | File | `/admin/modules/product/controller.php?action=add` | High
+9 | File | `/Admin/News.php` | High
+10 | File | `/admin/update.php` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/admin_class.php` | High
+13 | File | `/api/admin/user` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/app/action/add_staff.php` | High
+16 | File | `/app/ajax/sell_return_data.php` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/classes/Master.php?f=delete_inquiry` | High
+19 | File | `/collect/PortV4/downLoad.html` | High
+20 | File | `/conf/app.conf` | High
+21 | File | `/dipam/athlete-profile.php` | High
+22 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

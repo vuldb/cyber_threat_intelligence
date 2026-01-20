@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,33 +70,34 @@ ID | Type | Indicator | Confidence
 1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
 2 | File | `%PROGRAMDATA%\SSCService` | High
 3 | File | `.FBCIndex` | Medium
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/fields/manage_field.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/mod_reports/index.php` | High
-8 | File | `/application/index/controller/Databasesource.php` | High
-9 | File | `/auth/userkey/logout.php` | High
-10 | File | `/bcms/admin/?page=sales/view_details` | High
+4 | File | `/admin-cp/menus` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/fields/manage_field.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/mod_reports/index.php` | High
+9 | File | `/application/index/controller/Databasesource.php` | High
+10 | File | `/auth/userkey/logout.php` | High
 11 | File | `/bin/httpd` | Medium
 12 | File | `/bitrix/admin/ldap_server_edit.php` | High
 13 | File | `/boaform/getASPdata/formFirewall` | High
 14 | File | `/cgi-bin/cstecgi.cgi` | High
 15 | File | `/cgi-bin/download_config.cgi` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/control/WANIPConnection` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/display/map` | Medium
-20 | File | `/ecommerce/support_ticket` | High
-21 | File | `/Employer/EditProfile.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/apPortalPhoneAuth` | High
-24 | File | `/index.php/sysmanage/Login/login_auth/` | High
-25 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-26 | File | `/index/ajax/lang` | High
-27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-28 | ... | ... | ...
+16 | File | `/checkout/confirm/` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/control/WANIPConnection` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/delete_account.php` | High
+21 | File | `/display/map` | Medium
+22 | File | `/ecommerce/support_ticket` | High
+23 | File | `/Employer/EditProfile.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/apPortalPhoneAuth` | High
+26 | File | `/goform/setWan` | High
+27 | File | `/index.php/sysmanage/Login/login_auth/` | High
+28 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+29 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.china-nexus](https://vuldb.com/?actor.china-nexus)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with China-nexus:
+
+* Nezha
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with China-nexus:
@@ -23,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [4.232.170.137](https://vuldb.com/?ip.4.232.170.137) | - | - | High
 2 | [20.103.221.187](https://vuldb.com/?ip.20.103.221.187) | - | - | High
-3 | [146.70.161.78](https://vuldb.com/?ip.146.70.161.78) | - | - | High
+3 | [45.207.220.12](https://vuldb.com/?ip.45.207.220.12) | - | Nezha | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,19 +53,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-2 | File | `/decoration/admin/update_image.php` | High
-3 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
-4 | File | `admin/graph_trend.php` | High
-5 | File | `admin/partials/uif-access-token-display.php` | High
-6 | ... | ... | ...
+1 | File | `/admin/delete_s8.php` | High
+2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+3 | File | `/decoration/admin/update_image.php` | High
+4 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+5 | File | `admin/graph_trend.php` | High
+6 | File | `admin/partials/uif-access-token-display.php` | High
+7 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.huntress.com/blog/nezha-china-nexus-threat-actor-tool
 * https://www.sentinelone.com/labs/operation-digital-eye-chinese-apt-compromises-critical-digital-infrastructure-via-visual-studio-code-tunnels/
 
 ## Literature
@@ -71,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

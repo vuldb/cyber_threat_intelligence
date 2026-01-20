@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,6 +22,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.135.232.229](https://vuldb.com/?ip.45.135.232.229) | - | - | High
+2 | [46.29.238.160](https://vuldb.com/?ip.46.29.238.160) | 53918.ip-ptr.tech | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,24 +43,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/userScore_deal.php?mudi=del` | High
-2 | File | `/ajax/get_patient_history.php` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/nightled.cgi` | High
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/Interface/DevManage/VM.php` | High
-7 | File | `/js/player/dmplayer/dmku/index.php?ac=edit` | High
-8 | File | `/logger/logged_topics.cpp` | High
-9 | File | `/manage_user.php` | High
-10 | File | `/php-opos/index.php` | High
-11 | ... | ... | ...
+1 | File | `/academic-calendar` | High
+2 | File | `/admin/all-request.php` | High
+3 | File | `/admin/process_login.php` | High
+4 | File | `/admin/userScore_deal.php?mudi=del` | High
+5 | File | `/ajax/get_patient_history.php` | High
+6 | File | `/app/admin/controller/Upload.php` | High
+7 | File | `/boafrm/formVpnConfigSetup` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/nightled.cgi` | High
+10 | File | `/cgi-bin/webproc` | High
+11 | File | `/docarray/data/torch_dataset.py` | High
+12 | File | `/doctor/deletepatient.php` | High
+13 | File | `/fastcms.html#/template/menu` | High
+14 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/TheRavenFile/Daily-Hunt/blob/main/DragonForce%20Ransomware
 * https://www.darktrace.com/blog/tracking-a-dragon-investigating-a-dragonforce-affiliated-ransomware-attack-with-darktrace
 
 ## Literature

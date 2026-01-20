@@ -52,69 +52,71 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?page=album` | High
-2 | File | `/admin/action/new-feed.php` | High
-3 | File | `/Admin/add-admin.php` | High
-4 | File | `/admin/add-art-product.php` | High
-5 | File | `/admin/admin_action.php` | High
-6 | File | `/admin/admin_members.php?ac=search` | High
-7 | File | `/admin/ajax.php?action=delete_application` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
-10 | File | `/admin/blood/update/B+.php` | High
-11 | File | `/admin/book_add.php` | High
-12 | File | `/admin/category/view_category.php` | High
-13 | File | `/admin/cmsTemplate/replace` | High
-14 | File | `/admin/content/data` | High
-15 | File | `/admin/content/editor` | High
-16 | File | `/admin/customermanagementframework/customers/list` | High
-17 | File | `/admin/deleteBooking.php` | High
-18 | File | `/admin/edit-artist-detail.php?editid=1` | High
-19 | File | `/admin/edit_student_query.php` | High
-20 | File | `/admin/foreigner-search.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/index.php?act=reset_admin_psw` | High
-23 | File | `/admin/list_crl_conf` | High
-24 | File | `/admin/manage-ambulance.php` | High
-25 | File | `/admin/manage-foreigners-ticket.php` | High
-26 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
-27 | File | `/admin/normal-search.php` | High
-28 | File | `/admin/password-recovery.php` | High
-29 | File | `/admin/print.php` | High
-30 | File | `/admin/product.php` | High
-31 | File | `/admin/products/index.php` | High
-32 | File | `/admin/registration.php` | High
-33 | File | `/admin/search.php` | High
-34 | File | `/admin/template` | High
-35 | File | `/admin/twitter.php` | High
-36 | File | `/admin/update_room.php` | High
-37 | File | `/admin/update_s7.php` | High
-38 | File | `/admin/users_photo.php` | High
-39 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-40 | File | `/ajax/ajax_login.ashx` | High
-41 | File | `/Android/data/com.myairtelapp/files/` | High
-42 | File | `/animalsupdate.php` | High
-43 | File | `/api/admin` | Medium
-44 | File | `/api/admin/user?id` | High
-45 | File | `/api/blade-user/export-user` | High
-46 | File | `/api/upload` | Medium
-47 | File | `/apply.cgi` | Medium
-48 | File | `/auth/list_projects` | High
-49 | File | `/backend/admin/his_admin_register_patient.php` | High
-50 | File | `/bin/httpd` | Medium
-51 | File | `/boafrm/formPortFw` | High
-52 | File | `/buscar_integrada.php` | High
-53 | File | `/catalog/compare` | High
-54 | File | `/cgi-bin/cstecgi.cgi` | High
-55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-56 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-58 | File | `/class/edit/edit` | High
-59 | File | `/classes/Master.php? f=save_medicine` | High
-60 | File | `/classes/SystemSettings.php?f=update_settings` | High
-61 | ... | ... | ...
+1 | File | `/addmem.php` | Medium
+2 | File | `/admin.php?page=album` | High
+3 | File | `/admin/?page=state` | High
+4 | File | `/admin/action/new-feed.php` | High
+5 | File | `/Admin/add-admin.php` | High
+6 | File | `/admin/add-art-product.php` | High
+7 | File | `/admin/admin_action.php` | High
+8 | File | `/admin/admin_members.php?ac=search` | High
+9 | File | `/admin/admin_running.php` | High
+10 | File | `/admin/ajax.php?action=delete_application` | High
+11 | File | `/admin/ajax.php?action=login` | High
+12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+13 | File | `/admin/blood/update/B+.php` | High
+14 | File | `/admin/book_add.php` | High
+15 | File | `/admin/bwdates-reports-details.php` | High
+16 | File | `/admin/category/view_category.php` | High
+17 | File | `/admin/cmsTemplate/replace` | High
+18 | File | `/admin/content/data` | High
+19 | File | `/admin/content/editor` | High
+20 | File | `/admin/customermanagementframework/customers/list` | High
+21 | File | `/admin/deleteBooking.php` | High
+22 | File | `/admin/edit-artist-detail.php?editid=1` | High
+23 | File | `/admin/edit_account.php` | High
+24 | File | `/admin/edit_student_query.php` | High
+25 | File | `/admin/foreigner-search.php` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/index.php?act=reset_admin_psw` | High
+28 | File | `/admin/list_crl_conf` | High
+29 | File | `/admin/manage-ambulance.php` | High
+30 | File | `/admin/manage-foreigners-ticket.php` | High
+31 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
+32 | File | `/admin/normal-search.php` | High
+33 | File | `/admin/password-recovery.php` | High
+34 | File | `/admin/print.php` | High
+35 | File | `/admin/product.php` | High
+36 | File | `/admin/products/index.php` | High
+37 | File | `/admin/registration.php` | High
+38 | File | `/admin/search.php` | High
+39 | File | `/admin/template` | High
+40 | File | `/admin/twitter.php` | High
+41 | File | `/admin/update-progress.php` | High
+42 | File | `/admin/update_room.php` | High
+43 | File | `/admin/update_s7.php` | High
+44 | File | `/admin/users_photo.php` | High
+45 | File | `/admin/wangkan_list.php` | High
+46 | File | `/admin79f2ec220c7e.php?c=api&m=demo&name=mobile` | High
+47 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+48 | File | `/ajax/ajax_login.ashx` | High
+49 | File | `/Android/data/com.myairtelapp/files/` | High
+50 | File | `/animalsupdate.php` | High
+51 | File | `/api/admin` | Medium
+52 | File | `/api/admin/user?id` | High
+53 | File | `/api/blade-user/export-user` | High
+54 | File | `/api/upload` | Medium
+55 | File | `/apply.cgi` | Medium
+56 | File | `/Auth.php` | Medium
+57 | File | `/auth/list_projects` | High
+58 | File | `/backend/admin/his_admin_register_patient.php` | High
+59 | File | `/bin/httpd` | Medium
+60 | File | `/boafrm/formPortFw` | High
+61 | File | `/boafrm/formWlEncrypt` | High
+62 | File | `/buscar_integrada.php` | High
+63 | ... | ... | ...
 
-There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 553 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -156,4 +158,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

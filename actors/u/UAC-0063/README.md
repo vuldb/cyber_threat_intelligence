@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,12 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,29 +61,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/category/add.do` | High
 4 | File | `/admin/changeimage2.php` | High
 5 | File | `/admin/delete-appointment.php` | High
-6 | File | `/admin/edit-category.php` | High
-7 | File | `/admin/edit_supplier.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/process_category_edit.php` | High
-10 | File | `/admin/user-search.php` | High
-11 | File | `/ajax.php?action=save_deductions` | High
-12 | File | `/api/wizard/getDualbandSync` | High
-13 | File | `/app/api/controller/caiji.php` | High
-14 | File | `/billing/pms_check.php` | High
-15 | File | `/billing/test_accesscodelogin.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/hd_config.cgi` | High
-18 | File | `/cgi-bin/luci/api/auth` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cimom` | Low
-21 | File | `/dashboard/Cinvoice/manage_invoice` | High
-22 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-23 | File | `/dental_form.php` | High
-24 | File | `/edit-computer-detail.php` | High
-25 | File | `/expedit.php` | Medium
-26 | ... | ... | ...
+6 | File | `/admin/deleteuser.php` | High
+7 | File | `/admin/edit-category.php` | High
+8 | File | `/admin/edit_supplier.php` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/process_category_edit.php` | High
+11 | File | `/Admin/resultdetails.php` | High
+12 | File | `/admin/user-search.php` | High
+13 | File | `/ajax.php?action=save_deductions` | High
+14 | File | `/ajax.php?action=save_user` | High
+15 | File | `/api/wizard/getDualbandSync` | High
+16 | File | `/app/api/controller/caiji.php` | High
+17 | File | `/billing/pms_check.php` | High
+18 | File | `/billing/test_accesscodelogin.php` | High
+19 | File | `/boafrm/formPortFw` | High
+20 | File | `/boafrm/formReflashClientTbl` | High
+21 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+22 | File | `/cancelar-enturmacao-em-lote/` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/hd_config.cgi` | High
+25 | File | `/cgi-bin/luci/api/auth` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cimom` | Low
+28 | File | `/dashboard/Cinvoice/manage_invoice` | High
+29 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+30 | File | `/dental_form.php` | High
+31 | File | `/diario-de-observacoes/` | High
+32 | File | `/discuss/uploadMdPic` | High
+33 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

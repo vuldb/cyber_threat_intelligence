@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AdWind:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,13 +66,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,21 +82,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/car.php` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/clientdetails/admin/regester.php` | High
-10 | File | `/core/admin/categories.php` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/farm/product.php` | High
-13 | File | `/forum/away.php` | High
-14 | ... | ... | ...
+2 | File | `/admin/archives_add.php` | High
+3 | File | `/admin/categories/save` | High
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/delete_user.php` | High
+6 | File | `/admin/newsletterdel.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/positions.php` | High
+9 | File | `/admin/receipt.php` | High
+10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+12 | File | `/admins` | Low
+13 | File | `/ajax.php?action=login` | High
+14 | File | `/ajax/getBasicInfo.php` | High
+15 | File | `/api/admin/system/store/order/list` | High
+16 | File | `/api/files/recipepictures/` | High
+17 | File | `/authentication.cgi` | High
+18 | File | `/boafrm/formDdns` | High
+19 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+20 | File | `/boafrm/formVpnConfigSetup` | High
+21 | File | `/car.php` | Medium
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/clientdetails/admin/regester.php` | High
+25 | File | `/core/admin/categories.php` | High
+26 | File | `/csms/?page=contact_us` | High
+27 | File | `/dev/ptpX` | Medium
+28 | File | `/editprofile.php` | High
+29 | File | `/farm/product.php` | High
+30 | File | `/foreigner-search.php` | High
+31 | File | `/forum/away.php` | High
+32 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -94,17 +94,20 @@ ID | Type | Indicator | Confidence
 44 | File | `/apply/index.php` | High
 45 | File | `/apps/login_auth.php` | High
 46 | File | `/bin/boa` | Medium
-47 | File | `/boafrm/formMapDelDevice` | High
-48 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-51 | File | `/ci_hms/search` | High
-52 | File | `/classes/Master.php?f=delete_inquiry` | High
-53 | File | `/classes/Master.php?f=delete_item` | High
-54 | File | `/classes/Master.php?f=save_category` | High
-55 | ... | ... | ...
+47 | File | `/boafrm/formFirewallAdv` | High
+48 | File | `/boafrm/formMapDelDevice` | High
+49 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+52 | File | `/ci_hms/search` | High
+53 | File | `/classes/Master.php?f=delete_inquiry` | High
+54 | File | `/classes/Master.php?f=delete_item` | High
+55 | File | `/classes/Master.php?f=save_category` | High
+56 | File | `/classes/Master.php?f=save_inquiry` | High
+57 | File | `/control/register_case.php` | High
+58 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

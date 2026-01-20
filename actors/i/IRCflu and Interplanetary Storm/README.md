@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
-* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -61,32 +61,32 @@ ID | Type | Indicator | Confidence
 15 | File | `/etc/sysconfig/btrfsmaintenance` | High
 16 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
 17 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-18 | File | `/inquiries/view_inquiry.php` | High
-19 | File | `/job-details` | Medium
-20 | File | `/mib.db` | Low
-21 | File | `/page/add` | Medium
-22 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-23 | File | `/system-info/health` | High
-24 | File | `/tmp/s48lose.tmp` | High
-25 | File | `/tmp/xbindkeysrc-tmp` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/local` | Medium
-28 | File | `/var/log/nginx` | High
-29 | File | `/var/run/jboss-eap/` | High
-30 | File | `admin-ajax.php` | High
-31 | File | `admin.jcomments.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
-34 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-35 | File | `admin/admin_log/index.html?user_id` | High
-36 | File | `admin/admin_menu.php` | High
-37 | File | `admin/config.php` | High
-38 | File | `admin/content.php` | High
-39 | File | `admin/edit_category.php` | High
-40 | File | `admin/users` | Medium
+18 | File | `/hospital/hms/admin/manage-doctors.php` | High
+19 | File | `/inquiries/view_inquiry.php` | High
+20 | File | `/job-details` | Medium
+21 | File | `/mib.db` | Low
+22 | File | `/page/add` | Medium
+23 | File | `/spip.php` | Medium
+24 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+25 | File | `/system-info/health` | High
+26 | File | `/tmp/s48lose.tmp` | High
+27 | File | `/tmp/xbindkeysrc-tmp` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local` | Medium
+30 | File | `/var/log/nginx` | High
+31 | File | `/var/run/jboss-eap/` | High
+32 | File | `admin-ajax.php` | High
+33 | File | `admin.jcomments.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
+36 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+37 | File | `admin/admin_log/index.html?user_id` | High
+38 | File | `admin/admin_menu.php` | High
+39 | File | `admin/config.php` | High
+40 | File | `admin/content.php` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

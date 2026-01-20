@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -56,52 +56,54 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/company/index.php` | High
 6 | File | `/admin/contactus.php` | High
 7 | File | `/admin/edit-person-detail.php?editid=2` | High
-8 | File | `/admin/expense-type` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/inquiries/view_inquiry.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/profile.php` | High
-13 | File | `/admin/role` | Medium
-14 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-15 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-16 | File | `/api/user/password/sent-reset-email` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-19 | File | `/backup.pl` | Medium
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/dayrui/My/View/main.html` | High
-23 | File | `/dipam/athlete-profile.php` | High
-24 | File | `/domains/list` | High
-25 | File | `/donor-wall` | Medium
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/forum/PostPrivateMessage` | High
-29 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-30 | File | `/frontend/x3/mail/def.html` | High
-31 | File | `/goform/formSetWizardSelectMode` | High
-32 | File | `/goform/wirelessAdvancedHidden` | High
-33 | File | `/home/cavesConsole` | High
-34 | File | `/home/kickPlayer` | High
-35 | File | `/home/masterConsole` | High
-36 | File | `/home/sendBroadcast` | High
-37 | File | `/hrm/controller/employee.php` | High
-38 | File | `/hrm/employeeadd.php` | High
-39 | File | `/hrm/employeeview.php` | High
-40 | File | `/idm/includes/helpServer.jsp` | High
-41 | File | `/index.php/weblinks-categories` | High
-42 | File | `/index/ajax/lang` | High
-43 | File | `/intrams_sams/manage_student.php` | High
-44 | File | `/MicroStrategyWS/` | High
-45 | File | `/model/add_student_subject.php` | High
-46 | File | `/model/update_grade.php` | High
-47 | File | `/model/update_subject.php` | High
-48 | File | `/net-banking/send_funds_action.php` | High
-49 | File | `/out.php` | Medium
-50 | File | `/param.file.tgz` | High
-51 | ... | ... | ...
+8 | File | `/admin/edit_teacher.php` | High
+9 | File | `/admin/expense-type` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/profile.php` | High
+14 | File | `/admin/role` | Medium
+15 | File | `/admin/upload` | High
+16 | File | `/admin/user/index.php` | High
+17 | File | `/administrator/bidlist.php` | High
+18 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+19 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+20 | File | `/api/user/password/sent-reset-email` | High
+21 | File | `/application/plugins/controller/Upload.php` | High
+22 | File | `/b2b-supermarket/shopping-cart` | High
+23 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+24 | File | `/backup.pl` | Medium
+25 | File | `/bsms_ci/index.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/dayrui/My/View/main.html` | High
+28 | File | `/dipam/athlete-profile.php` | High
+29 | File | `/domains/list` | High
+30 | File | `/donor-wall` | Medium
+31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/forum/PostPrivateMessage` | High
+34 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
+35 | File | `/frontend/x3/mail/def.html` | High
+36 | File | `/goform/formApMail` | High
+37 | File | `/goform/formSetWizardSelectMode` | High
+38 | File | `/goform/wirelessAdvancedHidden` | High
+39 | File | `/home/cavesConsole` | High
+40 | File | `/home/kickPlayer` | High
+41 | File | `/home/masterConsole` | High
+42 | File | `/home/sendBroadcast` | High
+43 | File | `/hrm/controller/employee.php` | High
+44 | File | `/hrm/employeeadd.php` | High
+45 | File | `/hrm/employeeview.php` | High
+46 | File | `/idm/includes/helpServer.jsp` | High
+47 | File | `/index.php/weblinks-categories` | High
+48 | File | `/index/ajax/lang` | High
+49 | File | `/intrams_sams/manage_student.php` | High
+50 | File | `/MicroStrategyWS/` | High
+51 | File | `/model/add_student_subject.php` | High
+52 | File | `/model/update_grade.php` | High
+53 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

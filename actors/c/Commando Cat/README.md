@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,33 +48,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/ad-list` | Medium
-3 | File | `/admin/suppliers/view_details.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/authentication/login` | High
-6 | File | `/api/discoveries/` | High
-7 | File | `/api/sys/login` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/v2/open/rowsInfo` | High
-10 | File | `/app/sys1.php` | High
-11 | File | `/assets/components/gallery/connector.php` | High
-12 | File | `/backend/admin/his_admin_register_patient.php` | High
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/cas/logout` | Medium
-15 | File | `/catalog/all-products` | High
-16 | File | `/cgi-bin/adm.cgi` | High
-17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/nightled.cgi` | High
-20 | File | `/cgi-bin/touchlist_sync.cgi` | High
-21 | File | `/cgi-bin/vitogate.cgi` | High
-22 | File | `/data/edit_type.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-25 | File | `/downloadFile.php` | High
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | ... | ... | ...
+3 | File | `/add_deductions.php` | High
+4 | File | `/admin/booking-search.php` | High
+5 | File | `/admin/suppliers/view_details.php` | High
+6 | File | `/admin/updateorder.php` | High
+7 | File | `/admin/voters_row.php` | High
+8 | File | `/ajax.php?action=read_msg` | High
+9 | File | `/api/authentication/login` | High
+10 | File | `/api/discoveries/` | High
+11 | File | `/api/log/killJob` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v2/open/rowsInfo` | High
+15 | File | `/app/sys1.php` | High
+16 | File | `/assets/components/gallery/connector.php` | High
+17 | File | `/backend/admin/his_admin_register_patient.php` | High
+18 | File | `/boafrm/formWdsEncrypt` | High
+19 | File | `/branch.php` | Medium
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/cas/logout` | Medium
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/adm.cgi` | High
+24 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/nightled.cgi` | High
+27 | File | `/cgi-bin/touchlist_sync.cgi` | High
+28 | File | `/cgi-bin/vitogate.cgi` | High
+29 | File | `/cms/collect/getArticle` | High
+30 | File | `/collect/PortV4/downLoad.html` | High
+31 | File | `/data/edit_type.php` | High
+32 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

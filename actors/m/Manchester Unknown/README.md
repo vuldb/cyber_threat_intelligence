@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [CH](https://vuldb.com/?country.ch)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,26 +96,22 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/emp-profile-avatar.php` | High
 6 | File | `/admin/manage_complaint.php` | High
 7 | File | `/admin/mod_room/controller.php?action=add` | High
-8 | File | `/admin/profile.php` | High
-9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+8 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+9 | File | `/administrator/addcategory.php` | High
 10 | File | `/api/sys/login` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/p1_ftpserver.php` | High
-16 | File | `/cgi-bin/tosei_kikai.php` | High
-17 | File | `/cgi-bin/touchlist_sync.cgi` | High
-18 | File | `/classes/Master.php` | High
-19 | File | `/classes/Master.php?f=log_employee` | High
-20 | File | `/control/register_case.php` | High
-21 | File | `/foms/routers/place-order.php` | High
-22 | File | `/forum/PostPrivateMessage` | High
-23 | File | `/fos/admin/ajax.php?action=login` | High
-24 | File | `/home/kickPlayer` | High
-25 | ... | ... | ...
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/cgi-bin/p1_ftpserver.php` | High
+15 | File | `/cgi-bin/tosei_kikai.php` | High
+16 | File | `/cgi-bin/touchlist_sync.cgi` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/Master.php?f=log_employee` | High
+19 | File | `/control/register_case.php` | High
+20 | File | `/edit-customer-detailed.php` | High
+21 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

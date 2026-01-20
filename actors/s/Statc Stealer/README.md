@@ -27,9 +27,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,26 +39,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/aboutedit.php` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/?page=user/list` | High
-4 | File | `/admin/admin_user.php` | High
-5 | File | `/admin/app/role_crud.php` | High
-6 | File | `/admin/bwdates-reports-details.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/settings/index.php?page=accounts` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminPage/main/upload` | High
-11 | File | `/api/blade-system/menu/list?updatexml` | High
-12 | File | `/api/login/auth` | High
-13 | File | `/attendancelist.php` | High
-14 | File | `/catalog/all-products` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/change_password.php` | High
-18 | File | `/client/UnChkMailApplication.jsp` | High
-19 | ... | ... | ...
+2 | File | `/Adm/OperatorStop` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/admin_running.php` | High
+6 | File | `/admin/admin_user.php` | High
+7 | File | `/admin/app/role_crud.php` | High
+8 | File | `/admin/bwdates-reports-details.php` | High
+9 | File | `/admin/deleteitem.php` | High
+10 | File | `/admin/doctor-specilization.php` | High
+11 | File | `/admin/invoiceprint.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/roombook.php` | High
+14 | File | `/admin/settings/index.php?page=accounts` | High
+15 | File | `/admin/update-image.php` | High
+16 | File | `/adminapi/system/crud` | High
+17 | File | `/adminPage/main/upload` | High
+18 | File | `/ajax.php?action=save_payroll` | High
+19 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+20 | File | `/api/blade-system/menu/list?updatexml` | High
+21 | File | `/api/login/auth` | High
+22 | File | `/application/controllers/Marks.php` | High
+23 | File | `/attendancelist.php` | High
+24 | File | `/boafrm/formFilter` | High
+25 | File | `/boafrm/formMapReboot` | High
+26 | File | `/browsemdcn.php` | High
+27 | File | `/bwdates-report-result.php` | High
+28 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,7 +10,8 @@ These _actors_ are associated with DDoS Botnet or other actors linked to the cam
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [ShadowV2](https://vuldb.com/?actor.shadowv2) | High
+1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [ShadowV2](https://vuldb.com/?actor.shadowv2) | High
 
 ## IOC - Indicator of Compromise
 
@@ -20,11 +21,13 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [23.97.62.136](https://vuldb.com/?ip.23.97.62.136) | - | [ShadowV2](https://vuldb.com/?actor.shadowv2) | High
 2 | [23.97.62.139](https://vuldb.com/?ip.23.97.62.139) | - | [ShadowV2](https://vuldb.com/?actor.shadowv2) | High
+3 | [196.251.100.116](https://vuldb.com/?ip.196.251.100.116) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://beelzebub.ai/blog/rust-ddos-botnet-honeypot-c2-decoding/
 * https://www.darktrace.com/blog/shadowv2-an-emerging-ddos-for-hire-botnet
 
 ## Literature
@@ -36,4 +39,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

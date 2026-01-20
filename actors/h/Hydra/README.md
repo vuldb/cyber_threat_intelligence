@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,8 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-268, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -69,66 +68,67 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/judge` | Medium
 10 | File | `/admin/maintenance/view_designation.php` | High
 11 | File | `/admin/pages/list` | High
-12 | File | `/admin/settings/users/edit/` | High
-13 | File | `/admin/wlmultipleap.asp` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/app/admin/controller/file/File.php` | High
-16 | File | `/auth/userkey/logout.php` | High
-17 | File | `/be/erpc.php` | Medium
-18 | File | `/billing/bill/edit/` | High
-19 | File | `/bin/httpd` | Medium
-20 | File | `/boafrm/formPortFw` | High
-21 | File | `/brand.php` | Medium
-22 | File | `/buscar_integrada.php` | High
-23 | File | `/cas/logout` | Medium
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/classes/Master.php?f=delete_inquiry` | High
-28 | File | `/classes/Master.php?f=save_package` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/collection/all` | High
-31 | File | `/command_port.ini` | High
-32 | File | `/coreframe/app/member/admin/group.php` | High
-33 | File | `/deal/{note_id}/note` | High
-34 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-35 | File | `/filemanager/php/connector.php` | High
-36 | File | `/filex/read-raw` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/L7Im` | Medium
-39 | File | `/goform/setPptpUserList` | High
-40 | File | `/hardware` | Medium
-41 | File | `/hospital_activities/birth/form` | High
-42 | File | `/hoteldruid/interconnessioni.php` | High
-43 | File | `/include/chart_generator.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index.php?page=member` | High
-46 | File | `/investigation/delete/` | High
-47 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
-48 | File | `/login` | Low
-49 | File | `/login/index.php` | High
-50 | File | `/manager/ipconfig_new.php` | High
-51 | File | `/medical/inventories.php` | High
-52 | File | `/mfsNotice/page` | High
-53 | File | `/mgmt/tm/util/bash` | High
-54 | File | `/mobileredir/openApp.jsp` | High
-55 | File | `/modules/projects/vw_files.php` | High
-56 | File | `/owa/auth/logon.aspx` | High
-57 | File | `/personal/updateInfo` | High
-58 | File | `/pointHierarchySLTS` | High
-59 | File | `/project/task/{task_id}/show` | High
-60 | File | `/rest/api/2/user/picker` | High
-61 | File | `/school/model/get_events.php` | High
-62 | File | `/scripts/cpan_config` | High
-63 | File | `/search/index` | High
-64 | File | `/secserver` | Medium
-65 | File | `/secure/QueryComponent!Default.jspa` | High
-66 | File | `/spacecom/login.php` | High
-67 | File | `/spip.php` | Medium
-68 | File | `/src/admin/content_batchup_action.php` | High
-69 | ... | ... | ...
+12 | File | `/admin/save_user.php` | High
+13 | File | `/admin/settings/users/edit/` | High
+14 | File | `/admin/wlmultipleap.asp` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/app/admin/controller/file/File.php` | High
+17 | File | `/auth/userkey/logout.php` | High
+18 | File | `/be/erpc.php` | Medium
+19 | File | `/billing/bill/edit/` | High
+20 | File | `/bin/httpd` | Medium
+21 | File | `/boafrm/formPortFw` | High
+22 | File | `/boafrm/formWsc` | High
+23 | File | `/brand.php` | Medium
+24 | File | `/buscar_integrada.php` | High
+25 | File | `/cas/logout` | Medium
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/` | Medium
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/classes/Master.php?f=delete_inquiry` | High
+30 | File | `/classes/Master.php?f=save_package` | High
+31 | File | `/classes/SystemSettings.php?f=update_settings` | High
+32 | File | `/collection/all` | High
+33 | File | `/command_port.ini` | High
+34 | File | `/coreframe/app/member/admin/group.php` | High
+35 | File | `/deal/{note_id}/note` | High
+36 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+37 | File | `/filemanager/php/connector.php` | High
+38 | File | `/filex/read-raw` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/forum_edit.php` | High
+41 | File | `/goform/L7Im` | Medium
+42 | File | `/goform/setPptpUserList` | High
+43 | File | `/hardware` | Medium
+44 | File | `/hospital_activities/birth/form` | High
+45 | File | `/hoteldruid/interconnessioni.php` | High
+46 | File | `/include/chart_generator.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php?page=member` | High
+49 | File | `/investigation/delete/` | High
+50 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
+51 | File | `/login` | Low
+52 | File | `/login/index.php` | High
+53 | File | `/manager/ipconfig_new.php` | High
+54 | File | `/medical/inventories.php` | High
+55 | File | `/mfsNotice/page` | High
+56 | File | `/mgmt/tm/util/bash` | High
+57 | File | `/mobileredir/openApp.jsp` | High
+58 | File | `/modules/projects/vw_files.php` | High
+59 | File | `/owa/auth/logon.aspx` | High
+60 | File | `/personal/updateInfo` | High
+61 | File | `/pointHierarchySLTS` | High
+62 | File | `/project/task/{task_id}/show` | High
+63 | File | `/public/server/runCode.php` | High
+64 | File | `/rest/api/2/user/picker` | High
+65 | File | `/return.php` | Medium
+66 | File | `/school/model/get_events.php` | High
+67 | File | `/scripts/cpan_config` | High
+68 | File | `/search/index` | High
+69 | File | `/secserver` | Medium
+70 | ... | ... | ...
 
-There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 613 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -155,4 +155,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

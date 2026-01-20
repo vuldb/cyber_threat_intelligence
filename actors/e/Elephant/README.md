@@ -48,25 +48,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/edit_user.php` | High
-3 | File | `/admin/products/controller.php?action=add` | High
-4 | File | `/admin/question/edit` | High
-5 | File | `/api/` | Low
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/bifs/field_decode.c` | High
-8 | File | `/bin/proc.cgi` | High
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/Core/Ap4File.cpp` | High
-12 | File | `/csms/?page=contact_us` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/DXR.axd` | Medium
-15 | File | `/hospital/hms/admin/manage-doctors.php` | High
-16 | File | `/index.php` | Medium
-17 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/edit_user.php` | High
+4 | File | `/admin/products/controller.php?action=add` | High
+5 | File | `/admin/question/edit` | High
+6 | File | `/api/` | Low
+7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+8 | File | `/bifs/field_decode.c` | High
+9 | File | `/bin/proc.cgi` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/Core/Ap4File.cpp` | High
+13 | File | `/csms/?page=contact_us` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/hospital/hms/admin/manage-doctors.php` | High
+17 | File | `/index.php` | Medium
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

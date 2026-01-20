@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
@@ -81,15 +81,16 @@ ID | Type | Indicator | Confidence
 23 | File | `/edit/server` | Medium
 24 | File | `/foms/routers/place-order.php` | High
 25 | File | `/forum/away.php` | High
-26 | File | `/goform/formSetPassword` | High
-27 | File | `/h/autoSaveDraft` | High
-28 | File | `/hoteldruid/clienti.php` | High
-29 | File | `/include/menu_v.inc.php` | High
-30 | File | `/include/Model/Upload.php` | High
-31 | File | `/include/stat/stat.php` | High
-32 | ... | ... | ...
+26 | File | `/freelist_main.php` | High
+27 | File | `/goform/formSetPassword` | High
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/hoteldruid/clienti.php` | High
+30 | File | `/include/menu_v.inc.php` | High
+31 | File | `/include/Model/Upload.php` | High
+32 | File | `/include/stat/stat.php` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

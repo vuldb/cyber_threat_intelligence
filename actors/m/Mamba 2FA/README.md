@@ -58,29 +58,30 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/mod_room/controller.php?action=add` | High
 9 | File | `/admin/profile.php` | High
 10 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-14 | File | `/cgi-bin/p1_ftpserver.php` | High
-15 | File | `/cgi-bin/tosei_kikai.php` | High
-16 | File | `/cgi-bin/touchlist_sync.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Master.php?f=log_employee` | High
-19 | File | `/control/register_case.php` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forum/PostPrivateMessage` | High
-23 | File | `/fos/admin/ajax.php?action=login` | High
-24 | File | `/home/kickPlayer` | High
-25 | File | `/manage_sy.php` | High
-26 | File | `/mims/login.php` | High
-27 | File | `/model/delete_student_grade_subject.php` | High
-28 | File | `/one_church/churchprofile.php` | High
-29 | File | `/param.file.tgz` | High
-30 | File | `/public/plugins/` | High
-31 | ... | ... | ...
+11 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+15 | File | `/cgi-bin/p1_ftpserver.php` | High
+16 | File | `/cgi-bin/tosei_kikai.php` | High
+17 | File | `/cgi-bin/touchlist_sync.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/Master.php?f=log_employee` | High
+20 | File | `/control/register_case.php` | High
+21 | File | `/edit-customer-detailed.php` | High
+22 | File | `/foms/routers/place-order.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/fos/admin/ajax.php?action=login` | High
+26 | File | `/home/kickPlayer` | High
+27 | File | `/login.html` | Medium
+28 | File | `/login.php` | Medium
+29 | File | `/manage_sy.php` | High
+30 | File | `/mims/login.php` | High
+31 | File | `/model/delete_student_grade_subject.php` | High
+32 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
+* [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,8 +95,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -106,32 +105,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/Admin/consulting_detail.php` | High
-4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/link/edit.do` | High
-6 | File | `/admin/massage.php` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/admin/update-users.php` | High
-9 | File | `/api/process.php` | High
-10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/app/admin/controller/file/File.php` | High
-12 | File | `/cms/category/list` | High
-13 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-14 | File | `/Forms/oadmin_1` | High
-15 | File | `/get.php` | Medium
-16 | File | `/goform/getTraceroute` | High
-17 | File | `/goform/operateMacFilter` | High
-18 | File | `/goform/setcfm` | High
-19 | File | `/goform/setPptpUserList` | High
-20 | File | `/home/search` | Medium
-21 | File | `/inc/jquery/uploadify/uploadify.php` | High
-22 | File | `/loginLess/../../etc/passwd` | High
-23 | File | `/main/doctype.php` | High
-24 | ... | ... | ...
+1 | File | `/addelivery.php` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/add-customer-services.php` | High
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/Admin/consulting_detail.php` | High
+7 | File | `/admin/delete-appointment.php` | High
+8 | File | `/admin/file_manager/export` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/link/edit.do` | High
+11 | File | `/admin/massage.php` | High
+12 | File | `/admin/post/list` | High
+13 | File | `/Admin/registration.php` | High
+14 | File | `/admin/students/manage.php` | High
+15 | File | `/admin/update-users.php` | High
+16 | File | `/admind45f74adbd95.php?c=email&m=add` | High
+17 | File | `/adphar.php` | Medium
+18 | File | `/aim/storage/query.py` | High
+19 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+20 | File | `/api/process.php` | High
+21 | File | `/app/admin/controller/file/File.php` | High
+22 | File | `/boafrm/formMultiAP` | High
+23 | File | `/book_list.php` | High
+24 | File | `/cart/index.php` | High
+25 | File | `/cms/category/list` | High
+26 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+27 | File | `/download` | Medium
+28 | File | `/forget_password_process.php` | High
+29 | File | `/friends/ajax_invite` | High
+30 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -150,4 +155,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

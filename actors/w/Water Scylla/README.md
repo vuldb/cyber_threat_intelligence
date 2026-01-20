@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,28 +60,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php` | High
-2 | File | `/admin/overtime_add.php` | High
-3 | File | `/admin/sales/manage_sale.php` | High
-4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-5 | File | `/api/v2/open/tablesInfo` | High
-6 | File | `/app/admin/controller/Upload.php` | High
-7 | File | `/apps/system/router/upload.go` | High
-8 | File | `/cgi` | Low
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi/sshcheck.cgi` | High
-11 | File | `/classes/Master.php` | High
-12 | File | `/classes/Users.php?f=register_user` | High
-13 | File | `/cms/classes/Master.php?f=delete_service` | High
-14 | File | `/csms/admin/?page=user/manage_user` | High
-15 | File | `/database.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/download` | Medium
-18 | File | `/etc/shadow` | Medium
-19 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-20 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/overtime_add.php` | High
+4 | File | `/admin/sales/manage_sale.php` | High
+5 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+6 | File | `/api/v2/open/tablesInfo` | High
+7 | File | `/app/admin/controller/Upload.php` | High
+8 | File | `/apps/system/router/upload.go` | High
+9 | File | `/cgi` | Low
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/JSONAPI` | High
+12 | File | `/cgi/sshcheck.cgi` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Users.php?f=register_user` | High
+15 | File | `/cms/classes/Master.php?f=delete_service` | High
+16 | File | `/csms/admin/?page=user/manage_user` | High
+17 | File | `/database.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/download` | Medium
+20 | File | `/etc/shadow` | Medium
+21 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+22 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

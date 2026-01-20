@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,37 +69,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/ad-list` | Medium
-3 | File | `/admin.php/appcenter/local.html?type=addon` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/assign/assign.php` | High
+3 | File | `/add_deductions.php` | High
+4 | File | `/admin.php/appcenter/local.html?type=addon` | High
+5 | File | `/admin/?page=user/manage` | High
 6 | File | `/admin/booking-search.php` | High
 7 | File | `/admin/config_save.php` | High
 8 | File | `/admin/contacts/organizations/edit/2` | High
 9 | File | `/admin/curriculum/view_curriculum.php` | High
-10 | File | `/admin/employee_row.php` | High
-11 | File | `/admin/index.php?action=editentry` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/mechanics/manage_mechanic.php` | High
-14 | File | `/admin/member_save.php` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/report/index.php` | High
-17 | File | `/admin/robot/approval/list` | High
-18 | File | `/admin/sales/index.php` | High
-19 | File | `/admin/sales/view_details.php` | High
-20 | File | `/admin/suppliers/view_details.php` | High
-21 | File | `/admin/sys_sql_query.php` | High
-22 | File | `/admin/transactions/track_shipment.php` | High
-23 | File | `/admin/voters_row.php` | High
-24 | File | `/ajax.php?action=read_msg` | High
-25 | File | `/api/authentication/login` | High
-26 | File | `/api/browserextension/UpdatePassword/` | High
-27 | File | `/api/discoveries/` | High
-28 | File | `/api/sys/login` | High
-29 | File | `/api/sys/set_passwd` | High
-30 | File | `/api/v2/open/rowsInfo` | High
-31 | File | `/app/sys1.php` | High
-32 | File | `/backend/admin/his_admin_register_patient.php` | High
-33 | File | `/bin/ate` | Medium
+10 | File | `/admin/index.php?action=editentry` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/mechanics/manage_mechanic.php` | High
+13 | File | `/admin/member_save.php` | High
+14 | File | `/admin/order.php` | High
+15 | File | `/admin/report/index.php` | High
+16 | File | `/admin/robot/approval/list` | High
+17 | File | `/admin/sales/view_details.php` | High
+18 | File | `/admin/suppliers/view_details.php` | High
+19 | File | `/admin/sys_sql_query.php` | High
+20 | File | `/admin/updateorder.php` | High
+21 | File | `/admin/voters_row.php` | High
+22 | File | `/ajax.php?action=read_msg` | High
+23 | File | `/api/authentication/login` | High
+24 | File | `/api/discoveries/` | High
+25 | File | `/api/log/killJob` | High
+26 | File | `/api/sys/login` | High
+27 | File | `/api/sys/set_passwd` | High
+28 | File | `/api/v2/open/rowsInfo` | High
+29 | File | `/app/sys1.php` | High
+30 | File | `/backend/admin/his_admin_register_patient.php` | High
+31 | File | `/bin/ate` | Medium
+32 | File | `/boafrm/formWdsEncrypt` | High
+33 | File | `/branch.php` | Medium
 34 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 35 | File | `/cas/logout` | Medium
 36 | File | `/catalog/all-products` | High
@@ -113,13 +113,9 @@ ID | Type | Indicator | Confidence
 44 | File | `/churchcrm/v2/family/not-found` | High
 45 | File | `/classes/Login.php` | High
 46 | File | `/classes/Master.php` | High
-47 | File | `/classes/Master.php?f=update_order_status` | High
-48 | File | `/client/manage/ourphp_out.php` | High
-49 | File | `/config/api/v1/reboot` | High
-50 | File | `/data/edit_type.php` | High
-51 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

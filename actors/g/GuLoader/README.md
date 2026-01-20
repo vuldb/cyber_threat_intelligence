@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GuLoader:
 
-* [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,23 +24,25 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.2.75.164](https://vuldb.com/?ip.5.2.75.164) | - | - | High
 2 | [5.8.8.100](https://vuldb.com/?ip.5.8.8.100) | - | - | High
 3 | [5.255.110.224](https://vuldb.com/?ip.5.255.110.224) | - | - | High
-4 | [23.254.227.202](https://vuldb.com/?ip.23.254.227.202) | client-23-254-227-202.hostwindsdns.com | - | High
-5 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
-6 | [23.254.227.214](https://vuldb.com/?ip.23.254.227.214) | pornytop.com | - | High
-7 | [34.138.169.8](https://vuldb.com/?ip.34.138.169.8) | 8.169.138.34.bc.googleusercontent.com | - | Medium
-8 | [37.0.8.96](https://vuldb.com/?ip.37.0.8.96) | - | - | High
-9 | [38.242.193.23](https://vuldb.com/?ip.38.242.193.23) | vmi1299973.contaboserver.net | - | High
-10 | [45.137.22.92](https://vuldb.com/?ip.45.137.22.92) | hosted-by.rootlayer.net | - | High
-11 | [45.137.22.248](https://vuldb.com/?ip.45.137.22.248) | hosted-by.rootlayer.net | - | High
-12 | [45.137.117.184](https://vuldb.com/?ip.45.137.117.184) | - | - | High
-13 | [46.183.222.51](https://vuldb.com/?ip.46.183.222.51) | ip-222-51.dataclub.info | - | High
-14 | [46.183.223.21](https://vuldb.com/?ip.46.183.223.21) | nat1.gratezer.com | - | High
-15 | [46.183.223.88](https://vuldb.com/?ip.46.183.223.88) | ip-223-88.dataclub.info | - | High
-16 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | - | High
-17 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
-18 | ... | ... | ... | ...
+4 | [23.95.243.114](https://vuldb.com/?ip.23.95.243.114) | 23-95-243-114-host.colocrossing.com | - | High
+5 | [23.254.227.202](https://vuldb.com/?ip.23.254.227.202) | client-23-254-227-202.hostwindsdns.com | - | High
+6 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
+7 | [23.254.227.214](https://vuldb.com/?ip.23.254.227.214) | pornytop.com | - | High
+8 | [34.138.169.8](https://vuldb.com/?ip.34.138.169.8) | 8.169.138.34.bc.googleusercontent.com | - | Medium
+9 | [37.0.8.96](https://vuldb.com/?ip.37.0.8.96) | - | - | High
+10 | [38.242.193.23](https://vuldb.com/?ip.38.242.193.23) | vmi1299973.contaboserver.net | - | High
+11 | [45.137.22.92](https://vuldb.com/?ip.45.137.22.92) | hosted-by.rootlayer.net | - | High
+12 | [45.137.22.248](https://vuldb.com/?ip.45.137.22.248) | hosted-by.rootlayer.net | - | High
+13 | [45.137.117.184](https://vuldb.com/?ip.45.137.117.184) | - | - | High
+14 | [46.183.222.51](https://vuldb.com/?ip.46.183.222.51) | ip-222-51.dataclub.info | - | High
+15 | [46.183.223.21](https://vuldb.com/?ip.46.183.223.21) | nat1.gratezer.com | - | High
+16 | [46.183.223.88](https://vuldb.com/?ip.46.183.223.88) | ip-223-88.dataclub.info | - | High
+17 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | - | High
+18 | [67.21.33.181](https://vuldb.com/?ip.67.21.33.181) | - | - | High
+19 | [75.127.7.164](https://vuldb.com/?ip.75.127.7.164) | 75-127-7-164-host.colocrossing.com | - | High
+20 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-41, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,73 +65,117 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.jsp` | Low
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/new-feed.php` | High
-5 | File | `/admin/ajax.php` | High
-6 | File | `/admin/article.php` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/file_manager/export` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/Operations/Role.php` | High
-11 | File | `/admin/pages/` | High
-12 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-13 | File | `/admin/user/manage_user.php` | High
-14 | File | `/adminPage/conf/reload` | High
-15 | File | `/admins` | Low
-16 | File | `/admin_topic.php?action=delall` | High
-17 | File | `/ajax.php?action=delete_deductions` | High
-18 | File | `/ajax/getBasicInfo.php` | High
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/cron/settings/setJob/` | High
-22 | File | `/api2/html/` | Medium
-23 | File | `/backend/admin/his_admin_register_patient.php` | High
-24 | File | `/bitrix/admin/ldap_server_edit.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/check` | Low
-29 | File | `/city.php` | Medium
-30 | File | `/classes/Master.php?f=save_sub_category` | High
-31 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-32 | File | `/client.php` | Medium
-33 | File | `/clientdetails/admin/regester.php` | High
-34 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-35 | File | `/config/myfield/test.php` | High
-36 | File | `/controllers/add_user.php` | High
-37 | File | `/csms/?page=contact_us` | High
-38 | File | `/dayrui/Fcms/View/system_log.html` | High
-39 | File | `/designation_viewmore.php` | High
-40 | File | `/details.php` | Medium
-41 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ecshop/admin/template.php` | High
-44 | File | `/farm/product.php` | High
-45 | File | `/forgot-password` | High
-46 | File | `/formLoginAuth.htm` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/goform/ate` | Medium
-49 | File | `/goform/setDeviceSettings` | High
-50 | File | `/goform/setMacFilterCfg` | High
-51 | File | `/goform/SetNetControlList` | High
-52 | File | `/goform/setWtpData` | High
-53 | File | `/goform/WifiExtraSet` | High
-54 | File | `/h/rest` | Low
-55 | File | `/importexport.php` | High
-56 | File | `/inc/topBarNav.php` | High
-57 | File | `/includes/create_share.php` | High
-58 | File | `/index.php` | Medium
-59 | File | `/index/ajax/lang` | High
-60 | File | `/log/decodmail.php` | High
-61 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-62 | File | `/log_proxy` | Medium
-63 | File | `/mailcleaner.php/getStats` | High
-64 | File | `/manage_block.php` | High
-65 | ... | ... | ...
+1 | File | `/action.php` | Medium
+2 | File | `/action/upload_file` | High
+3 | File | `/actuator` | Medium
+4 | File | `/add-notes.php` | High
+5 | File | `/addelivery.php` | High
+6 | File | `/adding-exec.php` | High
+7 | File | `/addmem.php` | Medium
+8 | File | `/addstock.php` | High
+9 | File | `/add_achievement_details.php` | High
+10 | File | `/admin#article/edit?id=2` | High
+11 | File | `/admin#themes` | High
+12 | File | `/admin-inbox.php` | High
+13 | File | `/admin/` | Low
+14 | File | `/admin/?page=state` | High
+15 | File | `/admin/?page=system_info/contact_info` | High
+16 | File | `/admin/aboutus.php` | High
+17 | File | `/admin/adminprofile.php` | High
+18 | File | `/admin/admin_members.php?ac=search` | High
+19 | File | `/admin/ajax.php?action=save_settings` | High
+20 | File | `/admin/app/profile_crud.php` | High
+21 | File | `/admin/approve_user.php` | High
+22 | File | `/admin/archives_add.php` | High
+23 | File | `/admin/blog/comment/create` | High
+24 | File | `/admin/blogger.php?action=update_avatar` | High
+25 | File | `/admin/book_row.php` | High
+26 | File | `/admin/bwdates-reports-details.php` | High
+27 | File | `/admin/bwdates-request-report-details.php` | High
+28 | File | `/admin/categories/save` | High
+29 | File | `/admin/check_admin_login.php` | High
+30 | File | `/admin/class.php` | High
+31 | File | `/admin/class.php?dowhat=modifyclass` | High
+32 | File | `/admin/contact-us.php` | High
+33 | File | `/admin/contactus.php` | High
+34 | File | `/admin/create_product.php` | High
+35 | File | `/admin/deleteuser.php` | High
+36 | File | `/admin/edit-category-detail.php` | High
+37 | File | `/admin/edit-customer-detailed.php` | High
+38 | File | `/admin/edit-subadmin.php` | High
+39 | File | `/admin/edit-teacher-detail.php` | High
+40 | File | `/admin/edit-user.php` | High
+41 | File | `/admin/edit_class.php` | High
+42 | File | `/admin/edit_fuel.php` | High
+43 | File | `/admin/edit_product.php` | High
+44 | File | `/admin/edit_user.php` | High
+45 | File | `/admin/inquiries/view_details.php` | High
+46 | File | `/admin/login.php` | High
+47 | File | `/admin/maintenance/view_designation.php` | High
+48 | File | `/admin/manage-normal-ticket.php` | High
+49 | File | `/Admin/mode.php` | High
+50 | File | `/admin/network/diag_nslookup` | High
+51 | File | `/admin/network/diag_pinginterface` | High
+52 | File | `/admin/newsletterdel.php` | High
+53 | File | `/admin/normal-search.php` | High
+54 | File | `/admin/options-theme.php` | High
+55 | File | `/admin/pages/student-print.php` | High
+56 | File | `/admin/password-recovery.php` | High
+57 | File | `/admin/php/crud.php` | High
+58 | File | `/admin/positions_row.php` | High
+59 | File | `/admin/print_barcode.php` | High
+60 | File | `/Admin/Proses_Edit_Akun.php` | High
+61 | File | `/admin/receipt.php` | High
+62 | File | `/admin/search-booking-request.php` | High
+63 | File | `/admin/search-pass.php` | High
+64 | File | `/Admin/sporttype.php` | High
+65 | File | `/admin/update-users.php` | High
+66 | File | `/admin/update_s8.php` | High
+67 | File | `/admin/update_user.php` | High
+68 | File | `/admin/upload/authorImg/` | High
+69 | File | `/admin/view-appointment.php` | High
+70 | File | `/admin/view-foreigner-ticket.php` | High
+71 | File | `/admin/voters_row.php` | High
+72 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+73 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+74 | File | `/admin_class.php?action=login` | High
+75 | File | `/admin_topic.php?action=delall` | High
+76 | File | `/ajax.php?action=delete_loan` | High
+77 | File | `/ajax.php?action=login` | High
+78 | File | `/ajax.php?action=save_plan` | High
+79 | File | `/api/admin/question/edit` | High
+80 | File | `/api/backend/v1/user/create` | High
+81 | File | `/api/controllers/common/UploadsController.php` | High
+82 | File | `/api/files/recipepictures/` | High
+83 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+84 | File | `/api/system/sendWebSocketMsg` | High
+85 | File | `/api/v1/settings` | High
+86 | File | `/app-api/v1/members/openid/` | High
+87 | File | `/app/ajax/search_sales_report.php` | High
+88 | File | `/app/ConfirmSmsCode` | High
+89 | File | `/application/models/ApplicationDataObject.class.php` | High
+90 | File | `/auth/user/all.api` | High
+91 | File | `/authentication.cgi` | High
+92 | File | `/bank/statements.php` | High
+93 | File | `/bank/transfer.php` | High
+94 | File | `/bin/httpd` | Medium
+95 | File | `/biurl_grou` | Medium
+96 | File | `/boafrm/formDdns` | High
+97 | File | `/boafrm/formDefRoute` | High
+98 | File | `/boafrm/formFilter` | High
+99 | File | `/boafrm/formParentControl` | High
+100 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+101 | File | `/boafrm/formVpnConfigSetup` | High
+102 | File | `/boafrm/formWsc` | High
+103 | File | `/bolt/editcontent/showcases` | High
+104 | File | `/bookingconfirm.php` | High
+105 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+106 | File | `/cart.php` | Medium
+107 | File | `/cart/index.php` | High
+108 | File | `/cart_remove.php` | High
+109 | ... | ... | ...
 
-There are 571 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 966 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -198,6 +244,19 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3587478/
 * https://urlhaus.abuse.ch/url/3593047/
 * https://urlhaus.abuse.ch/url/3593048/
+* https://urlhaus.abuse.ch/url/3635455/
+* https://urlhaus.abuse.ch/url/3646514/
+* https://urlhaus.abuse.ch/url/3677847/
+* https://urlhaus.abuse.ch/url/3718532/
+* https://urlhaus.abuse.ch/url/3718540/
+* https://urlhaus.abuse.ch/url/3718541/
+* https://urlhaus.abuse.ch/url/3718542/
+* https://urlhaus.abuse.ch/url/3718543/
+* https://urlhaus.abuse.ch/url/3724200/
+* https://urlhaus.abuse.ch/url/3729683/
+* https://urlhaus.abuse.ch/url/3730316/
+* https://urlhaus.abuse.ch/url/3734735/
+* https://urlhaus.abuse.ch/url/3739896/
 * https://www.elastic.co/security-labs/getting-gooey-with-guloader-downloader
 * https://www.malware-traffic-analysis.net/2024/08/26/index.html
 
@@ -210,4 +269,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

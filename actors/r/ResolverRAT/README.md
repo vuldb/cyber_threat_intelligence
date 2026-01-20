@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.144.53.137](https://vuldb.com/?ip.45.144.53.137) | 108787.h2.nexus | - | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -51,29 +52,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addbill.php` | Medium
-2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/contact-us.php` | High
-4 | File | `/admin/yesterday-reg-users.php` | High
-5 | File | `/ajax.php?action=calculate_payroll` | High
-6 | File | `/anchor/admin/categories/delete/2` | High
-7 | File | `/api/files/recipepictures/` | High
-8 | File | `/api/wizard/getBasicInfo` | High
-9 | File | `/cm/update_rows/page?id=2` | High
-10 | File | `/cupseasylive/itemgroupcreate.php` | High
-11 | File | `/Employee/delete_leave.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/general/address/private/address/query/delete.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/goform/setcfm` | High
-16 | File | `/goform/WriteFacMac` | High
-17 | File | `/home.php` | Medium
-18 | File | `/importexport.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/manage_laundry.php` | High
-21 | File | `/noncombo_save.php` | High
-22 | ... | ... | ...
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/about.php` | High
+4 | File | `/admin/add-customer-services.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax.php` | High
+7 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
+12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+13 | File | `/admin/change-emailid.php` | High
+14 | File | `/admin/contact-us.php` | High
+15 | File | `/admin/contactus.php` | High
+16 | File | `/admin/customer-list.php` | High
+17 | File | `/Admin/delete-fee.php` | High
+18 | File | `/admin/edit-brand.php` | High
+19 | File | `/admin/edit-user.php` | High
+20 | File | `/admin/editsite.php` | High
+21 | File | `/admin/menu.php` | High
+22 | File | `/admin/quote-details.php` | High
+23 | File | `/admin/sales-reports-detail.php` | High
+24 | File | `/admin/search-property.php` | High
+25 | File | `/admin/state.php` | High
+26 | File | `/admin/student-registration.php` | High
+27 | File | `/admin/transaction/deposit` | High
+28 | File | `/admin/user-bookings.php` | High
+29 | File | `/admin/yesterday-reg-users.php` | High
+30 | File | `/ajax.php?action=calculate_payroll` | High
+31 | File | `/anchor/admin/categories/delete/2` | High
+32 | File | `/api/files/recipepictures/` | High
+33 | File | `/api/wizard/getBasicInfo` | High
+34 | File | `/bbdms/admin/update-contactinfo.php` | High
+35 | File | `/binutils/debug.c` | High
+36 | File | `/boafrm/formDdns` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+39 | File | `/cm/update_rows/page?id=2` | High
+40 | File | `/cupseasylive/itemgroupcreate.php` | High
+41 | File | `/data/data/com.phonepe.app/databases/` | High
+42 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ce6402ae264ace318eebc4214f061ecb7253a87482834fddd96bf297eb733d44/
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3591561/
+* https://urlhaus.abuse.ch/url/3729964/
 * https://www.joesandbox.com/analysis/1753154/0/html
 * https://www.joesandbox.com/analysis/1754029/0/html
 * https://www.morphisec.com/blog/new-malware-variant-identified-resolverrat-enters-the-maze/
@@ -100,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

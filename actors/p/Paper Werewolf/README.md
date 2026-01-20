@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [85.198.110.216](https://vuldb.com/?ip.85.198.110.216) | v2679901.hosted-by-vdsina.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,24 +57,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/etc/openstack-dashboard/local_settings` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/php/ping.php` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/SysInfo1.htm` | High
-10 | File | `/sysinfo_json.cgi` | High
-11 | File | `/system/dictData/loadDictItem` | High
-12 | File | `/system/user/modules/mod_users/controller.php` | High
-13 | ... | ... | ...
+4 | File | `/config/pw_changeusers.html` | High
+5 | File | `/etc/openstack-dashboard/local_settings` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/SysInfo1.htm` | High
+11 | File | `/sysinfo_json.cgi` | High
+12 | File | `/system/dictData/loadDictItem` | High
+13 | File | `/system/user/modules/mod_users/controller.php` | High
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bi.zone/eng/expertise/blog/paper-werewolf-sovmeshchaet-kibershpionazh-s-destruktivnymi-deystviyami/
+* https://intezer.com/blog/tracing-a-paper-werewolf-campaign-through-ai-generated-decoys-and-excel-xlls/
 * https://www.secpod.com/blog/paper-werewolf-group-exploits-winrar-zero-day-to-spread-malware/
 
 ## Literature
@@ -86,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

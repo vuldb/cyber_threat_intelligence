@@ -66,42 +66,43 @@ ID | Type | Indicator | Confidence
 15 | File | `/Home/GetAttachment` | High
 16 | File | `/include/menu_v.inc.php` | High
 17 | File | `/librarian/lab.php` | High
-18 | File | `/login/` | Low
-19 | File | `/modules/projects/vw_files.php` | High
-20 | File | `/omos/admin/?page=user/list` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/p` | Low
-23 | File | `/panel/fields/add` | High
-24 | File | `/patient/settings.php` | High
-25 | File | `/proc/*/cmdline"` | High
-26 | File | `/proc/pid/syscall` | High
-27 | File | `/sbin/acos_service` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/var/log/pcp/configs.sh` | High
-32 | File | `/var/tmp/abrt/*/maps` | High
-33 | File | `action.php` | Medium
-34 | File | `add.asp` | Low
-35 | File | `addinterviewsform.php` | High
-36 | File | `admin-files/ad.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin/addsptemplate.php` | High
-39 | File | `admin/admin.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/limits.php` | High
-42 | File | `admin/membership_pricing.php` | High
-43 | File | `admin/picture/picture_real_edit.asp` | High
-44 | File | `admin/plugin.php` | High
-45 | File | `admin/view.asp` | High
-46 | File | `adminfoot.php` | High
-47 | File | `administration.php` | High
-48 | File | `advertise.php` | High
-49 | File | `api.php` | Low
-50 | File | `appl/user_user/server.c` | High
-51 | ... | ... | ...
+18 | File | `/login.aspx` | Medium
+19 | File | `/login.php` | Medium
+20 | File | `/login/` | Low
+21 | File | `/modules/projects/vw_files.php` | High
+22 | File | `/omos/admin/?page=user/list` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/p` | Low
+25 | File | `/panel/fields/add` | High
+26 | File | `/patient/settings.php` | High
+27 | File | `/proc/*/cmdline"` | High
+28 | File | `/proc/pid/syscall` | High
+29 | File | `/report/rented_info.php` | High
+30 | File | `/sbin/acos_service` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/var/log/pcp/configs.sh` | High
+35 | File | `/var/tmp/abrt/*/maps` | High
+36 | File | `/whisper.cpp/examples/common-whisper.cpp` | High
+37 | File | `action.php` | Medium
+38 | File | `add.asp` | Low
+39 | File | `addinterviewsform.php` | High
+40 | File | `admin-files/ad.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin/addsptemplate.php` | High
+43 | File | `admin/admin.php` | High
+44 | File | `admin/index.php` | High
+45 | File | `admin/limits.php` | High
+46 | File | `admin/membership_pricing.php` | High
+47 | File | `admin/picture/picture_real_edit.asp` | High
+48 | File | `admin/plugin.php` | High
+49 | File | `admin/view.asp` | High
+50 | File | `adminfoot.php` | High
+51 | File | `administration.php` | High
+52 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

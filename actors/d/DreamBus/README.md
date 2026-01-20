@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -47,18 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/baskets/{name}` | High
-2 | File | `/config/getuser` | High
-3 | File | `/endpoint/add-leads.php` | High
-4 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-5 | File | `/librarian/bookdetails.php` | High
-6 | File | `/mgmt/tm/util/bash` | High
-7 | File | `/staff/bookdetails.php` | High
-8 | File | `/student/bookdetails.php` | High
-9 | File | `/text/pdf/PdfReader.java` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/config/getuser` | High
+4 | File | `/endpoint/add-leads.php` | High
+5 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+6 | File | `/librarian/bookdetails.php` | High
+7 | File | `/mgmt/tm/util/bash` | High
+8 | File | `/staff/bookdetails.php` | High
+9 | File | `/student/bookdetails.php` | High
 10 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

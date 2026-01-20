@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SalatStealer:
 
 * [RU](https://vuldb.com/?country.ru)
+* [BG](https://vuldb.com/?country.bg)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -17,9 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [62.109.0.189](https://vuldb.com/?ip.62.109.0.189) | fesfsef.sefsef | - | High
-2 | [178.16.54.200](https://vuldb.com/?ip.178.16.54.200) | - | - | High
-3 | [178.16.55.189](https://vuldb.com/?ip.178.16.55.189) | - | - | High
+1 | [5.34.211.125](https://vuldb.com/?ip.5.34.211.125) | - | - | High
+2 | [62.109.0.189](https://vuldb.com/?ip.62.109.0.189) | fesfsef.sefsef | - | High
+3 | [64.188.91.81](https://vuldb.com/?ip.64.188.91.81) | s179516.luxhost.cc | - | High
+4 | ... | ... | ... | ...
+
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1552 | CWE-522 | Credentials Management | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,11 +45,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_review.php` | High
-2 | File | `/MIME/INBOX-MM-1/` | High
-3 | File | `contactus.php` | High
+2 | File | `/admin/upload/img` | High
+3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -54,6 +58,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3616566/
 * https://urlhaus.abuse.ch/url/3622680/
+* https://urlhaus.abuse.ch/url/3651089/
+* https://urlhaus.abuse.ch/url/3666168/
+* https://urlhaus.abuse.ch/url/3679294/
+* https://urlhaus.abuse.ch/url/3682710/
+* https://urlhaus.abuse.ch/url/3704457/
+* https://urlhaus.abuse.ch/url/3736897/
+* https://urlhaus.abuse.ch/url/3745399/
 
 ## Literature
 

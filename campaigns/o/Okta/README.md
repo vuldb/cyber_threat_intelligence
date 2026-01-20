@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,10 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,46 +60,55 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/accounts_con/register_account` | High
-3 | File | `/add_new_purchase.php?action=is_supplier` | High
-4 | File | `/admin/?page=reports` | High
-5 | File | `/admin/?page=system_info/contact_info` | High
-6 | File | `/admin/app/product.php` | High
-7 | File | `/admin/app/service_crud.php` | High
-8 | File | `/admin/blood/update/B-.php` | High
-9 | File | `/admin/edit_categories.php` | High
-10 | File | `/admin/fetch_product_details.php` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/Admin/login.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/massage.php` | High
-15 | File | `/admin/password-recovery.php` | High
-16 | File | `/admin/service/stop/` | High
-17 | File | `/admin/student.php` | High
-18 | File | `/admin/students/update_status.php` | High
-19 | File | `/admin/system.html` | High
-20 | File | `/advanced-tools/nova/bin/netwatch` | High
-21 | File | `/api/baskets/{name}` | High
-22 | File | `/app/admin/controller/api/Plugs.php` | High
-23 | File | `/app/api/controller/default/File.php` | High
-24 | File | `/app/api/controller/default/Sqlite.php` | High
-25 | File | `/app/controller/Setup.php` | High
-26 | File | `/assets/php/upload.php` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/bin/httpd` | Medium
-29 | File | `/bin/sh` | Low
-30 | File | `/binutils/debug.c` | High
-31 | File | `/bitrix/admin/ldap_server_edit.php` | High
-32 | File | `/cancel.php` | Medium
-33 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/firewall.cgi` | High
-36 | File | `/cgi-bin/login.cgi` | High
-37 | File | `/cgi-bin/luci;stok=/locale` | High
-38 | File | `/cgi-bin/nas_sharing.cgi` | High
-39 | File | `/collection/all` | High
-40 | ... | ... | ...
+3 | File | `/actuator` | Medium
+4 | File | `/addmem.php` | Medium
+5 | File | `/addProduct.php` | High
+6 | File | `/add_new_purchase.php?action=is_supplier` | High
+7 | File | `/admin/?page=reports` | High
+8 | File | `/admin/?page=system_info` | High
+9 | File | `/admin/?page=system_info/contact_info` | High
+10 | File | `/admin/?page=zone` | High
+11 | File | `/admin/app/product.php` | High
+12 | File | `/admin/app/service_crud.php` | High
+13 | File | `/admin/blood/update/B-.php` | High
+14 | File | `/admin/delete_student.php` | High
+15 | File | `/admin/delete_user.php` | High
+16 | File | `/admin/edit_categories.php` | High
+17 | File | `/admin/fetch_product_details.php` | High
+18 | File | `/admin/list_ipAddressPolicy.php` | High
+19 | File | `/Admin/login.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/login_query.php` | High
+22 | File | `/admin/massage.php` | High
+23 | File | `/admin/password-recovery.php` | High
+24 | File | `/admin/quesadd.php` | High
+25 | File | `/admin/service/stop/` | High
+26 | File | `/admin/student.php` | High
+27 | File | `/admin/students/update_status.php` | High
+28 | File | `/admin/system.html` | High
+29 | File | `/admin/view-member-report.php` | High
+30 | File | `/advanced-tools/nova/bin/netwatch` | High
+31 | File | `/api/baskets/{name}` | High
+32 | File | `/app/admin/controller/api/Plugs.php` | High
+33 | File | `/app/api/controller/default/File.php` | High
+34 | File | `/app/api/controller/default/Sqlite.php` | High
+35 | File | `/app/controller/Setup.php` | High
+36 | File | `/assets/php/upload.php` | High
+37 | File | `/bin/boa` | Medium
+38 | File | `/bin/httpd` | Medium
+39 | File | `/binutils/debug.c` | High
+40 | File | `/cancel.php` | Medium
+41 | File | `/cart/update/attr` | High
+42 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/firewall.cgi` | High
+45 | File | `/cgi-bin/login.cgi` | High
+46 | File | `/cgi-bin/luci;stok=/locale` | High
+47 | File | `/cgi-bin/nas_sharing.cgi` | High
+48 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+49 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Blackshades:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,10 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,18 +65,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_employee.php` | High
 2 | File | `/admin/updatestudent.php` | High
-3 | File | `/admin_page/all-files-update-ajax.php` | High
-4 | File | `/C6/JHSoft.Web.NetDisk/NetDiskProperty.aspx` | High
-5 | File | `/CDGServer3/UserAjax` | High
-6 | File | `/classes/Users.php?f=delete` | High
-7 | File | `/default.cfg` | Medium
-8 | File | `/delete.php` | Medium
-9 | File | `/dipam/athlete-profile.php` | High
-10 | File | `/edit-category.php?id=8` | High
-11 | File | `/goform/AdvSetWrl` | High
-12 | ... | ... | ...
+3 | File | `/C6/JHSoft.Web.NetDisk/NetDiskProperty.aspx` | High
+4 | File | `/CDGServer3/UserAjax` | High
+5 | File | `/classes/Users.php?f=delete` | High
+6 | File | `/default.cfg` | Medium
+7 | File | `/delete.php` | Medium
+8 | File | `/dipam/athlete-profile.php` | High
+9 | File | `/edit-category.php?id=8` | High
+10 | File | `/goform/AdvSetWrl` | High
+11 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -185,4 +184,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

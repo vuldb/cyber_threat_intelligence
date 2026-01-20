@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,22 +51,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-profile.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/api/runs/search/run/` | High
-4 | File | `/archibus/login.axvw` | High
-5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-6 | File | `/backend/admin/his_admin_register_patient.php` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/classes/SystemSettings.php?f=update_settings` | High
-9 | File | `/download` | Medium
-10 | File | `/foms/routers/place-order.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-13 | File | `/kortex_lite/control/edit_profile.php` | High
+1 | File | `/admin/add_account.php` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/api/runs/search/run/` | High
+5 | File | `/archibus/login.axvw` | High
+6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+7 | File | `/backend/admin/his_admin_register_patient.php` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/classes/SystemSettings.php?f=update_settings` | High
+10 | File | `/download` | Medium
+11 | File | `/foms/routers/place-order.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/home/index.html#hashHome` | High
 14 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -69,56 +69,57 @@ ID | Type | Indicator | Confidence
 7 | File | `/Admin/add-student.php` | High
 8 | File | `/admin/api/theme-edit/` | High
 9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/index3.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/manage-users.php` | High
-13 | File | `/admin/photo.php` | High
-14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-15 | File | `/anony/mjpg.cgi` | High
-16 | File | `/api/wizard/setsyncpppoecfg` | High
-17 | File | `/application/plugins/controller/Upload.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/auth` | Low
-20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-21 | File | `/catcompany.php` | High
-22 | File | `/cms/category/list` | High
-23 | File | `/dashboard/view-chair-list.php` | High
-24 | File | `/Default/Bd` | Medium
-25 | File | `/ebics-server/ebics.aspx` | High
-26 | File | `/egroupware/index.php` | High
-27 | File | `/etc/hosts` | Medium
-28 | File | `/etc/shadow.sample` | High
-29 | File | `/filemanager/upload.php` | High
-30 | File | `/forms/doLogin` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/general/address/private/address/query/delete.php` | High
-33 | File | `/GponForm/device_Form?script/` | High
-34 | File | `/GponForm/fsetup_Form` | High
-35 | File | `/GponForm/usb_restore_Form?script/` | High
-36 | File | `/hrm/employeeview.php` | High
-37 | File | `/html/device-id` | High
-38 | File | `/importexport.php` | High
-39 | File | `/includes/decorators/global-translations.jsp` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index/ajax/lang` | High
-42 | File | `/loginsave.php` | High
-43 | File | `/param.file.tgz` | High
-44 | File | `/product_list.php` | High
-45 | File | `/public_html/users.php` | High
-46 | File | `/resolve` | Medium
-47 | File | `/secure/QueryComponent!Default.jspa` | High
-48 | File | `/see_more_details.php` | High
-49 | File | `/server-status` | High
-50 | File | `/setSystemAdmin` | High
-51 | File | `/spip.php` | Medium
-52 | File | `/uncpath/` | Medium
-53 | File | `/user/s.php` | Medium
-54 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-55 | File | `/WEB-INF/web.xml` | High
-56 | File | `/wireless/guestnetwork.asp` | High
-57 | ... | ... | ...
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index3.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/manage-users.php` | High
+14 | File | `/admin/photo.php` | High
+15 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+16 | File | `/anony/mjpg.cgi` | High
+17 | File | `/api/wizard/setsyncpppoecfg` | High
+18 | File | `/application/plugins/controller/Upload.php` | High
+19 | File | `/apply.cgi` | Medium
+20 | File | `/auth` | Low
+21 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+22 | File | `/catcompany.php` | High
+23 | File | `/cms/category/list` | High
+24 | File | `/dashboard/updatelogo.php` | High
+25 | File | `/dashboard/view-chair-list.php` | High
+26 | File | `/Default/Bd` | Medium
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/egroupware/index.php` | High
+29 | File | `/etc/hosts` | Medium
+30 | File | `/etc/shadow.sample` | High
+31 | File | `/filemanager/upload.php` | High
+32 | File | `/forms/doLogin` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/general/address/private/address/query/delete.php` | High
+35 | File | `/GponForm/device_Form?script/` | High
+36 | File | `/GponForm/fsetup_Form` | High
+37 | File | `/GponForm/usb_restore_Form?script/` | High
+38 | File | `/hrm/employeeview.php` | High
+39 | File | `/html/device-id` | High
+40 | File | `/importexport.php` | High
+41 | File | `/includes/decorators/global-translations.jsp` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index/ajax/lang` | High
+44 | File | `/loginsave.php` | High
+45 | File | `/param.file.tgz` | High
+46 | File | `/payment_save.php` | High
+47 | File | `/product_list.php` | High
+48 | File | `/public_html/users.php` | High
+49 | File | `/resolve` | Medium
+50 | File | `/secure/QueryComponent!Default.jspa` | High
+51 | File | `/see_more_details.php` | High
+52 | File | `/server-status` | High
+53 | File | `/setSystemAdmin` | High
+54 | File | `/spip.php` | Medium
+55 | File | `/uncpath/` | Medium
+56 | File | `/user/s.php` | Medium
+57 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+58 | ... | ... | ...
 
-There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

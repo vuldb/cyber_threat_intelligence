@@ -58,46 +58,47 @@ ID | Type | Indicator | Confidence
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin-api/mp/material/upload-temporary` | High
 4 | File | `/admin/attendance_action.php` | High
-5 | File | `/admin/eligibility.php` | High
-6 | File | `/admin/payment_save.php` | High
-7 | File | `/admin/profile.php` | High
-8 | File | `/admin/settings/index.php?page=accounts` | High
-9 | File | `/admin/sysmon.php` | High
-10 | File | `/AGE0000700/GetImageMedico?fooId=1` | High
-11 | File | `/api/content/posts/comments` | High
-12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/editBookmark` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/cimom` | Low
-20 | File | `/classes/SystemSettings.php?f=update_settings` | High
-21 | File | `/controllers/updatesettings.php` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/domain/add` | Medium
-24 | File | `/editBranchResult.php` | High
-25 | File | `/etc/pki/pesign` | High
-26 | File | `/get_work_dir_files` | High
-27 | File | `/goform/addressNat` | High
-28 | File | `/goform/aspForm` | High
-29 | File | `/goform/GetParentControlInfo` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/Home/GetAttachment` | High
-32 | File | `/include/menu_v.inc.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
-35 | File | `/librarian/lab.php` | High
-36 | File | `/login/` | Low
-37 | File | `/main?cmd=invalid_browser` | High
-38 | File | `/me` | Low
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/Moosikay/order.php` | High
-41 | File | `/omos/admin/?page=user/list` | High
-42 | ... | ... | ...
+5 | File | `/admin/changeimage.php` | High
+6 | File | `/admin/edit-teacher-detail.php` | High
+7 | File | `/admin/eligibility.php` | High
+8 | File | `/admin/payment_save.php` | High
+9 | File | `/admin/profile.php` | High
+10 | File | `/admin/settings/index.php?page=accounts` | High
+11 | File | `/admin/sysmon.php` | High
+12 | File | `/AGE0000700/GetImageMedico?fooId=1` | High
+13 | File | `/api/content/posts/comments` | High
+14 | File | `/api/login/auth` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+17 | File | `/bin/httpd` | Medium
+18 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/editBookmark` | High
+21 | File | `/cgi-bin/nas_sharing.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/cimom` | Low
+24 | File | `/classes/SystemSettings.php?f=update_settings` | High
+25 | File | `/controllers/updatesettings.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dev/nvme0n1` | Medium
+28 | File | `/domain/add` | Medium
+29 | File | `/editBranchResult.php` | High
+30 | File | `/editmyexp.php` | High
+31 | File | `/etc/pki/pesign` | High
+32 | File | `/get_work_dir_files` | High
+33 | File | `/goform/addressNat` | High
+34 | File | `/goform/aspForm` | High
+35 | File | `/goform/GetParentControlInfo` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/Home/GetAttachment` | High
+38 | File | `/include/menu_v.inc.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+41 | File | `/librarian/lab.php` | High
+42 | File | `/login.aspx` | Medium
+43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

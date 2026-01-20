@@ -66,55 +66,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addcompany.php` | High
-2 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/link/link_mod.php` | High
-5 | File | `/adminapi/system/crud` | High
-6 | File | `/animalsadd.php` | High
-7 | File | `/api/` | Low
-8 | File | `/api/Common/uploadFile` | High
-9 | File | `/api/RecordingList/DownloadRecord?file=` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/app/options.py` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/luci` | High
-15 | File | `/cgi-bin/luci;stok=/locale` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/sshcheck.cgi` | High
-18 | File | `/classes/Master.php` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/common/download?filename=1.jsp&delete=false` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/crmeb/crmeb/services/UploadService.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/etc/postfix/sender_login` | High
-25 | File | `/example/editor` | High
-26 | File | `/filemanager/php/connector.php` | High
-27 | File | `/filemanager/upload.php` | High
-28 | File | `/forgetpassword.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/ghost/preview` | High
-31 | File | `/goForm/aspForm` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/home/www/cgi-bin/login.cgi` | High
-34 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
-35 | File | `/index/ajax/lang` | High
-36 | File | `/Items/*/RemoteImages/Download` | High
-37 | File | `/items/view_item.php` | High
-38 | File | `/javascript.php` | High
-39 | File | `/jeecg-boot/sys/common/upload` | High
-40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/login.php` | Medium
-42 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-43 | File | `/mail/index.html` | High
-44 | File | `/medical/inventories.php` | High
-45 | File | `/modules/profile/index.php` | High
-46 | File | `/oews/classes/Master.php?f=save_product` | High
-47 | File | `/opac_css/pmb.php` | High
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/link/link_mod.php` | High
+6 | File | `/adminapi/system/crud` | High
+7 | File | `/animalsadd.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/Common/uploadFile` | High
+10 | File | `/api/RecordingList/DownloadRecord?file=` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/api/trackedEntityInstances` | High
+13 | File | `/app/options.py` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/luci` | High
+16 | File | `/cgi-bin/luci;stok=/locale` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/cgi/sshcheck.cgi` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/common/download?filename=1.jsp&delete=false` | High
+22 | File | `/context/%2e/WEB-INF/web.xml` | High
+23 | File | `/crmeb/crmeb/services/UploadService.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/etc/postfix/sender_login` | High
+26 | File | `/example/editor` | High
+27 | File | `/filemanager/php/connector.php` | High
+28 | File | `/filemanager/upload.php` | High
+29 | File | `/forgetpassword.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/ghost/preview` | High
+32 | File | `/goForm/aspForm` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/home/www/cgi-bin/login.cgi` | High
+35 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
+36 | File | `/index/ajax/lang` | High
+37 | File | `/Items/*/RemoteImages/Download` | High
+38 | File | `/items/view_item.php` | High
+39 | File | `/javascript.php` | High
+40 | File | `/jeecg-boot/sys/common/upload` | High
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/login.php` | Medium
+43 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+44 | File | `/mail/index.html` | High
+45 | File | `/medical/inventories.php` | High
+46 | File | `/modules/profile/index.php` | High
+47 | File | `/oews/classes/Master.php?f=save_product` | High
 48 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

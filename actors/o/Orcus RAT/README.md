@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Orcus RAT:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [VN](https://vuldb.com/?country.vn)
+* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,9 +90,12 @@ ID | IP address | Hostname | Campaign | Confidence
 67 | [42.119.96.173](https://vuldb.com/?ip.42.119.96.173) | - | - | High
 68 | [42.119.96.254](https://vuldb.com/?ip.42.119.96.254) | - | - | High
 69 | [42.119.133.44](https://vuldb.com/?ip.42.119.133.44) | - | - | High
-70 | ... | ... | ... | ...
+70 | [42.119.166.132](https://vuldb.com/?ip.42.119.166.132) | - | - | High
+71 | [45.74.38.211](https://vuldb.com/?ip.45.74.38.211) | - | - | High
+72 | [45.88.91.213](https://vuldb.com/?ip.45.88.91.213) | - | - | High
+73 | ... | ... | ... | ...
 
-There are 275 more IOC items available. Please use our online service to access the data.
+There are 288 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,13 +103,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29, CWE-37 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,40 +116,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-admin.php` | High
-2 | File | `/admin/archives/edit` | High
-3 | File | `/admin/edit-user.php` | High
-4 | File | `/admin/edit_user.php` | High
-5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/api.php` | Medium
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/approve.php` | Medium
-11 | File | `/approve_lawyer.php` | High
+1 | File | `/admin/` | Low
+2 | File | `/Admin/add-admin.php` | High
+3 | File | `/admin/admin-area.php` | High
+4 | File | `/admin/archives/edit` | High
+5 | File | `/admin/edit-user.php` | High
+6 | File | `/admin/edit_user.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/api.php` | Medium
+9 | File | `/approve.php` | Medium
+10 | File | `/approve_lawyer.php` | High
+11 | File | `/basico/webservice/imprimir-danfe/id/` | High
 12 | File | `/cancel.php` | Medium
 13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/dashboard.php` | High
-15 | File | `/deletefile.php` | High
-16 | File | `/downloadFile.php` | High
-17 | File | `/endpoint/add-guest.php` | High
-18 | File | `/endpoint/delete-account.php` | High
-19 | File | `/endpoint/delete-contact.php` | High
-20 | File | `/endpoint/delete.php` | High
-21 | File | `/endpoint/update-bookmark.php` | High
-22 | File | `/endpoint/update-tracker.php` | High
-23 | File | `/endpoint/update.php` | High
-24 | File | `/forgot-password.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
-27 | ... | ... | ...
+14 | File | `/config/pw_changeusers.html` | High
+15 | File | `/dashboard.php` | High
+16 | File | `/deletefile.php` | High
+17 | File | `/downloadFile.php` | High
+18 | File | `/ecommerce/admin/login.php` | High
+19 | File | `/educacenso/consulta` | High
+20 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/6b78ec12-633c-4923-aff4-594d8200437a
 * https://bazaar.abuse.ch/sample/31f17bf44fd2ce3fb0fde898d5bea0c35d18c82d3e2e9fcdae3cb8cd9f9fffb4/
 * https://search.censys.io/hosts/1.53.19.147
 * https://search.censys.io/hosts/1.53.31.120
@@ -194,9 +190,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.204.82.103
 * https://search.censys.io/hosts/58.187.115.100
 * https://search.censys.io/hosts/61.92.130.64
+* https://search.censys.io/hosts/62.60.232.203
 * https://search.censys.io/hosts/62.102.148.131
+* https://search.censys.io/hosts/64.23.174.140
 * https://search.censys.io/hosts/70.18.38.56
 * https://search.censys.io/hosts/73.3.46.163
+* https://search.censys.io/hosts/77.50.205.161
 * https://search.censys.io/hosts/77.232.132.25
 * https://search.censys.io/hosts/78.46.45.94
 * https://search.censys.io/hosts/79.110.49.27
@@ -209,6 +208,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/89.208.105.120
 * https://search.censys.io/hosts/89.232.195.236
 * https://search.censys.io/hosts/91.92.242.128
+* https://search.censys.io/hosts/91.200.220.136
 * https://search.censys.io/hosts/91.227.18.139
 * https://search.censys.io/hosts/91.227.18.174
 * https://search.censys.io/hosts/91.227.18.226
@@ -219,6 +219,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/94.156.66.77
 * https://search.censys.io/hosts/95.164.52.82
 * https://search.censys.io/hosts/95.164.114.247
+* https://search.censys.io/hosts/95.181.212.113
 * https://search.censys.io/hosts/99.169.71.160
 * https://search.censys.io/hosts/103.106.203.165
 * https://search.censys.io/hosts/103.155.214.134
@@ -253,6 +254,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/154.245.132.20
 * https://search.censys.io/hosts/154.245.216.63
 * https://search.censys.io/hosts/154.245.225.202
+* https://search.censys.io/hosts/167.71.226.51
 * https://search.censys.io/hosts/176.100.37.214
 * https://search.censys.io/hosts/183.80.182.24
 * https://search.censys.io/hosts/183.80.186.171
@@ -297,7 +299,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/206.84.154.119
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+orcus+and+not+labels%3A+tarpit
 * https://threatfox.abuse.ch
+* https://tria.ge/251022-clwnrstqew
+* https://tria.ge/251024-dvy1xswmhl
+* https://tria.ge/251130-rpexraaj61
 * https://www.shodan.io/host/79.116.56.221#10134
+* https://www.shodan.io/host/82.147.84.79#1337
 * https://www.shodan.io/host/147.50.253.4#10134
 * https://www.shodan.io/host/160.177.0.69#10134
 * https://www.shodan.io/host/160.179.160.252#10134
@@ -305,7 +311,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/171.113.133.41#10134
 * https://www.shodan.io/host/171.113.136.127#10134
 * https://www.shodan.io/host/194.59.30.88#10134
+* https://www.shodan.io/host/194.59.31.139#10134
 * https://www.shodan.io/host/194.87.68.243#10134
+* https://www.shodan.io/host/195.177.94.216#10134
 * https://www.shodan.io/host/196.64.210.33#10134
 * https://www.virustotal.com/gui/file/07b742c9303e04be588f20f51d68828cae04a1af02cb6d09a9d935007dbb4906/detection
 

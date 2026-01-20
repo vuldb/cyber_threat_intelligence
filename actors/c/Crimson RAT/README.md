@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crimson RAT:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,25 +32,26 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.9.191.183](https://vuldb.com/?ip.45.9.191.183) | srv515612.hstgr.cloud | - | High
 10 | [45.14.194.253](https://vuldb.com/?ip.45.14.194.253) | vmi1497978.contaboserver.net | - | High
 11 | [45.15.143.151](https://vuldb.com/?ip.45.15.143.151) | - | - | High
-12 | [45.61.151.96](https://vuldb.com/?ip.45.61.151.96) | 96.151.61.45.static.cloudzy.com | - | High
-13 | [45.61.158.240](https://vuldb.com/?ip.45.61.158.240) | - | - | High
-14 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | - | Medium
-15 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | - | High
-16 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | - | High
-17 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | - | High
-18 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | - | High
-19 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | - | High
-20 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | - | Medium
-21 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | - | Medium
-22 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | - | High
-23 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | - | High
-24 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
-25 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
-26 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | - | High
-27 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | - | High
-28 | ... | ... | ... | ...
+12 | [45.61.151.33](https://vuldb.com/?ip.45.61.151.33) | 33.151.61.45.static.cloudzy.com | - | High
+13 | [45.61.151.96](https://vuldb.com/?ip.45.61.151.96) | 96.151.61.45.static.cloudzy.com | - | High
+14 | [45.61.157.210](https://vuldb.com/?ip.45.61.157.210) | 210.157.61.45.static.cloudzy.com | - | High
+15 | [45.61.158.240](https://vuldb.com/?ip.45.61.158.240) | - | - | High
+16 | [45.77.46.245](https://vuldb.com/?ip.45.77.46.245) | 45.77.46.245.vultrusercontent.com | - | Medium
+17 | [45.90.58.103](https://vuldb.com/?ip.45.90.58.103) | - | - | High
+18 | [45.130.229.181](https://vuldb.com/?ip.45.130.229.181) | - | - | High
+19 | [49.157.28.114](https://vuldb.com/?ip.49.157.28.114) | 114.28.157.49.dsl.static.eastern-tele.com | - | High
+20 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | - | High
+21 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | - | High
+22 | [64.176.37.107](https://vuldb.com/?ip.64.176.37.107) | 64.176.37.107.vultrusercontent.com | - | Medium
+23 | [64.176.50.42](https://vuldb.com/?ip.64.176.50.42) | 64.176.50.42.vultrusercontent.com | - | Medium
+24 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | - | High
+25 | [64.188.25.43](https://vuldb.com/?ip.64.188.25.43) | 64.188.25.43.static.quadranet.com | - | High
+26 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
+27 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
+28 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 106 more IOC items available. Please use our online service to access the data.
+There are 113 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,13 +59,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,17 +74,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admin/positions.php` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | ... | ... | ...
+1 | File | `/admin/archives_add.php` | High
+2 | File | `/admin/categories/save` | High
+3 | File | `/admin/contact-us.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/newsletterdel.php` | High
+6 | File | `/admin/pages/` | High
+7 | File | `/admin/positions.php` | High
+8 | File | `/admin/receipt.php` | High
+9 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+11 | File | `/admins` | Low
+12 | File | `/ajax.php?action=login` | High
+13 | File | `/ajax/getBasicInfo.php` | High
+14 | File | `/api/admin/system/store/order/list` | High
+15 | File | `/api/files/recipepictures/` | High
+16 | File | `/authentication.cgi` | High
+17 | File | `/boafrm/formDdns` | High
+18 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+19 | File | `/boafrm/formVpnConfigSetup` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/clientdetails/admin/regester.php` | High
+23 | File | `/csms/?page=contact_us` | High
+24 | File | `/detailtransac.php` | High
+25 | File | `/dev/ptpX` | Medium
+26 | File | `/editeddonor.php` | High
+27 | File | `/editprofile.php` | High
+28 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,12 +115,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/sophoslabs/IoCs/blob/master/crimson_palace_stac1870_bravo.csv
 * https://search.censys.io/hosts/5.189.140.142
 * https://search.censys.io/hosts/37.60.236.186
+* https://search.censys.io/hosts/45.61.151.33
 * https://search.censys.io/hosts/45.61.151.96
+* https://search.censys.io/hosts/45.61.157.210
 * https://search.censys.io/hosts/45.61.158.240
+* https://search.censys.io/hosts/69.169.97.118
 * https://search.censys.io/hosts/81.17.102.55
+* https://search.censys.io/hosts/83.147.19.208
 * https://search.censys.io/hosts/91.107.209.50
 * https://search.censys.io/hosts/94.177.123.112
 * https://search.censys.io/hosts/107.175.113.198
+* https://search.censys.io/hosts/107.189.19.88
 * https://search.censys.io/hosts/107.189.26.70
 * https://search.censys.io/hosts/109.199.108.1
 * https://search.censys.io/hosts/138.201.245.101
@@ -107,6 +133,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/145.223.69.212
 * https://search.censys.io/hosts/161.97.180.199
 * https://search.censys.io/hosts/165.140.85.87
+* https://search.censys.io/hosts/167.86.113.241
 * https://search.censys.io/hosts/172.86.80.211
 * https://search.censys.io/hosts/172.86.96.67
 * https://search.censys.io/hosts/172.86.109.207
@@ -115,6 +142,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227
 * https://search.censys.io/hosts/209.145.56.66
+* https://search.censys.io/hosts/209.200.246.43
+* https://search.censys.io/hosts/209.200.246.45
 * https://search.censys.io/hosts/209.200.246.188
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
@@ -136,4 +165,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

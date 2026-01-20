@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,20 +56,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/anony/mjpg.cgi` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/index.php?app=main&func=passport&action=login` | High
-6 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-7 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `ArchivesMapper.xml` | High
-10 | File | `blind\source\high.php` | High
-11 | File | `cart.php` | Medium
-12 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/add_payroll.php` | High
+3 | File | `/admin/operations/travellers.php` | High
+4 | File | `/admin/role/list` | High
+5 | File | `/admin/sys/admin.html` | High
+6 | File | `/anony/mjpg.cgi` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+9 | File | `/crm/data/pdf.php` | High
+10 | File | `/cussignup.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/email/send_code` | High
+13 | File | `/etc_ro/shadow` | High
+14 | File | `/goform/SetIpMacBind` | High
+15 | File | `/goform/telnet` | High
+16 | File | `/goform/wirelessBasic` | High
+17 | File | `/index.php?app=main&func=passport&action=login` | High
+18 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

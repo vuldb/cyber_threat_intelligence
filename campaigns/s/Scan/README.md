@@ -63,31 +63,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/adminlogin.asp` | High
-5 | File | `/ajax.php` | Medium
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/mc-admin/post.php?state=delete&delete` | High
-9 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-10 | File | `/proc/self/setgroups` | High
-11 | File | `/sasfs1` | Low
-12 | File | `/secure/QueryComponent!Default.jspa` | High
-13 | File | `/userRpm/PingIframeRpm.htm` | High
-14 | File | `/webman/info.cgi` | High
-15 | File | `/wp-admin/options.php` | High
-16 | File | `adclick.php` | Medium
-17 | File | `addentry.php` | Medium
-18 | File | `addmember.php` | High
-19 | File | `addtocart.asp` | High
-20 | File | `addtomylist.asp` | High
-21 | File | `admin.jcomments.php` | High
-22 | File | `admin.x-shop.php` | High
-23 | ... | ... | ...
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/admin.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/adminlogin.asp` | High
+6 | File | `/ajax.php` | Medium
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/mc-admin/post.php?state=delete&delete` | High
+10 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+11 | File | `/proc/self/setgroups` | High
+12 | File | `/sasfs1` | Low
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/userRpm/PingIframeRpm.htm` | High
+15 | File | `/webman/info.cgi` | High
+16 | File | `/wp-admin/options.php` | High
+17 | File | `adclick.php` | Medium
+18 | File | `addentry.php` | Medium
+19 | File | `addmember.php` | High
+20 | File | `addtocart.asp` | High
+21 | File | `addtomylist.asp` | High
+22 | File | `admin.jcomments.php` | High
+23 | File | `admin.x-shop.php` | High
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

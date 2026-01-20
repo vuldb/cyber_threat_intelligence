@@ -27,40 +27,40 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [0.0.1.1](https://vuldb.com/?ip.0.0.1.1) | - | - | High
-2 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
-3 | [5.75.212.196](https://vuldb.com/?ip.5.75.212.196) | downtowninbusiness.com | - | High
-4 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
-5 | [5.187.7.144](https://vuldb.com/?ip.5.187.7.144) | 239476.fornex.cloud | - | High
-6 | [5.252.118.50](https://vuldb.com/?ip.5.252.118.50) | cageyhouses.aeza.network | - | High
-7 | [5.253.59.210](https://vuldb.com/?ip.5.253.59.210) | 47149.ip-ptr.tech | - | High
-8 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
-9 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
-10 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
-11 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
-12 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
-13 | [31.220.109.219](https://vuldb.com/?ip.31.220.109.219) | srv637656.hstgr.cloud | - | High
-14 | [37.143.15.50](https://vuldb.com/?ip.37.143.15.50) | hosted-by.ihc.ru | - | High
-15 | [38.180.147.18](https://vuldb.com/?ip.38.180.147.18) | - | - | High
-16 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
-17 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
-18 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-19 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-20 | [45.61.157.226](https://vuldb.com/?ip.45.61.157.226) | 226.157.61.45.static.cloudzy.com | - | High
-21 | [45.134.26.149](https://vuldb.com/?ip.45.134.26.149) | - | - | High
-22 | [45.159.189.41](https://vuldb.com/?ip.45.159.189.41) | edgewayfunds.com | - | High
-23 | [46.202.155.128](https://vuldb.com/?ip.46.202.155.128) | srv663770.hstgr.cloud | - | High
-24 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
-25 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
-26 | [64.227.2.250](https://vuldb.com/?ip.64.227.2.250) | routemate.us | - | High
-27 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
-28 | [75.15.140.9](https://vuldb.com/?ip.75.15.140.9) | 75-15-140-9.lightspeed.rcsntx.sbcglobal.net | - | High
-29 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
-30 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-31 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
-32 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
-33 | [79.133.46.59](https://vuldb.com/?ip.79.133.46.59) | - | - | High
-34 | [79.137.203.190](https://vuldb.com/?ip.79.137.203.190) | astonishing-bike.aeza.network | - | High
+1 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
+2 | [5.75.212.196](https://vuldb.com/?ip.5.75.212.196) | downtowninbusiness.com | - | High
+3 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
+4 | [5.187.7.144](https://vuldb.com/?ip.5.187.7.144) | 239476.fornex.cloud | - | High
+5 | [5.252.118.50](https://vuldb.com/?ip.5.252.118.50) | cageyhouses.aeza.network | - | High
+6 | [5.253.59.210](https://vuldb.com/?ip.5.253.59.210) | 47149.ip-ptr.tech | - | High
+7 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
+8 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
+9 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
+10 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
+11 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
+12 | [31.220.109.219](https://vuldb.com/?ip.31.220.109.219) | srv637656.hstgr.cloud | - | High
+13 | [37.143.15.50](https://vuldb.com/?ip.37.143.15.50) | hosted-by.ihc.ru | - | High
+14 | [38.180.147.18](https://vuldb.com/?ip.38.180.147.18) | - | - | High
+15 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
+16 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
+17 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
+18 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
+19 | [45.61.157.226](https://vuldb.com/?ip.45.61.157.226) | 226.157.61.45.static.cloudzy.com | - | High
+20 | [45.134.26.149](https://vuldb.com/?ip.45.134.26.149) | - | - | High
+21 | [45.159.189.41](https://vuldb.com/?ip.45.159.189.41) | edgewayfunds.com | - | High
+22 | [46.202.155.128](https://vuldb.com/?ip.46.202.155.128) | srv663770.hstgr.cloud | - | High
+23 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
+24 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
+25 | [64.227.2.250](https://vuldb.com/?ip.64.227.2.250) | routemate.us | - | High
+26 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
+27 | [75.15.140.9](https://vuldb.com/?ip.75.15.140.9) | 75-15-140-9.lightspeed.rcsntx.sbcglobal.net | - | High
+28 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+29 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+30 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+31 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
+32 | [79.133.46.59](https://vuldb.com/?ip.79.133.46.59) | - | - | High
+33 | [79.137.203.190](https://vuldb.com/?ip.79.137.203.190) | astonishing-bike.aeza.network | - | High
+34 | [80.64.18.161](https://vuldb.com/?ip.80.64.18.161) | - | - | High
 35 | ... | ... | ... | ...
 
 There are 136 more IOC items available. Please use our online service to access the data.
@@ -77,7 +77,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,25 +97,24 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/wizard/getDualbandSync` | High
 11 | File | `/apply.cgi` | Medium
 12 | File | `/boafrm/formReflashClientTbl` | High
-13 | File | `/cancelar-enturmacao-em-lote/` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/hd_config.cgi` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/diario-de-observacoes/` | High
-18 | File | `/edit-computer-detail.php` | High
-19 | File | `/edit_student.php` | High
-20 | File | `/expedit.php` | Medium
-21 | File | `/export` | Low
-22 | File | `/film-rating.php` | High
-23 | File | `/goform/RP_setBasicAuto` | High
-24 | File | `/goform/SetOnlineDevName` | High
-25 | File | `/goform/SetSpeedWan` | High
-26 | File | `/index.php` | Medium
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/login_query12.php` | High
-29 | ... | ... | ...
+13 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+14 | File | `/cancelar-enturmacao-em-lote/` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/hd_config.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/config/pw_changeusers.html` | High
+19 | File | `/diario-de-observacoes/` | High
+20 | File | `/edit-computer-detail.php` | High
+21 | File | `/edit_student.php` | High
+22 | File | `/expedit.php` | Medium
+23 | File | `/export` | Low
+24 | File | `/film-rating.php` | High
+25 | File | `/goform/RP_setBasicAuto` | High
+26 | File | `/goform/SetOnlineDevName` | High
+27 | File | `/goform/SetSpeedWan` | High
+28 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,7 +166,6 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/sekoia_io/status/1572889505497223169
 * https://urlhaus.abuse.ch/url/3318251/
 * https://urlhaus.abuse.ch/url/3614179/
-* https://urlscan.io/result/0196ddb8-bdeb-7609-9355-df1ac9956cac
 * https://www.cyfirma.com/research/fake-telegram-premium-site-distributes-new-lumma-stealer-variant/
 * https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html
 * https://www.virustotal.com/gui/file/003adbecefd7df6a0b90f6613c338096291ac12a3c7309fccdc09c4de4724be0
@@ -183,4 +181,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

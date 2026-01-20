@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -65,63 +65,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\SSCService` | High
-2 | File | `/admin/adminproc.asp` | High
-3 | File | `/admin/ajax_products_list.php` | High
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/manage_academic.php` | High
-6 | File | `/admin/photo.php` | High
-7 | File | `/admin/upload.php` | High
-8 | File | `/admin/user/user-move-run.php` | High
-9 | File | `/ajax_city.php` | High
-10 | File | `/anony/mjpg.cgi` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-14 | File | `/applications/nexus/modules/front/store/store.php` | High
-15 | File | `/blog` | Low
-16 | File | `/browse.php` | Medium
-17 | File | `/cas/logout` | Medium
-18 | File | `/CCMAdmin/serverlist.asp` | High
-19 | File | `/cgi-bin/download_config.cgi` | High
-20 | File | `/cgi-bin/settings-firewall.cgi` | High
-21 | File | `/common/logViewer/logViewer.jsf` | High
-22 | File | `/config/config.json` | High
-23 | File | `/controller/Index.php` | High
-24 | File | `/course/filterRecords/` | High
-25 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-26 | File | `/cwms/classes/Master.php?f=save_contact` | High
-27 | File | `/dashboard/updatelogo.php` | High
-28 | File | `/debug/` | Low
-29 | File | `/dede/file_manage_control.php` | High
-30 | File | `/download` | Medium
-31 | File | `/fcgi/scrut_fcgi.fcgi` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/gasmark/assets/myimages/oneWord.php` | High
-34 | File | `/gena.cgi` | Medium
-35 | File | `/goform/apPortalPhoneAuth` | High
-36 | File | `/goform/SafeEmailFilter` | High
-37 | File | `/goform/wirelessAdvancedHidden` | High
-38 | File | `/homeaction.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php/sysmanage/Login/login_auth/` | High
-41 | File | `/lms/classes/Master.php?f=save_record` | High
-42 | File | `/modules/profile/index.php` | High
-43 | File | `/multi-vendor-shopping-script/product-list.php` | High
-44 | File | `/mygym/admin/index.php` | High
-45 | File | `/p` | Low
-46 | File | `/php/ping.php` | High
-47 | File | `/portal/search.htm` | High
-48 | File | `/preauth` | Medium
-49 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-50 | File | `/rom-0` | Low
-51 | File | `/send_order.cgi?parameter=restart` | High
-52 | File | `/shell` | Low
-53 | File | `/shopping/admin/index.php` | High
-54 | File | `/show_news.php` | High
-55 | File | `/student/bookdetails.php` | High
-56 | ... | ... | ...
+2 | File | `../mtd/Config/Sha1Account1` | High
+3 | File | `/admin/adminproc.asp` | High
+4 | File | `/admin/ajax_products_list.php` | High
+5 | File | `/admin/booking-search.php` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/manage_academic.php` | High
+8 | File | `/admin/photo.php` | High
+9 | File | `/admin/upload.php` | High
+10 | File | `/admin/user/user-move-run.php` | High
+11 | File | `/advancesearch.php` | High
+12 | File | `/ajax_city.php` | High
+13 | File | `/anony/mjpg.cgi` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/application/index/controller/Databasesource.php` | High
+16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+17 | File | `/applications/nexus/modules/front/store/store.php` | High
+18 | File | `/blog` | Low
+19 | File | `/browse.php` | Medium
+20 | File | `/cas/logout` | Medium
+21 | File | `/CCMAdmin/serverlist.asp` | High
+22 | File | `/cgi-bin/download_config.cgi` | High
+23 | File | `/cgi-bin/settings-firewall.cgi` | High
+24 | File | `/checkout/confirm/` | High
+25 | File | `/common/logViewer/logViewer.jsf` | High
+26 | File | `/config/config.json` | High
+27 | File | `/config/getuser` | High
+28 | File | `/controller/Index.php` | High
+29 | File | `/course/filterRecords/` | High
+30 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+31 | File | `/cwms/classes/Master.php?f=save_contact` | High
+32 | File | `/dashboard/updatelogo.php` | High
+33 | File | `/debug/` | Low
+34 | File | `/dede/file_manage_control.php` | High
+35 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+36 | File | `/download` | Medium
+37 | File | `/fcgi/scrut_fcgi.fcgi` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/gasmark/assets/myimages/oneWord.php` | High
+40 | File | `/gena.cgi` | Medium
+41 | File | `/goform/apPortalPhoneAuth` | High
+42 | File | `/goform/GetParentControlInfo` | High
+43 | File | `/goform/SafeEmailFilter` | High
+44 | File | `/goform/wirelessAdvancedHidden` | High
+45 | File | `/HNAP1/` | Low
+46 | File | `/homeaction.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php/sysmanage/Login` | High
+49 | File | `/index.php/sysmanage/Login/login_auth/` | High
+50 | File | `/index.php?q=result&searchfor=bycompany` | High
+51 | File | `/lms/classes/Master.php?f=save_record` | High
+52 | File | `/mygym/admin/index.php` | High
+53 | File | `/ordersimple/order.php` | High
+54 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -140,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

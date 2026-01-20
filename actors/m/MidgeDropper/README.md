@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,18 +44,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-2 | File | `/rapi/read_url` | High
-3 | File | `/start_apply.htm` | High
-4 | File | `/topic` | Low
-5 | File | `/uncpath/` | Medium
-6 | File | `/upload` | Low
-7 | File | `admin.php` | Medium
-8 | File | `admin/graph_trend.php` | High
-9 | File | `admin/index.php?empty=table` | High
-10 | ... | ... | ...
+1 | File | `/admin/?page=city` | High
+2 | File | `/admin/deletedoctorclinic.php` | High
+3 | File | `/admin/new-autoortaxi-entry-form.php` | High
+4 | File | `/goform/setDmzInfo` | High
+5 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+6 | File | `/rapi/read_url` | High
+7 | File | `/rptbaptismal.php` | High
+8 | File | `/start_apply.htm` | High
+9 | File | `/storage` | Medium
+10 | File | `/storagework/rentTakeInfoPage.htm` | High
+11 | File | `/topic` | Low
+12 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -69,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,48 +58,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/upload_file` | High
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/app/controller/Books.php` | High
-8 | File | `/bin/boa` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/hd_config.cgi` | High
-11 | File | `/cgi-bin/sysconf.cgi` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/webfile_mgr.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/config/getuser` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/dev/urandom` | Medium
-18 | File | `/endpoint/delete-account.php` | High
-19 | File | `/etc/ajenti/config.yml` | High
-20 | File | `/etc/quantum/quantum.conf` | High
-21 | File | `/etc/shadow` | Medium
-22 | File | `/exec/` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/getcfg.php` | Medium
-25 | File | `/goform/dir_setWanWifi` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/index/ajax/lang` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/MIME/INBOX-MM-1/` | High
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/opt/tms/bin/cli` | High
-32 | File | `/out.php` | Medium
-33 | File | `/plain` | Low
-34 | File | `/server-status` | High
-35 | File | `/setSystemAdmin` | High
-36 | File | `/staff/tools/custom-fields` | High
-37 | File | `/tmp/phpglibccheck` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/WebMstr7/servlet/mstrWeb` | High
-40 | File | `/webpages/data` | High
-41 | File | `/wp-admin/options.php` | High
-42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-44 | ... | ... | ...
+5 | File | `/api/GylOperator/UpdatePasswordBatch` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/app/controller/Books.php` | High
+9 | File | `/att_add.php` | Medium
+10 | File | `/bin/boa` | Medium
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/hd_config.cgi` | High
+13 | File | `/cgi-bin/sysconf.cgi` | High
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/cgi-bin/webfile_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/config/getuser` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dev/urandom` | Medium
+20 | File | `/editedcampaign.php` | High
+21 | File | `/endpoint/delete-account.php` | High
+22 | File | `/etc/ajenti/config.yml` | High
+23 | File | `/etc/quantum/quantum.conf` | High
+24 | File | `/etc/shadow` | Medium
+25 | File | `/exec/` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/getcfg.php` | Medium
+28 | File | `/goform/dir_setWanWifi` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/index/ajax/lang` | High
+31 | File | `/load_fields.php` | High
+32 | File | `/manage_borrower.php` | High
+33 | File | `/manage_loan.php` | High
+34 | File | `/manage_payment.php` | High
+35 | File | `/manage_user.php` | High
+36 | File | `/mgmt/tm/util/bash` | High
+37 | File | `/MIME/INBOX-MM-1/` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | File | `/opt/tms/bin/cli` | High
+40 | File | `/out.php` | Medium
+41 | File | `/plain` | Low
+42 | File | `/print_personnel_report.php` | High
+43 | File | `/server-status` | High
+44 | File | `/setSystemAdmin` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/staff/tools/custom-fields` | High
+47 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

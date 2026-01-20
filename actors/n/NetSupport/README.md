@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,9 +33,13 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.23.49.179](https://vuldb.com/?ip.23.23.49.179) | ec2-23-23-49-179.compute-1.amazonaws.com | ClickFix | Medium
 5 | [50.87.146.66](https://vuldb.com/?ip.50.87.146.66) | 50-87-146-66.unifiedlayer.com | ClickFix | High
 6 | [67.217.228.168](https://vuldb.com/?ip.67.217.228.168) | - | - | High
-7 | ... | ... | ... | ...
+7 | [77.83.199.34](https://vuldb.com/?ip.77.83.199.34) | vo-196-he.thetimesworld.club | ClickFix | High
+8 | [77.90.60.32](https://vuldb.com/?ip.77.90.60.32) | threatoff.eu | - | High
+9 | [79.141.173.158](https://vuldb.com/?ip.79.141.173.158) | - | ClickFix | High
+10 | [80.77.23.48](https://vuldb.com/?ip.80.77.23.48) | - | ClickFix | High
+11 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +51,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -57,49 +62,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/edit_subject.php` | High
-3 | File | `/admin/file_manager/export` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/adminPage/conf/reload` | High
-6 | File | `/admin_topic.php?action=delall` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/cron/settings/setJob/` | High
-9 | File | `/api/RecordingList/DownloadRecord?file=` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/api2/html/` | Medium
-12 | File | `/apply.cgi` | Medium
-13 | File | `/backend/admin/his_admin_register_patient.php` | High
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-17 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/gena.cgi` | Medium
-21 | File | `/h/rest` | Low
-22 | File | `/index.php` | Medium
-23 | File | `/index/ajax/lang` | High
-24 | File | `/log/decodmail.php` | High
-25 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-26 | File | `/log_proxy` | Medium
-27 | File | `/mailcleaner.php/getStats` | High
-28 | File | `/members/poster.php` | High
-29 | File | `/mfsNotice/page` | High
-30 | File | `/netflow/jspui/editProfile.jsp` | High
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/novel/userFeedback/list` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/php/ping.php` | High
-36 | ... | ... | ...
+1 | File | `/admin#themes` | High
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/client_user` | High
+4 | File | `/admin/dl_sendmail.php` | High
+5 | File | `/admin/edit_subject.php` | High
+6 | File | `/admin/file_manager/export` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/admin_topic.php?action=delall` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/cron/settings/setJob/` | High
+13 | File | `/api/RecordingList/DownloadRecord?file=` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/api2/html/` | Medium
+16 | File | `/apply.cgi` | Medium
+17 | File | `/backend/admin/his_admin_register_patient.php` | High
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+21 | File | `/config/pw_changeusers.html` | High
+22 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/gena.cgi` | Medium
+26 | File | `/goform/Fast_wireless_conf` | High
+27 | File | `/h/rest` | Low
+28 | File | `/index.php` | Medium
+29 | File | `/index/ajax/lang` | High
+30 | File | `/log/decodmail.php` | High
+31 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+32 | File | `/log_proxy` | Medium
+33 | File | `/mailcleaner.php/getStats` | High
+34 | File | `/members/poster.php` | High
+35 | File | `/membership_profile.php` | High
+36 | File | `/mfsNotice/page` | High
+37 | File | `/netflow/jspui/editProfile.jsp` | High
+38 | File | `/novel/bookSetting/list` | High
+39 | File | `/novel/userFeedback/list` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | File | `/out.php` | Medium
+42 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://isc.sans.edu/diary/32474
 * https://pastebin.com/iqcg0Ys7
 * https://unit42.paloaltonetworks.com/preventing-clickfix-attack-vector/
 * https://urlhaus.abuse.ch/url/3519140/
@@ -107,9 +119,19 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3536229/
 * https://urlhaus.abuse.ch/url/3543173/
 * https://urlhaus.abuse.ch/url/3543176/
+* https://urlhaus.abuse.ch/url/3646355/
+* https://urlhaus.abuse.ch/url/3661121/
+* https://urlhaus.abuse.ch/url/3677859/
+* https://urlhaus.abuse.ch/url/3691013/
+* https://urlhaus.abuse.ch/url/3703037/
+* https://urlhaus.abuse.ch/url/3729395/
+* https://urlhaus.abuse.ch/url/3740905/
+* https://urlhaus.abuse.ch/url/3759771/
 * https://www.cybereason.com/blog/net-support-rat-wordpress-clickfix
 * https://www.domaintools.com/resources/blog/a-website-attacked/
 * https://www.malware-traffic-analysis.net/2025/06/18/index.html
+* https://www.malware-traffic-analysis.net/2025/12/29/index.html
+* https://www.securonix.com/blog/jssmuggler-multi-stage-hidden-iframes-obfuscated-javascript-silent-redirectors-netsupport-rat-delivery/
 
 ## Literature
 
@@ -120,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black Basta:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -70,7 +70,7 @@ ID | IP address | Hostname | Actor | Confidence
 38 | [45.128.135.14](https://vuldb.com/?ip.45.128.135.14) | smx0.dorpa328.com | [Black Basta](https://vuldb.com/?actor.black_basta) | High
 39 | ... | ... | ... | ...
 
-There are 151 more IOC items available. Please use our online service to access the data.
+There are 152 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,13 +78,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,18 +93,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admin/positions.php` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/clientdetails/admin/regester.php` | High
-10 | ... | ... | ...
+1 | File | `/admin/archives_add.php` | High
+2 | File | `/admin/categories/save` | High
+3 | File | `/admin/contact-us.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/newsletterdel.php` | High
+6 | File | `/admin/pages/` | High
+7 | File | `/admin/positions.php` | High
+8 | File | `/admin/receipt.php` | High
+9 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+11 | File | `/admins` | Low
+12 | File | `/ajax.php?action=login` | High
+13 | File | `/ajax/getBasicInfo.php` | High
+14 | File | `/api/files/recipepictures/` | High
+15 | File | `/authentication.cgi` | High
+16 | File | `/boafrm/formDdns` | High
+17 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+18 | File | `/boafrm/formVpnConfigSetup` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/clientdetails/admin/regester.php` | High
+22 | File | `/detailtransac.php` | High
+23 | File | `/dev/ptpX` | Medium
+24 | File | `/editeddonor.php` | High
+25 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +129,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.eclecticiq.com/inside-bruted-black-basta-raas-members-used-automated-brute-forcing-framework-to-target-edge-network-devices
 * https://darktrace.com/blog/elevating-network-security-confronting-trust-challenges-ransomware-epidemics-and-novel-attack-tactics
 * https://de.darktrace.com/blog/black-basta-old-dogs-with-new-tricks
+* https://disclosing.observer/2025/11/24/bulletproof-hoster-anatomy-data-driven-reconstruction.html
 * https://get.zerofox.com/rs/143-DHV-007/images/ZeroFox-Intelligence-Update-Black-Basta-Ransomware-Report-2023.pdf
 * https://github.com/rapid7/Rapid7-Labs/blob/main/IOCs/BlackBasta_SocialEngineering_IOCs.txt
 * https://www.cloudflare.com/threat-intelligence/research/report/black-bastas-blunder-exploiting-the-gangs-leaked-chats/

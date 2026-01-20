@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,7 +91,7 @@ ID | IP address | Hostname | Campaign | Confidence
 68 | [50.16.218.217](https://vuldb.com/?ip.50.16.218.217) | ec2-50-16-218-217.compute-1.amazonaws.com | - | Medium
 69 | ... | ... | ... | ...
 
-There are 272 more IOC items available. Please use our online service to access the data.
+There are 273 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -99,13 +99,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,36 +113,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add-subadmin.php` | High
-2 | File | `/add_new_invoice.php` | High
-3 | File | `/add_user.php` | High
-4 | File | `/Admin/akun_edit.php` | High
-5 | File | `/admin/apply.php` | High
-6 | File | `/admin/content/editor` | High
-7 | File | `/admin/create-package.php` | High
-8 | File | `/admin/doAdminAction.php?act=addCate` | High
-9 | File | `/admin/edit-brand.php` | High
-10 | File | `/admin/file_manager/export` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/profile.php` | High
-13 | File | `/Admin/Proses_Edit_Akun.php` | High
-14 | File | `/admin/robot.php` | High
-15 | File | `/admin/search-invoices.php` | High
+2 | File | `/add_user.php` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/actions/check-attendance.php` | High
+5 | File | `/admin/add-table.php` | High
+6 | File | `/admin/admin_running.php` | High
+7 | File | `/admin/changeimage.php` | High
+8 | File | `/admin/content/editor` | High
+9 | File | `/admin/delete_s6.php` | High
+10 | File | `/admin/edit_room.php` | High
+11 | File | `/Admin/login.php` | High
+12 | File | `/admin/mechanics/manage_mechanic.php` | High
+13 | File | `/admin/modules/room/index.php` | High
+14 | File | `/admin/profile.php` | High
+15 | File | `/admin/tags/save` | High
 16 | File | `/admin/twitter.php` | High
-17 | File | `/admin_topic.php?action=delall` | High
-18 | File | `/api/cron/settings/setJob/` | High
-19 | File | `/api2/html/` | Medium
-20 | File | `/app/controller/Api.php` | High
-21 | File | `/backend/doc/his_doc_update-account.php` | High
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/cgi-bin/apkg_mgr.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-28 | File | `/classes/Master.php?f=delete_record` | High
+17 | File | `/admin/user-bookings.php` | High
+18 | File | `/admin/user/index.php?view=edit` | High
+19 | File | `/admin/yesterday-reg-users.php` | High
+20 | File | `/admin_topic.php?action=delall` | High
+21 | File | `/alphaware/summary.php` | High
+22 | File | `/api/settings` | High
+23 | File | `/api/wizard/getCapability` | High
+24 | File | `/app/api/v1/openvpn.py` | High
+25 | File | `/app/controller/Api.php` | High
+26 | File | `/auth.asp` | Medium
+27 | File | `/bitrix/admin/ldap_server_edit.php` | High
+28 | File | `/biurl_grou` | Medium
 29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -214,6 +213,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/threatlabz/iocs/blob/main/onenote_attacks/network_indicators.txt
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
 * https://research.checkpoint.com/2024/stargazers-ghost-network/
+* https://urlhaus.abuse.ch/url/3610387/
 * https://www.malwarebytes.com/blog/news/2022/09/2k-games-helpdesk-abused-to-spread-redline-malware
 * https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
 

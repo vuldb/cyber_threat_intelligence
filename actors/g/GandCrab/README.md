@@ -64,11 +64,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,31 +76,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/category/controller.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/general.cgi` | High
+1 | File | `/admin/bwdates-reports-details.php` | High
+2 | File | `/admin/category/controller.php` | High
+3 | File | `/admin/create_product.php` | High
 4 | File | `/API/info` | Medium
-5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-6 | File | `/Bloodgroop_process.php` | High
-7 | File | `/cancelbookingpatient.php` | High
-8 | File | `/CCMAdmin/serverlist.asp` | High
+5 | File | `/att_add.php` | Medium
+6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+7 | File | `/Bloodgroop_process.php` | High
+8 | File | `/cancelbookingpatient.php` | High
 9 | File | `/cgi-bin/cstecgi.cgi` | High
 10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-11 | File | `/cgi/get_param.cgi` | High
-12 | File | `/cstecgi.cgi` | Medium
-13 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/verifyFacebookLike` | High
-17 | File | `/home/search` | Medium
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/spgpm/updateListing` | High
-21 | File | `/spip.php` | Medium
-22 | File | `/upfile.cgi` | Medium
-23 | ... | ... | ...
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+13 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

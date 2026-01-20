@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -56,29 +56,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.php` | Low
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/network/wifi_schedule` | High
-4 | File | `/admin/quote-details.php` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/admin/team_save.php` | High
-7 | File | `/admin/user/user-move-run.php` | High
-8 | File | `/ajax.php?action=login` | High
-9 | File | `/animalsadd.php` | High
-10 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-11 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-12 | File | `/chetc/shutdown` | High
-13 | File | `/classes/Master.php?f=delete_product` | High
-14 | File | `/classes/Users.php?f=save_user` | High
-15 | File | `/cms/classes/Users.php?f=delete_client` | High
-16 | File | `/control/activate.php` | High
-17 | File | `/dashboard/admin/submit_payments.php` | High
-18 | File | `/endpoint/delete-account.php` | High
-19 | File | `/endpoint/delete-task.php` | High
-20 | File | `/etc/networkd-dispatcher` | High
-21 | File | `/goform/formLogDnsquery` | High
-22 | ... | ... | ...
+2 | File | `/addproduct.php` | High
+3 | File | `/add_book.php` | High
+4 | File | `/Admin/Controller/CustomController.class.php` | High
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/network/wifi_schedule` | High
+7 | File | `/admin/quote-details.php` | High
+8 | File | `/admin/save.php` | High
+9 | File | `/admin/team_save.php` | High
+10 | File | `/admin/user/user-move-run.php` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/ajax.php?action=login` | High
+13 | File | `/animalsadd.php` | High
+14 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+15 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+16 | File | `/chetc/shutdown` | High
+17 | File | `/classes/Master.php?f=delete_product` | High
+18 | File | `/classes/Users.php?f=save_user` | High
+19 | File | `/cms/classes/Users.php?f=delete_client` | High
+20 | File | `/control/activate.php` | High
+21 | File | `/dashboard/admin/submit_payments.php` | High
+22 | File | `/edit_profile` | High
+23 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

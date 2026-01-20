@@ -59,8 +59,9 @@ ID | Type | Indicator | Confidence
 3 | File | `/common/down/file` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/psrs/admin/categories/manage_field_order.php` | High
-6 | File | `/uncpath/` | Medium
-7 | ... | ... | ...
+6 | File | `/spip.php` | Medium
+7 | File | `/uncpath/` | Medium
+8 | ... | ... | ...
 
 There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24, CWE-35, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
@@ -67,60 +67,62 @@ ID | Type | Indicator | Confidence
 1 | File | `../mtd/Config/Sha1Account1` | High
 2 | File | `.git/` | Low
 3 | File | `.php.gif` | Medium
-4 | File | `/admin/` | Low
-5 | File | `/admin/aboutus.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/admin-area.php` | High
-8 | File | `/admin/edit-class.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/process_category_add.php` | High
-13 | File | `/admin/registration.php` | High
-14 | File | `/admin/userprofile.php` | High
-15 | File | `/admin/users-applications.php` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-18 | File | `/ajax/screenshot.php` | High
-19 | File | `/analysisProject/pagingQueryData` | High
-20 | File | `/api/snapshots/` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/api/upload.php` | High
-23 | File | `/api/wizard/getWifiNeighbour` | High
-24 | File | `/app/middleware/TokenVerify.php` | High
-25 | File | `/attendancelist.php` | High
-26 | File | `/auth/userkey/logout.php` | High
-27 | File | `/backend/register.php` | High
-28 | File | `/blog` | Low
-29 | File | `/boafrm/formFilter` | High
-30 | File | `/boat/login.php` | High
-31 | File | `/book-appointment.php` | High
-32 | File | `/category.php` | High
-33 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-34 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
-35 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-38 | File | `/cgi-bin/gui.cgi` | High
-39 | File | `/cgi-bin/nas_sharing.cgi` | High
-40 | File | `/cgi-bin/s3.cgi` | High
-41 | File | `/cgi-bin/sessions/get-temp-file` | High
-42 | File | `/cgi-bin/wlogin.cgi` | High
-43 | File | `/change-password.php` | High
-44 | File | `/check` | Low
-45 | File | `/client/manage/ourphp_out.php` | High
-46 | File | `/clinic/disease_symptoms_view.php` | High
-47 | File | `/common/jsp/upload2.jsp` | High
-48 | File | `/config-manager/save` | High
-49 | File | `/control/register_case.php` | High
-50 | File | `/dashboard/menu-list.php` | High
-51 | File | `/dashboard/table-list.php` | High
-52 | File | `/data/app` | Medium
-53 | File | `/debug/pprof` | Medium
-54 | File | `/delete.php` | Medium
-55 | ... | ... | ...
+4 | File | `/?r=email/api/mark&op=delFromSend` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/aboutus.php` | High
+7 | File | `/admin/add-services.php` | High
+8 | File | `/admin/admin-area.php` | High
+9 | File | `/admin/edit-class.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/process_category_add.php` | High
+14 | File | `/admin/registration.php` | High
+15 | File | `/admin/userprofile.php` | High
+16 | File | `/admin/users-applications.php` | High
+17 | File | `/adminapi/system/crud` | High
+18 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+19 | File | `/ajax/screenshot.php` | High
+20 | File | `/analysisProject/pagingQueryData` | High
+21 | File | `/api/snapshots/` | High
+22 | File | `/api/sys/login` | High
+23 | File | `/api/upload.php` | High
+24 | File | `/api/v1/attack/falco` | High
+25 | File | `/api/wizard/getWifiNeighbour` | High
+26 | File | `/app/middleware/TokenVerify.php` | High
+27 | File | `/attendancelist.php` | High
+28 | File | `/auth/userkey/logout.php` | High
+29 | File | `/backend/register.php` | High
+30 | File | `/blog` | Low
+31 | File | `/boafrm/formFilter` | High
+32 | File | `/boat/login.php` | High
+33 | File | `/book-appointment.php` | High
+34 | File | `/category.php` | High
+35 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+36 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+37 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=exportOvpn&type=user` | High
+40 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+41 | File | `/cgi-bin/gui.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/s3.cgi` | High
+44 | File | `/cgi-bin/sessions/get-temp-file` | High
+45 | File | `/cgi-bin/wlogin.cgi` | High
+46 | File | `/change-password.php` | High
+47 | File | `/check` | Low
+48 | File | `/client/manage/ourphp_out.php` | High
+49 | File | `/clinic/disease_symptoms_view.php` | High
+50 | File | `/common/jsp/upload2.jsp` | High
+51 | File | `/config-manager/save` | High
+52 | File | `/control/register_case.php` | High
+53 | File | `/dashboard/menu-list.php` | High
+54 | File | `/dashboard/table-list.php` | High
+55 | File | `/data/app` | Medium
+56 | File | `/debug/pprof` | Medium
+57 | ... | ... | ...
 
-There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 501 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

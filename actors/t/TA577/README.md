@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,54 +62,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?ajax-request=jnews` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/?page=reports` | High
-4 | File | `/adminapi/system/crud` | High
-5 | File | `/adminapi/system/file/openfile` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/b2b-supermarket/shopping-cart` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/luci/api/switch` | High
-11 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-12 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-13 | File | `/editor/index.php` | High
-14 | File | `/EventEditor.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-17 | File | `/Interface/DevManage/VM.php` | High
-18 | File | `/jsonrpc` | Medium
-19 | File | `/listplace/user/ticket/create` | High
-20 | File | `/login` | Low
-21 | File | `/mims/login.php` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/netflow/jspui/selectDevice.jsp` | High
-24 | File | `/nova/bin/dot1x` | High
-25 | File | `/php/ajax.php` | High
-26 | File | `/php/ping.php` | High
-27 | File | `/rapi/read_url` | High
-28 | File | `/scripts/unlock_tasks.php` | High
-29 | File | `/services/config/config.xml` | High
-30 | File | `/setSystemAdmin` | High
-31 | File | `/SetTriggerWPS/PIN` | High
-32 | File | `/signup.php` | Medium
-33 | File | `/status/status_log.sys` | High
-34 | File | `/sys/user/queryUserComponentData` | High
-35 | File | `/SysInfo1.htm` | High
-36 | File | `/sysinfo_json.cgi` | High
-37 | File | `/system/dictData/loadDictItem` | High
-38 | File | `/system/user/modules/mod_users/controller.php` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/update-image1.php` | High
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/vicidial/user_stats.php` | High
-43 | File | `/view/all_teacher.php` | High
-44 | File | `/view/networkConfig/ArpTable/arp_add_commit.php` | High
-45 | File | `/view/vpn/autovpn/sub_commit.php` | High
-46 | File | `/wp-admin/admin-ajax.php` | High
-47 | ... | ... | ...
+2 | File | `/aboutedit.php` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/?page=reports` | High
+5 | File | `/admin/ajax.php?action=save_student` | High
+6 | File | `/admin/edit-accepted-appointment.php` | High
+7 | File | `/admin/insert-product.php` | High
+8 | File | `/admin/level.php` | High
+9 | File | `/admin/plugin.php` | High
+10 | File | `/admin/slideupdate.php` | High
+11 | File | `/adminapi/system/crud` | High
+12 | File | `/adminapi/system/file/openfile` | High
+13 | File | `/api/RecordingList/DownloadRecord?file=` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/auth/userkey/logout.php` | High
+16 | File | `/b2b-supermarket/shopping-cart` | High
+17 | File | `/boafrm/formIpv6Setup` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/luci/api/switch` | High
+20 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
+21 | File | `/config/pw_changeusers.html` | High
+22 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+23 | File | `/customer_register.php` | High
+24 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+25 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+26 | File | `/editor/index.php` | High
+27 | File | `/edit_criteria.php` | High
+28 | File | `/EventEditor.php` | High
+29 | File | `/forgot-password.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/QuickIndex` | High
+32 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+33 | File | `/handgunner-administrator/register_code.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php/display/database/` | High
+36 | File | `/Interface/DevManage/VM.php` | High
+37 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+38 | File | `/jsonrpc` | Medium
+39 | File | `/listplace/user/ticket/create` | High
+40 | File | `/login` | Low
+41 | File | `/login.php` | Medium
+42 | File | `/mims/login.php` | High
+43 | File | `/modules/profile/index.php` | High
+44 | File | `/mtd` | Low
+45 | File | `/netflow/jspui/selectDevice.jsp` | High
+46 | File | `/nova/bin/dot1x` | High
+47 | File | `/php/ajax.php` | High
+48 | File | `/php/ping.php` | High
+49 | File | `/pincode-verification.php` | High
+50 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
+51 | File | `/rapi/read_url` | High
+52 | File | `/register.php` | High
+53 | File | `/remove-apartment.php` | High
+54 | File | `/retailer/edit_profile.php` | High
+55 | File | `/scripts/unlock_tasks.php` | High
+56 | File | `/search.php` | Medium
+57 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

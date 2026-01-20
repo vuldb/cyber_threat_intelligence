@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.kongtuke](https://vuldb.com/?actor.kongtuke)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with KongTuke:
+
+* CrashFix
+* ModeloRAT
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KongTuke:
@@ -13,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +31,15 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.252.153.94](https://vuldb.com/?ip.5.252.153.94) | hosted-by.csrdp.host | - | High
 2 | [64.7.199.155](https://vuldb.com/?ip.64.7.199.155) | - | - | High
 3 | [64.95.12.71](https://vuldb.com/?ip.64.95.12.71) | - | - | High
-4 | [64.111.92.212](https://vuldb.com/?ip.64.111.92.212) | - | - | High
-5 | [72.5.43.147](https://vuldb.com/?ip.72.5.43.147) | - | - | High
-6 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
-7 | ... | ... | ... | ...
+4 | [64.95.13.101](https://vuldb.com/?ip.64.95.13.101) | - | - | High
+5 | [64.111.92.212](https://vuldb.com/?ip.64.111.92.212) | - | - | High
+6 | [65.38.120.109](https://vuldb.com/?ip.65.38.120.109) | - | - | High
+7 | [69.67.172.194](https://vuldb.com/?ip.69.67.172.194) | - | - | High
+8 | [72.5.43.147](https://vuldb.com/?ip.72.5.43.147) | - | - | High
+9 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,19 +61,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/admin/user-bookings.php` | High
-3 | File | `/cgi-bin/mainfunction.cgi` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/cimom` | Low
-6 | File | `/fax/fax_send.php` | High
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/modules/registration_admission/patient_register.php` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | File | `/spip.php` | Medium
-11 | File | `/tmp/csman/0` | Medium
-12 | ... | ... | ...
+2 | File | `/admin/conferences/list/` | High
+3 | File | `/admin/user-bookings.php` | High
+4 | File | `/ajax.php?action=save_user` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/cgi-bin/mainfunction.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cimom` | Low
+9 | File | `/fax/fax_send.php` | High
+10 | File | `/fileUpload` | Medium
+11 | File | `/index/ajax/lang` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/modules/registration_admission/patient_register.php` | High
+14 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,9 +102,24 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/115485911727880909
 * https://infosec.exchange/@monitorsg/115502674751273414
 * https://infosec.exchange/@monitorsg/115508577276891826
+* https://infosec.exchange/@monitorsg/115577951786349151
+* https://infosec.exchange/@monitorsg/115582574944886384
+* https://infosec.exchange/@monitorsg/115587840067408494
+* https://infosec.exchange/@monitorsg/115627468728773629
+* https://infosec.exchange/@monitorsg/115644695006378271
+* https://infosec.exchange/@monitorsg/115650120276994136
+* https://infosec.exchange/@monitorsg/115656015480888657
+* https://infosec.exchange/@monitorsg/115661689031905300
+* https://infosec.exchange/@monitorsg/115842873686551807
+* https://infosec.exchange/@monitorsg/115859872162369620
+* https://infosec.exchange/@monitorsg/115865302817718428
+* https://infosec.exchange/@monitorsg/115882289064328457
+* https://infosec.exchange/@monitorsg/115882762226056134
 * https://isc.sans.edu/diary/32498
 * https://rewterz.com/threat-advisory/kongtuke-targets-windows-with-interlock-rat-active-iocs
 * https://threatfox.abuse.ch
+* https://www.huntress.com/blog/malicious-browser-extention-crashfix-kongtuke
+* https://www.malware-traffic-analysis.net/2026/01/08/index.html
 
 ## Literature
 
@@ -103,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

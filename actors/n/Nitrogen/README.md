@@ -77,37 +77,37 @@ ID | Type | Indicator | Confidence
 23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 24 | File | `/pages/faculty_sched.php` | High
 25 | File | `/php_action/createProduct.php` | High
-26 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/admin/RestoreDefaults.jspa` | High
-29 | File | `/showfile.php` | High
-30 | File | `/textpattern/index.php` | High
-31 | File | `/wmiwizard.jsp` | High
-32 | File | `/wp-admin/options-general.php` | High
-33 | File | `account.asp` | Medium
-34 | File | `accounts/inc/include.php` | High
-35 | File | `acrotxt.php` | Medium
-36 | File | `addpost_newpoll.php` | High
-37 | File | `admin.color.php` | High
-38 | File | `admin.cropcanvas.php` | High
-39 | File | `admin.joomlaradiov5.php` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin.php/index/upload because app/common/service/UploadService.php` | High
-42 | File | `admin/?page=user/manage_user` | High
-43 | File | `admin/addons/archive/archive.php` | High
-44 | File | `admin/handlers.php` | High
-45 | File | `admin/page.php` | High
-46 | File | `admin/versions.html` | High
-47 | File | `adminAttachments.php` | High
-48 | File | `adminBoards.php` | High
-49 | File | `admincp/auth/secure.php` | High
-50 | File | `admindocumentworker.jsp` | High
-51 | File | `administrator/components/com_media/helpers/media.php` | High
-52 | File | `adminSmileys.php` | High
-53 | File | `akocomments.php` | High
+26 | File | `/profile/edit.php` | High
+27 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/admin/RestoreDefaults.jspa` | High
+30 | File | `/showfile.php` | High
+31 | File | `/textpattern/index.php` | High
+32 | File | `/wmiwizard.jsp` | High
+33 | File | `/wp-admin/options-general.php` | High
+34 | File | `account.asp` | Medium
+35 | File | `accounts/inc/include.php` | High
+36 | File | `acrotxt.php` | Medium
+37 | File | `addpost_newpoll.php` | High
+38 | File | `admin.color.php` | High
+39 | File | `admin.cropcanvas.php` | High
+40 | File | `admin.joomlaradiov5.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin.php/index/upload because app/common/service/UploadService.php` | High
+43 | File | `admin/?page=user/manage_user` | High
+44 | File | `admin/addons/archive/archive.php` | High
+45 | File | `admin/handlers.php` | High
+46 | File | `admin/page.php` | High
+47 | File | `admin/versions.html` | High
+48 | File | `adminAttachments.php` | High
+49 | File | `adminBoards.php` | High
+50 | File | `admincp/auth/secure.php` | High
+51 | File | `admindocumentworker.jsp` | High
+52 | File | `administrator/components/com_media/helpers/media.php` | High
+53 | File | `adminSmileys.php` | High
 54 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

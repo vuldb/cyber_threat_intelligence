@@ -62,29 +62,29 @@ ID | Type | Indicator | Confidence
 5 | File | `/apply.cgi` | Medium
 6 | File | `/cgi-bin/cstecgi.cgi` | High
 7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/dev/shm` | Medium
-9 | File | `/dl/dl_print.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/Maintenance/configfile.cfg` | High
-13 | File | `/mkshop/Men/profile.php` | High
-14 | File | `/ofcms/company-c-47` | High
-15 | File | `/php/ping.php` | High
-16 | File | `/pms/update_user.php?user_id=1` | High
-17 | File | `/proc/kcore/` | Medium
-18 | File | `/rapi/read_url` | High
-19 | File | `/scripts/unlock_tasks.php` | High
-20 | File | `/SysInfo1.htm` | High
-21 | File | `/sysinfo_json.cgi` | High
-22 | File | `/system/dictData/loadDictItem` | High
-23 | File | `/system/user/modules/mod_users/controller.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/sbin/httpd` | High
-26 | File | `/util/print.c` | High
-27 | File | `/view/vpn/autovpn/sub_commit.php` | High
+8 | File | `/config/pw_changeusers.html` | High
+9 | File | `/dev/shm` | Medium
+10 | File | `/dl/dl_print.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/getcfg.php` | Medium
+13 | File | `/Maintenance/configfile.cfg` | High
+14 | File | `/mkshop/Men/profile.php` | High
+15 | File | `/ofcms/company-c-47` | High
+16 | File | `/php/ping.php` | High
+17 | File | `/pms/update_user.php?user_id=1` | High
+18 | File | `/proc/kcore/` | Medium
+19 | File | `/rapi/read_url` | High
+20 | File | `/rest/ip/address/print` | High
+21 | File | `/scripts/unlock_tasks.php` | High
+22 | File | `/search.php` | Medium
+23 | File | `/SysInfo1.htm` | High
+24 | File | `/sysinfo_json.cgi` | High
+25 | File | `/system/dictData/loadDictItem` | High
+26 | File | `/system/user/modules/mod_users/controller.php` | High
+27 | File | `/uncpath/` | Medium
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

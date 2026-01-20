@@ -28,6 +28,7 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [142.44.215.177](https://vuldb.com/?ip.142.44.215.177) | ns554604.ip-142-44-215.net | [Xbash](https://vuldb.com/?actor.xbash) | High
 2 | [144.217.61.147](https://vuldb.com/?ip.144.217.61.147) | ip147.ip-144-217-61.net | [Xbash](https://vuldb.com/?actor.xbash) | High
+3 | [211.252.152.47](https://vuldb.com/?ip.211.252.152.47) | - | [Xbash](https://vuldb.com/?actor.xbash) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,6 +93,7 @@ There are 287 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://unit42.paloaltonetworks.com/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/
 * https://www.cyber45.com
 
@@ -104,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

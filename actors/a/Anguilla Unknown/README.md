@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,53 +67,51 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/manage_academic.php` | High
 8 | File | `/admin/orders/update_status.php` | High
 9 | File | `/admin/photo.php` | High
-10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-11 | File | `/admin/search.php` | High
-12 | File | `/admin/upload.php` | High
-13 | File | `/admin/user/user-move-run.php` | High
-14 | File | `/ajax_city.php` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/snapshots/` | High
-17 | File | `/api/sys/login` | High
-18 | File | `/api/sys/set_passwd` | High
-19 | File | `/api/v1` | Low
-20 | File | `/api/v1/terminal/sessions/?limit=1` | High
-21 | File | `/application/index/controller/Databasesource.php` | High
-22 | File | `/application/index/controller/Screen.php` | High
-23 | File | `/application/websocket/controller/Setting.php` | High
-24 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
-25 | File | `/blog` | Low
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/download_config.cgi` | High
-28 | File | `/cgi-bin/go` | Medium
-29 | File | `/cgi-bin/luci/api/auth` | High
-30 | File | `/cgi-bin/tosei_kikai.php` | High
-31 | File | `/common/logViewer/logViewer.jsf` | High
-32 | File | `/config/config.json` | High
-33 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-34 | File | `/devinfo` | Medium
-35 | File | `/dist/index.js` | High
-36 | File | `/download` | Medium
-37 | File | `/Employer/EditProfile.php` | High
-38 | File | `/goform/apPortalPhoneAuth` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/SetRebootTimer` | High
-41 | File | `/goform/set_LimitClient_cfg` | High
-42 | File | `/HNAP1` | Low
-43 | File | `/homeaction.php` | High
-44 | File | `/image-compressor/compressor.php` | High
-45 | File | `/index.php` | Medium
-46 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-47 | File | `/lam/tmp/` | Medium
-48 | File | `/login` | Low
-49 | File | `/modules/sys/form_personalization/json_fp.php` | High
-50 | File | `/ndmComponents.js` | High
-51 | File | `/password-recovery.php` | High
-52 | File | `/php-opos/index.php` | High
-53 | File | `/portal/search.htm` | High
-54 | ... | ... | ...
+10 | File | `/admin/products.php` | High
+11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+12 | File | `/admin/search.php` | High
+13 | File | `/admin/upload.php` | High
+14 | File | `/admin/user/user-move-run.php` | High
+15 | File | `/ajax_city.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/snapshots/` | High
+18 | File | `/api/sys/login` | High
+19 | File | `/api/sys/set_passwd` | High
+20 | File | `/api/v1` | Low
+21 | File | `/api/v1/terminal/sessions/?limit=1` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/application/websocket/controller/Setting.php` | High
+25 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+26 | File | `/bin/gpio` | Medium
+27 | File | `/blog` | Low
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/download_config.cgi` | High
+30 | File | `/cgi-bin/go` | Medium
+31 | File | `/cgi-bin/luci/api/auth` | High
+32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+33 | File | `/cgi-bin/tosei_kikai.php` | High
+34 | File | `/config/config.json` | High
+35 | File | `/devinfo` | Medium
+36 | File | `/dist/index.js` | High
+37 | File | `/download` | Medium
+38 | File | `/DXR.axd` | Medium
+39 | File | `/Employer/EditProfile.php` | High
+40 | File | `/filter.php` | Medium
+41 | File | `/goform/apPortalPhoneAuth` | High
+42 | File | `/goform/aspForm` | High
+43 | File | `/goform/langSwitchByBBS` | High
+44 | File | `/goform/SetRebootTimer` | High
+45 | File | `/goform/set_LimitClient_cfg` | High
+46 | File | `/HNAP1` | Low
+47 | File | `/image-compressor/compressor.php` | High
+48 | File | `/index.php` | Medium
+49 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+50 | File | `/justines/admin/login.php` | High
+51 | File | `/lam/tmp/` | Medium
+52 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

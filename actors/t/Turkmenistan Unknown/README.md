@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,35 +82,36 @@ ID | Type | Indicator | Confidence
 23 | File | `/billing/bill/edit/` | High
 24 | File | `/boafrm/formParentControl` | High
 25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/classes/profile.class.php` | High
-27 | File | `/config` | Low
-28 | File | `/course.php` | Medium
-29 | File | `/data/app` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/devinfo` | Medium
-32 | File | `/directRouter.rfc` | High
-33 | File | `/endpoint/update-flashcard.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/DhcpListClient` | High
-36 | File | `/goform/RP_checkCredentialsByBBS` | High
-37 | File | `/healthcare/Admin/consulting_detail.php` | High
-38 | File | `/I/list.php` | Medium
-39 | File | `/include/chart_generator.php` | High
-40 | File | `/intranet/educar_escola_lst.php` | High
-41 | File | `/lists/admin/` | High
-42 | File | `/logout.php` | Medium
-43 | File | `/man_password.htm` | High
-44 | File | `/model/update_classroom.php` | High
-45 | File | `/modules/profile/index.php` | High
-46 | File | `/myprofile.php` | High
-47 | File | `/notice-edit.php` | High
-48 | File | `/out.php` | Medium
-49 | File | `/pages.php?edit=News` | High
-50 | File | `/path/to/uploads/` | High
-51 | File | `/pda/workflow/webSignSubmit.php` | High
-52 | ... | ... | ...
+26 | File | `/cgi-bin/pl_web.cgi/util_configlogin_act` | High
+27 | File | `/classes/profile.class.php` | High
+28 | File | `/config` | Low
+29 | File | `/course.php` | Medium
+30 | File | `/data/app` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/devinfo` | Medium
+33 | File | `/directRouter.rfc` | High
+34 | File | `/endpoint/update-flashcard.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/DhcpListClient` | High
+37 | File | `/goform/RP_checkCredentialsByBBS` | High
+38 | File | `/goform/setsambacfg` | High
+39 | File | `/healthcare/Admin/consulting_detail.php` | High
+40 | File | `/I/list.php` | Medium
+41 | File | `/include/chart_generator.php` | High
+42 | File | `/intranet/educar_escola_lst.php` | High
+43 | File | `/lists/admin/` | High
+44 | File | `/logout.php` | Medium
+45 | File | `/man_password.htm` | High
+46 | File | `/model/update_classroom.php` | High
+47 | File | `/modules/profile/index.php` | High
+48 | File | `/myprofile.php` | High
+49 | File | `/notice-edit.php` | High
+50 | File | `/out.php` | Medium
+51 | File | `/pages.php?edit=News` | High
+52 | File | `/path/to/uploads/` | High
+53 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

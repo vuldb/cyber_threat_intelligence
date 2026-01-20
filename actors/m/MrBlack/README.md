@@ -67,39 +67,39 @@ ID | Type | Indicator | Confidence
 15 | File | `/controllers/add_client.php` | High
 16 | File | `/directRouter.rfc` | High
 17 | File | `/discuss/uploadMdPic` | High
-18 | File | `/forgetpassword.php` | High
-19 | File | `/goform/Diagnosis` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/index.php` | Medium
-22 | File | `/insurance/clientStatus.php` | High
-23 | File | `/jart/prj3/solve_direct/main.jart` | High
-24 | File | `/linkedcontent/listfiles.php` | High
-25 | File | `/module/admin_notifiers/rules.php` | High
-26 | File | `/rapi/read_url` | High
-27 | File | `/service-list` | High
-28 | File | `/supervisor/procesa_carga.php` | High
-29 | File | `/system/cms/content/page` | High
-30 | File | `/test/cookie/` | High
-31 | File | `/timeline2.php` | High
-32 | File | `/tmp/foo2zjs` | Medium
-33 | File | `/tmp/kamailio_fifo` | High
-34 | File | `/usr/bin/tddp` | High
-35 | File | `add.php` | Low
-36 | File | `AddNewProduct.php` | High
-37 | File | `addtocart.asp` | High
-38 | File | `add_edit_event.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/graph_trend.php` | High
-41 | File | `admin/manage-comments.php` | High
-42 | File | `admin/moduleinterface.php` | High
-43 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-44 | File | `admin\db\DoSql.php` | High
-45 | File | `admin_class.php` | High
-46 | File | `aide.php3` | Medium
-47 | File | `ajax/ph_save.php` | High
+18 | File | `/edit_contestant.php` | High
+19 | File | `/forgetpassword.php` | High
+20 | File | `/goform/Diagnosis` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/index.php` | Medium
+23 | File | `/insurance/clientStatus.php` | High
+24 | File | `/jart/prj3/solve_direct/main.jart` | High
+25 | File | `/linkedcontent/listfiles.php` | High
+26 | File | `/module/admin_notifiers/rules.php` | High
+27 | File | `/rapi/read_url` | High
+28 | File | `/service-list` | High
+29 | File | `/supervisor/procesa_carga.php` | High
+30 | File | `/system/cms/content/page` | High
+31 | File | `/test/cookie/` | High
+32 | File | `/timeline2.php` | High
+33 | File | `/tmp/foo2zjs` | Medium
+34 | File | `/tmp/kamailio_fifo` | High
+35 | File | `/update_account.php` | High
+36 | File | `/usr/bin/tddp` | High
+37 | File | `add.php` | Low
+38 | File | `AddNewProduct.php` | High
+39 | File | `addtocart.asp` | High
+40 | File | `add_edit_event.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin/graph_trend.php` | High
+43 | File | `admin/manage-comments.php` | High
+44 | File | `admin/moduleinterface.php` | High
+45 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+46 | File | `admin\db\DoSql.php` | High
+47 | File | `admin_class.php` | High
 48 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

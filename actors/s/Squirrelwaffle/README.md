@@ -68,44 +68,46 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/edit-ambulance.php` | High
 10 | File | `/admin/gallery.php` | High
 11 | File | `/admin/mechanics/manage_mechanic.php` | High
-12 | File | `/admin/sign/out` | High
-13 | File | `/admin/students/manage_academic.php` | High
-14 | File | `/admin/suppliercontroller.php` | High
-15 | File | `/admin/update_s6.php` | High
-16 | File | `/admin/user_save.php` | High
-17 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
-18 | File | `/api/GylOperator/LoadData` | High
-19 | File | `/api/public/signup` | High
-20 | File | `/Api/TinyMce/UploadAjax.ashx` | High
-21 | File | `/boafrm/formDMZ` | High
-22 | File | `/boafrm/formFilter` | High
-23 | File | `/boafrm/formMapDel` | High
-24 | File | `/boafrm/formNtp` | High
-25 | File | `/boafrm/formStaticDHCP` | High
-26 | File | `/boafrm/formWdsEncrypt` | High
-27 | File | `/bsenordering/index.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/ExportALLSettings.sh` | High
-30 | File | `/cgi-bin/ExportAllSettings.sh` | High
-31 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-32 | File | `/cgi-bin/sessions/get-temp-file` | High
-33 | File | `/classes/Master.php?f=delete_img` | High
-34 | File | `/common/info.cgi` | High
-35 | File | `/config/getuser` | High
-36 | File | `/contrib/cssgen.php` | High
-37 | File | `/core/config-revisions` | High
-38 | File | `/detail.php` | Medium
-39 | File | `/Doctor/chat.php` | High
-40 | File | `/doctor/search.php` | High
-41 | File | `/ebics-server/ebics.aspx` | High
-42 | File | `/employeeview.php` | High
-43 | File | `/endpoint/add-computer.php` | High
-44 | File | `/etc/passwd` | Medium
-45 | File | `/file/cancel.php` | High
-46 | File | `/fund/add_fund.php` | High
-47 | ... | ... | ...
+12 | File | `/admin/search-appointment.php` | High
+13 | File | `/admin/sign/out` | High
+14 | File | `/admin/students/manage_academic.php` | High
+15 | File | `/admin/suppliercontroller.php` | High
+16 | File | `/admin/update_s6.php` | High
+17 | File | `/admin/user_save.php` | High
+18 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+19 | File | `/api/GylOperator/LoadData` | High
+20 | File | `/api/public/signup` | High
+21 | File | `/Api/TinyMce/UploadAjax.ashx` | High
+22 | File | `/authentication/` | High
+23 | File | `/boafrm/formDMZ` | High
+24 | File | `/boafrm/formFilter` | High
+25 | File | `/boafrm/formMapDel` | High
+26 | File | `/boafrm/formNtp` | High
+27 | File | `/boafrm/formStaticDHCP` | High
+28 | File | `/boafrm/formWdsEncrypt` | High
+29 | File | `/bsenordering/index.php` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/ExportALLSettings.sh` | High
+32 | File | `/cgi-bin/ExportAllSettings.sh` | High
+33 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+34 | File | `/cgi-bin/sessions/get-temp-file` | High
+35 | File | `/classes/Master.php?f=delete_img` | High
+36 | File | `/com/esafenet/servlet/document/ExamCDGDocService.java` | High
+37 | File | `/common/info.cgi` | High
+38 | File | `/config/getuser` | High
+39 | File | `/contrib/cssgen.php` | High
+40 | File | `/core/config-revisions` | High
+41 | File | `/detail.php` | Medium
+42 | File | `/Doctor/chat.php` | High
+43 | File | `/doctor/search.php` | High
+44 | File | `/ebics-server/ebics.aspx` | High
+45 | File | `/employeeview.php` | High
+46 | File | `/endpoint/add-computer.php` | High
+47 | File | `/etc/passwd` | Medium
+48 | File | `/file/cancel.php` | High
+49 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

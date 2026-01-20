@@ -94,27 +94,27 @@ ID | Type | Indicator | Confidence
 19 | File | `/change-password.php` | High
 20 | File | `/classes/Master.php` | High
 21 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-22 | File | `/contact.php` | Medium
-23 | File | `/CPE` | Low
-24 | File | `/dataSet/resolveSql` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/formSetPassword` | High
-28 | File | `/goform/setBlackRule` | High
-29 | File | `/index/ajax/lang` | High
-30 | File | `/lms/classes/Master.php?f=save_record` | High
-31 | File | `/login.php` | Medium
-32 | File | `/members/poster.php` | High
-33 | File | `/mics/j_spring_security_check` | High
-34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/pda/workflow/check_seal.php` | High
-37 | File | `/php/ping.php` | High
-38 | File | `/pointHierarchySLTS` | High
-39 | File | `/register/abort` | High
+22 | File | `/config/pw_changeusers.html` | High
+23 | File | `/contact.php` | Medium
+24 | File | `/CPE` | Low
+25 | File | `/css/..%2f` | Medium
+26 | File | `/dataSet/resolveSql` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/formSetPassword` | High
+30 | File | `/goform/setBlackRule` | High
+31 | File | `/index/ajax/lang` | High
+32 | File | `/lms/classes/Master.php?f=save_record` | High
+33 | File | `/login.php` | Medium
+34 | File | `/members/poster.php` | High
+35 | File | `/mics/j_spring_security_check` | High
+36 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/pda/workflow/check_seal.php` | High
+39 | File | `/php/ping.php` | High
 40 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

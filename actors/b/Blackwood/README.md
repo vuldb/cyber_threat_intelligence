@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Blackwood:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -46,52 +47,52 @@ ID | Type | Indicator | Confidence
 6 | File | `/firewall/policy/` | High
 7 | File | `/help/helpredir.aspx` | High
 8 | File | `/irj/portal/` | Medium
-9 | File | `/proc` | Low
-10 | File | `/proc/net/ip6_flowlabel` | High
-11 | File | `/search` | Low
-12 | File | `/tmp/.pk11ipc1` | High
-13 | File | `/tmp/adb.log` | Medium
-14 | File | `/usr/bin/cu` | Medium
-15 | File | `/var/crash/vmcore.log` | High
-16 | File | `aclient.exe` | Medium
-17 | File | `addadmin.asp` | Medium
-18 | File | `admin` | Low
-19 | File | `admin.php` | Medium
-20 | File | `admin.rssreader.php` | High
-21 | File | `admin/configuration/modifier.php` | High
-22 | File | `admin/skins.php` | High
-23 | File | `adminconsole` | Medium
-24 | File | `administrator/mail/download.cfm` | High
-25 | File | `admin_board.php` | High
-26 | File | `af_netlink.c` | Medium
-27 | File | `ajax.php` | Medium
-28 | File | `ajaxRequest/methodCall.do` | High
-29 | File | `announcements.php` | High
-30 | File | `apache2/modsecurity.c` | High
-31 | File | `apply.cgi` | Medium
-32 | File | `app_new.php` | Medium
-33 | File | `aspx` | Low
-34 | File | `AttachmentsList.aspx` | High
-35 | File | `Atx45.ocx` | Medium
-36 | File | `auction_details.php` | High
-37 | File | `auth.php` | Medium
-38 | File | `aut_verifica.inc.php` | High
-39 | File | `awsguest.php` | Medium
-40 | File | `b2edit.showposts.php` | High
-41 | File | `backend.php/screen.php/comment.php` | High
-42 | File | `basicfunctions.php` | High
-43 | File | `board.cgi` | Medium
-44 | File | `bug_actiongroup_ext_page.php` | High
-45 | File | `canned_opr.php` | High
-46 | File | `cart.cgi` | Medium
-47 | File | `cat.asp` | Low
-48 | File | `cddbcontrolaol.cddbaolcontrol` | High
-49 | File | `channel.asp` | Medium
-50 | File | `class_auth.php` | High
-51 | File | `compte.php` | Medium
+9 | File | `/module/RegraAvaliacao/edit` | High
+10 | File | `/proc` | Low
+11 | File | `/proc/net/ip6_flowlabel` | High
+12 | File | `/search` | Low
+13 | File | `/test-details.php` | High
+14 | File | `/tmp/.pk11ipc1` | High
+15 | File | `/tmp/adb.log` | Medium
+16 | File | `/usr/bin/cu` | Medium
+17 | File | `/var/crash/vmcore.log` | High
+18 | File | `aclient.exe` | Medium
+19 | File | `addadmin.asp` | Medium
+20 | File | `admin` | Low
+21 | File | `admin.php` | Medium
+22 | File | `admin.rssreader.php` | High
+23 | File | `admin/configuration/modifier.php` | High
+24 | File | `admin/skins.php` | High
+25 | File | `adminconsole` | Medium
+26 | File | `administrator/mail/download.cfm` | High
+27 | File | `admin_board.php` | High
+28 | File | `af_netlink.c` | Medium
+29 | File | `ajax.php` | Medium
+30 | File | `ajaxRequest/methodCall.do` | High
+31 | File | `announcements.php` | High
+32 | File | `apache2/modsecurity.c` | High
+33 | File | `apply.cgi` | Medium
+34 | File | `app_new.php` | Medium
+35 | File | `aspx` | Low
+36 | File | `AttachmentsList.aspx` | High
+37 | File | `Atx45.ocx` | Medium
+38 | File | `auction_details.php` | High
+39 | File | `auth.php` | Medium
+40 | File | `aut_verifica.inc.php` | High
+41 | File | `awsguest.php` | Medium
+42 | File | `b2edit.showposts.php` | High
+43 | File | `backend.php/screen.php/comment.php` | High
+44 | File | `basicfunctions.php` | High
+45 | File | `board.cgi` | Medium
+46 | File | `bug_actiongroup_ext_page.php` | High
+47 | File | `canned_opr.php` | High
+48 | File | `cart.cgi` | Medium
+49 | File | `cat.asp` | Low
+50 | File | `cddbcontrolaol.cddbaolcontrol` | High
+51 | File | `channel.asp` | Medium
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

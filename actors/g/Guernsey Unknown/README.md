@@ -79,7 +79,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,19 +88,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/uesrs.php&action=display&value=Show` | High
-3 | File | `/api/0/api-tokens/` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-7 | File | `/classes/Login.php` | High
-8 | File | `/classes/master.php?f=delete_order` | High
-9 | File | `/classes/Master.php?f=log_employee` | High
-10 | File | `/contact.php` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/ims/login.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+2 | File | `/add-subadmin.php` | High
+3 | File | `/admin/uesrs.php&action=display&value=Show` | High
+4 | File | `/api/0/api-tokens/` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/boafrm/formSiteSurveyProfile` | High
+8 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+9 | File | `/classes/Login.php` | High
+10 | File | `/classes/master.php?f=delete_order` | High
+11 | File | `/classes/Master.php?f=log_employee` | High
+12 | File | `/contact.php` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/ims/login.php` | High
 15 | ... | ... | ...
 
 There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -122,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

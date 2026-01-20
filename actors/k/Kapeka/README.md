@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,37 +73,38 @@ ID | Type | Indicator | Confidence
 21 | File | `/admin/pages/list` | High
 22 | File | `/admin/property-details.php` | High
 23 | File | `/admin/search-maid.php` | High
-24 | File | `/admin/subnets/ripe-query.php` | High
-25 | File | `/admin/update-clients.php` | High
-26 | File | `/admin/upgrade` | High
-27 | File | `/Admin/user-record.php` | High
-28 | File | `/adminPage/www/addOver` | High
-29 | File | `/ajax.php` | Medium
-30 | File | `/ajax.php?action=calculate_payroll` | High
-31 | File | `/ajax.php?action=delete_member` | High
-32 | File | `/ajax.php?action=signup` | High
-33 | File | `/ajax.php?action=update_account` | High
-34 | File | `/ample/app/action/edit_product.php` | High
-35 | File | `/api/authentication/login` | High
-36 | File | `/api/job/add/` | High
-37 | File | `/api/mob/instrucao/conta/destinatarios` | High
-38 | File | `/api/v1/get-upload-file` | High
-39 | File | `/application/controller/Transaki.php` | High
-40 | File | `/apply.cgi` | Medium
-41 | File | `/assets` | Low
-42 | File | `/attachments` | Medium
-43 | File | `/author_posts.php` | High
-44 | File | `/bin/boa` | Medium
-45 | File | `/blog` | Low
-46 | File | `/category.php` | High
-47 | File | `/cgi-bin/cstecgi.cgi` | High
-48 | File | `/cgi-bin/discovery.cgi` | High
-49 | File | `/classes/Master.php?f=save_inquiry` | High
-50 | File | `/classes/Users.php?f=save_client` | High
-51 | File | `/collect/PortV4/downLoad.html` | High
-52 | ... | ... | ...
+24 | File | `/Admin/student.php` | High
+25 | File | `/admin/subnets/ripe-query.php` | High
+26 | File | `/admin/update-clients.php` | High
+27 | File | `/admin/updatestudent.php` | High
+28 | File | `/admin/update_s1.php` | High
+29 | File | `/admin/upgrade` | High
+30 | File | `/Admin/user-record.php` | High
+31 | File | `/adminPage/www/addOver` | High
+32 | File | `/ajax.php` | Medium
+33 | File | `/ajax.php?action=calculate_payroll` | High
+34 | File | `/ajax.php?action=delete_member` | High
+35 | File | `/ajax.php?action=signup` | High
+36 | File | `/ajax.php?action=update_account` | High
+37 | File | `/ample/app/action/edit_product.php` | High
+38 | File | `/api/authentication/login` | High
+39 | File | `/api/job/add/` | High
+40 | File | `/api/mob/instrucao/conta/destinatarios` | High
+41 | File | `/api/v1/get-upload-file` | High
+42 | File | `/application/controller/Transaki.php` | High
+43 | File | `/apply.cgi` | Medium
+44 | File | `/assets` | Low
+45 | File | `/attachments` | Medium
+46 | File | `/author_posts.php` | High
+47 | File | `/bin/boa` | Medium
+48 | File | `/blog` | Low
+49 | File | `/category.php` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/discovery.cgi` | High
+52 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+53 | ... | ... | ...
 
-There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

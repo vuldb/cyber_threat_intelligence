@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -129,41 +129,45 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/application-bwdates-reports-details.php` | High
 6 | File | `/admin/booking-bwdates-reports-details.php` | High
 7 | File | `/admin/bookList?page=1&limit=10` | High
-8 | File | `/admin/complaint-search.php` | High
-9 | File | `/admin/create_product.php` | High
-10 | File | `/admin/delete_user.php` | High
-11 | File | `/admin/edit-category-detail.php` | High
-12 | File | `/admin/forget-password.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index3.php` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/pages/` | High
-17 | File | `/admin/positions.php` | High
-18 | File | `/admin/process_category_add.php` | High
-19 | File | `/admin/search-appointment.php` | High
-20 | File | `/admin/update-rooms.php` | High
-21 | File | `/admin/visitor-details.php` | High
-22 | File | `/admins` | Low
-23 | File | `/ajax/getBasicInfo.php` | High
-24 | File | `/api/admin/system/store/order/list` | High
-25 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-26 | File | `/api/esps` | Medium
-27 | File | `/api/login/auth` | High
-28 | File | `/api/v1/admin/` | High
-29 | File | `/api/v2/open/rowsInfo` | High
-30 | File | `/api/wizard/setsyncpppoecfg` | High
-31 | File | `/auth/userkey/logout.php` | High
-32 | File | `/bank/transfer.php` | High
-33 | File | `/bbdms/sign-up.php` | High
-34 | File | `/bin/httpd` | Medium
-35 | File | `/category.php` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/system_mgr.cgi` | High
-38 | File | `/cgi-bin/wlogin.cgi` | High
-39 | File | `/clientdetails/admin/regester.php` | High
-40 | ... | ... | ...
+8 | File | `/admin/categories/save` | High
+9 | File | `/admin/complaint-search.php` | High
+10 | File | `/admin/contact-us.php` | High
+11 | File | `/admin/create_product.php` | High
+12 | File | `/admin/delete_user.php` | High
+13 | File | `/admin/edit-category-detail.php` | High
+14 | File | `/admin/forget-password.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index3.php` | High
+17 | File | `/admin/newsletterdel.php` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/pages/` | High
+20 | File | `/admin/positions.php` | High
+21 | File | `/admin/process_category_add.php` | High
+22 | File | `/admin/search-appointment.php` | High
+23 | File | `/admin/update-rooms.php` | High
+24 | File | `/admin/visitor-details.php` | High
+25 | File | `/admins` | Low
+26 | File | `/ajax/getBasicInfo.php` | High
+27 | File | `/api/admin/system/store/order/list` | High
+28 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+29 | File | `/api/esps` | Medium
+30 | File | `/api/login/auth` | High
+31 | File | `/api/v1/admin/` | High
+32 | File | `/api/v2/open/rowsInfo` | High
+33 | File | `/api/wizard/setsyncpppoecfg` | High
+34 | File | `/auth/userkey/logout.php` | High
+35 | File | `/authentication.cgi` | High
+36 | File | `/bank/transfer.php` | High
+37 | File | `/bbdms/sign-up.php` | High
+38 | File | `/bin/httpd` | Medium
+39 | File | `/category.php` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/system_mgr.cgi` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/clientdetails/admin/regester.php` | High
+44 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

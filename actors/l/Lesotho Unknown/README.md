@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [UA](https://vuldb.com/?country.ua)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 42 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -66,56 +66,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/aboutus.php` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/manage-pages.php` | High
-9 | File | `/admin/mod_reports/index.php` | High
-10 | File | `/admin/sales/manage_sale.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-13 | File | `/apilog.php` | Medium
-14 | File | `/app/admin/controller/file/File.php` | High
-15 | File | `/auth/userkey/logout.php` | High
-16 | File | `/auth_pic.cgi` | High
-17 | File | `/backend/register.php` | High
-18 | File | `/bin/httpd` | Medium
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-21 | File | `/cgi-bin/api-get_line_status` | High
-22 | File | `/cgi-bin/luci` | High
-23 | File | `/cgi-bin/myMusic.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/Code/loginnew.php` | High
-26 | File | `/Code/sc_login.php` | High
-27 | File | `/config-manager/save` | High
-28 | File | `/control/register_case.php` | High
-29 | File | `/dashboard/admin/edit_member.php` | High
-30 | File | `/dashboard/admin/edit_mem_submit.php` | High
-31 | File | `/dashboard/admin/new_submit.php` | High
-32 | File | `/dashboard/menu-list.php` | High
-33 | File | `/dashboard/message` | High
-34 | File | `/dashboard/table-list.php` | High
-35 | File | `/details.php` | Medium
-36 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-37 | File | `/devinfo` | Medium
-38 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
-39 | File | `/directRouter.rfc` | High
-40 | File | `/doctor/view-appointment-detail.php` | High
-41 | File | `/downloadFile.php` | High
-42 | File | `/edit-client-details.php` | High
-43 | File | `/expadd.php` | Medium
-44 | File | `/forum/away.php` | High
-45 | File | `/goform/` | Medium
-46 | File | `/goform/SetOnlineDevName` | High
-47 | File | `/goform/SetSysTimeCfg` | High
-48 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/edit_action.php` | High
+7 | File | `/admin/images/add` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/manage-pages.php` | High
+11 | File | `/admin/mod_reports/index.php` | High
+12 | File | `/admin/reservation.php` | High
+13 | File | `/admin/sales/manage_sale.php` | High
+14 | File | `/advanced-tools/nova/bin/netwatch` | High
+15 | File | `/ajax.php?action=save_ticket` | High
+16 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+17 | File | `/apilog.php` | Medium
+18 | File | `/app/admin/controller/file/File.php` | High
+19 | File | `/auth/userkey/logout.php` | High
+20 | File | `/auth_pic.cgi` | High
+21 | File | `/bin/httpd` | Medium
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+24 | File | `/cgi-bin/api-get_line_status` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/myMusic.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/checkout/confirm/` | High
+29 | File | `/Code/loginnew.php` | High
+30 | File | `/Code/sc_login.php` | High
+31 | File | `/config-manager/save` | High
+32 | File | `/dashboard/admin/edit_member.php` | High
+33 | File | `/dashboard/admin/edit_mem_submit.php` | High
+34 | File | `/dashboard/admin/new_submit.php` | High
+35 | File | `/dashboard/menu-list.php` | High
+36 | File | `/dashboard/message` | High
+37 | File | `/dashboard/product` | High
+38 | File | `/dashboard/table-list.php` | High
+39 | File | `/delete_account.php` | High
+40 | File | `/details.php` | Medium
+41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+42 | File | `/devinfo` | Medium
+43 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
+44 | File | `/directRouter.rfc` | High
+45 | File | `/downloadFile.php` | High
+46 | File | `/edit-details.php` | High
+47 | File | `/educar_aluno_lst.php` | High
+48 | File | `/etc_ro/shadow` | High
+49 | File | `/expadd.php` | Medium
+50 | File | `/forum/away.php` | High
+51 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +137,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South Africa Unknown:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [ZA](https://vuldb.com/?country.za)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2212,12 +2212,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2225,21 +2227,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/faculty_action.php` | High
-2 | File | `/admin/manage-pages.php` | High
-3 | File | `/admin/manage_user.php` | High
-4 | File | `/admin/view-patient.php` | High
-5 | File | `/bic/ssoService/v1/applyCT` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/client/UnChkMailApplication.jsp` | High
-8 | File | `/edit-student.php` | High
-9 | File | `/goform/formAutoDetecWAN_wizard4` | High
-10 | File | `/goform/formBSSetSitesurvey` | High
-11 | File | `/goform/formDeviceReboot` | High
-12 | File | `/goform/formSetWanNonLogin` | High
-13 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/addrbook.ghp` | High
+3 | File | `/admin.php?m=Config&a=add` | High
+4 | File | `/admin/?page=system_info` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/archives/edit` | High
+7 | File | `/admin/ballot_up.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/deletedoctor.php` | High
+10 | File | `/admin/delete_student.php` | High
+11 | File | `/admin/delete_user.php` | High
+12 | File | `/admin/search1.php` | High
+13 | File | `/admin/showbad.php` | High
+14 | File | `/admin_delete.php` | High
+15 | File | `/admin_topic.php?action=delall` | High
+16 | File | `/adv_dhcps.php` | High
+17 | File | `/authentication/` | High
+18 | File | `/boafrm/formMapDelDevice` | High
+19 | File | `/boafrm/formWdsEncrypt` | High
+20 | File | `/boafrm/formWlanMultipleAP` | High
+21 | File | `/cgi-bin-igd/netcore_get.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+24 | File | `/cgi-bin/sysconf.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php?f=save_sub_category` | High
+27 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+28 | File | `/config/pw_changeusers.html` | High
+29 | File | `/contentshare/image/data/user/0/com.sony.dtv.photosharingplus/files/_BRAVPSS.TMP/LJYT0010.JPG` | High
+30 | File | `/cwms/classes/Master.php?f=save_contact` | High
+31 | File | `/dashboard/approve-reject.php` | High
+32 | File | `/dede/co_do.php` | High
+33 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+34 | File | `/eclime/manufacturers.php` | High
+35 | File | `/etc/config/cameo` | High
+36 | File | `/filter.php` | Medium
+37 | File | `/formLoginAuth.htm` | High
+38 | File | `/fp/admin/settings/loginpage` | High
+39 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2261,4 +2289,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

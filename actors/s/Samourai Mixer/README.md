@@ -65,24 +65,24 @@ ID | Type | Indicator | Confidence
 9 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
 10 | File | `/common/show_image.php` | High
 11 | File | `/cupseasylive/grnlinecreate.php` | High
-12 | File | `/file-manager/upload.php` | High
-13 | File | `/goform/formResetStatistic` | High
-14 | File | `/goform/formSetPortTr` | High
-15 | File | `/goform/qosClassifier` | High
-16 | File | `/goform/QoSPortSetup` | High
-17 | File | `/goform/SafeEmailFilter` | High
-18 | File | `/goform/SetFirewallCfg` | High
-19 | File | `/goform/wirelessApcli_5g` | High
-20 | File | `/goform/WriteFacMac` | High
-21 | File | `/includes/create_share.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/InnerRepPlus.html` | High
-24 | File | `/j_security_check` | High
-25 | File | `/manage_invoice.php` | High
-26 | File | `/moddable/xs/sources/xsDebug.c` | High
+12 | File | `/druid/index.html` | High
+13 | File | `/file-manager/upload.php` | High
+14 | File | `/goform/formResetStatistic` | High
+15 | File | `/goform/formSetPortTr` | High
+16 | File | `/goform/qosClassifier` | High
+17 | File | `/goform/QoSPortSetup` | High
+18 | File | `/goform/SafeEmailFilter` | High
+19 | File | `/goform/SetFirewallCfg` | High
+20 | File | `/goform/wirelessApcli_5g` | High
+21 | File | `/goform/WriteFacMac` | High
+22 | File | `/includes/create_share.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index.php?case=database&act=backAll&admin_dir=admin&site=default` | High
+25 | File | `/InnerRepPlus.html` | High
+26 | File | `/j_security_check` | High
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

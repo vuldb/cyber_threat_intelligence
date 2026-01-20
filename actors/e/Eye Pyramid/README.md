@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Eye Pyramid:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -30,23 +30,24 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [9.169.185.208](https://vuldb.com/?ip.9.169.185.208) | - | - | High
 8 | [13.61.7.218](https://vuldb.com/?ip.13.61.7.218) | ec2-13-61-7-218.eu-north-1.compute.amazonaws.com | - | Medium
 9 | [13.217.66.6](https://vuldb.com/?ip.13.217.66.6) | mail.humanresourcefoundation.com | - | High
-10 | [18.102.118.123](https://vuldb.com/?ip.18.102.118.123) | ec2-18-102-118-123.eu-south-1.compute.amazonaws.com | - | Medium
-11 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
-12 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
-13 | [35.152.189.99](https://vuldb.com/?ip.35.152.189.99) | ec2-35-152-189-99.eu-south-1.compute.amazonaws.com | - | Medium
-14 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
-15 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
-16 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
-17 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
-18 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
-19 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
-20 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
-21 | [45.141.233.243](https://vuldb.com/?ip.45.141.233.243) | - | - | High
-22 | [46.21.153.146](https://vuldb.com/?ip.46.21.153.146) | 146.153.21.46.static.swiftway.net | - | High
-23 | [54.38.94.225](https://vuldb.com/?ip.54.38.94.225) | ns3140967.ip-54-38-94.eu | - | High
-24 | ... | ... | ... | ...
+10 | [18.102.94.254](https://vuldb.com/?ip.18.102.94.254) | ec2-18-102-94-254.eu-south-1.compute.amazonaws.com | - | Medium
+11 | [18.102.118.123](https://vuldb.com/?ip.18.102.118.123) | ec2-18-102-118-123.eu-south-1.compute.amazonaws.com | - | Medium
+12 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
+13 | [31.7.77.230](https://vuldb.com/?ip.31.7.77.230) | - | - | High
+14 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
+15 | [35.152.189.99](https://vuldb.com/?ip.35.152.189.99) | ec2-35-152-189-99.eu-south-1.compute.amazonaws.com | - | Medium
+16 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
+17 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
+18 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
+19 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
+20 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
+21 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
+22 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
+23 | [45.141.233.243](https://vuldb.com/?ip.45.141.233.243) | - | - | High
+24 | [46.21.153.146](https://vuldb.com/?ip.46.21.153.146) | 146.153.21.46.static.swiftway.net | - | High
+25 | ... | ... | ... | ...
 
-There are 90 more IOC items available. Please use our online service to access the data.
+There are 96 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,13 +55,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,20 +70,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admin/positions.php` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/clientdetails/admin/regester.php` | High
-10 | File | `/csms/?page=contact_us` | High
-11 | File | `/editprofile.php` | High
-12 | ... | ... | ...
+1 | File | `/admin/add-module.php` | High
+2 | File | `/admin/archives_add.php` | High
+3 | File | `/admin/categories/save` | High
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/delete_user.php` | High
+6 | File | `/admin/newsletterdel.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/positions.php` | High
+9 | File | `/admin/receipt.php` | High
+10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+12 | File | `/admins` | Low
+13 | File | `/ajax.php?action=login` | High
+14 | File | `/ajax/getBasicInfo.php` | High
+15 | File | `/api/admin/system/store/order/list` | High
+16 | File | `/api/files/recipepictures/` | High
+17 | File | `/authentication.cgi` | High
+18 | File | `/boafrm/formDdns` | High
+19 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+20 | File | `/boafrm/formVpnConfigSetup` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/clientdetails/admin/regester.php` | High
+24 | File | `/csms/?page=contact_us` | High
+25 | File | `/detailtransac.php` | High
+26 | File | `/dev/ptpX` | Medium
+27 | File | `/editeddonor.php` | High
+28 | File | `/editprofile.php` | High
+29 | File | `/farm/product.php` | High
+30 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

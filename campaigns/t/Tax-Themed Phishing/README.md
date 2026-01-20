@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tax-Themed Phishing:
+
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
 ## Actors
 
 These _actors_ are associated with Tax-Themed Phishing or other actors linked to the campaign.
@@ -11,6 +22,7 @@ These _actors_ are associated with Tax-Themed Phishing or other actors linked to
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Nanocore](https://vuldb.com/?actor.nanocore) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -19,17 +31,40 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
-2 | [117.120.5.194](https://vuldb.com/?ip.117.120.5.194) | mail.majorspest.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
-3 | [130.194.13.86](https://vuldb.com/?ip.130.194.13.86) | - | [Nanocore](https://vuldb.com/?actor.nanocore) | High
+2 | [45.113.192.102](https://vuldb.com/?ip.45.113.192.102) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [117.120.5.194](https://vuldb.com/?ip.117.120.5.194) | mail.majorspest.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Tax-Themed Phishing. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Tax-Themed Phishing. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `faq.php` | Low
+2 | File | `index.php` | Medium
+3 | File | `print.php` | Medium
+4 | ... | ... | ...
+
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
+* https://www.seqrite.com/blog/indian-income-tax-themed-phishing-campaign-targets-local-businesses/
 
 ## Literature
 
@@ -40,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

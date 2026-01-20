@@ -55,11 +55,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,46 +67,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/article.php` | High
-3 | File | `/admin/deduction_row.php` | High
-4 | File | `/admin/edit_teacher.php` | High
-5 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-6 | File | `/api/` | Low
-7 | File | `/api/v1/settings` | High
-8 | File | `/cgi-bin/cgiServer.exx` | High
-9 | File | `/cgi-bin/login_action.cgi` | High
-10 | File | `/cgi-bin/nobody/Search.cgi` | High
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/cgi-bin/webviewer_login_page` | High
-13 | File | `/dev/sg0` | Medium
-14 | File | `/event/runquery.do` | High
-15 | File | `/export` | Low
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/setmac` | High
-19 | File | `/goform/telnet` | High
-20 | File | `/log_download.cgi` | High
-21 | File | `/manager?action=getlogcat` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/pages/systemcall.php?command={COMMAND}` | High
-25 | File | `/password.html` | High
-26 | File | `/php_action/fetchSelectedCategories.php` | High
-27 | File | `/public/login.htm` | High
-28 | File | `/services/prefs.php` | High
-29 | File | `/system/ws/v11/ss/email` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/upload` | Low
-32 | File | `/user/update_booking.php` | High
-33 | File | `/v1/operador/` | High
-34 | File | `3/Ebbak5.1/upload/class/functions.php` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `add_vhost.php` | High
-37 | File | `admin/gv_mail.php` | High
-38 | ... | ... | ...
+1 | File | `/about_us` | Medium
+2 | File | `/add-phlebotomist.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/article.php` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/bookings/manage_booking.php` | High
+7 | File | `/admin/contactus.php` | High
+8 | File | `/admin/deduction_row.php` | High
+9 | File | `/admin/edit-course.php` | High
+10 | File | `/admin/edit_teacher.php` | High
+11 | File | `/admin/positions_delete.php` | High
+12 | File | `/admin/settings/` | High
+13 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+14 | File | `/admin/view_reserved.php` | High
+15 | File | `/api/` | Low
+16 | File | `/api/v1/settings` | High
+17 | File | `/backend/doc/his_doc_update-account.php` | High
+18 | File | `/cgi-bin/cgiServer.exx` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/login_action.cgi` | High
+21 | File | `/cgi-bin/nobody/Search.cgi` | High
+22 | File | `/cgi-bin/system_mgr.cgi` | High
+23 | File | `/cgi-bin/webviewer_login_page` | High
+24 | File | `/command_port.ini` | High
+25 | File | `/dev/sg0` | Medium
+26 | File | `/emgui/rest/ums/messages` | High
+27 | File | `/endpoint/add-computer.php` | High
+28 | File | `/event/runquery.do` | High
+29 | File | `/export` | Low
+30 | File | `/filemanager/php/connector.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/form2Dhcpd.cgi` | High
+33 | File | `/goform/formSetDomainFilter` | High
+34 | File | `/goform/setmac` | High
+35 | File | `/goform/SetNetControlList` | High
+36 | File | `/goform/telnet` | High
+37 | File | `/HNAP1/` | Low
+38 | File | `/index.php/display/database/` | High
+39 | File | `/log_download.cgi` | High
+40 | File | `/manager?action=getlogcat` | High
+41 | File | `/mgmt/tm/util/bash` | High
+42 | File | `/nova/bin/detnet` | High
+43 | File | `/pages/systemcall.php?command={COMMAND}` | High
+44 | File | `/password.html` | High
+45 | File | `/php_action/fetchSelectedCategories.php` | High
+46 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

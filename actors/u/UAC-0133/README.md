@@ -99,19 +99,19 @@ ID | Type | Indicator | Confidence
 47 | File | `/bin/boa` | Medium
 48 | File | `/blog` | Low
 49 | File | `/boafrm/formWsc` | High
-50 | File | `/category.php` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | File | `/cgi-bin/discovery.cgi` | High
-53 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-54 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-55 | File | `/classes/Master.php?f=save_inquiry` | High
-56 | File | `/classes/Users.php?f=save_client` | High
-57 | File | `/collect/PortV4/downLoad.html` | High
-58 | File | `/collection/all` | High
-59 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/discovery.cgi` | High
+52 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+53 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+54 | File | `/classes/Master.php?f=save_inquiry` | High
+55 | File | `/classes/Users.php?f=save_client` | High
+56 | File | `/collect/PortV4/downLoad.html` | High
+57 | File | `/collection/all` | High
+58 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+59 | File | `/commons/attachment/upload` | High
 60 | ... | ... | ...
 
-There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

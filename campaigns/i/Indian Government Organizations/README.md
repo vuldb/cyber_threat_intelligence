@@ -25,12 +25,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | [APT36](https://vuldb.com/?actor.apt36) | High
-2 | [99.83.175.80](https://vuldb.com/?ip.99.83.175.80) | a2e6b661ca0e4c4c4.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
-3 | [104.21.76.236](https://vuldb.com/?ip.104.21.76.236) | - | [APT36](https://vuldb.com/?actor.apt36) | High
+1 | [2.56.10.86](https://vuldb.com/?ip.2.56.10.86) | - | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | [APT36](https://vuldb.com/?actor.apt36) | High
+3 | [99.83.175.80](https://vuldb.com/?ip.99.83.175.80) | a2e6b661ca0e4c4c4.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,18 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `Records.php` | Medium
+1 | File | `/admin/update_room.php` | High
+2 | File | `/etc/shadow` | Medium
+3 | File | `/membership_profile.php` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
+* https://www.cyfirma.com/research/apt36-multi-stage-lnk-malware-campaign-targeting-indian-government-entities/
 
 ## Literature
 
@@ -73,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

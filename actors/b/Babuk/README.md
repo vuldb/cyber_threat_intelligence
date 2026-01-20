@@ -60,20 +60,20 @@ ID | Type | Indicator | Confidence
 4 | File | `/apply.cgi` | Medium
 5 | File | `/cgi-bin/cstecgi.cgi` | High
 6 | File | `/cimom` | Low
-7 | File | `/etc/openstack-dashboard/local_settings` | High
-8 | File | `/MIME/INBOX-MM-1/` | High
-9 | File | `/php/ping.php` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/sm/api/v1/firewall/zone/services` | High
-13 | File | `/SysInfo1.htm` | High
-14 | File | `/sysinfo_json.cgi` | High
-15 | File | `/system/dictData/loadDictItem` | High
-16 | File | `/system/user/modules/mod_users/controller.php` | High
-17 | File | `/uncpath/` | Medium
+7 | File | `/config/pw_changeusers.html` | High
+8 | File | `/etc/openstack-dashboard/local_settings` | High
+9 | File | `/MIME/INBOX-MM-1/` | High
+10 | File | `/php/ping.php` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/sm/api/v1/firewall/zone/services` | High
+14 | File | `/SysInfo1.htm` | High
+15 | File | `/sysinfo_json.cgi` | High
+16 | File | `/system/dictData/loadDictItem` | High
+17 | File | `/system/user/modules/mod_users/controller.php` | High
 18 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

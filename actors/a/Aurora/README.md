@@ -53,52 +53,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-3 | File | `/admin/category.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/registration.php` | High
-9 | File | `/admin/subnets/ripe-query.php` | High
-10 | File | `/auth_files/photo/` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/debuginfo.htm` | High
-16 | File | `/endpoint/update-bookmark.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/fw.login.php` | High
-19 | File | `/gfxpoly/convert.c` | High
-20 | File | `/goform/wirelessAdvancedHidden` | High
-21 | File | `/GponForm/device_Form?script/` | High
-22 | File | `/index.php?/manage/channel/addchannel` | High
-23 | File | `/opac/Actions.php?a=login` | High
-24 | File | `/opt/tms/bin/cli` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/products/view_product.php` | High
-28 | File | `/registrar/?page=registration` | High
-29 | File | `/secserver` | Medium
-30 | File | `/settings/account` | High
-31 | File | `/show_news.php` | High
-32 | File | `/smsa/admin_dashboard.php` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/src/dede/tpl.php` | High
-35 | File | `/st_reg.php` | Medium
-36 | File | `/var/log/nginx` | High
-37 | File | `/way4acs/enroll` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `action.php` | Medium
-40 | File | `actions/beats_uploader.php` | High
-41 | File | `actions/vote_channel.php` | High
-42 | File | `ad.cgi` | Low
-43 | File | `adclick.php` | Medium
-44 | File | `add.php` | Low
-45 | ... | ... | ...
+2 | File | `/admin/add_payroll.php` | High
+3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+4 | File | `/admin/category.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/manage_academic.php` | High
+9 | File | `/admin/registration.php` | High
+10 | File | `/admin/subnets/ripe-query.php` | High
+11 | File | `/admin/system/variableList.do` | High
+12 | File | `/auth_files/photo/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+18 | File | `/debuginfo.htm` | High
+19 | File | `/endpoint/update-bookmark.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/fw.login.php` | High
+22 | File | `/gfxpoly/convert.c` | High
+23 | File | `/goform/wirelessAdvancedHidden` | High
+24 | File | `/GponForm/device_Form?script/` | High
+25 | File | `/index.php?/manage/channel/addchannel` | High
+26 | File | `/intranet/educar_funcao_lst.php` | High
+27 | File | `/newrecord.php` | High
+28 | File | `/opac/Actions.php?a=login` | High
+29 | File | `/opt/tms/bin/cli` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/pointHierarchySLTS` | High
+33 | File | `/products/view_product.php` | High
+34 | File | `/registrar/?page=registration` | High
+35 | File | `/secserver` | Medium
+36 | File | `/settings/account` | High
+37 | File | `/show_news.php` | High
+38 | File | `/smsa/admin_dashboard.php` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/src/dede/tpl.php` | High
+41 | File | `/st_reg.php` | Medium
+42 | File | `/var/log/nginx` | High
+43 | File | `/way4acs/enroll` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | File | `action.php` | Medium
+46 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Poison Ivy:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [IO](https://vuldb.com/?country.io)
-* [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,12 +97,12 @@ ID | Type | Indicator | Confidence
 27 | File | `/admin/request-received-bydonar.php` | High
 28 | File | `/admin/return_add.php` | High
 29 | File | `/admin/role/list` | High
-30 | File | `/admin/update-clients.php` | High
-31 | File | `/admin/uploads/` | High
-32 | File | `/admin_ping.htm` | High
-33 | File | `/admin_route/dec_service_credits.php` | High
-34 | File | `/admin_route/inc_service_credits.php` | High
-35 | File | `/ample/app/action/edit_product.php` | High
+30 | File | `/admin/sys/admin.html` | High
+31 | File | `/admin/update-clients.php` | High
+32 | File | `/admin/uploads/` | High
+33 | File | `/admin_ping.htm` | High
+34 | File | `/admin_route/dec_service_credits.php` | High
+35 | File | `/admin_route/inc_service_credits.php` | High
 36 | File | `/api.php` | Medium
 37 | File | `/api/controllers/admin/app/AppController.php` | High
 38 | File | `/api/controllers/admin/app/ComboController.php` | High
@@ -145,7 +145,7 @@ ID | Type | Indicator | Confidence
 75 | File | `/devinfo` | Medium
 76 | ... | ... | ...
 
-There are 673 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 670 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -179,4 +179,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

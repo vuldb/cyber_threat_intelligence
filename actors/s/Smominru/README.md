@@ -50,23 +50,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/download_frame.php` | High
-2 | File | `/cgi-bin/p1_ftpserver.php` | High
-3 | File | `/cgi-bin/tosei_kikai.php` | High
-4 | File | `/classes/Master.php` | High
-5 | File | `/common/info.cgi` | High
-6 | File | `/dev/urandom` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/GetNewDir` | High
-9 | File | `/hvm/hvm.c` | Medium
-10 | File | `/rating.php` | Medium
-11 | File | `/uncpath/` | Medium
-12 | File | `/uploads` | Medium
-13 | File | `/var/log/nginx` | High
-14 | File | `action/AttachFile.py` | High
+1 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+2 | File | `/admin/download_frame.php` | High
+3 | File | `/cgi-bin/p1_ftpserver.php` | High
+4 | File | `/cgi-bin/tosei_kikai.php` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/common/info.cgi` | High
+7 | File | `/dev/urandom` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/GetNewDir` | High
+10 | File | `/hvm/hvm.c` | Medium
+11 | File | `/rating.php` | Medium
+12 | File | `/uncpath/` | Medium
+13 | File | `/uploads` | Medium
+14 | File | `/var/log/nginx` | High
 15 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,16 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/etc/sudoers` | Medium
-3 | File | `/exponent_constants.php` | High
-4 | File | `actions.php` | Medium
-5 | File | `adclick.php` | Medium
-6 | File | `add_comment.php` | High
-7 | File | `adminer.php` | Medium
+1 | File | `/cgi-bin/internet.cgi?Command=lanCfg` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/etc/sudoers` | Medium
+4 | File | `/exponent_constants.php` | High
+5 | File | `actions.php` | Medium
+6 | File | `adclick.php` | Medium
+7 | File | `add_comment.php` | High
 8 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

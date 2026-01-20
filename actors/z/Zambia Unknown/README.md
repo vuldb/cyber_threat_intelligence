@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,50 +110,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/forgotpassword` | High
 2 | File | `/addbill.php` | Medium
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit-class.php` | High
-6 | File | `/admin/edit_action.php` | High
-7 | File | `/Admin/edit_profile.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/manage-pages.php` | High
-10 | File | `/admin/process_category_add.php` | High
-11 | File | `/admin/registration.php` | High
-12 | File | `/admin/sales/manage_sale.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/admin/users-applications.php` | High
-15 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-16 | File | `/advanced-tools/nova/bin/netwatch` | High
-17 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-18 | File | `/apilog.php` | Medium
-19 | File | `/app/middleware/TokenVerify.php` | High
-20 | File | `/attendancelist.php` | High
-21 | File | `/auth_pic.cgi` | High
-22 | File | `/blog` | Low
-23 | File | `/book-appointment.php` | High
-24 | File | `/cancelbookingpatient.php` | High
-25 | File | `/category.php` | High
-26 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-27 | File | `/cgi-bin/api-get_line_status` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-30 | File | `/cgi-bin/luci` | High
-31 | File | `/cgi-bin/myMusic.cgi` | High
-32 | File | `/cgi-bin/nas_sharing.cgi` | High
-33 | File | `/cgi-bin/s3.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/changeimage1.php` | High
-36 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-37 | File | `/Code/loginnew.php` | High
-38 | File | `/Code/sc_login.php` | High
-39 | File | `/conf/app.conf` | High
-40 | File | `/control/register_case.php` | High
-41 | File | `/dashboard/admin/edit_member.php` | High
-42 | File | `/dashboard/admin/edit_mem_submit.php` | High
-43 | File | `/dashboard/admin/new_submit.php` | High
-44 | ... | ... | ...
+3 | File | `/admin` | Low
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/admin-area.php` | High
+6 | File | `/admin/class.php` | High
+7 | File | `/admin/create_product.php` | High
+8 | File | `/admin/edit-class.php` | High
+9 | File | `/admin/edit_action.php` | High
+10 | File | `/Admin/edit_profile.php` | High
+11 | File | `/admin/edit_user.php` | High
+12 | File | `/Admin/facilitator.php` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/admin/manage-pages.php` | High
+15 | File | `/admin/process_category_add.php` | High
+16 | File | `/admin/registration.php` | High
+17 | File | `/admin/reservation.php` | High
+18 | File | `/admin/sales/manage_sale.php` | High
+19 | File | `/Admin/sports.php` | High
+20 | File | `/admin/userprofile.php` | High
+21 | File | `/admin/users-applications.php` | High
+22 | File | `/admin/view-appointment.php` | High
+23 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+24 | File | `/advanced-tools/nova/bin/netwatch` | High
+25 | File | `/ajax.php?action=save_ticket` | High
+26 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+27 | File | `/apilog.php` | Medium
+28 | File | `/app/middleware/TokenVerify.php` | High
+29 | File | `/attendancelist.php` | High
+30 | File | `/auth_pic.cgi` | High
+31 | File | `/blog` | Low
+32 | File | `/boafrm/formFilter` | High
+33 | File | `/book-appointment.php` | High
+34 | File | `/cancelbookingpatient.php` | High
+35 | File | `/category.php` | High
+36 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+37 | File | `/cgi-bin/api-get_line_status` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+40 | File | `/cgi-bin/luci` | High
+41 | File | `/cgi-bin/myMusic.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/s3.cgi` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/changeimage1.php` | High
+46 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+47 | File | `/Code/loginnew.php` | High
+48 | File | `/Code/sc_login.php` | High
+49 | File | `/com/esafenet/servlet/document/CDGAuthoriseTempletService.java` | High
+50 | File | `/common/jsp/upload2.jsp` | High
+51 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -172,4 +179,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

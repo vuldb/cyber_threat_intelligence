@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [83.149.75.58](https://vuldb.com/?ip.83.149.75.58) | reserved.ps-it.nl | - | High
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +47,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/index` | Low
-3 | File | `addentry.php` | Medium
-4 | ... | ... | ...
+1 | File | `/add_members.php` | High
+2 | File | `/admin/all-request.php` | High
+3 | File | `/admin/categories/manage_category.php` | High
+4 | File | `/admin/edit-category.php` | High
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/read.php?mudi=getSignal` | High
+9 | File | `/admin/request-received-bydonar.php` | High
+10 | File | `/admin/tasks` | Medium
+11 | File | `/admin/user/controller.php` | High
+12 | File | `/adv_dhcps.php` | High
+13 | File | `/ajax.php?action=save_user` | High
+14 | File | `/api/login/auth` | High
+15 | File | `/boafrm/formIpQoS` | High
+16 | File | `/boafrm/formWlSiteSurvey` | High
+17 | File | `/book/searchByPage` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/class/edit/edit` | High
+21 | File | `/com/esafenet/servlet/client/DecryptApplicationService.java` | High
+22 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.infoblox.com/threat-intelligence/parked-domains-become-weapons-with-direct-search-advertising/
 * https://www.threatminer.org/report.php?q=Elephantosis.pdf&y=2015
 
 ## Literature
@@ -69,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

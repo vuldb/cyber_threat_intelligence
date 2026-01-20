@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [ID](https://vuldb.com/?country.id)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -120,14 +120,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -139,69 +139,74 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin-api/bpm/model/deploy` | High
 3 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
 4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/aboutPost.php` | High
-6 | File | `/admin/article/list` | High
-7 | File | `/admin/change-password.php` | High
-8 | File | `/admin/group/edit.do` | High
-9 | File | `/admin/ImgUpdaPost.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/list_resource_icon.php?action=delete` | High
-12 | File | `/admin/member_save.php` | High
-13 | File | `/admin/read.php?mudi=announContent` | High
-14 | File | `/admin/settings/index.php?page=accounts` | High
-15 | File | `/admin/template_admin.php` | High
-16 | File | `/admin/upload.php` | High
-17 | File | `/admin/user/edit.do` | High
-18 | File | `/adminapi/system/crud` | High
-19 | File | `/adminprofile.php` | High
-20 | File | `/admin_ping.htm` | High
-21 | File | `/adv_arpspoofing.php` | High
-22 | File | `/adv_dhcps.php` | High
-23 | File | `/adv_macbypass.php` | High
-24 | File | `/allreaders.html` | High
-25 | File | `/all_student.php` | High
-26 | File | `/animalsupdate.php` | High
-27 | File | `/api/blade-user/export-user` | High
-28 | File | `/api/stl/actions/search` | High
-29 | File | `/api/system/other` | High
-30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-31 | File | `/api/upload.php` | High
-32 | File | `/api/v1/admin/` | High
-33 | File | `/api/v1/getbaseconfig` | High
-34 | File | `/api/v1/terminal/sessions/?limit=1` | High
-35 | File | `/api/wizard/getCapability` | High
-36 | File | `/api/wizard/getCapabilityWeb` | High
-37 | File | `/api/wizard/getLanguage` | High
-38 | File | `/api/wizard/getSpecs` | High
-39 | File | `/api/wizard/getsyncpppoecfg` | High
-40 | File | `/api/wizard/setLanguage` | High
-41 | File | `/api/wizard/setsyncpppoecfg` | High
-42 | File | `/app/controller/Api.php` | High
-43 | File | `/application/models/ApplicationDataObject.class.php` | High
-44 | File | `/assets/php/upload.php` | High
-45 | File | `/auth.asp` | Medium
-46 | File | `/b2b-supermarket/shopping-cart` | High
-47 | File | `/bin/gpio` | Medium
-48 | File | `/bin/httpd` | Medium
-49 | File | `/boa/formWSC` | Medium
-50 | File | `/boafrm/formDMZ` | High
-51 | File | `/boafrm/formDosCfg` | High
-52 | File | `/boafrm/formFilter` | High
-53 | File | `/boafrm/formIpQoS` | High
-54 | File | `/boafrm/formMapDel` | High
-55 | File | `/boafrm/formMapDelDevice` | High
-56 | File | `/boafrm/formMultiAP` | High
-57 | File | `/boafrm/formNtp` | High
-58 | File | `/boafrm/formPortFw` | High
-59 | File | `/boafrm/formReflashClientTbl` | High
-60 | File | `/boafrm/formSaveConfig` | High
-61 | File | `/boafrm/formSetLg` | High
-62 | File | `/boafrm/formSiteSurveyProfile` | High
-63 | File | `/boafrm/formStaticDHCP` | High
-64 | File | `/boafrm/formStats` | High
-65 | ... | ... | ...
+5 | File | `/admin/` | Low
+6 | File | `/admin/aboutPost.php` | High
+7 | File | `/admin/access` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/article/list` | High
+10 | File | `/admin/change-password.php` | High
+11 | File | `/admin/deleteuser.php` | High
+12 | File | `/admin/edit_account.php` | High
+13 | File | `/admin/group/edit.do` | High
+14 | File | `/admin/ImgUpdaPost.php` | High
+15 | File | `/admin/index2.html` | High
+16 | File | `/admin/member_save.php` | High
+17 | File | `/admin/roombook.php` | High
+18 | File | `/admin/settings/index.php?page=accounts` | High
+19 | File | `/admin/siteconfig.php` | High
+20 | File | `/admin/template_admin.php` | High
+21 | File | `/admin/upload.php` | High
+22 | File | `/admin/user/edit.do` | High
+23 | File | `/adminprofile.php` | High
+24 | File | `/admin_class.php` | High
+25 | File | `/admin_ping.htm` | High
+26 | File | `/admin_route/dec_service_credits.php` | High
+27 | File | `/adv_arpspoofing.php` | High
+28 | File | `/adv_dhcps.php` | High
+29 | File | `/adv_macbypass.php` | High
+30 | File | `/allreaders.html` | High
+31 | File | `/all_student.php` | High
+32 | File | `/animalsupdate.php` | High
+33 | File | `/api/authentication/login` | High
+34 | File | `/api/stl/actions/search` | High
+35 | File | `/api/system/other` | High
+36 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+37 | File | `/api/upload.php` | High
+38 | File | `/api/v1/admin/` | High
+39 | File | `/api/v1/getbaseconfig` | High
+40 | File | `/api/wizard/getCapability` | High
+41 | File | `/api/wizard/getCapabilityWeb` | High
+42 | File | `/api/wizard/getLanguage` | High
+43 | File | `/api/wizard/getSpecs` | High
+44 | File | `/api/wizard/getsyncpppoecfg` | High
+45 | File | `/api/wizard/setLanguage` | High
+46 | File | `/api/wizard/setsyncpppoecfg` | High
+47 | File | `/app-api/infra/file/upload` | High
+48 | File | `/app/admin/controller/api/Plugs.php` | High
+49 | File | `/app/api/controller/caiji.php` | High
+50 | File | `/app/controller/Api.php` | High
+51 | File | `/application/models/ApplicationDataObject.class.php` | High
+52 | File | `/application/pay/controller/Api.php` | High
+53 | File | `/auth.asp` | Medium
+54 | File | `/bin/gpio` | Medium
+55 | File | `/bin/httpd` | Medium
+56 | File | `/boa/formWSC` | Medium
+57 | File | `/boafrm/formDMZ` | High
+58 | File | `/boafrm/formDosCfg` | High
+59 | File | `/boafrm/formFilter` | High
+60 | File | `/boafrm/formIpQoS` | High
+61 | File | `/boafrm/formMapDel` | High
+62 | File | `/boafrm/formMapDelDevice` | High
+63 | File | `/boafrm/formMultiAP` | High
+64 | File | `/boafrm/formNtp` | High
+65 | File | `/boafrm/formPortFw` | High
+66 | File | `/boafrm/formReflashClientTbl` | High
+67 | File | `/boafrm/formSaveConfig` | High
+68 | File | `/boafrm/formSetLg` | High
+69 | File | `/boafrm/formSiteSurveyProfile` | High
+70 | ... | ... | ...
 
-There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 616 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -220,4 +225,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

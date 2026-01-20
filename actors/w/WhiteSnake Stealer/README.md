@@ -64,55 +64,56 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin#themes` | High
 3 | File | `/admin/` | Low
 4 | File | `/admin/add-customer-services.php` | High
-5 | File | `/admin/categories/save` | High
-6 | File | `/admin/categories/view_category.php` | High
-7 | File | `/admin/cmsVote/save` | High
-8 | File | `/Admin/CustomerReport.php` | High
-9 | File | `/Admin/dashboard.php` | High
-10 | File | `/admin/delete_user.php` | High
-11 | File | `/admin/edit-scdetails.php` | High
-12 | File | `/admin/emp-profile-avatar.php` | High
-13 | File | `/admin/maintenance/manage_category.php` | High
-14 | File | `/admin/sales/manage_sale.php` | High
-15 | File | `/admin/sales/view_details.php` | High
-16 | File | `/admin/sign/out` | High
+5 | File | `/admin/bwdates-reports-details.php` | High
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/categories/view_category.php` | High
+8 | File | `/admin/cmsVote/save` | High
+9 | File | `/Admin/CustomerReport.php` | High
+10 | File | `/Admin/dashboard.php` | High
+11 | File | `/admin/delete_user.php` | High
+12 | File | `/admin/edit-scdetails.php` | High
+13 | File | `/admin/emp-profile-avatar.php` | High
+14 | File | `/admin/maintenance/manage_category.php` | High
+15 | File | `/admin/sales/manage_sale.php` | High
+16 | File | `/admin/sales/view_details.php` | High
 17 | File | `/admin/user/manage_user.php` | High
 18 | File | `/admin/v1/blog/edit` | High
 19 | File | `/admin_system/api.php` | High
 20 | File | `/adms/admin/?page=user/manage_user` | High
-21 | File | `/api/audits` | Medium
-22 | File | `/api/browserextension/UpdatePassword/` | High
-23 | File | `/api/esps` | Medium
-24 | File | `/api/front/search/books` | High
-25 | File | `/apngopt/ubuntu.png` | High
-26 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
-27 | File | `/appointment.php` | High
-28 | File | `/asms/classes/Master.php?f=delete_service` | High
-29 | File | `/balance/service/list` | High
-30 | File | `/be/rpc.php` | Medium
-31 | File | `/boafrm/formFilter` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-34 | File | `/cgi-bin/discovery.cgi` | High
-35 | File | `/cgi-bin/widget_api.cgi` | High
-36 | File | `/churchcrm/v2/family/not-found` | High
-37 | File | `/classes/Login.php` | High
-38 | File | `/classes/Master.php` | High
-39 | File | `/classes/Master.php?f=delete_sub_category` | High
-40 | File | `/classes/SystemSettings.php?f=update_settings` | High
-41 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
-42 | File | `/control/register_case.php` | High
-43 | File | `/dashboard.php` | High
-44 | File | `/debug/pprof` | Medium
-45 | File | `/dosen/data` | Medium
-46 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-47 | File | `/editor/index.php` | High
-48 | File | `/env` | Low
-49 | File | `/fax/fax_send.php` | High
-50 | File | `/foms/place-order.php` | High
-51 | ... | ... | ...
+21 | File | `/ajax.php?action=save_user` | High
+22 | File | `/api/audits` | Medium
+23 | File | `/api/browserextension/UpdatePassword/` | High
+24 | File | `/api/esps` | Medium
+25 | File | `/api/front/search/books` | High
+26 | File | `/api/GylOperator/UpdatePasswordBatch` | High
+27 | File | `/apngopt/ubuntu.png` | High
+28 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
+29 | File | `/appointment.php` | High
+30 | File | `/asms/classes/Master.php?f=delete_service` | High
+31 | File | `/balance/service/list` | High
+32 | File | `/be/rpc.php` | Medium
+33 | File | `/boafrm/formFilter` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+36 | File | `/cgi-bin/discovery.cgi` | High
+37 | File | `/cgi-bin/widget_api.cgi` | High
+38 | File | `/churchcrm/v2/family/not-found` | High
+39 | File | `/classes/Login.php` | High
+40 | File | `/classes/Master.php` | High
+41 | File | `/classes/Master.php?f=delete_sub_category` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/com/esafenet/servlet/system/PolicyActionService.java` | High
+44 | File | `/control/register_case.php` | High
+45 | File | `/dashboard.php` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/dosen/data` | Medium
+48 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+49 | File | `/editor/index.php` | High
+50 | File | `/env` | Low
+51 | File | `/fax/fax_send.php` | High
+52 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

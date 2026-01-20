@@ -27,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.219.39](https://vuldb.com/?ip.45.76.219.39) | 45.76.219.39.vultrusercontent.com | South Korea | Medium
-2 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
-3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
+1 | [45.75.96.19](https://vuldb.com/?ip.45.75.96.19) | 19.96.75.45.ip4.winknet.ne.jp | - | High
+2 | [45.76.219.39](https://vuldb.com/?ip.45.76.219.39) | 45.76.219.39.vultrusercontent.com | South Korea | Medium
+3 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,6 +70,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/88627/
 * https://hackerseye.net/all-blog-items/checkmesh/
 * https://urlhaus.abuse.ch/url/3526277/
+* https://urlhaus.abuse.ch/url/3743215/
 
 ## Literature
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

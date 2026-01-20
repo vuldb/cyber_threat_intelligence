@@ -104,19 +104,20 @@ ID | Type | Indicator | Confidence
 50 | File | `/usr/bin/pkexec` | High
 51 | File | `/var/run/docker.sock` | High
 52 | File | `/view/emarks_range_grade_update_form.php` | High
-53 | File | `/wp-admin/admin-ajax.php` | High
-54 | File | `/xpdf/Stream.cc` | High
-55 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-56 | File | `adclick.php` | Medium
-57 | File | `addons/mediapool/pages/index.php` | High
-58 | File | `addpost_newpoll.php` | High
-59 | File | `adm-index.php` | High
-60 | File | `Admin.PHP` | Medium
-61 | File | `admin.php` | Medium
-62 | File | `admin.php&r=article/AdminContent/edit` | High
-63 | ... | ... | ...
+53 | File | `/view_magazine.php` | High
+54 | File | `/wp-admin/admin-ajax.php` | High
+55 | File | `/xpdf/Stream.cc` | High
+56 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+57 | File | `adclick.php` | Medium
+58 | File | `addons/mediapool/pages/index.php` | High
+59 | File | `addpost_newpoll.php` | High
+60 | File | `adm-index.php` | High
+61 | File | `Admin.PHP` | Medium
+62 | File | `admin.php` | Medium
+63 | File | `admin.php&r=article/AdminContent/edit` | High
+64 | ... | ... | ...
 
-There are 556 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 557 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

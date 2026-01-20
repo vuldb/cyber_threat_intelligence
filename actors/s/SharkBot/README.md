@@ -60,23 +60,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/api/runs/search/run/` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi/loginDefaultUser` | High
-8 | File | `/dental_form.php` | High
-9 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-10 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-11 | File | `/mics/j_spring_security_check` | High
-12 | File | `/oauth/token` | Medium
-13 | File | `/opt/bin/cli` | Medium
-14 | File | `/rom-0` | Low
-15 | File | `/spip.php` | Medium
-16 | File | `/uncpath/` | Medium
-17 | ... | ... | ...
+3 | File | `/admin/bwdates-reports-details.php` | High
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/api/runs/search/run/` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/att_add.php` | Medium
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi/loginDefaultUser` | High
+10 | File | `/dental_form.php` | High
+11 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+12 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+13 | File | `/index.php?c=account&a=set_timezone` | High
+14 | File | `/mics/j_spring_security_check` | High
+15 | File | `/oauth/token` | Medium
+16 | File | `/opt/bin/cli` | Medium
+17 | File | `/rom-0` | Low
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

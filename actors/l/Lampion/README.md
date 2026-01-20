@@ -71,25 +71,26 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/products/manage_product.php` | High
 11 | File | `/admin/system.html` | High
 12 | File | `/ajax-api.php` | High
-13 | File | `/ajax/get_patient_history.php` | High
-14 | File | `/api/test/download` | High
-15 | File | `/branch_viewmore.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/classes/SystemSettings.php?f=update_settings` | High
-19 | File | `/department_viewmore.php` | High
-20 | File | `/detalheIdUra` | High
-21 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-22 | File | `/ecommerce/admin/products/controller.php` | High
-23 | File | `/editor/index.php` | High
-24 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-25 | File | `/employee_viewmore.php` | High
-26 | File | `/Employer/ManageWalkin.php` | High
-27 | File | `/forget.php` | Medium
-28 | File | `/forgot-password.php` | High
-29 | ... | ... | ...
+13 | File | `/ajax.php?action=login` | High
+14 | File | `/ajax/get_patient_history.php` | High
+15 | File | `/api/test/download` | High
+16 | File | `/boafrm/formDdns` | High
+17 | File | `/branch_viewmore.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/dashboard/admin/change_s_pwd.php` | High
+22 | File | `/department_viewmore.php` | High
+23 | File | `/detalheIdUra` | High
+24 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+25 | File | `/ecommerce/admin/products/controller.php` | High
+26 | File | `/editor/index.php` | High
+27 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+28 | File | `/employee_viewmore.php` | High
+29 | File | `/Employer/ManageWalkin.php` | High
+30 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

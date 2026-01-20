@@ -69,20 +69,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/add-directory.php` | High
-3 | File | `/admin/print1.php` | High
-4 | File | `/ajax.php?action=update_account` | High
-5 | File | `/api/upload.php` | High
-6 | File | `/change_pass/forgot_password_sql.php` | High
-7 | File | `/checklogin.php` | High
-8 | File | `/customers/index.php` | High
-9 | File | `/dist/index.js` | High
-10 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-11 | File | `/file-manager/delete.php` | High
-12 | ... | ... | ...
+1 | File | `/activation.php` | High
+2 | File | `/add-computer.php` | High
+3 | File | `/admin-cp/menus` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/add-artist.php` | High
+7 | File | `/admin/add-directory.php` | High
+8 | File | `/admin/booking-search.php` | High
+9 | File | `/admin/category_update.php` | High
+10 | File | `/admin/delete_file.php` | High
+11 | File | `/admin/home.php?con=add` | High
+12 | File | `/admin/manage_theater.php` | High
+13 | File | `/admin/print1.php` | High
+14 | File | `/admin/update_room.php` | High
+15 | File | `/ajax.php?action=update_account` | High
+16 | File | `/api/upload.php` | High
+17 | File | `/boafrm/formNtp` | High
+18 | File | `/booknow.php?roomname=Duplex` | High
+19 | File | `/category.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/change_pass/forgot_password_sql.php` | High
+22 | File | `/chat/group/send` | High
+23 | File | `/checklogin.php` | High
+24 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

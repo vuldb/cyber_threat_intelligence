@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,14 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,35 +59,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/addnews.html` | High
-3 | File | `/admin.php/pic/admin/type/pl_save` | High
-4 | File | `/admin/educloud/videobind.html` | High
-5 | File | `/admin/invoice.php` | High
-6 | File | `/admin/view-appointment.php` | High
-7 | File | `/api/get-browser-snapshot` | High
-8 | File | `/app/zentao/module/repo/model.php` | High
-9 | File | `/authenticate.php` | High
-10 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
-11 | File | `/churchcrm/WhyCameEditor.php` | High
-12 | File | `/cobbler-api` | Medium
-13 | File | `/common/dict/list` | High
-14 | File | `/dental_form.php` | High
-15 | File | `/edit_book.php` | High
-16 | File | `/example/editor` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/PPTPDClient` | High
-19 | File | `/hcms/admin/index.php/language/ajax` | High
-20 | File | `/index.php?page=search/rentals` | High
-21 | File | `/list.php` | Medium
-22 | File | `/login/index.php` | High
-23 | File | `/members/view_member.php` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/oauth/idp/.well-known/openid-configuration` | High
-26 | File | `/pages/purchase_delete.php` | High
-27 | File | `/php/ping.php` | High
-28 | ... | ... | ...
+2 | File | `/?g=log_import_save` | High
+3 | File | `/aboutedit.php` | High
+4 | File | `/addnews.html` | High
+5 | File | `/admin.php/pic/admin/type/pl_save` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/?page=musics/manage_music` | High
+8 | File | `/admin/add-scdetails.php` | High
+9 | File | `/admin/add-student.php` | High
+10 | File | `/admin/backup/backups.php` | High
+11 | File | `/admin/categories/manage_category.php` | High
+12 | File | `/admin/edit-category.php` | High
+13 | File | `/admin/educloud/videobind.html` | High
+14 | File | `/admin/invoice.php` | High
+15 | File | `/admin/menus/view_menu.php` | High
+16 | File | `/Admin/Proses_Edit_Akun.php` | High
+17 | File | `/admin/search.php` | High
+18 | File | `/admin/update-users.php` | High
+19 | File | `/admin/vacancy/index.php` | High
+20 | File | `/admin/view-appointment.php` | High
+21 | File | `/admin/view-user-queries.php` | High
+22 | File | `/api/get-browser-snapshot` | High
+23 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+24 | File | `/app/zentao/module/repo/model.php` | High
+25 | File | `/auth/userkey/logout.php` | High
+26 | File | `/authenticate.php` | High
+27 | File | `/boafrm/formParentControl` | High
+28 | File | `/boafrm/formSysLog` | High
+29 | File | `/C6/Jhsoft.Web.departments/GetTreeDate.aspx` | High
+30 | File | `/cfgFile/1/download` | High
+31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+32 | File | `/churchcrm/WhyCameEditor.php` | High
+33 | File | `/cobbler-api` | Medium
+34 | File | `/common/dict/list` | High
+35 | File | `/contact.php` | Medium
+36 | File | `/dental_form.php` | High
+37 | File | `/devinfo` | Medium
+38 | File | `/edit_book.php` | High
+39 | File | `/example/editor` | High
+40 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

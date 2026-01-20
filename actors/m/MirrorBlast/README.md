@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,31 +55,31 @@ ID | Type | Indicator | Confidence
 4 | File | `/apply.cgi` | Medium
 5 | File | `/cgi-bin/cstecgi.cgi` | High
 6 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/Home/GetAttachment` | High
-9 | File | `/html/device-id` | High
-10 | File | `/html/devstat.html` | High
-11 | File | `/html/repository` | High
-12 | File | `/index.php` | Medium
-13 | File | `/members/view_member.php` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/php/ping.php` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/rest/api/latest/projectvalidate/key` | High
-21 | File | `/scripts/unlock_tasks.php` | High
-22 | File | `/services/config/config.xml` | High
-23 | File | `/services/system/setup.json` | High
-24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-25 | File | `/SysInfo1.htm` | High
-26 | File | `/sysinfo_json.cgi` | High
-27 | File | `/system/dictData/loadDictItem` | High
-28 | File | `/system/user/modules/mod_users/controller.php` | High
+7 | File | `/config/pw_changeusers.html` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/Home/GetAttachment` | High
+10 | File | `/html/device-id` | High
+11 | File | `/html/devstat.html` | High
+12 | File | `/html/repository` | High
+13 | File | `/index.php` | Medium
+14 | File | `/members/view_member.php` | High
+15 | File | `/mhds/clinic/view_details.php` | High
+16 | File | `/modules/projects/vw_files.php` | High
+17 | File | `/nova/bin/console` | High
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/paySuccess` | Medium
+20 | File | `/php/ping.php` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/rest/api/latest/projectvalidate/key` | High
+23 | File | `/scripts/unlock_tasks.php` | High
+24 | File | `/services/config/config.xml` | High
+25 | File | `/services/system/setup.json` | High
+26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+27 | File | `/SysInfo1.htm` | High
+28 | File | `/sysinfo_json.cgi` | High
 29 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

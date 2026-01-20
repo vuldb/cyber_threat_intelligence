@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,42 +71,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/add_new_invoice.php` | High
 6 | File | `/admin/add-art-type.php` | High
 7 | File | `/admin/ajax_product.php` | High
-8 | File | `/admin/renewaldue.php` | High
-9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/user/{ID}` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/bin/proc.cgi` | High
-16 | File | `/CFIDE/probe.cfm` | High
-17 | File | `/cgi-bin/login_action.cgi` | High
-18 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
-19 | File | `/contactus1.php` | High
-20 | File | `/data/vendor/tcl` | High
-21 | File | `/download` | Medium
-22 | File | `/etc/tomcat8/Catalina/attack` | High
-23 | File | `/file/delete.php` | High
-24 | File | `/files.md5` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
-27 | File | `/getcfg.php` | Medium
-28 | File | `/goform/` | Medium
-29 | File | `/goform/SetStaticRouteCfg` | High
-30 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-31 | File | `/install_extension` | High
-32 | File | `/load.php` | Medium
-33 | File | `/login.php` | Medium
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/registration_admission/patient_register.php` | High
-36 | File | `/public/plugins/` | High
-37 | File | `/rapi/read_url` | High
-38 | File | `/rest/api/2/user/picker` | High
-39 | File | `/sbin/acos_service` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | ... | ... | ...
+8 | File | `/admin/archives/edit` | High
+9 | File | `/admin/renewaldue.php` | High
+10 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/user/{ID}` | High
+15 | File | `/application/index/controller/Screen.php` | High
+16 | File | `/basico/webservice/imprimir-danfe/id/` | High
+17 | File | `/bin/proc.cgi` | High
+18 | File | `/CFIDE/probe.cfm` | High
+19 | File | `/cgi-bin/login_action.cgi` | High
+20 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+21 | File | `/contactus1.php` | High
+22 | File | `/data/vendor/tcl` | High
+23 | File | `/download` | Medium
+24 | File | `/educacenso/consulta` | High
+25 | File | `/etc/tomcat8/Catalina/attack` | High
+26 | File | `/file/delete.php` | High
+27 | File | `/files.md5` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+30 | File | `/getcfg.php` | Medium
+31 | File | `/goform/` | Medium
+32 | File | `/goform/form2lansetup.cgi` | High
+33 | File | `/goform/formWlSiteSurvey` | High
+34 | File | `/goform/SetStaticRouteCfg` | High
+35 | File | `/goform/singlePortForwardAdd` | High
+36 | File | `/H5/netconfig.asp` | High
+37 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+38 | File | `/install_extension` | High
+39 | File | `/load.php` | Medium
+40 | File | `/login.php` | Medium
+41 | File | `/modules/profile/index.php` | High
+42 | File | `/modules/registration_admission/patient_register.php` | High
+43 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

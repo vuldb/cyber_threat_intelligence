@@ -43,13 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -60,70 +59,74 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `/activate_hook.php` | High
-3 | File | `/add_new_supplier.php` | High
-4 | File | `/add_post_sql.php` | High
-5 | File | `/admin/admin_running.php` | High
-6 | File | `/admin/book_row.php` | High
-7 | File | `/admin/categories/update` | High
-8 | File | `/admin/delete_s6.php` | High
-9 | File | `/admin/del_service.php` | High
-10 | File | `/admin/edit-subadmin.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/login-back.php` | High
-13 | File | `/admin/maintenance/view_designation.php` | High
-14 | File | `/admin/manage-notices.php` | High
-15 | File | `/admin/process_category_add.php` | High
-16 | File | `/admin/quizquestion.php` | High
-17 | File | `/admin/search-appointment.php` | High
-18 | File | `/admin/tag/delete` | High
-19 | File | `/admin/user/manage_user.php` | High
-20 | File | `/admin/view-foreigner-ticket.php` | High
-21 | File | `/ajax.php?action=login` | High
-22 | File | `/ajax.php?action=read_msg` | High
-23 | File | `/ajax.php?action=save_category` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/app/api/controller/caiji.php` | High
-26 | File | `/bin/httpd` | Medium
-27 | File | `/bitrix/admin/ldap_server_edit.php` | High
-28 | File | `/blog/edit` | Medium
-29 | File | `/boafrm/formIPv6Addr` | High
-30 | File | `/buscar_integrada.php` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/classes/Master.php` | High
-34 | File | `/classes/Master.php?f=delete_category` | High
-35 | File | `/classes/Master.php?f=save_item` | High
-36 | File | `/config/php.ini` | High
-37 | File | `/data/remove` | Medium
-38 | File | `/debug/pprof` | Medium
-39 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-40 | File | `/details.php` | Medium
-41 | File | `/editprofile.php` | High
-42 | File | `/Employer/ManageWalkin.php` | High
-43 | File | `/endpoint/add-calorie.php` | High
-44 | File | `/endpoint/delete-computer.php` | High
-45 | File | `/endpoint/update.php` | High
-46 | File | `/expedit.php` | Medium
-47 | File | `/export` | Low
-48 | File | `/formLoginAuth.htm` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/getDay.php` | Medium
-51 | File | `/goform/PowerSaveSet` | High
-52 | File | `/goform/wizard_end` | High
-53 | File | `/guest/update.php` | High
-54 | File | `/home/get_tasks_list` | High
-55 | File | `/importexport.php` | High
-56 | File | `/index.php` | Medium
-57 | File | `/isms/classes/Users.php` | High
-58 | File | `/jobportal/index.php` | High
-59 | File | `/js-todo-app/index.html` | High
-60 | File | `/lists/index.php` | High
-61 | File | `/MailAdmin_dll.htm` | High
-62 | File | `/main/java/com/ujcms/cms/ext/web/backendapi/WebFileUploadController.java` | High
-63 | ... | ... | ...
+2 | File | `/?page=user` | Medium
+3 | File | `/activate_hook.php` | High
+4 | File | `/addfriend.php` | High
+5 | File | `/add_new_supplier.php` | High
+6 | File | `/add_post_sql.php` | High
+7 | File | `/admin/admin_running.php` | High
+8 | File | `/admin/book_row.php` | High
+9 | File | `/admin/categories/update` | High
+10 | File | `/admin/delete_s6.php` | High
+11 | File | `/admin/del_service.php` | High
+12 | File | `/admin/edit-subadmin.php` | High
+13 | File | `/admin/includes/edit_post.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/login-back.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/manage-notices.php` | High
+18 | File | `/admin/modules/class/index.php` | High
+19 | File | `/admin/process_category_add.php` | High
+20 | File | `/admin/quizquestion.php` | High
+21 | File | `/admin/search-appointment.php` | High
+22 | File | `/admin/tag/delete` | High
+23 | File | `/admin/team_update.php` | High
+24 | File | `/admin/user/manage_user.php` | High
+25 | File | `/admin/view-foreigner-ticket.php` | High
+26 | File | `/admin_pay.php` | High
+27 | File | `/ajax.php?action=login` | High
+28 | File | `/ajax.php?action=read_msg` | High
+29 | File | `/ajax.php?action=save_category` | High
+30 | File | `/api/baskets/{name}` | High
+31 | File | `/app/api/controller/caiji.php` | High
+32 | File | `/bin/httpd` | Medium
+33 | File | `/bitrix/admin/ldap_server_edit.php` | High
+34 | File | `/blog/edit` | Medium
+35 | File | `/boafrm/formIPv6Addr` | High
+36 | File | `/boafrm/formPinManageSetup` | High
+37 | File | `/buscar_integrada.php` | High
+38 | File | `/cfgFile/fileContent` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=save_item` | High
+45 | File | `/config/php.ini` | High
+46 | File | `/courses/course_detail_user_new.php` | High
+47 | File | `/data/remove` | Medium
+48 | File | `/debug/pprof` | Medium
+49 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+50 | File | `/details.php` | Medium
+51 | File | `/editprofile.php` | High
+52 | File | `/Employer/ManageWalkin.php` | High
+53 | File | `/endpoint/add-calorie.php` | High
+54 | File | `/endpoint/delete-computer.php` | High
+55 | File | `/endpoint/update.php` | High
+56 | File | `/expedit.php` | Medium
+57 | File | `/export` | Low
+58 | File | `/form137.php` | Medium
+59 | File | `/formLoginAuth.htm` | High
+60 | File | `/forum/away.php` | High
+61 | File | `/getDay.php` | Medium
+62 | File | `/goform/MtuSetMacWan` | High
+63 | File | `/goform/PowerSaveSet` | High
+64 | File | `/goform/wirelessAdvancedHidden` | High
+65 | File | `/goform/wizard_end` | High
+66 | File | `/guest/update.php` | High
+67 | ... | ... | ...
 
-There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -140,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

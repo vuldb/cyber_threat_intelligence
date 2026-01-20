@@ -59,28 +59,29 @@ ID | Type | Indicator | Confidence
 14 | File | `/etc/sysconfig/btrfsmaintenance` | High
 15 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
 16 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-17 | File | `/job-details` | Medium
-18 | File | `/mib.db` | Low
-19 | File | `/page/add` | Medium
-20 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-21 | File | `/system-info/health` | High
-22 | File | `/tmp/s48lose.tmp` | High
-23 | File | `/tmp/xbindkeysrc-tmp` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/local` | Medium
-26 | File | `/var/log/nginx` | High
-27 | File | `/var/run/jboss-eap/` | High
-28 | File | `admin-ajax.php` | High
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
-32 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-33 | File | `admin/admin_log/index.html?user_id` | High
-34 | File | `admin/admin_menu.php` | High
-35 | File | `admin/config.php` | High
-36 | ... | ... | ...
+17 | File | `/hospital/hms/admin/manage-doctors.php` | High
+18 | File | `/job-details` | Medium
+19 | File | `/mib.db` | Low
+20 | File | `/page/add` | Medium
+21 | File | `/spip.php` | Medium
+22 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+23 | File | `/system-info/health` | High
+24 | File | `/tmp/s48lose.tmp` | High
+25 | File | `/tmp/xbindkeysrc-tmp` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/local` | Medium
+28 | File | `/var/log/nginx` | High
+29 | File | `/var/run/jboss-eap/` | High
+30 | File | `admin-ajax.php` | High
+31 | File | `admin.jcomments.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
+34 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+35 | File | `admin/admin_log/index.html?user_id` | High
+36 | File | `admin/admin_menu.php` | High
+37 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

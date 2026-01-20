@@ -108,7 +108,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,11 +119,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/add_classes.php` | High
 2 | File | `/admin/?page=products/view_product` | High
 3 | File | `/admin/add-admin.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/ajax.php?action=save_uploads` | High
-7 | File | `/admin/app/role_crud.php` | High
-8 | File | `/admin/auto-taxi-entry-detail.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/ajax.php?action=save_uploads` | High
+6 | File | `/admin/app/role_crud.php` | High
+7 | File | `/admin/auto-taxi-entry-detail.php` | High
+8 | File | `/admin/booking_report.php` | High
 9 | File | `/admin/candidates_add.php` | High
 10 | File | `/admin/check_availability.php` | High
 11 | File | `/admin/class.php` | High
@@ -141,37 +141,40 @@ ID | Type | Indicator | Confidence
 23 | File | `/admin/index2.html` | High
 24 | File | `/admin/manage-pages.php` | High
 25 | File | `/admin/manage_model.php` | High
-26 | File | `/admin/manage_station.php` | High
-27 | File | `/admin/products/view_product.php` | High
-28 | File | `/admin/settings/index.php?page=accounts` | High
-29 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-30 | File | `/advanced-tools/nova/bin/netwatch` | High
-31 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
-32 | File | `/api/configs` | Medium
-33 | File | `/api/Image/WithPath` | High
-34 | File | `/api/resources` | High
-35 | File | `/api/sys/set_passwd` | High
-36 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-37 | File | `/api/wizard/getNetworkStatus` | High
-38 | File | `/apilog.php` | Medium
-39 | File | `/appy.cgi` | Medium
-40 | File | `/auth_pic.cgi` | High
-41 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-42 | File | `/backend/admin/his_admin_register_patient.php` | High
-43 | File | `/bin/httpd` | Medium
-44 | File | `/boafrm/formPortFw` | High
-45 | File | `/cancelbookingpatient.php` | High
-46 | File | `/category.php` | High
-47 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-48 | File | `/cgi-bin/api-get_line_status` | High
+26 | File | `/admin/products/view_product.php` | High
+27 | File | `/admin/reservation.php` | High
+28 | File | `/admin/search.php` | High
+29 | File | `/admin/settings/index.php?page=accounts` | High
+30 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+31 | File | `/advanced-tools/nova/bin/netwatch` | High
+32 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+33 | File | `/ajax.php?action=save_ticket` | High
+34 | File | `/api/configs` | Medium
+35 | File | `/api/Image/WithPath` | High
+36 | File | `/api/resources` | High
+37 | File | `/api/sys/set_passwd` | High
+38 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+39 | File | `/api/wizard/getNetworkStatus` | High
+40 | File | `/apilog.php` | Medium
+41 | File | `/appy.cgi` | Medium
+42 | File | `/auth_pic.cgi` | High
+43 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+44 | File | `/backend/admin/his_admin_register_patient.php` | High
+45 | File | `/bin/httpd` | Medium
+46 | File | `/boafrm/formPortFw` | High
+47 | File | `/cancelbookingpatient.php` | High
+48 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 49 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 50 | File | `/cgi-bin/myMusic.cgi` | High
-51 | File | `/cgi-bin/nas_sharing.cgi` | High
+51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 52 | File | `/change_pass/forgot_password_sql.php` | High
-53 | File | `/classes/Master.php` | High
-54 | ... | ... | ...
+53 | File | `/classes/Master.php?f=delete_category` | High
+54 | File | `/classes/Master.php?f=delete_product` | High
+55 | File | `/classes/Users.php?f=save` | High
+56 | File | `/Code/loginnew.php` | High
+57 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 497 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -192,4 +195,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

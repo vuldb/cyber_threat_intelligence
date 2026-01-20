@@ -67,51 +67,53 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/` | Low
 4 | File | `/admin/?page=system_info/contact_info` | High
 5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/fetch_product_details.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/item/view_item.php` | High
-9 | File | `/admin/leancloud.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/manage-ambulance.php` | High
-12 | File | `/admin/menu/toEdit` | High
-13 | File | `/app/sys1.php` | High
-14 | File | `/bin/ate` | Medium
-15 | File | `/book-services.php` | High
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/cgi-bin/vitogate.cgi` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-20 | File | `/company/store` | High
-21 | File | `/conf/app.conf` | High
-22 | File | `/config/php.ini` | High
-23 | File | `/endpoint/update-bookmark.php` | High
-24 | File | `/file` | Low
-25 | File | `/forum/away.php` | High
-26 | File | `/fusion/portal/action/Link` | High
-27 | File | `/goform/formSetMACFilter` | High
-28 | File | `/import` | Low
-29 | File | `/importexport.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index.php/admin/web/useradmin.html` | High
-32 | File | `/index/ajax/lang` | High
-33 | File | `/locales/locale.json` | High
-34 | File | `/log/decodmail.php` | High
-35 | File | `/login` | Low
-36 | File | `/login.jsp` | Medium
-37 | File | `/mims/login.php` | High
-38 | File | `/ordering/admin/stockin/loaddata.php` | High
-39 | File | `/page.php` | Medium
-40 | File | `/patient/appointment.php` | High
-41 | File | `/photo-gallery` | High
-42 | File | `/php-opos/index.php` | High
-43 | File | `/portal/reports/account_statement` | High
-44 | File | `/Script/admin/core/update_policy` | High
-45 | File | `/search` | Low
-46 | File | `/secure/QueryComponent!Default.jspa` | High
-47 | File | `/security/addUser.jsp` | High
-48 | ... | ... | ...
+6 | File | `/admin/change-emailid.php` | High
+7 | File | `/admin/edit-user-profile.php` | High
+8 | File | `/admin/fetch_product_details.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/item/view_item.php` | High
+11 | File | `/admin/leancloud.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/manage-ambulance.php` | High
+14 | File | `/admin/menu/toEdit` | High
+15 | File | `/app/sys1.php` | High
+16 | File | `/authenticate.php` | High
+17 | File | `/bin/ate` | Medium
+18 | File | `/boafrm/formSysCmd` | High
+19 | File | `/book-services.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+22 | File | `/cgi-bin/downloadFile.cgi` | High
+23 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+24 | File | `/cgi-bin/vitogate.cgi` | High
+25 | File | `/classes/Master.php?f=delete_category` | High
+26 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+27 | File | `/company/store` | High
+28 | File | `/conf/app.conf` | High
+29 | File | `/config/php.ini` | High
+30 | File | `/crm/WeiXinApp/marketing/index.php?module=Users&action=getActionList` | High
+31 | File | `/dev-api/common/download` | High
+32 | File | `/endpoint/update-bookmark.php` | High
+33 | File | `/file` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/fusion/portal/action/Link` | High
+36 | File | `/goform/formSetMACFilter` | High
+37 | File | `/import` | Low
+38 | File | `/ImportCRFData?action=confirm` | High
+39 | File | `/importexport.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/index.php/admin/web/useradmin.html` | High
+42 | File | `/index/ajax/lang` | High
+43 | File | `/jshERP-boot/user/updatePwd` | High
+44 | File | `/locales/locale.json` | High
+45 | File | `/log/decodmail.php` | High
+46 | File | `/login` | Low
+47 | File | `/login.jsp` | Medium
+48 | File | `/mims/login.php` | High
+49 | File | `/ordering/admin/stockin/loaddata.php` | High
+50 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

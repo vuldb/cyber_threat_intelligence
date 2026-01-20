@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | [APT36](https://vuldb.com/?actor.apt36) | High
-2 | [45.62.170.237](https://vuldb.com/?ip.45.62.170.237) | - | [Eking](https://vuldb.com/?actor.eking) | High
-3 | [99.83.175.80](https://vuldb.com/?ip.99.83.175.80) | a2e6b661ca0e4c4c4.awsglobalaccelerator.com | [APT36](https://vuldb.com/?actor.apt36) | High
+1 | [2.56.10.86](https://vuldb.com/?ip.2.56.10.86) | - | [APT36](https://vuldb.com/?actor.apt36) | High
+2 | [37.221.64.202](https://vuldb.com/?ip.37.221.64.202) | ksm.ik | [APT36](https://vuldb.com/?actor.apt36) | High
+3 | [45.62.170.237](https://vuldb.com/?ip.45.62.170.237) | - | [Eking](https://vuldb.com/?actor.eking) | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,16 +60,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/addproduct.php` | High
 2 | File | `/admin/mod_room/controller.php?action=add` | High
 3 | File | `/admin/sales/manage_sale.php` | High
-4 | File | `/apply_settings` | High
-5 | File | `/authenticationendpoint/login.do` | High
-6 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-7 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-8 | File | `/confirm` | Medium
-9 | File | `/DesignTools/CssEditor.aspx` | High
-10 | File | `/etc/config/luci` | High
-11 | ... | ... | ...
+4 | File | `/admin/update_room.php` | High
+5 | File | `/apply_settings` | High
+6 | File | `/authenticationendpoint/login.do` | High
+7 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+9 | File | `/confirm` | Medium
+10 | File | `/DesignTools/CssEditor.aspx` | High
+11 | File | `/etc/config/luci` | High
+12 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +78,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://darktrace.com/blog/ransomware-as-a-service-eking-targets-government-organization
 * https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
+* https://www.cyfirma.com/research/apt36-multi-stage-lnk-malware-campaign-targeting-indian-government-entities/
 
 ## Literature
 
@@ -87,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

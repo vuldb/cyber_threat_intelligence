@@ -46,30 +46,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/?page=reports` | High
-4 | File | `/academic-calendar` | High
+2 | File | `/?page=reports` | High
+3 | File | `/academic-calendar` | High
+4 | File | `/adaddmed.php` | High
 5 | File | `/add-company.php` | High
 6 | File | `/add-customer.php` | High
 7 | File | `/add-notes.php` | High
 8 | File | `/add-pig.php` | Medium
-9 | File | `/admin/` | Low
-10 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-11 | File | `/admin/add-category.php` | High
-12 | File | `/admin/add_ikev2.php` | High
-13 | File | `/admin/admin-profile.php` | High
+9 | File | `/addcategory.php` | High
+10 | File | `/admin/` | Low
+11 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+12 | File | `/admin/add-category.php` | High
+13 | File | `/admin/add_ikev2.php` | High
 14 | File | `/admin/ajax.php?action=login` | High
 15 | File | `/admin/ajax.php?action=save_settings` | High
-16 | File | `/admin/communitymanagement.php` | High
-17 | File | `/admin/contactus.php` | High
+16 | File | `/admin/contactus.php` | High
+17 | File | `/admin/controller/faculty_controller.php` | High
 18 | File | `/admin/delete_account.php` | High
 19 | File | `/admin/edit-artist-detail.php?editid=1` | High
 20 | File | `/admin/edit-category.php` | High
 21 | File | `/admin/edit-subadmin.php` | High
 22 | File | `/admin/edit-subcategory.php` | High
 23 | File | `/admin/emp-profile-avatar.php` | High
-24 | File | `/admin/goods/update` | High
-25 | File | `/admin/index.php?page=categories` | High
+24 | File | `/admin/execedituser.php` | High
+25 | File | `/admin/goods/update` | High
 26 | File | `/admin/index2.html` | High
 27 | File | `/admin/login.php` | High
 28 | File | `/Admin/login.php` | High
@@ -78,36 +78,40 @@ ID | Type | Indicator | Confidence
 31 | File | `/admin/menu_update.php` | High
 32 | File | `/admin/modal_add_product.php` | High
 33 | File | `/admin/project/update/2` | High
-34 | File | `/admin/students/manage.php` | High
-35 | File | `/admin/success_story.php` | High
-36 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-37 | File | `/api/files/recipepictures/` | High
-38 | File | `/api/upload` | Medium
-39 | File | `/api/v1/settings` | High
-40 | File | `/api/v2/categories` | High
-41 | File | `/api/v2/cli/commands` | High
-42 | File | `/api/wizard/getBasicInfo` | High
-43 | File | `/api/wizard/getCapability` | High
-44 | File | `/app/fax/fax_view.php` | High
-45 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
-46 | File | `/app/xml_cdr/xml_cdr_details.php` | High
-47 | File | `/auth_files/photo/` | High
-48 | File | `/billaction.php` | High
-49 | File | `/binutils/debug.c` | High
-50 | File | `/boafrm/formMultiAP` | High
-51 | File | `/boafrm/formStats` | High
-52 | File | `/boafrm/formWlanRedirect` | High
-53 | File | `/bwdates-reports-details.php` | High
-54 | File | `/cgi-bin/Config.cgi?action=set` | High
-55 | File | `/cgi-bin/cstecgi.cgi` | High
-56 | File | `/cgi-bin/nas_sharing.cgi` | High
-57 | File | `/changeUsername.php` | High
-58 | File | `/chat/group/send` | High
-59 | File | `/class/edit/edit` | High
-60 | File | `/classes/Master.php` | High
-61 | ... | ... | ...
+34 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+35 | File | `/ajax.php?action=delete_product` | High
+36 | File | `/api/admin/store/product/list` | High
+37 | File | `/api/admin/store/product/save` | High
+38 | File | `/api/admin/system/store/order/list` | High
+39 | File | `/api/files/recipepictures/` | High
+40 | File | `/api/upload` | Medium
+41 | File | `/api/v1/settings` | High
+42 | File | `/api/v2/categories` | High
+43 | File | `/api/v2/cli/commands` | High
+44 | File | `/api/v2/users-management/users` | High
+45 | File | `/api/wizard/getBasicInfo` | High
+46 | File | `/api/wizard/getCapability` | High
+47 | File | `/app/admin/controller/Images.php` | High
+48 | File | `/app/admin/instructions/edit-result.php` | High
+49 | File | `/app/fax/fax_view.php` | High
+50 | File | `/App/Tpl/Admin/Default/Channel/index.html.Attackers` | High
+51 | File | `/app/xml_cdr/xml_cdr_details.php` | High
+52 | File | `/apply.cgi` | Medium
+53 | File | `/auth_files/photo/` | High
+54 | File | `/billaction.php` | High
+55 | File | `/binutils/debug.c` | High
+56 | File | `/boafrm/formMultiAP` | High
+57 | File | `/boafrm/formStats` | High
+58 | File | `/boafrm/formWlanRedirect` | High
+59 | File | `/bwdates-reports-details.php` | High
+60 | File | `/cgi-bin/Config.cgi?action=set` | High
+61 | File | `/cgi-bin/cstecgi.cgi` | High
+62 | File | `/changeUsername.php` | High
+63 | File | `/chat/group/send` | High
+64 | File | `/class/edit/edit` | High
+65 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

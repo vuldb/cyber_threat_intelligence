@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with TG-3390:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TG-3390:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,46 +64,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admins` | Low
-4 | File | `/ajax/getBasicInfo.php` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/live_api.cgi` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/etc/ajenti/config.yml` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/farm/product.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/telnet` | High
-18 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-19 | File | `/manage_block.php` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/oscommerce/admin/currencies.php` | High
-23 | File | `/proc/pid/syscall` | High
-24 | File | `/ptippage.cgi` | High
-25 | File | `/rom-0` | Low
-26 | File | `/session/list/allActiveSession` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/syslog_rules` | High
-29 | File | `/tmp/out` | Medium
-30 | File | `/uncpath/` | Medium
-31 | File | `/update-image1.php` | High
-32 | File | `/upload` | Low
-33 | File | `/users/{id}` | Medium
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/v1/operador/` | High
-36 | File | `/var/tmp/sess_*` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/video` | Low
-39 | ... | ... | ...
+2 | File | `/admin/archives_add.php` | High
+3 | File | `/admin/categories/save` | High
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/delete_user.php` | High
+6 | File | `/admin/newsletterdel.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/positions.php` | High
+9 | File | `/admin/powerline` | High
+10 | File | `/admin/receipt.php` | High
+11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+13 | File | `/admins` | Low
+14 | File | `/ajax.php?action=login` | High
+15 | File | `/ajax/getBasicInfo.php` | High
+16 | File | `/api/admin/system/store/order/list` | High
+17 | File | `/api/files/recipepictures/` | High
+18 | File | `/authentication.cgi` | High
+19 | File | `/boafrm/formDdns` | High
+20 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+21 | File | `/boafrm/formVpnConfigSetup` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/live_api.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/clientdetails/admin/regester.php` | High
+26 | File | `/csms/?page=contact_us` | High
+27 | File | `/detailtransac.php` | High
+28 | File | `/dev/ptpX` | Medium
+29 | File | `/editeddonor.php` | High
+30 | File | `/editprofile.php` | High
+31 | File | `/etc/shadow` | Medium
+32 | File | `/farm/product.php` | High
+33 | File | `/foreigner-search.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/function.php` | High
+36 | File | `/gallery/api/status/` | High
+37 | File | `/goform/AdvSetMacMtuWa` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/DhcpListClient` | High
+40 | File | `/goform/exeCommand` | High
+41 | File | `/goform/formConfigFastDirectionW` | High
+42 | File | `/goform/formNatStaticMap` | High
+43 | File | `/goform/formWPS` | High
+44 | File | `/goform/getOneApConfTempEntry` | High
+45 | File | `/goform/onSSIDChange` | High
+46 | File | `/goform/openSchedWifi` | High
+47 | File | `/goform/SetPptpServerCfg` | High
+48 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

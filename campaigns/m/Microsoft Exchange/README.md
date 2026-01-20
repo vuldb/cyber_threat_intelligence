@@ -47,9 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -92,40 +93,41 @@ ID | Type | Indicator | Confidence
 31 | File | `/alarm_pi/alarmService.php` | High
 32 | File | `/anony/mjpg.cgi` | High
 33 | File | `/api/blade-system/menu/list?updatexml` | High
-34 | File | `/api/crontab` | Medium
-35 | File | `/api/es/admin/v3/security/user/1` | High
-36 | File | `/api/ping` | Medium
-37 | File | `/api/runscript` | High
-38 | File | `/api/sys/login` | High
-39 | File | `/api/sys/set_passwd` | High
-40 | File | `/app/admin/controller/api/Plugs.php` | High
-41 | File | `/asms/admin/products/manage_product.php` | High
-42 | File | `/asms/products/view_product.php` | High
-43 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-44 | File | `/category.php` | High
-45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-46 | File | `/cgi-bin/sysconf.cgi` | High
-47 | File | `/cgi-bin/wlogin.cgi` | High
-48 | File | `/changeimage.php` | High
-49 | File | `/classes/Master.php?f=delete_category` | High
-50 | File | `/classes/Master.php?f=delete_service` | High
-51 | File | `/clearance/clearance.php` | High
-52 | File | `/cms/templates/templatesAssetsEditor` | High
-53 | File | `/config/getuser` | High
-54 | File | `/config/list` | Medium
-55 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-56 | File | `/core/config-revisions` | High
-57 | File | `/core/config-revisions/` | High
-58 | File | `/dashboard/snapshot/*?orgId=0` | High
-59 | File | `/dosen/data` | Medium
-60 | File | `/E-mobile/App/System/File/downfile.php` | High
-61 | File | `/edit-category.php` | High
-62 | File | `/export` | Low
-63 | File | `/forum/away.php` | High
-64 | File | `/gena.cgi` | Medium
-65 | ... | ... | ...
+34 | File | `/api/es/admin/v3/security/user/1` | High
+35 | File | `/api/ping` | Medium
+36 | File | `/api/runscript` | High
+37 | File | `/api/sys/login` | High
+38 | File | `/api/sys/set_passwd` | High
+39 | File | `/app/admin/controller/api/Plugs.php` | High
+40 | File | `/asms/admin/products/manage_product.php` | High
+41 | File | `/asms/products/view_product.php` | High
+42 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+43 | File | `/category.php` | High
+44 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+45 | File | `/cgi-bin/sysconf.cgi` | High
+46 | File | `/cgi-bin/wlogin.cgi` | High
+47 | File | `/changeimage.php` | High
+48 | File | `/classes/Master.php?f=delete_category` | High
+49 | File | `/classes/Master.php?f=delete_service` | High
+50 | File | `/clearance/clearance.php` | High
+51 | File | `/cms/templates/templatesAssetsEditor` | High
+52 | File | `/config/getuser` | High
+53 | File | `/config/list` | Medium
+54 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+55 | File | `/core/config-revisions` | High
+56 | File | `/core/config-revisions/` | High
+57 | File | `/dosen/data` | Medium
+58 | File | `/E-mobile/App/System/File/downfile.php` | High
+59 | File | `/edit-category.php` | High
+60 | File | `/export` | Low
+61 | File | `/forum/away.php` | High
+62 | File | `/gena.cgi` | Medium
+63 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+64 | File | `/goform/ate` | Medium
+65 | File | `/goform/formLogDnsquery` | High
+66 | ... | ... | ...
 
-There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 579 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -144,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

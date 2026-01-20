@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,10 +54,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/port_3480/data_request` | High
 6 | File | `/public/index.php/Qbank/editCategory` | High
 7 | File | `/uncpath/` | Medium
-8 | File | `/userRpm/PingIframeRpm.htm` | High
-9 | ... | ... | ...
+8 | File | `/userlogin.php` | High
+9 | File | `/userRpm/PingIframeRpm.htm` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

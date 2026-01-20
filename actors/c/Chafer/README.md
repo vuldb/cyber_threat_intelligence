@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 32 more country items available. Please use our online service to access the data.
@@ -55,25 +55,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
-2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-3 | File | `/api/login` | Medium
-4 | File | `/appConfig/userDB.json` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/book_car.php` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-bin/widget_api.cgi` | High
-9 | File | `/CPE` | Low
-10 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-11 | File | `/index.php?page=reserve` | High
-12 | File | `/jquery_file_upload/server/php/index.php` | High
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/magnoliaPublic/travel/members/login.html` | High
-15 | File | `/Main_AdmStatus_Content.asp` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/requests.php` | High
-18 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/change-emailid.php` | High
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+6 | File | `/api/login` | Medium
+7 | File | `/appConfig/userDB.json` | High
+8 | File | `/bin/boa` | Medium
+9 | File | `/book_car.php` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi-bin/widget_api.cgi` | High
+12 | File | `/CPE` | Low
+13 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+14 | File | `/goform/IPSECsave` | High
+15 | File | `/index.php?page=reserve` | High
+16 | File | `/jquery_file_upload/server/php/index.php` | High
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/magnoliaPublic/travel/members/login.html` | High
+19 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

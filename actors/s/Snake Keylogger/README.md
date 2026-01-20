@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,21 +50,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/?page=reports` | High
 2 | File | `/addcompany.php` | High
 3 | File | `/addcustcom.php` | High
-4 | File | `/admin/config_time_sync.php` | High
-5 | File | `/admin/home.php` | High
-6 | File | `/admin/new-content` | High
-7 | File | `/admin/reportupload.aspx` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/admin/view-enquiry.php` | High
-10 | File | `/application/index/controller/Databasesource.php` | High
-11 | File | `/application/index/controller/Icon.php` | High
-12 | File | `/application/index/controller/Unity.php` | High
-13 | File | `/apply/index.php` | High
-14 | File | `/artist.php` | Medium
-15 | File | `/category.php` | High
-16 | ... | ... | ...
+4 | File | `/admin/blog/comment/create` | High
+5 | File | `/admin/config_time_sync.php` | High
+6 | File | `/admin/home.php` | High
+7 | File | `/admin/new-content` | High
+8 | File | `/admin/reportupload.aspx` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/admin/view-enquiry.php` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/application/index/controller/Databasesource.php` | High
+13 | File | `/application/index/controller/Icon.php` | High
+14 | File | `/application/index/controller/Unity.php` | High
+15 | File | `/apply/index.php` | High
+16 | File | `/artist.php` | Medium
+17 | File | `/category.php` | High
+18 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

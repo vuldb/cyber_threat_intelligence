@@ -69,48 +69,48 @@ ID | Type | Indicator | Confidence
 16 | File | `/cgi-bin/cstecgi.cgi` | High
 17 | File | `/cgi-bin/nas_sharing.cgi` | High
 18 | File | `/check_availability.php` | High
-19 | File | `/dacomponentui/profiles/profileitems/outlooksettings/Insertimage.aspx` | High
-20 | File | `/foms/routers/place-order.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/gena.cgi` | Medium
-23 | File | `/general/email/outbox/delete.php` | High
-24 | File | `/goform/AddSysLogRule` | High
-25 | File | `/goform/delDhcpRules/` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/h/search?action` | High
-28 | File | `/Home/Index` | Medium
-29 | File | `/horde/util/go.php` | High
-30 | File | `/index.php?module=entities/entities` | High
-31 | File | `/manage_sy.php` | High
-32 | File | `/meetings/listmeetings.php` | High
-33 | File | `/mhds/clinic/view_details.php` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/PreviewHandler.ashx` | High
-37 | File | `/rapi/read_url` | High
-38 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-39 | File | `/resourceNode/resources.jsf` | High
-40 | File | `/resources//../` | High
-41 | File | `/script/academic/announcement` | High
-42 | File | `/Script/admin/core/update_policy` | High
-43 | File | `/scripts/unlock_tasks.php` | High
-44 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-45 | File | `/see_more_details.php` | High
-46 | File | `/spgpm/updateListing` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/student/bookdetails.php` | High
-49 | File | `/SysInfo1.htm` | High
-50 | File | `/sysinfo_json.cgi` | High
-51 | File | `/system/dictData/loadDictItem` | High
-52 | File | `/system/user/modules/mod_users/controller.php` | High
-53 | File | `/usr/bin/pkexec` | High
-54 | File | `/view/student_exam_mark_insert_form1.php` | High
-55 | File | `/view/vpn/autovpn/sub_commit.php` | High
-56 | File | `/wmiwizard.jsp` | High
-57 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+19 | File | `/config/pw_changeusers.html` | High
+20 | File | `/dacomponentui/profiles/profileitems/outlooksettings/Insertimage.aspx` | High
+21 | File | `/foms/routers/place-order.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/gena.cgi` | Medium
+24 | File | `/general/email/outbox/delete.php` | High
+25 | File | `/goform/AddSysLogRule` | High
+26 | File | `/goform/delDhcpRules/` | High
+27 | File | `/goform/SysToolReboot` | High
+28 | File | `/h/search?action` | High
+29 | File | `/Home/Index` | Medium
+30 | File | `/horde/util/go.php` | High
+31 | File | `/index.php?module=entities/entities` | High
+32 | File | `/manage_sy.php` | High
+33 | File | `/meetings/listmeetings.php` | High
+34 | File | `/mhds/clinic/view_details.php` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/PreviewHandler.ashx` | High
+38 | File | `/rapi/read_url` | High
+39 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+40 | File | `/resourceNode/resources.jsf` | High
+41 | File | `/resources//../` | High
+42 | File | `/script/academic/announcement` | High
+43 | File | `/Script/admin/core/update_policy` | High
+44 | File | `/scripts/unlock_tasks.php` | High
+45 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+46 | File | `/see_more_details.php` | High
+47 | File | `/spgpm/updateListing` | High
+48 | File | `/spip.php` | Medium
+49 | File | `/student/bookdetails.php` | High
+50 | File | `/SysInfo1.htm` | High
+51 | File | `/sysinfo_json.cgi` | High
+52 | File | `/system/dictData/loadDictItem` | High
+53 | File | `/system/user/modules/mod_users/controller.php` | High
+54 | File | `/usr/bin/pkexec` | High
+55 | File | `/view/student_exam_mark_insert_form1.php` | High
+56 | File | `/view/vpn/autovpn/sub_commit.php` | High
+57 | File | `/wmiwizard.jsp` | High
 58 | ... | ... | ...
 
-There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

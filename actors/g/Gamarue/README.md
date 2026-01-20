@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gamarue:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,27 +65,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin/config.php?display=disa&view=form` | High
-3 | File | `/admin/settings.php` | High
-4 | File | `/ajax` | Low
-5 | File | `/api/admin/store/product/save` | High
-6 | File | `/app/sys1.php` | High
-7 | File | `/bin/sh` | Low
-8 | File | `/cgi-bin/adm.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/customer_support/ajax.php?action=save_ticket` | High
-11 | File | `/editar-cliente.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-14 | File | `/index/ajax/lang` | High
-15 | File | `/ipms/imageConvert/image` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/log/decodmail.php` | High
-18 | File | `/manage_inv.php` | High
-19 | File | `/ptipupgrade.cgi` | High
-20 | ... | ... | ...
+2 | File | `/add_contestant.php` | High
+3 | File | `/admin/role` | Medium
+4 | File | `/admin/settings.php` | High
+5 | File | `/ajax` | Low
+6 | File | `/ajax.php?action=save_station` | High
+7 | File | `/api/admin/store/product/save` | High
+8 | File | `/app/sys1.php` | High
+9 | File | `/bin/sh` | Low
+10 | File | `/cgi-bin/adm.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/conv/community` | High
+13 | File | `/customer_support/ajax.php?action=save_ticket` | High
+14 | File | `/editar-cliente.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/GetParentControlInfo` | High
+17 | File | `/goform/RP_checkFWByBBS` | High
+18 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+19 | File | `/index/ajax/lang` | High
+20 | File | `/ipms/imageConvert/image` | High
+21 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

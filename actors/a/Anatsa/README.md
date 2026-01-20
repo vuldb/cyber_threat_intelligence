@@ -47,13 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi` | Low
-2 | File | `/mfsNotice/page` | High
-3 | File | `/rapi/read_url` | High
-4 | File | `books.php` | Medium
-5 | ... | ... | ...
+1 | File | `/admin#themes` | High
+2 | File | `/admin.php` | Medium
+3 | File | `/admin/new-appointment.php` | High
+4 | File | `/admin/search-appointment.php` | High
+5 | File | `/admin/voters_add.php` | High
+6 | File | `/buyNow.php` | Medium
+7 | File | `/cgi` | Low
+8 | File | `/cms/admin/state.php` | High
+9 | File | `/cms/users/complaint-details.php` | High
+10 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

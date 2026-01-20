@@ -49,12 +49,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,17 +62,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?Key=PhoneRequestAuthorization` | High
-2 | File | `/addcompany.php` | High
-3 | File | `/api/v1/settings` | High
-4 | File | `/api /v3/auth` | High
-5 | File | `/calendar/minimizer/index.php` | High
-6 | File | `/example/editor` | High
-7 | File | `/fcgi/scrut_fcgi.fcgi` | High
-8 | File | `/filemanager/php/connector.php` | High
-9 | ... | ... | ...
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/?Key=PhoneRequestAuthorization` | High
+3 | File | `/abcd/opac/php/otros_sitios.php` | High
+4 | File | `/addcompany.php` | High
+5 | File | `/admin/all-requests.php` | High
+6 | File | `/admin/content/index` | High
+7 | File | `/admin/edit_categories.php` | High
+8 | File | `/admin/makehtml_freelist_action.php` | High
+9 | File | `/admin/member_save.php` | High
+10 | File | `/admin/new-requests.php` | High
+11 | File | `/admin/robot/approval/list` | High
+12 | File | `/admin/sales/manage_sale.php` | High
+13 | File | `/api/mjkj-chat/chat/ai/delete/chat` | High
+14 | File | `/api/v1.index.article/getList.html` | High
+15 | File | `/api/v1/settings` | High
+16 | File | `/api /v3/auth` | High
+17 | File | `/blog` | Low
+18 | File | `/boafrm/formNtp` | High
+19 | File | `/calendar/minimizer/index.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ArechClient2:
 
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,7 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.156.72.80](https://vuldb.com/?ip.185.156.72.80) | - | - | High
+1 | [62.133.60.113](https://vuldb.com/?ip.62.133.60.113) | 133187.ip-ptr.tech | - | High
+2 | [176.46.157.32](https://vuldb.com/?ip.176.46.157.32) | - | - | High
+3 | [178.16.55.189](https://vuldb.com/?ip.178.16.55.189) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,18 +47,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `booking.php` | Medium
-2 | File | `editBooking.php` | High
-3 | File | `grab_globals.lib.php` | High
-4 | File | `include/templates/categories/default.php` | High
-5 | ... | ... | ...
+1 | File | `/admin/?page=system_info/contact_info` | High
+2 | File | `/admin/delete_file.php` | High
+3 | File | `/admin/delete_user.php` | High
+4 | File | `/admin_members.php?ac=editsave` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/controllers/control.php` | High
+7 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://urlhaus.abuse.ch/url/3586428/
+* https://urlhaus.abuse.ch/url/3609127/
+* https://urlhaus.abuse.ch/url/3724209/
 * https://www.elastic.co/security-labs/taking-shellter
 
 ## Literature
@@ -65,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

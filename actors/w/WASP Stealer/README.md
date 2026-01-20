@@ -53,28 +53,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/application/index/controller/Databasesource.php` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-7 | File | `/forum1.php` | Medium
-8 | File | `/index.php` | Medium
-9 | File | `/ipms/imageConvert/image` | High
-10 | File | `/livesite/edit_designer_region.php` | High
-11 | File | `/module/Api/pessoa` | High
-12 | File | `/ndmComponents.js` | High
-13 | File | `/queryDevInfo` | High
-14 | File | `/v1/sql-runner` | High
-15 | File | `/view-pass-detail.php` | High
-16 | File | `/wp-admin/options-general.php` | High
-17 | File | `admin.color.php` | High
-18 | File | `admin.cropcanvas.php` | High
-19 | File | `admin.joomlaradiov5.php` | High
+1 | File | `/add_librarian.php` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/application/index/controller/Databasesource.php` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+8 | File | `/forum1.php` | Medium
+9 | File | `/index.php` | Medium
+10 | File | `/ipms/imageConvert/image` | High
+11 | File | `/livesite/edit_designer_region.php` | High
+12 | File | `/module/Api/pessoa` | High
+13 | File | `/ndmComponents.js` | High
+14 | File | `/queryDevInfo` | High
+15 | File | `/v1/sql-runner` | High
+16 | File | `/view-pass-detail.php` | High
+17 | File | `/wp-admin/options-general.php` | High
+18 | File | `admin.color.php` | High
+19 | File | `admin.cropcanvas.php` | High
 20 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

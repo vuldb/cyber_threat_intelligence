@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,65 +63,70 @@ ID | Type | Indicator | Confidence
 4 | File | `/add-students.php` | High
 5 | File | `/addclient1.php` | High
 6 | File | `/add_achievement_details.php` | High
-7 | File | `/admin/aboutus.php` | High
-8 | File | `/admin/action/edit_chicken.php` | High
-9 | File | `/admin/action/update-deworm.php` | High
-10 | File | `/admin/admin-profile.php` | High
-11 | File | `/admin/ajax.php?action=login` | High
-12 | File | `/admin/ajax.php?action=save_settings` | High
-13 | File | `/admin/all-request.php` | High
-14 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-15 | File | `/admin/category/add.do` | High
-16 | File | `/admin/contact-us.php` | High
-17 | File | `/admin/create_product.php` | High
-18 | File | `/admin/delete_s1.php` | High
-19 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-20 | File | `/admin/home.php?con=add` | High
-21 | File | `/admin/invoice.php` | High
-22 | File | `/admin/kami_list` | High
-23 | File | `/admin/login.php` | High
-24 | File | `/admin/maintenance/view_designation.php` | High
-25 | File | `/admin/pages/edit_chicken.php` | High
-26 | File | `/admin/robot.php` | High
-27 | File | `/admin/system.html` | High
-28 | File | `/admin/update-clients.php` | High
-29 | File | `/admin/user/list` | High
-30 | File | `/ajax.php` | Medium
-31 | File | `/api/baskets/{name}` | High
-32 | File | `/api/plugin/uninstall` | High
-33 | File | `/api/wizard/getNetworkConf` | High
-34 | File | `/api/wizard/getssidname` | High
-35 | File | `/api/wizard/networkSetup` | High
-36 | File | `/api2/html/` | Medium
-37 | File | `/app/Http/Controllers/ImageController.php` | High
-38 | File | `/application/index/controller/File.php` | High
-39 | File | `/application/index/controller/Icon.php` | High
-40 | File | `/application/index/controller/Screen.php` | High
-41 | File | `/application/websocket/controller/Setting.php` | High
-42 | File | `/Attachment/fromImageUrl` | High
-43 | File | `/b2b-supermarket/shopping-cart` | High
-44 | File | `/bin/boa` | Medium
-45 | File | `/boafrm/formIpQoS` | High
-46 | File | `/cgi-bin/cstecgi.cgi` | High
-47 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-48 | File | `/cgi-bin/nas_sharing.cgi` | High
-49 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-50 | File | `/classes/Master.php?f=delete_category` | High
-51 | File | `/classes/SystemSettings.php?f=update_settings` | High
-52 | File | `/classes/Users.php?f=save` | High
-53 | File | `/classes/Users.php?f=save_client` | High
-54 | File | `/cms/category/list` | High
-55 | File | `/data/edit_laundry.php` | High
-56 | File | `/dbsrv.asp` | Medium
-57 | File | `/dev/shm` | Medium
-58 | File | `/downloadFile.php` | High
-59 | File | `/dws/api/` | Medium
-60 | File | `/edit-family-member.php` | High
-61 | File | `/edit.php` | Medium
-62 | File | `/editprofile.php` | High
-63 | ... | ... | ...
+7 | File | `/add_librarian.php` | High
+8 | File | `/admin/aboutus.php` | High
+9 | File | `/admin/action/edit_chicken.php` | High
+10 | File | `/admin/action/update-deworm.php` | High
+11 | File | `/admin/admin-profile.php` | High
+12 | File | `/admin/admin_running.php` | High
+13 | File | `/admin/ajax.php?action=login` | High
+14 | File | `/admin/ajax.php?action=save_settings` | High
+15 | File | `/admin/all-request.php` | High
+16 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+17 | File | `/admin/bwdates-report-details.php` | High
+18 | File | `/admin/category/add.do` | High
+19 | File | `/admin/config_ISCGroupNoCache.php` | High
+20 | File | `/admin/contact-us.php` | High
+21 | File | `/admin/create_product.php` | High
+22 | File | `/admin/delete_log.php` | High
+23 | File | `/admin/delete_s1.php` | High
+24 | File | `/admin/delete_s8.php` | High
+25 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+26 | File | `/admin/home.php?con=add` | High
+27 | File | `/admin/invoice.php` | High
+28 | File | `/admin/kami_list` | High
+29 | File | `/admin/login.php` | High
+30 | File | `/admin/maintenance/view_designation.php` | High
+31 | File | `/admin/pages/edit_chicken.php` | High
+32 | File | `/admin/robot.php` | High
+33 | File | `/admin/system.html` | High
+34 | File | `/admin/update-clients.php` | High
+35 | File | `/admin/user/list` | High
+36 | File | `/administrator/addcategory.php` | High
+37 | File | `/adminPage/conf/saveCmd` | High
+38 | File | `/ajax.php` | Medium
+39 | File | `/api/baskets/{name}` | High
+40 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+41 | File | `/api/plugin/uninstall` | High
+42 | File | `/api/wizard/getNetworkConf` | High
+43 | File | `/api/wizard/getssidname` | High
+44 | File | `/api/wizard/networkSetup` | High
+45 | File | `/api2/html/` | Medium
+46 | File | `/app-api/v1/members/openid/` | High
+47 | File | `/app/Http/Controllers/ImageController.php` | High
+48 | File | `/application/index/controller/File.php` | High
+49 | File | `/application/index/controller/Icon.php` | High
+50 | File | `/application/index/controller/Screen.php` | High
+51 | File | `/application/websocket/controller/Setting.php` | High
+52 | File | `/Attachment/fromImageUrl` | High
+53 | File | `/b2b-supermarket/shopping-cart` | High
+54 | File | `/bin/boa` | Medium
+55 | File | `/boafrm/formIpQoS` | High
+56 | File | `/boafrm/formPingDiagnosticRun` | High
+57 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+58 | File | `/borrow_book.php` | High
+59 | File | `/cgi-bin/cstecgi.cgi` | High
+60 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+61 | File | `/cgi-bin/nas_sharing.cgi` | High
+62 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+63 | File | `/check.php` | Medium
+64 | File | `/classes/Master.php?f=delete_category` | High
+65 | File | `/classes/SystemSettings.php?f=update_settings` | High
+66 | File | `/classes/Users.php?f=save` | High
+67 | File | `/classes/Users.php?f=save_client` | High
+68 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -140,4 +145,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

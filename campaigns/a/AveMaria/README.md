@@ -67,59 +67,59 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/academic/studenview_left.php` | High
 5 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
 6 | File | `/admin/contenttemp` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/syslog` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin/view-card-detail.php` | High
-12 | File | `/advance_push/public/login` | High
-13 | File | `/anony/mjpg.cgi` | High
-14 | File | `/app/uploading/upload-mp3.php` | High
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/application/index/controller/File.php` | High
-17 | File | `/application/plugins/controller/Upload.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/assets/components/gallery/connector.php` | High
-20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/master.php?f=delete_order` | High
-24 | File | `/course/filterRecords/` | High
-25 | File | `/ctcprotocol/Protocol` | High
-26 | File | `/device/device=140/tab=wifi/view` | High
-27 | File | `/download/image` | High
-28 | File | `/endpoint/update-bookmark.php` | High
-29 | File | `/etc/sudoers` | Medium
-30 | File | `/ext/collect/find_text.do` | High
-31 | File | `/filemanager/upload` | High
-32 | File | `/Forms/` | Low
-33 | File | `/forum/away.php` | High
-34 | File | `/framework/modules/users/models/user.php` | High
-35 | File | `/ghost/preview` | High
-36 | File | `/HNAP1/SetAccessPointMode` | High
-37 | File | `/index.php` | Medium
-38 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-39 | File | `/load.php` | Medium
-40 | File | `/mcategory.php` | High
-41 | File | `/member/picture/album` | High
-42 | File | `/mysql/api/diags.php` | High
-43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/ndmComponents.js` | High
-45 | File | `/oauth/idp/.well-known/openid-configuration` | High
-46 | File | `/out.php` | Medium
-47 | File | `/phpcollab/users/edituser.php` | High
-48 | File | `/plain` | Low
-49 | File | `/products/details.asp` | High
-50 | File | `/product_list.php` | High
-51 | File | `/public/login.htm` | High
-52 | File | `/replication` | Medium
-53 | File | `/secserver` | Medium
-54 | File | `/service/upload` | High
-55 | File | `/services/details.asp` | High
-56 | File | `/showfile.php` | High
+7 | File | `/admin/edit_posts.php` | High
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/syslog` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/admin/view-card-detail.php` | High
+13 | File | `/advance_push/public/login` | High
+14 | File | `/anony/mjpg.cgi` | High
+15 | File | `/app/uploading/upload-mp3.php` | High
+16 | File | `/application/index/controller/Databasesource.php` | High
+17 | File | `/application/index/controller/File.php` | High
+18 | File | `/application/plugins/controller/Upload.php` | High
+19 | File | `/apply.cgi` | Medium
+20 | File | `/assets/components/gallery/connector.php` | High
+21 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/master.php?f=delete_order` | High
+25 | File | `/course/filterRecords/` | High
+26 | File | `/ctcprotocol/Protocol` | High
+27 | File | `/device/device=140/tab=wifi/view` | High
+28 | File | `/download/image` | High
+29 | File | `/endpoint/update-bookmark.php` | High
+30 | File | `/etc/sudoers` | Medium
+31 | File | `/ext/collect/find_text.do` | High
+32 | File | `/filemanager/upload` | High
+33 | File | `/Forms/` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/framework/modules/users/models/user.php` | High
+36 | File | `/ghost/preview` | High
+37 | File | `/HNAP1/SetAccessPointMode` | High
+38 | File | `/index.php` | Medium
+39 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+40 | File | `/load.php` | Medium
+41 | File | `/mcategory.php` | High
+42 | File | `/member/picture/album` | High
+43 | File | `/mysql/api/diags.php` | High
+44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+45 | File | `/ndmComponents.js` | High
+46 | File | `/oauth/idp/.well-known/openid-configuration` | High
+47 | File | `/out.php` | Medium
+48 | File | `/phpcollab/users/edituser.php` | High
+49 | File | `/plain` | Low
+50 | File | `/products/details.asp` | High
+51 | File | `/product_list.php` | High
+52 | File | `/public/login.htm` | High
+53 | File | `/replication` | Medium
+54 | File | `/secserver` | Medium
+55 | File | `/service/upload` | High
+56 | File | `/services/details.asp` | High
 57 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

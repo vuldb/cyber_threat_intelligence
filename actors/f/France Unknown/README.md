@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [OM](https://vuldb.com/?country.om)
 
 ## IOC - Indicator of Compromise
 
@@ -14528,12 +14528,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-24 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-3 | T1110.001 | CWE-307 | Hard-coded Credentials | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -14541,14 +14541,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/aboutus.php` | High
-2 | File | `/admin/cms/material/add` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/products/index.php?view=add` | High
-5 | File | `/admin/user-bookings.php` | High
-6 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/attendance_row.php` | High
+4 | File | `/admin/class.php?dowhat=modifyclass` | High
+5 | File | `/admin/edit-teacher-detail.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/pages/student-print.php` | High
+8 | File | `/admin/regester.php` | High
+9 | File | `/admin/v1/blog/edit` | High
+10 | File | `/admin/view-foreigner-ticket.php` | High
+11 | File | `/api/wizard/networkSetup` | High
+12 | File | `/auth/user/all.api` | High
+13 | File | `/base/safe_setting/` | High
+14 | File | `/boafrm/formWsc` | High
+15 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/mainfunction.cgi/apmcfgupptim` | High
+18 | File | `/controller/api/Room.php` | High
+19 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -14571,4 +14584,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

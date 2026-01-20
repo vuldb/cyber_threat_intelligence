@@ -73,7 +73,7 @@ ID | IP address | Hostname | Campaign | Confidence
 39 | [45.61.136.199](https://vuldb.com/?ip.45.61.136.199) | - | ColunmTK | High
 40 | ... | ... | ... | ...
 
-There are 155 more IOC items available. Please use our online service to access the data.
+There are 157 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,7 +86,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1204.001 | CWE-601 | Open Redirect | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,11 +95,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
-2 | File | `admin.jcomments.php` | High
-3 | File | `email.php` | Medium
+2 | File | `/paySuccess` | Medium
+3 | File | `/update_weights_from_tensor` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fortinet.com/blog/threat-research/threat-actors-exploit-geoserver-vulnerability-cve-2024-36401
 * https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41
 * https://www.mandiant.com/resources/apt41-us-state-governments
+* https://www.picussecurity.com/resource/blog/apt41-cyber-attacks-history-operations-and-full-ttp-analysis
 * https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack
 * https://www.threatminer.org/report.php?q=OfPigsandMalwareExaminingaPossibleMemberoftheWinntiGroup-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiAbusesGitHubforC&CCommunications-TrendMicro.pdf&y=2017
@@ -137,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

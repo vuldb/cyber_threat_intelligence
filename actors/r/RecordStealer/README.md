@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,14 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,45 +52,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_user.php` | High
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/attendance_action.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-6 | File | `/agc/vicidial.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/RecordingList/DownloadRecord?file=` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/luci/api/switch` | High
-12 | File | `/cgi-bin/sm_changepassword.cgi` | High
-13 | File | `/classes/Master.php?f=delete_inquiry` | High
-14 | File | `/contact.php` | Medium
-15 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-16 | File | `/core/config-revisions` | High
-17 | File | `/debuginfo.htm` | High
-18 | File | `/Electron/download` | High
-19 | File | `/export` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/VerAPIMant` | High
-22 | File | `/goform/WifiExtraSet` | High
-23 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-24 | File | `/h/rest` | Low
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/items/search` | High
-28 | File | `/jsonrpc` | Medium
-29 | File | `/load.php` | Medium
-30 | File | `/lua/set-passwd.lua` | High
-31 | File | `/mims/login.php` | High
-32 | File | `/newProject.php` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/pages/animals.php` | High
-36 | File | `/php/ping.php` | High
-37 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/add_user.php` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin/attendance_action.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+7 | File | `/agc/vicidial.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/luci/api/switch` | High
+13 | File | `/cgi-bin/sm_changepassword.cgi` | High
+14 | File | `/classes/Master.php?f=delete_inquiry` | High
+15 | File | `/config/pw_changeusers.html` | High
+16 | File | `/contact.php` | Medium
+17 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+18 | File | `/core/config-revisions` | High
+19 | File | `/debuginfo.htm` | High
+20 | File | `/Electron/download` | High
+21 | File | `/export` | Low
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/VerAPIMant` | High
+24 | File | `/goform/WifiExtraSet` | High
+25 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+26 | File | `/h/rest` | Low
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/includes/header_menu.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/items/search` | High
+31 | File | `/jsonrpc` | Medium
+32 | File | `/load.php` | Medium
+33 | File | `/lua/set-passwd.lua` | High
+34 | File | `/mims/login.php` | High
+35 | File | `/newProject.php` | High
+36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/pages/animals.php` | High
+39 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PurpleFox:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [61.222.155.49](https://vuldb.com/?ip.61.222.155.49) | 61-222-155-49.hinet-ip.hinet.net | - | High
-2 | [64.227.152.193](https://vuldb.com/?ip.64.227.152.193) | - | - | High
-3 | [103.94.108.114](https://vuldb.com/?ip.103.94.108.114) | - | - | High
-4 | ... | ... | ... | ...
+1 | [52.128.225.74](https://vuldb.com/?ip.52.128.225.74) | - | - | High
+2 | [52.128.225.75](https://vuldb.com/?ip.52.128.225.75) | - | - | High
+3 | [52.128.225.76](https://vuldb.com/?ip.52.128.225.76) | - | - | High
+4 | [52.128.225.77](https://vuldb.com/?ip.52.128.225.77) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,16 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/drobopix/api/drobo.php` | High
-2 | File | `/spip.php` | Medium
-3 | File | `atom_avcC.cpp` | High
-4 | File | `booking.php` | Medium
-5 | File | `data/gbconfiguration.dat` | High
-6 | File | `druckansicht.php` | High
-7 | File | `editBooking.php` | High
+1 | File | `/admin/delete_user.php` | High
+2 | File | `/admin_members.php?ac=editsave` | High
+3 | File | `/drobopix/api/drobo.php` | High
+4 | File | `/spip.php` | Medium
+5 | File | `atom_avcC.cpp` | High
+6 | File | `booking.php` | Medium
+7 | File | `data/gbconfiguration.dat` | High
 8 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +67,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://de.darktrace.com/blog/purplefox-in-a-henhouse-how-darktrace-hunted-down-a-persistent-and-dynamic-rootkit
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3556554/
+* https://urlhaus.abuse.ch/url/3616587/
+* https://urlhaus.abuse.ch/url/3616588/
+* https://urlhaus.abuse.ch/url/3616589/
+* https://urlhaus.abuse.ch/url/3616590/
+* https://urlhaus.abuse.ch/url/3616591/
 
 ## Literature
 
@@ -76,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

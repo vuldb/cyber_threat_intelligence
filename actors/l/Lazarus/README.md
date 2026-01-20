@@ -17,15 +17,15 @@ The following _campaigns_ are known and can be associated with Lazarus:
 * Hotcroissant
 * ...
 
-There are 13 more campaign items available. Please use our online service to access the data.
+There are 14 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -146,166 +146,171 @@ ID | IP address | Hostname | Campaign | Confidence
 108 | [23.106.253.221](https://vuldb.com/?ip.23.106.253.221) | - | - | High
 109 | [23.106.253.242](https://vuldb.com/?ip.23.106.253.242) | - | - | High
 110 | [23.108.57.232](https://vuldb.com/?ip.23.108.57.232) | - | - | High
-111 | [23.152.0.232](https://vuldb.com/?ip.23.152.0.232) | betrp-basisto.seemband.com | - | High
-112 | [23.227.196.5](https://vuldb.com/?ip.23.227.196.5) | 23-227-196-5.static.hvvc.us | - | High
-113 | [23.227.196.116](https://vuldb.com/?ip.23.227.196.116) | 23-227-196-116.static.hvvc.us | - | High
-114 | [23.227.199.21](https://vuldb.com/?ip.23.227.199.21) | 23-227-199-21.static.hvvc.us | - | High
-115 | [23.227.199.53](https://vuldb.com/?ip.23.227.199.53) | 23-227-199-53.static.hvvc.us | - | High
-116 | [23.227.199.69](https://vuldb.com/?ip.23.227.199.69) | 23-227-199-69.static.hvvc.us | - | High
-117 | [23.229.111.197](https://vuldb.com/?ip.23.229.111.197) | - | - | High
-118 | [23.237.32.34](https://vuldb.com/?ip.23.237.32.34) | - | - | High
-119 | [23.254.119.12](https://vuldb.com/?ip.23.254.119.12) | - | - | High
-120 | [23.254.211.230](https://vuldb.com/?ip.23.254.211.230) | hwsrv-1125028.hostwindsdns.com | - | High
-121 | [23.254.244.242](https://vuldb.com/?ip.23.254.244.242) | client-23-254-244-242.hostwindsdns.com | - | High
-122 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | Hoplight | High
-123 | [27.96.110.130](https://vuldb.com/?ip.27.96.110.130) | 130.110.96.27.static.m1net.com.sg | Hidden Cobra | High
-124 | [27.102.113.93](https://vuldb.com/?ip.27.102.113.93) | - | - | High
-125 | [27.114.187.37](https://vuldb.com/?ip.27.114.187.37) | - | Volgmer | High
-126 | [27.123.221.66](https://vuldb.com/?ip.27.123.221.66) | 66-221.fiber.net.id | Fallchill | High
-127 | [27.125.35.229](https://vuldb.com/?ip.27.125.35.229) | - | Hidden Cobra | High
-128 | [31.11.32.79](https://vuldb.com/?ip.31.11.32.79) | websn1s069.aruba.it | Netherlands and Belgium | High
-129 | [31.47.47.130](https://vuldb.com/?ip.31.47.47.130) | - | Hidden Cobra | High
-130 | [31.54.73.156](https://vuldb.com/?ip.31.54.73.156) | host31-54-73-156.range31-54.btcentralplus.com | Hidden Cobra | High
-131 | [31.54.74.176](https://vuldb.com/?ip.31.54.74.176) | host31-54-74-176.range31-54.btcentralplus.com | Hidden Cobra | High
-132 | [31.146.82.22](https://vuldb.com/?ip.31.146.82.22) | 31-146-82-22.dsl.utg.ge | Volgmer | High
-133 | [31.146.136.6](https://vuldb.com/?ip.31.146.136.6) | 31-146-136-6.dsl.utg.ge | Hidden Cobra | High
-134 | [31.168.203.44](https://vuldb.com/?ip.31.168.203.44) | bzq-203-168-31-44.red.bezeqint.net | Hidden Cobra | High
-135 | [31.186.8.221](https://vuldb.com/?ip.31.186.8.221) | - | - | High
-136 | [34.199.186.157](https://vuldb.com/?ip.34.199.186.157) | ec2-34-199-186-157.compute-1.amazonaws.com | - | Medium
-137 | [36.71.90.4](https://vuldb.com/?ip.36.71.90.4) | - | Fallchill | High
-138 | [37.34.240.177](https://vuldb.com/?ip.37.34.240.177) | - | Hidden Cobra | High
-139 | [37.48.106.69](https://vuldb.com/?ip.37.48.106.69) | high-convey.blockother.com | Hidden Cobra | High
-140 | [37.71.50.2](https://vuldb.com/?ip.37.71.50.2) | 2.50.71.37.rev.sfr.net | Hidden Cobra | High
-141 | [37.72.168.228](https://vuldb.com/?ip.37.72.168.228) | 228.168.72.37.static.swiftway.net | - | High
-142 | [37.72.175.135](https://vuldb.com/?ip.37.72.175.135) | 37-72-175-135.static.hvvc.us | - | High
-143 | [37.72.175.179](https://vuldb.com/?ip.37.72.175.179) | 37-72-175-179.static.hvvc.us | - | High
-144 | [37.72.175.196](https://vuldb.com/?ip.37.72.175.196) | 37-72-175-196.static.hvvc.us | - | High
-145 | [37.75.0.98](https://vuldb.com/?ip.37.75.0.98) | - | Hidden Cobra | High
-146 | [37.75.2.203](https://vuldb.com/?ip.37.75.2.203) | - | Hidden Cobra | High
-147 | [37.75.10.194](https://vuldb.com/?ip.37.75.10.194) | mail.kplus.com.tr | Hidden Cobra | High
-148 | [37.75.11.162](https://vuldb.com/?ip.37.75.11.162) | 37-75-11-162.rdns.saglayici.net | Hidden Cobra | High
-149 | [37.98.114.90](https://vuldb.com/?ip.37.98.114.90) | 90.mobinnet.net | Volgmer | High
-150 | [37.104.24.220](https://vuldb.com/?ip.37.104.24.220) | - | Hidden Cobra | High
-151 | [37.104.50.144](https://vuldb.com/?ip.37.104.50.144) | - | Hidden Cobra | High
-152 | [37.104.67.33](https://vuldb.com/?ip.37.104.67.33) | - | Hidden Cobra | High
-153 | [37.105.234.200](https://vuldb.com/?ip.37.105.234.200) | - | Hidden Cobra | High
-154 | [37.106.115.3](https://vuldb.com/?ip.37.106.115.3) | - | Hidden Cobra | High
-155 | [37.143.29.10](https://vuldb.com/?ip.37.143.29.10) | - | Hidden Cobra | High
-156 | [37.148.209.156](https://vuldb.com/?ip.37.148.209.156) | 37-148-209-156.cizgi.net.tr | Hidden Cobra | High
-157 | [37.216.67.155](https://vuldb.com/?ip.37.216.67.155) | - | Volgmer | High
-158 | [37.216.213.70](https://vuldb.com/?ip.37.216.213.70) | - | Hidden Cobra | High
-159 | [37.235.21.166](https://vuldb.com/?ip.37.235.21.166) | - | Volgmer | High
-160 | [37.238.135.70](https://vuldb.com/?ip.37.238.135.70) | - | - | High
-161 | [38.92.47.91](https://vuldb.com/?ip.38.92.47.91) | - | - | High
-162 | [38.108.185.79](https://vuldb.com/?ip.38.108.185.79) | s4.opendrive.com | - | High
-163 | [38.108.185.115](https://vuldb.com/?ip.38.108.185.115) | s2.opendrive.com | - | High
-164 | [38.132.124.161](https://vuldb.com/?ip.38.132.124.161) | - | TraderTraitor | High
-165 | [40.121.90.194](https://vuldb.com/?ip.40.121.90.194) | - | - | High
-166 | [41.57.108.68](https://vuldb.com/?ip.41.57.108.68) | - | Hidden Cobra | High
-167 | [41.67.136.38](https://vuldb.com/?ip.41.67.136.38) | netcomafrica.com | Hidden Cobra | High
-168 | [41.67.136.39](https://vuldb.com/?ip.41.67.136.39) | netcomafrica.com | Hidden Cobra | High
-169 | [41.72.99.5](https://vuldb.com/?ip.41.72.99.5) | - | Hidden Cobra | High
-170 | [41.72.101.138](https://vuldb.com/?ip.41.72.101.138) | - | Hidden Cobra | High
-171 | [41.74.166.253](https://vuldb.com/?ip.41.74.166.253) | - | Hidden Cobra | High
-172 | [41.92.208.194](https://vuldb.com/?ip.41.92.208.194) | - | Fallchill | High
-173 | [41.92.208.196](https://vuldb.com/?ip.41.92.208.196) | - | Fallchill | High
-174 | [41.92.208.197](https://vuldb.com/?ip.41.92.208.197) | - | Fallchill | High
-175 | [41.110.179.197](https://vuldb.com/?ip.41.110.179.197) | - | Hidden Cobra | High
-176 | [41.128.226.60](https://vuldb.com/?ip.41.128.226.60) | - | Hidden Cobra | High
-177 | [41.131.29.59](https://vuldb.com/?ip.41.131.29.59) | mail1.geniprocess.com | - | High
-178 | [41.131.49.228](https://vuldb.com/?ip.41.131.49.228) | host-41-131-49-228.static.link.com.eg | Hidden Cobra | High
-179 | [41.131.164.156](https://vuldb.com/?ip.41.131.164.156) | - | Hidden Cobra | High
-180 | [41.134.208.234](https://vuldb.com/?ip.41.134.208.234) | 41-134-208-234.dsl.mweb.co.za | Hidden Cobra | High
-181 | [41.182.252.56](https://vuldb.com/?ip.41.182.252.56) | ADSL-41-182-252-56.ipb.na | Hidden Cobra | High
-182 | [41.205.139.34](https://vuldb.com/?ip.41.205.139.34) | ADSL-41-205-139-34.ipb.na | Hidden Cobra | High
-183 | [41.208.106.68](https://vuldb.com/?ip.41.208.106.68) | owa.altaqnya.com.ly | Hidden Cobra | High
-184 | [41.208.106.70](https://vuldb.com/?ip.41.208.106.70) | dc1.Mail.dsmhlc.ly | Hidden Cobra | High
-185 | [41.215.250.40](https://vuldb.com/?ip.41.215.250.40) | - | Hidden Cobra | High
-186 | [41.223.30.20](https://vuldb.com/?ip.41.223.30.20) | host30-20.creolink.com | Hidden Cobra | High
-187 | [41.224.254.90](https://vuldb.com/?ip.41.224.254.90) | - | Hidden Cobra | High
-188 | [43.249.216.6](https://vuldb.com/?ip.43.249.216.6) | - | Volgmer | High
-189 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
-190 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
-191 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
-192 | [45.58.112.77](https://vuldb.com/?ip.45.58.112.77) | - | - | High
-193 | [45.61.129.255](https://vuldb.com/?ip.45.61.129.255) | - | - | High
-194 | [45.61.130.0](https://vuldb.com/?ip.45.61.130.0) | - | - | High
-195 | [45.61.131.218](https://vuldb.com/?ip.45.61.131.218) | - | - | High
-196 | [45.61.158.7](https://vuldb.com/?ip.45.61.158.7) | - | - | High
-197 | [45.61.158.54](https://vuldb.com/?ip.45.61.158.54) | - | - | High
-198 | [45.61.160.14](https://vuldb.com/?ip.45.61.160.14) | 45-61-160-14.static.cloudzy.com | - | High
-199 | [45.61.169.99](https://vuldb.com/?ip.45.61.169.99) | - | - | High
-200 | [45.61.169.187](https://vuldb.com/?ip.45.61.169.187) | - | - | High
-201 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
-202 | [45.89.53.59](https://vuldb.com/?ip.45.89.53.59) | vm3088430.stark-industries.solutions | - | High
-203 | [45.118.34.215](https://vuldb.com/?ip.45.118.34.215) | - | Volgmer | High
-204 | [45.120.61.145](https://vuldb.com/?ip.45.120.61.145) | - | Hidden Cobra | High
-205 | [45.122.138.130](https://vuldb.com/?ip.45.122.138.130) | - | - | High
-206 | [45.124.169.36](https://vuldb.com/?ip.45.124.169.36) | - | Volgmer | High
-207 | [45.128.156.27](https://vuldb.com/?ip.45.128.156.27) | smtp.flatmeadow.com | - | High
-208 | [45.140.147.208](https://vuldb.com/?ip.45.140.147.208) | vm2164466.stark-industries.solutions | - | High
-209 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
-210 | [46.4.224.205](https://vuldb.com/?ip.46.4.224.205) | static.205.224.4.46.clients.your-server.de | - | High
-211 | [46.16.62.238](https://vuldb.com/?ip.46.16.62.238) | fnadh-35.srv.cat | TraderTraitor | High
-212 | [46.19.101.186](https://vuldb.com/?ip.46.19.101.186) | ip-46-19-101-186.gnc.net | Hidden Cobra | High
-213 | [46.21.147.161](https://vuldb.com/?ip.46.21.147.161) | 46-21-147-161.static.hvvc.us | - | High
-214 | [46.21.153.87](https://vuldb.com/?ip.46.21.153.87) | 87.153.21.46.static.swiftway.net | - | High
-215 | [46.52.131.102](https://vuldb.com/?ip.46.52.131.102) | - | Hidden Cobra | High
-216 | [46.105.57.169](https://vuldb.com/?ip.46.105.57.169) | cluster020.hosting.ovh.net | - | High
-217 | [46.121.242.180](https://vuldb.com/?ip.46.121.242.180) | 46-121-242-180.static.012.net.il | Hidden Cobra | High
-218 | [46.174.116.60](https://vuldb.com/?ip.46.174.116.60) | - | Hidden Cobra | High
-219 | [46.174.116.87](https://vuldb.com/?ip.46.174.116.87) | - | Hidden Cobra | High
-220 | [46.174.116.90](https://vuldb.com/?ip.46.174.116.90) | - | Hidden Cobra | High
-221 | [46.174.116.99](https://vuldb.com/?ip.46.174.116.99) | - | Hidden Cobra | High
-222 | [46.174.116.221](https://vuldb.com/?ip.46.174.116.221) | - | Hidden Cobra | High
-223 | [46.174.116.231](https://vuldb.com/?ip.46.174.116.231) | - | Hidden Cobra | High
-224 | [46.174.116.234](https://vuldb.com/?ip.46.174.116.234) | - | Hidden Cobra | High
-225 | [46.174.117.15](https://vuldb.com/?ip.46.174.117.15) | - | Hidden Cobra | High
-226 | [46.174.117.32](https://vuldb.com/?ip.46.174.117.32) | - | Hidden Cobra | High
-227 | [46.174.117.36](https://vuldb.com/?ip.46.174.117.36) | - | Hidden Cobra | High
-228 | [46.174.117.42](https://vuldb.com/?ip.46.174.117.42) | - | Hidden Cobra | High
-229 | [46.174.117.44](https://vuldb.com/?ip.46.174.117.44) | - | Hidden Cobra | High
-230 | [46.174.117.50](https://vuldb.com/?ip.46.174.117.50) | - | Hidden Cobra | High
-231 | [46.174.117.61](https://vuldb.com/?ip.46.174.117.61) | - | Hidden Cobra | High
-232 | [46.174.117.77](https://vuldb.com/?ip.46.174.117.77) | - | Hidden Cobra | High
-233 | [46.174.117.80](https://vuldb.com/?ip.46.174.117.80) | - | Hidden Cobra | High
-234 | [46.174.117.97](https://vuldb.com/?ip.46.174.117.97) | - | Hidden Cobra | High
-235 | [46.174.117.98](https://vuldb.com/?ip.46.174.117.98) | - | Hidden Cobra | High
-236 | [46.174.117.103](https://vuldb.com/?ip.46.174.117.103) | - | Hidden Cobra | High
-237 | [46.174.117.116](https://vuldb.com/?ip.46.174.117.116) | - | Hidden Cobra | High
-238 | [46.174.117.121](https://vuldb.com/?ip.46.174.117.121) | - | Hidden Cobra | High
-239 | [46.174.117.129](https://vuldb.com/?ip.46.174.117.129) | - | Hidden Cobra | High
-240 | [46.174.117.134](https://vuldb.com/?ip.46.174.117.134) | - | Hidden Cobra | High
-241 | [46.174.117.153](https://vuldb.com/?ip.46.174.117.153) | - | Hidden Cobra | High
-242 | [46.174.117.164](https://vuldb.com/?ip.46.174.117.164) | - | Hidden Cobra | High
-243 | [46.183.221.109](https://vuldb.com/?ip.46.183.221.109) | ip-221-109.dataclub.info | - | High
-244 | [46.218.127.110](https://vuldb.com/?ip.46.218.127.110) | reverse.completel.fr | Hidden Cobra | High
-245 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | Hoplight | High
-246 | [49.206.1.61](https://vuldb.com/?ip.49.206.1.61) | 49.206.1.61.actcorp.in | Hidden Cobra | High
-247 | [49.247.9.177](https://vuldb.com/?ip.49.247.9.177) | - | - | High
-248 | [50.62.168.157](https://vuldb.com/?ip.50.62.168.157) | p3nwvpweb145.shr.prod.phx3.secureserver.net | Fallchill | High
-249 | [50.87.144.227](https://vuldb.com/?ip.50.87.144.227) | somethingaboutmarketing.com | - | High
-250 | [50.192.28.29](https://vuldb.com/?ip.50.192.28.29) | speed-stream.com | Netherlands and Belgium | High
-251 | [51.38.234.8](https://vuldb.com/?ip.51.38.234.8) | hydra.skok.pl | - | High
-252 | [51.68.119.230](https://vuldb.com/?ip.51.68.119.230) | ns3145204.ip-51-68-119.eu | - | High
-253 | [51.79.44.111](https://vuldb.com/?ip.51.79.44.111) | server2.urgentfury.net | - | High
-254 | [51.235.1.216](https://vuldb.com/?ip.51.235.1.216) | - | Hidden Cobra | High
-255 | [51.235.13.162](https://vuldb.com/?ip.51.235.13.162) | - | Hidden Cobra | High
-256 | [51.235.17.133](https://vuldb.com/?ip.51.235.17.133) | - | Hidden Cobra | High
-257 | [51.235.19.202](https://vuldb.com/?ip.51.235.19.202) | - | Hidden Cobra | High
-258 | [51.235.33.226](https://vuldb.com/?ip.51.235.33.226) | - | Hidden Cobra | High
-259 | [51.235.49.202](https://vuldb.com/?ip.51.235.49.202) | - | Hidden Cobra | High
-260 | [52.78.224.225](https://vuldb.com/?ip.52.78.224.225) | ec2-52-78-224-225.ap-northeast-2.compute.amazonaws.com | - | Medium
-261 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | Chemical Sector | Medium
-262 | [52.79.120.37](https://vuldb.com/?ip.52.79.120.37) | ec2-52-79-120-37.ap-northeast-2.compute.amazonaws.com | - | Medium
-263 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
-264 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
-265 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
-266 | [54.38.11.132](https://vuldb.com/?ip.54.38.11.132) | ip132.ip-54-38-11.eu | - | High
-267 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
-268 | ... | ... | ... | ...
+111 | [23.111.133.162](https://vuldb.com/?ip.23.111.133.162) | cp22.lowesthosting.com | UAV Sector | High
+112 | [23.152.0.232](https://vuldb.com/?ip.23.152.0.232) | betrp-basisto.seemband.com | - | High
+113 | [23.227.196.5](https://vuldb.com/?ip.23.227.196.5) | 23-227-196-5.static.hvvc.us | - | High
+114 | [23.227.196.116](https://vuldb.com/?ip.23.227.196.116) | 23-227-196-116.static.hvvc.us | - | High
+115 | [23.227.199.21](https://vuldb.com/?ip.23.227.199.21) | 23-227-199-21.static.hvvc.us | - | High
+116 | [23.227.199.53](https://vuldb.com/?ip.23.227.199.53) | 23-227-199-53.static.hvvc.us | - | High
+117 | [23.227.199.69](https://vuldb.com/?ip.23.227.199.69) | 23-227-199-69.static.hvvc.us | - | High
+118 | [23.229.111.197](https://vuldb.com/?ip.23.229.111.197) | - | - | High
+119 | [23.237.32.34](https://vuldb.com/?ip.23.237.32.34) | - | - | High
+120 | [23.254.119.12](https://vuldb.com/?ip.23.254.119.12) | - | - | High
+121 | [23.254.128.114](https://vuldb.com/?ip.23.254.128.114) | hwsrv-1308220.hostwindsdns.com | - | High
+122 | [23.254.164.50](https://vuldb.com/?ip.23.254.164.50) | hwsrv-1308225.hostwindsdns.com | - | High
+123 | [23.254.211.230](https://vuldb.com/?ip.23.254.211.230) | hwsrv-1125028.hostwindsdns.com | - | High
+124 | [23.254.244.242](https://vuldb.com/?ip.23.254.244.242) | client-23-254-244-242.hostwindsdns.com | - | High
+125 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | Hoplight | High
+126 | [27.96.110.130](https://vuldb.com/?ip.27.96.110.130) | 130.110.96.27.static.m1net.com.sg | Hidden Cobra | High
+127 | [27.102.113.93](https://vuldb.com/?ip.27.102.113.93) | - | - | High
+128 | [27.114.187.37](https://vuldb.com/?ip.27.114.187.37) | - | Volgmer | High
+129 | [27.123.221.66](https://vuldb.com/?ip.27.123.221.66) | 66-221.fiber.net.id | Fallchill | High
+130 | [27.125.35.229](https://vuldb.com/?ip.27.125.35.229) | - | Hidden Cobra | High
+131 | [31.11.32.79](https://vuldb.com/?ip.31.11.32.79) | websn1s069.aruba.it | Netherlands and Belgium | High
+132 | [31.47.47.130](https://vuldb.com/?ip.31.47.47.130) | - | Hidden Cobra | High
+133 | [31.54.73.156](https://vuldb.com/?ip.31.54.73.156) | host31-54-73-156.range31-54.btcentralplus.com | Hidden Cobra | High
+134 | [31.54.74.176](https://vuldb.com/?ip.31.54.74.176) | host31-54-74-176.range31-54.btcentralplus.com | Hidden Cobra | High
+135 | [31.146.82.22](https://vuldb.com/?ip.31.146.82.22) | 31-146-82-22.dsl.utg.ge | Volgmer | High
+136 | [31.146.136.6](https://vuldb.com/?ip.31.146.136.6) | 31-146-136-6.dsl.utg.ge | Hidden Cobra | High
+137 | [31.168.203.44](https://vuldb.com/?ip.31.168.203.44) | bzq-203-168-31-44.red.bezeqint.net | Hidden Cobra | High
+138 | [31.186.8.221](https://vuldb.com/?ip.31.186.8.221) | - | - | High
+139 | [34.199.186.157](https://vuldb.com/?ip.34.199.186.157) | ec2-34-199-186-157.compute-1.amazonaws.com | - | Medium
+140 | [36.71.90.4](https://vuldb.com/?ip.36.71.90.4) | - | Fallchill | High
+141 | [37.34.240.177](https://vuldb.com/?ip.37.34.240.177) | - | Hidden Cobra | High
+142 | [37.48.106.69](https://vuldb.com/?ip.37.48.106.69) | high-convey.blockother.com | Hidden Cobra | High
+143 | [37.71.50.2](https://vuldb.com/?ip.37.71.50.2) | 2.50.71.37.rev.sfr.net | Hidden Cobra | High
+144 | [37.72.168.228](https://vuldb.com/?ip.37.72.168.228) | 228.168.72.37.static.swiftway.net | - | High
+145 | [37.72.175.135](https://vuldb.com/?ip.37.72.175.135) | 37-72-175-135.static.hvvc.us | - | High
+146 | [37.72.175.179](https://vuldb.com/?ip.37.72.175.179) | 37-72-175-179.static.hvvc.us | - | High
+147 | [37.72.175.196](https://vuldb.com/?ip.37.72.175.196) | 37-72-175-196.static.hvvc.us | - | High
+148 | [37.75.0.98](https://vuldb.com/?ip.37.75.0.98) | - | Hidden Cobra | High
+149 | [37.75.2.203](https://vuldb.com/?ip.37.75.2.203) | - | Hidden Cobra | High
+150 | [37.75.10.194](https://vuldb.com/?ip.37.75.10.194) | mail.kplus.com.tr | Hidden Cobra | High
+151 | [37.75.11.162](https://vuldb.com/?ip.37.75.11.162) | 37-75-11-162.rdns.saglayici.net | Hidden Cobra | High
+152 | [37.98.114.90](https://vuldb.com/?ip.37.98.114.90) | 90.mobinnet.net | Volgmer | High
+153 | [37.104.24.220](https://vuldb.com/?ip.37.104.24.220) | - | Hidden Cobra | High
+154 | [37.104.50.144](https://vuldb.com/?ip.37.104.50.144) | - | Hidden Cobra | High
+155 | [37.104.67.33](https://vuldb.com/?ip.37.104.67.33) | - | Hidden Cobra | High
+156 | [37.105.234.200](https://vuldb.com/?ip.37.105.234.200) | - | Hidden Cobra | High
+157 | [37.106.115.3](https://vuldb.com/?ip.37.106.115.3) | - | Hidden Cobra | High
+158 | [37.143.29.10](https://vuldb.com/?ip.37.143.29.10) | - | Hidden Cobra | High
+159 | [37.148.209.156](https://vuldb.com/?ip.37.148.209.156) | 37-148-209-156.cizgi.net.tr | Hidden Cobra | High
+160 | [37.216.67.155](https://vuldb.com/?ip.37.216.67.155) | - | Volgmer | High
+161 | [37.216.213.70](https://vuldb.com/?ip.37.216.213.70) | - | Hidden Cobra | High
+162 | [37.235.21.166](https://vuldb.com/?ip.37.235.21.166) | - | Volgmer | High
+163 | [37.238.135.70](https://vuldb.com/?ip.37.238.135.70) | - | - | High
+164 | [38.92.47.91](https://vuldb.com/?ip.38.92.47.91) | - | - | High
+165 | [38.108.185.79](https://vuldb.com/?ip.38.108.185.79) | s4.opendrive.com | - | High
+166 | [38.108.185.115](https://vuldb.com/?ip.38.108.185.115) | s2.opendrive.com | - | High
+167 | [38.132.124.161](https://vuldb.com/?ip.38.132.124.161) | - | TraderTraitor | High
+168 | [40.121.90.194](https://vuldb.com/?ip.40.121.90.194) | - | - | High
+169 | [41.57.108.68](https://vuldb.com/?ip.41.57.108.68) | - | Hidden Cobra | High
+170 | [41.67.136.38](https://vuldb.com/?ip.41.67.136.38) | netcomafrica.com | Hidden Cobra | High
+171 | [41.67.136.39](https://vuldb.com/?ip.41.67.136.39) | netcomafrica.com | Hidden Cobra | High
+172 | [41.72.99.5](https://vuldb.com/?ip.41.72.99.5) | - | Hidden Cobra | High
+173 | [41.72.101.138](https://vuldb.com/?ip.41.72.101.138) | - | Hidden Cobra | High
+174 | [41.74.166.253](https://vuldb.com/?ip.41.74.166.253) | - | Hidden Cobra | High
+175 | [41.92.208.194](https://vuldb.com/?ip.41.92.208.194) | - | Fallchill | High
+176 | [41.92.208.196](https://vuldb.com/?ip.41.92.208.196) | - | Fallchill | High
+177 | [41.92.208.197](https://vuldb.com/?ip.41.92.208.197) | - | Fallchill | High
+178 | [41.110.179.197](https://vuldb.com/?ip.41.110.179.197) | - | Hidden Cobra | High
+179 | [41.128.226.60](https://vuldb.com/?ip.41.128.226.60) | - | Hidden Cobra | High
+180 | [41.131.29.59](https://vuldb.com/?ip.41.131.29.59) | mail1.geniprocess.com | - | High
+181 | [41.131.49.228](https://vuldb.com/?ip.41.131.49.228) | host-41-131-49-228.static.link.com.eg | Hidden Cobra | High
+182 | [41.131.164.156](https://vuldb.com/?ip.41.131.164.156) | - | Hidden Cobra | High
+183 | [41.134.208.234](https://vuldb.com/?ip.41.134.208.234) | 41-134-208-234.dsl.mweb.co.za | Hidden Cobra | High
+184 | [41.182.252.56](https://vuldb.com/?ip.41.182.252.56) | ADSL-41-182-252-56.ipb.na | Hidden Cobra | High
+185 | [41.205.139.34](https://vuldb.com/?ip.41.205.139.34) | ADSL-41-205-139-34.ipb.na | Hidden Cobra | High
+186 | [41.208.106.68](https://vuldb.com/?ip.41.208.106.68) | owa.altaqnya.com.ly | Hidden Cobra | High
+187 | [41.208.106.70](https://vuldb.com/?ip.41.208.106.70) | dc1.Mail.dsmhlc.ly | Hidden Cobra | High
+188 | [41.215.250.40](https://vuldb.com/?ip.41.215.250.40) | - | Hidden Cobra | High
+189 | [41.223.30.20](https://vuldb.com/?ip.41.223.30.20) | host30-20.creolink.com | Hidden Cobra | High
+190 | [41.224.254.90](https://vuldb.com/?ip.41.224.254.90) | - | Hidden Cobra | High
+191 | [43.249.216.6](https://vuldb.com/?ip.43.249.216.6) | - | Volgmer | High
+192 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
+193 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
+194 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
+195 | [45.58.112.77](https://vuldb.com/?ip.45.58.112.77) | - | - | High
+196 | [45.61.129.255](https://vuldb.com/?ip.45.61.129.255) | - | - | High
+197 | [45.61.130.0](https://vuldb.com/?ip.45.61.130.0) | - | - | High
+198 | [45.61.131.218](https://vuldb.com/?ip.45.61.131.218) | - | - | High
+199 | [45.61.158.7](https://vuldb.com/?ip.45.61.158.7) | - | - | High
+200 | [45.61.158.54](https://vuldb.com/?ip.45.61.158.54) | - | - | High
+201 | [45.61.160.14](https://vuldb.com/?ip.45.61.160.14) | 45-61-160-14.static.cloudzy.com | - | High
+202 | [45.61.169.99](https://vuldb.com/?ip.45.61.169.99) | - | - | High
+203 | [45.61.169.187](https://vuldb.com/?ip.45.61.169.187) | - | - | High
+204 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
+205 | [45.89.53.59](https://vuldb.com/?ip.45.89.53.59) | vm3088430.stark-industries.solutions | - | High
+206 | [45.118.34.215](https://vuldb.com/?ip.45.118.34.215) | - | Volgmer | High
+207 | [45.120.61.145](https://vuldb.com/?ip.45.120.61.145) | - | Hidden Cobra | High
+208 | [45.122.138.130](https://vuldb.com/?ip.45.122.138.130) | - | - | High
+209 | [45.124.169.36](https://vuldb.com/?ip.45.124.169.36) | - | Volgmer | High
+210 | [45.128.156.27](https://vuldb.com/?ip.45.128.156.27) | smtp.flatmeadow.com | - | High
+211 | [45.140.147.208](https://vuldb.com/?ip.45.140.147.208) | vm2164466.stark-industries.solutions | - | High
+212 | [45.148.29.122](https://vuldb.com/?ip.45.148.29.122) | - | UAV Sector | High
+213 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
+214 | [46.4.224.205](https://vuldb.com/?ip.46.4.224.205) | static.205.224.4.46.clients.your-server.de | - | High
+215 | [46.16.62.238](https://vuldb.com/?ip.46.16.62.238) | fnadh-35.srv.cat | TraderTraitor | High
+216 | [46.19.101.186](https://vuldb.com/?ip.46.19.101.186) | ip-46-19-101-186.gnc.net | Hidden Cobra | High
+217 | [46.21.147.161](https://vuldb.com/?ip.46.21.147.161) | 46-21-147-161.static.hvvc.us | - | High
+218 | [46.21.153.87](https://vuldb.com/?ip.46.21.153.87) | 87.153.21.46.static.swiftway.net | - | High
+219 | [46.52.131.102](https://vuldb.com/?ip.46.52.131.102) | - | Hidden Cobra | High
+220 | [46.105.57.169](https://vuldb.com/?ip.46.105.57.169) | cluster020.hosting.ovh.net | - | High
+221 | [46.121.242.180](https://vuldb.com/?ip.46.121.242.180) | 46-121-242-180.static.012.net.il | Hidden Cobra | High
+222 | [46.174.116.60](https://vuldb.com/?ip.46.174.116.60) | - | Hidden Cobra | High
+223 | [46.174.116.87](https://vuldb.com/?ip.46.174.116.87) | - | Hidden Cobra | High
+224 | [46.174.116.90](https://vuldb.com/?ip.46.174.116.90) | - | Hidden Cobra | High
+225 | [46.174.116.99](https://vuldb.com/?ip.46.174.116.99) | - | Hidden Cobra | High
+226 | [46.174.116.221](https://vuldb.com/?ip.46.174.116.221) | - | Hidden Cobra | High
+227 | [46.174.116.231](https://vuldb.com/?ip.46.174.116.231) | - | Hidden Cobra | High
+228 | [46.174.116.234](https://vuldb.com/?ip.46.174.116.234) | - | Hidden Cobra | High
+229 | [46.174.117.15](https://vuldb.com/?ip.46.174.117.15) | - | Hidden Cobra | High
+230 | [46.174.117.32](https://vuldb.com/?ip.46.174.117.32) | - | Hidden Cobra | High
+231 | [46.174.117.36](https://vuldb.com/?ip.46.174.117.36) | - | Hidden Cobra | High
+232 | [46.174.117.42](https://vuldb.com/?ip.46.174.117.42) | - | Hidden Cobra | High
+233 | [46.174.117.44](https://vuldb.com/?ip.46.174.117.44) | - | Hidden Cobra | High
+234 | [46.174.117.50](https://vuldb.com/?ip.46.174.117.50) | - | Hidden Cobra | High
+235 | [46.174.117.61](https://vuldb.com/?ip.46.174.117.61) | - | Hidden Cobra | High
+236 | [46.174.117.77](https://vuldb.com/?ip.46.174.117.77) | - | Hidden Cobra | High
+237 | [46.174.117.80](https://vuldb.com/?ip.46.174.117.80) | - | Hidden Cobra | High
+238 | [46.174.117.97](https://vuldb.com/?ip.46.174.117.97) | - | Hidden Cobra | High
+239 | [46.174.117.98](https://vuldb.com/?ip.46.174.117.98) | - | Hidden Cobra | High
+240 | [46.174.117.103](https://vuldb.com/?ip.46.174.117.103) | - | Hidden Cobra | High
+241 | [46.174.117.116](https://vuldb.com/?ip.46.174.117.116) | - | Hidden Cobra | High
+242 | [46.174.117.121](https://vuldb.com/?ip.46.174.117.121) | - | Hidden Cobra | High
+243 | [46.174.117.129](https://vuldb.com/?ip.46.174.117.129) | - | Hidden Cobra | High
+244 | [46.174.117.134](https://vuldb.com/?ip.46.174.117.134) | - | Hidden Cobra | High
+245 | [46.174.117.153](https://vuldb.com/?ip.46.174.117.153) | - | Hidden Cobra | High
+246 | [46.174.117.164](https://vuldb.com/?ip.46.174.117.164) | - | Hidden Cobra | High
+247 | [46.183.221.109](https://vuldb.com/?ip.46.183.221.109) | ip-221-109.dataclub.info | - | High
+248 | [46.218.127.110](https://vuldb.com/?ip.46.218.127.110) | reverse.completel.fr | Hidden Cobra | High
+249 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | Hoplight | High
+250 | [49.206.1.61](https://vuldb.com/?ip.49.206.1.61) | 49.206.1.61.actcorp.in | Hidden Cobra | High
+251 | [49.247.9.177](https://vuldb.com/?ip.49.247.9.177) | - | - | High
+252 | [50.62.168.157](https://vuldb.com/?ip.50.62.168.157) | p3nwvpweb145.shr.prod.phx3.secureserver.net | Fallchill | High
+253 | [50.87.144.227](https://vuldb.com/?ip.50.87.144.227) | somethingaboutmarketing.com | - | High
+254 | [50.192.28.29](https://vuldb.com/?ip.50.192.28.29) | speed-stream.com | Netherlands and Belgium | High
+255 | [51.38.234.8](https://vuldb.com/?ip.51.38.234.8) | hydra.skok.pl | - | High
+256 | [51.68.119.230](https://vuldb.com/?ip.51.68.119.230) | ns3145204.ip-51-68-119.eu | - | High
+257 | [51.79.44.111](https://vuldb.com/?ip.51.79.44.111) | server2.urgentfury.net | - | High
+258 | [51.235.1.216](https://vuldb.com/?ip.51.235.1.216) | - | Hidden Cobra | High
+259 | [51.235.13.162](https://vuldb.com/?ip.51.235.13.162) | - | Hidden Cobra | High
+260 | [51.235.17.133](https://vuldb.com/?ip.51.235.17.133) | - | Hidden Cobra | High
+261 | [51.235.19.202](https://vuldb.com/?ip.51.235.19.202) | - | Hidden Cobra | High
+262 | [51.235.33.226](https://vuldb.com/?ip.51.235.33.226) | - | Hidden Cobra | High
+263 | [51.235.49.202](https://vuldb.com/?ip.51.235.49.202) | - | Hidden Cobra | High
+264 | [52.78.224.225](https://vuldb.com/?ip.52.78.224.225) | ec2-52-78-224-225.ap-northeast-2.compute.amazonaws.com | - | Medium
+265 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | Chemical Sector | Medium
+266 | [52.79.120.37](https://vuldb.com/?ip.52.79.120.37) | ec2-52-79-120-37.ap-northeast-2.compute.amazonaws.com | - | Medium
+267 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
+268 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
+269 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
+270 | [54.38.11.132](https://vuldb.com/?ip.54.38.11.132) | ip132.ip-54-38-11.eu | - | High
+271 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
+272 | [54.39.204.190](https://vuldb.com/?ip.54.39.204.190) | ip190.ip-54-39-204.net | - | High
+273 | ... | ... | ... | ...
 
-There are 1068 more IOC items available. Please use our online service to access the data.
+There are 1089 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -313,13 +318,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-27, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -327,102 +333,157 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.kdbgrc` | Low
-2 | File | `/?import` | Medium
-3 | File | `/actuator` | Medium
-4 | File | `/add-table.php` | High
-5 | File | `/adduser-exec.php` | High
-6 | File | `/Add_reciver.php` | High
-7 | File | `/admin#themes` | High
-8 | File | `/admin-cp/theme/editor/default` | High
-9 | File | `/admin-cp/theme/install` | High
-10 | File | `/admin-inbox.php` | High
-11 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
-12 | File | `/admin/` | Low
-13 | File | `/admin/?page=sales/view_sale` | High
-14 | File | `/admin/aboutus.php` | High
-15 | File | `/admin/add-foreigner-ticket.php` | High
-16 | File | `/admin/add-normal-ticket.php` | High
-17 | File | `/admin/add_subject.php` | High
-18 | File | `/admin/add_teacher.php` | High
-19 | File | `/admin/add_title.php` | High
-20 | File | `/admin/admin-profile.php` | High
-21 | File | `/admin/admin_index.php` | High
-22 | File | `/admin/ajax.php?action=save_application` | High
-23 | File | `/admin/app/soulwinning_crud.php` | High
-24 | File | `/admin/article/article-edit-run.php` | High
-25 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
-26 | File | `/admin/booking-details.php` | High
-27 | File | `/admin/booking_report.php` | High
-28 | File | `/admin/bwdates-reports-details.php` | High
-29 | File | `/admin/change-image.php` | High
-30 | File | `/admin/class.php` | High
-31 | File | `/admin/comment/list` | High
-32 | File | `/admin/contact-list.php` | High
-33 | File | `/admin/create-package.php` | High
-34 | File | `/admin/delete.php` | High
-35 | File | `/admin/deleteBooking.php` | High
-36 | File | `/admin/delete_s2.php` | High
-37 | File | `/admin/department.php` | High
-38 | File | `/admin/department/add` | High
-39 | File | `/admin/de_activate.php` | High
-40 | File | `/admin/disapprove_user.php` | High
-41 | File | `/admin/doctor-specilization.php` | High
-42 | File | `/admin/edit-art-medium-detail.php` | High
-43 | File | `/admin/edit-category.php` | High
-44 | File | `/admin/edit-class.php?cid=1` | High
-45 | File | `/admin/edit-customer-detailed.php` | High
-46 | File | `/admin/edit-services.php` | High
-47 | File | `/admin/edit-teacher-info.php` | High
-48 | File | `/admin/edit-teacher.php` | High
-49 | File | `/admin/edit-user.php` | High
-50 | File | `/Admin/EditCategory` | High
-51 | File | `/admin/editorder.php` | High
-52 | File | `/admin/edituser.php` | High
-53 | File | `/admin/edit_class.php` | High
-54 | File | `/admin/edit_product.php` | High
-55 | File | `/admin/edit_student.php` | High
-56 | File | `/admin/edit_tax.php` | High
-57 | File | `/admin/eligibility.php` | High
-58 | File | `/admin/email_setup.php` | High
-59 | File | `/admin/finished.php` | High
-60 | File | `/admin/index.php?language=en&nv=upload` | High
-61 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
-62 | File | `/admin/kami_list` | High
-63 | File | `/admin/login` | Medium
-64 | File | `/admin/manage-teams.php` | High
-65 | File | `/admin/manage-tickets.php` | High
-66 | File | `/admin/member_save.php` | High
-67 | File | `/admin/menus/view_menu.php` | High
-68 | File | `/admin/offenses/view_details.php` | High
-69 | File | `/admin/operation/paid.php` | High
-70 | File | `/admin/operations/booking.php` | High
-71 | File | `/admin/operations/expense_category.php` | High
-72 | File | `/admin/password-recovery.php` | High
-73 | File | `/admin/patient.php` | High
-74 | File | `/admin/positions_delete.php` | High
-75 | File | `/Admin/registration.php` | High
-76 | File | `/admin/search.php` | High
-77 | File | `/admin/seo_setting.php` | High
-78 | File | `/admin/session.php` | High
-79 | File | `/admin/sms_setting.php` | High
-80 | File | `/admin/student-history.php` | High
-81 | File | `/admin/sys/log/list` | High
-82 | File | `/admin/tags/save` | High
-83 | File | `/admin/templates/animal_form_template.php` | High
-84 | File | `/admin/topic/list` | High
-85 | File | `/admin/update_s1.php` | High
-86 | File | `/admin/update_s2.php` | High
-87 | File | `/admin/update_s4.php` | High
-88 | File | `/admin/update_student.php` | High
-89 | File | `/Admin/User.php` | High
-90 | File | `/admin/user.php` | High
-91 | File | `/admin/view-normal-ticket.php` | High
-92 | File | `/admin/workin-progress-requests.php` | High
-93 | File | `/administrator/index.php` | High
-94 | ... | ... | ...
+1 | File | `/activation.php` | High
+2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+3 | File | `/add-lockertype.php` | High
+4 | File | `/addclient1.php` | High
+5 | File | `/addcustcom.php` | High
+6 | File | `/addstock.php` | High
+7 | File | `/add_new_supplier.php` | High
+8 | File | `/Adm/OperatorStop` | High
+9 | File | `/admin` | Low
+10 | File | `/admin-api/infra/file/upload` | High
+11 | File | `/admin-cp/file-manager/upload` | High
+12 | File | `/admin-cp/menus` | High
+13 | File | `/admin-cp/plugin/install` | High
+14 | File | `/admin-page.php` | High
+15 | File | `/admin.php` | Medium
+16 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+17 | File | `/admin.php?id=inbox` | High
+18 | File | `/admin/?page=categories/view_category` | High
+19 | File | `/admin/?page=maintenance/brand` | High
+20 | File | `/admin/?page=return/view_return` | High
+21 | File | `/admin/?page=user` | High
+22 | File | `/admin/?page=user/manage_user&id=3` | High
+23 | File | `/admin/action/delete-vaccine.php` | High
+24 | File | `/admin/add-category.php` | High
+25 | File | `/admin/add-directory.php` | High
+26 | File | `/admin/add-scdetails.php` | High
+27 | File | `/admin/addadvertisement.php` | High
+28 | File | `/Admin/additems.php` | High
+29 | File | `/admin/add_cars.php` | High
+30 | File | `/admin/add_category.php` | High
+31 | File | `/admin/add_teacher.php` | High
+32 | File | `/admin/add_topic.php?category=BBS` | High
+33 | File | `/admin/admin-profile.php` | High
+34 | File | `/admin/admin.php` | High
+35 | File | `/admin/adminprofile.php` | High
+36 | File | `/admin/admin_content_tag.php?action=save_content` | High
+37 | File | `/admin/admin_feature.php` | High
+38 | File | `/admin/admin_football.php` | High
+39 | File | `/admin/admin_index.php` | High
+40 | File | `/admin/admin_login_process.php` | High
+41 | File | `/admin/admin_user.php` | High
+42 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+43 | File | `/admin/ajax.php?action=save_student` | High
+44 | File | `/admin/app/role_crud.php` | High
+45 | File | `/admin/approve_user.php` | High
+46 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+47 | File | `/admin/between-dates-application-report.php` | High
+48 | File | `/admin/bill.php` | High
+49 | File | `/admin/book-details.php` | High
+50 | File | `/admin/calendar_of_events.php` | High
+51 | File | `/admin/carousels/save` | High
+52 | File | `/admin/categories/manage_category.php` | High
+53 | File | `/admin/categories/update` | High
+54 | File | `/admin/category_update.php` | High
+55 | File | `/admin/change-emailid.php` | High
+56 | File | `/admin/change-image.php` | High
+57 | File | `/admin/changeimage.php` | High
+58 | File | `/Admin/changepassword.php` | High
+59 | File | `/admin/clients/` | High
+60 | File | `/admin/clientview.php` | High
+61 | File | `/admin/client_user` | High
+62 | File | `/admin/config_save.php` | High
+63 | File | `/admin/contacts/organizations/edit/2` | High
+64 | File | `/admin/controller/delete_group_student.php` | High
+65 | File | `/admin/deletedoctorclinic.php` | High
+66 | File | `/admin/edit-admin.php` | High
+67 | File | `/admin/edit-brand.php` | High
+68 | File | `/admin/edit-category-detail.php` | High
+69 | File | `/admin/edit-category.php` | High
+70 | File | `/admin/edit-class.php` | High
+71 | File | `/admin/edit-class.php?cid=1` | High
+72 | File | `/admin/edit-person-detail.php?editid=2` | High
+73 | File | `/admin/edit-products.php` | High
+74 | File | `/admin/edit-services.php` | High
+75 | File | `/admin/edit-subadmin.php` | High
+76 | File | `/admin/edit-subcategory.php` | High
+77 | File | `/admin/edit-teacher-info.php` | High
+78 | File | `/admin/edit-team.php` | High
+79 | File | `/admin/edit_room.php` | High
+80 | File | `/admin/edit_teacher.php` | High
+81 | File | `/admin/expense_report.php` | High
+82 | File | `/admin/finished.php` | High
+83 | File | `/admin/forgot-password.php` | High
+84 | File | `/admin/home.php?con=add` | High
+85 | File | `/admin/includes/edit_post.php` | High
+86 | File | `/admin/index.php` | High
+87 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+88 | File | `/admin/insert-product.php` | High
+89 | File | `/admin/lastthirtyays-reg-users.php` | High
+90 | File | `/admin/list_addr_fwresource_ip.php` | High
+91 | File | `/admin/login.php` | High
+92 | File | `/admin/login_process.php` | High
+93 | File | `/admin/manage-users.php` | High
+94 | File | `/admin/model/addOrUpdate` | High
+95 | File | `/admin/network/diag_iperf` | High
+96 | File | `/admin/newsletterdel.php` | High
+97 | File | `/admin/password-recovery.php` | High
+98 | File | `/admin/positions.php` | High
+99 | File | `/admin/print1.php` | High
+100 | File | `/admin/profile.php` | High
+101 | File | `/admin/receipt.php` | High
+102 | File | `/admin/registration.php` | High
+103 | File | `/admin/reports.php` | High
+104 | File | `/admin/save_student.php` | High
+105 | File | `/admin/search-autoortaxi.php` | High
+106 | File | `/admin/search-maid.php` | High
+107 | File | `/admin/search.php` | High
+108 | File | `/admin/semester.php` | High
+109 | File | `/admin/students/manage_academic.php` | High
+110 | File | `/admin/suppliercontroller.php` | High
+111 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
+112 | File | `/admin/tag/save` | High
+113 | File | `/admin/templets_one_edit.php` | High
+114 | File | `/admin/test_status.php` | High
+115 | File | `/admin/transactions/track_shipment.php` | High
+116 | File | `/admin/update_user.php` | High
+117 | File | `/admin/uploads/` | High
+118 | File | `/admin/users.php` | High
+119 | File | `/admin/user_update.php` | High
+120 | File | `/admin/view-member-report.php` | High
+121 | File | `/admin/view-outgoingvehicle-detail.php` | High
+122 | File | `/admin/view-progress-report.php` | High
+123 | File | `/adminFile/upload` | High
+124 | File | `/administrator/bidlist.php` | High
+125 | File | `/adminPage/conf/reload` | High
+126 | File | `/admin_class.php` | High
+127 | File | `/admin_type.php` | High
+128 | File | `/adposition/queryAll` | High
+129 | File | `/advancesearch.php` | High
+130 | File | `/agent/profile/edit` | High
+131 | File | `/ajax.php?action=delete_employee_attendance_single` | High
+132 | File | `/ajax.php?action=delete_package` | High
+133 | File | `/ajax.php?action=delete_sales` | High
+134 | File | `/ajax.php?action=delete_user` | High
+135 | File | `/ajax.php?action=login` | High
+136 | File | `/ajax.php?action=save_employee_attendance` | High
+137 | File | `/ajax_city.php` | High
+138 | File | `/alunos/search_autocomplete` | High
+139 | File | `/api.php` | Medium
+140 | File | `/api/admin/template/config` | High
+141 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+142 | File | `/api/deploy/upload` | High
+143 | File | `/api/deploy/upload /api/database/upload` | High
+144 | File | `/api/dept/build` | High
+145 | File | `/Api/FileUploadApi.ashx` | High
+146 | File | `/api/job/add/` | High
+147 | File | `/api/login/auth` | High
+148 | File | `/api/upload/image` | High
+149 | ... | ... | ...
 
-There are 827 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -450,6 +511,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/blob/master/lazarus/WithSecure-Lazarus-No-Pineapple-Threat-Intelligence-Report-2023.pdf
 * https://github.com/blackorbird/APT_REPORT/tree/master/lazarus
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Lazarus_APT37/HvS_APT37_2020_Command_and_Control.csv
+* https://hunt.io/blog/dprk-lazarus-kimsuky-infrastructure-uncovered
 * https://intezer.com/blog/research/blockbusted-lazarus-blockbuster-north-korea/
 * https://labs.f-secure.com/assets/BlogFiles/f-secureLABS-tlp-white-lazarus-threat-intel-report2.pdf
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf
@@ -483,6 +545,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.validin.com/blog/hunting-lazarus-dns-history-host-responses/
 * https://www.welivesecurity.com/2022/09/30/amazon-themed-campaigns-lazarus-netherlands-belgium/
 * https://www.welivesecurity.com/2023/04/20/linux-malware-strengthens-links-lazarus-3cx-supply-chain-attack/
+* https://www.welivesecurity.com/en/eset-research/gotta-fly-lazarus-targets-uav-sector/
 * https://www.welivesecurity.com/en/eset-research/lazarus-luring-employees-trojanized-coding-challenges-case-spanish-aerospace-company/
 * https://www.zscaler.com/blogs/security-research/naver-ending-game-lazarus-apt
 
@@ -495,4 +558,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

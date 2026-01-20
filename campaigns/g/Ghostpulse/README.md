@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -61,32 +61,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
 2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/search-pass.php` | High
-4 | File | `/admin/view-request.php` | High
-5 | File | `/api/v1/admin/` | High
-6 | File | `/api/wizard/getCapabilityWeb` | High
-7 | File | `/api/wizard/setsyncpppoecfg` | High
-8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-11 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-12 | File | `/edit_xpatient.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
-15 | File | `/goform/MtuSetMacWan` | High
-16 | File | `/historyList` | Medium
-17 | File | `/hotel.php` | Medium
-18 | File | `/htdocs/soap.cgi` | High
-19 | File | `/index.php` | Medium
-20 | File | `/manage-notes.php` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/modules/projects/summary.inc.php` | High
-23 | File | `/multi-vendor-shopping-script/product-list.php` | High
-24 | File | `/oauth/idp/.well-known/openid-configuration` | High
-25 | File | `/pages/product_update.php` | High
-26 | ... | ... | ...
+3 | File | `/admin/delete_user.php` | High
+4 | File | `/admin/search-pass.php` | High
+5 | File | `/admin/view-request.php` | High
+6 | File | `/admin_members.php?ac=editsave` | High
+7 | File | `/api/v1/admin/` | High
+8 | File | `/api/wizard/getCapabilityWeb` | High
+9 | File | `/api/wizard/setsyncpppoecfg` | High
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
+13 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+14 | File | `/edit_xpatient.php` | High
+15 | File | `/exportacao-para-o-seb` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+18 | File | `/goform/goform_get_cmd_process` | High
+19 | File | `/goform/MtuSetMacWan` | High
+20 | File | `/historyList` | Medium
+21 | File | `/hotel.php` | Medium
+22 | File | `/htdocs/soap.cgi` | High
+23 | File | `/index.php` | Medium
+24 | File | `/manage-notes.php` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/modules/projects/summary.inc.php` | High
+27 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

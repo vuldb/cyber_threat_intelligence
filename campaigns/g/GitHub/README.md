@@ -17,6 +17,7 @@ These _actors_ are associated with GitHub or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Water Curse](https://vuldb.com/?actor.water_curse) | High
+2 | [GhostAction](https://vuldb.com/?actor.ghostaction) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,7 +26,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.112.123.224](https://vuldb.com/?ip.45.112.123.224) | - | [Water Curse](https://vuldb.com/?actor.water_curse) | High
-2 | [149.154.167.220](https://vuldb.com/?ip.149.154.167.220) | - | [Water Curse](https://vuldb.com/?actor.water_curse) | High
+2 | [45.139.104.115](https://vuldb.com/?ip.45.139.104.115) | - | [GhostAction](https://vuldb.com/?actor.ghostaction) | High
+3 | [149.154.167.220](https://vuldb.com/?ip.149.154.167.220) | - | [Water Curse](https://vuldb.com/?actor.water_curse) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,6 +69,7 @@ There are 109 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.gitguardian.com/ghostaction-campaign-3-325-secrets-stolen/
 * https://www.trendmicro.com/en_us/research/25/f/water-curse.html
 
 ## Literature
@@ -78,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -52,37 +52,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_classes.php` | High
-2 | File | `/admin/config_ISCGroupNoCache.php` | High
-3 | File | `/admin/list_ipAddressPolicy.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/main/mod-blog` | High
-6 | File | `/admin/order.php` | High
-7 | File | `/admin/reg.php` | High
-8 | File | `/admin/user-search.php` | High
-9 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-10 | File | `/ajax.php` | Medium
-11 | File | `/backend/register.php` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/classes/Master.php?f=load_registration` | High
-14 | File | `/course.php` | Medium
-15 | File | `/edit-subject.php` | High
-16 | File | `/endpoint/add-bookmark.php` | High
-17 | File | `/endpoint/delete-faq.php` | High
-18 | File | `/foms/routers/place-order.php` | High
-19 | File | `/front/admin/tenancyDetail.php` | High
-20 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-21 | File | `/guestmanagement/front.php` | High
-22 | File | `/mail.php` | Medium
-23 | File | `/manage/delete_query.php` | High
-24 | File | `/marks.php` | Medium
-25 | File | `/mcategory.php` | High
-26 | File | `/mib.db` | Low
-27 | File | `/model/viewProduct.php` | High
-28 | File | `/offersmail.php` | High
-29 | File | `/pages/animals.php` | High
+2 | File | `/admin/auth/roles` | High
+3 | File | `/admin/config_ISCGroupNoCache.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/main/mod-blog` | High
+7 | File | `/admin/order.php` | High
+8 | File | `/admin/reg.php` | High
+9 | File | `/admin/user-search.php` | High
+10 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+11 | File | `/ajax.php` | Medium
+12 | File | `/backend/register.php` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/classes/Master.php?f=load_registration` | High
+15 | File | `/course.php` | Medium
+16 | File | `/edit-subject.php` | High
+17 | File | `/endpoint/add-bookmark.php` | High
+18 | File | `/endpoint/delete-faq.php` | High
+19 | File | `/foms/routers/place-order.php` | High
+20 | File | `/front/admin/tenancyDetail.php` | High
+21 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+22 | File | `/guestmanagement/front.php` | High
+23 | File | `/mail.php` | Medium
+24 | File | `/manage/delete_query.php` | High
+25 | File | `/marks.php` | Medium
+26 | File | `/mcategory.php` | High
+27 | File | `/mib.db` | Low
+28 | File | `/model/viewProduct.php` | High
+29 | File | `/offersmail.php` | High
 30 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +104,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

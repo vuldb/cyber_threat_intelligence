@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Asia Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25124,13 +25124,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -25138,67 +25136,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/%61dmin/api/logs` | High
-2 | File | `/action/upload_file` | High
-3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-4 | File | `/adaddmed.php` | High
-5 | File | `/add-phlebotomist.php` | High
-6 | File | `/adduser-exec.php` | High
-7 | File | `/add_achievement_details.php` | High
-8 | File | `/admin#permissions` | High
-9 | File | `/admin#themes` | High
-10 | File | `/admin-cp/plugin/install` | High
-11 | File | `/admin/?page=system_info` | High
-12 | File | `/admin/aboutPost.php` | High
-13 | File | `/admin/add-boat.php` | High
-14 | File | `/admin/add-services.php` | High
-15 | File | `/admin/adddoctorclinic.php` | High
-16 | File | `/admin/addmanagerclinic.php` | High
-17 | File | `/admin/ad_list.php?action=pass` | High
-18 | File | `/admin/approve_user.php` | High
-19 | File | `/admin/candidates_add.php` | High
-20 | File | `/admin/change-emailid.php` | High
-21 | File | `/admin/check_admin_login.php` | High
-22 | File | `/admin/completed-requests.php` | High
-23 | File | `/admin/disapprove_user.php` | High
-24 | File | `/admin/edituser.php` | High
-25 | File | `/admin/edit_admin_query.php` | High
-26 | File | `/Admin/match.php` | High
-27 | File | `/admin/network/wifi_schedule` | High
-28 | File | `/admin/operations/currency.php` | High
-29 | File | `/admin/operations/tax.php` | High
-30 | File | `/admin/operations/travellers.php` | High
-31 | File | `/admin/page-login.php` | High
-32 | File | `/admin/password-recovery.php` | High
-33 | File | `/admin/profile.php` | High
-34 | File | `/admin/search-invoices.php` | High
-35 | File | `/admin/search-maid.php` | High
-36 | File | `/admin/search.php` | High
-37 | File | `/admin/sms_setting.php` | High
-38 | File | `/admin/tag.php` | High
-39 | File | `/admin/testimonials/manage.php` | High
-40 | File | `/admin/updateabout.php` | High
-41 | File | `/admin/view-normal-ticket.php` | High
-42 | File | `/ajax.php?action=save_member` | High
-43 | File | `/ajax.php?action=save_plan` | High
-44 | File | `/api/authentication/login` | High
-45 | File | `/api/role` | Medium
-46 | File | `/Applications/Steal/main.cpp` | High
-47 | File | `/appy.cgi` | Medium
-48 | File | `/auth/info` | Medium
-49 | File | `/bank/transfer.php` | High
-50 | File | `/blog/comment` | High
-51 | File | `/boa/formWSC` | Medium
-52 | File | `/boafrm/formDMZ` | High
-53 | File | `/boafrm/formFilter` | High
-54 | File | `/boafrm/formOneKeyAccessButton` | High
-55 | File | `/boafrm/formSiteSurveyProfile` | High
-56 | File | `/boafrm/formStaticDHCP` | High
-57 | File | `/boafrm/formTmultiAP` | High
-58 | File | `/boafrm/formWsc` | High
-59 | ... | ... | ...
+1 | File | `/admin/?page=state` | High
+2 | File | `/admin/?page=system_info` | High
+3 | File | `/admin/delete_student.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/login_query.php` | High
+6 | File | `/admin/save_student.php` | High
+7 | File | `/admin_delete.php` | High
+8 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

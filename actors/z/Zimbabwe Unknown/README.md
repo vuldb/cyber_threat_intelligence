@@ -112,42 +112,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/forgotpassword` | High
 2 | File | `/addbill.php` | Medium
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_action.php` | High
-6 | File | `/Admin/edit_profile.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/manage-pages.php` | High
-9 | File | `/admin/sales/manage_sale.php` | High
-10 | File | `/advanced-tools/nova/bin/netwatch` | High
-11 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-12 | File | `/apilog.php` | Medium
-13 | File | `/auth_pic.cgi` | High
-14 | File | `/cancelbookingpatient.php` | High
-15 | File | `/category.php` | High
-16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-17 | File | `/cgi-bin/api-get_line_status` | High
-18 | File | `/cgi-bin/luci` | High
-19 | File | `/cgi-bin/myMusic.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/changeimage1.php` | High
-22 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-23 | File | `/Code/loginnew.php` | High
-24 | File | `/Code/sc_login.php` | High
-25 | File | `/conf/app.conf` | High
-26 | File | `/control/register_case.php` | High
-27 | File | `/dashboard/admin/edit_member.php` | High
-28 | File | `/dashboard/admin/edit_mem_submit.php` | High
-29 | File | `/dashboard/admin/new_submit.php` | High
-30 | File | `/dashboard/message` | High
-31 | File | `/details.php` | Medium
-32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/DXR.axd` | Medium
-35 | File | `/expadd.php` | Medium
-36 | ... | ... | ...
+3 | File | `/admin` | Low
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/class.php` | High
+6 | File | `/admin/create_product.php` | High
+7 | File | `/admin/edit_action.php` | High
+8 | File | `/Admin/edit_profile.php` | High
+9 | File | `/admin/edit_user.php` | High
+10 | File | `/Admin/facilitator.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/manage-pages.php` | High
+13 | File | `/admin/reservation.php` | High
+14 | File | `/admin/sales/manage_sale.php` | High
+15 | File | `/Admin/sports.php` | High
+16 | File | `/admin/view-appointment.php` | High
+17 | File | `/advanced-tools/nova/bin/netwatch` | High
+18 | File | `/ajax.php?action=save_ticket` | High
+19 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+20 | File | `/apilog.php` | Medium
+21 | File | `/auth_pic.cgi` | High
+22 | File | `/cancelbookingpatient.php` | High
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+25 | File | `/cgi-bin/api-get_line_status` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/luci` | High
+28 | File | `/cgi-bin/myMusic.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/changeimage1.php` | High
+31 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+32 | File | `/Code/loginnew.php` | High
+33 | File | `/Code/sc_login.php` | High
+34 | File | `/com/esafenet/servlet/document/CDGAuthoriseTempletService.java` | High
+35 | File | `/complete_task.php` | High
+36 | File | `/conf/app.conf` | High
+37 | File | `/control/register_case.php` | High
+38 | File | `/dashboard/admin/edit_member.php` | High
+39 | File | `/dashboard/admin/edit_mem_submit.php` | High
+40 | File | `/dashboard/admin/new_submit.php` | High
+41 | File | `/dashboard/message` | High
+42 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,4 +172,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

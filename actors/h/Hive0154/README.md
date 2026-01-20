@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ID](https://vuldb.com/?country.id)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +29,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [118.174.183.89](https://vuldb.com/?ip.118.174.183.89) | - | Yokai | High
-2 | [123.253.34.44](https://vuldb.com/?ip.123.253.34.44) | - | Toneshell | High
-3 | [146.70.29.229](https://vuldb.com/?ip.146.70.29.229) | - | Toneshell | High
+1 | [45.136.254.193](https://vuldb.com/?ip.45.136.254.193) | - | - | High
+2 | [118.174.183.89](https://vuldb.com/?ip.118.174.183.89) | - | Yokai | High
+3 | [123.253.34.44](https://vuldb.com/?ip.123.253.34.44) | - | Toneshell | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,16 +59,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 3 | File | `/ddos.asp` | Medium
 4 | File | `/fax/fax_send.php` | High
-5 | File | `/spip.php` | Medium
-6 | File | `/tinyfilemanager.php` | High
-7 | ... | ... | ...
+5 | File | `/forum/away.php` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/tinyfilemanager.php` | High
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://exchange.xforce.ibmcloud.com/report/details/guid:6679d92873554eb28b3c47464cc0346b
 * https://www.ibm.com/think/x-force/hive0154-drops-updated-toneshell-backdoor
 
 ## Literature
@@ -80,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

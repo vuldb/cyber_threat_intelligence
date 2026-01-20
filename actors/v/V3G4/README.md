@@ -4,13 +4,20 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.v3g4](https://vuldb.com/?actor.v3g4)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with V3G4:
+
+* Industrial Routers
+* Mirai
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with V3G4:
 
 * [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -21,9 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [104.244.72.64](https://vuldb.com/?ip.104.244.72.64) | winging.co.uk | - | High
-2 | [176.123.9.238](https://vuldb.com/?ip.176.123.9.238) | - | - | High
-3 | [198.98.49.79](https://vuldb.com/?ip.198.98.49.79) | - | - | High
+1 | [64.225.49.218](https://vuldb.com/?ip.64.225.49.218) | - | Industrial Routers | High
+2 | [103.149.93.224](https://vuldb.com/?ip.103.149.93.224) | - | Mirai | High
+3 | [104.244.72.64](https://vuldb.com/?ip.104.244.72.64) | winging.co.uk | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -63,50 +73,58 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/between-date-complaintreport.php` | High
 15 | File | `/admin/class.php?dowhat=modifyclass` | High
 16 | File | `/admin/comn/service/update.json` | High
-17 | File | `/admin/create-package.php` | High
-18 | File | `/admin/delete_pending.php` | High
-19 | File | `/admin/doctor-specilization.php` | High
-20 | File | `/admin/edit-boat.php` | High
-21 | File | `/admin/edit-category.php` | High
-22 | File | `/admin/edit-subadmin.php` | High
-23 | File | `/admin/edit_product.php` | High
-24 | File | `/admin/index.php` | High
-25 | File | `/admin/login.php` | High
-26 | File | `/admin/mod_room/controller.php?action=add` | High
-27 | File | `/admin/page-login.php` | High
-28 | File | `/admin/registration.php` | High
-29 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-30 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-31 | File | `/admin/template/edit` | High
-32 | File | `/admin/transactions/update_status.php` | High
-33 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-34 | File | `/administrator/components/menu/` | High
-35 | File | `/api/deploy/upload` | High
-36 | File | `/api/deploy/upload /api/database/upload` | High
-37 | File | `/assets/php/upload.php` | High
-38 | File | `/auparse/auparse.c` | High
-39 | File | `/auth/delete_project/` | High
-40 | File | `/back/index.php/user/User/?1` | High
-41 | File | `/backups/` | Medium
-42 | File | `/boafrm/formWlwds` | High
-43 | File | `/cancelbookingpatient.php` | High
-44 | File | `/cgi-bin/cstecgi.cgi` | High
-45 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-46 | File | `/cgi-bin/logs.ha` | High
-47 | File | `/cgi-bin/s3.cgi` | High
-48 | File | `/claire_blake` | High
-49 | File | `/classes/Master.php?f=delete_service` | High
-50 | File | `/classes/SystemSettings.php?f=update_settings` | High
-51 | File | `/CMSInstall/install.aspx` | High
-52 | ... | ... | ...
+17 | File | `/admin/controller/faculty_controller.php` | High
+18 | File | `/admin/create-package.php` | High
+19 | File | `/admin/delete_pending.php` | High
+20 | File | `/admin/doctor-specilization.php` | High
+21 | File | `/admin/edit-boat.php` | High
+22 | File | `/admin/edit-category.php` | High
+23 | File | `/admin/edit-subadmin.php` | High
+24 | File | `/admin/edit_product.php` | High
+25 | File | `/admin/index.php` | High
+26 | File | `/admin/login.php` | High
+27 | File | `/admin/model/addOrUpdate` | High
+28 | File | `/admin/mod_room/controller.php?action=add` | High
+29 | File | `/admin/page-login.php` | High
+30 | File | `/admin/profile.php` | High
+31 | File | `/admin/registration.php` | High
+32 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+33 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+34 | File | `/admin/template/edit` | High
+35 | File | `/admin/transactions/update_status.php` | High
+36 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+37 | File | `/administrator/components/menu/` | High
+38 | File | `/ajax.php?action=login` | High
+39 | File | `/alphaware/summary.php` | High
+40 | File | `/api/controllers/merchant/app/ComboController.php` | High
+41 | File | `/api/deploy/upload` | High
+42 | File | `/api/deploy/upload /api/database/upload` | High
+43 | File | `/api/employees` | High
+44 | File | `/application/user/controller/Index.php` | High
+45 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+46 | File | `/assets/php/upload.php` | High
+47 | File | `/auparse/auparse.c` | High
+48 | File | `/auth/delete_project/` | High
+49 | File | `/back/index.php/user/User/?1` | High
+50 | File | `/boafrm/formFilter` | High
+51 | File | `/boafrm/formWlwds` | High
+52 | File | `/boafrm/formWsc` | High
+53 | File | `/cancelbookingpatient.php` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+56 | File | `/cgi-bin/logs.ha` | High
+57 | File | `/cgi-bin/s3.cgi` | High
+58 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cyble.com/blog/v3g4-mirai-botnet-evolves/
 * https://unit42.paloaltonetworks.com/mirai-variant-v3g4/
+* https://www.forescout.com/blog/ot-network-security-threats-industrial-routers-under-attack/
 
 ## Literature
 
@@ -117,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

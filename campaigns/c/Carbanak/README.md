@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -81,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,23 +90,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/add-propertytype.php` | High
-3 | File | `/admin/order.php` | High
-4 | File | `/adminPage/conf/saveCmd` | High
-5 | File | `/car.php` | Medium
-6 | File | `/category.php` | High
-7 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-8 | File | `/core/admin/categories.php` | High
-9 | File | `/dashboard/admin/edit_member.php` | High
-10 | File | `/expedit.php` | Medium
-11 | File | `/goform/set_ntp` | High
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/multi-vendor-shopping-script/product-list.php` | High
-14 | File | `/psrs/admin/fields/manage_field.php` | High
-15 | File | `/reservation.php` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin/add-propertytype.php` | High
+4 | File | `/admin/order.php` | High
+5 | File | `/adminPage/conf/saveCmd` | High
+6 | File | `/book_search.php` | High
+7 | File | `/car.php` | Medium
+8 | File | `/category.php` | High
+9 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+10 | File | `/core/admin/categories.php` | High
+11 | File | `/dashboard/admin/edit_member.php` | High
+12 | File | `/expedit.php` | Medium
+13 | File | `/goform/set_ntp` | High
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/multi-vendor-shopping-script/product-list.php` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

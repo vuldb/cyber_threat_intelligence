@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,20 +58,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/massage.php` | High
 2 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/delete_members.php` | High
-7 | File | `/file` | Low
-8 | File | `/php/manage_customer.php?action=search` | High
-9 | File | `/php/ping.php` | High
-10 | File | `/print_patients_visits.php` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/scripts/unlock_tasks.php` | High
-13 | File | `/SysInfo1.htm` | High
-14 | ... | ... | ...
+3 | File | `/administrator/addcategory.php` | High
+4 | File | `/api/admin/update_account/` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/config/pw_changeusers.html` | High
+9 | File | `/delete_members.php` | High
+10 | File | `/dev-api/common/upload` | High
+11 | File | `/file` | Low
+12 | File | `/php/manage_customer.php?action=search` | High
+13 | File | `/php/ping.php` | High
+14 | File | `/print_patients_visits.php` | High
+15 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

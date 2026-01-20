@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 41 more country items available. Please use our online service to access the data.
+There are 40 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -128,11 +128,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 3 | File | `/admin/?page=products/view_product` | High
 4 | File | `/admin/add-admin.php` | High
-5 | File | `/admin/add_trainers.php` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/ajax.php?action=save_uploads` | High
-8 | File | `/admin/app/role_crud.php` | High
-9 | File | `/admin/auto-taxi-entry-detail.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax.php?action=save_uploads` | High
+7 | File | `/admin/app/role_crud.php` | High
+8 | File | `/admin/auto-taxi-entry-detail.php` | High
+9 | File | `/admin/booking_report.php` | High
 10 | File | `/admin/candidates_add.php` | High
 11 | File | `/admin/check_availability.php` | High
 12 | File | `/admin/class.php` | High
@@ -151,34 +151,37 @@ ID | Type | Indicator | Confidence
 25 | File | `/admin/manage-pages.php` | High
 26 | File | `/admin/manage_model.php` | High
 27 | File | `/admin/products/view_product.php` | High
-28 | File | `/admin/settings/index.php?page=accounts` | High
-29 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-30 | File | `/advanced-tools/nova/bin/netwatch` | High
-31 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
-32 | File | `/api/configs` | Medium
-33 | File | `/api/Image/WithPath` | High
-34 | File | `/api/resources` | High
-35 | File | `/api/sys/set_passwd` | High
-36 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-37 | File | `/api/wizard/getNetworkStatus` | High
-38 | File | `/apilog.php` | Medium
-39 | File | `/appy.cgi` | Medium
-40 | File | `/auth_pic.cgi` | High
-41 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-42 | File | `/bin/httpd` | Medium
-43 | File | `/boafrm/formPortFw` | High
-44 | File | `/cancelbookingpatient.php` | High
-45 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-46 | File | `/cgi-bin/api-get_line_status` | High
-47 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-48 | File | `/cgi-bin/myMusic.cgi` | High
-49 | File | `/cgi-bin/nas_sharing.cgi` | High
-50 | File | `/change_pass/forgot_password_sql.php` | High
-51 | File | `/classes/Master.php` | High
-52 | File | `/classes/Master.php?f=delete_category` | High
-53 | ... | ... | ...
+28 | File | `/admin/reservation.php` | High
+29 | File | `/admin/search.php` | High
+30 | File | `/admin/settings/index.php?page=accounts` | High
+31 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+32 | File | `/advanced-tools/nova/bin/netwatch` | High
+33 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+34 | File | `/ajax.php?action=save_ticket` | High
+35 | File | `/api/configs` | Medium
+36 | File | `/api/Image/WithPath` | High
+37 | File | `/api/resources` | High
+38 | File | `/api/sys/set_passwd` | High
+39 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+40 | File | `/api/wizard/getNetworkStatus` | High
+41 | File | `/apilog.php` | Medium
+42 | File | `/appy.cgi` | Medium
+43 | File | `/auth_pic.cgi` | High
+44 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+45 | File | `/bin/httpd` | Medium
+46 | File | `/boafrm/formPortFw` | High
+47 | File | `/cancelbookingpatient.php` | High
+48 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+49 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+50 | File | `/cgi-bin/myMusic.cgi` | High
+51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+52 | File | `/change_pass/forgot_password_sql.php` | High
+53 | File | `/classes/Master.php?f=delete_category` | High
+54 | File | `/classes/Master.php?f=delete_product` | High
+55 | File | `/classes/SystemSettings.php?f=update_settings` | High
+56 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

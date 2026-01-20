@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -32,7 +32,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [2.147.68.96](https://vuldb.com/?ip.2.147.68.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 2 | [45.135.232.229](https://vuldb.com/?ip.45.135.232.229) | - | [DragonForce](https://vuldb.com/?actor.dragonforce) | High
-3 | [69.4.234.20](https://vuldb.com/?ip.69.4.234.20) | agentone.co.za | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [46.29.238.160](https://vuldb.com/?ip.46.29.238.160) | 53918.ip-ptr.tech | [DragonForce](https://vuldb.com/?actor.dragonforce) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,24 +56,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/userScore_deal.php?mudi=del` | High
-2 | File | `/ajax/get_patient_history.php` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/nightled.cgi` | High
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/Interface/DevManage/VM.php` | High
-7 | File | `/js/player/dmplayer/dmku/index.php?ac=edit` | High
-8 | File | `/logger/logged_topics.cpp` | High
-9 | File | `/manage_user.php` | High
-10 | File | `/php-opos/index.php` | High
-11 | ... | ... | ...
+1 | File | `/academic-calendar` | High
+2 | File | `/admin/all-request.php` | High
+3 | File | `/admin/changepassword.php` | High
+4 | File | `/Admin/InsertCategory.php` | High
+5 | File | `/admin/process_login.php` | High
+6 | File | `/admin/userScore_deal.php?mudi=del` | High
+7 | File | `/ajax/get_patient_history.php` | High
+8 | File | `/app/admin/controller/Upload.php` | High
+9 | File | `/boafrm/formVpnConfigSetup` | High
+10 | File | `/bwdates-reports-details.php?vid=2` | High
+11 | File | `/carManager/carUseDetailList.j%73p` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/nightled.cgi` | High
+14 | File | `/cgi-bin/webproc` | High
+15 | File | `/docarray/data/torch_dataset.py` | High
+16 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://github.com/TheRavenFile/Daily-Hunt/blob/main/DragonForce%20Ransomware
 * https://www.darktrace.com/blog/tracking-a-dragon-investigating-a-dragonforce-affiliated-ransomware-attack-with-darktrace
 * https://www.resecurity.com/blog/article/dragonforce-ransomware-reverse-engineering-report
 
@@ -83,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

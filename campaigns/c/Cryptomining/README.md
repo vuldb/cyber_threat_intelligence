@@ -65,33 +65,35 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/publishnews.php` | High
 6 | File | `/admin/run_ajax.php` | High
 7 | File | `/admin/suppliers/view_details.php` | High
-8 | File | `/admin/voters_row.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/authentication/login` | High
-11 | File | `/api/discoveries/` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v2/open/rowsInfo` | High
-15 | File | `/api /v3/auth` | High
-16 | File | `/app/sys1.php` | High
-17 | File | `/boafrm/formWdsEncrypt` | High
-18 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-19 | File | `/cas/logout` | Medium
-20 | File | `/catalog/all-products` | High
-21 | File | `/cgi-bin/adm.cgi` | High
-22 | File | `/cgi-bin/editBookmark` | High
-23 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/nightled.cgi` | High
-26 | File | `/cgi-bin/touchlist_sync.cgi` | High
-27 | File | `/cgi-bin/vitogate.cgi` | High
-28 | File | `/collect/PortV4/downLoad.html` | High
-29 | File | `/data/edit_type.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-32 | ... | ... | ...
+8 | File | `/admin/updateorder.php` | High
+9 | File | `/admin/voters_row.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/authentication/login` | High
+12 | File | `/api/discoveries/` | High
+13 | File | `/api/log/killJob` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/open/rowsInfo` | High
+17 | File | `/api /v3/auth` | High
+18 | File | `/app/sys1.php` | High
+19 | File | `/boafrm/formWdsEncrypt` | High
+20 | File | `/branch.php` | Medium
+21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+22 | File | `/cas/logout` | Medium
+23 | File | `/catalog/all-products` | High
+24 | File | `/cgi-bin/adm.cgi` | High
+25 | File | `/cgi-bin/editBookmark` | High
+26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/cgi-bin/nightled.cgi` | High
+29 | File | `/cgi-bin/touchlist_sync.cgi` | High
+30 | File | `/cgi-bin/vitogate.cgi` | High
+31 | File | `/cms/collect/getArticle` | High
+32 | File | `/collect/PortV4/downLoad.html` | High
+33 | File | `/data/edit_type.php` | High
+34 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

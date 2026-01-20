@@ -57,15 +57,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 2 | File | `/backend/admin/his_admin_register_patient.php` | High
-3 | File | `/mfsNotice/page` | High
-4 | File | `/spgpm/updateListing` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `add_comment.php` | High
-7 | File | `admin\posts\view_post.php` | High
-8 | File | `ajax/include.php` | High
+3 | File | `/hospital/hms/admin/manage-doctors.php` | High
+4 | File | `/mfsNotice/page` | High
+5 | File | `/spgpm/updateListing` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `add_comment.php` | High
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

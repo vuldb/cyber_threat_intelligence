@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,32 +64,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/booking-search.php` | High
 5 | File | `/admin/config_time_sync.php` | High
 6 | File | `/admin/suppliers/view_details.php` | High
-7 | File | `/admin/voters_row.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/authentication/login` | High
-10 | File | `/api/discoveries/` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/app/sys1.php` | High
-16 | File | `/boafrm/formWdsEncrypt` | High
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/cas/logout` | Medium
-19 | File | `/catalog/all-products` | High
-20 | File | `/cgi-bin/adm.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
-24 | File | `/cgi-bin/nightled.cgi` | High
-25 | File | `/cgi-bin/touchlist_sync.cgi` | High
-26 | File | `/cgi-bin/vitogate.cgi` | High
-27 | File | `/change_password_process` | High
-28 | File | `/collect/PortV4/downLoad.html` | High
-29 | File | `/data/edit_type.php` | High
-30 | ... | ... | ...
+7 | File | `/admin/updateorder.php` | High
+8 | File | `/admin/voters_row.php` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/authentication/login` | High
+11 | File | `/api/discoveries/` | High
+12 | File | `/api/log/killJob` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/v2/open/rowsInfo` | High
+16 | File | `/api /v3/auth` | High
+17 | File | `/app/sys1.php` | High
+18 | File | `/boafrm/formWdsEncrypt` | High
+19 | File | `/branch.php` | Medium
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/cas/logout` | Medium
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/adm.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cgi-bin/nightled.cgi` | High
+28 | File | `/cgi-bin/touchlist_sync.cgi` | High
+29 | File | `/cgi-bin/vitogate.cgi` | High
+30 | File | `/change_password_process` | High
+31 | File | `/cms/collect/getArticle` | High
+32 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

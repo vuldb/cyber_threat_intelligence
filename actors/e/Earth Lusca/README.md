@@ -56,7 +56,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -96,45 +97,45 @@ ID | Type | Indicator | Confidence
 28 | File | `/Controller/Ajaxfileupload.ashx` | High
 29 | File | `/dev/random` | Medium
 30 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-31 | File | `/etc/shadow` | Medium
-32 | File | `/fos/admin/ajax.php?action=login` | High
-33 | File | `/goform/RgDdns` | High
-34 | File | `/goform/RgTime` | High
-35 | File | `/goform/rlmswitchr_process` | High
-36 | File | `/goform/SetFirewallCfg` | High
-37 | File | `/goform/set_LimitClient_cfg` | High
-38 | File | `/goform/systemlog?cmd=set` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/home/masterConsole` | High
-41 | File | `/home/sendBroadcast` | High
-42 | File | `/index.php?c=api` | High
-43 | File | `/install/index.php` | High
-44 | File | `/jart/prj3/solve_direct/main.jart` | High
-45 | File | `/loginVaLidation.php` | High
-46 | File | `/one_church/userregister.php` | High
-47 | File | `/pages/processlogin.php` | High
-48 | File | `/preview.php` | Medium
-49 | File | `/search` | Low
-50 | File | `/search.php` | Medium
-51 | File | `/server-status` | High
-52 | File | `/Service/FileHandler.ashx` | High
-53 | File | `/servlet/file` | High
-54 | File | `/sgmi` | Low
-55 | File | `/status` | Low
-56 | File | `/SysInfo.htm` | Medium
-57 | File | `/SysInfo1.htm` | High
-58 | File | `/tmp/jetadmin.log` | High
-59 | File | `/tourism/rate_review.php` | High
-60 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-61 | File | `/userfs/bin/tcapi` | High
-62 | File | `/var/tmp` | Medium
-63 | File | `/wireless/security.asp` | High
-64 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
-65 | File | `/zoo/admin/public_html/view_accounts?type=zookeeper` | High
-66 | File | `?r=dashboard/database/optimize` | High
-67 | File | `?r=dashboard/position/del` | High
-68 | File | `?r=dashboard/user/export&uid=X` | High
-69 | File | `?r=file/dashboard/trash&op=del` | High
+31 | File | `/etc/dropbear_rsa_host_key` | High
+32 | File | `/etc/shadow` | Medium
+33 | File | `/fos/admin/ajax.php?action=login` | High
+34 | File | `/goform/RgDdns` | High
+35 | File | `/goform/RgTime` | High
+36 | File | `/goform/rlmswitchr_process` | High
+37 | File | `/goform/SetFirewallCfg` | High
+38 | File | `/goform/set_LimitClient_cfg` | High
+39 | File | `/goform/systemlog?cmd=set` | High
+40 | File | `/group1/uploa` | High
+41 | File | `/home/masterConsole` | High
+42 | File | `/home/sendBroadcast` | High
+43 | File | `/index.php?c=api` | High
+44 | File | `/install/index.php` | High
+45 | File | `/jart/prj3/solve_direct/main.jart` | High
+46 | File | `/loginVaLidation.php` | High
+47 | File | `/one_church/userregister.php` | High
+48 | File | `/pages/processlogin.php` | High
+49 | File | `/preview.php` | Medium
+50 | File | `/search` | Low
+51 | File | `/search.php` | Medium
+52 | File | `/server-status` | High
+53 | File | `/Service/FileHandler.ashx` | High
+54 | File | `/servlet/file` | High
+55 | File | `/sgmi` | Low
+56 | File | `/status` | Low
+57 | File | `/SysInfo.htm` | Medium
+58 | File | `/SysInfo1.htm` | High
+59 | File | `/tmp/jetadmin.log` | High
+60 | File | `/tourism/rate_review.php` | High
+61 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+62 | File | `/userfs/bin/tcapi` | High
+63 | File | `/var/tmp` | Medium
+64 | File | `/wireless/security.asp` | High
+65 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+66 | File | `/zoo/admin/public_html/view_accounts?type=zookeeper` | High
+67 | File | `?r=dashboard/database/optimize` | High
+68 | File | `?r=dashboard/position/del` | High
+69 | File | `?r=dashboard/user/export&uid=X` | High
 70 | ... | ... | ...
 
 There are 613 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -155,4 +156,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

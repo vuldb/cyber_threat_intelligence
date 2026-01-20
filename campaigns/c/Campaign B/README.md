@@ -65,12 +65,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/action/update-deworm.php` | High
-4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/addroom.php` | High
-6 | File | `/admin/admin-profile.php` | High
+1 | File | `/admin/` | Low
+2 | File | `/admin/action/update-deworm.php` | High
+3 | File | `/admin/add-category.php` | High
+4 | File | `/admin/addroom.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/config/express` | High
 7 | File | `/admin/contactus.php` | High
 8 | File | `/admin/edit.php` | High
 9 | File | `/admin/index.php` | High
@@ -79,34 +79,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/modules/product/controller.php?action=add` | High
 13 | File | `/admin/orders/update_status.php` | High
 14 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-15 | File | `/api/1.0/rest/language_configuration` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/controllers/merchant/app/ComboController.php` | High
-18 | File | `/api/dept/build` | High
-19 | File | `/api/filemanager` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/api/wizard/networkSetup` | High
-22 | File | `/application/index/controller/Screen.php` | High
-23 | File | `/archibus/login.axvw` | High
-24 | File | `/autheditpwd.php` | High
-25 | File | `/billing/home.php` | High
-26 | File | `/cap.js` | Low
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/cgi-bin/system_mgr.cgi` | High
-31 | File | `/cgi-bin/wapopen` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/classes/Users.php?f=delete` | High
-34 | File | `/dede/uploads/dede/friendlink_add.php` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/edit-computer-detail.php` | High
-37 | File | `/edit_dpatient.php` | High
-38 | File | `/endpoint/update-file.php` | High
-39 | File | `/etc/tomcat8/Catalina/attack` | High
-40 | ... | ... | ...
+15 | File | `/admin79f2ec220c7e.php?c=api&m=demo&name=mobile` | High
+16 | File | `/api/1.0/rest/language_configuration` | High
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/api/controllers/merchant/app/ComboController.php` | High
+19 | File | `/api/dept/build` | High
+20 | File | `/api/filemanager` | High
+21 | File | `/api/v2/cli/commands` | High
+22 | File | `/api/wizard/networkSetup` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/archibus/login.axvw` | High
+25 | File | `/autheditpwd.php` | High
+26 | File | `/billing/home.php` | High
+27 | File | `/cap.js` | Low
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/system_mgr.cgi` | High
+32 | File | `/cgi-bin/wapopen` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/classes/Users.php?f=delete` | High
+35 | File | `/customer_register.php` | High
+36 | File | `/dede/uploads/dede/friendlink_add.php` | High
+37 | File | `/DXR.axd` | Medium
+38 | File | `/edit-computer-detail.php` | High
+39 | File | `/edit_dpatient.php` | High
+40 | File | `/edit_profile` | High
+41 | File | `/endpoint/update-file.php` | High
+42 | File | `/filemanager/upload.php` | High
+43 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

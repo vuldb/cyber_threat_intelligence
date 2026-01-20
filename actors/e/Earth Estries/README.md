@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Earth Estries:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Earth Estries:
 
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 * [RU](https://vuldb.com/?country.ru)
-* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,60 +59,64 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/about-us.php` | High
 6 | File | `/admin/aboutus.php` | High
 7 | File | `/admin/action/delete-vaccine.php` | High
-8 | File | `/admin/add-table.php` | High
-9 | File | `/admin/admin_running.php` | High
-10 | File | `/Admin/akun_edit.php` | High
-11 | File | `/admin/apply.php` | High
-12 | File | `/admin/changeimage.php` | High
-13 | File | `/admin/content/editor` | High
-14 | File | `/admin/create-package.php` | High
-15 | File | `/admin/delete_s6.php` | High
-16 | File | `/admin/doAdminAction.php?act=addCate` | High
-17 | File | `/admin/edit-brand.php` | High
-18 | File | `/admin/edit-post.php` | High
-19 | File | `/admin/index2.html` | High
-20 | File | `/Admin/login.php` | High
-21 | File | `/admin/mechanics/manage_mechanic.php` | High
-22 | File | `/admin/modules/room/index.php` | High
-23 | File | `/admin/profile.php` | High
-24 | File | `/Admin/Proses_Edit_Akun.php` | High
-25 | File | `/admin/robot.php` | High
-26 | File | `/admin/search-invoices.php` | High
-27 | File | `/admin/tags/save` | High
-28 | File | `/admin/twitter.php` | High
-29 | File | `/admin/user-bookings.php` | High
-30 | File | `/admin/userprofile.php` | High
-31 | File | `/admin/yesterday-reg-users.php` | High
-32 | File | `/alphaware/summary.php` | High
-33 | File | `/api/baskets/{name}` | High
-34 | File | `/api/settings` | High
-35 | File | `/api/wizard/getCapability` | High
-36 | File | `/app/api/v1/openvpn.py` | High
-37 | File | `/app/controller/Api.php` | High
-38 | File | `/app/index/controller/Common.php` | High
-39 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-40 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-41 | File | `/applications/nexus/modules/front/store/store.php` | High
-42 | File | `/auth.asp` | Medium
-43 | File | `/backend/doc/his_doc_update-account.php` | High
-44 | File | `/bitrix/admin/ldap_server_edit.php` | High
-45 | File | `/biurl_grou` | Medium
-46 | File | `/borrow.php` | Medium
-47 | File | `/browse.php` | Medium
-48 | File | `/cgi-bin/apkg_mgr.cgi` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/nas_sharing.cgi` | High
-51 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-52 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-53 | File | `/classes/Master.php` | High
-54 | File | `/classes/Master.php?f=delete_record` | High
-55 | File | `/classes/Master.php?f=save_category` | High
-56 | File | `/classes/SystemSettings.php?f=update_settings` | High
-57 | File | `/classes/Users.php?f=save` | High
-58 | File | `/College/admin/teacher.php` | High
-59 | ... | ... | ...
+8 | File | `/admin/actions/check-attendance.php` | High
+9 | File | `/admin/add-table.php` | High
+10 | File | `/admin/admin_running.php` | High
+11 | File | `/Admin/akun_edit.php` | High
+12 | File | `/admin/apply.php` | High
+13 | File | `/admin/changeimage.php` | High
+14 | File | `/Admin/changepassword.php` | High
+15 | File | `/admin/content/editor` | High
+16 | File | `/admin/create-package.php` | High
+17 | File | `/admin/delete_s6.php` | High
+18 | File | `/admin/doAdminAction.php?act=addCate` | High
+19 | File | `/admin/edit-brand.php` | High
+20 | File | `/admin/edit-post.php` | High
+21 | File | `/admin/edit_room.php` | High
+22 | File | `/admin/includes/edit_post.php` | High
+23 | File | `/admin/index2.html` | High
+24 | File | `/Admin/login.php` | High
+25 | File | `/admin/mechanics/manage_mechanic.php` | High
+26 | File | `/admin/modules/room/index.php` | High
+27 | File | `/admin/profile.php` | High
+28 | File | `/Admin/Proses_Edit_Akun.php` | High
+29 | File | `/admin/robot.php` | High
+30 | File | `/admin/search-invoices.php` | High
+31 | File | `/admin/tags/save` | High
+32 | File | `/admin/twitter.php` | High
+33 | File | `/admin/user-bookings.php` | High
+34 | File | `/admin/user/index.php?view=edit` | High
+35 | File | `/admin/yesterday-reg-users.php` | High
+36 | File | `/administrator/addcategory.php` | High
+37 | File | `/alphaware/summary.php` | High
+38 | File | `/api/baskets/{name}` | High
+39 | File | `/api/File/downloadFile` | High
+40 | File | `/api/settings` | High
+41 | File | `/api/wizard/getCapability` | High
+42 | File | `/app/api/v1/openvpn.py` | High
+43 | File | `/app/controller/Api.php` | High
+44 | File | `/app/index/controller/Common.php` | High
+45 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+46 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+47 | File | `/applications/nexus/modules/front/store/store.php` | High
+48 | File | `/auth.asp` | Medium
+49 | File | `/backend/doc/his_doc_update-account.php` | High
+50 | File | `/bitrix/admin/ldap_server_edit.php` | High
+51 | File | `/biurl_grou` | Medium
+52 | File | `/borrow.php` | Medium
+53 | File | `/browse.php` | Medium
+54 | File | `/cgi-bin/apkg_mgr.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi` | High
+56 | File | `/cgi-bin/nas_sharing.cgi` | High
+57 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+58 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+59 | File | `/classes/Master.php` | High
+60 | File | `/classes/Master.php?f=delete_record` | High
+61 | File | `/classes/Master.php?f=save_category` | High
+62 | File | `/classes/SystemSettings.php?f=update_settings` | High
+63 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 555 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

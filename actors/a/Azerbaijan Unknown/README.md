@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 45 more country items available. Please use our online service to access the data.
+There are 43 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,10 +97,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,13 +112,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/edit_action.php` | High
 4 | File | `/admin/index2.html` | High
 5 | File | `/admin/manage-pages.php` | High
-6 | File | `/admin/sales/manage_sale.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-9 | File | `/api/upload.php` | High
-10 | File | `/apilog.php` | Medium
-11 | File | `/auth_pic.cgi` | High
-12 | File | `/base/ecma-helpers.c` | High
+6 | File | `/admin/reservation.php` | High
+7 | File | `/admin/sales/manage_sale.php` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/ajax.php?action=save_ticket` | High
+10 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+11 | File | `/apilog.php` | Medium
+12 | File | `/auth_pic.cgi` | High
 13 | File | `/category.php` | High
 14 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 15 | File | `/cgi-bin/api-get_line_status` | High
@@ -137,9 +136,9 @@ ID | Type | Indicator | Confidence
 27 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
 28 | File | `/devinfo` | Medium
 29 | File | `/DXR.axd` | Medium
-30 | File | `/expadd.php` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/` | Medium
+30 | File | `/educar_aluno_lst.php` | High
+31 | File | `/etc_ro/shadow` | High
+32 | File | `/expadd.php` | Medium
 33 | ... | ... | ...
 
 There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -162,4 +161,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [HT](https://vuldb.com/?country.ht)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,7 +90,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,38 +100,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/update/getFile.html` | High
 2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/booking-search.php` | High
-4 | File | `/admin/edit-class.php` | High
-5 | File | `/admin/index.php?page=manage_lot` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/msg.php` | High
-8 | File | `/admin/pages/subjects.php` | High
-9 | File | `/admin/patient-search.php` | High
-10 | File | `/admin/process_category_add.php` | High
-11 | File | `/admin/registration.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/admin/users-applications.php` | High
-14 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-15 | File | `/analysisProject/pagingQueryData` | High
-16 | File | `/api/api.php?mod=upload&type=1` | High
-17 | File | `/api/system/other` | High
-18 | File | `/app/admin/view/web_user.html` | High
-19 | File | `/app/middleware/TokenVerify.php` | High
-20 | File | `/app/sys1.php` | High
-21 | File | `/attendancelist.php` | High
-22 | File | `/blog` | Low
-23 | File | `/book-appointment.php` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cgi-bin/s3.cgi` | High
-28 | File | `/changepassemp.php` | High
-29 | File | `/classes/Master.php?f=delete_reminder` | High
-30 | File | `/data/app` | Medium
-31 | File | `/debuginfo.htm` | High
-32 | ... | ... | ...
+3 | File | `/admin/add_title.php` | High
+4 | File | `/admin/admin-area.php` | High
+5 | File | `/admin/booking-search.php` | High
+6 | File | `/admin/edit-class.php` | High
+7 | File | `/admin/index.php?page=manage_lot` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/msg.php` | High
+11 | File | `/admin/pages/subjects.php` | High
+12 | File | `/admin/patient-search.php` | High
+13 | File | `/admin/process_category_add.php` | High
+14 | File | `/admin/registration.php` | High
+15 | File | `/admin/userprofile.php` | High
+16 | File | `/admin/users-applications.php` | High
+17 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+18 | File | `/ajax.php?action=save_plan` | High
+19 | File | `/analysisProject/pagingQueryData` | High
+20 | File | `/api/api.php?mod=upload&type=1` | High
+21 | File | `/api/export/exportResources` | High
+22 | File | `/api/system/other` | High
+23 | File | `/app/admin/view/web_user.html` | High
+24 | File | `/app/middleware/TokenVerify.php` | High
+25 | File | `/app/sys1.php` | High
+26 | File | `/attendancelist.php` | High
+27 | File | `/auth/delete_project/` | High
+28 | File | `/bill/add_bill.php` | High
+29 | File | `/blog` | Low
+30 | File | `/boafrm/formFilter` | High
+31 | File | `/boafrm/formParentControl` | High
+32 | File | `/book-appointment.php` | High
+33 | File | `/bwdates-report-ds.php` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/cgi-bin/s3.cgi` | High
+38 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -151,4 +157,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

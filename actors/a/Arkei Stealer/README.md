@@ -91,22 +91,22 @@ ID | Type | Indicator | Confidence
 39 | File | `/dashboard/contact` | High
 40 | File | `/dcim/sites/add/` | High
 41 | File | `/Default/Bd` | Medium
-42 | File | `/etc/passwd` | Medium
-43 | File | `/event/admin/?page=user/list` | High
-44 | File | `/expense-datewise-reports-detailed.php` | High
-45 | File | `/extension/gdata/authorized` | High
-46 | File | `/FB/getFbVideoSource.php` | High
-47 | File | `/file-manager/upload.php` | High
-48 | File | `/file/delete.php` | High
-49 | File | `/file/request.php` | High
-50 | File | `/filemanager/upload/drop` | High
-51 | File | `/fladmin/cat_edit.php` | High
-52 | File | `/getcfg.php` | Medium
-53 | File | `/getHistoryItems` | High
-54 | File | `/goform/formSetWanStatic` | High
+42 | File | `/enrollment_edit1.php` | High
+43 | File | `/etc/passwd` | Medium
+44 | File | `/event/admin/?page=user/list` | High
+45 | File | `/expense-datewise-reports-detailed.php` | High
+46 | File | `/extension/gdata/authorized` | High
+47 | File | `/FB/getFbVideoSource.php` | High
+48 | File | `/file-manager/upload.php` | High
+49 | File | `/file/delete.php` | High
+50 | File | `/file/request.php` | High
+51 | File | `/filemanager/upload/drop` | High
+52 | File | `/fladmin/cat_edit.php` | High
+53 | File | `/getcfg.php` | Medium
+54 | File | `/getHistoryItems` | High
 55 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

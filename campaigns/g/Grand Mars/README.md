@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grand Mars:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -56,26 +56,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.cdrdao` | High
-2 | File | `/cgi-bin/cstecgi.cgi` | High
-3 | File | `/cgi-bin/kerbynet` | High
-4 | File | `/classes/Master.php?f=delete_record` | High
-5 | File | `/endpoint/add-user.php` | High
-6 | File | `/endpoint/delete-user.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/pages/payment.php` | High
-9 | File | `/redbin/rpwebutilities.exe/text` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `add_comment.php` | High
-12 | File | `admin-ajax.php` | High
-13 | File | `advertiser.php` | High
-14 | File | `ajax/render/widget_php` | High
-15 | File | `ardeaCore/lib/core/ardeaInit.php` | High
-16 | File | `at/create_job.cgi` | High
-17 | File | `aviso.php` | Medium
-18 | File | `awstats.pl` | Medium
-19 | ... | ... | ...
+2 | File | `/admin/changeimage.php` | High
+3 | File | `/app/api/v1/openvpn.py` | High
+4 | File | `/biurl_grou` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/classes/Master.php?f=delete_record` | High
+8 | File | `/delete_category.php` | High
+9 | File | `/endpoint/add-user.php` | High
+10 | File | `/endpoint/delete-user.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/index.php/index/download/index` | High
+13 | File | `/login.php` | Medium
+14 | File | `/pages/payment.php` | High
+15 | File | `/php_action/editProduct.php` | High
+16 | File | `/redbin/rpwebutilities.exe/text` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `add_comment.php` | High
+19 | File | `admin-ajax.php` | High
+20 | File | `advertiser.php` | High
+21 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

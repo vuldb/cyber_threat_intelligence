@@ -58,17 +58,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/classes/Users.php?f=save` | High
 8 | File | `/ctxz.asp` | Medium
 9 | File | `/dashboard/Cinvoice/manage_invoice` | High
-10 | File | `/goform/qosClassifier` | High
-11 | File | `/goform/QoSPortSetup` | High
-12 | File | `/goform/SetCmdlineRun` | High
-13 | File | `/goform/WifiExtraSet` | High
-14 | File | `/goform/wirelessApcli_5g` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/index.php` | Medium
-17 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-18 | ... | ... | ...
+10 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+11 | File | `/goform/qosClassifier` | High
+12 | File | `/goform/QoSPortSetup` | High
+13 | File | `/goform/SafeUrlFilter` | High
+14 | File | `/goform/SetCmdlineRun` | High
+15 | File | `/goform/WifiExtraSet` | High
+16 | File | `/goform/wirelessApcli_5g` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/index.php` | Medium
+19 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

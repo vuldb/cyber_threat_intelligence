@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign A:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
 * [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,29 +69,29 @@ ID | Type | Indicator | Confidence
 9 | File | `/foms/routers/place-order.php` | High
 10 | File | `/forum/away.php` | High
 11 | File | `/general/email/outbox/delete.php` | High
-12 | File | `/manage_sy.php` | High
-13 | File | `/oauth/idp/.well-known/openid-configuration` | High
-14 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-15 | File | `/resourceNode/resources.jsf` | High
-16 | File | `/script/academic/announcement` | High
-17 | File | `/Script/admin/core/update_policy` | High
-18 | File | `/spgpm/updateListing` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/view/student_exam_mark_insert_form1.php` | High
-21 | File | `3.6.cpj` | Low
-22 | File | `404.php` | Low
-23 | File | `adclick.php` | Medium
-24 | File | `add-testimonial.php` | High
-25 | File | `admin.asp` | Medium
-26 | File | `admin.aspx` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/conf_users_edit.php` | High
-29 | File | `admin/member_details.php` | High
-30 | File | `admin_chatconfig.php` | High
-31 | File | `admin_iplog.php` | High
+12 | File | `/index` | Low
+13 | File | `/manage_sy.php` | High
+14 | File | `/oauth/idp/.well-known/openid-configuration` | High
+15 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+16 | File | `/resourceNode/resources.jsf` | High
+17 | File | `/script/academic/announcement` | High
+18 | File | `/Script/admin/core/update_policy` | High
+19 | File | `/spgpm/updateListing` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/view/student_exam_mark_insert_form1.php` | High
+22 | File | `3.6.cpj` | Low
+23 | File | `404.php` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `add-testimonial.php` | High
+26 | File | `admin.asp` | Medium
+27 | File | `admin.aspx` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin/member_details.php` | High
+31 | File | `admin_chatconfig.php` | High
 32 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

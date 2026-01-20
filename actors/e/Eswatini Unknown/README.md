@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,45 +86,45 @@ ID | Type | Indicator | Confidence
 30 | File | `/preauth` | Medium
 31 | File | `/products/details.asp` | High
 32 | File | `/recordings/index.php` | High
-33 | File | `/see_more_details.php` | High
-34 | File | `/show_news.php` | High
-35 | File | `/student/bookdetails.php` | High
-36 | File | `/tmp/before` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/update-article.php` | High
-39 | File | `/updownload/t.report` | High
-40 | File | `/user.profile.php` | High
-41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-42 | File | `/wordpress/wp-admin/options-general.php` | High
-43 | File | `/wp-admin` | Medium
-44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `4.2.0.CP09` | Medium
-46 | File | `account.asp` | Medium
-47 | File | `adclick.php` | Medium
-48 | File | `adm/systools.asp` | High
-49 | File | `admin.php` | Medium
-50 | File | `admin/admin.php` | High
-51 | File | `admin/admin.shtml` | High
-52 | File | `Admin/ADM_Pagina.php` | High
-53 | File | `admin/category.inc.php` | High
-54 | File | `admin/main.asp` | High
-55 | File | `admin/param/param_func.inc.php` | High
-56 | File | `admin/y_admin.asp` | High
-57 | File | `adminer.php` | Medium
-58 | File | `administration/admins.php` | High
-59 | File | `administrator/components/com_media/helpers/media.php` | High
-60 | File | `admin_ok.asp` | Medium
-61 | File | `album_portal.php` | High
-62 | File | `app/Core/Paginator.php` | High
-63 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-64 | File | `application/controller/InstallerController.php` | High
-65 | File | `artlinks.dispnew.php` | High
-66 | File | `auth.php` | Medium
-67 | File | `awstats.pl` | Medium
-68 | File | `bin/named/query.c` | High
+33 | File | `/routers/register-router.php` | High
+34 | File | `/see_more_details.php` | High
+35 | File | `/show_news.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/student/bookdetails.php` | High
+38 | File | `/tmp/before` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/update-article.php` | High
+41 | File | `/updownload/t.report` | High
+42 | File | `/user.profile.php` | High
+43 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+44 | File | `/wordpress/wp-admin/options-general.php` | High
+45 | File | `/wp-admin` | Medium
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `4.2.0.CP09` | Medium
+48 | File | `account.asp` | Medium
+49 | File | `adclick.php` | Medium
+50 | File | `adm/systools.asp` | High
+51 | File | `admin.php` | Medium
+52 | File | `admin/admin.php` | High
+53 | File | `admin/admin.shtml` | High
+54 | File | `Admin/ADM_Pagina.php` | High
+55 | File | `admin/category.inc.php` | High
+56 | File | `admin/main.asp` | High
+57 | File | `admin/param/param_func.inc.php` | High
+58 | File | `admin/y_admin.asp` | High
+59 | File | `adminer.php` | Medium
+60 | File | `administration/admins.php` | High
+61 | File | `administrator/components/com_media/helpers/media.php` | High
+62 | File | `admin_ok.asp` | Medium
+63 | File | `album_portal.php` | High
+64 | File | `app/Core/Paginator.php` | High
+65 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+66 | File | `application/controller/InstallerController.php` | High
+67 | File | `artlinks.dispnew.php` | High
+68 | File | `auth.php` | Medium
 69 | ... | ... | ...
 
-There are 605 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 608 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -50,21 +50,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/users.php?source=edit_user&id=1` | High
-2 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/hrm/employeeadd.php` | High
-6 | File | `/index/ajax/lang` | High
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/onvif/device_service` | High
-9 | File | `/pro/repo-create.html` | High
-10 | File | `/proc/self/environ` | High
-11 | File | `/rest/project-templates/1.0/createshared` | High
-12 | File | `/server-status` | High
+1 | File | `/admin/edit-doctor-specialization.php` | High
+2 | File | `/admin/users.php?source=edit_user&id=1` | High
+3 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/hrm/employeeadd.php` | High
+8 | File | `/index/ajax/lang` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/onvif/device_service` | High
+11 | File | `/pro/repo-create.html` | High
+12 | File | `/proc/self/environ` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

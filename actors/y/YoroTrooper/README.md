@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,42 +51,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index2.html` | High
-2 | File | `/api/programs/orgUnits?programs` | High
-3 | File | `/cgi-bin/system_mgr.cgi` | High
-4 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
-5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-6 | File | `/devices/ProcessRequest.do` | High
-7 | File | `/dus/shopliste/index.php` | High
-8 | File | `/etc/path` | Medium
-9 | File | `/fax/fax_send.php` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/hotel.php` | Medium
-12 | File | `/index/ajax/lang` | High
-13 | File | `/jeecg-boot/sys/common/upload` | High
-14 | File | `/lam/tmp/` | Medium
-15 | File | `/nagiosql/admin/checkcommands.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/sys/file/upload` | High
-18 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-19 | File | `/trackedEntityInstances` | High
-20 | File | `/usr/5bin/su` | Medium
-21 | File | `/usr/bin/mail` | High
-22 | File | `/version.js` | Medium
-23 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-24 | File | `/zm/index.php` | High
-25 | File | `add_edit_download.asp` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/` | Low
-28 | File | `admin/admin.php` | High
-29 | File | `admin/manage-comments.php` | High
-30 | File | `admin/moduleinterface.php` | High
-31 | File | `agentdisplay.php` | High
-32 | File | `agora.cgi` | Medium
-33 | File | `and/or` | Low
-34 | ... | ... | ...
+1 | File | `/admin/conferences/list/` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/ajax.php?action=save_user` | High
+4 | File | `/api/programs/orgUnits?programs` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+8 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+9 | File | `/devices/ProcessRequest.do` | High
+10 | File | `/dus/shopliste/index.php` | High
+11 | File | `/etc/path` | Medium
+12 | File | `/fax/fax_send.php` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/hotel.php` | Medium
+15 | File | `/index/ajax/lang` | High
+16 | File | `/jeecg-boot/sys/common/upload` | High
+17 | File | `/lam/tmp/` | Medium
+18 | File | `/nagiosql/admin/checkcommands.php` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/sys/file/upload` | High
+21 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+22 | File | `/trackedEntityInstances` | High
+23 | File | `/usr/5bin/su` | Medium
+24 | File | `/usr/bin/mail` | High
+25 | File | `/version.js` | Medium
+26 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+27 | File | `/zm/index.php` | High
+28 | File | `add_edit_download.asp` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/` | Low
+31 | File | `admin/admin.php` | High
+32 | File | `admin/manage-comments.php` | High
+33 | File | `admin/moduleinterface.php` | High
+34 | File | `agentdisplay.php` | High
+35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

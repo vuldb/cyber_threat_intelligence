@@ -11,7 +11,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [36.212.238.69](https://vuldb.com/?ip.36.212.238.69) | - | - | High
-2 | [206.238.115.207](https://vuldb.com/?ip.206.238.115.207) | - | - | High
+2 | [123.249.78.13](https://vuldb.com/?ip.123.249.78.13) | ecs-123-249-78-13.compute.hwclouds-dns.com | - | High
+3 | [206.238.115.207](https://vuldb.com/?ip.206.238.115.207) | - | - | High
 
 ## References
 
@@ -19,6 +20,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/db15f45f69f863510986fb2198a8a6b3d55d8ccc8a2ed4bb30bc27bdd1bf151c/
 * https://urlhaus.abuse.ch/url/3559205/
+* https://urlhaus.abuse.ch/url/3610636/
 
 ## Literature
 
@@ -29,4 +31,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

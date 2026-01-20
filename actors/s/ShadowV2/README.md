@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with ShadowV2:
 
 * DDoS Botnet
+* Industrial Routers
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.97.62.136](https://vuldb.com/?ip.23.97.62.136) | - | DDoS Botnet | High
 2 | [23.97.62.139](https://vuldb.com/?ip.23.97.62.139) | - | DDoS Botnet | High
+3 | [81.88.18.108](https://vuldb.com/?ip.81.88.18.108) | vps-2624.onecom-cloud.one | Industrial Routers | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.darktrace.com/blog/shadowv2-an-emerging-ddos-for-hire-botnet
+* https://www.forescout.com/blog/ot-network-security-threats-industrial-routers-under-attack/
 
 ## Literature
 
@@ -34,4 +37,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

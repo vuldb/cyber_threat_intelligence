@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fanel:
 
 * [RO](https://vuldb.com/?country.ro)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -51,51 +51,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/editer.php` | High
-2 | File | `/admin/index/index.html#listarticle` | High
-3 | File | `/bin/goahead` | Medium
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/data/vendor/tcl` | High
-7 | File | `/etc/postfix/sender_login` | High
-8 | File | `/framework/core/models/expRecord.php` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/htdocs/webinc/js/bsc_sms_inbox.php` | High
-11 | File | `/manager?action=getlogcat` | High
-12 | File | `/medicines` | Medium
-13 | File | `/plugins/servlet/branchreview` | High
-14 | File | `/proc` | Low
-15 | File | `/Pwrchute` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/tmp/.deepin-clone.log` | High
-18 | File | `/users/{id}` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/usr/sbin/httpd` | High
-21 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-22 | File | `actions.cpp` | Medium
-23 | File | `adm1n/admin_config.php` | High
-24 | File | `admin-ajax.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/addpage.php` | High
-27 | File | `admin/admin_process.php` | High
-28 | File | `admin/checksum.php?__c` | High
-29 | File | `admin/editusertag.php` | High
-30 | File | `admin/eventlist.php` | High
-31 | File | `admin/reklam_detay.asp` | High
-32 | File | `admin/settings.php` | High
-33 | File | `admin/snacks_edit.php` | High
-34 | File | `admin/userview.php` | High
-35 | File | `all_calendars.asp` | High
-36 | File | `anniv.php` | Medium
-37 | File | `api.php` | Low
-38 | File | `app/search/search.app.php` | High
-39 | File | `appGet.cgi` | Medium
-40 | File | `apply.cgi` | Medium
-41 | File | `arch/arm/kernel/perf_event.c` | High
-42 | File | `ArticleType.php` | High
+1 | File | `/admin/contact-us.php` | High
+2 | File | `/admin/editer.php` | High
+3 | File | `/admin/index/index.html#listarticle` | High
+4 | File | `/api/es/admin/v3/security/user/1` | High
+5 | File | `/bin/goahead` | Medium
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/data/vendor/tcl` | High
+9 | File | `/etc/postfix/sender_login` | High
+10 | File | `/framework/core/models/expRecord.php` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/htdocs/webinc/js/bsc_sms_inbox.php` | High
+13 | File | `/manager?action=getlogcat` | High
+14 | File | `/medicines` | Medium
+15 | File | `/plugins/servlet/branchreview` | High
+16 | File | `/proc` | Low
+17 | File | `/Pwrchute` | Medium
+18 | File | `/tmp` | Low
+19 | File | `/tmp/.deepin-clone.log` | High
+20 | File | `/users/{id}` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/usr/sbin/httpd` | High
+23 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+24 | File | `actions.cpp` | Medium
+25 | File | `adm1n/admin_config.php` | High
+26 | File | `admin-ajax.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/addpage.php` | High
+29 | File | `admin/admin_process.php` | High
+30 | File | `admin/checksum.php?__c` | High
+31 | File | `admin/editusertag.php` | High
+32 | File | `admin/eventlist.php` | High
+33 | File | `admin/reklam_detay.asp` | High
+34 | File | `admin/settings.php` | High
+35 | File | `admin/snacks_edit.php` | High
+36 | File | `admin/userview.php` | High
+37 | File | `all_calendars.asp` | High
+38 | File | `anniv.php` | Medium
+39 | File | `api.php` | Low
+40 | File | `app/search/search.app.php` | High
+41 | File | `appGet.cgi` | Medium
+42 | File | `apply.cgi` | Medium
 43 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -33,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [93.115.25.139](https://vuldb.com/?ip.93.115.25.139) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,47 +71,46 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/bookList?page=1&limit=10` | High
 14 | File | `/admin/case-type` | High
 15 | File | `/admin/contact-us.php` | High
-16 | File | `/Admin/createClass.php` | High
-17 | File | `/admin/create_product.php` | High
-18 | File | `/admin/div_data/data` | High
-19 | File | `/admin/edit_manufacturer.php` | High
-20 | File | `/admin/index.php` | High
-21 | File | `/admin/ind_backstage.php` | High
-22 | File | `/admin/login.php` | High
-23 | File | `/admin/manage-services.php` | High
-24 | File | `/admin/media_folders` | High
-25 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-26 | File | `/admin/menu.php` | High
-27 | File | `/admin/robot.php` | High
-28 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-29 | File | `/admin/users.php` | High
-30 | File | `/admin/user_update.php` | High
-31 | File | `/ajax.php` | Medium
-32 | File | `/ajax.php?action=delete_tenant` | High
-33 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-34 | File | `/api/system/other` | High
-35 | File | `/api/wizard/getBasicInfo` | High
-36 | File | `/app/platform/controllers/ResetpwdController.php` | High
-37 | File | `/AttendanceMonitoring/report/index.php` | High
-38 | File | `/authMonitCallcenter` | High
-39 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-40 | File | `/backend/admin/his_admin_register_patient.php` | High
-41 | File | `/backend/register.php` | High
-42 | File | `/bin/boa` | Medium
-43 | File | `/blog/blog.php` | High
-44 | File | `/bloodrequest.php` | High
-45 | File | `/boafrm/formFilter` | High
-46 | File | `/booklist.php` | High
-47 | File | `/cgi-bin/cstecgi.cgi` | High
-48 | File | `/cgi-bin/hd_config.cgi` | High
-49 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-50 | File | `/cgi-bin/wapopen` | High
-51 | File | `/classes/Master.php` | High
-52 | File | `/classes/Master.php?f=delete_category` | High
-53 | File | `/classes/Master.php?f=log_employee` | High
-54 | ... | ... | ...
+16 | File | `/admin/create_product.php` | High
+17 | File | `/admin/div_data/data` | High
+18 | File | `/admin/edit_manufacturer.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/ind_backstage.php` | High
+21 | File | `/admin/login.php` | High
+22 | File | `/admin/manage-services.php` | High
+23 | File | `/admin/media_folders` | High
+24 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+25 | File | `/admin/menu.php` | High
+26 | File | `/admin/robot.php` | High
+27 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+28 | File | `/admin/users.php` | High
+29 | File | `/admin/user_update.php` | High
+30 | File | `/ajax.php` | Medium
+31 | File | `/ajax.php?action=delete_tenant` | High
+32 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+33 | File | `/api/system/other` | High
+34 | File | `/api/wizard/getBasicInfo` | High
+35 | File | `/app/platform/controllers/ResetpwdController.php` | High
+36 | File | `/AttendanceMonitoring/report/index.php` | High
+37 | File | `/authMonitCallcenter` | High
+38 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+39 | File | `/backend/admin/his_admin_register_patient.php` | High
+40 | File | `/backend/register.php` | High
+41 | File | `/bin/boa` | Medium
+42 | File | `/blog/blog.php` | High
+43 | File | `/bloodrequest.php` | High
+44 | File | `/boafrm/formFilter` | High
+45 | File | `/booklist.php` | High
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/hd_config.cgi` | High
+48 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+49 | File | `/cgi-bin/wapopen` | High
+50 | File | `/classes/Master.php` | High
+51 | File | `/classes/Master.php?f=delete_category` | High
+52 | File | `/classes/Master.php?f=log_employee` | High
+53 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +121,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://op-c.net/blog/sap-cve-2025-31324-qilin-breach/
 * https://windowsir.blogspot.com/2025/09/ransomware-artifacts.html
 * https://www.cybereason.com/blog/threat-alert-qilin-seizes-control
+* https://www.huntress.com/blog/looking-at-qilin-ransomware-attack
 
 ## Literature
 
@@ -132,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

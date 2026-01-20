@@ -68,38 +68,38 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/success_story.php` | High
 14 | File | `/admin/sys_sql_query.php` | High
 15 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
-16 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-17 | File | `/cgi-bin/ExportSettings.sh` | High
-18 | File | `/cgi-bin/login.cgi` | High
-19 | File | `/cgi-bin/settings-firewall.cgi` | High
-20 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-21 | File | `/contact-back.php` | High
-22 | File | `/delete_members.php` | High
-23 | File | `/dipam/athlete-profile.php` | High
-24 | File | `/dipam/save-delegates.php` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/find_v2/_click` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/getcfg.php` | Medium
-29 | File | `/goform/fromSetWirelessRepeat` | High
-30 | File | `/goform/RouteStatic` | High
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/login.php` | Medium
-35 | File | `/manage_receiving.php` | High
-36 | File | `/manage_supplier.php` | High
-37 | File | `/mkshop/Men/profile.php` | High
-38 | File | `/model/add_student_subject.php` | High
-39 | File | `/model/update_grade.php` | High
-40 | File | `/php/manage_customer.php?action=search` | High
-41 | File | `/pms/admin/prisons/view_prison.php` | High
-42 | File | `/print_patients_visits.php` | High
-43 | File | `/product` | Medium
-44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/administrator/addcategory.php` | High
+17 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+18 | File | `/cgi-bin/ExportSettings.sh` | High
+19 | File | `/cgi-bin/login.cgi` | High
+20 | File | `/cgi-bin/settings-firewall.cgi` | High
+21 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+22 | File | `/contact-back.php` | High
+23 | File | `/delete_members.php` | High
+24 | File | `/dipam/athlete-profile.php` | High
+25 | File | `/dipam/save-delegates.php` | High
+26 | File | `/etc/passwd` | Medium
+27 | File | `/find_v2/_click` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/getcfg.php` | Medium
+30 | File | `/goform/fromSetWirelessRepeat` | High
+31 | File | `/goform/RouteStatic` | High
+32 | File | `/hrm/employeeadd.php` | High
+33 | File | `/hrm/employeeview.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/login.php` | Medium
+36 | File | `/manage_receiving.php` | High
+37 | File | `/manage_supplier.php` | High
+38 | File | `/mkshop/Men/profile.php` | High
+39 | File | `/model/add_student_subject.php` | High
+40 | File | `/model/update_grade.php` | High
+41 | File | `/php/manage_customer.php?action=search` | High
+42 | File | `/pms/admin/prisons/view_prison.php` | High
+43 | File | `/print_patients_visits.php` | High
+44 | File | `/product` | Medium
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

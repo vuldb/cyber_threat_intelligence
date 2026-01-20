@@ -59,14 +59,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/maintenance/view_designation.php` | High
 2 | File | `/admin/orders/update_status.php` | High
 3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/ajax.php?action=delete_block` | High
-5 | File | `/application/index/common.php` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/etc/fstab` | Medium
-9 | ... | ... | ...
+4 | File | `/adminlogin.php` | High
+5 | File | `/ajax.php?action=delete_block` | High
+6 | File | `/application/index/common.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/etc/fstab` | Medium
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

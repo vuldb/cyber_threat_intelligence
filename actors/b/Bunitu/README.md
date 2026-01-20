@@ -77,27 +77,28 @@ ID | Type | Indicator | Confidence
 22 | File | `/etc/environment` | High
 23 | File | `/etc/keystone/user-project-map.json` | High
 24 | File | `/etc/passwd` | Medium
-25 | File | `/home.jsp` | Medium
-26 | File | `/inc/campaign/view-campaign-list.php` | High
-27 | File | `/include/menu_v.inc.php` | High
-28 | File | `/index.php/weblinks-categories` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/servlet/webacc` | High
-31 | File | `/student-grading-system/rms.php?page=school_year` | High
-32 | File | `/system?action=ServiceAdmin` | High
-33 | File | `/usr/` | Low
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-36 | File | `ActiveMQConnection.java` | High
-37 | File | `addq.php` | Medium
-38 | File | `admin-ajax.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/ad_list.php` | High
-41 | File | `admin/panels/uploader/admin.uploader.php` | High
-42 | File | `admin/status/realtime/bandwidth_status` | High
-43 | ... | ... | ...
+25 | File | `/goform/wirelessRestart` | High
+26 | File | `/home.jsp` | Medium
+27 | File | `/inc/campaign/view-campaign-list.php` | High
+28 | File | `/include/menu_v.inc.php` | High
+29 | File | `/index.php/weblinks-categories` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/servlet/webacc` | High
+32 | File | `/student-grading-system/rms.php?page=school_year` | High
+33 | File | `/system?action=ServiceAdmin` | High
+34 | File | `/usr/` | Low
+35 | File | `/usr/bin/pkexec` | High
+36 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+37 | File | `ActiveMQConnection.java` | High
+38 | File | `addq.php` | Medium
+39 | File | `admin-ajax.php` | High
+40 | File | `admin.php` | Medium
+41 | File | `admin/ad_list.php` | High
+42 | File | `admin/panels/uploader/admin.uploader.php` | High
+43 | File | `admin/status/realtime/bandwidth_status` | High
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

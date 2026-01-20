@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,22 +59,24 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/emp-profile-avatar.php` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-5 | File | `/boafrm/formFilter` | High
-6 | File | `/classes/Master.php` | High
-7 | File | `/classes/SystemSettings.php?f=update_settings` | High
-8 | File | `/clinic/medical_records_view.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/mobileredir/openApp.jsp` | High
-12 | File | `/onlinecourse/` | High
-13 | File | `/register.php` | High
-14 | File | `/script/academic/announcement` | High
-15 | File | `/search` | Low
-16 | File | `/spgpm/updateListing` | High
-17 | ... | ... | ...
+4 | File | `/att_add.php` | Medium
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/boafrm/formFilter` | High
+7 | File | `/classes/Master.php` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/clinic/medical_records_view.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/mobileredir/openApp.jsp` | High
+13 | File | `/onlinecourse/` | High
+14 | File | `/register.php` | High
+15 | File | `/routers/register-router.php` | High
+16 | File | `/script/academic/announcement` | High
+17 | File | `/search` | Low
+18 | File | `/spgpm/updateListing` | High
+19 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

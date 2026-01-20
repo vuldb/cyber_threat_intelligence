@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,24 +99,27 @@ ID | Type | Indicator | Confidence
 31 | File | `/apply.cgi` | Medium
 32 | File | `/backend/register.php` | High
 33 | File | `/boaform/getASPdata/formFirewall` | High
-34 | File | `/boafrm/formMapDelDevice` | High
-35 | File | `/cas/logout` | Medium
-36 | File | `/cgi-bin/` | Medium
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-39 | File | `/cgi-bin/download_config.cgi` | High
-40 | File | `/cgi-bin/ocap/` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/SystemSettings.php?f=update_settings` | High
-43 | File | `/config/config.json` | High
-44 | File | `/control/add_act.php` | High
-45 | File | `/control/WANIPConnection` | High
-46 | File | `/dede/file_manage_control.php` | High
-47 | File | `/download.php?file=author.png` | High
-48 | File | `/download/image` | High
-49 | ... | ... | ...
+34 | File | `/boafrm/formFirewallAdv` | High
+35 | File | `/boafrm/formMapDelDevice` | High
+36 | File | `/cas/logout` | Medium
+37 | File | `/cgi` | Low
+38 | File | `/cgi-bin/` | Medium
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/cgi-bin/download_config.cgi` | High
+41 | File | `/cgi-bin/JSONAPI` | High
+42 | File | `/cgi-bin/ocap/` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/classes/SystemSettings.php?f=update_settings` | High
+45 | File | `/config/config.json` | High
+46 | File | `/control/add_act.php` | High
+47 | File | `/control/WANIPConnection` | High
+48 | File | `/dede/file_manage_control.php` | High
+49 | File | `/detail.php` | Medium
+50 | File | `/download.php?file=author.png` | High
+51 | File | `/download/image` | High
+52 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

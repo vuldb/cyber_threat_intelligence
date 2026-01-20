@@ -4,16 +4,23 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.evasive_panda](https://vuldb.com/?actor.evasive_panda)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Evasive Panda:
+
+* AitM
+* MgBot
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Evasive Panda:
 
-* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +44,12 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [45.120.162.0](https://vuldb.com/?ip.45.120.162.0) | - | - | High
 15 | [45.248.28.0](https://vuldb.com/?ip.45.248.28.0) | - | - | High
 16 | [49.36.185.0](https://vuldb.com/?ip.49.36.185.0) | - | - | High
-17 | ... | ... | ... | ...
+17 | [49.36.224.0](https://vuldb.com/?ip.49.36.224.0) | - | - | High
+18 | [58.68.255.45](https://vuldb.com/?ip.58.68.255.45) | - | MgBot | High
+19 | [59.89.161.0](https://vuldb.com/?ip.59.89.161.0) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 77 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,14 +57,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,56 +71,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.procmailrc` | Medium
-2 | File | `/admin/?page=maintenance/brand` | High
-3 | File | `/admin/ballot_down.php` | High
-4 | File | `/admin/courses/manage_course.php` | High
-5 | File | `/admin/maintenance/brand.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/patient.php` | High
-8 | File | `/admin/product/manage.php` | High
-9 | File | `/admin/sales/manage_sale.php` | High
-10 | File | `/api/blade-user/submit` | High
-11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-12 | File | `/boaform/device_reset.cgi` | High
-13 | File | `/buspassms/download-pass.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-17 | File | `/changeimage.php` | High
-18 | File | `/classes/master.php?f=delete_order` | High
-19 | File | `/classes/Master.php?f=update_order_status` | High
-20 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-21 | File | `/config/getuser` | High
-22 | File | `/controllers/add_client.php` | High
-23 | File | `/dashboard.php` | High
-24 | File | `/defaultui/player/modern.html` | High
-25 | File | `/dotproject/index.php` | High
-26 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/ghost/preview` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/importexport.php` | High
-32 | File | `/include/chart_generator.php` | High
-33 | File | `/items/search` | High
-34 | File | `/LoginAdmin` | Medium
-35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-36 | File | `/model/all_events1.php` | High
-37 | File | `/modules/registration_admission/patient_register.php` | High
-38 | File | `/nova/bin/detnet` | High
-39 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
-40 | File | `/property` | Medium
-41 | File | `/publisher` | Medium
-42 | ... | ... | ...
+1 | File | `/admin/?page=maintenance/brand` | High
+2 | File | `/admin/ballot_down.php` | High
+3 | File | `/admin/courses/manage_course.php` | High
+4 | File | `/admin/maintenance/brand.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/patient.php` | High
+7 | File | `/admin/product/manage.php` | High
+8 | File | `/admin/sales/manage_sale.php` | High
+9 | File | `/api/blade-user/submit` | High
+10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+11 | File | `/boaform/device_reset.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/changeimage.php` | High
+15 | File | `/classes/master.php?f=delete_order` | High
+16 | File | `/classes/Master.php?f=update_order_status` | High
+17 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+18 | File | `/controllers/add_client.php` | High
+19 | File | `/dashboard.php` | High
+20 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+21 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/eset/malware-ioc/tree/master/evasive_panda
+* https://securelist.com/evasive-panda-apt/118576/
 * https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/
 * https://www.welivesecurity.com/en/eset-research/evasive-panda-leverages-monlam-festival-target-tibetans/
 
@@ -124,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [PT](https://vuldb.com/?country.pt)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -46,42 +46,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/addNotifyServlet` | High
-4 | File | `/admin.php/pic/admin/pic/hy` | High
-5 | File | `/admin/?page=reports/stockin` | High
-6 | File | `/Admin/adminlogin.php` | High
-7 | File | `/admin/blood/update/B+.php` | High
-8 | File | `/admin/inbox.php&action=read` | High
-9 | File | `/admin/newsletter.php` | High
-10 | File | `/admin/operations/packages.php` | High
-11 | File | `/admin/orders/update_status.php` | High
-12 | File | `/admin/overtime_add.php` | High
-13 | File | `/admin/pages/sections_save.php` | High
-14 | File | `/admin/settings/save.php` | High
-15 | File | `/admin/uesrs.php&action=display&value=Show` | High
-16 | File | `/admin/update_user.php` | High
-17 | File | `/admin/update_users.php` | High
-18 | File | `/admin/vote_edit.php` | High
-19 | File | `/apply.cgi` | Medium
-20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/classes/Master.php?f=save_inquiry` | High
-23 | File | `/collection/all` | High
-24 | File | `/config,admin.jsp` | High
-25 | File | `/config/list` | Medium
-26 | File | `/contact_process.php` | High
-27 | File | `/conversation/upload` | High
-28 | File | `/core/config-revisions` | High
-29 | File | `/coreframe/app/guestbook/myissue.php` | High
-30 | File | `/dede/co_do.php` | High
-31 | File | `/detailed.php` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/endpoint/Add.php` | High
-34 | File | `/endpoint/delete.php` | High
-35 | File | `/etc/init.d/sshd_service` | High
-36 | ... | ... | ...
+3 | File | `/addCandidate.php` | High
+4 | File | `/addNotifyServlet` | High
+5 | File | `/add_judge.php` | High
+6 | File | `/admin.php/pic/admin/pic/hy` | High
+7 | File | `/admin/?page=reports/stockin` | High
+8 | File | `/admin/?page=state` | High
+9 | File | `/admin/aboutus.php` | High
+10 | File | `/Admin/adminlogin.php` | High
+11 | File | `/admin/blood/update/B+.php` | High
+12 | File | `/admin/booking-search.php` | High
+13 | File | `/admin/dashboard/profile` | High
+14 | File | `/admin/edit-doctor.php` | High
+15 | File | `/admin/inbox.php&action=read` | High
+16 | File | `/admin/newsletter.php` | High
+17 | File | `/admin/operations/packages.php` | High
+18 | File | `/admin/orders/update_status.php` | High
+19 | File | `/admin/overtime_add.php` | High
+20 | File | `/admin/pages/sections_save.php` | High
+21 | File | `/admin/rooms.php` | High
+22 | File | `/admin/settings/save.php` | High
+23 | File | `/admin/uesrs.php&action=display&value=Show` | High
+24 | File | `/admin/update_user.php` | High
+25 | File | `/admin/update_users.php` | High
+26 | File | `/admin/vote_edit.php` | High
+27 | File | `/allocate_room.php` | High
+28 | File | `/api/log/killJob` | High
+29 | File | `/apply.cgi` | Medium
+30 | File | `/authenticate.php` | High
+31 | File | `/boafrm/formMultiAP` | High
+32 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/classes/Master.php?f=save_inquiry` | High
+35 | File | `/collection/all` | High
+36 | File | `/config,admin.jsp` | High
+37 | File | `/config/list` | Medium
+38 | File | `/contact_manager.php` | High
+39 | File | `/contact_process.php` | High
+40 | File | `/conversation/upload` | High
+41 | File | `/core/config-revisions` | High
+42 | File | `/coreframe/app/guestbook/myissue.php` | High
+43 | File | `/courier/edit-courier.php` | High
+44 | File | `/dede/co_do.php` | High
+45 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,44 +53,66 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/Actions.php?a=login` | High
-5 | File | `/add_new_invoice.php` | High
-6 | File | `/add_new_supplier.php` | High
-7 | File | `/admin/` | Low
-8 | File | `/admin/app/login_crud.php` | High
-9 | File | `/admin/app/product.php` | High
-10 | File | `/admin/app/service_crud.php` | High
-11 | File | `/admin/blood/update/o-.php` | High
-12 | File | `/admin/category/view_category.php` | High
-13 | File | `/admin/edit-category.php` | High
-14 | File | `/admin/edit.php` | High
-15 | File | `/admin/googleads.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/list_ipAddressPolicy.php` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/Admin/login.php` | High
-20 | File | `/admin/massage.php` | High
-21 | File | `/admin/menu_save.php` | High
-22 | File | `/admin/pages/update_go.php` | High
-23 | File | `/admin/profile.php` | High
-24 | File | `/admin/reg.php` | High
-25 | File | `/admin/renewaldue.php` | High
-26 | File | `/admin/search.php` | High
-27 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-28 | File | `/ajax` | Low
-29 | File | `/analysisProject/pagingQueryData` | High
-30 | File | `/api/sys/login` | High
-31 | File | `/app/ajax/search_sales_report.php` | High
-32 | File | `/app/middleware/TokenVerify.php` | High
-33 | File | `/application/index/controller/Databasesource.php` | High
-34 | File | `/application/index/controller/Screen.php` | High
-35 | File | `/bin/boa` | Medium
-36 | File | `/booking/show_bookings/` | High
-37 | File | `/cancel.php` | Medium
-38 | File | `/cgi-bin/adm.cgi` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | ... | ... | ...
+5 | File | `/actuator` | Medium
+6 | File | `/addelidetails.php` | High
+7 | File | `/addProduct.php` | High
+8 | File | `/add_new_invoice.php` | High
+9 | File | `/add_new_supplier.php` | High
+10 | File | `/admin/` | Low
+11 | File | `/admin/?page=user` | High
+12 | File | `/admin/app/login_crud.php` | High
+13 | File | `/admin/app/product.php` | High
+14 | File | `/admin/app/service_crud.php` | High
+15 | File | `/admin/archives_add.php` | High
+16 | File | `/admin/blood/update/o-.php` | High
+17 | File | `/admin/category/view_category.php` | High
+18 | File | `/admin/delete_user.php` | High
+19 | File | `/admin/edit-category.php` | High
+20 | File | `/admin/edit.php` | High
+21 | File | `/admin/edit_tax.php` | High
+22 | File | `/admin/googleads.php` | High
+23 | File | `/admin/index.php` | High
+24 | File | `/admin/list_ipAddressPolicy.php` | High
+25 | File | `/admin/login.php` | High
+26 | File | `/Admin/login.php` | High
+27 | File | `/admin/massage.php` | High
+28 | File | `/admin/menu_save.php` | High
+29 | File | `/admin/pages/update_go.php` | High
+30 | File | `/admin/profile.php` | High
+31 | File | `/admin/quesadd.php` | High
+32 | File | `/admin/reg.php` | High
+33 | File | `/admin/renewaldue.php` | High
+34 | File | `/admin/search.php` | High
+35 | File | `/admin/update_s8.php` | High
+36 | File | `/admin/update_user.php` | High
+37 | File | `/administrator/bidlist.php` | High
+38 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+39 | File | `/ajax` | Low
+40 | File | `/analysisProject/pagingQueryData` | High
+41 | File | `/api/sys/login` | High
+42 | File | `/app/ajax/search_sales_report.php` | High
+43 | File | `/app/middleware/TokenVerify.php` | High
+44 | File | `/application/admin/logic/FilemanagerLogic.php` | High
+45 | File | `/application/index/controller/Databasesource.php` | High
+46 | File | `/application/index/controller/Screen.php` | High
+47 | File | `/base/safe_setting/` | High
+48 | File | `/bin/boa` | Medium
+49 | File | `/binutils/debug.c` | High
+50 | File | `/boafrm/formSysCmd` | High
+51 | File | `/boafrm/formWsc` | High
+52 | File | `/booking/show_bookings/` | High
+53 | File | `/cancel.php` | Medium
+54 | File | `/cgi-bin/adm.cgi` | High
+55 | File | `/cgi-bin/cstecgi.cgi` | High
+56 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+57 | File | `/cgi-bin/myMusic.cgi` | High
+58 | File | `/cgi-bin/settings-firewall.cgi` | High
+59 | File | `/classes/Users.php?f=save` | High
+60 | File | `/collection/all` | High
+61 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+62 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

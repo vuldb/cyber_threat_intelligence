@@ -50,27 +50,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/api/wizard/setsyncpppoecfg` | High
-4 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-5 | File | `/donor-wall` | Medium
-6 | File | `/etc/shadow` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/inc/jquery/uploadify/uploadify.php` | High
-9 | File | `/inc/parser/xhtml.php` | High
-10 | File | `/include/makecvs.php` | High
-11 | File | `/index/ajax/lang` | High
-12 | File | `/lua/set-passwd.lua` | High
-13 | File | `/member/index/login.html` | High
-14 | File | `/member/myfriend.php` | High
-15 | File | `/member/reg.asp` | High
-16 | File | `/pms/admin/actions/view_action.php` | High
-17 | File | `/pms/admin/cells/view_cell.php` | High
-18 | File | `/pms/admin/crimes/manage_crime.php` | High
-19 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/#ProductSerie/view/` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/api/wizard/setsyncpppoecfg` | High
+5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+6 | File | `/donor-wall` | Medium
+7 | File | `/etc/shadow` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/inc/jquery/uploadify/uploadify.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/include/makecvs.php` | High
+12 | File | `/index/ajax/lang` | High
+13 | File | `/lua/set-passwd.lua` | High
+14 | File | `/member/index/login.html` | High
+15 | File | `/member/myfriend.php` | High
+16 | File | `/member/reg.asp` | High
+17 | File | `/perfex/clients/project/2` | High
+18 | File | `/pms/admin/actions/view_action.php` | High
+19 | File | `/pms/admin/cells/view_cell.php` | High
+20 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

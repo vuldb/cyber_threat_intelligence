@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,32 +57,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit.php` | High
-2 | File | `/admin/functions.php` | High
-3 | File | `/admin/user/manage_user.php` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/webadminget.cgi` | High
-6 | File | `/dashboard/updatelogo.php` | High
-7 | File | `/etc/networkd-dispatcher` | High
-8 | File | `/etc/openshift/server_priv.pem` | High
-9 | File | `/etc/shadow.sample` | High
-10 | File | `/expense-yearwise-reports-detailed.php` | High
-11 | File | `/goform/qosClassifier` | High
-12 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-13 | File | `/hedwig.cgi` | Medium
-14 | File | `/index.php` | Medium
-15 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-16 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-17 | File | `/mkshop/Men/profile.php` | High
-18 | File | `/notice-edit.php` | High
-19 | File | `/Noxen-master/users.php` | High
-20 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/start_apply.htm` | High
-23 | File | `/uncpath/` | Medium
-24 | ... | ... | ...
+1 | File | `/admin/?page=city` | High
+2 | File | `/admin/deletedoctorclinic.php` | High
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/functions.php` | High
+5 | File | `/admin/new-autoortaxi-entry-form.php` | High
+6 | File | `/admin/user/manage_user.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/webadminget.cgi` | High
+9 | File | `/dashboard/updatelogo.php` | High
+10 | File | `/etc/networkd-dispatcher` | High
+11 | File | `/etc/openshift/server_priv.pem` | High
+12 | File | `/etc/shadow.sample` | High
+13 | File | `/expense-yearwise-reports-detailed.php` | High
+14 | File | `/goform/qosClassifier` | High
+15 | File | `/goform/setDmzInfo` | High
+16 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+17 | File | `/hedwig.cgi` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+20 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/notice-edit.php` | High
+23 | File | `/Noxen-master/users.php` | High
+24 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+25 | File | `/public/login.htm` | High
+26 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

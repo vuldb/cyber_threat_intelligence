@@ -19,21 +19,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.212.247](https://vuldb.com/?ip.2.56.212.247) | - | - | High
-2 | [5.178.2.214](https://vuldb.com/?ip.5.178.2.214) | - | - | High
-3 | [8.208.86.224](https://vuldb.com/?ip.8.208.86.224) | - | - | High
-4 | [8.209.71.17](https://vuldb.com/?ip.8.209.71.17) | - | - | High
-5 | [8.211.195.96](https://vuldb.com/?ip.8.211.195.96) | - | - | High
-6 | [34.65.142.243](https://vuldb.com/?ip.34.65.142.243) | 243.142.65.34.bc.googleusercontent.com | - | Medium
-7 | [34.90.166.4](https://vuldb.com/?ip.34.90.166.4) | 4.166.90.34.bc.googleusercontent.com | - | Medium
-8 | [34.91.253.186](https://vuldb.com/?ip.34.91.253.186) | 186.253.91.34.bc.googleusercontent.com | - | Medium
-9 | [34.94.171.115](https://vuldb.com/?ip.34.94.171.115) | 115.171.94.34.bc.googleusercontent.com | - | Medium
-10 | [34.106.112.240](https://vuldb.com/?ip.34.106.112.240) | 240.112.106.34.bc.googleusercontent.com | - | Medium
-11 | [35.203.73.169](https://vuldb.com/?ip.35.203.73.169) | 169.73.203.35.bc.googleusercontent.com | - | Medium
-12 | [35.228.242.21](https://vuldb.com/?ip.35.228.242.21) | 21.242.228.35.bc.googleusercontent.com | - | Medium
-13 | [37.0.8.225](https://vuldb.com/?ip.37.0.8.225) | avilalee.cartierevannucci.com | - | High
+2 | [5.79.102.209](https://vuldb.com/?ip.5.79.102.209) | Andy10gbit.is.rollin | - | High
+3 | [5.178.2.214](https://vuldb.com/?ip.5.178.2.214) | - | - | High
+4 | [8.208.86.224](https://vuldb.com/?ip.8.208.86.224) | - | - | High
+5 | [8.209.71.17](https://vuldb.com/?ip.8.209.71.17) | - | - | High
+6 | [8.211.195.96](https://vuldb.com/?ip.8.211.195.96) | - | - | High
+7 | [34.65.142.243](https://vuldb.com/?ip.34.65.142.243) | 243.142.65.34.bc.googleusercontent.com | - | Medium
+8 | [34.90.166.4](https://vuldb.com/?ip.34.90.166.4) | 4.166.90.34.bc.googleusercontent.com | - | Medium
+9 | [34.91.253.186](https://vuldb.com/?ip.34.91.253.186) | 186.253.91.34.bc.googleusercontent.com | - | Medium
+10 | [34.94.171.115](https://vuldb.com/?ip.34.94.171.115) | 115.171.94.34.bc.googleusercontent.com | - | Medium
+11 | [34.106.112.240](https://vuldb.com/?ip.34.106.112.240) | 240.112.106.34.bc.googleusercontent.com | - | Medium
+12 | [35.203.73.169](https://vuldb.com/?ip.35.203.73.169) | 169.73.203.35.bc.googleusercontent.com | - | Medium
+13 | [35.228.242.21](https://vuldb.com/?ip.35.228.242.21) | 21.242.228.35.bc.googleusercontent.com | - | Medium
 14 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -169,4 +169,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

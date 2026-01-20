@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -62,62 +63,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.encfs6.xml` | Medium
-2 | File | `.htaccess` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/addbill.php` | Medium
+1 | File | `.htaccess` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/addbill.php` | Medium
+4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/Admin/add-admin.php` | High
 6 | File | `/admin/admin_manage/delete` | High
-7 | File | `/admin/clientview.php` | High
-8 | File | `/admin/delete_user.php` | High
-9 | File | `/admin/edit-ambulance.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/manage-tickets.php` | High
-12 | File | `/admin/pages/` | High
-13 | File | `/admin/positions.php` | High
-14 | File | `/admin/video/list` | High
-15 | File | `/adminlogin.asp` | High
-16 | File | `/admins` | Low
-17 | File | `/ajax.php?action=update_account` | High
-18 | File | `/ajax/getBasicInfo.php` | High
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/application/index/controller/Icon.php` | High
-21 | File | `/apply/index.php` | High
-22 | File | `/boaform/device_reset.cgi` | High
-23 | File | `/cgformTemplateController.do?doAdd` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/classes/Master.php?f=save_category` | High
-27 | File | `/clientdetails/admin/regester.php` | High
-28 | File | `/collection/all` | High
-29 | File | `/config/php.ini` | High
-30 | File | `/course.php` | Medium
-31 | File | `/csms/?page=contact_us` | High
-32 | File | `/dl/dl_sendmail.php` | High
-33 | File | `/ecommerce/admin/products/controller.php` | High
-34 | File | `/etc/ajenti/config.yml` | High
-35 | File | `/etc/passwd` | Medium
-36 | File | `/farm/product.php` | High
-37 | File | `/file-manager/rename.php` | High
-38 | File | `/forms/nslookupHandler` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/function/booksave.php` | High
-41 | File | `/goform/AdvSetMacMtuWa` | High
-42 | File | `/goform/aspForm` | High
-43 | File | `/goform/exeCommand` | High
-44 | File | `/goform/form2userconfig.cgi` | High
-45 | File | `/goform/formWPS` | High
-46 | File | `/goform/getOneApConfTempEntry` | High
-47 | File | `/goform/setcfm` | High
-48 | File | `/goform/SetPptpServerCfg` | High
-49 | File | `/goform/SetSysTimeCfg` | High
-50 | File | `/goform/set_delshrpath_cfg` | High
-51 | File | `/goform/telnet` | High
-52 | File | `/goform/WifiWpsStart` | High
-53 | File | `/goform/WizardHandle` | High
-54 | ... | ... | ...
+7 | File | `/admin/archives_add.php` | High
+8 | File | `/admin/categories/save` | High
+9 | File | `/admin/clientview.php` | High
+10 | File | `/admin/contact-us.php` | High
+11 | File | `/admin/delete_user.php` | High
+12 | File | `/admin/edit-ambulance.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage-tickets.php` | High
+15 | File | `/admin/newsletterdel.php` | High
+16 | File | `/admin/pages/` | High
+17 | File | `/admin/positions.php` | High
+18 | File | `/admin/receipt.php` | High
+19 | File | `/admin/video/list` | High
+20 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+21 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+22 | File | `/admins` | Low
+23 | File | `/ajax.php?action=login` | High
+24 | File | `/ajax.php?action=update_account` | High
+25 | File | `/ajax/getBasicInfo.php` | High
+26 | File | `/api/admin/system/store/order/list` | High
+27 | File | `/api/files/recipepictures/` | High
+28 | File | `/application/index/controller/Icon.php` | High
+29 | File | `/apply/index.php` | High
+30 | File | `/auth/user/all.api` | High
+31 | File | `/authentication.cgi` | High
+32 | File | `/boaform/device_reset.cgi` | High
+33 | File | `/boafrm/formDdns` | High
+34 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+35 | File | `/boafrm/formVpnConfigSetup` | High
+36 | File | `/cgformTemplateController.do?doAdd` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/classes/Master.php?f=save_category` | High
+40 | File | `/clientdetails/admin/regester.php` | High
+41 | File | `/collection/all` | High
+42 | File | `/config/php.ini` | High
+43 | File | `/course.php` | Medium
+44 | File | `/csms/?page=contact_us` | High
+45 | File | `/detailtransac.php` | High
+46 | File | `/dev/ptpX` | Medium
+47 | File | `/dl/dl_sendmail.php` | High
+48 | File | `/ecommerce/admin/products/controller.php` | High
+49 | File | `/editeddonor.php` | High
+50 | File | `/editprofile.php` | High
+51 | File | `/etc/passwd` | Medium
+52 | File | `/farm/product.php` | High
+53 | File | `/file-manager/rename.php` | High
+54 | File | `/foreigner-search.php` | High
+55 | File | `/forms/nslookupHandler` | High
+56 | File | `/forum/away.php` | High
+57 | File | `/function.php` | High
+58 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -140,4 +145,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

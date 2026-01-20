@@ -19,9 +19,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,47 +58,48 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [45.135.134.139](https://vuldb.com/?ip.45.135.134.139) | ckus.site | - | High
 31 | [46.29.234.46](https://vuldb.com/?ip.46.29.234.46) | lvser.ip-ptr.tech | - | High
 32 | [62.133.62.73](https://vuldb.com/?ip.62.133.62.73) | 41366.ip-ptr.tech | - | High
-33 | [67.205.160.237](https://vuldb.com/?ip.67.205.160.237) | - | - | High
-34 | [68.183.2.92](https://vuldb.com/?ip.68.183.2.92) | - | - | High
-35 | [68.183.3.178](https://vuldb.com/?ip.68.183.3.178) | - | - | High
-36 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
-37 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
-38 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
-39 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
-40 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
-41 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
-42 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
-43 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
-44 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
-45 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
-46 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
-47 | [80.66.79.91](https://vuldb.com/?ip.80.66.79.91) | vm13861.hyper.hosting | Remcos | High
-48 | [80.66.79.155](https://vuldb.com/?ip.80.66.79.155) | 80.66.79.155.hyper.hosting | Remcos | High
-49 | [80.66.79.159](https://vuldb.com/?ip.80.66.79.159) | - | Remcos | High
-50 | [80.66.79.195](https://vuldb.com/?ip.80.66.79.195) | vm12767.hyper.hosting | Remcos | High
-51 | [80.66.79.200](https://vuldb.com/?ip.80.66.79.200) | legendary.com | Remcos | High
-52 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
-53 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
-54 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
-55 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
-56 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
-57 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
-58 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
-59 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
-60 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
-61 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
-62 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
-63 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
-64 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
-65 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
-66 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
-67 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
-68 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
-69 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
-70 | [80.90.181.107](https://vuldb.com/?ip.80.90.181.107) | 1583065-cb93126.twc1.net | - | High
-71 | ... | ... | ... | ...
+33 | [64.176.173.164](https://vuldb.com/?ip.64.176.173.164) | 64.176.173.164.vultrusercontent.com | Ukraine | Medium
+34 | [67.205.160.237](https://vuldb.com/?ip.67.205.160.237) | - | - | High
+35 | [68.183.2.92](https://vuldb.com/?ip.68.183.2.92) | - | - | High
+36 | [68.183.3.178](https://vuldb.com/?ip.68.183.3.178) | - | - | High
+37 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
+38 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
+39 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
+40 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
+41 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
+42 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
+43 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
+44 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
+45 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
+46 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
+47 | [77.46.148.242](https://vuldb.com/?ip.77.46.148.242) | srv.biznisoblak.rs | Ukraine | High
+48 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
+49 | [80.66.79.91](https://vuldb.com/?ip.80.66.79.91) | vm13861.hyper.hosting | Remcos | High
+50 | [80.66.79.155](https://vuldb.com/?ip.80.66.79.155) | 80.66.79.155.hyper.hosting | Remcos | High
+51 | [80.66.79.159](https://vuldb.com/?ip.80.66.79.159) | - | Remcos | High
+52 | [80.66.79.195](https://vuldb.com/?ip.80.66.79.195) | vm12767.hyper.hosting | Remcos | High
+53 | [80.66.79.200](https://vuldb.com/?ip.80.66.79.200) | legendary.com | Remcos | High
+54 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
+55 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
+56 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
+57 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
+58 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
+59 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
+60 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
+61 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
+62 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
+63 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
+64 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
+65 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
+66 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
+67 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
+68 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
+69 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
+70 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
+71 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
+72 | ... | ... | ... | ...
 
-There are 278 more IOC items available. Please use our online service to access the data.
+There are 285 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -109,12 +107,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-37 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,12 +120,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.git/` | Low
-2 | File | `/cgi-bin/cstecgi.cgi` | High
-3 | File | `bitrix/modules/main/tools.php` | High
+1 | File | `/config/pw_changeusers.html` | High
+2 | File | `/lists/admin/` | High
+3 | File | `host.c` | Low
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,6 +150,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/
 * https://www.fortinet.com/blog/threat-research/gamaredon-group-ttp-profile-analysis.html
 * https://www.fortinet.com/jp/blog/threat-research/gamaredon-group-ttp-profile-analysis
+* https://www.welivesecurity.com/en/eset-research/gamaredon-x-turla-collab/
 
 ## Literature
 
@@ -162,4 +161,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -44,10 +44,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,57 +57,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `.git/` | Low
-3 | File | `/Admin/changepassword.php` | High
-4 | File | `/admin/fields/manage_field.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/upload.php` | High
-9 | File | `/admin/user/user-move-run.php` | High
-10 | File | `/adminapi/system/crud` | High
-11 | File | `/ajax_city.php` | High
-12 | File | `/analysisProject/pagingQueryData` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/snapshots/` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/upload.php` | High
-17 | File | `/api/wizard/getWifiNeighbour` | High
-18 | File | `/application/index/controller/Databasesource.php` | High
-19 | File | `/ari/asterisk/variable` | High
-20 | File | `/backend/register.php` | High
-21 | File | `/blog` | Low
-22 | File | `/boaform/getASPdata/formFirewall` | High
-23 | File | `/boafrm/formParentControl` | High
-24 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-25 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/download_config.cgi` | High
-28 | File | `/cgi-bin/sessions/get-temp-file` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/change-password.php` | High
-31 | File | `/client/manage/ourphp_out.php` | High
-32 | File | `/config/config.json` | High
-33 | File | `/control/register_case.php` | High
-34 | File | `/control/WANIPConnection` | High
-35 | File | `/debug/pprof` | Medium
-36 | File | `/display/map` | Medium
-37 | File | `/dottie.js` | Medium
-38 | File | `/dtale/chart-data/1` | High
-39 | File | `/Employer/EditProfile.php` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/goform/apPortalPhoneAuth` | High
-42 | File | `/goform/setcfm` | High
-43 | File | `/HNAP1` | Low
-44 | File | `/index.php?menu=asterisk_cli` | High
-45 | File | `/index/ajax/lang` | High
-46 | File | `/jeecg-boot/jmreport/show` | High
-47 | File | `/kortex_lite/control/edit_profile.php` | High
-48 | File | `/listplace/user/ticket/create` | High
-49 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-50 | File | `/manage_sy.php` | High
+3 | File | `/admin-cp/menus` | High
+4 | File | `/Admin/changepassword.php` | High
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage_academic.php` | High
+9 | File | `/admin/upload.php` | High
+10 | File | `/admin/user/user-move-run.php` | High
+11 | File | `/adminapi/system/crud` | High
+12 | File | `/ajax_city.php` | High
+13 | File | `/analysisProject/pagingQueryData` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/snapshots/` | High
+16 | File | `/api/sys/login` | High
+17 | File | `/api/upload.php` | High
+18 | File | `/api/wizard/getWifiNeighbour` | High
+19 | File | `/application/index/controller/Databasesource.php` | High
+20 | File | `/ari/asterisk/variable` | High
+21 | File | `/backend/register.php` | High
+22 | File | `/blog` | Low
+23 | File | `/boaform/getASPdata/formFirewall` | High
+24 | File | `/boafrm/formParentControl` | High
+25 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+26 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=exportOvpn&type=user` | High
+29 | File | `/cgi-bin/download_config.cgi` | High
+30 | File | `/cgi-bin/sessions/get-temp-file` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/change-password.php` | High
+33 | File | `/client/manage/ourphp_out.php` | High
+34 | File | `/config/config.json` | High
+35 | File | `/control/register_case.php` | High
+36 | File | `/control/WANIPConnection` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/delete.php` | Medium
+39 | File | `/display/map` | Medium
+40 | File | `/Doc/deleteDoc.do` | High
+41 | File | `/dottie.js` | Medium
+42 | File | `/dtale/chart-data/1` | High
+43 | File | `/Employer/EditProfile.php` | High
+44 | File | `/forgot-password.php` | High
+45 | File | `/fort/portal_login` | High
+46 | File | `/forum/away.php` | High
+47 | File | `/goform/apPortalPhoneAuth` | High
+48 | File | `/goform/setcfm` | High
+49 | File | `/HNAP1` | Low
+50 | File | `/index.php?menu=asterisk_cli` | High
 51 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

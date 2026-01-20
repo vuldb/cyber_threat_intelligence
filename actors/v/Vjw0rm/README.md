@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vjw0rm:
 
-* [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,9 +52,13 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [45.137.116.156](https://vuldb.com/?ip.45.137.116.156) | vps-zap937104-1.zap-srv.com | - | High
 30 | [45.139.105.174](https://vuldb.com/?ip.45.139.105.174) | - | - | High
 31 | [45.141.237.3](https://vuldb.com/?ip.45.141.237.3) | - | - | High
-32 | ... | ... | ... | ...
+32 | [45.155.165.70](https://vuldb.com/?ip.45.155.165.70) | - | - | High
+33 | [46.183.220.121](https://vuldb.com/?ip.46.183.220.121) | ip-220-121.dataclub.info | - | High
+34 | [46.183.223.46](https://vuldb.com/?ip.46.183.223.46) | ip-223-46.dataclub.info | - | High
+35 | [46.246.4.2](https://vuldb.com/?ip.46.246.4.2) | c-46-246-4-2.ip4.frootvpn.com | - | High
+36 | ... | ... | ... | ...
 
-There are 124 more IOC items available. Please use our online service to access the data.
+There are 142 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,7 +73,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,46 +81,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/booking-bwdates-reports-details.php` | High
-2 | File | `/admin/category/cate-edit-run.php` | High
-3 | File | `/admin/file_manager/export` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/pages/` | High
-6 | File | `/admin/search-appointment.php` | High
-7 | File | `/adminPage/conf/reload` | High
-8 | File | `/admins` | Low
-9 | File | `/admin_topic.php?action=delall` | High
-10 | File | `/ajax/getBasicInfo.php` | High
-11 | File | `/api/admin/system/store/order/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-14 | File | `/api/cron/settings/setJob/` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/api/v2/open/rowsInfo` | High
-17 | File | `/api/v4/users/ids` | High
-18 | File | `/api2/html/` | Medium
-19 | File | `/apply.cgi` | Medium
-20 | File | `/bbdms/sign-up.php` | High
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/clientdetails/admin/regester.php` | High
-26 | File | `/csms/?page=contact_us` | High
-27 | File | `/cwms/classes/Master.php?f=save_contact` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/etc/shadow` | Medium
-32 | File | `/farm/product.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/setWrlFilterList` | High
-35 | File | `/goform/WifiExtraSet` | High
-36 | File | `/h/rest` | Low
-37 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
-38 | ... | ... | ...
+1 | File | `/admin/archives_add.php` | High
+2 | File | `/admin/booking-bwdates-reports-details.php` | High
+3 | File | `/admin/categories/save` | High
+4 | File | `/admin/category/cate-edit-run.php` | High
+5 | File | `/admin/contact-us.php` | High
+6 | File | `/admin/delete_user.php` | High
+7 | File | `/admin/file_manager/export` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/pages/` | High
+11 | File | `/admin/positions.php` | High
+12 | File | `/admin/receipt.php` | High
+13 | File | `/admin/search-appointment.php` | High
+14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+16 | File | `/adminPage/conf/reload` | High
+17 | File | `/admins` | Low
+18 | File | `/admin_topic.php?action=delall` | High
+19 | File | `/ajax.php?action=login` | High
+20 | File | `/ajax/getBasicInfo.php` | High
+21 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+22 | File | `/api/cron/settings/setJob/` | High
+23 | File | `/api/files/recipepictures/` | High
+24 | File | `/api/v2/open/rowsInfo` | High
+25 | File | `/api2/html/` | Medium
+26 | File | `/authentication.cgi` | High
+27 | File | `/bbdms/sign-up.php` | High
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/boafrm/formDdns` | High
+30 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+31 | File | `/boafrm/formVpnConfigSetup` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/clientdetails/admin/regester.php` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/detailtransac.php` | High
+38 | File | `/dev/ptpX` | Medium
+39 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+40 | File | `/editeddonor.php` | High
+41 | File | `/editprofile.php` | High
+42 | File | `/farm/product.php` | High
+43 | File | `/foreigner-search.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/function.php` | High
+46 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,6 +149,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220727-rxwv8segbr
 * https://twitter.com/petrovic082/status/1580612096152068099
 * https://urlhaus.abuse.ch/url/3549097/
+* https://urlhaus.abuse.ch/url/3596489/
 * https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape
 
 ## Literature
@@ -148,4 +161,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

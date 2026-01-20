@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,14 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-29, CWE-37, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-37, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,51 +56,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/activation.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/aboutus.php` | High
-5 | File | `/admin/add-services.php` | High
-6 | File | `/admin/ajax.php?action=save_settings` | High
-7 | File | `/admin/edit-services.php` | High
-8 | File | `/admin/forgot-password.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/ajax/get_patient_history.php` | High
-11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-12 | File | `/api/ping` | Medium
-13 | File | `/backend/register.php` | High
-14 | File | `/boafrm/formSysCmd` | High
-15 | File | `/boat/login.php` | High
-16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/gui.cgi` | High
-19 | File | `/cgi-bin/hd_config.cgi` | High
-20 | File | `/cgi-bin/mft/` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php?f=save_inquiry` | High
-23 | File | `/clinic/disease_symptoms_view.php` | High
-24 | File | `/component_server` | High
-25 | File | `/config-manager/save` | High
-26 | File | `/core/config-revisions` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/dashboard/table-list.php` | High
-29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-30 | File | `/devinfo` | Medium
-31 | File | `/diagnostics_doit` | High
-32 | File | `/doctor/view-appointment-detail.php` | High
-33 | File | `/downloadFile.php` | High
-34 | File | `/DXR.axd` | Medium
-35 | File | `/edit-client-details.php` | High
-36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | File | `/goform/goform_get_cmd_process` | High
-38 | File | `/goform/saveParentControlInfo` | High
-39 | File | `/ims/login.php` | High
-40 | File | `/include/file.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?menu=asterisk_cli` | High
-43 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.php.gif` | Medium
+3 | File | `/activation.php` | High
+4 | File | `/addCandidate.php` | High
+5 | File | `/addcategory.php` | High
+6 | File | `/add_member.php` | High
+7 | File | `/add_query_reserve.php` | High
+8 | File | `/add_to_cart` | Medium
+9 | File | `/admin.php?p=/Area/index#tab=t2` | High
+10 | File | `/admin/` | Low
+11 | File | `/admin/aboutus.php` | High
+12 | File | `/admin/add-foreigner-ticket.php` | High
+13 | File | `/admin/add-services.php` | High
+14 | File | `/admin/admin_product.php` | High
+15 | File | `/admin/ajax.php?action=save_settings` | High
+16 | File | `/Admin/changepassword.php` | High
+17 | File | `/admin/checklogin.php` | High
+18 | File | `/admin/delete_s5.php` | High
+19 | File | `/admin/edit-services.php` | High
+20 | File | `/admin/forgot-password.php` | High
+21 | File | `/admin/index.php` | High
+22 | File | `/admin/index.php/datafile/download` | High
+23 | File | `/admin/login` | Medium
+24 | File | `/admin/update_student.php` | High
+25 | File | `/admindetail.php?action=edit` | High
+26 | File | `/ajax.php?action=login` | High
+27 | File | `/ajax.php?action=save_course` | High
+28 | File | `/ajax/get_patient_history.php` | High
+29 | File | `/ajax/screenshot.php` | High
+30 | File | `/api/admin/update_account/` | High
+31 | File | `/api/blade-user/submit` | High
+32 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+33 | File | `/api/ping` | Medium
+34 | File | `/backend/register.php` | High
+35 | File | `/boafrm/formDebugDiagnosticRun` | High
+36 | File | `/boafrm/formSysCmd` | High
+37 | File | `/boafrm/formWanConfigSetup` | High
+38 | File | `/boat/login.php` | High
+39 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/gui.cgi` | High
+42 | File | `/cgi-bin/hd_config.cgi` | High
+43 | File | `/cgi-bin/mft/` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/classes/Master.php?f=save_inquiry` | High
+46 | File | `/clinic/disease_symptoms_view.php` | High
+47 | File | `/component_server` | High
+48 | File | `/config-manager/save` | High
+49 | File | `/core/config-revisions` | High
+50 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -57,47 +57,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/admin.php` | High
 5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/form/save` | High
-7 | File | `/admin/makehtml_freelist_action.php` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/nav/save` | High
-10 | File | `/admin/slide/update` | High
-11 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-12 | File | `/ample/app/action/edit_product.php` | High
-13 | File | `/api/controllers/merchant/app/ComboController.php` | High
-14 | File | `/api/dashboard/activity` | High
-15 | File | `/api/system/sessions` | High
-16 | File | `/appliance/users?action=edit` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/arp_sys.asp` | Medium
-19 | File | `/blog` | Low
-20 | File | `/boafrm/formParentControl` | High
-21 | File | `/boafrm/formWlSiteSurvey` | High
-22 | File | `/browse` | Low
-23 | File | `/bypass/config` | High
-24 | File | `/catalog/compare` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/classes/Master.php?f=delete_img` | High
-27 | File | `/classes/Master.php?f=save_category` | High
-28 | File | `/config/api/v1/reboot` | High
-29 | File | `/cupseasylive/grnprint.php` | High
-30 | File | `/cupseasylive/stock.php` | High
-31 | File | `/cupseasylive/stockissuancedisplay.php` | High
-32 | File | `/cupseasylive/taxstructurelist.php` | High
-33 | File | `/ddns.asp?opt=add` | High
-34 | File | `/dev/audio` | Medium
-35 | File | `/dev/kmem` | Medium
-36 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
-37 | File | `/endpoint/delete-account.php` | High
-38 | File | `/etc/hosts.deny` | High
-39 | File | `/etc_ro/smb.conf` | High
-40 | File | `/formLoginAuth.htm` | High
-41 | File | `/goform/AdvSetWrlsafeset` | High
-42 | File | `/goform/formAdvanceSetup` | High
-43 | File | `/goform/formSetWanDhcpplus` | High
-44 | ... | ... | ...
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/admin/form/save` | High
+8 | File | `/admin/makehtml_freelist_action.php` | High
+9 | File | `/admin/modal_add_product.php` | High
+10 | File | `/admin/nav/save` | High
+11 | File | `/admin/slide/update` | High
+12 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+13 | File | `/ample/app/action/edit_product.php` | High
+14 | File | `/api/controllers/merchant/app/ComboController.php` | High
+15 | File | `/api/dashboard/activity` | High
+16 | File | `/api/system/sessions` | High
+17 | File | `/appliance/users?action=edit` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/arp_sys.asp` | Medium
+20 | File | `/blog` | Low
+21 | File | `/boafrm/formParentControl` | High
+22 | File | `/boafrm/formWlSiteSurvey` | High
+23 | File | `/browse` | Low
+24 | File | `/bypass/config` | High
+25 | File | `/catalog/compare` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/classes/Master.php?f=delete_img` | High
+28 | File | `/classes/Master.php?f=delete_service` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/common/show_image.php` | High
+31 | File | `/contact-us.php` | High
+32 | File | `/control/player?center&eventlist&pda&dummy_for_reload=1736177631&p_evt` | High
+33 | File | `/cupseasylive/grnprint.php` | High
+34 | File | `/cupseasylive/stock.php` | High
+35 | File | `/cupseasylive/stockissuancedisplay.php` | High
+36 | File | `/cupseasylive/taxstructurelist.php` | High
+37 | File | `/ddns.asp?opt=add` | High
+38 | File | `/dev/audio` | Medium
+39 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
+40 | File | `/endpoint/delete-account.php` | High
+41 | File | `/etc/hosts.deny` | High
+42 | File | `/etc_ro/smb.conf` | High
+43 | File | `/formLoginAuth.htm` | High
+44 | File | `/goform/AdvSetWrlsafeset` | High
+45 | File | `/goform/formAdvanceSetup` | High
+46 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

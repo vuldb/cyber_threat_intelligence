@@ -119,21 +119,24 @@ ID | Type | Indicator | Confidence
 64 | File | `/application/websocket/controller/Setting.php` | High
 65 | File | `/apply/index.php` | High
 66 | File | `/att_add.php` | Medium
-67 | File | `/backend/register.php` | High
-68 | File | `/bcms/admin/?page=user/list` | High
-69 | File | `/blog` | Low
-70 | File | `/blog-single.php` | High
-71 | File | `/book-services.php` | High
-72 | File | `/cgi-bin/adm.cgi` | High
-73 | File | `/cgi-bin/cstecgi.cgi` | High
-74 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-75 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-76 | File | `/classes/Master.php?f=save_inquiry` | High
-77 | File | `/classes/Users.php` | High
-78 | File | `/classes/Users.php?f=save` | High
-79 | ... | ... | ...
+67 | File | `/authentication.cgi` | High
+68 | File | `/backend/register.php` | High
+69 | File | `/bcms/admin/?page=user/list` | High
+70 | File | `/blog` | Low
+71 | File | `/blog-single.php` | High
+72 | File | `/book-services.php` | High
+73 | File | `/cgi-bin/adm.cgi` | High
+74 | File | `/cgi-bin/cstecgi.cgi` | High
+75 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+76 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+77 | File | `/classes/Master.php?f=save_inquiry` | High
+78 | File | `/classes/Users.php` | High
+79 | File | `/classes/Users.php?f=save` | High
+80 | File | `/collection/all` | High
+81 | File | `/control/deactivate_case.php` | High
+82 | ... | ... | ...
 
-There are 697 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 722 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,4 +155,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crimson RAT:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,9 +58,10 @@ ID | IP address | Hostname | Actor | Confidence
 26 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
 27 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | Medium
 28 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-29 | ... | ... | ... | ...
+29 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+30 | ... | ... | ... | ...
 
-There are 111 more IOC items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,13 +69,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,20 +84,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/pages/` | High
-3 | File | `/admin/positions.php` | High
-4 | File | `/admins` | Low
-5 | File | `/ajax/getBasicInfo.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/authentication.cgi` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clientdetails/admin/regester.php` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/archives_add.php` | High
+4 | File | `/admin/categories/save` | High
+5 | File | `/admin/contact-us.php` | High
+6 | File | `/admin/delete_user.php` | High
+7 | File | `/admin/newsletterdel.php` | High
+8 | File | `/admin/pages/` | High
+9 | File | `/admin/positions.php` | High
+10 | File | `/admin/receipt.php` | High
+11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+13 | File | `/admins` | Low
+14 | File | `/ajax.php?action=login` | High
+15 | File | `/ajax/getBasicInfo.php` | High
+16 | File | `/api/admin/system/store/order/list` | High
+17 | File | `/api/files/recipepictures/` | High
+18 | File | `/app/register.php?action=reg` | High
+19 | File | `/authentication.cgi` | High
+20 | File | `/boafrm/formDdns` | High
+21 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+22 | File | `/boafrm/formVpnConfigSetup` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/clientdetails/admin/regester.php` | High
+26 | File | `/csms/?page=contact_us` | High
+27 | File | `/detailtransac.php` | High
+28 | File | `/dev/ptpX` | Medium
+29 | File | `/editeddonor.php` | High
+30 | File | `/editprofile.php` | High
+31 | File | `/farm/product.php` | High
+32 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +148,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/145.223.69.212
 * https://search.censys.io/hosts/161.97.180.199
 * https://search.censys.io/hosts/165.140.85.87
+* https://search.censys.io/hosts/167.86.113.241
 * https://search.censys.io/hosts/172.86.80.211
 * https://search.censys.io/hosts/172.86.96.67
 * https://search.censys.io/hosts/172.86.109.207
@@ -134,6 +157,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227
 * https://search.censys.io/hosts/209.145.56.66
+* https://search.censys.io/hosts/209.200.246.43
+* https://search.censys.io/hosts/209.200.246.45
+* https://search.censys.io/hosts/209.200.246.183
 * https://search.censys.io/hosts/209.200.246.188
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
@@ -155,4 +181,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
