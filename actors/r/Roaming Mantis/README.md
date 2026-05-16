@@ -72,10 +72,9 @@ ID | Type | Indicator | Confidence
 2 | File | `/bin/protest` | Medium
 3 | File | `/cgi-bin/cstecgi.cgi` | High
 4 | File | `/cgi-bin/ExportSettings.sh` | High
-5 | File | `/getcfg.php` | Medium
-6 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

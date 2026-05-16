@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [62.133.60.113](https://vuldb.com/?ip.62.133.60.113) | 133187.ip-ptr.tech | - | High
-2 | [176.46.157.32](https://vuldb.com/?ip.176.46.157.32) | - | - | High
-3 | [178.16.55.189](https://vuldb.com/?ip.178.16.55.189) | - | - | High
+2 | [89.110.107.177](https://vuldb.com/?ip.89.110.107.177) | v613608.hosted-by-vdsina.com | - | High
+3 | [91.92.243.200](https://vuldb.com/?ip.91.92.243.200) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,14 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/delete_file.php` | High
-3 | File | `/admin/delete_user.php` | High
-4 | File | `/admin_members.php?ac=editsave` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/controllers/control.php` | High
-7 | ... | ... | ...
+2 | File | `/admin/changeimage.php` | High
+3 | File | `/admin/delete_file.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/edit-teacher-info.php` | High
+6 | File | `/admin_members.php?ac=editsave` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/backend/app/api/v1/module_system/params/controller.py` | High
+9 | File | `/boafrm/formSetLg` | High
+10 | File | `/controllers/control.php` | High
+11 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -64,6 +68,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3586428/
 * https://urlhaus.abuse.ch/url/3609127/
 * https://urlhaus.abuse.ch/url/3724209/
+* https://urlhaus.abuse.ch/url/3772051/
+* https://urlhaus.abuse.ch/url/3787422/
+* https://urlhaus.abuse.ch/url/3788364/
 * https://www.elastic.co/security-labs/taking-shellter
 
 ## Literature

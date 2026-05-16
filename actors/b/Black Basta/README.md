@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -92,33 +92,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/archives_add.php` | High
-2 | File | `/admin/categories/save` | High
-3 | File | `/admin/contact-us.php` | High
-4 | File | `/admin/delete_user.php` | High
-5 | File | `/admin/newsletterdel.php` | High
-6 | File | `/admin/pages/` | High
-7 | File | `/admin/positions.php` | High
-8 | File | `/admin/receipt.php` | High
-9 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-11 | File | `/admins` | Low
-12 | File | `/ajax.php?action=login` | High
-13 | File | `/ajax/getBasicInfo.php` | High
-14 | File | `/api/files/recipepictures/` | High
-15 | File | `/authentication.cgi` | High
-16 | File | `/boafrm/formDdns` | High
-17 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-18 | File | `/boafrm/formVpnConfigSetup` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/clientdetails/admin/regester.php` | High
-22 | File | `/detailtransac.php` | High
-23 | File | `/dev/ptpX` | Medium
-24 | File | `/editeddonor.php` | High
-25 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/archives_add.php` | High
+4 | File | `/admin/categories/save` | High
+5 | File | `/admin/contact-us.php` | High
+6 | File | `/admin/delete_user.php` | High
+7 | File | `/admin/newsletterdel.php` | High
+8 | File | `/admin/pages/` | High
+9 | File | `/admin/positions.php` | High
+10 | File | `/admin/receipt.php` | High
+11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+13 | File | `/admins` | Low
+14 | File | `/ajax.php?action=login` | High
+15 | File | `/ajax/getBasicInfo.php` | High
+16 | File | `/api/files/recipepictures/` | High
+17 | File | `/app/register.php?action=reg` | High
+18 | File | `/authentication.cgi` | High
+19 | File | `/boafrm/formDdns` | High
+20 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+21 | File | `/boafrm/formVpnConfigSetup` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/clientdetails/admin/regester.php` | High
+25 | File | `/detailtransac.php` | High
+26 | File | `/dev/ptpX` | Medium
+27 | File | `/editeddonor.php` | High
+28 | File | `/editprofile.php` | High
+29 | File | `/farm/product.php` | High
+30 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,4 +152,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

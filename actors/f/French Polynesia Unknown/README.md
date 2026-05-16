@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,15 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,57 +64,94 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\SSCService` | High
-2 | File | `../mtd/Config/Sha1Account1` | High
-3 | File | `/?g=log_import_save` | High
-4 | File | `/add-apartment.php` | High
-5 | File | `/adm/syscmd.asp` | High
-6 | File | `/admin-profile.php` | High
-7 | File | `/admin.php?p=/Area/index#tab=t2` | High
-8 | File | `/admin/` | Low
-9 | File | `/admin/adminproc.asp` | High
-10 | File | `/admin/chart1.php` | High
-11 | File | `/admin/create_product.php` | High
-12 | File | `/admin/email/send-test-email` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/manage-pages.php` | High
-15 | File | `/admin/mod_reports/index.php` | High
-16 | File | `/Admin/Proses_Edit_Akun.php` | High
-17 | File | `/adminPage/conf/reload` | High
-18 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
-19 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
-20 | File | `/api/admin/question/edit` | High
-21 | File | `/api/v1/dashboards/export` | High
-22 | File | `/api/v1/settings` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-25 | File | `/applications/nexus/modules/front/store/store.php` | High
-26 | File | `/auth/userkey/logout.php` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/bin/httpd` | Medium
-29 | File | `/boaform/device_reset.cgi` | High
-30 | File | `/browse.php` | Medium
-31 | File | `/car-rental-management-system/admin/view_car.php=` | High
-32 | File | `/CCMAdmin/serverlist.asp` | High
-33 | File | `/cgi` | Low
-34 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/glc` | Medium
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/ping.cgi` | High
-39 | File | `/cgi-bin/settings-firewall.cgi` | High
-40 | File | `/Control/Api/Api.php` | High
-41 | File | `/course/filterRecords/` | High
-42 | File | `/dashboard/admin/more-userprofile.php` | High
-43 | File | `/dashboard/admin/updateroutine.php` | High
-44 | File | `/dashboard/approve-reject.php` | High
-45 | File | `/debug/` | Low
-46 | File | `/debug/pprof` | Medium
-47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-48 | File | `/devinfo` | Medium
-49 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/adaddmed.php` | High
+3 | File | `/add-apartment.php` | High
+4 | File | `/addelivery.php` | High
+5 | File | `/admin-profile.php` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/category.php` | High
+8 | File | `/admin/chart1.php` | High
+9 | File | `/admin/deletedoctorclinic.php` | High
+10 | File | `/admin/delete_activity.php` | High
+11 | File | `/admin/email/send-test-email` | High
+12 | File | `/admin/manage-pages.php` | High
+13 | File | `/advancesearch.php` | High
+14 | File | `/ajax.php?action=save_course` | High
+15 | File | `/ajax.php?Ajax=GetModal_MQTTEdit` | High
+16 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+17 | File | `/api/front/search/books` | High
+18 | File | `/app/checkout/delete.php` | High
+19 | File | `/apply.cgi` | Medium
+20 | File | `/auth/userkey/logout.php` | High
+21 | File | `/avtools/avconv.c` | High
+22 | File | `/bank/transfer.php` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/bin/goahead` | Medium
+25 | File | `/bin/httpd` | Medium
+26 | File | `/boafrm/formDefRoute` | High
+27 | File | `/boafrm/formDMZ` | High
+28 | File | `/boafrm/formDosCfg` | High
+29 | File | `/boafrm/formFilter` | High
+30 | File | `/boafrm/formIpQoS` | High
+31 | File | `/boafrm/formIPv6Addr` | High
+32 | File | `/boafrm/formIpv6Setup` | High
+33 | File | `/boafrm/formNtp` | High
+34 | File | `/boafrm/formReflashClientTbl` | High
+35 | File | `/boafrm/formRoute` | High
+36 | File | `/boafrm/formSaveConfig` | High
+37 | File | `/boafrm/formSetLg` | High
+38 | File | `/boafrm/formStaticDHCP` | High
+39 | File | `/boafrm/formWlanRedirect` | High
+40 | File | `/boafrm/formWsc` | High
+41 | File | `/book-appointment.php` | High
+42 | File | `/browse.php` | Medium
+43 | File | `/cgi` | Low
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+46 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+47 | File | `/cgi-bin/ping.cgi` | High
+48 | File | `/checkout/confirm/` | High
+49 | File | `/common/logViewer/logViewer.jsf` | High
+50 | File | `/config/getuser` | High
+51 | File | `/Control/Api/Api.php` | High
+52 | File | `/course/filterRecords/` | High
+53 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
+54 | File | `/dashboard/admin/more-userprofile.php` | High
+55 | File | `/dashboard/admin/updateroutine.php` | High
+56 | File | `/datatable.php` | High
+57 | File | `/delete_account.php` | High
+58 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+59 | File | `/download.php` | High
+60 | File | `/dws/api/` | Medium
+61 | File | `/DXR.axd` | Medium
+62 | File | `/edit-staff/` | Medium
+63 | File | `/forum/away.php` | High
+64 | File | `/getcfg.php` | Medium
+65 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+66 | File | `/goform/AddDnsForward` | High
+67 | File | `/goform/addIpMacBind` | High
+68 | File | `/goform/addressNat` | High
+69 | File | `/goform/addWifiMacFilter` | High
+70 | File | `/goform/AdvSetLanip` | High
+71 | File | `/goform/DelDhcpRule` | High
+72 | File | `/goform/delFileName` | High
+73 | File | `/goform/delIpMacBind` | High
+74 | File | `/goform/DelPortMapping` | High
+75 | File | `/goform/DhcpSetSe` | High
+76 | File | `/goform/editUserName` | High
+77 | File | `/goform/execCommand` | High
+78 | File | `/goform/exeCommand` | High
+79 | File | `/goform/expandDlnaFile` | High
+80 | File | `/goform/fast_setting_wifi_set` | High
+81 | File | `/goform/formAdvanceSetup` | High
+82 | File | `/goform/formAdvFirewall` | High
+83 | File | `/goform/formdumpeasysetup` | High
+84 | File | `/goform/formEasySetPassword` | High
+85 | File | `/goform/formEasySetupWizard` | High
+86 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 759 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +170,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

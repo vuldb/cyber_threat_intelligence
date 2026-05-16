@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,15 +32,15 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.182.87.27](https://vuldb.com/?ip.5.182.87.27) | - | - | High
 4 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
 5 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
-6 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
-7 | [45.61.185.34](https://vuldb.com/?ip.45.61.185.34) | - | - | High
-8 | [45.145.167.117](https://vuldb.com/?ip.45.145.167.117) | hms16304.hostmyservers.me | - | High
-9 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
-10 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
-11 | [77.105.146.254](https://vuldb.com/?ip.77.105.146.254) | doubtful-reason.aeza.network | - | High
+6 | [31.220.45.120](https://vuldb.com/?ip.31.220.45.120) | rhel9-satellite.vincenzomele.it | - | High
+7 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
+8 | [45.61.185.34](https://vuldb.com/?ip.45.61.185.34) | - | - | High
+9 | [45.145.167.117](https://vuldb.com/?ip.45.145.167.117) | hms16304.hostmyservers.me | - | High
+10 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
+11 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
 12 | ... | ... | ... | ...
 
-There are 43 more IOC items available. Please use our online service to access the data.
+There are 44 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,50 +87,51 @@ ID | Type | Indicator | Confidence
 22 | File | `/admin/sales/view_details.php` | High
 23 | File | `/admin/settings/users/edit/` | High
 24 | File | `/admin/update_room.php` | High
-25 | File | `/admin_class.php` | High
-26 | File | `/alphaware/summary.php` | High
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/dept` | Medium
-29 | File | `/api/swaggerui/static` | High
-30 | File | `/api /v3/auth` | High
-31 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
-32 | File | `/apply.cgi` | Medium
-33 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-35 | File | `/backend/admin/his_admin_register_patient.php` | High
-36 | File | `/book_list.php` | High
-37 | File | `/cas/logout` | Medium
-38 | File | `/cgAutoListController.do?datagrid` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-41 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-42 | File | `/cgi-bin/login_action.cgi` | High
-43 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-44 | File | `/cgi-bin/tosei_kikai.php` | High
-45 | File | `/classes/Master.php` | High
-46 | File | `/classes/Master.php?f=delete_category` | High
-47 | File | `/classes/SystemSettings.php?f=update_settings` | High
-48 | File | `/collection/all` | High
-49 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-50 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
-51 | File | `/command_port.ini` | High
-52 | File | `/cupseasylive/countrymodify.php` | High
-53 | File | `/cupseasylive/taxstructurelist.php` | High
-54 | File | `/dcim/rack/` | Medium
-55 | File | `/deal/{note_id}/note` | High
-56 | File | `/decoration/admin/update_image.php` | High
-57 | File | `/endpoint/add-user.php` | High
-58 | File | `/endpoint/delete-expense.php` | High
-59 | File | `/endpoint/update-bookmark.php` | High
-60 | File | `/file/delete.php` | High
-61 | File | `/file/upload/1` | High
-62 | File | `/filemanager/upload` | High
-63 | File | `/filex/read-raw` | High
-64 | File | `/forgot.php` | Medium
-65 | File | `/forum/away.php` | High
-66 | ... | ... | ...
+25 | File | `/admin/usersettingdel.php` | High
+26 | File | `/admin_class.php` | High
+27 | File | `/alphaware/summary.php` | High
+28 | File | `/api/baskets/{name}` | High
+29 | File | `/api/dept` | Medium
+30 | File | `/api/swaggerui/static` | High
+31 | File | `/api /v3/auth` | High
+32 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+33 | File | `/apply.cgi` | Medium
+34 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+36 | File | `/backend/admin/his_admin_register_patient.php` | High
+37 | File | `/book_list.php` | High
+38 | File | `/cas/logout` | Medium
+39 | File | `/cgAutoListController.do?datagrid` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+43 | File | `/cgi-bin/login_action.cgi` | High
+44 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+45 | File | `/cgi-bin/tosei_kikai.php` | High
+46 | File | `/checkout/ConfirmOrder/` | High
+47 | File | `/classes/Master.php` | High
+48 | File | `/classes/Master.php?f=delete_category` | High
+49 | File | `/classes/SystemSettings.php?f=update_settings` | High
+50 | File | `/collection/all` | High
+51 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+52 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+53 | File | `/command_port.ini` | High
+54 | File | `/cupseasylive/countrymodify.php` | High
+55 | File | `/cupseasylive/taxstructurelist.php` | High
+56 | File | `/dcim/rack/` | Medium
+57 | File | `/deal/{note_id}/note` | High
+58 | File | `/decoration/admin/update_image.php` | High
+59 | File | `/edit_upatient.php` | High
+60 | File | `/endpoint/add-user.php` | High
+61 | File | `/endpoint/delete-expense.php` | High
+62 | File | `/endpoint/update-bookmark.php` | High
+63 | File | `/file/delete.php` | High
+64 | File | `/file/upload/1` | High
+65 | File | `/filemanager/upload` | High
+66 | File | `/filex/read-raw` | High
+67 | ... | ... | ...
 
-There are 580 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 591 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -170,6 +171,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=212.113.116.56
 * https://twitter.com/Jane_0sint/status/1670048531665518592
 * https://www.bitdefender.com/blog/businessinsights/medusa-ransomware-a-growing-threat-with-a-bold-online-presence/
+* https://www.darktrace.com/blog/under-medusas-gaze-how-darktrace-uncovers-rmm-abuse-in-ransomware-campaigns
 
 ## Literature
 
@@ -180,4 +182,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 52 | File | `/model/update_grade.php` | High
 53 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

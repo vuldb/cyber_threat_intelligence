@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [52.162.121.170](https://vuldb.com/?ip.52.162.121.170) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,10 +62,11 @@ ID | Type | Indicator | Confidence
 12 | File | `/php_action/createUser.php` | High
 13 | File | `/resource/addgood.php` | High
 14 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-15 | File | `/Tool/querysql.php` | High
-16 | ... | ... | ...
+15 | File | `/src/assimp/code/AssetLib/LWO/LWOMaterial.cpp` | High
+16 | File | `/Tool/querysql.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3733381/
 * https://urlhaus.abuse.ch/url/3736067/
 * https://urlhaus.abuse.ch/url/3743411/
+* https://urlhaus.abuse.ch/url/3763874/
 
 ## Literature
 

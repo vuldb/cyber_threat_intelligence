@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,40 +66,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts_con/register_account` | High
 2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/assigned-requests.php` | High
-5 | File | `/admin/change-image.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/File/pictureUpload` | High
-8 | File | `/admin/modules/product/controller.php?action=add` | High
-9 | File | `/Admin/News.php` | High
-10 | File | `/admin/update.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin_class.php` | High
-13 | File | `/ajax.php?action=save_establishment` | High
-14 | File | `/anony/mjpg.cgi` | High
-15 | File | `/api/admin/user` | High
-16 | File | `/api/stl/actions/search` | High
-17 | File | `/app/action/add_staff.php` | High
-18 | File | `/app/ajax/sell_return_data.php` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/classes/Master.php?f=delete_inquiry` | High
-21 | File | `/collect/PortV4/downLoad.html` | High
-22 | File | `/conf/app.conf` | High
-23 | File | `/cstecgi.cgi` | Medium
-24 | File | `/dipam/athlete-profile.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/freelance/resume_list` | High
-27 | File | `/goform/DHCPReserveAddGroup` | High
-28 | File | `/goform/setPWDbyBBS` | High
-29 | File | `/goform/SetVirtualServerCfg` | High
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/item/item_con` | High
-32 | File | `/log/wifi.mac` | High
-33 | File | `/login.php` | Medium
-34 | ... | ... | ...
+3 | File | `/admin/add-module.php` | High
+4 | File | `/admin/add_category.php` | High
+5 | File | `/admin/admin_user.php` | High
+6 | File | `/admin/assigned-requests.php` | High
+7 | File | `/admin/change-image.php` | High
+8 | File | `/admin/delete_activity.php` | High
+9 | File | `/admin/delete_user.php` | High
+10 | File | `/admin/File/pictureUpload` | High
+11 | File | `/admin/modules/product/controller.php?action=add` | High
+12 | File | `/Admin/News.php` | High
+13 | File | `/admin/update.php` | High
+14 | File | `/admin/user/manage_user.php` | High
+15 | File | `/admin_class.php` | High
+16 | File | `/ajax.php?action=save_establishment` | High
+17 | File | `/anony/mjpg.cgi` | High
+18 | File | `/api/admin/user` | High
+19 | File | `/api/stl/actions/search` | High
+20 | File | `/app/action/add_staff.php` | High
+21 | File | `/app/ajax/sell_return_data.php` | High
+22 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/classes/Master.php?f=delete_inquiry` | High
+25 | File | `/collect/PortV4/downLoad.html` | High
+26 | File | `/conf/app.conf` | High
+27 | File | `/cstecgi.cgi` | Medium
+28 | File | `/dipam/athlete-profile.php` | High
+29 | File | `/enroll.php` | Medium
+30 | File | `/exam/user/profile.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/freelance/resume_list` | High
+33 | File | `/goform/DHCPReserveAddGroup` | High
+34 | File | `/goform/exeCommand` | High
+35 | File | `/goform/setPWDbyBBS` | High
+36 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

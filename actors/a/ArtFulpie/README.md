@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
-* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -47,41 +47,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/loginc.php` | High
 3 | File | `/admin/students/view_student.php` | High
 4 | File | `/Applications/Calculator.app/Contents/MacOS/Calculator` | High
-5 | File | `/cgi-bin/` | Medium
-6 | File | `/cgi-bin/luci` | High
-7 | File | `/common/info.cgi` | High
-8 | File | `/config.cgi?webmin` | High
-9 | File | `/data/inc/images.php` | High
-10 | File | `/dev/block/mmcblk0rpmb` | High
-11 | File | `/edit` | Low
-12 | File | `/etc/passwd` | Medium
-13 | File | `/etc/stunnel.key` | High
-14 | File | `/etc/sysconfig/btrfsmaintenance` | High
-15 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
-16 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-17 | File | `/hospital/hms/admin/manage-doctors.php` | High
-18 | File | `/job-details` | Medium
-19 | File | `/mib.db` | Low
-20 | File | `/page/add` | Medium
-21 | File | `/spip.php` | Medium
-22 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-23 | File | `/system-info/health` | High
-24 | File | `/tmp/s48lose.tmp` | High
-25 | File | `/tmp/xbindkeysrc-tmp` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/local` | Medium
-28 | File | `/var/log/nginx` | High
-29 | File | `/var/run/jboss-eap/` | High
-30 | File | `admin-ajax.php` | High
-31 | File | `admin.jcomments.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
-34 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-35 | File | `admin/admin_log/index.html?user_id` | High
-36 | File | `admin/admin_menu.php` | High
+5 | File | `/auth/userkey/logout.php` | High
+6 | File | `/cgi-bin/` | Medium
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/common/info.cgi` | High
+9 | File | `/config.cgi?webmin` | High
+10 | File | `/data/inc/images.php` | High
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/edit` | Low
+13 | File | `/equipment/get_Information` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/etc/stunnel.key` | High
+16 | File | `/etc/sysconfig/btrfsmaintenance` | High
+17 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
+18 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
+19 | File | `/hospital/hms/admin/manage-doctors.php` | High
+20 | File | `/job-details` | Medium
+21 | File | `/mib.db` | Low
+22 | File | `/page/add` | Medium
+23 | File | `/spip.php` | Medium
+24 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+25 | File | `/system-info/health` | High
+26 | File | `/tmp/s48lose.tmp` | High
+27 | File | `/tmp/xbindkeysrc-tmp` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local` | Medium
+30 | File | `/var/log/nginx` | High
+31 | File | `/var/run/jboss-eap/` | High
+32 | File | `admin-ajax.php` | High
+33 | File | `admin.jcomments.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
+36 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
 37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

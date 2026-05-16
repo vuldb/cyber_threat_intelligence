@@ -19,10 +19,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.124.45.146](https://vuldb.com/?ip.27.124.45.146) | - | - | High
 2 | [38.55.144.53](https://vuldb.com/?ip.38.55.144.53) | - | - | High
-3 | [139.162.116.218](https://vuldb.com/?ip.139.162.116.218) | 139-162-116-218.ip.linodeusercontent.com | - | High
+3 | [47.128.189.30](https://vuldb.com/?ip.47.128.189.30) | ec2-47-128-189-30.ap-southeast-1.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,7 +98,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/55229/
 * https://bazaar.abuse.ch/sample/8ce36d5957f359408a0a91a2045844a79260158c2f5c986e0cc7682d2e2727ba/
+* https://bazaar.abuse.ch/sample/82335954bec84cbdd019cfa474f20f4274310a1477e03e34af7c62d15096fe0d/
 * https://bazaar.abuse.ch/sample/a1c0b48199e8a47fe50c4097d86e5f43a1a1c9a9c1f7f3606ffa0d45bb4a2eb3/
+* https://urlhaus.abuse.ch/url/3677516/
 
 ## Literature
 
@@ -109,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -80,34 +80,38 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/subject.php` | High
 31 | File | `/admin/user/controller.php` | High
 32 | File | `/adminapi/system/file/openfile` | High
-33 | File | `/adminPage/main/upload` | High
-34 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-35 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-36 | File | `/admin_ping.htm` | High
-37 | File | `/ajax.php?action=read_msg` | High
-38 | File | `/api/authentication/login` | High
-39 | File | `/api/controllers/admin/app/ComboController.php` | High
-40 | File | `/app/api/controller/collect.php` | High
-41 | File | `/application/index/controller/Databasesource.php` | High
-42 | File | `/application/index/controller/Screen.php` | High
-43 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
-44 | File | `/apply/index.php` | High
-45 | File | `/apps/login_auth.php` | High
-46 | File | `/bin/boa` | Medium
-47 | File | `/boafrm/formFirewallAdv` | High
-48 | File | `/boafrm/formMapDelDevice` | High
-49 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-50 | File | `/cgi-bin/cstecgi.cgi` | High
-51 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-52 | File | `/ci_hms/search` | High
-53 | File | `/classes/Master.php?f=delete_inquiry` | High
-54 | File | `/classes/Master.php?f=delete_item` | High
-55 | File | `/classes/Master.php?f=save_category` | High
-56 | File | `/classes/Master.php?f=save_inquiry` | High
-57 | File | `/control/register_case.php` | High
-58 | ... | ... | ...
+33 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+34 | File | `/Administrator/PHP/AdminReply.php` | High
+35 | File | `/adminPage/main/upload` | High
+36 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+37 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+38 | File | `/admin_ping.htm` | High
+39 | File | `/ajax.php?action=read_msg` | High
+40 | File | `/api/authentication/login` | High
+41 | File | `/api/controllers/admin/app/ComboController.php` | High
+42 | File | `/app/api/controller/collect.php` | High
+43 | File | `/application/index/controller/Databasesource.php` | High
+44 | File | `/application/index/controller/Screen.php` | High
+45 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+46 | File | `/apply/index.php` | High
+47 | File | `/apps/login_auth.php` | High
+48 | File | `/bin/boa` | Medium
+49 | File | `/boaform/formSamba` | High
+50 | File | `/boafrm/formFirewallAdv` | High
+51 | File | `/boafrm/formMapDelDevice` | High
+52 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+53 | File | `/cgi-bin/cstecgi.cgi` | High
+54 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+55 | File | `/ci_hms/search` | High
+56 | File | `/classes/Master.php?f=delete_inquiry` | High
+57 | File | `/classes/Master.php?f=delete_item` | High
+58 | File | `/classes/Master.php?f=save_category` | High
+59 | File | `/classes/Master.php?f=save_inquiry` | High
+60 | File | `/control/register_case.php` | High
+61 | File | `/controller/api/Room.php` | High
+62 | ... | ... | ...
 
-There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

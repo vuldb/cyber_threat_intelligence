@@ -44,8 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -95,14 +94,15 @@ ID | Type | Indicator | Confidence
 38 | File | `/index.php` | Medium
 39 | File | `/items/search` | High
 40 | File | `/load.php` | Medium
-41 | File | `/lua/set-passwd.lua` | High
-42 | File | `/mims/login.php` | High
-43 | File | `/newProject.php` | High
-44 | File | `/nova/bin/detnet` | High
-45 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-46 | ... | ... | ...
+41 | File | `/log/decodmail.php` | High
+42 | File | `/lua/set-passwd.lua` | High
+43 | File | `/mims/login.php` | High
+44 | File | `/newProject.php` | High
+45 | File | `/nova/bin/detnet` | High
+46 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+47 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

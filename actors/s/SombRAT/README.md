@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SombRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [CL](https://vuldb.com/?country.cl)
 * [CN](https://vuldb.com/?country.cn)
+* [CL](https://vuldb.com/?country.cl)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,11 +24,12 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [19.134.94.227](https://vuldb.com/?ip.19.134.94.227) | - | - | High
 2 | [22.58.50.80](https://vuldb.com/?ip.22.58.50.80) | - | - | High
 3 | [30.24.7.206](https://vuldb.com/?ip.30.24.7.206) | - | - | High
-4 | [51.89.50.152](https://vuldb.com/?ip.51.89.50.152) | ip152.ip-51-89-50.eu | - | High
-5 | [57.219.0.1](https://vuldb.com/?ip.57.219.0.1) | - | - | High
-6 | ... | ... | ... | ...
+4 | [45.150.32.193](https://vuldb.com/?ip.45.150.32.193) | unpleasantturqu.ptr.network | - | High
+5 | [51.89.50.152](https://vuldb.com/?ip.51.89.50.152) | ip152.ip-51-89-50.eu | - | High
+6 | [51.254.59.59](https://vuldb.com/?ip.51.254.59.59) | ip59.ip-51-254-59.eu | - | High
+7 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +50,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `awstats.pl` | Medium
-2 | File | `guestbook.cgi` | High
-3 | File | `http_auth.c` | Medium
+1 | File | `/LoginAdmin` | Medium
+2 | File | `/manage-courses.php?del=1` | High
+3 | File | `admin.php` | Medium
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2021/05/threat-thursday-sombrat-always-leave-yourself-a-backdoor
+* https://www.threat.rip/file/7b7d69d1b455cd4681e325b610e5053ac201433970ca396fb0c32d9719b0d8d1/config
+* https://www.threat.rip/file/924c79d8d817dfc8ddc17e1cb843b766303ec5a6c23f78d32715e7b9b05c26c5/config
+* https://www.threat.rip/file/7531c30ea7c7cf50a5df5b3c1209d42e78816258e7ca3b0768c71c136751278d/config
+* https://www.threat.rip/file/b6f4a2fad41af1e05ded1906b59e7f883fa2209f977ce91760a7e764d09c7e09/config
+* https://www.threat.rip/file/db2e0a69bc58c30039fffa25ae521ae3ad0defcb2d488d0d7b3e66ba61cfd984/config
 
 ## Literature
 
@@ -71,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -68,34 +68,34 @@ ID | Type | Indicator | Confidence
 10 | File | `/bitrix/admin/ldap_server_edit.php` | High
 11 | File | `/cgi-bin/cstecgi.cgi` | High
 12 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-13 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/edit-subject.php` | High
-16 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-17 | File | `/film-rating.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/h/rest` | Low
-20 | File | `/include/chart_generator.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-23 | File | `/index/ajax/lang` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/log/decodmail.php` | High
-26 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-27 | File | `/login/index.php` | High
-28 | File | `/log_download.cgi` | High
-29 | File | `/log_proxy` | Medium
-30 | File | `/mailcleaner.php/getStats` | High
-31 | File | `/mfsNotice/page` | High
-32 | File | `/novel/bookSetting/list` | High
-33 | File | `/novel/userFeedback/list` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/register.php` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/student/bookdetails.php` | High
+13 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+14 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/edit-subject.php` | High
+17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+18 | File | `/film-rating.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/h/rest` | Low
+21 | File | `/include/chart_generator.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+24 | File | `/index/ajax/lang` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/log/decodmail.php` | High
+27 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+28 | File | `/login/index.php` | High
+29 | File | `/log_download.cgi` | High
+30 | File | `/log_proxy` | Medium
+31 | File | `/mailcleaner.php/getStats` | High
+32 | File | `/mfsNotice/page` | High
+33 | File | `/novel/bookSetting/list` | High
+34 | File | `/novel/userFeedback/list` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/register.php` | High
+37 | File | `/spip.php` | Medium
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

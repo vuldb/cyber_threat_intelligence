@@ -61,7 +61,7 @@ ID | IP address | Hostname | Actor | Confidence
 29 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 30 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 116 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,38 +86,45 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addProduct.php` | High
 2 | File | `/admin/add-module.php` | High
-3 | File | `/admin/archives_add.php` | High
-4 | File | `/admin/categories/save` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/newsletterdel.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/positions.php` | High
-10 | File | `/admin/receipt.php` | High
-11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-13 | File | `/admins` | Low
-14 | File | `/ajax.php?action=login` | High
-15 | File | `/ajax/getBasicInfo.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/api/files/recipepictures/` | High
-18 | File | `/app/register.php?action=reg` | High
-19 | File | `/authentication.cgi` | High
-20 | File | `/boafrm/formDdns` | High
-21 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-22 | File | `/boafrm/formVpnConfigSetup` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/clientdetails/admin/regester.php` | High
-26 | File | `/csms/?page=contact_us` | High
-27 | File | `/detailtransac.php` | High
-28 | File | `/dev/ptpX` | Medium
-29 | File | `/editeddonor.php` | High
-30 | File | `/editprofile.php` | High
-31 | File | `/farm/product.php` | High
-32 | ... | ... | ...
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/categories/save` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/pages/` | High
+11 | File | `/admin/positions.php` | High
+12 | File | `/admin/receipt.php` | High
+13 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+15 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+16 | File | `/Administrator/PHP/AdminEditUser.php` | High
+17 | File | `/Administrator/PHP/AdminReply.php` | High
+18 | File | `/admins` | Low
+19 | File | `/adv_mac_filter.php` | High
+20 | File | `/ajax.php?action=login` | High
+21 | File | `/ajax/getBasicInfo.php` | High
+22 | File | `/api/admin/system/store/order/list` | High
+23 | File | `/api/files/recipepictures/` | High
+24 | File | `/app/register.php?action=reg` | High
+25 | File | `/authentication.cgi` | High
+26 | File | `/boaform/formSamba` | High
+27 | File | `/boafrm/formDdns` | High
+28 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+29 | File | `/boafrm/formVpnConfigSetup` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/clientdetails/admin/regester.php` | High
+33 | File | `/csms/?page=contact_us` | High
+34 | File | `/detailtransac.php` | High
+35 | File | `/dev/ptpX` | Medium
+36 | File | `/editeddonor.php` | High
+37 | File | `/editprofile.php` | High
+38 | File | `/farm/product.php` | High
+39 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -153,6 +160,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/172.86.96.67
 * https://search.censys.io/hosts/172.86.109.207
 * https://search.censys.io/hosts/174.138.184.252
+* https://search.censys.io/hosts/180.131.145.105
+* https://search.censys.io/hosts/184.174.96.225
 * https://search.censys.io/hosts/185.157.77.32
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227

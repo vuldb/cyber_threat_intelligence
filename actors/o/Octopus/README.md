@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [46.249.52.244](https://vuldb.com/?ip.46.249.52.244) | echichens-c | - | High
 9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,21 +70,22 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/rooms.php` | High
 16 | File | `/admin/update_s7.php` | High
 17 | File | `/admin/usermanagement.php` | High
-18 | File | `/api.php` | Medium
-19 | File | `/api/employees` | High
-20 | File | `/api/sys/login` | High
-21 | File | `/article/api/post` | High
-22 | File | `/artist-display.php` | High
-23 | File | `/boafrm/formIpQoS` | High
-24 | File | `/boafrm/formWlwds` | High
-25 | File | `/catcompany.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/editBookmark` | High
-28 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-29 | File | `/edit-locker.php?ltid=6` | High
-30 | ... | ... | ...
+18 | File | `/ajax.php` | Medium
+19 | File | `/api.php` | Medium
+20 | File | `/api/employees` | High
+21 | File | `/api/sys/login` | High
+22 | File | `/article/api/post` | High
+23 | File | `/artist-display.php` | High
+24 | File | `/boafrm/formIpQoS` | High
+25 | File | `/boafrm/formWlwds` | High
+26 | File | `/catcompany.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/editBookmark` | High
+29 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+30 | File | `/edit-locker.php?ltid=6` | High
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,6 +101,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/89.168.124.112
 * https://search.censys.io/hosts/121.40.17.177
 * https://search.censys.io/hosts/130.61.242.29
+* https://search.censys.io/hosts/143.47.190.197
 * https://search.censys.io/hosts/149.81.74.204
 * https://search.censys.io/hosts/149.81.74.205
 * https://search.censys.io/hosts/149.81.74.206

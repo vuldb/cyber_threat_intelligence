@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Onyx Sleet:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Onyx Sleet:
 
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com//country/us)
+* [CN](https://vuldb.com//country/cn)
+* [RU](https://vuldb.com//country/ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,20 +55,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/Plugins/update.html` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/amssplus/modules/book/main/bookdetail_school_person.php` | High
-4 | File | `/api/blade-log/api/list` | High
-5 | File | `/api /v3/auth` | High
-6 | File | `/category.php` | High
-7 | File | `/classes/SystemSettings.php?f=update_settings` | High
-8 | File | `/data/remove` | Medium
-9 | File | `/dede/file_manage_control.php` | High
-10 | File | `/files/list-file` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | ... | ... | ...
+2 | File | `/admin/delete_s3.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/amssplus/modules/book/main/bookdetail_school_person.php` | High
+5 | File | `/api/blade-log/api/list` | High
+6 | File | `/api /v3/auth` | High
+7 | File | `/boafrm/formRoute` | High
+8 | File | `/category.php` | High
+9 | File | `/classes/SystemSettings.php?f=update_settings` | High
+10 | File | `/data/remove` | Medium
+11 | File | `/dede/file_manage_control.php` | High
+12 | File | `/files/list-file` | High
+13 | File | `/forum/away.php` | High
+14 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

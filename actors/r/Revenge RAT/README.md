@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
 16 | ... | ... | ... | ...
 
-There are 61 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,58 +61,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/admin/?/layout/add` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/add-foreigners-ticket.php` | High
-5 | File | `/admin/add-subadmin.php` | High
-6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
-7 | File | `/admin/assign_save.php` | High
-8 | File | `/admin/category_row.php` | High
-9 | File | `/admin/comment/list` | High
-10 | File | `/admin/CopyadminPost.php` | High
-11 | File | `/admin/dialog/select_images_post.php` | High
-12 | File | `/admin/doctor-specilization.php` | High
-13 | File | `/admin/edit-art-medium-detail.php` | High
-14 | File | `/admin/edit-subadmin.php` | High
-15 | File | `/admin/edit-vehicle.php` | High
-16 | File | `/Admin/edit_profile.php` | High
-17 | File | `/admin/index.php` | High
-18 | File | `/admin/invoice.php` | High
-19 | File | `/admin/login.php` | High
-20 | File | `/Admin/login.php` | High
-21 | File | `/admin/modules/product/controller.php?action=add` | High
-22 | File | `/admin/overtime_add.php` | High
-23 | File | `/admin/pass-bwdates-reports-details.php` | High
-24 | File | `/admin/process_login.php` | High
-25 | File | `/admin/property-details.php` | High
-26 | File | `/Admin/Proses_Edit_Akun.php` | High
-27 | File | `/admin/readDeal.php?mudi=updateWebCache` | High
-28 | File | `/admin/search-medicalcard.php` | High
-29 | File | `/admin/tag/save` | High
-30 | File | `/ajax.php` | Medium
-31 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-32 | File | `/bin/httpd` | Medium
-33 | File | `/boafrm/formMapReboot` | High
-34 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/hd_config.cgi` | High
-37 | File | `/cgi-bin/mainfunction.cgi` | High
-38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-39 | File | `/cgi-bin/tosei_kikai.php` | High
-40 | File | `/cgi-bin/webfile_mgr.cgi` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
-43 | File | `/classes/Master.php?f=save_position` | High
-44 | File | `/control/forgot_pass.php` | High
-45 | File | `/course.php` | Medium
-46 | File | `/course/filterRecords/` | High
-47 | File | `/cov/triggerEnvCov` | High
-48 | File | `/create-pass.php` | High
-49 | File | `/dataSet/resolveSql` | High
-50 | ... | ... | ...
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/academy/home/courses` | High
+3 | File | `/admin.php/addon/index` | High
+4 | File | `/admin/?/layout/add` | High
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/admin/add-foreigners-ticket.php` | High
+8 | File | `/admin/add-subadmin.php` | High
+9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+10 | File | `/admin/assign_save.php` | High
+11 | File | `/admin/category_row.php` | High
+12 | File | `/admin/comment/list` | High
+13 | File | `/admin/CopyadminPost.php` | High
+14 | File | `/admin/dialog/select_images_post.php` | High
+15 | File | `/admin/doctor-specilization.php` | High
+16 | File | `/admin/edit-art-medium-detail.php` | High
+17 | File | `/admin/edit-subadmin.php` | High
+18 | File | `/admin/edit-vehicle.php` | High
+19 | File | `/Admin/edit_profile.php` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/invoice.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/Admin/login.php` | High
+24 | File | `/admin/maintenance/manage_category.php` | High
+25 | File | `/admin/modules/product/controller.php?action=add` | High
+26 | File | `/admin/mod_room/controller.php?action=add` | High
+27 | File | `/admin/overtime_add.php` | High
+28 | File | `/admin/pass-bwdates-reports-details.php` | High
+29 | File | `/admin/process_login.php` | High
+30 | File | `/admin/property-details.php` | High
+31 | File | `/Admin/Proses_Edit_Akun.php` | High
+32 | File | `/admin/readDeal.php?mudi=updateWebCache` | High
+33 | File | `/admin/search-medicalcard.php` | High
+34 | File | `/admin/tag/save` | High
+35 | File | `/admin/transactions/track_shipment.php` | High
+36 | File | `/Admin/user-record.php` | High
+37 | File | `/ajax.php` | Medium
+38 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+39 | File | `/bin/httpd` | Medium
+40 | File | `/boafrm/formMapReboot` | High
+41 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/hd_config.cgi` | High
+44 | File | `/cgi-bin/mainfunction.cgi` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/cgi-bin/tosei_kikai.php` | High
+47 | File | `/cgi-bin/webfile_mgr.cgi` | High
+48 | File | `/change-language/de_DE` | High
+49 | File | `/classes/Master.php` | High
+50 | File | `/classes/Master.php?f=delete_category` | High
+51 | File | `/classes/Master.php?f=save_position` | High
+52 | File | `/control/forgot_pass.php` | High
+53 | File | `/course.php` | Medium
+54 | File | `/course/filterRecords/` | High
+55 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://tria.ge/231218-shv6tscgh3
 * https://tria.ge/251008-vtnx1avnz5
+* https://tria.ge/260106-n3g3gsgz7b
 
 ## Literature
 

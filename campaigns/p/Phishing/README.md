@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phishing:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 61 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -89,9 +89,10 @@ ID | IP address | Hostname | Actor | Confidence
 53 | [64.29.17.1](https://vuldb.com/?ip.64.29.17.1) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 54 | [64.29.17.65](https://vuldb.com/?ip.64.29.17.65) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 55 | [66.33.60.35](https://vuldb.com/?ip.66.33.60.35) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-56 | ... | ... | ... | ...
+56 | [66.172.33.42](https://vuldb.com/?ip.66.172.33.42) | ip-66-172-33-42.chunkhost.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+57 | ... | ... | ... | ...
 
-There are 221 more IOC items available. Please use our online service to access the data.
+There are 223 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -99,14 +100,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,126 +115,87 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/aboutus.php` | Medium
-2 | File | `/actuator` | Medium
-3 | File | `/add-phlebotomist.php` | High
-4 | File | `/addcategory.php` | High
-5 | File | `/adding-exec.php` | High
-6 | File | `/addmem.php` | Medium
-7 | File | `/addProduct.php` | High
-8 | File | `/addstock.php` | High
-9 | File | `/admin#article/edit?id=2` | High
-10 | File | `/admin#themes` | High
-11 | File | `/admin-inbox.php` | High
-12 | File | `/admin/` | Low
-13 | File | `/admin/?page=state` | High
-14 | File | `/admin/?page=system_info` | High
-15 | File | `/admin/about-us.php` | High
-16 | File | `/admin/add-module.php` | High
-17 | File | `/admin/admin-profile.php` | High
-18 | File | `/admin/app/login_crud.php` | High
-19 | File | `/admin/app/profile_crud.php` | High
-20 | File | `/admin/approve_user.php` | High
-21 | File | `/admin/article/article-edit-run.php` | High
-22 | File | `/admin/assign/assign.php` | High
-23 | File | `/admin/attendance_row.php` | High
-24 | File | `/admin/blogger.php?action=update_avatar` | High
-25 | File | `/admin/bwdates-reports-details.php` | High
-26 | File | `/admin/bwdates-request-report-details.php` | High
-27 | File | `/admin/check_admin_login.php` | High
-28 | File | `/admin/class.php` | High
-29 | File | `/admin/class.php?dowhat=modifyclass` | High
-30 | File | `/admin/contactus.php` | High
-31 | File | `/admin/deleteuser.php` | High
-32 | File | `/admin/delete_student.php` | High
-33 | File | `/admin/delete_user.php` | High
-34 | File | `/admin/edit-category-detail.php` | High
-35 | File | `/admin/edit-customer-detailed.php` | High
-36 | File | `/admin/edit-teacher-detail.php` | High
-37 | File | `/admin/edit-user.php` | High
-38 | File | `/admin/edit_class.php` | High
-39 | File | `/admin/edit_fuel.php` | High
-40 | File | `/admin/general/change-lang` | High
-41 | File | `/admin/index.php` | High
-42 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
-43 | File | `/admin/inquiries/view_details.php` | High
-44 | File | `/admin/lab.php` | High
-45 | File | `/admin/maintenance/view_designation.php` | High
-46 | File | `/admin/manage-normal-ticket.php` | High
-47 | File | `/Admin/match.php` | High
-48 | File | `/Admin/mode.php` | High
-49 | File | `/admin/pages/student-print.php` | High
-50 | File | `/admin/pass-bwdates-report.php` | High
-51 | File | `/admin/php/crud.php` | High
-52 | File | `/admin/print_barcode.php` | High
-53 | File | `/Admin/Proses_Edit_Akun.php` | High
-54 | File | `/admin/regester.php` | High
-55 | File | `/admin/request-received-bydonar.php` | High
-56 | File | `/admin/robot.php` | High
-57 | File | `/admin/search-booking-request.php` | High
-58 | File | `/admin/search-pass.php` | High
-59 | File | `/admin/search1.php` | High
-60 | File | `/admin/sou.php` | High
-61 | File | `/Admin/sporttype.php` | High
-62 | File | `/admin/update_user.php` | High
-63 | File | `/admin/upload/authorImg/` | High
-64 | File | `/Admin/user-record.php` | High
-65 | File | `/admin/user.php` | High
-66 | File | `/admin/v1/blog/edit` | High
-67 | File | `/admin/view-enquiry.php` | High
-68 | File | `/admin/view-foreigner-ticket.php` | High
-69 | File | `/admin/voters_row.php` | High
-70 | File | `/admin?do=admin:user:editPost` | High
-71 | File | `/Administrator/PHP/AdminAddUser.php` | High
-72 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
-73 | File | `/admin_delete.php` | High
-74 | File | `/admin_topic.php?action=delall` | High
-75 | File | `/ajax.php` | Medium
-76 | File | `/ajax.php?action=delete_loan` | High
-77 | File | `/ajax.php?action=save_supplier` | High
-78 | File | `/api/admin/question/edit` | High
-79 | File | `/api/controllers/common/UploadsController.php` | High
-80 | File | `/api/files/recipepictures/` | High
-81 | File | `/api/system/sendWebSocketMsg` | High
-82 | File | `/api/v1/login` | High
-83 | File | `/api/v1/settings` | High
-84 | File | `/api/wizard/networkSetup` | High
-85 | File | `/app/ajax/search_sales_report.php` | High
-86 | File | `/app/register.php?action=reg` | High
-87 | File | `/application/models/ApplicationDataObject.class.php` | High
-88 | File | `/auth/user/all.api` | High
-89 | File | `/authentication/` | High
-90 | File | `/backend/admin/his_admin_register_patient.php` | High
-91 | File | `/BalloonSave.ashx` | High
-92 | File | `/bank/statements.php` | High
-93 | File | `/bank/transfer.php` | High
-94 | File | `/bin/httpd` | Medium
-95 | File | `/bin/main` | Medium
-96 | File | `/biurl_grou` | Medium
-97 | File | `/boafrm/formFilter` | High
-98 | File | `/boafrm/formOneKeyAccessButton` | High
-99 | File | `/boafrm/formParentControl` | High
-100 | File | `/boafrm/formRoute` | High
-101 | File | `/boafrm/formVpnConfigSetup` | High
-102 | File | `/boafrm/formWlSiteSurvey` | High
-103 | File | `/boafrm/formWlwds` | High
-104 | File | `/boafrm/formWsc` | High
-105 | File | `/bolt/editcontent/showcases` | High
-106 | File | `/bookingconfirm.php` | High
-107 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-108 | File | `/cart.php` | Medium
-109 | File | `/cgi-bin/cstecgi.cgi` | High
-110 | File | `/cgi-bin/mainfunction.cgi/apmcfgupptim` | High
-111 | File | `/changeUsername.php` | High
-112 | File | `/check_availability.php` | High
-113 | File | `/classes/Master.php?f=save_category` | High
-114 | File | `/clients` | Medium
-115 | File | `/collection/all` | High
-116 | File | `/control/adds.php` | High
-117 | File | `/controller/api/Room.php` | High
-118 | ... | ... | ...
+1 | File | `/?page=manage_reservation` | High
+2 | File | `/accomodation.php` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/adddoctorclinic.php` | High
+6 | File | `/admin/add_room.php` | High
+7 | File | `/admin/admin/save` | High
+8 | File | `/admin/admin_members.php?ac=search` | High
+9 | File | `/admin/admin_running.php` | High
+10 | File | `/admin/admin_user.php` | High
+11 | File | `/admin/announcement/index.php?view=add` | High
+12 | File | `/admin/archives_add.php` | High
+13 | File | `/admin/asign-single-student-subjects.php` | High
+14 | File | `/Admin/assets/backend/seller/add_seller.php` | High
+15 | File | `/admin/code/tce_edit_group.php` | High
+16 | File | `/admin/conferences/list/` | High
+17 | File | `/admin/contactus.php` | High
+18 | File | `/admin/delete-session.php` | High
+19 | File | `/admin/deleteitem.php` | High
+20 | File | `/admin/delete_bloodGroup.php` | High
+21 | File | `/admin/display-teacher.php` | High
+22 | File | `/admin/edit-class.php?cid=1` | High
+23 | File | `/admin/editsite.php` | High
+24 | File | `/admin/forget-password.php` | High
+25 | File | `/admin/login_query.php` | High
+26 | File | `/admin/manage-notices.php` | High
+27 | File | `/admin/manage-users.php` | High
+28 | File | `/admin/plugins/NP_Referrer.php` | High
+29 | File | `/admin/receipt.php` | High
+30 | File | `/admin/save_user.php` | High
+31 | File | `/admin/settings/index.php?page=accounts` | High
+32 | File | `/admin/teacher-attendance.php` | High
+33 | File | `/admin/teacher-salary.php` | High
+34 | File | `/admin/updateabout.php` | High
+35 | File | `/admin/user.php` | High
+36 | File | `/admin/user/manage_user.php` | High
+37 | File | `/admin/v1/blog/edit` | High
+38 | File | `/admindetail.php?action=edit` | High
+39 | File | `/adminPage/conf/check` | High
+40 | File | `/admin_search_student.php` | High
+41 | File | `/advisers.php` | High
+42 | File | `/ajax.php?action=login` | High
+43 | File | `/api/dept/build` | High
+44 | File | `/api/extclients/` | High
+45 | File | `/api/Security/` | High
+46 | File | `/api/users/updateAvatar` | High
+47 | File | `/api/v1/admin/` | High
+48 | File | `/api/v1/serve/awel/flow/import` | High
+49 | File | `/api/wizard/getCapability` | High
+50 | File | `/assetsGroupReport/assetsService.j%73p` | High
+51 | File | `/att_single_view.php` | High
+52 | File | `/auth/userkey/logout.php` | High
+53 | File | `/auth_files/photo/` | High
+54 | File | `/bidlog.php` | Medium
+55 | File | `/binutils/debug.c` | High
+56 | File | `/Blood/A+.php` | High
+57 | File | `/boaform/formSamba` | High
+58 | File | `/boafrm/formDdns` | High
+59 | File | `/boafrm/formFilter` | High
+60 | File | `/boafrm/formIpQoS` | High
+61 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+62 | File | `/boafrm/formNtp` | High
+63 | File | `/boafrm/formPortFw` | High
+64 | File | `/boafrm/formReflashClientTbl` | High
+65 | File | `/boafrm/formSetLg` | High
+66 | File | `/boafrm/formSysCmd` | High
+67 | File | `/boafrm/formSysLog` | High
+68 | File | `/book-appointment.php` | High
+69 | File | `/booking/show_bookings/` | High
+70 | File | `/C6/Jhsoft.Web.officesupply/OfficeSupplyTypeRight.aspx` | High
+71 | File | `/cgi-bin/adm.cgi` | High
+72 | File | `/cgi-bin/cstecgi.cgi` | High
+73 | File | `/cgi-bin/DownloadFlash` | High
+74 | File | `/cgi-bin/DownloadLog` | High
+75 | File | `/cgi-bin/hd_config.cgi` | High
+76 | File | `/cgi-bin/hedwig.cgi` | High
+77 | File | `/cgi-bin/login.cgi` | High
+78 | File | `/cgi-bin/luci/admin/openvpn_apply` | High
+79 | ... | ... | ...
 
-There are 1047 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 692 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -261,6 +223,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201911.csv
 * https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201912.csv
 * https://hunt.io/blog/china-hosting-malware-c2-infrastructure
+* https://isc.sans.edu/diary/32734
 * https://nsfocusglobal.com/apt-retrospection-lorec53-an-active-russian-hack-group-launched-phishing-attacks-against-georgian-government/
 * https://twitter.com/__0XYC__/status/1502593457201811459
 * https://unit42.paloaltonetworks.com/luna-moth-callback-phishing/

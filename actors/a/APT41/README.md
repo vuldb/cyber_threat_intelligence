@@ -95,11 +95,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
-2 | File | `/paySuccess` | Medium
-3 | File | `/update_weights_from_tensor` | High
+2 | File | `/goform/SetVirtualServerCfg` | High
+3 | File | `/paySuccess` | Medium
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [HT](https://vuldb.com/?country.ht)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,30 +67,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/update/getFile.html` | High
-2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/booking-search.php` | High
-4 | File | `/admin/index.php?page=manage_lot` | High
-5 | File | `/admin/index3.php` | High
-6 | File | `/admin/msg.php` | High
-7 | File | `/admin/pages/subjects.php` | High
-8 | File | `/analysisProject/pagingQueryData` | High
-9 | File | `/api/api.php?mod=upload&type=1` | High
-10 | File | `/api/system/other` | High
-11 | File | `/app/admin/view/web_user.html` | High
-12 | File | `/app/sys1.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-15 | File | `/changepassemp.php` | High
-16 | File | `/classes/Master.php?f=delete_reminder` | High
-17 | File | `/data/app` | Medium
-18 | File | `/debuginfo.htm` | High
-19 | File | `/deletefile.php` | High
-20 | File | `/detalheIdUra` | High
-21 | File | `/doctor-panel.php` | High
-22 | ... | ... | ...
+1 | File | `/addstock.php` | High
+2 | File | `/admin.php/update/getFile.html` | High
+3 | File | `/admin/addgiving.php` | High
+4 | File | `/admin/add_title.php` | High
+5 | File | `/admin/ajax.php?action=save_vacancy` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/courses/manage_course.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index.php?page=manage_lot` | High
+10 | File | `/admin/index3.php` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/Admin/login.php` | High
+13 | File | `/admin/msg.php` | High
+14 | File | `/admin/pages/subjects.php` | High
+15 | File | `/admin/patient-search.php` | High
+16 | File | `/ajax.php?action=save_plan` | High
+17 | File | `/analysisProject/pagingQueryData` | High
+18 | File | `/api/api.php?mod=upload&type=1` | High
+19 | File | `/api/export/exportResources` | High
+20 | File | `/api/system/other` | High
+21 | File | `/app/admin/view/web_user.html` | High
+22 | File | `/app/sys1.php` | High
+23 | File | `/auth/delete_project/` | High
+24 | File | `/bill/add_bill.php` | High
+25 | File | `/boafrm/formDebugDiagnosticRun` | High
+26 | File | `/boafrm/formParentControl` | High
+27 | File | `/bwdates-report-ds.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+30 | File | `/changepassemp.php` | High
+31 | File | `/classes/Master.php?f=delete_reminder` | High
+32 | File | `/controllers/updatesettings.php` | High
+33 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

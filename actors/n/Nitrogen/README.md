@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CO](https://vuldb.com/?country.co)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -105,9 +105,10 @@ ID | Type | Indicator | Confidence
 51 | File | `admindocumentworker.jsp` | High
 52 | File | `administrator/components/com_media/helpers/media.php` | High
 53 | File | `adminSmileys.php` | High
-54 | ... | ... | ...
+54 | File | `akocomments.php` | High
+55 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

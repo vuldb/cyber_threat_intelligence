@@ -89,13 +89,13 @@ ID | Type | Indicator | Confidence
 36 | File | `/goform/formSetWanStatic` | High
 37 | File | `/goform/RP_checkCredentialsByBBS` | High
 38 | File | `/goform/WifiBasicSet` | High
-39 | File | `/hrm/employeeview.php` | High
-40 | File | `/inc/topBarNav.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+39 | File | `/home/editrefugee.php` | High
+40 | File | `/home/kickPlayer` | High
+41 | File | `/hrm/employeeview.php` | High
+42 | File | `/inc/topBarNav.php` | High
 43 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -121,10 +121,9 @@ ID | Type | Indicator | Confidence
 13 | File | `/classes/Master.php` | High
 14 | File | `/classes/Master.php?f=log_employee` | High
 15 | File | `/classes/SystemSettings.php?f=update_settings` | High
-16 | File | `/dashboard/Cinvoice/manage_invoice` | High
-17 | ... | ... | ...
+16 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

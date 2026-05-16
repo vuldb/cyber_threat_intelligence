@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -78,16 +78,17 @@ ID | Type | Indicator | Confidence
 17 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
 18 | File | `/goform/goform_get_cmd_process` | High
 19 | File | `/goform/MtuSetMacWan` | High
-20 | File | `/historyList` | Medium
-21 | File | `/hotel.php` | Medium
-22 | File | `/htdocs/soap.cgi` | High
-23 | File | `/index.php` | Medium
-24 | File | `/manage-notes.php` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/modules/projects/summary.inc.php` | High
-27 | ... | ... | ...
+20 | File | `/gogorm/formRoute` | High
+21 | File | `/historyList` | Medium
+22 | File | `/hotel.php` | Medium
+23 | File | `/htdocs/soap.cgi` | High
+24 | File | `/index.php` | Medium
+25 | File | `/manage-notes.php` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/modules/projects/summary.inc.php` | High
+28 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

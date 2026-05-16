@@ -4,13 +4,58 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sshnet](https://vuldb.com/?actor.sshnet)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SSHNET:
+
+* [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
+* [FR](https://vuldb.com/?country.fr)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of SSHNET.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [154.90.32.88](https://vuldb.com/?ip.154.90.32.88) | - | - | High
+1 | [37.59.181.219](https://vuldb.com/?ip.37.59.181.219) | gateway.tcparmor.com | - | High
+2 | [45.156.87.105](https://vuldb.com/?ip.45.156.87.105) | - | - | High
+3 | [154.90.32.88](https://vuldb.com/?ip.154.90.32.88) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SSHNET_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by SSHNET. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/` | Low
+2 | File | `/admin/admin-area.php` | High
+3 | File | `/admin/curriculum/view_curriculum.php` | High
+4 | File | `/admin/edit-subcategory.php` | High
+5 | File | `/admin/index3.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/request-received-bydonar.php` | High
+8 | File | `/admin/voters_delete.php` | High
+9 | File | `/bwdates-report-result.php` | High
+10 | ... | ... | ...
+
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

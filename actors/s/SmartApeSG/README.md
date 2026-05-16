@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,6 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.181.156.235](https://vuldb.com/?ip.5.181.156.235) | no-rdns.mivocloud.com | - | High
+2 | [77.83.199.202](https://vuldb.com/?ip.77.83.199.202) | - | - | High
+3 | [79.141.162.183](https://vuldb.com/?ip.79.141.162.183) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,11 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,25 +48,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/config/pw_changeusers.html` | High
-5 | File | `/php/ping.php` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/SysInfo1.htm` | High
-9 | File | `/sysinfo_json.cgi` | High
-10 | File | `/system/dictData/loadDictItem` | High
-11 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/touchlist_sync.cgi` | High
+8 | File | `/config/pw_changeusers.html` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/doctor/view-appointment-detail.php` | High
+11 | File | `/login` | Low
+12 | File | `/php/ping.php` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/SysInfo1.htm` | High
+17 | File | `/sysinfo_json.cgi` | High
+18 | File | `/system/dictData/loadDictItem` | High
+19 | File | `/system/user/modules/mod_users/controller.php` | High
+20 | File | `/tools/developerConsoleOperations.jsp` | High
+21 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/esThreatIntelligence/iocs/blob/main/SmartApeSG/smartapesg_iocs_1-11-2024.txt
+* https://infosec.exchange/@monitorsg/115939610602992157
+* https://infosec.exchange/@monitorsg/115944815681301733
+* https://infosec.exchange/@monitorsg/115961789111098797
+* https://infosec.exchange/@monitorsg/115968631896208968
+* https://infosec.exchange/@monitorsg/115972871563526097
+* https://infosec.exchange/@monitorsg/115979028011278124
+* https://infosec.exchange/@monitorsg/116002378216192204
+* https://infosec.exchange/@monitorsg/116013228581960779
+* https://infosec.exchange/@monitorsg/116019725154766937
+* https://infosec.exchange/@monitorsg/116023842561431694
+* https://infosec.exchange/@monitorsg/116041060416980254
+* https://infosec.exchange/@monitorsg/116041549990400031
+* https://infosec.exchange/@monitorsg/116046487785573479
+* https://infosec.exchange/@monitorsg/116052162092788119
+* https://infosec.exchange/@monitorsg/116058284843209139
+* https://infosec.exchange/@monitorsg/116092996635476664
 
 ## Literature
 

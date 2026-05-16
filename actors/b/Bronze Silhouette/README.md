@@ -29,12 +29,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,51 +42,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/category/controller.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/general.cgi` | High
-4 | File | `/admin/reminders/manage_reminder.php` | High
-5 | File | `/API/info` | Medium
-6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-7 | File | `/Bloodgroop_process.php` | High
-8 | File | `/cancelbookingpatient.php` | High
-9 | File | `/CCMAdmin/serverlist.asp` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-13 | File | `/cgi/get_param.cgi` | High
-14 | File | `/csms/admin/inquiries/view_details.php` | High
-15 | File | `/cstecgi.cgi` | Medium
-16 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-17 | File | `/ecommerce/support_ticket` | High
-18 | File | `/files.md5` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/form2LocalAclEditcfg.cgi` | High
-21 | File | `/goform/formResetStatistic` | High
-22 | File | `/goform/formSetMACFilter` | High
-23 | File | `/goform/formSetMuti` | High
-24 | File | `/goform/formSetPassword` | High
-25 | File | `/goform/formSetPortTr` | High
-26 | File | `/goform/formSetQoS` | High
-27 | File | `/goform/formSetRoute` | High
-28 | File | `/goform/formSetWizardSelectMode` | High
-29 | File | `/goform/formVirtualServ` | High
-30 | File | `/goform/SetSysTimeCfg` | High
-31 | File | `/goform/verifyFacebookLike` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/home/search` | Medium
-34 | File | `/hrm/employeeview.php` | High
-35 | File | `/include/chart_generator.php` | High
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/messageboard/view.php` | High
-38 | File | `/multi-vendor-shopping-script/product-list.php` | High
-39 | File | `/one_church/userregister.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/owa/auth/logon.aspx` | High
-42 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+1 | File | `/admin/bwdates-reports-details.php` | High
+2 | File | `/admin/category/controller.php` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/general.cgi` | High
+5 | File | `/admin/reminders/manage_reminder.php` | High
+6 | File | `/API/info` | Medium
+7 | File | `/att_add.php` | Medium
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/Bloodgroop_process.php` | High
+10 | File | `/cancelbookingpatient.php` | High
+11 | File | `/CCMAdmin/serverlist.asp` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/csms/admin/inquiries/view_details.php` | High
+18 | File | `/cstecgi.cgi` | Medium
+19 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+20 | File | `/ecommerce/support_ticket` | High
+21 | File | `/files.md5` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/form2LocalAclEditcfg.cgi` | High
+24 | File | `/goform/formResetStatistic` | High
+25 | File | `/goform/formSetMACFilter` | High
+26 | File | `/goform/formSetMuti` | High
+27 | File | `/goform/formSetPassword` | High
+28 | File | `/goform/formSetPortTr` | High
+29 | File | `/goform/formSetQoS` | High
+30 | File | `/goform/formSetRoute` | High
+31 | File | `/goform/formSetWizardSelectMode` | High
+32 | File | `/goform/formVirtualServ` | High
+33 | File | `/goform/SetSysTimeCfg` | High
+34 | File | `/goform/verifyFacebookLike` | High
+35 | File | `/goform/WifiExtraSet` | High
+36 | File | `/home/search` | Medium
+37 | File | `/hrm/employeeview.php` | High
+38 | File | `/include/chart_generator.php` | High
+39 | File | `/librarian/bookdetails.php` | High
+40 | File | `/messageboard/view.php` | High
+41 | File | `/multi-vendor-shopping-script/product-list.php` | High
+42 | File | `/out.php` | Medium
 43 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

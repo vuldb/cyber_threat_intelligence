@@ -111,9 +111,10 @@ ID | Type | Indicator | Confidence
 47 | File | `/login.jsp` | Medium
 48 | File | `/mims/login.php` | High
 49 | File | `/ordering/admin/stockin/loaddata.php` | High
-50 | ... | ... | ...
+50 | File | `/page.php` | Medium
+51 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

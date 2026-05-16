@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sandman:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -62,77 +62,77 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/?page=reports` | High
 12 | File | `/admin/action/new-feed.php` | High
 13 | File | `/admin/action/update-deworm.php` | High
-14 | File | `/admin/add_postlogin.php` | High
-15 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-16 | File | `/admin/application-bwdates-reports-details.php` | High
-17 | File | `/admin/chatroom.php` | High
-18 | File | `/admin/contact-us.php` | High
-19 | File | `/admin/department/add` | High
-20 | File | `/admin/edit-user.php` | High
-21 | File | `/admin/foreigner-search.php` | High
-22 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
-23 | File | `/admin/index.php` | High
-24 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
-25 | File | `/admin/invoice.php` | High
-26 | File | `/admin/list_ipAddressPolicy.php` | High
-27 | File | `/admin/login.php` | High
-28 | File | `/admin/mod_room/controller.php?action=add` | High
-29 | File | `/Admin/registration.php` | High
-30 | File | `/admin/search-vehicle.php` | High
-31 | File | `/admin/system.html` | High
-32 | File | `/admin/template` | High
-33 | File | `/admin/template/update` | High
-34 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-35 | File | `/admin_members.php?ac=editsave` | High
-36 | File | `/admin_ping.htm` | High
-37 | File | `/admin_route/dec_service_credits.php` | High
-38 | File | `/ajax.php` | Medium
-39 | File | `/ajax.php?action=delete_deductions` | High
-40 | File | `/ajax.php?action=delete_receiving` | High
-41 | File | `/ajax.php?action=login` | High
-42 | File | `/ajax.php?action=signup` | High
-43 | File | `/ajax/check_medicine_name.php` | High
-44 | File | `/ajax/getBasicInfo.php` | High
-45 | File | `/animalsupdate.php` | High
-46 | File | `/api/authentication/login` | High
-47 | File | `/api/controllers/admin/app/ComboController.php` | High
-48 | File | `/api/file/multiDownload` | High
-49 | File | `/api/files/recipepictures/` | High
-50 | File | `/api/role` | Medium
-51 | File | `/api/v2/open/tablesInfo` | High
-52 | File | `/app/options.py` | High
-53 | File | `/application/index/controller/Databasesource.php` | High
-54 | File | `/application/index/controller/Screen.php` | High
-55 | File | `/application/pay/controller/Api.php` | High
-56 | File | `/apps/login_auth.php` | High
-57 | File | `/apps/reg_go.php` | High
-58 | File | `/assets/php/upload.php` | High
-59 | File | `/attribute/queryAll` | High
-60 | File | `/auth_files/photo/` | High
-61 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-62 | File | `/boafrm/formMapDelDevice` | High
-63 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-64 | File | `/catalog/all-products` | High
-65 | File | `/cgi-bin/adm.cgi` | High
-66 | File | `/cgi-bin/cstecgi.cgi` | High
-67 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-68 | File | `/cgi-bin/myMusic.cgi` | High
-69 | File | `/cgi-bin/nas_sharing.cgi` | High
-70 | File | `/cgi-bin/p1_ftpserver.php` | High
-71 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-72 | File | `/cgi-bin/vitogate.cgi` | High
-73 | File | `/check_image_and_trigger_recovery API` | High
-74 | File | `/classes/Master.php?f=delete_category` | High
-75 | File | `/classes/SystemSettings.php?f=update_settings` | High
-76 | File | `/classes/Users.php?f=save` | High
-77 | File | `/contact.php` | Medium
-78 | File | `/controllers/add_client.php` | High
-79 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1` | High
-80 | File | `/data/add_employee.php` | High
-81 | File | `/debuginfo.htm` | High
+14 | File | `/admin/add-subadmins.php` | High
+15 | File | `/admin/add_postlogin.php` | High
+16 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+17 | File | `/admin/application-bwdates-reports-details.php` | High
+18 | File | `/admin/chatroom.php` | High
+19 | File | `/admin/contact-us.php` | High
+20 | File | `/admin/department/add` | High
+21 | File | `/admin/edit-user.php` | High
+22 | File | `/admin/foreigner-search.php` | High
+23 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+26 | File | `/admin/invoice.php` | High
+27 | File | `/admin/list_ipAddressPolicy.php` | High
+28 | File | `/admin/login.php` | High
+29 | File | `/admin/mod_room/controller.php?action=add` | High
+30 | File | `/Admin/registration.php` | High
+31 | File | `/admin/search-vehicle.php` | High
+32 | File | `/admin/system.html` | High
+33 | File | `/admin/template` | High
+34 | File | `/admin/template/update` | High
+35 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+36 | File | `/admin_members.php?ac=editsave` | High
+37 | File | `/admin_ping.htm` | High
+38 | File | `/admin_route/dec_service_credits.php` | High
+39 | File | `/ajax.php` | Medium
+40 | File | `/ajax.php?action=delete_deductions` | High
+41 | File | `/ajax.php?action=delete_receiving` | High
+42 | File | `/ajax.php?action=login` | High
+43 | File | `/ajax.php?action=signup` | High
+44 | File | `/ajax/check_medicine_name.php` | High
+45 | File | `/ajax/getBasicInfo.php` | High
+46 | File | `/animalsupdate.php` | High
+47 | File | `/api/authentication/login` | High
+48 | File | `/api/controllers/admin/app/ComboController.php` | High
+49 | File | `/api/file/multiDownload` | High
+50 | File | `/api/files/recipepictures/` | High
+51 | File | `/api/role` | Medium
+52 | File | `/api/v2/open/tablesInfo` | High
+53 | File | `/app/options.py` | High
+54 | File | `/application/index/controller/Databasesource.php` | High
+55 | File | `/application/index/controller/Screen.php` | High
+56 | File | `/application/pay/controller/Api.php` | High
+57 | File | `/apps/login_auth.php` | High
+58 | File | `/apps/reg_go.php` | High
+59 | File | `/assets/php/upload.php` | High
+60 | File | `/attribute/queryAll` | High
+61 | File | `/auth_files/photo/` | High
+62 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+63 | File | `/boafrm/formMapDelDevice` | High
+64 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+65 | File | `/catalog/all-products` | High
+66 | File | `/cgi-bin/adm.cgi` | High
+67 | File | `/cgi-bin/cstecgi.cgi` | High
+68 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+69 | File | `/cgi-bin/myMusic.cgi` | High
+70 | File | `/cgi-bin/nas_sharing.cgi` | High
+71 | File | `/cgi-bin/p1_ftpserver.php` | High
+72 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+73 | File | `/cgi-bin/vitogate.cgi` | High
+74 | File | `/check_image_and_trigger_recovery API` | High
+75 | File | `/classes/Master.php?f=delete_category` | High
+76 | File | `/classes/SystemSettings.php?f=update_settings` | High
+77 | File | `/classes/Users.php?f=save` | High
+78 | File | `/contact.php` | Medium
+79 | File | `/controllers/add_client.php` | High
+80 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1` | High
+81 | File | `/data/add_employee.php` | High
 82 | ... | ... | ...
 
-There are 721 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 726 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

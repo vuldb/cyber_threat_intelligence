@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,39 +51,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/ad-list` | Medium
-3 | File | `/admin.php/admin/art/data.html` | High
-4 | File | `/admin.php/pic/admin/pic/del` | High
-5 | File | `/admin/booking-search.php` | High
-6 | File | `/admin/suppliers/view_details.php` | High
-7 | File | `/admin/voters_row.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/authentication/login` | High
-10 | File | `/api/discoveries/` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/app/sys1.php` | High
-15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-16 | File | `/cas/logout` | Medium
-17 | File | `/catalog/all-products` | High
-18 | File | `/cgi-bin/adm.cgi` | High
-19 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/nightled.cgi` | High
-22 | File | `/cgi-bin/touchlist_sync.cgi` | High
-23 | File | `/cgi-bin/vitogate.cgi` | High
-24 | File | `/data/edit_type.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-27 | File | `/downloadFile.php` | High
-28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-29 | File | `/env` | Low
-30 | File | `/find-a-match` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/friends` | Medium
-33 | ... | ... | ...
+3 | File | `/add_deductions.php` | High
+4 | File | `/admin.php/admin/art/data.html` | High
+5 | File | `/admin.php/pic/admin/pic/del` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/suppliers/view_details.php` | High
+8 | File | `/admin/updateorder.php` | High
+9 | File | `/admin/voters_row.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/authentication/login` | High
+12 | File | `/api/discoveries/` | High
+13 | File | `/api/log/killJob` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/open/rowsInfo` | High
+17 | File | `/app/sys1.php` | High
+18 | File | `/boafrm/formWdsEncrypt` | High
+19 | File | `/branch.php` | Medium
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/cas/logout` | Medium
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/adm.cgi` | High
+24 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/nightled.cgi` | High
+27 | File | `/cgi-bin/touchlist_sync.cgi` | High
+28 | File | `/cgi-bin/vitogate.cgi` | High
+29 | File | `/cms/collect/getArticle` | High
+30 | File | `/collect/PortV4/downLoad.html` | High
+31 | File | `/data/edit_type.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+34 | File | `/downloadFile.php` | High
+35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+36 | File | `/env` | Low
+37 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

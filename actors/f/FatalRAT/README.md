@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [45.119.55.16](https://vuldb.com/?ip.45.119.55.16) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,34 +58,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add_account.php` | High
 5 | File | `/admin/approve.php` | High
 6 | File | `/admin/contact-us.php` | High
-7 | File | `/admin/forgot-password.php` | High
-8 | File | `/admin/info_deal.php` | High
-9 | File | `/admin/manage_station.php` | High
-10 | File | `/admin/products/view_product.php` | High
-11 | File | `/admin/publishnews.php` | High
-12 | File | `/admin/user-search.php` | High
-13 | File | `/admin_pay.php` | High
-14 | File | `/ajax/get_patient_history.php` | High
-15 | File | `/api/deploy/upload` | High
-16 | File | `/api/deploy/upload /api/database/upload` | High
-17 | File | `/api/dept` | Medium
-18 | File | `/api/log/killJob` | High
-19 | File | `/api/upload.php` | High
-20 | File | `/app/ajax/sell_return_data.php` | High
-21 | File | `/apps/system/router/upload.go` | High
-22 | File | `/bin/httpd` | Medium
-23 | File | `/birthing_pending.php` | High
-24 | File | `/boafrm/formFilter` | High
-25 | File | `/boafrm/formMapReboot` | High
-26 | File | `/bwdates-reports-details.php` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/webproc?getpage=html/index.html&var:menu=24gwlan&var:page=24G_basic` | High
-29 | File | `/contact-back.php` | High
-30 | File | `/contact.php` | Medium
-31 | File | `/dosen/data` | Medium
-32 | ... | ... | ...
+7 | File | `/admin/edit-student-profile.php` | High
+8 | File | `/admin/forgot-password.php` | High
+9 | File | `/admin/info_deal.php` | High
+10 | File | `/admin/manage_station.php` | High
+11 | File | `/admin/products/view_product.php` | High
+12 | File | `/admin/publishnews.php` | High
+13 | File | `/admin/user-search.php` | High
+14 | File | `/admin_pay.php` | High
+15 | File | `/ajax/get_patient_history.php` | High
+16 | File | `/api/deploy/upload` | High
+17 | File | `/api/deploy/upload /api/database/upload` | High
+18 | File | `/api/dept` | Medium
+19 | File | `/api/log/killJob` | High
+20 | File | `/api/upload.php` | High
+21 | File | `/app/ajax/sell_return_data.php` | High
+22 | File | `/apps/system/router/upload.go` | High
+23 | File | `/bin/httpd` | Medium
+24 | File | `/birthing_pending.php` | High
+25 | File | `/boafrm/formFilter` | High
+26 | File | `/boafrm/formMapReboot` | High
+27 | File | `/bwdates-reports-details.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/webproc?getpage=html/index.html&var:menu=24gwlan&var:page=24G_basic` | High
+30 | File | `/contact-back.php` | High
+31 | File | `/contact.php` | Medium
+32 | File | `/devinfo` | Medium
+33 | File | `/dosen/data` | Medium
+34 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

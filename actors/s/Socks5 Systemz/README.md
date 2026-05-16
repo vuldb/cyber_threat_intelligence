@@ -30,27 +30,28 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [45.11.182.29](https://vuldb.com/?ip.45.11.182.29) | - | - | High
 12 | [45.11.182.82](https://vuldb.com/?ip.45.11.182.82) | - | - | High
 13 | [45.11.182.147](https://vuldb.com/?ip.45.11.182.147) | - | - | High
-14 | [45.88.90.160](https://vuldb.com/?ip.45.88.90.160) | - | - | High
-15 | [45.142.214.240](https://vuldb.com/?ip.45.142.214.240) | vm2232303.stark-industries.solutions | - | High
-16 | [45.155.249.96](https://vuldb.com/?ip.45.155.249.96) | - | - | High
-17 | [45.155.249.117](https://vuldb.com/?ip.45.155.249.117) | - | - | High
-18 | [45.155.249.212](https://vuldb.com/?ip.45.155.249.212) | - | - | High
-19 | [45.155.250.89](https://vuldb.com/?ip.45.155.250.89) | - | - | High
-20 | [45.155.250.90](https://vuldb.com/?ip.45.155.250.90) | - | - | High
-21 | [45.155.250.128](https://vuldb.com/?ip.45.155.250.128) | - | - | High
-22 | [45.155.250.188](https://vuldb.com/?ip.45.155.250.188) | - | - | High
-23 | [45.155.250.224](https://vuldb.com/?ip.45.155.250.224) | - | - | High
-24 | [45.155.250.229](https://vuldb.com/?ip.45.155.250.229) | - | - | High
-25 | [45.156.23.96](https://vuldb.com/?ip.45.156.23.96) | - | - | High
-26 | [46.8.225.74](https://vuldb.com/?ip.46.8.225.74) | - | - | High
-27 | [51.159.29.96](https://vuldb.com/?ip.51.159.29.96) | 51-159-29-96.rev.poneytelecom.eu | - | High
-28 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
-29 | [51.255.81.133](https://vuldb.com/?ip.51.255.81.133) | ns3037282.ip-51-255-81.eu | - | High
-30 | [62.210.116.204](https://vuldb.com/?ip.62.210.116.204) | 62-210-116-204.rev.poneytelecom.eu | - | High
-31 | [62.210.201.223](https://vuldb.com/?ip.62.210.201.223) | 62-210-201-223.rev.poneytelecom.eu | - | High
-32 | ... | ... | ... | ...
+14 | [45.74.40.3](https://vuldb.com/?ip.45.74.40.3) | - | - | High
+15 | [45.88.90.160](https://vuldb.com/?ip.45.88.90.160) | - | - | High
+16 | [45.142.214.240](https://vuldb.com/?ip.45.142.214.240) | vm2232303.stark-industries.solutions | - | High
+17 | [45.155.249.96](https://vuldb.com/?ip.45.155.249.96) | - | - | High
+18 | [45.155.249.117](https://vuldb.com/?ip.45.155.249.117) | - | - | High
+19 | [45.155.249.212](https://vuldb.com/?ip.45.155.249.212) | - | - | High
+20 | [45.155.250.89](https://vuldb.com/?ip.45.155.250.89) | - | - | High
+21 | [45.155.250.90](https://vuldb.com/?ip.45.155.250.90) | - | - | High
+22 | [45.155.250.128](https://vuldb.com/?ip.45.155.250.128) | - | - | High
+23 | [45.155.250.188](https://vuldb.com/?ip.45.155.250.188) | - | - | High
+24 | [45.155.250.224](https://vuldb.com/?ip.45.155.250.224) | - | - | High
+25 | [45.155.250.229](https://vuldb.com/?ip.45.155.250.229) | - | - | High
+26 | [45.156.23.96](https://vuldb.com/?ip.45.156.23.96) | - | - | High
+27 | [46.8.225.74](https://vuldb.com/?ip.46.8.225.74) | - | - | High
+28 | [51.159.29.96](https://vuldb.com/?ip.51.159.29.96) | 51-159-29-96.rev.poneytelecom.eu | - | High
+29 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
+30 | [51.255.81.133](https://vuldb.com/?ip.51.255.81.133) | ns3037282.ip-51-255-81.eu | - | High
+31 | [62.210.116.204](https://vuldb.com/?ip.62.210.116.204) | 62-210-116-204.rev.poneytelecom.eu | - | High
+32 | [62.210.201.223](https://vuldb.com/?ip.62.210.201.223) | 62-210-201-223.rev.poneytelecom.eu | - | High
+33 | ... | ... | ... | ...
 
-There are 124 more IOC items available. Please use our online service to access the data.
+There are 127 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,12 +59,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,10 +76,9 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
 3 | File | `/application/index/controller/Screen.php` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/goform/aspForm` | High
-6 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/bbe6a4c7-01c6-4887-9324-ada9399fb007/
 * https://bazaar.abuse.ch/sample/4c8bbfd75e8d0144a8737ef7aebf963da080df70186ee6a0b9483c90f0996954/
 * https://bazaar.abuse.ch/sample/528334ed9e4567a89f3cf4e4700946056499624dcfdd3b32a7800abc08eff9fe/
+* https://bazaar.abuse.ch/sample/bc0c9c58f2886e83b8d035c81bc3100bb8d2afd87b67591130b88ff5027bf8b6/
 * https://bazaar.abuse.ch/sample/eb04f77eb4f92dd2b46d04408166a32505e5016435ccd84476f20eeba542dafd/
 * https://bsky.app/profile/netresec.com/post/3lckyn3q4pk2o
 * https://de.darktrace.com/blog/socks5systemz-how-darktraces-anomaly-detection-unraveled-a-stealthy-botnet

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with West US Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -144,12 +144,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-27, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,16 +160,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/ad-list` | Medium
 2 | File | `/add-admin.php` | High
 3 | File | `/add-table.php` | High
-4 | File | `/admin#themes` | High
-5 | File | `/admin/admin_login.php` | High
-6 | File | `/admin/bookList?page=1&limit=10` | High
-7 | File | `/admin/case-type` | High
-8 | File | `/admin/contact-us.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/ind_backstage.php` | High
-11 | ... | ... | ...
+4 | File | `/admin/admin_login.php` | High
+5 | File | `/admin/bookList?page=1&limit=10` | High
+6 | File | `/admin/case-type` | High
+7 | File | `/admin/contact-us.php` | High
+8 | File | `/admin/index.php` | High
+9 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

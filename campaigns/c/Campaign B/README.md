@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -80,36 +80,36 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/orders/update_status.php` | High
 14 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 15 | File | `/admin79f2ec220c7e.php?c=api&m=demo&name=mobile` | High
-16 | File | `/api/1.0/rest/language_configuration` | High
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/api/controllers/merchant/app/ComboController.php` | High
-19 | File | `/api/dept/build` | High
-20 | File | `/api/filemanager` | High
-21 | File | `/api/v2/cli/commands` | High
-22 | File | `/api/wizard/networkSetup` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/archibus/login.axvw` | High
-25 | File | `/autheditpwd.php` | High
-26 | File | `/billing/home.php` | High
-27 | File | `/cap.js` | Low
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/cgi-bin/system_mgr.cgi` | High
-32 | File | `/cgi-bin/wapopen` | High
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/classes/Users.php?f=delete` | High
-35 | File | `/customer_register.php` | High
-36 | File | `/dede/uploads/dede/friendlink_add.php` | High
-37 | File | `/DXR.axd` | Medium
-38 | File | `/edit-computer-detail.php` | High
-39 | File | `/edit_dpatient.php` | High
-40 | File | `/edit_profile` | High
-41 | File | `/endpoint/update-file.php` | High
-42 | File | `/filemanager/upload.php` | High
+16 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+17 | File | `/api/1.0/rest/language_configuration` | High
+18 | File | `/api/baskets/{name}` | High
+19 | File | `/api/controllers/merchant/app/ComboController.php` | High
+20 | File | `/api/dept/build` | High
+21 | File | `/api/filemanager` | High
+22 | File | `/api/v2/cli/commands` | High
+23 | File | `/api/wizard/networkSetup` | High
+24 | File | `/application/index/controller/Screen.php` | High
+25 | File | `/archibus/login.axvw` | High
+26 | File | `/autheditpwd.php` | High
+27 | File | `/billing/home.php` | High
+28 | File | `/cap.js` | Low
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/system_mgr.cgi` | High
+33 | File | `/cgi-bin/vitogate.cgi` | High
+34 | File | `/cgi-bin/wapopen` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/classes/Users.php?f=delete` | High
+37 | File | `/customer_register.php` | High
+38 | File | `/dede/uploads/dede/friendlink_add.php` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/edit-computer-detail.php` | High
+41 | File | `/edit_dpatient.php` | High
+42 | File | `/edit_profile` | High
 43 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

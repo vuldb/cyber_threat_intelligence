@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ZA](https://vuldb.com/?country.za)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
-3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,10 +49,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/article/del` | High
 2 | File | `/course/filterRecords/` | High
-3 | File | `ExternalStorageProvider.java` | High
+3 | File | `/home.htm` | Medium
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

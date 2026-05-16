@@ -10,6 +10,12 @@ The following _campaigns_ are known and can be associated with PCPcat:
 
 * CVE-2025-29927 / CVE-2025-66478
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PCPcat:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of PCPcat.
@@ -17,6 +23,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [67.217.57.240](https://vuldb.com/?ip.67.217.57.240) | vps3136688.trouble-free.net | CVE-2025-29927 / CVE-2025-66478 | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PCPcat. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/graphql` | Medium
 
 ## References
 

@@ -228,8 +228,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -237,12 +238,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Login/login.php` | High
-2 | File | `laravel/app/Http/Controllers/Front/StoreController.php` | High
-3 | Argument | `lng/lat` | Low
+1 | File | `/check-appointment.php` | High
+2 | File | `/Login/login.php` | High
+3 | File | `laravel/app/Http/Controllers/Front/StoreController.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

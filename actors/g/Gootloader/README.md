@@ -66,49 +66,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin-profile.php` | High
 5 | File | `/admin/add_cars.php` | High
 6 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/two_tables.php` | High
-7 | File | `/admin/cmsVote/save` | High
-8 | File | `/admin/edit_query_account.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/login-back.php` | High
-11 | File | `/admin/profile.php` | High
-12 | File | `/admin/rooms.php` | High
-13 | File | `/admin/SensitiveWords` | High
-14 | File | `/admin/sign/out` | High
-15 | File | `/admin/sn_package/sn_https` | High
-16 | File | `/Admin/sports.php` | High
-17 | File | `/all_student.php` | High
-18 | File | `/api/wizard/getCapability` | High
-19 | File | `/backupsettings.conf` | High
-20 | File | `/cgi-bin/kerbynet` | High
-21 | File | `/cgi-bin/return.cgi` | High
-22 | File | `/checkLogin.cgi` | High
-23 | File | `/csms/admin/?page=user/list` | High
-24 | File | `/dashboard/admin/updateplan.php` | High
-25 | File | `/data/add_employee.php` | High
-26 | File | `/dental_form.php` | High
-27 | File | `/depotHead/list` | High
-28 | File | `/details2.php` | High
-29 | File | `/edit-phlebotomist.php?pid=11` | High
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/forms/web_importTFTP` | High
-32 | File | `/framework/modules/users/models/user.php` | High
-33 | File | `/function/login.php` | High
-34 | File | `/goform/AdvSetWrlsafeset` | High
-35 | File | `/goform/formConfigApConfTemp` | High
-36 | File | `/goform/openSchedWifi` | High
-37 | File | `/goform/VerAPIMant` | High
-38 | File | `/HNAP1` | Low
-39 | File | `/Home/GetAttachment` | High
-40 | File | `/index.php?route=extension/module/blog_add` | High
-41 | File | `/lesson/controller.php` | High
-42 | File | `/login?service` | High
-43 | File | `/mfsNotice/page` | High
-44 | File | `/mkshope/login.php` | High
-45 | File | `/model/viewProduct.php` | High
-46 | File | `/objects/getImageMP4.php` | High
+7 | File | `/admin/bwdates-reports-details.php` | High
+8 | File | `/admin/cmsVote/save` | High
+9 | File | `/admin/edit_query_account.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/login-back.php` | High
+12 | File | `/admin/profile.php` | High
+13 | File | `/admin/rooms.php` | High
+14 | File | `/admin/SensitiveWords` | High
+15 | File | `/admin/sign/out` | High
+16 | File | `/admin/sn_package/sn_https` | High
+17 | File | `/Admin/sports.php` | High
+18 | File | `/all_student.php` | High
+19 | File | `/api/file/upload` | High
+20 | File | `/api/wizard/getCapability` | High
+21 | File | `/backupsettings.conf` | High
+22 | File | `/cgi-bin/kerbynet` | High
+23 | File | `/cgi-bin/return.cgi` | High
+24 | File | `/csms/admin/?page=user/list` | High
+25 | File | `/dashboard/admin/updateplan.php` | High
+26 | File | `/data/add_employee.php` | High
+27 | File | `/dental_form.php` | High
+28 | File | `/depotHead/list` | High
+29 | File | `/details2.php` | High
+30 | File | `/edit-phlebotomist.php?pid=11` | High
+31 | File | `/endpoint/add-image.php` | High
+32 | File | `/etc/postfix/sender_login` | High
+33 | File | `/forms/web_importTFTP` | High
+34 | File | `/framework/modules/users/models/user.php` | High
+35 | File | `/function/login.php` | High
+36 | File | `/goform/AdvSetWrlsafeset` | High
+37 | File | `/goform/formConfigApConfTemp` | High
+38 | File | `/goform/formFtpServerDirConfig` | High
+39 | File | `/goform/openSchedWifi` | High
+40 | File | `/goform/VerAPIMant` | High
+41 | File | `/HNAP1` | Low
+42 | File | `/Home/GetAttachment` | High
+43 | File | `/index.php?route=extension/module/blog_add` | High
+44 | File | `/lesson/controller.php` | High
+45 | File | `/lists/admin/` | High
+46 | File | `/login?service` | High
 47 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

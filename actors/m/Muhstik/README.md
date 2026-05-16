@@ -20,11 +20,11 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Muhstik:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,30 +76,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addbill.php` | Medium
 2 | File | `/admin.php` | Medium
-3 | File | `/admin/edit_product.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/mod_reports/printreport.php` | High
-6 | File | `/admin/offenses/view_details.php` | High
-7 | File | `/admin/tag.php` | High
-8 | File | `/admin/update-clients.php` | High
-9 | File | `/ample/app/action/edit_product.php` | High
-10 | File | `/api/v2/open/rowsInfo` | High
-11 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
-12 | File | `/boafrm/formParentControl` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/conf/` | Low
-16 | File | `/config/api/v1/reboot` | High
-17 | File | `/controller/AdminController.php` | High
-18 | File | `/cwc/login` | Medium
-19 | File | `/ecommerce/support_ticket` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/friends/ajax_invite` | High
-22 | File | `/goform/fromSetDDNS` | High
-23 | File | `/goform/telnet` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/edit_product.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/mod_reports/printreport.php` | High
+7 | File | `/admin/offenses/view_details.php` | High
+8 | File | `/admin/tag.php` | High
+9 | File | `/admin/unreadenq.php` | High
+10 | File | `/admin/update-clients.php` | High
+11 | File | `/ample/app/action/edit_product.php` | High
+12 | File | `/api/v2/open/rowsInfo` | High
+13 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
+14 | File | `/boafrm/formParentControl` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/conf/` | Low
+18 | File | `/config/api/v1/reboot` | High
+19 | File | `/controller/AdminController.php` | High
+20 | File | `/cwc/login` | Medium
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/editar-fornecedor.php` | High
+23 | File | `/forum/away.php` | High
 24 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -11,13 +11,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.149.128.10](https://vuldb.com/?ip.8.149.128.10) | - | - | High
-2 | [159.75.233.220](https://vuldb.com/?ip.159.75.233.220) | - | - | High
+2 | [100.100.100.200](https://vuldb.com/?ip.100.100.100.200) | - | - | High
+3 | [159.75.233.220](https://vuldb.com/?ip.159.75.233.220) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://www.sysdig.com/blog/voidlink-threat-analysis-sysdig-discovers-c2-compiled-kernel-rootkits
 
 ## Literature
 

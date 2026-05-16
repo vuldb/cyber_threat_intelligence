@@ -9,8 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Meduza Stealer:
 
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
-* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -49,43 +47,43 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [5.252.118.50](https://vuldb.com/?ip.5.252.118.50) | pushy-pig.aeza.network | - | High
 30 | [5.252.155.28](https://vuldb.com/?ip.5.252.155.28) | - | - | High
 31 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
-32 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
-33 | [31.177.108.30](https://vuldb.com/?ip.31.177.108.30) | - | - | High
-34 | [31.177.110.52](https://vuldb.com/?ip.31.177.110.52) | - | - | High
-35 | [31.220.4.134](https://vuldb.com/?ip.31.220.4.134) | - | - | High
-36 | [37.27.104.29](https://vuldb.com/?ip.37.27.104.29) | 37-27-104-29.ptr | - | High
-37 | [37.110.19.55](https://vuldb.com/?ip.37.110.19.55) | broadband-37-110-19-55.ip.moscow.rt.ru | - | High
-38 | [37.221.93.9](https://vuldb.com/?ip.37.221.93.9) | 9.93.221.37.in-addr.arpa | - | High
-39 | [38.22.104.179](https://vuldb.com/?ip.38.22.104.179) | - | - | High
-40 | [45.15.157.116](https://vuldb.com/?ip.45.15.157.116) | spiffy-sponge.aeza.network | - | High
-41 | [45.15.158.144](https://vuldb.com/?ip.45.15.158.144) | disillusioned-eyes.aeza.network | - | High
-42 | [45.15.159.130](https://vuldb.com/?ip.45.15.159.130) | mundane-spade.aeza.network | - | High
-43 | [45.59.120.155](https://vuldb.com/?ip.45.59.120.155) | 155.120.59.45.static.cloudzy.com | - | High
-44 | [45.66.228.64](https://vuldb.com/?ip.45.66.228.64) | - | - | High
-45 | [45.74.19.107](https://vuldb.com/?ip.45.74.19.107) | - | - | High
-46 | [45.88.91.239](https://vuldb.com/?ip.45.88.91.239) | - | - | High
-47 | [45.91.94.210](https://vuldb.com/?ip.45.91.94.210) | - | - | High
-48 | [45.93.20.15](https://vuldb.com/?ip.45.93.20.15) | - | - | High
-49 | [45.93.20.67](https://vuldb.com/?ip.45.93.20.67) | - | - | High
-50 | [45.93.20.207](https://vuldb.com/?ip.45.93.20.207) | - | - | High
-51 | [45.120.177.167](https://vuldb.com/?ip.45.120.177.167) | vpsmike123.example.com | - | High
-52 | [45.130.145.152](https://vuldb.com/?ip.45.130.145.152) | - | - | High
-53 | [45.136.50.73](https://vuldb.com/?ip.45.136.50.73) | - | - | High
-54 | [45.136.196.76](https://vuldb.com/?ip.45.136.196.76) | - | - | High
-55 | [45.138.16.132](https://vuldb.com/?ip.45.138.16.132) | - | - | High
-56 | [45.138.74.228](https://vuldb.com/?ip.45.138.74.228) | shy-laborer.aeza.one | - | High
-57 | [45.141.215.44](https://vuldb.com/?ip.45.141.215.44) | - | - | High
-58 | [45.141.215.173](https://vuldb.com/?ip.45.141.215.173) | - | - | High
-59 | [45.150.64.135](https://vuldb.com/?ip.45.150.64.135) | vm2407211.stark-industries.solutions | - | High
-60 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
-61 | [46.34.51.181](https://vuldb.com/?ip.46.34.51.181) | - | - | High
-62 | [46.226.164.150](https://vuldb.com/?ip.46.226.164.150) | - | - | High
-63 | [46.226.165.237](https://vuldb.com/?ip.46.226.165.237) | KedyDexter.aeza.network | - | High
-64 | [46.226.166.200](https://vuldb.com/?ip.46.226.166.200) | - | - | High
-65 | [46.226.166.245](https://vuldb.com/?ip.46.226.166.245) | damp-boundary.aeza.network | - | High
+32 | [14.0.37.128](https://vuldb.com/?ip.14.0.37.128) | - | - | High
+33 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
+34 | [31.177.108.30](https://vuldb.com/?ip.31.177.108.30) | - | - | High
+35 | [31.177.110.52](https://vuldb.com/?ip.31.177.110.52) | - | - | High
+36 | [31.220.4.134](https://vuldb.com/?ip.31.220.4.134) | - | - | High
+37 | [37.27.104.29](https://vuldb.com/?ip.37.27.104.29) | 37-27-104-29.ptr | - | High
+38 | [37.110.19.55](https://vuldb.com/?ip.37.110.19.55) | broadband-37-110-19-55.ip.moscow.rt.ru | - | High
+39 | [37.221.93.9](https://vuldb.com/?ip.37.221.93.9) | 9.93.221.37.in-addr.arpa | - | High
+40 | [38.22.104.179](https://vuldb.com/?ip.38.22.104.179) | - | - | High
+41 | [45.15.157.116](https://vuldb.com/?ip.45.15.157.116) | spiffy-sponge.aeza.network | - | High
+42 | [45.15.158.144](https://vuldb.com/?ip.45.15.158.144) | disillusioned-eyes.aeza.network | - | High
+43 | [45.15.159.130](https://vuldb.com/?ip.45.15.159.130) | mundane-spade.aeza.network | - | High
+44 | [45.59.120.155](https://vuldb.com/?ip.45.59.120.155) | 155.120.59.45.static.cloudzy.com | - | High
+45 | [45.66.228.64](https://vuldb.com/?ip.45.66.228.64) | - | - | High
+46 | [45.74.19.107](https://vuldb.com/?ip.45.74.19.107) | - | - | High
+47 | [45.88.91.239](https://vuldb.com/?ip.45.88.91.239) | - | - | High
+48 | [45.91.94.210](https://vuldb.com/?ip.45.91.94.210) | - | - | High
+49 | [45.93.20.15](https://vuldb.com/?ip.45.93.20.15) | - | - | High
+50 | [45.93.20.67](https://vuldb.com/?ip.45.93.20.67) | - | - | High
+51 | [45.93.20.207](https://vuldb.com/?ip.45.93.20.207) | - | - | High
+52 | [45.120.177.167](https://vuldb.com/?ip.45.120.177.167) | vpsmike123.example.com | - | High
+53 | [45.130.145.152](https://vuldb.com/?ip.45.130.145.152) | - | - | High
+54 | [45.136.50.73](https://vuldb.com/?ip.45.136.50.73) | - | - | High
+55 | [45.136.196.76](https://vuldb.com/?ip.45.136.196.76) | - | - | High
+56 | [45.138.16.132](https://vuldb.com/?ip.45.138.16.132) | - | - | High
+57 | [45.138.74.228](https://vuldb.com/?ip.45.138.74.228) | shy-laborer.aeza.one | - | High
+58 | [45.141.215.44](https://vuldb.com/?ip.45.141.215.44) | - | - | High
+59 | [45.141.215.173](https://vuldb.com/?ip.45.141.215.173) | - | - | High
+60 | [45.150.64.135](https://vuldb.com/?ip.45.150.64.135) | vm2407211.stark-industries.solutions | - | High
+61 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
+62 | [46.34.51.181](https://vuldb.com/?ip.46.34.51.181) | - | - | High
+63 | [46.226.164.150](https://vuldb.com/?ip.46.226.164.150) | - | - | High
+64 | [46.226.165.237](https://vuldb.com/?ip.46.226.165.237) | KedyDexter.aeza.network | - | High
+65 | [46.226.166.200](https://vuldb.com/?ip.46.226.166.200) | - | - | High
 66 | ... | ... | ... | ...
 
-There are 259 more IOC items available. Please use our online service to access the data.
+There are 260 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,12 +91,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,16 +104,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/file_manager/export` | High
-2 | File | `/admin_topic.php?action=delall` | High
-3 | File | `/api/cron/settings/setJob/` | High
-4 | File | `/api2/html/` | Medium
-5 | File | `/bitrix/admin/ldap_server_edit.php` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-8 | ... | ... | ...
+1 | File | `/admin_topic.php?action=delall` | High
+2 | File | `/bitrix/admin/ldap_server_edit.php` | High
+3 | File | `/h/rest` | Low
+4 | ... | ... | ...
 
-There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -363,6 +357,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=212.113.116.110
 * https://tria.ge/240908-dera5s1erj
 * https://twitter.com/BlueowlIOC/status/1730117532496089562
+* https://www.shodan.io/host/14.0.37.128#30003
 * https://www.shodan.io/host/46.34.51.181#5000
 
 ## Literature
@@ -374,4 +369,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,11 +58,11 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [45.33.8.30](https://vuldb.com/?ip.45.33.8.30) | 45-33-8-30.ip.linodeusercontent.com | - | High
 29 | [45.38.135.112](https://vuldb.com/?ip.45.38.135.112) | - | - | High
 30 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
-31 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-32 | [45.252.248.26](https://vuldb.com/?ip.45.252.248.26) | - | - | High
+31 | [45.153.34.90](https://vuldb.com/?ip.45.153.34.90) | - | - | High
+32 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
 33 | ... | ... | ... | ...
 
-There are 126 more IOC items available. Please use our online service to access the data.
+There are 130 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,62 +85,73 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/archives_add.php` | High
-2 | File | `/admin/bwdates-reports-details.php` | High
-3 | File | `/admin/categories/save` | High
-4 | File | `/admin/category/controller.php` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/create_product.php` | High
-7 | File | `/admin/delete_user.php` | High
-8 | File | `/admin/general.cgi` | High
-9 | File | `/admin/newsletterdel.php` | High
-10 | File | `/admin/pages/` | High
-11 | File | `/admin/positions.php` | High
-12 | File | `/admin/receipt.php` | High
-13 | File | `/admin/reminders/manage_reminder.php` | High
-14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-16 | File | `/admins` | Low
-17 | File | `/ajax.php?action=login` | High
-18 | File | `/ajax/getBasicInfo.php` | High
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/api/files/recipepictures/` | High
-21 | File | `/API/info` | Medium
-22 | File | `/att_add.php` | Medium
-23 | File | `/authentication.cgi` | High
-24 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-25 | File | `/Bloodgroop_process.php` | High
-26 | File | `/boafrm/formDdns` | High
-27 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-28 | File | `/boafrm/formVpnConfigSetup` | High
-29 | File | `/cancelbookingpatient.php` | High
-30 | File | `/CCMAdmin/serverlist.asp` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-33 | File | `/cgi-bin/nas_sharing.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/cgi/get_param.cgi` | High
-36 | File | `/clientdetails/admin/regester.php` | High
-37 | File | `/csms/?page=contact_us` | High
-38 | File | `/csms/admin/inquiries/view_details.php` | High
-39 | File | `/cstecgi.cgi` | Medium
-40 | File | `/detailtransac.php` | High
-41 | File | `/dev/ptpX` | Medium
-42 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-43 | File | `/ecommerce/support_ticket` | High
-44 | File | `/editeddonor.php` | High
-45 | File | `/editprofile.php` | High
-46 | File | `/farm/product.php` | High
-47 | File | `/foreigner-search.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/function.php` | High
-50 | File | `/gallery/api/status/` | High
-51 | File | `/goform/AdvSetMacMtuWa` | High
-52 | File | `/goform/aspForm` | High
-53 | File | `/goform/DhcpListClient` | High
-54 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/bwdates-reports-details.php` | High
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/category/controller.php` | High
+8 | File | `/admin/contact-us.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/delete_user.php` | High
+11 | File | `/admin/general.cgi` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/newsletterdel.php` | High
+14 | File | `/admin/pages/` | High
+15 | File | `/admin/positions.php` | High
+16 | File | `/admin/receipt.php` | High
+17 | File | `/admin/reminders/manage_reminder.php` | High
+18 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+19 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+20 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+21 | File | `/Administrator/PHP/AdminEditUser.php` | High
+22 | File | `/Administrator/PHP/AdminReply.php` | High
+23 | File | `/admins` | Low
+24 | File | `/adv_mac_filter.php` | High
+25 | File | `/ajax.php?action=login` | High
+26 | File | `/ajax/getBasicInfo.php` | High
+27 | File | `/api/admin/system/store/order/list` | High
+28 | File | `/api/files/recipepictures/` | High
+29 | File | `/API/info` | Medium
+30 | File | `/app/register.php?action=reg` | High
+31 | File | `/att_add.php` | Medium
+32 | File | `/authentication.cgi` | High
+33 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+34 | File | `/Bloodgroop_process.php` | High
+35 | File | `/boaform/formSamba` | High
+36 | File | `/boafrm/formDdns` | High
+37 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+38 | File | `/boafrm/formVpnConfigSetup` | High
+39 | File | `/cancelbookingpatient.php` | High
+40 | File | `/CCMAdmin/serverlist.asp` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+43 | File | `/cgi-bin/nas_sharing.cgi` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/cgi/get_param.cgi` | High
+46 | File | `/clientdetails/admin/regester.php` | High
+47 | File | `/csms/?page=contact_us` | High
+48 | File | `/csms/admin/inquiries/view_details.php` | High
+49 | File | `/cstecgi.cgi` | Medium
+50 | File | `/detailtransac.php` | High
+51 | File | `/dev/ptpX` | Medium
+52 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+53 | File | `/ecommerce/support_ticket` | High
+54 | File | `/editeddonor.php` | High
+55 | File | `/editprofile.php` | High
+56 | File | `/farm/product.php` | High
+57 | File | `/foreigner-search.php` | High
+58 | File | `/forum/away.php` | High
+59 | File | `/FrontEnd/Albums.php` | High
+60 | File | `/function.php` | High
+61 | File | `/gallery/api/status/` | High
+62 | File | `/goform/AdvSetLanip` | High
+63 | File | `/goform/AdvSetMacMtuWa` | High
+64 | File | `/goform/AdvSetMacMtuWan` | High
+65 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,6 +163,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/5f20b5d1-d039-48cb-8481-f3c451d8bcf0/#
 * https://app.any.run/tasks/7a81253d-98e4-45d4-a009-098b7c19b992
 * https://app.any.run/tasks/91b72945-2a21-4e9e-98c5-132ed8d15714/
+* https://app.any.run/tasks/6571d5ff-2f2b-4b07-a61f-0cb7d907a2d6
 * https://app.any.run/tasks/126973bd-0df8-408d-85ae-913ba5c53612/#
 * https://app.any.run/tasks/7497880c-fb2d-4a40-aa6d-57222069de70
 * https://app.any.run/tasks/dedc8121-54bb-4114-b010-dfe44891d45f
@@ -199,6 +211,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.deepinstinct.com/blog/the-hasty-agent-agent-tesla-attack-uses-hastebin
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
 * https://www.hyas.com/blog/agent-tesla-unmasked-revealing-interrelated-cyber-campaigns
+* https://www.threat.rip/file/8a5ad4d2d207a6e3d8b3f613f94ddbcea0bd098fb199c565df6ea36b30e93e24/config
+* https://www.threat.rip/file/d0bc77d14a14b5c69e1aebbe36d142b8e375619561640c5f4809c2825174ddff/config
+* https://www.threat.rip/file/dd60248148208c0d36f1bab0cd37401f914ca2539f9d7047f93d3ebc90fd7144/config
 * https://www.virustotal.com/gui/file/6ade497b4a45a2c4688ac69fe2ae146c721db3cf8d82df9b5ca40b4614ad62b7/relations
 * https://www.zscaler.com/blogs/security-research/agent-tesla-rat-delivered-quantum-builder-new-ttps
 * https://www.zscaler.com/blogs/security-research/threat-actors-exploit-cve-2017-11882-deliver-agent-tesla

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.rustobot](https://vuldb.com/?actor.rustobot)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with RustoBot:
+
+* CVE-2025-55182
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RustoBot:
@@ -20,6 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.255.125.150](https://vuldb.com/?ip.5.255.125.150) | - | - | High
 2 | [66.63.187.69](https://vuldb.com/?ip.66.63.187.69) | - | - | High
+3 | [176.117.107.154](https://vuldb.com/?ip.176.117.107.154) | - | CVE-2025-55182 | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,15 +49,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/endpoint/add-user.php` | High
 2 | File | `/gbo.aspx` | Medium
-3 | File | `/vicidial/admin.php` | High
+3 | File | `/goformX/formFSrvX` | High
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://thecyberexpress.com/cve-2025-55182-react2shell-active-exploitation/
 * https://www.fortinet.com/blog/threat-research/new-rust-botnet-rustobot-is-routed-via-routers
 
 ## Literature
@@ -62,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

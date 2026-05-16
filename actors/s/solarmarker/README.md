@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 25 more country items available. Please use our online service to access the data.
@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/alphaware/details.php` | High
 8 | File | `/api/baskets/{name}` | High
 9 | File | `/api2/html/` | Medium
-10 | File | `/apiadmin/notice/add` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-13 | File | `/backend/admin/his_admin_register_patient.php` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+12 | File | `/backend/admin/his_admin_register_patient.php` | High
+13 | File | `/BalloonSave.ashx` | High
 14 | File | `/bitrix/admin/ldap_server_edit.php` | High
 15 | File | `/calendar/minimizer/index.php` | High
 16 | File | `/cgi-bin-sdb/` | High
@@ -86,38 +86,39 @@ ID | Type | Indicator | Confidence
 25 | File | `/dayrui/Fcms/Init.php` | High
 26 | File | `/debug/pprof` | Medium
 27 | File | `/dev-api/common/upload` | High
-28 | File | `/ecommerce/support_ticket` | High
-29 | File | `/file/downloadShowFile.action` | High
-30 | File | `/Forms/tools_test_1` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/forum/PostPrivateMessage` | High
-33 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-34 | File | `/goform/RP_checkCredentialsByBBS` | High
-35 | File | `/goform/ShutdownSetAdd` | High
-36 | File | `/goform/wirelessAdvancedHidden` | High
-37 | File | `/h/autoSaveDraft` | High
-38 | File | `/h/calendar` | Medium
-39 | File | `/holiday.php` | Medium
-40 | File | `/home/cavesConsole` | High
-41 | File | `/includes/article_detail.php` | High
-42 | File | `/index.php` | Medium
-43 | File | `/index.php/stock/item_select` | High
-44 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-45 | File | `/jdcapi` | Low
-46 | File | `/je/postil/postil/loadPostil` | High
-47 | File | `/lam/tmp/` | Medium
-48 | File | `/librarian/bookdetails.php` | High
-49 | File | `/login/index.php` | High
-50 | File | `/model/update_grade.php` | High
-51 | File | `/module/word_model/view/index.php` | High
-52 | File | `/monitoring` | Medium
-53 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-54 | File | `/newsDia.php` | Medium
-55 | File | `/oauth/idp/.well-known/openid-configuration` | High
-56 | File | `/OpenPublicCourse.aspx` | High
-57 | ... | ... | ...
+28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+29 | File | `/ecommerce/support_ticket` | High
+30 | File | `/file/downloadShowFile.action` | High
+31 | File | `/Forms/tools_test_1` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/forum/PostPrivateMessage` | High
+34 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+35 | File | `/goform/RP_checkCredentialsByBBS` | High
+36 | File | `/goform/ShutdownSetAdd` | High
+37 | File | `/goform/wirelessAdvancedHidden` | High
+38 | File | `/h/autoSaveDraft` | High
+39 | File | `/h/calendar` | Medium
+40 | File | `/holiday.php` | Medium
+41 | File | `/home/cavesConsole` | High
+42 | File | `/includes/article_detail.php` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php/stock/item_select` | High
+45 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+46 | File | `/jdcapi` | Low
+47 | File | `/je/postil/postil/loadPostil` | High
+48 | File | `/lam/tmp/` | Medium
+49 | File | `/librarian/bookdetails.php` | High
+50 | File | `/login/index.php` | High
+51 | File | `/model/update_grade.php` | High
+52 | File | `/module/word_model/view/index.php` | High
+53 | File | `/monitoring` | Medium
+54 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+55 | File | `/newsDia.php` | Medium
+56 | File | `/oauth/idp/.well-known/openid-configuration` | High
+57 | File | `/OpenPublicCourse.aspx` | High
+58 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

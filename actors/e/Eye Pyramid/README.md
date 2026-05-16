@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,22 +32,23 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [13.217.66.6](https://vuldb.com/?ip.13.217.66.6) | mail.humanresourcefoundation.com | - | High
 10 | [18.102.94.254](https://vuldb.com/?ip.18.102.94.254) | ec2-18-102-94-254.eu-south-1.compute.amazonaws.com | - | Medium
 11 | [18.102.118.123](https://vuldb.com/?ip.18.102.118.123) | ec2-18-102-118-123.eu-south-1.compute.amazonaws.com | - | Medium
-12 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
-13 | [31.7.77.230](https://vuldb.com/?ip.31.7.77.230) | - | - | High
-14 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
-15 | [35.152.189.99](https://vuldb.com/?ip.35.152.189.99) | ec2-35-152-189-99.eu-south-1.compute.amazonaws.com | - | Medium
-16 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
-17 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
-18 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
-19 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
-20 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
-21 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
-22 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
-23 | [45.141.233.243](https://vuldb.com/?ip.45.141.233.243) | - | - | High
-24 | [46.21.153.146](https://vuldb.com/?ip.46.21.153.146) | 146.153.21.46.static.swiftway.net | - | High
-25 | ... | ... | ... | ...
+12 | [18.102.135.133](https://vuldb.com/?ip.18.102.135.133) | ec2-18-102-135-133.eu-south-1.compute.amazonaws.com | - | Medium
+13 | [18.191.75.16](https://vuldb.com/?ip.18.191.75.16) | ec2-18-191-75-16.us-east-2.compute.amazonaws.com | - | Medium
+14 | [31.7.77.230](https://vuldb.com/?ip.31.7.77.230) | - | - | High
+15 | [35.152.159.170](https://vuldb.com/?ip.35.152.159.170) | ec2-35-152-159-170.eu-south-1.compute.amazonaws.com | - | Medium
+16 | [35.152.189.99](https://vuldb.com/?ip.35.152.189.99) | ec2-35-152-189-99.eu-south-1.compute.amazonaws.com | - | Medium
+17 | [35.152.200.44](https://vuldb.com/?ip.35.152.200.44) | ec2-35-152-200-44.eu-south-1.compute.amazonaws.com | - | Medium
+18 | [38.132.122.156](https://vuldb.com/?ip.38.132.122.156) | - | - | High
+19 | [38.132.122.161](https://vuldb.com/?ip.38.132.122.161) | - | - | High
+20 | [38.132.122.163](https://vuldb.com/?ip.38.132.122.163) | - | - | High
+21 | [44.210.30.173](https://vuldb.com/?ip.44.210.30.173) | ec2-44-210-30-173.compute-1.amazonaws.com | - | Medium
+22 | [45.86.231.115](https://vuldb.com/?ip.45.86.231.115) | - | - | High
+23 | [45.141.233.87](https://vuldb.com/?ip.45.141.233.87) | - | - | High
+24 | [45.141.233.243](https://vuldb.com/?ip.45.141.233.243) | - | - | High
+25 | [46.21.153.146](https://vuldb.com/?ip.46.21.153.146) | 146.153.21.46.static.swiftway.net | - | High
+26 | ... | ... | ... | ...
 
-There are 96 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,38 +71,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add-module.php` | High
-2 | File | `/admin/archives_add.php` | High
-3 | File | `/admin/categories/save` | High
-4 | File | `/admin/contact-us.php` | High
-5 | File | `/admin/delete_user.php` | High
-6 | File | `/admin/newsletterdel.php` | High
-7 | File | `/admin/pages/` | High
-8 | File | `/admin/positions.php` | High
-9 | File | `/admin/receipt.php` | High
-10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-12 | File | `/admins` | Low
-13 | File | `/ajax.php?action=login` | High
-14 | File | `/ajax/getBasicInfo.php` | High
-15 | File | `/api/admin/system/store/order/list` | High
-16 | File | `/api/files/recipepictures/` | High
-17 | File | `/authentication.cgi` | High
-18 | File | `/boafrm/formDdns` | High
-19 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-20 | File | `/boafrm/formVpnConfigSetup` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/clientdetails/admin/regester.php` | High
-24 | File | `/csms/?page=contact_us` | High
-25 | File | `/detailtransac.php` | High
-26 | File | `/dev/ptpX` | Medium
-27 | File | `/editeddonor.php` | High
-28 | File | `/editprofile.php` | High
-29 | File | `/farm/product.php` | High
-30 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/categories/save` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/pages/` | High
+11 | File | `/admin/positions.php` | High
+12 | File | `/admin/receipt.php` | High
+13 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+15 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+16 | File | `/Administrator/PHP/AdminEditUser.php` | High
+17 | File | `/Administrator/PHP/AdminReply.php` | High
+18 | File | `/admins` | Low
+19 | File | `/adv_mac_filter.php` | High
+20 | File | `/ajax.php?action=login` | High
+21 | File | `/ajax/getBasicInfo.php` | High
+22 | File | `/api/admin/system/store/order/list` | High
+23 | File | `/api/files/recipepictures/` | High
+24 | File | `/app/register.php?action=reg` | High
+25 | File | `/authentication.cgi` | High
+26 | File | `/boaform/formSamba` | High
+27 | File | `/boafrm/formDdns` | High
+28 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+29 | File | `/boafrm/formVpnConfigSetup` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/clientdetails/admin/regester.php` | High
+33 | File | `/csms/?page=contact_us` | High
+34 | File | `/detailtransac.php` | High
+35 | File | `/dev/ptpX` | Medium
+36 | File | `/editeddonor.php` | High
+37 | File | `/editprofile.php` | High
+38 | File | `/farm/product.php` | High
+39 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -435,9 +435,12 @@ ID | IP address | Hostname | Campaign | Confidence
 412 | [54.37.36.116](https://vuldb.com/?ip.54.37.36.116) | ip116.ip-54-37-36.eu | - | High
 413 | [54.37.235.82](https://vuldb.com/?ip.54.37.235.82) | 82.ip-54-37-235.eu | - | High
 414 | [54.38.123.240](https://vuldb.com/?ip.54.38.123.240) | - | - | High
-415 | ... | ... | ... | ...
+415 | [54.38.136.57](https://vuldb.com/?ip.54.38.136.57) | - | - | High
+416 | [54.176.73.138](https://vuldb.com/?ip.54.176.73.138) | ec2-54-176-73-138.us-west-1.compute.amazonaws.com | - | Medium
+417 | [54.188.68.225](https://vuldb.com/?ip.54.188.68.225) | ec2-54-188-68-225.us-west-2.compute.amazonaws.com | - | Medium
+418 | ... | ... | ... | ...
 
-There are 1655 more IOC items available. Please use our online service to access the data.
+There are 1670 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -445,14 +448,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-27, CWE-36, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-24, CWE-27, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -460,154 +463,96 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/activation.php` | High
-2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-3 | File | `/add-lockertype.php` | High
-4 | File | `/add-users.php` | High
-5 | File | `/addclient1.php` | High
-6 | File | `/addcustcom.php` | High
-7 | File | `/addstock.php` | High
-8 | File | `/add_new_supplier.php` | High
-9 | File | `/admin` | Low
-10 | File | `/admin-api/infra/file/upload` | High
-11 | File | `/admin-cp/imports` | High
-12 | File | `/admin-cp/menus` | High
-13 | File | `/admin-cp/plugin/install` | High
-14 | File | `/admin-page.php` | High
-15 | File | `/admin.php` | Medium
-16 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-17 | File | `/admin.php?id=inbox` | High
-18 | File | `/admin/?page=categories/view_category` | High
-19 | File | `/admin/?page=maintenance/brand` | High
-20 | File | `/admin/?page=return/view_return` | High
-21 | File | `/admin/?page=user` | High
-22 | File | `/admin/?page=user/manage_user&id=3` | High
-23 | File | `/admin/action/delete-vaccine.php` | High
-24 | File | `/admin/add-category.php` | High
-25 | File | `/admin/add-scdetails.php` | High
-26 | File | `/Admin/add-student.php` | High
-27 | File | `/admin/addadvertisement.php` | High
-28 | File | `/Admin/additems.php` | High
-29 | File | `/admin/add_admin.php` | High
-30 | File | `/admin/add_cars.php` | High
-31 | File | `/admin/add_category.php` | High
-32 | File | `/admin/add_teacher.php` | High
-33 | File | `/admin/add_topic.php?category=BBS` | High
-34 | File | `/admin/admin-profile.php` | High
-35 | File | `/admin/admin.php` | High
-36 | File | `/admin/adminprofile.php` | High
-37 | File | `/admin/admin_content_tag.php?action=save_content` | High
-38 | File | `/admin/admin_football.php` | High
-39 | File | `/admin/admin_index.php` | High
-40 | File | `/admin/admin_user.php` | High
-41 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
-42 | File | `/admin/ajax.php?action=save_student` | High
-43 | File | `/admin/app/role_crud.php` | High
-44 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
-45 | File | `/admin/bill.php` | High
-46 | File | `/admin/book-details.php` | High
-47 | File | `/admin/calendar_of_events.php` | High
-48 | File | `/admin/carousels/save` | High
-49 | File | `/admin/categories/update` | High
-50 | File | `/admin/category_update.php` | High
-51 | File | `/admin/change-emailid.php` | High
-52 | File | `/admin/change-image.php` | High
-53 | File | `/admin/changeimage.php` | High
-54 | File | `/Admin/changepassword.php` | High
-55 | File | `/admin/clients/` | High
-56 | File | `/admin/clientview.php` | High
-57 | File | `/admin/client_user` | High
-58 | File | `/admin/config_save.php` | High
-59 | File | `/admin/contacts/organizations/edit/2` | High
-60 | File | `/admin/deletedoctorclinic.php` | High
-61 | File | `/admin/edit-admin.php` | High
-62 | File | `/admin/edit-brand.php` | High
-63 | File | `/admin/edit-category-detail.php` | High
-64 | File | `/admin/edit-category.php` | High
-65 | File | `/admin/edit-class.php` | High
-66 | File | `/admin/edit-class.php?cid=1` | High
-67 | File | `/admin/edit-person-detail.php?editid=2` | High
-68 | File | `/admin/edit-products.php` | High
-69 | File | `/admin/edit-services.php` | High
-70 | File | `/admin/edit-subadmin.php` | High
-71 | File | `/admin/edit-subcategory.php` | High
-72 | File | `/admin/edit-teacher-info.php` | High
-73 | File | `/admin/edit-team.php` | High
-74 | File | `/admin/edit_room.php` | High
-75 | File | `/admin/edit_teacher.php` | High
-76 | File | `/admin/finished.php` | High
-77 | File | `/admin/forgot-password.php` | High
-78 | File | `/admin/freelist_main.php` | High
-79 | File | `/admin/home.php?con=add` | High
-80 | File | `/admin/includes/edit_post.php` | High
-81 | File | `/admin/index.php` | High
-82 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
-83 | File | `/admin/insert-product.php` | High
-84 | File | `/admin/lastthirtyays-reg-users.php` | High
-85 | File | `/admin/list_addr_fwresource_ip.php` | High
-86 | File | `/admin/login.php` | High
-87 | File | `/admin/login_process.php` | High
-88 | File | `/admin/manage-users.php` | High
-89 | File | `/admin/model/addOrUpdate` | High
-90 | File | `/admin/newsletterdel.php` | High
-91 | File | `/admin/password-recovery.php` | High
-92 | File | `/admin/payment_save.php` | High
-93 | File | `/admin/positions.php` | High
-94 | File | `/admin/print1.php` | High
-95 | File | `/admin/profile.php` | High
-96 | File | `/admin/receipt.php` | High
-97 | File | `/Admin/registration.php` | High
-98 | File | `/admin/registration.php` | High
-99 | File | `/admin/reports.php` | High
-100 | File | `/admin/save_student.php` | High
-101 | File | `/admin/search-appointment.php` | High
-102 | File | `/admin/search-autoortaxi.php` | High
-103 | File | `/admin/search-maid.php` | High
-104 | File | `/admin/search.php` | High
-105 | File | `/admin/semester.php` | High
-106 | File | `/admin/students/manage_academic.php` | High
-107 | File | `/admin/suppliercontroller.php` | High
-108 | File | `/admin/system/dict/add.json?sqlid=system.dict.save` | High
-109 | File | `/admin/tag/save` | High
-110 | File | `/admin/templets_one_edit.php` | High
-111 | File | `/admin/test_status.php` | High
-112 | File | `/admin/transactions/track_shipment.php` | High
-113 | File | `/admin/update_user.php` | High
-114 | File | `/admin/uploads/` | High
-115 | File | `/admin/users-applications.php` | High
-116 | File | `/admin/users.php` | High
-117 | File | `/admin/user_update.php` | High
-118 | File | `/admin/view-member-report.php` | High
-119 | File | `/admin/view-outgoingvehicle-detail.php` | High
-120 | File | `/admin/view-progress-report.php` | High
-121 | File | `/adminFile/upload` | High
-122 | File | `/administrator/bidlist.php` | High
-123 | File | `/adminPage/conf/reload` | High
-124 | File | `/admin_class.php` | High
-125 | File | `/admin_type.php` | High
-126 | File | `/adposition/queryAll` | High
-127 | File | `/agent/profile/edit` | High
-128 | File | `/ajax.php?action=delete_employee_attendance_single` | High
-129 | File | `/ajax.php?action=delete_package` | High
-130 | File | `/ajax.php?action=delete_sales` | High
-131 | File | `/ajax.php?action=delete_user` | High
-132 | File | `/ajax.php?action=login` | High
-133 | File | `/ajax.php?action=save_employee_attendance` | High
-134 | File | `/ajax_city.php` | High
-135 | File | `/alunos/search_autocomplete` | High
-136 | File | `/api.php` | Medium
-137 | File | `/api/admin/template/config` | High
-138 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-139 | File | `/api/deploy/upload` | High
-140 | File | `/api/deploy/upload /api/database/upload` | High
-141 | File | `/api/dept/build` | High
-142 | File | `/api/es/admin/v3/security/user/1` | High
-143 | File | `/Api/FileUploadApi.ashx` | High
-144 | File | `/api/login/auth` | High
-145 | File | `/api/upload/image` | High
-146 | ... | ... | ...
+1 | File | `/?g=route_ispinfo_export_save` | High
+2 | File | `/acceptoffres.php` | High
+3 | File | `/account/_settings` | High
+4 | File | `/add-pass.php` | High
+5 | File | `/addcategory.php` | High
+6 | File | `/addfriend.php` | High
+7 | File | `/addproduct.php` | High
+8 | File | `/add_contestant.php` | High
+9 | File | `/add_judge.php` | High
+10 | File | `/add_librarian.php` | High
+11 | File | `/admin-api/bpm/model/deploy` | High
+12 | File | `/admin-api/mp/material/upload-permanent` | High
+13 | File | `/admin.php` | Medium
+14 | File | `/admin/about_edit.php?action=modify` | High
+15 | File | `/admin/actions/check-attendance.php` | High
+16 | File | `/admin/actions/delete-equipment.php` | High
+17 | File | `/admin/actions/delete-member.php` | High
+18 | File | `/admin/actions/remove-announcement.php` | High
+19 | File | `/admin/add-admin.php` | High
+20 | File | `/admin/add-boat.php` | High
+21 | File | `/admin/add_account.php` | High
+22 | File | `/admin/add_candidate_modal.php.` | High
+23 | File | `/admin/add_trainers.php` | High
+24 | File | `/admin/admin.php` | High
+25 | File | `/admin/adminprofile.php` | High
+26 | File | `/admin/admin_football.php` | High
+27 | File | `/admin/admin_index.php` | High
+28 | File | `/admin/admin_product.ph` | High
+29 | File | `/admin/ajax.php` | High
+30 | File | `/admin/ajax.php?action=save_area` | High
+31 | File | `/admin/all-applied-leave.php` | High
+32 | File | `/admin/announcement/index.php?view=add` | High
+33 | File | `/admin/api/theme-edit/` | High
+34 | File | `/admin/application-bwdates-reports-details.php` | High
+35 | File | `/admin/archives_add.php` | High
+36 | File | `/admin/articles/add` | High
+37 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+38 | File | `/admin/attendance_row.php` | High
+39 | File | `/admin/backup/backups.php` | High
+40 | File | `/admin/category.php` | High
+41 | File | `/admin/changeimage.php` | High
+42 | File | `/admin/class.php?dowhat=modifyclass` | High
+43 | File | `/admin/clientview.php` | High
+44 | File | `/admin/deleteitem.php` | High
+45 | File | `/admin/delete_s2.php` | High
+46 | File | `/admin/department/add` | High
+47 | File | `/admin/edit-art-product-detail.php?editid=2` | High
+48 | File | `/admin/edit-class.php?cid=1` | High
+49 | File | `/admin/edit-equipmentform.php` | High
+50 | File | `/admin/edit-post.php` | High
+51 | File | `/admin/edit-user.php` | High
+52 | File | `/admin/edit_admin_details.php?id=admin` | High
+53 | File | `/admin/fields/manage_field.php` | High
+54 | File | `/admin/forgot-password.php` | High
+55 | File | `/admin/freelist_main.php` | High
+56 | File | `/admin/images/add` | High
+57 | File | `/admin/index.php` | High
+58 | File | `/admin/index.php?add_product` | High
+59 | File | `/admin/login.php` | High
+60 | File | `/admin/manage-services.php` | High
+61 | File | `/admin/manage-users.php` | High
+62 | File | `/admin/member_save.php` | High
+63 | File | `/admin/menu.php` | High
+64 | File | `/admin/offenses/view_details.php` | High
+65 | File | `/admin/registration.php` | High
+66 | File | `/admin/roomdel.php` | High
+67 | File | `/admin/search-appointment.php` | High
+68 | File | `/admin/services/view_service.php` | High
+69 | File | `/admin/spec_add.php` | High
+70 | File | `/admin/student-history.php` | High
+71 | File | `/admin/transaction/deposit` | High
+72 | File | `/admin/update-profile.php` | High
+73 | File | `/admin/update-progress.php` | High
+74 | File | `/admin/update_user.php` | High
+75 | File | `/admin/user-payment.php` | High
+76 | File | `/admin/user-profile.php` | High
+77 | File | `/admin/user.php` | High
+78 | File | `/admin/usersetting.php` | High
+79 | File | `/administrator/remove.php` | High
+80 | File | `/admin_class.php` | High
+81 | File | `/Admin_dashboard/edit_profile` | High
+82 | File | `/Admin_Dashboard/process/editemployee_process.php` | High
+83 | File | `/ajax.php?action=read_msg` | High
+84 | File | `/ajax/action.php` | High
+85 | File | `/all-orders.php` | High
+86 | File | `/api/blade-system/menu/list?updatexml` | High
+87 | File | `/api/config/list` | High
+88 | ... | ... | ...
 
-There are 1298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 774 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -802,10 +747,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatquery.com/engines/ip.html?value=82.21.159.41&type=ip
 * https://threatquery.com/engines/ip.html?value=103.97.89.98&type=ip
 * https://threatquery.com/engines/ip.html?value=124.198.131.144&type=ip
+* https://threatquery.com/engines/ip.html?value=134.19.179.235&type=ip
 * https://threatquery.com/engines/ip.html?value=147.185.221.223&type=ip
 * https://threatquery.com/engines/ip.html?value=172.67.146.22&type=ip
 * https://threatquery.com/engines/ip.html?value=196.251.100.20&type=ip
 * https://threatquery.com/engines/ip.html?value=206.123.150.39&type=ip
+* https://threatquery.com/engines/ip.html?value=213.152.162.69&type=ip
+* https://threatquery.com/engines/ip.html?value=213.152.162.89&type=ip
+* https://threatquery.com/engines/ip.html?value=213.152.162.94&type=ip
+* https://threatquery.com/engines/ip.html?value=213.152.162.170&type=ip
 * https://tria.ge/210911-bxjynsagd4
 * https://tria.ge/210930-vv5xxaabh9
 * https://tria.ge/220114-tygttahbf3
@@ -824,6 +774,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/251120-kxr4qaby6g
 * https://tria.ge/251121-fbmjws1ldz
 * https://tria.ge/251223-hch9zawjgt
+* https://tria.ge/260122-w81e1scx7f
+* https://tria.ge/260128-vrprhsgv8a
+* https://tria.ge/260128-vshplagv8h
+* https://tria.ge/260202-pj2hfsfs7e
+* https://tria.ge/260204-txt3raez7b
 * https://twitter.com/sicehice/status/1663741750333132802
 * https://www.shodan.io/host/13.40.175.66#443
 * https://www.shodan.io/host/23.227.203.158#54984
@@ -851,6 +806,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/103.57.130.241#54984
 * https://www.shodan.io/host/103.57.131.226#54984
 * https://www.shodan.io/host/103.207.38.216
+* https://www.shodan.io/host/103.253.22.98#54984
 * https://www.shodan.io/host/105.100.167.0#54984
 * https://www.shodan.io/host/105.101.4.116#54984
 * https://www.shodan.io/host/105.102.137.34#54984
@@ -868,13 +824,16 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/146.70.87.237
 * https://www.shodan.io/host/160.30.204.142
 * https://www.shodan.io/host/160.30.204.171#54984
+* https://www.shodan.io/host/160.30.204.179#54984
 * https://www.shodan.io/host/160.30.204.203#54984
 * https://www.shodan.io/host/172.94.111.152#54984
 * https://www.shodan.io/host/172.111.169.162#54984
 * https://www.shodan.io/host/178.136.164.115
+* https://www.shodan.io/host/178.255.148.232#54984
 * https://www.shodan.io/host/185.125.50.232#54984
 * https://www.shodan.io/host/190.159.137.75#54984
 * https://www.shodan.io/host/192.121.16.196#54984
+* https://www.shodan.io/host/192.121.246.207#54984
 * https://www.shodan.io/host/193.104.222.150#54984
 * https://www.shodan.io/host/194.38.20.80#54984
 * https://www.shodan.io/host/196.119.210.163#54984
@@ -889,12 +848,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/196.251.89.71#54984
 * https://www.shodan.io/host/196.251.90.21#54984
 * https://www.shodan.io/host/196.251.90.58#54984
+* https://www.shodan.io/host/198.96.94.94#54984
 * https://www.shodan.io/host/209.122.38.136#54984
 * https://www.shodan.io/host/213.209.143.57#54984
 * https://www.shodan.io/host/217.24.173.84#54984
 * https://www.shodan.io/host/217.24.174.238#54984
 * https://www.shodan.io/host/220.71.102.113#54984
 * https://www.shodan.io/search?query=product%3A%22NanoCore+RAT+trojan%22
+* https://www.threat.rip/file/da77e5270fe3255eafd89b83ad02e188fc1f0f8094b4ffe480fb675bb753292f/config
 * https://www.virustotal.com/gui/file/3e4bf90c7616e3ea708f783ec58d15d37ac8675598fb049999ed194cdc1f4de8/detection
 * https://x.com/SarlackLab/status/1935034987545321796
 * https://x.com/SarlackLab/status/1935568564276126103

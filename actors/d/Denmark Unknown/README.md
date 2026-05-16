@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Denmark Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1361,14 +1361,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-44, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1376,96 +1376,80 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `/action.php` | Medium
-3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-4 | File | `/adfs/ls` | Medium
-5 | File | `/admin-cp/media` | High
-6 | File | `/admin/?page=return/view_return` | High
-7 | File | `/admin/aboutPost.php` | High
-8 | File | `/admin/add-subadmin.php` | High
-9 | File | `/admin/adddoctorclinic.php` | High
-10 | File | `/admin/add_cars.php` | High
-11 | File | `/admin/admin_action.php` | High
-12 | File | `/admin/admin_index.php` | High
-13 | File | `/admin/ajax.php?action=login` | High
-14 | File | `/admin/ajax.php?action=save_recruitment_status` | High
-15 | File | `/admin/all-applications.php` | High
-16 | File | `/admin/betweendates-detailsreports.php` | High
-17 | File | `/admin/bwdates-request-report-details.php` | High
-18 | File | `/admin/category/add.do` | High
-19 | File | `/admin/changeimage.php` | High
-20 | File | `/admin/delete-doctor.php` | High
-21 | File | `/admin/delete_s2.php` | High
-22 | File | `/admin/delete_s3.php` | High
-23 | File | `/admin/edit-admin.php` | High
-24 | File | `/admin/edit-guard-detail.php` | High
-25 | File | `/admin/faculty_action.php` | High
-26 | File | `/admin/forms/option_lists/edit.php` | High
-27 | File | `/admin/index.php` | High
-28 | File | `/admin/login.php` | High
-29 | File | `/Admin/login.php` | High
-30 | File | `/admin/manage-pages.php` | High
-31 | File | `/admin/manage_user.php` | High
-32 | File | `/admin/new-content` | High
-33 | File | `/admin/registration.php` | High
-34 | File | `/admin/setup.cgi` | High
-35 | File | `/admin/update_s8.php` | High
-36 | File | `/admin/view-pass-detail.php` | High
-37 | File | `/admin/view-patient.php` | High
-38 | File | `/admin/voters_add.php` | High
-39 | File | `/admin/voters_delete.php` | High
-40 | File | `/admin/voters_row.php` | High
-41 | File | `/adpweb/a/base/barcodeDetail/` | High
-42 | File | `/ajax.php?action=save_package` | High
-43 | File | `/allocated_rooms.php` | High
-44 | File | `/api/browserextension/UpdatePassword/` | High
-45 | File | `/api/discoveries/` | High
-46 | File | `/api/docs/index.php` | High
-47 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-48 | File | `/api/v1/settings` | High
-49 | File | `/app/api/controller/caiji.php` | High
-50 | File | `/app/api/controller/collect.php` | High
-51 | File | `/app/controller/Setup.php` | High
-52 | File | `/application/controller/Pengeluaran.php` | High
-53 | File | `/application/models/ApplicationDataObject.class.php` | High
-54 | File | `/authentication/logout.php` | High
-55 | File | `/backend/register.php` | High
-56 | File | `/bic/ssoService/v1/applyCT` | High
-57 | File | `/bin/httpd` | Medium
-58 | File | `/bin/main` | Medium
-59 | File | `/binutils/debug.c` | High
-60 | File | `/biurl_grou` | Medium
-61 | File | `/boa/formWSC` | Medium
-62 | File | `/boafrm/formDMZ` | High
-63 | File | `/boafrm/formDosCfg` | High
-64 | File | `/boafrm/formFilter` | High
-65 | File | `/boafrm/formIpQoS` | High
-66 | File | `/boafrm/formIPv6Addr` | High
-67 | File | `/boafrm/formMultiAP` | High
-68 | File | `/boafrm/formNtp` | High
-69 | File | `/boafrm/formParentControl` | High
-70 | File | `/boafrm/formPortFw` | High
-71 | File | `/boafrm/formReflashClientTbl` | High
-72 | File | `/boafrm/formSaveConfig` | High
-73 | File | `/boafrm/formStats` | High
-74 | File | `/boafrm/formSysCmd` | High
-75 | File | `/boafrm/formSysLog` | High
-76 | File | `/boafrm/formTmultiAP` | High
-77 | File | `/boafrm/formWirelessTbl` | High
-78 | File | `/boafrm/formWlSiteSurvey` | High
-79 | File | `/boafrm/formWsc` | High
-80 | File | `/book-appointment.php` | High
-81 | File | `/BRS_top.html` | High
-82 | File | `/bwdates-reports-details.php` | High
-83 | File | `/cashconfirm.php` | High
-84 | File | `/cgi-bin/Config.cgi?action=set` | High
-85 | File | `/cgi-bin/cstecgi.cgi` | High
-86 | File | `/cgi-bin/editBookmark` | High
-87 | File | `/cgi-bin/ExportIbmsConfig.sh` | High
-88 | ... | ... | ...
+1 | File | `/add_user.php` | High
+2 | File | `/admin/aboutPost.php` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/activity.php` | High
+5 | File | `/admin/add-subadmins.php` | High
+6 | File | `/admin/add_activity.php` | High
+7 | File | `/admin/admin/save` | High
+8 | File | `/admin/admin_feature.php` | High
+9 | File | `/admin/admin_running.php` | High
+10 | File | `/admin/announcement/index.php?view=add` | High
+11 | File | `/admin/api/theme-edit/` | High
+12 | File | `/admin/app/login_crud.php` | High
+13 | File | `/Admin/assets/backend/seller/add_seller.php` | High
+14 | File | `/admin/assign/assign.php` | High
+15 | File | `/admin/attachment/download` | High
+16 | File | `/admin/delete_activity.php` | High
+17 | File | `/admin/editsite.php` | High
+18 | File | `/admin/edit_activity_query.php` | High
+19 | File | `/admin/expenses.php` | High
+20 | File | `/admin/forget-password.php` | High
+21 | File | `/admin/index.php` | High
+22 | File | `/admin/manage-users.php` | High
+23 | File | `/Admin/match.php` | High
+24 | File | `/admin/modules/lesson/index.php` | High
+25 | File | `/admin/products/index.php?view=edit` | High
+26 | File | `/admin/receipt.php` | High
+27 | File | `/admin/system/variableList.do` | High
+28 | File | `/admin/system/variableSave.do` | High
+29 | File | `/admin/update-rooms.php` | High
+30 | File | `/Admin/user-record.php` | High
+31 | File | `/admin/view-enquiry.php` | High
+32 | File | `/Administrator/PHP/AdminAddUser.php` | High
+33 | File | `/Administrator/PHP/AdminReply.php` | High
+34 | File | `/Administrator/PHP/AdminViewSongs.php` | High
+35 | File | `/adminPage/conf/check` | High
+36 | File | `/ajax.php` | Medium
+37 | File | `/ajax.php?action=delete_payment` | High
+38 | File | `/ajax.php?action=login` | High
+39 | File | `/api/jobs` | Medium
+40 | File | `/api/store_integral/order/detail/:uni` | High
+41 | File | `/api/users/updateAvatar` | High
+42 | File | `/api/v1/devices/register` | High
+43 | File | `/app/checkout/delete.php` | High
+44 | File | `/app/checkout/update.php` | High
+45 | File | `/app/complaint.php` | High
+46 | File | `/app/Jobs/Util/Import.php` | High
+47 | File | `/app/register.php?action=reg` | High
+48 | File | `/app/uploading/upload-mp3.php` | High
+49 | File | `/auth_files/photo/` | High
+50 | File | `/bin/main` | Medium
+51 | File | `/blog/bContent/save` | High
+52 | File | `/boaform/formSamba` | High
+53 | File | `/boaform/formSysCmd` | High
+54 | File | `/boafrm/formIpQoS` | High
+55 | File | `/boafrm/formLtefotaUpgradeFibocom` | High
+56 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+57 | File | `/booking/show_bookings/` | High
+58 | File | `/cgi-bin/api.values.post` | High
+59 | File | `/cgi-bin/cstecgi.cgi` | High
+60 | File | `/cgi-bin/DownloadFlash` | High
+61 | File | `/cgi-bin/DownloadLog` | High
+62 | File | `/cgi-bin/imode_alldata.php` | High
+63 | File | `/cgi/timepro.cgi` | High
+64 | File | `/checkin.php` | Medium
+65 | File | `/check_user.php` | High
+66 | File | `/cms/templates/templatesAssetsEditor` | High
+67 | File | `/course/index.php` | High
+68 | File | `/database?action=GetDatabaseAccess` | High
+69 | File | `/delete.php` | Medium
+70 | File | `/dist/index.js` | High
+71 | File | `/ecommerce/popup_Item.php` | High
+72 | ... | ... | ...
 
-There are 777 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 631 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1486,4 +1470,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

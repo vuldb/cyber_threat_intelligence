@@ -49,47 +49,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addnews.html` | High
-2 | File | `/addsrv` | Low
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
-4 | File | `/Admin/Views/FileEditor/` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/article/add` | Medium
-8 | File | `/book_list.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/controller/pay.class.php` | High
-11 | File | `/dev/kmem` | Medium
-12 | File | `/dev/snd/seq` | Medium
-13 | File | `/device/device=140/tab=wifi/view` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/EXCU_SHELL` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/gena.cgi` | Medium
-18 | File | `/goform/SetClientState` | High
-19 | File | `/goform/SysToolChangePwd` | High
-20 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-21 | File | `/jpg/image.jpg` | High
-22 | File | `/out.php` | Medium
-23 | File | `/php/ping.php` | High
-24 | File | `/pictory/php/getFileList.php` | High
-25 | File | `/product_list.php` | High
-26 | File | `/project/task/{task_id}/show` | High
-27 | File | `/rapi/read_url` | High
-28 | File | `/rrps/classes/Master.php?f=delete_category` | High
-29 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-30 | File | `/scripts/unlock_tasks.php` | High
-31 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-32 | File | `/see_more_details.php` | High
-33 | File | `/src/core/controllers/cm.php` | High
-34 | File | `/SysInfo1.htm` | High
-35 | File | `/sysinfo_json.cgi` | High
-36 | File | `/system/dictData/loadDictItem` | High
-37 | File | `/system/user/modules/mod_users/controller.php` | High
-38 | File | `/transmission/web/` | High
-39 | ... | ... | ...
+1 | File | `/add-book.php` | High
+2 | File | `/addnews.html` | High
+3 | File | `/addsrv` | Low
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+6 | File | `/admin/manage-normal-ticket.php` | High
+7 | File | `/Admin/Views/FileEditor/` | High
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/article/add` | Medium
+11 | File | `/book_list.php` | High
+12 | File | `/cgAutoListController.do?datagrid` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/com/esafenet/servlet/policy/PrintPolicyService.java` | High
+15 | File | `/config/pw_changeusers.html` | High
+16 | File | `/controller/pay.class.php` | High
+17 | File | `/dev/kmem` | Medium
+18 | File | `/dev/snd/seq` | Medium
+19 | File | `/device/device=140/tab=wifi/view` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/EXCU_SHELL` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/gena.cgi` | Medium
+24 | File | `/goform/formConfigDnsFilterGlobal` | High
+25 | File | `/goform/PPTPUserSetting` | High
+26 | File | `/goform/SetClientState` | High
+27 | File | `/goform/SysToolChangePwd` | High
+28 | File | `/insertNominee.php` | High
+29 | File | `/intranet/educar_funcao_det.php?cod_funcao=COD&ref_cod_instituicao=COD` | High
+30 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+31 | File | `/jpg/image.jpg` | High
+32 | File | `/login.php` | Medium
+33 | File | `/notice-details.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php/ping.php` | High
+36 | File | `/pictory/php/getFileList.php` | High
+37 | File | `/product_list.php` | High
+38 | File | `/project/task/{task_id}/show` | High
+39 | File | `/rapi/read_url` | High
+40 | File | `/rrps/classes/Master.php?f=delete_category` | High
+41 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+42 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

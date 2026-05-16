@@ -76,39 +76,40 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/wlogin.cgi` | High
 14 | File | `/collection/all` | High
 15 | File | `/conf/` | Low
-16 | File | `/cupseasylive/statemodify.php` | High
-17 | File | `/dashboard/add-service.php` | High
-18 | File | `/dev/snd/seq` | Medium
-19 | File | `/endpoint/add-leads.php` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/shadow.sample` | High
-22 | File | `/goform/saveParentControlInfo` | High
-23 | File | `/goform/SetFirewallCfg` | High
-24 | File | `/goform/setMacFilterList` | High
-25 | File | `/goform/SysToolChangePwd` | High
-26 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
-27 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
-28 | File | `/movie.php` | Medium
-29 | File | `/nidp/app/login` | High
-30 | File | `/php/ping.php` | High
-31 | File | `/pictory/php/getFileList.php` | High
-32 | File | `/pms/admin/crimes/manage_crime.php` | High
-33 | File | `/proc` | Low
-34 | File | `/release-x64/otfccdump` | High
-35 | File | `/roomtype-details.php` | High
-36 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-37 | File | `/scripts/unlock_tasks.php` | High
-38 | File | `/see_more_details.php` | High
-39 | File | `/show_news.php` | High
-40 | File | `/sitecore/shell/Invoke.aspx` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/src/dede/member_type.php` | High
-43 | File | `/subpage.php` | Medium
-44 | File | `/SysInfo1.htm` | High
-45 | File | `/sysinfo_json.cgi` | High
-46 | ... | ... | ...
+16 | File | `/config/pw_changeusers.html` | High
+17 | File | `/cupseasylive/statemodify.php` | High
+18 | File | `/dashboard/add-service.php` | High
+19 | File | `/dev/snd/seq` | Medium
+20 | File | `/endpoint/add-leads.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/goform/saveParentControlInfo` | High
+24 | File | `/goform/SetFirewallCfg` | High
+25 | File | `/goform/setMacFilterList` | High
+26 | File | `/goform/SysToolChangePwd` | High
+27 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
+28 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+29 | File | `/movie.php` | Medium
+30 | File | `/nidp/app/login` | High
+31 | File | `/php/ping.php` | High
+32 | File | `/pictory/php/getFileList.php` | High
+33 | File | `/pms/admin/crimes/manage_crime.php` | High
+34 | File | `/proc` | Low
+35 | File | `/release-x64/otfccdump` | High
+36 | File | `/roomtype-details.php` | High
+37 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+38 | File | `/scripts/unlock_tasks.php` | High
+39 | File | `/see_more_details.php` | High
+40 | File | `/show_news.php` | High
+41 | File | `/sitecore/shell/Invoke.aspx` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/src/dede/member_type.php` | High
+44 | File | `/subpage.php` | Medium
+45 | File | `/SysInfo1.htm` | High
+46 | File | `/sysinfo_json.cgi` | High
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

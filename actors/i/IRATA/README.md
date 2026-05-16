@@ -60,46 +60,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/bwdates-report-details.php` | High
 6 | File | `/admin/client_user` | High
 7 | File | `/admin/countrymanagement.php` | High
-8 | File | `/admin/index.php?page=categories` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/massage.php` | High
-11 | File | `/admin/photo.php` | High
-12 | File | `/admin/reports.php` | High
-13 | File | `/admin/success_story.php` | High
-14 | File | `/admin/sys_sql_query.php` | High
-15 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
-16 | File | `/administrator/addcategory.php` | High
-17 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-18 | File | `/cgi-bin/ExportSettings.sh` | High
-19 | File | `/cgi-bin/login.cgi` | High
-20 | File | `/cgi-bin/settings-firewall.cgi` | High
-21 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-22 | File | `/contact-back.php` | High
-23 | File | `/delete_members.php` | High
-24 | File | `/dipam/athlete-profile.php` | High
-25 | File | `/dipam/save-delegates.php` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/find_v2/_click` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/getcfg.php` | Medium
-30 | File | `/goform/fromSetWirelessRepeat` | High
-31 | File | `/goform/RouteStatic` | High
-32 | File | `/hrm/employeeadd.php` | High
-33 | File | `/hrm/employeeview.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/login.php` | Medium
-36 | File | `/manage_receiving.php` | High
-37 | File | `/manage_supplier.php` | High
-38 | File | `/mkshop/Men/profile.php` | High
-39 | File | `/model/add_student_subject.php` | High
-40 | File | `/model/update_grade.php` | High
-41 | File | `/php/manage_customer.php?action=search` | High
-42 | File | `/pms/admin/prisons/view_prison.php` | High
-43 | File | `/print_patients_visits.php` | High
-44 | File | `/product` | Medium
-45 | ... | ... | ...
+8 | File | `/admin/Create_category.php` | High
+9 | File | `/admin/index.php?page=categories` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/massage.php` | High
+12 | File | `/admin/photo.php` | High
+13 | File | `/admin/reports.php` | High
+14 | File | `/admin/success_story.php` | High
+15 | File | `/admin/sys_sql_query.php` | High
+16 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
+17 | File | `/administrator/addcategory.php` | High
+18 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+19 | File | `/api/admin/update_account/` | High
+20 | File | `/cgi-bin/ExportSettings.sh` | High
+21 | File | `/cgi-bin/login.cgi` | High
+22 | File | `/cgi-bin/settings-firewall.cgi` | High
+23 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+24 | File | `/contact-back.php` | High
+25 | File | `/core/tools/customblock.php` | High
+26 | File | `/delete_members.php` | High
+27 | File | `/dev-api/common/upload` | High
+28 | File | `/dipam/athlete-profile.php` | High
+29 | File | `/dipam/save-delegates.php` | High
+30 | File | `/equipment/get_Information` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/find_v2/_click` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/getcfg.php` | Medium
+35 | File | `/goform/fromSetWirelessRepeat` | High
+36 | File | `/goform/RouteStatic` | High
+37 | File | `/goform/setBlackRule` | High
+38 | File | `/hrm/employeeadd.php` | High
+39 | File | `/hrm/employeeview.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/login.php` | Medium
+42 | File | `/manage_receiving.php` | High
+43 | File | `/manage_supplier.php` | High
+44 | File | `/mkshop/Men/profile.php` | High
+45 | File | `/model/add_student_subject.php` | High
+46 | File | `/model/update_grade.php` | High
+47 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

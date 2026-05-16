@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,74 +54,79 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?/admin/plugin/file_manager/browse/` | High
-3 | File | `/?module=users&section=cpanel&page=list` | High
-4 | File | `/about.php` | Medium
-5 | File | `/abstract_sql/abstract_sql_store.go` | High
-6 | File | `/add.home.php` | High
-7 | File | `/addrecord.php` | High
-8 | File | `/add_student_grade.php` | High
-9 | File | `/Adm/OperatorStop` | High
-10 | File | `/admin-cp/imports` | High
-11 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-12 | File | `/admin/?page=products/view_product` | High
-13 | File | `/admin/?page=reports` | High
-14 | File | `/admin/?page=system_info/contact_info` | High
-15 | File | `/admin/admin-profile.php` | High
-16 | File | `/admin/ajax.php?action=delete_window` | High
-17 | File | `/admin/ajax.php?action=login` | High
-18 | File | `/admin/ajax.php?action=save_window` | High
-19 | File | `/admin/apply.php` | High
-20 | File | `/admin/campsdetails.php` | High
-21 | File | `/admin/categories/manage_category.php` | High
-22 | File | `/admin/change-image.php` | High
-23 | File | `/admin/coreconfigsnapshots.php` | High
-24 | File | `/admin/create-package.php` | High
-25 | File | `/admin/deleteroom.php` | High
-26 | File | `/admin/deleteuser.php` | High
-27 | File | `/admin/edit-team.php` | High
-28 | File | `/admin/edit_account.php` | High
-29 | File | `/admin/File/fileUpload` | High
-30 | File | `/admin/File/pictureUpload` | High
-31 | File | `/admin/index.php` | High
-32 | File | `/admin/login` | Medium
-33 | File | `/admin/login.php` | High
-34 | File | `/admin/manage-pages.php` | High
-35 | File | `/admin/manage-teams.php` | High
-36 | File | `/admin/modules/bibliography/index.php` | High
-37 | File | `/admin/print.php` | High
-38 | File | `/admin/profile.php` | High
-39 | File | `/admin/registration.php` | High
-40 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-41 | File | `/admin/sign/out` | High
-42 | File | `/admin/sou.php` | High
-43 | File | `/admin/tag.php` | High
-44 | File | `/admin/theme/Upload.html` | High
-45 | File | `/admin/users.php` | High
-46 | File | `/adminView/viewEachOrder.php` | High
-47 | File | `/adminzone/index.php?page=admin-commandr` | High
-48 | File | `/admin_notify.php` | High
-49 | File | `/ajax/clear_tools_log/` | High
-50 | File | `/api/admin/attachments/upload` | High
-51 | File | `/api/command/run` | High
-52 | File | `/api/Common/uploadFile` | High
-53 | File | `/api/user/update` | High
-54 | File | `/api/v1/admin/restart` | High
-55 | File | `/api/v1/watch/history` | High
-56 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-57 | File | `/application/common.php#action_log` | High
-58 | File | `/boafrm/formDdns` | High
-59 | File | `/boafrm/formFirewallAdv` | High
-60 | File | `/boafrm/formNtp` | High
-61 | File | `/boafrm/formPinManageSetup` | High
-62 | File | `/boafrm/formSysCmd` | High
-63 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-64 | File | `/boafrm/formVpnConfigSetup` | High
-65 | File | `/boafrm/formWanConfigSetup` | High
-66 | File | `/boafrm/formWlEncrypt` | High
-67 | ... | ... | ...
+2 | File | `/?module=users&section=cpanel&page=list` | High
+3 | File | `/about.php` | Medium
+4 | File | `/abstract_sql/abstract_sql_store.go` | High
+5 | File | `/add.home.php` | High
+6 | File | `/addrecord.php` | High
+7 | File | `/add_student_grade.php` | High
+8 | File | `/Adm/OperatorStop` | High
+9 | File | `/admin-cp/imports` | High
+10 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+11 | File | `/admin/?page=products/view_product` | High
+12 | File | `/admin/?page=reports` | High
+13 | File | `/admin/?page=system_info/contact_info` | High
+14 | File | `/admin/admin-profile.php` | High
+15 | File | `/admin/ajax.php?action=delete_window` | High
+16 | File | `/admin/ajax.php?action=login` | High
+17 | File | `/admin/ajax.php?action=save_window` | High
+18 | File | `/admin/apply.php` | High
+19 | File | `/admin/archives_add.php` | High
+20 | File | `/admin/blogger.php?action=update_avatar` | High
+21 | File | `/admin/campsdetails.php` | High
+22 | File | `/admin/categories/manage_category.php` | High
+23 | File | `/admin/change-image.php` | High
+24 | File | `/admin/coreconfigsnapshots.php` | High
+25 | File | `/admin/create-package.php` | High
+26 | File | `/admin/deleteroom.php` | High
+27 | File | `/admin/deleteuser.php` | High
+28 | File | `/admin/dialog/select_images_post.php` | High
+29 | File | `/admin/edit-team.php` | High
+30 | File | `/admin/edit_account.php` | High
+31 | File | `/admin/File/fileUpload` | High
+32 | File | `/admin/File/pictureUpload` | High
+33 | File | `/admin/file_manage_control` | High
+34 | File | `/admin/file_manage_control.php` | High
+35 | File | `/admin/file_manage_view` | High
+36 | File | `/admin/freelist_main.php` | High
+37 | File | `/admin/friendlink_edit` | High
+38 | File | `/admin/index.php` | High
+39 | File | `/admin/login` | Medium
+40 | File | `/admin/login.php` | High
+41 | File | `/admin/makehtml_freelist_action.php` | High
+42 | File | `/admin/manage-pages.php` | High
+43 | File | `/admin/manage-teams.php` | High
+44 | File | `/admin/modules/bibliography/index.php` | High
+45 | File | `/admin/print.php` | High
+46 | File | `/admin/profile.php` | High
+47 | File | `/admin/registration.php` | High
+48 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+49 | File | `/admin/sign/out` | High
+50 | File | `/admin/sou.php` | High
+51 | File | `/admin/spec_add.php` | High
+52 | File | `/admin/sys_sql_query.php` | High
+53 | File | `/admin/tag.php` | High
+54 | File | `/admin/templets_one_edit.php` | High
+55 | File | `/admin/theme/Upload.html` | High
+56 | File | `/admin/users.php` | High
+57 | File | `/admin/util/Field.php` | High
+58 | File | `/adminView/viewEachOrder.php` | High
+59 | File | `/adminzone/index.php?page=admin-commandr` | High
+60 | File | `/admin_notify.php` | High
+61 | File | `/ajax/clear_tools_log/` | High
+62 | File | `/api/command/run` | High
+63 | File | `/api/Common/uploadFile` | High
+64 | File | `/api/user/update` | High
+65 | File | `/api/v1/admin/restart` | High
+66 | File | `/api/v1/watch/history` | High
+67 | File | `/app/admin/controller/Images.php` | High
+68 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+69 | File | `/application/common.php#action_log` | High
+70 | File | `/assetsGroupReport/fixedAssetsList.j%73p` | High
+71 | File | `/boafrm/formDdns` | High
+72 | ... | ... | ...
 
-There are 589 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 631 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

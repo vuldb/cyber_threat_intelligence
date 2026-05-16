@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,15 +84,16 @@ ID | Type | Indicator | Confidence
 30 | File | `/items/search` | High
 31 | File | `/jsonrpc` | Medium
 32 | File | `/load.php` | Medium
-33 | File | `/lua/set-passwd.lua` | High
-34 | File | `/mims/login.php` | High
-35 | File | `/newProject.php` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/pages/animals.php` | High
-39 | ... | ... | ...
+33 | File | `/log/decodmail.php` | High
+34 | File | `/lua/set-passwd.lua` | High
+35 | File | `/mims/login.php` | High
+36 | File | `/newProject.php` | High
+37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/pages/animals.php` | High
+40 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,15 +53,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/nas_sharing.cgi` | High
-2 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-3 | File | `/jeecg-boot/sys/common/upload` | High
-4 | File | `/spip.php` | Medium
-5 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-6 | File | `admin/conf_users_edit.php` | High
-7 | ... | ... | ...
+1 | File | `/ajax/php/leaf_search.php` | High
+2 | File | `/cgi-bin/nas_sharing.cgi` | High
+3 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+4 | File | `/jeecg-boot/sys/common/upload` | High
+5 | File | `/php/api_patient_schedule.php` | High
+6 | File | `/sess-bin/timepro.cgi` | High
+7 | File | `/spip.php` | Medium
+8 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

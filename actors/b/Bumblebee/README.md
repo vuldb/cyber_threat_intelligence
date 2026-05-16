@@ -4,12 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bumblebee](https://vuldb.com/?actor.bumblebee)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Bumblebee:
+
+* Akira
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bumblebee:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -386,9 +391,10 @@ ID | IP address | Hostname | Campaign | Confidence
 366 | [47.27.63.45](https://vuldb.com/?ip.47.27.63.45) | 047-027-063-045.res.spectrum.com | - | High
 367 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | - | High
 368 | [47.195.111.117](https://vuldb.com/?ip.47.195.111.117) | - | - | High
-369 | ... | ... | ... | ...
+369 | [47.199.12.234](https://vuldb.com/?ip.47.199.12.234) | - | - | High
+370 | ... | ... | ... | ...
 
-There are 1472 more IOC items available. Please use our online service to access the data.
+There are 1476 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -396,14 +402,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-28 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -411,44 +417,118 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ad-list` | Medium
-2 | File | `/adaddmed.php` | High
-3 | File | `/add-product.php` | High
-4 | File | `/addcompany.php` | High
-5 | File | `/add_reserve.php` | High
-6 | File | `/admin.php` | Medium
-7 | File | `/admin/add-boat.php` | High
-8 | File | `/admin/add_query_account.php` | High
-9 | File | `/admin/clients/` | High
-10 | File | `/admin/configure.php` | High
-11 | File | `/admin/config_time_sync.php` | High
-12 | File | `/admin/deletegallery.php` | High
-13 | File | `/admin/deleteroom.php` | High
-14 | File | `/admin/delete_student.php` | High
-15 | File | `/admin/edit_admin_query.php` | High
-16 | File | `/admin/edit_room.php` | High
-17 | File | `/admin/edit_student_query.php` | High
-18 | File | `/admin/update_room.php` | High
-19 | File | `/api/sys/set_passwd` | High
-20 | File | `/api/users/get/{id}` | High
-21 | File | `/app/sys1.php` | High
-22 | File | `/boafrm/formTmultiAP` | High
-23 | File | `/cart/index.php` | High
-24 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changepass.php` | High
-27 | File | `/cms/collect/getPages` | High
-28 | File | `/collect/getArticle` | High
-29 | File | `/config/DbFunction.php` | High
-30 | File | `/controllers/regcontrol.php` | High
-31 | File | `/controllers/reset.php` | High
-32 | File | `/controllers/updatesettings.php` | High
-33 | File | `/cusfindambulence2.php` | High
-34 | File | `/cusfindphar2.php` | High
-35 | File | `/dayrui/Fcms/View/system_log.html` | High
-36 | ... | ... | ...
+1 | File | `/.po` | Low
+2 | File | `/?explorer/index/zip` | High
+3 | File | `/a/sys/user/save` | High
+4 | File | `/acceptoffres.php` | High
+5 | File | `/Account/login.php` | High
+6 | File | `/account/_settings` | High
+7 | File | `/addCandidate.php` | High
+8 | File | `/addcategory.php` | High
+9 | File | `/addproduct.php` | High
+10 | File | `/adm/ajax.php` | High
+11 | File | `/admin-api/bpm/model/deploy` | High
+12 | File | `/admin.php` | Medium
+13 | File | `/admin/?page=inventory/view_inventory&id=2` | High
+14 | File | `/admin/?page=zone` | High
+15 | File | `/admin/about_edit.php?action=modify` | High
+16 | File | `/admin/actions/check-attendance.php` | High
+17 | File | `/admin/actions/delete-member.php` | High
+18 | File | `/admin/add-category.php` | High
+19 | File | `/admin/addexec.php` | High
+20 | File | `/admin/addgalleryexec.php` | High
+21 | File | `/admin/add_candidate_modal.php.` | High
+22 | File | `/admin/add_content.php` | High
+23 | File | `/admin/admin/save` | High
+24 | File | `/admin/admin_product.ph` | High
+25 | File | `/admin/ajax.php?action=save_area` | High
+26 | File | `/admin/ajax_product.php` | High
+27 | File | `/admin/applicants/controller.php` | High
+28 | File | `/admin/articles/add` | High
+29 | File | `/admin/asign-single-student-subjects.php` | High
+30 | File | `/Admin/assets/backend/seller/add_seller.php` | High
+31 | File | `/admin/between-dates-application-report.php` | High
+32 | File | `/admin/category.php` | High
+33 | File | `/admin/class.php` | High
+34 | File | `/admin/clientview.php` | High
+35 | File | `/admin/delete_account.php` | High
+36 | File | `/admin/delete_members.php` | High
+37 | File | `/admin/de_activate.php` | High
+38 | File | `/admin/display-teacher.php` | High
+39 | File | `/admin/edit-category.php` | High
+40 | File | `/admin/edit-equipmentform.php` | High
+41 | File | `/admin/edit-post.php` | High
+42 | File | `/admin/edit-user.php` | High
+43 | File | `/admin/edit_admin.php` | High
+44 | File | `/admin/edit_room.php` | High
+45 | File | `/admin/edit_subject.php` | High
+46 | File | `/admin/employee_edit.php` | High
+47 | File | `/admin/fetch_product_details.php` | High
+48 | File | `/admin/fields/manage_field.php` | High
+49 | File | `/admin/forgot-password.php` | High
+50 | File | `/admin/freelist_main.php` | High
+51 | File | `/admin/index.php` | High
+52 | File | `/admin/index.php?add_product` | High
+53 | File | `/admin/kami_list` | High
+54 | File | `/admin/login.php` | High
+55 | File | `/Admin/login.php` | High
+56 | File | `/admin/maintenance_actions.php` | High
+57 | File | `/admin/manage-users.php` | High
+58 | File | `/admin/menu.php` | High
+59 | File | `/admin/navbar.php` | High
+60 | File | `/admin/new-appointment.php` | High
+61 | File | `/admin/newsletter.php` | High
+62 | File | `/admin/newsletterdel.php` | High
+63 | File | `/admin/options-theme.php` | High
+64 | File | `/admin/orders/view_order.php` | High
+65 | File | `/admin/positions_delete.php` | High
+66 | File | `/admin/print1.php` | High
+67 | File | `/admin/search-appointment.php` | High
+68 | File | `/admin/transaction/deposit` | High
+69 | File | `/admin/update-image.php` | High
+70 | File | `/admin/updateaddress.php` | High
+71 | File | `/admin/update_user.php` | High
+72 | File | `/admin/user-bookings.php` | High
+73 | File | `/admin/user-payment.php` | High
+74 | File | `/admin/user/controller.php?action=photos` | High
+75 | File | `/admin/usersetting.php` | High
+76 | File | `/admin/usersettingdel.php` | High
+77 | File | `/admin/view-appointment.php` | High
+78 | File | `/admin/view-member-report.php` | High
+79 | File | `/admin/voters_add.php` | High
+80 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+81 | File | `/Administrator/PHP/AdminEditUser.php` | High
+82 | File | `/Administrator/PHP/AdminUpdateCategory.php` | High
+83 | File | `/admin_class.php` | High
+84 | File | `/admin_members.php?ac=editsave` | High
+85 | File | `/admin_pic.php` | High
+86 | File | `/airag/knowledge/doc/edit` | High
+87 | File | `/ajax.php?action=delete_category` | High
+88 | File | `/ajax.php?action=delete_supplier` | High
+89 | File | `/api/admin/question/edit` | High
+90 | File | `/api/file` | Medium
+91 | File | `/api/password/email` | High
+92 | File | `/api/store_integral/order/detail/:uni` | High
+93 | File | `/api/v1/courses/` | High
+94 | File | `/api/v1/initialization/embedding/test` | High
+95 | File | `/app/index/controller/Common.php` | High
+96 | File | `/app/register.php?action=reg` | High
+97 | File | `/application/controllers/Marks.php` | High
+98 | File | `/appointments.php` | High
+99 | File | `/assets/changeSllyabus.php` | High
+100 | File | `/assets/createNotice.php` | High
+101 | File | `/assetsGroupReport/fixedAssetsList.j%73p` | High
+102 | File | `/assoc_table.php` | High
+103 | File | `/audit/log/log_management.php` | High
+104 | File | `/boafrm/formDefRoute` | High
+105 | File | `/boafrm/formFirewallAdv` | High
+106 | File | `/boafrm/formLtefotaUpgradeFibocom` | High
+107 | File | `/c6/Jhsoft.Web.module/ToolBar/ManageWord.aspx/?text=GetUrl&style=1` | High
+108 | File | `/catalog/all-products` | High
+109 | File | `/category.php` | High
+110 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 975 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -517,6 +597,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/216.48.185.13
 * https://search.censys.io/hosts/216.48.185.120
 * https://thedfirreport.com/2022/09/26/bumblebee-round-two/
+* https://thedfirreport.com/2025/08/05/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira/
 * https://threatfox.abuse.ch
 * https://twitter.com/k3dg3/status/1524443218519240706
 * https://twitter.com/Max_Mal_/status/1595806604443754496
@@ -536,4 +617,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

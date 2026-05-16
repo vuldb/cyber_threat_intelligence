@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hashemite Kingdom of Jordan Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -110,7 +110,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,18 +122,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/admin-profile.php` | High
 3 | File | `/admin/ajax.php?action=save_uploads` | High
 4 | File | `/admin/app/role_crud.php` | High
-5 | File | `/admin/check_availability.php` | High
-6 | File | `/admin/class.php` | High
-7 | File | `/admin/clients/` | High
-8 | File | `/admin/edit-art-product-detail.php?editid=2` | High
-9 | File | `/admin/edit_area.php` | High
-10 | File | `/admin/file/delete.do` | High
-11 | File | `/admin/file_manager/export` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
-14 | ... | ... | ...
+5 | File | `/admin/booking_report.php` | High
+6 | File | `/admin/check_availability.php` | High
+7 | File | `/admin/class.php` | High
+8 | File | `/admin/clients/` | High
+9 | File | `/admin/edit-art-product-detail.php?editid=2` | High
+10 | File | `/admin/edit_area.php` | High
+11 | File | `/admin/file/delete.do` | High
+12 | File | `/admin/file_manager/export` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/AGE0000700/GetHorariosDoDia?idespec=0&idproced=1103&data=2025-02-25+19%3A25&agserv=0&convenio=1&localatend=1&idplano=5&pesfis=01&idprofissional=0&target=.horarios--dia--d0&_=1739371223797` | High
+15 | File | `/api/Image/WithPath` | High
+16 | File | `/api/resources` | High
+17 | File | `/api/wizard/getNetworkStatus` | High
+18 | File | `/appy.cgi` | Medium
+19 | File | `/boafrm/formSysLog` | High
+20 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,4 +158,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

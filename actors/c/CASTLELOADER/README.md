@@ -19,11 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.134.26.69](https://vuldb.com/?ip.45.134.26.69) | - | - | High
-2 | [107.158.128.26](https://vuldb.com/?ip.107.158.128.26) | - | - | High
-3 | [170.130.165.201](https://vuldb.com/?ip.170.130.165.201) | - | - | High
+2 | [94.159.113.32](https://vuldb.com/?ip.94.159.113.32) | - | - | High
+3 | [107.158.128.26](https://vuldb.com/?ip.107.158.128.26) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ There are 14 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://any.run/cybersecurity-blog/castleloader-malware-analysis/
 * https://threatfox.abuse.ch
 
 ## Literature
@@ -66,4 +67,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

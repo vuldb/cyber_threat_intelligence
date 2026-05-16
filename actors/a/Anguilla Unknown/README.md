@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [BD](https://vuldb.com/?country.bd)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,59 +59,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
-2 | File | `/Admin/changepassword.php` | High
-3 | File | `/admin/countrymanagement.php` | High
-4 | File | `/admin/history.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/orders/update_status.php` | High
-9 | File | `/admin/photo.php` | High
-10 | File | `/admin/products.php` | High
-11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-12 | File | `/admin/search.php` | High
-13 | File | `/admin/upload.php` | High
-14 | File | `/admin/user/user-move-run.php` | High
-15 | File | `/ajax_city.php` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/snapshots/` | High
-18 | File | `/api/sys/login` | High
-19 | File | `/api/sys/set_passwd` | High
-20 | File | `/api/v1` | Low
-21 | File | `/api/v1/terminal/sessions/?limit=1` | High
-22 | File | `/application/index/controller/Databasesource.php` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/application/websocket/controller/Setting.php` | High
-25 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
-26 | File | `/bin/gpio` | Medium
-27 | File | `/blog` | Low
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/download_config.cgi` | High
-30 | File | `/cgi-bin/go` | Medium
-31 | File | `/cgi-bin/luci/api/auth` | High
-32 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-33 | File | `/cgi-bin/tosei_kikai.php` | High
-34 | File | `/config/config.json` | High
-35 | File | `/devinfo` | Medium
-36 | File | `/dist/index.js` | High
-37 | File | `/download` | Medium
-38 | File | `/DXR.axd` | Medium
-39 | File | `/Employer/EditProfile.php` | High
-40 | File | `/filter.php` | Medium
-41 | File | `/goform/apPortalPhoneAuth` | High
-42 | File | `/goform/aspForm` | High
-43 | File | `/goform/langSwitchByBBS` | High
-44 | File | `/goform/SetRebootTimer` | High
-45 | File | `/goform/set_LimitClient_cfg` | High
-46 | File | `/HNAP1` | Low
-47 | File | `/image-compressor/compressor.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-50 | File | `/justines/admin/login.php` | High
-51 | File | `/lam/tmp/` | Medium
-52 | ... | ... | ...
+2 | File | `/admin/action/update-deworm.php` | High
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/countrymanagement.php` | High
+5 | File | `/admin/history.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage_academic.php` | High
+9 | File | `/admin/orders/update_status.php` | High
+10 | File | `/admin/photo.php` | High
+11 | File | `/admin/products.php` | High
+12 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+13 | File | `/admin/search.php` | High
+14 | File | `/admin/team_update.php` | High
+15 | File | `/admin/upload.php` | High
+16 | File | `/admin/user/user-move-run.php` | High
+17 | File | `/ajax_city.php` | High
+18 | File | `/api/baskets/{name}` | High
+19 | File | `/api/snapshots/` | High
+20 | File | `/api/sys/login` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/api/v1` | Low
+23 | File | `/api/v1/terminal/sessions/?limit=1` | High
+24 | File | `/application/index/controller/Databasesource.php` | High
+25 | File | `/application/index/controller/Screen.php` | High
+26 | File | `/application/websocket/controller/Setting.php` | High
+27 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+28 | File | `/bin/gpio` | Medium
+29 | File | `/blog` | Low
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/download_config.cgi` | High
+32 | File | `/cgi-bin/go` | Medium
+33 | File | `/cgi-bin/luci/api/auth` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/cgi-bin/tosei_kikai.php` | High
+36 | File | `/com/tiandy/easy7/core/bo/CLSBODownLoad.java` | High
+37 | File | `/config/config.json` | High
+38 | File | `/devinfo` | Medium
+39 | File | `/dist/index.js` | High
+40 | File | `/download` | Medium
+41 | File | `/DXR.axd` | Medium
+42 | File | `/Employer/EditProfile.php` | High
+43 | File | `/filter.php` | Medium
+44 | File | `/goform/apPortalPhoneAuth` | High
+45 | File | `/goform/aspForm` | High
+46 | File | `/goform/langSwitchByBBS` | High
+47 | File | `/goform/SetRebootTimer` | High
+48 | File | `/goform/set_LimitClient_cfg` | High
+49 | File | `/HNAP1` | Low
+50 | File | `/image-compressor/compressor.php` | High
+51 | File | `/index.php` | Medium
+52 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+53 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

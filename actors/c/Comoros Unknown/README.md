@@ -40,12 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -55,76 +56,78 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.php.gif` | Medium
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 4 | File | `/admin/aboutus.php` | High
 5 | File | `/admin/add-services.php` | High
 6 | File | `/admin/adminproc.asp` | High
 7 | File | `/admin/admin_action.php` | High
 8 | File | `/admin/ajax/avatar.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/forgot-password.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/lab.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/show.php` | High
-16 | File | `/api/students/me/messages/` | High
-17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/backend/register.php` | High
-20 | File | `/boafrm/formParentControl` | High
-21 | File | `/boat/login.php` | High
-22 | File | `/browse.php` | Medium
-23 | File | `/CCMAdmin/serverlist.asp` | High
-24 | File | `/cgi-bin/kerbynet` | High
-25 | File | `/cgi-bin/settings-firewall.cgi` | High
-26 | File | `/ckeditor/samples/old/ajax.html` | High
-27 | File | `/clinic/disease_symptoms_view.php` | High
-28 | File | `/config-manager/save` | High
-29 | File | `/course/filterRecords/` | High
-30 | File | `/dashboard/menu-list.php` | High
-31 | File | `/dashboard/table-list.php` | High
-32 | File | `/dashboard/updatelogo.php` | High
-33 | File | `/debug/` | Low
-34 | File | `/dede/file_manage_control.php` | High
-35 | File | `/default.php?idx=17` | High
-36 | File | `/directRouter.rfc` | High
-37 | File | `/doctor/view-appointment-detail.php` | High
-38 | File | `/download` | Medium
-39 | File | `/downloadFile.php` | High
-40 | File | `/edit-client-details.php` | High
-41 | File | `/env` | Low
-42 | File | `/fcgi/scrut_fcgi.fcgi` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/gasmark/assets/myimages/oneWord.php` | High
-45 | File | `/goform/SafeEmailFilter` | High
-46 | File | `/goform/wirelessAdvancedHidden` | High
-47 | File | `/home/resume/index` | High
-48 | File | `/include/file.php` | High
-49 | File | `/index.php` | Medium
-50 | File | `/librarian/bookdetails.php` | High
-51 | File | `/member.php?action=chgpwdsubmit` | High
-52 | File | `/multi-vendor-shopping-script/product-list.php` | High
-53 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-54 | File | `/opt/bin/cli` | Medium
-55 | File | `/p` | Low
-56 | File | `/patient/doctors.php` | High
-57 | File | `/php/ping.php` | High
-58 | File | `/phpinventory/editcategory.php` | High
-59 | File | `/product-list.php` | High
-60 | File | `/products/view_product.php` | High
-61 | File | `/send_order.cgi?parameter=restart` | High
-62 | File | `/shell` | Low
-63 | File | `/spip.php` | Medium
-64 | File | `/storagein.pd-XXXXXX` | High
-65 | File | `/templates/default/html/windows/right.php` | High
-66 | File | `/tmp` | Low
-67 | File | `/uncpath/` | Medium
-68 | ... | ... | ...
+9 | File | `/admin/booking-search.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/lab.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/payment.php` | High
+16 | File | `/admin/show.php` | High
+17 | File | `/advancesearch.php` | High
+18 | File | `/api/students/me/messages/` | High
+19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+20 | File | `/applications/nexus/modules/front/store/store.php` | High
+21 | File | `/backend/register.php` | High
+22 | File | `/boafrm/formParentControl` | High
+23 | File | `/boat/login.php` | High
+24 | File | `/browse.php` | Medium
+25 | File | `/CCMAdmin/serverlist.asp` | High
+26 | File | `/cgi-bin/kerbynet` | High
+27 | File | `/cgi-bin/settings-firewall.cgi` | High
+28 | File | `/checkout/confirm/` | High
+29 | File | `/ckeditor/samples/old/ajax.html` | High
+30 | File | `/clinic/disease_symptoms_view.php` | High
+31 | File | `/config-manager/save` | High
+32 | File | `/config/getuser` | High
+33 | File | `/course/filterRecords/` | High
+34 | File | `/dashboard/menu-list.php` | High
+35 | File | `/dashboard/table-list.php` | High
+36 | File | `/dashboard/updatelogo.php` | High
+37 | File | `/debug/` | Low
+38 | File | `/dede/file_manage_control.php` | High
+39 | File | `/default.php?idx=17` | High
+40 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+41 | File | `/directRouter.rfc` | High
+42 | File | `/doctor/view-appointment-detail.php` | High
+43 | File | `/download` | Medium
+44 | File | `/downloadFile.php` | High
+45 | File | `/edit-client-details.php` | High
+46 | File | `/env` | Low
+47 | File | `/fcgi/scrut_fcgi.fcgi` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/gasmark/assets/myimages/oneWord.php` | High
+50 | File | `/goform/SafeEmailFilter` | High
+51 | File | `/goform/wirelessAdvancedHidden` | High
+52 | File | `/HNAP1/` | Low
+53 | File | `/home/resume/index` | High
+54 | File | `/include/file.php` | High
+55 | File | `/index.php` | Medium
+56 | File | `/index.php/sysmanage/Login` | High
+57 | File | `/index.php?q=result&searchfor=bycompany` | High
+58 | File | `/librarian/bookdetails.php` | High
+59 | File | `/member.php?action=chgpwdsubmit` | High
+60 | File | `/multi-vendor-shopping-script/product-list.php` | High
+61 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+62 | File | `/ordersimple/order.php` | High
+63 | File | `/p` | Low
+64 | File | `/patient/doctors.php` | High
+65 | File | `/php/ping.php` | High
+66 | File | `/phpinventory/editcategory.php` | High
+67 | File | `/product-list.php` | High
+68 | File | `/products/view_product.php` | High
+69 | File | `/rame/ptdc.cgi` | High
+70 | ... | ... | ...
 
-There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 618 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -143,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,13 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,48 +70,68 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?page=cat_list` | High
-4 | File | `/admin/pages/` | High
-5 | File | `/admins` | Low
-6 | File | `/ajax/getBasicInfo.php` | High
-7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/api/admin/system/store/order/list` | High
-9 | File | `/app/admin/controller/api/Plugs.php` | High
-10 | File | `/assets/ctx` | Medium
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/clientdetails/admin/regester.php` | High
-15 | File | `/csms/?page=contact_us` | High
-16 | File | `/etc/ajenti/config.yml` | High
-17 | File | `/farm/product.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/telnet` | High
-20 | File | `/index/ajax/lang` | High
-21 | File | `/jmreport/loadTableData` | High
-22 | File | `/lms/admin.php` | High
-23 | File | `/manage_block.php` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/onlDragDatasetHead/getTotalData` | High
-26 | File | `/onvif/device_service` | High
-27 | File | `/ptippage.cgi` | High
-28 | File | `/question` | Medium
-29 | File | `/rom-0` | Low
-30 | File | `/swdHGFizaW.php/general/attachment/edit/ids/4?dialog=1` | High
-31 | File | `/tmp/out` | Medium
-32 | File | `/tmp/phpglibccheck` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/update-image1.php` | High
-35 | File | `/upload` | Low
-36 | File | `/v1/operador/` | High
-37 | File | `/var/tmp/sess_*` | High
-38 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-39 | File | `/[admins_url].php/general/attachment/edit/ids/4?dialog=1` | High
-40 | File | `action.php` | Medium
-41 | File | `actionphp/download.File.php` | High
-42 | ... | ... | ...
+3 | File | `/addProduct.php` | High
+4 | File | `/admin.php?page=cat_list` | High
+5 | File | `/admin/add-module.php` | High
+6 | File | `/admin/add_expenses.php` | High
+7 | File | `/admin/archives_add.php` | High
+8 | File | `/admin/categories/save` | High
+9 | File | `/admin/contact-us.php` | High
+10 | File | `/admin/delete_user.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/newsletterdel.php` | High
+13 | File | `/admin/pages/` | High
+14 | File | `/admin/positions.php` | High
+15 | File | `/admin/receipt.php` | High
+16 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+17 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+18 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+19 | File | `/Administrator/PHP/AdminEditUser.php` | High
+20 | File | `/Administrator/PHP/AdminReply.php` | High
+21 | File | `/admins` | Low
+22 | File | `/adv_mac_filter.php` | High
+23 | File | `/ajax.php?action=login` | High
+24 | File | `/ajax/getBasicInfo.php` | High
+25 | File | `/analysisProject/pagingQueryData` | High
+26 | File | `/api/admin/system/store/order/list` | High
+27 | File | `/api/files/recipepictures/` | High
+28 | File | `/app/admin/controller/api/Plugs.php` | High
+29 | File | `/app/register.php?action=reg` | High
+30 | File | `/assets/ctx` | Medium
+31 | File | `/authentication.cgi` | High
+32 | File | `/boaform/formSamba` | High
+33 | File | `/boafrm/formDdns` | High
+34 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+35 | File | `/boafrm/formVpnConfigSetup` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/wapopen` | High
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/clientdetails/admin/regester.php` | High
+40 | File | `/csms/?page=contact_us` | High
+41 | File | `/detailtransac.php` | High
+42 | File | `/dev/ptpX` | Medium
+43 | File | `/editeddonor.php` | High
+44 | File | `/editprofile.php` | High
+45 | File | `/etc/ajenti/config.yml` | High
+46 | File | `/farm/product.php` | High
+47 | File | `/foreigner-search.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/FrontEnd/Albums.php` | High
+50 | File | `/function.php` | High
+51 | File | `/gallery/api/status/` | High
+52 | File | `/goform/AdvSetLanip` | High
+53 | File | `/goform/AdvSetMacMtuWa` | High
+54 | File | `/goform/AdvSetMacMtuWan` | High
+55 | File | `/goform/aspForm` | High
+56 | File | `/goform/ConfigExceptAli` | High
+57 | File | `/goform/ConfigExceptMSN` | High
+58 | File | `/goform/DhcpListClient` | High
+59 | File | `/goform/exeCommand` | High
+60 | File | `/goform/formConfigFastDirectionW` | High
+61 | File | `/goform/formFireWall` | High
+62 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +152,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,28 +51,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/customers.php` | High
 3 | File | `/admin/user/UserAdmin.do` | High
-4 | File | `/cgi-bin/changepw.cgi` | High
-5 | File | `/cgi-bin/dhcp.cgi` | High
-6 | File | `/cgi-bin/hosts.cgi` | High
-7 | File | `/cgi-bin/hotspot-changepw.cgi` | High
-8 | File | `/cgi-bin/proxyconfig.cgi` | High
-9 | File | `/cgi-bin/testcgi` | High
-10 | File | `/cgi-bin/webproc` | High
-11 | File | `/cocoon/status` | High
-12 | File | `/dana/nc/ncrun.cgi` | High
-13 | File | `/enterprise/www/student.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/groups/31-twitter-basics` | High
-16 | File | `/oscommerce/admin/administrators.php` | High
-17 | File | `/oscommerce/admin/countries.php` | High
-18 | File | `/oscommerce/admin/currencies.php` | High
-19 | File | `/oscommerce/admin/orders_status.php` | High
-20 | File | `admin.comms.php` | High
-21 | File | `admin/configure.php` | High
-22 | File | `admin/install.php` | High
-23 | ... | ... | ...
+4 | File | `/boafrm/formNtp` | High
+5 | File | `/cgi-bin/changepw.cgi` | High
+6 | File | `/cgi-bin/dhcp.cgi` | High
+7 | File | `/cgi-bin/hosts.cgi` | High
+8 | File | `/cgi-bin/hotspot-changepw.cgi` | High
+9 | File | `/cgi-bin/proxyconfig.cgi` | High
+10 | File | `/cgi-bin/testcgi` | High
+11 | File | `/cgi-bin/webproc` | High
+12 | File | `/cocoon/status` | High
+13 | File | `/dana/nc/ncrun.cgi` | High
+14 | File | `/enterprise/www/student.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/function.php` | High
+17 | File | `/groups/31-twitter-basics` | High
+18 | File | `/ImportCRFData?action=confirm` | High
+19 | File | `/index.php` | Medium
+20 | File | `/listorder.php` | High
+21 | File | `/oscommerce/admin/administrators.php` | High
+22 | File | `/oscommerce/admin/countries.php` | High
+23 | File | `/oscommerce/admin/currencies.php` | High
+24 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

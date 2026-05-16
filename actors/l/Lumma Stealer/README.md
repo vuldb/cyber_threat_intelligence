@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,31 +39,32 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
 11 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
 12 | [31.220.109.219](https://vuldb.com/?ip.31.220.109.219) | srv637656.hstgr.cloud | - | High
-13 | [37.143.15.50](https://vuldb.com/?ip.37.143.15.50) | hosted-by.ihc.ru | - | High
-14 | [38.180.147.18](https://vuldb.com/?ip.38.180.147.18) | - | - | High
-15 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
-16 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
-17 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-18 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-19 | [45.61.157.226](https://vuldb.com/?ip.45.61.157.226) | 226.157.61.45.static.cloudzy.com | - | High
-20 | [45.134.26.149](https://vuldb.com/?ip.45.134.26.149) | - | - | High
-21 | [45.159.189.41](https://vuldb.com/?ip.45.159.189.41) | edgewayfunds.com | - | High
-22 | [46.202.155.128](https://vuldb.com/?ip.46.202.155.128) | srv663770.hstgr.cloud | - | High
-23 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
-24 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
-25 | [64.227.2.250](https://vuldb.com/?ip.64.227.2.250) | routemate.us | - | High
-26 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
-27 | [75.15.140.9](https://vuldb.com/?ip.75.15.140.9) | 75-15-140-9.lightspeed.rcsntx.sbcglobal.net | - | High
-28 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
-29 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-30 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
-31 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
-32 | [79.133.46.59](https://vuldb.com/?ip.79.133.46.59) | - | - | High
-33 | [79.137.203.190](https://vuldb.com/?ip.79.137.203.190) | astonishing-bike.aeza.network | - | High
-34 | [80.64.18.161](https://vuldb.com/?ip.80.64.18.161) | - | - | High
-35 | ... | ... | ... | ...
+13 | [34.229.166.50](https://vuldb.com/?ip.34.229.166.50) | ec2-34-229-166-50.compute-1.amazonaws.com | - | Medium
+14 | [37.143.15.50](https://vuldb.com/?ip.37.143.15.50) | hosted-by.ihc.ru | - | High
+15 | [38.180.147.18](https://vuldb.com/?ip.38.180.147.18) | - | - | High
+16 | [40.91.108.115](https://vuldb.com/?ip.40.91.108.115) | - | - | High
+17 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
+18 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
+19 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
+20 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
+21 | [45.61.157.226](https://vuldb.com/?ip.45.61.157.226) | 226.157.61.45.static.cloudzy.com | - | High
+22 | [45.134.26.149](https://vuldb.com/?ip.45.134.26.149) | - | - | High
+23 | [45.159.189.41](https://vuldb.com/?ip.45.159.189.41) | edgewayfunds.com | - | High
+24 | [46.30.213.102](https://vuldb.com/?ip.46.30.213.102) | webcluster2.webpod13-cph3.one.com | - | High
+25 | [46.202.155.128](https://vuldb.com/?ip.46.202.155.128) | srv663770.hstgr.cloud | - | High
+26 | [47.236.31.67](https://vuldb.com/?ip.47.236.31.67) | - | - | High
+27 | [47.250.189.199](https://vuldb.com/?ip.47.250.189.199) | - | - | High
+28 | [64.227.2.250](https://vuldb.com/?ip.64.227.2.250) | routemate.us | - | High
+29 | [65.38.120.31](https://vuldb.com/?ip.65.38.120.31) | - | - | High
+30 | [75.15.140.9](https://vuldb.com/?ip.75.15.140.9) | 75-15-140-9.lightspeed.rcsntx.sbcglobal.net | - | High
+31 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+32 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+33 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+34 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
+35 | [79.133.46.59](https://vuldb.com/?ip.79.133.46.59) | - | - | High
+36 | ... | ... | ... | ...
 
-There are 136 more IOC items available. Please use our online service to access the data.
+There are 142 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,28 +94,28 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/index.php` | High
 7 | File | `/admin/process_category_edit.php` | High
 8 | File | `/Admin/resultdetails.php` | High
-9 | File | `/ajax.php?action=save_deductions` | High
-10 | File | `/api/wizard/getDualbandSync` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/boafrm/formReflashClientTbl` | High
-13 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-14 | File | `/cancelar-enturmacao-em-lote/` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/config/pw_changeusers.html` | High
-19 | File | `/diario-de-observacoes/` | High
-20 | File | `/edit-computer-detail.php` | High
-21 | File | `/edit_student.php` | High
-22 | File | `/expedit.php` | Medium
-23 | File | `/export` | Low
-24 | File | `/film-rating.php` | High
-25 | File | `/goform/RP_setBasicAuto` | High
-26 | File | `/goform/SetOnlineDevName` | High
-27 | File | `/goform/SetSpeedWan` | High
+9 | File | `/admin/voters_delete.php` | High
+10 | File | `/ajax.php?action=delete_member` | High
+11 | File | `/ajax.php?action=save_deductions` | High
+12 | File | `/api/wizard/getDualbandSync` | High
+13 | File | `/boafrm/formReflashClientTbl` | High
+14 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+15 | File | `/cancelar-enturmacao-em-lote/` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/hd_config.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/config/pw_changeusers.html` | High
+20 | File | `/diario-de-observacoes/` | High
+21 | File | `/dm/dispatch/user/add` | High
+22 | File | `/edit-computer-detail.php` | High
+23 | File | `/edit_student.php` | High
+24 | File | `/expedit.php` | Medium
+25 | File | `/export` | Low
+26 | File | `/film-rating.php` | High
+27 | File | `/goform/RP_setBasicAuto` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,6 +168,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3318251/
 * https://urlhaus.abuse.ch/url/3614179/
 * https://www.cyfirma.com/research/fake-telegram-premium-site-distributes-new-lumma-stealer-variant/
+* https://www.threat.rip/file/0340bec4784203989cd41ba0910ebe60bf12c64feaad88f693395bc457af61d5/config
+* https://www.threat.rip/file/8ba328b085cfd887c115847d1b89980714c022de6ead24ae6d37eb90e7db294a/config
+* https://www.threat.rip/file/99c14fe575945dedb459fd37218e9c64f4847a06436491145622682968d2e2e5/config
+* https://www.threat.rip/file/732e0d85340c8399ebfa7371314b4d61a6900320da3b7f2137a4c568eca06c60/config
+* https://www.threat.rip/file/a8d3715d191c5ed26fd1b9a531642af4123c71419e187f7cb57b7432fa880090/config
+* https://www.threat.rip/file/bc4938515098bc1f4081cd3f32d2021ccdfbe77973a5724b48532d04f9a19fd4/config
+* https://www.threat.rip/file/c209ed91a5c4c829076eab89dc534ca1b9810258bd260779eef37e92158b497b/config
 * https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html
 * https://www.virustotal.com/gui/file/003adbecefd7df6a0b90f6613c338096291ac12a3c7309fccdc09c4de4724be0
 * https://www.welivesecurity.com/en/eset-research/tap-estry-threats-targeting-hamster-kombat-players/

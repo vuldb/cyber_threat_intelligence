@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-266, CWE-269, CWE-272, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -67,64 +67,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.ssh/authorized_keys` | High
-2 | File | `/Actions.php` | Medium
-3 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-4 | File | `/admin#themes` | High
-5 | File | `/admin-page.php` | High
-6 | File | `/admin/#maintenance_sysTask/edit` | High
-7 | File | `/admin/?/snippet/edit/3` | High
-8 | File | `/admin/?page=establishment` | High
-9 | File | `/admin/action/add_con.php` | High
-10 | File | `/admin/action/new-feed.php` | High
-11 | File | `/admin/add-directory.php` | High
-12 | File | `/admin/add_query_account.php` | High
-13 | File | `/admin/admin_running.php` | High
-14 | File | `/admin/ajax.php?action=delete_application` | High
-15 | File | `/admin/ajax.php?action=login` | High
-16 | File | `/admin/app` | Medium
-17 | File | `/admin/category.php` | High
-18 | File | `/admin/cmsWebFile/doUpload` | High
-19 | File | `/admin/Create_category.php` | High
-20 | File | `/admin/delete-session.php` | High
-21 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
-22 | File | `/admin/edit-card-detail.php` | High
-23 | File | `/admin/edit-class.php` | High
-24 | File | `/admin/edit-equipmentform.php` | High
-25 | File | `/admin/edit_room.php` | High
-26 | File | `/admin/edit_student.php` | High
-27 | File | `/admin/edit_user.php` | High
-28 | File | `/admin/login.php` | High
-29 | File | `/admin/manage-art-medium.php` | High
-30 | File | `/admin/manage-users.php` | High
-31 | File | `/admin/post/list` | High
-32 | File | `/admin/publishnews.php` | High
-33 | File | `/admin/subscriber-csv.php` | High
-34 | File | `/admin/tag.php` | High
-35 | File | `/admin/template/update` | High
-36 | File | `/admin/unreadenq.php` | High
-37 | File | `/admin/upload/upimage.html` | High
-38 | File | `/admin/user-payment.php` | High
-39 | File | `/admin/user.php` | High
-40 | File | `/admin/user/list` | High
-41 | File | `/admin/userlist.php` | High
-42 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-43 | File | `/admin/view-enquiry.php` | High
-44 | File | `/adminapi/export/product_list` | High
-45 | File | `/adminLogin.php` | High
-46 | File | `/ajax.php?action=delete_position` | High
-47 | File | `/api` | Low
-48 | File | `/api/monitors/import` | High
-49 | File | `/api/sys/login` | High
-50 | File | `/app/api/controller/Store.php` | High
+1 | File | `/Actions.php` | Medium
+2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
+3 | File | `/admin#themes` | High
+4 | File | `/admin-page.php` | High
+5 | File | `/admin/#maintenance_sysTask/edit` | High
+6 | File | `/admin/?/snippet/edit/3` | High
+7 | File | `/admin/?page=establishment` | High
+8 | File | `/admin/add-directory.php` | High
+9 | File | `/admin/add_query_account.php` | High
+10 | File | `/admin/admin_running.php` | High
+11 | File | `/admin/ajax.php?action=delete_application` | High
+12 | File | `/admin/ajax.php?action=login` | High
+13 | File | `/admin/category.php` | High
+14 | File | `/admin/cmsWebFile/doUpload` | High
+15 | File | `/admin/Create_category.php` | High
+16 | File | `/admin/delete-session.php` | High
+17 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
+18 | File | `/admin/edit-card-detail.php` | High
+19 | File | `/admin/edit-class.php` | High
+20 | File | `/admin/edit-equipmentform.php` | High
+21 | File | `/admin/edit_room.php` | High
+22 | File | `/admin/edit_student.php` | High
+23 | File | `/admin/edit_user.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/login.php` | High
+26 | File | `/admin/manage-art-medium.php` | High
+27 | File | `/admin/manage-users.php` | High
+28 | File | `/admin/post/list` | High
+29 | File | `/admin/publishnews.php` | High
+30 | File | `/admin/subscriber-csv.php` | High
+31 | File | `/admin/tag.php` | High
+32 | File | `/admin/template/update` | High
+33 | File | `/admin/unreadenq.php` | High
+34 | File | `/admin/upload/upimage.html` | High
+35 | File | `/admin/user-payment.php` | High
+36 | File | `/admin/user.php` | High
+37 | File | `/admin/user/list` | High
+38 | File | `/admin/userlist.php` | High
+39 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+40 | File | `/admin/view-enquiry.php` | High
+41 | File | `/adminapi/export/product_list` | High
+42 | File | `/Administrator/PHP/AdminAddUser.php` | High
+43 | File | `/Administrator/PHP/AdminEditCategory.php` | High
+44 | File | `/adminLogin.php` | High
+45 | File | `/ajax.php?action=delete_position` | High
+46 | File | `/api` | Low
+47 | File | `/api/monitors/import` | High
+48 | File | `/api/v1/users/` | High
+49 | File | `/app/api/controller/Store.php` | High
+50 | File | `/app/complaint.php` | High
 51 | File | `/application/index/controller/Unity.php` | High
 52 | File | `/apprain/developer/addons/update/hysontable` | High
 53 | File | `/apprain/developer/addons/update/rich_text_editor` | High
 54 | File | `/apps/meteor/app/irc/server/servers/RFC2813/parseMessage.js` | High
 55 | File | `/auth/soup-auth-digest.c` | High
-56 | ... | ... | ...
+56 | File | `/backup/import` | High
+57 | File | `/basico/webservice/imprimir-danfe/id/` | High
+58 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,38 +56,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add-foreigner-ticket.php` | High
-3 | File | `/admin/admin_forum/add_views.php` | High
-4 | File | `/admin/app/service_crud.php` | High
-5 | File | `/admin/categories/save` | High
-6 | File | `/admin/contact-us.php` | High
-7 | File | `/admin/email_setup.php` | High
-8 | File | `/admin/sms_setting.php` | High
-9 | File | `/ajax.php?action=login` | High
-10 | File | `/api/course/enroll-course` | High
-11 | File | `/auth/login` | Medium
-12 | File | `/balance/service/list` | High
-13 | File | `/cancelar-enturmacao-em-lote/` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/create_account.php` | High
-17 | File | `/dashboard/getData.php` | High
-18 | File | `/dashboard/product` | High
-19 | File | `/data_source_edit.shtm` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/educacenso/consulta` | High
-22 | File | `/enturmacao-em-lote/` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/goform/DHCPReserveAddGroup` | High
-26 | File | `/goform/editFileName` | High
-27 | File | `/goform/exeCommand` | High
-28 | File | `/goform/inboundFilterAdd` | High
-29 | File | `/goform/langSwitchByBBS` | High
-30 | ... | ... | ...
+1 | File | `.jsp` | Low
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/add-foreigner-ticket.php` | High
+4 | File | `/admin/admin_forum/add_views.php` | High
+5 | File | `/admin/app/service_crud.php` | High
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/contact-us.php` | High
+8 | File | `/admin/email_setup.php` | High
+9 | File | `/admin/sms_setting.php` | High
+10 | File | `/ajax.php?action=login` | High
+11 | File | `/api/course/enroll-course` | High
+12 | File | `/auth/login` | Medium
+13 | File | `/balance/service/list` | High
+14 | File | `/cancelar-enturmacao-em-lote/` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/create_account.php` | High
+18 | File | `/dashboard/getData.php` | High
+19 | File | `/dashboard/product` | High
+20 | File | `/data_source_edit.shtm` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/educacenso/consulta` | High
+23 | File | `/enturmacao-em-lote/` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/DHCPReserveAddGroup` | High
+27 | File | `/goform/editFileName` | High
+28 | File | `/goform/exeCommand` | High
+29 | File | `/goform/inboundFilterAdd` | High
+30 | File | `/goform/langSwitchByBBS` | High
+31 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -18,7 +18,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [118.70.80.143](https://vuldb.com/?ip.118.70.80.143) | - | - | High
-2 | [210.245.26.180](https://vuldb.com/?ip.210.245.26.180) | - | - | High
+2 | [194.26.141.203](https://vuldb.com/?ip.194.26.141.203) | - | - | High
+3 | [210.245.26.180](https://vuldb.com/?ip.210.245.26.180) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,6 +52,7 @@ There are 9 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.netlab.360.com/gpon-exploit-in-the-wild-iii-mettle-hajime-mirai-omni-imgay/
+* https://urlhaus.abuse.ch/url/3754668/
 
 ## Literature
 

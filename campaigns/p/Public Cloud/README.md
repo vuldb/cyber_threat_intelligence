@@ -53,25 +53,25 @@ ID | Type | Indicator | Confidence
 1 | File | `.cpr/` | Low
 2 | File | `/#ProductSerie/view/` | High
 3 | File | `//proc/kcore` | Medium
-4 | File | `/api/wizard/setsyncpppoecfg` | High
-5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-6 | File | `/donor-wall` | Medium
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/inc/jquery/uploadify/uploadify.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/index/ajax/lang` | High
-13 | File | `/lua/set-passwd.lua` | High
-14 | File | `/member/index/login.html` | High
-15 | File | `/member/myfriend.php` | High
-16 | File | `/member/reg.asp` | High
-17 | File | `/perfex/clients/project/2` | High
-18 | File | `/pms/admin/actions/view_action.php` | High
-19 | File | `/pms/admin/cells/view_cell.php` | High
+4 | File | `/addcompany.php` | High
+5 | File | `/api/wizard/setsyncpppoecfg` | High
+6 | File | `/base/safe_setting/` | High
+7 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+8 | File | `/donor-wall` | Medium
+9 | File | `/equipment/get_Information` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/execute_js` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/inc/jquery/uploadify/uploadify.php` | High
+14 | File | `/inc/parser/xhtml.php` | High
+15 | File | `/include/makecvs.php` | High
+16 | File | `/index/ajax/lang` | High
+17 | File | `/lua/set-passwd.lua` | High
+18 | File | `/member/index/login.html` | High
+19 | File | `/member/myfriend.php` | High
 20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

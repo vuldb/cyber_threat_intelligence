@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -93,27 +93,26 @@ ID | Type | Indicator | Confidence
 18 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
 19 | File | `/ecommerce/support_ticket` | High
 20 | File | `/forum/away.php` | High
-21 | File | `/goform/verifyFacebookLike` | High
-22 | File | `/home/search` | Medium
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/licenses` | Medium
-26 | File | `/messageboard/view.php` | High
-27 | File | `/mhds/clinic/view_details.php` | High
-28 | File | `/out.php` | Medium
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/paySuccess` | Medium
-31 | File | `/rest/api/latest/projectvalidate/key` | High
-32 | File | `/spgpm/updateListing` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-35 | File | `/textpattern/index.php` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/update_weights_from_tensor` | High
-38 | File | `/upfile.cgi` | Medium
-39 | File | `/WEAS_AlarmResult/GetAlarmResultProcessList` | High
-40 | File | `/webui/modules/log/operate.mds` | High
-41 | ... | ... | ...
+21 | File | `/goform/SetVirtualServerCfg` | High
+22 | File | `/goform/verifyFacebookLike` | High
+23 | File | `/home/search` | Medium
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/licenses` | Medium
+27 | File | `/messageboard/view.php` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/out.php` | Medium
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/paySuccess` | Medium
+32 | File | `/rest/api/latest/projectvalidate/key` | High
+33 | File | `/spgpm/updateListing` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+36 | File | `/textpattern/index.php` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/update_weights_from_tensor` | High
+39 | File | `/upfile.cgi` | Medium
+40 | ... | ... | ...
 
 There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

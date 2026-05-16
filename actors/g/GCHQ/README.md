@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with GCHQ:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GCHQ:
 
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +37,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1600 | CWE-311, CWE-326 | Cryptographic Issues | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1600 | CWE-311, CWE-326 | Cryptographic Issues | High
 
 ## IOA - Indicator of Attack
 
@@ -61,4 +63,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -57,32 +57,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 7 | File | `/card_scan.php` | High
 8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/cwc/login` | Medium
-11 | File | `/debuginfo.htm` | High
-12 | File | `/download` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/etc/quagga` | Medium
-15 | File | `/etc/shadow` | Medium
-16 | File | `/forms/doLogin` | High
-17 | File | `/h/autoSaveDraft` | High
-18 | File | `/h/calendar` | Medium
-19 | File | `/inc/extensions.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/netflow/jspui/editProfile.jsp` | High
-22 | File | `/nova/bin/console` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/out.php` | Medium
-25 | File | `/php/ping.php` | High
-26 | File | `/rapi/read_url` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/rom-0` | Low
-29 | File | `/scripts/unlock_tasks.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | ... | ... | ...
+9 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/config/pw_changeusers.html` | High
+12 | File | `/cwc/login` | Medium
+13 | File | `/debuginfo.htm` | High
+14 | File | `/download` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/etc/quagga` | Medium
+17 | File | `/etc/shadow` | Medium
+18 | File | `/forms/doLogin` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/handgunner-administrator/register_code.php` | High
+22 | File | `/inc/extensions.php` | High
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/netflow/jspui/editProfile.jsp` | High
+25 | File | `/nova/bin/console` | High
+26 | File | `/nova/bin/detnet` | High
+27 | File | `/out.php` | Medium
+28 | File | `/php/ping.php` | High
+29 | File | `/rapi/read_url` | High
+30 | File | `/req_password_user.php` | High
+31 | File | `/retailer/edit_profile.php` | High
+32 | File | `/rom-0` | Low
+33 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

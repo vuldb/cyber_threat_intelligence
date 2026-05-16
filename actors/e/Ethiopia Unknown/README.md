@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,30 +79,30 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/show.php` | High
 19 | File | `/api/Cdn/GetFile` | High
 20 | File | `/api/DocumentTemplate/{GUID}` | High
-21 | File | `/api/students/me/messages/` | High
-22 | File | `/auth/userkey/logout.php` | High
-23 | File | `/backend/register.php` | High
-24 | File | `/bcms/admin/?page=sales/view_details` | High
-25 | File | `/bin/httpd` | Medium
-26 | File | `/bitrix/admin/ldap_server_edit.php` | High
-27 | File | `/boat/login.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/checkout/confirm/` | High
-30 | File | `/classes/profile.class.php` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/clinic/disease_symptoms_view.php` | High
-33 | File | `/config-manager/save` | High
-34 | File | `/dashboard/menu-list.php` | High
-35 | File | `/dashboard/table-list.php` | High
-36 | File | `/delete_account.php` | High
-37 | File | `/directRouter.rfc` | High
-38 | File | `/doctor/view-appointment-detail.php` | High
-39 | File | `/downloadFile.php` | High
-40 | File | `/ecommerce/support_ticket` | High
-41 | File | `/edit-client-details.php` | High
-42 | File | `/env` | Low
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/aspForm` | High
+21 | File | `/auth/userkey/logout.php` | High
+22 | File | `/backend/register.php` | High
+23 | File | `/bcms/admin/?page=sales/view_details` | High
+24 | File | `/bin/httpd` | Medium
+25 | File | `/bitrix/admin/ldap_server_edit.php` | High
+26 | File | `/boat/login.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/checkout/confirm/` | High
+29 | File | `/classes/profile.class.php` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/clinic/disease_symptoms_view.php` | High
+32 | File | `/config-manager/save` | High
+33 | File | `/dashboard/menu-list.php` | High
+34 | File | `/dashboard/table-list.php` | High
+35 | File | `/delete_account.php` | High
+36 | File | `/directRouter.rfc` | High
+37 | File | `/doctor/view-appointment-detail.php` | High
+38 | File | `/downloadFile.php` | High
+39 | File | `/ecommerce/support_ticket` | High
+40 | File | `/edit-client-details.php` | High
+41 | File | `/env` | Low
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/aspForm` | High
+44 | File | `/goform/formSetEnableWizard` | High
 45 | File | `/goform/setWan` | High
 46 | File | `/home/resume/index` | High
 47 | File | `/include/file.php` | High
@@ -114,9 +114,10 @@ ID | Type | Indicator | Confidence
 53 | File | `/load.php` | Medium
 54 | File | `/login.php` | Medium
 55 | File | `/logout.php` | Medium
-56 | ... | ... | ...
+56 | File | `/member.php?action=chgpwdsubmit` | High
+57 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

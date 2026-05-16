@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetWire RC:
 
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,24 +57,25 @@ ID | IP address | Hostname | Campaign | Confidence
 34 | [45.133.174.214](https://vuldb.com/?ip.45.133.174.214) | - | - | High
 35 | [45.144.225.128](https://vuldb.com/?ip.45.144.225.128) | - | - | High
 36 | [45.144.225.174](https://vuldb.com/?ip.45.144.225.174) | - | - | High
-37 | [51.15.19.32](https://vuldb.com/?ip.51.15.19.32) | 51-15-19-32.rev.poneytelecom.eu | - | High
-38 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
-39 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
-40 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
-41 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
-42 | [54.36.4.180](https://vuldb.com/?ip.54.36.4.180) | ip180.ip-54-36-4.eu | - | High
-43 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
-44 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
-45 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
-46 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
-47 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
-48 | [66.42.43.177](https://vuldb.com/?ip.66.42.43.177) | 66.42.43.177.vultrusercontent.com | - | Medium
-49 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
-50 | [66.154.103.106](https://vuldb.com/?ip.66.154.103.106) | 66.154.103.106.static.quadranet.com | - | High
-51 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
-52 | ... | ... | ... | ...
+37 | [46.243.189.158](https://vuldb.com/?ip.46.243.189.158) | fiber.by.weserve.nl | - | High
+38 | [51.15.19.32](https://vuldb.com/?ip.51.15.19.32) | 51-15-19-32.rev.poneytelecom.eu | - | High
+39 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
+40 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
+41 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
+42 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
+43 | [54.36.4.180](https://vuldb.com/?ip.54.36.4.180) | ip180.ip-54-36-4.eu | - | High
+44 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
+45 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
+46 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
+47 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
+48 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
+49 | [66.42.43.177](https://vuldb.com/?ip.66.42.43.177) | 66.42.43.177.vultrusercontent.com | - | Medium
+50 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
+51 | [66.154.103.106](https://vuldb.com/?ip.66.154.103.106) | 66.154.103.106.static.quadranet.com | - | High
+52 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
+53 | ... | ... | ... | ...
 
-There are 206 more IOC items available. Please use our online service to access the data.
+There are 208 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,14 +83,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+4 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1083 | CWE-552 | File and Directory Information Exposure | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,60 +98,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action.php` | Medium
-2 | File | `/actuator` | Medium
-3 | File | `/addProduct.php` | High
-4 | File | `/add_librarian.php` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin/add-boat.php` | High
-7 | File | `/admin/adddoctorclinic.php` | High
-8 | File | `/admin/admin_class.php` | High
-9 | File | `/admin/betweendates-detailsreports.php` | High
-10 | File | `/admin/booking-bwdates-reports-details.php` | High
+1 | File | `/actuator` | Medium
+2 | File | `/addProduct.php` | High
+3 | File | `/add_librarian.php` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/` | Low
+6 | File | `/admin/activity.php` | High
+7 | File | `/admin/add-subadmins.php` | High
+8 | File | `/Admin/additems.php` | High
+9 | File | `/admin/add_area.php` | High
+10 | File | `/admin/add_payroll.php` | High
 11 | File | `/admin/bwdates-reports-details.php` | High
-12 | File | `/admin/candidates_edit.php` | High
-13 | File | `/admin/category/controller.php` | High
-14 | File | `/admin/cms/material/add` | High
-15 | File | `/admin/create_product.php` | High
-16 | File | `/admin/invoices.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/login_query.php` | High
-19 | File | `/admin/products/index.php?view=add` | High
-20 | File | `/admin/quesadd.php` | High
-21 | File | `/admin/school_year.php` | High
-22 | File | `/admin/search-appointment.php` | High
-23 | File | `/admin/user-bookings.php` | High
-24 | File | `/admin/voters_row.php` | High
-25 | File | `/administrator/addcategory.php` | High
-26 | File | `/adminLogin.php` | High
-27 | File | `/admin_delete.php` | High
-28 | File | `/admin_topic.php?action=delall` | High
-29 | File | `/ajax.php?action=login` | High
-30 | File | `/api/authentication/login` | High
-31 | File | `/api/wizard/networkSetup` | High
-32 | File | `/att_add.php` | Medium
-33 | File | `/base/safe_setting/` | High
-34 | File | `/binutils/debug.c` | High
-35 | File | `/bitrix/admin/ldap_server_edit.php` | High
-36 | File | `/Bloodgroop_process.php` | High
-37 | File | `/boafrm/formMultiAP` | High
-38 | File | `/boafrm/formSysTel` | High
-39 | File | `/boafrm/formWsc` | High
-40 | File | `/c6/Jhsoft.Web.module/ToolBar/GetWordFileName.aspx/?text=GetUrl&style=add` | High
-41 | File | `/cancelbookingpatient.php` | High
-42 | File | `/cart/update/attr` | High
-43 | File | `/cgi-bin/cstecgi.cgi` | High
-44 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-45 | File | `/cgi-bin/nas_sharing.cgi` | High
-46 | File | `/check_student.php` | High
-47 | File | `/chkuser.php` | Medium
-48 | File | `/contact_us.php` | High
-49 | File | `/controller/api/hotelList.php` | High
-50 | File | `/controller/api/Room.php` | High
-51 | File | `/customer_details.php` | High
-52 | ... | ... | ...
+12 | File | `/admin/cms/material/add` | High
+13 | File | `/Admin/delete-fee.php` | High
+14 | File | `/admin/delete_activity.php` | High
+15 | File | `/admin/editsite.php` | High
+16 | File | `/admin/edit_activity_query.php` | High
+17 | File | `/admin/expenses.php` | High
+18 | File | `/admin/invoices.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/login_query.php` | High
+21 | File | `/admin/modules/lesson/index.php` | High
+22 | File | `/admin/products/index.php?view=add` | High
+23 | File | `/admin/quesadd.php` | High
+24 | File | `/admin/system/variableList.do` | High
+25 | File | `/admin/system/variableSave.do` | High
+26 | File | `/admin/user-bookings.php` | High
+27 | File | `/administrator/addcategory.php` | High
+28 | File | `/Administrator/PHP/AdminAddUser.php` | High
+29 | File | `/Administrator/PHP/AdminViewSongs.php` | High
+30 | File | `/admin_delete.php` | High
+31 | File | `/ajax.php?action=login` | High
+32 | File | `/api/jobs` | Medium
+33 | File | `/app/checkout/delete.php` | High
+34 | File | `/app/checkout/update.php` | High
+35 | File | `/app/complaint.php` | High
+36 | File | `/app/Jobs/Util/Import.php` | High
+37 | File | `/app/register.php?action=reg` | High
+38 | File | `/att_add.php` | Medium
+39 | File | `/BalloonSave.ashx` | High
+40 | File | `/base/safe_setting/` | High
+41 | File | `/binutils/debug.c` | High
+42 | File | `/blog/bContent/save` | High
+43 | File | `/boafrm/formWsc` | High
+44 | File | `/cart/update/attr` | High
+45 | File | `/cgi-bin/cstecgi.cgi` | High
+46 | File | `/cgi-bin/imode_alldata.php` | High
+47 | File | `/contact_us.php` | High
+48 | File | `/controller/api/hotelList.php` | High
+49 | File | `/controller/api/Room.php` | High
+50 | File | `/customer_details.php` | High
+51 | File | `/data/pbootcms.db` | High
+52 | File | `/dayrui/Fcms/Init.php` | High
+53 | File | `/dev-api/common/upload` | High
+54 | File | `/editproduct.php` | High
+55 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -169,6 +173,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220719-xej2lshccj
 * https://tria.ge/220728-tzgv7shhej
 * https://tria.ge/251208-d7bfdsbt5h
+* https://tria.ge/260112-et7gcadt3a
 
 ## Literature
 

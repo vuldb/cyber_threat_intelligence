@@ -47,17 +47,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=city` | High
 2 | File | `/admin/deletedoctorclinic.php` | High
 3 | File | `/admin/new-autoortaxi-entry-form.php` | High
-4 | File | `/goform/setDmzInfo` | High
-5 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/rptbaptismal.php` | High
-8 | File | `/start_apply.htm` | High
-9 | File | `/storage` | Medium
-10 | File | `/storagework/rentTakeInfoPage.htm` | High
-11 | File | `/topic` | Low
+4 | File | `/goform/formSyslogConf` | High
+5 | File | `/goform/setDmzInfo` | High
+6 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/rptbaptismal.php` | High
+9 | File | `/start_apply.htm` | High
+10 | File | `/storage` | Medium
+11 | File | `/storagework/rentTakeInfoPage.htm` | High
 12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

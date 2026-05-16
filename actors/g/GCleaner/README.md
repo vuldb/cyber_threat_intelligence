@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AC](https://vuldb.com/?country.ac)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +28,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.12.253.56](https://vuldb.com/?ip.45.12.253.56) | - | - | High
 6 | [45.12.253.72](https://vuldb.com/?ip.45.12.253.72) | - | - | High
 7 | [45.12.253.74](https://vuldb.com/?ip.45.12.253.74) | - | - | High
-8 | ... | ... | ... | ...
+8 | [45.12.253.75](https://vuldb.com/?ip.45.12.253.75) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,21 +55,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=system_info/contact_info` | High
 2 | File | `/admin/delete_user.php` | High
 3 | File | `/admin/manage-ambulance.php` | High
-4 | File | `/admin_members.php?ac=editsave` | High
-5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/delete_post.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
-9 | File | `/lua/set-passwd.lua` | High
-10 | File | `/newdriver.php` | High
-11 | File | `/oauth/idp/.well-known/openid-configuration` | High
-12 | File | `/protocol/iscuser/uploadiscuser.php` | High
-13 | File | `/protocol/log/listloginfo.php` | High
-14 | File | `/qsr_server/device/reboot` | High
-15 | File | `/spip.php` | Medium
-16 | ... | ... | ...
+4 | File | `/admin/role/list` | High
+5 | File | `/admin_members.php?ac=editsave` | High
+6 | File | `/advanced-tools/nova/bin/netwatch` | High
+7 | File | `/delete_post.php` | High
+8 | File | `/delete_student.php` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/feeds/index.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/set_hidessid_cfg` | High
+13 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/lua/set-passwd.lua` | High
+16 | File | `/newdriver.php` | High
+17 | File | `/oauth/idp/.well-known/openid-configuration` | High
+18 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +101,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3607394/
 * https://urlhaus.abuse.ch/url/3617792/
 * https://urlhaus.abuse.ch/url/3743700/
+* https://www.threat.rip/file/3f432d2353e56a69760a93b50594a3a924c706dd597b6ce66ea88af857a50c89/config
+* https://www.threat.rip/file/61ec677d742f1f9d7bd8e6d389700c8cb6a07219fedac3c47e44d1f6815421a6/config
+* https://www.threat.rip/file/71a5caa56145081aa4982c82b660176ed21ace48a93daec955179b4199513bd0/config
+* https://www.threat.rip/file/93f739b675520ba69cc39e7c066383e53161b7d9d03e7b287ca52ee4c146b3ed/config
 
 ## Literature
 

@@ -8,9 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Belarus Unknown:
 
-* [BY](https://vuldb.com/?country.by)
 * [RU](https://vuldb.com/?country.ru)
-* [US](https://vuldb.com/?country.us)
+* [BY](https://vuldb.com/?country.by)
 
 ## IOC - Indicator of Compromise
 
@@ -107,7 +106,6 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 2 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
-3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -115,12 +113,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ogp_show.php` | Medium
-2 | File | `user.php` | Medium
-3 | Argument | `entry` | Low
+1 | File | `user.php` | Medium
+2 | Argument | `Host Address` | Medium
+3 | Argument | `title` | Low
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [MX](https://vuldb.com/?country.mx)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,7 +95,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -105,38 +106,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addelivery.php` | High
-2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+1 | File | `/ad-list` | Medium
+2 | File | `/addelivery.php` | High
 3 | File | `/admin/action/update-deworm.php` | High
 4 | File | `/admin/add-customer-services.php` | High
 5 | File | `/admin/addemployee.php` | High
-6 | File | `/Admin/consulting_detail.php` | High
-7 | File | `/admin/delete-appointment.php` | High
-8 | File | `/admin/file_manager/export` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/link/edit.do` | High
-11 | File | `/admin/massage.php` | High
-12 | File | `/admin/post/list` | High
-13 | File | `/Admin/registration.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/admin/update-users.php` | High
-16 | File | `/admind45f74adbd95.php?c=email&m=add` | High
-17 | File | `/adphar.php` | Medium
-18 | File | `/aim/storage/query.py` | High
-19 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
-20 | File | `/api/process.php` | High
-21 | File | `/app/admin/controller/file/File.php` | High
-22 | File | `/boafrm/formMultiAP` | High
-23 | File | `/book_list.php` | High
-24 | File | `/cart/index.php` | High
-25 | File | `/cms/category/list` | High
-26 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-27 | File | `/download` | Medium
-28 | File | `/forget_password_process.php` | High
-29 | File | `/friends/ajax_invite` | High
-30 | ... | ... | ...
+6 | File | `/admin/admin_login.php` | High
+7 | File | `/Admin/consulting_detail.php` | High
+8 | File | `/admin/delete-appointment.php` | High
+9 | File | `/admin/file_manager/export` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/link/edit.do` | High
+12 | File | `/admin/massage.php` | High
+13 | File | `/admin/php/crud.php` | High
+14 | File | `/admin/post/list` | High
+15 | File | `/Admin/registration.php` | High
+16 | File | `/admin/students/manage.php` | High
+17 | File | `/admin/update-users.php` | High
+18 | File | `/admin/update_user.php` | High
+19 | File | `/admind45f74adbd95.php?c=email&m=add` | High
+20 | File | `/adphar.php` | Medium
+21 | File | `/aim/storage/query.py` | High
+22 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+23 | File | `/api/process.php` | High
+24 | File | `/app/admin/controller/file/File.php` | High
+25 | File | `/boafrm/formMapDel` | High
+26 | File | `/boafrm/formMultiAP` | High
+27 | File | `/boafrm/formWirelessTbl` | High
+28 | File | `/boafrm/formWsc` | High
+29 | File | `/book_list.php` | High
+30 | File | `/cart/index.php` | High
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

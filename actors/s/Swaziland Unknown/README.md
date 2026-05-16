@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Swaziland Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
 * [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 44 more country items available. Please use our online service to access the data.
+There are 45 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,51 +86,57 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=products/view_product` | High
 3 | File | `/admin/add_trainers.php` | High
 4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/auto-taxi-entry-detail.php` | High
-6 | File | `/admin/candidates_add.php` | High
-7 | File | `/admin/clients/` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit_action.php` | High
-11 | File | `/Admin/edit_profile.php` | High
-12 | File | `/admin/forms/option_lists/edit.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/manage-pages.php` | High
-15 | File | `/admin/products/view_product.php` | High
-16 | File | `/admin/reservation.php` | High
-17 | File | `/admin/sales/manage_sale.php` | High
-18 | File | `/admin/search.php` | High
-19 | File | `/admin/settings/index.php?page=accounts` | High
-20 | File | `/advanced-tools/nova/bin/netwatch` | High
-21 | File | `/ajax.php?action=save_ticket` | High
-22 | File | `/api/configs` | Medium
-23 | File | `/api/sys/set_passwd` | High
-24 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-25 | File | `/apilog.php` | Medium
-26 | File | `/auth_pic.cgi` | High
-27 | File | `/bin/httpd` | Medium
-28 | File | `/boafrm/formPortFw` | High
-29 | File | `/cancelbookingpatient.php` | High
-30 | File | `/category.php` | High
-31 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-32 | File | `/cgi-bin/api-get_line_status` | High
-33 | File | `/cgi-bin/luci` | High
-34 | File | `/cgi-bin/myMusic.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/change_pass/forgot_password_sql.php` | High
-38 | File | `/classes/Master.php?f=delete_category` | High
-39 | File | `/classes/Master.php?f=save_medicine` | High
-40 | File | `/Code/loginnew.php` | High
-41 | File | `/Code/sc_login.php` | High
-42 | File | `/control/add_act.php` | High
-43 | File | `/control/login.php` | High
-44 | File | `/control/register_case.php` | High
-45 | File | `/cusfindambulence2.php` | High
-46 | File | `/dashboard/admin/edit_member.php` | High
-47 | ... | ... | ...
+5 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+6 | File | `/admin/article/add/do` | High
+7 | File | `/admin/auto-taxi-entry-detail.php` | High
+8 | File | `/admin/candidates_add.php` | High
+9 | File | `/admin/clients/` | High
+10 | File | `/admin/create_product.php` | High
+11 | File | `/admin/edit-services.php` | High
+12 | File | `/admin/edit_action.php` | High
+13 | File | `/Admin/edit_profile.php` | High
+14 | File | `/admin/emp-profile-avatar.php` | High
+15 | File | `/admin/forms/option_lists/edit.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/index2.html` | High
+18 | File | `/admin/manage-pages.php` | High
+19 | File | `/admin/products/view_product.php` | High
+20 | File | `/admin/reservation.php` | High
+21 | File | `/admin/role` | Medium
+22 | File | `/admin/sales/manage_sale.php` | High
+23 | File | `/admin/search.php` | High
+24 | File | `/admin/settings/index.php?page=accounts` | High
+25 | File | `/advanced-tools/nova/bin/netwatch` | High
+26 | File | `/ajax.php?action=delete_customer` | High
+27 | File | `/ajax.php?action=save_ticket` | High
+28 | File | `/api/configs` | Medium
+29 | File | `/api/sys/set_passwd` | High
+30 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+31 | File | `/api/wizard/getCapability` | High
+32 | File | `/apilog.php` | Medium
+33 | File | `/auth_pic.cgi` | High
+34 | File | `/bin/httpd` | Medium
+35 | File | `/boafrm/formPortFw` | High
+36 | File | `/cancelbookingpatient.php` | High
+37 | File | `/category.php` | High
+38 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+39 | File | `/cgi-bin/api-get_line_status` | High
+40 | File | `/cgi-bin/myMusic.cgi` | High
+41 | File | `/cgi-bin/nas_sharing.cgi` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/change_pass/forgot_password_sql.php` | High
+44 | File | `/classes/Master.php?f=delete_category` | High
+45 | File | `/classes/Master.php?f=save_medicine` | High
+46 | File | `/cms/templates/templatesAssetsEditor` | High
+47 | File | `/Code/loginnew.php` | High
+48 | File | `/Code/sc_login.php` | High
+49 | File | `/control/add_act.php` | High
+50 | File | `/control/login.php` | High
+51 | File | `/control/register_case.php` | High
+52 | File | `/cusfindambulence2.php` | High
+53 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

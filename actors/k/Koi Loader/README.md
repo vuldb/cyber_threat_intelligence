@@ -27,13 +27,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.14.227.125](https://vuldb.com/?ip.45.14.227.125) | static.pwxs.net | - | High
-2 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | Koi Stealer | High
-3 | [78.142.29.118](https://vuldb.com/?ip.78.142.29.118) | - | - | High
-4 | [79.124.78.148](https://vuldb.com/?ip.79.124.78.148) | xqn1.jellycat.online | - | High
-5 | ... | ... | ... | ...
+1 | [2.58.15.233](https://vuldb.com/?ip.2.58.15.233) | - | - | High
+2 | [5.101.84.22](https://vuldb.com/?ip.5.101.84.22) | vm20964.hyper.hosting | - | High
+3 | [37.49.226.113](https://vuldb.com/?ip.37.49.226.113) | - | - | High
+4 | [45.14.227.125](https://vuldb.com/?ip.45.14.227.125) | static.pwxs.net | - | High
+5 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | Koi Stealer | High
+6 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,43 +63,48 @@ ID | Type | Indicator | Confidence
 4 | File | `.htaccess` | Medium
 5 | File | `/+CSCOE+/logon.html` | High
 6 | File | `/?p=products` | Medium
-7 | File | `/admin/settings/sites/new` | High
-8 | File | `/advanced/adv_dns.xgi` | High
-9 | File | `/api/system/cluster_config/` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/customer_support/ajax.php?action=save_ticket` | High
-13 | File | `/editar-cliente.php` | High
-14 | File | `/folder/list` | Medium
-15 | File | `/forms/nslookupHandler` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/GetNewDir` | High
-18 | File | `/goform/right_now_d` | High
-19 | File | `/group/comment` | High
-20 | File | `/home/home_parent.xgi` | High
-21 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-22 | File | `/index/ajax/lang` | High
-23 | File | `/lookin/info` | Medium
-24 | File | `/manage_inv.php` | High
-25 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-26 | File | `/plugins/servlet/jira-blockers/` | High
-27 | File | `/register.php` | High
-28 | File | `/request.php` | Medium
-29 | File | `/sessions/sess_<sessionid>` | High
-30 | File | `/status/status_log.sys` | High
-31 | File | `/themes/<php_file_name>` | High
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `addtocart.asp` | High
-37 | File | `admin-ajax.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/fm/` | Medium
-40 | File | `admin/pages/*/edit` | High
-41 | ... | ... | ...
+7 | File | `/add_contestant.php` | High
+8 | File | `/admin/admin_feature.php` | High
+9 | File | `/admin/goods/update` | High
+10 | File | `/admin/role` | Medium
+11 | File | `/admin/settings/sites/new` | High
+12 | File | `/admin/user-bookings.php` | High
+13 | File | `/advanced/adv_dns.xgi` | High
+14 | File | `/ajax.php?action=save_station` | High
+15 | File | `/alphaware/details.php` | High
+16 | File | `/api/system/cluster_config/` | High
+17 | File | `/api /v3/auth` | High
+18 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+19 | File | `/common/info.cgi` | High
+20 | File | `/conv/community` | High
+21 | File | `/customer_support/ajax.php?action=save_ticket` | High
+22 | File | `/del.php` | Medium
+23 | File | `/delete.php` | Medium
+24 | File | `/editAgent.php` | High
+25 | File | `/editar-cliente.php` | High
+26 | File | `/folder/list` | Medium
+27 | File | `/forms/nslookupHandler` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/formAutoDetecWAN_wizard4` | High
+30 | File | `/goform/GetNewDir` | High
+31 | File | `/goform/right_now_d` | High
+32 | File | `/goform/RP_checkFWByBBS` | High
+33 | File | `/goform/setAdPushInfo` | High
+34 | File | `/group/comment` | High
+35 | File | `/home/home_parent.xgi` | High
+36 | File | `/html/matPat/adicionar_tipoEntrada.php` | High
+37 | File | `/index.php?menu=asterisk_cli` | High
+38 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/kmf/folder.jsp` | High
+41 | File | `/lookin/info` | Medium
+42 | File | `/manage_inv.php` | High
+43 | File | `/monitoring` | Medium
+44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+45 | File | `/php_action/editUser.php` | High
+46 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,7 +112,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/09ef17dc4284a8d1a8b937354bd8137aa9c0d98bffb897bd891ccff854484e43/
 * https://bazaar.abuse.ch/sample/7d7319a069e4ce6453f554bd52c6103db586c3615e8f1bbc59748b11b2c9a926/
+* https://bazaar.abuse.ch/sample/80ee52a320d812693f2e3ba097f80ad08544cd6db17f33c25848cc15550d4d3d/
 * https://bazaar.abuse.ch/sample/311d17e119c43e123a8dc7178ec01366835e6b59300ac1c72b7dd2b5e7aaa9c0/
+* https://bazaar.abuse.ch/sample/dd56d8d92b125dc1cbd12a164274adf032f2053bfa5ac48c39e645fa1b61400f/
 * https://github.com/esThreatIntelligence/iocs/blob/main/Koi/iocs_4-4-2024.txt
 * https://malware-traffic-analysis.net/2025/01/23/index.html
 * https://threatfox.abuse.ch
@@ -122,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

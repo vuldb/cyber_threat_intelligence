@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -75,7 +75,7 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/ajax_products_list.php` | High
 10 | File | `/admin/approve.php` | High
 11 | File | `/Admin/changepassword.php` | High
-12 | File | `/admin/filemanager/connector/` | High
+12 | File | `/admin/delete_student.php` | High
 13 | File | `/admin/manage_academic.php` | High
 14 | File | `/admin/new-autoortaxi-entry-form.php` | High
 15 | File | `/admin/registration.php` | High
@@ -84,36 +84,38 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/user/user-move-run.php` | High
 19 | File | `/ajax_city.php` | High
 20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/v1` | Low
-22 | File | `/api /v3/auth` | High
-23 | File | `/application/index/controller/Databasesource.php` | High
-24 | File | `/backup.pl` | Medium
-25 | File | `/blog` | Low
-26 | File | `/booknow.php?roomname=Duplex` | High
-27 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-28 | File | `/cas/logout` | Medium
-29 | File | `/cfgFile/fileContent` | High
-30 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/download_config.cgi` | High
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/conf/app.conf` | High
-35 | File | `/config/config.json` | High
-36 | File | `/contact.php` | Medium
-37 | File | `/controllers/Blocks.php` | High
-38 | File | `/CPE` | Low
-39 | File | `/details.php` | Medium
-40 | File | `/download` | Medium
-41 | File | `/Employer/EditProfile.php` | High
-42 | File | `/etc/passwd` | Medium
-43 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-44 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
-45 | File | `/gena.cgi` | Medium
-46 | File | `/goform/apPortalPhoneAuth` | High
-47 | File | `/goform/GetParentControlInfo` | High
-48 | ... | ... | ...
+21 | File | `/api/blade-user/submit` | High
+22 | File | `/api/v1` | Low
+23 | File | `/api /v3/auth` | High
+24 | File | `/application/index/controller/Databasesource.php` | High
+25 | File | `/backup.pl` | Medium
+26 | File | `/bidlog.php` | Medium
+27 | File | `/blog` | Low
+28 | File | `/booknow.php?roomname=Duplex` | High
+29 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
+30 | File | `/cas/logout` | Medium
+31 | File | `/cfgFile/fileContent` | High
+32 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/download_config.cgi` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/conf/app.conf` | High
+37 | File | `/config/config.json` | High
+38 | File | `/contact.php` | Medium
+39 | File | `/controllers/Blocks.php` | High
+40 | File | `/CPE` | Low
+41 | File | `/details.php` | Medium
+42 | File | `/download` | Medium
+43 | File | `/downloadas/` | Medium
+44 | File | `/Employer/EditProfile.php` | High
+45 | File | `/etc/passwd` | Medium
+46 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+47 | File | `/function/audit/newstatistics/mon_stat_hist_new.php` | High
+48 | File | `/gena.cgi` | Medium
+49 | File | `/goform/apPortalPhoneAuth` | High
+50 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

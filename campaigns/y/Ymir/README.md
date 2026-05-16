@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,16 +63,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/RecordingList/DownloadRecord?file=` | High
 6 | File | `/apply.cgi` | Medium
 7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/config/pw_changeusers.html` | High
-9 | File | `/delete_members.php` | High
-10 | File | `/dev-api/common/upload` | High
-11 | File | `/file` | Low
-12 | File | `/php/manage_customer.php?action=search` | High
-13 | File | `/php/ping.php` | High
-14 | File | `/print_patients_visits.php` | High
-15 | ... | ... | ...
+8 | File | `/com/tiandy/easy7/core/bo/CLSBODownLoad.java` | High
+9 | File | `/config/pw_changeusers.html` | High
+10 | File | `/core/tools/customblock.php` | High
+11 | File | `/delete_members.php` | High
+12 | File | `/dev-api/common/upload` | High
+13 | File | `/dm/dispatch/user/add` | High
+14 | File | `/file` | Low
+15 | File | `/php/manage_customer.php?action=search` | High
+16 | File | `/php/ping.php` | High
+17 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

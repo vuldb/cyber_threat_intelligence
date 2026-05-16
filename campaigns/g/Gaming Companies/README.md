@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gaming Companies:
 
-* [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
+* [MS](https://vuldb.com/?country.ms)
 * [KR](https://vuldb.com/?country.kr)
 * ...
 
@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,25 +75,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/adfs/ls` | Medium
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
 4 | File | `/admin/index2.html` | High
-5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-6 | File | `/api/upload.php` | High
-7 | File | `/baseOpLog.do` | High
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-10 | File | `/cgi-bin/api-get_line_status` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/config/getuser` | High
-13 | File | `/controller/OnlinePreviewController.java` | High
-14 | File | `/export` | Low
-15 | File | `/getcfg.php` | Medium
-16 | File | `/includes/rrdtool.inc.php` | High
-17 | File | `/manage/IPSetup.php` | High
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/pages/systemcall.php?command={COMMAND}` | High
-21 | ... | ... | ...
+5 | File | `/admin/manage-students.php` | High
+6 | File | `/admin/manage-users.php` | High
+7 | File | `/admin/network/diag_traceroute6` | High
+8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+9 | File | `/api/upload.php` | High
+10 | File | `/api/wechat/app_auth` | High
+11 | File | `/baseOpLog.do` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+14 | File | `/cgi-bin/api-get_line_status` | High
+15 | File | `/cgi-bin/mainfunction.cgi/apmcfgupptim` | High
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/classes/Master.php?f=save_reminder` | High
+18 | File | `/config/getuser` | High
+19 | File | `/controller/OnlinePreviewController.java` | High
+20 | File | `/export` | Low
+21 | File | `/getcfg.php` | Medium
+22 | File | `/goform/formUserStatusRemark` | High
+23 | File | `/goform/RP_pingGatewayByBBS` | High
+24 | File | `/goform/setcfm` | High
+25 | File | `/includes/rrdtool.inc.php` | High
+26 | File | `/intranet/educar_modulo_cad.php` | High
+27 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

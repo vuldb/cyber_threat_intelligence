@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Blackshades:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
@@ -52,10 +52,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-84 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,19 +64,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_employee.php` | High
-2 | File | `/admin/updatestudent.php` | High
-3 | File | `/C6/JHSoft.Web.NetDisk/NetDiskProperty.aspx` | High
-4 | File | `/CDGServer3/UserAjax` | High
-5 | File | `/classes/Users.php?f=delete` | High
-6 | File | `/default.cfg` | Medium
-7 | File | `/delete.php` | Medium
-8 | File | `/dipam/athlete-profile.php` | High
-9 | File | `/edit-category.php?id=8` | High
-10 | File | `/goform/AdvSetWrl` | High
-11 | ... | ... | ...
+1 | File | `- src/main/java/com/rymcu/forest/web/api/user/UserInfoController.java` | High
+2 | File | `/add_employee.php` | High
+3 | File | `/add_student/` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/check_studid.php` | High
+6 | File | `/admin/core/drop_user.php` | High
+7 | File | `/admin/core/import_users.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/navbar.php` | High
+10 | File | `/admin/registration.php` | High
+11 | File | `/admin/SysModule/edit.html` | High
+12 | File | `/admin/updatestudent.php` | High
+13 | File | `/admin_single_student.php` | High
+14 | File | `/admin_single_student_update.php` | High
+15 | File | `/api/backend/ext/import-data/import-channel` | High
+16 | File | `/api/v1/serve/awel/flow/import` | High
+17 | File | `/att_single_view.php` | High
+18 | File | `/backend/app/api/v1/module_common/file/controller.py` | High
+19 | File | `/backend/app/api/v1/module_system/params/controller.py` | High
+20 | File | `/backend/app/api/v1/module_system/user/controller.py` | High
+21 | File | `/backend/app/plugin/init_app.py` | High
+22 | File | `/boaform/formgponConf` | High
+23 | File | `/boaform/formLoopBack` | High
+24 | File | `/boaform/formPing` | High
+25 | File | `/boaform/formPing6` | High
+26 | File | `/boaform/formSamba` | High
+27 | File | `/boaform/formWlanSetup` | High
+28 | File | `/boafrm/formBridgeVlan` | High
+29 | File | `/boafrm/formDateReboot` | High
+30 | File | `/boafrm/formDhcpv6s` | High
+31 | File | `/boafrm/formFirewallAdv` | High
+32 | File | `/boafrm/formLteSetup` | High
+33 | File | `/boafrm/formNewSchedule` | High
+34 | File | `/boafrm/formOpMode` | High
+35 | File | `/boafrm/formVpnConfigSetup` | High
+36 | File | `/boafrm/formWlAc` | High
+37 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

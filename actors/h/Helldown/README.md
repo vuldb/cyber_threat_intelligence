@@ -55,56 +55,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/ajax.php` | High
-7 | File | `/admin/budget/manage_budget.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/del_category.php` | High
-10 | File | `/admin/del_service.php` | High
-11 | File | `/admin/edit-accepted-appointment.php` | High
-12 | File | `/admin/edit-services.php` | High
-13 | File | `/admin/edit_category.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/read.php?mudi=announContent` | High
-16 | File | `/admin/reg.php` | High
-17 | File | `/admin/reportupload.aspx` | High
-18 | File | `/admin/search-appointment.php` | High
-19 | File | `/adpweb/wechat/verifyToken/` | High
-20 | File | `/ajax.php?action=read_msg` | High
-21 | File | `/api/RecordingList/DownloadRecord?file=` | High
-22 | File | `/api/stl/actions/search` | High
-23 | File | `/api/upload.php` | High
-24 | File | `/api/wechat/app_auth` | High
-25 | File | `/application/common.php#action_log` | High
-26 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-27 | File | `/calendar/minimizer/index.php` | High
-28 | File | `/cgi-bin/adm.cgi` | High
-29 | File | `/cgi-bin/nas_sharing.cgi` | High
-30 | File | `/cgi-bin/ping.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/classes/Master.php?f=delete_category` | High
-33 | File | `/classes/Master.php?f=delete_service` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/config/myfield/test.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/dipam/athlete-profile.php` | High
-38 | File | `/dipam/save-delegates.php` | High
-39 | File | `/doping.asp` | Medium
-40 | File | `/DXR.axd` | Medium
-41 | File | `/export` | Low
-42 | File | `/fhconf/umconfig.txt` | High
-43 | File | `/file_manager/admin/save_user.php` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/goForm/aspForm` | High
-46 | File | `/goform/execCommand` | High
-47 | File | `/goform/SetDDNSCfg` | High
-48 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/ajax.php` | High
+6 | File | `/admin/budget/manage_budget.php` | High
+7 | File | `/admin/contacts/organizations/edit/2` | High
+8 | File | `/admin/del_category.php` | High
+9 | File | `/admin/del_service.php` | High
+10 | File | `/admin/edit-accepted-appointment.php` | High
+11 | File | `/admin/edit-services.php` | High
+12 | File | `/admin/edit_category.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/read.php?mudi=announContent` | High
+15 | File | `/admin/reg.php` | High
+16 | File | `/admin/reportupload.aspx` | High
+17 | File | `/admin/search-appointment.php` | High
+18 | File | `/adpweb/wechat/verifyToken/` | High
+19 | File | `/ajax.php?action=read_msg` | High
+20 | File | `/api/RecordingList/DownloadRecord?file=` | High
+21 | File | `/api/stl/actions/search` | High
+22 | File | `/api/upload.php` | High
+23 | File | `/api/wechat/app_auth` | High
+24 | File | `/application/common.php#action_log` | High
+25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+26 | File | `/calendar/minimizer/index.php` | High
+27 | File | `/cgi-bin/adm.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/ping.cgi` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=delete_service` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/config/myfield/test.php` | High
+35 | File | `/debug/pprof` | Medium
+36 | File | `/dipam/athlete-profile.php` | High
+37 | File | `/dipam/save-delegates.php` | High
+38 | File | `/doping.asp` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/export` | Low
+41 | File | `/fhconf/umconfig.txt` | High
+42 | File | `/file_manager/admin/save_user.php` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/goForm/aspForm` | High
+45 | File | `/goform/execCommand` | High
+46 | File | `/goform/SetDDNSCfg` | High
+47 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

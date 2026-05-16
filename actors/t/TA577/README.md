@@ -92,34 +92,34 @@ ID | Type | Indicator | Confidence
 29 | File | `/forgot-password.php` | High
 30 | File | `/forum/away.php` | High
 31 | File | `/goform/QuickIndex` | High
-32 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-33 | File | `/handgunner-administrator/register_code.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/display/database/` | High
-36 | File | `/Interface/DevManage/VM.php` | High
-37 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-38 | File | `/jsonrpc` | Medium
-39 | File | `/listplace/user/ticket/create` | High
-40 | File | `/login` | Low
-41 | File | `/login.php` | Medium
-42 | File | `/mims/login.php` | High
-43 | File | `/modules/profile/index.php` | High
-44 | File | `/mtd` | Low
-45 | File | `/netflow/jspui/selectDevice.jsp` | High
-46 | File | `/nova/bin/dot1x` | High
-47 | File | `/php/ajax.php` | High
-48 | File | `/php/ping.php` | High
-49 | File | `/pincode-verification.php` | High
-50 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
-51 | File | `/rapi/read_url` | High
-52 | File | `/register.php` | High
-53 | File | `/remove-apartment.php` | High
-54 | File | `/retailer/edit_profile.php` | High
-55 | File | `/scripts/unlock_tasks.php` | High
-56 | File | `/search.php` | Medium
+32 | File | `/goform/SetDevNetName` | High
+33 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+34 | File | `/handgunner-administrator/register_code.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php/display/database/` | High
+37 | File | `/Interface/DevManage/VM.php` | High
+38 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+39 | File | `/jsonrpc` | Medium
+40 | File | `/listplace/user/ticket/create` | High
+41 | File | `/login` | Low
+42 | File | `/login.php` | Medium
+43 | File | `/mims/login.php` | High
+44 | File | `/modules/profile/index.php` | High
+45 | File | `/mtd` | Low
+46 | File | `/netflow/jspui/selectDevice.jsp` | High
+47 | File | `/nova/bin/dot1x` | High
+48 | File | `/php/ajax.php` | High
+49 | File | `/php/ping.php` | High
+50 | File | `/pincode-verification.php` | High
+51 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
+52 | File | `/rapi/read_url` | High
+53 | File | `/register.php` | High
+54 | File | `/remove-apartment.php` | High
+55 | File | `/retailer/edit_profile.php` | High
+56 | File | `/scripts/unlock_tasks.php` | High
 57 | ... | ... | ...
 
-There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

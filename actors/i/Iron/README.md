@@ -66,32 +66,33 @@ ID | Type | Indicator | Confidence
 8 | File | `/Api/ASF` | Medium
 9 | File | `/auth/fn.php` | Medium
 10 | File | `/backend/admin/his_admin_register_patient.php` | High
-11 | File | `/cgi-bin/ExportLogs.sh` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/Users.php?f=save` | High
-14 | File | `/clients/editclient.php` | High
-15 | File | `/CommunitySSORedirect.jsp` | High
-16 | File | `/ctpms/admin/?page=applications/view_application` | High
-17 | File | `/dist/index.js` | High
-18 | File | `/dl/dl_sendmail.php` | High
-19 | File | `/editor/index.php` | High
-20 | File | `/Electron/download` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/formStaticDHCP` | High
-23 | File | `/formVirtualApp` | High
-24 | File | `/formVirtualServ` | High
-25 | File | `/goForm/aspForm` | High
-26 | File | `/goform/form2WizardStep4` | High
-27 | File | `/goform/rlmswitchr_process` | High
-28 | File | `/goform/SafeMacFilter` | High
-29 | File | `/goform/SafeUrlFilter` | High
-30 | File | `/goforms/rlminfo` | High
-31 | File | `/include/make.php` | High
-32 | File | `/include/Model/Upload.php` | High
-33 | File | `/kruxton/sales_report.php` | High
-34 | ... | ... | ...
+11 | File | `/balance/service/list` | High
+12 | File | `/cgi-bin/ExportLogs.sh` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Users.php?f=save` | High
+15 | File | `/clients/editclient.php` | High
+16 | File | `/CommunitySSORedirect.jsp` | High
+17 | File | `/ctpms/admin/?page=applications/view_application` | High
+18 | File | `/dist/index.js` | High
+19 | File | `/dl/dl_sendmail.php` | High
+20 | File | `/editor/index.php` | High
+21 | File | `/Electron/download` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/formStaticDHCP` | High
+24 | File | `/formVirtualApp` | High
+25 | File | `/formVirtualServ` | High
+26 | File | `/goForm/aspForm` | High
+27 | File | `/goform/form2WizardStep4` | High
+28 | File | `/goform/rlmswitchr_process` | High
+29 | File | `/goform/SafeMacFilter` | High
+30 | File | `/goform/SafeUrlFilter` | High
+31 | File | `/goforms/rlminfo` | High
+32 | File | `/include/make.php` | High
+33 | File | `/include/Model/Upload.php` | High
+34 | File | `/kruxton/sales_report.php` | High
+35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

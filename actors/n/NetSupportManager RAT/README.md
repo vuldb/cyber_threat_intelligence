@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -604,9 +608,20 @@ ID | IP address | Hostname | Campaign | Confidence
 585 | [13.246.38.200](https://vuldb.com/?ip.13.246.38.200) | ec2-13-246-38-200.af-south-1.compute.amazonaws.com | - | Medium
 586 | [13.246.39.244](https://vuldb.com/?ip.13.246.39.244) | ec2-13-246-39-244.af-south-1.compute.amazonaws.com | - | Medium
 587 | [13.246.40.30](https://vuldb.com/?ip.13.246.40.30) | ec2-13-246-40-30.af-south-1.compute.amazonaws.com | - | Medium
-588 | ... | ... | ... | ...
+588 | [13.246.41.198](https://vuldb.com/?ip.13.246.41.198) | ec2-13-246-41-198.af-south-1.compute.amazonaws.com | - | Medium
+589 | [13.246.42.27](https://vuldb.com/?ip.13.246.42.27) | ec2-13-246-42-27.af-south-1.compute.amazonaws.com | - | Medium
+590 | [13.246.43.90](https://vuldb.com/?ip.13.246.43.90) | ec2-13-246-43-90.af-south-1.compute.amazonaws.com | - | Medium
+591 | [13.246.44.138](https://vuldb.com/?ip.13.246.44.138) | ec2-13-246-44-138.af-south-1.compute.amazonaws.com | - | Medium
+592 | [13.246.194.171](https://vuldb.com/?ip.13.246.194.171) | ec2-13-246-194-171.af-south-1.compute.amazonaws.com | - | Medium
+593 | [13.246.221.95](https://vuldb.com/?ip.13.246.221.95) | ec2-13-246-221-95.af-south-1.compute.amazonaws.com | - | Medium
+594 | [13.246.240.58](https://vuldb.com/?ip.13.246.240.58) | ec2-13-246-240-58.af-south-1.compute.amazonaws.com | - | Medium
+595 | [13.247.55.140](https://vuldb.com/?ip.13.247.55.140) | ec2-13-247-55-140.af-south-1.compute.amazonaws.com | - | Medium
+596 | [13.247.58.212](https://vuldb.com/?ip.13.247.58.212) | ec2-13-247-58-212.af-south-1.compute.amazonaws.com | - | Medium
+597 | [13.247.60.219](https://vuldb.com/?ip.13.247.60.219) | ec2-13-247-60-219.af-south-1.compute.amazonaws.com | - | Medium
+598 | [13.247.67.85](https://vuldb.com/?ip.13.247.67.85) | ec2-13-247-67-85.af-south-1.compute.amazonaws.com | - | Medium
+599 | ... | ... | ... | ...
 
-There are 2349 more IOC items available. Please use our online service to access the data.
+There are 2394 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -614,14 +629,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -629,146 +644,114 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=tracks` | High
-2 | File | `/action/upload_file` | High
-3 | File | `/actuator` | Medium
-4 | File | `/add-notes.php` | High
-5 | File | `/add.home.php` | High
-6 | File | `/add.php` | Medium
-7 | File | `/addcategory.php` | High
-8 | File | `/addcompany.php` | High
-9 | File | `/addcustind.php` | High
-10 | File | `/adding-exec.php` | High
-11 | File | `/addmem.php` | Medium
-12 | File | `/addstock.php` | High
-13 | File | `/add_personal_details.php` | High
-14 | File | `/admin#article/edit?id=2` | High
-15 | File | `/admin#themes` | High
-16 | File | `/admin-inbox.php` | High
-17 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-18 | File | `/admin/` | Low
-19 | File | `/admin/?page=borrow/view_borrow` | High
-20 | File | `/admin/add-customer.php` | High
-21 | File | `/admin/add-foreigner-ticket.php` | High
-22 | File | `/admin/add_title.php` | High
-23 | File | `/admin/admin-area.php` | High
-24 | File | `/admin/allemployees.php` | High
-25 | File | `/admin/app/profile_crud.php` | High
-26 | File | `/admin/application-bwdates-reports-details.php` | High
-27 | File | `/admin/assign/assign.php` | High
-28 | File | `/admin/attendance_row.php` | High
-29 | File | `/admin/blogger.php?action=update_avatar` | High
-30 | File | `/admin/book-details.php` | High
-31 | File | `/admin/budget/manage_budget.php` | High
-32 | File | `/admin/bwdates-reports-details.php` | High
-33 | File | `/admin/bwdates-request-report-details.php` | High
-34 | File | `/admin/candidates_add.php` | High
-35 | File | `/admin/category-list.php` | High
-36 | File | `/admin/change-emailid.php` | High
-37 | File | `/admin/change-image.php` | High
-38 | File | `/admin/changeimage.php` | High
-39 | File | `/admin/check_admin_login.php` | High
-40 | File | `/admin/class.php` | High
-41 | File | `/admin/class.php?dowhat=modifyclass` | High
-42 | File | `/admin/contact-us.php` | High
-43 | File | `/admin/contactus.php` | High
-44 | File | `/admin/content` | High
-45 | File | `/admin/courses/view_course.php` | High
-46 | File | `/admin/delete-row.php` | High
-47 | File | `/admin/deleteitem.php` | High
-48 | File | `/admin/deleteroom.php` | High
-49 | File | `/admin/deleteuser.php` | High
-50 | File | `/admin/delete_s4.php` | High
-51 | File | `/admin/doctor-specilization.php` | High
-52 | File | `/admin/edit-category-detail.php` | High
-53 | File | `/admin/edit-customer-detailed.php` | High
-54 | File | `/admin/edit-equipmentform.php` | High
-55 | File | `/admin/edit-services.php` | High
-56 | File | `/admin/edit-state.php` | High
-57 | File | `/admin/edit-teacher-detail.php` | High
-58 | File | `/admin/edit-user.php` | High
-59 | File | `/admin/edit_class.php` | High
-60 | File | `/admin/edit_fuel.php` | High
-61 | File | `/admin/edit_product.php` | High
-62 | File | `/admin/edit_room.php` | High
-63 | File | `/admin/file/rename.do` | High
-64 | File | `/admin/getallarticleinfo` | High
-65 | File | `/admin/images/add` | High
-66 | File | `/admin/index.php/web/ajax_all_lists` | High
-67 | File | `/admin/indexConfigs/save` | High
-68 | File | `/admin/inquiries/view_details.php` | High
-69 | File | `/admin/ipAddPost.php` | High
-70 | File | `/admin/link.php` | High
-71 | File | `/admin/maintenance/view_designation.php` | High
-72 | File | `/admin/manage-normal-ticket.php` | High
-73 | File | `/admin/manage-students.php` | High
-74 | File | `/admin/manage_complaint.php` | High
-75 | File | `/admin/member_save.php` | High
-76 | File | `/admin/menu_update.php` | High
-77 | File | `/admin/modules/course/index.php` | High
-78 | File | `/admin/modules/instructor/index.php` | High
-79 | File | `/admin/network/ajax_getChannelList` | High
-80 | File | `/admin/operations/booking.php` | High
-81 | File | `/admin/operations/expense.php` | High
-82 | File | `/admin/operations/packages.php` | High
-83 | File | `/admin/operations/travellers.php` | High
-84 | File | `/admin/pages/student-print.php` | High
-85 | File | `/admin/php/crud.php` | High
-86 | File | `/admin/print_barcode.php` | High
-87 | File | `/Admin/Proses_Edit_Akun.php` | High
-88 | File | `/admin/regester.php` | High
-89 | File | `/admin/request-received-bydonar.php` | High
-90 | File | `/admin/rooms.php` | High
-91 | File | `/admin/search-appointment.php` | High
-92 | File | `/admin/search-booking-request.php` | High
-93 | File | `/admin/search-pass.php` | High
-94 | File | `/admin/sms_setting.php` | High
-95 | File | `/admin/students/manage.php` | High
-96 | File | `/admin/update_user.php` | High
-97 | File | `/admin/user/updatePwd` | High
-98 | File | `/admin/view-foreigner-ticket.php` | High
-99 | File | `/admin/voters_add.php` | High
-100 | File | `/admin/voters_row.php` | High
-101 | File | `/adminFile/upload` | High
-102 | File | `/administrator/bidlist.php` | High
-103 | File | `/administrator/remove.php` | High
-104 | File | `/admin_topic.php?action=delall` | High
-105 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-106 | File | `/adposition/queryAll` | High
-107 | File | `/ajax.php` | Medium
-108 | File | `/ajax.php?action=delete_category` | High
-109 | File | `/ajax.php?action=delete_course` | High
-110 | File | `/ajax.php?action=delete_customer` | High
-111 | File | `/ajax.php?action=delete_loan` | High
-112 | File | `/ajax.php?action=save_borrower` | High
-113 | File | `/api/admin/question/edit` | High
-114 | File | `/api/code/upload` | High
-115 | File | `/api/controllers/common/UploadsController.php` | High
-116 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-117 | File | `/api/process.php` | High
-118 | File | `/api/system/sendWebSocketMsg` | High
-119 | File | `/api/v1.index.article/getList.html` | High
-120 | File | `/api/wizard/networkSetup` | High
-121 | File | `/app/api/v1/openvpn.py` | High
-122 | File | `/app/platform/controllers/ResetpwdController.php` | High
-123 | File | `/application/index/controller/Unity.php` | High
-124 | File | `/application/models/ApplicationDataObject.class.php` | High
-125 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-126 | File | `/auth/user/all.api` | High
-127 | File | `/auth_files/photo/` | High
-128 | File | `/backend/doc/his_doc_register_patient.php` | High
-129 | File | `/backend/register.php` | High
-130 | File | `/backups/` | Medium
-131 | File | `/bank/statements.php` | High
-132 | File | `/bank/transfer.php` | High
-133 | File | `/billaction.php` | High
-134 | File | `/bin/httpd` | Medium
-135 | File | `/boafrm/formIpQoS` | High
-136 | File | `/boafrm/formIpv6Setup` | High
-137 | File | `/boafrm/formMultiAPVLAN` | High
-138 | ... | ... | ...
+1 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
+2 | File | `/?r=email/api/mark&op=delFromSend` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/aboutus.php` | Medium
+5 | File | `/addCatController.php` | High
+6 | File | `/addcategory.php` | High
+7 | File | `/addcompany.php` | High
+8 | File | `/addproduct.php` | High
+9 | File | `/addrecord.php` | High
+10 | File | `/add_dealerrequest.php` | High
+11 | File | `/add_student_grade.php` | High
+12 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+13 | File | `/admin/?page=borrow/view_borrow` | High
+14 | File | `/admin/?page=products/view_product` | High
+15 | File | `/admin/add-artist.php` | High
+16 | File | `/admin/add-subadmin.php` | High
+17 | File | `/admin/admin-profile.php` | High
+18 | File | `/admin/admin_action.php` | High
+19 | File | `/admin/admin_running.php` | High
+20 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+21 | File | `/admin/allemployees.php` | High
+22 | File | `/admin/api/theme-edit/` | High
+23 | File | `/admin/app/login_crud.php` | High
+24 | File | `/admin/approve_user.php` | High
+25 | File | `/admin/article.php` | High
+26 | File | `/admin/assign/assign.php` | High
+27 | File | `/admin/attachment/download` | High
+28 | File | `/admin/borrow_add.php` | High
+29 | File | `/admin/bwdates-reports-details.php` | High
+30 | File | `/admin/check_admin.php` | High
+31 | File | `/admin/contactus.php` | High
+32 | File | `/admin/deleteuser.php` | High
+33 | File | `/admin/edit-category.php` | High
+34 | File | `/admin/edit-customer-detailed.php` | High
+35 | File | `/admin/edit-pass-detail.php` | High
+36 | File | `/admin/edit-propertytype.php` | High
+37 | File | `/admin/edit-teacher-detail.php` | High
+38 | File | `/admin/edit-user-profile.php` | High
+39 | File | `/admin/edit_class.php` | High
+40 | File | `/admin/edit_customer.php` | High
+41 | File | `/admin/edit_product.php` | High
+42 | File | `/admin/employee/controller.php` | High
+43 | File | `/admin/general/change-lang` | High
+44 | File | `/admin/index.php` | High
+45 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+46 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+47 | File | `/admin/login.php` | High
+48 | File | `/admin/manage-normal-ticket.php` | High
+49 | File | `/Admin/match.php` | High
+50 | File | `/admin/model/addOrUpdate` | High
+51 | File | `/admin/modules/course/index.php` | High
+52 | File | `/admin/network/diag_traceroute6` | High
+53 | File | `/admin/network/wifi_schedule` | High
+54 | File | `/admin/operations/travellers.php` | High
+55 | File | `/admin/order.php` | High
+56 | File | `/admin/product.php` | High
+57 | File | `/admin/profile.php` | High
+58 | File | `/admin/request-received-bydonar.php` | High
+59 | File | `/admin/rules.php` | High
+60 | File | `/admin/save_airlines.php` | High
+61 | File | `/admin/save_student.php` | High
+62 | File | `/admin/search-directory.php` | High
+63 | File | `/admin/search.php` | High
+64 | File | `/admin/serverinfo` | High
+65 | File | `/admin/sms_setting.php` | High
+66 | File | `/admin/sou.php` | High
+67 | File | `/admin/tag/list` | High
+68 | File | `/admin/update-progress.php` | High
+69 | File | `/Admin/user-record.php` | High
+70 | File | `/admin/user.php` | High
+71 | File | `/admin/user/manage_user.php` | High
+72 | File | `/admin/view-enquiry.php` | High
+73 | File | `/admin/view-patient.php` | High
+74 | File | `/admin/view_all_posts.php` | High
+75 | File | `/adminapi/export/product_list` | High
+76 | File | `/Administrator/PHP/AdminAddUser.php` | High
+77 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+78 | File | `/adposition/queryAll` | High
+79 | File | `/ajax.php` | Medium
+80 | File | `/ajax.php?action=delete_sales` | High
+81 | File | `/ajax.php?action=save_supplier` | High
+82 | File | `/api/admin/system/store/order/list` | High
+83 | File | `/api/upload` | Medium
+84 | File | `/applyleave.php` | High
+85 | File | `/bank/statements.php` | High
+86 | File | `/base/safe_setting/` | High
+87 | File | `/bin/main` | Medium
+88 | File | `/bishe/register` | High
+89 | File | `/blog/comment` | High
+90 | File | `/bmp-account-detail/` | High
+91 | File | `/boafrm/formOneKeyAccessButton` | High
+92 | File | `/boafrm/formParentControl` | High
+93 | File | `/boafrm/formRoute` | High
+94 | File | `/boafrm/formWlanMultipleAP` | High
+95 | File | `/boafrm/formWlSiteSurvey` | High
+96 | File | `/boafrm/formWlwds` | High
+97 | File | `/book_car.php` | High
+98 | File | `/c6/Jhsoft.Web.module/ToolBar/GetWordFileName.aspx/?text=GetUrl&style=add` | High
+99 | File | `/catalog/all-products` | High
+100 | File | `/cgi-bin/cstecgi.cgi` | High
+101 | File | `/cgi-bin/firewall.cgi` | High
+102 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+103 | File | `/changeUsername.php` | High
+104 | File | `/check_profile.php` | High
+105 | File | `/class/edit/edit` | High
+106 | ... | ... | ...
 
-There are 1231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 937 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -877,6 +860,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/115696258096631144
 * https://infosec.exchange/@monitorsg/115769465824164200
 * https://infosec.exchange/@monitorsg/115775141906173349
+* https://infosec.exchange/@monitorsg/115850040529485016
+* https://infosec.exchange/@monitorsg/115854820755146531
+* https://infosec.exchange/@monitorsg/115860577134868679
+* https://infosec.exchange/@monitorsg/115882295403480854
+* https://infosec.exchange/@monitorsg/115894798001174541
+* https://infosec.exchange/@monitorsg/115900223630010154
+* https://infosec.exchange/@monitorsg/115923800073333437
+* https://infosec.exchange/@monitorsg/115927578933254296
+* https://infosec.exchange/@monitorsg/115933673423137853
 * https://ioc.exchange/@monitorsg@infosec.exchange/111216539556327619
 * https://ioc.exchange/@rmceoin@infosec.exchange/110866235650646824
 * https://malware-traffic-analysis.net/2025/08/20/index.html
@@ -1728,14 +1720,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/41.142.248.254
 * https://search.censys.io/hosts/41.250.30.133
 * https://search.censys.io/hosts/41.250.73.241
+* https://search.censys.io/hosts/41.250.78.25
 * https://search.censys.io/hosts/41.250.128.10
+* https://search.censys.io/hosts/41.250.131.63
 * https://search.censys.io/hosts/41.250.134.192
 * https://search.censys.io/hosts/41.250.137.88
 * https://search.censys.io/hosts/41.250.214.29
 * https://search.censys.io/hosts/41.251.38.146
 * https://search.censys.io/hosts/41.251.41.218
 * https://search.censys.io/hosts/41.251.51.124
+* https://search.censys.io/hosts/41.251.76.160
 * https://search.censys.io/hosts/41.251.108.227
+* https://search.censys.io/hosts/41.251.110.65
 * https://search.censys.io/hosts/41.251.119.120
 * https://search.censys.io/hosts/41.251.120.254
 * https://search.censys.io/hosts/43.198.88.243
@@ -2133,6 +2129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/79.241.96.94
 * https://search.censys.io/hosts/79.241.96.161
 * https://search.censys.io/hosts/79.241.97.243
+* https://search.censys.io/hosts/79.241.98.68
 * https://search.censys.io/hosts/79.241.99.57
 * https://search.censys.io/hosts/79.241.100.4
 * https://search.censys.io/hosts/79.241.100.83
@@ -2143,6 +2140,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/79.241.103.139
 * https://search.censys.io/hosts/79.241.104.98
 * https://search.censys.io/hosts/79.241.104.139
+* https://search.censys.io/hosts/79.241.104.240
 * https://search.censys.io/hosts/79.241.105.156
 * https://search.censys.io/hosts/79.241.107.168
 * https://search.censys.io/hosts/79.241.107.250
@@ -2179,6 +2177,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/84.154.183.163
 * https://search.censys.io/hosts/84.154.183.164
 * https://search.censys.io/hosts/84.154.184.34
+* https://search.censys.io/hosts/84.154.187.109
 * https://search.censys.io/hosts/84.154.188.167
 * https://search.censys.io/hosts/84.154.189.250
 * https://search.censys.io/hosts/84.154.190.18
@@ -2228,6 +2227,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/93.198.184.30
 * https://search.censys.io/hosts/93.198.184.177
 * https://search.censys.io/hosts/93.198.185.141
+* https://search.censys.io/hosts/93.198.186.62
 * https://search.censys.io/hosts/93.198.186.69
 * https://search.censys.io/hosts/93.198.186.251
 * https://search.censys.io/hosts/93.198.188.83
@@ -2245,6 +2245,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/93.232.97.253
 * https://search.censys.io/hosts/93.232.98.22
 * https://search.censys.io/hosts/93.232.98.162
+* https://search.censys.io/hosts/93.232.98.164
 * https://search.censys.io/hosts/93.232.99.23
 * https://search.censys.io/hosts/93.232.99.200
 * https://search.censys.io/hosts/93.232.99.226
@@ -2342,22 +2343,34 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/102.96.215.117
 * https://search.censys.io/hosts/102.96.215.214
 * https://search.censys.io/hosts/102.98.67.16
+* https://search.censys.io/hosts/102.98.69.228
 * https://search.censys.io/hosts/102.98.71.53
 * https://search.censys.io/hosts/102.98.75.73
 * https://search.censys.io/hosts/102.98.76.115
 * https://search.censys.io/hosts/102.98.77.193
+* https://search.censys.io/hosts/102.98.80.61
+* https://search.censys.io/hosts/102.98.80.111
 * https://search.censys.io/hosts/102.98.82.32
+* https://search.censys.io/hosts/102.98.89.14
+* https://search.censys.io/hosts/102.98.89.21
+* https://search.censys.io/hosts/102.98.89.28
 * https://search.censys.io/hosts/102.98.95.156
+* https://search.censys.io/hosts/102.98.98.69
 * https://search.censys.io/hosts/102.98.100.116
+* https://search.censys.io/hosts/102.98.103.60
 * https://search.censys.io/hosts/102.98.105.53
 * https://search.censys.io/hosts/102.98.106.138
+* https://search.censys.io/hosts/102.98.107.53
 * https://search.censys.io/hosts/102.98.107.125
 * https://search.censys.io/hosts/102.98.111.82
+* https://search.censys.io/hosts/102.98.112.71
+* https://search.censys.io/hosts/102.98.115.42
 * https://search.censys.io/hosts/102.98.118.134
 * https://search.censys.io/hosts/102.98.119.178
 * https://search.censys.io/hosts/102.98.122.130
 * https://search.censys.io/hosts/102.98.124.246
 * https://search.censys.io/hosts/102.98.126.127
+* https://search.censys.io/hosts/102.98.197.55
 * https://search.censys.io/hosts/102.100.54.53
 * https://search.censys.io/hosts/102.100.54.55
 * https://search.censys.io/hosts/102.100.54.130
@@ -2374,6 +2387,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/105.154.21.122
 * https://search.censys.io/hosts/105.155.155.123
 * https://search.censys.io/hosts/105.156.11.21
+* https://search.censys.io/hosts/105.157.55.3
 * https://search.censys.io/hosts/105.159.136.102
 * https://search.censys.io/hosts/105.159.140.215
 * https://search.censys.io/hosts/105.159.148.109
@@ -2428,10 +2442,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/139.64.25.160
 * https://search.censys.io/hosts/139.64.51.82
 * https://search.censys.io/hosts/139.64.59.135
+* https://search.censys.io/hosts/143.92.140.43
 * https://search.censys.io/hosts/143.92.148.183
 * https://search.censys.io/hosts/143.92.155.82
 * https://search.censys.io/hosts/143.92.166.75
 * https://search.censys.io/hosts/143.92.171.138
+* https://search.censys.io/hosts/143.92.186.163
 * https://search.censys.io/hosts/144.86.4.160
 * https://search.censys.io/hosts/144.86.11.52
 * https://search.censys.io/hosts/144.86.13.146
@@ -2439,6 +2455,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/144.86.33.171
 * https://search.censys.io/hosts/144.86.38.158
 * https://search.censys.io/hosts/144.86.39.221
+* https://search.censys.io/hosts/144.86.60.33
 * https://search.censys.io/hosts/157.175.55.36
 * https://search.censys.io/hosts/157.175.147.11
 * https://search.censys.io/hosts/157.175.166.224
@@ -2454,8 +2471,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/167.86.135.144
 * https://search.censys.io/hosts/167.86.135.251
 * https://search.censys.io/hosts/167.86.142.20
+* https://search.censys.io/hosts/167.86.142.38
+* https://search.censys.io/hosts/167.86.144.60
 * https://search.censys.io/hosts/167.86.145.81
 * https://search.censys.io/hosts/167.86.145.216
+* https://search.censys.io/hosts/167.86.153.197
+* https://search.censys.io/hosts/167.86.155.90
 * https://search.censys.io/hosts/167.86.160.250
 * https://search.censys.io/hosts/167.86.161.92
 * https://search.censys.io/hosts/167.86.165.174
@@ -2488,6 +2509,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/179.95.196.96
 * https://search.censys.io/hosts/179.95.197.65
 * https://search.censys.io/hosts/179.95.198.146
+* https://search.censys.io/hosts/179.95.199.57
 * https://search.censys.io/hosts/179.95.199.110
 * https://search.censys.io/hosts/179.95.201.82
 * https://search.censys.io/hosts/179.95.202.160
@@ -2551,6 +2573,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/200.152.101.176
 * https://search.censys.io/hosts/200.180.67.154
 * https://search.censys.io/hosts/200.243.0.50
+* https://search.censys.io/hosts/201.139.92.66
 * https://search.censys.io/hosts/201.235.123.146
 * https://search.censys.io/hosts/203.157.208.4
 * https://search.censys.io/hosts/204.236.180.179
@@ -2856,6 +2879,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/37.13.170.119#6000
 * https://www.shodan.io/host/37.13.190.225#6001
 * https://www.shodan.io/host/37.13.226.128#6000
+* https://www.shodan.io/host/37.13.239.127#6000
 * https://www.shodan.io/host/37.97.101.75#5001
 * https://www.shodan.io/host/40.172.221.217#593
 * https://www.shodan.io/host/42.236.73.218#9088
@@ -3010,6 +3034,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/65.116.183.70#443
 * https://www.shodan.io/host/68.117.246.143#4343
 * https://www.shodan.io/host/69.196.83.76#5912
+* https://www.shodan.io/host/71.187.192.165#222
 * https://www.shodan.io/host/72.5.43.162#444
 * https://www.shodan.io/host/74.177.197.62#6001
 * https://www.shodan.io/host/79.125.162.56#5454
@@ -3026,6 +3051,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/83.48.213.215#6001
 * https://www.shodan.io/host/83.48.230.194#6000
 * https://www.shodan.io/host/87.92.132.67#6001
+* https://www.shodan.io/host/87.92.182.7#6001
 * https://www.shodan.io/host/88.31.16.17#6001
 * https://www.shodan.io/host/88.31.45.5#6001
 * https://www.shodan.io/host/88.31.54.12#6001
@@ -3034,6 +3060,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/89.203.249.232#12138
 * https://www.shodan.io/host/89.216.98.17#3085
 * https://www.shodan.io/host/89.242.2.98#843
+* https://www.shodan.io/host/91.75.35.242#6000
 * https://www.shodan.io/host/91.228.113.199#9037
 * https://www.shodan.io/host/91.241.5.44#5446
 * https://www.shodan.io/host/92.42.58.118#6001
@@ -3104,6 +3131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/157.175.55.44#8649
 * https://www.shodan.io/host/157.175.175.6#18111
 * https://www.shodan.io/host/174.77.180.50#8574
+* https://www.shodan.io/host/176.82.138.192#6000
 * https://www.shodan.io/host/176.82.138.228#6000
 * https://www.shodan.io/host/176.82.167.62#6001
 * https://www.shodan.io/host/176.82.171.71#6001
@@ -3121,6 +3149,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/178.134.90.224#7788
 * https://www.shodan.io/host/179.51.149.49#32102
 * https://www.shodan.io/host/181.64.27.115#8406
+* https://www.shodan.io/host/181.167.71.209#5603
 * https://www.shodan.io/host/184.169.215.70#4949
 * https://www.shodan.io/host/184.169.244.219#8190
 * https://www.shodan.io/host/190.10.11.37#6001
@@ -3166,6 +3195,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.shodan.io/host/220.124.105.50#6001
 * https://www.shodan.io/host/222.89.70.13#9088
 * https://www.shodan.io/host/222.220.144.250#2000
+* https://www.virustotal.com/gui/file/4e625c4e9f33ab8b2c45135e672600021c3839ce59bf0cb1dff702219f00a7f9
 * https://www.virustotal.com/gui/file/65937673aa498245feae3ecc72e348b81f5061f637544a53afc240b42c65d3a7
 * https://www.virustotal.com/gui/file/c0877eca850d5f1c7f113aad2b37f44d266b715f8eb6c80bb968abcf84b1db51
 * https://www.virustotal.com/gui/file/d39c9278a6f915e3d87e4bdf4bbd820a3fad7b31b696bb05367347541549caa5

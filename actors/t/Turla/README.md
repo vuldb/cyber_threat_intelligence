@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Turla:
 
+* Kazuar
 * Penquin
 * Waterbug
-* Whitebear
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -18,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
-* [AT](https://vuldb.com/?country.at)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -43,7 +46,7 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [74.50.80.35](https://vuldb.com/?ip.74.50.80.35) | vps2770870.trouble-free.net | - | High
 13 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 49 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,28 +74,30 @@ ID | Type | Indicator | Confidence
 3 | File | `/about.php` | Medium
 4 | File | `/admin/blood/update/o-.php` | High
 5 | File | `/admin/index2.html` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/etc/shadow` | Medium
-8 | File | `/etc/target/saveconfig.json` | High
-9 | File | `/exec` | Low
-10 | File | `/form/index.php?module=getjson` | High
-11 | File | `/hcms/admin/index.php/language/ajax` | High
-12 | File | `/jsonrpc` | Medium
-13 | File | `/pms/admin/crimes/manage_crime.php` | High
-14 | File | `/product.php` | Medium
-15 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-16 | File | `/redpass.cgi` | Medium
-17 | File | `/registerCpe` | Medium
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/sitecore/shell/Invoke.aspx` | High
-20 | File | `/system?action=ServiceAdmin` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/Uploads` | Medium
-23 | File | `/User/saveUser` | High
-24 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-25 | ... | ... | ...
+6 | File | `/admin/login.php` | High
+7 | File | `/Api/ASF` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/clients` | Medium
+11 | File | `/common/mall/kaptcha` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/etc/target/saveconfig.json` | High
+14 | File | `/exec` | Low
+15 | File | `/form/index.php?module=getjson` | High
+16 | File | `/hcms/admin/index.php/language/ajax` | High
+17 | File | `/jsonrpc` | Medium
+18 | File | `/pms/admin/crimes/manage_crime.php` | High
+19 | File | `/product.php` | Medium
+20 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+21 | File | `/redpass.cgi` | Medium
+22 | File | `/registerCpe` | Medium
+23 | File | `/rest/collectors/1.0/template/custom` | High
+24 | File | `/sitecore/shell/Invoke.aspx` | High
+25 | File | `/system?action=ServiceAdmin` | High
+26 | File | `/uncpath/` | Medium
+27 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,6 +105,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/252/turla-apt-iocs/
 * https://lab52.io/blog/looking-for-penquins-in-the-wild/
+* https://r136a1.dev/2026/01/14/command-and-evade-turlas-kazuar-v3-loader/
 * https://securelist.com/introducing-whitebear/81638/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/waterbug-espionage-governments
 * https://www.recordedfuture.com/turla-apt-infrastructure/
@@ -120,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

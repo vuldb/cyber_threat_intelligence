@@ -52,12 +52,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin_members.php?ac=editsave` | High
 3 | File | `/drobopix/api/drobo.php` | High
 4 | File | `/spip.php` | Medium
-5 | File | `atom_avcC.cpp` | High
-6 | File | `booking.php` | Medium
-7 | File | `data/gbconfiguration.dat` | High
+5 | File | `/src/assimp/code/AssetLib/LWO/LWOMaterial.cpp` | High
+6 | File | `atom_avcC.cpp` | High
+7 | File | `booking.php` | Medium
 8 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,19 +51,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/config.php?display=disa&view=form` | High
 2 | File | `/api/baskets/{name}` | High
 3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/index.php` | Medium
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/paySuccess` | Medium
-9 | File | `/product.php` | Medium
-10 | File | `/rest/api/latest/projectvalidate/key` | High
-11 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/update_weights_from_tensor` | High
-14 | ... | ... | ...
+4 | File | `/goform/SetVirtualServerCfg` | High
+5 | File | `/index.php` | Medium
+6 | File | `/members/view_member.php` | High
+7 | File | `/mhds/clinic/view_details.php` | High
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/paySuccess` | Medium
+10 | File | `/product.php` | Medium
+11 | File | `/rest/api/latest/projectvalidate/key` | High
+12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/update_weights_from_tensor` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

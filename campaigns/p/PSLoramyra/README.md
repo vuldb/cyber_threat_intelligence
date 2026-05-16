@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,11 +46,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_fuel.php` | High
-2 | File | `/install/index.php` | High
-3 | File | `/lms/classes/Master.php?f=save_record` | High
+2 | File | `/api/wizard/getDualbandSync` | High
+3 | File | `/install/index.php` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

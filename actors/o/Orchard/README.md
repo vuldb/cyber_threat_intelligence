@@ -60,33 +60,34 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/home.php?con=add` | High
 10 | File | `/admin/inquiries/view_inquiry.php` | High
 11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/normal-bwdates-reports-details.php` | High
-13 | File | `/admin/product.php` | High
-14 | File | `/admin/profile/save_profile` | High
-15 | File | `/admin/reports.php` | High
-16 | File | `/admin/update_room.php` | High
-17 | File | `/admin/usersettingdel.php` | High
-18 | File | `/api/v1/chat.getThreadsList` | High
-19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-20 | File | `/bin/sh` | Low
-21 | File | `/cgi-bin/luci/api/diagnose` | High
-22 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-23 | File | `/cgi-bin/tosei_kikai.php` | High
-24 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-25 | File | `/coders/palm.c` | High
-26 | File | `/collection/all` | High
-27 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-28 | File | `/dcim/rack/` | Medium
-29 | File | `/EditEventTypes.php` | High
-30 | File | `/endpoint/add-user.php` | High
-31 | File | `/endpoint/delete-expense.php` | High
-32 | File | `/etc/groups` | Medium
-33 | File | `/file/upload/1` | High
-34 | File | `/formSetPortTr` | High
-35 | File | `/forum/away.php` | High
-36 | ... | ... | ...
+12 | File | `/admin/manage_user.php` | High
+13 | File | `/admin/normal-bwdates-reports-details.php` | High
+14 | File | `/admin/product.php` | High
+15 | File | `/admin/profile/save_profile` | High
+16 | File | `/admin/reports.php` | High
+17 | File | `/admin/update_room.php` | High
+18 | File | `/admin/usersettingdel.php` | High
+19 | File | `/api/v1/chat.getThreadsList` | High
+20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+21 | File | `/bin/sh` | Low
+22 | File | `/cgi-bin/luci/api/diagnose` | High
+23 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+24 | File | `/cgi-bin/tosei_kikai.php` | High
+25 | File | `/checkout/ConfirmOrder/` | High
+26 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+27 | File | `/coders/palm.c` | High
+28 | File | `/collection/all` | High
+29 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+30 | File | `/dcim/rack/` | Medium
+31 | File | `/EditEventTypes.php` | High
+32 | File | `/edit_upatient.php` | High
+33 | File | `/endpoint/add-user.php` | High
+34 | File | `/endpoint/delete-expense.php` | High
+35 | File | `/etc/groups` | Medium
+36 | File | `/file/upload/1` | High
+37 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

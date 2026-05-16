@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,16 +53,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax/loadShopInfo.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/ecrire` | Low
-4 | File | `/etc/init0.d/S80telnetd.sh` | High
-5 | File | `/link/` | Low
-6 | File | `/spip.php` | Medium
-7 | File | `/userRpm/WlanSecurityRpm` | High
-8 | ... | ... | ...
+1 | File | `/activation.php` | High
+2 | File | `/add-computer.php` | High
+3 | File | `/admin-cp/menus` | High
+4 | File | `/admin/aboutus.php` | High
+5 | File | `/admin/add-artist.php` | High
+6 | File | `/admin/booking-search.php` | High
+7 | File | `/admin/category_update.php` | High
+8 | File | `/admin/delete_file.php` | High
+9 | File | `/admin/home.php?con=add` | High
+10 | File | `/admin/manage_theater.php` | High
+11 | File | `/admin/update_room.php` | High
+12 | File | `/ajax/loadShopInfo.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/boafrm/formNtp` | High
+15 | File | `/booknow.php?roomname=Duplex` | High
+16 | File | `/category.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/chat/group/send` | High
+19 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,4 +90,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

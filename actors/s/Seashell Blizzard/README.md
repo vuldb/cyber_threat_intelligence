@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Seashell Blizzard
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Seashell Blizzard:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,12 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,15 +62,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/process_category_edit.php` | High
 6 | File | `/Admin/resultdetails.php` | High
 7 | File | `/admin/sign/out` | High
-8 | File | `/ajax.php?action=save_deductions` | High
-9 | File | `/api/wizard/getDualbandSync` | High
-10 | File | `/cgi-bin/hd_config.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-13 | File | `/edit-computer-detail.php` | High
-14 | ... | ... | ...
+8 | File | `/admin/voters_delete.php` | High
+9 | File | `/ajax.php?action=delete_member` | High
+10 | File | `/ajax.php?action=save_deductions` | High
+11 | File | `/api/wizard/getDualbandSync` | High
+12 | File | `/boafrm/formReflashClientTbl` | High
+13 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+14 | File | `/cancelar-enturmacao-em-lote/` | High
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

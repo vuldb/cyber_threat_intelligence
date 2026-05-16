@@ -75,39 +75,40 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/wizard/getWifiNeighbour` | High
 19 | File | `/application/index/controller/Databasesource.php` | High
 20 | File | `/ari/asterisk/variable` | High
-21 | File | `/backend/register.php` | High
-22 | File | `/blog` | Low
-23 | File | `/boaform/getASPdata/formFirewall` | High
-24 | File | `/boafrm/formParentControl` | High
-25 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-26 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi?action=exportOvpn&type=user` | High
-29 | File | `/cgi-bin/download_config.cgi` | High
-30 | File | `/cgi-bin/sessions/get-temp-file` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/change-password.php` | High
-33 | File | `/client/manage/ourphp_out.php` | High
-34 | File | `/config/config.json` | High
-35 | File | `/control/register_case.php` | High
-36 | File | `/control/WANIPConnection` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/delete.php` | Medium
-39 | File | `/display/map` | Medium
-40 | File | `/Doc/deleteDoc.do` | High
-41 | File | `/dottie.js` | Medium
-42 | File | `/dtale/chart-data/1` | High
-43 | File | `/Employer/EditProfile.php` | High
-44 | File | `/forgot-password.php` | High
-45 | File | `/fort/portal_login` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/goform/apPortalPhoneAuth` | High
-48 | File | `/goform/setcfm` | High
-49 | File | `/HNAP1` | Low
-50 | File | `/index.php?menu=asterisk_cli` | High
-51 | ... | ... | ...
+21 | File | `/assetsGroupReport/fixedAssetsList.j%73p` | High
+22 | File | `/backend/register.php` | High
+23 | File | `/blog` | Low
+24 | File | `/boaform/getASPdata/formFirewall` | High
+25 | File | `/boafrm/formParentControl` | High
+26 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+27 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=exportOvpn&type=user` | High
+30 | File | `/cgi-bin/download_config.cgi` | High
+31 | File | `/cgi-bin/sessions/get-temp-file` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/change-password.php` | High
+34 | File | `/client/manage/ourphp_out.php` | High
+35 | File | `/config/config.json` | High
+36 | File | `/control/register_case.php` | High
+37 | File | `/control/WANIPConnection` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/delete.php` | Medium
+40 | File | `/display/map` | Medium
+41 | File | `/Doc/deleteDoc.do` | High
+42 | File | `/dottie.js` | Medium
+43 | File | `/dtale/chart-data/1` | High
+44 | File | `/Employer/EditProfile.php` | High
+45 | File | `/forgot-password.php` | High
+46 | File | `/fort/portal_login` | High
+47 | File | `/forum/away.php` | High
+48 | File | `/goform/apPortalPhoneAuth` | High
+49 | File | `/goform/setcfm` | High
+50 | File | `/HNAP1` | Low
+51 | File | `/index.php?menu=asterisk_cli` | High
+52 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

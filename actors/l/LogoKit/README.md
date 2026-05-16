@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,20 +50,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply/index.php` | High
-2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `/classes/Master.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/handgunner-administrator/adminlogin.php` | High
-6 | File | `/request.php` | Medium
-7 | File | `/rom-0` | Low
-8 | File | `/spip.php` | Medium
-9 | File | `/student/project_selection/move_up_project.php` | High
-10 | File | `adclick.php` | Medium
-11 | File | `addentry.php` | Medium
-12 | ... | ... | ...
+1 | File | `/about_us` | Medium
+2 | File | `/apply/index.php` | High
+3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+4 | File | `/classes/Master.php` | High
+5 | File | `/equipment/get_Information` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/handgunner-administrator/adminlogin.php` | High
+8 | File | `/request.php` | Medium
+9 | File | `/rom-0` | Low
+10 | File | `/spip.php` | Medium
+11 | File | `/student/project_selection/move_up_project.php` | High
+12 | File | `adclick.php` | Medium
+13 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

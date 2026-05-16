@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -92,10 +92,9 @@ ID | Type | Indicator | Confidence
 9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
 11 | File | `/forum/away.php` | High
-12 | File | `/h/rest` | Low
-13 | ... | ... | ...
+12 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

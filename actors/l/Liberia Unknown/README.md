@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,27 +73,32 @@ ID | Type | Indicator | Confidence
 1 | File | `/add_classes.php` | High
 2 | File | `/admin/?page=products/view_product` | High
 3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/auto-taxi-entry-detail.php` | High
-5 | File | `/admin/candidates_add.php` | High
-6 | File | `/admin/clients/` | High
-7 | File | `/admin/edit-services.php` | High
-8 | File | `/Admin/edit_profile.php` | High
-9 | File | `/admin/forms/option_lists/edit.php` | High
-10 | File | `/admin/products/view_product.php` | High
-11 | File | `/admin/search.php` | High
-12 | File | `/admin/settings/index.php?page=accounts` | High
-13 | File | `/api/configs` | Medium
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/boafrm/formPortFw` | High
-17 | File | `/cancelbookingpatient.php` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/change_pass/forgot_password_sql.php` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/classes/Master.php?f=save_medicine` | High
-22 | ... | ... | ...
+4 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+5 | File | `/admin/article/add/do` | High
+6 | File | `/admin/auto-taxi-entry-detail.php` | High
+7 | File | `/admin/bwdates-reports-details.php` | High
+8 | File | `/admin/candidates_add.php` | High
+9 | File | `/admin/clients/` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/Admin/edit_profile.php` | High
+12 | File | `/admin/forms/option_lists/edit.php` | High
+13 | File | `/admin/products/view_product.php` | High
+14 | File | `/admin/role` | Medium
+15 | File | `/admin/search.php` | High
+16 | File | `/admin/settings/index.php?page=accounts` | High
+17 | File | `/ajax.php?action=delete_customer` | High
+18 | File | `/api/configs` | Medium
+19 | File | `/api/sys/set_passwd` | High
+20 | File | `/api/wizard/getCapability` | High
+21 | File | `/bin/httpd` | Medium
+22 | File | `/boafrm/formPortFw` | High
+23 | File | `/cancelbookingpatient.php` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/change_pass/forgot_password_sql.php` | High
+26 | File | `/classes/Master.php?f=delete_category` | High
+27 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

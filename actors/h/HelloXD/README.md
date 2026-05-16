@@ -50,14 +50,14 @@ ID | Type | Indicator | Confidence
 1 | File | `.bash_history` | High
 2 | File | `.procmailrc` | Medium
 3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/cgi-bin/changepw.cgi` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/editbrand.php` | High
-7 | File | `/etc/raspap/hostapd/enablelog.sh` | High
-8 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+4 | File | `/admin/voters_edit.php` | High
+5 | File | `/cgi-bin/changepw.cgi` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/editbrand.php` | High
+8 | File | `/etc/raspap/hostapd/enablelog.sh` | High
 9 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

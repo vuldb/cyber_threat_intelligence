@@ -58,31 +58,32 @@ ID | Type | Indicator | Confidence
 12 | File | `/Admin/News.php` | High
 13 | File | `/admin/plugin.php` | High
 14 | File | `/admin/store.php` | High
-15 | File | `/admin/update_user.php` | High
-16 | File | `/admin/view_sendlist.php` | High
-17 | File | `/adminPage/main/upload` | High
-18 | File | `/admin_class.php` | High
-19 | File | `/ajax.php?action=delete_fees` | High
-20 | File | `/api/data.php` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/api/system/user?deptId=1&page=1&size=10` | High
-23 | File | `/article/app/post` | High
-24 | File | `/baseOpLog.do` | High
-25 | File | `/boafrm/formNtp` | High
-26 | File | `/catalog_add.php` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/hd_config.cgi` | High
-29 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-30 | File | `/classes/Users.php` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-33 | File | `/common/logViewer/logViewer.jsf` | High
-34 | File | `/commons/attachment/upload` | High
-35 | File | `/confirm` | Medium
-36 | File | `/customer_register.php` | High
-37 | ... | ... | ...
+15 | File | `/admin/update-user.php` | High
+16 | File | `/admin/update_user.php` | High
+17 | File | `/admin/view_sendlist.php` | High
+18 | File | `/adminPage/main/upload` | High
+19 | File | `/admin_class.php` | High
+20 | File | `/ajax.php?action=delete_fees` | High
+21 | File | `/api/data.php` | High
+22 | File | `/api/sys/login` | High
+23 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+24 | File | `/article/app/post` | High
+25 | File | `/baseOpLog.do` | High
+26 | File | `/boafrm/formMultiAPVLAN` | High
+27 | File | `/boafrm/formNtp` | High
+28 | File | `/catalog_add.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/hd_config.cgi` | High
+31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+32 | File | `/classes/Users.php` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
+35 | File | `/common/logViewer/logViewer.jsf` | High
+36 | File | `/commons/attachment/upload` | High
+37 | File | `/confirm` | Medium
+38 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

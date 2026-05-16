@@ -53,19 +53,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index.php` | High
 3 | File | `/admin/login.php` | High
 4 | File | `/api/baskets/{name}` | High
-5 | File | `/core/vb/vurl.php` | High
-6 | File | `/doping.asp` | Medium
-7 | File | `/etc/shadow.sample` | High
-8 | File | `/goform/ate` | Medium
-9 | File | `/ihomers/app` | Medium
-10 | File | `/IISADMPWD` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/see_more_details.php` | High
-13 | File | `/shopping/admin/index.php` | High
-14 | File | `/subcat.php` | Medium
+5 | File | `/common/info.cgi` | High
+6 | File | `/core/vb/vurl.php` | High
+7 | File | `/doping.asp` | Medium
+8 | File | `/edit-family-member.php` | High
+9 | File | `/etc/shadow.sample` | High
+10 | File | `/goform/ate` | Medium
+11 | File | `/ihomers/app` | Medium
+12 | File | `/IISADMPWD` | Medium
+13 | File | `/JeecgBoot/sys/api/loadDictItemByKeyword` | High
+14 | File | `/librarian/bookdetails.php` | High
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

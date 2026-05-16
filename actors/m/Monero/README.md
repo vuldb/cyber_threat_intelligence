@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [39.99.146.107](https://vuldb.com/?ip.39.99.146.107) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.trendmicro.com/trendlabs-security-intelligence/almost-hollow-and-innocent-monero-miner-remains-undetected-via-process-hollowing/
 * https://blog.trendmicro.com/trendlabs-security-intelligence/cve-2019-2725-exploited-and-certificate-files-used-for-obfuscation-to-deliver-monero-miner/
 * https://primal.net/e/note1389mysmdam63wcra03uct7tua8ac6q2el6xkfsqrthshsu7en95sacry5j
+* https://urlhaus.abuse.ch/url/3757184/
 
 ## Literature
 

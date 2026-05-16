@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Head Mare:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.87.246.34](https://vuldb.com/?ip.45.87.246.34) | ru.vpn | - | High
-2 | [45.156.21.148](https://vuldb.com/?ip.45.156.21.148) | - | - | High
-3 | [45.156.27.115](https://vuldb.com/?ip.45.156.27.115) | - | - | High
+1 | [5.252.176.47](https://vuldb.com/?ip.5.252.176.47) | no-rdns.mivocloud.com | - | High
+2 | [5.252.176.77](https://vuldb.com/?ip.5.252.176.77) | no-rdns.mivocloud.com | - | High
+3 | [45.11.27.232](https://vuldb.com/?ip.45.11.27.232) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +48,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dental_form.php` | High
-2 | File | `cloud.php` | Medium
-3 | File | `modules/attributewizardpro/file_upload.php` | High
-4 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/general/change-lang` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cimom` | Low
+7 | File | `/config/pw_changeusers.html` | High
+8 | File | `/dental_form.php` | High
+9 | File | `/etc/openstack-dashboard/local_settings` | High
+10 | File | `/MIME/INBOX-MM-1/` | High
+11 | File | `/php/ping.php` | High
+12 | File | `/rapi/read_url` | High
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/sm/api/v1/firewall/zone/services` | High
+15 | File | `/SysInfo1.htm` | High
+16 | File | `/sysinfo_json.cgi` | High
+17 | File | `/system/dictData/loadDictItem` | High
+18 | File | `/system/user/modules/mod_users/controller.php` | High
+19 | File | `/uncpath/` | Medium
+20 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://securelist.com/head-mare-hacktivists/113555/
 * https://securelist.com/head-mare-twelve-collaboration/115887/
 
 ## Literature
@@ -69,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

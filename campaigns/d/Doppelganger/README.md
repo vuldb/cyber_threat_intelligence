@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Doppelganger:
 
-* [ME](https://vuldb.com/?country.me)
 * [US](https://vuldb.com/?country.us)
+* [ME](https://vuldb.com/?country.me)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -61,10 +61,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/advanced-tools/nova/bin/netwatch` | High
 4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
 5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/downloadas/` | Medium
-7 | ... | ... | ...
+6 | File | `/core/tools/customblock.php` | High
+7 | File | `/downloadas/` | Medium
+8 | File | `/equipment/get_Information` | High
+9 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

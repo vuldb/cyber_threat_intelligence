@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,9 +38,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -55,64 +55,74 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../mtd/Config/Sha1Account1` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin` | Low
-4 | File | `/admin/approve.php` | High
-5 | File | `/admin/archives_add.php` | High
-6 | File | `/admin/attendance_action.php` | High
-7 | File | `/admin/categories/save` | High
-8 | File | `/admin/contact-us.php` | High
-9 | File | `/admin/content/book` | High
-10 | File | `/admin/delete_user.php` | High
-11 | File | `/admin/newsletterdel.php` | High
-12 | File | `/admin/pages/` | High
-13 | File | `/admin/positions.php` | High
-14 | File | `/admin/receipt.php` | High
-15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-16 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-17 | File | `/admins` | Low
-18 | File | `/ajax.php?action=login` | High
-19 | File | `/ajax/getBasicInfo.php` | High
-20 | File | `/api/admin/system/store/order/list` | High
-21 | File | `/api/files/recipepictures/` | High
-22 | File | `/authentication.cgi` | High
-23 | File | `/boafrm/formDdns` | High
-24 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-25 | File | `/boafrm/formVpnConfigSetup` | High
-26 | File | `/bwdate-report-details.php` | High
-27 | File | `/cap.js` | Low
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/clientdetails/admin/regester.php` | High
-32 | File | `/Control/Api/Api.php` | High
-33 | File | `/csms/?page=contact_us` | High
-34 | File | `/ctpms/admin/?page=applications/view_application` | High
-35 | File | `/department_viewmore.php` | High
-36 | File | `/detailtransac.php` | High
-37 | File | `/dev/ptpX` | Medium
-38 | File | `/download` | Medium
-39 | File | `/editeddonor.php` | High
-40 | File | `/editprofile.php` | High
-41 | File | `/etc/ajenti/config.yml` | High
-42 | File | `/fair/addfair.php` | High
-43 | File | `/farm/product.php` | High
-44 | File | `/foreigner-search.php` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/friendsphoto.php` | High
-47 | File | `/function.php` | High
-48 | File | `/gallery/api/status/` | High
-49 | File | `/goform/AdvSetMacMtuWa` | High
-50 | File | `/goform/aspForm` | High
-51 | File | `/goform/DhcpListClient` | High
-52 | File | `/goform/exeCommand` | High
-53 | File | `/goform/formConfigFastDirectionW` | High
-54 | File | `/goform/formNatStaticMap` | High
-55 | File | `/goform/formWPS` | High
-56 | File | `/goform/getOneApConfTempEntry` | High
-57 | File | `/goform/onSSIDChange` | High
-58 | ... | ... | ...
+3 | File | `/addProduct.php` | High
+4 | File | `/admin` | Low
+5 | File | `/admin/add-module.php` | High
+6 | File | `/admin/add_expenses.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/applicants/controller.php` | High
+9 | File | `/admin/approve.php` | High
+10 | File | `/admin/archives_add.php` | High
+11 | File | `/admin/attendance_action.php` | High
+12 | File | `/admin/categories/save` | High
+13 | File | `/admin/contact-us.php` | High
+14 | File | `/admin/content/book` | High
+15 | File | `/admin/delete_user.php` | High
+16 | File | `/admin/edit_expenses_query.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/newsletterdel.php` | High
+19 | File | `/admin/pages/` | High
+20 | File | `/admin/positions.php` | High
+21 | File | `/admin/receipt.php` | High
+22 | File | `/admin/view_products.php` | High
+23 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+24 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+25 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+26 | File | `/Administrator/PHP/AdminEditUser.php` | High
+27 | File | `/Administrator/PHP/AdminReply.php` | High
+28 | File | `/admins` | Low
+29 | File | `/adv_mac_filter.php` | High
+30 | File | `/ajax.php?action=login` | High
+31 | File | `/ajax/getBasicInfo.php` | High
+32 | File | `/api/admin/system/store/order/list` | High
+33 | File | `/api/files/recipepictures/` | High
+34 | File | `/app/register.php?action=reg` | High
+35 | File | `/authentication.cgi` | High
+36 | File | `/boaform/formSamba` | High
+37 | File | `/boafrm/formDdns` | High
+38 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+39 | File | `/boafrm/formVpnConfigSetup` | High
+40 | File | `/bwdate-report-details.php` | High
+41 | File | `/cap.js` | Low
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/wlogin.cgi` | High
+44 | File | `/clientdetails/admin/regester.php` | High
+45 | File | `/Control/Api/Api.php` | High
+46 | File | `/csms/?page=contact_us` | High
+47 | File | `/ctpms/admin/?page=applications/view_application` | High
+48 | File | `/department_viewmore.php` | High
+49 | File | `/detailtransac.php` | High
+50 | File | `/dev/ptpX` | Medium
+51 | File | `/download` | Medium
+52 | File | `/download.php` | High
+53 | File | `/drag/onlDragDataSource/testConnection` | High
+54 | File | `/editeddonor.php` | High
+55 | File | `/editprofile.php` | High
+56 | File | `/fair/addfair.php` | High
+57 | File | `/farm/product.php` | High
+58 | File | `/foms/routers/cancel-order.php` | High
+59 | File | `/foreigner-search.php` | High
+60 | File | `/forum/away.php` | High
+61 | File | `/friendsphoto.php` | High
+62 | File | `/FrontEnd/Albums.php` | High
+63 | File | `/function.php` | High
+64 | File | `/gallery/api/status/` | High
+65 | File | `/goform/AdvSetLanip` | High
+66 | File | `/goform/AdvSetMacMtuWa` | High
+67 | File | `/goform/AdvSetMacMtuWan` | High
+68 | ... | ... | ...
 
-There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 596 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

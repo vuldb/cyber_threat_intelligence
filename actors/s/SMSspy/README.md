@@ -63,40 +63,41 @@ ID | Type | Indicator | Confidence
 13 | File | `/editar-cliente.php` | High
 14 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
 15 | File | `/emgui/rest/ums/messages` | High
-16 | File | `/foms/routers/place-order.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/FreshRSS/p/ext.php` | High
-19 | File | `/goform/setStaticRoute` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/include/file.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/mims/login.php` | High
-25 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-28 | File | `/product_list.php` | High
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/see_more_details.php` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/SystemMng.ashx` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `account/signup.php` | High
-36 | File | `action.php` | Medium
-37 | File | `action/usermanager.htm` | High
-38 | File | `adb/adb_client.c` | High
-39 | File | `adclick.php` | Medium
-40 | File | `add-category.php` | High
-41 | File | `addentry.php` | Medium
-42 | File | `add_comment.php` | High
-43 | File | `add_edit_user.asp` | High
-44 | File | `adm-admlog.php` | High
-45 | File | `admin.php` | Medium
-46 | File | `admin.php3` | Medium
-47 | ... | ... | ...
+16 | File | `/equipment/get_Information` | High
+17 | File | `/foms/routers/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/FreshRSS/p/ext.php` | High
+20 | File | `/goform/setStaticRoute` | High
+21 | File | `/handgunner-administrator/register_code.php` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/include/file.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/mims/login.php` | High
+27 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+30 | File | `/product_list.php` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/see_more_details.php` | High
+33 | File | `/services/details.asp` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/SystemMng.ashx` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `account/signup.php` | High
+38 | File | `action.php` | Medium
+39 | File | `action/usermanager.htm` | High
+40 | File | `adb/adb_client.c` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add-category.php` | High
+43 | File | `addentry.php` | Medium
+44 | File | `add_comment.php` | High
+45 | File | `add_edit_user.asp` | High
+46 | File | `adm-admlog.php` | High
+47 | File | `admin.php` | Medium
+48 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

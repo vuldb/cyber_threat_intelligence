@@ -58,37 +58,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/category.php` | High
 4 | File | `/admin/conferences/list/` | High
 5 | File | `/admin/index2.html` | High
-6 | File | `/admin/registration.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
-9 | File | `/api/programs/orgUnits?programs` | High
-10 | File | `/api/user/password/sent-reset-email` | High
-11 | File | `/backend/admin/his_admin_register_patient.php` | High
-12 | File | `/BRS_top.html` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-15 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-16 | File | `/cgi-bin/webadminget.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/check_availability.php` | High
-19 | File | `/common/info.cgi` | High
-20 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/qosClassifier` | High
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/hedwig.cgi` | Medium
-25 | File | `/htdocs/cgibin` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index/ajax/lang` | High
-28 | File | `/manage_loan.php` | High
-29 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-30 | File | `/password-recovery.php` | High
-31 | File | `/products/view_product.php` | High
-32 | File | `/public/login.htm` | High
-33 | File | `/search-report.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/registration.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
+10 | File | `/api/programs/orgUnits?programs` | High
+11 | File | `/api/user/password/sent-reset-email` | High
+12 | File | `/backend/admin/his_admin_register_patient.php` | High
+13 | File | `/BRS_top.html` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+16 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+17 | File | `/cgi-bin/webadminget.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/check_availability.php` | High
+20 | File | `/common/info.cgi` | High
+21 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/qosClassifier` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/hedwig.cgi` | Medium
+26 | File | `/htdocs/cgibin` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index/ajax/lang` | High
+29 | File | `/manage_loan.php` | High
+30 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+31 | File | `/password-recovery.php` | High
+32 | File | `/products/view_product.php` | High
+33 | File | `/public/login.htm` | High
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

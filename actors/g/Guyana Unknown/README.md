@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [MX](https://vuldb.com/?country.mx)
+* [GY](https://vuldb.com/?country.gy)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,60 +64,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\SSCService` | High
-2 | File | `/addelivery.php` | High
-3 | File | `/admin-api/mp/material/upload-permanent` | High
-4 | File | `/admin/action/update-deworm.php` | High
-5 | File | `/admin/add-customer-services.php` | High
-6 | File | `/admin/addemployee.php` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/Admin/consulting_detail.php` | High
-9 | File | `/admin/delete-appointment.php` | High
-10 | File | `/admin/file_manager/export` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/link/edit.do` | High
-13 | File | `/admin/manage_academic.php` | High
-14 | File | `/admin/massage.php` | High
-15 | File | `/admin/post/list` | High
-16 | File | `/Admin/registration.php` | High
-17 | File | `/admin/rooms.php` | High
-18 | File | `/admin/students/manage.php` | High
-19 | File | `/admin/update-users.php` | High
-20 | File | `/admin/user/user-move-run.php` | High
-21 | File | `/admind45f74adbd95.php?c=email&m=add` | High
-22 | File | `/adphar.php` | Medium
-23 | File | `/aim/storage/query.py` | High
-24 | File | `/ajax_city.php` | High
-25 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
-26 | File | `/api/process.php` | High
-27 | File | `/app/admin/controller/file/File.php` | High
-28 | File | `/application/index/controller/Databasesource.php` | High
-29 | File | `/boaform/device_reset.cgi` | High
-30 | File | `/boaform/getASPdata/formFirewall` | High
-31 | File | `/boafrm/formMultiAP` | High
-32 | File | `/book_list.php` | High
-33 | File | `/cart/index.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/download_config.cgi` | High
-36 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
-37 | File | `/config/config.json` | High
-38 | File | `/detail.php` | Medium
-39 | File | `/download` | Medium
-40 | File | `/file-upload` | Medium
-41 | File | `/forget_password_process.php` | High
-42 | File | `/forgot-password` | High
-43 | File | `/Forms/oadmin_1` | High
-44 | File | `/friends/ajax_invite` | High
-45 | File | `/function/edit_customer.php` | High
-46 | File | `/get.php` | Medium
-47 | File | `/goform/addressNat` | High
-48 | File | `/goform/apPortalPhoneAuth` | High
-49 | File | `/goform/Fast_wireless_conf` | High
-50 | File | `/goform/getTraceroute` | High
-51 | File | `/goform/operateMacFilter` | High
-52 | File | `/goform/setcfm` | High
-53 | ... | ... | ...
+2 | File | `/ad-list` | Medium
+3 | File | `/addelivery.php` | High
+4 | File | `/admin-api/mp/material/upload-permanent` | High
+5 | File | `/admin/action/update-deworm.php` | High
+6 | File | `/admin/add-customer-services.php` | High
+7 | File | `/admin/addemployee.php` | High
+8 | File | `/admin/admin_login.php` | High
+9 | File | `/Admin/changepassword.php` | High
+10 | File | `/Admin/consulting_detail.php` | High
+11 | File | `/admin/delete-appointment.php` | High
+12 | File | `/admin/edit_teacher.php` | High
+13 | File | `/admin/file_manager/export` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/link/edit.do` | High
+16 | File | `/admin/massage.php` | High
+17 | File | `/admin/php/crud.php` | High
+18 | File | `/admin/post/list` | High
+19 | File | `/Admin/registration.php` | High
+20 | File | `/admin/rooms.php` | High
+21 | File | `/admin/students/manage.php` | High
+22 | File | `/admin/update-users.php` | High
+23 | File | `/admin/update_user.php` | High
+24 | File | `/admin/user/user-move-run.php` | High
+25 | File | `/admind45f74adbd95.php?c=email&m=add` | High
+26 | File | `/adphar.php` | Medium
+27 | File | `/aim/storage/query.py` | High
+28 | File | `/ajax_city.php` | High
+29 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+30 | File | `/api/process.php` | High
+31 | File | `/app/admin/controller/file/File.php` | High
+32 | File | `/application/index/controller/Databasesource.php` | High
+33 | File | `/assetsGroupReport/fixedAssetsList.j%73p` | High
+34 | File | `/boaform/device_reset.cgi` | High
+35 | File | `/boaform/getASPdata/formFirewall` | High
+36 | File | `/boafrm/formMapDel` | High
+37 | File | `/boafrm/formMultiAP` | High
+38 | File | `/boafrm/formWirelessTbl` | High
+39 | File | `/boafrm/formWsc` | High
+40 | File | `/book_list.php` | High
+41 | File | `/cart/index.php` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/download_config.cgi` | High
+44 | File | `/com/esafenet/servlet/client/MailDecryptApplicationService.java` | High
+45 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+46 | File | `/config/config.json` | High
+47 | File | `/detail.php` | Medium
+48 | File | `/download` | Medium
+49 | File | `/endpoint/add-task.php` | High
+50 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+51 | File | `/file-upload` | Medium
+52 | File | `/forget_password_process.php` | High
+53 | File | `/forgot-password` | High
+54 | File | `/form137.php` | Medium
+55 | File | `/Forms/oadmin_1` | High
+56 | File | `/friends/ajax_invite` | High
+57 | File | `/function/edit_customer.php` | High
+58 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

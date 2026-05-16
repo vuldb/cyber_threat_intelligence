@@ -37,9 +37,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -56,57 +57,73 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=city` | High
 6 | File | `/admin/?page=reports` | High
 7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/admin_running.php` | High
-9 | File | `/admin/app/profile_crud.php` | High
-10 | File | `/admin/book-details.php` | High
-11 | File | `/admin/countrymanagement.php` | High
-12 | File | `/admin/del_category.php` | High
-13 | File | `/admin/del_service.php` | High
-14 | File | `/admin/edit-accepted-appointment.php` | High
-15 | File | `/admin/edit-services.php` | High
-16 | File | `/admin/edit-subadmin.php` | High
-17 | File | `/admin/edit_category.php` | High
-18 | File | `/admin/edit_teacher.php` | High
-19 | File | `/admin/forgot-password.php` | High
-20 | File | `/admin/index.php` | High
-21 | File | `/admin/inv-print.php` | High
-22 | File | `/admin/massage.php` | High
-23 | File | `/admin/newsletter1.php` | High
-24 | File | `/admin/payment.php` | High
-25 | File | `/admin/profile.php` | High
-26 | File | `/admin/quesadd.php` | High
-27 | File | `/admin/reg.php` | High
-28 | File | `/admin/registration.php` | High
-29 | File | `/admin/search-appointment.php` | High
-30 | File | `/admin/usersetting.php` | High
-31 | File | `/ajax-api.php` | High
-32 | File | `/ajax.php?action=delete_allowances` | High
-33 | File | `/app/ajax/search_sales_report.php` | High
-34 | File | `/application/admin/logic/FilemanagerLogic.php` | High
-35 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-36 | File | `/bin/boa` | Medium
-37 | File | `/binutils/debug.c` | High
-38 | File | `/boafrm/formWlSiteSurvey` | High
-39 | File | `/boafrm/formWsc` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-42 | File | `/collection/all` | High
-43 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-44 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
-45 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-46 | File | `/contact_us.php` | High
-47 | File | `/controller/api/Room.php` | High
-48 | File | `/core/config-revisions` | High
-49 | File | `/customer_details.php` | High
-50 | File | `/dashboard/userprofile.php` | High
-51 | File | `/data/pbootcms.db` | High
-52 | File | `/dayrui/Fcms/Init.php` | High
-53 | File | `/deletefile.php` | High
-54 | File | `/dell.php` | Medium
-55 | File | `/doc/packages` | High
-56 | ... | ... | ...
+8 | File | `/admin/activity.php` | High
+9 | File | `/admin/add-subadmins.php` | High
+10 | File | `/admin/admin_running.php` | High
+11 | File | `/admin/app/profile_crud.php` | High
+12 | File | `/admin/book-details.php` | High
+13 | File | `/admin/countrymanagement.php` | High
+14 | File | `/admin/del_category.php` | High
+15 | File | `/admin/del_service.php` | High
+16 | File | `/admin/edit-accepted-appointment.php` | High
+17 | File | `/admin/edit-services.php` | High
+18 | File | `/admin/edit-subadmin.php` | High
+19 | File | `/admin/editsite.php` | High
+20 | File | `/admin/edit_activity_query.php` | High
+21 | File | `/admin/edit_category.php` | High
+22 | File | `/admin/edit_teacher.php` | High
+23 | File | `/admin/expenses.php` | High
+24 | File | `/admin/forgot-password.php` | High
+25 | File | `/admin/index.php` | High
+26 | File | `/admin/inv-print.php` | High
+27 | File | `/admin/massage.php` | High
+28 | File | `/admin/modules/lesson/index.php` | High
+29 | File | `/admin/newsletter1.php` | High
+30 | File | `/admin/payment.php` | High
+31 | File | `/admin/profile.php` | High
+32 | File | `/admin/quesadd.php` | High
+33 | File | `/admin/reg.php` | High
+34 | File | `/admin/registration.php` | High
+35 | File | `/admin/search-appointment.php` | High
+36 | File | `/admin/system/variableList.do` | High
+37 | File | `/admin/system/variableSave.do` | High
+38 | File | `/admin/usersetting.php` | High
+39 | File | `/Administrator/PHP/AdminAddUser.php` | High
+40 | File | `/Administrator/PHP/AdminViewSongs.php` | High
+41 | File | `/ajax-api.php` | High
+42 | File | `/ajax.php?action=delete_allowances` | High
+43 | File | `/api/jobs` | Medium
+44 | File | `/app/ajax/search_sales_report.php` | High
+45 | File | `/app/checkout/delete.php` | High
+46 | File | `/app/complaint.php` | High
+47 | File | `/app/register.php?action=reg` | High
+48 | File | `/application/admin/logic/FilemanagerLogic.php` | High
+49 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+50 | File | `/bin/boa` | Medium
+51 | File | `/binutils/debug.c` | High
+52 | File | `/blog/bContent/save` | High
+53 | File | `/boafrm/formWlSiteSurvey` | High
+54 | File | `/boafrm/formWsc` | High
+55 | File | `/cgi-bin/cstecgi.cgi` | High
+56 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+57 | File | `/cgi-bin/imode_alldata.php` | High
+58 | File | `/collection/all` | High
+59 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+60 | File | `/com/esafenet/servlet/ajax/NetSecPolicyAjax.java` | High
+61 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+62 | File | `/contact_us.php` | High
+63 | File | `/controller/api/Room.php` | High
+64 | File | `/core/config-revisions` | High
+65 | File | `/customer_details.php` | High
+66 | File | `/dashboard/userprofile.php` | High
+67 | File | `/data/pbootcms.db` | High
+68 | File | `/dayrui/Fcms/Init.php` | High
+69 | File | `/deletefile.php` | High
+70 | File | `/dell.php` | Medium
+71 | File | `/detail.php` | Medium
+72 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 628 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

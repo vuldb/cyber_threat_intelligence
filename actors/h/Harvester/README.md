@@ -45,17 +45,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/debug/pprof` | Medium
-2 | File | `/index.php` | Medium
-3 | File | `/members/view_member.php` | High
-4 | File | `/mhds/clinic/view_details.php` | High
-5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/paySuccess` | Medium
-8 | File | `/rest/api/latest/projectvalidate/key` | High
-9 | File | `/services/indexing/preview` | High
+2 | File | `/goform/SetVirtualServerCfg` | High
+3 | File | `/index.php` | Medium
+4 | File | `/members/view_member.php` | High
+5 | File | `/mhds/clinic/view_details.php` | High
+6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/paySuccess` | Medium
+9 | File | `/rest/api/latest/projectvalidate/key` | High
 10 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

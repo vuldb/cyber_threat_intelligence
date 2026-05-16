@@ -86,10 +86,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/f.php` | Low
 20 | File | `/face-recognition-php/facepay-master/camera.php` | High
 21 | File | `/forms/doLogin` | High
-22 | File | `/forum/away.php` | High
+22 | File | `/fort/trust/version/common/common.jsp` | High
 23 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

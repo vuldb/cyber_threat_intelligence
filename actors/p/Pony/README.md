@@ -32,10 +32,11 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [64.85.169.189](https://vuldb.com/?ip.64.85.169.189) | - | - | High
 10 | [64.85.169.190](https://vuldb.com/?ip.64.85.169.190) | - | - | High
 11 | [66.175.212.25](https://vuldb.com/?ip.66.175.212.25) | 66-175-212-25.ip.linodeusercontent.com | - | High
-12 | [67.215.225.205](https://vuldb.com/?ip.67.215.225.205) | - | - | High
-13 | ... | ... | ... | ...
+12 | [66.175.216.33](https://vuldb.com/?ip.66.175.216.33) | li511-33.members.linode.com | - | High
+13 | [67.215.225.205](https://vuldb.com/?ip.67.215.225.205) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 49 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -118,7 +119,7 @@ ID | Type | Indicator | Confidence
 58 | File | `/cgi-bin/luci/api/cmd` | High
 59 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://isc.sans.edu/forums/diary/Malicious+spam+Subject+RE+Bill/20417/
 * https://threatfox.abuse.ch
+* https://tracker.viriback.com/index.php?q=196.196.41.173
 
 ## Literature
 
@@ -136,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -34,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.9.74.176](https://vuldb.com/?ip.45.9.74.176) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,17 +55,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-2 | File | `/backend/admin/his_admin_register_patient.php` | High
-3 | File | `/hospital/hms/admin/manage-doctors.php` | High
-4 | File | `/mfsNotice/page` | High
-5 | File | `/spgpm/updateListing` | High
-6 | File | `/spip.php` | Medium
-7 | File | `/uncpath/` | Medium
-8 | File | `add_comment.php` | High
-9 | ... | ... | ...
+1 | File | `/admin/?page=system_info` | High
+2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+3 | File | `/backend/admin/his_admin_register_patient.php` | High
+4 | File | `/hospital/hms/admin/manage-doctors.php` | High
+5 | File | `/mfsNotice/page` | High
+6 | File | `/spgpm/updateListing` | High
+7 | File | `/spip.php` | Medium
+8 | File | `/uncpath/` | Medium
+9 | File | `add_comment.php` | High
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/7b2f96005259d0cd6fc264585b7b5dd07aa9bf2f81dbfad3ba343e82e436398f/
 * https://bazaar.abuse.ch/sample/16d767a9d05c17140fd3f1a6c6e106015681c3b8f46b32f3a1b4f97663ce5e4a/
 * https://bazaar.abuse.ch/sample/22be8e80d23d669df95b96c25f3e709230b76a603ed17c7da507f05951d168af/
+* https://bazaar.abuse.ch/sample/90f5b54c027ddd863bc31608a97e5ac23149ffa282f05fd1015cbacf30174c7d/
 * https://bazaar.abuse.ch/sample/956c50d8878fc708f27dd53fca71ec874c4304d2a43e4ca939c4a0b26d87d6f8/
 * https://bazaar.abuse.ch/sample/a2e7ac3901f5a974f66d12600a41239ca5040bb12c0c60969f12a36f2d3bc7e1/
 * https://bazaar.abuse.ch/sample/b9ae263904d3a5fb8471a0f8ab95fcbb224f632e6185e3a110e8d5aed9785420/

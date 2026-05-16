@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,35 +50,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/aboutus.php` | High
-2 | File | `/admin/create_product.php` | High
-3 | File | `/admin/deleteuser.php` | High
-4 | File | `/admin/edit_supplier.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/process_category_edit.php` | High
-7 | File | `/Admin/resultdetails.php` | High
-8 | File | `/ajax.php?action=save_deductions` | High
-9 | File | `/api/authentication/login` | High
-10 | File | `/api/wizard/getDualbandSync` | High
-11 | File | `/apiadmin/upload/attach` | High
-12 | File | `/artist-display.php` | High
-13 | File | `/backend/admin/his_admin_register_patient.php` | High
-14 | File | `/boafrm/formReflashClientTbl` | High
-15 | File | `/cancelar-enturmacao-em-lote/` | High
-16 | File | `/cgi-bin/hd_config.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-19 | File | `/classes/profile.class.php` | High
-20 | File | `/dataSet/testTransform;swagger-ui` | High
-21 | File | `/diario-de-observacoes/` | High
-22 | File | `/edit-computer-detail.php` | High
-23 | File | `/edit_student.php` | High
-24 | File | `/expedit.php` | Medium
-25 | File | `/export` | Low
-26 | File | `/forum/away.php` | High
-27 | ... | ... | ...
+1 | File | `/admin#themes` | High
+2 | File | `/admin.php` | Medium
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/client_user` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/deleteuser.php` | High
+7 | File | `/admin/edit_supplier.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/process_category_edit.php` | High
+10 | File | `/Admin/resultdetails.php` | High
+11 | File | `/admin/voters_delete.php` | High
+12 | File | `/administrator/bidlist.php` | High
+13 | File | `/ajax.php?action=delete_member` | High
+14 | File | `/ajax.php?action=save_deductions` | High
+15 | File | `/animalsadd.php` | High
+16 | File | `/api/authentication/login` | High
+17 | File | `/api/wizard/getDualbandSync` | High
+18 | File | `/apiadmin/upload/attach` | High
+19 | File | `/artist-display.php` | High
+20 | File | `/backend/admin/his_admin_register_patient.php` | High
+21 | File | `/boafrm/formReflashClientTbl` | High
+22 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+23 | File | `/cancelar-enturmacao-em-lote/` | High
+24 | File | `/cgi-bin/hd_config.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+27 | File | `/classes/profile.class.php` | High
+28 | File | `/dataSet/testTransform;swagger-ui` | High
+29 | File | `/diario-de-observacoes/` | High
+30 | File | `/edit-computer-detail.php` | High
+31 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

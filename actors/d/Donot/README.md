@@ -74,51 +74,54 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/conferences/list/` | High
 10 | File | `/admin/countrymanagement.php` | High
 11 | File | `/admin/customermanagementframework/customers/list` | High
-12 | File | `/admin/edit.php` | High
-13 | File | `/admin/general/change-lang` | High
-14 | File | `/admin/group/list/` | High
-15 | File | `/admin/lab.php` | High
-16 | File | `/admin/new-content` | High
-17 | File | `/Admin/News.php` | High
-18 | File | `/admin/renewaldue.php` | High
-19 | File | `/admin/sign/out` | High
-20 | File | `/admin/usermanagement.php` | High
-21 | File | `/adminPage/conf/saveCmd` | High
-22 | File | `/admin_route/inc_service_credits.php` | High
-23 | File | `/app/uploading/upload-mp3.php` | High
-24 | File | `/aqpg/users/login.php` | High
-25 | File | `/artist-display.php` | High
-26 | File | `/backups/` | Medium
-27 | File | `/bcms/admin/?page=user/list` | High
-28 | File | `/cardo/api` | Medium
-29 | File | `/catcompany.php` | High
-30 | File | `/CCMAdmin/serverlist.asp` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/editBookmark` | High
-33 | File | `/cgi-bin/system_mgr.cgi` | High
-34 | File | `/cgi-bin/touchlist_sync.cgi` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/cimom` | Low
-37 | File | `/ci_spms/admin/category` | High
-38 | File | `/classes/Users.php?f=save` | High
-39 | File | `/cwc/login` | Medium
-40 | File | `/cwms/admin/?page=articles/view_article/` | High
-41 | File | `/cwms/classes/Master.php?f=save_contact` | High
-42 | File | `/dashboard/add-blog.php` | High
-43 | File | `/dashboard/add-portfolio.php` | High
-44 | File | `/dashboard/admin/submit_payments.php` | High
-45 | File | `/dashboard/settings` | High
-46 | File | `/dets/add-expense.php` | High
-47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-48 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-49 | File | `/env` | Low
-50 | File | `/film-rating.php` | High
-51 | File | `/forum/away.php` | High
-52 | File | `/front/roomtype-details.php` | High
-53 | File | `/goform/fast_setting_wifi_set` | High
-54 | ... | ... | ...
+12 | File | `/admin/delete.php` | High
+13 | File | `/admin/edit.php` | High
+14 | File | `/admin/general/change-lang` | High
+15 | File | `/admin/group/list/` | High
+16 | File | `/admin/lab.php` | High
+17 | File | `/admin/new-content` | High
+18 | File | `/Admin/News.php` | High
+19 | File | `/admin/renewaldue.php` | High
+20 | File | `/admin/sign/out` | High
+21 | File | `/admin/usermanagement.php` | High
+22 | File | `/adminPage/conf/saveCmd` | High
+23 | File | `/admin_route/inc_service_credits.php` | High
+24 | File | `/api-addons/v1/messages` | High
+25 | File | `/app/uploading/upload-mp3.php` | High
+26 | File | `/aqpg/users/login.php` | High
+27 | File | `/artist-display.php` | High
+28 | File | `/backups/` | Medium
+29 | File | `/bcms/admin/?page=user/list` | High
+30 | File | `/book_search.php` | High
+31 | File | `/cardo/api` | Medium
+32 | File | `/catcompany.php` | High
+33 | File | `/CCMAdmin/serverlist.asp` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/editBookmark` | High
+36 | File | `/cgi-bin/login.cgi` | High
+37 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+38 | File | `/cgi-bin/system_mgr.cgi` | High
+39 | File | `/cgi-bin/touchlist_sync.cgi` | High
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/cimom` | Low
+42 | File | `/ci_spms/admin/category` | High
+43 | File | `/classes/Users.php?f=save` | High
+44 | File | `/cwc/login` | Medium
+45 | File | `/cwms/admin/?page=articles/view_article/` | High
+46 | File | `/cwms/classes/Master.php?f=save_contact` | High
+47 | File | `/dashboard/add-blog.php` | High
+48 | File | `/dashboard/add-portfolio.php` | High
+49 | File | `/dashboard/admin/submit_payments.php` | High
+50 | File | `/dashboard/settings` | High
+51 | File | `/dets/add-expense.php` | High
+52 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+53 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+54 | File | `/env` | Low
+55 | File | `/film-rating.php` | High
+56 | File | `/forum/away.php` | High
+57 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +144,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0006:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,42 +63,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/comn/service/update.json` | High
 4 | File | `/admin/delete_user.php` | High
-5 | File | `/admin_members.php?ac=editsave` | High
-6 | File | `/api/0/api-tokens/` | High
-7 | File | `/api/template/renderSprig` | High
-8 | File | `/app/options.py` | High
-9 | File | `/auth_files/photo/` | High
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cwc/login` | Medium
-13 | File | `/debuginfo.htm` | High
-14 | File | `/download` | Medium
-15 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/etc/quagga` | Medium
-19 | File | `/forms/doLogin` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/setmac` | High
-22 | File | `/h/autoSaveDraft` | High
-23 | File | `/h/calendar` | Medium
-24 | File | `/inc/extensions.php` | High
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/manager?action=getlogcat` | High
-27 | File | `/members/profiles.php` | High
-28 | File | `/nova/bin/console` | High
-29 | File | `/nova/bin/detnet` | High
-30 | File | `/out.php` | Medium
-31 | File | `/php/ping.php` | High
-32 | File | `/products/view_product.php` | High
-33 | File | `/req_password_user.php` | High
-34 | File | `/rom-0` | Low
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/ServletAPI/accounts/login` | High
-37 | File | `/show_news.php` | High
-38 | File | `/src/helper.c` | High
-39 | File | `/tmp` | Low
-40 | ... | ... | ...
+5 | File | `/admin/save_user.php` | High
+6 | File | `/admin_members.php?ac=editsave` | High
+7 | File | `/api/0/api-tokens/` | High
+8 | File | `/api/template/renderSprig` | High
+9 | File | `/app/options.py` | High
+10 | File | `/auth_files/photo/` | High
+11 | File | `/card_scan.php` | High
+12 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cwc/login` | Medium
+15 | File | `/debuginfo.htm` | High
+16 | File | `/download` | Medium
+17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/etc/passwd` | Medium
+20 | File | `/etc/quagga` | Medium
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/h/calendar` | Medium
+26 | File | `/inc/extensions.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/manager?action=getlogcat` | High
+29 | File | `/members/profiles.php` | High
+30 | File | `/nova/bin/console` | High
+31 | File | `/nova/bin/detnet` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php/ping.php` | High
+34 | File | `/products/view_product.php` | High
+35 | File | `/req_password_user.php` | High
+36 | File | `/rom-0` | Low
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/ServletAPI/accounts/login` | High
+39 | ... | ... | ...
 
 There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -124,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

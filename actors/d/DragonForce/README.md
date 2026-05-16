@@ -45,20 +45,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academic-calendar` | High
 2 | File | `/admin/all-request.php` | High
-3 | File | `/admin/process_login.php` | High
-4 | File | `/admin/userScore_deal.php?mudi=del` | High
-5 | File | `/ajax/get_patient_history.php` | High
-6 | File | `/app/admin/controller/Upload.php` | High
-7 | File | `/boafrm/formVpnConfigSetup` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/nightled.cgi` | High
-10 | File | `/cgi-bin/webproc` | High
-11 | File | `/docarray/data/torch_dataset.py` | High
-12 | File | `/doctor/deletepatient.php` | High
-13 | File | `/fastcms.html#/template/menu` | High
-14 | ... | ... | ...
+3 | File | `/admin/changepassword.php` | High
+4 | File | `/Admin/InsertCategory.php` | High
+5 | File | `/admin/process_login.php` | High
+6 | File | `/admin/userScore_deal.php?mudi=del` | High
+7 | File | `/ajax/get_patient_history.php` | High
+8 | File | `/app/admin/controller/Upload.php` | High
+9 | File | `/boafrm/formVpnConfigSetup` | High
+10 | File | `/bwdates-reports-details.php?vid=2` | High
+11 | File | `/carManager/carUseDetailList.j%73p` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/nightled.cgi` | High
+14 | File | `/cgi-bin/webproc` | High
+15 | File | `/docarray/data/torch_dataset.py` | High
+16 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

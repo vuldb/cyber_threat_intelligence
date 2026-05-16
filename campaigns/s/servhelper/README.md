@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,49 +62,49 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
 4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/dus/shopliste/index.php` | High
-7 | File | `/etc/path` | Medium
-8 | File | `/hrm/employeeadd.php` | High
-9 | File | `/licenses` | Medium
-10 | File | `/login` | Low
-11 | File | `/nagiosql/admin/checkcommands.php` | High
-12 | File | `/php/ping.php` | High
-13 | File | `/rapi/read_url` | High
-14 | File | `/scripts/unlock_tasks.php` | High
-15 | File | `/sendKey` | Medium
-16 | File | `/setSystemAdmin` | High
-17 | File | `/signup_script.php` | High
-18 | File | `/SysInfo1.htm` | High
-19 | File | `/sysinfo_json.cgi` | High
-20 | File | `/system/dictData/loadDictItem` | High
-21 | File | `/system/user/modules/mod_users/controller.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/5bin/su` | Medium
-25 | File | `/usr/bin/mail` | High
-26 | File | `/var/dt/` | Medium
-27 | File | `/view-property.php` | High
-28 | File | `/view/vpn/autovpn/sub_commit.php` | High
-29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-30 | File | `/_vti_bin/_vti_log` | High
-31 | File | `00.jsp` | Low
-32 | File | `adclick.php` | Medium
-33 | File | `admin.asp` | Medium
-34 | File | `admin.php` | Medium
-35 | File | `admin/` | Low
-36 | File | `admin/Login.php` | High
-37 | File | `admin/manage-comments.php` | High
-38 | File | `Administration/Controllers/ImportController.cs` | High
-39 | File | `administrator/mail/download.cfm` | High
-40 | File | `AdminViewError/AdminAddadmin` | High
-41 | File | `agentdisplay.php` | High
-42 | File | `appserv/main.php` | High
-43 | File | `ashnews.php/ashheadlines.php` | High
-44 | File | `auction.cgi` | Medium
+5 | File | `/config/pw_changeusers.html` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dm/dispatch/user/add` | High
+8 | File | `/dus/shopliste/index.php` | High
+9 | File | `/etc/path` | Medium
+10 | File | `/hrm/employeeadd.php` | High
+11 | File | `/licenses` | Medium
+12 | File | `/login` | Low
+13 | File | `/nagiosql/admin/checkcommands.php` | High
+14 | File | `/php/ping.php` | High
+15 | File | `/rapi/read_url` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/setSystemAdmin` | High
+18 | File | `/signup_script.php` | High
+19 | File | `/SysInfo1.htm` | High
+20 | File | `/sysinfo_json.cgi` | High
+21 | File | `/system/dictData/loadDictItem` | High
+22 | File | `/system/user/modules/mod_users/controller.php` | High
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/5bin/su` | Medium
+26 | File | `/usr/bin/mail` | High
+27 | File | `/var/dt/` | Medium
+28 | File | `/view-property.php` | High
+29 | File | `/view/vpn/autovpn/sub_commit.php` | High
+30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+31 | File | `/_vti_bin/_vti_log` | High
+32 | File | `00.jsp` | Low
+33 | File | `adclick.php` | Medium
+34 | File | `admin.asp` | Medium
+35 | File | `admin.php` | Medium
+36 | File | `admin/` | Low
+37 | File | `admin/Login.php` | High
+38 | File | `admin/manage-comments.php` | High
+39 | File | `Administration/Controllers/ImportController.cs` | High
+40 | File | `administrator/mail/download.cfm` | High
+41 | File | `AdminViewError/AdminAddadmin` | High
+42 | File | `agentdisplay.php` | High
+43 | File | `appserv/main.php` | High
+44 | File | `ashnews.php/ashheadlines.php` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

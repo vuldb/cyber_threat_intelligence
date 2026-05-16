@@ -40,18 +40,19 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [47.89.157.126](https://vuldb.com/?ip.47.89.157.126) | - | - | High
 12 | [47.254.129.255](https://vuldb.com/?ip.47.254.129.255) | - | - | High
 13 | [62.113.117.216](https://vuldb.com/?ip.62.113.117.216) | v2751855.hosted-by-vdsina.ru | - | High
-14 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | - | High
-15 | [85.175.70.222](https://vuldb.com/?ip.85.175.70.222) | - | - | High
-16 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | - | High
-17 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | - | High
-18 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | - | High
-19 | [91.202.233.239](https://vuldb.com/?ip.91.202.233.239) | - | - | High
-20 | [91.202.233.240](https://vuldb.com/?ip.91.202.233.240) | - | - | High
-21 | [91.202.233.245](https://vuldb.com/?ip.91.202.233.245) | - | - | High
-22 | [91.236.116.22](https://vuldb.com/?ip.91.236.116.22) | - | - | High
-23 | ... | ... | ... | ...
+14 | [77.83.207.133](https://vuldb.com/?ip.77.83.207.133) | - | - | High
+15 | [80.64.30.95](https://vuldb.com/?ip.80.64.30.95) | - | - | High
+16 | [85.175.70.222](https://vuldb.com/?ip.85.175.70.222) | - | - | High
+17 | [85.208.84.242](https://vuldb.com/?ip.85.208.84.242) | - | - | High
+18 | [88.204.123.123](https://vuldb.com/?ip.88.204.123.123) | - | - | High
+19 | [89.23.113.220](https://vuldb.com/?ip.89.23.113.220) | 44059-1.ip-ptr.tech | - | High
+20 | [91.202.233.168](https://vuldb.com/?ip.91.202.233.168) | - | - | High
+21 | [91.202.233.239](https://vuldb.com/?ip.91.202.233.239) | - | - | High
+22 | [91.202.233.240](https://vuldb.com/?ip.91.202.233.240) | - | - | High
+23 | [91.202.233.245](https://vuldb.com/?ip.91.202.233.245) | - | - | High
+24 | ... | ... | ... | ...
 
-There are 89 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,7 +60,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -72,16 +73,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/cstecgi.cgi` | High
+1 | File | `/apply.cgi` | Medium
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/config/pw_changeusers.html` | High
 4 | File | `/php/ping.php` | High
 5 | File | `/scripts/unlock_tasks.php` | High
-6 | File | `/SysInfo1.htm` | High
-7 | File | `/sysinfo_json.cgi` | High
-8 | ... | ... | ...
+6 | ... | ... | ...
 
-There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,7 +92,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.141.86.132
 * https://search.censys.io/hosts/45.141.86.133
 * https://search.censys.io/hosts/45.142.195.242
+* https://search.censys.io/hosts/77.83.207.133
 * https://search.censys.io/hosts/85.175.70.222
+* https://search.censys.io/hosts/85.208.84.242
 * https://search.censys.io/hosts/91.202.233.168
 * https://search.censys.io/hosts/91.236.116.22
 * https://search.censys.io/hosts/91.236.116.139
@@ -131,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

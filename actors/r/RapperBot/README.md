@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.231.4.35](https://vuldb.com/?ip.5.231.4.35) | anossabundaestabem.net.br | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,19 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/fos/admin/ajax.php` | High
-5 | File | `/include/chart_generator.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/modules/projects/vw_files.php` | High
-8 | File | `/SystemMng.ashx` | High
-9 | File | `AdClass.php` | Medium
-10 | File | `admin.php` | Medium
-11 | File | `admin_add.php` | High
-12 | ... | ... | ...
+2 | File | `/cgi-bin/wapopen` | High
+3 | File | `/com/esafenet/servlet/system/ProtocolService.java` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/fos/admin/ajax.php` | High
+6 | File | `/include/chart_generator.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/modules/projects/vw_files.php` | High
+9 | File | `/SystemMng.ashx` | High
+10 | File | `AdClass.php` | Medium
+11 | File | `admin.php` | Medium
+12 | File | `admin_add.php` | High
+13 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -69,6 +70,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.xlab.qianxin.com/rapperbot-en/
 * https://community.blueliv.com/#!/s/62f0af7a82df417a00331dae
 * https://threatfox.abuse.ch
+* https://www.bitsight.com/blog/rapperbot-infection-ddos-split-second
 * https://www.fortinet.com/blog/threat-research/new-rapperbot-campaign-ddos-attacks
 
 ## Literature
@@ -80,4 +82,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

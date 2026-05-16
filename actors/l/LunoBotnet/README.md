@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/dev/urandom` | Medium
 17 | File | `/etc/environment` | High
 18 | File | `/etc/passwd` | Medium
-19 | File | `/goform/wirelessRestart` | High
+19 | File | `/goform/operateMacFilter` | High
 20 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

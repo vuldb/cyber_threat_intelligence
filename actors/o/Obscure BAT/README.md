@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,14 +48,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
 4 | File | `/admin/edit-services.php` | High
 5 | File | `/admin/user/user-move-run.php` | High
-6 | File | `/api/admin/user` | High
-7 | File | `/api/v1/admin/restart` | High
-8 | File | `/api/v2/maps` | Medium
-9 | File | `/app/action/add_staff.php` | High
-10 | File | `/auth/AzureRedirect.php` | High
-11 | ... | ... | ...
+6 | File | `/admin/view-patient.php` | High
+7 | File | `/Administrator/PHP/AdminReply.php` | High
+8 | File | `/api/admin/user` | High
+9 | File | `/api/v1/admin/restart` | High
+10 | File | `/api/v2/maps` | Medium
+11 | File | `/app/action/add_staff.php` | High
+12 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

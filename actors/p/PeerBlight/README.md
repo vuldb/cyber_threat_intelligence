@@ -51,16 +51,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/application/index/controller/Icon.php` | High
-2 | File | `/classes/Master.php?f=delete_record` | High
-3 | File | `/ecommerce/admin/products/controller.php` | High
-4 | File | `/general/system/interface/theme_set/save_image.php` | High
-5 | File | `/hcms/admin/index.php/language/ajax` | High
-6 | File | `/hprms/admin/doctors/view_doctor.php` | High
-7 | File | `/index.php` | Medium
-8 | ... | ... | ...
+1 | File | `/admin/search.php` | High
+2 | File | `/application/index/controller/Icon.php` | High
+3 | File | `/classes/Master.php?f=delete_record` | High
+4 | File | `/ecommerce/admin/products/controller.php` | High
+5 | File | `/general/system/interface/theme_set/save_image.php` | High
+6 | File | `/hcms/admin/index.php/language/ajax` | High
+7 | File | `/hprms/admin/doctors/view_doctor.php` | High
+8 | File | `/index.php` | Medium
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

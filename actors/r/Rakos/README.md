@@ -49,42 +49,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/addWhiteListDomain.imss` | High
-4 | File | `/admin/app/product.php` | High
-5 | File | `/anony/mjpg.cgi` | High
-6 | File | `/api/get-browser-snapshot` | High
-7 | File | `/api/wizard/setsyncpppoecfg` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/cobbler-api` | Medium
-10 | File | `/customer_support/index.php` | High
-11 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-12 | File | `/donor-wall` | Medium
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/inc/jquery/uploadify/uploadify.php` | High
-16 | File | `/inc/parser/xhtml.php` | High
-17 | File | `/include/makecvs.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/index/ajax/lang` | High
-20 | File | `/login/index.php` | High
-21 | File | `/member/index/login.html` | High
-22 | File | `/member/myfriend.php` | High
-23 | File | `/member/reg.asp` | High
-24 | File | `/modules/messaging/` | High
-25 | File | `/pms/admin/actions/view_action.php` | High
-26 | File | `/pms/admin/cells/view_cell.php` | High
-27 | File | `/pms/admin/crimes/manage_crime.php` | High
-28 | File | `/pms/admin/inmates/view_inmate.php` | High
-29 | File | `/pms/admin/prisons/view_prison.php` | High
-30 | File | `/pms/admin/visits/view_visit.php` | High
-31 | File | `/pms/index.php` | High
-32 | File | `/pms/update_medicine.php` | High
-33 | File | `/pms/update_patient.php` | High
-34 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/#ProductSerie/view/` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/addcompany.php` | High
+5 | File | `/addWhiteListDomain.imss` | High
+6 | File | `/admin/app/product.php` | High
+7 | File | `/anony/mjpg.cgi` | High
+8 | File | `/api/get-browser-snapshot` | High
+9 | File | `/api/wizard/setsyncpppoecfg` | High
+10 | File | `/base/safe_setting/` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cobbler-api` | Medium
+13 | File | `/customer_support/index.php` | High
+14 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+15 | File | `/donor-wall` | Medium
+16 | File | `/equipment/get_Information` | High
+17 | File | `/etc/shadow` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/inc/jquery/uploadify/uploadify.php` | High
+20 | File | `/inc/parser/xhtml.php` | High
+21 | File | `/include/makecvs.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/index/ajax/lang` | High
+24 | File | `/login/index.php` | High
+25 | File | `/member/index/login.html` | High
+26 | File | `/member/myfriend.php` | High
+27 | File | `/member/reg.asp` | High
+28 | File | `/modules/messaging/` | High
+29 | File | `/perfex/clients/project/2` | High
+30 | File | `/pms/admin/actions/view_action.php` | High
+31 | File | `/pms/admin/cells/view_cell.php` | High
+32 | File | `/pms/admin/crimes/manage_crime.php` | High
+33 | File | `/pms/admin/inmates/view_inmate.php` | High
+34 | File | `/pms/admin/prisons/view_prison.php` | High
+35 | File | `/pms/admin/visits/view_visit.php` | High
+36 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

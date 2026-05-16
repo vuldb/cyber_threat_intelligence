@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/debug/pprof` | Medium
 6 | File | `/h/` | Low
 7 | File | `/login` | Low
-8 | ... | ... | ...
+8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

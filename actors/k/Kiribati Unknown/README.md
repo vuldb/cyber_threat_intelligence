@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,33 +73,34 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/user/user-move-run.php` | High
 14 | File | `/admin_class.php?action=login` | High
 15 | File | `/ajax_city.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/api/v1/dashboards/export` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/bbdms/admin/update-contactinfo.php` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/blog` | Low
-22 | File | `/book_search.php` | High
-23 | File | `/car-rental-management-system/admin/view_car.php=` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/cgi/loginDefaultUser` | High
-27 | File | `/check_availability.php` | High
-28 | File | `/component_server` | High
-29 | File | `/config/config.json` | High
-30 | File | `/dashboard.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-33 | File | `/druid/index.html` | High
-34 | File | `/ecommerce/support_ticket` | High
-35 | File | `/etc/hosts.deny` | High
-36 | File | `/getcfg.php` | Medium
-37 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
-38 | File | `/goform/set_delshrpath_cfg` | High
-39 | File | `/hazelcast/rest/maps/submit-job` | High
-40 | ... | ... | ...
+16 | File | `/api/v1/dashboards/export` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/bbdms/admin/update-contactinfo.php` | High
+19 | File | `/bin/boa` | Medium
+20 | File | `/blog` | Low
+21 | File | `/book_search.php` | High
+22 | File | `/car-rental-management-system/admin/view_car.php=` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi/loginDefaultUser` | High
+26 | File | `/check_availability.php` | High
+27 | File | `/component_server` | High
+28 | File | `/config/config.json` | High
+29 | File | `/dashboard.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+32 | File | `/druid/index.html` | High
+33 | File | `/ecommerce/support_ticket` | High
+34 | File | `/etc/hosts.deny` | High
+35 | File | `/getcfg.php` | Medium
+36 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+37 | File | `/goform/set_delshrpath_cfg` | High
+38 | File | `/hazelcast/rest/maps/submit-job` | High
+39 | File | `/hedwig.cgi` | Medium
+40 | File | `/HNAP1/` | Low
+41 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

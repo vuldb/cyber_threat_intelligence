@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -164,7 +164,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -172,47 +172,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addelivery.php` | High
-2 | File | `/admin.php/update/getFile.html` | High
-3 | File | `/admin/action/update-deworm.php` | High
-4 | File | `/admin/add-customer-services.php` | High
-5 | File | `/admin/addgiving.php` | High
-6 | File | `/admin/add_title.php` | High
-7 | File | `/admin/booking-search.php` | High
-8 | File | `/admin/delete-appointment.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/index.php?page=manage_lot` | High
-11 | File | `/admin/index3.php` | High
-12 | File | `/admin/link/edit.do` | High
-13 | File | `/admin/list_ipAddressPolicy.php` | High
-14 | File | `/admin/massage.php` | High
-15 | File | `/admin/msg.php` | High
-16 | File | `/admin/pages/subjects.php` | High
-17 | File | `/admin/patient-search.php` | High
-18 | File | `/admin/post/list` | High
-19 | File | `/Admin/registration.php` | High
-20 | File | `/admin/students/manage.php` | High
-21 | File | `/admind45f74adbd95.php?c=email&m=add` | High
-22 | File | `/adphar.php` | Medium
-23 | File | `/aim/storage/query.py` | High
-24 | File | `/ajax.php?action=save_plan` | High
-25 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
-26 | File | `/analysisProject/pagingQueryData` | High
-27 | File | `/api/api.php?mod=upload&type=1` | High
-28 | File | `/api/export/exportResources` | High
-29 | File | `/api/process.php` | High
-30 | File | `/api/system/other` | High
-31 | File | `/app/admin/controller/file/File.php` | High
-32 | File | `/app/admin/view/web_user.html` | High
-33 | File | `/app/sys1.php` | High
-34 | File | `/auth/delete_project/` | High
-35 | File | `/bill/add_bill.php` | High
-36 | File | `/boafrm/formMultiAP` | High
-37 | File | `/boafrm/formParentControl` | High
-38 | File | `/book_list.php` | High
-39 | ... | ... | ...
+1 | File | `/ad-list` | Medium
+2 | File | `/addelivery.php` | High
+3 | File | `/addstock.php` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/action/update-deworm.php` | High
+6 | File | `/admin/add-customer-services.php` | High
+7 | File | `/admin/addgiving.php` | High
+8 | File | `/admin/add_title.php` | High
+9 | File | `/admin/admin_login.php` | High
+10 | File | `/admin/ajax.php?action=save_vacancy` | High
+11 | File | `/admin/booking-search.php` | High
+12 | File | `/admin/courses/manage_course.php` | High
+13 | File | `/admin/delete-appointment.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index.php?page=manage_lot` | High
+16 | File | `/admin/index3.php` | High
+17 | File | `/admin/link/edit.do` | High
+18 | File | `/admin/list_ipAddressPolicy.php` | High
+19 | File | `/Admin/login.php` | High
+20 | File | `/admin/massage.php` | High
+21 | File | `/admin/msg.php` | High
+22 | File | `/admin/pages/subjects.php` | High
+23 | File | `/admin/patient-search.php` | High
+24 | File | `/admin/php/crud.php` | High
+25 | File | `/admin/post/list` | High
+26 | File | `/Admin/registration.php` | High
+27 | File | `/admin/students/manage.php` | High
+28 | File | `/admin/update_user.php` | High
+29 | File | `/admind45f74adbd95.php?c=email&m=add` | High
+30 | File | `/adphar.php` | Medium
+31 | File | `/aim/storage/query.py` | High
+32 | File | `/ajax.php?action=save_plan` | High
+33 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+34 | File | `/analysisProject/pagingQueryData` | High
+35 | File | `/api/api.php?mod=upload&type=1` | High
+36 | File | `/api/export/exportResources` | High
+37 | File | `/api/process.php` | High
+38 | File | `/api/system/other` | High
+39 | File | `/app/admin/controller/file/File.php` | High
+40 | File | `/app/admin/view/web_user.html` | High
+41 | File | `/app/sys1.php` | High
+42 | File | `/auth/delete_project/` | High
+43 | File | `/bill/add_bill.php` | High
+44 | File | `/boafrm/formDebugDiagnosticRun` | High
+45 | File | `/boafrm/formMapDel` | High
+46 | File | `/boafrm/formMultiAP` | High
+47 | File | `/boafrm/formParentControl` | High
+48 | File | `/boafrm/formWirelessTbl` | High
+49 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

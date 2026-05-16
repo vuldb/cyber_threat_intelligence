@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,19 +64,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/cstecgi.cgi` | High
 5 | File | `/config/pw_changeusers.html` | High
 6 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-7 | File | `/login` | Low
-8 | File | `/php/ajax.php` | High
-9 | File | `/php/ping.php` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/student/project_selection/move_up_project.php` | High
-13 | File | `/sys/user/queryUserComponentData` | High
-14 | File | `/SysInfo1.htm` | High
-15 | File | `/sysinfo_json.cgi` | High
-16 | File | `/system/dictData/loadDictItem` | High
+7 | File | `/dm/dispatch/user/add` | High
+8 | File | `/login` | Low
+9 | File | `/php/ajax.php` | High
+10 | File | `/php/ping.php` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/student/project_selection/move_up_project.php` | High
+14 | File | `/sys/user/queryUserComponentData` | High
+15 | File | `/SysInfo1.htm` | High
+16 | File | `/sysinfo_json.cgi` | High
 17 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

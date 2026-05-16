@@ -51,13 +51,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/admin/testserver.cgi` | High
 3 | File | `/cgi-bin/editBookmark` | High
 4 | File | `/dev/kvm` | Medium
-5 | File | `/goform/RgDdns` | High
-6 | File | `/goform/RgDhcp` | High
-7 | File | `/goform/RGFirewallEL` | High
-8 | File | `/goform/RgTime` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/RgDdns` | High
+7 | File | `/goform/RgDhcp` | High
+8 | File | `/goform/RGFirewallEL` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

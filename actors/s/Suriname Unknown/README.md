@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,64 +63,63 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/Admin/akun_edit.php` | High
 3 | File | `/Admin/changepassword.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/manage_academic.php` | High
-6 | File | `/admin/photo.php` | High
-7 | File | `/admin/theme-edit.php` | High
-8 | File | `/admin/upload.php` | High
-9 | File | `/admin/user/user-move-run.php` | High
-10 | File | `/ajax_city.php` | High
-11 | File | `/anony/mjpg.cgi` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/role` | Medium
-14 | File | `/api/upload.php` | High
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/bill/add_bill.php` | High
-17 | File | `/bin/sh` | Low
-18 | File | `/blog` | Low
-19 | File | `/cgi-bin/download_config.cgi` | High
-20 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-21 | File | `/classes/SystemSettings.php?f=update_settings` | High
-22 | File | `/common/logViewer/logViewer.jsf` | High
-23 | File | `/config/config.json` | High
-24 | File | `/contact/store` | High
-25 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-26 | File | `/cwms/classes/Master.php?f=save_contact` | High
-27 | File | `/dashboard/product` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/devinfo` | Medium
-30 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
-31 | File | `/download` | Medium
-32 | File | `/edit-details.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/addStaProfile` | High
-35 | File | `/goform/apPortalPhoneAuth` | High
-36 | File | `/goform/portRangeForwardAdd` | High
-37 | File | `/goform/qosClassifier` | High
-38 | File | `/goform/setIpv6` | High
-39 | File | `/GponForm/device_Form?script/` | High
-40 | File | `/GponForm/usb_restore_Form?script/` | High
-41 | File | `/homeaction.php` | High
-42 | File | `/index.php/user/login` | High
-43 | File | `/index.php?menu=asterisk_cli` | High
-44 | File | `/login.php` | Medium
-45 | File | `/mgr/upload` | Medium
-46 | File | `/mobileredir/openApp.jsp` | High
-47 | File | `/modules/profile/index.php` | High
-48 | File | `/multi-vendor-shopping-script/product-list.php` | High
-49 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-50 | File | `/p` | Low
-51 | File | `/pg_meta/default/query` | High
-52 | File | `/portal/search.htm` | High
-53 | File | `/preauth` | Medium
-54 | File | `/report,daily.jsp?stime=2023%2F07%2F12&timeOption=yesterday&` | High
-55 | File | `/romfile.cfg` | Medium
-56 | File | `/show_news.php` | High
-57 | File | `/spip.php` | Medium
-58 | File | `/static/ueditor/php/controller.php` | High
-59 | ... | ... | ...
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/images/add` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/manage_academic.php` | High
+8 | File | `/admin/photo.php` | High
+9 | File | `/admin/theme-edit.php` | High
+10 | File | `/admin/upload.php` | High
+11 | File | `/admin/user/user-move-run.php` | High
+12 | File | `/ajax_city.php` | High
+13 | File | `/anony/mjpg.cgi` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/role` | Medium
+16 | File | `/api/upload.php` | High
+17 | File | `/application/index/controller/Databasesource.php` | High
+18 | File | `/bill/add_bill.php` | High
+19 | File | `/bin/sh` | Low
+20 | File | `/blog` | Low
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/cgi-bin/download_config.cgi` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/classes/SystemSettings.php?f=update_settings` | High
+25 | File | `/common/logViewer/logViewer.jsf` | High
+26 | File | `/config/config.json` | High
+27 | File | `/contact/store` | High
+28 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+29 | File | `/cwms/classes/Master.php?f=save_contact` | High
+30 | File | `/dashboard/product` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/devinfo` | Medium
+33 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
+34 | File | `/download` | Medium
+35 | File | `/edit-details.php` | High
+36 | File | `/equipment/get_Information` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/addStaProfile` | High
+39 | File | `/goform/apPortalPhoneAuth` | High
+40 | File | `/goform/portRangeForwardAdd` | High
+41 | File | `/goform/qosClassifier` | High
+42 | File | `/goform/SetDDNSCfg` | High
+43 | File | `/goform/setIpv6` | High
+44 | File | `/GponForm/device_Form?script/` | High
+45 | File | `/GponForm/usb_restore_Form?script/` | High
+46 | File | `/homeaction.php` | High
+47 | File | `/index.php/user/login` | High
+48 | File | `/index.php?menu=asterisk_cli` | High
+49 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+50 | File | `/login.php` | Medium
+51 | File | `/mcp/v1/` | Medium
+52 | File | `/mgr/upload` | Medium
+53 | File | `/mobileredir/openApp.jsp` | High
+54 | File | `/modules/profile/index.php` | High
+55 | File | `/multi-vendor-shopping-script/product-list.php` | High
+56 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+57 | File | `/pfcpiface/pfcpiface/messages_session.go` | High
+58 | ... | ... | ...
 
-There are 515 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

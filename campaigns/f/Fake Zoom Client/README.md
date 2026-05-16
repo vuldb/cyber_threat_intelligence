@@ -44,11 +44,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `log_file_viewer.php` | High
-2 | File | `translation_manage_text.ajax.php` | High
-3 | File | `_account_forgot_password.ajax.php` | High
+2 | File | `tiki-login.php` | High
+3 | File | `translation_manage_text.ajax.php` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

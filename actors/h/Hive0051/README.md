@@ -51,21 +51,21 @@ ID | Type | Indicator | Confidence
 4 | File | `/assets/components/gallery/connector.php` | High
 5 | File | `/cgi-bin/cstecgi.cgi` | High
 6 | File | `/config.cgi?webmin` | High
-7 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-8 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-9 | File | `/export` | Low
-10 | File | `/ext/phar/phar_object.c` | High
-11 | File | `/login` | Low
-12 | File | `/php/ajax.php` | High
-13 | File | `/php/ping.php` | High
-14 | File | `/rapi/read_url` | High
-15 | File | `/scripts/unlock_tasks.php` | High
-16 | File | `/sys/user/queryUserComponentData` | High
-17 | File | `/SysInfo1.htm` | High
-18 | File | `/sysinfo_json.cgi` | High
+7 | File | `/config/pw_changeusers.html` | High
+8 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+9 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+10 | File | `/export` | Low
+11 | File | `/ext/phar/phar_object.c` | High
+12 | File | `/login` | Low
+13 | File | `/php/ajax.php` | High
+14 | File | `/php/ping.php` | High
+15 | File | `/rapi/read_url` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/sys/user/queryUserComponentData` | High
+18 | File | `/SysInfo1.htm` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

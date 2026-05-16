@@ -82,9 +82,10 @@ ID | Type | Indicator | Confidence
 23 | File | `/cgi-bin/nas_sharing.cgi` | High
 24 | File | `/cgi-bin/nightled.cgi` | High
 25 | File | `/cgi-bin/touchlist_sync.cgi` | High
-26 | ... | ... | ...
+26 | File | `/cgi-bin/vitogate.cgi` | High
+27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

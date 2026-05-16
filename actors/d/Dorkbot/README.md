@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,45 +56,47 @@ ID | Type | Indicator | Confidence
 2 | File | `/add_new_supplier.php` | High
 3 | File | `/admin-api/upload_image` | High
 4 | File | `/admin/categories/update` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/process_category_add.php` | High
-7 | File | `/admin/quizquestion.php` | High
-8 | File | `/admin/search-appointment.php` | High
-9 | File | `/admin/subnets/ripe-query.php` | High
-10 | File | `/api/front/search/books` | High
-11 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
-12 | File | `/api/wizard/setsyncpppoecfg` | High
-13 | File | `/app/api/controller/caiji.php` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/buscar_integrada.php` | High
-17 | File | `/bwdates-reports-details.php?vid=2` | High
-18 | File | `/cap.js` | Low
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Users.php` | High
-23 | File | `/config/php.ini` | High
-24 | File | `/core/conditions/AbstractWrapper.java` | High
-25 | File | `/dcim/sites/add/` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/devinfo` | Medium
-28 | File | `/ecrire` | Low
-29 | File | `/endpoint/add-calorie.php` | High
-30 | File | `/export` | Low
-31 | File | `/file?action=download&file` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/openSchedWifi` | High
-35 | File | `/hardware` | Medium
-36 | File | `/importexport.php` | High
-37 | File | `/include/file.php` | High
-38 | File | `/include/makecvs.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/librarian/bookdetails.php` | High
-41 | ... | ... | ...
+5 | File | `/admin/includes/edit_post.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/process_category_add.php` | High
+8 | File | `/admin/quizquestion.php` | High
+9 | File | `/admin/search-appointment.php` | High
+10 | File | `/admin/subnets/ripe-query.php` | High
+11 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
+12 | File | `/api/front/search/books` | High
+13 | File | `/api/mjkj-chat/chat/mng/update/questionCou` | High
+14 | File | `/api/wizard/setsyncpppoecfg` | High
+15 | File | `/app/api/controller/caiji.php` | High
+16 | File | `/application/index/controller/Screen.php` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/bin/httpd` | Medium
+19 | File | `/buscar_integrada.php` | High
+20 | File | `/bwdates-reports-details.php?vid=2` | High
+21 | File | `/cap.js` | Low
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/config/php.ini` | High
+27 | File | `/core/conditions/AbstractWrapper.java` | High
+28 | File | `/dcim/sites/add/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/devinfo` | Medium
+31 | File | `/ecrire` | Low
+32 | File | `/endpoint/add-calorie.php` | High
+33 | File | `/export` | Low
+34 | File | `/file?action=download&file` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/aspForm` | High
+37 | File | `/goform/openSchedWifi` | High
+38 | File | `/hardware` | Medium
+39 | File | `/importexport.php` | High
+40 | File | `/include/file.php` | High
+41 | File | `/include/makecvs.php` | High
+42 | File | `/index.php` | Medium
+43 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

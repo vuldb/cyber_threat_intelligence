@@ -10,7 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CA](https://vuldb.com/?country.ca)
 * [CN](https://vuldb.com/?country.cn)
-* [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
 
@@ -122,12 +121,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1600 | CWE-311, CWE-326 | Cryptographic Issues | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1600 | CWE-311, CWE-326 | Cryptographic Issues | High
+3 | T1600.001 | CWE-320 | Key Management Error | High
 
 ## IOA - Indicator of Attack
 
@@ -135,9 +131,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `AscService.exe` | High
-2 | File | `wallet.dat` | Medium
-3 | File | `\controller\Sitemap.php` | High
+1 | File | `wallet.dat` | Medium
+2 | File | `\controller\Sitemap.php` | High
 
 ## References
 

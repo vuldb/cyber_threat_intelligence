@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +47,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/slideupdate.php` | High
-2 | File | `/ajax.php` | Medium
-3 | File | `/chaincity/user/ticket/create` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/setipsec_config` | High
-6 | File | `/mgmt/tm/util/bash` | High
-7 | File | `/out.php` | Medium
-8 | File | `/royal_event/userregister.php` | High
-9 | ... | ... | ...
+1 | File | `/admin/changeimage.php` | High
+2 | File | `/admin/edit-guard-detail.php` | High
+3 | File | `/admin/slideupdate.php` | High
+4 | File | `/ajax.php` | Medium
+5 | File | `/App/Tpl/Member/Default/Order/index.html.Attackers` | High
+6 | File | `/chaincity/user/ticket/create` | High
+7 | File | `/chatgpt-boot/src/main/java/org/springblade/modules/mjkj/controller/OpenController.java` | High
+8 | File | `/filex/proxy-download` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/setipsec_config` | High
+11 | File | `/LoginRegistration.php` | High
+12 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

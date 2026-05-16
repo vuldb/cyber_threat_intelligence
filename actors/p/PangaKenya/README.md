@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +40,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,34 +52,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adm/ajax.php` | High
-2 | File | `/admin/add-ambulance.php` | High
-3 | File | `/admin/adminHome.php` | High
-4 | File | `/admin/application-bwdates-reports-details.php` | High
-5 | File | `/admin/deluser.php` | High
-6 | File | `/admin/list_crl_conf` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/twitter.php` | High
-9 | File | `/administration/theme.php` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/adminPage/main/upload` | High
-12 | File | `/adminPage/www/addOver` | High
-13 | File | `/admin_class.php` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/system/v2/api-docs` | High
-16 | File | `/api/v2/maps` | Medium
-17 | File | `/application/controller/Pelanggan.php` | High
-18 | File | `/auparse/auparse.c` | High
-19 | File | `/backend/register.php` | High
-20 | File | `/BindAccount/SuccessTips.js` | High
-21 | File | `/classes/Master.php?f=log_employee` | High
-22 | File | `/cms/fileTemplate/form` | High
-23 | File | `/contact.php` | Medium
-24 | File | `/cupseasylive/companymodify.php` | High
-25 | File | `/cupseasylive/grnprint.php` | High
-26 | File | `/dashboard?controller=UserCollection::createUser` | High
-27 | ... | ... | ...
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/add-ambulance.php` | High
+4 | File | `/admin/add_payroll.php` | High
+5 | File | `/admin/adminHome.php` | High
+6 | File | `/admin/application-bwdates-reports-details.php` | High
+7 | File | `/admin/deluser.php` | High
+8 | File | `/admin/list_crl_conf` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/system/variableList.do` | High
+11 | File | `/admin/twitter.php` | High
+12 | File | `/administration/theme.php` | High
+13 | File | `/adminPage/conf/reload` | High
+14 | File | `/adminPage/main/upload` | High
+15 | File | `/adminPage/www/addOver` | High
+16 | File | `/admin_class.php` | High
+17 | File | `/api/stl/actions/search` | High
+18 | File | `/api/system/v2/api-docs` | High
+19 | File | `/api/v2/maps` | Medium
+20 | File | `/application/controller/Pelanggan.php` | High
+21 | File | `/auparse/auparse.c` | High
+22 | File | `/backend/register.php` | High
+23 | File | `/BindAccount/SuccessTips.js` | High
+24 | File | `/classes/Master.php?f=log_employee` | High
+25 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
+26 | File | `/cms/fileTemplate/form` | High
+27 | File | `/contact.php` | Medium
+28 | File | `/cupseasylive/companymodify.php` | High
+29 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

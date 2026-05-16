@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -76,20 +76,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-update-employee.php` | High
-2 | File | `/admin/emp-profile-avatar.php` | High
-3 | File | `/admin/manage-ambulance.php` | High
-4 | File | `/admin/manage_station.php` | High
-5 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-6 | File | `/category.php` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/classes/SystemSettings.php?f=update_settings` | High
-10 | File | `/control/register_case.php` | High
-11 | File | `/foms/routers/place-order.php` | High
-12 | ... | ... | ...
+1 | File | `/adm/index.php` | High
+2 | File | `/admin/admin-update-employee.php` | High
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/manage-ambulance.php` | High
+6 | File | `/admin/manage_station.php` | High
+7 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+8 | File | `/billaction.php` | High
+9 | File | `/category.php` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/SystemSettings.php?f=update_settings` | High
+13 | File | `/control/register_case.php` | High
+14 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

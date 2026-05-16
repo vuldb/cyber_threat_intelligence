@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,65 +50,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.php.gif` | Medium
-3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/admin/aboutus.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/create_product.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/forgot-password.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/lab.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/show.php` | High
-16 | File | `/api/json/admin/getmailserversettings` | High
-17 | File | `/api/wizard/setsyncpppoecfg` | High
-18 | File | `/backend/register.php` | High
-19 | File | `/boat/login.php` | High
-20 | File | `/clinic/disease_symptoms_view.php` | High
-21 | File | `/config-manager/save` | High
-22 | File | `/dashboard/menu-list.php` | High
-23 | File | `/dashboard/table-list.php` | High
-24 | File | `/database.php` | High
-25 | File | `/default.php?idx=17` | High
-26 | File | `/doctor/view-appointment-detail.php` | High
-27 | File | `/download` | Medium
-28 | File | `/downloadFile.php` | High
-29 | File | `/edit-client-details.php` | High
-30 | File | `/env` | Low
-31 | File | `/forum/away.php` | High
-32 | File | `/home.php` | Medium
-33 | File | `/include/file.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/member.php?action=chgpwdsubmit` | High
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/multi-vendor-shopping-script/product-list.php` | High
-39 | File | `/opt/bin/cli` | Medium
-40 | File | `/p` | Low
-41 | File | `/patient/doctors.php` | High
-42 | File | `/phpinventory/editcategory.php` | High
-43 | File | `/product-list.php` | High
-44 | File | `/products/view_product.php` | High
-45 | File | `/rest/api/2/user/picker` | High
-46 | File | `/RestAPI` | Medium
-47 | File | `/spip.php` | Medium
-48 | File | `/uncpath/` | Medium
-49 | File | `/updown/upload.cgi` | High
-50 | File | `/user/del.php` | High
-51 | File | `/usr/sbin/httpd` | High
-52 | File | `/web_cste/cgi-bin/product.ini` | High
-53 | File | `/wp-admin/admin-ajax.php` | High
-54 | File | `/_next` | Low
-55 | File | `123flashchat.php` | High
-56 | File | `act.php` | Low
-57 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.htaccess` | Medium
+3 | File | `.php.gif` | Medium
+4 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
+5 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+6 | File | `/admin/aboutus.php` | High
+7 | File | `/admin/add-services.php` | High
+8 | File | `/admin/ajax/avatar.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/lab.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/payment.php` | High
+16 | File | `/admin/show.php` | High
+17 | File | `/admin/update_user.php` | High
+18 | File | `/api/json/admin/getmailserversettings` | High
+19 | File | `/api/wizard/setsyncpppoecfg` | High
+20 | File | `/backend/register.php` | High
+21 | File | `/boafrm/formDebugDiagnosticRun` | High
+22 | File | `/boat/login.php` | High
+23 | File | `/clinic/disease_symptoms_view.php` | High
+24 | File | `/config-manager/save` | High
+25 | File | `/dashboard/menu-list.php` | High
+26 | File | `/dashboard/schools/1/edit` | High
+27 | File | `/dashboard/table-list.php` | High
+28 | File | `/database.php` | High
+29 | File | `/default.php?idx=17` | High
+30 | File | `/doctor/view-appointment-detail.php` | High
+31 | File | `/download` | Medium
+32 | File | `/downloadFile.php` | High
+33 | File | `/edit-client-details.php` | High
+34 | File | `/env` | Low
+35 | File | `/forum/away.php` | High
+36 | File | `/home.php` | Medium
+37 | File | `/include/file.php` | High
+38 | File | `/index.php` | Medium
+39 | File | `/librarian/bookdetails.php` | High
+40 | File | `/member.php?action=chgpwdsubmit` | High
+41 | File | `/modules/profile/index.php` | High
+42 | File | `/multi-vendor-shopping-script/product-list.php` | High
+43 | File | `/opt/bin/cli` | Medium
+44 | File | `/p` | Low
+45 | File | `/patient/doctors.php` | High
+46 | File | `/php/api_patient_schedule.php` | High
+47 | File | `/phpinventory/editcategory.php` | High
+48 | File | `/product-list.php` | High
+49 | File | `/product.php` | Medium
+50 | File | `/products/view_product.php` | High
+51 | File | `/rest/api/2/user/picker` | High
+52 | File | `/RestAPI` | Medium
+53 | File | `/spip.php` | Medium
+54 | File | `/uncpath/` | Medium
+55 | File | `/updown/upload.cgi` | High
+56 | File | `/user/del.php` | High
+57 | File | `/usr/sbin/httpd` | High
+58 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

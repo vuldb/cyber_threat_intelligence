@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Orangeworm:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
 
 ## IOC - Indicator of Compromise
@@ -37,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,42 +49,47 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/.htpasswd` | Medium
 3 | File | `//etc/RT2870STA.dat` | High
-4 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-5 | File | `/admin_ping.htm` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/user/{ID}` | High
-9 | File | `/bin/proc.cgi` | High
-10 | File | `/CFIDE/probe.cfm` | High
-11 | File | `/cgi-bin/login_action.cgi` | High
-12 | File | `/data/vendor/tcl` | High
-13 | File | `/download` | Medium
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/files.md5` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/goform/` | Medium
-20 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-21 | File | `/install_extension` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/modules/registration_admission/patient_register.php` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/rest/api/2/user/picker` | High
-27 | File | `/sbin/acos_service` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-32 | File | `/sys/kernel/notes` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/userRpm/WanSlaacCfgRpm.htm` | High
-35 | File | `/user_dashboard/donor.php` | High
-36 | File | `/usr/bin/pkexec` | High
-37 | ... | ... | ...
+4 | File | `/admin/aboutus.php` | High
+5 | File | `/admin/archives/edit` | High
+6 | File | `/admin/articles/add` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/offenses/view_details.php` | High
+9 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+10 | File | `/admin/templets_one_edit.php` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/api/file` | Medium
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/user/{ID}` | High
+16 | File | `/basico/webservice/imprimir-danfe/id/` | High
+17 | File | `/bin/proc.cgi` | High
+18 | File | `/CFIDE/probe.cfm` | High
+19 | File | `/cgi-bin/login_action.cgi` | High
+20 | File | `/data/vendor/tcl` | High
+21 | File | `/dev-api/cms/file/read` | High
+22 | File | `/download` | Medium
+23 | File | `/educacenso/consulta` | High
+24 | File | `/etc/tomcat8/Catalina/attack` | High
+25 | File | `/files.md5` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/funiture-master/src/main/java/com/app/mvc/acl/servlet/LoginServlet.java` | High
+28 | File | `/getcfg.php` | Medium
+29 | File | `/goform/` | Medium
+30 | File | `/goform/form2lansetup.cgi` | High
+31 | File | `/goform/formConfigNoticeConfig` | High
+32 | File | `/goform/formWlSiteSurvey` | High
+33 | File | `/goform/modules` | High
+34 | File | `/goform/singlePortForwardAdd` | High
+35 | File | `/H5/netconfig.asp` | High
+36 | File | `/index` | Low
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+39 | File | `/install_extension` | High
+40 | File | `/modules/profile/index.php` | High
+41 | File | `/modules/registration_admission/patient_register.php` | High
+42 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

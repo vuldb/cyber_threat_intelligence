@@ -51,26 +51,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Adm/OperatorStop` | High
 2 | File | `/admin/edit_product.php` | High
-3 | File | `/admin/user/updatePwd` | High
-4 | File | `/api.php` | Medium
-5 | File | `/api/system/sendWebSocketMsg` | High
-6 | File | `/application/controllers/Marks.php` | High
-7 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/data` | Low
-10 | File | `/dicionario-de-termos-bncc` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/mcr_setSysAdm` | High
-13 | File | `/htdocs/api/playlist/playsinglefile.php` | High
-14 | File | `/htdocs/api/playlist/single.php` | High
-15 | File | `/htdocs/cardRegisterNew.php` | High
-16 | File | `/htdocs/manageFilesFolders.php` | High
-17 | File | `/htdocs/userScripts.php` | High
-18 | File | `/intranet/educar_turma_tipo_cad.php` | High
-19 | File | `/live_online.shtml` | High
+3 | File | `/admin/search-invoices.php` | High
+4 | File | `/admin/user/updatePwd` | High
+5 | File | `/api.php` | Medium
+6 | File | `/api/system/sendWebSocketMsg` | High
+7 | File | `/application/controllers/Marks.php` | High
+8 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/data` | Low
+11 | File | `/dicionario-de-termos-bncc` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/mcr_setSysAdm` | High
+14 | File | `/htdocs/api/playlist/playsinglefile.php` | High
+15 | File | `/htdocs/api/playlist/single.php` | High
+16 | File | `/htdocs/cardRegisterNew.php` | High
+17 | File | `/htdocs/manageFilesFolders.php` | High
+18 | File | `/htdocs/userScripts.php` | High
+19 | File | `/intranet/educar_turma_tipo_cad.php` | High
 20 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

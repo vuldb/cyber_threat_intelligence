@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -72,87 +72,90 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/account/delivery` | High
 3 | File | `/accounts_con/register_account` | High
-4 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/?page=reminders/view_reminder` | High
-7 | File | `/admin/?page=user/list` | High
-8 | File | `/admin/action/update-deworm.php` | High
-9 | File | `/admin/add_user_modal.php` | High
-10 | File | `/admin/admin-profile.php` | High
-11 | File | `/admin/article/article-edit-run.php` | High
-12 | File | `/admin/complaint-search.php` | High
-13 | File | `/admin/courses/view_course.php` | High
-14 | File | `/admin/del_category.php` | High
-15 | File | `/admin/edit-admin.php` | High
-16 | File | `/admin/edit_class.php` | High
-17 | File | `/admin/edit_department.php` | High
-18 | File | `/admin/edit_product.php` | High
-19 | File | `/admin/edit_supplier.php` | High
-20 | File | `/admin/forget-password.php` | High
-21 | File | `/admin/forgot-password.php` | High
-22 | File | `/admin/index.php` | High
-23 | File | `/admin/invoice.php` | High
-24 | File | `/admin/leancloud.php` | High
-25 | File | `/Admin/login.php` | High
-26 | File | `/admin/maintenance/view_designation.php` | High
-27 | File | `/admin/modal_add_product.php` | High
-28 | File | `/admin/orders/update_status.php` | High
-29 | File | `/admin/orders/view_order.php` | High
-30 | File | `/admin/process_category_add.php` | High
-31 | File | `/admin/settings/` | High
-32 | File | `/admin/students/manage_academic.php` | High
-33 | File | `/admin/sys_sql_query.php` | High
-34 | File | `/admin/theme-edit.php` | High
-35 | File | `/admin/update-clients.php` | High
-36 | File | `/admin/userprofile.php` | High
-37 | File | `/adminlogin.php` | High
-38 | File | `/ajax.php?action=delete_block` | High
-39 | File | `/ajax.php?action=delete_user` | High
-40 | File | `/api/controllers/admin/app/ComboController.php` | High
-41 | File | `/api/controllers/common/UploadsController.php` | High
-42 | File | `/api/esps` | Medium
-43 | File | `/api/log/killJob` | High
-44 | File | `/api/login/auth` | High
-45 | File | `/Api/TinyMce/UploadAjax.ashx` | High
-46 | File | `/api/v1/admin/` | High
-47 | File | `/application/index/common.php` | High
-48 | File | `/application/index/controller/Pay.php` | High
-49 | File | `/application/index/controller/Screen.php` | High
-50 | File | `/application/index/controller/Unity.php` | High
-51 | File | `/apply/index.php` | High
-52 | File | `/author_posts.php` | High
-53 | File | `/bank/transfer.php` | High
-54 | File | `/blog` | Low
-55 | File | `/book-services.php` | High
-56 | File | `/booking/show_bookings/` | High
-57 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-58 | File | `/carrental/search.php` | High
-59 | File | `/cas/logout` | Medium
-60 | File | `/category.php` | High
-61 | File | `/cgi-bin/cstecgi.cgi` | High
-62 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-63 | File | `/cgi-bin/mainfunction.cgi` | High
-64 | File | `/change-language/de_DE` | High
-65 | File | `/classes/Login.php` | High
-66 | File | `/classes/Master.php?f=delete_service` | High
-67 | File | `/classes/Master.php?f=save_inquiry` | High
-68 | File | `/classes/Master.php?f=save_item` | High
-69 | File | `/classes/Users.php?f=save` | High
-70 | File | `/confirmbooking.php` | High
-71 | File | `/contact/store` | High
-72 | File | `/dashboard/admin/gen_invoice.php` | High
-73 | File | `/dashboard/admin/new_submit.php` | High
-74 | File | `/download` | Medium
-75 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-76 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-77 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-78 | File | `/dws/api/` | Medium
-79 | File | `/ecommerce/support_ticket` | High
-80 | File | `/edit.php` | Medium
-81 | File | `/Employer/ManageJob.php` | High
-82 | ... | ... | ...
+4 | File | `/actuator` | Medium
+5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/?page=reminders/view_reminder` | High
+8 | File | `/admin/?page=user/list` | High
+9 | File | `/admin/action/update-deworm.php` | High
+10 | File | `/admin/add-artist.php` | High
+11 | File | `/admin/add_user_modal.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+14 | File | `/admin/article/article-edit-run.php` | High
+15 | File | `/admin/bwdates-reports-details.php` | High
+16 | File | `/admin/complaint-search.php` | High
+17 | File | `/admin/courses/view_course.php` | High
+18 | File | `/admin/del_category.php` | High
+19 | File | `/admin/edit-admin.php` | High
+20 | File | `/admin/edit_class.php` | High
+21 | File | `/admin/edit_department.php` | High
+22 | File | `/admin/edit_product.php` | High
+23 | File | `/admin/edit_supplier.php` | High
+24 | File | `/admin/forget-password.php` | High
+25 | File | `/admin/forgot-password.php` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/invoice.php` | High
+28 | File | `/admin/leancloud.php` | High
+29 | File | `/Admin/login.php` | High
+30 | File | `/admin/login.php` | High
+31 | File | `/admin/maintenance/view_designation.php` | High
+32 | File | `/admin/modal_add_product.php` | High
+33 | File | `/admin/orders/update_status.php` | High
+34 | File | `/admin/orders/view_order.php` | High
+35 | File | `/admin/process_category_add.php` | High
+36 | File | `/admin/settings/` | High
+37 | File | `/admin/students/manage_academic.php` | High
+38 | File | `/admin/sys_sql_query.php` | High
+39 | File | `/admin/theme-edit.php` | High
+40 | File | `/admin/update-clients.php` | High
+41 | File | `/admin/userprofile.php` | High
+42 | File | `/adminlogin.php` | High
+43 | File | `/ajax.php?action=delete_block` | High
+44 | File | `/ajax.php?action=delete_user` | High
+45 | File | `/api/controllers/admin/app/ComboController.php` | High
+46 | File | `/api/controllers/common/UploadsController.php` | High
+47 | File | `/api/esps` | Medium
+48 | File | `/api/log/killJob` | High
+49 | File | `/api/login/auth` | High
+50 | File | `/Api/TinyMce/UploadAjax.ashx` | High
+51 | File | `/api/v1/admin/` | High
+52 | File | `/application/index/common.php` | High
+53 | File | `/application/index/controller/Pay.php` | High
+54 | File | `/application/index/controller/Screen.php` | High
+55 | File | `/application/index/controller/Unity.php` | High
+56 | File | `/apply/index.php` | High
+57 | File | `/author_posts.php` | High
+58 | File | `/bank/transfer.php` | High
+59 | File | `/blog` | Low
+60 | File | `/book-services.php` | High
+61 | File | `/booking/show_bookings/` | High
+62 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+63 | File | `/carrental/search.php` | High
+64 | File | `/cas/logout` | Medium
+65 | File | `/category.php` | High
+66 | File | `/cgi-bin/cstecgi.cgi` | High
+67 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+68 | File | `/cgi-bin/mainfunction.cgi` | High
+69 | File | `/change-language/de_DE` | High
+70 | File | `/classes/Login.php` | High
+71 | File | `/classes/Master.php?f=delete_service` | High
+72 | File | `/classes/Master.php?f=save_inquiry` | High
+73 | File | `/classes/Master.php?f=save_item` | High
+74 | File | `/classes/Users.php?f=save` | High
+75 | File | `/confirmbooking.php` | High
+76 | File | `/contact/store` | High
+77 | File | `/dashboard/admin/gen_invoice.php` | High
+78 | File | `/dashboard/admin/new_submit.php` | High
+79 | File | `/download` | Medium
+80 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+81 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+82 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+83 | File | `/dws/api/` | Medium
+84 | File | `/ecommerce/support_ticket` | High
+85 | ... | ... | ...
 
-There are 727 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 747 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -174,4 +177,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

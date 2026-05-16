@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -98,46 +98,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/update/getFile.html` | High
-2 | File | `/admin/addgiving.php` | High
-3 | File | `/admin/add_title.php` | High
-4 | File | `/admin/admin-area.php` | High
-5 | File | `/admin/booking-search.php` | High
-6 | File | `/admin/edit-class.php` | High
-7 | File | `/admin/index.php?page=manage_lot` | High
-8 | File | `/admin/index3.php` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/msg.php` | High
-11 | File | `/admin/pages/subjects.php` | High
-12 | File | `/admin/patient-search.php` | High
-13 | File | `/admin/process_category_add.php` | High
-14 | File | `/admin/registration.php` | High
-15 | File | `/admin/userprofile.php` | High
-16 | File | `/admin/users-applications.php` | High
-17 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-18 | File | `/ajax.php?action=save_plan` | High
-19 | File | `/analysisProject/pagingQueryData` | High
-20 | File | `/api/api.php?mod=upload&type=1` | High
-21 | File | `/api/export/exportResources` | High
-22 | File | `/api/system/other` | High
-23 | File | `/app/admin/view/web_user.html` | High
-24 | File | `/app/middleware/TokenVerify.php` | High
-25 | File | `/app/sys1.php` | High
-26 | File | `/attendancelist.php` | High
-27 | File | `/auth/delete_project/` | High
-28 | File | `/bill/add_bill.php` | High
-29 | File | `/blog` | Low
-30 | File | `/boafrm/formFilter` | High
-31 | File | `/boafrm/formParentControl` | High
-32 | File | `/book-appointment.php` | High
-33 | File | `/bwdates-report-ds.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-36 | File | `/cgi-bin/nas_sharing.cgi` | High
-37 | File | `/cgi-bin/s3.cgi` | High
-38 | ... | ... | ...
+1 | File | `/addstock.php` | High
+2 | File | `/admin.php/update/getFile.html` | High
+3 | File | `/admin/addgiving.php` | High
+4 | File | `/admin/add_title.php` | High
+5 | File | `/admin/admin-area.php` | High
+6 | File | `/admin/ajax.php?action=save_vacancy` | High
+7 | File | `/admin/booking-search.php` | High
+8 | File | `/admin/courses/manage_course.php` | High
+9 | File | `/admin/edit-class.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index.php?page=manage_lot` | High
+12 | File | `/admin/index3.php` | High
+13 | File | `/admin/list_ipAddressPolicy.php` | High
+14 | File | `/Admin/login.php` | High
+15 | File | `/admin/msg.php` | High
+16 | File | `/admin/pages/subjects.php` | High
+17 | File | `/admin/patient-search.php` | High
+18 | File | `/admin/process_category_add.php` | High
+19 | File | `/admin/registration.php` | High
+20 | File | `/admin/userprofile.php` | High
+21 | File | `/admin/users-applications.php` | High
+22 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+23 | File | `/ajax.php?action=save_plan` | High
+24 | File | `/analysisProject/pagingQueryData` | High
+25 | File | `/api/api.php?mod=upload&type=1` | High
+26 | File | `/api/export/exportResources` | High
+27 | File | `/api/system/other` | High
+28 | File | `/app/admin/view/web_user.html` | High
+29 | File | `/app/middleware/TokenVerify.php` | High
+30 | File | `/app/sys1.php` | High
+31 | File | `/attendancelist.php` | High
+32 | File | `/auth/delete_project/` | High
+33 | File | `/bill/add_bill.php` | High
+34 | File | `/blog` | Low
+35 | File | `/boafrm/formDebugDiagnosticRun` | High
+36 | File | `/boafrm/formFilter` | High
+37 | File | `/boafrm/formParentControl` | High
+38 | File | `/book-appointment.php` | High
+39 | File | `/bwdates-report-ds.php` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

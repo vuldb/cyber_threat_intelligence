@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,27 +66,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
 2 | File | `/add_contestant.php` | High
-3 | File | `/admin/role` | Medium
-4 | File | `/admin/settings.php` | High
-5 | File | `/ajax` | Low
-6 | File | `/ajax.php?action=save_station` | High
-7 | File | `/api/admin/store/product/save` | High
-8 | File | `/app/sys1.php` | High
-9 | File | `/bin/sh` | Low
-10 | File | `/cgi-bin/adm.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/conv/community` | High
-13 | File | `/customer_support/ajax.php?action=save_ticket` | High
-14 | File | `/editar-cliente.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/GetParentControlInfo` | High
-17 | File | `/goform/RP_checkFWByBBS` | High
-18 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
-19 | File | `/index/ajax/lang` | High
-20 | File | `/ipms/imageConvert/image` | High
-21 | ... | ... | ...
+3 | File | `/admin/admin_feature.php` | High
+4 | File | `/admin/goods/update` | High
+5 | File | `/admin/role` | Medium
+6 | File | `/admin/settings.php` | High
+7 | File | `/ajax` | Low
+8 | File | `/ajax.php?action=save_station` | High
+9 | File | `/api/admin/store/product/save` | High
+10 | File | `/app/sys1.php` | High
+11 | File | `/bin/sh` | Low
+12 | File | `/cgi-bin/adm.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/conv/community` | High
+15 | File | `/customer_support/ajax.php?action=save_ticket` | High
+16 | File | `/editAgent.php` | High
+17 | File | `/editar-cliente.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/GetParentControlInfo` | High
+20 | File | `/goform/RP_checkFWByBBS` | High
+21 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+22 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

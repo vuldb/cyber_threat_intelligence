@@ -83,29 +83,30 @@ ID | Type | Indicator | Confidence
 25 | File | `/etc/hosts.deny` | High
 26 | File | `/etc/shadow` | Medium
 27 | File | `/file-upload` | Medium
-28 | File | `/goform/addressNat` | High
-29 | File | `/goform/wifiSSIDset` | High
-30 | File | `/HNAP1/` | Low
-31 | File | `/install/index.php` | High
-32 | File | `/itbox_pi/networksafe.php?a=set` | High
-33 | File | `/log/download.php` | High
-34 | File | `/login/signOut` | High
-35 | File | `/main/fileupload.php` | High
-36 | File | `/manage_sy.php` | High
-37 | File | `/mee/login` | Medium
-38 | File | `/mtd` | Low
-39 | File | `/mygym/admin/index.php?view_exercises` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/oa/setup/setup.jsp` | High
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/pg_meta/default/query` | High
-44 | File | `/portal/search.htm` | High
-45 | File | `/product-details.php` | High
-46 | File | `/product/savenewproduct.php?flag=1` | High
-47 | File | `/protocol/iscuser/uploadiscuser.php` | High
-48 | ... | ... | ...
+28 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+29 | File | `/goform/addressNat` | High
+30 | File | `/goform/wifiSSIDset` | High
+31 | File | `/HNAP1/` | Low
+32 | File | `/install/index.php` | High
+33 | File | `/itbox_pi/networksafe.php?a=set` | High
+34 | File | `/log/download.php` | High
+35 | File | `/login/signOut` | High
+36 | File | `/main/fileupload.php` | High
+37 | File | `/manage_sy.php` | High
+38 | File | `/mee/login` | Medium
+39 | File | `/mtd` | Low
+40 | File | `/mygym/admin/index.php?view_exercises` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+42 | File | `/oa/setup/setup.jsp` | High
+43 | File | `/oauth/idp/.well-known/openid-configuration` | High
+44 | File | `/ogre/OgreMain/src/OgreLogManager.cpp` | High
+45 | File | `/pg_meta/default/query` | High
+46 | File | `/portal/search.htm` | High
+47 | File | `/product-details.php` | High
+48 | File | `/product/savenewproduct.php?flag=1` | High
+49 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

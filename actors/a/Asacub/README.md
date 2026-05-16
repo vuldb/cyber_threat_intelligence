@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,16 +51,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/.vnc/sesman_${username}_passwd` | High
 3 | File | `/ajax-files/postComment.php` | High
 4 | File | `/cgi-bin/editBookmark` | High
-5 | File | `/etc/luminex/pkgmgr` | High
-6 | File | `/goform/langSwitch` | High
-7 | File | `/rom-0` | Low
-8 | File | `/settings/account` | High
-9 | File | `/tmp/tardiff-$` | High
-10 | File | `add.php` | Low
-11 | File | `add_comment.php` | High
+5 | File | `/devinfo` | Medium
+6 | File | `/etc/luminex/pkgmgr` | High
+7 | File | `/goform/langSwitch` | High
+8 | File | `/rom-0` | Low
+9 | File | `/settings/account` | High
+10 | File | `/tmp/tardiff-$` | High
+11 | File | `add.php` | Low
 12 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

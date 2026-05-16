@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,10 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,22 +73,22 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/ajax.php?action=login` | High
 9 | File | `/admin/ajax.php?action=save_settings` | High
 10 | File | `/admin/ajax.php?action=save_student` | High
-11 | File | `/admin/forgot-password.php` | High
-12 | File | `/admin/get_price.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/manage_station.php` | High
-15 | File | `/admin/search-medicalcard.php` | High
-16 | File | `/ajax.php?action=login` | High
-17 | File | `/ajax/get_patient_history.php` | High
-18 | File | `/animalsupdate.php` | High
-19 | File | `/authMonitCallcenter` | High
-20 | File | `/b2b-supermarket/shopping-cart` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/classes/Master.php?f=save_package` | High
+11 | File | `/admin/delete_activity.php` | High
+12 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/get_price.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/manage_station.php` | High
+16 | File | `/admin/search-medicalcard.php` | High
+17 | File | `/ajax.php?action=login` | High
+18 | File | `/ajax/get_patient_history.php` | High
+19 | File | `/animalsupdate.php` | High
+20 | File | `/authMonitCallcenter` | High
+21 | File | `/b2b-supermarket/shopping-cart` | High
+22 | File | `/bin/main` | Medium
+23 | File | `/cgi-bin/cstecgi.cgi` | High
 24 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -37,7 +37,7 @@ ID | IP address | Hostname | Actor | Confidence
 4 | [59.22.167.217](https://vuldb.com/?ip.59.22.167.217) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -111,6 +111,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://asec.ahnlab.com/en/52899/
 * https://asec.ahnlab.com/en/53267/
+* https://bazaar.abuse.ch/sample/91a2945d99ee794a0461427a14ca731187b8143b847b85993ea7d5367c2c1c0c/
 * https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
 * https://threatfox.abuse.ch
 * https://twitter.com/suyog41/status/1655524692164214784

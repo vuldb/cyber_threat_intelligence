@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IR](https://vuldb.com/?country.ir)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,10 +24,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [23.27.24.238](https://vuldb.com/?ip.23.27.24.238) | - | - | High
 2 | [38.54.17.43](https://vuldb.com/?ip.38.54.17.43) | - | - | High
 3 | [38.60.203.20](https://vuldb.com/?ip.38.60.203.20) | - | - | High
-4 | [38.246.73.120](https://vuldb.com/?ip.38.246.73.120) | - | - | High
-5 | ... | ... | ... | ...
+4 | [38.211.230.5](https://vuldb.com/?ip.38.211.230.5) | - | - | High
+5 | [38.246.73.120](https://vuldb.com/?ip.38.246.73.120) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,16 +50,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/baskets/{name}` | High
-2 | File | `/bin/httpd` | Medium
-3 | File | `/dashboard/Cinvoice/manage_invoice` | High
-4 | File | `/display/map` | Medium
-5 | File | `/ecrire` | Low
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/RP_checkCredentialsByBBS` | High
+1 | File | `/admin/add_teacher.php` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/bin/httpd` | Medium
+4 | File | `/dashboard/Cinvoice/manage_invoice` | High
+5 | File | `/display/map` | Medium
+6 | File | `/ecrire` | Low
+7 | File | `/forum/away.php` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

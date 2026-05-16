@@ -73,12 +73,12 @@ ID | Type | Indicator | Confidence
 18 | File | `/forgot-password.php` | High
 19 | File | `/forum/away.php` | High
 20 | File | `/goform/QuickIndex` | High
-21 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-22 | File | `/handgunner-administrator/register_code.php` | High
-23 | File | `/index.php` | Medium
+21 | File | `/goform/SetDevNetName` | High
+22 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+23 | File | `/handgunner-administrator/register_code.php` | High
 24 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

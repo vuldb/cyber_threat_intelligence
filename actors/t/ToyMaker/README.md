@@ -96,43 +96,44 @@ ID | Type | Indicator | Confidence
 45 | File | `/admin/suppliers/view_details.php` | High
 46 | File | `/admin/sys_sql_query.php` | High
 47 | File | `/admin/vacancy/index.php` | High
-48 | File | `/admin_route/inc_service_credits.php` | High
-49 | File | `/ajax.php?action=read_msg` | High
-50 | File | `/api.php` | Medium
-51 | File | `/api/sys/login` | High
-52 | File | `/api/sys/set_passwd` | High
-53 | File | `/api/wechat/app_auth` | High
-54 | File | `/app/api/controller/default/Sqlite.php` | High
-55 | File | `/app/middleware/TokenVerify.php` | High
-56 | File | `/application/index/controller/Databasesource.php` | High
-57 | File | `/application/index/controller/File.php` | High
-58 | File | `/application/index/controller/Icon.php` | High
-59 | File | `/application/index/controller/Screen.php` | High
-60 | File | `/application/index/controller/Unity.php` | High
-61 | File | `/application/pay/controller/Api.php` | High
-62 | File | `/application/plugins/controller/Upload.php` | High
-63 | File | `/application/websocket/controller/Setting.php` | High
-64 | File | `/apply/index.php` | High
-65 | File | `/apps/login_auth.php` | High
-66 | File | `/apps/system/api/user.go` | High
-67 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-68 | File | `/artist-display.php` | High
-69 | File | `/assets/php/upload.php` | High
-70 | File | `/auth/auth.php?user=1` | High
-71 | File | `/author/list?limit=10&offset=0&order=desc` | High
-72 | File | `/b2b-supermarket/shopping-cart` | High
-73 | File | `/bin/boa` | Medium
-74 | File | `/blog` | Low
-75 | File | `/boafrm/formFilter` | High
-76 | File | `/boafrm/formMapDelDevice` | High
-77 | File | `/browse` | Low
-78 | File | `/bsms_ci/index.php` | High
-79 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-80 | File | `/cancel.php` | Medium
-81 | File | `/cas/logout` | Medium
-82 | ... | ... | ...
+48 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+49 | File | `/admin_route/inc_service_credits.php` | High
+50 | File | `/ajax.php?action=read_msg` | High
+51 | File | `/api.php` | Medium
+52 | File | `/api/sys/login` | High
+53 | File | `/api/sys/set_passwd` | High
+54 | File | `/api/wechat/app_auth` | High
+55 | File | `/app/api/controller/default/Sqlite.php` | High
+56 | File | `/app/middleware/TokenVerify.php` | High
+57 | File | `/application/index/controller/Databasesource.php` | High
+58 | File | `/application/index/controller/File.php` | High
+59 | File | `/application/index/controller/Icon.php` | High
+60 | File | `/application/index/controller/Screen.php` | High
+61 | File | `/application/index/controller/Unity.php` | High
+62 | File | `/application/pay/controller/Api.php` | High
+63 | File | `/application/plugins/controller/Upload.php` | High
+64 | File | `/application/websocket/controller/Setting.php` | High
+65 | File | `/apply/index.php` | High
+66 | File | `/apps/login_auth.php` | High
+67 | File | `/apps/system/api/user.go` | High
+68 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+69 | File | `/artist-display.php` | High
+70 | File | `/assets/php/upload.php` | High
+71 | File | `/auth/auth.php?user=1` | High
+72 | File | `/author/list?limit=10&offset=0&order=desc` | High
+73 | File | `/b2b-supermarket/shopping-cart` | High
+74 | File | `/bin/boa` | Medium
+75 | File | `/blog` | Low
+76 | File | `/boafrm/formFilter` | High
+77 | File | `/boafrm/formMapDelDevice` | High
+78 | File | `/browse` | Low
+79 | File | `/bsms_ci/index.php` | High
+80 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+81 | File | `/cancel.php` | Medium
+82 | File | `/cas/logout` | Medium
+83 | ... | ... | ...
 
-There are 721 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 728 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +150,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

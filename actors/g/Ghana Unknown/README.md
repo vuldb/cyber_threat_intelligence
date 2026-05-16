@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ghana Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -161,7 +161,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
@@ -173,22 +173,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=products/view_product` | High
-2 | File | `/admin/auto-taxi-entry-detail.php` | High
-3 | File | `/admin/candidates_add.php` | High
-4 | File | `/admin/edit-services.php` | High
-5 | File | `/admin/products/view_product.php` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/boafrm/formPortFw` | High
-9 | File | `/cancelbookingpatient.php` | High
-10 | File | `/change_pass/forgot_password_sql.php` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/control/add_act.php` | High
-13 | File | `/control/login.php` | High
-14 | File | `/cusfindambulence2.php` | High
-15 | ... | ... | ...
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+4 | File | `/admin/article/add/do` | High
+5 | File | `/admin/auto-taxi-entry-detail.php` | High
+6 | File | `/admin/candidates_add.php` | High
+7 | File | `/admin/edit-services.php` | High
+8 | File | `/admin/products/view_product.php` | High
+9 | File | `/admin/role` | Medium
+10 | File | `/admin/search.php` | High
+11 | File | `/ajax.php?action=delete_customer` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/wizard/getCapability` | High
+14 | File | `/bin/httpd` | Medium
+15 | File | `/boafrm/formPortFw` | High
+16 | File | `/cancelbookingpatient.php` | High
+17 | File | `/change_pass/forgot_password_sql.php` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -208,4 +212,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

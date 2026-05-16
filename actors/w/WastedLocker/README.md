@@ -51,39 +51,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/video/list` | High
-6 | File | `/ajax.php?action=update_account` | High
-7 | File | `/bdswebui/assignusers/` | High
-8 | File | `/cgi-bin-sdb/` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-11 | File | `/course.php` | Medium
-12 | File | `/dev/snd/seq` | Medium
-13 | File | `/dl/dl_sendmail.php` | High
-14 | File | `/ecommerce/admin/products/controller.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/qci/answers` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/function/booksave.php` | High
-19 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-20 | File | `/goform/SysToolChangePwd` | High
-21 | File | `/H5/versionupdate.data` | High
-22 | File | `/horde/util/go.php` | High
-23 | File | `/login.html` | Medium
-24 | File | `/manage_laundry.php` | High
-25 | File | `/pictory/php/getFileList.php` | High
-26 | File | `/proxy` | Low
-27 | File | `/rental/ajax.php?action=delete_tenant` | High
-28 | File | `/romfile.cfg` | Medium
-29 | File | `/see_more_details.php` | High
-30 | File | `/so.php` | Low
-31 | File | `/SysInfo.htm` | Medium
-32 | File | `/tmp` | Low
-33 | ... | ... | ...
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/admin_manage/delete` | High
+5 | File | `/admin/edit-ambulance.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/video/list` | High
+8 | File | `/ajax.php?action=update_account` | High
+9 | File | `/auth/user/all.api` | High
+10 | File | `/bdswebui/assignusers/` | High
+11 | File | `/cgformTemplateController.do?doAdd` | High
+12 | File | `/cgi-bin-sdb/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+15 | File | `/course.php` | Medium
+16 | File | `/dev/snd/seq` | Medium
+17 | File | `/dl/dl_sendmail.php` | High
+18 | File | `/ecommerce/admin/products/controller.php` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/etc/qci/answers` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/function/booksave.php` | High
+23 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+24 | File | `/goform/GetParentControlInfo` | High
+25 | File | `/goform/SysToolChangePwd` | High
+26 | File | `/H5/versionupdate.data` | High
+27 | File | `/horde/util/go.php` | High
+28 | File | `/login.html` | Medium
+29 | File | `/manage_laundry.php` | High
+30 | File | `/pictory/php/getFileList.php` | High
+31 | File | `/proxy` | Low
+32 | File | `/rental/ajax.php?action=delete_tenant` | High
+33 | File | `/romfile.cfg` | Medium
+34 | File | `/see_more_details.php` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

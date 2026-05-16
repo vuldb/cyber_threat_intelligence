@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.45.151](https://vuldb.com/?ip.45.76.45.151) | 45.76.45.151.vultrusercontent.com | - | Medium
-2 | [199.247.10.166](https://vuldb.com/?ip.199.247.10.166) | 199.247.10.166.vultrusercontent.com | - | Medium
-3 | [217.69.3.218](https://vuldb.com/?ip.217.69.3.218) | 217.69.3.218.vultrusercontent.com | - | Medium
-4 | ... | ... | ... | ...
+1 | [45.32.150.97](https://vuldb.com/?ip.45.32.150.97) | 45.32.150.97.vultrusercontent.com | - | Medium
+2 | [45.32.150.251](https://vuldb.com/?ip.45.32.150.251) | 45.32.150.251.vultrusercontent.com | - | Medium
+3 | [45.32.151.157](https://vuldb.com/?ip.45.32.151.157) | 45.32.151.157.vultrusercontent.com | - | Medium
+4 | [45.76.44.240](https://vuldb.com/?ip.45.76.44.240) | 45.76.44.240.vultrusercontent.com | - | Medium
+5 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,19 +48,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/download` | Medium
-2 | File | `/inc/HTTPClient.php` | High
-3 | File | `admin.php` | Medium
-4 | File | `awstats.pl` | Medium
-5 | ... | ... | ...
+1 | File | `/bin/boa` | Medium
+2 | File | `/download` | Medium
+3 | File | `/HNAP1/` | Low
+4 | File | `/inc/HTTPClient.php` | High
+5 | File | `/my_photo_gallery/image.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `admin.php` | Medium
+8 | File | `admin/conf_users_edit.php` | High
+9 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://codeberg.org/tip-o-deincognito/glassworm-writeup
+* https://gist.github.com/tip-o-deincognito/d0d05e148e87a515f534b5a8e9ed3b36
 * https://threatfox.abuse.ch
+* https://www.koi.ai/blog/glassworm-returns-new-wave-openvsx-malware-expose-attacker-infrastructure
 
 ## Literature
 
@@ -70,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

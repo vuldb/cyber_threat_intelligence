@@ -22,6 +22,7 @@ These _actors_ are associated with SimpleHelp or other actors linked to the camp
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Medusa](https://vuldb.com/?actor.medusa) | High
+2 | [SimpleHelp](https://vuldb.com/?actor.simplehelp) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [89.36.161.17](https://vuldb.com/?ip.89.36.161.17) | - | [Medusa](https://vuldb.com/?actor.medusa) | High
-2 | [143.110.243.154](https://vuldb.com/?ip.143.110.243.154) | - | [Medusa](https://vuldb.com/?actor.medusa) | High
-3 | [213.183.63.41](https://vuldb.com/?ip.213.183.63.41) | virt.reserved.ds | [Medusa](https://vuldb.com/?actor.medusa) | High
+1 | [85.155.186.121](https://vuldb.com/?ip.85.155.186.121) | - | [SimpleHelp](https://vuldb.com/?actor.simplehelp) | High
+2 | [89.36.161.17](https://vuldb.com/?ip.89.36.161.17) | - | [Medusa](https://vuldb.com/?actor.medusa) | High
+3 | [143.110.243.154](https://vuldb.com/?ip.143.110.243.154) | - | [Medusa](https://vuldb.com/?actor.medusa) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,13 +71,14 @@ ID | Type | Indicator | Confidence
 13 | File | `/php/ping.php` | High
 14 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/talos-ir-ransomware-engagements-and-the-significance-of-timeliness-in-incident-response/
+* https://unit42.paloaltonetworks.com/beyondtrust-cve-2026-1731/
 
 ## Literature
 
@@ -84,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

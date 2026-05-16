@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.15.156.186](https://vuldb.com/?ip.45.15.156.186) | - | - | High
 2 | [45.81.39.182](https://vuldb.com/?ip.45.81.39.182) | - | - | High
 3 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
-4 | ... | ... | ... | ...
+4 | [45.128.96.133](https://vuldb.com/?ip.45.128.96.133) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,37 +50,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/about.php` | Medium
-3 | File | `/admin` | Low
-4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/admin.php` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/products/manage_product.php` | High
-9 | File | `/admin/products/view_product.php` | High
-10 | File | `/auth_files/photo/` | High
-11 | File | `/config/myfield/test.php` | High
-12 | File | `/eclime/manufacturers.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/horde/util/go.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/index.php?app=main&func=passport&action=login` | High
-17 | File | `/manage-apartment.php` | High
-18 | File | `/multi-vendor-shopping-script/product-list.php` | High
-19 | File | `/Noxen-master/users.php` | High
-20 | File | `/pages/animals.php` | High
-21 | File | `/reports/rwservlet` | High
-22 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-23 | File | `/Service/ImageStationDataService.asmx` | High
-24 | File | `/wp-admin/options-general.php` | High
-25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-26 | File | `ad.cgi` | Low
-27 | File | `adclick.php` | Medium
-28 | File | `admin.color.php` | High
-29 | File | `admin.cropcanvas.php` | High
-30 | File | `admin.joomlaradiov5.php` | High
-31 | ... | ... | ...
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin` | Low
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/admin.php` | High
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/edit_product.php` | High
+9 | File | `/admin/products/manage_product.php` | High
+10 | File | `/admin/products/view_product.php` | High
+11 | File | `/api/RecordingList/DownloadRecord?file=` | High
+12 | File | `/auth_files/photo/` | High
+13 | File | `/config/myfield/test.php` | High
+14 | File | `/eclime/manufacturers.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/horde/util/go.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/index.php?app=main&func=passport&action=login` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/manage-apartment.php` | High
+21 | File | `/multi-vendor-shopping-script/product-list.php` | High
+22 | File | `/Noxen-master/users.php` | High
+23 | File | `/pages/animals.php` | High
+24 | File | `/products/view_product.php` | High
+25 | File | `/reports/rwservlet` | High
+26 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+27 | File | `/see_more_details.php` | High
+28 | File | `/Service/ImageStationDataService.asmx` | High
+29 | File | `/Side.php` | Medium
+30 | File | `/staff/bookdetails.php` | High
+31 | File | `/student/bookdetails.php` | High
+32 | File | `/version.js` | Medium
+33 | File | `/wp-admin/options-general.php` | High
+34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+35 | File | `act.php` | Low
+36 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +101,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://threatfox.abuse.ch
 * https://tria.ge/231112-thxkbsgg3s/behavioral2
+* https://www.threat.rip/file/1d5bea0ae5facf0159f35ea0bead65369ceb83942cc7073cb459ff06c6f82f0b/config
+* https://www.threat.rip/file/ba0f1caf90fba4aba5c7115a3c42a8bb82da21dedb1c426be3b4473c4bfecd12/config
+* https://www.threat.rip/file/f85b3bc20eea1d11586d8c856e9b61065203df2fbfb008c5b6e5c7c8ae76b0cb/config
 
 ## Literature
 

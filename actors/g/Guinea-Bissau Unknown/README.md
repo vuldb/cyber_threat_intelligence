@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,50 +64,58 @@ ID | Type | Indicator | Confidence
 6 | File | `/add_member.php` | High
 7 | File | `/add_query_reserve.php` | High
 8 | File | `/add_to_cart` | Medium
-9 | File | `/admin.php?p=/Area/index#tab=t2` | High
-10 | File | `/admin/` | Low
-11 | File | `/admin/aboutus.php` | High
-12 | File | `/admin/add-foreigner-ticket.php` | High
-13 | File | `/admin/add-services.php` | High
-14 | File | `/admin/admin_product.php` | High
-15 | File | `/admin/ajax.php?action=save_settings` | High
-16 | File | `/Admin/changepassword.php` | High
-17 | File | `/admin/checklogin.php` | High
-18 | File | `/admin/delete_s5.php` | High
-19 | File | `/admin/edit-services.php` | High
-20 | File | `/admin/forgot-password.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/index.php/datafile/download` | High
-23 | File | `/admin/login` | Medium
-24 | File | `/admin/update_student.php` | High
-25 | File | `/admindetail.php?action=edit` | High
-26 | File | `/ajax.php?action=login` | High
-27 | File | `/ajax.php?action=save_course` | High
-28 | File | `/ajax/get_patient_history.php` | High
-29 | File | `/ajax/screenshot.php` | High
-30 | File | `/api/admin/update_account/` | High
-31 | File | `/api/blade-user/submit` | High
-32 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-33 | File | `/api/ping` | Medium
-34 | File | `/backend/register.php` | High
-35 | File | `/boafrm/formDebugDiagnosticRun` | High
-36 | File | `/boafrm/formSysCmd` | High
-37 | File | `/boafrm/formWanConfigSetup` | High
-38 | File | `/boat/login.php` | High
-39 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | File | `/cgi-bin/gui.cgi` | High
-42 | File | `/cgi-bin/hd_config.cgi` | High
-43 | File | `/cgi-bin/mft/` | High
-44 | File | `/cgi-bin/wlogin.cgi` | High
-45 | File | `/classes/Master.php?f=save_inquiry` | High
-46 | File | `/clinic/disease_symptoms_view.php` | High
-47 | File | `/component_server` | High
-48 | File | `/config-manager/save` | High
-49 | File | `/core/config-revisions` | High
-50 | ... | ... | ...
+9 | File | `/admin.php/addon/index` | High
+10 | File | `/admin.php?p=/Area/index#tab=t2` | High
+11 | File | `/admin/` | Low
+12 | File | `/admin/aboutus.php` | High
+13 | File | `/admin/add-foreigner-ticket.php` | High
+14 | File | `/admin/add-services.php` | High
+15 | File | `/admin/admin_product.php` | High
+16 | File | `/admin/ajax.php?action=save_settings` | High
+17 | File | `/admin/change-emailid.php` | High
+18 | File | `/Admin/changepassword.php` | High
+19 | File | `/admin/checklogin.php` | High
+20 | File | `/admin/delete_s5.php` | High
+21 | File | `/admin/edit-services.php` | High
+22 | File | `/admin/expenses.php` | High
+23 | File | `/admin/forgot-password.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index.php/datafile/download` | High
+26 | File | `/admin/login` | Medium
+27 | File | `/admin/manage-normal-ticket.php` | High
+28 | File | `/admin/manage_model.php` | High
+29 | File | `/admin/new-autoortaxi-entry-form.php` | High
+30 | File | `/Admin/sporttype.php` | High
+31 | File | `/admin/system/variableSave.do` | High
+32 | File | `/admin/update_student.php` | High
+33 | File | `/admin/viewpackage.php` | High
+34 | File | `/admindetail.php?action=edit` | High
+35 | File | `/Administrator/PHP/AdminEditUser.php` | High
+36 | File | `/Administrator/PHP/AdminReply.php` | High
+37 | File | `/admin_paylog.php` | High
+38 | File | `/adv_mac_filter.php` | High
+39 | File | `/ajax.php?action=login` | High
+40 | File | `/ajax.php?action=save_course` | High
+41 | File | `/ajax/get_patient_history.php` | High
+42 | File | `/ajax/screenshot.php` | High
+43 | File | `/api/admin/update_account/` | High
+44 | File | `/api/blade-user/submit` | High
+45 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+46 | File | `/api/ping` | Medium
+47 | File | `/application/pay/controller/Index.php` | High
+48 | File | `/backend/register.php` | High
+49 | File | `/boaform/formSysCmd` | High
+50 | File | `/boafrm/formDebugDiagnosticRun` | High
+51 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+52 | File | `/boafrm/formSysCmd` | High
+53 | File | `/boafrm/formWanConfigSetup` | High
+54 | File | `/boat/login.php` | High
+55 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/gui.cgi` | High
+58 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

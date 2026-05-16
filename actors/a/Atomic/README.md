@@ -48,31 +48,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
-2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/app/admin/controller/Upload.php` | High
-4 | File | `/appointment-history.php` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/JSONAPI` | High
-7 | File | `/cms/classes/Master.php?f=delete_service` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/modules/projects/summary.inc.php` | High
-12 | File | `/multi-vendor-shopping-script/product-list.php` | High
-13 | File | `/oauth/idp/.well-known/openid-configuration` | High
-14 | File | `/out.php` | Medium
-15 | File | `/php_action/createUser.php` | High
-16 | File | `/resource/addgood.php` | High
-17 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-18 | File | `/SetTriggerLEDBlink/Blink` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/submitproperty.php` | High
-21 | File | `/Tool/querysql.php` | High
-22 | File | `/Tool/uploadfile.php` | High
-23 | File | `adclick.php` | Medium
+2 | File | `/admin/media.php?action=upload&sid=0` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/app/admin/controller/Upload.php` | High
+5 | File | `/appointment-history.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/JSONAPI` | High
+8 | File | `/cms/classes/Master.php?f=delete_service` | High
+9 | File | `/download` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/modules/projects/summary.inc.php` | High
+13 | File | `/multi-vendor-shopping-script/product-list.php` | High
+14 | File | `/oauth/idp/.well-known/openid-configuration` | High
+15 | File | `/out.php` | Medium
+16 | File | `/php_action/createUser.php` | High
+17 | File | `/resource/addgood.php` | High
+18 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+19 | File | `/SetTriggerLEDBlink/Blink` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/submitproperty.php` | High
+22 | File | `/Tool/querysql.php` | High
+23 | File | `/Tool/uploadfile.php` | High
 24 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

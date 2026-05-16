@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aggah:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
@@ -38,12 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/spip.php` | Medium
-2 | File | `code/function/system/tool/ping.php` | High
-3 | File | `index.php` | Medium
+1 | File | `/dev-api/cms/file/read` | High
+2 | File | `/Recruitment/index.php?page=view_vacancy` | High
+3 | File | `/spip.php` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

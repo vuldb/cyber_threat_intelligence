@@ -68,29 +68,32 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/process_category_edit.php` | High
 11 | File | `/Admin/resultdetails.php` | High
 12 | File | `/admin/user-search.php` | High
-13 | File | `/ajax.php?action=save_deductions` | High
-14 | File | `/ajax.php?action=save_user` | High
-15 | File | `/api/wizard/getDualbandSync` | High
-16 | File | `/app/api/controller/caiji.php` | High
-17 | File | `/billing/pms_check.php` | High
-18 | File | `/billing/test_accesscodelogin.php` | High
-19 | File | `/boafrm/formPortFw` | High
-20 | File | `/boafrm/formReflashClientTbl` | High
-21 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-22 | File | `/cancelar-enturmacao-em-lote/` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/hd_config.cgi` | High
-25 | File | `/cgi-bin/luci/api/auth` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cimom` | Low
-28 | File | `/dashboard/Cinvoice/manage_invoice` | High
-29 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-30 | File | `/dental_form.php` | High
-31 | File | `/diario-de-observacoes/` | High
-32 | File | `/discuss/uploadMdPic` | High
-33 | ... | ... | ...
+13 | File | `/admin/userbuilderdelete.php` | High
+14 | File | `/admin/voters_delete.php` | High
+15 | File | `/ajax.php?action=delete_member` | High
+16 | File | `/ajax.php?action=save_deductions` | High
+17 | File | `/ajax.php?action=save_user` | High
+18 | File | `/api/wizard/getDualbandSync` | High
+19 | File | `/app/api/controller/caiji.php` | High
+20 | File | `/billing/pms_check.php` | High
+21 | File | `/billing/test_accesscodelogin.php` | High
+22 | File | `/boafrm/formPortFw` | High
+23 | File | `/boafrm/formReflashClientTbl` | High
+24 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+25 | File | `/cancelar-enturmacao-em-lote/` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/hd_config.cgi` | High
+28 | File | `/cgi-bin/lighttpd.cgi` | High
+29 | File | `/cgi-bin/luci/api/auth` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cimom` | Low
+32 | File | `/dashboard/Cinvoice/manage_invoice` | High
+33 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+34 | File | `/dental_form.php` | High
+35 | File | `/diario-de-observacoes/` | High
+36 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

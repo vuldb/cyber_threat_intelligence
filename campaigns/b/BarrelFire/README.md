@@ -1,14 +1,14 @@
 # BarrelFire - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the campaign known as _BarrelFire_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/kb/cti) of the campaign known as _BarrelFire_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/actor](https://vuldb.com/actor)
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BarrelFire:
 
-* [CN](https://vuldb.com/?country.cn)
+* [CN](https://vuldb.com/country/cn)
 
 ## Actors
 
@@ -16,7 +16,8 @@ These _actors_ are associated with BarrelFire or other actors linked to the camp
 
 ID | Actor | Confidence
 -- | ----- | ----------
-1 | [NoisyBear](https://vuldb.com/?actor.noisybear) | High
+1 | [BarrelFire](https://vuldb.com/actor/barrelfire) | High
+2 | [NoisyBear](https://vuldb.com/actor/noisybear) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,8 +25,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [77.239.125.41](https://vuldb.com/?ip.77.239.125.41) | - | [NoisyBear](https://vuldb.com/?actor.noisybear) | High
-2 | [178.159.94.8](https://vuldb.com/?ip.178.159.94.8) | - | [NoisyBear](https://vuldb.com/?actor.noisybear) | High
+1 | [77.239.125.41](https://vuldb.com/ip/77.239.125.41) | - | [NoisyBear](https://vuldb.com/actor/noisybear) | High
+2 | [178.159.94.8](https://vuldb.com/ip/178.159.94.8) | - | [NoisyBear](https://vuldb.com/actor/noisybear) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,15 +48,16 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://circleid.com/posts/a-look-back-at-11-of-the-red-report-2026-featured-threats
 * https://www.seqrite.com/blog/operation-barrelfire-noisybear-kazakhstan-oil-gas-sector/
 
 ## Literature
 
 The following _articles_ explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/kb/cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/kb/changelog) by [vuldb.com](https://vuldb.com/kb/about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/kb/faq), read the [documentation](https://vuldb.com/kb) or [contact us](https://vuldb.com/contact)!

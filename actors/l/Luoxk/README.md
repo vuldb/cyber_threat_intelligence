@@ -55,10 +55,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/portal` | High
 4 | File | `/editar-fornecedor.php` | High
 5 | File | `/forum/away.php` | High
-6 | File | `/service/upload` | High
+6 | File | `/goform/mDMZSetCfg` | High
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

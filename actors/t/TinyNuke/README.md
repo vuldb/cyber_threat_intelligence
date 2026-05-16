@@ -24,11 +24,12 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.252.153.134](https://vuldb.com/?ip.5.252.153.134) | - | - | High
 2 | [23.94.145.109](https://vuldb.com/?ip.23.94.145.109) | 23-94-145-109-host.colocrossing.com | - | High
 3 | [23.94.252.8](https://vuldb.com/?ip.23.94.252.8) | 23-94-252-8-host.colocrossing.com | - | High
-4 | [45.134.26.131](https://vuldb.com/?ip.45.134.26.131) | - | - | High
-5 | [45.141.233.196](https://vuldb.com/?ip.45.141.233.196) | - | - | High
-6 | ... | ... | ... | ...
+4 | [45.93.20.55](https://vuldb.com/?ip.45.93.20.55) | - | - | High
+5 | [45.93.20.151](https://vuldb.com/?ip.45.93.20.151) | - | - | High
+6 | [45.134.26.131](https://vuldb.com/?ip.45.134.26.131) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,23 +53,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/delete_user.php` | High
 2 | File | `/admin/manage-ambulance.php` | High
 3 | File | `/admin_members.php?ac=editsave` | High
-4 | File | `/database?action=GetDatabaseAccess` | High
-5 | File | `/goform/WriteFacMac` | High
-6 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/spip.php` | Medium
-9 | File | `/updatedata.php` | High
-10 | File | `/userRpm/popupSiteSurveyRpm.htm` | High
-11 | File | `adclick.php` | Medium
-12 | File | `Addmessage.php` | High
+4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+5 | File | `/backend/admin/his_admin_register_patient.php` | High
+6 | File | `/csms/?page=contact_us` | High
+7 | File | `/database?action=GetDatabaseAccess` | High
+8 | File | `/goform/WriteFacMac` | High
+9 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/spip.php` | Medium
+12 | File | `/src/assimp/code/AssetLib/LWO/LWOMaterial.cpp` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/94075c4cad842827eeb001b8ea7812c6734a7fa7cf093e0cb197aeb3b43073e5/
 * https://twitter.com/Jane_0sint/status/1670048531665518592
 * https://urlhaus.abuse.ch/url/3545739/
 * https://urlhaus.abuse.ch/url/3559926/
@@ -94,6 +96,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3690293/
 * https://urlhaus.abuse.ch/url/3704431/
 * https://urlhaus.abuse.ch/url/3713382/
+* https://urlhaus.abuse.ch/url/3757344/
+* https://urlhaus.abuse.ch/url/3762692/
+* https://urlhaus.abuse.ch/url/3763945/
+* https://urlhaus.abuse.ch/url/3775403/
 
 ## Literature
 

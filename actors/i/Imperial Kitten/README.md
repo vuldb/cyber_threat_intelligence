@@ -21,18 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.8.146.37](https://vuldb.com/?ip.45.8.146.37) | vm1396047.stark-industries.solutions | - | High
-2 | [45.32.181.118](https://vuldb.com/?ip.45.32.181.118) | 45.32.181.118.vultrusercontent.com | - | Medium
-3 | [45.81.226.38](https://vuldb.com/?ip.45.81.226.38) | vm4336982.25ssd.had.wf | - | High
-4 | [45.93.82.109](https://vuldb.com/?ip.45.93.82.109) | - | - | High
-5 | [45.93.93.198](https://vuldb.com/?ip.45.93.93.198) | - | - | High
-6 | [45.155.37.105](https://vuldb.com/?ip.45.155.37.105) | - | - | High
-7 | [45.155.37.140](https://vuldb.com/?ip.45.155.37.140) | - | - | High
-8 | [51.81.165.110](https://vuldb.com/?ip.51.81.165.110) | ip110.ip-51-81-165.us | - | High
-9 | [64.176.164.117](https://vuldb.com/?ip.64.176.164.117) | 64.176.164.117.vultrusercontent.com | - | Medium
-10 | ... | ... | ... | ...
+1 | [37.120.233.84](https://vuldb.com/?ip.37.120.233.84) | no-rdns.m247.com | - | High
+2 | [45.8.146.37](https://vuldb.com/?ip.45.8.146.37) | vm1396047.stark-industries.solutions | - | High
+3 | [45.32.181.118](https://vuldb.com/?ip.45.32.181.118) | 45.32.181.118.vultrusercontent.com | - | Medium
+4 | [45.81.226.38](https://vuldb.com/?ip.45.81.226.38) | vm4336982.25ssd.had.wf | - | High
+5 | [45.93.82.109](https://vuldb.com/?ip.45.93.82.109) | - | - | High
+6 | [45.93.93.198](https://vuldb.com/?ip.45.93.93.198) | - | - | High
+7 | [45.155.37.105](https://vuldb.com/?ip.45.155.37.105) | - | - | High
+8 | [45.155.37.140](https://vuldb.com/?ip.45.155.37.140) | - | - | High
+9 | [51.81.165.110](https://vuldb.com/?ip.51.81.165.110) | ip110.ip-51-81-165.us | - | High
+10 | [64.176.164.117](https://vuldb.com/?ip.64.176.164.117) | 64.176.164.117.vultrusercontent.com | - | Medium
+11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,57 +59,56 @@ ID | Type | Indicator | Confidence
 1 | File | `/?page=tracks` | High
 2 | File | `/academy/tutor/filter` | High
 3 | File | `/add_user.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?page=system_info/contact_info` | High
-6 | File | `/amssplus/modules/book/main/bookdetail_school_person.php` | High
-7 | File | `/app/options.py` | High
-8 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-9 | File | `/auth_files/photo/` | High
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/checklogin.php` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-15 | File | `/cwc/login` | Medium
-16 | File | `/dashboard.php` | High
-17 | File | `/debuginfo.htm` | High
-18 | File | `/dialog/select_media.php` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/etc/quagga` | Medium
-21 | File | `/fhconf/umconfig.txt` | High
-22 | File | `/forms/doLogin` | High
-23 | File | `/goform/VerAPIMant` | High
-24 | File | `/goform/WifiExtraSet` | High
-25 | File | `/h/autoSaveDraft` | High
-26 | File | `/h/calendar` | Medium
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/includes/login.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/libswresample/swresample.c` | High
-31 | File | `/locales/locale.json` | High
-32 | File | `/members/view_member.php` | High
-33 | File | `/mhds/clinic/view_details.php` | High
-34 | File | `/newProject.php` | High
-35 | File | `/nova/bin/console` | High
-36 | File | `/nova/bin/detnet` | High
-37 | File | `/oauth/idp/.well-known/openid-configuration` | High
-38 | File | `/out.php` | Medium
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/print_diseases.php` | High
-41 | File | `/request.php` | Medium
-42 | File | `/rest/api/latest/projectvalidate/key` | High
-43 | File | `/rom-0` | Low
-44 | File | `/secure/QueryComponent!Default.jspa` | High
-45 | File | `/ServletAPI/accounts/login` | High
-46 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-47 | ... | ... | ...
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/sales-reports-detail.php` | High
+8 | File | `/admin/search-appointment.php` | High
+9 | File | `/amssplus/modules/book/main/bookdetail_school_person.php` | High
+10 | File | `/app/options.py` | High
+11 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+12 | File | `/auth_files/photo/` | High
+13 | File | `/BalloonSave.ashx` | High
+14 | File | `/boafrm/formRoute` | High
+15 | File | `/card_scan.php` | High
+16 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+18 | File | `/cgi-bin/touchlist_sync.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/checklogin.php` | High
+21 | File | `/classes/master.php?f=delete_order` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/cms/users/complaint-details.php` | High
+24 | File | `/controller/api/Room.php` | High
+25 | File | `/cwc/login` | Medium
+26 | File | `/dashboard.php` | High
+27 | File | `/dayrui/Fcms/Init.php` | High
+28 | File | `/debuginfo.htm` | High
+29 | File | `/dev-api/common/upload` | High
+30 | File | `/dialog/select_media.php` | High
+31 | File | `/endpoint/update.php` | High
+32 | File | `/etc/passwd` | Medium
+33 | File | `/etc/quagga` | Medium
+34 | File | `/forms/doLogin` | High
+35 | File | `/goform/formPPPoESetup` | High
+36 | File | `/goform/SetVirtualServerCfg` | High
+37 | File | `/goform/VerAPIMant` | High
+38 | File | `/goform/WifiExtraSet` | High
+39 | File | `/goform/wirelessAdvancedHidden` | High
+40 | File | `/h/autoSaveDraft` | High
+41 | File | `/h/calendar` | Medium
+42 | File | `/HNAP1/` | Low
+43 | File | `/includes/article_detail.php` | High
+44 | File | `/includes/header_menu.php` | High
+45 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://aws.amazon.com/blogs/security/new-amazon-threat-intelligence-findings-nation-state-actors-bridging-cyber-and-kinetic-warfare/
 * https://www.crowdstrike.com/blog/imperial-kitten-deploys-novel-malware-families/
 
 ## Literature
@@ -120,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

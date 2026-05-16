@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,11 +56,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/boafrm/formTracerouteDiagnosticRun` | High
 3 | File | `/dental_form.php` | High
-4 | File | `/user_order_customer_update.php` | High
-5 | File | `classes/class-woo-sidebars.php` | High
-6 | ... | ... | ...
+4 | File | `/goform/formAutoDetecWAN_wizard4` | High
+5 | File | `/goform/setAdPushInfo` | High
+6 | File | `/html/matPat/adicionar_tipoEntrada.php` | High
+7 | File | `/php_action/editUser.php` | High
+8 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

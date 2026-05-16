@@ -51,31 +51,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin` | Low
 7 | File | `/admin/action/update-deworm.php` | High
 8 | File | `/admin/application-bwdates-reports-details.php` | High
-9 | File | `/Admin/consulting_detail.php` | High
-10 | File | `/admin/curriculum/view_curriculum.php` | High
-11 | File | `/admin/deduction_row.php` | High
-12 | File | `/admin/departments/view_department.php` | High
-13 | File | `/admin/edit-accepted-appointment.php` | High
-14 | File | `/admin/edit_category.php` | High
-15 | File | `/admin/edit_teacher.php` | High
-16 | File | `/admin/login.php` | High
-17 | File | `/admin/maintenance/brand.php` | High
-18 | File | `/admin/order.php` | High
-19 | File | `/admin/pages/update_go.php` | High
-20 | File | `/admin/products/manage_product.php` | High
-21 | File | `/admin/transactions/track_shipment.php` | High
-22 | File | `/admin/vote_edit.php` | High
-23 | File | `/api/admin/store/product/list` | High
-24 | File | `/api/controllers/common/UploadsController.php` | High
-25 | File | `/application/index/controller/Icon.php` | High
-26 | File | `/application/index/controller/Unity.php` | High
-27 | File | `/apply/index.php` | High
-28 | File | `/auth/auth.php?user=1` | High
-29 | File | `/b2b-supermarket/shopping-cart` | High
-30 | File | `/bin/boa` | Medium
-31 | ... | ... | ...
+9 | File | `/admin/bwdates-report-details.php` | High
+10 | File | `/Admin/consulting_detail.php` | High
+11 | File | `/admin/curriculum/view_curriculum.php` | High
+12 | File | `/admin/deduction_row.php` | High
+13 | File | `/admin/delete_activity.php` | High
+14 | File | `/admin/departments/view_department.php` | High
+15 | File | `/admin/edit-accepted-appointment.php` | High
+16 | File | `/admin/edit_category.php` | High
+17 | File | `/admin/edit_teacher.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/maintenance/brand.php` | High
+20 | File | `/admin/order.php` | High
+21 | File | `/admin/pages/update_go.php` | High
+22 | File | `/admin/products/manage_product.php` | High
+23 | File | `/admin/transactions/track_shipment.php` | High
+24 | File | `/admin/view_products.php` | High
+25 | File | `/admin/vote_edit.php` | High
+26 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+27 | File | `/api/admin/store/product/list` | High
+28 | File | `/api/controllers/common/UploadsController.php` | High
+29 | File | `/application/index/controller/Icon.php` | High
+30 | File | `/application/index/controller/Unity.php` | High
+31 | File | `/apply/index.php` | High
+32 | File | `/auth/auth.php?user=1` | High
+33 | File | `/b2b-supermarket/shopping-cart` | High
+34 | File | `/bin/boa` | Medium
+35 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

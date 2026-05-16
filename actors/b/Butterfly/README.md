@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,29 +51,31 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/admin/broadcast.php` | High
 3 | File | `/admin/sysmon.php` | High
-4 | File | `/api/wizard/setsyncpppoecfg` | High
-5 | File | `/bwdates-reports-details.php?vid=2` | High
-6 | File | `/cgi-bin/webviewer_login_page` | High
-7 | File | `/devinfo` | Medium
-8 | File | `/ecrire` | Low
-9 | File | `/forum/away.php` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/index.php/upload/upload_file/1/1` | High
-12 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/pg_meta/default/query` | High
-15 | File | `/proc//auxv` | Medium
-16 | File | `/proc/fs/nfsd/clients/2/states` | High
-17 | File | `/proc/ioports` | High
-18 | File | `/search.php` | Medium
-19 | File | `/services/details.asp` | High
-20 | File | `/tmp` | Low
-21 | File | `/Tool/uploadfile.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/Upload.ashx` | Medium
-24 | ... | ... | ...
+4 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
+5 | File | `/aim/storage/query.py` | High
+6 | File | `/api/wizard/setsyncpppoecfg` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/bwdates-reports-details.php?vid=2` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/webviewer_login_page` | High
+11 | File | `/contact.php` | Medium
+12 | File | `/devinfo` | Medium
+13 | File | `/ecrire` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/index.php/upload/upload_file/1/1` | High
+18 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/pg_meta/default/query` | High
+21 | File | `/proc//auxv` | Medium
+22 | File | `/proc/fs/nfsd/clients/2/states` | High
+23 | File | `/proc/ioports` | High
+24 | File | `/search.php` | Medium
+25 | File | `/services/details.asp` | High
+26 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

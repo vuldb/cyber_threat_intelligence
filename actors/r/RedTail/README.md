@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.182.211.148](https://vuldb.com/?ip.5.182.211.148) | - | Docker API | High
 2 | [36.140.33.10](https://vuldb.com/?ip.36.140.33.10) | - | Docker API | High
 3 | [45.128.232.200](https://vuldb.com/?ip.45.128.232.200) | - | Docker API | High
-4 | ... | ... | ... | ...
+4 | [45.132.180.51](https://vuldb.com/?ip.45.132.180.51) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,30 +55,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addproduct.php` | High
-2 | File | `/add_book.php` | High
-3 | File | `/admin/?page=system_info/contact_info` | High
-4 | File | `/Admin/Controller/CustomController.class.php` | High
-5 | File | `/admin/emp-profile-avatar.php` | High
-6 | File | `/admin/markdown` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/network/wifi_schedule` | High
-9 | File | `/admin/publishnews.php` | High
-10 | File | `/admin/quote-details.php` | High
-11 | File | `/admin/run_ajax.php` | High
-12 | File | `/admin/students/manage_academic.php` | High
-13 | File | `/admin/sys_sql_query.php` | High
-14 | File | `/admin/team_save.php` | High
-15 | File | `/admin/u/toIndex` | High
-16 | File | `/admin/user/user-move-run.php` | High
-17 | File | `/admin_class.php` | High
-18 | File | `/ajax.php?action=login` | High
-19 | File | `/animalsadd.php` | High
-20 | File | `/app/api/controller/default/Sqlite.php` | High
-21 | File | `/blog` | Low
-22 | ... | ... | ...
+1 | File | `.git/` | Low
+2 | File | `/addproduct.php` | High
+3 | File | `/add_book.php` | High
+4 | File | `/admin/?page=system_info/contact_info` | High
+5 | File | `/admin/contactus.php` | High
+6 | File | `/admin/content/editor` | High
+7 | File | `/Admin/Controller/CustomController.class.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/markdown` | High
+10 | File | `/admin/modal_add_product.php` | High
+11 | File | `/admin/network/wifi_schedule` | High
+12 | File | `/admin/publishnews.php` | High
+13 | File | `/admin/quote-details.php` | High
+14 | File | `/admin/run_ajax.php` | High
+15 | File | `/admin/students/manage_academic.php` | High
+16 | File | `/admin/sys_sql_query.php` | High
+17 | File | `/admin/team_save.php` | High
+18 | File | `/admin/u/toIndex` | High
+19 | File | `/admin/user/user-move-run.php` | High
+20 | File | `/admin_class.php` | High
+21 | File | `/ajax.php?action=login` | High
+22 | File | `/animalsadd.php` | High
+23 | File | `/app/api/controller/default/Sqlite.php` | High
+24 | File | `/blog` | Low
+25 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +91,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/da4117c2-5243-4fdb-a2de-67e7427dcf5a
 * https://bazaar.abuse.ch/sample/9875fb1a96f06fb4ffde6c24cbaaa15eacd9df8652756e25e6e13f125f2019ec
 * https://beelzebub.ai/blog/redtail-cryptominer-first-evidence-of-docker-api-targeting/
+* https://isc.sans.edu/diary/32608
 * https://urlhaus.abuse.ch/url/3733110/
 * https://urlhaus.abuse.ch/url/3739809/
 

@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with EnemyBot:
 
 * [US](https://vuldb.com/?country.us)
+* [RO](https://vuldb.com/?country.ro)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,9 +52,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/team_save.php` | High
 8 | File | `/admin/user/user-move-run.php` | High
 9 | File | `/admin_class.php` | High
-10 | ... | ... | ...
+10 | File | `/ajax.php?action=login` | High
+11 | File | `/animalsadd.php` | High
+12 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

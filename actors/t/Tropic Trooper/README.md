@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/change_pass/forgot_password_sql.php` | High
 22 | File | `/chat/group/send` | High
 23 | File | `/checklogin.php` | High
-24 | ... | ... | ...
+24 | File | `/course.php` | Medium
+25 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

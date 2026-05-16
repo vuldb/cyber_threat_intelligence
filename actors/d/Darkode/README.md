@@ -47,26 +47,27 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/add_new_supplier.php` | High
 3 | File | `/admin/categories/update` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/process_category_add.php` | High
-6 | File | `/admin/quizquestion.php` | High
-7 | File | `/admin/search-appointment.php` | High
-8 | File | `/app/api/controller/caiji.php` | High
-9 | File | `/buscar_integrada.php` | High
-10 | File | `/cgi-bin/user/Config.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/config/php.ini` | High
-14 | File | `/endpoint/add-calorie.php` | High
-15 | File | `/htdocs/cgibin` | High
-16 | File | `/manage_supplier.php` | High
-17 | File | `/myprofile.php` | High
-18 | File | `/pda/workflow/check_seal.php` | High
-19 | File | `/teacher.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | ... | ... | ...
+4 | File | `/admin/includes/edit_post.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/process_category_add.php` | High
+7 | File | `/admin/quizquestion.php` | High
+8 | File | `/admin/search-appointment.php` | High
+9 | File | `/app/api/controller/caiji.php` | High
+10 | File | `/buscar_integrada.php` | High
+11 | File | `/cgi-bin/user/Config.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/config/php.ini` | High
+15 | File | `/endpoint/add-calorie.php` | High
+16 | File | `/htdocs/cgibin` | High
+17 | File | `/index.php` | Medium
+18 | File | `/manage_supplier.php` | High
+19 | File | `/myprofile.php` | High
+20 | File | `/pda/workflow/check_seal.php` | High
+21 | File | `/teacher.php` | Medium
+22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

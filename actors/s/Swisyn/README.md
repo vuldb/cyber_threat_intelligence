@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,21 +75,21 @@ ID | Type | Indicator | Confidence
 16 | File | `/cimom` | Low
 17 | File | `/ci_spms/admin/search/searching/` | High
 18 | File | `/classes/Master.php?f=delete_student` | High
-19 | File | `/dev/tty` | Medium
-20 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-21 | File | `/etc/sysconfig/tomcat` | High
-22 | File | `/fantasticblog/single.php` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/delIpMacBind/` | High
-25 | File | `/goform/SetLEDCfg` | High
-26 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-27 | File | `/htdocs/utils/Files.php` | High
-28 | File | `/jpg/image.jpg` | High
-29 | File | `/Main_AdmStatus_Content.asp` | High
-30 | File | `/manage_user.php` | High
+19 | File | `/core/config-revisions` | High
+20 | File | `/dev/tty` | Medium
+21 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+22 | File | `/etc/sysconfig/tomcat` | High
+23 | File | `/fantasticblog/single.php` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/delIpMacBind/` | High
+26 | File | `/goform/SetLEDCfg` | High
+27 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+28 | File | `/htdocs/utils/Files.php` | High
+29 | File | `/jpg/image.jpg` | High
+30 | File | `/Main_AdmStatus_Content.asp` | High
 31 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

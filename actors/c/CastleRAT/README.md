@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CastleRAT:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -17,6 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.134.26.41](https://vuldb.com/?ip.45.134.26.41) | - | - | High
+2 | [87.251.69.12](https://vuldb.com/?ip.87.251.69.12) | 139483.ip-ptr.tech | - | High
+3 | [91.215.85.119](https://vuldb.com/?ip.91.215.85.119) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37,18 +44,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin\posts\manage_post.php` | High
-2 | File | `Savant2_Plugin_stylesheet.php` | High
-3 | File | `viewlinks.php` | High
+1 | File | `/mfsNotice/page` | High
+2 | File | `admin\posts\manage_post.php` | High
+3 | File | `Calc` | Low
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/c39bc5b30eef8eb76a89a9686476c73b43989487b5adccd2c0d0044c5a23e919/
+* https://threatfox.abuse.ch
+* https://tria.ge/251120-emp9gszkhy/behavioral2
+* https://urlhaus.abuse.ch/url/3765491/
 
 ## Literature
 

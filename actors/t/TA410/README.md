@@ -37,7 +37,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -53,18 +54,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/apply.cgi` | Medium
 5 | File | `/cgi-bin/cstecgi.cgi` | High
 6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/gena.cgi` | Medium
-8 | File | `/MIME/INBOX-MM-1/` | High
-9 | File | `/netflow/jspui/editProfile.jsp` | High
-10 | File | `/php/ping.php` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/scripts/unlock_tasks.php` | High
-13 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/SysInfo1.htm` | High
+7 | File | `/config/pw_changeusers.html` | High
+8 | File | `/dm/dispatch/user/add` | High
+9 | File | `/gena.cgi` | Medium
+10 | File | `/MIME/INBOX-MM-1/` | High
+11 | File | `/netflow/jspui/editProfile.jsp` | High
+12 | File | `/php/ping.php` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

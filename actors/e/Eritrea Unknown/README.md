@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,70 +61,75 @@ ID | Type | Indicator | Confidence
 5 | File | `/addmem.php` | Medium
 6 | File | `/admin/?page=inventory/view_inventory&id=2` | High
 7 | File | `/admin/aboutus.php` | High
-8 | File | `/admin/addroom.php` | High
-9 | File | `/admin/add_admin.php` | High
-10 | File | `/admin/add_category.php` | High
-11 | File | `/admin/admin-profile.php` | High
-12 | File | `/admin/ajax.php?action=save_settings` | High
-13 | File | `/admin/app/profile_crud.php` | High
-14 | File | `/admin/bwdates-reports-details.php` | High
-15 | File | `/admin/candidates_add.php` | High
-16 | File | `/Admin/changepassword.php` | High
-17 | File | `/admin/delete_member.php` | High
-18 | File | `/admin/freelist_main.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/login.php` | High
-21 | File | `/admin/member_save.php` | High
-22 | File | `/admin/process_login.php` | High
-23 | File | `/admin/search-vehicle.php` | High
-24 | File | `/admin/seo_setting.php` | High
-25 | File | `/admin/sys/role/list` | High
-26 | File | `/admin/user-search.php` | High
-27 | File | `/admin/visitor-details.php` | High
-28 | File | `/adminFile/upload` | High
-29 | File | `/administrator` | High
-30 | File | `/admin_members.php?ac=editsave` | High
-31 | File | `/adms/admin/?page=user/manage_user` | High
-32 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-33 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-34 | File | `/adms/classes/Users.php` | High
-35 | File | `/ajax.php?action=delete_member` | High
-36 | File | `/api/Cdn/GetFile` | High
-37 | File | `/api/DocumentTemplate/{GUID}` | High
-38 | File | `/api/login/auth` | High
-39 | File | `/api/set-password` | High
-40 | File | `/api/settings` | High
-41 | File | `/api/sys/set_passwd` | High
-42 | File | `/api/v1.index.article/getList.html` | High
-43 | File | `/api/v1/attack/falco` | High
-44 | File | `/api/v1/initialization/embedding/test` | High
-45 | File | `/app/ConfirmSmsCode` | High
-46 | File | `/appointment-history.php` | High
-47 | File | `/auth/userkey/logout.php` | High
-48 | File | `/backend/register.php` | High
-49 | File | `/backup.pl` | Medium
-50 | File | `/batchGetBlockAttrs` | High
-51 | File | `/bin/httpd` | Medium
-52 | File | `/birthing.php` | High
-53 | File | `/boafrm/formFilter` | High
-54 | File | `/boafrm/formMapDelDevice` | High
-55 | File | `/booking/show_bookings/` | High
-56 | File | `/calendar/minimizer/index.php` | High
-57 | File | `/cfgFile/fileContent` | High
-58 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-59 | File | `/cgi-bin/cstecgi.cgi` | High
-60 | File | `/cgi-bin/wlogin.cgi` | High
-61 | File | `/changepassemp.php` | High
-62 | File | `/check` | Low
-63 | File | `/chkuser.php` | Medium
-64 | File | `/classes/Master.php?f=save_product` | High
-65 | File | `/cms/article/update` | High
-66 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
-67 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
-68 | File | `/com/esafenet/servlet/system/HookInvalidCourseService.java` | High
-69 | ... | ... | ...
+8 | File | `/admin/addclinic.php` | High
+9 | File | `/admin/addroom.php` | High
+10 | File | `/admin/add_admin.php` | High
+11 | File | `/admin/add_category.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/ajax.php?action=save_settings` | High
+14 | File | `/admin/app/profile_crud.php` | High
+15 | File | `/admin/bwdates-reports-details.php` | High
+16 | File | `/admin/candidates_add.php` | High
+17 | File | `/Admin/changepassword.php` | High
+18 | File | `/admin/delete_member.php` | High
+19 | File | `/admin/edit_student_query.php` | High
+20 | File | `/admin/freelist_main.php` | High
+21 | File | `/admin/index.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/member_save.php` | High
+24 | File | `/admin/process_login.php` | High
+25 | File | `/admin/search-vehicle.php` | High
+26 | File | `/admin/seo_setting.php` | High
+27 | File | `/admin/sys/role/list` | High
+28 | File | `/admin/user-search.php` | High
+29 | File | `/admin/view-user-queries.php` | High
+30 | File | `/admin/visitor-details.php` | High
+31 | File | `/adminFile/upload` | High
+32 | File | `/administrator` | High
+33 | File | `/admin_members.php?ac=editsave` | High
+34 | File | `/adms/admin/?page=user/manage_user` | High
+35 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+36 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+37 | File | `/adms/classes/Users.php` | High
+38 | File | `/ajax.php?action=delete_member` | High
+39 | File | `/api/Cdn/GetFile` | High
+40 | File | `/api/DocumentTemplate/{GUID}` | High
+41 | File | `/api/login/auth` | High
+42 | File | `/api/set-password` | High
+43 | File | `/api/settings` | High
+44 | File | `/api/sys/set_passwd` | High
+45 | File | `/api/v1.index.article/getList.html` | High
+46 | File | `/api/v1/attack/falco` | High
+47 | File | `/api/v1/initialization/embedding/test` | High
+48 | File | `/app/ConfirmSmsCode` | High
+49 | File | `/appointment-history.php` | High
+50 | File | `/Auth.php` | Medium
+51 | File | `/auth/userkey/logout.php` | High
+52 | File | `/backend/register.php` | High
+53 | File | `/backup.pl` | Medium
+54 | File | `/batchGetBlockAttrs` | High
+55 | File | `/bin/httpd` | Medium
+56 | File | `/birthing.php` | High
+57 | File | `/boafrm/formFilter` | High
+58 | File | `/boafrm/formMapDelDevice` | High
+59 | File | `/boafrm/formWsc` | High
+60 | File | `/booking/show_bookings/` | High
+61 | File | `/calendar/minimizer/index.php` | High
+62 | File | `/carManager/carUseDetailList.j%73p` | High
+63 | File | `/cfgFile/fileContent` | High
+64 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+65 | File | `/cgi-bin/cstecgi.cgi` | High
+66 | File | `/cgi-bin/wlogin.cgi` | High
+67 | File | `/changepassemp.php` | High
+68 | File | `/check` | Low
+69 | File | `/chkuser.php` | Medium
+70 | File | `/classes/Master.php?f=save_product` | High
+71 | File | `/cms/article/update` | High
+72 | File | `/com/esafenet/servlet/client/CDGRenewApplicationService.java` | High
+73 | File | `/com/esafenet/servlet/system/EncryptPolicyTypeService.java` | High
+74 | ... | ... | ...
 
-There are 609 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 651 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

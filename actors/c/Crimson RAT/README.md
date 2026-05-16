@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,9 +49,10 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [66.42.56.233](https://vuldb.com/?ip.66.42.56.233) | 66.42.56.233.vultrusercontent.com | - | Medium
 27 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
 28 | [66.235.175.91](https://vuldb.com/?ip.66.235.175.91) | - | - | High
-29 | ... | ... | ... | ...
+29 | [69.169.97.118](https://vuldb.com/?ip.69.169.97.118) | vps3192851.trouble-free.net | - | High
+30 | ... | ... | ... | ...
 
-There are 113 more IOC items available. Please use our online service to access the data.
+There are 115 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,36 +75,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/archives_add.php` | High
-2 | File | `/admin/categories/save` | High
-3 | File | `/admin/contact-us.php` | High
-4 | File | `/admin/delete_user.php` | High
-5 | File | `/admin/newsletterdel.php` | High
-6 | File | `/admin/pages/` | High
-7 | File | `/admin/positions.php` | High
-8 | File | `/admin/receipt.php` | High
-9 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-11 | File | `/admins` | Low
-12 | File | `/ajax.php?action=login` | High
-13 | File | `/ajax/getBasicInfo.php` | High
-14 | File | `/api/admin/system/store/order/list` | High
-15 | File | `/api/files/recipepictures/` | High
-16 | File | `/authentication.cgi` | High
-17 | File | `/boafrm/formDdns` | High
-18 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-19 | File | `/boafrm/formVpnConfigSetup` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/clientdetails/admin/regester.php` | High
-23 | File | `/csms/?page=contact_us` | High
-24 | File | `/detailtransac.php` | High
-25 | File | `/dev/ptpX` | Medium
-26 | File | `/editeddonor.php` | High
-27 | File | `/editprofile.php` | High
-28 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/categories/save` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/pages/` | High
+11 | File | `/admin/positions.php` | High
+12 | File | `/admin/receipt.php` | High
+13 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+15 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+16 | File | `/Administrator/PHP/AdminEditUser.php` | High
+17 | File | `/Administrator/PHP/AdminReply.php` | High
+18 | File | `/admins` | Low
+19 | File | `/adv_mac_filter.php` | High
+20 | File | `/ajax.php?action=login` | High
+21 | File | `/ajax/getBasicInfo.php` | High
+22 | File | `/api/admin/system/store/order/list` | High
+23 | File | `/api/files/recipepictures/` | High
+24 | File | `/app/register.php?action=reg` | High
+25 | File | `/authentication.cgi` | High
+26 | File | `/boaform/formSamba` | High
+27 | File | `/boafrm/formDdns` | High
+28 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+29 | File | `/boafrm/formVpnConfigSetup` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/clientdetails/admin/regester.php` | High
+33 | File | `/csms/?page=contact_us` | High
+34 | File | `/detailtransac.php` | High
+35 | File | `/dev/ptpX` | Medium
+36 | File | `/editeddonor.php` | High
+37 | File | `/editprofile.php` | High
+38 | File | `/farm/product.php` | High
+39 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,12 +150,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/172.86.96.67
 * https://search.censys.io/hosts/172.86.109.207
 * https://search.censys.io/hosts/174.138.184.252
+* https://search.censys.io/hosts/180.131.145.105
+* https://search.censys.io/hosts/184.174.96.225
 * https://search.censys.io/hosts/185.157.77.32
 * https://search.censys.io/hosts/192.3.95.164
 * https://search.censys.io/hosts/192.3.95.227
 * https://search.censys.io/hosts/209.145.56.66
 * https://search.censys.io/hosts/209.200.246.43
 * https://search.censys.io/hosts/209.200.246.45
+* https://search.censys.io/hosts/209.200.246.183
 * https://search.censys.io/hosts/209.200.246.188
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q

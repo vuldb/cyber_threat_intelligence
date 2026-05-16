@@ -79,10 +79,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
 2 | File | `/category.php` | High
 3 | File | `/check` | Low
-4 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-5 | ... | ... | ...
+4 | File | `/classes/Master.php` | High
+5 | File | `/index.php?q=result&searchfor=bycompany` | High
+6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

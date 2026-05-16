@@ -56,22 +56,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply/index.php` | High
-2 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-3 | File | `/classes/Master.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/handgunner-administrator/adminlogin.php` | High
-6 | File | `/request.php` | Medium
-7 | File | `/rom-0` | Low
-8 | File | `/spip.php` | Medium
-9 | File | `/student/project_selection/move_up_project.php` | High
-10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-11 | File | `adclick.php` | Medium
-12 | File | `addentry.php` | Medium
-13 | File | `add_comment.php` | High
-14 | ... | ... | ...
+1 | File | `/about_us` | Medium
+2 | File | `/apply/index.php` | High
+3 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+4 | File | `/classes/Master.php` | High
+5 | File | `/equipment/get_Information` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/handgunner-administrator/adminlogin.php` | High
+8 | File | `/request.php` | Medium
+9 | File | `/rom-0` | Low
+10 | File | `/spip.php` | Medium
+11 | File | `/student/project_selection/move_up_project.php` | High
+12 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+13 | File | `adclick.php` | Medium
+14 | File | `addentry.php` | Medium
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

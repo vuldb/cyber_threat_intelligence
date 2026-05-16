@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with London Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [IT](https://vuldb.com/?country.it)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,7 +158,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -165,12 +168,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/create_product.php` | High
 2 | File | `/admin_topic.php?action=delall` | High
-3 | File | `/birthing_record.php` | High
-4 | File | `/boafrm/formMapReboot` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | ... | ... | ...
+3 | File | `/app/checkout/delete.php` | High
+4 | File | `/birthing_record.php` | High
+5 | File | `/boafrm/formMapReboot` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/classes/Master.php?f=save_package` | High
+8 | File | `/downloadas/` | Medium
+9 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

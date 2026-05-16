@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 
 ## Actors
 
@@ -35,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Basic Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 2 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
-3 | T1505 | CWE-89 | SQL Injection | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +49,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-2 | File | `/cov/triggerUnitCover` | High
-3 | File | `/Doctor/delete_user_appointment_request.php` | High
-4 | ... | ... | ...
+1 | File | `/application/index/controller/Unity.php` | High
+2 | File | `/application/plugins/controller/Upload.php` | High
+3 | File | `/cluster-connections` | High
+4 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+5 | File | `/cov/triggerUnitCover` | High
+6 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

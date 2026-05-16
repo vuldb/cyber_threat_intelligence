@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,24 +60,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/admin/bwdates-reports-details.php` | High
-4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/api/runs/search/run/` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/att_add.php` | Medium
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi/loginDefaultUser` | High
-10 | File | `/dental_form.php` | High
-11 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-12 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
-13 | File | `/index.php?c=account&a=set_timezone` | High
-14 | File | `/mics/j_spring_security_check` | High
-15 | File | `/oauth/token` | Medium
-16 | File | `/opt/bin/cli` | Medium
-17 | File | `/rom-0` | Low
-18 | ... | ... | ...
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/bwdates-reports-details.php` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/api/runs/search/run/` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/att_add.php` | Medium
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi/loginDefaultUser` | High
+11 | File | `/dental_form.php` | High
+12 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+13 | File | `/edit-phlebotomist.php?pid=11` | High
+14 | File | `/extensions/realestate/index.php/properties/list/list-with-sidebar/realties` | High
+15 | File | `/goform/setBlackRule` | High
+16 | File | `/index.php?c=account&a=set_timezone` | High
+17 | File | `/login.aspx` | Medium
+18 | File | `/mics/j_spring_security_check` | High
+19 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

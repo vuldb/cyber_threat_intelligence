@@ -49,7 +49,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -59,30 +60,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/create_product.php` | High
-2 | File | `/admin/edit_role.php` | High
-3 | File | `/admin/storage/delete` | High
-4 | File | `/adposition/queryAll` | High
-5 | File | `/api/wizard/setsyncpppoecfg` | High
-6 | File | `/application/index/controller/Databasesource.php` | High
-7 | File | `/application/index/controller/Screen.php` | High
-8 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
-9 | File | `/backup.pl` | Medium
-10 | File | `/blog` | Low
-11 | File | `/boaform/getASPdata/formFirewall` | High
-12 | File | `/c6/Jhsoft.Web.projectmanage/TaskManage/AddTask.aspx/?Type=add` | High
-13 | File | `/cgi-bin/download_config.cgi` | High
-14 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-15 | File | `/cgi-bin/mainfunction.cgi` | High
-16 | File | `/cgi-bin/qcmap_auth` | High
-17 | File | `/cgi-bin/wireless.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/collections/{COLLECTION}/snapshots/upload` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/dayrui/My/View/main.html` | High
-22 | ... | ... | ...
+1 | File | `/actuator` | Medium
+2 | File | `/admin/create_product.php` | High
+3 | File | `/admin/edit_role.php` | High
+4 | File | `/admin/quesadd.php` | High
+5 | File | `/admin/storage/delete` | High
+6 | File | `/adposition/queryAll` | High
+7 | File | `/api/wizard/setsyncpppoecfg` | High
+8 | File | `/application/admin/logic/FilemanagerLogic.php` | High
+9 | File | `/application/index/controller/Databasesource.php` | High
+10 | File | `/application/index/controller/Screen.php` | High
+11 | File | `/Applications/Endurance.app/Contents/Library/LaunchServices/com.MagnetismStudios.endurance.helper` | High
+12 | File | `/assetsGroupReport/fixedAssetsList.j%73p` | High
+13 | File | `/backup.pl` | Medium
+14 | File | `/blog` | Low
+15 | File | `/boaform/getASPdata/formFirewall` | High
+16 | File | `/boafrm/formWsc` | High
+17 | File | `/c6/Jhsoft.Web.projectmanage/TaskManage/AddTask.aspx/?Type=add` | High
+18 | File | `/cgi-bin/download_config.cgi` | High
+19 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+20 | File | `/cgi-bin/mainfunction.cgi` | High
+21 | File | `/cgi-bin/qcmap_auth` | High
+22 | File | `/cgi-bin/wireless.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/collections/{COLLECTION}/snapshots/upload` | High
+25 | File | `/common/info.cgi` | High
+26 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

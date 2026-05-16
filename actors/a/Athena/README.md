@@ -46,11 +46,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/agc/vicidial.php` | High
-2 | File | `administrator/components/com_media/helpers/media.php` | High
-3 | File | `net_packet.c` | Medium
+2 | File | `adclick.php` | Medium
+3 | File | `administrator/components/com_media/helpers/media.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

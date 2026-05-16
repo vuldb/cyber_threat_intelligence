@@ -53,33 +53,34 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/content/posts/comments` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-7 | File | `/config/pw_changeusers.html` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/Home/GetAttachment` | High
-10 | File | `/html/device-id` | High
-11 | File | `/html/devstat.html` | High
-12 | File | `/html/repository` | High
-13 | File | `/index.php` | Medium
-14 | File | `/members/view_member.php` | High
-15 | File | `/mhds/clinic/view_details.php` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/paySuccess` | Medium
-20 | File | `/php/ping.php` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/rest/api/latest/projectvalidate/key` | High
-23 | File | `/scripts/unlock_tasks.php` | High
-24 | File | `/services/config/config.xml` | High
-25 | File | `/services/system/setup.json` | High
-26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-27 | File | `/SysInfo1.htm` | High
-28 | File | `/sysinfo_json.cgi` | High
-29 | ... | ... | ...
+5 | File | `/BRS_top.html` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+8 | File | `/config/pw_changeusers.html` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/dm/dispatch/user/add` | High
+11 | File | `/goform/P2pListFilterof` | High
+12 | File | `/goform/SetVirtualServerCfg` | High
+13 | File | `/Home/GetAttachment` | High
+14 | File | `/html/device-id` | High
+15 | File | `/html/devstat.html` | High
+16 | File | `/html/repository` | High
+17 | File | `/index.php` | Medium
+18 | File | `/members/view_member.php` | High
+19 | File | `/mhds/clinic/view_details.php` | High
+20 | File | `/modules/projects/vw_files.php` | High
+21 | File | `/nova/bin/console` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/paySuccess` | Medium
+24 | File | `/php/ping.php` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/rest/api/latest/projectvalidate/key` | High
+27 | File | `/scripts/unlock_tasks.php` | High
+28 | File | `/services/config/config.xml` | High
+29 | File | `/services/system/setup.json` | High
+30 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

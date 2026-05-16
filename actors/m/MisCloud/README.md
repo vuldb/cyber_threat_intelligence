@@ -64,52 +64,52 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/sign/out` | High
 19 | File | `/admin/stats` | Medium
 20 | File | `/admin/students/view_student.php` | High
-21 | File | `/admin/update_s6.php` | High
-22 | File | `/admin/user/manage_user.php` | High
-23 | File | `/api/baskets/{name}` | High
-24 | File | `/api/cron/settings/setJob/` | High
-25 | File | `/api/v2/logout` | High
-26 | File | `/api/v4/channels/stats/member_count` | High
-27 | File | `/api/v4/users` | High
-28 | File | `/apply/index.php` | High
-29 | File | `/bitrix/admin/ldap_server_edit.php` | High
-30 | File | `/boaform/device_reset.cgi` | High
-31 | File | `/cap.js` | Low
-32 | File | `/Car_Rental/booking.php` | High
-33 | File | `/categorypage.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/sessions/get-temp-file` | High
-36 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/classes/Users.php` | High
-39 | File | `/classes/Users.php?f=save` | High
-40 | File | `/common/DownController.java` | High
-41 | File | `/common/logViewer/logViewer.jsf` | High
-42 | File | `/core/config-revisions` | High
-43 | File | `/diag/eval` | Medium
-44 | File | `/edoc/doctor/patient.php` | High
-45 | File | `/Employer/ManageJob.php` | High
-46 | File | `/forgotpw.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/garage/editcategory.php` | High
-49 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-50 | File | `/goform/execCommand` | High
-51 | File | `/goform/P2pListFilter` | High
-52 | File | `/goform/setcfm` | High
-53 | File | `/goform/telnet` | High
-54 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
-55 | File | `/includes/cart.inc.php` | High
-56 | File | `/includes/login.php` | High
-57 | File | `/index.php` | Medium
-58 | File | `/index.php?page=reserve` | High
-59 | File | `/iniFile/config.ini` | High
-60 | File | `/install/` | Medium
-61 | File | `/librarian/bookdetails.php` | High
-62 | File | `/login.php` | Medium
-63 | File | `/manager/system/nlog_down.php` | High
+21 | File | `/admin/updateabout.php` | High
+22 | File | `/admin/update_s6.php` | High
+23 | File | `/admin/user/manage_user.php` | High
+24 | File | `/api/baskets/{name}` | High
+25 | File | `/api/cron/settings/setJob/` | High
+26 | File | `/api/v2/logout` | High
+27 | File | `/api/v4/channels/stats/member_count` | High
+28 | File | `/api/v4/users` | High
+29 | File | `/apply/index.php` | High
+30 | File | `/bitrix/admin/ldap_server_edit.php` | High
+31 | File | `/boaform/device_reset.cgi` | High
+32 | File | `/cap.js` | Low
+33 | File | `/Car_Rental/booking.php` | High
+34 | File | `/categorypage.php` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/sessions/get-temp-file` | High
+37 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/classes/Users.php` | High
+40 | File | `/classes/Users.php?f=save` | High
+41 | File | `/common/DownController.java` | High
+42 | File | `/common/logViewer/logViewer.jsf` | High
+43 | File | `/core/config-revisions` | High
+44 | File | `/diag/eval` | Medium
+45 | File | `/edoc/doctor/patient.php` | High
+46 | File | `/Employer/ManageJob.php` | High
+47 | File | `/forgotpw.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/garage/editcategory.php` | High
+50 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+51 | File | `/goform/execCommand` | High
+52 | File | `/goform/P2pListFilter` | High
+53 | File | `/goform/setcfm` | High
+54 | File | `/goform/telnet` | High
+55 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+56 | File | `/includes/cart.inc.php` | High
+57 | File | `/includes/login.php` | High
+58 | File | `/index.php` | Medium
+59 | File | `/index.php?page=reserve` | High
+60 | File | `/iniFile/config.ini` | High
+61 | File | `/install/` | Medium
+62 | File | `/librarian/bookdetails.php` | High
+63 | File | `/login.php` | Medium
 64 | ... | ... | ...
 
-There are 558 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 560 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

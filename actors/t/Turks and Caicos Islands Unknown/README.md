@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,58 +62,58 @@ ID | Type | Indicator | Confidence
 1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
 2 | File | `.FBCIndex` | Medium
 3 | File | `/academy/tutor/filter` | High
-4 | File | `/admin.php` | Medium
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/chatroom.php` | High
-7 | File | `/admin/deleteroom.php` | High
-8 | File | `/admin/fields/manage_field.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/manage-students.php` | High
-11 | File | `/admin/manage_academic.php` | High
-12 | File | `/admin/photo.php` | High
-13 | File | `/admin/update-user.php` | High
-14 | File | `/admin/upload.php` | High
-15 | File | `/admin/user/user-move-run.php` | High
-16 | File | `/ajax_city.php` | High
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/api/Common/uploadFile` | High
-19 | File | `/api/swaggerui/static` | High
-20 | File | `/app/index/controller/Common.php` | High
-21 | File | `/application/index/controller/Databasesource.php` | High
-22 | File | `/blog` | Low
-23 | File | `/boaform/getASPdata/formFirewall` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/download_config.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/common/logViewer/logViewer.jsf` | High
-28 | File | `/config/config.json` | High
-29 | File | `/control/add_act.php` | High
-30 | File | `/control/WANIPConnection` | High
-31 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-32 | File | `/cwms/admin/?page=articles/view_article/` | High
-33 | File | `/data/wps.setup.json` | High
-34 | File | `/dede/file_manage_control.php` | High
-35 | File | `/display/map` | Medium
-36 | File | `/download` | Medium
-37 | File | `/download.php?file=author.png` | High
-38 | File | `/download/image` | High
-39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-40 | File | `/Employer/EditProfile.php` | High
-41 | File | `/EXCU_SHELL` | Medium
-42 | File | `/forum/away.php` | High
-43 | File | `/goform` | Low
-44 | File | `/goform/apPortalPhoneAuth` | High
-45 | File | `/homeaction.php` | High
-46 | File | `/index.php` | Medium
-47 | File | `/InnerRepPlus.html` | High
-48 | File | `/mail/index.html` | High
-49 | File | `/manage_sy.php` | High
-50 | File | `/modules/ajaxServiciosCentro.php` | High
-51 | File | `/multi-vendor-shopping-script/product-list.php` | High
-52 | File | `/notice-details.php` | High
-53 | File | `/OpenPublicCourse.aspx` | High
-54 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-55 | File | `/out.php` | Medium
+4 | File | `/admin-cp/menus` | High
+5 | File | `/admin.php` | Medium
+6 | File | `/admin/` | Low
+7 | File | `/admin/barcode.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/chatroom.php` | High
+10 | File | `/admin/deleteroom.php` | High
+11 | File | `/admin/edit_member.php` | High
+12 | File | `/admin/fields/manage_field.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage-students.php` | High
+15 | File | `/admin/manage_academic.php` | High
+16 | File | `/admin/modules/class/index.php` | High
+17 | File | `/admin/photo.php` | High
+18 | File | `/admin/update-user.php` | High
+19 | File | `/admin/upload.php` | High
+20 | File | `/admin/user/user-move-run.php` | High
+21 | File | `/ajax_city.php` | High
+22 | File | `/api/baskets/{name}` | High
+23 | File | `/api/Common/uploadFile` | High
+24 | File | `/api/swaggerui/static` | High
+25 | File | `/app/index/controller/Common.php` | High
+26 | File | `/application/index/controller/Databasesource.php` | High
+27 | File | `/blog` | Low
+28 | File | `/boaform/getASPdata/formFirewall` | High
+29 | File | `/cgi` | Low
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/download_config.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/common/logViewer/logViewer.jsf` | High
+34 | File | `/config/config.json` | High
+35 | File | `/control/add_act.php` | High
+36 | File | `/control/WANIPConnection` | High
+37 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+38 | File | `/cwms/admin/?page=articles/view_article/` | High
+39 | File | `/data/wps.setup.json` | High
+40 | File | `/dede/file_manage_control.php` | High
+41 | File | `/display/map` | Medium
+42 | File | `/download` | Medium
+43 | File | `/download.php?file=author.png` | High
+44 | File | `/download/image` | High
+45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+46 | File | `/Employer/EditProfile.php` | High
+47 | File | `/EXCU_SHELL` | Medium
+48 | File | `/forum/away.php` | High
+49 | File | `/goform` | Low
+50 | File | `/goform/apPortalPhoneAuth` | High
+51 | File | `/goform/RP_UpgradeFWByBBS` | High
+52 | File | `/homeaction.php` | High
+53 | File | `/index.php` | Medium
+54 | File | `/InnerRepPlus.html` | High
+55 | File | `/insert-and-view/action.php` | High
 56 | ... | ... | ...
 
 There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -135,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

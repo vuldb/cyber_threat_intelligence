@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 27 | File | `/goform/WriteFacMac` | High
 28 | File | `/hedwig.cgi` | Medium
 29 | File | `/index/jobfairol/show/` | High
-30 | ... | ... | ...
+30 | File | `/intern/controller.php` | High
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

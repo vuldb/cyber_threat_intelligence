@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Microsoft Tech Support Scam:
 
 * [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
 * [DE](https://vuldb.com/?country.de)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,14 +56,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit-artist-detail.php?editid=1` | High
-2 | File | `/admin/forgot-password.php` | High
-3 | File | `/admin/products/index.php?view=add` | High
-4 | File | `/admin/search-invoices.php` | High
-5 | File | `/app/api/v1/openvpn.py` | High
-6 | ... | ... | ...
+1 | File | `/admin/add-category.php` | High
+2 | File | `/admin/edit-artist-detail.php?editid=1` | High
+3 | File | `/admin/forgot-password.php` | High
+4 | File | `/admin/login-back.php` | High
+5 | File | `/admin/products/index.php?view=add` | High
+6 | File | `/admin/search-invoices.php` | High
+7 | File | `/Administrator/PHP/AdminEditUser.php` | High
+8 | File | `/api/socket` | Medium
+9 | File | `/app/api/v1/openvpn.py` | High
+10 | File | `/auth.asp` | Medium
+11 | File | `/boaform/formLoopBack` | High
+12 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

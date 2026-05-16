@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with TG-3390:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TG-3390:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 24 more TTP items available. Please use our online service to access the data.
@@ -64,55 +64,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/archives_add.php` | High
-3 | File | `/admin/categories/save` | High
-4 | File | `/admin/contact-us.php` | High
-5 | File | `/admin/delete_user.php` | High
-6 | File | `/admin/newsletterdel.php` | High
-7 | File | `/admin/pages/` | High
-8 | File | `/admin/positions.php` | High
-9 | File | `/admin/powerline` | High
-10 | File | `/admin/receipt.php` | High
-11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-13 | File | `/admins` | Low
-14 | File | `/ajax.php?action=login` | High
-15 | File | `/ajax/getBasicInfo.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/api/files/recipepictures/` | High
-18 | File | `/authentication.cgi` | High
-19 | File | `/boafrm/formDdns` | High
-20 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-21 | File | `/boafrm/formVpnConfigSetup` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/live_api.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/clientdetails/admin/regester.php` | High
-26 | File | `/csms/?page=contact_us` | High
-27 | File | `/detailtransac.php` | High
-28 | File | `/dev/ptpX` | Medium
-29 | File | `/editeddonor.php` | High
-30 | File | `/editprofile.php` | High
-31 | File | `/etc/shadow` | Medium
-32 | File | `/farm/product.php` | High
-33 | File | `/foreigner-search.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/function.php` | High
-36 | File | `/gallery/api/status/` | High
-37 | File | `/goform/AdvSetMacMtuWa` | High
-38 | File | `/goform/aspForm` | High
-39 | File | `/goform/DhcpListClient` | High
-40 | File | `/goform/exeCommand` | High
-41 | File | `/goform/formConfigFastDirectionW` | High
-42 | File | `/goform/formNatStaticMap` | High
-43 | File | `/goform/formWPS` | High
-44 | File | `/goform/getOneApConfTempEntry` | High
-45 | File | `/goform/onSSIDChange` | High
-46 | File | `/goform/openSchedWifi` | High
-47 | File | `/goform/SetPptpServerCfg` | High
-48 | ... | ... | ...
+2 | File | `/addProduct.php` | High
+3 | File | `/admin/add-module.php` | High
+4 | File | `/admin/add_expenses.php` | High
+5 | File | `/admin/archives_add.php` | High
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/contact-us.php` | High
+8 | File | `/admin/delete_user.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/newsletterdel.php` | High
+11 | File | `/admin/pages/` | High
+12 | File | `/admin/positions.php` | High
+13 | File | `/admin/powerline` | High
+14 | File | `/admin/receipt.php` | High
+15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+16 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+17 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+18 | File | `/Administrator/PHP/AdminEditUser.php` | High
+19 | File | `/Administrator/PHP/AdminReply.php` | High
+20 | File | `/admins` | Low
+21 | File | `/adv_mac_filter.php` | High
+22 | File | `/ajax.php?action=login` | High
+23 | File | `/ajax/getBasicInfo.php` | High
+24 | File | `/api/admin/system/store/order/list` | High
+25 | File | `/api/files/recipepictures/` | High
+26 | File | `/app/register.php?action=reg` | High
+27 | File | `/authentication.cgi` | High
+28 | File | `/boaform/formSamba` | High
+29 | File | `/boafrm/formDdns` | High
+30 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+31 | File | `/boafrm/formVpnConfigSetup` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/live_api.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/clientdetails/admin/regester.php` | High
+36 | File | `/csms/?page=contact_us` | High
+37 | File | `/detailtransac.php` | High
+38 | File | `/dev/ptpX` | Medium
+39 | File | `/editeddonor.php` | High
+40 | File | `/editprofile.php` | High
+41 | File | `/etc/shadow` | Medium
+42 | File | `/farm/product.php` | High
+43 | File | `/foreigner-search.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/FrontEnd/Albums.php` | High
+46 | File | `/function.php` | High
+47 | File | `/gallery/api/status/` | High
+48 | File | `/goform/AdvSetLanip` | High
+49 | File | `/goform/AdvSetMacMtuWa` | High
+50 | File | `/goform/AdvSetMacMtuWan` | High
+51 | File | `/goform/aspForm` | High
+52 | File | `/goform/ConfigExceptAli` | High
+53 | File | `/goform/ConfigExceptMSN` | High
+54 | File | `/goform/DhcpListClient` | High
+55 | File | `/goform/exeCommand` | High
+56 | File | `/goform/formConfigFastDirectionW` | High
+57 | File | `/goform/formFireWall` | High
+58 | File | `/goform/formNatStaticMap` | High
+59 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -46,32 +46,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/process_category_add.php` | High
-5 | File | `/admin/produts/controller.php` | High
-6 | File | `/admin/user/team` | High
-7 | File | `/api/esps` | Medium
-8 | File | `/api/login/auth` | High
-9 | File | `/book-services.php` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-13 | File | `/en/blog-comment-4` | High
-14 | File | `/foms/routers/cancel-order.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/aspForm` | High
-18 | File | `/h/` | Low
-19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-20 | File | `/mifs/c/i/reg/reg.html` | High
-21 | File | `/ms/cms/content/list.do` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/orms/` | Low
-24 | File | `/plesk-site-preview/` | High
-25 | ... | ... | ...
+2 | File | `/admin/add-artist.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+5 | File | `/admin/complaint-search.php` | High
+6 | File | `/admin/edit_class.php` | High
+7 | File | `/admin/edit_department.php` | High
+8 | File | `/admin/forget-password.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/process_category_add.php` | High
+12 | File | `/admin/produts/controller.php` | High
+13 | File | `/admin/user/team` | High
+14 | File | `/ajax.php?action=delete_user` | High
+15 | File | `/api/esps` | Medium
+16 | File | `/api/login/auth` | High
+17 | File | `/api/v1/admin/` | High
+18 | File | `/bank/transfer.php` | High
+19 | File | `/book-services.php` | High
+20 | File | `/carrental/search.php` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/common/logViewer/logViewer.jsf` | High
+23 | File | `/confirmbooking.php` | High
+24 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+25 | File | `/dashboard/admin/gen_invoice.php` | High
+26 | File | `/download` | Medium
+27 | File | `/dws/api/` | Medium
+28 | File | `/en/blog-comment-4` | High
+29 | File | `/foms/routers/cancel-order.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/getcfg.php` | Medium
+32 | File | `/goform/aspForm` | High
+33 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

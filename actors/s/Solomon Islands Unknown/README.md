@@ -84,29 +84,30 @@ ID | Type | Indicator | Confidence
 24 | File | `/boaform/device_reset.cgi` | High
 25 | File | `/book_search.php` | High
 26 | File | `/car-rental-management-system/admin/view_car.php=` | High
-27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/check_availability.php` | High
-30 | File | `/config/config.json` | High
-31 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-32 | File | `/etc/hosts.deny` | High
-33 | File | `/etc/shadow` | Medium
-34 | File | `/getcfg.php` | Medium
-35 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
-36 | File | `/goform/set_delshrpath_cfg` | High
-37 | File | `/hedwig.cgi` | Medium
-38 | File | `/HNAP1/` | Low
-39 | File | `/itbox_pi/networksafe.php?a=set` | High
-40 | File | `/lib/tools/Config.js` | High
-41 | File | `/manage_sy.php` | High
-42 | File | `/mtd` | Low
-43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/oa/setup/setup.jsp` | High
-45 | File | `/oauth/idp/.well-known/openid-configuration` | High
-46 | File | `/ogre/OgreMain/src/OgreLogManager.cpp` | High
-47 | ... | ... | ...
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/check_availability.php` | High
+31 | File | `/config/config.json` | High
+32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+33 | File | `/etc/hosts.deny` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/getcfg.php` | Medium
+36 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+37 | File | `/goform/set_delshrpath_cfg` | High
+38 | File | `/hedwig.cgi` | Medium
+39 | File | `/HNAP1/` | Low
+40 | File | `/itbox_pi/branch_import.php?a=branch_list` | High
+41 | File | `/itbox_pi/networksafe.php?a=set` | High
+42 | File | `/lib/tools/Config.js` | High
+43 | File | `/manage_sy.php` | High
+44 | File | `/mtd` | Low
+45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+46 | File | `/oa/setup/setup.jsp` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

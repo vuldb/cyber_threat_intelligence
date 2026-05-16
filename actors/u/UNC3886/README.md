@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,27 +71,28 @@ ID | Type | Indicator | Confidence
 9 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
 10 | File | `/category.php` | High
 11 | File | `/category_view.php` | High
-12 | File | `/cgi-bin/luci;stok=/locale` | High
-13 | File | `/cgi-bin/wapopen` | High
-14 | File | `/course/modedit.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/devinfo` | Medium
-17 | File | `/forms/doLogin` | High
-18 | File | `/goform/formSetWizardSelectMode` | High
-19 | File | `/goform/RP_UpgradeFWByBBS` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/importexport.php` | High
-23 | File | `/intranet/educar_tipo_usuario_lst.php` | High
-24 | File | `/manage-courses.php?del=1` | High
-25 | File | `/manage_website.php` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/panel/edit_plan.php` | High
-28 | File | `/plain` | Low
-29 | File | `/preauth` | Medium
-30 | ... | ... | ...
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/luci;stok=/locale` | High
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/course/modedit.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/devinfo` | Medium
+18 | File | `/endpoint/delete-expense.php` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/goform/formConfigFastDirectionW` | High
+21 | File | `/goform/formNatStaticMap` | High
+22 | File | `/goform/formSetWizardSelectMode` | High
+23 | File | `/goform/qossetting` | High
+24 | File | `/goform/RP_UpgradeFWByBBS` | High
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/importexport.php` | High
+28 | File | `/intranet/educar_tipo_usuario_lst.php` | High
+29 | File | `/manage-courses.php?del=1` | High
+30 | File | `/manage_website.php` | High
+31 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

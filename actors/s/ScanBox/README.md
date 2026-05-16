@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ScanBox:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [TH](https://vuldb.com/?country.th)
 * ...
 
@@ -49,19 +49,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/ajax.php` | Medium
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/proc/self/setgroups` | High
-5 | File | `/sasfs1` | Low
-6 | File | `/secure/QueryComponent!Default.jspa` | High
-7 | File | `/userRpm/PingIframeRpm.htm` | High
-8 | File | `/webman/info.cgi` | High
-9 | File | `/wp-admin/options.php` | High
-10 | File | `adclick.php` | Medium
-11 | ... | ... | ...
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/ajax.php` | Medium
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/proc/self/setgroups` | High
+6 | File | `/sasfs1` | Low
+7 | File | `/secure/QueryComponent!Default.jspa` | High
+8 | File | `/userRpm/PingIframeRpm.htm` | High
+9 | File | `/webman/info.cgi` | High
+10 | File | `/wp-admin/options.php` | High
+11 | File | `adclick.php` | Medium
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

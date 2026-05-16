@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
@@ -51,46 +51,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?g=route_ispinfo_export_save` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/role` | Medium
-4 | File | `/api/es/admin/v3/security/user/1` | High
-5 | File | `/api /v3/auth` | High
-6 | File | `/api/workspace/:workspace-slug/update` | High
-7 | File | `/boaform/getASPdata/formFirewall` | High
-8 | File | `/cgi-bin/lighttpd.cgi` | High
-9 | File | `/cgi-bin/webviewer_login_page` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/common/sysFile/list` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/dede/group_store.php` | High
-14 | File | `/ebics-server/ebics.aspx` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/hedwig.cgi` | Medium
-18 | File | `/index.php` | Medium
-19 | File | `/monitoring` | Medium
-20 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-21 | File | `/one/getpassword.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/phppath/php` | Medium
-24 | File | `/pms/admin/crimes/manage_crime.php` | High
-25 | File | `/preview.php` | Medium
-26 | File | `/products/details.asp` | High
-27 | File | `/products/view_product.php` | High
-28 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-29 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/servlet/webacc` | High
-32 | File | `/setNTP.cgi` | Medium
-33 | File | `/Side.php` | Medium
-34 | File | `/spip/ecrire/` | High
-35 | File | `/storage` | Medium
-36 | File | `/uncpath/` | Medium
-37 | File | `/uploads/tags.php` | High
-38 | File | `/userfs/bin/tcapi` | High
-39 | ... | ... | ...
+2 | File | `/admin/add_course.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/role` | Medium
+5 | File | `/api/es/admin/v3/security/user/1` | High
+6 | File | `/api /v3/auth` | High
+7 | File | `/api/workspace/:workspace-slug/update` | High
+8 | File | `/boaform/getASPdata/formFirewall` | High
+9 | File | `/cgi-bin/lighttpd.cgi` | High
+10 | File | `/cgi-bin/webviewer_login_page` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/common/sysFile/list` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/Customer/AddEdit` | High
+15 | File | `/dede/group_store.php` | High
+16 | File | `/ebics-server/ebics.aspx` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/get_getnetworkconf.cgi` | High
+20 | File | `/hedwig.cgi` | Medium
+21 | File | `/index.php` | Medium
+22 | File | `/monitoring` | Medium
+23 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+24 | File | `/one/getpassword.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/phppath/php` | Medium
+27 | File | `/pms/admin/crimes/manage_crime.php` | High
+28 | File | `/preview.php` | Medium
+29 | File | `/products/details.asp` | High
+30 | File | `/products/view_product.php` | High
+31 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+32 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/servlet/webacc` | High
+35 | File | `/setNTP.cgi` | Medium
+36 | File | `/Side.php` | Medium
+37 | File | `/spip/ecrire/` | High
+38 | File | `/storage` | Medium
+39 | File | `/uncpath/` | Medium
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

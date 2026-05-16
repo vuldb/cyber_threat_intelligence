@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -60,49 +60,50 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/?page=user/manage_user&id=3` | High
 10 | File | `/admin/admin-profile.php` | High
 11 | File | `/admin/admin_user.php` | High
-12 | File | `/admin/category_row.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/pages/list` | High
-15 | File | `/admin/project/update/2` | High
-16 | File | `/admin/upload/img` | High
-17 | File | `/adminapi/system/crud` | High
-18 | File | `/api/authentication/login` | High
-19 | File | `/api/baskets/{name}` | High
-20 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-21 | File | `/api/wechat/app_auth` | High
-22 | File | `/api2/html/` | Medium
-23 | File | `/app/api/controller/default/Sqlite.php` | High
-24 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/bin/login` | Medium
-27 | File | `/books` | Low
-28 | File | `/cas/logout` | Medium
-29 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-30 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-31 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-32 | File | `/cgi-bin/nas_sharing.cgi` | High
-33 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/ckeditor/samples/old/ajax.html` | High
-36 | File | `/classes/Master.php` | High
-37 | File | `/classes/Master.php?f=delete_category` | High
-38 | File | `/classes/Master.php?f=delete_item` | High
-39 | File | `/classes/Master.php?f=delete_service` | High
-40 | File | `/classes/Master.php?f=save_service` | High
-41 | File | `/config/getuser` | High
-42 | File | `/contact.php` | Medium
-43 | File | `/controller/OnlinePreviewController.java` | High
-44 | File | `/controller/publishHotel.php&amp` | High
-45 | File | `/controllers/api/user.php` | High
-46 | File | `/dayrui/My/Config/Install.txt` | High
-47 | File | `/debug/pprof` | Medium
-48 | File | `/designer/add/layout` | High
-49 | File | `/dialog/select_media.php` | High
-50 | File | `/DXR.axd` | Medium
-51 | File | `/e3api/api/main/ToJsonByControlName` | High
-52 | ... | ... | ...
+12 | File | `/admin/ajax.php?action=delete_recruitment_status` | High
+13 | File | `/admin/category_row.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/pages/list` | High
+16 | File | `/admin/project/update/2` | High
+17 | File | `/admin/upload/img` | High
+18 | File | `/adminapi/system/crud` | High
+19 | File | `/api.php?method=protectedMethod` | High
+20 | File | `/api/authentication/login` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+23 | File | `/api/v1/contenttype` | High
+24 | File | `/api/wechat/app_auth` | High
+25 | File | `/api2/html/` | Medium
+26 | File | `/app/api/controller/default/Sqlite.php` | High
+27 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+28 | File | `/bin/boa` | Medium
+29 | File | `/bin/login` | Medium
+30 | File | `/books` | Low
+31 | File | `/cas/logout` | Medium
+32 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+33 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+34 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+35 | File | `/cgi-bin/nas_sharing.cgi` | High
+36 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/ckeditor/samples/old/ajax.html` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/classes/Master.php?f=delete_item` | High
+42 | File | `/classes/Master.php?f=delete_service` | High
+43 | File | `/classes/Master.php?f=save_service` | High
+44 | File | `/config/getuser` | High
+45 | File | `/contact.php` | Medium
+46 | File | `/controller/OnlinePreviewController.java` | High
+47 | File | `/controller/publishHotel.php&amp` | High
+48 | File | `/controllers/api/user.php` | High
+49 | File | `/dayrui/My/Config/Install.txt` | High
+50 | File | `/debug/pprof` | Medium
+51 | File | `/designer/add/layout` | High
+52 | File | `/dialog/select_media.php` | High
+53 | ... | ... | ...
 
-There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

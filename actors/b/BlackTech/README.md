@@ -62,31 +62,31 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/foreigner-bwdates-reports-details.php` | High
 2 | File | `/administration/theme.php` | High
 3 | File | `/api/blade-log/api/list` | High
-4 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-5 | File | `/cgi-bin/portal` | High
-6 | File | `/cgi-mod/lookup.cgi` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/formUserStatusRemark` | High
-9 | File | `/mifs/c/i/reg/reg.html` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/pages/apply_vacancy.php` | High
-12 | File | `/RPC2` | Low
-13 | File | `/server-info` | Medium
-14 | File | `/service/upload` | High
-15 | File | `/services` | Medium
-16 | File | `/system/dept/edit` | High
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/user/updatePwd` | High
-21 | File | `/wp-json/oembed/1.0/embed?url` | High
-22 | File | `a2billing/customer/iridium_threed.php` | High
-23 | File | `additem.asp` | Medium
-24 | File | `admin.php` | Medium
-25 | File | `admin.php?s=/Channel/add.html` | High
+4 | File | `/api /v3/auth` | High
+5 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+6 | File | `/cgi-bin/portal` | High
+7 | File | `/cgi-mod/lookup.cgi` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/formUserStatusRemark` | High
+10 | File | `/mifs/c/i/reg/reg.html` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/pages/apply_vacancy.php` | High
+13 | File | `/RPC2` | Low
+14 | File | `/server-info` | Medium
+15 | File | `/service/upload` | High
+16 | File | `/services` | Medium
+17 | File | `/system/dept/edit` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/user/updatePwd` | High
+22 | File | `/wp-json/oembed/1.0/embed?url` | High
+23 | File | `a2billing/customer/iridium_threed.php` | High
+24 | File | `additem.asp` | Medium
+25 | File | `admin.php` | Medium
 26 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

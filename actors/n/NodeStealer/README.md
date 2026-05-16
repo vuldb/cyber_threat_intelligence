@@ -27,7 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+2 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
 3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
@@ -39,12 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `drivers/net/slip/slip.c` | High
-2 | File | `libvncclient/rfbproto.c` | High
-3 | File | `low-level/imap/mailimap_types.c` | High
+1 | File | `/admin/edit_activity.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/goform/set_static_route_table` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

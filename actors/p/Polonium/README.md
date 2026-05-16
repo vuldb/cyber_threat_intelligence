@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,37 +58,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/AcceptZip.ashx` | High
-3 | File | `/advanced-tools/nova/bin/netwatch` | High
-4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-5 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-6 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-7 | File | `/cgi-bin/touchlist_sync.cgi` | High
-8 | File | `/classes/master.php?f=delete_order` | High
-9 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-10 | File | `/downloadFile.php` | High
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/forms/nslookupHandler` | High
-14 | File | `/goform/wirelessAdvancedHidden` | High
-15 | File | `/h/autoSaveDraft` | High
-16 | File | `/index.php` | Medium
-17 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/model/update_grade.php` | High
-20 | File | `/module/word_model/view/index.php` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/news.dtl.php` | High
-23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-24 | File | `/out.php` | Medium
-25 | File | `/patient/appointment.php` | High
-26 | File | `/personal/updateInfo` | High
-27 | File | `/php-opos/index.php` | High
-28 | File | `/plesk-site-preview/` | High
-29 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-30 | File | `/ptms/?page=user` | High
-31 | ... | ... | ...
+3 | File | `/admin.php` | Medium
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/BalloonSave.ashx` | High
+7 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+10 | File | `/classes/master.php?f=delete_order` | High
+11 | File | `/controller/api/Room.php` | High
+12 | File | `/dayrui/Fcms/Init.php` | High
+13 | File | `/dev-api/common/upload` | High
+14 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+15 | File | `/downloadFile.php` | High
+16 | File | `/etc/gsissh/sshd_config` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/file/downloadShowFile.action` | High
+19 | File | `/forms/nslookupHandler` | High
+20 | File | `/goform/wirelessAdvancedHidden` | High
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/includes/article_detail.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index.php/stock/item_select` | High
+25 | File | `/interlib/order/BatchOrder?cmdACT=admin_order&xsl=adminOrder_OrderList.xsl` | High
+26 | File | `/jdcapi` | Low
+27 | File | `/je/postil/postil/loadPostil` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/model/update_grade.php` | High
+30 | File | `/module/word_model/view/index.php` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/news.dtl.php` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/out.php` | Medium
+35 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

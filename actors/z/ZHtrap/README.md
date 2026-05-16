@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,51 +50,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/ajax.php?action=login` | High
-3 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
-4 | File | `/admin/edit_subject.php` | High
-5 | File | `/admin/foldernotice/list` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/Admin/registration.php` | High
-8 | File | `/admin/transactions/track_shipment.php` | High
-9 | File | `/admin/weixin.php` | High
-10 | File | `/ajax/get_patient_history.php` | High
-11 | File | `/Ap4RtpAtom.cpp` | High
-12 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-13 | File | `/bcms/admin/?page=user/manage_user` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=delete_record` | High
-17 | File | `/classes/Master.php?f=save_category` | High
-18 | File | `/College/admin/teacher.php` | High
-19 | File | `/common/run_cross_report.php` | High
-20 | File | `/confirm` | Medium
-21 | File | `/deleteTicket.php` | High
-22 | File | `/etc/ciel.cfg` | High
-23 | File | `/etc/gsissh/sshd_config` | High
-24 | File | `/exponent_constants.php` | High
-25 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
-26 | File | `/geoserver/gwc/rest.html` | High
-27 | File | `/goform/addRouting` | High
-28 | File | `/goform/DhcpSetSer` | High
-29 | File | `/goform/formAdvanceSetup` | High
-30 | File | `/goform/operateMacFilter` | High
-31 | File | `/goform/RP_setBasicAuto` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/group/apply` | Medium
-34 | File | `/home/index.html#hashHome` | High
-35 | File | `/image_zoom.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?action=editManager` | High
-38 | File | `/instance/detail` | High
-39 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-40 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-41 | File | `/master/core/PostHandler.php` | High
-42 | File | `/mdiy/dict/list` | High
-43 | ... | ... | ...
+1 | File | `//etc/RT2870STA.dat` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/ajax.php?action=login` | High
+4 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data_th.php` | High
+5 | File | `/admin/edit_subject.php` | High
+6 | File | `/admin/foldernotice/list` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/Admin/registration.php` | High
+9 | File | `/admin/transactions/track_shipment.php` | High
+10 | File | `/admin/view-foreigner-ticket.php` | High
+11 | File | `/admin/weixin.php` | High
+12 | File | `/ajax/get_patient_history.php` | High
+13 | File | `/Ap4RtpAtom.cpp` | High
+14 | File | `/api/getDepartUserList` | High
+15 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+16 | File | `/bcms/admin/?page=user/manage_user` | High
+17 | File | `/boafrm/formDdns` | High
+18 | File | `/book/searchByPage` | High
+19 | File | `/borrow.php` | Medium
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=delete_record` | High
+23 | File | `/classes/Master.php?f=save_category` | High
+24 | File | `/College/admin/teacher.php` | High
+25 | File | `/common/run_cross_report.php` | High
+26 | File | `/confirm` | Medium
+27 | File | `/deleteTicket.php` | High
+28 | File | `/etc/ciel.cfg` | High
+29 | File | `/etc/gsissh/sshd_config` | High
+30 | File | `/exponent_constants.php` | High
+31 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
+32 | File | `/geoserver/gwc/rest.html` | High
+33 | File | `/goform/addRouting` | High
+34 | File | `/goform/DhcpSetSer` | High
+35 | File | `/goform/formAdvanceSetup` | High
+36 | File | `/goform/operateMacFilter` | High
+37 | File | `/goform/RP_setBasicAuto` | High
+38 | File | `/goform/SetLEDCf` | High
+39 | File | `/goform/WifiBasicSet` | High
+40 | File | `/group/apply` | Medium
+41 | File | `/home/index.html#hashHome` | High
+42 | File | `/image_zoom.php` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php?action=editManager` | High
+45 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -70,17 +70,17 @@ ID | Type | Indicator | Confidence
 19 | File | `/f.php` | Low
 20 | File | `/face-recognition-php/facepay-master/camera.php` | High
 21 | File | `/forms/doLogin` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/index.php/fuel/logs/items` | High
-24 | File | `/goform/accessControlAdd` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/formTaskEdit` | High
-27 | File | `/index.php` | Medium
-28 | File | `/lists/index.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/fort/trust/version/common/common.jsp` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/fuel/index.php/fuel/logs/items` | High
+25 | File | `/goform/accessControlAdd` | High
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/formTaskEdit` | High
+28 | File | `/index.php` | Medium
+29 | File | `/lists/index.php` | High
 30 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

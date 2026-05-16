@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,17 +52,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
 2 | File | `/folder/list` | Medium
-3 | File | `/wp-admin/options.php` | High
-4 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-5 | File | `adclick.php` | Medium
-6 | File | `add_comment.php` | High
-7 | File | `classes/class.database.php` | High
-8 | File | `cloud.php` | Medium
-9 | File | `comment_add.asp` | High
-10 | File | `data/gbconfiguration.dat` | High
+3 | File | `/include/dialog/select_templets_post.php` | High
+4 | File | `/Websquare/likeClickComment/` | High
+5 | File | `/wp-admin/options.php` | High
+6 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+7 | File | `adclick.php` | Medium
+8 | File | `add_comment.php` | High
+9 | File | `classes/class.database.php` | High
+10 | File | `cloud.php` | Medium
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

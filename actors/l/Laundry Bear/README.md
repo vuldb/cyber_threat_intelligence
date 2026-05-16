@@ -50,42 +50,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/admapi.php` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/complaint-search.php` | High
-5 | File | `/admin/forget-password.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/process_category_add.php` | High
-9 | File | `/admin/produts/controller.php` | High
-10 | File | `/admin/user/team` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/esps` | Medium
-13 | File | `/api/login/auth` | High
-14 | File | `/api/v1/admin/` | High
-15 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-16 | File | `/bank/transfer.php` | High
-17 | File | `/book-services.php` | High
-18 | File | `/cgi-bin/system_mgr.cgi` | High
-19 | File | `/common/logViewer/logViewer.jsf` | High
-20 | File | `/confirmbooking.php` | High
-21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-22 | File | `/dashboard/admin/gen_invoice.php` | High
-23 | File | `/download` | Medium
-24 | File | `/en/blog-comment-4` | High
-25 | File | `/foms/routers/cancel-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/aspForm` | High
-28 | File | `/goform/formUserMng` | High
-29 | File | `/goform/SysToolDDNS` | High
-30 | File | `/h/` | Low
-31 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-32 | File | `/InsertFeedback.php` | High
-33 | File | `/jshERP-boot/user/deleteBatch` | High
-34 | File | `/mail/mailinactive.php` | High
-35 | ... | ... | ...
+2 | File | `/admin/add-artist.php` | High
+3 | File | `/admin/admapi.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+6 | File | `/admin/complaint-search.php` | High
+7 | File | `/admin/edit_class.php` | High
+8 | File | `/admin/edit_department.php` | High
+9 | File | `/admin/forget-password.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/process_category_add.php` | High
+13 | File | `/admin/produts/controller.php` | High
+14 | File | `/admin/user/team` | High
+15 | File | `/ajax.php?action=delete_user` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/esps` | Medium
+18 | File | `/api/login/auth` | High
+19 | File | `/api/v1/admin/` | High
+20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+21 | File | `/bank/transfer.php` | High
+22 | File | `/book-services.php` | High
+23 | File | `/carrental/search.php` | High
+24 | File | `/cart.php` | Medium
+25 | File | `/cgi-bin/system_mgr.cgi` | High
+26 | File | `/common/logViewer/logViewer.jsf` | High
+27 | File | `/confirmbooking.php` | High
+28 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+29 | File | `/dashboard/admin/gen_invoice.php` | High
+30 | File | `/download` | Medium
+31 | File | `/dws/api/` | Medium
+32 | File | `/en/blog-comment-4` | High
+33 | File | `/foms/routers/cancel-order.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/aspForm` | High
+36 | File | `/goform/formUserMng` | High
+37 | File | `/goform/SetPptpServerCfg` | High
+38 | File | `/goform/SysToolDDNS` | High
+39 | File | `/h/` | Low
+40 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+41 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

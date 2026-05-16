@@ -45,7 +45,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,21 +56,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/markdown` | High
-2 | File | `/admin/modal_add_product.php` | High
-3 | File | `/admin/students/manage_academic.php` | High
-4 | File | `/admin/sys_sql_query.php` | High
-5 | File | `/admin/u/toIndex` | High
-6 | File | `/app/api/controller/default/Sqlite.php` | High
-7 | File | `/blog` | Low
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cupseasylive/grncreate.php` | High
-10 | File | `/cupseasylive/itemgroupcreate.php` | High
-11 | File | `/download/image` | High
-12 | File | `/expedit.php` | Medium
-13 | ... | ... | ...
+1 | File | `/admin/contactus.php` | High
+2 | File | `/admin/markdown` | High
+3 | File | `/admin/modal_add_product.php` | High
+4 | File | `/admin/students/manage_academic.php` | High
+5 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/admin/u/toIndex` | High
+7 | File | `/app/api/controller/default/Sqlite.php` | High
+8 | File | `/blog` | Low
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cupseasylive/grncreate.php` | High
+11 | File | `/cupseasylive/itemgroupcreate.php` | High
+12 | File | `/download/image` | High
+13 | File | `/expedit.php` | Medium
+14 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,26 +66,26 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/photo.php` | High
 8 | File | `/admin/upload.php` | High
 9 | File | `/admin/user.php` | High
-10 | File | `/admin/user/add` | High
-11 | File | `/admin/user/user-move-run.php` | High
-12 | File | `/ajax_city.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/v1/dashboards/export` | High
-15 | File | `/asms/products/view_product.php` | High
-16 | File | `/blog` | Low
-17 | File | `/boaform/device_reset.cgi` | High
-18 | File | `/car-rental-management-system/admin/view_car.php=` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/common/logViewer/logViewer.jsf` | High
-22 | File | `/config/config.json` | High
-23 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-24 | File | `/csms/admin/inquiries/view_details.php` | High
-25 | File | `/download` | Medium
-26 | File | `/ecommerce/admin/category/controller.php` | High
-27 | File | `/etc/hosts.deny` | High
-28 | File | `/file-upload` | Medium
-29 | File | `/forum/away.php` | High
+10 | File | `/admin/user/user-move-run.php` | High
+11 | File | `/ajax_city.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/v1/dashboards/export` | High
+14 | File | `/asms/products/view_product.php` | High
+15 | File | `/blog` | Low
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/car-rental-management-system/admin/view_car.php=` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/common/logViewer/logViewer.jsf` | High
+21 | File | `/config/config.json` | High
+22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+23 | File | `/csms/admin/inquiries/view_details.php` | High
+24 | File | `/download` | Medium
+25 | File | `/ecommerce/admin/category/controller.php` | High
+26 | File | `/etc/hosts.deny` | High
+27 | File | `/file-upload` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
 30 | File | `/goform/addressNat` | High
 31 | File | `/goform/wifiSSIDset` | High
 32 | File | `/grid/vgrid_server.php` | High
@@ -100,24 +100,22 @@ ID | Type | Indicator | Confidence
 41 | File | `/multi-vendor-shopping-script/product-list.php` | High
 42 | File | `/mygym/admin/index.php?view_exercises` | High
 43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/out.php` | Medium
-45 | File | `/p` | Low
-46 | File | `/pg_meta/default/query` | High
-47 | File | `/portal/search.htm` | High
-48 | File | `/preauth` | Medium
-49 | File | `/product-details.php` | High
-50 | File | `/products/view_product.php` | High
-51 | File | `/see_more_details.php` | High
-52 | File | `/show_news.php` | High
-53 | File | `/sqleditor/query_tool/download` | High
-54 | File | `/src/dede/makehtml_spec.php` | High
-55 | File | `/src/Illuminate/Laravel.php` | High
-56 | File | `/student/bookdetails.php` | High
-57 | File | `/uncpath/` | Medium
-58 | File | `/update-article.php` | High
-59 | ... | ... | ...
+44 | File | `/p` | Low
+45 | File | `/pg_meta/default/query` | High
+46 | File | `/portal/search.htm` | High
+47 | File | `/preauth` | Medium
+48 | File | `/product-details.php` | High
+49 | File | `/products/view_product.php` | High
+50 | File | `/see_more_details.php` | High
+51 | File | `/show_news.php` | High
+52 | File | `/sqleditor/query_tool/download` | High
+53 | File | `/src/dede/makehtml_spec.php` | High
+54 | File | `/src/Illuminate/Laravel.php` | High
+55 | File | `/student/bookdetails.php` | High
+56 | File | `/uncpath/` | Medium
+57 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

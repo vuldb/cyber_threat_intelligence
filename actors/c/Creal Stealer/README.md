@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-29, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -61,37 +61,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/add_new_invoice.php` | High
 11 | File | `/admin/` | Low
 12 | File | `/admin/add-doctor.php` | High
-13 | File | `/admin/application-bwdates-reports-details.php` | High
-14 | File | `/admin/changeimage.php` | High
-15 | File | `/admin/conferences/get-all-status/` | High
-16 | File | `/admin/overtime_row.php` | High
-17 | File | `/admin/store.php` | High
-18 | File | `/admin/system.html` | High
-19 | File | `/admin/template/edit` | High
-20 | File | `/admin/view-enquiry.php` | High
-21 | File | `/adminapi/system/crud` | High
-22 | File | `/admin_ping.htm` | High
-23 | File | `/ajax.php?action=save_deductions` | High
-24 | File | `/ajax.php?action=signup` | High
-25 | File | `/ample/app/action/edit_product.php` | High
-26 | File | `/animalsupdate.php` | High
-27 | File | `/api/authentication/login` | High
-28 | File | `/api/dashboard/activity` | High
-29 | File | `/api/files/recipepictures/` | High
-30 | File | `/api/system/sessions` | High
-31 | File | `/app/api/controller/default/Sqlite.php` | High
-32 | File | `/BRS_netgear_success.html` | High
-33 | File | `/buscar_integrada.php` | High
-34 | File | `/bypass/config` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-37 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-38 | File | `/cgi-bin/system_mgr.cgi` | High
-39 | File | `/controllers/add_client.php` | High
-40 | File | `/dana-admin/user/update.cgi` | High
-41 | ... | ... | ...
+13 | File | `/admin/ajax.php?action=save_settings` | High
+14 | File | `/admin/application-bwdates-reports-details.php` | High
+15 | File | `/admin/changeimage.php` | High
+16 | File | `/admin/conferences/get-all-status/` | High
+17 | File | `/admin/overtime_row.php` | High
+18 | File | `/admin/receipt.php` | High
+19 | File | `/admin/store.php` | High
+20 | File | `/admin/system.html` | High
+21 | File | `/admin/template/edit` | High
+22 | File | `/admin/view-enquiry.php` | High
+23 | File | `/adminapi/system/crud` | High
+24 | File | `/admin_ping.htm` | High
+25 | File | `/ajax.php?action=save_deductions` | High
+26 | File | `/ajax.php?action=signup` | High
+27 | File | `/ample/app/action/edit_product.php` | High
+28 | File | `/animalsupdate.php` | High
+29 | File | `/api/authentication/login` | High
+30 | File | `/api/dashboard/activity` | High
+31 | File | `/api/files/recipepictures/` | High
+32 | File | `/api/system/sessions` | High
+33 | File | `/app/api/controller/default/Sqlite.php` | High
+34 | File | `/BRS_netgear_success.html` | High
+35 | File | `/buscar_integrada.php` | High
+36 | File | `/bypass/config` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+39 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+40 | File | `/cgi-bin/system_mgr.cgi` | High
+41 | File | `/classes/Master.php?f=delete_service` | High
+42 | File | `/common/show_image.php` | High
+43 | File | `/contact-us.php` | High
+44 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

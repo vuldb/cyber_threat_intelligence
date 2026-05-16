@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FAKEUPDATES:
 
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 56 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -89,59 +89,62 @@ ID | IP address | Hostname | Campaign | Confidence
 66 | [37.187.1.37](https://vuldb.com/?ip.37.187.1.37) | ns3104352.ip-37-187-1.eu | - | High
 67 | [37.221.67.161](https://vuldb.com/?ip.37.221.67.161) | cryptogod.us | - | High
 68 | [37.228.129.15](https://vuldb.com/?ip.37.228.129.15) | - | - | High
-69 | [38.180.136.48](https://vuldb.com/?ip.38.180.136.48) | - | - | High
-70 | [38.180.136.155](https://vuldb.com/?ip.38.180.136.155) | - | - | High
-71 | [38.180.146.6](https://vuldb.com/?ip.38.180.146.6) | - | - | High
-72 | [38.180.242.55](https://vuldb.com/?ip.38.180.242.55) | - | - | High
-73 | [38.180.242.241](https://vuldb.com/?ip.38.180.242.241) | - | - | High
-74 | [38.180.251.217](https://vuldb.com/?ip.38.180.251.217) | - | - | High
-75 | [39.99.63.187](https://vuldb.com/?ip.39.99.63.187) | - | - | High
-76 | [45.11.27.62](https://vuldb.com/?ip.45.11.27.62) | - | - | High
-77 | [45.32.199.48](https://vuldb.com/?ip.45.32.199.48) | 45.32.199.48.vultrusercontent.com | - | Medium
-78 | [45.38.139.97](https://vuldb.com/?ip.45.38.139.97) | - | - | High
-79 | [45.41.187.98](https://vuldb.com/?ip.45.41.187.98) | - | - | High
-80 | [45.59.170.27](https://vuldb.com/?ip.45.59.170.27) | - | - | High
-81 | [45.61.136.138](https://vuldb.com/?ip.45.61.136.138) | - | - | High
-82 | [45.61.136.166](https://vuldb.com/?ip.45.61.136.166) | - | - | High
-83 | [45.66.248.122](https://vuldb.com/?ip.45.66.248.122) | - | - | High
-84 | [45.76.18.170](https://vuldb.com/?ip.45.76.18.170) | 45.76.18.170.vultrusercontent.com | - | Medium
-85 | [45.76.27.167](https://vuldb.com/?ip.45.76.27.167) | 45.76.27.167.vultrusercontent.com | - | Medium
-86 | [45.76.29.139](https://vuldb.com/?ip.45.76.29.139) | 45.76.29.139.vultrusercontent.com | - | Medium
-87 | [45.76.62.239](https://vuldb.com/?ip.45.76.62.239) | 45.76.62.239.vultrusercontent.com | - | Medium
-88 | [45.76.179.15](https://vuldb.com/?ip.45.76.179.15) | data-online.id | - | High
-89 | [45.76.250.221](https://vuldb.com/?ip.45.76.250.221) | 45.76.250.221.vultrusercontent.com | - | Medium
-90 | [45.77.45.237](https://vuldb.com/?ip.45.77.45.237) | 45.77.45.237.vultrusercontent.com | - | Medium
-91 | [45.77.52.227](https://vuldb.com/?ip.45.77.52.227) | 45.77.52.227.vultrusercontent.com | - | Medium
-92 | [45.77.78.73](https://vuldb.com/?ip.45.77.78.73) | 45.77.78.73.vultrusercontent.com | - | Medium
-93 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | Medium
-94 | [45.86.230.91](https://vuldb.com/?ip.45.86.230.91) | server.iscrip.info | - | High
-95 | [45.86.230.103](https://vuldb.com/?ip.45.86.230.103) | - | - | High
-96 | [45.86.230.178](https://vuldb.com/?ip.45.86.230.178) | - | - | High
-97 | [45.86.230.224](https://vuldb.com/?ip.45.86.230.224) | - | - | High
-98 | [45.88.186.159](https://vuldb.com/?ip.45.88.186.159) | - | - | High
-99 | [45.88.186.194](https://vuldb.com/?ip.45.88.186.194) | - | - | High
-100 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
-101 | [45.91.8.171](https://vuldb.com/?ip.45.91.8.171) | - | - | High
-102 | [45.93.20.58](https://vuldb.com/?ip.45.93.20.58) | - | - | High
-103 | [45.94.168.134](https://vuldb.com/?ip.45.94.168.134) | - | - | High
-104 | [45.128.232.135](https://vuldb.com/?ip.45.128.232.135) | 135.232.128.45.pfcloud.io | - | High
-105 | [45.130.201.22](https://vuldb.com/?ip.45.130.201.22) | - | - | High
-106 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
-107 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
-108 | [45.130.201.28](https://vuldb.com/?ip.45.130.201.28) | - | - | High
-109 | [45.130.201.32](https://vuldb.com/?ip.45.130.201.32) | - | - | High
-110 | [45.143.94.2](https://vuldb.com/?ip.45.143.94.2) | - | - | High
-111 | [45.143.203.31](https://vuldb.com/?ip.45.143.203.31) | 130535.ip-ptr.tech | - | High
-112 | [45.143.203.229](https://vuldb.com/?ip.45.143.203.229) | 122532.ip-ptr.tech | - | High
-113 | [45.146.252.6](https://vuldb.com/?ip.45.146.252.6) | - | - | High
-114 | [45.155.249.19](https://vuldb.com/?ip.45.155.249.19) | - | - | High
-115 | [45.182.189.109](https://vuldb.com/?ip.45.182.189.109) | - | - | High
-116 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
-117 | [46.17.248.31](https://vuldb.com/?ip.46.17.248.31) | - | - | High
-118 | [46.137.225.200](https://vuldb.com/?ip.46.137.225.200) | ec2-46-137-225-200.ap-southeast-1.compute.amazonaws.com | - | Medium
-119 | ... | ... | ... | ...
+69 | [38.135.54.246](https://vuldb.com/?ip.38.135.54.246) | - | - | High
+70 | [38.180.136.48](https://vuldb.com/?ip.38.180.136.48) | - | - | High
+71 | [38.180.136.155](https://vuldb.com/?ip.38.180.136.155) | - | - | High
+72 | [38.180.146.6](https://vuldb.com/?ip.38.180.146.6) | - | - | High
+73 | [38.180.242.55](https://vuldb.com/?ip.38.180.242.55) | - | - | High
+74 | [38.180.242.241](https://vuldb.com/?ip.38.180.242.241) | - | - | High
+75 | [38.180.251.217](https://vuldb.com/?ip.38.180.251.217) | - | - | High
+76 | [39.99.63.187](https://vuldb.com/?ip.39.99.63.187) | - | - | High
+77 | [45.11.27.62](https://vuldb.com/?ip.45.11.27.62) | - | - | High
+78 | [45.32.199.48](https://vuldb.com/?ip.45.32.199.48) | 45.32.199.48.vultrusercontent.com | - | Medium
+79 | [45.38.139.97](https://vuldb.com/?ip.45.38.139.97) | - | - | High
+80 | [45.41.187.98](https://vuldb.com/?ip.45.41.187.98) | - | - | High
+81 | [45.59.170.27](https://vuldb.com/?ip.45.59.170.27) | - | - | High
+82 | [45.61.136.138](https://vuldb.com/?ip.45.61.136.138) | - | - | High
+83 | [45.61.136.166](https://vuldb.com/?ip.45.61.136.166) | - | - | High
+84 | [45.66.248.122](https://vuldb.com/?ip.45.66.248.122) | - | - | High
+85 | [45.76.18.170](https://vuldb.com/?ip.45.76.18.170) | 45.76.18.170.vultrusercontent.com | - | Medium
+86 | [45.76.27.167](https://vuldb.com/?ip.45.76.27.167) | 45.76.27.167.vultrusercontent.com | - | Medium
+87 | [45.76.29.139](https://vuldb.com/?ip.45.76.29.139) | 45.76.29.139.vultrusercontent.com | - | Medium
+88 | [45.76.62.239](https://vuldb.com/?ip.45.76.62.239) | 45.76.62.239.vultrusercontent.com | - | Medium
+89 | [45.76.179.15](https://vuldb.com/?ip.45.76.179.15) | data-online.id | - | High
+90 | [45.76.250.221](https://vuldb.com/?ip.45.76.250.221) | 45.76.250.221.vultrusercontent.com | - | Medium
+91 | [45.77.45.237](https://vuldb.com/?ip.45.77.45.237) | 45.77.45.237.vultrusercontent.com | - | Medium
+92 | [45.77.52.227](https://vuldb.com/?ip.45.77.52.227) | 45.77.52.227.vultrusercontent.com | - | Medium
+93 | [45.77.78.73](https://vuldb.com/?ip.45.77.78.73) | 45.77.78.73.vultrusercontent.com | - | Medium
+94 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | Medium
+95 | [45.86.230.91](https://vuldb.com/?ip.45.86.230.91) | server.iscrip.info | - | High
+96 | [45.86.230.103](https://vuldb.com/?ip.45.86.230.103) | - | - | High
+97 | [45.86.230.178](https://vuldb.com/?ip.45.86.230.178) | - | - | High
+98 | [45.86.230.224](https://vuldb.com/?ip.45.86.230.224) | - | - | High
+99 | [45.88.186.159](https://vuldb.com/?ip.45.88.186.159) | - | - | High
+100 | [45.88.186.194](https://vuldb.com/?ip.45.88.186.194) | - | - | High
+101 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
+102 | [45.91.8.171](https://vuldb.com/?ip.45.91.8.171) | - | - | High
+103 | [45.93.20.58](https://vuldb.com/?ip.45.93.20.58) | - | - | High
+104 | [45.94.168.134](https://vuldb.com/?ip.45.94.168.134) | - | - | High
+105 | [45.128.232.135](https://vuldb.com/?ip.45.128.232.135) | 135.232.128.45.pfcloud.io | - | High
+106 | [45.130.201.22](https://vuldb.com/?ip.45.130.201.22) | - | - | High
+107 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
+108 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
+109 | [45.130.201.28](https://vuldb.com/?ip.45.130.201.28) | - | - | High
+110 | [45.130.201.32](https://vuldb.com/?ip.45.130.201.32) | - | - | High
+111 | [45.143.94.2](https://vuldb.com/?ip.45.143.94.2) | - | - | High
+112 | [45.143.203.31](https://vuldb.com/?ip.45.143.203.31) | 130535.ip-ptr.tech | - | High
+113 | [45.143.203.229](https://vuldb.com/?ip.45.143.203.229) | 122532.ip-ptr.tech | - | High
+114 | [45.146.252.6](https://vuldb.com/?ip.45.146.252.6) | - | - | High
+115 | [45.155.249.19](https://vuldb.com/?ip.45.155.249.19) | - | - | High
+116 | [45.182.189.109](https://vuldb.com/?ip.45.182.189.109) | - | - | High
+117 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
+118 | [46.17.248.31](https://vuldb.com/?ip.46.17.248.31) | - | - | High
+119 | [46.137.225.200](https://vuldb.com/?ip.46.137.225.200) | ec2-46-137-225-200.ap-southeast-1.compute.amazonaws.com | - | Medium
+120 | [46.173.214.12](https://vuldb.com/?ip.46.173.214.12) | free.example.com | - | High
+121 | [46.173.214.32](https://vuldb.com/?ip.46.173.214.32) | avrora.rop.example.com | - | High
+122 | ... | ... | ... | ...
 
-There are 474 more IOC items available. Please use our online service to access the data.
+There are 483 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -149,14 +152,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,80 +167,86 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/add-courier.php` | High
-3 | File | `/add.home.php` | High
-4 | File | `/admin-profile.php` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin.php?p=/Area/index#tab=t2` | High
-7 | File | `/admin/?page=system_info` | High
-8 | File | `/admin/?page=zone` | High
-9 | File | `/admin/aboutus.php` | High
-10 | File | `/admin/actions/check-attendance.php` | High
-11 | File | `/admin/add-customer.php` | High
-12 | File | `/admin/all-appointment.php` | High
-13 | File | `/admin/bwdates-reports-details.php` | High
-14 | File | `/admin/category_update.php` | High
-15 | File | `/admin/change-image.php` | High
-16 | File | `/admin/changeimage.php` | High
-17 | File | `/admin/changepassword.php` | High
-18 | File | `/Admin/changepassword.php` | High
-19 | File | `/admin/checklogin.php` | High
-20 | File | `/admin/deleteitem.php` | High
-21 | File | `/admin/delete_student.php` | High
-22 | File | `/admin/delete_user.php` | High
-23 | File | `/admin/de_activate.php` | High
-24 | File | `/admin/edit-services.php` | High
-25 | File | `/admin/edit_content.php` | High
-26 | File | `/admin/edit_room.php` | High
-27 | File | `/admin/edit_student.php` | High
-28 | File | `/admin/edit_tax.php` | High
-29 | File | `/admin/employee/index.php?view=edit` | High
-30 | File | `/admin/includes/edit_post.php` | High
-31 | File | `/admin/index.php` | High
-32 | File | `/admin/index.php?page=user-profile` | High
-33 | File | `/admin/login.php` | High
-34 | File | `/admin/manage_theater.php` | High
-35 | File | `/admin/mechanics/manage_mechanic.php` | High
-36 | File | `/admin/new-content` | High
-37 | File | `/admin/posts.php?source=add_post` | High
-38 | File | `/admin/products/index.php?view=add` | High
-39 | File | `/admin/school_year.php` | High
-40 | File | `/admin/search-appointment.php` | High
-41 | File | `/admin/search1.php` | High
-42 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-43 | File | `/admin/update_room.php` | High
-44 | File | `/admin/user-bookings.php` | High
-45 | File | `/admin/user/controller.php?action=photos` | High
-46 | File | `/admin/user/index.php?view=edit` | High
-47 | File | `/admin/vacancy/index.php?view=edit` | High
-48 | File | `/admin/violation_add.php?id=2` | High
-49 | File | `/admin/workin-progress-requests.php` | High
-50 | File | `/adminapi/system/file/openfile` | High
-51 | File | `/administrator/addcategory.php` | High
-52 | File | `/admin_delete.php` | High
-53 | File | `/ahrw/jsp/gsfr_feditorHTML.jsp` | High
-54 | File | `/ajax.php?action=login` | High
-55 | File | `/ajax.php?action=save_course` | High
-56 | File | `/alphaware/summary.php` | High
-57 | File | `/api/admin/update_account/` | High
-58 | File | `/api/areacliente/pessoa/validarCpf` | High
-59 | File | `/api/File/downloadFile` | High
-60 | File | `/api/pull` | Medium
-61 | File | `/api/sys/login` | High
-62 | File | `/api/v1/courses/` | High
-63 | File | `/app-api/v1/members/openid/` | High
-64 | File | `/app-api/v1/orders/` | High
-65 | File | `/app/sys1.php` | High
-66 | File | `/application/index/controller/Unity.php` | High
-67 | File | `/auth.asp` | Medium
-68 | File | `/authentication/` | High
-69 | File | `/boafrm/formDebugDiagnosticRun` | High
-70 | File | `/boafrm/formDMZ` | High
-71 | File | `/boafrm/formVpnConfigSetup` | High
-72 | ... | ... | ...
+1 | File | `/?explorer/index/zip` | High
+2 | File | `/add_user.php` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/adddoctorclinic.php` | High
+6 | File | `/admin/add_room.php` | High
+7 | File | `/admin/admin/save` | High
+8 | File | `/admin/admin_feature.php` | High
+9 | File | `/admin/admin_running.php` | High
+10 | File | `/admin/announcement/index.php?view=add` | High
+11 | File | `/admin/archives_add.php` | High
+12 | File | `/admin/asign-single-student-subjects.php` | High
+13 | File | `/Admin/assets/backend/seller/add_seller.php` | High
+14 | File | `/admin/completed-requests.php` | High
+15 | File | `/admin/delete_user.php` | High
+16 | File | `/admin/display-teacher.php` | High
+17 | File | `/admin/edit-art-product-detail.php?editid=2` | High
+18 | File | `/admin/edit-user.php` | High
+19 | File | `/admin/editsite.php` | High
+20 | File | `/admin/forget-password.php` | High
+21 | File | `/admin/login.php` | High
+22 | File | `/admin/login_query.php` | High
+23 | File | `/admin/manage-notices.php` | High
+24 | File | `/admin/manage-users.php` | High
+25 | File | `/admin/products/index.php?view=edit` | High
+26 | File | `/admin/receipt.php` | High
+27 | File | `/admin/save_user.php` | High
+28 | File | `/admin/settings/index.php?page=accounts` | High
+29 | File | `/admin/teacher-salary.php` | High
+30 | File | `/admin/updateabout.php` | High
+31 | File | `/admin/user.php` | High
+32 | File | `/admin/user/manage_user.php` | High
+33 | File | `/admin/v1/blog/edit` | High
+34 | File | `/admindetail.php?action=edit` | High
+35 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+36 | File | `/adminPage/conf/check` | High
+37 | File | `/advisers.php` | High
+38 | File | `/ajax.php?action=delete_payment` | High
+39 | File | `/ajax.php?action=login` | High
+40 | File | `/ajax.php?action=save_payroll` | High
+41 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+42 | File | `/api/Security/` | High
+43 | File | `/api/store_integral/order/detail/:uni` | High
+44 | File | `/api/sys/login` | High
+45 | File | `/api/users/updateAvatar` | High
+46 | File | `/api/v1/devices/register` | High
+47 | File | `/api/v1/serve/awel/flow/import` | High
+48 | File | `/app/api/controller/collect.php` | High
+49 | File | `/app/register.php?action=reg` | High
+50 | File | `/app/sys1.php` | High
+51 | File | `/app/uploading/upload-mp3.php` | High
+52 | File | `/assetsGroupReport/assetsService.j%73p` | High
+53 | File | `/auth/userkey/logout.php` | High
+54 | File | `/auth_files/photo/` | High
+55 | File | `/bidlog.php` | Medium
+56 | File | `/bin/httpd` | Medium
+57 | File | `/binutils/debug.c` | High
+58 | File | `/Blood/A+.php` | High
+59 | File | `/boaform/formSysCmd` | High
+60 | File | `/boafrm/formDdns` | High
+61 | File | `/boafrm/formFilter` | High
+62 | File | `/boafrm/formIpQoS` | High
+63 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+64 | File | `/boafrm/formNtp` | High
+65 | File | `/boafrm/formPortFw` | High
+66 | File | `/boafrm/formSysCmd` | High
+67 | File | `/boafrm/formSysLog` | High
+68 | File | `/boafrm/formTmultiAP` | High
+69 | File | `/book-appointment.php` | High
+70 | File | `/booking/show_bookings/` | High
+71 | File | `/C6/Jhsoft.Web.officesupply/OfficeSupplyTypeRight.aspx` | High
+72 | File | `/cgi-bin/api.values.post` | High
+73 | File | `/cgi-bin/cstecgi.cgi` | High
+74 | File | `/cgi-bin/DownloadFlash` | High
+75 | File | `/cgi-bin/DownloadLog` | High
+76 | File | `/cgi-bin/hd_config.cgi` | High
+77 | File | `/cgi-bin/luci/admin/openvpn_apply` | High
+78 | ... | ... | ...
 
-There are 633 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 684 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

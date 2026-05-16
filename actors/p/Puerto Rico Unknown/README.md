@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Puerto Rico Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -237,11 +237,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
-3 | T1068 | CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -249,18 +249,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_title.php` | High
-2 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
-3 | File | `/admin/list_ipAddressPolicy.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/patient-search.php` | High
-6 | File | `/ajax.php?action=save_plan` | High
-7 | File | `/api/authentication/login` | High
-8 | File | `/api/export/exportResources` | High
-9 | File | `/auth/delete_project/` | High
-10 | ... | ... | ...
+1 | File | `/addstock.php` | High
+2 | File | `/admin/add_content.php` | High
+3 | File | `/admin/add_title.php` | High
+4 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+5 | File | `/admin/ajax.php?action=save_vacancy` | High
+6 | File | `/admin/courses/manage_course.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/Admin/login.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/patient-search.php` | High
+12 | File | `/ajax.php?action=save_plan` | High
+13 | File | `/api/authentication/login` | High
+14 | File | `/api/export/exportResources` | High
+15 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

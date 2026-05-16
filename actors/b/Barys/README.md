@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,79 +63,88 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?page=tracks` | High
-2 | File | `/action.php` | Medium
-3 | File | `/Actions.php` | Medium
-4 | File | `/addclient1.php` | High
-5 | File | `/addpro.php` | Medium
-6 | File | `/admin#themes` | High
-7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/aboutus.php` | High
-9 | File | `/admin/about_edit.php?action=modify` | High
-10 | File | `/admin/add-category.php` | High
-11 | File | `/admin/add-foreigner-ticket.php` | High
-12 | File | `/admin/adddoctor.php` | High
-13 | File | `/admin/admin_action.php` | High
-14 | File | `/admin/ajax.php?action=save_settings` | High
-15 | File | `/admin/app/product.php` | High
-16 | File | `/admin/booking-bwdates-reports-details.php` | High
-17 | File | `/admin/booktime.php` | High
-18 | File | `/admin/borrow_add.php` | High
-19 | File | `/admin/bwdates-reports-details.php` | High
-20 | File | `/admin/candidates_delete.php` | High
-21 | File | `/admin/changeimage.php` | High
-22 | File | `/admin/contact-us.php` | High
-23 | File | `/admin/delete_s3.php` | High
-24 | File | `/admin/departments/manage_department.php` | High
-25 | File | `/admin/edit-customer-detailed.php` | High
-26 | File | `/admin/edit-doctor.php` | High
-27 | File | `/admin/edit-teacher-detail.php` | High
-28 | File | `/admin/edit_product.php` | High
-29 | File | `/admin/edit_room.php` | High
-30 | File | `/admin/getallarticleinfo` | High
-31 | File | `/admin/index.php` | High
-32 | File | `/admin/index.php?language=en&nv=upload` | High
-33 | File | `/admin/manage-category.php` | High
-34 | File | `/admin/manage-normal-ticket.php` | High
-35 | File | `/admin/modules/subject/edit.php` | High
-36 | File | `/admin/network/diag_nslookup` | High
-37 | File | `/admin/network/diag_traceroute` | High
-38 | File | `/admin/page-login.php` | High
-39 | File | `/admin/print1.php` | High
-40 | File | `/admin/profile.php` | High
-41 | File | `/admin/registration.php` | High
-42 | File | `/admin/return_add.php` | High
-43 | File | `/admin/role` | Medium
-44 | File | `/admin/rules.php` | High
-45 | File | `/admin/save_airlines.php` | High
-46 | File | `/admin/student-registration.php` | High
-47 | File | `/admin/student.php` | High
-48 | File | `/admin/tag/list` | High
-49 | File | `/admin/update_room.php` | High
-50 | File | `/admin/update_s1.php` | High
-51 | File | `/admin/user/manage_user.php` | High
-52 | File | `/admin_route/inc_service_credits.php` | High
-53 | File | `/ajax.php?action=delete_position` | High
-54 | File | `/ajax.php?action=login` | High
-55 | File | `/ajax.php?action=save_package` | High
-56 | File | `/Android/data/com.myairtelapp/files/` | High
-57 | File | `/Api/FileUploadApi.ashx` | High
-58 | File | `/api/front/search/books` | High
-59 | File | `/api/wechat/app_auth` | High
-60 | File | `/backend/admin/his_admin_add_vendor.php` | High
-61 | File | `/bank/mnotice.php` | High
-62 | File | `/bin/main` | Medium
-63 | File | `/boafrm/formOneKeyAccessButton` | High
-64 | File | `/booking/show_bookings/` | High
-65 | File | `/bwdates-report-result.php` | High
-66 | File | `/bwdates-reports-details.php` | High
-67 | File | `/category.php` | High
-68 | File | `/cgi-bin/cstecgi.cgi` | High
-69 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-70 | File | `/changepassemp.php` | High
-71 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/?page=tracks` | High
+3 | File | `/action.php` | Medium
+4 | File | `/Actions.php` | Medium
+5 | File | `/addclient1.php` | High
+6 | File | `/addpro.php` | Medium
+7 | File | `/admin#themes` | High
+8 | File | `/admin/about-us.php` | High
+9 | File | `/admin/aboutus.php` | High
+10 | File | `/admin/about_edit.php?action=modify` | High
+11 | File | `/admin/add-category.php` | High
+12 | File | `/admin/add-foreigner-ticket.php` | High
+13 | File | `/admin/adddoctor.php` | High
+14 | File | `/admin/admin_action.php` | High
+15 | File | `/admin/ajax.php?action=save_settings` | High
+16 | File | `/admin/app/product.php` | High
+17 | File | `/admin/booking-bwdates-reports-details.php` | High
+18 | File | `/admin/booktime.php` | High
+19 | File | `/admin/borrow_add.php` | High
+20 | File | `/admin/bwdates-reports-details.php` | High
+21 | File | `/admin/candidates_delete.php` | High
+22 | File | `/admin/changeimage.php` | High
+23 | File | `/admin/contact-us.php` | High
+24 | File | `/admin/deleteroom.php` | High
+25 | File | `/admin/delete_s3.php` | High
+26 | File | `/admin/departments/manage_department.php` | High
+27 | File | `/admin/de_activate.php` | High
+28 | File | `/admin/edit-category.php` | High
+29 | File | `/admin/edit-customer-detailed.php` | High
+30 | File | `/admin/edit-doctor.php` | High
+31 | File | `/admin/edit-teacher-detail.php` | High
+32 | File | `/admin/edit_product.php` | High
+33 | File | `/admin/edit_room.php` | High
+34 | File | `/admin/getallarticleinfo` | High
+35 | File | `/admin/index.php` | High
+36 | File | `/admin/index.php?language=en&nv=upload` | High
+37 | File | `/admin/index.php?page=manage_product` | High
+38 | File | `/admin/manage-category.php` | High
+39 | File | `/admin/manage-normal-ticket.php` | High
+40 | File | `/admin/modules/subject/edit.php` | High
+41 | File | `/admin/network/diag_nslookup` | High
+42 | File | `/admin/network/diag_traceroute` | High
+43 | File | `/admin/operations/booking.php` | High
+44 | File | `/admin/page-login.php` | High
+45 | File | `/admin/print1.php` | High
+46 | File | `/admin/profile.php` | High
+47 | File | `/admin/registration.php` | High
+48 | File | `/admin/return_add.php` | High
+49 | File | `/admin/role` | Medium
+50 | File | `/admin/rules.php` | High
+51 | File | `/admin/save_airlines.php` | High
+52 | File | `/admin/student-registration.php` | High
+53 | File | `/admin/student.php` | High
+54 | File | `/admin/tag/list` | High
+55 | File | `/admin/tags/save` | High
+56 | File | `/admin/update-users.php` | High
+57 | File | `/admin/update_room.php` | High
+58 | File | `/admin/update_s1.php` | High
+59 | File | `/admin/update_s3.php` | High
+60 | File | `/admin/user-search.php` | High
+61 | File | `/admin/user/manage_user.php` | High
+62 | File | `/admin_route/inc_service_credits.php` | High
+63 | File | `/ajax.php?action=delete_position` | High
+64 | File | `/ajax.php?action=login` | High
+65 | File | `/ajax.php?action=save_package` | High
+66 | File | `/Android/data/com.myairtelapp/files/` | High
+67 | File | `/api/Common/uploadFile` | High
+68 | File | `/Api/FileUploadApi.ashx` | High
+69 | File | `/api/front/search/books` | High
+70 | File | `/api/wechat/app_auth` | High
+71 | File | `/backend/admin/his_admin_add_vendor.php` | High
+72 | File | `/bank/mnotice.php` | High
+73 | File | `/bin/main` | Medium
+74 | File | `/boaform/wlan_basic_set.cgi` | High
+75 | File | `/boafrm/formOneKeyAccessButton` | High
+76 | File | `/booking/show_bookings/` | High
+77 | File | `/bwdates-report-result.php` | High
+78 | File | `/bwdates-reports-details.php` | High
+79 | File | `/category.php` | High
+80 | ... | ... | ...
 
-There are 621 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 704 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

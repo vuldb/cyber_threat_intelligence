@@ -54,36 +54,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.kedpm/history` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/settings/index.php?page=accounts` | High
-4 | File | `/api/swaggerui/static` | High
-5 | File | `/api/v11/users/sessions` | High
-6 | File | `/cmf/process/<process_id>/logs` | High
-7 | File | `/config/getuser` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/Forms/oadmin_1` | High
-10 | File | `/goform/` | Medium
-11 | File | `/goform/formLogout` | High
-12 | File | `/home/dna/spool/.pfile` | High
-13 | File | `/includes/lib/tree.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/MagickCore/enhance.c` | High
-16 | File | `/MagickCore/quantize.c` | High
-17 | File | `/MagickCore/statistic.c` | High
-18 | File | `/onvif/device_service` | High
-19 | File | `/private/var` | Medium
-20 | File | `/sanadata/seo/index.asp` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/sscdms/classes/Users.php?f=save` | High
-23 | File | `/travel-journal/write-journal.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/tmp/audacity-$USER` | High
-26 | File | `/xds/deleteStudy.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `admin/components/menu/views/menuitems.php` | High
-29 | File | `admin/convertutf8/index.php` | High
-30 | ... | ... | ...
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/settings/index.php?page=accounts` | High
+5 | File | `/api/swaggerui/static` | High
+6 | File | `/api/v11/users/sessions` | High
+7 | File | `/cmf/process/<process_id>/logs` | High
+8 | File | `/config/getuser` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/Forms/oadmin_1` | High
+11 | File | `/goform/` | Medium
+12 | File | `/goform/formLogout` | High
+13 | File | `/home/dna/spool/.pfile` | High
+14 | File | `/includes/lib/tree.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/MagickCore/enhance.c` | High
+17 | File | `/MagickCore/quantize.c` | High
+18 | File | `/MagickCore/statistic.c` | High
+19 | File | `/onvif/device_service` | High
+20 | File | `/private/var` | Medium
+21 | File | `/sanadata/seo/index.asp` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/sscdms/classes/Users.php?f=save` | High
+24 | File | `/travel-journal/write-journal.php` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/var/tmp/audacity-$USER` | High
+27 | File | `/xds/deleteStudy.php` | High
+28 | File | `adclick.php` | Medium
+29 | File | `admin/components/menu/views/menuitems.php` | High
+30 | File | `admin/convertutf8/index.php` | High
+31 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

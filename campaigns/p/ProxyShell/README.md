@@ -180,7 +180,7 @@ ID | Type | Indicator | Confidence
 119 | File | `/api/videos/public` | High
 120 | ... | ... | ...
 
-There are 1066 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1068 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SalatStealer:
 
-* [RU](https://vuldb.com/?country.ru)
-* [BG](https://vuldb.com/?country.bg)
 * [US](https://vuldb.com/?country.us)
+* [UY](https://vuldb.com/?country.uy)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,11 +22,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.34.211.125](https://vuldb.com/?ip.5.34.211.125) | - | - | High
-2 | [62.109.0.189](https://vuldb.com/?ip.62.109.0.189) | fesfsef.sefsef | - | High
-3 | [64.188.91.81](https://vuldb.com/?ip.64.188.91.81) | s179516.luxhost.cc | - | High
-4 | ... | ... | ... | ...
+2 | [45.38.20.114](https://vuldb.com/?ip.45.38.20.114) | - | - | High
+3 | [45.137.201.200](https://vuldb.com/?ip.45.137.201.200) | lain.45.137.201.200.aluy.net | - | High
+4 | [45.141.117.162](https://vuldb.com/?ip.45.141.117.162) | lain.45.141.117.162.aluy.net | - | High
+5 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_review.php` | High
-2 | File | `/admin/upload/img` | High
-3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-4 | ... | ... | ...
+1 | File | `/?page=reports` | High
+2 | File | `/aboutedit.php` | High
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/edit_review.php` | High
+6 | File | `/admin/pages/yearlevel.php` | High
+7 | File | `/admin/regester.php` | High
+8 | File | `/admin/save_user.php` | High
+9 | File | `/admin/upload/img` | High
+10 | File | `/api/v4/teams/{team_id}/channels/ids` | High
+11 | File | `/app/checkout/delete.php` | High
+12 | File | `/boafrm/formParentControl` | High
+13 | File | `/boafrm/formWirelessTbl` | High
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/luci/admin/network/wireless/config/` | High
+17 | File | `/check_availability.php` | High
+18 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/38e08767-cf1b-4ec8-bd1a-5f64c99dccff
+* https://bazaar.abuse.ch/sample/78dabf87fa776fc41cbe743b86784961010c9e1db5c6a33c14a1363875341d17/
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/url/3616566/
 * https://urlhaus.abuse.ch/url/3622680/
@@ -65,6 +85,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3704457/
 * https://urlhaus.abuse.ch/url/3736897/
 * https://urlhaus.abuse.ch/url/3745399/
+* https://urlhaus.abuse.ch/url/3749517/
+* https://urlhaus.abuse.ch/url/3749518/
+* https://urlhaus.abuse.ch/url/3754458/
+* https://urlhaus.abuse.ch/url/3766548/
+* https://urlhaus.abuse.ch/url/3772488/
+* https://www.threat.rip/file/772ac7c83243cdcdea829d7b0f09caa388aa696927e64238a7d84a58e9d52621/config
 
 ## Literature
 
@@ -75,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/goform/telnet` | High
 16 | File | `/goform/wirelessBasic` | High
 17 | File | `/index.php?app=main&func=passport&action=login` | High
-18 | ... | ... | ...
+18 | File | `/login` | Low
+19 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

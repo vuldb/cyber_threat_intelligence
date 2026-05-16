@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,24 +61,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.php.gif` | Medium
 3 | File | `/admin/aboutus.php` | High
 4 | File | `/admin/add-services.php` | High
-5 | File | `/admin/ajax/avatar.php` | High
+5 | File | `/admin/change-emailid.php` | High
 6 | File | `/admin/create_product.php` | High
 7 | File | `/admin/edit-services.php` | High
 8 | File | `/admin/forgot-password.php` | High
 9 | File | `/admin/lab.php` | High
 10 | File | `/admin/login.php` | High
-11 | File | `/admin/show.php` | High
-12 | File | `/admin/video/list` | High
-13 | File | `/api/admin/system/store/order/list` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/backend/register.php` | High
-16 | File | `/blog` | Low
-17 | File | `/boat/login.php` | High
-18 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+11 | File | `/admin/video/list` | High
+12 | File | `/api/admin/system/store/order/list` | High
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/backend/register.php` | High
+15 | File | `/blog` | Low
+16 | File | `/boat/login.php` | High
+17 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
 19 | File | `/cgi-bin/mainfunction.cgi` | High
 20 | File | `/cgi-bin/nas_sharing.cgi` | High
 21 | File | `/clinic/disease_symptoms_view.php` | High
@@ -90,25 +90,24 @@ ID | Type | Indicator | Confidence
 27 | File | `/debug/pprof` | Medium
 28 | File | `/doctor/view-appointment-detail.php` | High
 29 | File | `/downloadFile.php` | High
-30 | File | `/edit-client-details.php` | High
-31 | File | `/Employer/EditProfile.php` | High
-32 | File | `/env` | Low
-33 | File | `/EXCU_SHELL` | Medium
-34 | File | `/goform/aspForm` | High
-35 | File | `/goform/RP_checkCredentialsByBBS` | High
-36 | File | `/goform/set_LimitClient_cfg` | High
-37 | File | `/hazelcast/rest/maps/submit-job` | High
-38 | File | `/hslist` | Low
-39 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
-40 | File | `/include/file.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php/signin` | High
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/login/signOut` | High
-45 | File | `/Maintain/sprog_upstatus.php` | High
-46 | ... | ... | ...
+30 | File | `/druid/index.html` | High
+31 | File | `/edit-client-details.php` | High
+32 | File | `/Employer/EditProfile.php` | High
+33 | File | `/env` | Low
+34 | File | `/EXCU_SHELL` | Medium
+35 | File | `/goform/aspForm` | High
+36 | File | `/goform/RP_checkCredentialsByBBS` | High
+37 | File | `/goform/set_LimitClient_cfg` | High
+38 | File | `/hazelcast/rest/maps/submit-job` | High
+39 | File | `/hslist` | Low
+40 | File | `/html/ad/adconexaooffice365/request/testaConexaoOffice365.php` | High
+41 | File | `/include/file.php` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index.php/signin` | High
+44 | File | `/librarian/bookdetails.php` | High
+45 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

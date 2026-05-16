@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,56 +45,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?page=album` | High
-2 | File | `/admin/action/new-feed.php` | High
-3 | File | `/Admin/add-admin.php` | High
-4 | File | `/admin/admin_action.php` | High
-5 | File | `/admin/admin_members.php?ac=search` | High
-6 | File | `/admin/ajax.php?action=login` | High
-7 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
-8 | File | `/admin/blood/update/B+.php` | High
-9 | File | `/admin/book_add.php` | High
-10 | File | `/admin/category/view_category.php` | High
-11 | File | `/admin/cmsTemplate/replace` | High
-12 | File | `/admin/content/data` | High
-13 | File | `/admin/content/editor` | High
-14 | File | `/admin/customermanagementframework/customers/list` | High
-15 | File | `/admin/deleteBooking.php` | High
-16 | File | `/admin/foreigner-search.php` | High
-17 | File | `/admin/index.php` | High
-18 | File | `/admin/index.php?act=reset_admin_psw` | High
-19 | File | `/admin/list_crl_conf` | High
-20 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
-21 | File | `/admin/normal-search.php` | High
-22 | File | `/admin/password-recovery.php` | High
-23 | File | `/admin/print.php` | High
-24 | File | `/admin/products/index.php` | High
-25 | File | `/admin/reg.php` | High
-26 | File | `/admin/registration.php` | High
-27 | File | `/admin/template` | High
-28 | File | `/admin/twitter.php` | High
-29 | File | `/admin/update_room.php` | High
-30 | File | `/admin/users_photo.php` | High
-31 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-32 | File | `/ajax/ajax_login.ashx` | High
-33 | File | `/Android/data/com.myairtelapp/files/` | High
-34 | File | `/animalsupdate.php` | High
-35 | File | `/api/admin` | Medium
-36 | File | `/api/admin/user?id` | High
-37 | File | `/api/blade-user/export-user` | High
-38 | File | `/api/upload` | Medium
-39 | File | `/app/options.py` | High
-40 | File | `/backend/admin/his_admin_register_patient.php` | High
-41 | File | `/catalog/compare` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-44 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-46 | File | `/class/edit/edit` | High
-47 | File | `/classes/Master.php? f=save_medicine` | High
-48 | File | `/classes/SystemSettings.php?f=update_settings` | High
-49 | ... | ... | ...
+2 | File | `/admin/?page=state` | High
+3 | File | `/admin/action/new-feed.php` | High
+4 | File | `/Admin/add-admin.php` | High
+5 | File | `/admin/addpackage.php` | High
+6 | File | `/admin/admin_action.php` | High
+7 | File | `/admin/admin_members.php?ac=search` | High
+8 | File | `/admin/admin_running.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+11 | File | `/admin/blood/update/B+.php` | High
+12 | File | `/admin/book_add.php` | High
+13 | File | `/admin/bwdates-reports-details.php` | High
+14 | File | `/admin/category/view_category.php` | High
+15 | File | `/admin/cmsTemplate/replace` | High
+16 | File | `/admin/content/data` | High
+17 | File | `/admin/content/editor` | High
+18 | File | `/admin/customermanagementframework/customers/list` | High
+19 | File | `/admin/deleteBooking.php` | High
+20 | File | `/admin/edit-category.php` | High
+21 | File | `/admin/edit_account.php` | High
+22 | File | `/admin/edit_student_query.php` | High
+23 | File | `/admin/foreigner-search.php` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/index.php?act=reset_admin_psw` | High
+26 | File | `/admin/list_crl_conf` | High
+27 | File | `/admin/manage-foreigners-ticket.php` | High
+28 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
+29 | File | `/admin/normal-search.php` | High
+30 | File | `/admin/operation/user.php` | High
+31 | File | `/admin/password-recovery.php` | High
+32 | File | `/admin/print.php` | High
+33 | File | `/admin/product.php` | High
+34 | File | `/admin/products/index.php` | High
+35 | File | `/admin/reg.php` | High
+36 | File | `/admin/registration.php` | High
+37 | File | `/admin/template` | High
+38 | File | `/admin/twitter.php` | High
+39 | File | `/admin/update-progress.php` | High
+40 | File | `/admin/update_main_topic_img.php?topic_id=529` | High
+41 | File | `/admin/update_room.php` | High
+42 | File | `/admin/update_s7.php` | High
+43 | File | `/admin/users_photo.php` | High
+44 | File | `/admin/wangkan_list.php` | High
+45 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+46 | File | `/ajax/ajax_login.ashx` | High
+47 | File | `/Android/data/com.myairtelapp/files/` | High
+48 | File | `/animalsupdate.php` | High
+49 | File | `/api/admin` | Medium
+50 | File | `/api/admin/user?id` | High
+51 | File | `/api/blade-user/export-user` | High
+52 | File | `/api/jobs` | Medium
+53 | File | `/api/upload` | Medium
+54 | File | `/app/options.py` | High
+55 | File | `/Auth.php` | Medium
+56 | File | `/auth/list_projects` | High
+57 | File | `/backend/admin/his_admin_register_patient.php` | High
+58 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

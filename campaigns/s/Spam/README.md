@@ -26,10 +26,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [101.42.0.0](https://vuldb.com/?ip.101.42.0.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 2 | [101.248.0.0](https://vuldb.com/?ip.101.248.0.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [150.242.120.0](https://vuldb.com/?ip.150.242.120.0) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [104.21.50.131](https://vuldb.com/?ip.104.21.50.131) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,6 +57,7 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.sucuri.net/2026/01/google-sees-spam-you-see-your-site-a-cloaked-seo-spam-attack.html
 * https://blog.talosintelligence.com/spam-campaign-targeting-brazil-abuses-rmm-tools/
 * https://github.com/SecOps-Institute/SpamhausIPLists/blob/master/drop.txt
 

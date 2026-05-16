@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,13 +25,16 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [38.180.61.247](https://vuldb.com/?ip.38.180.61.247) | - | - | High
 3 | [38.180.205.164](https://vuldb.com/?ip.38.180.205.164) | - | - | High
 4 | [38.244.132.66](https://vuldb.com/?ip.38.244.132.66) | - | - | High
-5 | [43.248.117.194](https://vuldb.com/?ip.43.248.117.194) | - | - | High
-6 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
-7 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
-8 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
-9 | ... | ... | ... | ...
+5 | [43.161.219.60](https://vuldb.com/?ip.43.161.219.60) | - | - | High
+6 | [43.248.117.194](https://vuldb.com/?ip.43.248.117.194) | - | - | High
+7 | [45.38.170.114](https://vuldb.com/?ip.45.38.170.114) | - | - | High
+8 | [46.8.69.46](https://vuldb.com/?ip.46.8.69.46) | - | - | High
+9 | [46.8.232.106](https://vuldb.com/?ip.46.8.232.106) | - | - | High
+10 | [46.8.236.61](https://vuldb.com/?ip.46.8.236.61) | - | - | High
+11 | [77.105.138.120](https://vuldb.com/?ip.77.105.138.120) | v626302.hosted-by-vdsina.com | - | High
+12 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,12 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-28 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,23 +57,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/group/list/` | High
-3 | File | `/admin/quizquestion.php` | High
-4 | File | `/b2b-supermarket/catalog/all-products` | High
-5 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-6 | File | `/dosen/data` | Medium
-7 | File | `/pms/update_user.php?user_id=1` | High
-8 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/config.php?display=disa&view=form` | High
+4 | File | `/admin/edit-student-profile.php` | High
+5 | File | `/admin/group/list/` | High
+6 | File | `/admin/quizquestion.php` | High
+7 | File | `/ajax/remove/` | High
+8 | File | `/auth/userkey/logout.php` | High
+9 | File | `/b2b-supermarket/catalog/all-products` | High
+10 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+11 | File | `/courses/` | Medium
+12 | File | `/debug/pprof` | Medium
+13 | File | `/dosen/data` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/formP2PLimitConfig` | High
+16 | File | `/kmf/select.jsp` | High
+17 | File | `/pms/update_user.php?user_id=1` | High
+18 | File | `/pppoe_base.asp` | High
+19 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://tria.ge/251115-fh5daack9y
 * https://urlhaus.abuse.ch/url/3544971/
 * https://urlhaus.abuse.ch/url/3558511/
+* https://urlhaus.abuse.ch/url/3704181/
+* https://www.virustotal.com/gui/file/4c572cb325c69b8b34407cb199454a6a9560ec8c808755926652d2bbb4b27589
 
 ## Literature
 
@@ -80,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -200,15 +200,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-api/bpm/model/deploy` | High
-2 | File | `/admin/app/slider_crud.php` | High
-3 | File | `/admin/config_MT.php?action=delete` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/profile.php` | High
-6 | File | `/admin/search-booking-request.php` | High
-7 | File | `/api/wizard/getBasicInfo` | High
-8 | ... | ... | ...
+2 | File | `/admin/config_MT.php?action=delete` | High
+3 | File | `/admin/create_product.php` | High
+4 | File | `/admin/profile.php` | High
+5 | File | `/api/wizard/getBasicInfo` | High
+6 | File | `/api/wizard/getCapability` | High
+7 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

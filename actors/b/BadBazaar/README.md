@@ -49,23 +49,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax/device_entities.php?entity_type=netscalervsvr` | High
 2 | File | `/api/admin/user/list` | High
-3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-4 | File | `/current_action.php?action=reboot` | High
-5 | File | `/etc/postfix/sender_login` | High
-6 | File | `/file/upload/1` | High
-7 | File | `/filemanager/ajax_calls.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/Items/*/RemoteImages/Download` | High
-10 | File | `/login.php` | Medium
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/secure/QueryComponent!Default.jspa` | High
-13 | File | `/spip.php` | Medium
-14 | File | `actions/CompanyDetailsSave.php` | High
-15 | File | `adclick.php` | Medium
-16 | File | `admin.jcomments.php` | High
-17 | ... | ... | ...
+3 | File | `/api/GylOperator/UpdatePasswordBatch` | High
+4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+5 | File | `/collect/PortV4/downLoad.html` | High
+6 | File | `/current_action.php?action=reboot` | High
+7 | File | `/etc/postfix/sender_login` | High
+8 | File | `/file/upload/1` | High
+9 | File | `/filemanager/ajax_calls.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/Items/*/RemoteImages/Download` | High
+12 | File | `/login.php` | Medium
+13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+14 | File | `/rest/ip/address/print` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/spip.php` | Medium
+17 | File | `actions/CompanyDetailsSave.php` | High
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

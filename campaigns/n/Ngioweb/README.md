@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -76,7 +76,7 @@ ID | IP address | Hostname | Actor | Confidence
 44 | [67.211.211.115](https://vuldb.com/?ip.67.211.211.115) | server.luni15.com | [Ngioweb](https://vuldb.com/?actor.ngioweb) | High
 45 | ... | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,7 +92,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -116,9 +116,9 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/` | Low
 15 | File | `/admin/?page=inmates/view_inmate` | High
 16 | File | `/admin/?page=reminders/view_reminder` | High
-17 | File | `/admin/?page=user/list` | High
-18 | File | `/admin/aboutus.php` | High
-19 | File | `/admin/add-category.php` | High
+17 | File | `/admin/?page=system_info/contact_info` | High
+18 | File | `/admin/?page=user/list` | High
+19 | File | `/admin/aboutus.php` | High
 20 | File | `/admin/add-customer.php` | High
 21 | File | `/admin/add-normal-ticket.php` | High
 22 | File | `/admin/add-scdetails.php` | High
@@ -168,27 +168,27 @@ ID | Type | Indicator | Confidence
 66 | File | `/admin/list_ipAddressPolicy.php` | High
 67 | File | `/admin/loadUsers` | High
 68 | File | `/admin/login.php` | High
-69 | File | `/Admin/login.php` | High
-70 | File | `/admin/manage-users.php` | High
-71 | File | `/admin/member_save.php` | High
-72 | File | `/admin/menus/view_menu.php` | High
-73 | File | `/admin/menu_save.php` | High
-74 | File | `/admin/Operations/Role.php` | High
-75 | File | `/admin/overtime_add.php` | High
-76 | File | `/admin/pages/edit_chicken.php` | High
-77 | File | `/admin/positions_row.php` | High
-78 | File | `/admin/print.php` | High
-79 | File | `/admin/products/manage_product.php` | High
-80 | File | `/admin/quote-details.php` | High
-81 | File | `/admin/read.php?mudi=getSignal` | High
-82 | File | `/admin/registration.php` | High
-83 | File | `/admin/request-received-bydonar.php` | High
-84 | File | `/admin/search-appointment.php` | High
-85 | File | `/admin/search.php` | High
-86 | File | `/admin/setup.cgi` | High
-87 | File | `/admin/singlelogin.php?submit=1` | High
-88 | File | `/admin/state.php` | High
-89 | File | `/admin/students/view_details.php` | High
+69 | File | `/admin/manage-users.php` | High
+70 | File | `/admin/member_save.php` | High
+71 | File | `/admin/menus/view_menu.php` | High
+72 | File | `/admin/menu_save.php` | High
+73 | File | `/admin/Operations/Role.php` | High
+74 | File | `/admin/overtime_add.php` | High
+75 | File | `/admin/pages/edit_chicken.php` | High
+76 | File | `/admin/positions_row.php` | High
+77 | File | `/admin/print.php` | High
+78 | File | `/admin/products/manage_product.php` | High
+79 | File | `/admin/quote-details.php` | High
+80 | File | `/admin/read.php?mudi=getSignal` | High
+81 | File | `/admin/registration.php` | High
+82 | File | `/admin/request-received-bydonar.php` | High
+83 | File | `/admin/search-appointment.php` | High
+84 | File | `/admin/search.php` | High
+85 | File | `/admin/setup.cgi` | High
+86 | File | `/admin/singlelogin.php?submit=1` | High
+87 | File | `/admin/state.php` | High
+88 | File | `/admin/students/view_details.php` | High
+89 | File | `/admin/subcategory.php` | High
 90 | File | `/admin/tasks` | Medium
 91 | File | `/admin/template/edit` | High
 92 | File | `/admin/update_s6.php` | High
@@ -201,22 +201,21 @@ ID | Type | Indicator | Confidence
 99 | File | `/admin/usermanagement.php` | High
 100 | File | `/admin/view-foreigner-ticket.php` | High
 101 | File | `/admin/view-user-queries.php` | High
-102 | File | `/adminac.php` | Medium
-103 | File | `/adminlogin.php` | High
-104 | File | `/Admin_dashboard/edit_profile` | High
-105 | File | `/admin_topic.php?action=delall` | High
-106 | File | `/adv_dhcps.php` | High
-107 | File | `/ajax.php?action=delete_member` | High
-108 | File | `/ajax.php?action=delete_position` | High
-109 | File | `/ajax.php?action=save_employee_attendance` | High
-110 | File | `/ajax.php?action=save_payment` | High
-111 | File | `/ajax.php?action=save_user` | High
-112 | File | `/allocated_rooms.php` | High
-113 | File | `/ample/app/action/edit_product.php` | High
-114 | File | `/Android/data/com.myairtelapp/files/` | High
-115 | ... | ... | ...
+102 | File | `/adminlogin.php` | High
+103 | File | `/Admin_dashboard/edit_profile` | High
+104 | File | `/admin_topic.php?action=delall` | High
+105 | File | `/adv_dhcps.php` | High
+106 | File | `/ajax.php?action=delete_member` | High
+107 | File | `/ajax.php?action=delete_position` | High
+108 | File | `/ajax.php?action=save_employee_attendance` | High
+109 | File | `/ajax.php?action=save_payment` | High
+110 | File | `/ajax.php?action=save_user` | High
+111 | File | `/allocated_rooms.php` | High
+112 | File | `/ample/app/action/edit_product.php` | High
+113 | File | `/Android/data/com.myairtelapp/files/` | High
+114 | ... | ... | ...
 
-There are 1016 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1013 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -230,6 +229,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://urlhaus.abuse.ch/url/3670633/
 * https://urlhaus.abuse.ch/url/3700714/
 * https://urlhaus.abuse.ch/url/3703968/
+* https://urlhaus.abuse.ch/url/3761291/
 
 ## Literature
 

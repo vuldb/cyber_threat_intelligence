@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MetaStealer:
 
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -28,11 +28,12 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [13.125.88.10](https://vuldb.com/?ip.13.125.88.10) | ec2-13-125-88-10.ap-northeast-2.compute.amazonaws.com | - | Medium
 6 | [23.177.184.243](https://vuldb.com/?ip.23.177.184.243) | - | - | High
 7 | [31.192.232.4](https://vuldb.com/?ip.31.192.232.4) | klipto.man00.1.pserver.space | - | High
-8 | [46.28.71.42](https://vuldb.com/?ip.46.28.71.42) | vds1502240.hosted-by-itldc.com | - | High
-9 | [46.28.71.43](https://vuldb.com/?ip.46.28.71.43) | vds1502240.hosted-by-itldc.com | - | High
-10 | ... | ... | ... | ...
+8 | [38.134.148.74](https://vuldb.com/?ip.38.134.148.74) | - | - | High
+9 | [46.28.71.42](https://vuldb.com/?ip.46.28.71.42) | vds1502240.hosted-by-itldc.com | - | High
+10 | [46.28.71.43](https://vuldb.com/?ip.46.28.71.43) | vds1502240.hosted-by-itldc.com | - | High
+11 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,40 +56,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?page=tracks` | High
-2 | File | `/admin` | Low
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/edit_area.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/inquiries/view_details.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/administrator/bidlist.php` | High
-11 | File | `/api/esps` | Medium
-12 | File | `/app/admin/controller/Upload.php` | High
-13 | File | `/appointment-history.php` | High
-14 | File | `/APR/signup.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-17 | File | `/classes/SystemSettings.php?f=update_settings` | High
-18 | File | `/cms/classes/Master.php?f=delete_service` | High
-19 | File | `/complainer_page.php` | High
-20 | File | `/crm/business/transfer` | High
-21 | File | `/download` | Medium
-22 | File | `/endpoint/Add.php` | High
-23 | File | `/endpoint/delete-menu.php` | High
-24 | File | `/endpoint/update.php` | High
-25 | File | `/expense-datewise-reports-detailed.php` | High
-26 | File | `/feed/insert.json` | High
-27 | File | `/filemanager/php/connector.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/AdvSetMacMtuWa` | High
-30 | File | `/include/file.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/intranet/educar_usuario_det.php` | High
-33 | ... | ... | ...
+2 | File | `/add_member.php` | High
+3 | File | `/admin` | Low
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+6 | File | `/Admin/additems.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/Create_category.php` | High
+9 | File | `/admin/create_product.php` | High
+10 | File | `/admin/edit_area.php` | High
+11 | File | `/admin/edit_teacher.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/inquiries/view_details.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/user/index.php?view=edit` | High
+16 | File | `/administrator/addcategory.php` | High
+17 | File | `/administrator/bidlist.php` | High
+18 | File | `/ajax.php?action=save_course` | High
+19 | File | `/ajax.php?action=save_payment` | High
+20 | File | `/api/esps` | Medium
+21 | File | `/app/admin/controller/Upload.php` | High
+22 | File | `/application/index/controller/Unity.php` | High
+23 | File | `/application/plugins/controller/Upload.php` | High
+24 | File | `/appointment-history.php` | High
+25 | File | `/APR/signup.php` | High
+26 | File | `/bin/httpd` | Medium
+27 | File | `/boafrm/formParentControl` | High
+28 | File | `/book_search.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+31 | File | `/cgi-bin/JSONAPI` | High
+32 | File | `/classes/SystemSettings.php?f=update_settings` | High
+33 | File | `/cms/classes/Master.php?f=delete_service` | High
+34 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+35 | File | `/complainer_page.php` | High
+36 | File | `/cov/triggerUnitCover` | High
+37 | File | `/crm/business/transfer` | High
+38 | File | `/dashboard/schools/1/edit` | High
+39 | File | `/Doctor/delete_user_appointment_request.php` | High
+40 | File | `/download` | Medium
+41 | File | `/endpoint/Add.php` | High
+42 | File | `/endpoint/delete-menu.php` | High
+43 | File | `/endpoint/update.php` | High
+44 | File | `/expense-datewise-reports-detailed.php` | High
+45 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +142,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3633709/
 * https://urlhaus.abuse.ch/url/3634095/
 * https://urlhaus.abuse.ch/url/3687890/
+* https://urlhaus.abuse.ch/url/3693015/
 * https://www.sentinelone.com/blog/macos-metastealer-new-family-of-obfuscated-go-infostealers-spread-in-targeted-attacks/
 
 ## Literature
@@ -140,4 +154,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

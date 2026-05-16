@@ -56,28 +56,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.cdrdao` | High
-2 | File | `/admin/changeimage.php` | High
-3 | File | `/app/api/v1/openvpn.py` | High
-4 | File | `/biurl_grou` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/kerbynet` | High
-7 | File | `/classes/Master.php?f=delete_record` | High
-8 | File | `/delete_category.php` | High
-9 | File | `/endpoint/add-user.php` | High
-10 | File | `/endpoint/delete-user.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/index.php/index/download/index` | High
-13 | File | `/login.php` | Medium
-14 | File | `/pages/payment.php` | High
-15 | File | `/php_action/editProduct.php` | High
-16 | File | `/redbin/rpwebutilities.exe/text` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `add_comment.php` | High
-19 | File | `admin-ajax.php` | High
-20 | File | `advertiser.php` | High
+2 | File | `- yudao-module-digitalcourse/yudao-module-digitalcourse-biz/src/main/java/cn/iocoder/yudao/module/digitalcourse/util/PPTUtil.java` | High
+3 | File | `/admin/changeimage.php` | High
+4 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+5 | File | `/app/api/v1/openvpn.py` | High
+6 | File | `/biurl_grou` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/classes/Master.php?f=delete_record` | High
+10 | File | `/delete_category.php` | High
+11 | File | `/endpoint/add-user.php` | High
+12 | File | `/endpoint/delete-user.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/index.php/index/download/index` | High
+15 | File | `/login.php` | Medium
+16 | File | `/pages/payment.php` | High
+17 | File | `/php_action/editProduct.php` | High
+18 | File | `/redbin/rpwebutilities.exe/text` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `add_comment.php` | High
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

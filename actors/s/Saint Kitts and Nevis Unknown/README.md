@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -70,18 +70,18 @@ ID | Type | Indicator | Confidence
 2 | File | `.FBCIndex` | Medium
 3 | File | `/act/ActDao.xml` | High
 4 | File | `/add_deductions.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/ajax.php?action=save_settings` | High
-7 | File | `/admin/all-request.php` | High
-8 | File | `/admin/auto-taxi-entry-detail.php` | High
-9 | File | `/admin/bwdates-request-report-details.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/inventory/manage_stock.php` | High
-12 | File | `/admin/notes/create` | High
-13 | File | `/admin/view-card-detail.php` | High
-14 | File | `/admin_ping.htm` | High
-15 | File | `/ajax` | Low
-16 | File | `/api/baskets/{name}` | High
+5 | File | `/admin/add_room.php` | High
+6 | File | `/admin/admin-profile.php` | High
+7 | File | `/admin/ajax.php?action=save_settings` | High
+8 | File | `/admin/all-request.php` | High
+9 | File | `/admin/auto-taxi-entry-detail.php` | High
+10 | File | `/admin/bwdates-request-report-details.php` | High
+11 | File | `/admin/contact-us.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/inventory/manage_stock.php` | High
+14 | File | `/admin/notes/create` | High
+15 | File | `/admin/view-card-detail.php` | High
+16 | File | `/admin_ping.htm` | High
 17 | File | `/api/blade-user/submit` | High
 18 | File | `/api/snapshot and /api/get_log_file` | High
 19 | File | `/api/v1` | Low
@@ -100,13 +100,17 @@ ID | Type | Indicator | Confidence
 32 | File | `/cancelbookingpatient.php` | High
 33 | File | `/cgi-bin/cstecgi.cgi` | High
 34 | File | `/cgi-bin/download_config.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/dede/article_string_mix.php` | High
-37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-38 | File | `/devinfo` | Medium
-39 | ... | ... | ...
+35 | File | `/cgi-bin/mft/wireless_mft` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/dede/article_string_mix.php` | High
+38 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+39 | File | `/devinfo` | Medium
+40 | File | `/DXR.axd` | Medium
+41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+42 | File | `/Employer/EditProfile.php` | High
+43 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

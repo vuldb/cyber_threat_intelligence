@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Morpheus Loader :
 
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -27,7 +27,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1600 | CWE-326 | Cryptographic Issues | High
+2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1600 | CWE-326 | Cryptographic Issues | High
 
 ## IOA - Indicator of Attack
 
@@ -35,7 +36,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `ID` | Low
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `cstecgi.cgi` | Medium
+3 | Argument | `ID` | Low
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

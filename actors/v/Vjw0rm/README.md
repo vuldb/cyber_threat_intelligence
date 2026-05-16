@@ -56,9 +56,10 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [46.183.220.121](https://vuldb.com/?ip.46.183.220.121) | ip-220-121.dataclub.info | - | High
 34 | [46.183.223.46](https://vuldb.com/?ip.46.183.223.46) | ip-223-46.dataclub.info | - | High
 35 | [46.246.4.2](https://vuldb.com/?ip.46.246.4.2) | c-46-246-4-2.ip4.frootvpn.com | - | High
-36 | ... | ... | ... | ...
+36 | [46.246.4.3](https://vuldb.com/?ip.46.246.4.3) | c-46-246-4-3.ip4.frootvpn.com | - | High
+37 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 145 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,14 +67,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,54 +82,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/archives_add.php` | High
-2 | File | `/admin/booking-bwdates-reports-details.php` | High
-3 | File | `/admin/categories/save` | High
-4 | File | `/admin/category/cate-edit-run.php` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/file_manager/export` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/newsletterdel.php` | High
-10 | File | `/admin/pages/` | High
-11 | File | `/admin/positions.php` | High
-12 | File | `/admin/receipt.php` | High
-13 | File | `/admin/search-appointment.php` | High
-14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-16 | File | `/adminPage/conf/reload` | High
-17 | File | `/admins` | Low
-18 | File | `/admin_topic.php?action=delall` | High
-19 | File | `/ajax.php?action=login` | High
-20 | File | `/ajax/getBasicInfo.php` | High
-21 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-22 | File | `/api/cron/settings/setJob/` | High
-23 | File | `/api/files/recipepictures/` | High
-24 | File | `/api/v2/open/rowsInfo` | High
-25 | File | `/api2/html/` | Medium
-26 | File | `/authentication.cgi` | High
-27 | File | `/bbdms/sign-up.php` | High
-28 | File | `/bitrix/admin/ldap_server_edit.php` | High
-29 | File | `/boafrm/formDdns` | High
-30 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-31 | File | `/boafrm/formVpnConfigSetup` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/clientdetails/admin/regester.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/detailtransac.php` | High
-38 | File | `/dev/ptpX` | Medium
-39 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-40 | File | `/editeddonor.php` | High
-41 | File | `/editprofile.php` | High
-42 | File | `/farm/product.php` | High
-43 | File | `/foreigner-search.php` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/function.php` | High
-46 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/booking-bwdates-reports-details.php` | High
+6 | File | `/admin/categories/save` | High
+7 | File | `/admin/contact-us.php` | High
+8 | File | `/admin/delete_user.php` | High
+9 | File | `/admin/file_manager/export` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/newsletterdel.php` | High
+13 | File | `/admin/pages/` | High
+14 | File | `/admin/positions.php` | High
+15 | File | `/admin/receipt.php` | High
+16 | File | `/admin/search-appointment.php` | High
+17 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+18 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+19 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+20 | File | `/Administrator/PHP/AdminEditUser.php` | High
+21 | File | `/Administrator/PHP/AdminReply.php` | High
+22 | File | `/adminPage/conf/reload` | High
+23 | File | `/admins` | Low
+24 | File | `/admin_topic.php?action=delall` | High
+25 | File | `/adv_mac_filter.php` | High
+26 | File | `/ajax.php?action=login` | High
+27 | File | `/ajax/getBasicInfo.php` | High
+28 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+29 | File | `/api/cron/settings/setJob/` | High
+30 | File | `/api/files/recipepictures/` | High
+31 | File | `/api/v2/open/rowsInfo` | High
+32 | File | `/api2/html/` | Medium
+33 | File | `/app/register.php?action=reg` | High
+34 | File | `/authentication.cgi` | High
+35 | File | `/bbdms/sign-up.php` | High
+36 | File | `/bitrix/admin/ldap_server_edit.php` | High
+37 | File | `/boaform/formSamba` | High
+38 | File | `/boafrm/formDdns` | High
+39 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+40 | File | `/boafrm/formVpnConfigSetup` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+43 | File | `/cgi-bin/wlogin.cgi` | High
+44 | File | `/clientdetails/admin/regester.php` | High
+45 | File | `/detailtransac.php` | High
+46 | File | `/dev/ptpX` | Medium
+47 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+48 | File | `/editeddonor.php` | High
+49 | File | `/editprofile.php` | High
+50 | File | `/farm/product.php` | High
+51 | File | `/foreigner-search.php` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/FrontEnd/Albums.php` | High
+54 | File | `/function.php` | High
+55 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

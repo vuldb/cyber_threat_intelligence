@@ -60,7 +60,7 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [62.113.115.166](https://vuldb.com/?ip.62.113.115.166) | v2296482.hosted-by-vdsina.ru | CVE-2022-36804 | High
 27 | ... | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 105 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,42 +82,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/add_librarian.php` | High
-4 | File | `/admin/file_manager/export` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/adminPage/conf/reload` | High
-8 | File | `/admin_topic.php?action=delall` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/cron/settings/setJob/` | High
-11 | File | `/api/wizard/setsyncpppoecfg` | High
-12 | File | `/api2/html/` | Medium
-13 | File | `/application/index/controller/Databasesource.php` | High
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-19 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-20 | File | `/donor-wall` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/etc/shadow` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/forum1.php` | Medium
-25 | File | `/h/rest` | Low
-26 | File | `/inc/jquery/uploadify/uploadify.php` | High
-27 | File | `/inc/parser/xhtml.php` | High
-28 | File | `/index/ajax/lang` | High
-29 | File | `/ipms/imageConvert/image` | High
-30 | File | `/livesite/edit_designer_region.php` | High
-31 | File | `/log/decodmail.php` | High
-32 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-33 | File | `/log_proxy` | Medium
-34 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/#ProductSerie/view/` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/addcompany.php` | High
+5 | File | `/add_librarian.php` | High
+6 | File | `/admin/file_manager/export` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/admin_topic.php?action=delall` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/cron/settings/setJob/` | High
+13 | File | `/api/wizard/setsyncpppoecfg` | High
+14 | File | `/api2/html/` | Medium
+15 | File | `/application/index/controller/Databasesource.php` | High
+16 | File | `/base/safe_setting/` | High
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+22 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+23 | File | `/donor-wall` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/equipment/get_Information` | High
+26 | File | `/etc/shadow` | Medium
+27 | File | `/execute_js` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/forum1.php` | Medium
+30 | File | `/h/rest` | Low
+31 | File | `/inc/jquery/uploadify/uploadify.php` | High
+32 | File | `/inc/parser/xhtml.php` | High
+33 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,6 +137,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3709590/
 * https://urlhaus.abuse.ch/url/3709592/
 * https://urlhaus.abuse.ch/url/3715324/
+* https://urlhaus.abuse.ch/url/3749962/
+* https://urlhaus.abuse.ch/url/3758771/
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/honeypot-recon-enterprise-applications-honeypot-unveiling-findings-from-six-worldwide-locations/
 
@@ -150,4 +151,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -83,30 +83,30 @@ ID | Type | Indicator | Confidence
 23 | File | `/admin/edit-art-product-detail.php?editid=2` | High
 24 | File | `/admin/edit-brand.php` | High
 25 | File | `/admin/edit-post.php` | High
-26 | File | `/admin/edit_room.php` | High
-27 | File | `/admin/includes/edit_post.php` | High
-28 | File | `/admin/index.php?page=user-profile` | High
-29 | File | `/admin/index2.html` | High
-30 | File | `/Admin/login.php` | High
-31 | File | `/admin/login.php` | High
-32 | File | `/admin/mechanics/manage_mechanic.php` | High
-33 | File | `/admin/modules/room/index.php` | High
-34 | File | `/admin/profile.php` | High
-35 | File | `/Admin/Proses_Edit_Akun.php` | High
-36 | File | `/admin/robot.php` | High
-37 | File | `/admin/search-invoices.php` | High
-38 | File | `/admin/tags/save` | High
-39 | File | `/admin/twitter.php` | High
-40 | File | `/admin/user-bookings.php` | High
-41 | File | `/admin/user/index.php?view=edit` | High
-42 | File | `/admin/yesterday-reg-users.php` | High
-43 | File | `/adminapi/system/file/openfile` | High
-44 | File | `/administrator/addcategory.php` | High
-45 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
-46 | File | `/ajax.php?action=save_payroll` | High
-47 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
-48 | File | `/alphaware/summary.php` | High
-49 | File | `/api/baskets/{name}` | High
+26 | File | `/admin/edit-user.php` | High
+27 | File | `/admin/edit_room.php` | High
+28 | File | `/admin/includes/edit_post.php` | High
+29 | File | `/admin/index.php?page=user-profile` | High
+30 | File | `/admin/index2.html` | High
+31 | File | `/Admin/login.php` | High
+32 | File | `/admin/login.php` | High
+33 | File | `/admin/mechanics/manage_mechanic.php` | High
+34 | File | `/admin/modules/room/index.php` | High
+35 | File | `/admin/profile.php` | High
+36 | File | `/Admin/Proses_Edit_Akun.php` | High
+37 | File | `/admin/robot.php` | High
+38 | File | `/admin/search-invoices.php` | High
+39 | File | `/admin/tags/save` | High
+40 | File | `/admin/twitter.php` | High
+41 | File | `/admin/user-bookings.php` | High
+42 | File | `/admin/user/index.php?view=edit` | High
+43 | File | `/admin/yesterday-reg-users.php` | High
+44 | File | `/adminapi/system/file/openfile` | High
+45 | File | `/administrator/addcategory.php` | High
+46 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+47 | File | `/ajax.php?action=save_payroll` | High
+48 | File | `/ajax.php?Ajax=GetModal_Sensor_Graph` | High
+49 | File | `/alphaware/summary.php` | High
 50 | File | `/api/File/downloadFile` | High
 51 | File | `/api/settings` | High
 52 | File | `/api/sys/login` | High
@@ -126,15 +126,15 @@ ID | Type | Indicator | Confidence
 66 | File | `/bin/httpd` | Medium
 67 | File | `/bitrix/admin/ldap_server_edit.php` | High
 68 | File | `/biurl_grou` | Medium
-69 | File | `/boafrm/formDMZ` | High
-70 | File | `/boafrm/formTmultiAP` | High
-71 | File | `/borrow.php` | Medium
-72 | File | `/browse.php` | Medium
-73 | File | `/cgi-bin/apkg_mgr.cgi` | High
-74 | File | `/cgi-bin/cstecgi.cgi` | High
+69 | File | `/boaform/formSysCmd` | High
+70 | File | `/boafrm/formDMZ` | High
+71 | File | `/boafrm/formTmultiAP` | High
+72 | File | `/borrow.php` | Medium
+73 | File | `/browse.php` | Medium
+74 | File | `/cgi-bin/apkg_mgr.cgi` | High
 75 | ... | ... | ...
 
-There are 658 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 664 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,21 +51,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/index.php` | High
-3 | File | `/api/wechat/app_auth` | High
-4 | File | `/cgi-mod/lookup.cgi` | High
-5 | File | `/getcfg.php` | Medium
-6 | File | `/ipms/imageConvert/image` | High
-7 | File | `/message/ajax/send/` | High
-8 | File | `/proc/self/environ` | High
-9 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-10 | File | `/user_order_customer_update.php` | High
-11 | File | `/v2/customerdb/operator.svc/a` | High
-12 | File | `/view/bugSolve/captureData/commit.php` | High
-13 | File | `add_comment.php` | High
-14 | ... | ... | ...
+2 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/api/wechat/app_auth` | High
+5 | File | `/b2b-supermarket/shopping-cart` | High
+6 | File | `/cgi-mod/lookup.cgi` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/ipms/imageConvert/image` | High
+9 | File | `/message/ajax/send/` | High
+10 | File | `/proc/self/environ` | High
+11 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
+12 | File | `/user_order_customer_update.php` | High
+13 | File | `/v2/customerdb/operator.svc/a` | High
+14 | File | `/view/bugSolve/captureData/commit.php` | High
+15 | File | `add_comment.php` | High
+16 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

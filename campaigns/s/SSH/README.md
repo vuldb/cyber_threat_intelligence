@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,12 +31,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [61.14.210.71](https://vuldb.com/?ip.61.14.210.71) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [70.34.220.100](https://vuldb.com/?ip.70.34.220.100) | 70.34.220.100.vultrusercontent.com | [asterzeu](https://vuldb.com/?actor.asterzeu) | Medium
-3 | [103.148.195.161](https://vuldb.com/?ip.103.148.195.161) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4 | ... | ... | ... | ...
+1 | [37.59.181.219](https://vuldb.com/?ip.37.59.181.219) | gateway.tcparmor.com | [SSHNET](https://vuldb.com/?actor.sshnet) | High
+2 | [45.156.87.105](https://vuldb.com/?ip.45.156.87.105) | - | [SSHNET](https://vuldb.com/?actor.sshnet) | High
+3 | [61.14.210.71](https://vuldb.com/?ip.61.14.210.71) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+4 | [70.34.220.100](https://vuldb.com/?ip.70.34.220.100) | 70.34.220.100.vultrusercontent.com | [asterzeu](https://vuldb.com/?actor.asterzeu) | Medium
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-35 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -57,18 +58,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/offenses/view_details.php` | High
-2 | File | `/admin/tag.php` | High
-3 | File | `/cgformTemplateController.do?doAdd` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/getcfg.php` | Medium
-6 | File | `/horde/imp/search.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/modules/profile/index.php` | High
-10 | ... | ... | ...
+1 | File | `/admin-cp/media` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin-area.php` | High
+4 | File | `/admin/curriculum/view_curriculum.php` | High
+5 | File | `/admin/edit-subcategory.php` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/offenses/view_details.php` | High
+9 | File | `/admin/request-received-bydonar.php` | High
+10 | File | `/admin/tag.php` | High
+11 | File | `/admin/voters_delete.php` | High
+12 | File | `/api/wizard/getBasicInfo` | High
+13 | File | `/bwdates-report-result.php` | High
+14 | File | `/cgformTemplateController.do?doAdd` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/sysconf.cgi` | High
+17 | File | `/cgi-bin/wireless.cgi` | High
+18 | File | `/ecommerce/admin/login.php` | High
+19 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +87,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://asec.ahnlab.com/en/59972/
 * https://asec.ahnlab.com/en/92004/
 * https://isc.sans.edu/diary/32536
+* https://isc.sans.edu/diary/32708
 * https://threatfox.abuse.ch
 * https://www.microsoft.com/en-us/security/blog/2023/06/22/iot-devices-and-linux-based-systems-targeted-by-openssh-trojan-campaign/
 

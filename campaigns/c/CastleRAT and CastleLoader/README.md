@@ -61,10 +61,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,38 +72,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/aboutus.php` | High
-2 | File | `/Admin/adminlogin.php` | High
-3 | File | `/admin/ajax.php?action=save_settings` | High
-4 | File | `/admin/delete_pending.php` | High
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/execedituser.php` | High
-8 | File | `/admin/ipAddPost.php` | High
-9 | File | `/admin/login` | Medium
-10 | File | `/admin/nav/update` | High
-11 | File | `/admin/search-pass.php` | High
-12 | File | `/api/v1/admin/` | High
-13 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-14 | File | `/cgi-bin/adm.cgi` | High
-15 | File | `/cgi-bin/downloadFile.cgi` | High
-16 | File | `/cgi-bin/widget_api.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/cms/category/list` | High
-19 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
-20 | File | `/courses/` | Medium
-21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-22 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-23 | File | `/edit-photo.php` | High
-24 | File | `/filex/read-raw` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/GetIPTV` | High
-28 | File | `/goform/modules` | High
-29 | File | `/goform/WriteFacMac` | High
-30 | ... | ... | ...
+1 | File | `/admin/about.php` | High
+2 | File | `/admin/aboutus.php` | High
+3 | File | `/admin/add-customer-services.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/Admin/adminlogin.php` | High
+6 | File | `/admin/ajax.php?action=save_settings` | High
+7 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/complex_header_2.php` | High
+8 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/deferred_table.php` | High
+9 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dom_data.php` | High
+10 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/dymanic_table.php` | High
+11 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/html_table.php` | High
+12 | File | `/admin/assets/plugins/DataTables/media/unit_testing/templates/js_data.php` | High
+13 | File | `/admin/change-emailid.php` | High
+14 | File | `/admin/contact-us.php` | High
+15 | File | `/admin/contactus.php` | High
+16 | File | `/admin/customer-list.php` | High
+17 | File | `/admin/delete_pending.php` | High
+18 | File | `/admin/edit-admin.php` | High
+19 | File | `/admin/edit-brand.php` | High
+20 | File | `/admin/edit-student-profile.php` | High
+21 | File | `/admin/edit-user.php` | High
+22 | File | `/admin/editsite.php` | High
+23 | File | `/admin/edit_subject.php` | High
+24 | File | `/admin/execedituser.php` | High
+25 | File | `/admin/index2.html` | High
+26 | File | `/admin/ipAddPost.php` | High
+27 | File | `/admin/login` | Medium
+28 | File | `/admin/nav/update` | High
+29 | File | `/admin/quote-details.php` | High
+30 | File | `/admin/sales-reports-detail.php` | High
+31 | File | `/admin/search-pass.php` | High
+32 | File | `/admin/search-property.php` | High
+33 | File | `/admin/state.php` | High
+34 | File | `/admin/student-registration.php` | High
+35 | File | `/admin/user-bookings.php` | High
+36 | File | `/admind45f74adbd95.php?c=email&m=add` | High
+37 | File | `/api/v1/admin/` | High
+38 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+39 | File | `/bbdms/admin/update-contactinfo.php` | High
+40 | File | `/binutils/debug.c` | High
+41 | File | `/boafrm/formDdns` | High
+42 | File | `/cgi-bin/adm.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/downloadFile.cgi` | High
+45 | File | `/cgi-bin/widget_api.cgi` | High
+46 | File | `/classes/Master.php` | High
+47 | File | `/cms/category/list` | High
+48 | File | `/CoinExchange_CryptoExchange_Java-master/00_framework/core/src/main/java/com/bizzan/bitrade/util/UploadFileUtil.java` | High
+49 | File | `/courses/` | Medium
+50 | File | `/data/data/com.phonepe.app/databases/` | High
+51 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,68 +65,71 @@ ID | Type | Indicator | Confidence
 5 | File | `/add_new_supplier.php` | High
 6 | File | `/add_post_sql.php` | High
 7 | File | `/admin/admin_running.php` | High
-8 | File | `/admin/book_row.php` | High
-9 | File | `/admin/categories/update` | High
-10 | File | `/admin/delete_s6.php` | High
-11 | File | `/admin/del_service.php` | High
-12 | File | `/admin/edit-subadmin.php` | High
-13 | File | `/admin/includes/edit_post.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/login-back.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/manage-notices.php` | High
-18 | File | `/admin/modules/class/index.php` | High
-19 | File | `/admin/process_category_add.php` | High
-20 | File | `/admin/quizquestion.php` | High
-21 | File | `/admin/search-appointment.php` | High
-22 | File | `/admin/tag/delete` | High
-23 | File | `/admin/team_update.php` | High
-24 | File | `/admin/user/manage_user.php` | High
-25 | File | `/admin/view-foreigner-ticket.php` | High
-26 | File | `/admin_pay.php` | High
-27 | File | `/ajax.php?action=login` | High
-28 | File | `/ajax.php?action=read_msg` | High
-29 | File | `/ajax.php?action=save_category` | High
-30 | File | `/api/baskets/{name}` | High
-31 | File | `/app/api/controller/caiji.php` | High
-32 | File | `/bin/httpd` | Medium
-33 | File | `/bitrix/admin/ldap_server_edit.php` | High
-34 | File | `/blog/edit` | Medium
-35 | File | `/boafrm/formIPv6Addr` | High
-36 | File | `/boafrm/formPinManageSetup` | High
-37 | File | `/buscar_integrada.php` | High
-38 | File | `/cfgFile/fileContent` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-41 | File | `/cgi-bin/wlogin.cgi` | High
-42 | File | `/classes/Master.php` | High
-43 | File | `/classes/Master.php?f=delete_category` | High
-44 | File | `/classes/Master.php?f=save_item` | High
-45 | File | `/config/php.ini` | High
-46 | File | `/courses/course_detail_user_new.php` | High
-47 | File | `/data/remove` | Medium
-48 | File | `/debug/pprof` | Medium
-49 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-50 | File | `/details.php` | Medium
-51 | File | `/editprofile.php` | High
-52 | File | `/Employer/ManageWalkin.php` | High
-53 | File | `/endpoint/add-calorie.php` | High
-54 | File | `/endpoint/delete-computer.php` | High
-55 | File | `/endpoint/update.php` | High
-56 | File | `/expedit.php` | Medium
-57 | File | `/export` | Low
-58 | File | `/form137.php` | Medium
-59 | File | `/formLoginAuth.htm` | High
-60 | File | `/forum/away.php` | High
-61 | File | `/getDay.php` | Medium
-62 | File | `/goform/MtuSetMacWan` | High
-63 | File | `/goform/PowerSaveSet` | High
-64 | File | `/goform/wirelessAdvancedHidden` | High
-65 | File | `/goform/wizard_end` | High
-66 | File | `/guest/update.php` | High
-67 | ... | ... | ...
+8 | File | `/admin/auto-taxi-entry-detail.php` | High
+9 | File | `/admin/book_row.php` | High
+10 | File | `/admin/categories/update` | High
+11 | File | `/admin/delete_s6.php` | High
+12 | File | `/admin/del_service.php` | High
+13 | File | `/admin/edit-subadmin.php` | High
+14 | File | `/admin/includes/edit_post.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/login-back.php` | High
+17 | File | `/admin/maintenance/view_designation.php` | High
+18 | File | `/admin/manage-notices.php` | High
+19 | File | `/admin/modules/class/index.php` | High
+20 | File | `/admin/process_category_add.php` | High
+21 | File | `/admin/quizquestion.php` | High
+22 | File | `/admin/search-appointment.php` | High
+23 | File | `/admin/tag/delete` | High
+24 | File | `/admin/team_update.php` | High
+25 | File | `/admin/user/manage_user.php` | High
+26 | File | `/admin/view-foreigner-ticket.php` | High
+27 | File | `/admin_pay.php` | High
+28 | File | `/ajax.php?action=login` | High
+29 | File | `/ajax.php?action=read_msg` | High
+30 | File | `/ajax.php?action=save_category` | High
+31 | File | `/api/baskets/{name}` | High
+32 | File | `/app/api/controller/caiji.php` | High
+33 | File | `/bin/httpd` | Medium
+34 | File | `/bitrix/admin/ldap_server_edit.php` | High
+35 | File | `/blog/edit` | Medium
+36 | File | `/boafrm/formIPv6Addr` | High
+37 | File | `/boafrm/formPinManageSetup` | High
+38 | File | `/buscar_integrada.php` | High
+39 | File | `/cfgFile/fileContent` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/classes/Master.php?f=delete_category` | High
+45 | File | `/classes/Master.php?f=save_item` | High
+46 | File | `/config/php.ini` | High
+47 | File | `/confirmbooking.php` | High
+48 | File | `/courses/course_detail_user_new.php` | High
+49 | File | `/data/remove` | Medium
+50 | File | `/debug/pprof` | Medium
+51 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+52 | File | `/details.php` | Medium
+53 | File | `/editprofile.php` | High
+54 | File | `/Employer/ManageWalkin.php` | High
+55 | File | `/endpoint/add-calorie.php` | High
+56 | File | `/endpoint/delete-computer.php` | High
+57 | File | `/endpoint/update.php` | High
+58 | File | `/expedit.php` | Medium
+59 | File | `/export` | Low
+60 | File | `/form137.php` | Medium
+61 | File | `/formLoginAuth.htm` | High
+62 | File | `/forum/away.php` | High
+63 | File | `/getDay.php` | Medium
+64 | File | `/goform/MtuSetMacWan` | High
+65 | File | `/goform/PowerSaveSet` | High
+66 | File | `/goform/SetVirtualServerCfg` | High
+67 | File | `/goform/wirelessAdvancedHidden` | High
+68 | File | `/goform/wizard_end` | High
+69 | File | `/guest/update.php` | High
+70 | ... | ... | ...
 
-There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 611 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

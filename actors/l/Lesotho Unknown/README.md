@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 42 more country items available. Please use our online service to access the data.
+There are 43 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,53 +72,55 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add_trainers.php` | High
 5 | File | `/admin/create_product.php` | High
 6 | File | `/admin/edit_action.php` | High
-7 | File | `/admin/images/add` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/manage-pages.php` | High
-11 | File | `/admin/mod_reports/index.php` | High
-12 | File | `/admin/reservation.php` | High
-13 | File | `/admin/sales/manage_sale.php` | High
-14 | File | `/advanced-tools/nova/bin/netwatch` | High
-15 | File | `/ajax.php?action=save_ticket` | High
-16 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-17 | File | `/apilog.php` | Medium
-18 | File | `/app/admin/controller/file/File.php` | High
-19 | File | `/auth/userkey/logout.php` | High
-20 | File | `/auth_pic.cgi` | High
-21 | File | `/bin/httpd` | Medium
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-24 | File | `/cgi-bin/api-get_line_status` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/myMusic.cgi` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/checkout/confirm/` | High
-29 | File | `/Code/loginnew.php` | High
-30 | File | `/Code/sc_login.php` | High
-31 | File | `/config-manager/save` | High
-32 | File | `/dashboard/admin/edit_member.php` | High
-33 | File | `/dashboard/admin/edit_mem_submit.php` | High
-34 | File | `/dashboard/admin/new_submit.php` | High
-35 | File | `/dashboard/menu-list.php` | High
-36 | File | `/dashboard/message` | High
-37 | File | `/dashboard/product` | High
-38 | File | `/dashboard/table-list.php` | High
-39 | File | `/delete_account.php` | High
-40 | File | `/details.php` | Medium
-41 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-42 | File | `/devinfo` | Medium
-43 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
-44 | File | `/directRouter.rfc` | High
-45 | File | `/downloadFile.php` | High
-46 | File | `/edit-details.php` | High
-47 | File | `/educar_aluno_lst.php` | High
-48 | File | `/etc_ro/shadow` | High
-49 | File | `/expadd.php` | Medium
-50 | File | `/forum/away.php` | High
-51 | ... | ... | ...
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/images/add` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/manage-pages.php` | High
+12 | File | `/admin/mod_reports/index.php` | High
+13 | File | `/admin/reservation.php` | High
+14 | File | `/admin/sales/manage_sale.php` | High
+15 | File | `/advanced-tools/nova/bin/netwatch` | High
+16 | File | `/ajax.php?action=save_ticket` | High
+17 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+18 | File | `/apilog.php` | Medium
+19 | File | `/app/admin/controller/file/File.php` | High
+20 | File | `/auth/userkey/logout.php` | High
+21 | File | `/auth_pic.cgi` | High
+22 | File | `/bin/httpd` | Medium
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+25 | File | `/cgi-bin/api-get_line_status` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/myMusic.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/checkout/confirm/` | High
+30 | File | `/cms/templates/templatesAssetsEditor` | High
+31 | File | `/Code/loginnew.php` | High
+32 | File | `/Code/sc_login.php` | High
+33 | File | `/config-manager/save` | High
+34 | File | `/dashboard/admin/edit_member.php` | High
+35 | File | `/dashboard/admin/edit_mem_submit.php` | High
+36 | File | `/dashboard/admin/new_submit.php` | High
+37 | File | `/dashboard/menu-list.php` | High
+38 | File | `/dashboard/message` | High
+39 | File | `/dashboard/product` | High
+40 | File | `/dashboard/table-list.php` | High
+41 | File | `/delete_account.php` | High
+42 | File | `/details.php` | Medium
+43 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+44 | File | `/devinfo` | Medium
+45 | File | `/diag_ping.cmd?action=test&interface=ppp0.1&ipaddr=8.8.8.8%26%26cat%20/etc/passwd&ipversion=4&sessionKey=test` | High
+46 | File | `/directRouter.rfc` | High
+47 | File | `/downloadFile.php` | High
+48 | File | `/ecommerce/popup_Item.php` | High
+49 | File | `/edit-details.php` | High
+50 | File | `/educar_aluno_lst.php` | High
+51 | File | `/equipment/get_Information` | High
+52 | File | `/etc_ro/shadow` | High
+53 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,7 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DinodasRAT:
 
-* [AR](https://vuldb.com/?country.ar)
+* [AR](https://vuldb.com//country/ar)
 
 ## IOC - Indicator of Compromise
 

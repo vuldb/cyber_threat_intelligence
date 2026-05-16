@@ -61,13 +61,14 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/v1/attack/falco` | High
 13 | File | `/application/websocket/controller/Setting.php` | High
 14 | File | `/bin/boa` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/discovery.cgi` | High
-17 | File | `/cgi-bin/login_action.cgi` | High
-18 | File | `/event/admin/?page=user/list` | High
-19 | ... | ... | ...
+15 | File | `/bin/httpd` | Medium
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/discovery.cgi` | High
+18 | File | `/cgi-bin/login_action.cgi` | High
+19 | File | `/event/admin/?page=user/list` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

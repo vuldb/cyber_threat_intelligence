@@ -78,35 +78,38 @@ ID | Type | Indicator | Confidence
 21 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
 22 | File | `/CDGServer3/logManagement/backupLogDetail.jsp` | High
 23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/sessions/get-temp-file` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/change-password.php` | High
-27 | File | `/client/manage/ourphp_out.php` | High
-28 | File | `/config/config.json` | High
-29 | File | `/control/register_case.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/dottie.js` | Medium
-32 | File | `/download` | Medium
-33 | File | `/dtale/chart-data/1` | High
-34 | File | `/etc/hosts.deny` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/setcfm` | High
-37 | File | `/HNAP1` | Low
-38 | File | `/index.php/ccm/system/file/upload` | High
-39 | File | `/index.php?menu=asterisk_cli` | High
-40 | File | `/index/ajax/lang` | High
-41 | File | `/jeecg-boot/jmreport/show` | High
-42 | File | `/kortex_lite/control/edit_profile.php` | High
-43 | File | `/listplace/user/ticket/create` | High
-44 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-45 | File | `/messageboard/view.php` | High
-46 | File | `/modules/projects/vw_files.php` | High
-47 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-48 | File | `/phppath/php` | Medium
-49 | File | `/portal/search.htm` | High
-50 | ... | ... | ...
+24 | File | `/cgi-bin/cstecgi.cgi?action=exportOvpn&type=user` | High
+25 | File | `/cgi-bin/sessions/get-temp-file` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/change-password.php` | High
+28 | File | `/client/manage/ourphp_out.php` | High
+29 | File | `/config/config.json` | High
+30 | File | `/control/register_case.php` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/delete.php` | Medium
+33 | File | `/Doc/deleteDoc.do` | High
+34 | File | `/dottie.js` | Medium
+35 | File | `/download` | Medium
+36 | File | `/dtale/chart-data/1` | High
+37 | File | `/etc/hosts.deny` | High
+38 | File | `/forgot-password.php` | High
+39 | File | `/fort/portal_login` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+42 | File | `/goform/setcfm` | High
+43 | File | `/HNAP1` | Low
+44 | File | `/index.php?menu=asterisk_cli` | High
+45 | File | `/index/ajax/lang` | High
+46 | File | `/jeecg-boot/jmreport/show` | High
+47 | File | `/kortex_lite/control/edit_profile.php` | High
+48 | File | `/listplace/user/ticket/create` | High
+49 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+50 | File | `/messageboard/view.php` | High
+51 | File | `/modules/projects/vw_files.php` | High
+52 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+53 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

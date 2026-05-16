@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
+* [BR](https://vuldb.com/?country.br)
 
 ## Actors
 
@@ -53,13 +54,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mcategory.php` | High
-2 | File | `/profile/edit.php` | High
-3 | File | `adclick.php` | Medium
-4 | File | `admin/admin_log/index.html?user_id` | High
-5 | ... | ... | ...
+1 | File | `/invoice.php` | Medium
+2 | File | `/mcategory.php` | High
+3 | File | `/profile/edit.php` | High
+4 | File | `adclick.php` | Medium
+5 | File | `admin/admin_log/index.html?user_id` | High
+6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

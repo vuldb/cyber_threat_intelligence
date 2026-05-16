@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,15 +63,15 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/photo.php` | High
 8 | File | `/admin/theme-edit.php` | High
 9 | File | `/admin/upload.php` | High
-10 | File | `/admin/user/add` | High
-11 | File | `/admin/user/user-move-run.php` | High
-12 | File | `/ajax_city.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/role` | Medium
-15 | File | `/api/upload.php` | High
-16 | File | `/bill/add_bill.php` | High
-17 | File | `/bin/sh` | Low
-18 | File | `/blog` | Low
+10 | File | `/admin/user/user-move-run.php` | High
+11 | File | `/ajax_city.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/role` | Medium
+14 | File | `/api/upload.php` | High
+15 | File | `/bill/add_bill.php` | High
+16 | File | `/bin/sh` | Low
+17 | File | `/blog` | Low
+18 | File | `/booking/show_bookings/` | High
 19 | File | `/car-rental-management-system/admin/view_car.php=` | High
 20 | File | `/cgi-bin/cstecgi.cgi` | High
 21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
@@ -82,38 +82,38 @@ ID | Type | Indicator | Confidence
 26 | File | `/debug/pprof` | Medium
 27 | File | `/devinfo` | Medium
 28 | File | `/download` | Medium
-29 | File | `/etc/hosts.deny` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/addStaProfile` | High
-32 | File | `/goform/portRangeForwardAdd` | High
-33 | File | `/goform/qosClassifier` | High
-34 | File | `/goform/setIpv6` | High
-35 | File | `/GponForm/device_Form?script/` | High
-36 | File | `/GponForm/usb_restore_Form?script/` | High
-37 | File | `/homeaction.php` | High
-38 | File | `/index.php?menu=asterisk_cli` | High
-39 | File | `/login/signOut` | High
-40 | File | `/mee/login` | Medium
-41 | File | `/mgr/upload` | Medium
-42 | File | `/modules/profile/index.php` | High
-43 | File | `/multi-vendor-shopping-script/product-list.php` | High
-44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-45 | File | `/out.php` | Medium
-46 | File | `/p` | Low
-47 | File | `/pg_meta/default/query` | High
-48 | File | `/portal/search.htm` | High
-49 | File | `/preauth` | Medium
-50 | File | `/see_more_details.php` | High
-51 | File | `/show_news.php` | High
-52 | File | `/spip.php` | Medium
-53 | File | `/sqleditor/query_tool/download` | High
-54 | File | `/static/ueditor/php/controller.php` | High
-55 | File | `/student.php` | Medium
-56 | File | `/student/bookdetails.php` | High
-57 | File | `/uncpath/` | Medium
+29 | File | `/equipment/get_Information` | High
+30 | File | `/etc/hosts.deny` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/getmaxun/maxun/blob/develop/server/src/routes/auth.ts` | High
+33 | File | `/goform/addStaProfile` | High
+34 | File | `/goform/portRangeForwardAdd` | High
+35 | File | `/goform/qosClassifier` | High
+36 | File | `/goform/SetDDNSCfg` | High
+37 | File | `/goform/setIpv6` | High
+38 | File | `/GponForm/device_Form?script/` | High
+39 | File | `/GponForm/usb_restore_Form?script/` | High
+40 | File | `/homeaction.php` | High
+41 | File | `/index.php?menu=asterisk_cli` | High
+42 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+43 | File | `/login/signOut` | High
+44 | File | `/mcp/v1/` | Medium
+45 | File | `/mee/login` | Medium
+46 | File | `/mgr/upload` | Medium
+47 | File | `/modules/profile/index.php` | High
+48 | File | `/multi-vendor-shopping-script/product-list.php` | High
+49 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+50 | File | `/p` | Low
+51 | File | `/pfcpiface/pfcpiface/messages_session.go` | High
+52 | File | `/pg_meta/default/query` | High
+53 | File | `/portal/search.htm` | High
+54 | File | `/preauth` | Medium
+55 | File | `/production/admin_view_info.php` | High
+56 | File | `/register.php` | High
+57 | File | `/search.php` | Medium
 58 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

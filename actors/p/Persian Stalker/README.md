@@ -54,11 +54,12 @@ ID | Type | Indicator | Confidence
 9 | File | `/core/config-revisions` | High
 10 | File | `/DroboAccess/enable_user` | High
 11 | File | `/editedcampaign.php` | High
-12 | File | `/mysql/api/drobo.php` | High
-13 | File | `/oauth/idp/.well-known/openid-configuration` | High
-14 | ... | ... | ...
+12 | File | `/equipment/get_Information` | High
+13 | File | `/mysql/api/drobo.php` | High
+14 | File | `/oauth/idp/.well-known/openid-configuration` | High
+15 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

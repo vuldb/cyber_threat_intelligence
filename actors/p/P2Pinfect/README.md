@@ -22,9 +22,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [8.210.122.125](https://vuldb.com/?ip.8.210.122.125) | - | - | High
 4 | [8.217.21.175](https://vuldb.com/?ip.8.217.21.175) | - | - | High
 5 | [8.218.125.202](https://vuldb.com/?ip.8.218.125.202) | - | - | High
-6 | ... | ... | ... | ...
+6 | [23.249.28.118](https://vuldb.com/?ip.23.249.28.118) | - | - | High
+7 | [47.83.202.230](https://vuldb.com/?ip.47.83.202.230) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,7 +126,7 @@ ID | Type | Indicator | Confidence
 74 | File | `/change-password.php` | High
 75 | ... | ... | ...
 
-There are 663 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 661 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -151,6 +153,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3556765/
 * https://urlhaus.abuse.ch/url/3559291/
 * https://urlhaus.abuse.ch/url/3562166/
+* https://urlhaus.abuse.ch/url/3772457/
+* https://urlhaus.abuse.ch/url/3772458/
+* https://urlhaus.abuse.ch/url/3772607/
+* https://urlhaus.abuse.ch/url/3772610/
+* https://urlhaus.abuse.ch/url/3772611/
+* https://urlhaus.abuse.ch/url/3772612/
+* https://urlhaus.abuse.ch/url/3772613/
+* https://urlhaus.abuse.ch/url/3772614/
+* https://urlhaus.abuse.ch/url/3773447/
 * https://www.cadosecurity.com/blog/from-dormant-to-dangerous-p2pinfect-evolves-to-deploy-new-ransomware-and-cryptominer
 
 ## Literature

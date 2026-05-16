@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -153,34 +153,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addProduct.php` | High
 2 | File | `/admin/add-module.php` | High
-3 | File | `/admin/archives_add.php` | High
-4 | File | `/admin/categories/save` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/newsletterdel.php` | High
-8 | File | `/admin/positions.php` | High
-9 | File | `/admin/receipt.php` | High
-10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-12 | File | `/ajax.php?action=login` | High
-13 | File | `/api/files/recipepictures/` | High
-14 | File | `/authentication.cgi` | High
-15 | File | `/boafrm/formDdns` | High
-16 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-17 | File | `/boafrm/formVpnConfigSetup` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/detailtransac.php` | High
-20 | File | `/dev/ptpX` | Medium
-21 | File | `/editeddonor.php` | High
-22 | File | `/editprofile.php` | High
-23 | File | `/foreigner-search.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/function.php` | High
-26 | File | `/gallery/api/status/` | High
-27 | File | `/goform/AdvSetLanip` | High
-28 | ... | ... | ...
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/categories/save` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/positions.php` | High
+11 | File | `/admin/receipt.php` | High
+12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+13 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+14 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+15 | File | `/Administrator/PHP/AdminEditUser.php` | High
+16 | File | `/Administrator/PHP/AdminReply.php` | High
+17 | File | `/adv_mac_filter.php` | High
+18 | File | `/ajax.php?action=login` | High
+19 | File | `/api/files/recipepictures/` | High
+20 | File | `/app/register.php?action=reg` | High
+21 | File | `/authentication.cgi` | High
+22 | File | `/boaform/formSamba` | High
+23 | File | `/boafrm/formDdns` | High
+24 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+25 | File | `/boafrm/formVpnConfigSetup` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/detailtransac.php` | High
+28 | File | `/dev/ptpX` | Medium
+29 | File | `/editeddonor.php` | High
+30 | File | `/editprofile.php` | High
+31 | File | `/foreigner-search.php` | High
+32 | File | `/FrontEnd/Albums.php` | High
+33 | File | `/function.php` | High
+34 | File | `/gallery/api/status/` | High
+35 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

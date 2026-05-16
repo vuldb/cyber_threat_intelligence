@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT36](https://vuldb.com/?actor.apt36) | High
 2 | [Eking](https://vuldb.com/?actor.eking) | High
+3 | [LotusLite](https://vuldb.com/?actor.lotuslite) | High
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +36,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [45.62.170.237](https://vuldb.com/?ip.45.62.170.237) | - | [Eking](https://vuldb.com/?actor.eking) | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,13 +71,14 @@ ID | Type | Indicator | Confidence
 11 | File | `/etc/config/luci` | High
 12 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://darktrace.com/blog/ransomware-as-a-service-eking-targets-government-organization
+* https://www.acronis.com/en/tru/posts/lotuslite-targeted-espionage-leveraging-geopolitical-themes/
 * https://www.cyfirma.com/research/apt36-a-phishing-campaign-targeting-indian-government-entities/
 * https://www.cyfirma.com/research/apt36-multi-stage-lnk-malware-campaign-targeting-indian-government-entities/
 

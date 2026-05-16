@@ -58,31 +58,32 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=reports` | High
 3 | File | `/admin/book-details.php` | High
 4 | File | `/admin/curriculum/view_curriculum.php` | High
-5 | File | `/admin/massage.php` | High
-6 | File | `/admin/sys/log/list` | High
-7 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
-8 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
-9 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
-10 | File | `/common/show_image.php` | High
-11 | File | `/cupseasylive/grnlinecreate.php` | High
-12 | File | `/druid/index.html` | High
-13 | File | `/file-manager/upload.php` | High
-14 | File | `/goform/formResetStatistic` | High
-15 | File | `/goform/formSetPortTr` | High
-16 | File | `/goform/qosClassifier` | High
-17 | File | `/goform/QoSPortSetup` | High
-18 | File | `/goform/SafeEmailFilter` | High
-19 | File | `/goform/SetFirewallCfg` | High
-20 | File | `/goform/wirelessApcli_5g` | High
-21 | File | `/goform/WriteFacMac` | High
-22 | File | `/includes/create_share.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/index.php?case=database&act=backAll&admin_dir=admin&site=default` | High
-25 | File | `/InnerRepPlus.html` | High
-26 | File | `/j_security_check` | High
-27 | ... | ... | ...
+5 | File | `/admin/Delete_product.php` | High
+6 | File | `/admin/massage.php` | High
+7 | File | `/admin/stateadd.php` | High
+8 | File | `/admin/sys/log/list` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/com/esafenet/policy/action/PolicyPushControlAction.java` | High
+11 | File | `/com/esafenet/servlet/ajax/MultiServerAjax.java` | High
+12 | File | `/com/esafenet/servlet/policy/EncryptPolicyService.java` | High
+13 | File | `/common/show_image.php` | High
+14 | File | `/cupseasylive/grnlinecreate.php` | High
+15 | File | `/druid/index.html` | High
+16 | File | `/file-manager/upload.php` | High
+17 | File | `/goform/formResetStatistic` | High
+18 | File | `/goform/formSetPortTr` | High
+19 | File | `/goform/qosClassifier` | High
+20 | File | `/goform/QoSPortSetup` | High
+21 | File | `/goform/SafeEmailFilter` | High
+22 | File | `/goform/SetFirewallCfg` | High
+23 | File | `/goform/wirelessApcli_5g` | High
+24 | File | `/goform/WriteFacMac` | High
+25 | File | `/includes/create_share.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/index.php?case=database&act=backAll&admin_dir=admin&site=default` | High
+28 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

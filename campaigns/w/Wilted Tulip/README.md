@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -52,14 +52,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,50 +92,51 @@ ID | Type | Indicator | Confidence
 23 | File | `/api/controllers/merchant/design/MaterialController.php` | High
 24 | File | `/api/GylOperator/UpdatePasswordBatch` | High
 25 | File | `/API/info` | Medium
-26 | File | `/app/ajax/sell_return_data.php` | High
-27 | File | `/app/api/controller/default/File.php` | High
-28 | File | `/application/index/controller/Datament.php` | High
-29 | File | `/application/index/controller/File.php` | High
-30 | File | `/apply/index.php` | High
-31 | File | `/att_add.php` | Medium
-32 | File | `/b2b-supermarket/catalog/all-products` | High
-33 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-34 | File | `/backend/admin/his_admin_register_patient.php` | High
-35 | File | `/bin/boa` | Medium
-36 | File | `/binbloom-master/src/helpers.c` | High
-37 | File | `/blog` | Low
-38 | File | `/boaform/wlan_basic_set.cgi` | High
-39 | File | `/category.php` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | File | `/cgi-bin/nas_sharing.cgi` | High
-42 | File | `/check_availability.php` | High
-43 | File | `/classes/Master.php` | High
-44 | File | `/classes/Master.php?f=delete_reminder` | High
-45 | File | `/contacts/listcontacts.php` | High
-46 | File | `/data/app` | Medium
-47 | File | `/depotHead/list` | High
-48 | File | `/download.php?file=author.png` | High
-49 | File | `/Employer/EditProfile.php` | High
-50 | File | `/Employer/ManageWalkin.php` | High
-51 | File | `/endpoint/update-tracker.php` | High
-52 | File | `/etc/os-release` | High
-53 | File | `/etc/pki/pulp/nodes/` | High
-54 | File | `/foms/routers/place-order.php` | High
-55 | File | `/forms/web_runScript` | High
-56 | File | `/forum/away.php` | High
-57 | File | `/fs/nfsd/nfs4proc.c` | High
-58 | File | `/garage/php_action/createBrand.php` | High
-59 | File | `/general/email/outbox/delete.php` | High
-60 | File | `/general/search.php?searchtype=simple` | High
-61 | File | `/ghost/preview` | High
-62 | File | `/goform/AddSysLogRule` | High
-63 | File | `/goform/AdvSetWrlsafeset` | High
-64 | File | `/goform/qossetting` | High
-65 | File | `/goform/setAutoPing` | High
-66 | File | `/hrm/employeeview.php` | High
-67 | ... | ... | ...
+26 | File | `/api/v1/serve/awel/flow/import` | High
+27 | File | `/app/ajax/sell_return_data.php` | High
+28 | File | `/app/api/controller/default/File.php` | High
+29 | File | `/application/index/controller/Datament.php` | High
+30 | File | `/application/index/controller/File.php` | High
+31 | File | `/apply/index.php` | High
+32 | File | `/att_add.php` | Medium
+33 | File | `/b2b-supermarket/catalog/all-products` | High
+34 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+35 | File | `/backend/admin/his_admin_register_patient.php` | High
+36 | File | `/bin/boa` | Medium
+37 | File | `/binbloom-master/src/helpers.c` | High
+38 | File | `/blog` | Low
+39 | File | `/boaform/wlan_basic_set.cgi` | High
+40 | File | `/category.php` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/check_availability.php` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_reminder` | High
+46 | File | `/contacts/listcontacts.php` | High
+47 | File | `/data/app` | Medium
+48 | File | `/depotHead/list` | High
+49 | File | `/download.php?file=author.png` | High
+50 | File | `/Employer/EditProfile.php` | High
+51 | File | `/Employer/ManageWalkin.php` | High
+52 | File | `/endpoint/update-tracker.php` | High
+53 | File | `/equipment/get_Information` | High
+54 | File | `/etc/os-release` | High
+55 | File | `/etc/pki/pulp/nodes/` | High
+56 | File | `/foms/routers/place-order.php` | High
+57 | File | `/forms/web_runScript` | High
+58 | File | `/forum/away.php` | High
+59 | File | `/fs/nfsd/nfs4proc.c` | High
+60 | File | `/garage/php_action/createBrand.php` | High
+61 | File | `/general/email/outbox/delete.php` | High
+62 | File | `/general/search.php?searchtype=simple` | High
+63 | File | `/ghost/preview` | High
+64 | File | `/goform/AddSysLogRule` | High
+65 | File | `/goform/AdvSetWrlsafeset` | High
+66 | File | `/goform/qossetting` | High
+67 | File | `/goform/setAutoPing` | High
+68 | ... | ... | ...
 
-There are 591 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

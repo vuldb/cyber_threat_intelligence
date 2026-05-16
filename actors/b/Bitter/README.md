@@ -63,41 +63,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/comn/service/update.json` | High
 6 | File | `/admin/moduleinterface.php` | High
 7 | File | `/auth_files/photo/` | High
-8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-9 | File | `/cgi-bin/touchlist_sync.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/classes/master.php?f=delete_order` | High
-12 | File | `/curd/index/delfile` | High
-13 | File | `/dev/shm` | Medium
-14 | File | `/dl/dl_print.php` | High
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/forms/nslookupHandler` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/goform/wirelessAdvancedHidden` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/HNAP1/` | Low
-22 | File | `/index.php` | Medium
-23 | File | `/index.php/stock/item_select` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/model/update_grade.php` | High
-26 | File | `/module/word_model/view/index.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/news.dtl.php` | High
-29 | File | `/ofcms/company-c-47` | High
-30 | File | `/out.php` | Medium
-31 | File | `/patient/appointment.php` | High
-32 | File | `/plesk-site-preview/` | High
-33 | File | `/product.php` | Medium
-34 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-35 | File | `/ptms/?page=user` | High
-36 | File | `/rest/ip/address/print` | High
-37 | File | `/search.php` | Medium
-38 | File | `/student-view.php` | High
-39 | File | `/systemrw/` | Medium
-40 | ... | ... | ...
+8 | File | `/BalloonSave.ashx` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/touchlist_sync.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/master.php?f=delete_order` | High
+13 | File | `/controller/api/Room.php` | High
+14 | File | `/curd/index/delfile` | High
+15 | File | `/dayrui/Fcms/Init.php` | High
+16 | File | `/dev-api/common/upload` | High
+17 | File | `/dev/shm` | Medium
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/forms/nslookupHandler` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/exeCommand` | High
+24 | File | `/goform/wirelessAdvancedHidden` | High
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/HNAP1/` | Low
+27 | File | `/includes/article_detail.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php/stock/item_select` | High
+30 | File | `/jdcapi` | Low
+31 | File | `/je/postil/postil/loadPostil` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/login.php` | Medium
+34 | File | `/model/update_grade.php` | High
+35 | File | `/module/word_model/view/index.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/news.dtl.php` | High
+38 | File | `/ofcms/company-c-47` | High
+39 | File | `/out.php` | Medium
+40 | File | `/patient/appointment.php` | High
+41 | File | `/plesk-site-preview/` | High
+42 | File | `/product.php` | Medium
+43 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

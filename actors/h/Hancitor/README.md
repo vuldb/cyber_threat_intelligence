@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,14 +62,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,49 +78,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
 2 | File | `/academy/tutor/filter` | High
-3 | File | `/admin/category/controller.php` | High
-4 | File | `/admin/create_product.php` | High
-5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/products/view_product.php` | High
-7 | File | `/admin/profile.php` | High
-8 | File | `/admin/reminders/manage_reminder.php` | High
-9 | File | `/API/info` | Medium
-10 | File | `/app/options.py` | High
-11 | File | `/auth_files/photo/` | High
-12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-13 | File | `/Bloodgroop_process.php` | High
-14 | File | `/cancelbookingpatient.php` | High
-15 | File | `/CCMAdmin/serverlist.asp` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-18 | File | `/cgi/get_param.cgi` | High
-19 | File | `/csms/admin/inquiries/view_details.php` | High
-20 | File | `/cstecgi.cgi` | Medium
-21 | File | `/debuginfo.htm` | High
-22 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-23 | File | `/ecommerce/support_ticket` | High
-24 | File | `/Employee/edit-profile.php` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/verifyFacebookLike` | High
-29 | File | `/h/autoSaveDraft` | High
-30 | File | `/home/search` | Medium
-31 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
-32 | File | `/include/chart_generator.php` | High
-33 | File | `/install/index.php` | High
-34 | File | `/lan.asp` | Medium
-35 | File | `/mhds/clinic/view_details.php` | High
-36 | File | `/newProject.php` | High
-37 | File | `/novel/bookComment/list` | High
-38 | File | `/out.php` | Medium
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/rest/api/latest/projectvalidate/key` | High
-41 | File | `/rom-0` | Low
-42 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-43 | ... | ... | ...
+3 | File | `/admin/bwdates-reports-details.php` | High
+4 | File | `/admin/category/controller.php` | High
+5 | File | `/admin/create_product.php` | High
+6 | File | `/admin/general.cgi` | High
+7 | File | `/admin/products/view_product.php` | High
+8 | File | `/admin/profile.php` | High
+9 | File | `/admin/reminders/manage_reminder.php` | High
+10 | File | `/API/info` | Medium
+11 | File | `/app/options.py` | High
+12 | File | `/att_add.php` | Medium
+13 | File | `/auth_files/photo/` | High
+14 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+15 | File | `/Bloodgroop_process.php` | High
+16 | File | `/cancelbookingpatient.php` | High
+17 | File | `/CCMAdmin/serverlist.asp` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+20 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+21 | File | `/cgi-bin/nas_sharing.cgi` | High
+22 | File | `/cgi/get_param.cgi` | High
+23 | File | `/csms/admin/inquiries/view_details.php` | High
+24 | File | `/cstecgi.cgi` | Medium
+25 | File | `/debuginfo.htm` | High
+26 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+27 | File | `/ecommerce/support_ticket` | High
+28 | File | `/Employee/edit-profile.php` | High
+29 | File | `/etc/passwd` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetVirtualServerCfg` | High
+32 | File | `/goform/verifyFacebookLike` | High
+33 | File | `/h/autoSaveDraft` | High
+34 | File | `/home/search` | Medium
+35 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
+36 | File | `/include/chart_generator.php` | High
+37 | File | `/install/index.php` | High
+38 | File | `/lists/admin/` | High
+39 | File | `/mhds/clinic/view_details.php` | High
+40 | File | `/newProject.php` | High
+41 | File | `/novel/bookComment/list` | High
+42 | File | `/out.php` | Medium
+43 | File | `/owa/auth/logon.aspx` | High
+44 | File | `/paySuccess` | Medium
+45 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -153,4 +154,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

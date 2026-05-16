@@ -27,7 +27,8 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.141.233.108](https://vuldb.com/?ip.45.141.233.108) | - | - | High
 5 | [62.60.226.252](https://vuldb.com/?ip.62.60.226.252) | - | - | High
 6 | [91.238.181.238](https://vuldb.com/?ip.91.238.181.238) | - | - | High
-7 | ... | ... | ... | ...
+7 | [94.26.90.5](https://vuldb.com/?ip.94.26.90.5) | - | - | High
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -44,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,39 +85,42 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/manage-foreigners-ticket.php` | High
 31 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
 32 | File | `/admin/normal-search.php` | High
-33 | File | `/admin/password-recovery.php` | High
-34 | File | `/admin/print.php` | High
-35 | File | `/admin/product.php` | High
-36 | File | `/admin/products/index.php` | High
-37 | File | `/admin/registration.php` | High
-38 | File | `/admin/search.php` | High
-39 | File | `/admin/template` | High
-40 | File | `/admin/twitter.php` | High
-41 | File | `/admin/update-progress.php` | High
-42 | File | `/admin/update_room.php` | High
-43 | File | `/admin/update_s7.php` | High
-44 | File | `/admin/users_photo.php` | High
-45 | File | `/admin/wangkan_list.php` | High
-46 | File | `/admin79f2ec220c7e.php?c=api&m=demo&name=mobile` | High
-47 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-48 | File | `/ajax/ajax_login.ashx` | High
-49 | File | `/Android/data/com.myairtelapp/files/` | High
-50 | File | `/animalsupdate.php` | High
-51 | File | `/api/admin` | Medium
-52 | File | `/api/admin/user?id` | High
-53 | File | `/api/blade-user/export-user` | High
-54 | File | `/api/upload` | Medium
-55 | File | `/apply.cgi` | Medium
-56 | File | `/Auth.php` | Medium
-57 | File | `/auth/list_projects` | High
-58 | File | `/backend/admin/his_admin_register_patient.php` | High
-59 | File | `/bin/httpd` | Medium
-60 | File | `/boafrm/formPortFw` | High
-61 | File | `/boafrm/formWlEncrypt` | High
-62 | File | `/buscar_integrada.php` | High
-63 | ... | ... | ...
+33 | File | `/admin/operation/user.php` | High
+34 | File | `/admin/password-recovery.php` | High
+35 | File | `/admin/print.php` | High
+36 | File | `/admin/product.php` | High
+37 | File | `/admin/products/index.php` | High
+38 | File | `/admin/registration.php` | High
+39 | File | `/admin/search.php` | High
+40 | File | `/admin/template` | High
+41 | File | `/admin/twitter.php` | High
+42 | File | `/admin/update-progress.php` | High
+43 | File | `/admin/update_main_topic_img.php?topic_id=529` | High
+44 | File | `/admin/update_room.php` | High
+45 | File | `/admin/update_s7.php` | High
+46 | File | `/admin/users_photo.php` | High
+47 | File | `/admin/wangkan_list.php` | High
+48 | File | `/admin79f2ec220c7e.php?c=api&m=demo&name=mobile` | High
+49 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+50 | File | `/ajax/ajax_login.ashx` | High
+51 | File | `/ajax/php/leaf_search.php` | High
+52 | File | `/Android/data/com.myairtelapp/files/` | High
+53 | File | `/animalsupdate.php` | High
+54 | File | `/api/admin` | Medium
+55 | File | `/api/admin/user?id` | High
+56 | File | `/api/blade-user/export-user` | High
+57 | File | `/api/jobs` | Medium
+58 | File | `/api/upload` | Medium
+59 | File | `/apply.cgi` | Medium
+60 | File | `/Auth.php` | Medium
+61 | File | `/auth/list_projects` | High
+62 | File | `/backend/admin/his_admin_register_patient.php` | High
+63 | File | `/bin/httpd` | Medium
+64 | File | `/boaform/formSysCmd` | High
+65 | File | `/boafrm/formPortFw` | High
+66 | ... | ... | ...
 
-There are 553 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 577 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,6 +152,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3601212/
 * https://urlhaus.abuse.ch/url/3601213/
 * https://urlhaus.abuse.ch/url/3601214/
+* https://urlhaus.abuse.ch/url/3751246/
 
 ## Literature
 

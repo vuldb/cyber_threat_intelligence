@@ -100,21 +100,22 @@ ID | Type | Indicator | Confidence
 25 | File | `/css/..%2f` | Medium
 26 | File | `/dataSet/resolveSql` | High
 27 | File | `/debug/pprof` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/formSetPassword` | High
-30 | File | `/goform/setBlackRule` | High
-31 | File | `/index/ajax/lang` | High
-32 | File | `/lms/classes/Master.php?f=save_record` | High
-33 | File | `/login.php` | Medium
-34 | File | `/members/poster.php` | High
-35 | File | `/mics/j_spring_security_check` | High
-36 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/pda/workflow/check_seal.php` | High
-39 | File | `/php/ping.php` | High
-40 | ... | ... | ...
+28 | File | `/dm/dispatch/user/add` | High
+29 | File | `/equipment/get_Information` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/formSetPassword` | High
+32 | File | `/goform/setBlackRule` | High
+33 | File | `/index/ajax/lang` | High
+34 | File | `/lms/classes/Master.php?f=save_record` | High
+35 | File | `/login.php` | Medium
+36 | File | `/members/poster.php` | High
+37 | File | `/mics/j_spring_security_check` | High
+38 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/pda/workflow/check_seal.php` | High
+41 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [IN](https://vuldb.com/?country.in)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -74,26 +74,28 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=maintenance/brand` | High
 2 | File | `/admin/ballot_down.php` | High
 3 | File | `/admin/courses/manage_course.php` | High
-4 | File | `/admin/maintenance/brand.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/patient.php` | High
-7 | File | `/admin/product/manage.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/api/blade-user/submit` | High
-10 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-11 | File | `/boaform/device_reset.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/master.php?f=delete_order` | High
-16 | File | `/classes/Master.php?f=update_order_status` | High
-17 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
-18 | File | `/controllers/add_client.php` | High
-19 | File | `/dashboard.php` | High
-20 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-21 | ... | ... | ...
+4 | File | `/admin/login` | Medium
+5 | File | `/admin/maintenance/brand.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/patient.php` | High
+8 | File | `/admin/product/manage.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/api/blade-user/submit` | High
+11 | File | `/api/esps` | Medium
+12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/lighttpd.cgi` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/changeimage.php` | High
+18 | File | `/classes/master.php?f=delete_order` | High
+19 | File | `/classes/Master.php?f=update_order_status` | High
+20 | File | `/com/esafenet/servlet/fileManagement/FileDirectoryService.java` | High
+21 | File | `/controllers/add_client.php` | High
+22 | File | `/dashboard.php` | High
+23 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

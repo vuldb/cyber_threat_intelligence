@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [23.199.71.136](https://vuldb.com/?ip.23.199.71.136) | a23-199-71-136.deploy.static.akamaitechnologies.com | - | High
 11 | ... | ... | ... | ...
 
-There are 40 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/esThreatIntelligence/iocs/blob/main/AutoIT/AutoIT_VidarStealer-5-19-2024.txt
 * https://isc.sans.edu/forums/diary/Brazilian+malspam+sends+Autoitbased+malware/22081/
 * https://research.openanalysis.net/credflusher/kiosk/stealer/stealc/amadey/autoit/2024/09/11/cred-flusher.html
+* https://urlhaus.abuse.ch/url/3602890/
 
 ## Literature
 
@@ -113,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

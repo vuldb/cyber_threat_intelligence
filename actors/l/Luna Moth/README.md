@@ -15,9 +15,9 @@ The following _campaigns_ are known and can be associated with Luna Moth:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Luna Moth:
 
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com//country/us)
+* [CN](https://vuldb.com//country/cn)
+* [RU](https://vuldb.com//country/ru)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,15 +69,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit-card-detail.php` | High
 2 | File | `/admin_user.php` | High
-3 | File | `/apply/index.php` | High
-4 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-5 | File | `/books` | Low
-6 | File | `/forum/away.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/out.php` | Medium
-9 | ... | ... | ...
+3 | File | `/ajax-files/followBoard.php` | High
+4 | File | `/apply/index.php` | High
+5 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+6 | File | `/books` | Low
+7 | File | `/forum/away.php` | High
+8 | File | `/includes/lib/detail.php` | High
+9 | File | `/modules/projects/vw_files.php` | High
+10 | File | `/oauth/idp/.well-known/openid-configuration` | High
+11 | File | `/out.php` | Medium
+12 | File | `/resources//../` | High
+13 | File | `/see_more_details.php` | High
+14 | File | `/server-status` | High
+15 | File | `/spip.php` | Medium
+16 | File | `/student/project_selection/move_up_project.php` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add-services.php` | High
+19 | File | `admin.jcomments.php` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/index.php` | High
+22 | File | `admin/models/Galleries.php` | High
+23 | File | `affich.php` | Medium
+24 | File | `affiliate-preview.php` | High
+25 | File | `akocomments.php` | High
+26 | File | `album_portal.php` | High
+27 | File | `application/modules/admin/views/ecommerce/products.php` | High
+28 | File | `apps/app_article/controller/rating.php` | High
+29 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

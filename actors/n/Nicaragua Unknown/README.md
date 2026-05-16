@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nicaragua Unknown:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,14 +62,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-35 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,79 +77,101 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%WINDIR%\temp` | High
-2 | File | `/activity/newActivityedit.php?DontCheckLogin=1&id=null&ret=mod1` | High
-3 | File | `/adm/index.php` | High
-4 | File | `/admin.php?mod=brand&act=del` | High
-5 | File | `/admin/aboutPost.php` | High
-6 | File | `/admin/admin_addnew_product.php` | High
-7 | File | `/admin/ajax.php?action=login` | High
-8 | File | `/admin/all-request.php` | High
-9 | File | `/admin/article.php` | High
-10 | File | `/admin/betweendates-detailsreports.php` | High
-11 | File | `/admin/campsdetails.php` | High
-12 | File | `/admin/contactus.php` | High
-13 | File | `/admin/course.php` | High
-14 | File | `/admin/department.php` | High
-15 | File | `/admin/edit-customer-detailed.php` | High
-16 | File | `/admin/edit-services.php` | High
-17 | File | `/admin/forgot-password.php` | High
-18 | File | `/admin/level.php` | High
-19 | File | `/admin/registration.php` | High
-20 | File | `/admin/search-report-details.php` | High
-21 | File | `/admin/setup.cgi` | High
-22 | File | `/admin/view-pass-detail.php` | High
-23 | File | `/ajax_state.php` | High
-24 | File | `/api/browserextension/UpdatePassword/` | High
-25 | File | `/api/discoveries/` | High
-26 | File | `/api/esps` | Medium
-27 | File | `/api/wizard/getDualbandSync` | High
-28 | File | `/api/wizard/getNetworkConf` | High
-29 | File | `/api/wizard/networkSetup` | High
-30 | File | `/app/api/controller/caiji.php` | High
-31 | File | `/app/api/controller/collect.php` | High
-32 | File | `/app/controller/Setup.php` | High
-33 | File | `/application/models/ApplicationDataObject.class.php` | High
-34 | File | `/auth.asp` | Medium
-35 | File | `/auth/setup` | Medium
-36 | File | `/auth/soup-auth-digest.c` | High
-37 | File | `/bin/goahead` | Medium
-38 | File | `/bin/gpio` | Medium
-39 | File | `/bin/httpd` | Medium
-40 | File | `/bin/main` | Medium
-41 | File | `/binutils/debug.c` | High
-42 | File | `/biurl_grou` | Medium
-43 | File | `/boa/formWSC` | Medium
-44 | File | `/boafrm/formDMZ` | High
-45 | File | `/boafrm/formDosCfg` | High
-46 | File | `/boafrm/formFilter` | High
-47 | File | `/boafrm/formIpQoS` | High
-48 | File | `/boafrm/formIPv6Addr` | High
-49 | File | `/boafrm/formMapDelDevice` | High
-50 | File | `/boafrm/formMultiAP` | High
-51 | File | `/boafrm/formNtp` | High
-52 | File | `/boafrm/formParentControl` | High
-53 | File | `/boafrm/formPortFw` | High
-54 | File | `/boafrm/formReflashClientTbl` | High
-55 | File | `/boafrm/formSaveConfig` | High
-56 | File | `/boafrm/formSetLg` | High
-57 | File | `/boafrm/formSiteSurveyProfile` | High
-58 | File | `/boafrm/formStaticDHCP` | High
-59 | File | `/boafrm/formStats` | High
-60 | File | `/boafrm/formSysCmd` | High
-61 | File | `/boafrm/formSysLog` | High
-62 | File | `/boafrm/formTmultiAP` | High
-63 | File | `/boafrm/formVlan` | High
-64 | File | `/boafrm/formWdsEncrypt` | High
-65 | File | `/boafrm/formWirelessTbl` | High
-66 | File | `/boafrm/formWlanRedirect` | High
-67 | File | `/boafrm/formWlSiteSurvey` | High
-68 | File | `/boafrm/formWlwds` | High
-69 | File | `/boafrm/formWsc` | High
-70 | File | `/book-appointment.php` | High
-71 | ... | ... | ...
+1 | File | `/action.php` | Medium
+2 | File | `/add-new-officer.php` | High
+3 | File | `/add-office.php` | High
+4 | File | `/addrecord.php` | High
+5 | File | `/addtime.php` | Medium
+6 | File | `/add_book.php` | High
+7 | File | `/add_librarian.php` | High
+8 | File | `/add_query_reserve.php` | High
+9 | File | `/admin.php` | Medium
+10 | File | `/admin/` | Low
+11 | File | `/admin/?page=city` | High
+12 | File | `/admin/?page=establishment` | High
+13 | File | `/admin/?page=system_info` | High
+14 | File | `/admin/?page=user` | High
+15 | File | `/admin/activity.php` | High
+16 | File | `/admin/add-subadmins.php` | High
+17 | File | `/Admin/additems.php` | High
+18 | File | `/admin/add_activity.php` | High
+19 | File | `/admin/add_admin.php` | High
+20 | File | `/admin/add_product.php` | High
+21 | File | `/admin/admin_football.php` | High
+22 | File | `/admin/admin_index.php` | High
+23 | File | `/admin/admin_running.php` | High
+24 | File | `/admin/archives_add.php` | High
+25 | File | `/admin/bwdates-reports-details.php` | High
+26 | File | `/Admin/changepassword.php` | High
+27 | File | `/admin/cms/category/addtitle` | High
+28 | File | `/admin/customer-list.php` | High
+29 | File | `/admin/delete_activity.php` | High
+30 | File | `/admin/delete_user.php` | High
+31 | File | `/admin/edit-student-profile.php` | High
+32 | File | `/admin/edit-user.php` | High
+33 | File | `/admin/edit.php` | High
+34 | File | `/admin/editsite.php` | High
+35 | File | `/admin/edit_class.php` | High
+36 | File | `/admin/edit_room.php` | High
+37 | File | `/admin/index.php` | High
+38 | File | `/admin/index.php/datafile/delfile` | High
+39 | File | `/admin/index.php/datafile/download` | High
+40 | File | `/admin/index.php?page=user-profile` | High
+41 | File | `/admin/invoiceprint.php` | High
+42 | File | `/admin/login.php` | High
+43 | File | `/admin/register.php` | High
+44 | File | `/admin/roombook.php` | High
+45 | File | `/admin/save_student.php` | High
+46 | File | `/admin/search1.php` | High
+47 | File | `/admin/system/variableList.do` | High
+48 | File | `/admin/templets_one_edit.php` | High
+49 | File | `/admin/update_student.php` | High
+50 | File | `/admin/update_user.php` | High
+51 | File | `/admin/user-bookings.php` | High
+52 | File | `/admin/user/index.php?view=edit` | High
+53 | File | `/admin/userbuilderdelete.php` | High
+54 | File | `/admin/usersettingdel.php` | High
+55 | File | `/admin/view-member-report.php` | High
+56 | File | `/admin/view-progress-report.php` | High
+57 | File | `/admin/view_payorder.php` | High
+58 | File | `/admin/wangkan_list.php` | High
+59 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+60 | File | `/administrator/addcategory.php` | High
+61 | File | `/administrator/bidlist.php` | High
+62 | File | `/Administrator/PHP/AdminReply.php` | High
+63 | File | `/Administrator/PHP/AdminViewSongs.php` | High
+64 | File | `/admin_area/index.php` | High
+65 | File | `/admin_class.php` | High
+66 | File | `/agent/profile/edit` | High
+67 | File | `/ajax.php` | Medium
+68 | File | `/ajax.php?action=delete_course` | High
+69 | File | `/ajax.php?action=delete_fees` | High
+70 | File | `/ajax.php?action=login` | High
+71 | File | `/ajax.php?action=save_course` | High
+72 | File | `/ajax.php?action=save_station` | High
+73 | File | `/ajax.php?action=save_student` | High
+74 | File | `/ajax.php?action=save_user` | High
+75 | File | `/api/admin/update_account/` | High
+76 | File | `/api/employees` | High
+77 | File | `/api/v2.1/repos/{repo_id}/file/` | High
+78 | File | `/api/v2.1/user/` | High
+79 | File | `/app-api/v1/orders/` | High
+80 | File | `/app/checkout/delete.php` | High
+81 | File | `/app/complaint.php` | High
+82 | File | `/app/Jobs/Util/Import.php` | High
+83 | File | `/app/register.php?action=reg` | High
+84 | File | `/application/admin/logic/FilemanagerLogic.php` | High
+85 | File | `/Applications/Endpoint` | High
+86 | File | `/assetsGroupReport/assetsService.j%73p` | High
+87 | File | `/authentication.cgi` | High
+88 | File | `/authentication/` | High
+89 | File | `/base/safe_setting/` | High
+90 | File | `/boaform/formSamba` | High
+91 | File | `/boaform/formSysCmd` | High
+92 | File | `/boafrm/formDdns` | High
+93 | ... | ... | ...
 
-There are 623 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 819 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -168,4 +190,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

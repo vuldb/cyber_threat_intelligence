@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [HK](https://vuldb.com/?country.hk)
 
 ## Actors
 
@@ -47,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -60,77 +61,79 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adfs/ls` | Medium
 2 | File | `/admin-api/bpm/model/deploy` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/aboutPost.php` | High
-6 | File | `/admin/access` | High
-7 | File | `/admin/admin_user.php` | High
-8 | File | `/admin/article/list` | High
-9 | File | `/admin/change-password.php` | High
-10 | File | `/admin/deleteuser.php` | High
-11 | File | `/admin/edit_account.php` | High
-12 | File | `/admin/group/edit.do` | High
-13 | File | `/admin/ImgUpdaPost.php` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/member_save.php` | High
-16 | File | `/admin/roombook.php` | High
-17 | File | `/admin/settings/index.php?page=accounts` | High
-18 | File | `/admin/siteconfig.php` | High
-19 | File | `/admin/template_admin.php` | High
-20 | File | `/admin/user/edit.do` | High
-21 | File | `/adminprofile.php` | High
-22 | File | `/admin_class.php` | High
-23 | File | `/admin_ping.htm` | High
-24 | File | `/admin_route/dec_service_credits.php` | High
-25 | File | `/adv_arpspoofing.php` | High
-26 | File | `/adv_dhcps.php` | High
-27 | File | `/adv_macbypass.php` | High
-28 | File | `/allreaders.html` | High
-29 | File | `/all_student.php` | High
-30 | File | `/Ant_Suxin.php` | High
-31 | File | `/api/authentication/login` | High
-32 | File | `/api/Common/uploadFile` | High
-33 | File | `/api/stl/actions/search` | High
-34 | File | `/api/system/other` | High
-35 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-36 | File | `/api/upload.php` | High
-37 | File | `/api/v1/admin/` | High
-38 | File | `/api/v1/getbaseconfig` | High
-39 | File | `/api/v1/settings` | High
-40 | File | `/api/wizard/getCapability` | High
-41 | File | `/api/wizard/getCapabilityWeb` | High
-42 | File | `/api/wizard/getLanguage` | High
-43 | File | `/api/wizard/getSpecs` | High
-44 | File | `/api/wizard/getsyncpppoecfg` | High
-45 | File | `/api/wizard/setLanguage` | High
-46 | File | `/api/wizard/setsyncpppoecfg` | High
-47 | File | `/app-api/infra/file/upload` | High
-48 | File | `/app/admin/controller/api/Plugs.php` | High
-49 | File | `/app/api/controller/caiji.php` | High
-50 | File | `/app/controller/Api.php` | High
-51 | File | `/application/models/ApplicationDataObject.class.php` | High
-52 | File | `/application/pay/controller/Api.php` | High
-53 | File | `/auth.asp` | Medium
-54 | File | `/bin/gpio` | Medium
-55 | File | `/bin/httpd` | Medium
-56 | File | `/boa/formWSC` | Medium
+3 | File | `/admin-api/infra/file/upload` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/aboutPost.php` | High
+7 | File | `/admin/access` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/article/list` | High
+10 | File | `/admin/change-password.php` | High
+11 | File | `/admin/deleteuser.php` | High
+12 | File | `/admin/edit_account.php` | High
+13 | File | `/admin/group/edit.do` | High
+14 | File | `/admin/ImgUpdaPost.php` | High
+15 | File | `/admin/index.php?page=categories` | High
+16 | File | `/admin/index2.html` | High
+17 | File | `/admin/member_save.php` | High
+18 | File | `/admin/roombook.php` | High
+19 | File | `/admin/settings/index.php?page=accounts` | High
+20 | File | `/admin/siteconfig.php` | High
+21 | File | `/admin/user/edit.do` | High
+22 | File | `/adminprofile.php` | High
+23 | File | `/admin_class.php` | High
+24 | File | `/admin_ping.htm` | High
+25 | File | `/admin_route/dec_service_credits.php` | High
+26 | File | `/advancesearch.php` | High
+27 | File | `/adv_arpspoofing.php` | High
+28 | File | `/adv_dhcps.php` | High
+29 | File | `/adv_macbypass.php` | High
+30 | File | `/allreaders.html` | High
+31 | File | `/all_student.php` | High
+32 | File | `/api/authentication/login` | High
+33 | File | `/api/system/other` | High
+34 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+35 | File | `/api/upload.php` | High
+36 | File | `/api/v1/admin/` | High
+37 | File | `/api/v1/getbaseconfig` | High
+38 | File | `/api/v1/settings` | High
+39 | File | `/api/wizard/getCapability` | High
+40 | File | `/api/wizard/getCapabilityWeb` | High
+41 | File | `/api/wizard/getLanguage` | High
+42 | File | `/api/wizard/getSpecs` | High
+43 | File | `/api/wizard/getsyncpppoecfg` | High
+44 | File | `/api/wizard/setLanguage` | High
+45 | File | `/api/wizard/setsyncpppoecfg` | High
+46 | File | `/app-api/infra/file/upload` | High
+47 | File | `/app/admin/controller/api/Plugs.php` | High
+48 | File | `/app/api/controller/caiji.php` | High
+49 | File | `/app/controller/Api.php` | High
+50 | File | `/application/models/ApplicationDataObject.class.php` | High
+51 | File | `/application/pay/controller/Api.php` | High
+52 | File | `/auth.asp` | Medium
+53 | File | `/bin/gpio` | Medium
+54 | File | `/bin/httpd` | Medium
+55 | File | `/boa/formWSC` | Medium
+56 | File | `/boaform/formSysCmd` | High
 57 | File | `/boafrm/formDMZ` | High
 58 | File | `/boafrm/formDosCfg` | High
 59 | File | `/boafrm/formFilter` | High
 60 | File | `/boafrm/formIpQoS` | High
-61 | File | `/boafrm/formMapDel` | High
-62 | File | `/boafrm/formMapDelDevice` | High
-63 | File | `/boafrm/formMultiAP` | High
-64 | File | `/boafrm/formNtp` | High
-65 | File | `/boafrm/formPortFw` | High
-66 | File | `/boafrm/formReflashClientTbl` | High
-67 | File | `/boafrm/formSaveConfig` | High
-68 | File | `/boafrm/formSetLg` | High
-69 | File | `/boafrm/formSiteSurveyProfile` | High
-70 | File | `/boafrm/formStaticDHCP` | High
-71 | ... | ... | ...
+61 | File | `/boafrm/formIpv6Setup` | High
+62 | File | `/boafrm/formMapDel` | High
+63 | File | `/boafrm/formMapDelDevice` | High
+64 | File | `/boafrm/formMultiAP` | High
+65 | File | `/boafrm/formNtp` | High
+66 | File | `/boafrm/formPinManageSetup` | High
+67 | File | `/boafrm/formPortFw` | High
+68 | File | `/boafrm/formReflashClientTbl` | High
+69 | File | `/boafrm/formSaveConfig` | High
+70 | File | `/boafrm/formSetLg` | High
+71 | File | `/boafrm/formSiteSurveyProfile` | High
+72 | File | `/boafrm/formStaticDHCP` | High
+73 | ... | ... | ...
 
-There are 623 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 639 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

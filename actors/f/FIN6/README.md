@@ -53,13 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,53 +82,55 @@ ID | Type | Indicator | Confidence
 13 | File | `/advance_push/public/login` | High
 14 | File | `/ajax-files/postComment.php` | High
 15 | File | `/anony/mjpg.cgi` | High
-16 | File | `/application/common.php#action_log` | High
-17 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-18 | File | `/catalog` | Medium
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/ExportSettings.sh` | High
-21 | File | `/cgi-bin/login_action.cgi` | High
-22 | File | `/cgi-bin/webproc` | High
-23 | File | `/checkLogin.cgi` | High
-24 | File | `/classes/profile.class.php` | High
-25 | File | `/common/run_report.php` | High
-26 | File | `/data/inc/images.php` | High
-27 | File | `/data/syslog.filter.json` | High
-28 | File | `/data/wps.setup.json` | High
-29 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
-30 | File | `/docs/captcha_(number).jpeg` | High
-31 | File | `/etc/config/rpcd` | High
-32 | File | `/etc/hosts` | Medium
-33 | File | `/export` | Low
-34 | File | `/forum/` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/net\_Web\_get_value` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php/weblinks-categories` | High
-39 | File | `/j_security_check` | High
-40 | File | `/login.html` | Medium
-41 | File | `/menu.html` | Medium
-42 | File | `/mics/j_spring_security_check` | High
-43 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
-44 | File | `/mnt/skyeye/mode_switch.sh` | High
-45 | File | `/mybb_1806/Upload/admin/index.php` | High
-46 | File | `/oauth/token` | Medium
-47 | File | `/plain` | Low
-48 | File | `/pms/admin/visits/view_visit.php` | High
-49 | File | `/public/login.htm` | High
-50 | File | `/romfile.cfg` | Medium
-51 | File | `/scp/directory.php` | High
-52 | File | `/search.php` | Medium
-53 | File | `/setSystemAdmin` | High
-54 | File | `/smsa/add_class_submit.php` | High
-55 | File | `/spip.php` | Medium
-56 | File | `/system/WCore/WHelper.php` | High
-57 | File | `/uncpath/` | Medium
-58 | File | `/upload` | Low
-59 | File | `/uploads/tags.php` | High
-60 | ... | ... | ...
+16 | File | `/api/deploy/upload` | High
+17 | File | `/api/deploy/upload /api/database/upload` | High
+18 | File | `/application/common.php#action_log` | High
+19 | File | `/apps/meteor/app/irc/server/servers/RFC2813/parseMessage.js` | High
+20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+21 | File | `/catalog` | Medium
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/ExportSettings.sh` | High
+24 | File | `/cgi-bin/login_action.cgi` | High
+25 | File | `/cgi-bin/webproc` | High
+26 | File | `/checkLogin.cgi` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/profile.class.php` | High
+29 | File | `/collect/PortV4/downLoad.html` | High
+30 | File | `/common/run_report.php` | High
+31 | File | `/crm/weixinmp/index.php?userid=123&module=Users&usid=1&action=UsersAjax&minipro_const_type=1&related_module=Singin` | High
+32 | File | `/data/inc/images.php` | High
+33 | File | `/data/syslog.filter.json` | High
+34 | File | `/data/wps.setup.json` | High
+35 | File | `/dayrui/My/View/main.html` | High
+36 | File | `/Digital-Infrastructure-9.6.7/y9-digitalbase-webapp/y9-module-filemanager/risenet-y9boot-webapp-filemanager/src/main/java/net/risesoft/y9public/controller/Y9FileController.java` | High
+37 | File | `/docs/captcha_(number).jpeg` | High
+38 | File | `/etc/config/rpcd` | High
+39 | File | `/etc/hosts` | Medium
+40 | File | `/export` | Low
+41 | File | `/forum/` | Low
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/net\_Web\_get_value` | High
+44 | File | `/goform/set_server_settings` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index.php/weblinks-categories` | High
+47 | File | `/j_security_check` | High
+48 | File | `/login.html` | Medium
+49 | File | `/menu.html` | Medium
+50 | File | `/mics/j_spring_security_check` | High
+51 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
+52 | File | `/mnt/skyeye/mode_switch.sh` | High
+53 | File | `/mybb_1806/Upload/admin/index.php` | High
+54 | File | `/oauth/token` | Medium
+55 | File | `/plain` | Low
+56 | File | `/pms/admin/visits/view_visit.php` | High
+57 | File | `/public/login.htm` | High
+58 | File | `/romfile.cfg` | Medium
+59 | File | `/scp/directory.php` | High
+60 | File | `/search.php` | Medium
+61 | File | `/setSystemAdmin` | High
+62 | ... | ... | ...
 
-There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +151,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

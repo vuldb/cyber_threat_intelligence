@@ -55,17 +55,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/postfix/sender_login` | High
 6 | File | `/file/upload/1` | High
 7 | File | `/filemanager/ajax_calls.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/Items/*/RemoteImages/Download` | High
-10 | File | `/members/view_member.php` | High
-11 | File | `/mhds/clinic/view_details.php` | High
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/paySuccess` | Medium
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/rest/ip/address/print` | High
+8 | File | `/goform/SetVirtualServerCfg` | High
+9 | File | `/index.php` | Medium
+10 | File | `/Items/*/RemoteImages/Download` | High
+11 | File | `/members/view_member.php` | High
+12 | File | `/mhds/clinic/view_details.php` | High
+13 | File | `/owa/auth/logon.aspx` | High
+14 | File | `/paySuccess` | Medium
+15 | File | `/rest/api/latest/projectvalidate/key` | High
 16 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

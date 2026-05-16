@@ -35,7 +35,7 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [78.138.9.91](https://vuldb.com/?ip.78.138.9.91) | - | - | High
 13 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,14 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,33 +68,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/emp-profile-avatar.php` | High
 9 | File | `/admin/process_category_edit.php` | High
 10 | File | `/Admin/resultdetails.php` | High
-11 | File | `/administrator/bidlist.php` | High
-12 | File | `/ajax.php?action=save_deductions` | High
-13 | File | `/api/swaggerui/static` | High
-14 | File | `/api/wizard/getDualbandSync` | High
-15 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-16 | File | `/boafrm/formMapDelDevice` | High
-17 | File | `/boafrm/formReflashClientTbl` | High
-18 | File | `/cancelar-enturmacao-em-lote/` | High
-19 | File | `/cgi-bin/hd_config.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/client-data/<client_id>/collections/##/usermgmt.xml` | High
-23 | File | `/common/info.cgi` | High
-24 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-25 | File | `/dataSet/testTransform;swagger-ui` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/dental_form.php` | High
-28 | File | `/diario-de-observacoes/` | High
-29 | File | `/edit-computer-detail.php` | High
-30 | File | `/edit_student.php` | High
-31 | File | `/expedit.php` | Medium
-32 | File | `/export` | Low
-33 | File | `/goform/RP_setBasicAuto` | High
-34 | File | `/goform/SetOnlineDevName` | High
-35 | ... | ... | ...
+11 | File | `/admin/voters_delete.php` | High
+12 | File | `/administrator/bidlist.php` | High
+13 | File | `/ajax.php?action=delete_member` | High
+14 | File | `/ajax.php?action=save_deductions` | High
+15 | File | `/api/swaggerui/static` | High
+16 | File | `/api/wizard/getDualbandSync` | High
+17 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+18 | File | `/boafrm/formMapDelDevice` | High
+19 | File | `/boafrm/formReflashClientTbl` | High
+20 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+21 | File | `/cancelar-enturmacao-em-lote/` | High
+22 | File | `/cgi-bin/hd_config.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/client-data/<client_id>/collections/##/usermgmt.xml` | High
+26 | File | `/common/info.cgi` | High
+27 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
+28 | File | `/dataSet/testTransform;swagger-ui` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/dental_form.php` | High
+31 | File | `/diario-de-observacoes/` | High
+32 | File | `/edit-computer-detail.php` | High
+33 | File | `/edit_student.php` | High
+34 | File | `/expedit.php` | Medium
+35 | File | `/export` | Low
+36 | File | `/goform/RP_setBasicAuto` | High
+37 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stolen Pencil:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [FR](https://vuldb.com/?country.fr)
-* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -58,18 +58,19 @@ ID | Type | Indicator | Confidence
 9 | File | `/coreframe/app/member/admin/group.php` | High
 10 | File | `/curd/index/delfile` | High
 11 | File | `/forum/away.php` | High
-12 | File | `/HNAP1/` | Low
-13 | File | `/home/courses` | High
-14 | File | `/horde/util/go.php` | High
-15 | File | `/login.php` | Medium
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/secure/EditSubscription.jspa` | High
-18 | File | `/systemrw/` | Medium
-19 | File | `/tmp/supp_log` | High
-20 | File | `/track-result.php` | High
-21 | ... | ... | ...
+12 | File | `/goform/exeCommand` | High
+13 | File | `/HNAP1/` | Low
+14 | File | `/home/courses` | High
+15 | File | `/horde/util/go.php` | High
+16 | File | `/login.php` | Medium
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/secure/EditSubscription.jspa` | High
+19 | File | `/systemrw/` | Medium
+20 | File | `/tmp/supp_log` | High
+21 | File | `/track-result.php` | High
+22 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

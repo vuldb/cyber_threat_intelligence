@@ -75,10 +75,9 @@ ID | Type | Indicator | Confidence
 5 | File | `/books` | Low
 6 | File | `/forum/away.php` | High
 7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/out.php` | Medium
-9 | ... | ... | ...
+8 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

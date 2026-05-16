@@ -47,40 +47,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/complaint-search.php` | High
-4 | File | `/admin/edit_class.php` | High
-5 | File | `/admin/edit_department.php` | High
-6 | File | `/admin/forget-password.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/process_category_add.php` | High
-10 | File | `/admin/produts/controller.php` | High
-11 | File | `/admin/user/team` | High
-12 | File | `/ajax.php?action=delete_user` | High
-13 | File | `/api/esps` | Medium
-14 | File | `/api/login/auth` | High
-15 | File | `/api/v1/admin/` | High
-16 | File | `/bank/transfer.php` | High
-17 | File | `/book-services.php` | High
-18 | File | `/carrental/search.php` | High
-19 | File | `/cgi-bin/system_mgr.cgi` | High
-20 | File | `/common/logViewer/logViewer.jsf` | High
-21 | File | `/confirmbooking.php` | High
-22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-23 | File | `/dashboard/admin/gen_invoice.php` | High
-24 | File | `/download` | Medium
-25 | File | `/dws/api/` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/en/blog-comment-4` | High
-28 | File | `/foms/routers/cancel-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/goform/SetPptpServerCfg` | High
-32 | File | `/goform/SysToolDDNS` | High
-33 | ... | ... | ...
+2 | File | `/admin/add-artist.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+5 | File | `/admin/complaint-search.php` | High
+6 | File | `/admin/edit_class.php` | High
+7 | File | `/admin/edit_department.php` | High
+8 | File | `/admin/forget-password.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/process_category_add.php` | High
+12 | File | `/admin/produts/controller.php` | High
+13 | File | `/admin/user/team` | High
+14 | File | `/ajax.php?action=delete_user` | High
+15 | File | `/api/esps` | Medium
+16 | File | `/api/login/auth` | High
+17 | File | `/api/v1/admin/` | High
+18 | File | `/bank/transfer.php` | High
+19 | File | `/book-services.php` | High
+20 | File | `/carrental/search.php` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/common/logViewer/logViewer.jsf` | High
+23 | File | `/confirmbooking.php` | High
+24 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+25 | File | `/dashboard/admin/gen_invoice.php` | High
+26 | File | `/download` | Medium
+27 | File | `/dws/api/` | Medium
+28 | File | `/DXR.axd` | Medium
+29 | File | `/en/blog-comment-4` | High
+30 | File | `/foms/routers/cancel-order.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/goform/SetPptpServerCfg` | High
+34 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

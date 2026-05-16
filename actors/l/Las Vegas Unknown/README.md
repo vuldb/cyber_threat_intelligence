@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Las Vegas Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -152,7 +153,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,10 +165,9 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/create_product.php` | High
 3 | File | `/auth/register` | High
 4 | File | `/contact.php` | Medium
-5 | File | `/goform/RP_checkCredentialsByBBS` | High
-6 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

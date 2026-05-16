@@ -87,23 +87,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/add-subadmin.php` | High
-3 | File | `/admin/uesrs.php&action=display&value=Show` | High
-4 | File | `/api/0/api-tokens/` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/boafrm/formSiteSurveyProfile` | High
-8 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-9 | File | `/classes/Login.php` | High
-10 | File | `/classes/master.php?f=delete_order` | High
-11 | File | `/classes/Master.php?f=log_employee` | High
-12 | File | `/contact.php` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/ims/login.php` | High
-15 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/add-subadmin.php` | High
+4 | File | `/admin/uesrs.php&action=display&value=Show` | High
+5 | File | `/api/0/api-tokens/` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/boafrm/formSiteSurveyProfile` | High
+9 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+10 | File | `/classes/Login.php` | High
+11 | File | `/classes/master.php?f=delete_order` | High
+12 | File | `/classes/Master.php?f=log_employee` | High
+13 | File | `/contact.php` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/ims/login.php` | High
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

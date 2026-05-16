@@ -1,13 +1,14 @@
 # KongTuke - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [KongTuke](https://vuldb.com/?actor.kongtuke). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/kb/cti) of the actor known as [KongTuke](https://vuldb.com/actor/kongtuke). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.kongtuke](https://vuldb.com/?actor.kongtuke)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/actor/kongtuke](https://vuldb.com/actor/kongtuke)
 
 ## Campaigns
 
 The following _campaigns_ are known and can be associated with KongTuke:
 
+* ClickFix
 * CrashFix
 * ModeloRAT
 
@@ -15,12 +16,12 @@ The following _campaigns_ are known and can be associated with KongTuke:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KongTuke:
 
-* [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/country/us)
+* [FI](https://vuldb.com/country/fi)
+* [GB](https://vuldb.com/country/gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,18 +29,22 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.252.153.94](https://vuldb.com/?ip.5.252.153.94) | hosted-by.csrdp.host | - | High
-2 | [64.7.199.155](https://vuldb.com/?ip.64.7.199.155) | - | - | High
-3 | [64.95.12.71](https://vuldb.com/?ip.64.95.12.71) | - | - | High
-4 | [64.95.13.101](https://vuldb.com/?ip.64.95.13.101) | - | - | High
-5 | [64.111.92.212](https://vuldb.com/?ip.64.111.92.212) | - | - | High
-6 | [65.38.120.109](https://vuldb.com/?ip.65.38.120.109) | - | - | High
-7 | [69.67.172.194](https://vuldb.com/?ip.69.67.172.194) | - | - | High
-8 | [72.5.43.147](https://vuldb.com/?ip.72.5.43.147) | - | - | High
-9 | [85.209.129.105](https://vuldb.com/?ip.85.209.129.105) | - | - | High
-10 | ... | ... | ... | ...
+1 | [5.252.153.94](https://vuldb.com/ip/5.252.153.94) | hosted-by.csrdp.host | - | High
+2 | [37.27.0.76](https://vuldb.com/ip/37.27.0.76) | static.76.0.27.37.clients.your-server.de | - | High
+3 | [45.12.2.167](https://vuldb.com/ip/45.12.2.167) | vfr56hj8.LabTestProject.com | - | High
+4 | [45.61.136.91](https://vuldb.com/ip/45.61.136.91) | - | - | High
+5 | [45.61.136.185](https://vuldb.com/ip/45.61.136.185) | - | - | High
+6 | [64.7.199.155](https://vuldb.com/ip/64.7.199.155) | - | - | High
+7 | [64.94.84.182](https://vuldb.com/ip/64.94.84.182) | - | - | High
+8 | [64.95.10.178](https://vuldb.com/ip/64.95.10.178) | - | - | High
+9 | [64.95.11.22](https://vuldb.com/ip/64.95.11.22) | - | - | High
+10 | [64.95.11.59](https://vuldb.com/ip/64.95.11.59) | - | - | High
+11 | [64.95.12.71](https://vuldb.com/ip/64.95.12.71) | - | - | High
+12 | [64.95.12.251](https://vuldb.com/ip/64.95.12.251) | - | - | High
+13 | [64.95.13.101](https://vuldb.com/ip/64.95.13.101) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,11 +53,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,21 +67,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/admin/user-bookings.php` | High
-4 | File | `/ajax.php?action=save_user` | High
-5 | File | `/api /v3/auth` | High
-6 | File | `/cgi-bin/mainfunction.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/cimom` | Low
-9 | File | `/fax/fax_send.php` | High
-10 | File | `/fileUpload` | Medium
-11 | File | `/index/ajax/lang` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/modules/registration_admission/patient_register.php` | High
-14 | ... | ... | ...
+2 | File | `/Admin/adminlogin.php` | High
+3 | File | `/admin/auth/roles` | High
+4 | File | `/admin/calendar_of_events.php` | High
+5 | File | `/admin/conferences/list/` | High
+6 | File | `/admin/edit_posts.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/manage-pages.php` | High
+9 | File | `/admin/user-bookings.php` | High
+10 | File | `/admin/voters_edit.php` | High
+11 | File | `/ajax.php?action=delete_customer` | High
+12 | File | `/ajax.php?action=save_user` | High
+13 | File | `/api /v3/auth` | High
+14 | File | `/basico/webservice/imprimir-danfe/id/` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/firewall.cgi` | High
+17 | File | `/cgi-bin/mainfunction.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/cimom` | Low
+20 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+21 | File | `/equipment/get_Information` | High
+22 | File | `/fax/fax_send.php` | High
+23 | File | `/fileUpload` | Medium
+24 | File | `/gallery/api/status/` | High
+25 | File | `/handgunner-administrator/register_code.php` | High
+26 | File | `/hotel/admin/mod_reports/index.php` | High
+27 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,19 +134,21 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/115865302817718428
 * https://infosec.exchange/@monitorsg/115882289064328457
 * https://infosec.exchange/@monitorsg/115882762226056134
+* https://infosec.exchange/@monitorsg/115946743675803908
 * https://isc.sans.edu/diary/32498
 * https://rewterz.com/threat-advisory/kongtuke-targets-windows-with-interlock-rat-active-iocs
 * https://threatfox.abuse.ch
 * https://www.huntress.com/blog/malicious-browser-extention-crashfix-kongtuke
 * https://www.malware-traffic-analysis.net/2026/01/08/index.html
+* https://www.trendmicro.com/en_us/research/26/c/kongtuke-clickfix-abuse-of-compromised-wordpress-sites.html
 
 ## Literature
 
 The following _articles_ explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/kb/cti
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/kb/changelog) by [vuldb.com](https://vuldb.com/kb/about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/kb/faq), read the [documentation](https://vuldb.com/kb) or [contact us](https://vuldb.com/contact)!

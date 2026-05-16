@@ -47,16 +47,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.git/` | Low
 2 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
-3 | File | `/objects/getImageMP4.php` | High
-4 | File | `/payu/icpcheckout/` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `admin.php` | Medium
-7 | File | `asn1fix_retrieve.c` | High
-8 | File | `bigsam_guestbook.php` | High
-9 | File | `books.php` | Medium
+3 | File | `/lists/admin/` | High
+4 | File | `/objects/getImageMP4.php` | High
+5 | File | `/payu/icpcheckout/` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `admin.php` | Medium
+8 | File | `asn1fix_retrieve.c` | High
+9 | File | `bigsam_guestbook.php` | High
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

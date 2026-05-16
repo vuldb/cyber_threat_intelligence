@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -59,76 +59,77 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/aboutus.php` | High
-5 | File | `/admin/action/update-deworm.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/lab.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/api/files/recipepictures/` | High
-16 | File | `/api/students/me/messages/` | High
-17 | File | `/asms/products/view_product.php` | High
-18 | File | `/backend/register.php` | High
-19 | File | `/boaform/device_reset.cgi` | High
-20 | File | `/boat/login.php` | High
-21 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/gui.cgi` | High
-24 | File | `/clinic/disease_symptoms_view.php` | High
-25 | File | `/config-manager/save` | High
-26 | File | `/csms/admin/inquiries/view_details.php` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/dashboard/table-list.php` | High
-29 | File | `/default.php?idx=17` | High
-30 | File | `/doctor/view-appointment-detail.php` | High
-31 | File | `/download` | Medium
-32 | File | `/downloadFile.php` | High
-33 | File | `/edit-client-details.php` | High
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/env` | Low
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/addressNat` | High
-38 | File | `/goform/wifiSSIDset` | High
-39 | File | `/grade/report/grader/index.php` | High
-40 | File | `/include/file.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/install/index.php` | High
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/log/download.php` | High
-45 | File | `/login.php?do=login` | High
-46 | File | `/main/fileupload.php` | High
-47 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-48 | File | `/member.php?action=chgpwdsubmit` | High
-49 | File | `/modules/projects/vw_files.php` | High
-50 | File | `/multi-vendor-shopping-script/product-list.php` | High
-51 | File | `/mygym/admin/index.php?view_exercises` | High
-52 | File | `/opt/bin/cli` | Medium
-53 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-54 | File | `/outgoing.php` | High
-55 | File | `/p` | Low
-56 | File | `/patient/doctors.php` | High
-57 | File | `/pg_meta/default/query` | High
-58 | File | `/phpinventory/editcategory.php` | High
-59 | File | `/product-details.php` | High
-60 | File | `/product-list.php` | High
-61 | File | `/products/view_product.php` | High
-62 | File | `/s/index.php?action=statistics` | High
-63 | File | `/sdm-ws-rest/preconfiguration` | High
-64 | File | `/spip.php` | Medium
-65 | File | `/src/Illuminate/Laravel.php` | High
-66 | File | `/uncpath/` | Medium
-67 | File | `/updown/upload.cgi` | High
-68 | ... | ... | ...
+1 | File | `../mtd/Config/Sha1Account1` | High
+2 | File | `.php.gif` | Medium
+3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
+4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/admin/action/update-deworm.php` | High
+7 | File | `/admin/add-services.php` | High
+8 | File | `/admin/ajax/avatar.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/lab.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/show.php` | High
+16 | File | `/ajax/screenshot.php` | High
+17 | File | `/api/files/recipepictures/` | High
+18 | File | `/api/students/me/messages/` | High
+19 | File | `/api/v1/attack/falco` | High
+20 | File | `/asms/products/view_product.php` | High
+21 | File | `/auth/userkey/logout.php` | High
+22 | File | `/backend/register.php` | High
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/boat/login.php` | High
+25 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/gui.cgi` | High
+28 | File | `/clinic/disease_symptoms_view.php` | High
+29 | File | `/config-manager/save` | High
+30 | File | `/csms/admin/inquiries/view_details.php` | High
+31 | File | `/dashboard/menu-list.php` | High
+32 | File | `/dashboard/table-list.php` | High
+33 | File | `/default.php?idx=17` | High
+34 | File | `/doctor/view-appointment-detail.php` | High
+35 | File | `/download` | Medium
+36 | File | `/downloadFile.php` | High
+37 | File | `/edit-client-details.php` | High
+38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+39 | File | `/env` | Low
+40 | File | `/file-upload` | Medium
+41 | File | `/firstconnection.cgi` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/addressNat` | High
+44 | File | `/goform/wifiSSIDset` | High
+45 | File | `/grade/report/grader/index.php` | High
+46 | File | `/include/file.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/install/index.php` | High
+49 | File | `/librarian/bookdetails.php` | High
+50 | File | `/log/download.php` | High
+51 | File | `/login.php?do=login` | High
+52 | File | `/main/fileupload.php` | High
+53 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+54 | File | `/member.php?action=chgpwdsubmit` | High
+55 | File | `/modules/projects/vw_files.php` | High
+56 | File | `/multi-vendor-shopping-script/product-list.php` | High
+57 | File | `/mygym/admin/index.php?view_exercises` | High
+58 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+59 | File | `/outgoing.php` | High
+60 | File | `/p` | Low
+61 | File | `/patient/doctors.php` | High
+62 | File | `/pg_meta/default/query` | High
+63 | File | `/phpinventory/editcategory.php` | High
+64 | File | `/product-details.php` | High
+65 | File | `/product-list.php` | High
+66 | File | `/products/view_product.php` | High
+67 | File | `/s/index.php?action=statistics` | High
+68 | File | `/sdm-ws-rest/preconfiguration` | High
+69 | ... | ... | ...
 
-There are 594 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 602 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,4 +148,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,55 +61,60 @@ ID | Type | Indicator | Confidence
 5 | File | `/add_member.php` | High
 6 | File | `/add_query_reserve.php` | High
 7 | File | `/add_to_cart` | Medium
-8 | File | `/admin.php?p=/Area/index#tab=t2` | High
-9 | File | `/admin/add-foreigner-ticket.php` | High
-10 | File | `/admin/admin_product.php` | High
-11 | File | `/Admin/changepassword.php` | High
-12 | File | `/admin/checklogin.php` | High
-13 | File | `/admin/create_product.php` | High
-14 | File | `/admin/delete_s5.php` | High
-15 | File | `/admin/index.php` | High
-16 | File | `/admin/index.php/datafile/download` | High
-17 | File | `/admin/login` | Medium
-18 | File | `/admin/manage_academic.php` | High
-19 | File | `/admin/update_student.php` | High
-20 | File | `/admin/upload.php` | High
-21 | File | `/admin/user/user-move-run.php` | High
-22 | File | `/admindetail.php?action=edit` | High
-23 | File | `/ajax.php?action=login` | High
-24 | File | `/ajax.php?action=save_course` | High
-25 | File | `/ajax/get_patient_history.php` | High
-26 | File | `/ajax_city.php` | High
-27 | File | `/api/admin/update_account/` | High
-28 | File | `/api/baskets/{name}` | High
-29 | File | `/api/blade-user/submit` | High
-30 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-31 | File | `/api/ping` | Medium
-32 | File | `/blog` | Low
-33 | File | `/boafrm/formDebugDiagnosticRun` | High
-34 | File | `/boafrm/formSysCmd` | High
-35 | File | `/boafrm/formWanConfigSetup` | High
-36 | File | `/car-rental-management-system/admin/view_car.php=` | High
-37 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/cgi-bin/hd_config.cgi` | High
-40 | File | `/cgi-bin/mft/` | High
-41 | File | `/cgi-bin/wlogin.cgi` | High
-42 | File | `/cgi-mod/lookup.cgi` | High
-43 | File | `/classes/Master.php?f=save_inquiry` | High
-44 | File | `/component_server` | High
-45 | File | `/config/config.json` | High
-46 | File | `/core/config-revisions` | High
-47 | File | `/debug/pprof` | Medium
-48 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-49 | File | `/devinfo` | Medium
-50 | File | `/diagnostics_doit` | High
-51 | File | `/DXR.axd` | Medium
-52 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-53 | File | `/etc/hosts.deny` | High
-54 | ... | ... | ...
+8 | File | `/admin.php/addon/index` | High
+9 | File | `/admin.php?p=/Area/index#tab=t2` | High
+10 | File | `/admin/aboutus.php` | High
+11 | File | `/admin/add-foreigner-ticket.php` | High
+12 | File | `/admin/admin_product.php` | High
+13 | File | `/admin/change-emailid.php` | High
+14 | File | `/Admin/changepassword.php` | High
+15 | File | `/admin/checklogin.php` | High
+16 | File | `/admin/create_product.php` | High
+17 | File | `/admin/delete_s5.php` | High
+18 | File | `/admin/expenses.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/index.php/datafile/download` | High
+21 | File | `/admin/login` | Medium
+22 | File | `/admin/manage-normal-ticket.php` | High
+23 | File | `/admin/manage_academic.php` | High
+24 | File | `/admin/manage_model.php` | High
+25 | File | `/admin/new-autoortaxi-entry-form.php` | High
+26 | File | `/Admin/sporttype.php` | High
+27 | File | `/admin/system/variableSave.do` | High
+28 | File | `/admin/update_student.php` | High
+29 | File | `/admin/upload.php` | High
+30 | File | `/admin/user/user-move-run.php` | High
+31 | File | `/admin/viewpackage.php` | High
+32 | File | `/admindetail.php?action=edit` | High
+33 | File | `/Administrator/PHP/AdminEditUser.php` | High
+34 | File | `/Administrator/PHP/AdminReply.php` | High
+35 | File | `/admin_paylog.php` | High
+36 | File | `/adv_mac_filter.php` | High
+37 | File | `/ajax.php?action=login` | High
+38 | File | `/ajax.php?action=save_course` | High
+39 | File | `/ajax/get_patient_history.php` | High
+40 | File | `/ajax_city.php` | High
+41 | File | `/api/admin/update_account/` | High
+42 | File | `/api/baskets/{name}` | High
+43 | File | `/api/blade-user/submit` | High
+44 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+45 | File | `/api/ping` | Medium
+46 | File | `/application/pay/controller/Index.php` | High
+47 | File | `/blog` | Low
+48 | File | `/boaform/formSysCmd` | High
+49 | File | `/boafrm/formDebugDiagnosticRun` | High
+50 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+51 | File | `/boafrm/formSysCmd` | High
+52 | File | `/boafrm/formWanConfigSetup` | High
+53 | File | `/car-rental-management-system/admin/view_car.php=` | High
+54 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+55 | File | `/cgi-bin/cstecgi.cgi` | High
+56 | File | `/cgi-bin/hd_config.cgi` | High
+57 | File | `/cgi-bin/lighttpd.cgi` | High
+58 | File | `/cgi-bin/mft/` | High
+59 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

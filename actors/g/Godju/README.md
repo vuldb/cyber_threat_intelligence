@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,28 +69,31 @@ ID | Type | Indicator | Confidence
 23 | File | `/admin/uesrs.php&action=display&value=Show` | High
 24 | File | `/admin/update_user.php` | High
 25 | File | `/admin/update_users.php` | High
-26 | File | `/admin/vote_edit.php` | High
-27 | File | `/allocate_room.php` | High
-28 | File | `/api/log/killJob` | High
-29 | File | `/apply.cgi` | Medium
-30 | File | `/authenticate.php` | High
-31 | File | `/boafrm/formMultiAP` | High
-32 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/classes/Master.php?f=save_inquiry` | High
-35 | File | `/collection/all` | High
-36 | File | `/config,admin.jsp` | High
-37 | File | `/config/list` | Medium
-38 | File | `/contact_manager.php` | High
-39 | File | `/contact_process.php` | High
-40 | File | `/conversation/upload` | High
-41 | File | `/core/config-revisions` | High
-42 | File | `/coreframe/app/guestbook/myissue.php` | High
-43 | File | `/courier/edit-courier.php` | High
-44 | File | `/dede/co_do.php` | High
-45 | ... | ... | ...
+26 | File | `/admin/user/edit.do` | High
+27 | File | `/admin/vote_edit.php` | High
+28 | File | `/allocate_room.php` | High
+29 | File | `/api/log/killJob` | High
+30 | File | `/app/fax/fax_view.php` | High
+31 | File | `/apply.cgi` | Medium
+32 | File | `/auth.asp` | Medium
+33 | File | `/authenticate.php` | High
+34 | File | `/boafrm/formMultiAP` | High
+35 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/DownloadFlash` | High
+38 | File | `/classes/Master.php?f=save_inquiry` | High
+39 | File | `/collection/all` | High
+40 | File | `/config,admin.jsp` | High
+41 | File | `/config/list` | Medium
+42 | File | `/contact_manager.php` | High
+43 | File | `/contact_process.php` | High
+44 | File | `/conversation/upload` | High
+45 | File | `/core/config-revisions` | High
+46 | File | `/coreframe/app/guestbook/myissue.php` | High
+47 | File | `/courier/edit-courier.php` | High
+48 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

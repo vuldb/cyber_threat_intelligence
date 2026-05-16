@@ -110,11 +110,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-4 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -126,20 +126,21 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin-dashboard` | High
 3 | File | `/admin.php/addon/index` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/add-category.php` | High
-6 | File | `/admin/add_title.php` | High
-7 | File | `/admin/admin-profile.php` | High
-8 | File | `/admin/ajax.php?action=save_application` | High
-9 | File | `/admin/candidates_add.php` | High
-10 | File | `/admin/edit-guard-detail.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/network/ajax_getChannelList` | High
-15 | File | `/admin/operations/travellers.php` | High
-16 | ... | ... | ...
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/add-category.php` | High
+7 | File | `/admin/add_title.php` | High
+8 | File | `/admin/admin-profile.php` | High
+9 | File | `/admin/ajax.php?action=save_application` | High
+10 | File | `/admin/candidates_add.php` | High
+11 | File | `/admin/edit-guard-detail.php` | High
+12 | File | `/admin/group/edit.do` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/network/ajax_getChannelList` | High
+17 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Florida Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [BR](https://vuldb.com/?country.br)
 
 ## IOC - Indicator of Compromise
@@ -146,7 +147,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -158,10 +159,9 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/create_product.php` | High
 3 | File | `/auth/register` | High
 4 | File | `/client/UnChkMailApplication.jsp` | High
-5 | File | `/fossasia/open-event-server/blob/development/app/api/helpers/mail.py` | High
-6 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

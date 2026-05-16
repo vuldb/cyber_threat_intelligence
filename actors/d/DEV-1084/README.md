@@ -48,19 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi` | High
-2 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-3 | File | `/cgi-bin/downloadFile.cgi` | High
-4 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
-9 | File | `/search` | Low
-10 | File | `/spip.php` | Medium
-11 | ... | ... | ...
+1 | File | `/api/login/auth` | High
+2 | File | `/api/v1/terminal/sessions/?limit=1` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+5 | File | `/cgi-bin/downloadFile.cgi` | High
+6 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/modules/Planner/resources_addQuick_ajaxProcess.php` | High
+9 | File | `/oauth/idp/.well-known/openid-configuration` | High
+10 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
+11 | File | `/search` | Low
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +78,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

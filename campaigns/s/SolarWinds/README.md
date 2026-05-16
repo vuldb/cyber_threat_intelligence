@@ -65,35 +65,36 @@ ID | Type | Indicator | Confidence
 6 | File | `/apply.cgi` | Medium
 7 | File | `/CFIDE/probe.cfm` | High
 8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/etc/config/rpcd` | High
-10 | File | `/nidp/app/login` | High
-11 | File | `/php/ping.php` | High
-12 | File | `/proc` | Low
-13 | File | `/rapi/read_url` | High
-14 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-15 | File | `/scripts/unlock_tasks.php` | High
-16 | File | `/setSystemAdmin` | High
-17 | File | `/src/dede/member_type.php` | High
-18 | File | `/SysInfo1.htm` | High
-19 | File | `/sysinfo_json.cgi` | High
-20 | File | `/system/dictData/loadDictItem` | High
-21 | File | `/system/user/modules/mod_users/controller.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/usr/lib/utmp_update` | High
-24 | File | `/view/vpn/autovpn/sub_commit.php` | High
-25 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-26 | File | `admin/Login.php` | High
-27 | File | `admin/plugin-index.php` | High
-28 | File | `administration` | High
-29 | File | `administrative` | High
-30 | File | `aolfix.exe` | Medium
-31 | File | `appserv/main.php` | High
-32 | File | `awhost32.exe` | Medium
-33 | File | `bidhistory.php` | High
-34 | File | `bitrix/modules/main/tools.php` | High
-35 | ... | ... | ...
+9 | File | `/config/pw_changeusers.html` | High
+10 | File | `/etc/config/rpcd` | High
+11 | File | `/nidp/app/login` | High
+12 | File | `/php/ping.php` | High
+13 | File | `/proc` | Low
+14 | File | `/rapi/read_url` | High
+15 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/setSystemAdmin` | High
+18 | File | `/src/dede/member_type.php` | High
+19 | File | `/SysInfo1.htm` | High
+20 | File | `/sysinfo_json.cgi` | High
+21 | File | `/system/dictData/loadDictItem` | High
+22 | File | `/system/user/modules/mod_users/controller.php` | High
+23 | File | `/tmp` | Low
+24 | File | `/usr/lib/utmp_update` | High
+25 | File | `/view/vpn/autovpn/sub_commit.php` | High
+26 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+27 | File | `admin/Login.php` | High
+28 | File | `admin/plugin-index.php` | High
+29 | File | `administration` | High
+30 | File | `administrative` | High
+31 | File | `aolfix.exe` | Medium
+32 | File | `appserv/main.php` | High
+33 | File | `awhost32.exe` | Medium
+34 | File | `bidhistory.php` | High
+35 | File | `bitrix/modules/main/tools.php` | High
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -54,7 +54,7 @@ ID | IP address | Hostname | Actor | Confidence
 22 | [18.227.26.237](https://vuldb.com/?ip.18.227.26.237) | ec2-18-227-26-237.us-east-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 23 | ... | ... | ... | ...
 
-There are 88 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,10 +64,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,10 +78,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/login.php` | High
 2 | File | `/Session` | Medium
 3 | File | `/usr/bin/pkexec` | High
-4 | File | `admin/content.php` | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,6 +106,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/18.171.35.225
 * https://search.censys.io/hosts/18.190.253.114
 * https://search.censys.io/hosts/18.227.26.237
+* https://search.censys.io/hosts/20.106.187.78
 * https://search.censys.io/hosts/31.192.107.185
 * https://search.censys.io/hosts/34.27.146.70
 * https://search.censys.io/hosts/34.58.151.162
@@ -138,6 +138,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/79.143.181.62
 * https://search.censys.io/hosts/84.200.154.125
 * https://search.censys.io/hosts/88.210.9.139
+* https://search.censys.io/hosts/91.215.85.39
 * https://search.censys.io/hosts/91.240.118.204
 * https://search.censys.io/hosts/94.23.228.43
 * https://search.censys.io/hosts/104.167.16.56
@@ -194,4 +195,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

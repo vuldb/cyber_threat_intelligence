@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -47,22 +47,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/config/uploadicon.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/advanced-tools/nova/bin/netwatch` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/application/index/controller/Databasesource.php` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/inquiries/view_inquiry.php` | High
-9 | File | `/ipms/imageConvert/image` | High
-10 | File | `/livesite/edit_designer_region.php` | High
-11 | File | `/ndmComponents.js` | High
-12 | File | `/queryDevInfo` | High
-13 | File | `/v1/sql-runner` | High
+1 | File | `/add_librarian.php` | High
+2 | File | `/admin/config/uploadicon.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/application/index/controller/Databasesource.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/forum1.php` | Medium
+10 | File | `/inquiries/view_inquiry.php` | High
+11 | File | `/ipms/imageConvert/image` | High
+12 | File | `/livesite/edit_designer_region.php` | High
+13 | File | `/ndmComponents.js` | High
 14 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -81,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

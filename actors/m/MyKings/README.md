@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,23 +67,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/action/upload_file` | High
-3 | File | `/admin/student.php` | High
-4 | File | `/api/sys/set_passwd` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/hd_config.cgi` | High
-7 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
-8 | File | `/cgi-bin/p1_ftpserver.php` | High
-9 | File | `/cgi-bin/sysconf.cgi` | High
-10 | File | `/cgi-bin/tosei_kikai.php` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-bin/webfile_mgr.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php` | High
-15 | ... | ... | ...
+1 | File | `/?route=extension/live_search/module/live_search.searchresults` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/action/upload_file` | High
+4 | File | `/Actions.php` | Medium
+5 | File | `/admin/class.php` | High
+6 | File | `/admin/operations/travellers.php` | High
+7 | File | `/admin/page-login.php` | High
+8 | File | `/admin/save_airlines.php` | High
+9 | File | `/admin/student.php` | High
+10 | File | `/ajax.php` | Medium
+11 | File | `/api/sys/set_passwd` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/hd_config.cgi` | High
+14 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
+15 | File | `/cgi-bin/luci/api/cmd` | High
+16 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +103,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

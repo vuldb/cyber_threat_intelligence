@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,9 +61,10 @@ ID | IP address | Hostname | Campaign | Confidence
 32 | [44.219.130.155](https://vuldb.com/?ip.44.219.130.155) | ec2-44-219-130-155.compute-1.amazonaws.com | - | Medium
 33 | [45.12.253.242](https://vuldb.com/?ip.45.12.253.242) | - | - | High
 34 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
-35 | ... | ... | ... | ...
+35 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | Medium
+36 | ... | ... | ... | ...
 
-There are 138 more IOC items available. Please use our online service to access the data.
+There are 141 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,7 +72,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-25 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Basic Cross Site Scripting | High
@@ -88,36 +89,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
 2 | File | `/action/upload_file` | High
-3 | File | `/admin/archives_add.php` | High
-4 | File | `/admin/categories/save` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/newsletterdel.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/positions.php` | High
-10 | File | `/admin/receipt.php` | High
-11 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-12 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-13 | File | `/admins` | Low
-14 | File | `/ajax.php?action=login` | High
-15 | File | `/ajax/getBasicInfo.php` | High
-16 | File | `/api/files/recipepictures/` | High
-17 | File | `/authentication.cgi` | High
-18 | File | `/boafrm/formDdns` | High
-19 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-20 | File | `/boafrm/formVpnConfigSetup` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/hd_config.cgi` | High
-23 | File | `/cgi-bin/sysconf.cgi` | High
-24 | File | `/cgi-bin/webfile_mgr.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/clientdetails/admin/regester.php` | High
-27 | File | `/config/getuser` | High
-28 | File | `/detailtransac.php` | High
-29 | File | `/dev/ptpX` | Medium
-30 | ... | ... | ...
+3 | File | `/addProduct.php` | High
+4 | File | `/admin/add-module.php` | High
+5 | File | `/admin/add_expenses.php` | High
+6 | File | `/admin/archives_add.php` | High
+7 | File | `/admin/categories/save` | High
+8 | File | `/admin/contact-us.php` | High
+9 | File | `/admin/delete_user.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/newsletterdel.php` | High
+12 | File | `/admin/pages/` | High
+13 | File | `/admin/positions.php` | High
+14 | File | `/admin/receipt.php` | High
+15 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+16 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+17 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+18 | File | `/Administrator/PHP/AdminEditUser.php` | High
+19 | File | `/Administrator/PHP/AdminReply.php` | High
+20 | File | `/admins` | Low
+21 | File | `/adv_mac_filter.php` | High
+22 | File | `/ajax.php?action=login` | High
+23 | File | `/ajax/getBasicInfo.php` | High
+24 | File | `/api/files/recipepictures/` | High
+25 | File | `/app/register.php?action=reg` | High
+26 | File | `/authentication.cgi` | High
+27 | File | `/boaform/formSamba` | High
+28 | File | `/boafrm/formDdns` | High
+29 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+30 | File | `/boafrm/formVpnConfigSetup` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/hd_config.cgi` | High
+33 | File | `/cgi-bin/sysconf.cgi` | High
+34 | File | `/cgi-bin/webfile_mgr.cgi` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/clientdetails/admin/regester.php` | High
+37 | File | `/config/getuser` | High
+38 | File | `/detailtransac.php` | High
+39 | File | `/dev/ptpX` | Medium
+40 | File | `/editeddonor.php` | High
+41 | File | `/editprofile.php` | High
+42 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -143,6 +156,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-12%20Remcos%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-15%20Nanocore%20IOCs
+* https://hunt.io/blog/china-hosting-malware-c2-infrastructure
 * https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
 * https://urlhaus.abuse.ch/url/3526389/
@@ -152,6 +166,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3617552/
 * https://urlhaus.abuse.ch/url/3617791/
 * https://urlhaus.abuse.ch/url/3668203/
+* https://urlhaus.abuse.ch/url/3763423/
+* https://urlhaus.abuse.ch/url/3765172/
+* https://urlhaus.abuse.ch/url/3786474/
 * https://www.cyber45.com
 
 ## Literature

@@ -57,32 +57,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=purchase_order/view_po` | High
-2 | File | `/admin/chatroom.php` | High
-3 | File | `/admin/create_product.php` | High
-4 | File | `/admin/department/add` | High
-5 | File | `/admin/edit-user.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/publishnews.php` | High
-9 | File | `/admin/search-appointment.php` | High
-10 | File | `/admin/template` | High
-11 | File | `/admin_members.php?ac=editsave` | High
-12 | File | `/ajax.php?action=delete_receiving` | High
-13 | File | `/api/wizard/setsyncpppoecfg` | High
-14 | File | `/attribute/queryAll` | High
-15 | File | `/att_add.php` | Medium
-16 | File | `/auth/register` | High
-17 | File | `/auth/userkey/logout.php` | High
-18 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-19 | File | `/backend/admin/his_admin_register_patient.php` | High
-20 | File | `/cgi-bin/kerbynet` | High
-21 | File | `/contact.php` | Medium
-22 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-23 | File | `/delete.php` | Medium
-24 | File | `/edit-category.php` | High
+2 | File | `/admin/add-subadmins.php` | High
+3 | File | `/admin/chatroom.php` | High
+4 | File | `/admin/create_product.php` | High
+5 | File | `/admin/department/add` | High
+6 | File | `/admin/edit-user.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/publishnews.php` | High
+10 | File | `/admin/search-appointment.php` | High
+11 | File | `/admin/template` | High
+12 | File | `/admin_members.php?ac=editsave` | High
+13 | File | `/ajax.php?action=delete_receiving` | High
+14 | File | `/api/wizard/setsyncpppoecfg` | High
+15 | File | `/attribute/queryAll` | High
+16 | File | `/att_add.php` | Medium
+17 | File | `/auth/register` | High
+18 | File | `/auth/userkey/logout.php` | High
+19 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+20 | File | `/backend/admin/his_admin_register_patient.php` | High
+21 | File | `/cgi-bin/kerbynet` | High
+22 | File | `/contact.php` | Medium
+23 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+24 | File | `/delete.php` | Medium
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

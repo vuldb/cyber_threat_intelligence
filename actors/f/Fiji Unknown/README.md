@@ -60,14 +60,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-267, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,21 +84,20 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/singlelogin.php?submit=1` | High
 8 | File | `/api/baskets/{name}` | High
 9 | File | `/application/views/themeOptions/update.php` | High
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/HNAP1/` | Low
-15 | File | `/itbox_pi/networksafe.php?a=set` | High
-16 | File | `/manage_sy.php` | High
-17 | File | `/mtd` | Low
-18 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-19 | File | `/oa/setup/setup.jsp` | High
-20 | File | `/oauth/idp/.well-known/openid-configuration` | High
-21 | File | `/product/savenewproduct.php?flag=1` | High
-22 | ... | ... | ...
+10 | File | `/apps/system/api/user.go` | High
+11 | File | `/bin/main` | Medium
+12 | File | `/boaform/device_reset.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/etc/shadow` | Medium
+16 | File | `/HNAP1/` | Low
+17 | File | `/itbox_pi/networksafe.php?a=set` | High
+18 | File | `/manage_sy.php` | High
+19 | File | `/mtd` | Low
+20 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+21 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

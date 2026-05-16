@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,56 +61,57 @@ ID | Type | Indicator | Confidence
 8 | File | `/adminui/history_log.php` | High
 9 | File | `/ajax/remove_sniffer_raw_log/` | High
 10 | File | `/api/RecordingList/DownloadRecord?file=` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/apply/index.php` | High
-13 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-14 | File | `/backend/admin/his_admin_register_patient.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/check_availability.php` | High
-19 | File | `/config/pw_changeusers.html` | High
-20 | File | `/dacomponentui/profiles/profileitems/outlooksettings/Insertimage.aspx` | High
-21 | File | `/foms/routers/place-order.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/gena.cgi` | Medium
-24 | File | `/general/email/outbox/delete.php` | High
-25 | File | `/goform/AddSysLogRule` | High
-26 | File | `/goform/delDhcpRules/` | High
-27 | File | `/goform/SysToolReboot` | High
-28 | File | `/h/search?action` | High
-29 | File | `/Home/Index` | Medium
-30 | File | `/horde/util/go.php` | High
-31 | File | `/index.php?module=entities/entities` | High
-32 | File | `/manage_sy.php` | High
-33 | File | `/meetings/listmeetings.php` | High
-34 | File | `/mhds/clinic/view_details.php` | High
-35 | File | `/oauth/idp/.well-known/openid-configuration` | High
-36 | File | `/php/ping.php` | High
-37 | File | `/PreviewHandler.ashx` | High
-38 | File | `/rapi/read_url` | High
-39 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-40 | File | `/resourceNode/resources.jsf` | High
-41 | File | `/resources//../` | High
-42 | File | `/script/academic/announcement` | High
-43 | File | `/Script/admin/core/update_policy` | High
-44 | File | `/scripts/unlock_tasks.php` | High
-45 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-46 | File | `/see_more_details.php` | High
-47 | File | `/spgpm/updateListing` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/student/bookdetails.php` | High
-50 | File | `/SysInfo1.htm` | High
-51 | File | `/sysinfo_json.cgi` | High
-52 | File | `/system/dictData/loadDictItem` | High
-53 | File | `/system/user/modules/mod_users/controller.php` | High
-54 | File | `/usr/bin/pkexec` | High
-55 | File | `/view/student_exam_mark_insert_form1.php` | High
-56 | File | `/view/vpn/autovpn/sub_commit.php` | High
-57 | File | `/wmiwizard.jsp` | High
-58 | ... | ... | ...
+11 | File | `/api/v1/serve/awel/flow/import` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/apply/index.php` | High
+14 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+15 | File | `/backend/admin/his_admin_register_patient.php` | High
+16 | File | `/bin/httpd` | Medium
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/check_availability.php` | High
+20 | File | `/config/pw_changeusers.html` | High
+21 | File | `/dacomponentui/profiles/profileitems/outlooksettings/Insertimage.aspx` | High
+22 | File | `/dm/dispatch/user/add` | High
+23 | File | `/equipment/get_Information` | High
+24 | File | `/foms/routers/place-order.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/gena.cgi` | Medium
+27 | File | `/general/email/outbox/delete.php` | High
+28 | File | `/goform/AddSysLogRule` | High
+29 | File | `/goform/delDhcpRules/` | High
+30 | File | `/goform/SysToolReboot` | High
+31 | File | `/h/search?action` | High
+32 | File | `/Home/Index` | Medium
+33 | File | `/horde/util/go.php` | High
+34 | File | `/index.php?module=entities/entities` | High
+35 | File | `/manage_sy.php` | High
+36 | File | `/meetings/listmeetings.php` | High
+37 | File | `/mhds/clinic/view_details.php` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/php/ping.php` | High
+40 | File | `/PreviewHandler.ashx` | High
+41 | File | `/rapi/read_url` | High
+42 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+43 | File | `/resourceNode/resources.jsf` | High
+44 | File | `/resources//../` | High
+45 | File | `/script/academic/announcement` | High
+46 | File | `/Script/admin/core/update_policy` | High
+47 | File | `/scripts/unlock_tasks.php` | High
+48 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+49 | File | `/see_more_details.php` | High
+50 | File | `/spgpm/updateListing` | High
+51 | File | `/spip.php` | Medium
+52 | File | `/student/bookdetails.php` | High
+53 | File | `/SysInfo1.htm` | High
+54 | File | `/sysinfo_json.cgi` | High
+55 | File | `/system/dictData/loadDictItem` | High
+56 | File | `/system/user/modules/mod_users/controller.php` | High
+57 | File | `/usr/bin/pkexec` | High
+58 | File | `/view/student_exam_mark_insert_form1.php` | High
+59 | ... | ... | ...
 
-There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

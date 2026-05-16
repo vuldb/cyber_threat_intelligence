@@ -52,14 +52,14 @@ ID | Type | Indicator | Confidence
 6 | File | `/ajax` | Low
 7 | File | `/api/blade-log/api/list` | High
 8 | File | `/cgi-bin/luci;stok=/locale` | High
-9 | File | `/forms/doLogin` | High
-10 | File | `/goform/setSysAdm` | High
-11 | File | `/goform/set_LimitClient_cfg` | High
-12 | File | `/group1/uploa` | High
-13 | File | `/h/autoSaveDraft` | High
+9 | File | `/contestproblem.php` | High
+10 | File | `/equipment/get_Information` | High
+11 | File | `/forms/doLogin` | High
+12 | File | `/goform/setSysAdm` | High
+13 | File | `/goform/set_LimitClient_cfg` | High
 14 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

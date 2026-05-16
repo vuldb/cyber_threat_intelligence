@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,46 +51,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../mtd/Config/Sha1Account1` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `//proc/kcore` | Medium
-4 | File | `/admin/list_addr_fwresource_ip.php` | High
-5 | File | `/admin/login.php` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/list_addr_fwresource_ip.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
 6 | File | `/admin/vca/bia/addacph.cgi` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/api/cron/settings/setJob/` | High
-9 | File | `/api/v2/events` | High
-10 | File | `/api/wizard/setsyncpppoecfg` | High
-11 | File | `/bwdates-reports-details.php?vid=2` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/checkLogin.cgi` | High
-15 | File | `/common/logViewer/logViewer.jsf` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/core/vb/vurl.php` | High
-18 | File | `/CPE` | Low
-19 | File | `/dashboard/snapshot/*?orgId=0` | High
-20 | File | `/devinfo` | Medium
-21 | File | `/ecrire` | Low
-22 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/HNAP1/SetAccessPointMode` | High
-25 | File | `/index.php?menu=asterisk_cli` | High
-26 | File | `/magnoliaPublic/travel/members/login.html` | High
-27 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/pg_meta/default/query` | High
-30 | File | `/proc//auxv` | Medium
-31 | File | `/proc/fs/nfsd/clients/2/states` | High
-32 | File | `/product.php` | Medium
-33 | File | `/products/view_product.php` | High
-34 | File | `/rom-0` | Low
-35 | File | `/school/model/get_teacher.php` | High
-36 | File | `/search.php` | Medium
-37 | File | `/soplanning/www/process/xajax_server.php` | High
-38 | File | `/spip.php` | Medium
-39 | ... | ... | ...
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v2/events` | High
+9 | File | `/api/wizard/setsyncpppoecfg` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/boafrm/formPingDiagnosticRun` | High
+12 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+13 | File | `/bwdates-reports-details.php?vid=2` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/checkLogin.cgi` | High
+18 | File | `/common/logViewer/logViewer.jsf` | High
+19 | File | `/control/register_case.php` | High
+20 | File | `/core/vb/vurl.php` | High
+21 | File | `/CPE` | Low
+22 | File | `/dashboard/snapshot/*?orgId=0` | High
+23 | File | `/devinfo` | Medium
+24 | File | `/forms/update_forms.php?action=change_pic2&id=4` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/HNAP1/SetAccessPointMode` | High
+27 | File | `/index.php?menu=asterisk_cli` | High
+28 | File | `/magnoliaPublic/travel/members/login.html` | High
+29 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pg_meta/default/query` | High
+32 | File | `/proc//auxv` | Medium
+33 | File | `/proc/fs/nfsd/clients/2/states` | High
+34 | File | `/product.php` | Medium
+35 | File | `/products/view_product.php` | High
+36 | File | `/rom-0` | Low
+37 | File | `/school/model/get_teacher.php` | High
+38 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

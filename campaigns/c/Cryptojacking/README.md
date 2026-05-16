@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -52,8 +53,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api2/html/` | Medium
-2 | Input Value | `::$Index_Allocation` | High
-3 | Network Port | `Web Server Port` | High
+2 | File | `symfony\finder\Iterator\SortableIterator.php` | High
+3 | Input Value | `::$Index_Allocation` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -18,7 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.146.130.131](https://vuldb.com/?ip.45.146.130.131) | - | - | High
+1 | [45.135.232.33](https://vuldb.com/?ip.45.135.232.33) | - | - | High
+2 | [45.146.130.131](https://vuldb.com/?ip.45.146.130.131) | - | - | High
+3 | [185.93.89.62](https://vuldb.com/?ip.185.93.89.62) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,14 +48,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/mngset/authset` | High
 3 | File | `/out.php` | Medium
 4 | File | `adclick.php` | Medium
-5 | ... | ... | ...
+5 | File | `awstats.pl` | Medium
+6 | ... | ... | ...
 
-There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://pberba.github.io/security/2025/11/11/macos-infection-vector-applescript-bypass-gatekeeper/
+* https://urlhaus.abuse.ch/url/3750260/
+* https://urlhaus.abuse.ch/url/3750262/
 * https://www.jamf.com/blog/signed-and-stealing-uncovering-new-insights-on-odyssey-infostealer/
 
 ## Literature
@@ -62,4 +71,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

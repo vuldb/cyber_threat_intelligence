@@ -71,7 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,42 +89,43 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/service_requests/manage_inventory.php` | High
 9 | File | `/admin/updateorder.php` | High
 10 | File | `/admin/userbuilderdelete.php` | High
-11 | File | `/book_list.php` | High
-12 | File | `/classes/Master.php?f=save_package` | High
-13 | File | `/contact/store` | High
-14 | File | `/core/tools/customblock.php` | High
-15 | File | `/CPE` | Low
-16 | File | `/currentsetting.htm` | High
-17 | File | `/debuginfo.htm` | High
-18 | File | `/delete_post.php` | High
-19 | File | `/edit-student.php` | High
-20 | File | `/editcus.php` | Medium
-21 | File | `/Employer/ManageWalkin.php` | High
-22 | File | `/forgot.php` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/friends` | Medium
-25 | File | `/geoserver/gwc/rest.html` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/formLanguageChange` | High
-28 | File | `/goform/SetFirewallCfg` | High
-29 | File | `/goform/setMacFilter` | High
-30 | File | `/goform/set_manpwd` | High
-31 | File | `/goform/wirelessRestart` | High
-32 | File | `/investigation/delete/` | High
-33 | File | `/labvantage/rc?command=page&sdcid=LV_ReagentLot` | High
-34 | File | `/log/wifi.mac` | High
-35 | File | `/login` | Low
-36 | File | `/market/chatuser.php` | High
-37 | File | `/messageboard/view.php` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/monitor/cache/getnames` | High
-40 | File | `/openNDS/src/auth.c` | High
-41 | File | `/pages/account_add.php` | High
-42 | File | `/panel/edit_plan.php` | High
-43 | File | `/pfcpiface/pfcpiface/messages_session.go` | High
-44 | ... | ... | ...
+11 | File | `/Administrator/PHP/AdminAddCategory.php` | High
+12 | File | `/book_list.php` | High
+13 | File | `/classes/Master.php?f=save_package` | High
+14 | File | `/com/esafenet/servlet/document/ExamCDGDocService.java` | High
+15 | File | `/contact/store` | High
+16 | File | `/core/tools/customblock.php` | High
+17 | File | `/CPE` | Low
+18 | File | `/currentsetting.htm` | High
+19 | File | `/deal/{note_id}/note` | High
+20 | File | `/debuginfo.htm` | High
+21 | File | `/delete_post.php` | High
+22 | File | `/edit-student.php` | High
+23 | File | `/editcus.php` | Medium
+24 | File | `/Employer/ManageWalkin.php` | High
+25 | File | `/forgot.php` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/friends` | Medium
+28 | File | `/geoserver/gwc/rest.html` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/goform/formLanguageChange` | High
+31 | File | `/goform/formUser` | High
+32 | File | `/goform/saveParentControlInfo` | High
+33 | File | `/goform/SetFirewallCfg` | High
+34 | File | `/goform/setMacFilter` | High
+35 | File | `/goform/set_manpwd` | High
+36 | File | `/goform/wirelessRestart` | High
+37 | File | `/includes/login.inc.php` | High
+38 | File | `/investigation/delete/` | High
+39 | File | `/labvantage/rc?command=page&sdcid=LV_ReagentLot` | High
+40 | File | `/log/wifi.mac` | High
+41 | File | `/login` | Low
+42 | File | `/market/chatuser.php` | High
+43 | File | `/messageboard/view.php` | High
+44 | File | `/modules/projects/vw_files.php` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

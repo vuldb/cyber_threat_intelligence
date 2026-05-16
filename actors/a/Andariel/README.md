@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,52 +64,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/action/upload_file` | High
-3 | File | `/admin/article.php` | High
-4 | File | `/admin/comment.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-7 | File | `/admin_type.php` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/assets/something/services/AppModule.class` | High
-11 | File | `/authenticate.php` | High
-12 | File | `/bin/boa` | Medium
-13 | File | `/blog` | Low
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/hd_config.cgi` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi-bin/sysconf.cgi` | High
-19 | File | `/cgi-bin/system_mgr.cgi` | High
-20 | File | `/cgi-bin/wapopen` | High
-21 | File | `/cgi-bin/webfile_mgr.cgi` | High
-22 | File | `/cgi-bin/webproc` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/SystemSettings.php?f=update_settings` | High
-25 | File | `/conf/app.conf` | High
-26 | File | `/config/getuser` | High
-27 | File | `/dist/index.js` | High
-28 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-29 | File | `/endpoint/delete-account.php` | High
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/etc/quantum/quantum.conf` | High
-32 | File | `/fax/fax_send.php` | High
-33 | File | `/files/list-file` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/getcfg.php` | Medium
-36 | File | `/goform/RGFirewallEL` | High
-37 | File | `/HNAP1` | Low
-38 | File | `/index.php?menu=asterisk_cli` | High
-39 | File | `/index/ajax/lang` | High
-40 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-41 | File | `/librarian/bookdetails.php` | High
-42 | File | `/lists/index.php` | High
-43 | File | `/login.html` | Medium
+1 | File | `/about_us` | Medium
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/action/upload_file` | High
+4 | File | `/admin/article.php` | High
+5 | File | `/admin/comment.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+8 | File | `/admin_type.php` | High
+9 | File | `/ajax.php?action=save_user` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/assets/something/services/AppModule.class` | High
+13 | File | `/authenticate.php` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/blog` | Low
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/hd_config.cgi` | High
+18 | File | `/cgi-bin/login.cgi` | High
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi-bin/sysconf.cgi` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/cgi-bin/wapopen` | High
+23 | File | `/cgi-bin/webfile_mgr.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/conf/app.conf` | High
+27 | File | `/config/getuser` | High
+28 | File | `/dist/index.js` | High
+29 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+30 | File | `/endpoint/delete-account.php` | High
+31 | File | `/etc/postfix/sender_login` | High
+32 | File | `/etc/quantum/quantum.conf` | High
+33 | File | `/fax/fax_send.php` | High
+34 | File | `/files/list-file` | High
+35 | File | `/fort/portal_login` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/getcfg.php` | Medium
+38 | File | `/goform/RGFirewallEL` | High
+39 | File | `/HNAP1` | Low
+40 | File | `/index.php?menu=asterisk_cli` | High
+41 | File | `/index/ajax/lang` | High
+42 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+43 | File | `/librarian/bookdetails.php` | High
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

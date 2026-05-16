@@ -81,12 +81,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/paySuccess` | Medium
-2 | File | `/update_weights_from_tensor` | High
-3 | File | `scgi-bin/platform.cgi?page=dmz_setup.htm` | High
+1 | File | `/goform/SetVirtualServerCfg` | High
+2 | File | `/paySuccess` | Medium
+3 | File | `/update_weights_from_tensor` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

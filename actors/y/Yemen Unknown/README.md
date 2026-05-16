@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 43 more country items available. Please use our online service to access the data.
@@ -60,10 +60,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,38 +73,43 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/add_trainers.php` | High
 2 | File | `/admin/create_product.php` | High
 3 | File | `/admin/edit_action.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/manage-pages.php` | High
-6 | File | `/admin/sales/manage_sale.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/ajax/networking/get_wgkey.php` | High
-9 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
-10 | File | `/api/upload.php` | High
-11 | File | `/apilog.php` | Medium
-12 | File | `/auth_pic.cgi` | High
-13 | File | `/base/ecma-helpers.c` | High
-14 | File | `/category.php` | High
-15 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-16 | File | `/cgi-bin/api-get_line_status` | High
-17 | File | `/cgi-bin/luci` | High
-18 | File | `/cgi-bin/myMusic.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/Code/loginnew.php` | High
-21 | File | `/Code/sc_login.php` | High
-22 | File | `/control/register_case.php` | High
-23 | File | `/dashboard/admin/edit_member.php` | High
-24 | File | `/dashboard/admin/edit_mem_submit.php` | High
-25 | File | `/dashboard/admin/new_submit.php` | High
-26 | File | `/dashboard/message` | High
-27 | File | `/details.php` | Medium
-28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-29 | File | `/devinfo` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-32 | File | `/expadd.php` | Medium
-33 | ... | ... | ...
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/manage-pages.php` | High
+8 | File | `/admin/reservation.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/ajax.php?action=save_ticket` | High
+12 | File | `/Api/TinyMce/UploadAjaxAPI.ashx` | High
+13 | File | `/apilog.php` | Medium
+14 | File | `/auth_pic.cgi` | High
+15 | File | `/category.php` | High
+16 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+17 | File | `/cgi-bin/api-get_line_status` | High
+18 | File | `/cgi-bin/luci` | High
+19 | File | `/cgi-bin/myMusic.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/cms/templates/templatesAssetsEditor` | High
+22 | File | `/Code/loginnew.php` | High
+23 | File | `/Code/sc_login.php` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/dashboard/admin/edit_member.php` | High
+26 | File | `/dashboard/admin/edit_mem_submit.php` | High
+27 | File | `/dashboard/admin/new_submit.php` | High
+28 | File | `/dashboard/message` | High
+29 | File | `/details.php` | Medium
+30 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+31 | File | `/devinfo` | Medium
+32 | File | `/DXR.axd` | Medium
+33 | File | `/ecommerce/popup_Item.php` | High
+34 | File | `/educar_aluno_lst.php` | High
+35 | File | `/equipment/get_Information` | High
+36 | File | `/etc_ro/shadow` | High
+37 | File | `/expadd.php` | Medium
+38 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

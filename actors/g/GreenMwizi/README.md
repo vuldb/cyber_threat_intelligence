@@ -46,7 +46,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/uncpath/` | Medium
 7 | File | `/updown/upload.cgi` | High
 8 | File | `admin_main.php` | High
-9 | ... | ... | ...
+9 | File | `api/sms/send-sms` | High
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

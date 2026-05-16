@@ -99,9 +99,10 @@ ID | Type | Indicator | Confidence
 41 | File | `/bwdates-reports-details.php?vid=2` | High
 42 | File | `/CDGServer3/logManagement/ClientSortLog.jsp` | High
 43 | File | `/chaincity/user/ticket/create` | High
-44 | ... | ... | ...
+44 | File | `/check_availability.php` | High
+45 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

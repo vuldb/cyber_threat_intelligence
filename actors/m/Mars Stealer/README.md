@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,67 +67,69 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/add-category.php` | High
 6 | File | `/Admin/add-student.php` | High
 7 | File | `/admin/adduser.php` | High
-8 | File | `/admin/ajax.php?action=login` | High
-9 | File | `/admin/api/theme-edit/` | High
-10 | File | `/admin/book-details.php` | High
-11 | File | `/admin/client_user` | High
-12 | File | `/admin/cmsVote/save` | High
-13 | File | `/admin/communitymanagement.php` | High
-14 | File | `/admin/court-type` | High
-15 | File | `/admin/edit-category.php` | High
-16 | File | `/admin/edit_product.php` | High
-17 | File | `/admin/generalsettings.php` | High
-18 | File | `/admin/index.php` | High
-19 | File | `/admin/index.php?page=categories` | High
-20 | File | `/admin/inquiries/view_inquiry.php` | High
-21 | File | `/admin/login.php` | High
-22 | File | `/admin/Operations/Role.php` | High
-23 | File | `/admin/payment.php` | High
-24 | File | `/admin/receipt.php` | High
-25 | File | `/admin/transactions/update_status.php` | High
-26 | File | `/admin?page=media` | High
-27 | File | `/admin_class.php?action=login` | High
-28 | File | `/ajax.php?action=login` | High
-29 | File | `/ajax/checkin.php` | High
-30 | File | `/api/controllers/admin/app/ComboController.php` | High
-31 | File | `/api/user/password/sent-reset-email` | High
-32 | File | `/application/plugins/controller/Upload.php` | High
-33 | File | `/aqpg/users/login.php` | High
-34 | File | `/boafrm/formPortFw` | High
-35 | File | `/bsms_ci/index.php/user/edit_user/` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-38 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
-39 | File | `/cgi-bin/nas_sharing.cgi` | High
-40 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-41 | File | `/cgi-bin/webfile_mgr.cgi` | High
-42 | File | `/cgi-bin/wlogin.cgi` | High
-43 | File | `/classes/Master.php?f=save_inquiry` | High
-44 | File | `/classes/SystemSettings.php?f=update_settings` | High
-45 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
-46 | File | `/control/register_case.php` | High
-47 | File | `/controllers/control.php` | High
-48 | File | `/covidtms/registered-user-testing.php` | High
-49 | File | `/cstecgi.cgi` | Medium
-50 | File | `/dashboard/add-service.php` | High
-51 | File | `/dashboard/updatelogo.php` | High
-52 | File | `/Default/Bd` | Medium
-53 | File | `/download` | Medium
-54 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-55 | File | `/event/admin/?page=user/list` | High
-56 | File | `/face-recognition-php/facepay-master/camera.php` | High
-57 | File | `/filemanager/upload/drop` | High
-58 | File | `/forum/away.php` | High
-59 | File | `/forum/PostPrivateMessage` | High
-60 | File | `/function/login.php` | High
-61 | File | `/getcfg.php` | Medium
-62 | File | `/goform/aspForm` | High
-63 | File | `/goform/RouteStatic` | High
-64 | File | `/goform/SafeEmailFilter` | High
-65 | File | `/goform/SetOnlineDevName` | High
-66 | ... | ... | ...
+8 | File | `/admin/adminHome.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/api/theme-edit/` | High
+11 | File | `/admin/book-details.php` | High
+12 | File | `/admin/client_user` | High
+13 | File | `/admin/cmsVote/save` | High
+14 | File | `/admin/communitymanagement.php` | High
+15 | File | `/admin/court-type` | High
+16 | File | `/admin/edit-category.php` | High
+17 | File | `/admin/edit_product.php` | High
+18 | File | `/admin/generalsettings.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/index.php?page=categories` | High
+21 | File | `/admin/inquiries/view_inquiry.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/manage_user.php` | High
+24 | File | `/admin/Operations/Role.php` | High
+25 | File | `/admin/payment.php` | High
+26 | File | `/admin/receipt.php` | High
+27 | File | `/admin/transactions/update_status.php` | High
+28 | File | `/admin?page=media` | High
+29 | File | `/admin_class.php?action=login` | High
+30 | File | `/ajax.php?action=login` | High
+31 | File | `/ajax/checkin.php` | High
+32 | File | `/api/controllers/admin/app/ComboController.php` | High
+33 | File | `/api/user/password/sent-reset-email` | High
+34 | File | `/app/sms.php` | Medium
+35 | File | `/application/plugins/controller/Upload.php` | High
+36 | File | `/aqpg/users/login.php` | High
+37 | File | `/bid/1/admin/entry-edit/` | High
+38 | File | `/boafrm/formBridgeVlan` | High
+39 | File | `/boafrm/formPortFw` | High
+40 | File | `/bsms_ci/index.php/user/edit_user/` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+43 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+44 | File | `/cgi-bin/mainfunction.cgi/uploadlangs` | High
+45 | File | `/cgi-bin/nas_sharing.cgi` | High
+46 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+47 | File | `/cgi-bin/webfile_mgr.cgi` | High
+48 | File | `/cgi-bin/wireless.cgi` | High
+49 | File | `/cgi-bin/wlogin.cgi` | High
+50 | File | `/classes/Master.php?f=save_inquiry` | High
+51 | File | `/classes/SystemSettings.php?f=update_settings` | High
+52 | File | `/com/esafenet/servlet/policy/HookWhiteListService.java` | High
+53 | File | `/control/register_case.php` | High
+54 | File | `/controllers/control.php` | High
+55 | File | `/core/tools/customblock.php` | High
+56 | File | `/covidtms/registered-user-testing.php` | High
+57 | File | `/cstecgi.cgi` | Medium
+58 | File | `/dashboard/add-service.php` | High
+59 | File | `/dashboard/updatelogo.php` | High
+60 | File | `/Default/Bd` | Medium
+61 | File | `/dm/dispatch/user/add` | High
+62 | File | `/download` | Medium
+63 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+64 | File | `/enrollment_edit1.php` | High
+65 | File | `/event/admin/?page=user/list` | High
+66 | File | `/face-recognition-php/facepay-master/camera.php` | High
+67 | File | `/filemanager/upload/drop` | High
+68 | ... | ... | ...
 
-There are 578 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 595 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -162,4 +164,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -93,33 +93,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/archives_add.php` | High
-2 | File | `/admin/categories/save` | High
-3 | File | `/admin/contact-us.php` | High
-4 | File | `/admin/delete_user.php` | High
-5 | File | `/admin/newsletterdel.php` | High
-6 | File | `/admin/pages/` | High
-7 | File | `/admin/positions.php` | High
-8 | File | `/admin/receipt.php` | High
-9 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
-10 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
-11 | File | `/admins` | Low
-12 | File | `/ajax.php?action=login` | High
-13 | File | `/ajax/getBasicInfo.php` | High
-14 | File | `/api/files/recipepictures/` | High
-15 | File | `/authentication.cgi` | High
-16 | File | `/boafrm/formDdns` | High
-17 | File | `/boafrm/formTracerouteDiagnosticRun` | High
-18 | File | `/boafrm/formVpnConfigSetup` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/clientdetails/admin/regester.php` | High
-22 | File | `/detailtransac.php` | High
-23 | File | `/dev/ptpX` | Medium
-24 | File | `/editeddonor.php` | High
-25 | ... | ... | ...
+1 | File | `/addProduct.php` | High
+2 | File | `/admin/add-module.php` | High
+3 | File | `/admin/add_expenses.php` | High
+4 | File | `/admin/archives_add.php` | High
+5 | File | `/admin/categories/save` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/newsletterdel.php` | High
+10 | File | `/admin/pages/` | High
+11 | File | `/admin/positions.php` | High
+12 | File | `/admin/receipt.php` | High
+13 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=0` | High
+14 | File | `/admind45f74adbd95.php?c=field&m=add&rname=site&rid=1&page=1` | High
+15 | File | `/Administrator/PHP/AdminDeleteUser.php` | High
+16 | File | `/Administrator/PHP/AdminEditUser.php` | High
+17 | File | `/Administrator/PHP/AdminReply.php` | High
+18 | File | `/admins` | Low
+19 | File | `/adv_mac_filter.php` | High
+20 | File | `/ajax.php?action=login` | High
+21 | File | `/ajax/getBasicInfo.php` | High
+22 | File | `/api/files/recipepictures/` | High
+23 | File | `/app/register.php?action=reg` | High
+24 | File | `/authentication.cgi` | High
+25 | File | `/boaform/formSamba` | High
+26 | File | `/boafrm/formDdns` | High
+27 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+28 | File | `/boafrm/formVpnConfigSetup` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/clientdetails/admin/regester.php` | High
+32 | File | `/detailtransac.php` | High
+33 | File | `/dev/ptpX` | Medium
+34 | File | `/editeddonor.php` | High
+35 | File | `/editprofile.php` | High
+36 | File | `/farm/product.php` | High
+37 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +161,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,10 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IT](https://vuldb.com/?country.it)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -15057,11 +15054,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+3 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -15069,28 +15066,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addProduct.php` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/attendance_row.php` | High
-4 | File | `/admin/class.php?dowhat=modifyclass` | High
-5 | File | `/admin/edit-teacher-detail.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/pages/student-print.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/v1/blog/edit` | High
-10 | File | `/admin/view-foreigner-ticket.php` | High
-11 | File | `/adminapi/product/product_export` | High
-12 | File | `/api/wizard/networkSetup` | High
-13 | File | `/auth/user/all.api` | High
-14 | File | `/base/safe_setting/` | High
-15 | File | `/boafrm/formWsc` | High
-16 | File | `/C6/JHSoft.Web.AcceptAip/AcceptShow.aspx/` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/mainfunction.cgi/apmcfgupptim` | High
-19 | File | `/controller/api/Room.php` | High
-20 | ... | ... | ...
+1 | File | `/ajax.php?action=delete_payment` | High
+2 | File | `/goform/SysToolRestoreSet` | High
+3 | File | `/login/signOut` | High
+4 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

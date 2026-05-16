@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with UAT-5647:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAT-5647:
 
 * [US](https://vuldb.com/?country.us)
+* [ST](https://vuldb.com/?country.st)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,28 +55,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts_con/register_account` | High
 2 | File | `/admin/?page=inventory/view_inventory&id=2` | High
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/assigned-requests.php` | High
-5 | File | `/admin/change-image.php` | High
-6 | File | `/admin/delete_user.php` | High
-7 | File | `/admin/File/pictureUpload` | High
-8 | File | `/admin/modules/product/controller.php?action=add` | High
-9 | File | `/Admin/News.php` | High
-10 | File | `/admin/update.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin_class.php` | High
-13 | File | `/api/admin/user` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/app/action/add_staff.php` | High
-16 | File | `/app/ajax/sell_return_data.php` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/classes/Master.php?f=delete_inquiry` | High
-19 | File | `/collect/PortV4/downLoad.html` | High
-20 | File | `/conf/app.conf` | High
-21 | File | `/dipam/athlete-profile.php` | High
-22 | ... | ... | ...
+3 | File | `/admin/add-module.php` | High
+4 | File | `/admin/add_category.php` | High
+5 | File | `/admin/admin_user.php` | High
+6 | File | `/admin/assigned-requests.php` | High
+7 | File | `/admin/change-image.php` | High
+8 | File | `/admin/delete_activity.php` | High
+9 | File | `/admin/delete_user.php` | High
+10 | File | `/admin/File/pictureUpload` | High
+11 | File | `/admin/modules/product/controller.php?action=add` | High
+12 | File | `/Admin/News.php` | High
+13 | File | `/admin/update.php` | High
+14 | File | `/admin/user/manage_user.php` | High
+15 | File | `/admin_class.php` | High
+16 | File | `/api/admin/user` | High
+17 | File | `/api/stl/actions/search` | High
+18 | File | `/app/action/add_staff.php` | High
+19 | File | `/app/ajax/sell_return_data.php` | High
+20 | File | `/boafrm/formLtefotaUpgradeQuectel` | High
+21 | File | `/cgi-bin/nas_sharing.cgi` | High
+22 | File | `/classes/Master.php?f=delete_inquiry` | High
+23 | File | `/collect/PortV4/downLoad.html` | High
+24 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

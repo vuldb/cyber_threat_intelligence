@@ -47,27 +47,30 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/app/role_crud.php` | High
 8 | File | `/admin/bwdates-reports-details.php` | High
 9 | File | `/admin/deleteitem.php` | High
-10 | File | `/admin/doctor-specilization.php` | High
-11 | File | `/admin/invoiceprint.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/roombook.php` | High
-14 | File | `/admin/settings/index.php?page=accounts` | High
-15 | File | `/admin/update-image.php` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/adminPage/main/upload` | High
-18 | File | `/ajax.php?action=save_payroll` | High
-19 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
-20 | File | `/api/blade-system/menu/list?updatexml` | High
-21 | File | `/api/login/auth` | High
-22 | File | `/application/controllers/Marks.php` | High
-23 | File | `/attendancelist.php` | High
-24 | File | `/boafrm/formFilter` | High
-25 | File | `/boafrm/formMapReboot` | High
-26 | File | `/browsemdcn.php` | High
-27 | File | `/bwdates-report-result.php` | High
-28 | ... | ... | ...
+10 | File | `/admin/delete_expenses.php` | High
+11 | File | `/admin/delete_file.php` | High
+12 | File | `/admin/doctor-specilization.php` | High
+13 | File | `/admin/home/index.html` | High
+14 | File | `/admin/invoiceprint.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/roombook.php` | High
+17 | File | `/admin/settings/index.php?page=accounts` | High
+18 | File | `/admin/system/structure/getdirectorydata/web/baseinfo/companyManage` | High
+19 | File | `/admin/update-image.php` | High
+20 | File | `/adminapi/system/crud` | High
+21 | File | `/adminPage/main/upload` | High
+22 | File | `/ajax.php?action=save_payroll` | High
+23 | File | `/aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do` | High
+24 | File | `/api/blade-system/menu/list?updatexml` | High
+25 | File | `/api/login/auth` | High
+26 | File | `/application/controllers/Marks.php` | High
+27 | File | `/attendancelist.php` | High
+28 | File | `/boafrm/formFilter` | High
+29 | File | `/boafrm/formMapReboot` | High
+30 | File | `/browsemdcn.php` | High
+31 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

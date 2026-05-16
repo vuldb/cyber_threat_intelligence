@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [41.216.183.214](https://vuldb.com/?ip.41.216.183.214) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,33 +53,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/category.php` | High
-2 | File | `/admin/config_ISCGroupNoCache.php` | High
-3 | File | `/admin/manage-ambulance.php` | High
-4 | File | `/admin/registration.php` | High
-5 | File | `/admin/search-booking-request.php` | High
-6 | File | `/admin/suppliers/view_details.php` | High
-7 | File | `/admin/users.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/application/websocket/controller/Setting.php` | High
-10 | File | `/booklist.php?subcatid=1` | High
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/detail.php` | Medium
-13 | File | `/display/map` | Medium
-14 | File | `/editar-produto.php` | High
-15 | File | `/endpoint/delete.php` | High
-16 | File | `/enquiry.php` | Medium
-17 | File | `/file/accept.php` | High
-18 | File | `/forget.php` | Medium
-19 | File | `/forgot.php` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/hardware` | Medium
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/member/chat.php` | High
-24 | File | `/newdriver.php` | High
-25 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/category.php` | High
+3 | File | `/admin/config_ISCGroupNoCache.php` | High
+4 | File | `/admin/manage-ambulance.php` | High
+5 | File | `/admin/registration.php` | High
+6 | File | `/admin/search-booking-request.php` | High
+7 | File | `/admin/suppliers/view_details.php` | High
+8 | File | `/admin/users.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/application/websocket/controller/Setting.php` | High
+11 | File | `/booklist.php?subcatid=1` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/detail.php` | Medium
+14 | File | `/display/map` | Medium
+15 | File | `/editar-produto.php` | High
+16 | File | `/endpoint/delete.php` | High
+17 | File | `/enquiry.php` | Medium
+18 | File | `/file/accept.php` | High
+19 | File | `/forget.php` | Medium
+20 | File | `/forgot.php` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/hardware` | Medium
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/member/chat.php` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/modules/projects/summary.inc.php` | High
+27 | File | `/multi-vendor-shopping-script/product-list.php` | High
+28 | File | `/newdriver.php` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pages/processlogin.php` | High
+32 | File | `/php_action/createUser.php` | High
+33 | File | `/products/view_product.php` | High
+34 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +96,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://russianpanda.com/2024/01/15/Atomic-Stealer-AMOS/
 * https://www.bitdefender.com/blog/labs/when-stealers-converge-new-variant-of-atomic-stealer-in-the-wild/
+* https://www.darktrace.com/blog/atomic-stealer-darktraces-investigation-of-a-growing-macos-threat
 * https://www.esentire.com/blog/fake-deepseek-site-infects-mac-users-with-atomic-stealer
 * https://www.jamf.com/blog/infostealers-pose-threat-to-macos/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/07/fake-microsoft-teams-for-mac-delivers-atomic-stealer
@@ -101,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

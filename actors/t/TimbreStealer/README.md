@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,12 +71,12 @@ ID | Type | Indicator | Confidence
 20 | File | `/b2b-supermarket/catalog/all-products` | High
 21 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
 22 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-23 | File | `/ecommerce/products.php` | High
-24 | File | `/ext/collect/filter_text.do` | High
-25 | File | `/file-manager/rename.php` | High
+23 | File | `/download` | Medium
+24 | File | `/ecommerce/products.php` | High
+25 | File | `/ext/collect/filter_text.do` | High
 26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

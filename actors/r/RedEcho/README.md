@@ -81,16 +81,16 @@ ID | Type | Indicator | Confidence
 19 | File | `/f.php` | Low
 20 | File | `/face-recognition-php/facepay-master/camera.php` | High
 21 | File | `/forms/doLogin` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/index.php/fuel/logs/items` | High
-24 | File | `/fuel/index.php/fuel/pages/items` | High
-25 | File | `/goform/accessControlAdd` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/formTaskEdit` | High
-28 | File | `/index.php` | Medium
+22 | File | `/fort/trust/version/common/common.jsp` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/fuel/index.php/fuel/logs/items` | High
+25 | File | `/fuel/index.php/fuel/pages/items` | High
+26 | File | `/goform/accessControlAdd` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/formTaskEdit` | High
 29 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

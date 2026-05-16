@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-37, CWE-44 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-35, CWE-37, CWE-44 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -81,44 +81,46 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 20 | File | `/admin/update_user.php` | High
 21 | File | `/admin/update_users.php` | High
-22 | File | `/admin/vote_edit.php` | High
-23 | File | `/ajax/screenshot.php` | High
-24 | File | `/allocate_room.php` | High
-25 | File | `/api/log/killJob` | High
-26 | File | `/api/v1/attack/falco` | High
-27 | File | `/auth/userkey/logout.php` | High
-28 | File | `/authenticate.php` | High
-29 | File | `/bbdms/admin/update-contactinfo.php` | High
-30 | File | `/boafrm/formMultiAP` | High
-31 | File | `/book_search.php` | High
-32 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-33 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/gui.cgi` | High
-36 | File | `/check_availability.php` | High
-37 | File | `/classes/Master.php?f=save_inquiry` | High
-38 | File | `/collection/all` | High
-39 | File | `/config,admin.jsp` | High
-40 | File | `/contact_manager.php` | High
-41 | File | `/contact_process.php` | High
-42 | File | `/conversation/upload` | High
-43 | File | `/core/config-revisions` | High
-44 | File | `/courier/edit-courier.php` | High
-45 | File | `/detail.php` | Medium
-46 | File | `/detailed.php` | High
-47 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-48 | File | `/devinfo` | Medium
-49 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-50 | File | `/endpoint/Add.php` | High
-51 | File | `/endpoint/delete.php` | High
-52 | File | `/firstconnection.cgi` | High
-53 | File | `/forgot-password.php` | High
-54 | File | `/getcfg.php` | Medium
-55 | File | `/goform/AdvSetLanip` | High
-56 | File | `/goform/ArpNerworkSet` | High
-57 | ... | ... | ...
+22 | File | `/admin/user/edit.do` | High
+23 | File | `/admin/vote_edit.php` | High
+24 | File | `/ajax/screenshot.php` | High
+25 | File | `/allocate_room.php` | High
+26 | File | `/api/log/killJob` | High
+27 | File | `/api/v1/attack/falco` | High
+28 | File | `/app/fax/fax_view.php` | High
+29 | File | `/auth.asp` | Medium
+30 | File | `/auth/userkey/logout.php` | High
+31 | File | `/authenticate.php` | High
+32 | File | `/bbdms/admin/update-contactinfo.php` | High
+33 | File | `/boafrm/formMultiAP` | High
+34 | File | `/book_search.php` | High
+35 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+36 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/DownloadFlash` | High
+39 | File | `/cgi-bin/gui.cgi` | High
+40 | File | `/check_availability.php` | High
+41 | File | `/classes/Master.php?f=save_inquiry` | High
+42 | File | `/collection/all` | High
+43 | File | `/config,admin.jsp` | High
+44 | File | `/contact_manager.php` | High
+45 | File | `/contact_process.php` | High
+46 | File | `/conversation/upload` | High
+47 | File | `/core/config-revisions` | High
+48 | File | `/courier/edit-courier.php` | High
+49 | File | `/detail.php` | Medium
+50 | File | `/detailed.php` | High
+51 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+52 | File | `/devinfo` | Medium
+53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+54 | File | `/endpoint/Add.php` | High
+55 | File | `/endpoint/delete.php` | High
+56 | File | `/firstconnection.cgi` | High
+57 | File | `/forgot-password.php` | High
+58 | File | `/getcfg.php` | Medium
+59 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,9 +54,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,59 +75,64 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/` | Low
 9 | File | `/admin/aboutus.php` | High
 10 | File | `/admin/add-services.php` | High
-11 | File | `/admin/add_subject.php` | High
-12 | File | `/admin/ajax.php?action=login` | High
-13 | File | `/admin/ajax.php?action=save_settings` | High
-14 | File | `/admin/cmsTemplate/savePlace` | High
+11 | File | `/admin/add_expenses.php` | High
+12 | File | `/admin/add_subject.php` | High
+13 | File | `/admin/ajax.php?action=login` | High
+14 | File | `/admin/ajax.php?action=save_settings` | High
 15 | File | `/admin/config_ISCGroupNoCache.php` | High
 16 | File | `/admin/Create_category.php` | High
 17 | File | `/admin/Create_product.php` | High
 18 | File | `/admin/delete.php` | High
 19 | File | `/admin/delete_activity.php` | High
-20 | File | `/admin/Delete_product.php` | High
-21 | File | `/Admin/detail.php` | High
-22 | File | `/admin/edit-guard-detail.php` | High
-23 | File | `/admin/edit-student-profile.php` | High
-24 | File | `/admin/edit_admin_query.php` | High
-25 | File | `/admin/edit_posts.php` | High
-26 | File | `/admin/edit_student_query.php` | High
-27 | File | `/admin/edit_subject.php` | High
-28 | File | `/admin/emp-profile-avatar.php` | High
-29 | File | `/admin/forms/option_lists/edit.php` | High
-30 | File | `/admin/index.php` | High
-31 | File | `/admin/index.php?page=manage_lot` | High
-32 | File | `/admin/list_ipAddressPolicy.php` | High
-33 | File | `/admin/manage-users.php` | High
-34 | File | `/admin/network/diag_ping6` | High
-35 | File | `/admin/pages/` | High
-36 | File | `/admin/robot.php` | High
-37 | File | `/admin/services/view_service.php` | High
-38 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
-39 | File | `/admin/userGroup_deal.php?mudi=add&nohrefStr=close` | High
-40 | File | `/admin/user_save.php` | High
-41 | File | `/admin/vacancy/index.php?view=edit` | High
-42 | File | `/admin/view_payorder.php` | High
-43 | File | `/adminapi/product/product` | High
-44 | File | `/Administrator/PHP/AdminAddUser.php` | High
-45 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
-46 | File | `/Administrator/PHP/AdminViewSongs.php` | High
-47 | File | `/admin_pay.php` | High
-48 | File | `/ajax.php?action=delete_plan` | High
-49 | File | `/api/admin/question/edit` | High
-50 | File | `/api/admin/settings` | High
-51 | File | `/api/school/registerSchool` | High
-52 | File | `/api/v1/steps` | High
-53 | File | `/application/index/controller/Screen.php` | High
-54 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-55 | File | `/boafrm/formFirewallAdv` | High
-56 | File | `/boafrm/formMapDel` | High
-57 | File | `/cgi` | Low
-58 | File | `/cgi-bin/account_mgr.cgi?cmd=cgi_user_add` | High
-59 | File | `/cgi-bin/cstecgi.cgi` | High
-60 | File | `/cgi-bin/urlfilter.cgi` | High
-61 | ... | ... | ...
+20 | File | `/admin/delete_expenses.php` | High
+21 | File | `/admin/Delete_product.php` | High
+22 | File | `/Admin/detail.php` | High
+23 | File | `/admin/edit-guard-detail.php` | High
+24 | File | `/admin/edit-student-profile.php` | High
+25 | File | `/admin/edit_activity.php` | High
+26 | File | `/admin/edit_admin.php` | High
+27 | File | `/admin/edit_admin_query.php` | High
+28 | File | `/admin/edit_expenses.php` | High
+29 | File | `/admin/edit_posts.php` | High
+30 | File | `/admin/edit_student_query.php` | High
+31 | File | `/admin/edit_subject.php` | High
+32 | File | `/admin/emp-profile-avatar.php` | High
+33 | File | `/admin/forms/option_lists/edit.php` | High
+34 | File | `/admin/home/index.html` | High
+35 | File | `/admin/index.php` | High
+36 | File | `/admin/index.php?page=manage_lot` | High
+37 | File | `/admin/list_ipAddressPolicy.php` | High
+38 | File | `/admin/manage-users.php` | High
+39 | File | `/admin/network/diag_ping6` | High
+40 | File | `/admin/pages/` | High
+41 | File | `/admin/robot.php` | High
+42 | File | `/admin/services/view_service.php` | High
+43 | File | `/admin/SysModule/upload/ajaxmodel/upload/uploadfilepath/sysmodule_1` | High
+44 | File | `/admin/user_save.php` | High
+45 | File | `/admin/vacancy/index.php?view=edit` | High
+46 | File | `/admin/view_payorder.php` | High
+47 | File | `/adminapi/product/product` | High
+48 | File | `/Administrator/PHP/AdminAddUser.php` | High
+49 | File | `/Administrator/PHP/AdminUpdateUser.php` | High
+50 | File | `/Administrator/PHP/AdminViewSongs.php` | High
+51 | File | `/admin_pay.php` | High
+52 | File | `/admin_pic.php` | High
+53 | File | `/airag/knowledge/doc/edit` | High
+54 | File | `/ajax.php?action=delete_plan` | High
+55 | File | `/api/admin/question/edit` | High
+56 | File | `/api/admin/settings` | High
+57 | File | `/api/info/long_task` | High
+58 | File | `/api/school/registerSchool` | High
+59 | File | `/api/undo/` | Medium
+60 | File | `/api/v1/steps` | High
+61 | File | `/application/index/controller/Screen.php` | High
+62 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+63 | File | `/boafrm/formFirewallAdv` | High
+64 | File | `/boafrm/formMapDel` | High
+65 | File | `/cgi` | Low
+66 | ... | ... | ...
 
-There are 533 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,36 +62,37 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin_ping.htm` | High
 7 | File | `/ample/app/action/edit_product.php` | High
 8 | File | `/api/controllers/common/UploadsController.php` | High
-9 | File | `/app/api/controller/collect.php` | High
-10 | File | `/application/index/controller/Screen.php` | High
-11 | File | `/APR/login.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-15 | File | `/core/config-revisions` | High
-16 | File | `/devinfo` | Medium
-17 | File | `/domain/add` | Medium
-18 | File | `/download` | Medium
-19 | File | `/etc/sudoers` | Medium
-20 | File | `/get.php` | Medium
-21 | File | `/index.jsp#settings` | High
-22 | File | `/index.php` | Medium
-23 | File | `/index.php/weblinks-categories` | High
-24 | File | `/item/item_con` | High
-25 | File | `/log/download.php` | High
-26 | File | `/member/ad.php?action=ad` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/plain` | Low
-29 | File | `/show_group_members.php` | High
-30 | File | `/status` | Low
-31 | File | `/SysInfo1.htm` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/user/manage-notes.php` | High
-34 | File | `/vdesk` | Low
-35 | File | `/Waiters` | Medium
-36 | ... | ... | ...
+9 | File | `/api/v1/attack` | High
+10 | File | `/app/api/controller/collect.php` | High
+11 | File | `/application/index/controller/Screen.php` | High
+12 | File | `/APR/login.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+16 | File | `/core/config-revisions` | High
+17 | File | `/devinfo` | Medium
+18 | File | `/domain/add` | Medium
+19 | File | `/download` | Medium
+20 | File | `/etc/sudoers` | Medium
+21 | File | `/get.php` | Medium
+22 | File | `/index.jsp#settings` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index.php/weblinks-categories` | High
+25 | File | `/item/item_con` | High
+26 | File | `/log/download.php` | High
+27 | File | `/member/ad.php?action=ad` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/plain` | Low
+30 | File | `/show_group_members.php` | High
+31 | File | `/status` | Low
+32 | File | `/SysInfo1.htm` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/manage-notes.php` | High
+35 | File | `/vdesk` | Low
+36 | File | `/Waiters` | Medium
+37 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

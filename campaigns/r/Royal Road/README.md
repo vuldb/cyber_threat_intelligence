@@ -55,20 +55,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/sh` | Low
-2 | File | `/oauth/authorize` | High
-3 | File | `/osm/REGISTER.cmd` | High
-4 | File | `/see_more_details.php` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/webmail/` | Medium
-7 | File | `/_next` | Low
-8 | File | `admin/index.php` | High
-9 | File | `anonymous/authenticated` | High
-10 | File | `app/Http/Controllers/Api/UsersController.php` | High
-11 | File | `assets/add/registrar.php` | High
-12 | ... | ... | ...
+1 | File | `/ajax.php?action=save_course` | High
+2 | File | `/bin/httpd` | Medium
+3 | File | `/bin/sh` | Low
+4 | File | `/dashboard/schools/1/edit` | High
+5 | File | `/oauth/authorize` | High
+6 | File | `/osm/REGISTER.cmd` | High
+7 | File | `/see_more_details.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/view_magazine.php` | High
+10 | File | `/webmail/` | Medium
+11 | File | `/_next` | Low
+12 | File | `admin/index.php` | High
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,39 +61,40 @@ ID | Type | Indicator | Confidence
 9 | File | `/card_scan.php` | High
 10 | File | `/cgi-bin/cstecgi.cgi` | High
 11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/changeimage.php` | High
-14 | File | `/cwc/login` | Medium
-15 | File | `/debuginfo.htm` | High
-16 | File | `/download` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/etc/quagga` | Medium
-19 | File | `/etc/shadow` | Medium
-20 | File | `/forms/doLogin` | High
-21 | File | `/goform/L7Im` | Medium
-22 | File | `/h/autoSaveDraft` | High
-23 | File | `/h/calendar` | Medium
-24 | File | `/icingaweb2/navigation/add` | High
-25 | File | `/inc/extensions.php` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/netflow/jspui/editProfile.jsp` | High
-28 | File | `/nova/bin/console` | High
-29 | File | `/nova/bin/detnet` | High
-30 | File | `/out.php` | Medium
-31 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/rapi/read_url` | High
-34 | File | `/req_password_user.php` | High
-35 | File | `/rom-0` | Low
-36 | File | `/scripts/unlock_tasks.php` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/ServletAPI/accounts/login` | High
-39 | File | `/setNTP.cgi` | Medium
-40 | File | `/spip.php` | Medium
-41 | File | `/student/bookdetails.php` | High
-42 | ... | ... | ...
+12 | File | `/cgi-bin/mainfunction.cgi/apmcfgupload` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/changeimage.php` | High
+15 | File | `/config/pw_changeusers.html` | High
+16 | File | `/cwc/login` | Medium
+17 | File | `/debuginfo.htm` | High
+18 | File | `/dm/dispatch/user/add` | High
+19 | File | `/download` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/etc/quagga` | Medium
+22 | File | `/etc/shadow` | Medium
+23 | File | `/forms/doLogin` | High
+24 | File | `/goform/L7Im` | Medium
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/h/calendar` | Medium
+27 | File | `/icingaweb2/navigation/add` | High
+28 | File | `/inc/extensions.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/netflow/jspui/editProfile.jsp` | High
+32 | File | `/nova/bin/console` | High
+33 | File | `/nova/bin/detnet` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/rapi/read_url` | High
+38 | File | `/req_password_user.php` | High
+39 | File | `/rom-0` | Low
+40 | File | `/scripts/unlock_tasks.php` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/ServletAPI/accounts/login` | High
+43 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

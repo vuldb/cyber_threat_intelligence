@@ -64,51 +64,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/complaint-search.php` | High
-5 | File | `/admin/edit_class.php` | High
-6 | File | `/admin/edit_department.php` | High
-7 | File | `/admin/forget-password.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/process_category_add.php` | High
-11 | File | `/admin/produts/controller.php` | High
-12 | File | `/admin/update-clients.php` | High
-13 | File | `/admin/user/team` | High
-14 | File | `/ajax.php?action=delete_user` | High
-15 | File | `/api/esps` | Medium
-16 | File | `/api/login/auth` | High
-17 | File | `/Api/TinyMce/UploadAjax.ashx` | High
-18 | File | `/api/v1/admin/` | High
-19 | File | `/backupsettings.conf` | High
-20 | File | `/bank/transfer.php` | High
-21 | File | `/book-services.php` | High
-22 | File | `/carrental/search.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/system_mgr.cgi` | High
-25 | File | `/common/logViewer/logViewer.jsf` | High
-26 | File | `/confirmbooking.php` | High
-27 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-28 | File | `/dashboard/admin/gen_invoice.php` | High
-29 | File | `/dashboard/admin/new_submit.php` | High
-30 | File | `/download` | Medium
-31 | File | `/dws/api/` | Medium
-32 | File | `/en/blog-comment-4` | High
-33 | File | `/export` | Low
-34 | File | `/fladmin/jump.php` | High
-35 | File | `/fladmin/sysconfig_doedit.php` | High
-36 | File | `/foms/routers/cancel-order.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/aspForm` | High
-39 | File | `/goform/SetPptpServerCfg` | High
-40 | File | `/goform/SysToolDDNS` | High
-41 | File | `/h/` | Low
-42 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-43 | File | `/horde/util/go.php` | High
-44 | File | `/html/atendido/Cadastro_Atendido.php` | High
-45 | ... | ... | ...
+3 | File | `/admin/add-artist.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/ajax.php?action=save_recruitment_status` | High
+6 | File | `/admin/complaint-search.php` | High
+7 | File | `/admin/edit_class.php` | High
+8 | File | `/admin/edit_department.php` | High
+9 | File | `/admin/forget-password.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/process_category_add.php` | High
+13 | File | `/admin/produts/controller.php` | High
+14 | File | `/admin/update-clients.php` | High
+15 | File | `/admin/user/team` | High
+16 | File | `/ajax.php?action=delete_user` | High
+17 | File | `/api/esps` | Medium
+18 | File | `/api/login/auth` | High
+19 | File | `/Api/TinyMce/UploadAjax.ashx` | High
+20 | File | `/api/v1/admin/` | High
+21 | File | `/backupsettings.conf` | High
+22 | File | `/bank/transfer.php` | High
+23 | File | `/book-services.php` | High
+24 | File | `/carrental/search.php` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/system_mgr.cgi` | High
+27 | File | `/common/logViewer/logViewer.jsf` | High
+28 | File | `/confirmbooking.php` | High
+29 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+30 | File | `/dashboard/admin/gen_invoice.php` | High
+31 | File | `/dashboard/admin/new_submit.php` | High
+32 | File | `/download` | Medium
+33 | File | `/dws/api/` | Medium
+34 | File | `/en/blog-comment-4` | High
+35 | File | `/export` | Low
+36 | File | `/fladmin/jump.php` | High
+37 | File | `/fladmin/sysconfig_doedit.php` | High
+38 | File | `/foms/routers/cancel-order.php` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/aspForm` | High
+41 | File | `/goform/SetPptpServerCfg` | High
+42 | File | `/goform/SysToolDDNS` | High
+43 | File | `/h/` | Low
+44 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+45 | File | `/horde/util/go.php` | High
+46 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

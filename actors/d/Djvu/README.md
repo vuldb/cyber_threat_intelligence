@@ -59,12 +59,12 @@ ID | Type | Indicator | Confidence
 8 | File | `/uncpath/` | Medium
 9 | File | `/view/show_student1.php` | High
 10 | File | `/web/google_analytics.php` | High
-11 | File | `archive_endian.h` | High
-12 | File | `bmp.c` | Low
-13 | File | `cgi-bin/jc.cgi` | High
+11 | File | `api.php?m=reimplat&a=index` | High
+12 | File | `archive_endian.h` | High
+13 | File | `bmp.c` | Low
 14 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

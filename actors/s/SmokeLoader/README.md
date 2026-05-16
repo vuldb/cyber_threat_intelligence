@@ -52,9 +52,11 @@ ID | IP address | Hostname | Campaign | Confidence
 24 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
 25 | [31.44.6.123](https://vuldb.com/?ip.31.44.6.123) | - | - | High
 26 | [31.44.185.182](https://vuldb.com/?ip.31.44.185.182) | - | - | High
-27 | ... | ... | ... | ...
+27 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
+28 | [36.38.34.230](https://vuldb.com/?ip.36.38.34.230) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 104 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,9 +64,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -76,29 +78,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit-doc.php` | High
-2 | File | `/api/admin/store/product/list` | High
-3 | File | `/cgi-bin/qcmap_auth` | High
-4 | File | `/conf/` | Low
-5 | File | `/debug/pprof` | Medium
-6 | File | `/film-rating.php` | High
-7 | File | `/group1/uploa` | High
-8 | File | `/index.php` | Medium
-9 | File | `/js/app.js` | Medium
-10 | File | `/librarian/bookdetails.php` | High
-11 | File | `/pix_projetos/servlet?act=login&submit=1&evento=0&pixrnd=0125021816444195731041` | High
-12 | File | `/soplanning/www/process/xajax_server.php` | High
-13 | File | `/student/bookdetails.php` | High
-14 | File | `/test/cookie/` | High
-15 | File | `/ureport/designer/saveReportFile` | High
-16 | File | `/users` | Low
-17 | File | `account.asp` | Medium
-18 | File | `admin.php` | Medium
-19 | File | `admin/establishment/manage.php` | High
-20 | File | `admin/inquiries/view_details.php` | High
-21 | ... | ... | ...
+1 | File | `/Actions.php` | Medium
+2 | File | `/admin-dashboard` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/edit-doc.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/network/ajax_getChannelList` | High
+8 | File | `/admin/operations/travellers.php` | High
+9 | File | `/adpweb/a/sys/office/treeData` | High
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/cgi-bin/qcmap_auth` | High
+12 | File | `/conf/` | Low
+13 | File | `/film-rating.php` | High
+14 | File | `/freelist_main.php` | High
+15 | File | `/goform/qosClassifier` | High
+16 | File | `/group1/uploa` | High
+17 | File | `/index.php` | Medium
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/login?service` | High
+20 | File | `/pix_projetos/servlet?act=login&submit=1&evento=0&pixrnd=0125021816444195731041` | High
+21 | File | `/queryDevInfo` | High
+22 | File | `/soplanning/www/process/xajax_server.php` | High
+23 | File | `/student/bookdetails.php` | High
+24 | File | `/swagger-ui/index.html` | High
+25 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +138,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
 * https://urlhaus.abuse.ch/url/3533501/
 * https://www.secureworks.com/blog/smoke-loader-drops-whiffy-recon-wi-fi-scanning-and-geolocation-malware
+* https://www.threat.rip/file/10cc9b5c656363346600d1381d88fb8010ea3d04007d82de8bbde06c8786eace/config
+* https://www.zscaler.com/blogs/security-research/smokeloader-rises-ashes
 
 ## Literature
 
@@ -142,4 +150,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

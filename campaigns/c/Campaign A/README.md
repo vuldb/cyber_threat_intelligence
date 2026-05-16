@@ -66,32 +66,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/backend/admin/his_admin_register_patient.php` | High
 7 | File | `/cgi-bin/nas_sharing.cgi` | High
 8 | File | `/check_availability.php` | High
-9 | File | `/foms/routers/place-order.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/general/email/outbox/delete.php` | High
-12 | File | `/index` | Low
-13 | File | `/manage_sy.php` | High
-14 | File | `/oauth/idp/.well-known/openid-configuration` | High
-15 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-16 | File | `/resourceNode/resources.jsf` | High
-17 | File | `/script/academic/announcement` | High
-18 | File | `/Script/admin/core/update_policy` | High
-19 | File | `/spgpm/updateListing` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/view/student_exam_mark_insert_form1.php` | High
-22 | File | `3.6.cpj` | Low
-23 | File | `404.php` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `add-testimonial.php` | High
-26 | File | `admin.asp` | Medium
-27 | File | `admin.aspx` | Medium
-28 | File | `admin.php` | Medium
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin/member_details.php` | High
-31 | File | `admin_chatconfig.php` | High
-32 | ... | ... | ...
+9 | File | `/equipment/get_Information` | High
+10 | File | `/foms/routers/place-order.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/general/email/outbox/delete.php` | High
+13 | File | `/index` | Low
+14 | File | `/manage_sy.php` | High
+15 | File | `/oauth/idp/.well-known/openid-configuration` | High
+16 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+17 | File | `/resourceNode/resources.jsf` | High
+18 | File | `/script/academic/announcement` | High
+19 | File | `/Script/admin/core/update_policy` | High
+20 | File | `/spgpm/updateListing` | High
+21 | File | `/spip.php` | Medium
+22 | File | `/view/student_exam_mark_insert_form1.php` | High
+23 | File | `3.6.cpj` | Low
+24 | File | `404.php` | Low
+25 | File | `adclick.php` | Medium
+26 | File | `add-testimonial.php` | High
+27 | File | `admin.asp` | Medium
+28 | File | `admin.aspx` | Medium
+29 | File | `admin.php` | Medium
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin/member_details.php` | High
+32 | File | `admin_chatconfig.php` | High
+33 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

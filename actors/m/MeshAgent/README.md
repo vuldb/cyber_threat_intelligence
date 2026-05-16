@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with MeshAgent:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MeshAgent:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.75.96.19](https://vuldb.com/?ip.45.75.96.19) | 19.96.75.45.ip4.winknet.ne.jp | - | High
 2 | [45.76.219.39](https://vuldb.com/?ip.45.76.219.39) | 45.76.219.39.vultrusercontent.com | South Korea | Medium
-3 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
+3 | [45.141.58.219](https://vuldb.com/?ip.45.141.58.219) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,11 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,14 +53,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/goform/SystemCommand` | High
-3 | File | `/scripts/cpan_config` | High
-4 | File | `/var/gapm7100_${today's_date}.log` | High
-5 | File | `/_next` | Low
-6 | ... | ... | ...
+1 | File | `/admin/register.php` | High
+2 | File | `/booklist.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/SystemCommand` | High
+5 | File | `/horde/util/go.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/minio/upload` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/modules/registration_admission/patient_register.php` | High
+10 | File | `/out.php` | Medium
+11 | File | `/scripts/cpan_config` | High
+12 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -71,6 +77,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://hackerseye.net/all-blog-items/checkmesh/
 * https://urlhaus.abuse.ch/url/3526277/
 * https://urlhaus.abuse.ch/url/3743215/
+* https://urlhaus.abuse.ch/url/3758651/
+* https://urlhaus.abuse.ch/url/3765181/
 
 ## Literature
 

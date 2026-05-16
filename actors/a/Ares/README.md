@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ares:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -26,11 +26,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.149.252.227](https://vuldb.com/?ip.5.149.252.227) | - | - | High
 4 | [5.161.104.72](https://vuldb.com/?ip.5.161.104.72) | h91.wpherc.dev | - | High
 5 | [18.142.254.96](https://vuldb.com/?ip.18.142.254.96) | ec2-18-142-254-96.ap-southeast-1.compute.amazonaws.com | - | Medium
-6 | [31.220.41.207](https://vuldb.com/?ip.31.220.41.207) | - | - | High
-7 | [34.121.161.18](https://vuldb.com/?ip.34.121.161.18) | 18.161.121.34.bc.googleusercontent.com | - | Medium
+6 | [31.141.178.107](https://vuldb.com/?ip.31.141.178.107) | - | - | High
+7 | [31.220.41.207](https://vuldb.com/?ip.31.220.41.207) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Basic Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,38 +54,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/markdown` | High
-3 | File | `/admin/modal_add_product.php` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/audimex/cgi-bin/wal.fcgi` | High
-6 | File | `/auth_pic.cgi` | High
-7 | File | `/blog` | Low
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/Content/Template/root/reverse-shell.aspx` | High
-10 | File | `/expedit.php` | Medium
-11 | File | `/export` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/friendprofile.php` | High
-14 | File | `/goform/setsambacfg` | High
-15 | File | `/goform/SysToolRestoreSet` | High
-16 | File | `/large.php` | Medium
-17 | File | `/MRcgi/MRchat.pl` | High
-18 | File | `/panel/edit-services.php` | High
-19 | File | `/profile.php` | Medium
-20 | File | `/register.php` | High
-21 | File | `/routers/add-ticket.php` | High
-22 | File | `/school/model/get_events.php` | High
-23 | File | `/sessions/sess_<sessionid>` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/sys/user/queryUserComponentData` | High
-26 | File | `/sysmanage/edit_manageadmin.php` | High
-27 | File | `/tmp` | Low
-28 | File | `/tool/gen/create` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/user/getAllList` | High
-31 | ... | ... | ...
+2 | File | `/admin/ajax_products_list.php` | High
+3 | File | `/admin/contactus.php` | High
+4 | File | `/admin/markdown` | High
+5 | File | `/admin/modal_add_product.php` | High
+6 | File | `/admin/settings/users/edit/` | High
+7 | File | `/administrator/components/table_manager/` | High
+8 | File | `/api/wizard/setsyncpppoecfg` | High
+9 | File | `/audimex/cgi-bin/wal.fcgi` | High
+10 | File | `/auth_pic.cgi` | High
+11 | File | `/blog` | Low
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/en/?mylogout` | High
+15 | File | `/expedit.php` | Medium
+16 | File | `/export` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/friendprofile.php` | High
+19 | File | `/goform/setsambacfg` | High
+20 | File | `/goform/SysToolRestoreSet` | High
+21 | File | `/large.php` | Medium
+22 | File | `/MRcgi/MRchat.pl` | High
+23 | File | `/panel/edit-services.php` | High
+24 | File | `/profile.php` | Medium
+25 | File | `/register.php` | High
+26 | File | `/routers/add-ticket.php` | High
+27 | File | `/school/model/get_events.php` | High
+28 | File | `/sessions/sess_<sessionid>` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/stores` | Low
+31 | File | `/sys/user/queryUserComponentData` | High
+32 | File | `/sysmanage/edit_manageadmin.php` | High
+33 | File | `/tmp` | Low
+34 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,6 +97,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/5.75.134.42
 * https://search.censys.io/hosts/5.149.252.227
 * https://search.censys.io/hosts/5.161.104.72
+* https://search.censys.io/hosts/31.141.178.107
 * https://search.censys.io/hosts/31.220.41.207
 * https://search.censys.io/hosts/34.121.161.18
 * https://search.censys.io/hosts/38.242.144.29
@@ -107,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/84.247.176.126
 * https://search.censys.io/hosts/85.158.108.85
 * https://search.censys.io/hosts/92.84.154.5
+* https://search.censys.io/hosts/108.61.215.125
 * https://search.censys.io/hosts/141.98.11.95
 * https://search.censys.io/hosts/157.90.121.69
 * https://search.censys.io/hosts/157.90.234.160

@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -53,16 +53,16 @@ ID | Type | Indicator | Confidence
 2 | File | `.travis.yml` | Medium
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/../conf/config.properties` | High
-5 | File | `/.env` | Low
-6 | File | `//proc/kcore` | Medium
-7 | File | `/admin/?page=user` | High
-8 | File | `/admin/cms.php` | High
-9 | File | `/admin/communitymanagement.php` | High
-10 | File | `/admin/contacts/organizations/edit/2` | High
-11 | File | `/admin/edit_admin_details.php?id=admin` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/featured.php` | High
-14 | File | `/admin/generalsettings.php` | High
+5 | File | `//proc/kcore` | Medium
+6 | File | `/admin/?page=user` | High
+7 | File | `/admin/cms.php` | High
+8 | File | `/admin/communitymanagement.php` | High
+9 | File | `/admin/contacts/organizations/edit/2` | High
+10 | File | `/admin/edit_admin_details.php?id=admin` | High
+11 | File | `/admin/employee_row.php` | High
+12 | File | `/admin/featured.php` | High
+13 | File | `/admin/generalsettings.php` | High
+14 | File | `/admin/index.php` | High
 15 | File | `/admin/index2.html` | High
 16 | File | `/Admin/login.php` | High
 17 | File | `/admin/login.php` | High
@@ -82,51 +82,51 @@ ID | Type | Indicator | Confidence
 31 | File | `/admin/test_status.php` | High
 32 | File | `/admin/user/manage_user.php` | High
 33 | File | `/admin/voters_row.php` | High
-34 | File | `/ajax.php?action=save_company` | High
-35 | File | `/api/blade-user/export-user` | High
-36 | File | `/api/wechat/app_auth` | High
-37 | File | `/appliance/users?action=edit` | High
-38 | File | `/APR/login.php` | High
-39 | File | `/author_posts.php` | High
-40 | File | `/bilal final/login.php` | High
-41 | File | `/blog` | Low
-42 | File | `/blog-single.php` | High
-43 | File | `/browse` | Low
-44 | File | `/bsms_ci/index.php` | High
-45 | File | `/bsms_ci/index.php/user/edit_user/` | High
-46 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-47 | File | `/category.php` | High
-48 | File | `/cbpos/` | Low
-49 | File | `/classes/Master.php` | High
-50 | File | `/classes/Master.php?f=delete_img` | High
-51 | File | `/classes/Master.php?f=delete_service` | High
-52 | File | `/classes/Master.php?f=save_item` | High
-53 | File | `/classes/Master.php?f=update_order_status` | High
-54 | File | `/classes/Users.php` | High
-55 | File | `/common/download?filename=1.jsp&delete=false` | High
-56 | File | `/config/getuser` | High
-57 | File | `/contact.php` | Medium
-58 | File | `/contact/store` | High
-59 | File | `/context/%2e/WEB-INF/web.xml` | High
-60 | File | `/Controller/Ajaxfileupload.ashx` | High
-61 | File | `/Default/Bd` | Medium
-62 | File | `/E-mobile/App/System/File/downfile.php` | High
-63 | File | `/ecommerce/admin/category/controller.php` | High
-64 | File | `/ecshop/admin/template.php` | High
-65 | File | `/event/admin/?page=user/list` | High
-66 | File | `/ffos/admin/menus/view_menu.php` | High
-67 | File | `/forum/away.php` | High
-68 | File | `/fos/admin/ajax.php?action=login` | High
-69 | File | `/getImage` | Medium
-70 | File | `/goform/formTcpipSetup` | High
-71 | File | `/group1/uploa` | High
-72 | File | `/horde/util/go.php` | High
-73 | File | `/hrm/controller/employee.php` | High
-74 | File | `/hrm/employeeadd.php` | High
-75 | File | `/hrm/employeeview.php` | High
+34 | File | `/adminac.php` | Medium
+35 | File | `/ajax.php?action=save_company` | High
+36 | File | `/api/blade-user/export-user` | High
+37 | File | `/api/wechat/app_auth` | High
+38 | File | `/appliance/users?action=edit` | High
+39 | File | `/APR/login.php` | High
+40 | File | `/author_posts.php` | High
+41 | File | `/bilal final/login.php` | High
+42 | File | `/blog` | Low
+43 | File | `/blog-single.php` | High
+44 | File | `/browse` | Low
+45 | File | `/bsms_ci/index.php` | High
+46 | File | `/bsms_ci/index.php/user/edit_user/` | High
+47 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+48 | File | `/category.php` | High
+49 | File | `/cbpos/` | Low
+50 | File | `/classes/Master.php` | High
+51 | File | `/classes/Master.php?f=delete_img` | High
+52 | File | `/classes/Master.php?f=delete_service` | High
+53 | File | `/classes/Master.php?f=save_item` | High
+54 | File | `/classes/Master.php?f=update_order_status` | High
+55 | File | `/classes/Users.php` | High
+56 | File | `/collect/PortV4/downLoad.html` | High
+57 | File | `/common/download?filename=1.jsp&delete=false` | High
+58 | File | `/config/getuser` | High
+59 | File | `/contact.php` | Medium
+60 | File | `/contact/store` | High
+61 | File | `/context/%2e/WEB-INF/web.xml` | High
+62 | File | `/Controller/Ajaxfileupload.ashx` | High
+63 | File | `/Default/Bd` | Medium
+64 | File | `/E-mobile/App/System/File/downfile.php` | High
+65 | File | `/ecommerce/admin/category/controller.php` | High
+66 | File | `/ecshop/admin/template.php` | High
+67 | File | `/event/admin/?page=user/list` | High
+68 | File | `/ffos/admin/menus/view_menu.php` | High
+69 | File | `/forum/away.php` | High
+70 | File | `/fos/admin/ajax.php?action=login` | High
+71 | File | `/getImage` | Medium
+72 | File | `/goform/formTcpipSetup` | High
+73 | File | `/group1/uploa` | High
+74 | File | `/horde/util/go.php` | High
+75 | File | `/hrm/controller/employee.php` | High
 76 | ... | ... | ...
 
-There are 664 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 670 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -144,4 +144,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

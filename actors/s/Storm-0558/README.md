@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,40 +54,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addcompany.php` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/edit_supplier.php` | High
-4 | File | `/admin/emp-profile-avatar.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/process_category_edit.php` | High
-7 | File | `/admin/sales/view_details.php` | High
-8 | File | `/api/programs/orgUnits?programs` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/apply_noauth.cgi` | High
-12 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
-13 | File | `/bin/webs` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/hd_config.cgi` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/dental_form.php` | High
-18 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-19 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-20 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-21 | File | `/edit-computer-detail.php` | High
-22 | File | `/endpoint/Add.php` | High
-23 | File | `/etc/sudoers` | Medium
-24 | File | `/expedit.php` | Medium
-25 | File | `/expense-yearwise-reports-detailed.php` | High
-26 | File | `/export` | Low
-27 | File | `/goform/formSetEmail` | High
-28 | File | `/goform/SetSpeedWan` | High
-29 | File | `/LMS/LM/#main` | High
-30 | File | `/logout.php` | Medium
-31 | File | `/mhds/clinic/view_details.php` | High
-32 | ... | ... | ...
+1 | File | `/99/ImportSQLTable` | High
+2 | File | `/addcompany.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/aboutus.php` | High
+5 | File | `/admin/deleteuser.php` | High
+6 | File | `/admin/edit_supplier.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/process_category_edit.php` | High
+10 | File | `/Admin/resultdetails.php` | High
+11 | File | `/admin/sales/view_details.php` | High
+12 | File | `/admin/voters_delete.php` | High
+13 | File | `/ajax.php?action=delete_member` | High
+14 | File | `/ajax.php?action=save_deductions` | High
+15 | File | `/api/programs/orgUnits?programs` | High
+16 | File | `/api/v1/terminal/sessions/?limit=1` | High
+17 | File | `/api/wizard/getDualbandSync` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/apply_noauth.cgi` | High
+20 | File | `/backend/admin/his_admin_add_lab_equipment.php` | High
+21 | File | `/bin/webs` | Medium
+22 | File | `/boafrm/formReflashClientTbl` | High
+23 | File | `/boafrm/formSysCmd` | High
+24 | File | `/boafrm/formTracerouteDiagnosticRun` | High
+25 | File | `/cancelar-enturmacao-em-lote/` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/hd_config.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/config/pw_changeusers.html` | High
+30 | File | `/dental_form.php` | High
+31 | File | `/diario-de-observacoes/` | High
+32 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+33 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+34 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+35 | File | `/edit-computer-detail.php` | High
+36 | File | `/edit_student.php` | High
+37 | File | `/endpoint/Add.php` | High
+38 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

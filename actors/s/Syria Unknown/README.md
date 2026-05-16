@@ -110,12 +110,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/cms/category/list` | High
-3 | File | `/src/dede/makehtml_js_action.php` | High
+1 | File | `/cms/category/list` | High
+2 | File | `/src/dede/makehtml_js_action.php` | High
+3 | File | `/wp-admin/options.php` | High
 4 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

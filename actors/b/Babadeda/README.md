@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,10 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [37.48.89.8](https://vuldb.com/?ip.37.48.89.8) | - | - | High
 2 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | galya.gitarova.example.com | Ukraine | High
 3 | [45.15.162.16](https://vuldb.com/?ip.45.15.162.16) | vm3758814.stark-industries.solutions | - | High
-4 | [65.21.127.164](https://vuldb.com/?ip.65.21.127.164) | static.164.127.21.65.clients.your-server.de | - | High
+4 | [64.23.248.252](https://vuldb.com/?ip.64.23.248.252) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,60 +56,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?page=batch_manager&mode=unit` | High
-2 | File | `/goform/aspForm` | High
-3 | File | `/includes/db_adodb.php` | High
-4 | File | `/includes/db_connect.php` | High
-5 | File | `/includes/session.php` | High
-6 | File | `/modules/admin/vw_usr_roles.php` | High
-7 | File | `/modules/projects/gantt2.php` | High
-8 | File | `/modules/projects/vw_files.php` | High
-9 | File | `/modules/public/date_format.php` | High
-10 | File | `/modules/tasks/gantt.php` | High
-11 | File | `/omps/seller` | Medium
-12 | File | `/out.php` | Medium
-13 | File | `/php/passport/index.php` | High
-14 | File | `/replication` | Medium
-15 | File | `/settings` | Medium
-16 | File | `/staff/tools/custom-fields` | High
-17 | File | `/strings/ctype-latin1.c` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-20 | File | `/Wedding-Management/admin/client_manage_account_details.php?booking_id=31` | High
-21 | File | `actions/del.php` | High
-22 | File | `addpost_newpoll.php` | High
-23 | File | `addsite.php` | Medium
-24 | File | `Admin.PHP` | Medium
-25 | File | `admin.php` | Medium
-26 | File | `admin/define.inc.php` | High
-27 | File | `admin/editproductetails.php` | High
-28 | File | `admin/general.php` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin/review.php` | High
-31 | File | `admincp/auth/secure.php` | High
-32 | File | `affich.php` | Medium
-33 | File | `agenda.php3` | Medium
-34 | File | `agenda2.php3` | Medium
-35 | File | `ajaxdata.php` | Medium
-36 | File | `akocomments.php` | High
-37 | File | `album_portal.php` | High
-38 | File | `al_initialize.php` | High
-39 | File | `anjel.index.php` | High
-40 | File | `announcements.php` | High
-41 | File | `apa_phpinclude.inc.php` | High
-42 | File | `api/security/userinfo/delete` | High
-43 | File | `application.php` | High
-44 | File | `archive.php` | Medium
-45 | File | `ardguest.php` | Medium
-46 | File | `ashnews.php/ashheadlines.php` | High
-47 | File | `AttributionSource.java` | High
-48 | File | `auction\auction_common.php` | High
-49 | File | `auktion.cgi` | Medium
-50 | File | `auth.inc.php` | Medium
-51 | File | `auth.php` | Medium
-52 | File | `authform.inc.php` | High
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/admin_members.php?ac=editsave` | High
+4 | File | `/goform/aspForm` | High
+5 | File | `/includes/db_adodb.php` | High
+6 | File | `/includes/db_connect.php` | High
+7 | File | `/includes/session.php` | High
+8 | File | `/modules/admin/vw_usr_roles.php` | High
+9 | File | `/modules/projects/gantt2.php` | High
+10 | File | `/modules/projects/vw_files.php` | High
+11 | File | `/modules/public/date_format.php` | High
+12 | File | `/modules/tasks/gantt.php` | High
+13 | File | `/omps/seller` | Medium
+14 | File | `/out.php` | Medium
+15 | File | `/php/passport/index.php` | High
+16 | File | `/replication` | Medium
+17 | File | `/settings` | Medium
+18 | File | `/src/assimp/code/AssetLib/LWO/LWOMaterial.cpp` | High
+19 | File | `/staff/tools/custom-fields` | High
+20 | File | `/strings/ctype-latin1.c` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+23 | File | `/Wedding-Management/admin/client_manage_account_details.php?booking_id=31` | High
+24 | File | `actions/del.php` | High
+25 | File | `addpost_newpoll.php` | High
+26 | File | `addsite.php` | Medium
+27 | File | `Admin.PHP` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin/define.inc.php` | High
+30 | File | `admin/editproductetails.php` | High
+31 | File | `admin/general.php` | High
+32 | File | `admin/index.php` | High
+33 | File | `admin/review.php` | High
+34 | File | `admincp/auth/secure.php` | High
+35 | File | `affich.php` | Medium
+36 | File | `agenda.php3` | Medium
+37 | File | `agenda2.php3` | Medium
+38 | File | `ajaxdata.php` | Medium
+39 | File | `akocomments.php` | High
+40 | File | `album_portal.php` | High
+41 | File | `al_initialize.php` | High
+42 | File | `anjel.index.php` | High
+43 | File | `announcements.php` | High
+44 | File | `apa_phpinclude.inc.php` | High
+45 | File | `api/security/userinfo/delete` | High
+46 | File | `application.php` | High
+47 | File | `archive.php` | Medium
+48 | File | `ardguest.php` | Medium
+49 | File | `ashnews.php/ashheadlines.php` | High
+50 | File | `AttributionSource.java` | High
+51 | File | `auction\auction_common.php` | High
+52 | File | `auktion.cgi` | Medium
 53 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/3530005/
 * https://urlhaus.abuse.ch/url/3555540/
 * https://urlhaus.abuse.ch/url/3561830/
+* https://urlhaus.abuse.ch/url/3757460/
 
 ## Literature
 
@@ -130,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

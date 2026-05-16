@@ -82,31 +82,31 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/loginc.php` | High
 8 | File | `/admin/students/manage.php` | High
 9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/auditLogAction.do` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/com/esafenet/servlet/service/processsign/AutoSignService.java` | High
-13 | File | `/devices/acurite.c` | High
-14 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-15 | File | `/etc/ajenti/config.yml` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/example/editor` | High
-19 | File | `/foms/place-order.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-22 | File | `/goform/login_process` | High
-23 | File | `/goform/rlmswitchr_process` | High
-24 | File | `/goform/setcfm` | High
-25 | File | `/goforms/rlminfo` | High
-26 | File | `/home/cavesConsole` | High
-27 | File | `/newsDia.php` | Medium
-28 | File | `/plugin` | Low
-29 | File | `/pms/index.php` | High
-30 | File | `/rating.php` | Medium
-31 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+10 | File | `/api/command/run` | High
+11 | File | `/auditLogAction.do` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/com/esafenet/servlet/service/processsign/AutoSignService.java` | High
+14 | File | `/devices/acurite.c` | High
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/etc/ajenti/config.yml` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/event/admin/?page=user/list` | High
+19 | File | `/example/editor` | High
+20 | File | `/foms/place-order.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+23 | File | `/goform/login_process` | High
+24 | File | `/goform/rlmswitchr_process` | High
+25 | File | `/goform/setcfm` | High
+26 | File | `/goforms/rlminfo` | High
+27 | File | `/home/cavesConsole` | High
+28 | File | `/newsDia.php` | Medium
+29 | File | `/plugin` | Low
+30 | File | `/pms/index.php` | High
+31 | File | `/rating.php` | Medium
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

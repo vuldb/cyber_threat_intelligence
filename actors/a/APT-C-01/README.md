@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT-C-01:
 
-* [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
-* [UA](https://vuldb.com/?country.ua)
+* [US](https://vuldb.com//country/us)
+* [CN](https://vuldb.com//country/cn)
+* [IO](https://vuldb.com//country/io)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Basic Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 73 | File | `/classes/Users.php?f=save` | High
 74 | ... | ... | ...
 
-There are 652 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 651 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

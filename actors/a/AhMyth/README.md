@@ -1,19 +1,19 @@
 # AhMyth - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [AhMyth](https://vuldb.com/?actor.ahmyth). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/kb/cti) of the actor known as [AhMyth](https://vuldb.com/actor/ahmyth). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.ahmyth](https://vuldb.com/?actor.ahmyth)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/actor/ahmyth](https://vuldb.com/actor/ahmyth)
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AhMyth:
 
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/country/us)
+* [ES](https://vuldb.com/country/es)
+* [RU](https://vuldb.com/country/ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.79.135.16](https://vuldb.com/?ip.13.79.135.16) | - | - | High
-2 | [51.20.2.165](https://vuldb.com/?ip.51.20.2.165) | ec2-51-20-2-165.eu-north-1.compute.amazonaws.com | - | Medium
-3 | [76.149.145.137](https://vuldb.com/?ip.76.149.145.137) | c-76-149-145-137.hsd1.ut.comcast.net | - | High
+1 | [13.79.135.16](https://vuldb.com/ip/13.79.135.16) | - | - | High
+2 | [51.20.2.165](https://vuldb.com/ip/51.20.2.165) | ec2-51-20-2-165.eu-north-1.compute.amazonaws.com | - | Medium
+3 | [76.149.145.137](https://vuldb.com/ip/76.149.145.137) | c-76-149-145-137.hsd1.ut.comcast.net | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,27 +47,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/api/wizard/setsyncpppoecfg` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-6 | File | `/donor-wall` | Medium
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/inc/jquery/uploadify/uploadify.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/index/ajax/lang` | High
-13 | File | `/member/index/login.html` | High
-14 | File | `/member/myfriend.php` | High
-15 | File | `/member/reg.asp` | High
-16 | File | `/model/__lang_msg.php` | High
-17 | File | `/pms/admin/actions/view_action.php` | High
-18 | File | `/pms/admin/cells/view_cell.php` | High
-19 | ... | ... | ...
+1 | File | `.cpr/` | Low
+2 | File | `/#ProductSerie/view/` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/addcompany.php` | High
+5 | File | `/adsTracker/checkAds` | High
+6 | File | `/api/file` | Medium
+7 | File | `/api/wizard/setsyncpppoecfg` | High
+8 | File | `/base/safe_setting/` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+11 | File | `/donor-wall` | Medium
+12 | File | `/equipment/get_Information` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/execute_js` | Medium
+15 | File | `/foms/routers/cancel-order.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/openNetworkGateway` | High
+18 | File | `/inc/jquery/uploadify/uploadify.php` | High
+19 | File | `/inc/parser/xhtml.php` | High
+20 | File | `/include/makecvs.php` | High
+21 | File | `/index.php` | Medium
+22 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,9 +83,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 The following _articles_ explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/kb/cti
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2025](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2026](https://vuldb.com/kb/changelog) by [vuldb.com](https://vuldb.com/kb/about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/kb/faq), read the [documentation](https://vuldb.com/kb) or [contact us](https://vuldb.com/contact)!
